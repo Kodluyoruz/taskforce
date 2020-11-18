@@ -3,7 +3,7 @@
 ## Fundamental topics
 
 - [ ] Create React app
-- [x] [JSX](JSX/)
+- [x] [JSX](jsx/)
 - [ ] Components
 - [ ] Props vs state
 - [ ] Conditional rendering
