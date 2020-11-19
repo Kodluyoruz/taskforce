@@ -1,36 +1,28 @@
 # React Uygulaması Oluşturma
 
-------
-
 Dökümantasyonunda da belirtildiği üzere React, baştan sona aşamalı olarak kullanılabilecek şekilde tasarlanmıştır. Bu demek oluyor ki ihtiyaca göre az ya da daha fazla kullanmak mümkün. Var olan bir HTML sayfasına React'i entegre edebileceğimiz gibi bazı araçları da içeren geliştirme ortamının hazırlanmasıyla birlikte yeni bir tek sayfa uygulama (Single Page Application) oluşturabiliriz. Bu yazıda create-react-app ile yeni bir React uygulaması oluşturmayı öğreneceğiz.
 
 ## Giriş
-
-------
 
 Bir React uygulaması oluşturmak için bazı bağımlılık ve gereksinimlere ihtiyaç duyuyoruz. Bunların içerisinde hem modüler bileşenler oluşturmak için kullanılan zorunlu paketler (react, react-dom) hem de konfigürasyon dosyaları (webpack, babel) yer alıyor. Bunların hepsini ve daha fazlasını bizim için yapan bir araç olan *create-react-app* ile kolay ve hızlı bir şekilde bir React.js uygulaması oluşturmak mümkün. Bu araç React ekibi tarafından sunuluyor ve hem React öğrenmeye yeni başlayanlar hem de belirli ölçekte proje geliştirmek isteyenler için bir hazır bir iskelet yapı sağlıyor. Bu sayede Babel, webpack gibi bağımlılıkları manuel olarak konfigüre etmeye gerek kalmadan hızlıca bir React.js uygulaması geliştirmeye başlayabiliyoruz.
 
 ## Hazırlık
 
-------
-
 [*create-react-app*](https://create-react-app.dev/docs/getting-started/) ile proje ortamını oluşturabilmek için bilgisayarımıza Node.js kurmamız gerekiyor. Node'un yüklü olup olmadığını kontrol etmek için terminalde `node -v` komutunu çalıştırabilirsiniz. Eğer Node yüklüyse bu kodu çalıştırdığınızda bir versiyon numara çıktısı görmeniz gerekir. Eğer yüklü değilse [bu bağlantıdan](https://nodejs.org/en/download/) indirip kurabilirsiniz. 
 
 Ayrıca geliştirme yapabilmek için bir kod editöre ihtiyacımız var. En çok kullanılan kod editörlerden biri olan [Visual Studio Code](https://code.visualstudio.com/)'u ücretsiz olarak indirebilirsiniz.
 
-Node.js'i bilgisayarımıza kurduktan sonra *npm* de otomatik olarak yüklenmiş oluyor. npm (*node package manager*) bir paket yöneticisi olup Node.js'ten ayrı bir projedir. Bu yüzden bilgisayarınızda Node.js kurulu olsa bile bir react projesi oluşturmadan önce terminalde `sudo npm install -g npm@latest` komutunu çalıştırarak en güncel versiyonda olduğundan emin olabilirsiniz.
+Node.js'i bilgisayarımıza kurduktan sonra *npm* de otomatik olarak yüklenmiş oluyor. npm (*node package manager*) bir paket yöneticisi olup Node.js'ten ayrı bir projedir. Bu yüzden bilgisayarınızda Node.js kurulu olsa bile bir react projesi oluşturmadan önce terminalde `npm install -g npm@latest` komutunu çalıştırarak en güncel versiyonda olduğundan emin olabilirsiniz. (macOS ve Linux kullanıcıları bu komutu çalıştırırken hata almaları durumunda komutun başına sudo ekleyerek çalıştırabilirler)
 
 Node.js kurulumunu yapıp, npm'in güncel versiyonda olduğunu kontrol ettikten sonra artık React.js uygulaması için hazır bir iskelet yapı oluşturmaya geçebiliriz. Komutu çalıştırmadan önce doğru klasör dizininde olduğumuzdan emin olmalıyız. Terminal aracılığı ile React uygulamasını oluşturmak istediğimiz dosya dizinine gitmemiz için bize gerekli olan başlıca terminal komutlarından bahsetmek gerekirse;
 
- ***pwd*** komutu ile bulunduğumuz dizini görüntüleyebiliriz.
-***cd*** komutu ile uygulamanın oluşturulmasını istediğimiz klasöre gidebiliriz. 
-***mkdir*** komutu ile yeni bir klasör oluşturabiliriz. 
+-  ***pwd*** komutu ile bulunduğumuz dizini görüntüleyebiliriz.
+- ***cd*** komutu ile uygulamanın oluşturulmasını istediğimiz klasöre gidebiliriz. 
+- ***mkdir*** komutu ile yeni bir klasör oluşturabiliriz. 
 
 Ayrıca terminali ilk başlattığınızda  /Users/KullaniciAdi klasör dizininde olduğumuzu unutmamalıyız. 
 
 ## Projeyi Oluşturma: *create-react-app*
-
-------
 
 Bir React projesi oluşturmanın en kolay yöntemlerinden biri olan create-react-app ile projemizi oluşturabiliriz.
 
@@ -40,7 +32,7 @@ Bir React projesi oluşturmanın en kolay yöntemlerinden biri olan create-react
 
 Burada *ilk-uygulama*, uygulamaya vermek istediğimiz isimdir. Bunun yerine istediğiniz uygulama ismini verebilirsiniz (büyük harf içermediği sürece).  
 
-![CRA-1](figures/CRA-1.png)
+![react-proje-olusturuldu](figures/react-proje-olusturuldu.png)
 
 Komutu çalıştırdıktan sonra bazı ufak ipuçlarının da olduğu böyle bir çıktı ile karşılaşacaksınız. Bu demek oluyor ki React.js uygulaması sağlıklı bir şekilde oluşturuldu ve geliştirme ortamı hazırlandı. Burada start, run build, test ve run eject olmak üzere 4 adet script ismi görüyoruz. Biz create-react-app'in bize sağlamış olduğu start scriptini kullanarak projemizi localhost üzerinde çalıştıracağız. 
 
@@ -50,11 +42,11 @@ Komutu çalıştırdıktan sonra bazı ufak ipuçlarının da olduğu böyle bir
 
 komutlarını çalıştırdıktan sonra geliştirme web sunucusu başlatılmış olacak ve projemiz 3000 numaralı port üzerinde çalışıyor olacak. 
 
-![CRA-1](figures/CRA-2.png)
+![localhost3000](figures/localhost3000.png)
 
 Otomatik olarak açılan tarayıcı ile http://localhost:3000/ adresinden projenin çalışıyor olduğunu aşağıdaki çıktı eşliğinde görebileceğiz.
 
-![CRA-1](figures/CRA-3.png)
+![react-ilk-ekran](figures/react-ilk-ekran.png)
 
 Buradan da anlaşılabileceği üzere App adında bir bileşeni görüntülüyoruz. Bileşenleri (component) React'in yapı taşları olarak düşünebiliriz. Dolayısıyla bir bileşen aslında bir JavaScript sınıfı (class) ya da fonksiyonudur. Bir React uygulaması  tasarımına bağlı olarak birkaç ya da binlerce bileşenin bir araya gelmesiyle oluşabilir. Tasarım ilkelerine göre bu sayının çok fazla büyüyebileceğini söyleyebiliriz. 
 
@@ -68,9 +60,7 @@ Buradan da anlaşılabileceği üzere App adında bir bileşeni görüntülüyor
 
 ## Klasör Yapısı
 
-------
-
-![CRA-1](figures/CRA-4.png)
+![react-klasor-yapisi](figures/react-klasor-yapisi.png)
 
 *create-react-app* ile bir React uygulaması oluşturduğumuzda yukarıdaki gibi bir klasör yapısına sahip oluyoruz. Burada **src** klasörü altında olan **App.js** ekranda gösterilen bileşen, **index.js** React uygulamasının başlangıç noktasıdır. index.js bütün React uygulamasının nerede render edileceğini belirler. Bu dosyaya gidip incelediğimizde 'root' id ile belirtilmiş bir HTML etiketine bütün uygulamanın render edileceğini görebiliriz. public klasörü altında index.html'e gittiğimizde ise bu bahsettiğimiz 'root' id'li <div> etiketini görebiliriz.
 
@@ -80,7 +70,7 @@ Buradan da anlaşılabileceği üzere App adında bir bileşeni görüntülüyor
 
 **node_modules/:** Bu klasör içerisinde projenin bütün bağımlılıkları (Node.js Paket Yöneticisi - npm kullanılarak indirilen paketler) yer alıyor.  
 
-**package.json:** Bu dosya bir tür manifest dosyasıdır. Projenin ismini, versiyonunu, manuel scriptleri ve projeye dahil edilen bütün paketlerin listesini (versiyonlarıyla birlikte) içerir.
+**package.json:** Bu dosya bir tür manifest dosyasıdır. Projenin ismini, versiyonunu, manuel scriptleri ve projeye dahil edilen bütün paketlerin listesini (versiyonlarıyla birlikte) içerir. package-lock.json dosyası ise her paketin birebir sürümlendirilmiş bağımlılık ağacını tutar. Böylece diğer geliştiriciler ve proje sürümleri için garanti edilmiş versiyonlar saklanır. 
 
 **.gitignore:** Bu dosya sayesinde istenmeyen uzantıdaki ve dizindeki dosyaların takip edilmesini engellemiş oluruz. Böylece git sunucularına göndermek istemediğimiz dosyalar takip edilmez. create-react-app ile node_modules klasörü altındaki paketler ve build klasörü .gitignore içerisinde belirtilmiş olarak gelir.
 
@@ -94,8 +84,6 @@ Uygulamayı geliştirme aşamasında start scriptini kullanarak sunucuyu başlat
 
 
 ## Kaynaklar
-
-------
 
 https://tr.reactjs.org/docs/create-a-new-react-app.html
 
