@@ -108,11 +108,11 @@ Yukarıdaki gibi varsayılan ayarlar bırakılır ve &quot;Next&quot; ile kurulu
 
 Yukarıda Java&#39;nın kurulacağı dosya yolu belirtilmiştir. &quot;Change&quot; butonuna tıklayarak dilediğiniz dosya yolu verebilirsiniz. &quot;Next&quot; ile kuruluma devam edilir.
 
-![JDK Kurulumu 5 ](figures\jdk-kurulumu-5.jpg)
+![JDK Kurulumu 5 ](figures/jdk-kurulumu-5.jpg)
 
 JDK 8 kurulumu böylece tamamlanmış olur. Java&#39;nın sisteme doğru bir şekilde kurulduğunu kontrol için &quot;Windows \&gt; cmd&quot; yoluyla Komut İstemcisi açılır.
 
-\&gt;\&gt; java -version
+java -version
 
 ![](RackMultipart20201119-4-xnzld6_html_126910fcb8d943db.png)
 
