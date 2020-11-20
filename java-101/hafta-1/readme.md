@@ -5,21 +5,21 @@
 
 
 
-## [ Java nedir?](1-java-nedir/)
-## [Java Tarihçesi](2-java-tarihçesi/)
-## [Java ile Uygulama Geliştirme Yapabileceğiniz Alanlar](3-uygulama-geliştirilecek-alanlar)
+## [ Java nedir?](01-java-nedir/)
+## [Java Tarihçesi](02-java-tarihçesi/)
+## [Java ile Uygulama Geliştirme Yapabileceğiniz Alanlar](03-uygulama-geliştirilecek-alanlar)
 
-## [Java Uygulama Geliştirme Altyapıları](4-uygulama-geliştirme-altyapıları/)
+## [Java Uygulama Geliştirme Altyapıları](04-uygulama-geliştirme-altyapıları/)
 
-## [Java ile İlk Uygulama](5-java-ile-ilk-uygulama/)
+## [Java ile İlk Uygulama](05-java-ile-ilk-uygulama/)
 
-## [JDK, JRE ve JVM Kavramları](6-jdk-jre-jvm-kavramlari/)
+## [JDK, JRE ve JVM Kavramları](06-jdk-jre-jvm-kavramlari/)
 
-## [Java Virtual Machine Mimarisi](7-java-virtual-machine-mimarisi/)
+## [Java Virtual Machine Mimarisi](07-java-virtual-machine-mimarisi/)
 
-## [Java Programlama Dili'nin Genel Özellikleri](8-java-dilinin-özellikleri/)
+## [Java Programlama Dili'nin Genel Özellikleri](08-java-dilinin-özellikleri/)
 
-## [Java Sınıf ve Nesne Kavramları (Class & Objects)](9-sınıf-ve-nesne-kavramları/)
+## [Java Sınıf ve Nesne Kavramları (Class & Objects)](09-sınıf-ve-nesne-kavramları/)
 
 ## [Değişkenler (Variables)](10-değişkenler/)
 
