@@ -219,7 +219,7 @@ oluşturduğumuz bu fotoğrafı kullanarak bir link oluşturalım
 
 
 
-[![İsim](figures/ilk-fotoğraf.png)] (https://www.youtube.com/watch?v=Yq6u6Z1yuco)
+[![İsim](figures/ilk-fotoğraf.png)](https://www.youtube.com/watch?v=Yq6u6Z1yuco)
 
 
 
