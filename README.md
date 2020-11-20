@@ -6,7 +6,7 @@ Markdownla yazarken herhangi bir HTML etiketini kullanmaya gerek yoktur, Markdow
 
 Öncelikle bir Markdown editörüne ihtiyacımız var, bizim tavsiyemiz [Typora](https://typora.io). Editörü kurduysak başlayabiliriz.
 
-
+GitHub Markdown sistemine tamamen entegredir, bir klasöre tıkladığınızda o klasörün "readme.md" dosyası otomatik olarak açılır.
 
 
 
@@ -52,12 +52,6 @@ Kalın yapmak için **bu yazı kalın olacak**,
 eğik yapmak için _bu yazı eğik olacak_, 
 üstü çizik yapmak için ~~buranın üstü çizik olacak~~ 
 ve tek satır kod için ``kod buraya`` şeklinde kullanabilirsiniz. 
-
-
-
-Çok satırlı kodların kullanımı aşağıda, merak etmeyin.
-
-
 
 
 
@@ -111,9 +105,54 @@ gelecek
 
 
 
+## Listeler
+
+```
+- liste 1
+- liste 2
+- liste 3
+```
+
+
+- liste 1
+- liste 2
+- liste 3
+
+### veya
+
+```
+1. test
+2. test 2
+    1. test 2.1
+    2. test 2.2
+    3. test 2.3
+3. test 3
+```
+
+1. test
+2. test 2
+    1. test 2.1
+    2. test 2.2
+    3. test 2.3
+3. test 3
+
+## Bağlantı
+
+```
+[bu linke tıkla](https://kodluyoruz.org)
+```
+
+[bu linke tıkla](https://kodluyoruz.org)
+
+
+
 ## Resim
 
-Resimlerin kullanımı 
+Her klasörün altına "figures" isminde bir klasör açıyoruz, ilgili readme dosyasındaki her fotoğrafı buradan çekiyoruz.
+
+ ![image-20201120171836561](figures/ikinci.png)
+
+Resim yüklemek aslında az önce bahsettiğimiz "Bağlantı" kısmıyla aynı şeyler, ancak bu bağlantının başına ! işareti koyarsak markdown bunun bir fotoğraf olduğunu anlıyor.
 
 ````markdown
 ![alt değeri](input url)
@@ -157,3 +196,35 @@ Başlık | Diğer Başlık
 -- | --
 Değer 1 | Değer 2
 Değer 1 | Değer 2
+
+
+
+## Video
+
+Markdown'a video yüklemek tam olarak mümkün olmasa da bir fotoğrafa link göstererek video ekleyebiliyoruz. Nasıl mı yani?
+
+Önce bir fotoğraf oluşturalım 
+
+```markdown
+![İsim](figures/ilk-fotoğraf.png)
+```
+
+![İlk Fotoğraf](figures/ilk-fotoğraf.png)
+
+oluşturduğumuz bu fotoğrafı kullanarak bir link oluşturalım
+
+```markdown
+[![İsim](figures/ilk-fotoğraf.png)](https://youtu.be/Yq6u6Z1yuco)
+```
+
+
+
+[![İsim](figures/ilk-fotoğraf.png)] (https://www.youtube.com/watch?v=Yq6u6Z1yuco)
+
+
+
+
+
+
+
+
