@@ -5,37 +5,38 @@
 
 
 
-## [ Java nedir?](01-java-nedir/)
-## [Java Tarihçesi](02-java-tarihçesi/)
-## [Java ile Uygulama Geliştirme Yapabileceğiniz Alanlar](03-uygulama-geliştirilecek-alanlar)
+- [x] ## [ Java nedir?](01-java-nedir/)
 
-## [Java Uygulama Geliştirme Altyapıları](04-uygulama-geliştirme-altyapıları/)
+- [x] ## [Java Tarihçesi](02-java-tarihçesi/)
+- [x] ## [Java ile Uygulama Geliştirme Yapabileceğiniz Alanlar](03-uygulama-geliştirilecek-alanlar)
 
-## [Java ile İlk Uygulama](05-java-ile-ilk-uygulama/)
+- [ ] ## [Java Uygulama Geliştirme Altyapıları](04-uygulama-geliştirme-altyapıları/)
 
-## [JDK, JRE ve JVM Kavramları](06-jdk-jre-jvm-kavramlari/)
+- [ ] ## [Java ile İlk Uygulama](05-java-ile-ilk-uygulama/)
 
-## [Java Virtual Machine Mimarisi](07-java-virtual-machine-mimarisi/)
+- [ ] ## [JDK, JRE ve JVM Kavramları](06-jdk-jre-jvm-kavramlari/)
 
-## [Java Programlama Dili'nin Genel Özellikleri](08-java-dilinin-özellikleri/)
+- [ ] ## [Java Virtual Machine Mimarisi](07-java-virtual-machine-mimarisi/)
 
-## [Java Sınıf ve Nesne Kavramları (Class & Objects)](09-sınıf-ve-nesne-kavramları/)
+- [ ] ## [Java Programlama Dili'nin Genel Özellikleri](08-java-dilinin-özellikleri/)
 
-## [Değişkenler (Variables)](10-değişkenler/)
+- [ ] ## [Java Sınıf ve Nesne Kavramları (Class & Objects)](09-sınıf-ve-nesne-kavramları/)
 
-## [Veri Tipleri (Data Types)](11-veri-tipleri/)
+- [x] ## [Değişkenler (Variables)](10-değişkenler/)
 
-## [Java Temel Operatörler (Basic Operators)](12-temel-operatörler/)
+- [ ] ## [Veri Tipleri (Data Types)](11-veri-tipleri/)
 
-## [Karar Mekanizmaları (if - else)](13-karar-mekanizmaları/)
+- [ ] ## [Java Temel Operatörler (Basic Operators)](12-temel-operatörler/)
 
-## [Döngü Mekanizmaları (Loops)](14-döngü-mekanizmaları/)
+- [ ] ## [Karar Mekanizmaları (if - else)](13-karar-mekanizmaları/)
 
-## [Dizi (Array)](15-dizi-array/)
+- [ ] ## [Döngü Mekanizmaları (Loops)](14-döngü-mekanizmaları/)
 
-## [Matris İşlemleri (Matrices)](16-matrice/)
+- [ ] ## [Dizi (Array)](15-dizi-array/)
 
-## [Gün ve Zaman İşlemleri (Date & Time)](17-gün-zaman/)
+- [ ] ## [Matris İşlemleri (Matrices)](16-matrice/)
+
+- [ ] ## [Gün ve Zaman İşlemleri (Date & Time)](17-gün-zaman/)
 
 
 
