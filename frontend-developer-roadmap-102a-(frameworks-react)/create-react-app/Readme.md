@@ -26,7 +26,7 @@ Ayrıca terminali ilk başlattığınızda  /Users/KullaniciAdi klasör dizinind
 
 Bir React projesi oluşturmanın en kolay yöntemlerinden biri olan create-react-app ile projemizi oluşturabiliriz.
 
-`npx create-react-app ilk-uygulama komutunu kullanarak bulunduğumuz klasör dizininde bir React.js uygulaması oluşturabiliriz. 
+`npx create-react-app ilk-uygulama` komutunu kullanarak bulunduğumuz klasör dizininde bir React.js uygulaması oluşturabiliriz. 
 
 **Not:** Burada kullandığımız *npx* npm 5.2+ ile gelen bir paket çalıştırma aracıdır.
 
