@@ -191,4 +191,4 @@ Aşağıdaki indirme linkinden dilediğiniz bir versiyonu, dilediğiniz işletim
 
 İndirme linki: [https://www.eclipse.org/downloads/packages/](https://www.eclipse.org/downloads/packages/)
 
-![](figures/jdk-kurulumu-13.jpg)
+![Eclipse Kurulumu](figures/jdk-kurulumu-13.jpg)

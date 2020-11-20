@@ -4,15 +4,18 @@ Eclipse IDE&#39;yi indirmiş olmamıza rağmen, herhangi bir IDE olmadan da yaz�
 
 Önce bir yazı editörü açıp içine aşağıdaki kodları yazıyoruz.
 
-**class**** MyFirstProgram**{
 
-**public**** static**voidmain(String args[]){
 
-System.out.println(&quot;Hello Java! | Merhaba Java!&quot;);
+```java
+class MyFirstProgram{
 
+    public static void main(String args[]){
+    	System.out.println("Hello Java! | Merhaba Java!");
+    }
 }
+```
 
-}
+
 
 Dosya &quot; **.java**&quot; olarak kaydedilir. Java&#39;da kaynak kod dosyaları &quot;.java&quot; uzantılıdır. Ardından, Java kaynak kodumuzu derlemek (Compile) için JDK içinde yer alan &quot;javac&quot; isimli yazılımdan faydalanırız. Derleme işlemi sonrasında byte code&#39;a çevrilmiş &quot; **.class**&quot; uzantılı bir dosya üretilecektir.
 

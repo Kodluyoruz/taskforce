@@ -1,4 +1,4 @@
-## Java Programlama Dili&#39;nin Genel Özellikleri
+# Java Programlama Dili&#39;nin Genel Özellikleri
 
 Java, dünyada web, mobil ve daha birçok alanda yaygın şekilde kullanılan bir programlama dilidir. Özellikle, kurumsal düzeyde büyük yazılım projeleri gerçekleştirmek için çok uygundur. Java ile **Özgür Yazılım Lisansı**&#39;na versiyonları kullanabilirsiniz. **OpenJDK** buna en güzel örnektir. Ayrıca, Java diliyle yazılım dünyasında ticari ve özgür yazılım lisansına sahip çok fazla geliştirme aracı mevcuttur. Java&#39;yı güçlü kılan da arkasında bu büyük topluluklardır.
 
@@ -14,7 +14,7 @@ Java dilinde Sınıf (Class) kavramı en önemli özelliktir. Java&#39;da her ş
 
 Java dilinde de sınıflar tasarlanır, bu sınıflardan nesneler üretilir. Bu nesneler birbirine bağımlılıklar kurarlar ve böylece birbiriyle iletişim kurarak bir yazılımı meydana getirirler. Lego parçalarıyla büyük bir uçak yapmak gibi 
 
-1. Dilin Temel Kuralları
+## 1.Dilin Temel Kuralları
 
 - Java dilinde sınıf, metot, değişken gibi isimlendirme yapabildiğiniz her şey büyük küçük harf duyarlılığına sahiptir. Yani, Java&#39;da &quot;invoicePrice&quot; ile &quot;InvoicePrice&quot; birbirinden farklı değişkenlerdir.
 - Sınıf isimlendirmesi yapılırken hep ilk harf büyük olacak şekilde bir tanımlama yapılır. Dilde böyle bir kısıtlama olmasa da okunabilirlik için bu genel kabul görmüş bir yaklaşımdır. Örneğin: &quot;class **Printer**&quot; gibi.
@@ -22,7 +22,7 @@ Java dilinde de sınıflar tasarlanır, bu sınıflardan nesneler üretilir. Bu 
 - Java&#39;da sınıfa ait kaynak kodlar &quot;.java&quot; uzantılı dosyaların içine yazılır. Bu dosya ismi sınıf ismi ile aynı olmalıdır. Örneğin: &quot;Printer.java&quot; ise sınıf tanımı &quot;class Printer&quot; şeklinde olmalıdır.
 - Java&#39;da bir programın çalışması için bir başlangıç metoduna ihtiyaç duyar. &quot;public static void main(String args[])&quot; metod başlangıç metodur.
 
-2.Java&#39;da Tanımlayıcı İsimlendirme Kuralları (Identifier)
+## 2.Java&#39;da Tanımlayıcı İsimlendirme Kuralları (Identifier)
 
 Yazılım geliştiricinin sınıf, metot ve değişken gibi yapılar için yaptığı isimlendirmelere tanımlayıcı denilmektedir. Örneğin: oluşturulan sınıfa &quot;CustomerService&quot; isminin verilmesi gibi. Java dilinde isimlendirme yapılırken dikkat edilmesi gereken belli başlı hususlar vardır. Bunları aşağıda listelenmiştir.
 
@@ -30,14 +30,14 @@ Yazılım geliştiricinin sınıf, metot ve değişken gibi yapılar için yapt�
 - Java diline özel ayrılmış anahtar kelimeler vardır. Bunları da değişken ismi olarak kullanamazsınız. Örneğin: class, int, for, while gibi anahtar sözcükler tek başlarına bir tanımlayıcı olarak kullanılamazlar.
 - Java&#39;da yaptığınız isimlendirme büyük küçük harf duyarlılığına sahiptir. &quot;maxAge&quot; ile &quot;MAXAGE&quot; iki ayrı tanımlayıcıyı ifade etmektedir.
 
-3.Java&#39;da Düzenleyiciler (Modifiers)
+## 3.Java&#39;da Düzenleyiciler (Modifiers)
 
 Java&#39;da tanımladığınız sınıflara, metotlara, değişkenlere başka kod bloklarından erişimi düzenleyen anahtar kelimelere düzenleyiciler (modifier) denilmektedir. Bu belirteçler ikiye ayrılmaktadır.
 
 - Erişim Belirteçleri: **default, public, private, protected** gibi anahtar kelimeler ile ifade edilir. Bu belirteçler yazılan sınıfın, metotun kendi kapsamı dışında bir noktadan erişimini yönetir. Örneğin: &quot;public&quot; anahtar sözcüğü ile erişime açılır. &quot;private&quot; ile dışarıdan erişime kapatılır.
 - Erişim Dışındaki Belirteçler: **final, abstract, strictfp** gibi anahtar kelimeleri ifade edilir. Bu sözcükler erişim ile ilgili değildir. Örneğin: &quot;final&quot; sözcüğü sınıfın, metotudun veya değişkenin davranışını etkiler.
 
-4.Java&#39;da Değişkenler (Variables)
+## 4.Java&#39;da Değişkenler (Variables)
 
 Java&#39;da bir veri parçasını, ki bu sayı, yazı alanı veya kompleks veri olabilir, hafızada tutmaya yarayan yapılardır. Örneğin: &quot; **int year = 2019;**&quot; gibi tanımlama yaptığımızda hafıza bir alan bu değer için ayrılır. 2019 verisi hafıza bu adrese yazılır. Değişken, hafıza adresini işaret eder. Aslında, hafıza adresinin kendisini belirtir.
 
@@ -47,47 +47,45 @@ Değişkenler üç tiptedir:
 - Sınıf Değişkenleri (Statik olanlar)
 - Nesne Değişkenleri (Statik olmayanlar)
 
-5.Java&#39;da Diziler (Arrays)
+## 5.Java&#39;da Diziler (Arrays)
 
 Dizi kavramı liste halinde veriler tutmaya yarayan veri yapısıdır. Örneğin: 12 aya ait şirket bilançosu dizi şeklinde tutulabilecek bir veridir. Java&#39;da diziler oluşturulduğunda Heap Hafıza&#39;da tutulurlar. Dizi konusu ileride detaylıca işlenecektir.
 
-6.Java&#39;da Enum Yapılar (Enum)
+## 6.Java&#39;da Enum Yapılar (Enum)
 
 Java&#39;da belirli seçenekleri önceden tanımlanabilen yapılar şeklinde kodlayabilirsiniz. Örneğin: mağazanın müşteri iki tipte ise bunları ENTERPRISE, INDIVIDUAL şeklinde iki tanımlı değerle ifade edebilirsiniz. Böylece, koddaki okunabilirliği arttırabilirsiniz. Müşteri tiplerini 1 ve 2 gibi sayılarla ifade etseydik, kodun başkası tarafından okunabilirliği azalırdı.
 
-7.Java&#39;da Anahtar Sözcükler (Keywords)
+## 7.Java&#39;da Anahtar Sözcükler (Keywords)
 
 Aşağıdaki anahtar sözcükler Java dilinde ayrılmış kelimelerdir. Bu kelimeleri tek başlarına isimlendirmede kullanamazsınız. Örneğin: &quot; **int class = 5;**&quot; şeklinde bir tanımlama yapamayız. Çünkü, class ayrılmış bir anahtar sözcüktür.
 
-![](C:/GitHub/taskforce/java-101/hafta-1/RackMultipart20201119-4-xnzld6_html_3a8980747c051110.png)
+![](figures/ozellikler-1.jpg)
 
-8.Java&#39;da Yorum Alanları (Comments)
+## 8.Java&#39;da Yorum Alanları (Comments)
 
 Java dilinde kodların arasına açıklayıcı metinler eklenebilir. Kod parçasının ne iş yaptığını anlatan veya bilgi veren yorumlar eklenebilir. Bu yorumlar derleyici tarafından dikkate alınmaz. Tek satırlık veya çok satırlı yorumlar ekleyebilirsiniz.
 
-**public**** class ****MyFirstJavaProgram** {
+```java
+public class MyFirstJavaProgram {
 
-_/\* This is my first java program._
+/* This is my first java program.
+* This will print &#39;Hello World&#39; as the output
+* This is an example of multi-line comments.
+*/
 
-_\* This will print &#39;Hello World&#39; as the output_
+    public static void main(String []args){
+        // This is an example of single line comment
+        /* This is also an example of single line comment. */
+        System.out.println("Hello World");
+    }
+}
+```
 
-_\* This is an example of multi-line comments._
 
-_\*/_
-
-**public**** static**voidmain(String []args){
-
-_// This is an example of single line comment_
-
-_/\* This is also an example of single line comment. \*/_
-
-System.out.println(&quot;Hello World&quot;);
-
-}}
 
 Java&#39;da kod yazarken kodlar arasında dilediğiniz kadar boşluk bırakabilirsiniz.
 
-9.Java&#39;da Katılım (Inheritance)
+## 9.Java&#39;da Katılım (Inheritance)
 
 Java, nesneye dayalı programlamayı destekleyen bir dil olduğu için katılım mekanizmasına sahiptir. Katılım ile bir sınıf üst sınıfından ortak özellikleri miras yoluyla kendine alabilir. Bu konu ileride detaylıca açıklanacaktır.
 
