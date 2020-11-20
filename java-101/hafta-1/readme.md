@@ -1,12 +1,12 @@
-Bölüm -1
+# Bölüm -1
 
-## Java Nedir?
+# Java Nedir? => Burada h2 kullanmıştın. Ama konuştuğumuz gibi bu gibi başlıkları sonrasında parçalayacağımız için bence h1 olarak tutalım. Yoksa parçalarken tekrar düzeltmemiz gerekir.
 
 Java platform bağımsız, Nesneye Dayalı Programlama&#39;yı (Object Oriented Programming) tamamıyla destekleyen bir yazılım geliştirme dilidir. Java ile geliştirilen bir yazılım uygulaması Java Virtual Machine (Java Sanal Makinesi) yüklü olan herhangi bir bilgisayarda veya cihazda sorunsuz çalışabilir. Java aynı zamanda geliştirme platformunun kendisidir. Yazılım geliştirebilmeye imkan tanıyan ve geliştirilen bu yazılımın çalıştırılmasını sağlayan altyapıya verilen isimdir. Java bir programlama dili olmasının yanı sıra sağladığı bu imkanlarla birlikte platforma da ismini vermiştir. JDK, JRE bahsettiğimiz platformun kendisidir.
 
 Java hızlı, güvenli ve güvenilir özelliklere sahiptir. Masaüstü uygulamalarından, web tabanlı uygulamalara, mobil uygulama geliştirmeden gömülü sistem uygulamalarına kadar çok geniş bir çerçevede kullanılmaktadır. Özel sektörde kurumsal firmalarda, akademik alanlarda bilimsel çalışmalarda da sıkça tercih edilmektedir. **Bir kez yaz ve her yerde çalıştır Java&#39;nın en önemli sloganıdır.**
 
-### Java&#39;nın Özellikleri
+## Java&#39;nın Özellikleri
 
 - **Java platform bağımsız bir dildir.** Bu özelliğine yukarıda kısaca değinmiştik. Java&#39;yı platform bağımsız kılan özelliği yazılan kaynak kodlar derlendikten sonra ara bir dil olan byte code&#39;a çevrilmesidir. Ara dile çevrilen bu kod parçaları Java Virtual Machine vasıtasıyla yorumlanır ve çalıştırılır.
 - **Java Nesneye Dayalı programlamaya tamamıyla uygun bir dildir.** Java&#39;da her şey nesnelerden ibarettir.
@@ -22,41 +22,25 @@ Java hızlı, güvenli ve güvenilir özelliklere sahiptir. Masaüstü uygulamal
 
 1990&#39;lı yılların başında yaygınlaşmaya başlayan bir teknoloji olan World Wide Web üzerine yoğunlaşmaya başladılar ve dil üzerindeki çalışmalarını bu teknoloji üzerine kurgulamaya başladılar. 23 Mayıs 1995 yılında da Java resmi olarak duyuruldu. Artık, internet tarayıcılarında Java tabanlı uygulamaların çalışması devri başlamıştı. Java&#39;nın 2. sürümü ile birlikte sadece tarayıcılarda çalışan uygulamalar yazmaya imkan veren bir yapıdan, temel nesneye dayalı kurumsal bir programlama diline doğru dönüşmeye başladı. Dilin daha kolay kullanımını sağlayan özellikler ise Java 5 ile geldi. Java 6 ve Java 7 ile dilin olgunlaşması ve kurumsal projelerde sıkça kullanılır hale gelmesi sağlandı. Java 8 ile dile Stream API, Lambda Expressions (Lambda Tanımlamaları) gibi çok önemli yenilikler getirildi.
 
-Java Versiyon Tarihçesi(Detay: [https://en.wikipedia.org/wiki/Java\_version\_history](https://en.wikipedia.org/wiki/Java_version_history))
+**Java Versiyon Tarihçesi** *(Detay: [https://en.wikipedia.org/wiki/Java\_version\_history](https://en.wikipedia.org/wiki/Java_version_history))*
 
-JDK Alpha ve Beta (1995)
-
-JDK 1.0 (23 Ocak 1996)
-
-JDK 1.1 (19 Şubat 1997)
-
-J2SE 1.2 (8 Aralık 1998)
-
-J2SE 1.3 (8 Mayıs 2000)
-
-J2SE 1.4 (6 Şubat 2002)
-
-J2SE 5.0 (30 Eylül 2004)
-
-Java SE 6 (11 Aralık 2006)
-
-Java SE 7 (28 Temmuz 2011)
-
-Java SE 8 (18 Mart 2014)
-
-Java SE 9 (21 Eylül 2017)
-
-Java SE 10 (20 Mart 2018)
-
-Java SE 11 (25 Eylül 2018)
-
-Java SE 12 (19 Mart 2019)
-
-Java SE 13 (17 Eylül 2019)
-
-Java SE 14 (17 Mart 2020)
-
-Java SE 15 (15 Eylül 2020)
+* JDK Alpha ve Beta (1995)
+* JDK 1.0 (23 Ocak 1996)
+* JDK 1.1 (19 Şubat 1997)
+* J2SE 1.2 (8 Aralık 1998)
+* J2SE 1.3 (8 Mayıs 2000)
+* J2SE 1.4 (6 Şubat 2002)
+* J2SE 5.0 (30 Eylül 2004)
+* Java SE 6 (11 Aralık 2006)
+* Java SE 7 (28 Temmuz 2011)
+* Java SE 8 (18 Mart 2014)
+* Java SE 9 (21 Eylül 2017)
+* Java SE 10 (20 Mart 2018)
+* Java SE 11 (25 Eylül 2018)
+* Java SE 12 (19 Mart 2019)
+* Java SE 13 (17 Eylül 2019)
+* Java SE 14 (17 Mart 2020)
+* Java SE 15 (15 Eylül 2020)
 
 ## Java ile Uygulama Geliştirme Yapabileceğiniz Alanlar
 
@@ -114,11 +98,11 @@ JDK 8 kurulumu böylece tamamlanmış olur. Java&#39;nın sisteme doğru bir şe
 
 java -version
 
-![](RackMultipart20201119-4-xnzld6_html_126910fcb8d943db.png)
+![](RackMultipart20201119-4-xnzld6_html_126910fcb8d943db.png)=> Bu ve aşağıdaki resimler patlak.
 
 Komut satırı üzerinden versiyon sorgulaması yaptığınızda yukarıdaki fotoğrafta da görüldüğü gibi eğer Java başarılı bir şekilde yüklendiyse size kısa bilgiler verecektir.
 
-PATH ve JAVA\_HOME Tanımlamalarının Yapılması
+PATH ve JAVA\_HOME Tanımlamalarının Yapılması => Bu ve bunun gibi içerikler başlık mı? Başlıksa `derecesine göre h1,h2,h3.. diye yapalım. (yani #, ##, ###)`
 
 Ortam değişkenleri (Environment Variables) oluşturularak işletim sistemi düzeyinde global tanımlamalar yapılabilmektedir. Java uygulamaları da işletim sistemi tarafından çalıştırılmaya başlandığında JAVA\_HOME ortam değişkenine ihtiyaç duyarlar. Varsayılan olarak işletim sisteminde tanımlı olan ortam değişkenini kullanmaya çalışırlar. Böylece, tüm Java uygulamalarını hatasız bir şekilde çalıştırma şansını yakalarız.
 
@@ -157,8 +141,13 @@ Linux işletim sistemi **Özgür Yazılım Lisansı**&#39;na sahiptir. Bu nedenl
 Ubuntu&#39;da yeni bir Terminal açılır. Ve işlemler komut istemcisinden yürütülür. Linux dağıtımlarında yazılım kurulumları, güncellemeleri ve birçok işlem Terminal (Komut İstemcisi) üzerinden halledilir.
 
 \&gt;\&gt; sudo apt update
+\&gt;\&gt; sudo apt install openjdk-8-jdk => Bu kodları kod içerisine almalısın mesela bu terminal komutu olduğu için aşağıdaki gibi yazmalısın.
 
-\&gt;\&gt; sudo apt install openjdk-8-jdk
+
+```Terminal
+sudo apt update
+sudo apt install openjdk-8-jdk
+```
 
 Yukarıdaki komutlarla birlikte Ubuntu&#39;ya JDK 8 kurulumu tamamlanmış olur. Ubuntu üzerinde yazılım kurulumu için &quot;sudo apt install \&lt;yazılımın ismi\&gt;&quot; şeklinde komut çalıştırılır.
 
@@ -238,7 +227,7 @@ Aşağıdaki indirme linkinden dilediğiniz bir versiyonu, dilediğiniz işletim
 
 Eclipse IDE&#39;yi indirmiş olmamıza rağmen, herhangi bir IDE olmadan da yazılan Java kodları derlenip, çalıştırılabilmektedir. Bunun için bir yazı editörü ve Java&#39;nin sisteminizde yüklü olması yeterlidir. İlk örneğimizi bu yolla oluşturup, Java altyapısının kodu derleme, byte code&#39;a (ara koda) dönüştürme ve sonrasında JVM vasıtasıyla yorumlayıp çalıştırılabilmesinden bahsedeceğiz. Ayrıca, yazdığımız basit Java programı hakkında kısa bilgiler vereceğiz.
 
-Önce bir yazı editörü açıp içine aşağıdaki kodları yazıyoruz.
+Önce bir yazı editörü açıp içine aşağıdaki kodları yazıyoruz. => Aşağıdaki kodlar java etiketiyle kod içerisine alınmalı. Bunun gibi diğer bağımsız kodları da etikete alalım.
 
 **class**** MyFirstProgram**{
 
@@ -2008,3 +1997,6 @@ LocalTime sevenThirty = LocalTime.parse(&quot;06:30&quot;).plus(1, ChronoUnit.HO
 _// saat bilgisini almak. 6 cevabı gelecektir._
 
 int six = LocalTime.parse(&quot;06:30&quot;).getHour();
+
+## Kaynakça
+* xxx
