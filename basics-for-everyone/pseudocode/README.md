@@ -276,13 +276,13 @@ D)
 
 ## Kaynaklar
 
-1.  [**What is the pseudocodes?**](https://en.wikipedia.org/wiki/Pseudocode)
+1.  https://en.wikipedia.org/wiki/Pseudocode
 
-2.  [**Pseudocode (Sözde Kod) nedir?**](https://tr.wikipedia.org/wiki/Sözde_kod)
+2.  [https://tr.wikipedia.org/wiki/Sözde_Kod](https://tr.wikipedia.org/wiki/S%C3%B6zde_kod)
 
-3. [**Pseudocode özellikleri nedir?**](https://technogezgin.com/pseudocode-nedir-sozde-kod/)
+3. https://technogezgin.com/pseudocode-nedir-sozde-kod/
 
-4. [**Pseudocode Medium yazısı.**](https://medium.com/@edisdev/algoritma-ve-pseudo-kodu-nedir-38ad7d09a73e)
+4. https://medium.com/@edisdev/algoritma-ve-pseudo-kodu-nedir-38ad7d09a73e
 
-​                                                                                            
+   ​                                                                                       
 
