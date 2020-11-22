@@ -8,8 +8,9 @@
 
 - [ ] Back-end
 
-
 ## Algoritma ve Pseudocode
+
+[Pseudocode](Pseudocode/)
 
 ## Internet
 
