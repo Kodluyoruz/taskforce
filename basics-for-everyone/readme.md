@@ -10,7 +10,7 @@
 
 ## Algoritma ve Pseudocode
 
-[Pseudocode](Pseudocode/)
+[Pseudocode](pseudocode/)
 
 ## Internet
 
