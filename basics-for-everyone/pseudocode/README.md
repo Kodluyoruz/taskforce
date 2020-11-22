@@ -1,7 +1,3 @@
----
-typora-copy-images-to: Belgeler
----
-
 # PSEUDOCODE (SÖZDE KOD)
 
 
