@@ -1,78 +1,248 @@
 # JSX
 
+## JSX Nedir?
 
-## Altbaşlık
+JSX (JavaScript XML) JavaScript için bir syntax uzantısıdır. XML/HTML benzeri bir syntax kullanarak JavaScript kodu yazmamıza olanak sağlar. Bu kod, önişlemciler (preprocessors) tarafından standart JavaScript koduna çevrilir ve böylece JavaScript engine tarafından anlaşılabilir hale gelir. Bu bağlamda bu görevi üstlenen [Babel](https://babeljs.io/docs/en/) adlı transpilerdır.
 
-İçerik gövdesi : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut nulla eu eros luctus dapibus. Proin porttitor sapien tortor, vitae molestie mauris malesuada sed. Aliquam risus odio, malesuada a nulla vitae, ullamcorper porttitor mauris. Donec nec iaculis magna. Curabitur vitae mauris sit amet lorem semper ultrices. Aliquam pharetra malesuada placerat. Nam a varius ante, et placerat sem. Vivamus pellentesque dictum nulla, id blandit ligula. Etiam pharetra libero arcu, quis pretium lorem molestie non.
+**Not:** JSX, ES6, ES7 ve TypeScript [Babel](https://babeljs.io/docs/en/) aracılığıyla JS2015'e çevrilir.
 
-#### Resim ekleme
+Basitçe ifade etmek gerekirse, JSX kullanmak HTML elemanlarını aynı JavaScript dosyası içerisinde yazmamıza olanak sağlar. Böylece JavaScript'i tüm gücüyle kullanmamız mümkün hale gelir. 
 
-![Alt başlık](figures/jsx_1.png)
 
-Morbi efficitur porttitor nisl luctus aliquam. Etiam eget magna eu nisl laoreet interdum. Ut accumsan consequat dignissim. Ut ligula lorem, hendrerit nec sagittis a, vulputate eget neque. Maecenas dapibus nulla arcu, maximus iaculis nisi rutrum ut. Proin tincidunt dolor eu nulla sollicitudin congue. Mauris vel enim sit amet turpis posuere mattis. Nunc feugiat pretium feugiat. Sed vitae hendrerit quam. Etiam rhoncus vitae sapien a bibendum. Sed ultricies vehicula dolor a mollis. Maecenas tempor rhoncus scelerisque. Ut id dolor placerat, consequat erat id, accumsan ex. Sed leo justo, mollis ut ante eget, vestibulum dapibus velit. Donec semper massa at vestibulum pulvinar.
 
-### Özellikler
+## Neden JSX?
 
-#### Numarasız Liste
+HTML ve JavaScript kodlarının ayrı dosyalarda tutularak teknolojilerin birbirinden yapay bir şekilde ayrılması yerine React, hem HTML hem de JavaScript kodu barındıran ve birbirine gevşek bir şekilde bağlı olan componentler sayesinde ilgili [*işlerin* ayrılmasını](https://en.wikipedia.org/wiki/Separation_of_concerns) sağlar. 
 
-* Numarasız liste
-* Numarasız liste
+React, JSX kullanımını [zorunlu tutmaz](https://tr.reactjs.org/docs/react-without-jsx.html). Fakat birçok geliştirici, JavaScript kodu içerisinde arayüz ile ilgili çalışırken JSX’in kullanılmasının, görsel anlamda yardımcı olduğunu düşünüyor. Ayrıca JSX, React için daha anlaşılır hata ve uyarı mesajlarının görüntülenmesini sağlıyor. [^1]
 
-#### Numaralı liste
 
-1. Numaralı liste
-2. Numaralı liste
 
-#### Karma liste 
+## JSX Olmadan React
 
-* Karma liste 
-  1. numaralı
-     * numarasız
+JSX, React’i kullanmak için bir gereksinim değildir. Her JSX elementi sadece `React.createElement(component, props, ...children)`‘i çağırmak için [syntactic sugar](https://tr.reactjs.org/docs/jsx-in-depth.html)'dır. Yani, JSX ile yapabileceğiniz her şeyi düz JavaScript ile yapabilirsiniz. [^2]
 
-#### Link
+Örneğin, JSX ile yazılmış bir kod parçası:
 
-[Açıklama](http://LİNK)
+```react
+const element = (
+  <h1 className="selamlama">
+    Merhaba, dünya!
+  </h1>
+);
+```
 
-#### Alıntı verme
+JSX kullanmayan bu koda derlenebilir:
 
-> JQuery yazarı [The DOM is a Mess](https://www.youtube.com/watch?v=dgI52y27O_I). konuşmasında DOM API JS direk kullanmanın zorluklarını, karmaşıklığını JQuery ile bunun üzerine nasıl bir katman oluşturmak istediğini anlatmaktadır.
+```react
+const element = React.createElement(
+  'h1',
+  {className: 'selamlama'},
+  'Merhaba, dünya!'
+);
+```
 
-#### Satır içi kod paylaşma
+Derleme sonucunda aslında yapılan şey bir nesne oluşturmaktır:
 
-Klasör içerisinde terminali başlattıktan sonra `npm start` komutuyla sistemi canlandırabiliriz.
+```react
+// Not: bu yapı basitleştirilmiştir
+const element = {
+  type: 'h1',
+  props: {
+    className: 'selamlama',
+    children: 'Merhaba, dünya!'
+  }
+};
+```
 
-#### Kod bloğu paylaşma
+Bu nesnelere “React elementleri” adı verilir. Bunu, ekranda görmek istediğiniz kullanıcı arayüzünün kodlar ile tasvir edilmesi gibi düşünebilirsiniz. React, bu nesneleri okuyarak DOM’u oluşturur ve arayüzü günceller.
 
-Yukarıda oluşturduğumuz `productList` arrayimizi map metoduyla dönebiliriz.
+JSX'i React.createElement() fonksiyonunu çağırmanın kısa yolu olarak düşünebiliriz. JSX kodları Babel derleyicisi tarafından React.createElement() fonksiyon çağrılarına dönüştürülür.
 
-```JavaScript
-<form className="mt-3">
-    <div class="form-row">
-        <div class="col-md-6 mb-3">
-            <input className="form-control" type="text" placeholder="Marka, model arayın." aria-label="Search" />
-        </div>
-        <div class="col-md-4 mb-3">
-            <select class="custom-select form-control">
-                {
-                productList.map(product => (                        
-                <option selected>{product.marka}</option>
-        ))
-        }
-            </select>
-        </div>
-        <div class="col-md-2 mb-3">
-            <button class="form-control btn products__btn" type="submit">Filtrele</button>
-        </div>
-	</div>
-</form>
+JSX’in JavaScript’e nasıl dönüştürüldüğüne dair daha fazla örnek görmek isterseniz, [çevrimiçi Babel derleyicisi](https://babeljs.io/repl/#?presets=react&code_lz=GYVwdgxgLglg9mABACwKYBt1wBQEpEDeAUIogE6pQhlIA8AJjAG4B8AEhlogO5xnr0AhLQD0jVgG4iAXyJA)ni deneyebilirsiniz. [^2]
+
+
+
+## JSX Kullanımı
+
+### JSX Değişkenleri ve İfadeleri
+
+JSX yazarken değişkenleri, fonksiyonları ve herhangi bir JavaScript ifadesini süslü parantezler içerisinde yazabiliriz.  
+
+Aşağıdaki örnekte ilk satırda `name` değişkenini tanımlıyoruz. Ardından bu değişkeni süslü parantezler ile sarmalayarak JSX kodu içerisinde kullanıyoruz:
+
+```react
+const name = 'Dünya';
+const element = <h1>Merhaba, {name}</h1>;
+ReactDOM.render(
+  element,
+  document.getElementById('root')
+);
+```
+
+JSX’te süslü parantezler arasına dilediğiniz herhangi bir [JavaScript ifadesini](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions) yazabilirsiniz. Örneğin, `2 + 2`, `message.first`, veya `formatMessage(message)` gibi JavaScript ifadelerini kullanabilirsiniz. [^1]
+
+### DOM'a JSX Render Etmek
+
+DOM: Document Object Model
+
+DOM'u, HTML ile JavaScript arasında iletişim kurulabilmesini sağlayan bir arabirim olarak düşünebiliriz. Daha fazla bilgi için [bu bağlantıyı](https://www.mediaclick.com.tr/tr/blog/dom-nedir) kullanabilirsiniz. 
+
+ReactDOM.render() fonksiyonu JSX ifadelerini DOM'a render etmek için kullanılır. Yani Babel JSX kodunu JavaScript'e dönüştürdükten sonra bu fonksiyon sayesinde HTML elemanları DOM'a render edilir.
+
+Aşağıdaki örnekte, bir JavaScript fonksiyonun çağrısının sonucu JSX içerisine gömülmektedir. Yani `formatName(user)`, `<h1>` elemanının içerisine konulmaktadır.
+
+```react
+function formatMessage(message) {
+  return message.first + ' ' + message.second;
+}
+
+const message = {
+  first: 'Merhaba',
+  second: 'Dünya'
+};
+
+const element = (
+  <h1>
+    {formatMessage(message)}!
+  </h1>
+);
+
+ReactDOM.render(
+  element,
+  document.getElementById('root')
+);
+```
+
+Okunabilirliği arttırmak için JSX kodunu birkaç satır halinde yazdık. Buradaki gibi, JSX kodunu birçok satır halinde yazarken, kodun parantezler ile sarmalanması önerilir. Bu sayede [otomatik olarak noktalı virgül eklenmesi](https://stackoverflow.com/q/2846283) ile oluşan birçok hatanın önüne geçebilirsiniz. [^1]
+
+
+
+### JSX de bir JavaScript İfadesidir
+
+Oluşan derlemenin ardından JSX ifadeleri, sıradan JavaScript fonksiyon çağrılarına dönüşür ve bu fonksiyonlar JavaScript nesnelerini işleyecek şekilde çalışırlar. Bu sayede `if` ifadelerini ve `for` döngülerini JSX içerisinde kullanabilir, değişkenlere atama yapabilir, fonksiyona parametre olarak geçebilir ve fonksiyondan geri döndürebilirsiniz: [^1]
+
+```react
+function printMessage(message) {
+  if (message) {
+    return <h1>{formatMessage(message)}!</h1>;  
+  }
+  return <h1>Mesaj yok!</h1>;
+}
 ```
 
 
 
-#### Örnek Youtube videosu ekleme:
+### JSX ile Inline CSS Kullanımı 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/jT1HmJa73mw/0.jpg)](https://www.youtube.com/watch?v=jT1HmJa73mw)
+Normalde CSS'i ayrı dosyalarda tutarken inline style CSS syntax'ını JSX kodu ile kombinleme seçeneği sunmakta ([JS-içinde-CSS](https://tr.reactjs.org/docs/faq-styling.html#what-is-css-in-js)). Inline CSS kullanmak için JSX içerisinde style attribute'u yazmamız gerekiyor. Bu style attribute bir JavaScript objesi veya obje referansı alır ve içinde camel-cased stilinde CSS propertyleri içerir.
 
-## Kaynaklar: 
+```react
+var styles = {
+	color:'red',
+	backgroundColor:'black',
+	fontWeight:'bold'
+};
 
-* [Kaynak adı / site adı / kişi adı](http://#)
+var element = <div style={styles}>test</div>;
+
+ReactDOM.render(element, document.getElementById('app1'));
+```
+
+**Not:** Style niteliği kolaylık sağlaması açısından zaman zaman kullanılsa da bu kullanım yerine className kullanılması tavsiye edilmektedir. Bu şekilde harici CSS dosyalarında belirtilen class’ları kullanabilirsiniz. `style`‘ın kullanım amacı genellikle React’te dinamik hesaplanan stillerin ekrana yansıtma anında ekleyebilmektir. [^3]
+
+Stillendirme ile ilgili daha detaylı bilgi için [bu bağlantıyı](https://tr.reactjs.org/docs/dom-elements.html#style) kullanabilirsiniz.
+
+
+
+### JSX ile Attribute Belirlemek
+
+Bir HTML element'i için string ifadelerini çift tırnak içerisinde atayabilirsiniz:
+
+```react
+const element = <div tabIndex="0"></div>;
+```
+
+Ayrıca bir JavaScript ifadesini, element'in özelliği olarak tanımlamak için süslü parantezler ile sarmalayabilirsiniz:
+
+```react
+const element = <img src={user.avatarUrl}></img>;
+```
+
+Bir JavaScript ifadesini, herhangi bir attribute içerisine yazarken çift tırnak kullanmayınız. String için çift tırnak, JavaScript ifadeleri için süslü parantezler kullanmalısınız. Aynı özellik için hem çift tırnak hem de süslü parantez **kullanmayınız**. [^1]
+
+**Uyarı:**
+
+JSX ifadeleri, HTML’den ziyade JavaScript’e daha yakındırlar. Bu nedenle React DOM, özellik isimlendirme için HTML’deki gibi bir isimlendirme yerine `camelCase` isimlendirme standardını kullanmaktadır. 
+
+Örneğin JSX içerisinde `class` özelliği [`className`](https://developer.mozilla.org/en-US/docs/Web/API/Element/className), ve `tabindex` özelliği de [`tabIndex`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/tabIndex) olarak yazılmalıdır. [^1]
+
+Bunun sebebi "class" anahtar sözcüğünün JavaScript içerisinde halihazırda bulunmasıdır. JSX bir JavaScript uzantısı olduğu için JSX kodu yazarken "class" anahtar sözcüğünü kullanamıyoruz. Bunun yerine className kullanıyoruz.
+
+
+
+### JSX ile Child Belirlemek
+
+Eğer bir HTML etiketinin içeriği boşsa yani , XML’deki gibi `/>` kullanarak etiketi kapatabilirsiniz:
+
+```react
+const element = <img src={user.avatarUrl} />;
+```
+
+JSX etiketleri içerisinde alt elemanlar (child) da içerebilir:
+
+```react
+const element = (
+  <div>
+    <h1>Hello!</h1>
+    <h2>Good to see you here.</h2>
+  </div>
+);
+```
+
+**Not:** JSX return ederken tek bir element'in return edilmesine dikkat edilmelidir. Yani birden fazla child'i olan bir JSX return edilebilir ancak bu child elementleri sarmalayan bir top-level element olmalıdır. 
+
+Bu örnekte <h1> ve <h2> element'lerini sarmayalan bir <div> olmasaydı 2 element ard arda bir şekilde açıkta kalmış olacaktı ve bir hatayla karşılaşacaktık. 
+
+**Not:** Bazı durumlarda kapsayıcı tag olarak bir <div> yerine boş tag'ler kullanılabilir. ( `<></>` )
+
+```react
+const element = (
+  <>
+    <h1>Hello!</h1>
+    <h2>Good to see you here.</h2>
+  </>
+);
+```
+
+Bu şekilde finalde oluşan markup'a etki etmeyecek bir şekilde JSX'in tek bir element return etme kuralına uyulmuş oldu. 
+
+
+
+## **Notlar**
+
+- <foo-bar /> geçerli bir JSX kodu iken <foo-bar> değildir çünkü açılan etiketler kapatılmak zorundadır.
+
+- JSX'in bir JavaScript syntax uzantısı olduğunu unutmamalıyız. 
+
+- class attribute className olarak, for attribute htmlFor olarak yazılmak zorundadır.
+
+- style attribute bir obje alır ve property isimleri camel-cased (örneğin marginBottom) şekilde olmalıdır. 
+
+  
+
+
+
+[Derinlemesine JSX](https://tr.reactjs.org/docs/jsx-in-depth.html) için React resmi dökümanından daha detaylı bilgiye ulaşabilirsiniz.
+
+## Kaynaklar 
+
+- [^1]: (https://tr.reactjs.org/docs/introducing-jsx.html)
+
+- [^2]:https://tr.reactjs.org/docs/react-without-jsx.html
+
+- [^ 3]: https://tr.reactjs.org/docs/dom-elements.html#style
+
+- https://www.reactenlightenment.com/react-jsx.html
+
+
