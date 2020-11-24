@@ -19,7 +19,7 @@ JRE, Java ile yazılmış uygulamaların çalıştırılabilmesini sağlayan ger
 
 JRE, JVM&#39;in fiziksel olarak ortaya çıkmış halidir diyebiliriz.
 
-![](C:/GitHub/taskforce/java-101/hafta-1/RackMultipart20201119-4-xnzld6_html_8c714c208475b20d.png)
+![](figures/jdk_1.png)
 
 ### 3.Java Development Environment (JDK)
 
@@ -33,4 +33,4 @@ Enterprise Edition Java Platform (Java EE)
 
 Micro Edition Java Platform (Java ME)
 
-![](RackMultipart20201119-4-xnzld6_html_89f5e195765b31ad.png)
+![](figures/jdk_2.png)

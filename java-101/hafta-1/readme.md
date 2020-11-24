@@ -8,7 +8,7 @@
 
 - [x]  [Java ile Uygulama Geliştirme Yapabileceğiniz Alanlar](03-uygulama-geliştirilecek-alanlar)
 
-- [ ] [Java Uygulama Geliştirme Altyapıları ve Kurulum](04-uygulama-geliştirme-altyapıları-ve-kurulum/)
+- [x] [Java Uygulama Geliştirme Altyapıları ve Kurulum](04-uygulama-geliştirme-altyapıları-ve-kurulum/)
 
 - [ ] [Java ile İlk Uygulama](05-java-ile-ilk-uygulama/)
 
@@ -24,11 +24,11 @@
 
 - [x]  [Veri Tipleri (Data Types)](11-veri-tipleri/)
 
-- [ ]  [Java Temel Operatörler (Basic Operators)](12-temel-operatörler/)
+- [x]  [Java Temel Operatörler (Basic Operators)](12-temel-operatörler/)
 
-- [ ]  [Karar Mekanizmaları (if - else)](13-karar-mekanizmaları/)
+- [x]  [Karar Mekanizmaları (if - else)](13-karar-mekanizmaları/)
 
-- [ ]  [Döngü Mekanizmaları (Loops)](14-döngü-mekanizmaları/)
+- [x]  [Döngü Mekanizmaları (Loops)](14-döngü-mekanizmaları/)
 
 - [ ]  [Dizi (Array)](15-dizi-array/)
 

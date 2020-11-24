@@ -1,4 +1,4 @@
-## Java ile İlk Uygulama
+# Java ile İlk Uygulama
 
 Eclipse IDE&#39;yi indirmiş olmamıza rağmen, herhangi bir IDE olmadan da yazılan Java kodları derlenip, çalıştırılabilmektedir. Bunun için bir yazı editörü ve Java&#39;nin sisteminizde yüklü olması yeterlidir. İlk örneğimizi bu yolla oluşturup, Java altyapısının kodu derleme, byte code&#39;a (ara koda) dönüştürme ve sonrasında JVM vasıtasıyla yorumlayıp çalıştırılabilmesinden bahsedeceğiz. Ayrıca, yazdığımız basit Java programı hakkında kısa bilgiler vereceğiz.
 
@@ -19,13 +19,13 @@ class MyFirstProgram{
 
 Dosya &quot; **.java**&quot; olarak kaydedilir. Java&#39;da kaynak kod dosyaları &quot;.java&quot; uzantılıdır. Ardından, Java kaynak kodumuzu derlemek (Compile) için JDK içinde yer alan &quot;javac&quot; isimli yazılımdan faydalanırız. Derleme işlemi sonrasında byte code&#39;a çevrilmiş &quot; **.class**&quot; uzantılı bir dosya üretilecektir.
 
-![](C:/GitHub/taskforce/java-101/hafta-1/RackMultipart20201119-4-xnzld6_html_ca90a05c1c048c89.png)
+![](figures/hello_world_1.png)
 
-![](C:/GitHub/taskforce/java-101/hafta-1/RackMultipart20201119-4-xnzld6_html_662a1e82a946fa57.png)
+![](figures/hello_world_2.png)
 
 byte code&#39;a çevirme işleminden sonra, yazdığımız uygulamayı çalıştırmak istersek artık &quot;MyFirstProgram.class&quot; dosyasını kullanacağız. Java Virtual Machine (JVM), **ClassLoader** vasıtasıyla bu Class dosyasını yükleyecek, ardından byte code&#39;u kontrolden geçirecek ve makine koduna çevirip çalıştırılmasını sağlayacak.
 
-![](C:/GitHub/taskforce/java-101/hafta-1/RackMultipart20201119-4-xnzld6_html_2c351f5ac0ef75c0.png)
+![](figures/hello_world_3.png)
 
 Derlenmiş olan &quot; **MyFirstProgram.class**&quot; dosyasını JDK içinde var olan &quot; **java**&quot; yazılımı ile çalıştırıyoruz. Kaynak kodun içinde yazdığımız gibi ekrana &quot; **Hello Java! | Merhaba Java!**&quot; ifadesini basmaktadır.
 
