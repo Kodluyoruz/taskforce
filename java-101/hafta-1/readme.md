@@ -8,7 +8,7 @@
 
 - [x]  [Java ile Uygulama Geliştirme Yapabileceğiniz Alanlar](03-uygulama-geliştirilecek-alanlar)
 
-- [ ] [Java Uygulama Geliştirme Altyapıları](04-uygulama-geliştirme-altyapıları/)
+- [ ] [Java Uygulama Geliştirme Altyapıları ve Kurulum](04-uygulama-geliştirme-altyapıları-ve-kurulum/)
 
 - [ ] [Java ile İlk Uygulama](05-java-ile-ilk-uygulama/)
 
