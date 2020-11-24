@@ -119,7 +119,7 @@ Kodunuzu tekrar derleyip, çalıştırın, sonucunu konsolda göreceksiniz.
 
 IntelliJ kullanlar için:
 
-[![ilk-kod](figures/img001.png)](https://youtu.be/dtP6yK50xIs)
+[![ilk-kod](figures/img001.PNG)](https://youtu.be/dtP6yK50xIs)
 
 
 
