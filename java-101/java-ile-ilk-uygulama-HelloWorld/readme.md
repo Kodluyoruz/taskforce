@@ -12,8 +12,7 @@ Editörünüz bir IDE ile entegre olabilir veya her hangi bir yazı editörü (n
 
 
 
-```
-​```java
+```java
 public class HelloWorld{
 
 	public static void main(String[] args) {
@@ -22,7 +21,6 @@ public class HelloWorld{
     	System.out.println("Hello World!");    
     }
 }
-​```
 ```
 
 
@@ -56,11 +54,9 @@ Programın çalışması için Java derleyici (compiler) sizin .java uzantılı 
 Şimdi bu yazdığımız ilk kodu analiz edelim!
 
 ```java
-​```java
     public class HelloWorld{
         
     }
-​```
 ```
 
 Yukarıdaki kod parçası, HelloWorld adında bir class tanımlar. Java object-oriented (nesne tabanlı) bir programlama dili olduğu için her kod class'lar altında yazılır.
@@ -124,7 +120,7 @@ Kodunuzu tekrar derleyip, çalıştırın, sonucunu konsolda göreceksiniz.
 IntelliJ kullanlar için:
 
 ```
-[![ilk-kod](figures/ilk-fotoğraf.png)](https://youtu.be/dtP6yK50xIs)
+[![ilk-kod](figures/img001.png)](https://youtu.be/dtP6yK50xIs)
 ```
 
 
