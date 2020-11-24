@@ -10,15 +10,15 @@
 
 - [x] [Java Uygulama Geliştirme Altyapıları ve Kurulum](04-uygulama-geliştirme-altyapıları-ve-kurulum/)
 
-- [ ] [Java ile İlk Uygulama](05-java-ile-ilk-uygulama/)
+- [x] [Java ile İlk Uygulama](05-java-ile-ilk-uygulama/)
 
-- [ ]  [JDK, JRE ve JVM Kavramları](06-jdk-jre-jvm-kavramlari/)
+- [x]  [JDK, JRE ve JVM Kavramları](06-jdk-jre-jvm-kavramlari/)
 
-- [ ]  [Java Virtual Machine Mimarisi](07-java-virtual-machine-mimarisi/)
+- [x]  [Java Virtual Machine Mimarisi](07-java-virtual-machine-mimarisi/)
 
 - [x]  [Java Programlama Dili'nin Genel Özellikleri](08-java-dilinin-özellikleri/)
 
-- [ ]  [Java Sınıf ve Nesne Kavramları (Class & Objects)](09-sınıf-ve-nesne-kavramları/)
+- [x]  [Java Sınıf ve Nesne Kavramları (Class & Objects)](09-sınıf-ve-nesne-kavramları/)
 
 - [x]  [Değişkenler (Variables)](10-değişkenler/)
 
@@ -30,11 +30,11 @@
 
 - [x]  [Döngü Mekanizmaları (Loops)](14-döngü-mekanizmaları/)
 
-- [ ]  [Dizi (Array)](15-dizi-array/)
+- [x]  [Dizi (Array)](15-dizi-array/)
 
-- [ ]  [Matris İşlemleri (Matrices)](16-matrice/)
+- [x]  [Matris İşlemleri (Matrices)](16-matrice/)
 
-- [ ]  [Gün ve Zaman İşlemleri (Date & Time)](17-gün-zaman/)
+- [x]  [Gün ve Zaman İşlemleri (Date & Time)](17-gün-zaman/)
 
 
 
