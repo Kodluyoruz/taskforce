@@ -37,7 +37,7 @@ ReactDOM.render(element, document.getElementById('root'));
 
 [Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/vYXYKoL)
 
-Sayfada “Hello, world” mesajı görüntülenecektir.
+Sayfada “Merhaba Dünya!” mesajı görüntülenecektir.
 
 ## Render Edilmiş Elementin Güncellenmesi
 
@@ -52,7 +52,7 @@ function tick() {
   const element = (
     <div>
       <h1>Merhaba Dünya!</h1>
-      <h2>It is {new Date().toLocaleTimeString()}.</h2>
+      <h2>Saat şu anda {new Date().toLocaleTimeString()}.</h2>
     </div>
   );
   ReactDOM.render(element, document.getElementById('root'));
