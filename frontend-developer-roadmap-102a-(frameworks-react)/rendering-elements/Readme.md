@@ -35,7 +35,7 @@ const element = <h1>Merhaba Dünya!</h1>;
 ReactDOM.render(element, document.getElementById('root'));
 ```
 
-[Codepen'de deneyin](https://codepen.io/pen?&editors=0010)
+[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/vYXYKoL)
 
 Sayfada “Hello, world” mesajı görüntülenecektir.
 
@@ -43,7 +43,7 @@ Sayfada “Hello, world” mesajı görüntülenecektir.
 
 React elementleri [immutable(değişmez)](https://en.wikipedia.org/wiki/Immutable_object)‘dır. Yani bir kez React elementi oluşturduktan sonra, o elementin alt elemanlarını veya özelliklerini değiştiremezsiniz. Bu nedenle element, bütün bir videonun tek bir karesi gibidir: arayüzün belirli bir andaki görüntüsünü temsil eder.
 
-Bu zamana kadar edindiğimiz bilgiler ışığında, kullanıcı arayüzünün güncellenmesi için tek yolun, yeni bir element oluşturup, [`ReactDOM.render()`](https://tr.reactjs.org/docs/react-dom.html#render) metoduna aktarmak olduğunu biliyoruz. 
+Bu zamana kadar edindiğimiz bilgiler ışığında, kullanıcı arayüzünün güncellenmesi için tek yolun, yeni bir element oluşturup, [`ReactDOM.render()`](https://tr.reactjs.org/docs/react-dom.html#render) metoduna aktarmak olduğunu biliyoruz. [^1] Sonraki bölümlerde component ve state kavramı hakkında bilgi sahibi olarak elementlerin güncellenmesi konusunu daha detaylı şekilde öğrenmiş olacağız. 
 
 Aşağıdaki saat örneğini ele alalım:
 
@@ -51,7 +51,7 @@ Aşağıdaki saat örneğini ele alalım:
 function tick() {
   const element = (
     <div>
-      <h1>Hello, world!</h1>
+      <h1>Merhaba Dünya!</h1>
       <h2>It is {new Date().toLocaleTimeString()}.</h2>
     </div>
   );
@@ -61,9 +61,9 @@ function tick() {
 setInterval(tick, 1000);
 ```
 
-[Codepen'de deneyin](https://codepen.io/pen?&editors=0010)
+[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/oNzNLrN)
 
-Bu örnekte tick adlı fonksiyon içerisinde bir React element'i tanımlanıyor. Bu element <h1> etiketi içerisinde "Hello, world!" içerikli bir string ve <h2> etiketi içerisinde ise şu anki yerel saatin string'e çevrilmiş halini tutuyor. Fonksiyon tanımından sonra gelen kod satırı bu fonksiyonun her saniyede bir çağrılmasını sağlıyor.
+Bu örnekte tick adlı fonksiyon içerisinde bir React element'i tanımlanıyor. Bu element `<h1>` etiketi içerisinde "Merhaba Dünya!" içerikli bir string ve `<h2>` etiketi içerisinde ise şu anki yerel saatin string'e çevrilmiş halini tutuyor. Fonksiyon tanımından sonra gelen kod satırı bu fonksiyonun her saniyede bir çağrılmasını sağlıyor.
 
 [`setInterval()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setInterval) metodu ile her saniye bitiminde [`ReactDOM.render()`](https://tr.reactjs.org/docs/react-dom.html#render) metodu çağrılıyor. Bu sayede her yeni render ile arayüz güncellenmiş oluyor.
 
@@ -73,19 +73,19 @@ Bu örnekte tick adlı fonksiyon içerisinde bir React element'i tanımlanıyor.
 
 ## React Yalnızca Gerekli Kısımları Günceller
 
-React DOM, ilgili elementi ve elementin alt elemanlarını, bir önceki versiyonlarıyla karşılaştırır. Farkları tespit ettikten sonra yalnızca gerekli olan kısımlarda DOM güncellemesi yapar. Bu sayede DOM, istenen duruma getirilmiş olur.
+React DOM, ilgili elementi ve elementin alt elemanlarını, bir önceki versiyonlarıyla karşılaştırır. Farkları tespit ettikten sonra yalnızca gerekli olan kısımlarda DOM güncellemesi yapar. DOM ağacında değişmesi gerekmeyen yerler aynı şekilde kalarak gereksiz element render edilmesinin önüne geçilmiş olur. React, virtual DOM sayesinde kullanıcının sayfayla her etkileşiminde sayfayı güncellemek yerine gerekli yerlerde, küçük element'ler üzerinde güncellemeler yaparak Vanilla JavaScript (plain-pure JavaScript) kullanılarak oluşturulmuş sayfalardan daha performanslı çalışır. 
 
 ![react-dom-guncellemeleri](figures/react-dom-guncellemeleri.gif)
 
 Bütün UI ağacını her saniyede bir görüntüleyen bir element oluşturmamıza rağmen, React DOM tarafından **yalnızca içeriği değişen** string ifade güncellenir. [^1]
 
-Bu noktada, [Virtual DOM](https://tr.reactjs.org/docs/faq-internals.html) sayesinde React'in elementleri nasıl verimli bir şekilde render ettiğini açık bir şekilde görebiliriz. 
+Bu noktada, [Virtual DOM](https://tr.reactjs.org/docs/faq-internals.html) sayesinde React'in elementleri nasıl verimli bir şekilde render ettiğini açık bir şekilde görebiliriz.
 
 
 
 ## Not
 
-- Bu örnek için render() metodunun birden fazla kez çağrılması amacına hizmet etmiş olabilir ancak bu genelde kullanılan bir yöntem değildir. Bunun yerine sonraki bölümlerde değineceğimiz stateful component component'ler kullanılır.
+- Bu örnek için render() metodunun birden fazla kez çağrılması amacına hizmet etmiş olabilir ancak bu genelde kullanılan bir yöntem değildir. Bunun yerine sonraki bölümlerde değineceğimiz state objesi tutan class (stateful) component'ler kullanılır.
 
 
 
