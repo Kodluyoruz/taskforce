@@ -12,17 +12,17 @@ C&#39;nin başarısının sırrı, kendisinden önce iyi tasarlanmış ve veriml
 
 1970&#39;lerde C&#39;nin geliştirilmesi, birçokları tarafından modern bilgisayar programcılığının başlangıcı olarak kabul edilir. Kendisinden önceki dillerin sorunlu yönlerini çözmüş ve ortaya güçlü, verimli ve iyi tasarlanmış bir dil çıkarmıştı. C o kadar başarılı olmuştur ki, kendisinden sonraki birçok programlama diline ilham vermiştir. Ayrıca bugün bile hâlâ aktif olarak kullanılmaktadır. Örneğin, hepimizin bilgisayarlarında kullandığı işletim sistemlerinin büyük bir kısmı hâlâ C dili ile yazılır.
 
-## Bir Sonraki Adım:C++
+## Bir Sonraki Adım: C++
 
 1970&#39;lerdeve1980&#39;lerinbaşlarında,Cençokkullanılanprogramlamadilioldu. Buna rağmen, C&#39;nin de kendi içinde, gelişen teknolojilerin ve programcıların ihtiyaçlarını karşılamayan bazı eksikleri vardı. Nesne yönelimli programlama (OOP) metodolojisi, o yıllarda hızla benimsenmiş ve programcılar tarafından aranır olmuştu. C bundan yoksundu. Diğer yandan, sistem programlama için mükemmel bir dil olmasına rağmen, bunu sağlayabilmek için sunduğu özelliklerinfazlalığı,dilinkarmaşıklığınınartmasınanedenoluyordu.
 
 Bugibisorunlarıçözmekiçin,1979yılındayenibirdilgeliştirildi.1983yılında bu dilin adına C++ dendi. C&#39;nin ne kadar geliştirildiğini anlatabilmek için bir yerineiki+konulmuştu.C++,C&#39;ninbütünözelliklerinesahipti;aynızamanda OOP metodolojisine göre oluşturulmuştu. Başarısının sırrı da burada yatıyordu.1980&#39;lerdeve1990&#39;larınbaşında,C++artıkC&#39;ninyerinialmışveen çok kullanılan dil olmuştu. Diğer yandan, sahne Java&#39;nın çıkışına hazırlanıyordu.
 
-## Java&#39;ya neden ihtiyaçduyuldu?
+## Java&#39;ya neden ihtiyaç duyuldu?
 
 Java, C++&#39;tan hayli etkilenmiş, diğer yandan C ve C++&#39;ın bazı özelliklerini barındırmayan bir dildi. Ortaya çıkışından bugüne kadar Java en başarılı programlama dillerinden biri olmuştur. Günümüzde dünyada en çok kullanılan 3 programlama dilinden biridir. Peki, zaten başarılı olmuş iki tane dil varken, Java&#39;nın geliştirilmesine neden ihtiyaç duyulmuştur? Bunu cevaplayabilmek için önce bilgisayarların nasıl çalıştığına bakmamız gerekiyor.
 
-## Bilgisayarlar nasılçalışır?
+## Bilgisayarlar nasıl çalışır?
 
 Basitçe tarif etmek gerekirse bilgisayar, birçok karmaşık elektronik devreden oluşan bir sistemdir. Amerikalı matematikçi John von Neumann, 1945 yılında bilgisayarları kavramsal olarak tarif etmiştir. Bu tarife göre, bir bilgisayar sistemi 3 temel parçadan oluşur:
 
@@ -103,6 +103,7 @@ Sağda bulunan pencere bir metin editörüdür. Burada yeni oluşturduğumuz Jav
 
 ![](RackMultipart20201124-4-tyjch_html_54c2b3149ad25cc.gif)
 
+````java 
 /\*\*
 
 - Java ile yazdığımız ilkprogram.
@@ -123,7 +124,7 @@ System.out.println(&quot;Hello, World!&quot;);
 }
 
 }
-
+````
 Sonuçta ekranımız şu şekilde gözükmelidir:
 
 ![](RackMultipart20201124-4-tyjch_html_2e4ec58d045d100c.jpg)
@@ -138,7 +139,7 @@ Bu seçenek yazdığımız programı çalıştırmamızı sağlayacaktır. Çal�
 
 Görüldüğügibiaşağıdayenibirpencereaçıldıvebupencerede&quot;Hello,World&quot; yazdı. Şimdi programımızı daha ayrıntılıinceleyelim.
 
-## İlk programımızda neyaptık?
+## İlk programımızda ne yaptık?
 
 Kodu incelerseniz, ilk satırın /\*\*, 4. satırın ise \*/ karakterlerinden başka bir şey içermediğini görürsünüz. Bunlar Java&#39;da çok satırlı yorumlar yazmak için kullandığımız işaretlerdir. Yorumlar, kaynak kodun içine yazdığınız,
 
@@ -167,7 +168,7 @@ Kodumuzu incelemeye devam edelim. 5. satırda bir Java sınıfının tanımland�
 1. ve 11. satırlarda bir metot tanımlamasının yapıldığını görüyoruz. Metotlar, bir iş yapan yapısal bölümlerdir. Burada yazdığımız metot özel bir metottur. Bumetoda **ana**** metot**(_main__method_)denir.Heruygulamanınbirgirişnoktası olması gerekir; uygulama buradan çalışmaya başlar ve devam eder. Ana metotlaruygulamamızdaçalışanilkmetottur.Anametoduntanımıherzaman aynıdır ve yukarıda yazdığımız gibidir. Diğer yandan, başka metotların daha farklı tanımlamaları olabilir. Metotlarla ilgili ayrıntıya daha sonragireceğiz.
 2. satırda ise metodun içeriğini görüyoruz. Burada konsola &quot;Hello, World&quot; metnini yazdırıyoruz. &quot;System.out&quot; varsayılan konsolu belirtirken; &quot;println&quot; ise konsola metin yazdırmamızı sağlayan metodun isminibelirtir.
 
-## Karar mekanizmalarınagiriş
+## Karar mekanizmalarına giriş
 
 Şimdi bir örnek daha görelim ve karar mekanizmalarına giriş yapmış olalım. Kodumuzu tamamen silelim ve aşağıdaki metni alıp kopyalayalım:
 
