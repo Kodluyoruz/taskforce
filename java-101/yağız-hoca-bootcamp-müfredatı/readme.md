@@ -1,4 +1,4 @@
-# JAVA&#39;NINTARİHÇESİ
+# JAVA&#39;NIN TARİHÇESİ
 
 Java&#39;yı iyi bir şekilde anlamak için, geçmişini, oluşturulmasının amaçlarını ve motivasyonunu bilmek gerekir. Diğer başarılı programlama dillerinde de olduğugibi,Javakendindenöncegelendillerinbaşarısızözellikleriniazaltmış veya tamamen yok etmiş, iyi özelliklerini ise bünyesinde toplamış ve geliştirmiştir.
 
