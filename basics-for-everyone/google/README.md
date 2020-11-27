@@ -1,7 +1,3 @@
----
-typora-copy-images-to: figures
----
-
 # GOOGLE 
 
 ![google1](figures\google1.png)
