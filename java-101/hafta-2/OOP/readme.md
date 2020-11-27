@@ -169,7 +169,7 @@ DatabaseConnection dbConnection = new DatabaseConnection("jdbc:Mysql//localhost"
 - Soyutlama (Abstraction)
 - Kapsülleme (Encapsulation)
 
-![](RackMultipart20201127-4-1qsh3jh_html_916ec1fb2eb194e5.png)
+<img src="figures/OOPs.png" alt="Nesne Yönelimli Programlama Sistemi" style="zoom:80%;" />
 
 ### Nesne Kavramı (Object)
 
@@ -187,17 +187,11 @@ Kalıtım gerçek hayattaki gibi ebeveynlerden alınan genetik özellikleri tems
 
 Kalıtımda bir ATA sınıf vardır. Bu ata sınıftan kalıtım alan alt sınıflar olur.
 
-#### Tekli Kalıtım (Single Inheritance) (wordden ekran görüntüsü gelecek)
+#### Tekli Kalıtım (Single Inheritance) 
 
-![](RackMultipart20201127-4-1qsh3jh_html_c8a797017dd1ae3f.gif)
+![](figures/single-inheritence.png)
 
-##### 
 
-![](RackMultipart20201127-4-1qsh3jh_html_525f2d83a8919d27.gif)
-
-![](RackMultipart20201127-4-1qsh3jh_html_e286ac602868930.gif)
-
-##### 
 
 &quot; **Car**&quot; isminde bir ATA sınıf tanımladık. Ardından, &quot; **ElectricCar**&quot; isminde bir sınıf oluşturduk. &quot; **ElectricCar**&quot; isimli sınıf &quot; **Car**&quot; sınıftan kalıtım almaktadır. &quot; **extends**&quot; anahtar kelimesi ile &quot; **Car**&quot; sınıftan kalıtım almasını sağladık. Böylece, &quot; **ElectricCar**&quot; sınıfı &quot; **Car**&quot; sınıfa ait değişkenleri ve fonksiyonları kalıtım yoluyla almış olur. &quot; **ElectricCar**&quot;ise sınıfı alt sınıftır. Artık, &quot; **ElectricCar**&quot; sınıfta da &quot; **setBrand**&quot; ve &quot; **setLicensePlate**&quot; fonksiyonlarını ve &quot; **licensePlate**&quot;, &quot; **brand**&quot; değişkenlerini bünyesine almış olur. Aynı zamanda &quot; **charge**&quot; fonksiyonu da kendisine aittir. Bu fonksiyon ATA sınıfta yer almaz.
 
@@ -390,16 +384,6 @@ protected void showInfo() {
 }
 ````
 
-
-
-@Override
-
-**protected** voidshowInfo(){
-
-System.out.println(&quot;ElectricCar: &quot;+ toString());
-
-}
-
 Yukarıdaki &quot;showInfo&quot; metodu, &quot;ElectricCar&quot; sınıfı içinde &quot;@Override&quot; tanımlamasıyla üst sınıftaki metodu ezmektedir. &quot;ElectricCar&quot; tipinden oluşturulan nesneler üzerinden &quot;showInfo&quot; metodunu çağıracak olursak &quot;ElectricCar&quot; sınıfı içindeki metodu çağıracaktır.
 
 ````java
@@ -528,21 +512,7 @@ public void showInfo() {
 
 Bu modelde zincirleme bir kalıtım hiyerarşisi mevcuttur. Örneğin: C sınıfı B sınıfından kalıtım alsın. Bu durumda B sınıfı C için ATA sınıf olmuş oluyor. Farz edelim ki B sınıfı da A sınıfından kalıtım aldı. Bu durumda B sınıfının ATA sınıfı A olmuş oldu. Fakat, C sınıfı hem A sınıfının hem de B sınıfının özelliklerini kalıtım yoluyla kendisine almış oldu.
 
-![](RackMultipart20201127-4-1qsh3jh_html_475821559ffcc39d.gif) (wordden ss gelecek)
-
-Vehicle
-
-![](RackMultipart20201127-4-1qsh3jh_html_dfb1db514953a25.gif)
-
-![](RackMultipart20201127-4-1qsh3jh_html_c8a797017dd1ae3f.gif)
-
-Car
-
-![](RackMultipart20201127-4-1qsh3jh_html_204699be07dbeed0.gif)
-
-![](RackMultipart20201127-4-1qsh3jh_html_e286ac602868930.gif)
-
-ElectricCar
+![Çok Katmanlı Kalıtım](figures/multi-level-inheritance.png)
 
 Yukarıdaki örnekte &quot;ElectricCar&quot; sınıfı &quot;Car&quot; sınıfından kalıtım alıyor. Ardından, &quot;Car&quot; sınıfı da &quot;Vehicle&quot; sınıfından kalıtım alıyor. Böylece dikey yönde çok katmanlı bir hiyerarşik kalıtım modeli oluşuyor.
 
@@ -576,19 +546,7 @@ public class ElectricCar extends Car {
 
 Bu modelde bir tane ATA sınıfımız vardır ve bu sınıftan kalıtım alan birden fazla alt sınıf vardır. Örneğin: A sınıfı ATA sınıf olsun. B,C,D ondan kalıtım alıyor olsunlar. Bu modele hiyerarşik kalıtım denir.
 
-![](RackMultipart20201127-4-1qsh3jh_html_475821559ffcc39d.gif)
-
-Tax
-
-![](RackMultipart20201127-4-1qsh3jh_html_e34dbefd6b259d29.gif)
-
-![](RackMultipart20201127-4-1qsh3jh_html_228a76a961af44be.gif)
-
-![](RackMultipart20201127-4-1qsh3jh_html_c8a797017dd1ae3f.gif) ![](RackMultipart20201127-4-1qsh3jh_html_c8a797017dd1ae3f.gif)
-
-KDVTax
-
-OTVTax
+![Hiyerarşik Kalıtım](figures/hierarchical-inheritance.png)
 
 ````java
 public class Tax {
