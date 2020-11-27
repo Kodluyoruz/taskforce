@@ -102,15 +102,7 @@ public class Product {
 
 “isPriceGreaterThanMaxPrice” fonksiyonu “final” ile tanımlandığı için alt sınıflarda ezilemeyecektir. Zaten ezilmesini de istemeyiz çünkü o anki ücretin maksimum değerden büyük mü olduğu kurgusu alt sınıflarda değişecek bir özellik değildir. Hiçbir alt sınıfın bu fonksiyonu kendisine göre yeniden tanımlamasına gerek yoktur.
 
- 
-
- 
-
- 
-
- 
-
-Java “final” Sınıflar
+## Java “final” Sınıflar
 
  
 
@@ -146,7 +138,7 @@ public class Laptop extends Computer {
 
  
 
-Enum Tipler
+# Enum Tipler
 
  
 
@@ -232,11 +224,7 @@ SUCCESS sabiti enum yapısı içinde ilk eleman olduğu için indeks değeri 0 (
 
  
 
- 
-
- 
-
-Gelişmiş “enum” Yapıları
+## Gelişmiş “enum” Yapıları
 
  
 
@@ -308,39 +296,25 @@ public class Main {
 }
 ```
 
- 
-
- 
-
-Generic Tipler
-
- 
+# Generic Tipler
 
 Generic’ler Java 5.0 ile birlikte gelen önemli özelliklerden bir tanesidir. Generic tanımlı yapılar ile tip güvenliğini sağlayıp çalışma zamanında (Runtime) çıkabilecek hataları daha derleme aşamasında görebilmeyi sağlarlar. Aynı zamanda Type Casting (Tip Dönüşümü) ihtiyacını azaltarak tip güvenli yazılımlar gerçekleştirmemizi sağlar. Type Casting’in çok yapıldığı yazılımlarda çalışma zamanı hatası alınma ihtimali yüksektir. Bunu bir önceki konuda “downcasting” yöntemini incelerken görmüştük. Aynı ATA sınıftan kalıtım alan alt sınıfların birbirine dönüşümü yapılırken derleme zamanında ortaya çıkmayan bir hata çalışma zamanında karşımıza çıkmıştı. Kurumsal projelerde çoğunlukla tercih edilir. Özellikle soyutlamayı arttırması nedeniyle Nesneye Dayalı Programlama prensiplerini destekler. 
 
- 
-
 Generic yapılar aynı zaman performans kazancı ve kodun yeniden kullanılabilirliği noktasında da bizlere yüksek fayda sağlarlar. Generic kullanılmadığı durumlarda “ClassCastException” hataları alabiliriz. 
-
- 
-
- 
 
 Generic’lerin en çok kullanıldığı yerlerden biri de Java Collection Framework’tür (JCF). İlerleyen konularda JCF ile ilgili detaylı bilgiler verilecektir.
 
- 
+
 
 \-    Sınıf (Class)
 
 \-    Metot (Method)
 
- 
-
 Yukarıdaki yapıları Generic olarak tanımlayabiliriz.
 
  
 
-Generic Sınıflar
+## Generic Sınıflar
 
  
 
@@ -354,9 +328,7 @@ Java’da Generic sınıf tanımlamak için sınıf isminden sonra <T> içinde s
 
 Generic sınıf tanımlamak için aşağıdaki gibi bir notasyona uymak yeterlidir.
 
- 
-
-```
+```java
 // "class" anahtar kelimesinden sonra sınıf isminizi vererek bir sınıf tanımlıyorsunuz.
 // Ardından, <T> notasyonuyla bu sınıfın Generic tipler alabileceğini belirtiyoruz. 
 // T yerine dilediğiniz ismi verebilirsiniz.
@@ -366,8 +338,6 @@ public class sinif_isminiz <T> {
 }
 ```
 
- 
-
 "class" anahtar kelimesinden sonra sınıf isminizi vererek bir sınıf tanımlıyorsunuz. Ardından, <T> notasyonuyla bu sınıfın Generic tipler alabileceğini belirtiyoruz. T yerine dilediğiniz ismi verebilirsiniz. T tipine kısıtlama getirmediğimiz için varsayılan olarak "Object" alt tipini alıyor.
 
  
@@ -376,7 +346,7 @@ Daha gelişmiş bir Generic sınıf örneğimiz. Bu örnekte veri yapılarında 
 
  
 
-![img](file:///C:/Users/ozan-/AppData/Local/Packages/oice_16_974fa576_32c1d314_17f5/AC/Temp/msohtmlclip1/01/clip_image002.png)
+![Stack](figures/stack.png)
 
  
 
@@ -471,7 +441,7 @@ intStack.push(200);
 
  
 
-Generic Interface
+## Generic Interface
 
  
 
@@ -530,7 +500,7 @@ public class Stack <T> implements DataList<T> {
 
  
 
-![img](file:///C:/Users/ozan-/AppData/Local/Packages/oice_16_974fa576_32c1d314_17f5/AC/Temp/msohtmlclip1/01/clip_image004.png)
+![img](figures/queue.png)
 
 ```java
 public class Queue <T> implements DataList<T> {
@@ -645,7 +615,7 @@ V: Değer (Value).
 
  
 
-Generic Metotlar
+## Generic Metotlar
 
  
 
@@ -722,7 +692,7 @@ Oluşturduğumuz Generic metodun kullanımı yukarıdaki gibidir. Metot çağrı
 
  
 
-Joker Karakterler (WildCards)
+## Joker Karakterler (WildCards)
 
  
 
@@ -730,7 +700,7 @@ Yukarıda yaptığımız örneklerde Generic veri tipi üzerinde bir kısıtlama
 
  
 
-? Karakteri
+### ? Karakteri
 
  
 
@@ -783,7 +753,7 @@ Bu yazdığımız ? karakteriyle tipi belirsiz olan, yani hangi tipte olursa ols
 
  
 
-Kısıtlanmış Generic Veri Tipleri
+# Kısıtlanmış Generic Veri Tipleri
 
  
 
@@ -791,7 +761,7 @@ Kısıtlanmış veri tipleri iki türlü olabilir. “super” ve “extends” 
 
  
 
-Yukarı yönlü kısıtlama (Upper bounded)
+## Yukarı yönlü kısıtlama (Upper bounded)
 
  
 
@@ -827,21 +797,11 @@ public class NumberStack <N extends Number> extends Stack<N>{
 
  
 
- 
-
- 
-
- 
-
- 
-
-Aşağı yönlü kısıtlama (Lower bounded)
+## Aşağı yönlü kısıtlama (Lower bounded)
 
  
 
 Tanımladığımız Generic veri tipinin sadece kendi veri tipi ve kalıtım aldığı ATA sınıfların tiplerini kabul etmesini istediğimiz durumlarda “super” anahtar kelimesi ile kısıtlandırabiliriz. Buna şöyle bir örnek verebiliriz. Örneğin ElectricCar tipinde bir alt sınıfımız olsun bu alt sınıf Car sınıfından kalıtım alsın. Kalıtım aldığı Car sınıfı da Vehicle isimli sınıftan kalıtım alsın. Böyle bir kalıtım hiyerarşisinde “T super ElectricCar” anahtar kelimesi ile veri tipini kısıtlandırırsak sadece “ElectricCar” veri tipini ve onun ATA sınıfları olan “Car”, “Vehicle” sınıf tiplerini kabul edecektir.
-
- 
 
  
 
@@ -893,8 +853,6 @@ public static void runGenericSuperLowerBound() {
 
 1-   Generic tiplerden static bir değişken tanımlayamazsınız.
 
- 
-
 ```java
 public class GenericsExample<T>
 {
@@ -905,8 +863,6 @@ public class GenericsExample<T>
  
 
 2-   Örneğin T isminde oluşturduğunuz Generic tipten bir nesne oluşturamazsınız.
-
- 
 
 ```java
 public class GenericsExample<T>
@@ -922,8 +878,6 @@ public class GenericsExample<T>
 
 3-   İlkel veri tiplerini Generic tipi olarak kullanamazsınız.
 
- 
-
 ```java
 List<int> ids = new ArrayList<>();
 ```
@@ -931,8 +885,6 @@ List<int> ids = new ArrayList<>();
  
 
 4-   Generic tipte bir Exception sınıfı oluşturamazsınız.
-
- 
 
 ```java
 public class GenericException<T> extends Exception {
@@ -942,21 +894,13 @@ public class GenericException<T> extends Exception {
 
  
 
-Java Koleksiyon Çatısı (Java Collection Framework) – (JCF)
-
- 
+# Java Koleksiyon Çatısı (Java Collection Framework) – (JCF)
 
 Yazılım gerçekleştirirken mutlaka liste tipinde verilerle uğraşmak gerekecektir. Bu liste tipindeki verilere dinamik olarak eleman ekleme, eleman almak gibi işlemler gerekecektir. Hatta, limiti dolduğunda otomatik olarak listenin büyümesini de en esnek şekilde isteyeceğiz. Tüm bu özellikler ve hazır veri yapıları bizim daha hızlı kod geliştirmemize büyük katkı sağlayacaktır. Bu hazır algoritmalar, veri yapıları ve sınıflar ile yaptığımız işe daha çok odaklanacağız. JCF sınıfları da JDK içinde tanımlanmış hazır gelen yapılardır.
 
- 
-
 JCF sınıfları Java 1.2 ile birlikte hayatımıza girmiştir.
 
- 
-
 Önceki konularda dizi kavramından bahsetmiştik. Diziler de liste halindeki verileri yazılım dünyasında modellemek için kullanılabilir. Fakat, dizilerin iki önemli eksikliği vardır.
-
- 
 
 \-    Dizinin büyüklüğü çalışma zamanında değiştirilemez. (immutable)
 
@@ -964,37 +908,25 @@ JCF sınıfları Java 1.2 ile birlikte hayatımıza girmiştir.
 
 **Yazılım = Veri + Algoritma** şeklinde özetlenebilir. Yazılımlar verileri belli başlı algoritmalar ile işleyip kullanan ve çeşitli çıktılar üreten sistemlerdir. Algoritmaları da Java gibi programlama dilleriyle gerçekleştiririz.
 
- 
-
 Java Collection Framework aşağıdaki temel bileşenlerden oluşur.
-
- 
 
 \-    Arayüzler (interfaces): Java Collection çatısı temelde iki tane interface’den türemiştir. En temel arayüzler “Map” ve “Collection” interface’leridir. “Map” interface’den türeyen alt sınıflar anahtar-değer biçimindeki verileri depolarlar. Bu duruma örnek olarak öğrenci numarasına göre dönemlik ders notlarının tutulmasını verebiliriz. “Collection” interface’den türemiş alt sınıflar ise düz liste halinde tutulan verileri depolarlar. Dizilere benzerdirler. Fakat, dizilere göre daha esnek işlevleri vardır. Buna örnek olarak kredi kartının aylık hesap hareketleri verilebilir.
 
- 
-
 \-    “Map” ve “Collection” interface’lerden türeyen alt sınıflar: Bu iki temel interface’den türemiş içinde belli başlı algoritmalar çalışan sınıflardır. Bu sınıflardan direkt olarak nesne üretip kullanabiliriz. Veri yapıları dersindeki bir çok veri yapısı burada hazır olarak kodlanmıştır. Biz programcılar bu hazır sınıfları kullanarak yazılım geliştirme hızımızı arttırabiliriz. Yaptığımız iş akışına daha çok odaklanabiliriz.
-
- 
 
 \-    Algoritmalar: Verinin hangi mantığa göre ekleneceği, listedeki elemanlara hangi sırayla erişilebileceği, veri içinde arama yapılması gibi bir çok işleme ihtiyaç duyarız. Java Collection Framework içindeki sınıflar bu saydığımız işlemleri belli algoritmalara göre yaparlar. Her sınıfın kendine özgü bir algoritması vardır.
 
- 
-
 Java Collection Framework Soyağacı (Kalıtım Şeması)
 
- 
+![Java Collection Framework](figures/java-cf.png)
+
+ ![img](figures/map.png)
 
  
 
-![img](file:///C:/Users/ozan-/AppData/Local/Packages/oice_16_974fa576_32c1d314_17f5/AC/Temp/msohtmlclip1/01/clip_image006.png) ![img](file:///C:/Users/ozan-/AppData/Local/Packages/oice_16_974fa576_32c1d314_17f5/AC/Temp/msohtmlclip1/01/clip_image008.png)
-
  
 
- 
-
-Collection Arayüzü (interface) ve Alt Sınıfları
+## Collection Arayüzü (interface) ve Alt Sınıfları
 
  
 
@@ -1036,27 +968,13 @@ Collection interface’den türeyen alt sınıfların sağlamak zorunda olduğu 
 | void clear()                                     | Veri  kümesindeki tüm elemanları temizler, siler.            |
 | boolean  removeAll(Collection<?> elements)       | Verilen  elemanlar kümesini mevcut veri kümesinden siler.    |
 
- 
-
- 
-
 Collection interface’den kalıtım alan alt sınıfları kendiniz de türetebilirsiniz.
 
  
 
- 
+## List interface (Arayüzü)
 
- 
 
- 
-
- 
-
- 
-
-List interface (Arayüzü)
-
- 
 
 Collection interface’den türemiş bir interface’dir. List interface’den kalıtım alan alt sınıflar vardır. Bu interface’den kalıtım alan sınıflarda veri kümesine mükerrer kayıt ekleyebilirsiniz. Aynı zaman null değere sahip elemanları da veri kümesine dahil edebilirsiniz.
 
@@ -1078,9 +996,7 @@ List interface Collection interface’e ek olarak aşağıdaki fonksiyonları da
 
  
 
-List ve Set Farkları
-
- 
+### List ve Set Farkları
 
 List ve Set interfaceleri her ikisi de Collection interface’den kalıtım almıştır. Her iki interface’den türeyen alt sınıflar liste halindeki veri kümeleri üzerinde işlemler yaparlar. Bu nedenle aslında birbirine çok benzerdirler.
 
@@ -1094,7 +1010,7 @@ Diğer ikinci önemli fark ise List interface’den türeyen alt sınıflarda ve
 
  
 
-List interface’in alt sınıfları
+### List interface’in alt sınıfları
 
  
 
@@ -1112,7 +1028,7 @@ En sık kullandığımız düz bir liste şeklinde verileri tutan “ArrayList�
 
  
 
-ArrayList Sınıfı
+#### ArrayList Sınıfı
 
  
 
@@ -1190,7 +1106,7 @@ nameList.clear();
 
  
 
-LinkedList Sınıfı
+#### LinkedList Sınıfı
 
  
 
@@ -1219,7 +1135,7 @@ System.out.println("Element of 2 index: " + nameList.get(2));
 
  
 
-LinkedList ile ArrayList Farkları
+#### LinkedList ile ArrayList Farkları
 
  
 
@@ -1231,7 +1147,7 @@ LinkedList ile ArrayList Farkları
 
  
 
-Set interface (Arayüzü)
+## Set interface (Arayüzü)
 
  
 
@@ -1255,7 +1171,7 @@ Set interface’in alt sınıfları:
 
  
 
-HashSet Sınıfı
+### HashSet Sınıfı
 
  
 
@@ -1405,7 +1321,7 @@ printAll(books);
 
  
 
-SortedSet interface (Arayüzü)
+### SortedSet interface (Arayüzü)
 
  
 
@@ -1413,7 +1329,7 @@ Set interface’den kalıtım almıştır. Set’in tanımladığı özelliklere
 
  
 
-TreeSet Sınıfı
+#### TreeSet Sınıfı
 
  
 
@@ -1484,7 +1400,7 @@ Ardından aynı örnekte “BookComparatorByPublisher” isminde “Comparator�
 
  
 
-Map interface (Arayüzü)
+## Map interface (Arayüzü)
 
  
 
@@ -1492,7 +1408,7 @@ Map interface (Arayüzü)
 
  
 
-HashMap Sınıfı
+### HashMap Sınıfı
 
  
 
@@ -1552,10 +1468,6 @@ Java Collection Framework altyapısını incelerken işimize yaracak yardımcı 
 4-   Comparable
 
 5-   Comparator
-
- 
-
- 
 
  
 
