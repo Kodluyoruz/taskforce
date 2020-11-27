@@ -5,7 +5,7 @@
 - [x] [Create React app](create-react-app/)
 - [x] [JSX](jsx/)
 - [x] [Rendering Elements](rendering-elements/)
-- [ ] Components
+- [x] [Components](components/) 
 - [ ] Props vs state
 - [ ] Conditional rendering
 - [ ] Component life cycle
