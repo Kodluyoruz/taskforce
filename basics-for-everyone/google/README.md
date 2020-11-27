@@ -1,6 +1,12 @@
+---
+typora-copy-images-to: figures
+---
+
+
+
 # GOOGLE 
 
-![google1](figures\google1.png)
+![google1](figures/google1.png)
 
 
 
@@ -16,7 +22,7 @@
 
   
 
-<img src="figures/google2.png" alt="google2" style="zoom: 25%;" />
+<img src="figures\google2.png" alt="google2" style="zoom:25%;" />
 
 
 
@@ -36,7 +42,7 @@
 
 
 
-<img src="figures\google3.png" alt="google3" style="zoom: 25%;" /> İşte videoya tam da [buradan](https://www.youtube.com/watch?v=BNHR6IQJGZs&feature=youtu.be) ulaşabilirsiniz!
+<img src="figures\google3.png" alt="google3" style="zoom:25%;" /> İşte videoya tam da [buradan](https://www.youtube.com/watch?v=BNHR6IQJGZs&feature=youtu.be) ulaşabilirsiniz!
 
 
 
