@@ -54,7 +54,7 @@
 
 ## Google'lamak
 
-- [ ] Google kullanarak bilmediklerini öğrenmek
+- [ ] [Google kullanarak bilmediklerini öğrenmek](google/)
 - [ ] stackoverFlow
 - [ ] KodKoda
 
