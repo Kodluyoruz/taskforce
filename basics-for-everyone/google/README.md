@@ -16,7 +16,7 @@
 
   
 
-<img src="figures\google2.png" alt="google2" style="zoom:25%;" />
+![google2](figures/google2.png)
 
 
 
@@ -36,7 +36,9 @@
 
 
 
-<img src="figures\google3.png" alt="google3" style="zoom:25%;" /> İşte videoya tam da [buradan](https://www.youtube.com/watch?v=BNHR6IQJGZs&feature=youtu.be) ulaşabilirsiniz!
+![google3](figures/google3.png)
+
+ İşte videoya tam da [buradan](https://www.youtube.com/watch?v=BNHR6IQJGZs&feature=youtu.be) ulaşabilirsiniz!
 
 
 
@@ -53,7 +55,7 @@ Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık ge
 
 
 
-<img src="figures\google4.png" alt="google4" style="zoom:25%;" />
+![google4](figures/google4.png)
 
  
 
@@ -64,7 +66,7 @@ Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık ge
 
 # GOOGLE'U NEDEN KULLANIYORUZ?
 
-![soru](figures\soru.jpg)
+![soru](figures/soru.jpg)
 
 
 
@@ -74,7 +76,7 @@ Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık ge
 
   
 
-![googleürün](figures\googleürün.jpg)
+![googleürün](figures/googleürün.jpg)
 
 
 
@@ -104,11 +106,11 @@ Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık ge
 
 
 
-![kodkoda](figures\kodkoda.png)
+![kodkoda](figures/kodkoda.png)
 
 
 
-![stackoverflow](figures\stackoverflow.png)
+![stackoverflow](figures/stackoverflow.png)
 
 * "Kod Koda" ile ilgili detaylı bilgiyi buradan; "Stack Overflow" ile ilgili deyatlı bilgiyi de buradan alabilirsiniz.
 
