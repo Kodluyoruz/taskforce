@@ -1,9 +1,3 @@
----
-typora-copy-images-to: figures
----
-
-
-
 # GOOGLE 
 
 ![google1](figures/google1.png)
@@ -64,14 +58,61 @@ Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık ge
  
 
 * **İnternet** günlük hayatın vazgeçilmez bir parçası. Sınırlarını hayal etmekte bile zorlandığımız bu devasa bilgi ağında kullanıcılar aradıklarını hızlı bir şekilde bulabilmek için arama motorlarından yardım alıyor.
-
 * Bildiğiniz gibi Google şu an için en popüler arama motoru konumunda. Milyonlarca kullanıcı aradıkları sonuca ulaşabilmek için Google’ın gelişmiş filtreleme ve arama özelliklerini kullanıyor. **Google** her ne kadar gelişmiş filtreleme seçenekleri sunsa da kullanıcıların da atması gereken bir takım adımlar var. Bu adımlar sonuçların daha doğru ve daha net olmasını garantiliyor. Atılması gereken adımlara [buradan](https://www.tamindir.com/blog/googlei-daha-etkili-kullanmak-icin-ipuclari_15804/) ulaşabilirsiniz.
 
 
 
+# GOOGLE'U NEDEN KULLANIYORUZ?
+
+![soru](figures\soru.jpg)
 
 
 
+* "Google'u neden kulanıyoruz?". Seneler öncesinde bu soru ile karşılaşmış olsaydık vereceğimiz cevaplar "Bilmediğim bir şeyi öğrenmek için kullanıyorum." ya da "Araştırma yapmak için kullanıyorum." şeklinde olacaktı.
+
+* Ancak Google, gelişmesiyle birlikte bir arama motorundan fazlası olmaya başladı. Artık gün içinde kullandığımız çoğu uygulamanın Google'un bir ürünü olduğunu söyleyebiliriz. Bir yere giderken kullandığımız haritalar uygulaması, yeni bir dil öğrenirken kullandığımız çeviri uygulaması, fotoğraflarınızı başarılı bir şekilde  yedeklediğiniz fotoğraflar uygulaması ve dahası verebileceğimiz örneklerdir.
+
+  
+
+![googleürün](figures\googleürün.jpg)
+
+
+
+
+
+* Peki gelin sizler için soruyu biraz daha özelleştirelim.
+
+  
+
+## Yazılım Konusunda Google'u Nasıl Kullanıyoruz?
+
+* Kullandığınız yazılım dilinde bilmediğiniz bir kavramla karşılaştığınızda nasıl bir yol izliyorsunuz?
+
+  * Karşılaştığınız kavramı, Google'da aratarak  bu konuda yazılmış birden fazla yazıya, konuyu anlatan görsellere, hatta sizlere bunu daha da iyi açıklamak için hazırlanmış videolara ulaşabilirsiniz. 
+
+  
+
+* Öğrenmeye yeni başladığınız ya da deneyimli olduğunuz bir yazılım dilinde daha önce karşılaşmadığınız bir hata aldığınızda neler yapıyorsunuz?
+
+  * Yazılımı, yıllardır durmadan kendini güncelleyen, gelişen bir kavram olarak düşünebiliriz. Aldığınız hatalar, daha önceden bir başkası tarafından alınmış ve çözüm yolu paylaşılmış hatalar olabilir. Bu nedenle aldığınız bir hatayı Google'da aratarak milyonlarca yazılı, görüntülü ve sesli çözüme ulaşabilirsiniz.
+
+* Diyelim ki, sizlere yönelttiğimiz bu iki soruda da izlediğimiz çözüm yolları işe yaramadı. Bu durumda ne yapacağız? 
+
+  * Karşılaştığıımız ve içinden çıkamadığımız bu durumdan araştırarak, deneyimli insanlara ulaşıp yaşadığımız sorundan bahsederek kurtulabiliriz.
+  * İşte tam da bu sırada, sorunumuzu yüzlerce deneyimli, bilgili insanla paylaşabileceğimiz yazılım ile ilgili forum sayfaları devreye giriyor diyebiliriz.
+  * ["Kod Koda"](https://www.kodkoda.com/) ve ["Stack Overflow"](https://stackoverflow.com/) bu forum sayfalarına verebileceğimiz örneklerdir.
+
+
+
+![kodkoda](C:\Users\emirh\Documents\GitHub\taskforce\basics-for-everyone\google\figures\kodkoda.png)
+
+
+
+![stackoverflow](C:\Users\emirh\Documents\GitHub\taskforce\basics-for-everyone\google\figures\stackoverflow.png)
+
+* "Kod Koda" ile ilgili detaylı bilgiyi buradan; "Stack Overflow" ile ilgili deyatlı bilgiyi de buradan alabilirsiniz.
+
+  
 
 ## Kaynaklar
 
@@ -81,3 +122,5 @@ Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık ge
 * https://www.vargonen.com/blog/arama-motoru-nedir/
 * https://about.google/intl/ALL_tr/products/
 * https://www.tamindir.com/blog/googlei-daha-etkili-kullanmak-icin-ipuclari_15804/
+* https://www.kodkoda.com/
+* https://stackoverflow.com/
