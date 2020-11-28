@@ -104,11 +104,11 @@ Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık ge
 
 
 
-![kodkoda](C:\Users\emirh\Documents\GitHub\taskforce\basics-for-everyone\google\figures\kodkoda.png)
+![kodkoda](figures\kodkoda.png)
 
 
 
-![stackoverflow](C:\Users\emirh\Documents\GitHub\taskforce\basics-for-everyone\google\figures\stackoverflow.png)
+![stackoverflow](figures\stackoverflow.png)
 
 * "Kod Koda" ile ilgili detaylı bilgiyi buradan; "Stack Overflow" ile ilgili deyatlı bilgiyi de buradan alabilirsiniz.
 
