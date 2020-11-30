@@ -200,11 +200,25 @@ const element = (
 );
 ```
 
-**Not:** JSX return ederken tek bir element'in return edilmesine dikkat edilmelidir. Yani birden fazla child'i olan bir JSX return edilebilir ancak bu child elementleri sarmalayan bir top-level element olmalıdır. 
+**Not:** JSX return ederken tek bir element'in return edilmesine dikkat edilmelidir. Yani birden fazla child'i olan bir JSX return edilebilir ancak bu child elementleri sarmalayan bir top-level (kapsayıcı) element olmalıdır. 
 
 Bu örnekte <h1> ve <h2> element'lerini sarmayalan bir <div> olmasaydı 2 element ard arda bir şekilde açıkta kalmış olacaktı ve bir hatayla karşılaşacaktık. 
 
-**Not:** Bazı durumlarda kapsayıcı tag olarak bir <div> yerine boş tag'ler kullanılabilir. ( `<></>` )
+**Not:** Bazı durumlarda kapsayıcı tag olarak bir <div> yerine [fragment'ler](https://tr.reactjs.org/docs/fragments.html) kullanılabilir.
+
+```react
+render() {
+  return (
+    <React.Fragment>
+      <ChildA />
+      <ChildB />
+      <ChildC />
+    </React.Fragment>
+  );
+}
+```
+
+Fragment'leri tanımlamak için kısa syntax olarak boş tag'ler de kullanabiliriz.
 
 ```react
 const element = (
@@ -215,9 +229,7 @@ const element = (
 );
 ```
 
-Bu şekilde finalde oluşan markup'a etki etmeyecek bir şekilde JSX'in tek bir element return etme kuralına uyulmuş oldu. 
-
-
+Bu şekilde finalde oluşan markup'a etki etmeyecek bir şekilde JSX'in tek bir element return etme kuralına uyulmuş oldu.  Bunun için ayrıca [fragment'ler](https://tr.reactjs.org/docs/fragments.html) de kullanılabilir.
 
 ## **Notlar**
 
