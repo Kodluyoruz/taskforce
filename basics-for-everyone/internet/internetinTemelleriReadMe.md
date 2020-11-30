@@ -8,7 +8,7 @@ Not: Aşağıdaki videoları izlerken altyazılardan "Türkçe" seçmeyi unutmay
 
 Aşağıdaki videoda "İnternetin babası" olarak adlandırılanlardan biri olan [Vint Cerf](https://tr.wikipedia.org/wiki/Vint_Cerf) ile "İnternet nedir?" konusu konuşulmuş. İnternetin aslında [ARPANET](https://tr.wikipedia.org/wiki/ARPANET) projesinden ortaya çıktığı ve savaşta bir yer bombalanınca sistemin tamamen çökmesini engellemeye karşı çözüm olarak bulunan dağıtık sistem mimarisini kullandığını biliyor muydunuz? 
 
-[![İnternet nedir ?](C:\Users\asuspc\Desktop\taskforce\internet_nedir.PNG)](https://www.youtube.com/watch?v=Dxcc6ycZ73M&feature=emb_logo)
+[![İnternet nedir ?](https://github.com/Kodluyoruz/taskforce/blob/basics/basics-for-everyone/internet/figures/internet_nedir.PNG)](https://www.youtube.com/watch?v=Dxcc6ycZ73M&feature=emb_logo)
 
 
 
@@ -20,11 +20,11 @@ Bilgi bite dönüştürülüyor ve fiziksel elemanlar aracılığı ile hedefe u
 
 Kullandığımız fiziksel elemanların birbirine göre güçlü ve zayıf yanları var. Bunları aşağıdaki tabloda görebilirsiniz.
 
-![fiziksel_elemanlar_tablo](C:\Users\asuspc\Desktop\taskforce\fiziksel_eleman_tablo.PNG)
+![fiziksel_elemanlar_tablo](https://github.com/Kodluyoruz/taskforce/blob/basics/basics-for-everyone/internet/figures/fiziksel_eleman_tablo.PNG)
 
 Aşağıdaki videoda yukarıdaki tablonun detaylı anlatımını bulabilirsiniz.
 
-[![Wires_cables_wifi](C:\Users\asuspc\Desktop\taskforce\wires_cables_wifi.PNG)](https://www.youtube.com/watch?v=ZhEf7e4kopM&feature=emb_logo)
+[![Wires_cables_wifi](https://github.com/Kodluyoruz/taskforce/blob/basics/basics-for-everyone/internet/figures/wires_cables_wifi.PNG)](https://www.youtube.com/watch?v=ZhEf7e4kopM&feature=emb_logo)
 
 
 
@@ -40,7 +40,7 @@ Cihazlar arası iletişimi IP adresler sağlar ama günlük hayatımızda bir we
 
 Aşağıdaki videoda iki cihazın birbiri ile haberleşirken IP adresini ve DNS sunucularını nasıl kullandığını görebilirsiniz.
 
-[![IP_adres_dns](C:\Users\asuspc\Desktop\taskforce\ip_address.PNG)](https://www.youtube.com/watch?v=5o8CwafCxnU&feature=emb_logo)
+[![IP_adres_dns](https://github.com/Kodluyoruz/taskforce/blob/basics/basics-for-everyone/internet/figures/ip_address.PNG)](https://www.youtube.com/watch?v=5o8CwafCxnU&feature=emb_logo)
 
 ## Paketler, Yönlendirme ve Güvenilirlik
 
@@ -56,7 +56,7 @@ Peki paketler hedefe ulaşamazsa ne olur ? Bu durumun çözümü olarak yeni bir
 
 Aşağıdaki videoda paket ile iletişimin, yönlendiricilerin ve TCP protokolünün nasıl birlikte çalıştığını görebilirsiniz.
 
-[![packets_routers_reliability](C:\Users\asuspc\Desktop\taskforce\packets_routing_reliability.PNG)](https://www.youtube.com/watch?v=AYdF7b3nMto&feature=emb_logo)
+[![packets_routers_reliability](https://github.com/Kodluyoruz/taskforce/blob/basics/basics-for-everyone/internet/figures/packets_routing_reliability.PNG)](https://www.youtube.com/watch?v=AYdF7b3nMto&feature=emb_logo)
 
 
 
@@ -68,11 +68,11 @@ HTML(HyperText Markup Language), bir web sitesinin temel görünümünü oluştu
 
 İnternette gezinmek gözetlenme ve onay olmadan değiştirme gibi tehlikeleri barındırır. Bilgilerimizin çalınma tehlikesi olduğu için güvenilir olmayan siteler konusunda dikkatli olmalıyız. Bir web sitesini güvenilir yapan nedir ? Öncelikle TLS(Transport Layer Security) ve SSL(Security Sockets Layer) kullanarak güvenli bir kanal oluşturması gereklidir. HTTPS(HyperText Transfer Protocol Security) protokolü kullanarak istekleri iletmesini bekleriz. Bu kanalda kullanmak üzere bir sertifikaya da ihtiyacı vardır. Peki bunları nasıl hızlıca anlayacağız ? Aşağıdaki gibi https ve kilit işaretinin olduğuna dikkat etmeliyiz, sertifika olmadığında tarayıcımız uyarı verecektir.
 
-![web_security](C:\Users\asuspc\Desktop\taskforce\web_security.png)
+![web_security](https://github.com/Kodluyoruz/taskforce/blob/basics/basics-for-everyone/internet/figures/web_security.png)
 
 Aşağıdaki videoda detaylı bir anlatım ile tarayıcı üzerinde bir araştırmanın arka planını öğrenebilirsiniz.
 
-[![http_html](C:\Users\asuspc\Desktop\taskforce\http_html.PNG)](https://www.youtube.com/watch?v=kBXQZMmiA4s&feature=emb_logo)
+[![http_html](https://github.com/Kodluyoruz/taskforce/blob/basics/basics-for-everyone/internet/figures/http_html.PNG)](https://www.youtube.com/watch?v=kBXQZMmiA4s&feature=emb_logo)
 
 ## Şifreleme ve Public Key
 
@@ -82,7 +82,7 @@ Asimetrik şifrelemede iki anahtarımız var : genel(public) anahtar ve özel(pr
 
 Şifreleme yöntemlerinin tarihi ve örneklerle anlatımı için aşağıdaki videoyu izleyebilirsiniz.
 
-[![encryption_and_public_keys](C:\Users\asuspc\Desktop\taskforce\encryption_public_keys.PNG)](https://www.youtube.com/watch?v=AuYNXgO_f3Y)
+[![encryption_and_public_keys](https://github.com/Kodluyoruz/taskforce/blob/basics/basics-for-everyone/internet/figures/encryption_public_keys.PNG)](https://www.youtube.com/watch?v=AuYNXgO_f3Y)
 
 ## Siber Güvenlik ve Suçlar
 
@@ -92,10 +92,10 @@ Siber suçlar yazılım kaynaklı gibi görünse de çoğu insan kaynaklıdır. 
 
 Yukarıda bahsettiğimiz siber suçlar ile alakalı daha detaylı bilgi için aşağıdaki videoyu bırakıyoruz. 
 
-[![cyber_security_and_crime](C:\Users\asuspc\Desktop\taskforce\cyber_security_and_crime.PNG)](https://www.youtube.com/watch?v=AuYNXgO_f3Y&feature=emb_logo)
+[![cyber_security_and_crime](https://github.com/Kodluyoruz/taskforce/blob/basics/basics-for-everyone/internet/figures/cyber_security_and_crime.PNG)](https://www.youtube.com/watch?v=AuYNXgO_f3Y&feature=emb_logo)
 
 
 
 Şuana kadar interneti internet yapan tüm temel terimlere değindik. Bir kez daha üstünden geçmek ve daha detaylı bilgi için aşağıdaki videonun da izlenmesini tavsiye ederiz. Bu video aynı zamanda Kodluyoruz bünyesinde Türkçe seslendirilen bir Harvard dersi :)
 
-[![cs50_internetin_temelleri](C:\Users\asuspc\Desktop\taskforce\cs50_internetin_temelleri.PNG)](https://www.youtube.com/watch?v=kHxcf2wK_ck&feature=youtu.be)
+[![cs50_internetin_temelleri](https://github.com/Kodluyoruz/taskforce/blob/basics/basics-for-everyone/internet/figures/cs50_internetin_temelleri.PNG)](https://www.youtube.com/watch?v=kHxcf2wK_ck&feature=youtu.be)
