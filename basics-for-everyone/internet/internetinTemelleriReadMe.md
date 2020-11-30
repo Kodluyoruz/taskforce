@@ -99,3 +99,9 @@ Yukarıda bahsettiğimiz siber suçlar ile alakalı daha detaylı bilgi için a�
 Şuana kadar interneti internet yapan tüm temel terimlere değindik. Bir kez daha üstünden geçmek ve daha detaylı bilgi için aşağıdaki videonun da izlenmesini tavsiye ederiz. Bu video aynı zamanda Kodluyoruz bünyesinde Türkçe seslendirilen bir Harvard dersi :)
 
 [![cs50_internetin_temelleri](https://github.com/Kodluyoruz/taskforce/blob/basics/basics-for-everyone/internet/figures/cs50_internetin_temelleri.PNG)](https://www.youtube.com/watch?v=kHxcf2wK_ck&feature=youtu.be)
+
+### Kaynaklar:
+- https://roadmap.sh/guides/what-is-internet
+- https://www.youtube.com/watch?v=kHxcf2wK_ck&feature=youtu.be
+- https://code.org/
+
