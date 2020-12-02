@@ -54,7 +54,7 @@
 
 ## Google'lamak
 
-[Google nedir & nasıl kullanılır](google/)
+[Google Nedir & Nasıl Kullanılır](google/)
 
 - [ ] stackoverFlow
 - [ ] KodKoda
