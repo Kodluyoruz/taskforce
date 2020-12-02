@@ -10,11 +10,11 @@
 
 ## Algoritma ve Pseudocode
 
-[Pseudocode](pseudocode/)
+- [ ] [Pseudocode](pseudocode/)
 
 ## Internet
 
-- [ ] [Internet temelleri](https://github.com/Kodluyoruz/taskforce/blob/basics/basics-for-everyone/internet/internetinTemelleriReadMe.md)
+- [ ] [İnternet Temelleri](internet/)
 
 - [ ] Tarayıcılar
 
@@ -54,7 +54,7 @@
 
 ## Google'lamak
 
-[Google Nedir & Nasıl Kullanılır](google/)
+- [ ] [Google Nedir & Nasıl Kullanılır](google/)
 
 - [ ] stackoverFlow
 - [ ] KodKoda
