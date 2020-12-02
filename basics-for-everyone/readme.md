@@ -57,7 +57,7 @@
 - [ ] [Google Nedir & Nasıl Kullanılır](google/)
 
 - [ ] stackoverFlow
-- [ ] KodKoda
+- [ ] [KodKoda](kodkoda/)
 
 ## Developer'lar için platformların önemi
 
