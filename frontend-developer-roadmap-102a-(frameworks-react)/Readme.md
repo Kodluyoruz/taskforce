@@ -7,7 +7,7 @@
 - [x] [Rendering Elements](rendering-elements/)
 - [x] [Components](components/) 
 - [x] [Props and state](props-and-state/)
-- [ ] Conditional rendering
+- [x] [Conditional rendering](conditional-rendering/)
 - [ ] Component life cycle
 - [ ] Lists and keys
 - [ ] Composition vs inheritance
