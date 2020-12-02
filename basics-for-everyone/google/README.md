@@ -233,7 +233,7 @@ Herhangi bir konuda arama yaparken çıkacak sonuçları belli bir dosya tipiyle
 
 ![stackoverflow](figures/stackoverflow.png)
 
-* "Kod Koda" ile ilgili detaylı bilgiyi [buradan](kodkoda/); "Stack Overflow" ile ilgili deyatlı bilgiyi de buradan alabilirsiniz.
+* "Kod Koda" ile ilgili detaylı bilgiyi [buradan](https://github.com/Kodluyoruz/taskforce/tree/basics/basics-for-everyone/kodkoda); "Stack Overflow" ile ilgili deyatlı bilgiyi de buradan alabilirsiniz.
 
   
 
