@@ -14,7 +14,7 @@
 
 ## Internet
 
-- [ ] Internet temelleri
+- [ ] [Internet temelleri](https://github.com/Kodluyoruz/taskforce/blob/basics/basics-for-everyone/internet/internetinTemelleriReadMe.md)
 
 - [ ] Tarayıcılar
 
