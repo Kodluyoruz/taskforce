@@ -7,5 +7,3 @@
 # [Java Web](java-web/)
 
 # [Mikroservis Mimarisi](mikroservis-mimarisi/)
-
-- [ ] 
