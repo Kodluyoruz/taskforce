@@ -1,6 +1,6 @@
 # Java 101
 
-## [Versiyon Kontrol Sistemleri](01-versiyonk-kontrol-sistemleri/)
+## Versiyon Kontrol Sistemleri
 
 - [ ] Git Versiyon Sistemi Nedir? Ne İşe Yarar
 - [ ] Git Kullanarak Projelerimizi Versiyonlamak
@@ -58,7 +58,7 @@
 - [ ] Copy Array
 - [ ] Dizi ve Matris örnekleri
 
-### [Java Strings](10-java-strings/)
+### Java Strings
 
 - [ ] String veri yapısı ve özellikleri
 - [ ] String Pool Yapısı
@@ -68,9 +68,9 @@
 
 - [ ] Java 7 ve Java 8 Date & Time
 
-### [Java Regular Expressions](12-java-regular-expressions/)
+### Java Regular Expressions
 
-### [Java I/O Operations](13-java-io-operations/)
+### Java I/O Operations
 
 - [ ] File & Folder operations
 - [ ] Inputstream / Outputstream
@@ -81,9 +81,6 @@
 ### [Exception Handling](14-exception-handling)
 
 - [ ] Checked & Unchecked Exceptions
-
 - [ ] try-catch-finally mekanizması
-
 - [ ] throw exception mekanizması
-
 - [ ] custom exception sınıfları oluşturulması
