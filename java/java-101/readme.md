@@ -1,6 +1,6 @@
 # Java 101
 
-## [Versiyon Kontrol Sistemleri](01-versiyonk-kontrol-sistemleri)
+## [Versiyon Kontrol Sistemleri](01-versiyonk-kontrol-sistemleri/)
 
 - [ ] Git Versiyon Sistemi Nedir? Ne İşe Yarar
 - [ ] Git Kullanarak Projelerimizi Versiyonlamak
