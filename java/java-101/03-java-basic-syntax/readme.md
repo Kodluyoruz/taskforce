@@ -59,7 +59,7 @@ Java&#39;da belirli seçenekleri önceden tanımlanabilen yapılar şeklinde kod
 
 Aşağıdaki anahtar sözcükler Java dilinde ayrılmış kelimelerdir. Bu kelimeleri tek başlarına isimlendirmede kullanamazsınız. Örneğin: &quot; **int class = 5;**&quot; şeklinde bir tanımlama yapamayız. Çünkü, class ayrılmış bir anahtar sözcüktür.
 
-![](figures/ozellikler-1.jpg)
+![Java Anahtar Sözcükler](figures/ozellikler-1.jpg)
 
 ## 8.Java&#39;da Yorum Alanları (Comments)
 
@@ -85,10 +85,10 @@ public class MyFirstJavaProgram {
 
 Java&#39;da kod yazarken kodlar arasında dilediğiniz kadar boşluk bırakabilirsiniz.
 
-## 9.Java&#39;da Katılım (Inheritance)
+## 9.Java&#39;da Kalıtım (Inheritance)
 
-Java, nesneye dayalı programlamayı destekleyen bir dil olduğu için katılım mekanizmasına sahiptir. Katılım ile bir sınıf üst sınıfından ortak özellikleri miras yoluyla kendine alabilir. Bu konu ileride detaylıca açıklanacaktır.
+Java, nesneye dayalı programlamayı destekleyen bir dil olduğu için kalıtım mekanizmasına sahiptir. Kalıtım ile bir sınıf üst sınıfından ortak özellikleri miras yoluyla kendine alabilir. Bu konu ileride detaylıca açıklanacaktır.
 
-10.Java&#39;da Ara yüzler (Interfaces)
+## 10.Java&#39;da Ara yüzler (Interfaces)
 
 Nesneye dayalı programlamanın en önemli kavramlarından biri de ara yüz tanımıdır. Arayüz tanımlarıyla çok biçimliliği ( **Polymorphism** ) desteklenir. Ara yüz (Interface) kontrat gibi değerlendirilebilir. Örneğin: aracın frenleme sistemi, elektrik sistemi tüm araçlarda bulunması gereken özelliklerdir. Fakat, bunların çalışma biçimi araçtan araca farklılıklar gösterebilir. İşte bu özellik kümesi bir aracın ara yüzü olarak tanımlanabilir. Böylece, yeni bir araç tanımlamak isteyen herkes bu kontrata uygun bir yapı kurmalıdır.
