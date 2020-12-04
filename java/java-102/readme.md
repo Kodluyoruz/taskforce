@@ -17,13 +17,13 @@
 - [ ] JavaDoc
 - [ ] Projeler
 
-## Java Enums
+## [Java Enums](02-java-enums/)
 
 ## final keyword usage
 
 ## Java Generics
 
-## Java Collection Framework
+## [Java Collection Framework](05-java-collection-framework/)
 
 - [ ] equals & hascode kavramları
 - [ ] List, Set ve Map veri yapıları
