@@ -202,9 +202,9 @@ const element = (
 
 **Not:** JSX return ederken tek bir element'in return edilmesine dikkat edilmelidir. Yani birden fazla child'i olan bir JSX return edilebilir ancak bu child elementleri sarmalayan bir top-level (kapsayıcı) element olmalıdır. 
 
-Bu örnekte <h1> ve <h2> element'lerini sarmayalan bir <div> olmasaydı 2 element ard arda bir şekilde açıkta kalmış olacaktı ve bir hatayla karşılaşacaktık. 
+Bu örnekte `<h1>` ve `<h2>` element'lerini sarmayalan bir `<div>` olmasaydı 2 element ard arda bir şekilde açıkta kalmış olacaktı ve bir hatayla karşılaşacaktık. 
 
-**Not:** Bazı durumlarda kapsayıcı tag olarak bir <div> yerine [fragment'ler](https://tr.reactjs.org/docs/fragments.html) kullanılabilir.
+**Not:** Bazı durumlarda kapsayıcı tag olarak bir `<div>` yerine [fragment'ler](https://tr.reactjs.org/docs/fragments.html) kullanılabilir.
 
 ```react
 render() {
@@ -233,7 +233,7 @@ Bu şekilde finalde oluşan markup'a etki etmeyecek bir şekilde JSX'in tek bir 
 
 ## **Notlar**
 
-- <foo-bar /> geçerli bir JSX kodu iken <foo-bar> değildir çünkü açılan etiketler kapatılmak zorundadır.
+- `<foo-bar />` geçerli bir JSX kodu iken `<foo-bar>` değildir çünkü açılan etiketler kapatılmak zorundadır.
 
 - JSX'in bir JavaScript syntax uzantısı olduğunu unutmamalıyız. 
 
