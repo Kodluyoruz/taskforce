@@ -8,7 +8,7 @@
 - [x] [Components](components/) 
 - [x] [Props and state](props-and-state/)
 - [x] [Conditional rendering](conditional-rendering/)
-- [ ] Component life cycle
+- [x] [Component life cycle](component-lifecycle)
 - [ ] Lists and keys
 - [ ] Composition vs inheritance
 - [ ] Basic hooks
