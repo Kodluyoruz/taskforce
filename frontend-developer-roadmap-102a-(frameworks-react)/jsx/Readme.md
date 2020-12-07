@@ -253,7 +253,7 @@ Bu şekilde finalde oluşan markup'a etki etmeyecek bir şekilde JSX'in tek bir 
 
 - [^2]:https://tr.reactjs.org/docs/react-without-jsx.html
 
-- [^ 3]: https://tr.reactjs.org/docs/dom-elements.html#style
+- [^3]: https://tr.reactjs.org/docs/dom-elements.html#style
 
 - https://www.reactenlightenment.com/react-jsx.html
 
