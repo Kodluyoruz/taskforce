@@ -6,9 +6,9 @@
 - [x] [JSX](jsx/)
 - [x] [Rendering Elements](rendering-elements/)
 - [x] [Components](components/) 
-- [x] [Props and state](props-and-state/)
-- [x] [Conditional rendering](conditional-rendering/)
-- [x] [Component life cycle](component-lifecycle)
+- [x] [Props and State](props-and-state/)
+- [x] [Conditional Rendering](conditional-rendering/)
+- [x] [Component Lifecycle](component-lifecycle)
 - [ ] Lists and keys
 - [ ] Composition vs inheritance
 - [ ] Basic hooks
