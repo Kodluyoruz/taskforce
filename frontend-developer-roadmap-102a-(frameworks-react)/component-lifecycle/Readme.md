@@ -176,7 +176,7 @@ Burada component ilk render olduktan sonra state üzerinde favori renk mavi olar
 
 ## 3. Unmounting
 
-Unmounting, component lifecycle'da son aşama olarak component'in DOM'dan kaldırılmasıdır. Bu aşamada componentWillUnmount() adında yalnızca bir adet built-in metot vardır. 
+Unmounting, component lifecycle'da son aşama olarak component'in DOM'dan kaldırılmasıdır. Bu aşamada `componentWillUnmount()` adında yalnızca bir adet built-in metot vardır. 
 
 **componentWillUnmount()**, component'in DOM'dan kaldırılması esnasında çağrılır. Genellikle componentDidMount() metodunda başlatılan/tanımlanan time interval, network request ya da subscription'ların kaldırılması amacıyla kullanılır. 
 
