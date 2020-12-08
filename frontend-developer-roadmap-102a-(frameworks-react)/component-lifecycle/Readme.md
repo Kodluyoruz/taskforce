@@ -186,7 +186,7 @@ Unmounting, component lifecycle'da son aşama olarak component'in DOM'dan kaldı
 
 Burada lifecycle metotların bahsettiğimiz 3 ana aşamada hangi sıralamayla çağırıldıklarını bir şema üstünde görebilirsiniz.
 
-![Screen Shot 2020-12-06 at 21.52.32](/Users/isiksinan/Library/Application Support/typora-user-images/Screen Shot 2020-12-06 at 21.52.32.png)
+![lifecycle-metotlar](figures/lifecycle-metotlar.png)
 
 Şemayı etkileşimli şekilde görmek için [tıklayınız](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/). Ayrıca site üzerindeki kutucuğu tıklayarak daha az kullanılan lifecycle metodları da görebilirsiniz.
 
