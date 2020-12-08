@@ -10,7 +10,7 @@
 - [x] [Conditional Rendering](conditional-rendering/)
 - [x] [Component Lifecycle](component-lifecycle)
 - [ ] Lists and keys
-- [ ] Composition vs inheritance
+- [x] [Composition vs inheritance](composition-vs-inheritance)
 - [ ] Basic hooks
 
 ## Advanced topics
