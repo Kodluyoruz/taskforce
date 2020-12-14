@@ -2,7 +2,7 @@
 
 **Not:** Bu yazıda component, element, class, functional, props, state gibi terimler React ekosistemindeki anahtar sözcükler oldukları için çeviri yapılmamıştır. 
 
-Component'ler bir kullanıcı arayüzü (UI - User Interface) oluştururken kullanılan birbirinden bağımsız, izole ve tekrar kullanılabilir parçalardır. Yani bir arayüz ekranını düşündüğümüzde, bu ekranı oluşturan yapı taşlarına birer component diyebiliriz. Component'lerin de kendi içlerinde ne kadar ufak parçalara bölünebileceği yani sub-componentlere sahip olabileceği tamamen tasarım ilkelerine bağlı bir durumdur. Bu şekilde hem kolay organize edilebilir hem de data ve state (ilerleyen bölümlerde değineceğiz) değişimlerinde mantıksal bir akış oluşturmaya olanak sağlayan bir yapı elde edilmiş olur. 
+Component'ler bir kullanıcı arayüzü (UI - User Interface) oluştururken kullanılan birbirinden bağımsız, izole ve **tekrar kullanılabilir** parçalardır. Yani bir arayüz ekranını düşündüğümüzde, bu ekranı oluşturan yapı taşlarına birer component diyebiliriz. Component'lerin de kendi içlerinde ne kadar ufak parçalara bölünebileceği yani sub-componentlere sahip olabileceği tamamen tasarım ilkelerine bağlı bir durumdur. Bu şekilde hem kolay organize edilebilir hem de data ve state (ilerleyen bölümlerde değineceğiz) değişimlerinde mantıksal bir akış oluşturmaya olanak sağlayan bir yapı elde edilmiş olur. 
 
 **Not:** Bu noktada component hiyerarşisinin daha iyi anlaşılabilmesi için React dökümantasyonunda yer verilen [React'te düşünmek](https://tr.reactjs.org/docs/thinking-in-react.html) konu başlığındaki Adım 1'e göz atabilirsiniz.
 
@@ -16,9 +16,9 @@ React'te temel olarak 2 tip component yapısı var. Bunlardan ilki ve component 
 
 JavaScript fonksiyonu yazarak oluşturulan component tipleridir. Bu tip componentler yalnızca girdi (input) olarak "**props**" alırlar ve JSX return ederler. Functional component'ler state objesi tutmazlar. 
 
-**Not:** Functional component'lerein state tutamama durumu React 16.8 ile birlikte gelen React Hook'lar ile değişti. İlerleyen konularda buna değineceğiz ancak şimdilik bu şekilde devam edelim. 
+**Not:** Functional component'lerin state tutamama durumu React 16.8 ile birlikte gelen React Hook'lar ile değişti. İlerleyen konularda buna değineceğiz ancak şimdilik bu şekilde devam edelim. 
 
-**React Props:** Propslar React component'lerine aktarılan argümanlardır. Component'ler hakkında data tutarlar. Birer HTML attribute'u gibi aktarılırlar. 
+**React Props:** Propslar, React component'lerine aktarılan argümanlardır. Component'ler hakkında data tutarlar. Birer HTML attribute'u gibi aktarılırlar. 
 
 **React State:** State bir built-in React objesidir ve component hakkında data tutar. State objesindeki değişimler yeniden render'a (re-render) sebep olur. 
 
@@ -26,7 +26,7 @@ JavaScript fonksiyonu yazarak oluşturulan component tipleridir. Bu tip componen
 
 Girdi olarak props alan ve bir react element'i (JSX) döndüren basit bir functional component örneği:
 
-```react
+```javascript
 function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
 }
@@ -40,7 +40,7 @@ Class component'ler ES6 ile gelen "class" anahtar sözcüğüyle oluşturulan co
 
 Class component'ler React.Component'ten miras alırlar yani var olan bir class'ı türetirler. ([Kalıtım - Inheritance](https://tr.reactjs.org/docs/composition-vs-inheritance.html#so-what-about-inheritance))
 
-```react
+```javascript
 class Welcome extends React.Component {
   render() {
     return <h1>Hello, {this.props.name}</h1>;
@@ -54,13 +54,13 @@ Hem functional component ile hem de class component yapısıyla yazdığımız b
 
 JSX konu başlığı altında React element olarak yalnızca DOM elementlerini ele almıştık.  
 
-```react
+```javascript
 const element = <div />;
 ```
 
 Ancak elementler, kullanıcı tanımlı component'ler de olabilirler:
 
-```react
+```javascript
 const element = <Welcome name="Sinan" />;
 ```
 
@@ -68,7 +68,7 @@ React, kullanıcı tanımlı bir component gördüğü zaman, JSX özelliklerini
 
 Örneğin aşağıdaki kod, sayfada “Merhaba, Sinan” mesajını görüntüler:
 
-```react
+```javascript
 function Welcome(props) {  
   return <h1>Merhaba, {props.name}</h1>;
 }
@@ -80,24 +80,24 @@ ReactDOM.render(
 );
 ```
 
-Burada Welcome isimli bir component oluşturuyoruz. Bu component props adıyla bütün attribute'ları tutan bir obje alıyor ve `<h1>` etiketli bir DOM elemeneti return ediyor. <Welcome name="Sinan" /> içerisinde kullandığımız bütün attribute'lara props üzerinden ulaşabiliriz. Böylelikle Welcome component'i içerisinde props.name diyerek name adındaki attribute ile gelen değeri render edebiliyoruz.
+Burada Welcome isimli bir component oluşturuyoruz. Bu component props adıyla bütün attribute'ları tutan bir obje alıyor ve `<h1>` etiketli bir DOM elemeneti return ediyor. `<Welcome name="Sinan" />` içerisinde kullandığımız bütün attribute'lara props üzerinden ulaşabiliriz. Böylelikle Welcome component'i içerisinde props.name diyerek name adındaki attribute ile gelen değeri render edebiliyoruz.
 
 Adım adım bakalım: 
 
-1. <Welcome name="Sinan" /> elementi ile birlikte `ReactDOM.render()` fonksiyonunu çağırıyoruz.
+1. `<Welcome name="Sinan" />`elementi ile birlikte `ReactDOM.render()` fonksiyonunu çağırıyoruz.
 2. Devamında React, `{name: 'Sinan'}` prop’u ile `Welcome` componentini çağırıyor. 
-3. `Welcome` component'imiz, sonuç olarak geriye bir `<h1>Merhaba, Sinan</h1>` elementi return ediyor. Burada *props* argümanının bir obje olduğunu unutmayalım. "Sinan" string'ine, Welcome component'i içinde props.name olarak erişiyoruz.
+3. `Welcome` component'imiz, sonuç olarak geriye bir `<h1>Merhaba, Sinan</h1>` elementi return ediyor. Burada *props* argümanının bir obje olduğunu unutmayalım. "Sinan" string'ine, Welcome component'i içinde `props.name` olarak erişiyoruz.
 4. React DOM, `<h1>Merhaba, Sinan</h1>` ile eşleşmek için, DOM’u arka planda efektif bir şekilde güncelliyor.
 
-**Not:** React, kullanıcı tanımlı component'lerin büyük harfle başlamasını tavsiye ediyor. Bu yüzden Welcome component ismi ilk harf büyük olarak tanımlanmıştır. Daha detaylı bilgi için React dökümantasyonundaki [ilgili başlığa](https://tr.reactjs.org/docs/jsx-in-depth.html#user-defined-components-must-be-capitalized) bakabilirsiniz.
+**Not:** React, kullanıcı tanımlı component'lerin büyük harfle başlamasını tavsiye ediyor. Bu yüzden `Welcome` component ismi ilk harf büyük olarak tanımlanmıştır. Daha detaylı bilgi için React dökümantasyonundaki [ilgili başlığa](https://tr.reactjs.org/docs/jsx-in-depth.html#user-defined-components-must-be-capitalized) bakabilirsiniz.
 
 ## Component'lerden Kompozisyon Oluşturulması (Composing Components)
 
 Component'ler, çıktılarında diğer component'leri gösterebilir. Bu sayede aynı component'in farklı durumlarda tekrar kullanılması mümkün hale gelir. DOM elementlerini düşündüğümüzde butonlar, formlar, diyaloglar React uygulamalarında yeniden kullanılabilir component'ler olarak ifade edilebilirler.
 
-Örnek olarak yukarıda oluşturduğumuz Welcome component'ini birden fazla kullanan App adında bir component olsun. Bu durumda App bir parent (container) component, Welcome ise child component olur.
+**Örnek** olarak yukarıda oluşturduğumuz `Welcome` component'ini birden fazla kullanan `App` adında bir component olsun. Bu durumda `App` bir parent (container) component, `Welcome` ise child component olur.
 
-```react
+```javascript
 function Welcome(props) {
   return <h1>Merhaba, {props.name}</h1>;
 }
@@ -118,7 +118,7 @@ ReactDOM.render(
 );
 ```
 
-Burada name attribute farklı değerler alarak Welcome componentinin birden fazla kullanımına olanak sağladığını görüyoruz. 
+Burada name attribute farklı değerler alarak `Welcome` componentinin birden fazla kullanımına olanak sağladığını görüyoruz. 
 
 [Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/ZEpEMPg)
 
@@ -126,7 +126,7 @@ Burada name attribute farklı değerler alarak Welcome componentinin birden fazl
 
 Büyük componentleri daha sade ve yönetilebilir olması için daha küçük componentlere bölebiliriz. 
 
-```react
+```javascript
 function Comment(props) {
   return (
     <div className="Comment">
@@ -152,13 +152,13 @@ function Comment(props) {
 
 [Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/QWKWVPz)
 
-Burada Comment adında bir component görüyoruz ve bu component props objesi alıyor. *props* objesi içerisinde author adlı bir obje, text adında bir string ve date adında tarih formatı tutuyor.  Bu component'in bir sosyal medya sitesinde yorum kutucuğunun görüntülenmesini sağladığını düşünelim.
+Burada `Comment` adında bir component görüyoruz ve bu component props objesi alıyor. *props* objesi içerisinde `author` adlı bir obje, `text` adında bir string ve `date` adında tarih formatı tutuyor.  Bu component'in bir sosyal medya sitesinde yorum kutucuğunun görüntülenmesini sağladığını düşünelim.
 
-Görüldüğü üzere bu component üzerinde değişiklik yapılması zor sayılabilecek iç içe bir yapıda. Bundan daha önemlisi içerisinde bulundurduğu DOM elementlerinin tekrar kullanılabilirliği yok. Örneğin profil detay sayfasında avatar ve yazar adını göstermek istediğimizde bu component içerisinde kullandığımız kod parçalarını tekrar etmek zorundayız. Bunun yerine Avatar adlı bir component oluşturabilir ve bu component'i istediğimiz her yerde tekrar tekrar kullanabilir hale getirebiliriz.
+Görüldüğü üzere bu component üzerinde değişiklik yapılması zor sayılabilecek iç içe bir yapıda. Bundan daha önemlisi içerisinde bulundurduğu DOM elementlerinin tekrar kullanılabilirliği yok. Örneğin profil detay sayfasında avatar ve yazar adını göstermek istediğimizde bu component içerisinde kullandığımız kod parçalarını tekrar etmek zorundayız. Bunun yerine `Avatar` adlı bir component oluşturabilir ve bu component'i istediğimiz her yerde tekrar tekrar kullanabilir hale getirebiliriz.
 
 ### Avatar Component'ini Çıkaralım
 
-```react
+```javascript
 function Avatar(props) {
   return (
     <img 
@@ -170,15 +170,15 @@ function Avatar(props) {
 }
 ```
 
-Avatar componentinin Comment componenti içerisinde render edildiğini bilmesine gerek yok. Bu componenti farklı yerlerde kullanacağımız için yukarıda olduğu gibi props.author yerine daha genel bir isim olan props.user diyoruz. 
+`Avatar` componentinin `Comment` componenti içerisinde render edildiğini bilmesine gerek yok. Bu componenti farklı yerlerde kullanacağımız için yukarıda olduğu gibi `props.author` yerine daha genel bir isim olan `props.user` diyoruz. 
 
 **Not:** Prop'ları isimlendirirken ilgili component'in hangi component içerisinde kullanıldığını ele almak yerine bağımsız düşünerek genel isimlendirmeler yapmalıyız.
 
 **Not:** Yeni bir component oluştururken bunu var olan JavaScript dosyasında değil de ayrı bir dosya açarak yapmak önerilmektedir. Bu şekilde modüler bir mimariye ulaşmak mümkün hale gelir. 
 
-Bu değişiklikle birlikte Comment component'inin son hali şu şekilde olmalıdır:
+Bu değişiklikle birlikte `Comment` component'inin son hali şu şekilde olmalıdır:
 
-```react
+```javascript
 function Comment(props) {
   return (
     <div className="Comment">
@@ -201,9 +201,9 @@ function Comment(props) {
 
 ### UserInfo Component'i
 
-Şimdi Avatar component'ini de içerisinde barındıracak şekilde kullanıcı adıyla birlikte render edecek bir bileşen oluşturalım.
+Şimdi `Avatar` component'ini de içerisinde barındıracak şekilde kullanıcı adıyla birlikte render edecek bir bileşen oluşturalım.
 
-```react
+```javascript
 function UserInfo(props) {
   return (
     <div className="UserInfo">
@@ -216,9 +216,9 @@ function UserInfo(props) {
 }
 ```
 
-Comment component'inin son hali:
+`Comment` component'inin son hali:
 
-```react
+```javascript
 function Comment(props) {
   return (
     <div className="Comment">
@@ -236,7 +236,7 @@ function Comment(props) {
 
 
 
-Avatar ve UserInfo component'lerinin çıkarılmasından sonra: [Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/xxExyOR)
+`Avatar` ve `UserInfo` component'lerinin çıkarılmasından sonra: [Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/xxExyOR)
 
 **Not:** Codepen üzerinde bütün component'ler aynı dosya içerisinde oluşturulmuştur ancak yukarıda bahsettiğimiz üzere her bir component'in ayrı bir dosyada tutulması tavsiye edilmektedir. Yani oluşturulan bu component'ler Avatar.js ve UserInfo.js adlı iki farklı dosyada yer alacaktır.
 

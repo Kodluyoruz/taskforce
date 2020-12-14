@@ -16,17 +16,27 @@ Node.js'i bilgisayarımıza kurduktan sonra *npm* de otomatik olarak yüklenmiş
 
 Node.js kurulumunu yapıp, npm'in güncel versiyonda olduğunu kontrol ettikten sonra artık React.js uygulaması için hazır bir iskelet yapı oluşturmaya geçebiliriz. Komutu çalıştırmadan önce doğru klasör dizininde olduğumuzdan emin olmalıyız. Terminal aracılığı ile React uygulamasını oluşturmak istediğimiz dosya dizinine gitmemiz için bize gerekli olan başlıca terminal komutlarından bahsetmek gerekirse;
 
--  ***pwd*** komutu ile bulunduğumuz dizini görüntüleyebiliriz.
+-  ***pwd*** komutu ile bulunduğumuz dizini görüntüleyebiliriz. *(MacOS ve Linux için geçerli)*
 - ***cd*** komutu ile uygulamanın oluşturulmasını istediğimiz klasöre gidebiliriz. 
 - ***mkdir*** komutu ile yeni bir klasör oluşturabiliriz. 
 
-Ayrıca terminali ilk başlattığınızda  /Users/KullaniciAdi klasör dizininde olduğumuzu unutmamalıyız. 
+Ayrıca terminali/komut istemini ilk başlattığınızda;
+
+* **Windows kullanıcıları:** `C:\Users\KullaniciAdi`
+
+* **MacOS kullanıcıları:**  `/Users/KullaniciAdi`
+
+* **Linux kullanıcıları:**  `/home/KullaniciAdi`
+
+ klasör dizininde olduğumuzu unutmamalıyız.
+
+> Bu gibi kavramlara uzaksanız. Kendi işletim sisteminizde terminal komutlarıyla ilgili aramalar yapmanızı tavsiye ederiz.
 
 ## Projeyi Oluşturma: *create-react-app*
 
 Bir React projesi oluşturmanın en kolay yöntemlerinden biri olan create-react-app ile projemizi oluşturabiliriz.
 
-`npx create-react-app ilk-uygulama` komutunu kullanarak bulunduğumuz klasör dizininde bir React.js uygulaması oluşturabiliriz. 
+`npx create-react-app ilk-uygulama` komutunu kullanarak bulunduğumuz klasör dizininde bir React.js uygulaması oluşturabiliriz. *(Unutmayın eğer terminal içerisinde yerinizi değiştirmediyseniz yukarıda yazdığımız klasörün altında oluşacak.)*
 
 **Not:** Burada kullandığımız *npx* npm 5.2+ ile gelen bir paket çalıştırma aracıdır.
 
@@ -62,7 +72,7 @@ Buradan da anlaşılabileceği üzere App adında bir bileşeni görüntülüyor
 
 ![react-klasor-yapisi](figures/react-klasor-yapisi.png)
 
-*create-react-app* ile bir React uygulaması oluşturduğumuzda yukarıdaki gibi bir klasör yapısına sahip oluyoruz. Burada **src** klasörü altında olan **App.js** ekranda gösterilen bileşen, **index.js** React uygulamasının başlangıç noktasıdır. index.js bütün React uygulamasının nerede render edileceğini belirler. Bu dosyaya gidip incelediğimizde 'root' id ile belirtilmiş bir HTML etiketine bütün uygulamanın render edileceğini görebiliriz. public klasörü altında index.html'e gittiğimizde ise bu bahsettiğimiz 'root' id'li <div> etiketini görebiliriz.
+*create-react-app* ile bir React uygulaması oluşturduğumuzda yukarıdaki gibi bir klasör yapısına sahip oluyoruz. Burada **src** klasörü altında olan **App.js** ekranda gösterilen bileşen, **index.js** React uygulamasının başlangıç noktasıdır. index.js bütün React uygulamasının nerede render edileceğini belirler. Bu dosyaya gidip incelediğimizde `'root'` id ile belirtilmiş bir HTML etiketine bütün uygulamanın render edileceğini görebiliriz. public klasörü altında index.html'e gittiğimizde ise bu bahsettiğimiz `'root'` id'li `<div>` etiketini görebiliriz.
 
 **public/:** Bu klasör React uygulamamızın static asset'lerini içeriyor. (index.html gibi)
 
@@ -75,7 +85,7 @@ Buradan da anlaşılabileceği üzere App adında bir bileşeni görüntülüyor
 **.gitignore:** Bu dosya sayesinde istenmeyen uzantıdaki ve dizindeki dosyaların takip edilmesini engellemiş oluruz. Böylece git sunucularına göndermek istemediğimiz dosyalar takip edilmez. create-react-app ile node_modules klasörü altındaki paketler ve build klasörü .gitignore içerisinde belirtilmiş olarak gelir.
 
 
-Uygulamayı geliştirme aşamasında start scriptini kullanarak sunucuyu başlatmaktan ve uygulamanın ayağa kaldırılmasından bahsetmiştik. create-react-app'in sunmuş olduğu bir diğer önemli script ise **build**. React modüler bir yapı sunuyor ve birçok bileşenden oluşan uygulamalar ortaya çıkıyor. Build scripti oluşturulan bütün ayrı bileşenleri birleştirilip küçültülüyor ve optimize hale getiriyor. Bu sayede canlı ortama (production) alınabilecek bir uygulamaya sahip oluyoruz.
+Uygulamayı geliştirme aşamasında start scriptini kullanarak sunucuyu başlatmaktan ve uygulamanın ayağa kaldırılmasından bahsetmiştik. **create-react-app**'in sunmuş olduğu bir diğer önemli script ise **build**. React modüler bir yapı sunuyor ve birçok bileşenden oluşan uygulamalar ortaya çıkıyor. Build scripti oluşturulan bütün ayrı bileşenleri birleştirilip küçültülüyor ve optimize hale getiriyor. Bu sayede canlı ortama (production) alınabilecek bir uygulamaya sahip oluyoruz.
 
 
 

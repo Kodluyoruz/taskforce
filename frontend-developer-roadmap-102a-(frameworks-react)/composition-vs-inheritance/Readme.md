@@ -1,6 +1,6 @@
 # Composition vs Inheritance
 
-React güçlü bir composition modeline sahiptir. Bu yüzden reusability (yeniden kullanılabilirlik) konusunda inheritance yerine composition modelinin kullanılması [öneriliyor](https://tr.reactjs.org/docs/composition-vs-inheritance.html). Öncelikle inheritance ve composition kavramlarının ne olduğuna bakalım. Daha sonra React'ta nasıl uygulandığını inceleyelim.
+React güçlü bir composition modeline sahiptir. Bu yüzden **reusability** (yeniden kullanılabilirlik) konusunda inheritance yerine composition modelinin kullanılması [öneriliyor](https://tr.reactjs.org/docs/composition-vs-inheritance.html). Öncelikle **inheritance ve composition** kavramlarının ne olduğuna bakalım. Daha sonra React'ta nasıl uygulandığını inceleyelim.
 
 
 
@@ -66,7 +66,7 @@ Bu 2 konsept de birden çok component'in bir arada kullanılmasını sağlamak a
 
 [Component'ler](../components) konu başlığında Class component'lerin oluşturulmasından bahsederken React.Component'i extend ederek oluşturulduklarından bahsetmiştik. Bu şekilde var olan bir class'ı türeterek, parent class'ın property ve metotlarına sahip olurlar. Burada React.Componenet *superclass* ya da *base class* olarak adlandırılırken, oluşturduğumuz yeni class ise *subclass* ya da *derived class* olarak adlandırılır. 
 
-```react
+```javascript
 class Arac extends React.Component {
 	constructor(props) {
     super(props);
@@ -80,11 +80,11 @@ class Kamyonet extends Arac {
 }
 ```
 
-Burada Arac class'ı React.Component'ten miras alırken, Kamyonet class'ı da Arac class'ından miras alıyor.
+Burada `Arac` class'ı React.Component'ten miras alırken, `Kamyonet` class'ı da `Arac` class'ından miras alıyor.
 
 ### Composition
 
-```react
+```javascript
 const Button = props => {
   return <button>{props.text}</button>
 }
@@ -98,11 +98,11 @@ const LoginButton = () => {
 }
 ```
 
-Bu örnekte, genel bir Button component'i oluşturduk. Sonrasında onun daha özelleştirilmiş versiyonlarını (SubmitButton ve LoginButton) Button component'i üzerinden oluşturmuş olduk.
+Bu örnekte, genel bir `Button` component'i oluşturduk. Sonrasında onun daha özelleştirilmiş versiyonlarını (`SubmitButton` ve `LoginButton`) `Button` component'i üzerinden oluşturmuş olduk.
 
 
 
-```react
+```javascript
 const Heading = props => {
 		return (
 			<div>
@@ -120,7 +120,7 @@ const Page1 = () => {
 }
 ```
 
-Bu örnekte Heading adlı bir component oluşturduk ve `<h1>` etiketi içerisinde gelen message prop'unun gösterilmesini istedik. Page1component'inde Heading component'ini kullanacağız. Prop olarak message string'ini gönderiyoruz ve Heading component'inin render olmasını sağlıyoruz. 
+Bu örnekte `Heading` adlı bir component oluşturduk ve `<h1>` etiketi içerisinde gelen message prop'unun gösterilmesini istedik. `Page1component`'inde `Heading` component'ini kullanacağız. Prop olarak `message` string'ini gönderiyoruz ve `Heading` component'inin render olmasını sağlıyoruz. 
 
   
 

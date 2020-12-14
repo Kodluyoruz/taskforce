@@ -2,23 +2,23 @@
 
 Elementler, React uygulamalarının en küçük yapı birimidir. 
 
-```react
+```javascript
 const element = <h1>Merhaba Dünya!</h1>;
 ```
 
 React elementler'i, Browser DOM elementlerinden farklı olarak basit JavaScript objeleridir.  
 
-Not: Component (bileşen) konsepti daha yaygın olarak bilindiği için, anlam bakımından elementler ile karıştırılabilir. Element ve component kavramları farklı şeylerdir. Tanımda belirtildiği üzere elementler, React uygulamalarının dolayısıyla componentlerin en küçük yapı taşlarıdır. Diğer bir deyişle React elementleri, DOM'da render edilecek en küçük birimdir.
+**Not:** Component (bileşen) konsepti daha yaygın olarak bilindiği için, anlam bakımından elementler ile karıştırılabilir. Element ve component kavramları farklı şeylerdir. Tanımda belirtildiği üzere elementler, React uygulamalarının dolayısıyla componentlerin en küçük yapı taşlarıdır. Diğer bir deyişle React elementleri, DOM'da render edilecek en küçük birimdir.
 
 
 
 ## Bir Elementin DOM'a Render Edilmesi
 
-Browser DOM'a bir React element'i render edebilmek için bir root DOM element'ine ihtiyacımız var. Her React projesi  bu root element ile başlar. React bu sayede oluşturulan HTML kodunu nereye render edeceğini bilir. Root element geleneksel olarak "root" id'li bir <div> element'i olur. 
+Browser DOM'a bir React element'i render edebilmek için bir root DOM element'ine ihtiyacımız var. Her React projesi  bu root element ile başlar. React bu sayede oluşturulan HTML kodunu nereye render edeceğini bilir. **Root element** geleneksel olarak `"root"` id'li bir `<div>` element'i olur. 
 
-index.html dosyası aşağıdaki gibi root id'li bir <div> element'i içeriyor.
+index.html dosyası aşağıdaki gibi root id'li bir `<div>` element'i içeriyor.
 
-```react
+```javascript
 <div id="root"></div>
 ```
 
@@ -26,11 +26,11 @@ Buna “root” (kök) node (düğüm) denir; çünkü içerisindeki her şey Re
 
 Genellikle React ile yazılan uygulamalar, sadece bir adet kök DOM düğümü içerirler. Eğer React’i mevcut uygulamanıza entegre ediyorsanız, birbirinden izole olacak şekilde dilediğiniz kadar kök DOM düğümüne sahip olabilirsiniz. [^1]
 
-Örneğin *create-react-app* ile oluşturulan bir React uygulamasında bir adet root vardır ve bu root element sayesinde React tarafından bütün update'ler gerçekleştirilir.
+**Örneğin:** *create-react-app* ile oluşturulan bir React uygulamasında bir adet root vardır ve bu root element sayesinde React tarafından bütün update'ler gerçekleştirilir.
 
 Root DOM düğümü içerisinde bir React elementini render etmek istiyorsanız, bu iki parametreyi de [`ReactDOM.render()`](https://tr.reactjs.org/docs/react-dom.html#render) metoduna geçirmeniz gereklidir:
 
-```react
+```javascript
 const element = <h1>Merhaba Dünya!</h1>;
 ReactDOM.render(element, document.getElementById('root'));
 ```
@@ -47,7 +47,7 @@ Bu zamana kadar edindiğimiz bilgiler ışığında, kullanıcı arayüzünün g
 
 Aşağıdaki saat örneğini ele alalım:
 
-```react
+```javascript
 function tick() {
   const element = (
     <div>
@@ -63,7 +63,7 @@ setInterval(tick, 1000);
 
 [Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/oNzNLrN)
 
-Bu örnekte tick adlı fonksiyon içerisinde bir React element'i tanımlanıyor. Bu element `<h1>` etiketi içerisinde "Merhaba Dünya!" içerikli bir string ve `<h2>` etiketi içerisinde ise şu anki yerel saatin string'e çevrilmiş halini tutuyor. Fonksiyon tanımından sonra gelen kod satırı bu fonksiyonun her saniyede bir çağrılmasını sağlıyor.
+Bu örnekte `tick` adlı fonksiyon içerisinde bir React element'i tanımlanıyor. Bu element `<h1>` etiketi içerisinde "Merhaba Dünya!" içerikli bir string ve `<h2>` etiketi içerisinde ise şu anki yerel saatin string'e çevrilmiş halini tutuyor. Fonksiyon tanımından sonra gelen kod satırı bu fonksiyonun her saniyede bir çağrılmasını sağlıyor.
 
 [`setInterval()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setInterval) metodu ile her saniye bitiminde [`ReactDOM.render()`](https://tr.reactjs.org/docs/react-dom.html#render) metodu çağrılıyor. Bu sayede her yeni render ile arayüz güncellenmiş oluyor.
 
@@ -85,7 +85,7 @@ Bu noktada, [Virtual DOM](https://tr.reactjs.org/docs/faq-internals.html) sayesi
 
 ## Not
 
-- Bu örnek için render() metodunun birden fazla kez çağrılması amacına hizmet etmiş olabilir ancak bu genelde kullanılan bir yöntem değildir. Bunun yerine sonraki bölümlerde değineceğimiz state objesi tutan class (stateful) component'ler kullanılır.
+Bu örnek için render() metodunun birden fazla kez çağrılması amacına hizmet etmiş olabilir ancak bu genelde kullanılan bir yöntem değildir. Bunun yerine sonraki bölümlerde değineceğimiz state objesi tutan class (stateful) component'ler kullanılır.
 
 
 

@@ -3,7 +3,7 @@
 Arayüzde belirli bazı koşullara göre farklı element'ler veya component'ler render etme ihtiyacı duyarız. Bazen de belirli component ya da element'leri gizlemek isteriz. Koşullu render etmeye örnek verilebilecek bazı senaryolar şunlar olabilir:
 
 - Bir element'in gizlenip saklanmak istenmesi
-- Bir işlevi toggle etme
+- Bir işlevi toggle etme (Açılıp kapanır hale getirme)
 - Authetication ve authorization (Doğrulama ve yetkilendirme)
 
 Koşula göre farklı component'ler ve element'ler render etmenin birden fazla yolu var.
@@ -12,9 +12,9 @@ Koşula göre farklı component'ler ve element'ler render etmenin birden fazla y
 
 Bir boolean değere göre belirli bir component'in render edilmesini bir örnekle inceleyelim.
 
-Kullanıcının giriş yapıp yapmaması durumuna göre render edilecek 2 tane component'imiz var. 
+Kullanıcının giriş yapıp yapmaması durumuna göre render edilecek 2 tane component'imiz var.
 
-```react
+```javascript
 function UserGreeting(props) {
   return <h1>Hoş geldiniz!</h1>;
 }
@@ -24,9 +24,9 @@ function GuestGreeting(props) {
 }
 ```
 
- Greeting adlı component içerisinde koşula göre yani boolean değere göre bu 2 component'den birini render edeceğiz.
+ `Greeting` adlı component içerisinde koşula göre yani boolean değere göre bu 2 component'den birini render edeceğiz.
 
-```react
+```javascript
 function Greeting(props) {
   if (props.isLoggedIn) {
     return <UserGreeting />;
@@ -40,19 +40,19 @@ ReactDOM.render(
 );
 ```
 
-Greeting component'ine isLoggedIn prop'u aktarılıyor. Greeting component'i de aldığı bu prop'a göre true ise UserGreeting, false ise GuestGreeting component'i render edilecek.
+`Greeting` component'ine `isLoggedIn` prop'u aktarılıyor. `Greeting` component'i de aldığı bu prop'a göre `true` ise `UserGreeting`, `false` ise `GuestGreeting` component'i render edilecek.
 
 [Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/XWjbpoV)
 
-Burada gönderilen isLoggedIn adlı prop'u değiştirerek yani true yaparak ekrana basılan çıktının nasıl değiştiriğini görebilirsiniz. 
+Burada gönderilen `isLoggedIn` adlı prop'u değiştirerek yani `true` yaparak ekrana basılan çıktının nasıl değiştiriğini görebilirsiniz. 
 
-**Not:** Her ne kadar JSX yazarken süslü parantezler içerisinde JavaScript ifadeleri yazabilsek bile if...else koşul ifadeleri JSX içerisinde çalışmaz. Bunun sebebi JSX'in bir syntax uzantısı olmasıdır. JSX'in sonuç olarak React.creeateElement() fonksiyonunu çağırmak için bir [syntactic sugar](https://tr.reactjs.org/docs/jsx-in-depth.html) olduğunu unutmayalım.
+**Not:** Her ne kadar JSX yazarken süslü parantezler içerisinde JavaScript ifadeleri yazabilsek bile if...else koşul ifadeleri **JSX içerisinde çalışmaz.** Bunun sebebi JSX'in bir syntax uzantısı olmasıdır. JSX'in sonuç olarak React.creeateElement() fonksiyonunu çağırmak için bir [syntactic sugar](https://tr.reactjs.org/docs/jsx-in-depth.html) olduğunu unutmayalım.
 
 ## 2. Element'leri Tutan Değişkenler
 
 Değişkenlere element atayabiliyoruz. Bu sayede koşula göre değişkene istenilen element'i atarız ve JSX içinde bu değişken'i render ederiz.
 
-```react
+```javascript
 function Greeting(props) {
   let greeeting;
   if (props.isLoggedIn) {
@@ -73,9 +73,9 @@ ReactDOM.render(
 
 ## 3. Ternary Operatör 
 
-Ternary operator genellikle if...else ifadesi için kısa bir alternatif olarak kullanılır. Koşulu belirttikten sonra soru işareti konulur, eğer koşul truthy bir değer ise soru işaretinden sonra belirtilen ilk ifade, eğer falsy ise iki noktadan sonraki ifade     çalıştırılır.
+Ternary operator genellikle if...else ifadesi için kısa bir alternatif olarak kullanılır. Koşulu belirttikten sonra soru işareti konulur, eğer koşul truthy bir değer ise soru işaretinden sonra belirtilen ilk ifade, eğer falsy ise iki noktadan sonraki ifade çalıştırılır.
 
-```react
+```javascript
 function Greeting(props) {
   return props.isLoggedIn ? <h1>Hoş geldiniz!</h1> : <h1>Lütfen kayıt olun</h1>;
 }
@@ -96,12 +96,12 @@ Bu operatör koşul doğruysa ifade olarak verilen kısmı çalıştırır fakat
 
 **Not:** Koşul falsy bir değer olduktan sonra verilen ifade çalışmayacaktır ancak yine de falsy değer render edilecektir. Örneğin aşağıdaki durumda 0 render edilecektir.
 
-```react
+```javascript
 function Ornek(props) {
   const count = 0;
   return (
     <div>
-      { count && <h1>Count value: {count}</h1>}
+      { count && <h1>Count value: {count}</h1> }
     </div>
   );
 }
@@ -113,7 +113,7 @@ function Ornek(props) {
 
 Eğer component'in veya element'in render edilmesini istemiyorsak yani gizlemek istiyorsak "null" değerini return edebiliriz.
 
-```react
+```javascript
 function Greeting(props) {
   if(!props.isLoggedIn) {
       return null;
@@ -133,7 +133,7 @@ ReactDOM.render(
 );
 ```
 
-Bu örnekte Greeting component'ine isLoggedIn prop'unu göndermiyoruz. Bu durumda Greeting component'i direkt olarak null return edecektir. Böylece ekrana hiçbir component veya element render edilmeyecektir. 
+Bu örnekte `Greeting` component'ine `isLoggedIn` prop'unu göndermiyoruz. Bu durumda `Greeting` component'i direkt olarak `null` return edecektir. Böylece ekrana hiçbir component veya element render edilmeyecektir. 
 
 
 
@@ -143,7 +143,7 @@ Bahsettiğimiz üzere bir component'in belirli bir koşula göre render edilmesi
 
 ### Birçok if/else ve return ifadesi  
 
-```react
+```javascript
 render() {
   if(this.state.showHeader) {
     return (
@@ -163,9 +163,9 @@ render() {
 }
 ```
 
-Burada state içerisinde showHeader adlı bir boolean değerimiz var. Bu değere göre Header component'i render edilecek ya da edilmeyecek. Onun dışında Photo ve Comments component'leri aynı şekilde kalmakta. Bu render metodu her çalıştığında showHeader'in truthy ya da falsy bir değer olduğu kontrol edilecek daha sonra React'ın diffing algoritması sayesinde değişen bir DOM node'u var mı ona bakılacak. Bu şekilde bir render metoduna sahipsek bütün component'ler bir koşula bağlı olmasalar bile yeniden render edilecekler. Yani React tarafından buradaki bütün component ağacı değişmiş gibi davranılacak. 
+Burada state içerisinde `showHeader` adlı bir boolean değerimiz var. Bu değere göre `Header` component'i render edilecek ya da edilmeyecek. Onun dışında `Photo` ve `Comments` component'leri aynı şekilde kalmakta. Bu render metodu her çalıştığında `showHeader`'in truthy ya da falsy bir değer olduğu kontrol edilecek daha sonra React'ın diffing algoritması sayesinde değişen bir DOM node'u var mı ona bakılacak. Bu şekilde bir render metoduna sahipsek bütün component'ler bir koşula bağlı olmasalar bile yeniden render edilecekler. Yani React tarafından buradaki bütün component ağacı değişmiş gibi davranılacak. 
 
-Bu örneği göz önüne aldığımızda, Photo ve Comments component'leri her halükarda render edilecekler. Burada bir koşula bağlı olarak render edilecek şey Header component'idir. Yani bu 2 component'in bir koşula bağlı olarak render edilmesi performans açısından kayıp anlamına geliyor.
+Bu örneği göz önüne aldığımızda, `Photo` ve `Comments` component'leri her halükarda render edilecekler. Burada bir koşula bağlı olarak render edilecek şey `Header` component'idir. Yani bu 2 component'in bir koşula bağlı olarak render edilmesi performans açısından kayıp anlamına geliyor.
 
 **Not:** Bu örnekte bu 2 component'in her render metodu çağrıldığında yeniden render edilmeleri o kadar maliyetli bir işlem olarak görülmeyebilir. Ancak konu animasyon ve video gibi data açısından daha ağır element'lerin render edilmesine geldiğinde performans konusundaki fark ortaya çıkacaktır.
 
@@ -173,15 +173,15 @@ Yukarıdaki performans açısından problemli render metodumuzun basitleştirilm
 
 ![rendering-with-multiple-if](figures/rendering-with-multiple-if.png)
 
-showHeader değişkeninin true olarak geldiğini ve component'lerin render edildiğini düşünelim. Sonrasında bir kullanıcı etkileşimi olduğunu ve showHeader'ın değiştiğini varsayalım. Yani sadece Photo ve Comments component'lerimiz rendeer olacak. Bu durumda React, virtual DOM'da diffing algoritması ile karşılaştırma yaptığında bütün component ağacının değiştirilmesi gerektiğini düşünecek çünkü component'lerin pozisyonları değişmiş oldu. 
+`showHeader` değişkeninin `true` olarak geldiğini ve component'lerin render edildiğini düşünelim. Sonrasında bir kullanıcı etkileşimi olduğunu ve `showHeader`'ın değiştiğini varsayalım. Yani sadece `Photo` ve `Comments` component'lerimiz rendeer olacak. Bu durumda React, virtual DOM'da diffing algoritması ile karşılaştırma yaptığında bütün component ağacının değiştirilmesi gerektiğini düşünecek çünkü component'lerin pozisyonları değişmiş oldu. 
 
 ![multiple-if-second-call](figures/multiple-if-second-call.png)
 
-showHeader true olduğunda Header component ilk sırada olacak ama false olduğu durumda Photo component'i onun yerini alarak 1. sıraya geçecek. React, karşılaştırma yaptığında bu pozisyonların farklı olduğunu gördüğünde bütün DOM yeniden render edilmiş olacak. 
+`showHeader` `true` olduğunda `Header` component ilk sırada olacak ama `false` olduğu durumda `Photo` `component`'i onun yerini alarak 1. sıraya geçecek. React, karşılaştırma yaptığında bu pozisyonların farklı olduğunu gördüğünde bütün DOM yeniden render edilmiş olacak. 
 
 Sonuç olarak bu render metoduna bakıldığında React'ın optimize etmeye çalıştığı şeyin önüne geçildiğini görüyoruz. Şimdi kod üzerinde biraz değişiklik yapalım.
 
-```react
+```javascript
 render() {
   return (
     <div>
@@ -193,19 +193,19 @@ render() {
 }
 ```
 
-Bu sayede showHeader false olduğunda onun pozisyonunu null değer tutacak. Component ağacının basitleştirilmiş haldeki görünümü şu şekilde olacak:
+Bu sayede `showHeader` `false` olduğunda onun pozisyonunu `null` değer tutacak. Component ağacının basitleştirilmiş haldeki görünümü şu şekilde olacak:
 
 ![component-tree-with-null](figures/component-tree-with-null.png)
 
-Aynı şekilde showHeader falsy bir değere döndüğünde yani bir güncelleme olduğunda null pozisyon yerine artık Header component'i alacak. Photo ve Comments component'lerinin pozisyonları sabit kaldığı için o tarafta herhangi bir güncelleme yapılma ihtiyacı duyulmayacak.
+Aynı şekilde `showHeader` falsy bir değere döndüğünde yani bir güncelleme olduğunda `null` pozisyon yerine artık `Header` component'i alacak. `Photo` ve `Comments` component'lerinin pozisyonları sabit kaldığı için o tarafta herhangi bir güncelleme yapılma ihtiyacı duyulmayacak.
 
 ![with-null-second-call](figures/with-null-second-call.png)
 
 
 
-Bir diğer yaklaşım olarak değişken kullanılan şu örneği verebiliriz:
+**Bir diğer yaklaşım olarak değişken kullanılan şu örneği verebiliriz:**
 
-```react
+```javascript
 render() {
   let header = null;
   if(this.state.showHeader) {
