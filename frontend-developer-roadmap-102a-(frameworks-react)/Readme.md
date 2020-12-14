@@ -7,7 +7,7 @@
 - [x] [Rendering Elements](rendering-elements/)
 - [x] [Components](components/) 
 - [x] [Props and State](props-and-state/)
-- [ ] [props-children](props-children/)
+- [ ] [Props Children](props-children/)
 - [ ] Event Handling
 - [x] [Conditional Rendering](conditional-rendering/)
 - [x] [Component Lifecycle](component-lifecycle)
