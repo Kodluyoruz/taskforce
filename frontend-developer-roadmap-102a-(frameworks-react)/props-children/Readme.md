@@ -6,7 +6,7 @@
 
 ### Örnek
 
-```react
+```javascript
 const Photo = (props) => {
   return (
     <div>
