@@ -7,10 +7,14 @@
 - [x] [Rendering Elements](rendering-elements/)
 - [x] [Components](components/) 
 - [x] [Props and State](props-and-state/)
+- [ ] [props-children](props-children/)
+- [ ] Event Handling
 - [x] [Conditional Rendering](conditional-rendering/)
 - [x] [Component Lifecycle](component-lifecycle)
+- [ ] Fragments
 - [ ] Lists and keys
 - [x] [Composition vs inheritance](composition-vs-inheritance)
+- [ ] Basics of Form Handling
 - [ ] Basic hooks
 
 ## Advanced topics
