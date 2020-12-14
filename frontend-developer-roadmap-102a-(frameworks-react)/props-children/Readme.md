@@ -23,7 +23,7 @@ const Photo = (props) => {
 
 Eğer `props.children` kullanılmayacaksa `Photo` component'i aşağıdaki gibi self-closing tag ile yazılır.
 
-```react
+```javascript
 return (
     <div>
       <Photo src={src} />
@@ -35,7 +35,7 @@ Bizim buradaki amacımız `props.children` kullanmak olduğu için `<Photo>...</
 
 `Photo` component'ini render ederken, açılış-kanapış tag'lerinin arasına `props.children` olarak aktarılacak content'i belirtiriz.
 
-```react
+```javascript
 return (
     <div>
       <Photo src={src}>
@@ -60,7 +60,7 @@ return (
 
 `React.createElement` fonksiyonunun yapısını incelediğimizde, son parametre görüldüğü üzere [spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) operatörü içerir yani geri kalan bütün argümanları bir array'de toplar. 
 
-```react
+```javascript
 <div>
     Metin
     <h2>h2 metni</h2>
@@ -77,7 +77,7 @@ React.createElement("div", null,
 
 Burada ilk `createElement` fonksiyonuna baktığımızda ilk parametre tip, 2. parametre aktarılan prop'lar (burada aktarılacak prop olmadığı için null) ve 3. parametre ise bahsettiğimiz üzere tüm `React.createElement()`'lerdir. Bu element'lerin hepsi children array'i altında toplanır. Bu örnekte `<div>` parent iken, altındaki diğert tüm `React.createElement`'ler onun child element'idir. 
 
-```react
+```javascript
 function createElement(type, props, ...children) {
     // ...
     if(IS_CLASS(type)) {
