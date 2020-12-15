@@ -25,3 +25,5 @@ GitHub, proje yönetim ve versiyon kontrol sistemi olmakla birlikte, ayrıca gel
 Kodlama yeteneğinizi geliştirmek için **CodeWars, LeetCode, edabit, repl.it, CodePen, Exercism.io** siteleri de tavsiye ettiğimiz sitelerden.
 
 //TODO : Linkler eklenecek
+
+//Java kısmındaki Leetcode kısmı eklenebilir
