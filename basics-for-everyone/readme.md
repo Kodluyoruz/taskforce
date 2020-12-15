@@ -61,7 +61,7 @@
 
 ## Developer'lar için platformların önemi
 
-- [ ] Kendinizi güncel tutmak için kullanabileceğiniz platformlar: 
+- [ ] [Kendinizi güncel tutmak için kullanabileceğiniz platformlar](platformların-önemi/)
 - [ ] Hackerrank, CodeWars, LeetCode, Project Euler, Reddit, 
 - [ ] Edabit, repl.it, codepen
 
