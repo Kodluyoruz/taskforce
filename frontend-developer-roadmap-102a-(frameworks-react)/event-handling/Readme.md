@@ -119,3 +119,10 @@ Bu örnekte bir class component içerisinde `bind` metodu kullanarak "this" ile 
 
 
 
+## Kaynaklar
+
+https://tr.reactjs.org/docs/handling-events.html
+
+https://www.w3schools.com/react/react_events.asp
+
+https://medium.com/javascript-in-plain-english/event-handlers-in-react-810571b3d2cf
