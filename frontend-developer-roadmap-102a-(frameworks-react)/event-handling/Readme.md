@@ -1,4 +1,4 @@
-# React Events
+# React Events (Olay Yönetimi)
 
 Event, HTML element'leri üzerinde gerçekleşen olaylardır. Bir event'in gerçekleşmesine tarayıcı veya kullanıcı neden olabilir. Bunlara örnek olarak bir web sayfasının yüklenmesinin tamamlanması, bir input alanının değiştirilmesi veya bir butonun tıklanması verilebilir. Genellikle bir event'in gerçekleşmesi sonucu bir şeyler yapılmak istenebilir. Bu yapılması istenen şeyleri ilgili event'in yakalanması durumunda yerine getirmek istiyorsak bunu event handler ile gerçekleştiririz. Event handler'lar HTML element'lerine attribute olarak verilirler.
 
