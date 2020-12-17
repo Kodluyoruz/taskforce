@@ -8,7 +8,7 @@
 - [x] [Components](components/) 
 - [x] [Props and State](props-and-state/)
 - [ ] [Props Children](props-children/)
-- [ ] Event Handling
+- [ ] [Event Handling](event-handling/)
 - [x] [Conditional Rendering](conditional-rendering/)
 - [x] [Component Lifecycle](component-lifecycle)
 - [ ] Fragments
