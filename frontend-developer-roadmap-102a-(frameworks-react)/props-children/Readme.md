@@ -19,7 +19,7 @@ const Photo = (props) => {
 }
 ```
 
-`Photo` isimli basit bir functional component, aldığı "`src`" prop'u yardımıyla ekrana bir image render ediyor. Daha sonraki satırda bir `<div>` içerisinde props.children görüyoruz. Bu component render olduğunda component'in açılış-kapanış tag'leri arasındaki içerik image'dan hemen sonra render edilecek.
+`Photo` isimli basit bir functional component, aldığı `src` prop'u yardımıyla ekrana bir image render ediyor. Daha sonraki satırda bir `<div>` içerisinde props.children görüyoruz. Bu component render olduğunda component'in açılış-kapanış tag'leri arasındaki içerik image'dan hemen sonra render edilecek.
 
 Eğer `props.children` kullanılmayacaksa `Photo` component'i aşağıdaki gibi self-closing tag ile yazılır.
 
@@ -48,13 +48,13 @@ return (
 
 [Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/PoGWwwm)
 
-**Not:** Bu bir functional component olduğu için, class component'lerde olduğu gibi "this" keyword'ü kullanmıyoruz.
+> **Not:** Bu bir functional component olduğu için, class component'lerde olduğu gibi "this" keyword'ü kullanmıyoruz.
 
 
 
 ## Perde Arkasında Olanlar
 
-[JSX](../jsx) konu başlığında bahsettiğimiz üzere, `JSX` bir syntactic sugar'dır yani arka planda `React.createElement()` fonksiyon çağrılarına dönüştürülür. 
+[JSX](../jsx) konu başlığında bahsettiğimiz üzere, **JSX** bir syntactic sugar'dır yani arka planda `React.createElement()` fonksiyon çağrılarına dönüştürülür. 
 
 `React.createElement(component, props, ...children)` 
 

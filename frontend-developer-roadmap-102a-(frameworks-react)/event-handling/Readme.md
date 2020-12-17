@@ -20,7 +20,7 @@ React'te `event handling` (olay yönetimi), DOM element'lerindeki olay yönetimi
 
 - Event listener isimleri lowercase yerine camelCase'dir.
 
-- Event handler olarak string yerine fonksiyon verilir ve süslü parantez içinde yazılır.
+- Event handler olarak string yerine fonksiyon verilir ve süslü parantez içinde yazılır. (Yukarıdaki yazım şekli ile aşağıda React'ta kullanımı arasındaki farka dikkat!)
 
 ### Örnek
 
@@ -58,9 +58,9 @@ ActionLink = () => {
 
 [Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/OJRmbrB?editors=1111).
 
-ActionLink adlı functional component içerisinde handleClick adlı bir fonksiyon var. Bu fonksiyon onClick event'ine handler olarak verilmiş ve preventDefault ile yeni bir sayfaya yönlendirilmeyi engelliyor. 
+`ActionLink` adlı functional component içerisinde `handleClick` adlı bir fonksiyon var. Bu fonksiyon `onClick event`'ine handler olarak verilmiş ve `preventDefault` ile yeni bir sayfaya yönlendirilmeyi engelliyor. 
 
-Görüldüğü üzere handleClick `e` adlı bir argüman alıyor. Bu argüman event tetiklendiğinde handler'a otomatik olarak aktarılır ve farklı API'ylara sahip olabilir. React'te bu `e`'ye sentetik olay denir ([SyntheticEvent](https://tr.reactjs.org/docs/events.html)). Otomatik olarak aktarılan bu event objesinin tipini e.type ile görebiliriz. Bu durumda "click" olacaktır. 
+Görüldüğü üzere `handleClick` `e` adlı bir argüman alıyor. Bu argüman event tetiklendiğinde handler'a otomatik olarak aktarılır ve farklı API'ylara sahip olabilir. React'te bu `e`'ye sentetik olay denir ([SyntheticEvent](https://tr.reactjs.org/docs/events.html)). Otomatik olarak aktarılan bu event objesinin tipini `e.type` ile görebiliriz. Bu durumda "click" olacaktır. 
 
 ### Örnek
 
@@ -76,11 +76,15 @@ Görüldüğü üzere handleClick `e` adlı bir argüman alıyor. Bu argüman ev
 />
 ```
 
-Bir  `<img>` element'indeki onMouseMove event'i için aktarılan `e` argümanı ile  `<input>` element'indeki onChange event'i için aktarılan `e` argümanları farklıdır. 
+Bir  `<img>` element'indeki `onMouseMove` event'i için aktarılan `e` argümanı ile  `<input>` element'indeki `onChange` event'i için aktarılan `e` argümanları farklıdır. 
 
 ## Event Handler'a Parametre Göndermek
 
-Bazı durumlarda event handler'a parametre göndermemiz gerekir. Bu duruma örnek olarak bir döngü içerisinde render edilen butonlara id parametresi göndermek verilebilir. Gönderilmek istenen parametre ya da parametreler dışında event objesini de göndermek istiyorsak ve aşağıda olduğu gibi bir arrow function kullanıyorsak, event objesini manuel olarak göndermek zorundayız. `Bind` metodu ile event objesi otomatik olarak gönderilir. 
+Bazı durumlarda event handler'a parametre göndermemiz gerekir. Bu duruma örnek olarak bir döngü içerisinde render edilen butonlara `id` parametresi göndermek verilebilir.
+
+**[Bir Örnekle açıklayalım.]**
+
+Gönderilmek istenen parametre ya da parametreler dışında event objesini de göndermek istiyorsak ve aşağıda olduğu gibi bir arrow function kullanıyorsak, event objesini manuel olarak göndermek zorundayız. `Bind` metodu ile event objesi otomatik olarak gönderilir. 
 
 **Not:** Render içerisinde `bind` metodu ya da `arrow function` kullanmak, element'in her render edilişinde yeni bir fonksiyon oluşturulmasına sebep olacağı için performans kayıplarına sebep olabilir. Bu yüzden tavsiye [edilmemektedir](https://tr.reactjs.org/docs/faq-functions.html).
 
