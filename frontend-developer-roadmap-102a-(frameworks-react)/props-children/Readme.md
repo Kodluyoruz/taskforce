@@ -1,6 +1,6 @@
 # Props Children
 
-`this.props.children` (eğer functional bir component kullanıyorsak `props.children`), bir component'in açılış-kapanış etiketleri arasında bulunan bütün content'i içerir. React tarafından sunulan ve bütün component'lerde mevcut olan props.children daha esnek ve yeniden kullanılabilir component'ler oluşturmaya katkı sağlar. 
+Children, React'te özel bir property'dir. `this.props.children` (eğer functional bir component kullanıyorsak `props.children`), bir component'in açılış-kapanış etiketleri arasında bulunan bütün content'i içerir. React tarafından sunulan ve bütün component'lerde mevcut olan props.children daha esnek ve yeniden kullanılabilir component'ler oluşturmaya katkı sağlar. 
 
 [React dökümantasyonunda](https://tr.reactjs.org/docs/composition-vs-inheritance.html#containment), `props.children`'dan özellikle generic "boxes" (genel kutular)'ı temsil eden component'lerin alt elemanlarını (child) bilmelerini gerektirmeyen durumlarda kullanıldığından bahsediliyor. 
 
@@ -19,7 +19,7 @@ const Photo = (props) => {
 }
 ```
 
-`Photo` isimli basit bir functional component, aldığı `src` prop'u yardımıyla ekrana bir image render ediyor. Daha sonraki satırda bir `<div>` içerisinde props.children görüyoruz. Bu component render olduğunda component'in açılış-kapanış tag'leri arasındaki içerik image'dan hemen sonra render edilecek.
+`Photo` isimli basit bir functional component, aldığı `src` prop'u yardımıyla ekrana bir image render ediyor. Daha sonraki satırda bir `<div>` içerisinde props.children görüyoruz. Photo component'i render edilirken açılış-kapanış tagler'i arasındaki bütün child element'ler props.children property'si içerisinde tutulur. 
 
 Eğer `props.children` kullanılmayacaksa `Photo` component'i aşağıdaki gibi self-closing tag ile yazılır.
 
@@ -50,7 +50,53 @@ return (
 
 > **Not:** Bu bir functional component olduğu için, class component'lerde olduğu gibi "this" keyword'ü kullanmıyoruz.
 
+### Örnek
 
+```javascript
+const Photo = (props) => {
+  return (
+    <div>
+      <img src={props.src}/>
+      <div className="center">
+        {props.children}
+      </div>
+    </div>
+  )
+}
+
+class Profile extends React.Component {
+  constructor(props) {
+    super(props);
+     this.state = {
+      photos: [
+        {id: 1, src: 'http://via.placeholder.com/200x100'},
+        {id: 2, src: 'http://via.placeholder.com/400x200'},
+        {id: 3, src: 'http://via.placeholder.com/200x100'}
+      ]
+    };
+  }
+ 
+  render() {
+    return(
+      <div className="photos">
+        {this.state.photos.map((photo) => {
+          return(
+            <Photo key={photo.id} src={photo.src}>
+              <button>
+                {photo.id}
+              </button>
+            </Photo>
+          );
+        })}
+      </div>
+    );
+  }
+}
+```
+
+[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/ZEpKVXo?editors=1111).
+
+Bu örnekte, Profile isimli class component'te state içerisinde bulunan photos array'ini map fonksiyonu ile dönüyoruz. Map yaparken Photo component'ini return ediyoruz. Burada Photo component'ini incelediğimizde herhangi bir buton içermediğini görebiliriz. Ancak bu kod çıktısında her fotoğraf altında bir buton render edilecektir. Photo component'inin açılış-kapanış tag'leri arasında yazdığımız buton element'i Photo component'i içerisinde props.children olarak erişilebilir durumdadır. Biz de props.children'ı bir `<div>` içerisinde render ettiğimiz için output'ta her fotoğraf için o fotoğrafın ID'sini gösteren bir buton render edilir.
 
 ## Perde Arkasında Olanlar
 
