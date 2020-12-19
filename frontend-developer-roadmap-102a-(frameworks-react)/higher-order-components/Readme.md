@@ -1,6 +1,6 @@
 # Higher Order Component'ler
 
-Higher Order Component'ler (HOC), argüman olarak bir veya daha fazla component alan ve output olarak yeni bir componenet return eden component'lerdir. Bu component'lerin amacı yeniden kullanılabilirliği (reusability) sağlamaktır. Component'lerin doğasında olan yeniden kullanılabilirliği bir üst seviyeye taşır. Genelde HOC'lerin kullanım amacı; ortak bir fonksiyonelliği component'ler arasında paylaşmak, var olan component'lere ek fonksiyonellikler eklemektir. React'teki Higher Order Component'ler, JavaScript'teki higher order fonksiyonlardan ilham almıştır. HOC'i daha iyi anlamak için JavaScript'teki higher order fonksiyonları kısaca inceleyelim.
+Higher Order Component'ler (HOC), argüman olarak bir veya daha fazla component alan ve output olarak yeni bir component return eden component'lerdir. Bu component'lerin amacı **yeniden kullanılabilirliği (reusability)** sağlamaktır. Component'lerin doğasında olan yeniden kullanılabilirliği bir üst seviyeye taşır. Genelde HOC'lerin kullanım amacı; ortak bir fonksiyonelliği component'ler arasında paylaşmak, var olan component'lere ek fonksiyonellikler eklemektir. React'teki Higher Order Component'ler, JavaScript'teki **higher order fonksiyon**lardan ilham almıştır. HOC'i daha iyi anlamak için JavaScript'teki higher order fonksiyonları kısaca inceleyelim.
 
 ## Higher Order Fonksiyonlar
 
@@ -10,7 +10,9 @@ JavaScript'te higher-order fonksiyonlar, argüman olarak bir (veya daha fazla) f
 
 ## Higher Order Component Nedir?
 
-Bir component bir veya daha fazla component'i argüman olarak alır ve yeni bir (upgraded) component return eder. Bu görevi gören component'e higher order component denir. Tıpkı higher order fonksiyonlar gibi çalışırlar. Bir component'e belirli davranış ve özellikleri katmak için kullanılırlar. Higher order component'ler:
+Bir component bir veya daha fazla component'i argüman olarak alır ve yeni bir (upgraded) component return eder. Bu görevi gören component'e higher order component denir. Tıpkı higher order fonksiyonlar gibi çalışırlar. Bir component'e belirli davranış ve özellikleri katmak için kullanılırlar. 
+
+Higher order component'ler:
 
 - Yeni bir component oluştururlar, var olan component'i değiştirmezler (mutation yoktur).
 - Pure fonksiyonlardır, herhangi bir side effect'leri yoktur. Yalnızca kendi argümanlarına bağlı olarak yeni bir component return ederler.
@@ -66,6 +68,8 @@ ReactDOM.render(<App />, document.getElementById("root"));
 Bu örnekte, Name isimli component yalnızca props.children'ı bir `<span>` etiketi içerisinde göstermekle görevli. Yazmış olduğumuz `withReverse` adlı higher order component'e Name component'ini argüman olarak verdiğimizde, `withReverse` HOC'inden return edilecek ekstra özellikli yeni bir component'e sahip olacağız. Bu component'e `ReversedName` ismini verdik. Sonuç olarak, ReversedName açılış-kapanış etiketleri arasına yazdığımız string ifade tersine çevrilerek render edilecek.
 
 **Not:** Higher order component'lere with ile başlayan isimler verilir. Bu genel bir adlandırma kuralıdır. (naming convention) 
+
+
 
 ## Örnek -2
 
