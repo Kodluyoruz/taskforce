@@ -25,7 +25,7 @@
 - [ ] Refs
 - [ ] Render props
 - [ ] Code splitting
-- [ ] High order components
+- [ ] [High order components](higher-order-components/)
 - [ ] Portals
 - [ ] Error boundaries
 - [ ] Fiber architecture
