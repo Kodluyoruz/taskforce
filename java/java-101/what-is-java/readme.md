@@ -16,7 +16,7 @@ Java hızlı, güvenli ve güvenilir özelliklere sahiptir. Masaüstü uygulamal
 - **Dağıtık sistemler ve Web programlama yapabilmenize imkan tanır.** Java ile network (ağlar) üzerinde çalışabilecek dağıtık sistemler programlayabiliriz. TCP/IP, HTTP ve Socket gibi alt yapılar ile bunları gerçekleştirebiliriz. Remote Method Invocation (RMI) ve REST tabanlı servis özellikleri sayesinde dağıtık bir şekilde haberleşme imkanı sağlamaktadır. Servlet, Java Server Page gibi alt yapılar ile Web programlama da yapılabilmektedir.
 - **Gömülü sistemlerde programlama imkanı sağlar.** JavaME platformu ile gömülü sistemlerde Java ile geliştirmeler yapabilirsiniz.
 
-## Java Tarihçesi
+## Java Tarihçesi
 
 1991 yılında Sun Microsystems&#39;de (Şu an bu firma Oracle tarafından satın alınmıştır.) çalışan James Gosling&#39;e ve arkadaşlarına birçok cihazda ve bilgisayarda platform bağımsız şekilde çalışabilecek bir dil ortaya çıkarmaları için görev verildi. Onlar da C++ dilini inceledikten sonra, yeni bir dil ortaya çıkarıp bu hedefi gerçekleştirmeye karar verdiler. Ofislerinin önündeki ağaçtan esinlenerek bu dile Meşe anlamına gelen &quot;Oak&quot; adını verdiler. Ardından, 1 yıl kadar sonra geliştirilen tüm teknolojiler Java 1.0 adı altında toplanıldı. Bu teknoloji Star7 isimli bir el bilgisayarı ve Time Warner şirketi için ise bir televizyon decoder cihazı geliştirme projelerinde kullanıldı. (Java logosundaki Duke karakteri bu sistemlerde yardımcı sihirbazlığı yapan modülün simgesiydi ) Fakat, projelerde istenilen başarı sağlanamadı. Ardından, proje sonucu geliştirilen Java dili kullanılmama durumuna gelme tehlikesiyle karşı karşıya kaldı.
 
