@@ -26,7 +26,7 @@
 - [ ] Render props
 - [ ] Code splitting
 - [ ] [Higher Order Components](higher-order-components/)
-- [ ] Portals
+- [ ] [Portals](react-portals/)
 - [ ] Error boundaries
 - [ ] Fiber architecture
 
