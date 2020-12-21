@@ -10,11 +10,11 @@ Aşağıdaki linkten Oracle sitesi üzerinden JDK indirme işlemini başlatabili
 
 [https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
 
-![JDK 8 Kurulumu](C:/GitHub/taskforce/java-101/hafta-1/figures/JDK-8-Kurulumu.png) 
+![JDK 8 Kurulumu](figures/JDK-8-Kurulumu.png) 
 
 Yukarıda da görüleceği üzere işlemci tipinize göre x86 (32 Bit) / x64 (64 Bit) seçebilirsiniz. Tıklayıp sözleşmeyi kabul edip indirebilirsiniz. İndirilen .exe uzantılı dosyaya çift tıklayarak kurulumu başlatabilirsiniz.
 
-![JDK Kurulumu 2 ](C:/GitHub/taskforce/java-101/hafta-1/figures/jdk-kurulumu-2.jpg)
+![JDK Kurulumu 2 ](figures/jdk-kurulumu-2.jpg)
 
 
 
