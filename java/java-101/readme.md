@@ -10,7 +10,7 @@
 - [ ] [Variables, Constants, Primitive Types](variables-constants-primitive-types/)
 - [ ] [Operatörler (Aritmetik)](operatorler/)
 - [ ] Variable, data types ve literals arasındaki farklar
-- [ ] Input/Output
+- [ ] [Input/Output](input-output-classes/)
 - [ ] Replit, BlueJ, Eclipse, IntelliJ, NetBeans (İleri Seviye)
 - [ ] [If Statements](if-statements/)
 - [ ] [Loops(for, foreach, while)](loops/)
