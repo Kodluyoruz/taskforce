@@ -179,3 +179,4 @@ https://www.digitalocean.com/community/tutorials/react-error-boundaries
 
 https://tr.reactjs.org/docs/error-boundaries.html
 
+https://medium.com/swlh/understanding-reacts-error-boundaries-c15db8229d97
