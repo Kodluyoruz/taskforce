@@ -27,7 +27,7 @@
 - [ ] Code splitting
 - [ ] [Higher Order Components](higher-order-components/)
 - [ ] [Portals](react-portals/)
-- [ ] Error boundaries
+- [ ] [Error boundaries](error-boundaries/)
 - [ ] Fiber architecture
 
 ## Ecosystem
