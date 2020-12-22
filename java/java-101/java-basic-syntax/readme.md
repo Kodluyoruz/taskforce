@@ -69,7 +69,7 @@ Java dilinde kodların arasına açıklayıcı metinler eklenebilir. Kod parças
 public class MyFirstJavaProgram {
 
 /* This is my first java program.
-* This will print &#39;Hello World&#39; as the output
+* This will print 'Hello World'; as the output
 * This is an example of multi-line comments.
 */
 

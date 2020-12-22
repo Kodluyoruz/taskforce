@@ -4,7 +4,7 @@
 
 Java platform bağımsız, Nesneye Dayalı Programlama&#39;yı (Object Oriented Programming) tamamıyla destekleyen bir yazılım geliştirme dilidir. Java ile geliştirilen bir yazılım uygulaması Java Virtual Machine (Java Sanal Makinesi) yüklü olan herhangi bir bilgisayarda veya cihazda sorunsuz çalışabilir. Java aynı zamanda geliştirme platformunun kendisidir. Yazılım geliştirebilmeye imkan tanıyan ve geliştirilen bu yazılımın çalıştırılmasını sağlayan altyapıya verilen isimdir. Java bir programlama dili olmasının yanı sıra sağladığı bu imkanlarla birlikte platforma da ismini vermiştir. JDK, JRE bahsettiğimiz platformun kendisidir.
 
-Java hızlı, güvenli ve güvenilir özelliklere sahiptir. Masaüstü uygulamalarından, web tabanlı uygulamalara, mobil uygulama geliştirmeden gömülü sistem uygulamalarına kadar çok geniş bir çerçevede kullanılmaktadır. Özel sektörde kurumsal firmalarda, akademik alanlarda bilimsel çalışmalarda da sıkça tercih edilmektedir. **Bir kez yaz ve her yerde çalıştır Java&#39;nın en önemli sloganıdır.**
+Java hızlı, güvenli ve güvenilir özelliklere sahiptir. Masaüstü uygulamalarından, web tabanlı uygulamalara, mobil uygulama geliştirmeden gömülü sistem uygulamalarına kadar çok geniş bir çerçevede kullanılmaktadır. Özel sektörde kurumsal firmalarda, akademik alanlarda bilimsel çalışmalarda da sıkça tercih edilmektedir. **Bir kez yaz ve her yerde çalıştır Java&#39;nın en önemli sloganıdır.** WORA (Write Once, Run Anywhere).
 
 ### Java&#39;nın Özellikleri
 
@@ -17,6 +17,10 @@ Java hızlı, güvenli ve güvenilir özelliklere sahiptir. Masaüstü uygulamal
 - **Gömülü sistemlerde programlama imkanı sağlar.** JavaME platformu ile gömülü sistemlerde Java ile geliştirmeler yapabilirsiniz.
 
 ## Java Tarihçesi
+
+Java’yı iyi bir şekilde anlamak için, geçmişini, oluşturulmasının amaçlarını ve motivasyonunu bilmek gerekir. Diğer başarılı programlama dillerinde de olduğu gibi, Java kendinden önce gelen dillerin başarısız özelliklerini azaltmış veya tamamen yok etmiş, iyi özelliklerini ise bünyesinde toplamış ve geliştirmiştir.
+
+Java, doğrudan C++ ile bağlantılıdır. C++ ise C’nin devamıdır. Java, karakteristik özelliklerinin birçoğunu bu iki dilden almıştır. C’nin sözdizimi (syntax), C++’ın ise nesne yönelimli programlama (object oriented programming- OOP) kavramları Java’ya miras kalmıştır. Bunun yanı sıra, Java, bu dillerdeki karmaşıklığı ortadan kaldırmış, eksik özelliklerini ise tamamlamıştır.
 
 1991 yılında Sun Microsystems&#39;de (Şu an bu firma Oracle tarafından satın alınmıştır.) çalışan James Gosling&#39;e ve arkadaşlarına birçok cihazda ve bilgisayarda platform bağımsız şekilde çalışabilecek bir dil ortaya çıkarmaları için görev verildi. Onlar da C++ dilini inceledikten sonra, yeni bir dil ortaya çıkarıp bu hedefi gerçekleştirmeye karar verdiler. Ofislerinin önündeki ağaçtan esinlenerek bu dile Meşe anlamına gelen &quot;Oak&quot; adını verdiler. Ardından, 1 yıl kadar sonra geliştirilen tüm teknolojiler Java 1.0 adı altında toplanıldı. Bu teknoloji Star7 isimli bir el bilgisayarı ve Time Warner şirketi için ise bir televizyon decoder cihazı geliştirme projelerinde kullanıldı. (Java logosundaki Duke karakteri bu sistemlerde yardımcı sihirbazlığı yapan modülün simgesiydi ) Fakat, projelerde istenilen başarı sağlanamadı. Ardından, proje sonucu geliştirilen Java dili kullanılmama durumuna gelme tehlikesiyle karşı karşıya kaldı.
 
@@ -41,6 +45,20 @@ Java Versiyon Tarihçesi(**Detay:** [https://en.wikipedia.org/wiki/Java\_version
 - Java SE 13 (17 Eylül 2019)
 - Java SE 14 (17 Mart 2020)
 - Java SE 15 (15 Eylül 2020)
+
+## C# Etkisi
+
+Java’nın ortaya çıkışı birçok programcıyı etkilemiştir. Microsoft, 1990’ların sonunda C# dilini geliştirmiştir. C# doğrudan Java’dan etkilenen bir dildir. İki dil arasındaki benzerlikler o kadar fazladır ki, bu dillerden birini öğrenen diğerini de öğrenmiş gibi olur.
+
+## Anahtar Kelimeler
+
+Java’yı geliştiren ekip, Java’nın sahip olduğu özellikleri bazı anahtar kelimelerle belirtmiştir. Bu kelimelere kısaca göz atalım:
+
+- **Simple (basit)**: Java, programcıların kolayca öğrenmesi ve verimli bir şekilde kodlayabilmesi amacıyla tasarlanmıştır. C ve C++ dillerinden etkilense de bu dillerdeki bazı zorluklar Java için söz konusu değildir. Bu dilleri bilen kişiler için Java’yı öğrenmek ve kullanmak zor olmayacaktır.
+- **Object-Oriented (nesne yönelimli):** Java, nesne yönelimli bir programlama dilidir. Nesne yönelimli programlama daha sonra ayrıntıyla açıklanacaktır.
+- **Robust (güçlü):** Java, güçlü ve stabil bir dildir. Güçlü hata yönetim mekanizması sayesinde hataları tespit etmek, tekrar etmek ve çözmek kolaydır. Java ile yazılan kodlar hem derleme aşamasında (compile time) hem de çalışma aşamasında (runtime) sıkı bir şekilde kontrol edildiği için istisnai durumlara nadiren rastlanır. Üstelik daha önce de belirttiğimiz gibi platform bağımsız olması, yazdığınız kodun farklı platformlarda stabil bir şekilde çalışmasını sağlar.
+- **Multithreaded (çok kanallı):** Java, gelişen teknolojileri destekleyen bir dildir. İşlemci mimarisinin gelişmesi ve çok kanallı uygulamaların yaygınlaşması nedeniyle, Java dili doğrudan çok kanallı programlamayı destekleyecek şekilde geliştirilmiştir. Java’nın kullanması kolay senkronizasyon yöntemleri sayesinde çok kanallı uygulamalar geliştirmek oldukça kolaydır.
+- **Distributed (dağıtık):** Java, dağıtık sistemler geliştirmeyi destekleyen bir dildir. 
 
 ## Java ile Uygulama Geliştirme Yapabileceğiniz Alanlar
 

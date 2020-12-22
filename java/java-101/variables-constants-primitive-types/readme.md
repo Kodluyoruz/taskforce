@@ -1,3 +1,5 @@
+
+
 # Java Değişkenler
 
 Değişkenler içinde veri barındıran ve bilgisayarın geçici hafızasında (RAM) fiziksel olan yer kaplayan yapılardır. Değişkenlere değer (veri) ataması yapılabilir. Java&#39;da değişkenleri veri tipleri vardır. Bu tipler Java&#39;da varsayılan olarak tanımlı gelen tipler de olabilir yahut yazılımcıların kendi tanımladığı tipler de olabilir.
@@ -6,17 +8,80 @@ Değişkenler içinde veri barındıran ve bilgisayarın geçici hafızasında (
 <veri tipi> <değişken ismi> = veri (değer)
 ```
 
+Değişken tanımlaması yapıldığında aslında bilgisayar hafızasında bir yeri ayırmış oluyoruz. Bu alan o değişkenin veri tipinin boyutu kadar bir alanı ifade eder. Örneğin: 2 Byte&#39;lık bir veri tipine sahipsek ve bu tipte bir değişken tanımlıyorsak. Her değişken için hafızadan 2 Byte&#39;lık yer ayrılacaktır. Javadaki değişken tiplerini hemen alttaki şu fotoğrafta görebiliriz (ilkel (primitive) ve ilkel olmayan (non-primitive) veri tipleri ayrımına da ayrıca dikkat ediniz, ileride bahsedilecektir): 
 
+![](figures/veri-tipleri-1.png)
 
-Değişken tanımlaması yapıldığında aslında bilgisayar hafızasında bir yeri ayırmış oluyoruz. Bu alan o değişkenin veri tipinin boyutu kadar bir alanı ifade eder. Örneğin: 2 Byte&#39;lık bir veri tipine sahipsek ve bu tipte bir değişken tanımlıyorsak. Her değişken için hafızadan 2 Byte&#39;lık yer ayrılacaktır.
+Hafızada veri tutmak için değişkenleri kullanırız dedik. Değişkenlerle ilgili 5 önemli kavram vardır şimdi bunlara bakalım:
 
-![](figures/variables-1.png)
+- **Tür**: Java tür kesinliği olan bir dildir. Bunun bir sonucu olarak, her değişkenin bir türü vardır. Bu tür değişken tanımlarken belirtilir ve bir daha değiştirilemez. Türünü belirtmeden değişken tanımlayamazsınız.
+- **İsim**: Her değişkene bir isim verilir. Bu ismi değişkene değer atamak ve gerekirse bu değeri değiştirmek için kullanırız. Değişkene verilecek isim tek bir kelimeden oluşmalıdır (boşluk içermemelidir). Değişken isimleri harflerden, rakamlardan ve alt çizgi (_) karakterinden oluşabilir. Değişken isimleri rakam ile başlayamaz.
+- **Değer**: Değişkenler hafızada değer tutmak için kullanılır. Değişkene tanımlandığı anda bir değer verebileceğiniz gibi, daha sonra da değer atayabilirsiniz. Değişkenin değeri istenilen bir anda değiştirilebilir. Bu değerler değişkenin türüne göre sınırlandırılmıştır. Değişkene vereceğimiz değer türüyle uyumlu olmalıdır. Aksi halde Java derleyicisi kodumuzun derlenmesine izin vermez. Örneğin, boolean bir değişkene tamsayı değer atayamazsınız.
+- **Kapsam (Scope)**: Her değişkenin bir kapsamı vardır. Bu kapsam, değişkenin program içerisinde geçerli olduğu alanı belirler. Bir değişkene kapsamı dışında erişemezsiniz.
+- **Yaşam Süresi (Lifetime)**: Sürekli değişken oluşturursak bir süre sonra bilgisayarın hafızası tükenebilir. Bunun için her programlama dilinde bir **çöp toplama (garbage collection)** mekanizması vardır. Java’da her değişkenin bir ömrü vardır ve gerektiği anda hafızadan silinirler. Yaşam süresi çoğu zaman değişkenin kapsamıyla bağlantılıdır.
 
+### Değişken Tanımlamak
 
+Şimdi değişken tanımlamaya ve örneklerine biraz daha ayrıntılı bakalım. Java’da bir değişken, sırasıyla önce türü ve sonra ismi belirterek tanımlanır.
+
+```java
+int number;
+// number isminde, int türünde bir değişken tanımlanmış
+```
+
+Aynı satırda birden fazla değişken tanımlayabilirsiniz, fakat türleri aynı olmak zorundadır:
+
+```java
+double a, b, c;
+// double türünde 3 ayrı değişken tanımlanmış
+```
+
+Değişkeni tanımladıktan sonra, atama operatörü (=) kullanarak değişkene bir değer verebilirsiniz:
+
+```java
+double pi; // Önce double türünde bir değişken tanımladık
+pi = 3.14; // Daha sonra bu değişkene bir değer verdik
+```
+
+Eğer bir değişkene hemen değer atayacaksanız, bunu iki satırda yapmak yerine tek bir satırda halledebilirsiniz:
+
+```java
+double pi = 3.14;
+```
+
+Aynı satırda aynı türden birden fazla değişken tanımlıyorsanız bunlara şu şekilde değer verebilirsiniz:
+
+```java
+int year = 2020, age = 25;
+// Aynı satırda int türünde 2 farklı değişken tanımlanmış ve ikisine de değer verilmiş
+```
+
+Değişkene verilen değer herhangi bir anda değiştirilebilir:
+
+```java
+int year = 2020; // Bir değişken tanımlanmış ve değer verilmiş
+year = 2021; // Değişkenin değeri değiştirilmiş
+year = 2022; // Değişkenin değeri tekrar değiştirilmiş
+```
+
+Bir değişkeni tanımladığınız zaman, aynı kapsam içinde aynı isimde başka bir değişken tanımlayamazsınız:
+
+```java
+boolean a = true; // a isminde bir değişken tanımlanmış
+boolean a = false; // Bu satır hataya neden olur, a değişkeni zaten var
+```
+
+Buraya kadar olan örneklerimizde değişkene hep kesin bir değer atadık; fakat Java’da bir metodun sonucunu da değişkene atayabilirsiniz (metodlar konusunu ileride ayrıntılı göreceğiz):
+
+```java
+double result = Math.sqrt(16.0);
+// Karekök metodu çağrılıyor ve sonucu bir değişkene atanıyor
+// Bu işlem sonucunda result değişkeninin değeri 4.0 olur
+```
 
 **int** tipinde, yani sayı tipinde tanımlanmış **a,b,c,d** isimli değişkenlerin her biri hafızada bir alanı kaplarlar.
 
-Değişken tanımlama örnekleri:
+Yukarıdakilere benzer şekilde aşağıdaki değişken tanımlama örneklerine de bakalım:
 
 ```java
 
@@ -31,6 +96,89 @@ double pi = 3.14159; // Tek değişkene ilk değer ataması yapılarak
 char a = "a" ;; // Tek değişkene ilk değer ataması yapılarak
 
 ```
+
+
+
+## Değişlenlerin Kapsamı ve Yaşam Süresi
+
+Değişkenlerin kapsamını ve yaşam süresini anlamak için önce **kod bloğu (block)** kavramını incelemeliyiz.
+
+Java’da kodlarımızı satırlar halinde yazarız. Her bir satırın sonuna noktalı virgül işareti konur. Bunu satırın bittiğini belirtmek için yaparız. Birden fazla satırdan oluşan kodlarımızı ise bir blok içine alırız. Bunun için küme parantezleri ( { ve } ) kullanılır. Her sınıfın ve her metodun kendine ait kod blokları vardır. Bunun yanında, bazı özel kod blokları da bulunur; hatta kendimiz de kod blokları açabiliriz. Aşağıdaki örneği inceleyelim:
+
+```java
+class CodeBlocksDemo
+{ // sınıfın kod bloğu başlıyor
+	
+    public static void main(String[] args)
+	{ // main metodunun kod bloğu başlıyor
+        
+	    int year = 2020;
+		
+        if (year >= 2000)
+		{ // if bloğu başlıyor
+			System.out.println("Milenyum çağındayız.");
+		} // if bloğu bitiyor
+
+        for (int i = 0; i < 10; i++)
+		{ // for bloğu başlıyor
+			System.out.println(i);
+		} // for bloğu bitiyor
+
+        { // kod bloğu başlıyor
+			System.out.println("Burası isimsiz bir kod bloğudur.");
+		} // kod bloğu bitiyor
+
+    } // main metodunun kod bloğu bitiyor
+
+} // sınıfın kod bloğu bitiyor
+```
+
+Kısaca belirtmek gerekirse, bir değişkenin kapsamı tanımlandığı kod bloğuyla sınırlıdır. Bu blok içinde değişkene erişebilirsiniz. Kod bloğunun dışına çıktığınızda ise artık değişkeni kullanamazsınız. Yukarıdaki örnekteki kod bloklarını aynen bırakalım ve aşağıdaki örneği inceleyelim:
+
+```java
+class CodeBlocksDemo
+{
+
+    int a = 1;
+
+    public static void main(String[] args)
+	{
+		// Burada a değişkenine erişimimiz var
+
+        int b = 2;
+	    // Burada a ve b değişkenlerine erişimimiz var
+
+        if (b >= 2000)
+		{
+			int c = 3;
+			// Burada a, b ve c değişkenlerine erişimimiz var
+		}
+
+        // c'nin kapsamı bitti, artık erişemeyiz
+
+        for (int i = 0; i < 10; i++)
+		{
+			int d = 4;
+			// Burada a, b ve d değişkenlerine erişimimiz var
+		}
+		
+        // d'nin kapsamı bitti, artık erişemeyiz
+
+        {
+			int e = 5;
+			// Burada a, b ve e değişkenlerine erişimimiz var
+		}
+
+        // e'nin kapsamı bitti, artık erişemeyiz
+	}
+	
+    // b'nin kapsamı bitti, burada yalnızca a değişkenine erişebiliriz
+}
+```
+
+Yukarıdaki örnekten de anlaşılacağı üzere, bir kod bloğunun içinde tanımlanan değişkene dışarıdaki bir bloktan erişilemez. Diğer yandan, bunun tam tersi geçerli değildir. Bir kod bloğunda tanımlanan değişkene içerideki bir bloktan da erişilebilir.
+
+İlkel veri türüne sahip değişkenler kapsam dışına çıkınca otomatik olarak hafızadan da silinirler. Diğer bir deyişle, ilkel veri türüne sahip değişkenlerin yaşam süresi kapsamlarıyla aynıdır. Fakat bu diğer veri türündeki değişkenler için geçerli değildir. İlkel olmayan veri türündeki değişkenler kapsam dışına çıksa da hafızada kalmaya devam edebilir. Bunu daha sonra ayrıntıyla anlatacağımız için şimdilik bir örneğe daha bakıp geçeceğiz.
 
 ```java
 public class ConnectionPool
@@ -53,15 +201,13 @@ public class ConnectionPool
 ```
 
 
-Yukarıdaki örnekte veritabanına bağlantı kurabilmek için bir havuz oluşturduğumuzu hayal edelim. Bu havuzaa belli bir sayıda kullanıcı bağlanıp bir bağlantıyı alıp kullanıp, tekrar sisteme iade ettiğini düşünelim. Bu senaryoda &quot;ConnectionPool&quot; isminde bir sınıf tanımlamak gerekecektir. Bu sınıf havuz nesnesinin taslağıdır. Kapsamı süslü parantezlerle başlayıp bittiği alan kadardır. Bu kısım kod üzerinde açıklama satırlarıyla belirtilmiştir. &quot;ConnectionPool&quot; sınıfı içindeki &quot;connectionMaximumLimit&quot; isimli değişken nesne değişkenidir. Bu sınıftan üretilen her nesnenin kendine ait &quot;connectionMaximumLimit&quot; bir değişkeni olacaktır. &quot;static&quot; olarak isimlendirilen &quot;currentActiveConnectionCount&quot; değişkeni ise sınıf değişkendir. Yani herhangi bir nesne üretmeksizin sınıf üzerinden global olarak erişilebilir.
+Yukarıdaki örnekte veritabanına bağlantı kurabilmek için bir havuz oluşturduğumuzu hayal edelim. Bu havuza belli bir sayıda kullanıcı bağlanıp bir bağlantıyı alıp kullanıp, tekrar sisteme iade ettiğini düşünelim. Bu senaryoda &quot;ConnectionPool&quot; isminde bir sınıf tanımlamak gerekecektir. Bu sınıf havuz nesnesinin taslağıdır. Kapsamı süslü parantezlerle başlayıp bittiği alan kadardır. Bu kısım kod üzerinde açıklama satırlarıyla belirtilmiştir. &quot;ConnectionPool&quot; sınıfı içindeki &quot;connectionMaximumLimit&quot; isimli değişken nesne değişkenidir. Bu sınıftan üretilen her nesnenin kendine ait &quot;connectionMaximumLimit&quot; bir değişkeni olacaktır. **&quot;static&quot;** olarak isimlendirilen &quot;currentActiveConnectionCount&quot; değişkeni ise sınıf değişkendir. Yani herhangi bir nesne üretmeksizin sınıf üzerinden global olarak erişilebilir.
 
 Yani,
 
 ```java
 ConnectionPool.currentActiveConnectionCount=1000;
 ```
-
-
 
 Yukarıdaki şekildeki gibi nesne olmadan sınıf tanımı üzerinden erişilebilir.
 
@@ -92,7 +238,7 @@ Yukarıdaki örnekte de iki adet değişken tanımlanıp &quot;+&quot; toplama o
 ```java
 public class Test {
 
-    public voidpopAge(){
+    public void popAge(){
 
         int age =0;
         age = age +7;
@@ -109,8 +255,6 @@ public class Test {
 }
 ```
 
-
-
 Yukarıdaki örnekte &quot; **popAge**&quot; metodu içindeki &quot; **age**&quot; isimli değişken yerel tanımlıdır. Dikkat edilecek olunursa Test sınıfından bir nesne oluşturup &quot; **popAge**&quot; metodu çağrılmıştır. Sonuçta ekrana 7 değerini basacaktır. Yerel değişkenlere ilk değer ataması yapılmalıdır. &quot;age&quot; isimli değişkene sıfır değeri ilk değer olarak verilmiştir.
 
 Not: Nesne değişkenlerinin varsayılan değerleri otomatik atanır. Eğer değişken sınıf (referans) tipinde bir değişkense varsayılan değeri &quot; **null**&quot; olacaktır.
@@ -121,18 +265,41 @@ Not: Sınıf değişkenleri daha çok sabit değerleri tanımlamada kullanılır
 public static final double PI =3.14;
 ```
 
+## Sabitler (Constants)
 
+Değeri değiştirilemeyen değişkenlere **sabit (constant)** denir. Bazen, yazdığımız programlarda bazı değişkenlerin bir kere tanımlanmasını ve daha sonra değerlerinin değiştirilmemesini isteriz. Bu gibi durumlarda sabit tanımlarız. Sabitlerin değişkenlerden iki temel farkı vardır:
+
+- Bir değişkeni sabit yapmak istiyorsanız **final** belirteci ile tanımlamalısınız.
+- Sabitlerin değeri sonradan değiştirilemediği için tanımladığınız anda değer atamalısınız.
+
+```java
+boolean someVariable = false;
+// Bir değişken tanımlanmış. Değeri daha sonra değiştirilebilir.
+final double pi = 3.14;
+// Bir sabit tanımlanmış. Değeri daha sonra değiştirilemez.
+```
+
+Sabitlerle ilgili hataya neden olabilecek aşağıdaki örnekleri inceleyelim:
+
+```java
+final byte x; // Bu satır hataya neden olur; çünkü sabit olarak belirlenmesine rağmen bir değer atanmamış
+```
+
+```java
+final int year = 2020;
+year = 2021; // Bu satır hataya neden olur; çünkü sabitin değeri değiştirmeye çalışılıyor
+```
 
 ## Java Veri Tipleri
 
-Değişkenler, verileri hafızada belli bir alan içinde tutmaya, saklamaya yararlar. Her değişken tanımı yapılırken bir veri tipi belirtilir. Veri tipine göre de değişken tanımlandığı esnada hafızada ne kadar yer kaplayacağı belli olur.
+Değişkenler, verileri hafızada belli bir alan içinde tutmaya, saklamaya yararlar. Her değişken tanımı yapılırken bir veri tipi belirtilir. Veri tipine göre de değişken tanımlandığı esnada hafızada ne kadar yer kaplayacağı belli olur. Yazının başında da verilen tabloya tekrar göz gezdirelim şimdi.
 
 Java&#39;da iki tip değişken grubu vardır:
 
 - İlkel Veri Tipleri (Primitive Data Types)
-- Nesne Veri Tipi (Object Data Types)
+- Nesne Veri Tipi (Object Data Types ya da Non-Primitive Data Types)
 
-![](/Users/kodluyoruz/Projeler/kodluyoruz/taskforce/java/java-101/variable/figures/veri-tipleri-1.png)
+![](figures/veri-tipleri-1.png)
 
 ## İlkel Veri Tipleri
 
@@ -259,6 +426,40 @@ char letter = 'C';
 ``````
 
 
+
+## Tür Dönüşümleri
+
+Türler arasında kurallara aykırı olmadığı sürece dönüşüm yapılabilir. Tür dönüşümüne, türleri birbirinden farklı değişkenler arasında atama yaparken ihtiyaç duyulur. Örneğin, int türündeki bir değişkenin değerini long türündeki bir değişkene aktarmak istiyorsanız. Tür dönüşümleri ikiye ayrılır.
+
+### Dolaylı tür dönüşümü (Implicit type casting)
+
+İlkel veri türlerini anlatırken, her bir türün kendine ait bir değer aralığı olduğundan söz etmiştik. Eğer değer aralığı düşük bir türden yüksek bir türe dönüşüm yapılıyorsa burada dolaylı tür dönüşümü söz konusudur.
+
+Örneğin, int türünde bir değişkeniniz var. Bunun değerini long türündeki bir değişkene aktarmak istiyorsunuz. Bildiğiniz gibi, int türünün alabileceği bütün değerler long türünün değer aralığında zaten tanımlıdır. Dolayısıyla bu dönüşüm sorunsuz bir şekilde gerçekleşecektir. Aşağıdaki örneği inceleyelim:
+
+```java
+int a = 5;
+long b = a;
+```
+
+Yukarıdaki örnekte ilk önce int türünde bir değişken tanımlanıyor ve bu değişken üzerinden long türündeki bir değişkene atama yapılıyor. Burada gördüğünüz gibi, atama operatörü (=) kullanarak değişkenin ismini yazmanız yeterlidir. İlk bakışta burada bir tür uyumsuzluğu varmış gibi gözükebilir, int türünde bir değeri long türüne aktarmaya çalışıyorsunuz. Fakat burada arka planda bir tür dönüşümü yapılmaktadır. Bizim bu dönüşüm için ekstra kod yazmamız gerekmediğinden, bu tarz dönüşümlere dolaylı tür dönüşümü denir.
+
+Dolaylı tür dönüşümü yalnızca daha az kapsayıcı bir türden daha çok kapsayıcı bir türe doğru yapılabilir. Bu nedenle bu tür dönüşümler **genişleyen dönüşüm (widening conversion)** olarak da adlandırılır.
+
+### Doğrudan tür dönüşümü (Explicit type casting)
+
+Dolaylı tür dönüşümünün aksine, daha kapsayıcı bir türden daha az kapsayıcı bir türe doğru yapılan dönüşümlere doğrudan tür dönüşümü denir. Doğrudan denmesinin sebebi, yapılacak dönüşümün yönünü belirtmemiz gerektiğindendir.
+
+Bunu gösterebilmek için yukarıdaki örneğin tam tersini inceleyelim:
+
+```java
+long a = 5;
+int b = (int) a;
+```
+
+Görüldüğü gibi, doğrudan tür dönüşümü yaparken, dönüştürülecek türün adı değişkenin adından önce parantez içinde yazılır. Bunu yaparak Java’ya, türü dönüştüreceği yönü belirtmiş oluruz.
+
+Doğrudan tür dönüşümleri, **daralan dönüşüm (narrowing conversion)** olarak da adlandırılır.
 
 ## Unicode Karakter Sistemi
 
