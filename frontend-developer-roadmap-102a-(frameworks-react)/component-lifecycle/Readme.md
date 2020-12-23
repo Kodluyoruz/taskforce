@@ -19,7 +19,7 @@ Component'in DOM'a eklenmesidir. Bu aşamada React tarafından sunulan 4 tane bu
 
 **render()** metodunun bulunması zorunludur ve her zaman çağrılır. Diğerleri ise isteğe bağlı olarak kullanılabilecek lifecycle metodlardır.
 
-### constructor()
+### constructor()
 Component'in ilk oluşturulması sırasında çağrılan metottur, dolayısıyla lifecycle metotları arasından ilk sırada çağrılandır. <u>State ve props</u> konusunda bahsettiğimiz üzere, **state objesinin tanımlandığı yerdir.** Argüman olarak props alır ve constructor içerisinde ilk satır olarak super(props) ifadesiyle başlanır. Bu sayede parent class'ın constructor metodu çağrılır.
 
 ```react
@@ -29,7 +29,8 @@ constructor(props) {
   }
 ```
 
-### static getDerivedStateFromProps()
+### static getDerivedStateFromProps()
+
 Component oluşturulduktan sonra ve render metodundan hemen önce çağrılır. Yani her yeniden render olma durumunda da çağrılmaktadır. Props'ta gerçekleşen bir değişiklik sonucu component'in state'i güncellemesini sağlamak için kullanılır. Argüman olarak props ve state alır. Bu metot, state'in güncellenmesi için bir nesne return eder. Eğer `null` return ediliyorsa güncelleme gerçekleştirilmemiş olur. Nadiren kullanılan bir lifecycle metottur. Static bir metot olduğu için içerisinde *this* keyword'üne ve başka bir class metoduna erişim yoktur.
 
 ```javascript
@@ -40,7 +41,8 @@ getDerivedStateFromProps(props, state) {
 
 [React dökümanı](https://tr.reactjs.org/docs/react-component.html#static-getderivedstatefromprops)
 
-### render()
+### render()
+
 DOM'a HTML çıkarmak için kullanılır. Her component için kullanılması zorunludur.
 
 ```javascript
@@ -56,6 +58,7 @@ ReactDOM.render(<Example />, document.getElementById('root'));
 ```
 
 ### componentDidMount()
+
 Component DOM'a render edildikten hemen sonra çağrılır. En sık kullanılan lifecycle metotlardan biridir. Herhangi bir DOM manipülasyonu veya API endpoint'ten data fetching işlemi bu metod içerisinde gerçekleştirili. Çünkü component'in DOM'a render edildiğinden emin olduğumuz yer burasıdır.
 
 ```javascript
