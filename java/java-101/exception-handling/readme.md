@@ -2,7 +2,17 @@
 
 ## İstisna Durum Nedir? (Exception)
 
-İstisna durum, İngilizce Exception diye ifade edilir. Programın normal akışını beklenmeyen şekilde hatalı şekilde kesen durumlara karşılık gelir. Örneğin bir dosya okuması yaparken dosyanın harddiskte olmaması hatası, veritabanına bağlanırken bağlantı hatası, bir web servisi çağırırken bağlantı hatası veya null bir nesneye erişim hatası gibi bir çok hatalı durum meydana gelebilir. Java normal akışı kesen bu hatalı durumları yönetebilmek için yazılım geliştiricilere çeşitli imkanlar sunmuştur. Bu özelliği sayesinde Java programları tutarlı ve güvenli bir şekilde çalışabiliyor.
+**İstisna** durum, İngilizce **exception** diye ifade edilir. Programın normal akışını beklenmeyen şekilde hatalı şekilde kesen durumlara karşılık gelir. Örneğin bir dosya okuması yaparken dosyanın harddiskte olmaması hatası, veritabanına bağlanırken bağlantı hatası, bir web servisi çağırırken bağlantı hatası veya null bir nesneye erişim hatası gibi bir çok hatalı durum meydana gelebilir. Java normal akışı kesen bu hatalı durumları yönetebilmek için yazılım geliştiricilere çeşitli imkanlar sunmuştur. Bu özelliği sayesinde Java programları tutarlı ve güvenli bir şekilde çalışabiliyor.
+
+Java dilinde hatalara **istisna** (exception) denir. İstisna, adından da anlaşılacağı üzere, programın çalışması sırasında meydana gelen **istisnai** (**anormal**) durumları belirtir. Diğer bir deyişle, **çalışma zamanında** meydana gelen hatalara istisna denir.
+
+Program yazarken belli kurallar yazmış oluruz. Java çalışma ortamı, programımızı bu kurallara göre çalıştırır. Hata ise istisnai (yani kural dışı) bir durumdur. Böyle bir durumda Java çalışma ortamı ne yapacağını bilemez, çareyi programı sonlandırmakta bulur. Kısacası, bir hata oluştuğu zaman programın çalışması sona erer. Bunun önüne geçebilmek için, kodun yazılış aşamasında hata yönetiminin iyi yapılması gerekir.
+
+Hata yönetiminden kastımız, hatanın meydana gelmesini engellemek değildir. Hata yönetimi, en basit ifadesiyle, çalışma sırasında bir hata meydana gelse bile programın çalışmasına devam etmesini sağlamaktır. Java’da bu mümkündür. Java’nın hata yönetim mekanizması sayesinde, program normal akışında çalışır; eğer bir hata olursa, yazdığımız koda uygun olarak bir aksiyon alınır (kullanıcıya hata bilgilendirmesi yapılır, hata kayıt altına alınır vs.) ve sonra program çalışmasına devam eder.
+
+Java’nın hata yönetim mekanizması şu şekilde işler: Programın çalışması sırasında istisnai bir durum oluşursa bu durumla ilgili bir nesne oluşturulur ve **throws** deyimiyle fırlatılır. Böyle bir durumda, programın olağan akışı durdurulur ve bu hatanın yakalanması beklenir. Hatanın yakalanabilmesi için, hataya sebep olan kodun **try-catch** bloğu içine yazılması gerekir. Bu durumda Java çalışma ortamı, meydana gelen hatayı yakalayabilecek bir catch bloğu arar, eğer bulursa bu **catch** bloğu çalıştırılır. Son olarak, eğer bir **finally** bloğu yazılmışsa bu blok çalıştırılır ve program normal akışına devam eder.
+
+Java hataları yayılımcı hatalardır. Bunun anlamı şudur: hatanın meydana geldiği metot içinde yakalanması gerekir, aksi halde hata bir üst metoda (çağıran metoda) aktarılır. Hata yakalanmadığı sürece bir üst metoda aktarılmaya devam eder. Eğer yazdığımız kodun hiçbir yerinde hatayı yakalamadıysak, hata Java çalışma ortamına aktarılır. Java çalışma ortamı bize varsayılan bir hata yakalama mekanizması sunar. Bu mekanizma hata meydana geldiğinde programı sonlandırır.
 
 Bir hata oluştuğunda iki farklı durumla ele alınabilir.
 
@@ -178,3 +188,40 @@ public int indexOf(String value, String searchedText) throws BatuxException {
 ````
 
 Yukarıdaki örnekte bir String değer içinde aranan ifadenin hangi indekste olduğunu bulmaya çalışıyoruz. Fakat, gönderilen değer &quot;null&quot; ise &quot;throw&quot; anahtar kelimesi ile yukarıda oluşturduğumuz kendi hata tipimizden bir hata fırlatıyoruz.
+
+### Hatayı Metot Tanımında Belirtmek
+
+Bir metot yazarken hata fırlatabilecek bir metot çağırıyorsak, ya metodun içerisinde **try-catch** bloğuyla bu hatayı yakalamalı ya da hata yakalamayı bir üst metoda bırakmalıyız. Fakat bu durumda, çağıran metodun bu hatadan haberdar olabilmesi için metodun hata fırlatabileceğini metodun tanımında belirtmeliyiz. Bunu **throws** deyimiyle yaparız. Örneğe bakalım:
+
+```java
+public class Person
+{
+	private int age;
+
+    public void setAge(int age) throws IllegalArgumentException
+	{
+	
+        if (age < 0)
+		{
+			throw new IllegalArgumentException("Yaş sıfırdan küçük olamaz!");
+		}
+
+        this.age = age;
+	}
+}
+```
+
+Gördüğünüz gibi, setAge() metodunun hata fırlatabilecek bir metot olduğunu throws deyimiyle metot tanımında belirttik. Artık bu metodu çağıran metotlar da bu hatayı yakalamak veya bir üst metoda bırakmak zorundadır.
+
+### Java’daki Bazı Hata Sınıfları
+
+Java’da bazı ortak hatalar için önceden tanımlanmış hata sınıfları vardır. Bunlardan en çok karşılaşılanları kısaca inceleyelim:
+
+- **ArithmeticException**: Sıfıra bölme başta olmak üzere matematiksel hataları belirtir.
+- **ArrayIndexOutOfBoundsException**: Bir dizinin aralığı dışında elemanına erişmeye çalışıldığında fırlatılır.
+- **ClassCastException:** Geçersiz tür dönüşümü işlemlerinde fırlatılır.
+- **IllegalArgumentException:** Metoda verilen parametrelerden biri hatalı olduğunda fırlatılır.
+- **IndexOutOfBoundsException**: Hatalı indeks erişimlerinde fırlatılır.
+- **NullPointerException**: Henüz değer ataması yapılmamış değişkenler üzerinde işlem yapmaya çalışıldığında fırlatılır. Java’da en çok karşılaşılan hatalardan biridir. Bu hataya karşı önlem almak için yaptığımız kontrollere **null kontrolü** (**null-check**) denir.
+- **NumberFormatException**: Bir String değerini sayısal bir türe dönüştürmeye çalıştığımızda, eğer String değer düzgün bir sayı ifade etmiyorsa fırlatılır.
+- **UnsupportedOperationException**: Desteklenmeyen bir iş yapmaya çalışıldığında fırlatılır.
