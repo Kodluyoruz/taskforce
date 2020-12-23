@@ -48,7 +48,7 @@ Java Versiyon Tarihçesi(**Detay:** [https://en.wikipedia.org/wiki/Java\_version
 
 ## C# Etkisi
 
-Java’nın ortaya çıkışı birçok programcıyı etkilemiştir. Microsoft, 1990’ların sonunda C# dilini geliştirmiştir. C# doğrudan Java’dan etkilenen bir dildir. İki dil arasındaki benzerlikler o kadar fazladır ki, bu dillerden birini öğrenen diğerini de öğrenmiş gibi olur.
+Java’nın ortaya çıkışı birçok programcıyı etkilemiştir. Microsoft, 1990’ların sonunda C# dilini geliştirmiştir. C# doğrudan Java’dan etkilenen bir dildir. İki dil arasındaki benzerlikler o kadar fazladır ki, bu dillerden birini öğrenen neredeyse diğerini de öğrenmiş gibi olur.
 
 ## Anahtar Kelimeler
 
