@@ -12,15 +12,15 @@ Event, HTML element'leri üzerinde gerçekleşen olaylardır. Bir event'in gerç
 <button onclick="tarihiGoster()">Saat kaç?</button>
 ```
 
-Burada tarihiGoster() bir fonksiyondur.
+Burada `tarihiGoster()` bir fonksiyondur.
 
 ## React'te Event'ler
 
 React'te `event handling` (olay yönetimi), DOM element'lerindeki olay yönetimine oldukça benzerdir. Sadece, bazı küçük syntax farklılıkları vardır:
 
-- Event listener isimleri lowercase yerine camelCase'dir.
+- Event listener isimleri **lowercase** yerine **camelCase**'dir.
 
-- Event handler olarak string yerine fonksiyon verilir ve süslü parantez içinde yazılır. (Yukarıdaki yazım şekli ile aşağıda React'ta kullanımı arasındaki farka dikkat!)
+- Event handler olarak **string** yerine **fonksiyon** verilir ve süslü parantez içinde yazılır. (Yukarıdaki yazım şekli ile aşağıda React'ta kullanımı arasındaki farka dikkat!)
 
 ### Örnek
 
@@ -30,7 +30,7 @@ React'te `event handling` (olay yönetimi), DOM element'lerindeki olay yönetimi
 
 
 
-Bir diğer farklılık ise varsayılan davranışların engellenme biçimidir. Örneğin `<a>` tag'iyle verilen linkin yeni bir sayfa olarak açılmasını engellemek için düz bir HTML kodunda false return edilir. React'te ise bunun için `preventDefault` kullanılır.
+Bir diğer farklılık ise varsayılan davranışların engellenme biçimidir. Örneğin `<a>` tag'iyle verilen linkin yeni bir sayfa olarak açılmasını engellemek için düz bir HTML kodunda `false return edilir. React'te ise bunun için `preventDefault` kullanılır.
 
 ```javascript
 <a href="#" onclick="console.log('Link tıklandı.'); return false">
@@ -84,7 +84,7 @@ Bazı durumlarda event handler'a parametre göndermemiz gerekir. Bu duruma örne
 
 **[Bir Örnekle açıklayalım.]**
 
-Gönderilmek istenen parametre ya da parametreler dışında event objesini de göndermek istiyorsak ve aşağıda olduğu gibi bir arrow function kullanıyorsak, event objesini manuel olarak göndermek zorundayız. `Bind` metodu ile event objesi otomatik olarak gönderilir. 
+Gönderilmek istenen parametre ya da parametreler dışında event objesini de göndermek istiyorsak ve aşağıda olduğu gibi bir **arrow function** kullanıyorsak, `event` objesini manuel olarak göndermek zorundayız. `Bind` metodu ile event objesi otomatik olarak gönderilir. 
 
 **Not:** Render içerisinde `bind` metodu ya da `arrow function` kullanmak, element'in her render edilişinde yeni bir fonksiyon oluşturulmasına sebep olacağı için performans kayıplarına sebep olabilir. Bu yüzden tavsiye [edilmemektedir](https://tr.reactjs.org/docs/faq-functions.html).
 
@@ -93,7 +93,7 @@ Gönderilmek istenen parametre ya da parametreler dışında event objesini de g
 
 ```
 
-Bu örnekte ilk parametre olarak id'yi yazıktan sonra ikinci parametre olarak event objesini gönderiyoruz. 
+Bu örnekte ilk parametre olarak `id`'yi yazıktan sonra ikinci parametre olarak `event` objesini gönderiyoruz. 
 
 **Not:** Eğer bir class component içerisinde işlem yapıyorsak ve [arrow function](https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Functions/Arrow_functions) kullanmıyorsak, [bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) ile "[this](https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Operat%C3%B6rler/this)" context'ini tanımlamalıyız. 
 
@@ -119,7 +119,7 @@ class BindExample extends React.Component {
 
 [Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/gOwWgvN?editors=1011).
 
-Bu örnekte bir class component içerisinde `bind` metodu kullanarak "this" ile context'i tanımlıyoruz. `Bind` metodunda ilk argüman "this" olmak zorundadır. Görüldüğü üzere event objesini göndermediğimiz halde handler içerisinde ulaşabiliyoruz çünkü otomatik olarak aktarılmıştır.
+Bu örnekte bir class component içerisinde `bind` metodu kullanarak `this` ile context'i tanımlıyoruz. `Bind` metodunda ilk argüman **"this"** olmak zorundadır. Görüldüğü üzere event objesini göndermediğimiz halde handler içerisinde ulaşabiliyoruz çünkü otomatik olarak aktarılmıştır.
 
 
 
