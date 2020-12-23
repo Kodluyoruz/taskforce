@@ -256,14 +256,14 @@ const HeaderButton = () => {
   return (
     <Context.Consumer>
       {(context) => (
-        <button onClick={context.setHeaderTitle}>Click me to change Title</button>
+        <button onClick={context.setHeaderTitle}>Başlığı Değiştir</button>
       )}
     </Context.Consumer>
   )
 }
 ```
 
-Bir önceki örnekten hatırlayabileceğiniz gibi context ile `Provider`’ın **value** props’u içerisine yazmış olduğumuz değerlere erişim sağlayabiliyorduk. `Title` state’ini değiştirecek olan metodu, oluşturduğumuz butonun **onClick** event’ine referans olarak veririz. Böylelikle butona tıklandığı zaman Provider içerisinde bulunan **handleTitleChange** metodu tetiklenir ve `HeaderTitle` içerisinde bulunan `title` değerinin güncellenmesi sağlanır.
+Bir önceki örnekten hatırlayabileceğiniz gibi context ile `Provider`’ın **value** props’u içerisine yazmış olduğumuz değerlere erişim sağlayabiliyorduk. `Title` state’ini değiştirecek olan metodu, oluşturduğumuz butonun `onClick` event’ine referans olarak veririz. Böylelikle butona tıklandığı zaman `Provider` içerisinde bulunan `handleTitleChange` metodu tetiklenir ve `HeaderTitle` içerisinde bulunan `title` değerinin güncellenmesi sağlanır.
 
 HeaderButton componentimizi de tanımladıktan sonra `HeaderContainer` component’i içerisinde çağırıp uygulamamızı çalıştırırız.
 
