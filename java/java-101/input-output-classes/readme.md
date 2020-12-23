@@ -14,9 +14,9 @@ Java’nın I/O sınıflarının çoğu akışlar üzerinde işlem yapar; fakat 
 
 File sınıfının bazı yapılandırıcı kalıpları şu şekildedir:
 
-- **File**(**String** dosyanınTamYolu)
-- **File**(**String** dosyanınBulunduğuDizin, **String** dosyanınAdı)
-- **File**(**File** dosyanınBulunduğuDizin, **String** dosyanınAdı)
+- **File** (**String** dosyanınTamYolu)
+- **File** (**String** dosyanınBulunduğuDizin, **String** dosyanınAdı)
+- **File** (**File** dosyanınBulunduğuDizin, **String** dosyanınAdı)
 
 Bazı örnekleri inceleyelim:
 
