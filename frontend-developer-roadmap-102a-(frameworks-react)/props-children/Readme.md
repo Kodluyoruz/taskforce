@@ -19,7 +19,7 @@ const Photo = (props) => {
 }
 ```
 
-`Photo` isimli basit bir functional component, aldığı `src` prop'u yardımıyla ekrana bir image render ediyor. Daha sonraki satırda bir `<div>` içerisinde props.children görüyoruz. Photo component'i render edilirken açılış-kapanış tagler'i arasındaki bütün child element'ler props.children property'si içerisinde tutulur. 
+`Photo` isimli basit bir functional component, aldığı `src` prop'u yardımıyla ekrana bir image render ediyor. Daha sonraki satırda bir `<div>` içerisinde props.children görüyoruz. `Photo` component'i render edilirken açılış-kapanış tagler'i arasındaki bütün child element'ler `props.children` property'si içerisinde tutulur. 
 
 Eğer `props.children` kullanılmayacaksa `Photo` component'i aşağıdaki gibi self-closing tag ile yazılır.
 
@@ -96,11 +96,11 @@ class Profile extends React.Component {
 
 [Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/ZEpKVXo?editors=1111).
 
-Bu örnekte, Profile isimli class component'te state içerisinde bulunan photos array'ini map fonksiyonu ile dönüyoruz. Map yaparken Photo component'ini return ediyoruz. Burada Photo component'ini incelediğimizde herhangi bir buton içermediğini görebiliriz. Ancak bu kod çıktısında her fotoğraf altında bir buton render edilecektir. Photo component'inin açılış-kapanış tag'leri arasında yazdığımız buton element'i Photo component'i içerisinde props.children olarak erişilebilir durumdadır. Biz de props.children'ı bir `<div>` içerisinde render ettiğimiz için output'ta her fotoğraf için o fotoğrafın ID'sini gösteren bir buton render edilir.
+Bu örnekte, `Profile` isimli class component'te state içerisinde bulunan `photos` array'ini `map` fonksiyonu ile dönüyoruz. Map yaparken `Photo` component'ini return ediyoruz. Burada `Photo` component'ini incelediğimizde herhangi bir buton içermediğini görebiliriz. Ancak bu kod çıktısında her fotoğraf altında bir buton render edilecektir. `Photo` component'inin açılış-kapanış tag'leri arasında yazdığımız buton element'i `Photo` component'i içerisinde `props.children` olarak erişilebilir durumdadır. Biz de `props.children`'ı bir `<div>` içerisinde render ettiğimiz için output'ta her fotoğraf için o fotoğrafın `ID`'sini gösteren bir buton render edilir.
 
 ## Perde Arkasında Olanlar
 
-[JSX](../jsx) konu başlığında bahsettiğimiz üzere, **JSX** bir syntactic sugar'dır yani arka planda `React.createElement()` fonksiyon çağrılarına dönüştürülür. 
+[JSX](../jsx) konu başlığında bahsettiğimiz üzere, **JSX** bir **syntactic sugar**'dır yani arka planda `React.createElement()` fonksiyon çağrılarına dönüştürülür. 
 
 `React.createElement(component, props, ...children)` 
 
@@ -121,7 +121,7 @@ React.createElement("div", null,
 )
 ```
 
-Burada ilk `createElement` fonksiyonuna baktığımızda ilk parametre tip, 2. parametre aktarılan prop'lar (burada aktarılacak prop olmadığı için null) ve 3. parametre ise bahsettiğimiz üzere tüm `React.createElement()`'lerdir. Bu element'lerin hepsi children array'i altında toplanır. Bu örnekte `<div>` parent iken, altındaki diğert tüm `React.createElement`'ler onun child element'idir. 
+Burada ilk `createElement` fonksiyonuna baktığımızda ilk parametre tip, 2. parametre aktarılan `prop`'lar (burada aktarılacak prop olmadığı için null) ve 3. parametre ise bahsettiğimiz üzere tüm `React.createElement()`'lerdir. Bu element'lerin hepsi `children array`'i altında toplanır. Bu örnekte `<div>` parent iken, altındaki diğert tüm `React.createElement`'ler onun **child element**'idir. 
 
 ```javascript
 function createElement(type, props, ...children) {
