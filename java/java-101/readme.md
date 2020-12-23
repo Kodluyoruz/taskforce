@@ -19,5 +19,4 @@
 - [ ] Java Strings
 - [ ] [Date & Time](date-time/)
 - [ ] [Java Regular Expressions](regex/)
-- [ ] Java I/O Operations
 - [ ] [Exception Handling](exception-handling/)
