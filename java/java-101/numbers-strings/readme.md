@@ -117,15 +117,11 @@ System.out.println(Math.random());
 
 ```
 
-
-
-
-
 ## Java'da String İşlemleri
 
 Java'da varsayılan dil içerisinde gelen String işleme kütüphaneleri mevcuttur. String sınıfı içinde yer alan statik fonksiyonlarda yazılımcılara yardımcı olmaktadır.
 
-String veri tipi Java'da ilkel (primitive) bir veri tipi değildir. Bu nedenle "new" anahtar sözcüğü kullanılarak nesne şeklinde oluşturulabilir.
+String veri tipi Java'da ilkel (primitive) bir veri tipi değildir (non-primitive veri tipidir). Bu nedenle "new" anahtar sözcüğü kullanılarak nesne şeklinde oluşturulabilir.
 
 Java'da String veri tipinde bir değişken tanımı aşağıdaki gibi yapılabilir. Buna Literal tanımlama diyoruz. Sıklıkla kullanılan bir tanımlama biçimidir. Değişkene direkt olarak veriyi "=" operatörüyle atama yapıyoruz.
 
@@ -183,11 +179,7 @@ s2 == s3 : false
 s3 == s4 : false
 ```
 
-
-
 String'ler değiştirilemez olduğu için Güvenlik ile ilgili konularda da varsayılan olan korumacı bir özelliğe sahiptir. Ayrıca, String değişkenler Immutable (Değiştirilemez) olduklarından dolayı Çok Kanallı (MultiThread) programlamada Thread-Safe özelliğe sahiptirler. String Pool, String Literal ve String new arasındaki fark size mülakatlarda sorulabilir.
-
-
 
 Not: String veri tiplerinde verinin karakter uzunluğunu bulmak için "length()" metodundan faydalanılır. Örnek:
 
@@ -196,16 +188,12 @@ String s1 = "Hello";
 int lengthOfs1 = s1.length();
 ```
 
-
-
 Not: String ifadeleri birbiriyle birleştirmek için "+" operatörü veya "concat" metodu kullanılır. Örnek:
 
 ```
 String namePrefix = "My name is ";
 String greetimgMessage = namePrefix.concat("Zara");
 ```
-
-
 
 ### Formatlı String İfadeler Oluşturmak
 
@@ -301,8 +289,6 @@ String str = new String("Welcome to kodluyoruz.com");
 String subStringPart = str.substring(10, 15);
 
 ```
-
-
 
 ### StringBuilder Sınıfının Kullanımı
 
