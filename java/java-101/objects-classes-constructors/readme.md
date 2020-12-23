@@ -496,8 +496,6 @@ Birinci kutu:
 20
 ```
 
-
-
 ### Bir yapılandırıcıdan diğerini çağırmak
 
 Birden fazla yapılandırıcısı olan sınıflarda bir yapılandırıcıda diğer yapılandırıcıyı çağırmak için, daha önce de gördüğümüz **this** deyimini kullanırız. Daha önce this deyimini nesne olarak kullanmıştık. Buradaki kullanımda ise this deyimi yapılandırıcı (metot) halindedir. Aşağıdaki örneği inceleyelim:
@@ -549,8 +547,6 @@ class Box
 	}
 }
 ```
-
-
 
 ### Özyineleme (Recursion)
 

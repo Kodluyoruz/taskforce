@@ -61,8 +61,6 @@ public class Test {
 
 
 
-
-
 ## İlişkisel ve Eşitlik Operatörleri
 
 Değişkenlere ait verilerin eşitliğini, büyük-küçük olma durumlarının kıyaslanabildiği operatörlerdir.
@@ -115,8 +113,8 @@ Java&#39;da bitsel operatörler bit düzeyinde işlemler yapabilmeyi sağlar. Bi
 
 | **Operatör**                   | **Açıklama**                                                 | **Örnek**                                      |
 | ------------------------------ | ------------------------------------------------------------ | ---------------------------------------------- |
-| &amp; (ve)                     | Bit düzeyinde tek tek VE işlemini uygular. 1 &amp; 0 ise 0 olur. 1 &amp; 1 ise 1 olur. 0 &amp; 0 ise 0 olur. | (A &amp; B)                                    |
-|                                | (veya)                                                       | Bit düzeyinde tek tek VEYA işlemini uygular. 1 |
+| &amp; (ve)                     | Bit düzeyinde tek tek VE işlemini uygular. 1 &amp; 0 ise 0 olur. 1 &amp; 1 ise 1 olur. 0 &amp; 0 ise 0 olur. 0 & 1 ise 0 olur. | (A &amp; B)                                    |
+| \| (veya)                      | Bit düzeyinde tek tek VEYA işlemini uygular. 1 \| 0 ise 1 olur. 1 \| 1 ise 1 olur. 0 \| 0 ise 0 olur. 0 \| 1 ise 1 olur. | Bit düzeyinde tek tek VEYA işlemini uygular. 1 |
 | ^ (XOR)                        | Bit düzeyinde tek tek XOR işlemi uygular. 1 ^ 0 ise 1 olur. 1 ^ 1 ise 0 olur. 0 ^ 0 ise 0 olur. | (A ^ B)                                        |
 | ~ (tersini alma)               | Bit düzeyinde her bitin tersi alınır. DEĞİL işlemi uygulanır. 1100 ise 0011 olur. | (~A)                                           |
 | \<\< (sola kaydırma)           | \<\< operatörü ile bitsel olarak sola doğru belirlenen miktarda kayma yapılır. Boş kalanları sıfır ile doldurur. Örn: A\<\<2 yapılırsa, 0011 1100  1111 0000 | (A \<\< 2)                                     |
@@ -160,17 +158,15 @@ public class Test {
 
 
 
-
-
 ## Mantıksal Operatörler
 
 true / false döndüren ifadeler veya boolean tipinde değerler tutan değişkenler üzerinde uygulanabilir.
 
-| **Operator**             | **Description**                                              | **Example**            |
-| ------------------------ | ------------------------------------------------------------ | ---------------------- |
-| &amp;&amp; (mantıksalve) | Eğer A ve B değeri true ise true olur.                       | (A &amp;&amp; B) false |
-|                          |                                                              | (mantıksalveya)        |
-| ! (mantıksaldeğil)       | () parantez içinde yer alan ifade true ise değilini alıp false yapar. Eğer ifade false ise true yapar. | !(A &amp;&amp; B) true |
+| **Operator**              | **Description**                                              | **Example**            |
+| ------------------------- | ------------------------------------------------------------ | ---------------------- |
+| &amp;&amp; (mantıksal ve) | Eğer A ve B değeri true ise true olur.                       | (A &amp;&amp; B) false |
+| \|\| (mantıksal veya) |  Eğer A veya B' den en az biri true ise true olur.  | (A \|\| B) |
+| ! (mantıksal değil)       | () parantez içinde yer alan ifade true ise değilini alıp false yapar. Eğer ifade false ise true yapar. | !(A &amp;&amp; B) true |
 
 Örnek:
 
