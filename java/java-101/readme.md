@@ -16,7 +16,6 @@
 - [ ] [Loops(for, foreach, while)](loops/)
 - [ ] [Numbers & Strings](numbers-strings/)
 - [ ] [Arrays & Matris](arrays-matris/)
-- [ ] Java Strings
 - [ ] [Date & Time](date-time/)
 - [ ] [Java Regular Expressions](regular-expressions/)
 - [ ] [Exception Handling](exception-handling/)
