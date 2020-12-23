@@ -18,5 +18,5 @@
 - [ ] [Arrays & Matris](arrays-matris/)
 - [ ] Java Strings
 - [ ] [Date & Time](date-time/)
-- [ ] [Java Regular Expressions](regex/)
+- [ ] [Java Regular Expressions](regular-expressions/)
 - [ ] [Exception Handling](exception-handling/)
