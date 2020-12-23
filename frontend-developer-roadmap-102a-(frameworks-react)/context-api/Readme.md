@@ -72,6 +72,10 @@ Buradaki örneği sadece fikir verme açısından düşünecek olursak eğer `Ap
 
 Bu örneğimizde pek fazla props ile veriyi aktarma işlemi gerçekleştirmiyor olsakta, uygulamanızın component ağacının dikey konumda büyümesi durumunda, bu şekilde props ile component ağacının aşağısında bulunan bir component’e state’i gönderdiğinizi düşünün.
 
+![waste-of-time](https://media.giphy.com/media/TKvErZACqjawXcTMSP/giphy.gif)
+
+
+
 ## Alternatif Çözüm Context API
 
 Context API’nın burada getirdiği çözüm ise, aktarılmak istenen değerleri global şekilde tutar ve direkt olarak kullanılması gereken component’e aktarılmasını sağlar. Böylelikle bir state’i, component ağacının altlarında bulunan bir component’e aktarmak istediğiniz zaman, her seferinde props olarak göndermenize gerek kalmaz.
@@ -265,3 +269,14 @@ HeaderButton componentimizi de tanımladıktan sonra `HeaderContainer` component
 
 [Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/eYdGKxb).
 
+
+
+
+
+## Kaynaklar
+
+https://www.toptal.com/react/react-context-api
+
+https://www.digitalocean.com/community/tutorials/react-manage-user-login-react-context
+
+https://reactjs.org/docs/context.html
