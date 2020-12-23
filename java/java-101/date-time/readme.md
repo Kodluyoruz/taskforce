@@ -44,8 +44,6 @@ System.out.println(date.toString());
 Thu Mar 05 22:16:09 EET 2020
 ````
 
-
-
 ## Java&#39;da Tarih Zaman Bilgisinin Formatlanması
 
 Java&#39;da tarih ve zaman bilgisini formatlanması ve yazıdan Date tipinde bir nesne dönüştürülmesi işini &quot;SimpleDateFormat&quot; sınıfı yapmaktadır.
@@ -70,8 +68,6 @@ Date parsedDate = formatter.parse(dateAstext);
 System.out.println("Parsed Date: " + parsedDate.toString());
 ````
 
-
-
 ## Java8 Tarih/Zaman (Date/Time) API
 
 Java 8 ile birlikte tarih ve zaman bilgisini işleyen yapılar ve sınıflar değiştirildi. Daha esnek ve kullanımı kolay fonksiyonlar ve sınıflar haline dönüştü.
@@ -93,16 +89,12 @@ System.out.println(localDate.toString());
 
 Yukarıdaki gibi LocalDate sınıfından bir nesne ile günümüz tarihini kolayca alıp ekrana yazdırabilirsiniz.
 
-
-
 ````java
 LocalDate currentDate = LocalDate.of(2020, 03,12);
 System.out.println(currentDate.toString());
 ````
 
 Yukarıdaki örnekte de yıl, ay ve gün bilgilerini &quot;int&quot; tipinde ayrı ayrı geçerek belirli bir tarih atayabilirsiniz.
-
-
 
 ````java
 LocalDate definedDate = LocalDate.parse("2015-02-20");
@@ -111,15 +103,11 @@ System.out.println(definedDate.toString());
 
 Yukarıdaki örnekte de String tipindeki tarih bilgisini parse ederek, LocalDate tipinde bir nesneye çevirip ekrana yazdırıyoruz.
 
-
-
 ````java
 LocalDate tomorrow = LocalDate.now().plusDays(1);
 ````
 
 Yukarıdaki örnekte mevcut tarih üzerine 1 gün ekleme yapılmıştır. Görüldüğü gibi bu işlem tek satırda basitçe yapılabilmektedir.
-
-
 
 ````java
 LocalDate previousMonthSameDay = LocalDate.now().minus(1, ChronoUnit.MONTHS);
@@ -127,16 +115,12 @@ LocalDate previousMonthSameDay = LocalDate.now().minus(1, ChronoUnit.MONTHS);
 
 &quot;minus&quot; fonksiyonu ile 1 ay önceki bugünkü tarihi alabiliriz. ChronoUnit.MONTHS aylık bir çıkarma yapılacağını belirtiyor. Gün, Ay, Yıl gibi değerler seçersek o miktarda bir çıkarma işlemi uygulayacaktır.
 
-
-
 `````java
 DayOfWeek sunday = LocalDate.parse("2016-06-12").getDayOfWeek();
 System.out.println(sunday);
 `````
 
 Haftanın gününü basitçe &quot;getDayOfWeek&quot; metoduyla alabiliriz.
-
-
 
 ````java
 boolean leapYear = LocalDate.now().isLeapYear();

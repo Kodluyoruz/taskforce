@@ -2,6 +2,10 @@
 
 ## Java&#39;da Dizi (Array)
 
+Değişkenler hafızada tek bir değer tutmamızı sağlar. Fakat bazı durumlarda, birden çok veriyi bir arada bulundurmak isteriz. Örneğin, bir sınıfta okuyan 20 öğrenci olsun. Bu 20 öğrenci için hafızada ayrı ayrı 20 tane değişken oluşturmak yerine, tek bir değişken kullanarak 20 öğrencinin koleksiyonunu tutmak isteyebiliriz.
+
+Bu gibi durumlarda dizileri kullanırız. Dizi, aynı türden birden fazla değişkeni tutmamızı sağlayan hafıza birimidir. Kısaca, dizileri aynı türden elemanları gruplamak için kullanırız. Dizi oluşturduktan sonra dizinin içerisindeki elemanlara indeks numarasıyla ulaşır ve değiştiririz. Ayrıca, çok boyutlu diziler oluşturmak da mümkündür. Tek boyutlu dizi kullanabileceğimiz gibi 2 veya 3 boyutlu diziler de oluşturabiliriz. 2 boyutlu dizilere matris denir.
+
 Dizi (Array) kavramı programlama dillerinde bir veri tipini ifade eder. Bu veri tipi liste halindeki ardışık verileri bir arada tutan yapıya denilir. Bu ardışık yapıya ait elemanlara indeks yoluyla erişim sağlanabilir. Diziler sabit boyutludur. Örneğin: 10 elemanlık dizi. Dizilerde aynı tipten veri tutulur. Örneğin: tüm elemanları &quot;int&quot; olan bir dizi.
 
 Dizi&#39;nin hafızada bir başlangıç adresi olur ve ardışık olan diğer elemanlar sırayla hafızaya yerleştirilir. Dizi&#39;ler &quot;new&quot; anahtar sözcüğüyle oluşturulur. Böylece, Heap Hafıza bölgesinde yer kaplarlar.
@@ -21,8 +25,6 @@ double[] myList = new double[10];
  ````
 
 Yukarıda maksimum 10 eleman alabilen &quot;double&quot; veri tipinde olan bir dizi oluşturulmuştur.
-
-
 
 ![](figures/arrays_1.jpg)
 
@@ -82,9 +84,86 @@ public static int[] reverse(int[] list)
 
 ````
 
-
-
 Yukarıda dizinin tersine çevrilmiş halini döndüren bir fonksiyon vardır. public static **int[]** reverse(…)  koyu renkle işaretlenen alan dizi döndüreceğimizi ve bu dizinin veri tipini söylüyoruz. Burada veri tipimiz &quot;int".
+
+## Tek Boyutlu Diziler
+
+Tek boyutlu diziler basitçe, aynı türden elemanların listesini tutan bir yapıdır.
+Dizi oluşturmak için, önce dizide yer alacak elemanların türü belirtilir, sonra diziye bir isim verilir ve isimden sonra köşeli parantezler ( [ ve ] ) konulur.
+
+```java
+int numbers[]; // Burada numbers isminde bir dizi oluşturuluyor
+```
+
+Köşeli parantezleri değişken isminden sonra koymak yerine, tür isminden sonra da yazabilirsiniz. Örneğin aşağıdaki kodun yukarıdakiyle bir farkı yoktur:
+
+```java
+int[] numbers; // Burada numbers isminde bir dizi oluşturuluyor
+```
+
+Diziler new deyimiyle oluşturulur. Dizi oluştururken kapasite değeri vermek **zorunludur**. Kapasite değeri, dizinin kaç eleman barındıracağını belirtir. Aşağıdaki örnekte, 5 adet int değişkeni tutabilecek bir dizi oluşturuluyor:
+
+```java
+int[] numbers = new int[5];
+```
+
+Bu ifade çalıştırıldığında, hafızada 5 adet int değişken için yetecek kadar alan ayrılır. Bu alanı düzenleyebilmek için indeks numaraları kullanırız. **Dizi indeksleri 0’dan başlar** ve kapasitenin 1 eksiğine kadar gider. Örneğin, yukarıdaki dizinin indeksleri 0’dan 4’e kadardır. Şimdi bu dizinin ilk elemanını verelim:
+
+```java
+numbers[0] = 10; // Dizinin ilk elemanı 5 olarak ayarlandı.
+```
+
+Dizinin diğer elemanlarını şu şekilde verelim:
+
+```java
+numbers[1] = 15;
+numbers[2] = 20;
+numbers[3] = 25;
+numbers[4] = 30;
+```
+
+Bu kodlar çalıştırıldığında dizinin elemanları sırasıyla aşağıdaki gibi olur:
+
+{ 10, 15, 20, 25, 30 }
+
+Aşağıdaki kodu çalıştırdığınızda konsola 25 yazar:
+
+```java
+System.out.println(numbers[3]);
+```
+
+Dizilerle uğraşırken indeks numaralarına çok dikkat etmelisiniz. Eğer dizinin aralığı dışında bir indekse erişmeye çalışırsanız, **_IndexOutOfBoundsException_** hatası meydana gelir.
+
+```java
+System.out.println(numbers[5]); // Hata!
+```
+
+Yukarıdaki satır hataya neden olur; çünkü numbers dizisinin kapasitesi 5 olmasına rağmen dizinin 6. elemanına erişmeye çalışıyoruz.
+
+Eğer dizinin içindeki elemanlar dizi oluşturulurken belliyse, diziyi oluştururken elemanları küme parantezi içinde ve virgülle birbirinden ayırarak verebiliriz:
+
+```java
+String[] weekDays = new String[] { "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar" };
+```
+
+Bu şekilde oluşturulan dizilere kapasite vermemize gerek yoktur; çünkü kapasite değeri zaten eleman sayısından bellidir. Yukarıdaki örnekde **_weekDays_** dizisinin kapasitesi otomatik olarak 7 olur.
+
+Yukarıdaki gibi dizi oluştururken new deyimini kullanmaya gerek yoktur. Yani, yukarıdaki kodu aşağıdaki gibi yazabiliriz:
+
+```java
+String[] weekDays = { "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar" };
+```
+
+### Dizinin Kapasitesini Öğrenmek
+
+Her dizinin **length** adında bir özelliği bulunur. Bu özelliği kullanarak dizinin kapasitesini öğrenebilirsiniz.
+
+Örneğin, aşağıdaki kodu inceleyelim:
+
+```java
+int[] numbers = new int[100];
+System.out.println(numbers.length); // Konsolda 100 yazar
+```
 
 ## Java&#39;da Matris İşlemleri (Matrice)
 
@@ -125,8 +204,6 @@ double[][] B = {
 };
 
 ````
-
-
 
 Dizilerden tek farkı [] parantez yanına bir tane [] açıyoruz. Zaten her [] ifadesi yeni bir boyut anlamına geliyor. &quot;**double[][][] ucBoyutlu;**&quot; şeklinde bir ifadeyle 3 boyutlu veri saklayan bir veri yapısı oluşturmuş oluyoruz.
 
@@ -175,8 +252,79 @@ Yukarıdaki “multiplyMatrices” fonksiyonu iki tane matrisi girdi olarak alı
 
 “multiplyMatrices” fonksiyonu içinde bir başka fonksiyon daha çağrılmıştır. “multiplyMatricesCell” bu fonksiyon ise iki matrisin satır ve sütununu çarpıp sonucu double tipte bir değer döndürür.
 
-
-
 Yukarıdaki &quot;multiplyMatrices&quot; fonksiyonu iki tane matrisi girdi olarak alır. Fonksiyon matrislerin çarpım sonucunu matris olarak döndürür.
 
 &quot;multiplyMatrices&quot; fonksiyonu içinde bir başka fonksiyon daha çağrılmıştır. &quot;multiplyMatricesCell&quot; bu fonksiyon ise iki matrisin satır ve sütununu çarpıp sonucu double tipte bir değer döndürür.
+
+Çok boyutlu dizilere biraz daha ayrıntılı bakalım.
+
+Bir değişkenin dizi olduğunu köşeli parantezler ile belirtmiştik. Bir tane köşeli parantez tek boyutlu dizi belirtir. Eğer çok boyutlu dizi oluşturmak istiyorsak, boyut sayısı kadar köşeli parantez belirtmeliyiz. Örneğin aşağıdaki satır 2 boyutlu bir dizi (yani matris) belirtir:
+
+```java
+int matrix[][];
+```
+
+İlk köşeli parantez birinci boyutu (satırları), diğeri ise ikinci boyutu (sütunları) belirtir. Aşağıdaki kodu çalıştırırsak, 3 satırlı ve 4 sütunlu bir matris oluşturur:
+
+```java
+int matrix[][] = new int[3][4];
+```
+
+Bu matrisin bütün elemanlarına ulaşmak için kullanmamız gereken indeks numaralarını aşağıdaki tabloda görebilirsiniz:
+
+| \[0] \[0] | \[0] \[1] | \[0] \[2] | \[0] \[3] |
+| - | - | - | - |
+| \[1] \[0] | \[1] \[1] | \[1] \[2] | \[1] \[3] |
+| \[2] \[0] | \[2] \[1] | \[2] \[2] | \[2] \[3] |
+
+```java
+matrix[1][2]; // Matrisin 2. satır ve 3. sütunundaki elemana erişiliyor
+matrix[0][3]; // Matrisin 1. satır ve 4. sütunundaki elemana erişiliyor
+matrix[2][0]; // Matrisin 3. satır ve 1. sütunundaki elemana erişiliyor
+```
+
+Şimdi güzel bir örnek yapalım. 3 satırdan ve 4 sütundan oluşan bir matris yaratalım ve bu matrisin elemanlarını sırayla 1’den başlayacak şekilde dolduralım. Aşağıdaki kodu inceleyelim:
+
+```java
+int[][] matrix = new int[3][4];
+int number = 1;
+
+for (int x = 0; x < matrix.length; x++)
+{
+	int[] row = matrix[x];
+
+    for (int y = 0; y < row.length; y++)
+	{	
+		row[y] = number;
+		number++;
+	}
+}
+```
+
+Şimdi yukarıdaki kodu inceleyelim. İki boyutlu diziyi oluşturduktan sonra önce for döngüsüyle dizinin satırlarını geziyoruz. Daha sonra içerideki for döngüsüyle dizinin sütunlarını dolaşıyoruz. Bu örneği vermemizdeki amaç, matrisin elemanlarına ulaşmak için iç içe 2 for döngüsü kullanmak gerektiğini göstermektir. Ayrıca dizinin _length_ metodunun faydasını da burada görmüş oluyoruz.
+
+Yukarıdaki kod çalıştığında matrisin elemanları şu şekilde olur:
+
+| 1 | 2 | 3 | 4 |
+| - | - | - | - |
+| 5 | 6 | 7 | 8 |
+| 9 | 10 | 11 | 12 |
+
+### Sütun Kapasiteleri Farklı Matris Oluşturmak
+
+2 boyutlu dizilere matris denir. Başka bir açıdan bakıldığında ise, 2 boyutlu dizileri, dizinin dizisi olarak düşünmek doğru olur. Diziler aynı türden elemanlardan oluşur. int türünde bir dizi olabileceği gibi, dizinin dizisi de olabilir. Matrisleri **dizilerin dizisi** (**array of arrays**) olarak düşünebiliriz.
+
+Yukarıdaki örneklerde matrisin sütun sayısını 4 olarak belirledik. Bu şekilde oluşturulursa matrisin bütün satırları 4 elemanlı olur. Fakat bu zorunlu değildir. Matris oluştururken sütun sayısı belirlemezsek, her bir satırdaki dizilerin kapasitesi farklı olabilir. Örneğin aşağıdaki kodu inceleyelim:
+
+```java
+int[][] matrix = new int[3][];
+matrix[0] = new int[1];
+matrix[1] = new int[2];
+matrix[2] = new int[3];
+```
+
+Burada önce 3 satırdan oluşan bir matris belirttik, fakat sabit bir sütun sayısı vermedik. Sonra her bir satır için ayrı ayrı sütun sayısı belirledik. Bu kodu çalıştırdığımız zaman aşağıdaki gibi bir matris oluşur:
+
+![](figures/matris.png)
+
+Çok boyutlu dizi oluştururken, yalnızca ilk boyutun (en soldaki) kapasitesini belirlemeniz yeterlidir. Diğer boyutların kapasitesini dinamik olarak belirleyebilirsiniz.
