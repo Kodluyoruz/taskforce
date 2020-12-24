@@ -13,29 +13,7 @@ JVM, Java Byte koda dönüştürülebilen her yazılım geliştirme dilini çal�
 - Ara kodu kontrolden geçirip onaylar. Ara kod içinde sorun olabilecek kodları arar.
 - Ara kodu alıp bilgisayarın anlayacağı temel komutlara dönüştürür ve programın çalışmasını sağlar.
 
-## 2. Java Runtime Environment (JRE)
-
-JRE, Java ile yazılmış uygulamaların çalıştırılabilmesini sağlayan gerekli araçları ve kütüphaneleri barındırır. Aslında, Java için uygulama çalıştırma ortamı sağlar. JRE içinde halihazırda yazılım modülleri bulunur. Aynı zaman JVM spesifikasyonuna ait bir JVM implemantasyonu da barındırır. JVM&#39;in fiziksel hali bünyesinde yer alır.
-
-JRE, JVM&#39;in fiziksel olarak ortaya çıkmış halidir diyebiliriz.
-
-![](figures/jdk_1.png)
-
-## 3. Java Development Environment (JDK)
-
-JDK ise biz yazılımcıların Java programlama diliyle uygulamalar geliştirmesini sağlayan tüm altyapıyı sağlar. Bu alt yapı içinde JRE&#39;yi de içinde bulundurur. Buna ek olarak geliştirme yapabilmek için gerekli olan yazılım modüllerini ve kütüphaneleri de JDK içinde yer almaktadır.
-
-**JDK üç tipte olabilir:**
-
-1. Standard Edition Java Platform (Java SE)
-
-2. Enterprise Edition Java Platform (Java EE)
-
-3. Micro Edition Java Platform (Java ME)
-
-![](figures/jdk_2.png)
-
-## 1.1 Java Virtual Machine Mimarisi
+### 1.1 Java Virtual Machine Mimarisi
 
 JVM&#39;in Java Byte kodunu alıp işleyip bilgisayarın temel komutlarına dönüştürerek çalıştıran bir sistem olduğunu öğrenmiştik. Her işletim sistemi tipi için bir JVM implemantasyonu vardır. Windows, Mac OS ve Linux gibi işletim sistemleri için JVM&#39;in çalışan halleri mevcuttur. Bu nedenle platform bağımsız bir özelliğe sahiptir. Windows işletim sistemi üzerinde geliştirilmiş bir Java uygulamaları Java Byte&#39;a çevirilir. Ardından, oluşan Java Byte kodu Linux işletim sistemi üzerinde bir JVM vasıtasıyla çalıştırılabilir.
 
@@ -58,6 +36,29 @@ Heap hafıza alanı ise Java&#39;da sınıflardan oluşturulan nesneleri depolar
 																						[3]
 
 
-### kaynakça
 
-jvm mimarisi [1,2,3](https://medium.com/@cemthecebi/jvm-java-virtual-machine-nedir-4e2080d98f49)
+## 2. Java Runtime Environment (JRE)
+
+JRE, Java ile yazılmış uygulamaların çalıştırılabilmesini sağlayan gerekli araçları ve kütüphaneleri barındırır. Aslında, Java için uygulama çalıştırma ortamı sağlar. JRE içinde halihazırda yazılım modülleri bulunur. Aynı zaman JVM spesifikasyonuna ait bir JVM implemantasyonu da barındırır. JVM&#39;in fiziksel hali bünyesinde yer alır.
+
+JRE, JVM&#39;in fiziksel olarak ortaya çıkmış halidir diyebiliriz.
+
+![](figures/jdk_1.png)
+
+## 3. Java Development Environment (JDK)
+
+JDK ise biz yazılımcıların Java programlama diliyle uygulamalar geliştirmesini sağlayan tüm altyapıyı sağlar. Bu alt yapı içinde JRE&#39;yi de içinde bulundurur. Buna ek olarak geliştirme yapabilmek için gerekli olan yazılım modüllerini ve kütüphaneleri de JDK içinde yer almaktadır.
+
+**JDK üç tipte olabilir:**
+
+1. Standard Edition Java Platform (Java SE)
+
+2. Enterprise Edition Java Platform (Java EE)
+
+3. Micro Edition Java Platform (Java ME)
+
+![](figures/jdk_2.png)
+
+## Kaynakça
+
+* jvm mimarisi [1,2,3](https://medium.com/@cemthecebi/jvm-java-virtual-machine-nedir-4e2080d98f49)
