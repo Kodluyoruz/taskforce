@@ -52,20 +52,20 @@
 - [ ] [UDP Client & Server Apps](java-network-programming/udp-client-server-apps/)
 - [ ] [HTTP Apps](java-network-programming/http-apps/)
 
-## Java Remote Method Invocation (RMI)
+## [Java Remote Method Invocation (RMI)](java-remote-method-invocation-(rmi)/)
 
-## Java Reflection Basics
+## [Java Reflection Basics](java-reflection-basics/)
 
-## JDBC API and Databases
+## [JDBC API and Databases](jdbc-api-and-databases/)
 
-## JVM Internals
+## [JVM Internals](jvm-internals/)
 
-- [ ] ClassLoading
-- [ ] Linkikng
-- [ ] Runtime Data Areas
-- [ ] Memory - Heap - Stack
-- [ ] Garbage Collection
+- [ ] [Class Loading](jvm-internals/class-loading/)
+- [ ] [Linking](jvm-internals/linking/)
+- [ ] [Runtime Data Areas](jvm-internals/runtime-data-areas/)
+- [ ] [Memory - Heap - Stack](jvm-internals/memory-heap-stack/)
+- [ ] [Garbage Collection](jvm-internals/garbage-collection/)
 
-## JUnit Testing & Debugging
+## [JUnit Testing & Debugging](junit-testing-debugging/)
 
-## JavaFC or Swing (GUI)
+## [JavaFC or Swing (GUI)](javafc-or-swing-(gui)/)
