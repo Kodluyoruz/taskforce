@@ -37,13 +37,13 @@
 - [ ] [Functional Interfaces](java-8-features/functional-interfaces/)
 - [ ] [Stream API](java-8-features/stream-api/)
 
-## Multi Threads & Concurrency
+## [Multi Threads & Concurrency](multi-threads-concurrency/)
 
-- [ ] MultiThread programlama kavramları
-- [ ] Critical Section & Race Condition
-- [ ] Thread, Runnable, Thread Sleep
-- [ ] Syncronized & Read Write Locks, Volatile Variables
-- [ ] Thread Pooling & Executers
+- [ ] [MultiThread programlama kavramları](multi-threads-concurrency/multi-thread-programlama-kavramları/)
+- [ ] [Critical Section & Race Condition](multi-threads-concurrency/critical-section-race-condition/)
+- [ ] [Thread, Runnable, Thread Sleep](multi-threads-concurrency/thread-runnable-thread-sleep/)
+- [ ] [Syncronized & Read Write Locks, Volatile Variables](multi-threads-concurrency/syncronized-read-write-locks-volatile-variables/)
+- [ ] [Thread Pooling & Executers](multi-threads-concurrency/thread-pooling-executers/)
 
 ## Java Network Programming
 
