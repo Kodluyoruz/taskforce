@@ -1,4 +1,4 @@
-## [Object Oriented Programming](01-object-oriented-programming/)
+## [Object Oriented Programming](object-oriented-programming/)
 
 - [ ] [Anatomy of Classes and methods](object-oriented-programming/anatomy-of-classes-and-methods/)
 - [ ] [Implementing  Classes](object-oriented-programming/implementing-classes/)
@@ -17,18 +17,18 @@
 - [ ] [JavaDoc](object-oriented-programming/javadoc/)
 - [ ] [Projeler](object-oriented-programming/projeler/)
 
-## [Java Enums](02-java-enums/)
+## [Java Enums](java-enums/)
 
 ## final keyword usage
 
 ## Java Generics
 
-## [Java Collection Framework](05-java-collection-framework/)
+## [Java Collection Framework](java-collection-framework/)
 
-- [ ] equals & hascode kavramları
-- [ ] List, Set ve Map veri yapıları
-- [ ] Enumeration, Iterator, Iterable interfaces
-- [ ] Comparable, Comparator interfaces
+- [ ] [equals & hascode kavramları](java-collection-framework/equals-hascode-kavramları/)
+- [ ] [List, Set ve Map veri yapıları](java-collection-framework/list-set-ve-map-veri-yapıları/)
+- [ ] [Enumeration, Iterator, Iterable interfaces](java-collection-framework/enumeration-iterator-iterable-interfaces/)
+- [ ] [Comparable, Comparator interfaces](java-collection-framework/comparable-comparator-interfaces/)
 
 ## Java 8 Features
 
