@@ -19,9 +19,9 @@
 
 ## [Java Enums](java-enums/)
 
-## final keyword usage
+## [Final Keyword Usage](final-keyword-usage/)
 
-## Java Generics
+## [Java Generics](java-generics/)
 
 ## [Java Collection Framework](java-collection-framework/)
 
@@ -30,12 +30,12 @@
 - [ ] [Enumeration, Iterator, Iterable interfaces](java-collection-framework/enumeration-iterator-iterable-interfaces/)
 - [ ] [Comparable, Comparator interfaces](java-collection-framework/comparable-comparator-interfaces/)
 
-## Java 8 Features
+## [Java 8 Features](java-8-features/)
 
-- [ ] Functional Programming Basics
-- [ ] Lambda Expressions
-- [ ] Functional Interfaces
-- [ ] Stream API
+- [ ] [Functional Programming Basics](java-8-features/functional-programming-basics/)
+- [ ] [Lambda Expressions](java-8-features/lambda-expressions/)
+- [ ] [Functional Interfaces](java-8-features/functional-interfaces/)
+- [ ] [Stream API](java-8-features/stream-api/)
 
 ## Multi Threads & Concurrency
 
