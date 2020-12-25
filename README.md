@@ -1,12 +1,7 @@
 # Taskforce
 
-* [Basic for everyone](basics-for-everyone/)
+* [Java](java/)
 
-* Frontend
-  * [Frontend Developer Roadmap 102a (Frameworks - React)](frontend-developer-roadmap-102a-(frameworks-react))
-* Backend
-  * [Java](java/)
-=======
 # Taskforce Markdown Kullanımı
 
 2004 Yılında John Gruber ve Aaron Swartz tarafından geliştirilen Markdown bir yazım formatıdır. En basit tanımıyla text-to-HTML yani yazıyı HTML'e çevirmenizi sağlar.
