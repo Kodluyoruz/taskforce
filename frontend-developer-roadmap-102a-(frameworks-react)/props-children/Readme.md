@@ -18,6 +18,7 @@ const Photo = (props) => {
   )
 }
 ```
+![Örnek resim](https://s1.imghub.io/kszyd.jpg)
 
 `Photo` isimli basit bir functional component, aldığı `src` prop'u yardımıyla ekrana bir image render ediyor. Daha sonraki satırda bir `<div>` içerisinde props.children görüyoruz. `Photo` component'i render edilirken açılış-kapanış tagler'i arasındaki bütün child element'ler `props.children` property'si içerisinde tutulur. 
 
