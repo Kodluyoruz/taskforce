@@ -1,86 +1,60 @@
 # Java 101
 
-## Versiyon Kontrol Sistemleri
+- [ ] [Java Nedir?](what-is-java/)
+  - [ ] [Java ile Uygulama Geliştirme Yapabileceğiniz Alanlar](uygulama-alanlari/)
+  - [ ] [Java Geliştirme Ortamının Kurulumu](java-geliştirme-ortaminin-kurulumu/)
+  - [ ] [Geliştirme Araçlarının Kurulumu](gelistirme-araclarinin-kurulumu/)
+  - [ ] [İlk Uygulama](hello-world/)
+- [ ] [JDK-JRE-JVM](JDK-JRE-JVM/)
+  - [ ] [Java Basic Syntax](java-basic-syntax/)
+- [ ] [Objects & Classes & Constructors](objects-classes-constructors/)
+  - [ ] [Sınıf Kavramının Temelleri](sinif-kavraminin-temelleri/)
+  - [ ] [Nesne Oluşturmak](nesne-olusturmak/)
+  - [ ] [Java&#39;da Sınıf Kurucuları (Constructors)](sinif-kuruculari-(Constructors)/)
+  - [ ] [Metotlara Giriş](metotlara-giris/)
+  - [ ] [Metotları aşırı yüklemek (overloading methods)](metotlari-asiri-yuklemek-(overloading-methods)/)
+  - [ ] [Yapılandırıcıları aşırı yüklemek](yapilandiricilari-asiri-yuklemek/)
+  - [ ] [Bir yapılandırıcıdan diğerini çağırmak](bir-yapilandiricidan-digerini-cagirmak/)
+  - [ ] [Özyineleme (Recursion)](ozyineleme-(recursion)/)
+  - [ ] [Erişim Denetimi](erisim-denetimi/)
+  - [ ] [Statik Metotlar](statik-metotlar/)
+  - [ ] [Statik Değişkenler](statik-degiskenler/)
+  - [ ] [İç İçe Sınıflar (Nested Classes)](ic-ice-siniflar-(nested-classes)/)
+  - [ ] [Java&#39;da Paketler (Packages)](paketler/)
+- [ ] [Değişkenler (Variables)](degiskenler/)
+  - [ ] [Değişlenlerin Kapsamı ve Yaşam Süresi](degiskenlerin-kapsami-ve-yasam-suresi/)
+  - [ ] [Yerel Değişken](yerel-degisken/)
+  - [ ] [Sabit Değişken](sabit-degiskenler/)
+  - [ ] [İlkel Veri Tipleri](veri-tipleri/)
+  - [ ] [Tür Dönüşümleri](tur-donusumleri/)
+  - [ ] [Unicode Karakter Sistemi](unicode-karakter-sistemi/)
 
-- [ ] Git Versiyon Sistemi Nedir? Ne İşe Yarar
-- [ ] Git Kullanarak Projelerimizi Versiyonlamak
-- [ ] Temel Komutların Terminal’den ve VS Code İçerisinden Kullanımı
-- [ ] GitHub ve Alternatif Platformların Tanıtımı
-- [ ] GitHub Üzerinde Hesap Açmak ve Yaptığımız Projelerin Aktarımı
-
-## Introduction to Java
-
-### [**Setting up the development environment**](02-setting-up-development-env/)
-
-- [ ] Java Geliştirme Ortamının Kurulumu
-- [ ] Replit, BlueJ, Eclipse, IntelliJ, NetBeans
-- [ ] Hello World!
-
-### [Java Basic Syntax](03-java-basic-syntax/)
-
-- [ ] Java Dili kuralları (Variables, Methods, Comments, Modifiers, Keywords)
-
-### [Objects & Classes & Constructors](04-objects-classes-constructors/)
-
-- [ ] Sınıf ve Nesne kavramları
-- [ ] Kurucu metodları
-- [ ] Creating, Initializng and Using Objects
-
-### [Variables, Constants, Primitive  Types](05-variables-constants-primitive-types/)
-
-- [ ] Değişken Tanımlama
-- [ ] Değişken İsimlendirme Kuralları
-- [ ] Constants
-- [ ] Primitive Types (byte,short,int,long,double,float,char,boolean)
-
-### 	[Operatörler(Aritmetik)](06-operatörler/)
-
-- [ ] String Variables and Literals
+- [ ] [Temel Operatörler & Aritmatik Operatörü](operatorler-aritmatik-operatoru/)
+  - [ ] [İlişkisel ve Eşitlik Operatörleri](iliskisel-esiktik-oparotorleri/)
+  - [ ] [Bitsel Operatörler](bitsel-operatorler/)
+  - [ ] [Mantıksal Operatörler](mantıksal-operatorler/)
+  - [ ] [Operatör Önceliği](operator-onceligi/)
 - [ ] Variable, data types ve literals arasındaki farklar
-- [ ] Input / Output
+- [ ] [Input/Output Classes](input-output-classes/)
+  - [ ] [File sınıfı](file-sinifi/)
+  - [ ] [Akış Sınıfları](akis-siniflari/)
+  - [ ] [Dosya kopyalamak](dosya-kopyalamak/)
+  - [ ] [ObjectInputStream ve ObjectOutputStream sınıfları](ObjectInputStream-ObjectOutputStream-siniflari/)
+  - [ ] [Reader & Writer](reader-writer/)
 - [ ] Replit, BlueJ, Eclipse, IntelliJ, NetBeans (İleri Seviye)
-
-### [Boolean Expressions and If Statements](07-boolean-expressions-and-if-statements/)
-
-- [ ] If else, switch yapısı
-- [ ] nested if
-- [ ] comparing objects (mantık operatörleri)
-
-### [Loops (for,foreach,while)](08-loops/)
-
-- [ ] Nested Loops
-- [ ] foreach loop
-
-### [Arrays](09-arrays/)
-
-- [ ] One-Dimensional
-- [ ] Multi-Dimensional
-- [ ] Copy Array
-- [ ] Dizi ve Matris örnekleri
-
-### Java Strings
-
-- [ ] String veri yapısı ve özellikleri
-- [ ] String Pool Yapısı
-- [ ] String operasyonlar ile ilgili örnekler
-
-### [Date & Time](11-date-time/) 
-
-- [ ] Java 7 ve Java 8 Date & Time
-
-### Java Regular Expressions
-
-### Java I/O Operations
-
-- [ ] File & Folder operations
-- [ ] Inputstream / Outputstream
-- [ ] BufferedInputStream / BufferedOutputStream
-- [ ] FileReader / FileWriter
-- [ ] BufferedReader / BufferedWriter
-
-### [Exception Handling](14-exception-handling)
-
-- [ ] Checked & Unchecked Exceptions
-- [ ] try-catch-finally mekanizması
-- [ ] throw exception mekanizması
-- [ ] custom exception sınıfları oluşturulması
+- [ ] [If Statements](if-statements/)
+  - [ ] [Java&#39;da "switch-case" Yapıları](switch-case/)
+- [ ] [Loops(for, foreach, while)](loops/)
+  - [ ] [While Döngüsü](while/)
+  - [ ] [Do-While Döngüsü](do-while/)
+  - [ ] [For Döngüsü](for-loops/)
+  - [ ] [Break & Continue](break-continue/)
+  - [ ] [For-Each & Nested Loops](for-each-nested-loops/)
+- [ ] [Numbers & Strings](numbers-strings/)
+- [ ] [Diziler (Arrays)](arrays/)
+- [ ] [Matrisler (Matrice)](matris-islemleri/)
+- [ ] [Date & Time](date-time/)
+- [ ] [Java Regular Expressions](regular-expressions/)
+- [ ] [Exception Handling](exception-handling/)
+  - [ ] [İstisnai Durumların Yönetilmesi](istisnai-durumlarin-yonetilmesi/)
+  - [ ] [İstisnai Durumların Yönetilmesi (Devam)](istisnai-durumlarin-yonetilmesi-devam/)
