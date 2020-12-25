@@ -1,7 +1,4 @@
-##ReactJS - Render Props
-
-
-
+## ReactJS - Render Props
 
 React’te render props kullanmak, kodu verimli bir şekilde yeniden kullanmak için bir tekniktir bu yöntem ile componentler arasında kod paylaşımı yapmış oluruz. React’in kendi dökümantasyonuna göre “ render prop’lu bir bileşen, prop olarak bir React elemanı döndüren bir fonksiyon alır ve kendi render mantığını yürütmek yerine bu fonksiyonu çağırır.” Bunu daha net alamk için gelin biraz arıntılarıyla inceleyelim. 
 
@@ -10,11 +7,12 @@ React’te render props kullanmak, kodu verimli bir şekilde yeniden kullanmak i
 ```Javascript
 <DataProvider render={ data => (<h1> Hello! {data.target} </h1> )} />
 ```
-####The Render Props Pattern 
+## The Render Props Pattern 
+
 Render fonksiyonu ile çalışırken React öğesi döndüren bir bileşene render fonksiyonu iletirsiniz. Bu render işlevi başka bir bileşen tarafından tanımlanır ve alıcı bileşen, render işlevi araçılığıyla iletileni paylaşır. Böylelikle component prop olarak gelen değer sayesinde neyi render edeceğini öğrenmiş olur.
 
 
-#####Örneğin:  
+##### Örneğin:  
 ```Javascript
 class BaseComponent extends Component {  
     render() { 
@@ -28,7 +26,7 @@ Uygulamamızın kendisinin en üstte olduğu bir hediye kutusu olduğunu hayal e
 
 ![Box](https://i2.wp.com/css-tricks.com/wp-content/uploads/2018/11/render-props-01.jpg?resize=768%2C384&ssl=1)
 
-###Örnek: Basit Sayaç Yapımı
+### Örnek: Basit Sayaç Yapımı
 
 Burada gösterilen basit sayaç örneğinde `count` değeri, `increment` ve `decrement` fonksiyonları ile arttırılıyor ve azaltılıyor. Başlangıç değerimizi `count:0` olarak tanımladık. 
 
