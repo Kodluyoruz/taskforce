@@ -1,3 +1,12 @@
+# Taskforce
+
+* [Basic for everyone](basics-for-everyone/)
+
+* Frontend
+  * [Frontend Developer Roadmap 102a (Frameworks - React)](frontend-developer-roadmap-102a-(frameworks-react))
+* Backend
+  * [Java](java/)
+=======
 # Taskforce Markdown Kullanımı
 
 2004 Yılında John Gruber ve Aaron Swartz tarafından geliştirilen Markdown bir yazım formatıdır. En basit tanımıyla text-to-HTML yani yazıyı HTML'e çevirmenizi sağlar.
@@ -220,11 +229,3 @@ oluşturduğumuz bu fotoğrafı kullanarak bir link oluşturalım
 
 
 [![İsim](figures/ilk-fotoğraf.png)](https://www.youtube.com/watch?v=Yq6u6Z1yuco)
-
-
-
-
-
-
-
-
