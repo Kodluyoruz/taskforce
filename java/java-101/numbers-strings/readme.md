@@ -4,7 +4,7 @@ Java'da ilkel (Primitive) veri tiplerinden bahsetmiştik. Bu veri tiplerinin bir
 
 Bunun yanında matematiksel işlemlere yardımcı olmak ve matematiksek fonksiyonları hazır kullanmak için Java'da Math isminde bir hazır tanımlanmış sınıf vardır. Aşağıdaki örnekler kodların içinde gerekli açıklamalar verilmiştir.
 
-Örnek:
+**Örnek:**
 
 ```java
 // Veri dönüşümü
@@ -158,7 +158,7 @@ Yukarıdaki örnekte bizler iki tane s1 ve s2 tipinde iki tane Literal tanımlı
 
 Örnek:
 
-```
+```java
 String s1 = "Hello";
 String s2 = "Hello";
 String s3 = "Merhaba";
@@ -171,7 +171,7 @@ System.out.println("s3 == s4 : " + (s3 == s4));
 
 Yukarıdaki örnekte de bu durum geliştirilmiştir. s1 ve s2 değişkenleri aynı değere sahip Literal tanımlı String değişkenleri oldukları için aynı hafıza bölgesini işaret ederler. s3 değişkeni Literal tanımlı olmasına rağmen başka bir değere sahip olduğu için String Pool'dan (Havuzdan) başka bir nesneyi alıp onu işaret etmektedir. s4 değişkeni ise "new" ile oluşturulduğu için Heap hafızadan bambaşka bir alanı almıştır. Yukarıdaki programın çıktısı aşağıdaki gibidir. "==" operatörü String'lerde hafıza adresi kıyaslaması yapar. s1 ile s2 aynı hafıza adresini gösterir. s2 ve s3 Literal tanımlı olsalar da havuzdaki farklı nesneleri işaret ettikleri için adresleri eşit değildir. s3 ve s4 aynı değerlere sahip olsa da biri Literal tanımlıdır ve havuzdaki bir nesneyi işaret eder. Diğeri ise "new" ile tanımlandığı için Heap hafızada başka bir adresi işaret eder.
 
-```
+```java
 s1 == s2 : true
 
 s2 == s3 : false
@@ -183,14 +183,14 @@ String'ler değiştirilemez olduğu için Güvenlik ile ilgili konularda da vars
 
 Not: String veri tiplerinde verinin karakter uzunluğunu bulmak için "length()" metodundan faydalanılır. Örnek:
 
-```
+```java
 String s1 = "Hello";
 int lengthOfs1 = s1.length();
 ```
 
 Not: String ifadeleri birbiriyle birleştirmek için "+" operatörü veya "concat" metodu kullanılır. Örnek:
 
-```
+```java
 String namePrefix = "My name is ";
 String greetimgMessage = namePrefix.concat("Zara");
 ```
@@ -201,7 +201,7 @@ Java'da "String.format" metoduyla formatlı veriler oluşturabilirsiniz. "format
 
 Örnek:
 
-```
+```java
 int speed = 50;
 String departureCityName = "Akhisar";
 String arrivalCityName = "İstanbul";
@@ -214,7 +214,7 @@ System.out.println(fullText);
 
 Yukarıdaki örnekte bir metin oluşturulmaya çalışılıyor. Metin içerisinde tanım sayıları ifade eden %d ve String veri tipini ifade eden %s alanları vardır. Bu alanlar dinamiktir. Gelen değerleri cümle içinde gösterilmesini sağlarlar.
 
-```
+```java
 String s = "Strings are immutable";
 
 // s isimli String değişkendeki ifadenin 8. indeksindeki karakteri alır.
@@ -296,7 +296,7 @@ Java'da performanslı String birleştirme işlemleri için "StringBuilder" sın�
 
 Örnek:
 
-```
+```java
 StringBuilder builder = new StringBuilder();
 
 builder.append("İlk cümle");
