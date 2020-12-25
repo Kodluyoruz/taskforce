@@ -16,7 +16,7 @@ Burada `tarihiGoster()` bir fonksiyondur.
 
 ## React'te Event'ler
 
-React'te `event handling` (olay yönetimi), DOM element'lerindeki olay yönetimine oldukça benzerdir. Sadece, bazı küçük syntax farklılıkları vardır:
+[DOM eventleri](https://www.w3.org/TR/DOM-Level-3-Events/) senkron(sıralı) ve asenkron (eş zamanlı) olmak üzere iki şekilde işlenir. Sıralı işlerde  first-in-first-out modelinde yani geliş sırasına göre takip edilirler. React'te `event handling` (olay yönetimi), DOM element'lerindeki olay yönetimine oldukça benzerdir. Sadece, bazı küçük syntax farklılıkları vardır:
 
 - Event listener isimleri **lowercase** yerine **camelCase**'dir.
 
@@ -58,9 +58,11 @@ ActionLink = () => {
 
 [Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/OJRmbrB?editors=1111).
 
-`ActionLink` adlı functional component içerisinde `handleClick` adlı bir fonksiyon var. Bu fonksiyon `onClick event`'ine handler olarak verilmiş ve `preventDefault` ile yeni bir sayfaya yönlendirilmeyi engelliyor. 
+`ActionLink` adlı functional component içerisinde `handleClick` adlı bir fonksiyon var. Bu fonksiyon `onClick event`'ine handler olarak verilmiş ve `preventDefault` ile fonksiyonun render sırasında otomatik olarak çağrılmasını ve yeni bir sayfaya yönlendirilmeyi engelliyor.     
 
-Görüldüğü üzere `handleClick` `e` adlı bir argüman alıyor. Bu argüman event tetiklendiğinde handler'a otomatik olarak aktarılır ve farklı API'ylara sahip olabilir. React'te bu `e`'ye sentetik olay denir ([SyntheticEvent](https://tr.reactjs.org/docs/events.html)). Otomatik olarak aktarılan bu event objesinin tipini `e.type` ile görebiliriz. Bu durumda "click" olacaktır. 
+Görüldüğü üzere `handleClick` `e` adlı bir argüman alıyor. Bu argüman event tetiklendiğinde handler'a otomatik olarak aktarılır ve farklı API'ylara sahip olabilir. React'te bu `e`'ye sentetik olay denir ([SyntheticEvent](https://tr.reactjs.org/docs/events.html)). Otomatik olarak aktarılan bu event objesinin tipini `e.type` ile görebiliriz. Bu durumda "click" olacaktır.  
+
+**Not:** `preventDefault()` gibi işlemler için önceliğini gözetmek adına event argümanının ilk sırada yer alması fonksiyon akışını kontrol etmeyi kolaylaştıracaktır. 
 
 ### Örnek
 
@@ -119,7 +121,7 @@ class BindExample extends React.Component {
 
 [Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/gOwWgvN?editors=1011).
 
-Bu örnekte bir class component içerisinde `bind` metodu kullanarak `this` ile context'i tanımlıyoruz. `Bind` metodunda ilk argüman **"this"** olmak zorundadır. Görüldüğü üzere event objesini göndermediğimiz halde handler içerisinde ulaşabiliyoruz çünkü otomatik olarak aktarılmıştır.
+Bu örnekte bir class component içerisinde `bind` metodu kullanarak `this` ile context'i tanımlıyoruz. `Bind` metodunda ilk argüman **"this"** olmak zorundadır. Görüldüğü üzere event objesini göndermediğimiz halde handler içerisinde ulaşabiliyoruz çünkü [closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) içerisinde olduğu için otomatik olarak aktarılmıştır.
 
 
 
