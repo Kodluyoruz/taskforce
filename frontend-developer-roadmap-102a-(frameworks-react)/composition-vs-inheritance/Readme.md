@@ -104,16 +104,16 @@ Bu örnekte, genel bir `Button` component'i oluşturduk. Sonrasında onun daha �
 
 ```javascript
 const Heading = props => {
-		return (
-			<div>
-      	<h1>{props.message}</h1>
-      </div>
-		)
+      return (
+	<div>
+      	 <h1>{props.message}</h1>
+       </div>
+     )
 }
 
 const Page1 = () => {
     return(
-    	<div>
+       <div>
       	<Heading message={"Page1 için başlık"} />
       </div>
     )
