@@ -23,12 +23,12 @@
 - [ ] Hooks örneği - Hesap makinesi
 - [ ] [Context API](context-api/)
 - [ ] Refs
-- [ ] Render props
+- [ ] [Render props](render-props/)
 - [ ] Code splitting
 - [ ] [Higher Order Components](higher-order-components/)
 - [ ] [Portals](react-portals/)
 - [ ] [Error boundaries](error-boundaries/)
-- [ ] Fiber architecture
+- [ ] Reconciliation
 
 ## Ecosystem
 
