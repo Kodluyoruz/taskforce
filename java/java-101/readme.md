@@ -14,7 +14,7 @@
   - [ ] [Metotlara Giriş](metotlara-giris/)
   - [ ] [Metotları aşırı yüklemek (overloading methods)](metotlari-asiri-yuklemek-(overloading-methods)/)
   - [ ] [Yapılandırıcıları aşırı yüklemek](yapilandiricilari-asiri-yuklemek/)
-  - [ ] [Bir yapılandırıcıdan diğerini çağırmak](bir-yapilandiricidan-digerini-cagirmak/)
+  - [ ] [Bir yapılandırıcıdan diğerini çağırmak](yapilandiricidan-digerini-cagirmak/)
   - [ ] [Özyineleme (Recursion)](ozyineleme-(recursion)/)
   - [ ] [Erişim Denetimi](erisim-denetimi/)
   - [ ] [Statik Metotlar](statik-metotlar/)
