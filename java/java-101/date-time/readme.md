@@ -158,3 +158,5 @@ LocalTime sevenThirty = LocalTime.parse(&quot;06:30&quot;).plus(1, ChronoUnit.HO
 int six = LocalTime.parse(&quot;06:30&quot;).getHour();
 ````
 
+## Kaynak:
+* [Kaynak 1](#)
