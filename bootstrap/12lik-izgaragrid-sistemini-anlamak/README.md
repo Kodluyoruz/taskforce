@@ -1,0 +1,1 @@
+# 12'lik Izgara(Grid) Sistemini Anlamak
