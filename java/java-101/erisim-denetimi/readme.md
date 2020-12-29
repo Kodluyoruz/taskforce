@@ -8,8 +8,8 @@ Java’da 4 adet erişim belirteci vardır:
 
 - **public**: Bu erişim belirteciyle belirtilen bir alana veya metoda her yerden erişilebilir. **public** deyimini kullanır. Gizlilik seviyesi en düşük olan erişim belirtecidir. Sınıflara, metotlara, değişkenlere, arabirim ara yüzlere, yapıcı sınıflara (constructors) uygulanabilir.
 - **default:** Yalnızca aynı paket içinden erişilebilir. Bu belirteç _default_ olarak isimlendirilmesine rağmen, herhangi bir deyim yazılmaz. Metotlara, alanlara ve sınıflara uygulanır.
-- **protected:** Yalnızca aynı paket içinden veya alt sınıflardan erişilebilir. **protected** deyimini kullanır. Metotlara, değişkenlere ve yapıcı sınıflar (constructor) uygulanır.
-- **private:** Yalnızca aynı sınıf içinden erişilebilir. private deyimini kullanır. Gizlilik seviyesi en yüksek olan erişim belirtecidir. Metotlara, değişkenlere ve yapıcı sınıflara (constructor) uygulanır.
+- **protected:** Yalnızca aynı paket içinden veya alt sınıflardan erişilebilir. **protected** deyimini kullanır. Metotlara, değişkenlere ve yapıcı sınıflara (constructors) uygulanır.
+- **private:** Yalnızca aynı sınıf içinden erişilebilir. private deyimini kullanır. Gizlilik seviyesi en yüksek olan erişim belirtecidir. Metotlara, değişkenlere ve yapıcı sınıflara (constructors) uygulanır.
 
 ## Neden Erişim Belirteçleri Gereklidir ?
 
@@ -117,9 +117,153 @@ Yukarıdaki örnekler ile public, protected, private ve default (package-private
 
 3.Private olarak belirtilen metotlardan miras alınamaz.
 
+Yukarıdaki bilgilerden sonra tüm erişim belirleyicileri kullanarak öğrendiklerimiz tekrar edip pekiştirelim. Elimizde iki farklı paket var ve paketlerin isimleri **package1** ve **package2**. **Package1** paketinde _A_, _B_ ve _Main_ sınıfları bulunuyor.**Package2** de ise _C_ ve _D_ sınıfları yer alıyor. Bu sınıflarda farklı erişim belirleyicilerine sahip metotlar ve değişkenler var. Şimdi bu sınıfları biraz daha ayrıntılı bakıp aralarındaki ilişkiyi anlamaya çalışalım.
+
+```java
+package package1;
+
+//A sınıfının projenin her yerinde ulasilabilir olması için public erişim belirleyici ile kullandık.
+public class A {
+    private String name;
+    protected int number;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    private void aRead(String read) {
+        System.out.println("A sınıfındaki private erisim belirleyicisine sahip aRead metodu çalıştırıldı.:" +
+                " \nOkunan değer: " + read);
+    }
+
+    void aWrite(String write) {
+        System.out.println("A sınıfındaki default erisim belirleyicisine sahip aWrite metodu çalıştırıldı.:" +
+                " \nYazılan deger: " + write);
+    }
+
+    protected void aRun(String name) {
+        this.name = name;
+        System.out.println("A sınıfındaki protected erisim belirleyicisine sahip aRun metodu calistirildi.:" +
+                " \n " + name + " calisiyor.");
+    }
+
+    public void aSleep() {
+        System.out.println("A sınıfındaki public erisim belirleyicisine sahip aSleep metodu calistirildi.");
+    }
+}
 
 
-> KAYNAKÇA
+```
+
+Yukarıdaki örnekte A sınıfının içinde farklı erişim belirleyicilerine sahip alanlar ve metotlar görülmektedir. _A_ sınıfındaki name alanı private erişim belirleyicisi kullanılarak tanımlanmıştır ve bu alana sadece _A_ sınıfı içerisinden ulaşılabilecektir. Fakat  name alanının olduğumuz paket içinden ve farklı paketteki sınıflardan erişilebilmesi için getter setter metotlarını kullanarak, tekrardan yazılıp okunabilmesini sağlıyoruz(Getter-Setter metotlarının erişim kısmı public olmalı. Eğer Setter kısmını private olarak ayarlarsanız name alanınızı sadece okunabilir yapmış olursunuz.(Diğer sınıflar için read only yapmış olursunuz.)). Name alanından sonra protected erişim belirleyicisi ile number alanı tanımladık bu alanı sadece aynı paket içindeki sınıflar kullanabilecek ya da farklı paket altında _A_ sınıfını miras alan yani extends eden sınıflar bu alana erişim sağlayabilecektir. Değişken tanımlamalarından sonra _A_ sınıfında 4 farklı erişim belirleyicisine sahip metotlar tanımladık. Private erişim belirleyicisine sahip aRead metoduna sadece _A_ sınıfı içinden ulaşılabilecek. Default erişim belirleyicisine sahip olan aWrite metoduna _A_ sınıfı içinden ve _A_ sınıfı ile aynı pakette bulunan _B_ ve _Main_ sınıfları erişim sağlayabilecektir.. Protected erişim belirleyicisine sahip aRun metoduna ise _A_ sınıfı içinden ve _A_ sınıfı ile aynı pakette bulunan _B_ ve _Main_ sınıfları erişim sağlayabilir, default erişim belirleyicisinden farklı olarak da farklı pakette _A_ sınıfını extends eden sınıflar bu metoda erişim sağlayabilmektedir. Public erişim belirleyicisine sahip aSleep metodu ise farklı paketlerden alt sınıflardan olsun her yerden erişim sağlayabilir. _A_ sınıfını inceledikten sonra _A_ sınıfındaki metotların aynı paket altında bulunan _B_ sınıfı ile kullanımını inceleyelim.
+
+```java
+package package1;
+
+public class B {
+    A a = new A();
+
+    void bWrite(String message) {
+        a.setName("B sınıfı");
+        a.aWrite(message);
+    }
+
+    void bRun(String name) {
+        a.aRun(name);
+    }
+
+    void bRead() {
+        a.aRead("B sınıfı okuyor."); //'aRead(java.lang.String)' has private access in 'package1.A'
+        //Derleyici hatası (Compile Time hatası alınır.)
+    }
+}
+
+
+```
+
+_B_ sınıfı iki adet default erişim belirleyicisine sahip bWrite ve bRun tek parametreli metotlardan oluşmaktadır. Sınıf seviyesinde bir referans tip yani nesne oluşturduktan sonra bu nesne ile _A_ sınıfındaki alanlara ve metotlara erişim sağlamaya çalışacağız.
+
+- bWrite metodun da a nesnesi ile ilk olarak _A_ sınıfında public olan getter setter metotlarından setter metodu yani setName("B Sınıfı"); metoduna isim vermiş oldu.
+- aWrite metodu _A_ sınıfında default erişim belirleyicisine sahip ve aynı paket altında oldukları için erişim sağlanmış oldu.
+- bRun metodu a nesnesi ile _A_ sınıfında protected erişim belirleyicisine sahip olan aRun metoduna erişim sağlamış oldu.
+- bRead() metodu a nesnesi ile _A_ sınıfındaki aRead metoduna erişim sağlamaya çalışıyor fakat compile time da bir hata alacaktır. Çünkü aRead metodu _A_ sınıfında private erişim belirleyicisine sahiptir.Bu hatadan ancak _A_ sınıfındaki aRead metodunu private erişim belirleyicisinden farklı olan bir erişim belirleyicisi kullanılarak düzeltilebilir.
+
+Bu örnekten sonra birde farklı paket altında olan _C_ ve _D_  sınıflarını kullanarak _A_ sınıfındaki alanlara ve metotlara erişim sağlamaya çalışalım.
+
+```java
+package package2;
+
+import package1.A;
+
+public class C {
+    A a = new A();
+
+    public void cRead() {
+        a.setName("C sınıfı");
+        System.out.println(a.getName());
+    }
+
+    public void cSleep() {
+        System.out.println("C sınıfına ait public erisim belirleyicisine sahip cSleep metodu calistirildi.");
+        a.aSleep();
+
+    }
+
+    void otherFunctionsRun() {
+        a.aWrite("C sınıfından yazılıyor.");//Compile Time hatası alınır.
+        //'aWrite(java.lang.String)' is not public in 'package1.A'. Cannot be accessed from outside package
+       
+        a.aRun(a.getName()); //Compile Time hatası alınır.
+        //'aRun(java.lang.String)' has protected access in 'package1.A'
+        
+        a.aRead("C sınıfı okuyor."); //Compile Time hatası alınır.
+        //'aRead(java.lang.String)' has private access in 'package1.A'
+    }
+}
+
+
+```
+
+_C_ sınıfı **package2** altında bulunmaktadır._C_ sınıfı _A_ sınıfına erişim sağlamak istiyor ise _A_ sınıfını içe aktarması (import) etmesi gerekir. _C_ sınıfı public erişim belirleyicisine sahip cRead ve cSleep metotlarından oluşmaktadır. Sınıf seviyesinde bir referans tip yani nesne oluşturduktan sonra bu nesne ile _A_ sınıfındaki alanlara ve metotlara erişim sağlamaya çalışacağız.
+
+- cRead metodunda _A_ sınıfında name alanının getter-setter metotları public olduğundan dolayı erişim sağlayarak erişim sağlayıp kullanabiliyoruz.
+- cSleep metodunda ise _A_ sınıfında aSleep metodu public erişim belirleyicisine sahip olduğundan dolayı yani public erişim belirleyicisinin özelliğinden dolayı erişim sağlayabiliyor.
+- _C_ sınıfında default erişim belirleyicisine sahip otherFunctionsRun metodu ile _A_ sınıfında public erişim belirleyicisinden  farklı olan metotlara erişim sağladığımızda compile time hatası alacağız. Örnek olarak aWrite metodu _A_ sınıfında default erişim belirleyicisine sahip ve default erişim belirleyicilerine aynı sınıf ve paket içinden erişim sağlayabiliyorduk fakat biz farklı paket içindeki _C_ sınıfından erişim sağlamaya çalışıyoruz. Bu yüzden compile time hatası alıyoruz.Bu hatayı almamak için ya aWrite metodu kullanılmayacak ya da aWrite metodunun erişim belirleyicisi public olarak değiştirilmelidir. aRun ve aRead metotlarında aynı  durum geçerli tek farkı bu metotların farklı erişim belirleyicisine sahip olması. Bu iki metot da ki sorunlarda aWrite metodu ile aynı işlem yapılarak çözülebilir.
+
+_C_ sınıfı ile aynı paket altında bulunan _D_ sınıfını inceleceğiz. _D_ sınıfının _C_ sınıfından tek farkı _A_ sınıfından miras alıyor olması  yani extends ediliyor olmasıdır. _D_ sınıfı da _A_ sınıfını kullanabilmek için _A_ sınıfını import etmesi gerekir.
+
+```java
+package package2;
+
+import package1.A;
+
+public class D extends A {
+    
+    @Override
+    protected void aRun(String name) {
+        System.out.println("D sınıfı A sınıfından miras aldı." +
+                "\nProtected erisim  belirleyicisine sahip aRun metodunu da override ederek kendi implementasyonunu yaptı.");
+    }
+
+    public int dNumber() {
+        return number=45;
+    }
+}
+
+```
+
+Yukarıdaki _D_ sınıfı içindeki metotlar yer almaktadır. 
+
+- _D_ sınıfı _A_ sınıfından extends edildiği için _A_ sınıfındaki protected erişim belirleyicisine sahip olan  aRun metodunu @Override ederek kullanabildiği gibi bu metod @Override edilmeden de erişim sağlanabilir(farklı sınıfı üzerinden nesne olur). 
+- _D_ sınıfında public erişim belirleyicisine sahip dNumber metodu tanımlanmıştır bu metoda farklı paketlerden ulaşabilmek amacı ile tanımlanmıştır. dNumber metodu int dönüş tipine sahip bir metotdur yani bu metod çağrıldığı zaman int tipine sahip bir değer dönecektir. Int değeri olarak number değerini gönderdik ve bu değere 45 değerini atadık. Number değişkeni _A_ sınıfı içerisinde protected erişim belirleyicisine sahip olduğundan dolayı biz erişim sağlayıp kullanabildik. Eğer bu metot default erişim belirleyicisine sahip olsaydı farklı bir paketteki sınıftan bu metoda ulaşmaya çalıştığımızda ulaşamayacaktık.
+
+
+
+>  KAYNAKÇA
 > - [Java Documentation](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
 >
 > - [Java Access Modifiers TutorialsPoint](https://www.tutorialspoint.com/java/java_access_modifiers.htm)
