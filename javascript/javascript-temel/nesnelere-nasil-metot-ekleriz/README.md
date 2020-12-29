@@ -1,0 +1,1 @@
+# Nesnelere Nasıl Metot Ekleriz?

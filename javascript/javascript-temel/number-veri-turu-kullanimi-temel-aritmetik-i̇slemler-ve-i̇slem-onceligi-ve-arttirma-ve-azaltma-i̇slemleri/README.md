@@ -1,0 +1,1 @@
+# Number Veri Turu Kullanımı, Temel Aritmetik İşlemler ve İşlem Önceliği ve Arttırma ve Azaltma İşlemleri

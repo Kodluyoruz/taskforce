@@ -1,0 +1,1 @@
+# Ternary Operator( koşul ? doğruysa : yanlışsa) ile If Kullanımı

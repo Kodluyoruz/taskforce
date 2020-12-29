@@ -1,0 +1,1 @@
+# Dizi(Array) Oluşturmak ve Dizi İçindeki Elemanlara Ulaşmak

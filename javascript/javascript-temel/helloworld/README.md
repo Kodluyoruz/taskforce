@@ -1,0 +1,1 @@
+# Birçok Platformda Hello World ve Hello World'ün Önemi
