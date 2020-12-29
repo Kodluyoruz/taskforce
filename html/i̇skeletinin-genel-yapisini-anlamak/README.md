@@ -1,0 +1,1 @@
+# İskeletinin Genel Yapısını Anlamak
