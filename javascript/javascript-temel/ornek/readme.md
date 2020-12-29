@@ -4,7 +4,15 @@ Eğer konuyu anlatmak isterseniz bu kısımda markdown kullanarak: kod örnekler
 
 
 
-Yapılan örneklere [buradan](https://github.com/Kodluyoruz/taskforce/tree/react/frontend-developer-roadmap-102a-(frameworks-react)) bakabilirsiniz.
+Örnek olması için oluşturulan içeriklere [buradan](https://github.com/Kodluyoruz/taskforce/tree/react/frontend-developer-roadmap-102a-(frameworks-react)) bakabilirsiniz.
+
+
+
+Resim eklemek isterseniz `figures` isimli bir klasör oluşturup içerisine resimleri yükleyebilirsiniz.
+
+![JavaScript Logo](figures/javascript-logo.png)
+
+
 
 ## Alıştırmalar
 

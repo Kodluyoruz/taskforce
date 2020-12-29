@@ -1,5 +1,9 @@
 # JavaScript Temel
 
+**Örnek İçerik:** [Örnek](ornek/)
+
+
+
 - [ ] [JavaScript Nedir?](javascript-nedir/)
 - [ ] [Birçok Platformda Hello World ve Hello World'ün Önemi](helloworld/)
 
