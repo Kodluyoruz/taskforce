@@ -6,14 +6,14 @@ Nesne yönelimli programlamanın 4 temel kavramından biri **kapsüllemedir (enc
 
 Java’da 4 adet erişim belirteci vardır:
 
-- **public**: Bu erişim belirteciyle belirtilen bir alana veya metoda her yerden erişilebilir. **public** deyimini kullanır. Gizlilik seviyesi en düşük olan erişim belirtecidir.
-- **default:** Yalnızca aynı paket içinden erişilebilir. Bu belirteç _default_ olarak isimlendirilmesine rağmen, herhangi bir deyim yazılmaz.
-- **protected:** Yalnızca aynı paket içinden veya alt sınıflardan erişilebilir. **protected** deyimini kullanır.
-- **private:** Yalnızca aynı sınıf içinden erişilebilir. private deyimini kullanır. Gizlilik seviyesi en yüksek olan erişim belirtecidir.
+- **public**: Bu erişim belirteciyle belirtilen bir alana veya metoda her yerden erişilebilir. **public** deyimini kullanır. Gizlilik seviyesi en düşük olan erişim belirtecidir.Sınıflara, metodlara, değişkenlere, arabirim ya da arayüzlere, yapıcı sınıflar (constructors) uygulanabilir.
+- **default:** Yalnızca aynı paket içinden erişilebilir. Bu belirteç _default_ olarak isimlendirilmesine rağmen, herhangi bir deyim yazılmaz.Metodlara, alanlara ve sınıflara uygulanır.
+- **protected:** Yalnızca aynı paket içinden veya alt sınıflardan erişilebilir. **protected** deyimini kullanır.Metodlara, değişkenlere ve yapıcı sınıflar (constructor) uygulanır.
+- **private:** Yalnızca aynı sınıf içinden erişilebilir. private deyimini kullanır. Gizlilik seviyesi en yüksek olan erişim belirtecidir.Metodlara, değişkenlere ve yapıcı sınıflara (constructor) uygulanır.
 
 ## Neden Erişim Belirteçleri Gereklidir ?
 
-- Hassas verilerin saklanması sağlanır, erişim kısıtlanır ([Principle Of Least Privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) - PoLP yaklaşımı)
+- Hassas verilerin saklanması sağlanır, erişim kısıtlanır. ([Principle Of Least Privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) - PoLP yaklaşımı)
 - Sınıfı kullanacak olan geliştiricilerin hangi üyelere erişebileceği belirlenir.
 - Verilerin tutarlılığı sağlanır.
 
@@ -106,4 +106,6 @@ Yukarıdaki örnekler ile public, protected, private ve default (package-private
 | Aynı paket - Alt Sınıf Yok       |   X    |     X     |         |    X    |
 | Farklı paketteki alt sınıflardan |   X    |     X     |         |         |
 | Farklı paket - Alt Sınıf Yok     |   X    |           |         |         |
+
+##Erişim Kontrolü ve Kalıtım
 
