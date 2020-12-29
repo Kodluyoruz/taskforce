@@ -8,5 +8,5 @@ Java’da bu tarz işlemleri gerçekleştirebilmek için girdi/çıktı sınıfl
 
 Şimdi **java.io** paketi altındaki en çok kullanılan girdi/çıktı sınıflarını inceleyelim.
 
-# hey
+# hey22
 
