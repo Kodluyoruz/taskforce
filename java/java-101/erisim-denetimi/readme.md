@@ -258,8 +258,10 @@ public class D extends A {
 
 Yukarıdaki _D_ sınıfı içindeki metotlar yer almaktadır. 
 
-- _D_ sınıfı _A_ sınıfından extends edildiği için _A_ sınıfındaki protected erişim belirleyicisine sahip olan  aRun metodunu @Override ederek kullanabildiği gibi bu metod @Override edilmeden de erişim sağlanabilir(farklı sınıfı üzerinden nesne olur). 
+- _D_ sınıfı _A_ sınıfından extends edildiği için _A_ sınıfındaki protected erişim belirleyicisine sahip olan  aRun metodunu @Override ederek kullanabilir ya da @Override etmeden de kullanabilir.
 - _D_ sınıfında public erişim belirleyicisine sahip dNumber metodu tanımlanmıştır bu metoda farklı paketlerden ulaşabilmek amacı ile tanımlanmıştır. dNumber metodu int dönüş tipine sahip bir metotdur yani bu metod çağrıldığı zaman int tipine sahip bir değer dönecektir. Int değeri olarak number değerini gönderdik ve bu değere 45 değerini atadık. Number değişkeni _A_ sınıfı içerisinde protected erişim belirleyicisine sahip olduğundan dolayı biz erişim sağlayıp kullanabildik. Eğer bu metot default erişim belirleyicisine sahip olsaydı farklı bir paketteki sınıftan bu metoda ulaşmaya çalıştığımızda ulaşamayacaktık.
+
+
 
 
 
