@@ -14,7 +14,7 @@ Resim eklemek isterseniz `figures` isimli bir klasör oluşturup içerisine resi
 
 
 
-## Alıştırmalar
+## Alıştırmalar
 
 Örnek her bir alıştırmayı `h3`şeklinde ekleyin.
 
@@ -41,7 +41,7 @@ ReactDOM.render(
 
 [Codepe'de deneyin](https://codepen.io/Kodluyoruz/pen/PoGqpZZ)
 
-## Sorular
+## Sorular
 
 * [Soru 1 gövdesi. Buraya sorunuzu yazabilirsiniz.]
   * Şık 1
