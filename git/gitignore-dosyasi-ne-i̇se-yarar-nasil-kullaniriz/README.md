@@ -1,0 +1,1 @@
+# .gitignore Dosyası Ne İşe Yarar? Nasıl Kullanırız?

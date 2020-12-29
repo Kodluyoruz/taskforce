@@ -1,0 +1,1 @@
+# VS Code içinde Terminal Kullanarak GIT Temel Komutları
