@@ -11,6 +11,12 @@ Java’da 4 adet erişim belirteci vardır:
 - **protected:** Yalnızca aynı paket içinden veya alt sınıflardan erişilebilir. **protected** deyimini kullanır.
 - **private:** Yalnızca aynı sınıf içinden erişilebilir. private deyimini kullanır. Gizlilik seviyesi en yüksek olan erişim belirtecidir.
 
+## Neden Erişim Belirteçleri Gereklidir ?
+
+- Hassas verilerin saklanması sağlanır, erişim kısıtlanır ([Principle Of Least Privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) - PoLP yaklaşımı)
+- Sınıfı kullanacak olan geliştiricilerin hangi üyelere erişebileceği belirlenir.
+- Verilerin tutarlılığı sağlanır.
+
 Aşağıdaki örnekleri inceleyelim:
 
 ```java
@@ -90,3 +96,14 @@ class Main
 ```
 
 Yukarıdaki örnekte _Box_ ve _Main_ sınıfları aynı paket içinde olmalarına rağmen, _Main_ sınıfından _Box_ sınıfının alanlarına erişilemez. _Box_ sınıfının alanları private olarak belirtildiği için yalnızca aynı sınıf içinden erişilebilir.
+
+Yukarıdaki örnekler ile public, protected, private ve default (package-private) erişim belirleyicileri hakkında biraz daha bilgi sahibi olduktan sonra kafamızda takılan soru işareti varsa ya da sözel olarak karışık geldiyse aşağıdaki tablo kafanızdaki soru işaretlerini giderecektir. (Tablodaki kutucuklardaki X işareti olan kısımlar erişilebilir olduğunu göstermektedir. Boş olan kısımlar ise erişilemez olduğunu göstermektedir.)
+
+| Erişi Düzenleyicisi              | public | protected | private | default |
+| :------------------------------- | :----: | :-------: | :-----: | :-----: |
+| Aynı sınıf                       |   X    |     X     |    X    |    X    |
+| Aynı paketteki alt sınıflardan   |   X    |     X     |         |    X    |
+| Aynı paket - Alt Sınıf Yok       |   X    |     X     |         |    X    |
+| Farklı paketteki alt sınıflardan |   X    |     X     |         |         |
+| Farklı paket - Alt Sınıf Yok     |   X    |           |         |         |
+
