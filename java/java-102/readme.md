@@ -1,32 +1,48 @@
-- [ ]  [Object Oriented Programming](object-oriented-programming/)
+- [ ] [Object Oriented Programming](object-oriented-programming/)
+
+  - [ ] [Java&#39;da Sınıf Kavramı (Class)](class/)
+  - [ ] [Java&#39;da Nesne Kavramı (Object)](object/)
+    - [ ] [Java&#39;da Kurucu Metotlar (Constructors)](constructors/)
+      - [ ] [Nesneye Dayalı Programlama Yönteminin Özellikleri](oop-yonteminin-ozellikleri/)
+        - [ ] [Object](oop-object/)
+        - [ ] [Class](oop-class/)
+        - [ ] [Kalıtım Kavramı (Inheritance)](oop-inheritance/) **Parçala**
+        - [ ] [Çok Biçimlilik (Polymorphism)](oop-polymorphism/)
+        - [ ] [Soyutlama (Abstraction)](oop-abstraction/) **Parçala**
+        - [ ] [Kapsülleme Kavramı (Encapsulation)](oop-encapsulation/)
+  - [ ] [Hata Yönetimi](hata-yonetimi/) (Yeri taşınabilir)
+    - [ ] [İstisnai Durumların Yönetilmesi](istisnai-durumların-yonetilmesi/)
 
   - [ ] [Anatomy of Classes and Methods](anatomy-of-classes-and-methods/)
   - [ ] [Implementing Classes](implementing-classes/)
-  - [ ] [Testing Classes and Methods](testing-classes-and-methods/)
-  - [ ] [Method Parameters](method-parameters/)
-  - [ ] [Accessor Mutator Methods](accessor-mutator-methods/)
-  - [ ] [Instance Fields](instance-fields/)
-  - [ ] [Scope and Local Variables](scope-and-local-variables/)
-  - [ ] [This'e Neden İhtiyacımız Var?](this'e-neden-ihtiyacımız-var/)
-  - [ ] [Static Variables and Methods](static-variables-and-methods/)
-  - [ ] [Inheritance & Composition](inheritance-composition/)
-  - [ ] [Polymorphisim & Overriding](polymorphisim-overriding/)
-  - [ ] [Abstraction](abstraction/)
-  - [ ] [Encapsulation](encapsulation/)
-  - [ ] [SOLID Principles & Clean Code Practices](solid-principles-clean-code-practices/)
-  - [ ] [JavaDoc](javadoc/)
-  - [ ] [Projeler](projeler/)
+  - [ ] Testing Classes and Methods
+  - [ ] Method Parameters
+  - [ ] Accessor Mutator Methods
+  - [ ] Instance Fields
+  - [ ] Scope and Local Variables
+  - [ ] This'e Neden İhtiyacımız Var?
+  - [ ] Static Variables and Methods
+  - [ ] Inheritance & Composition
+  - [ ] Polymorphisim & Overriding
+  - [ ] Abstraction
+  - [ ] Encapsulation
+  - [ ] SOLID Principles & Clean Code Practices
+  - [ ] JavaDoc
 
-- [ ]  [Java Enums](java-enums/)
+- [ ] [Java Enums](java-enums/)
 
-- [ ]  [Final Keyword Usage](final-keyword-usage/)
+- [ ] [Final Keyword Usage](final-keyword-usage/)
 
-- [ ]  [Java Generics](java-generics/)
+- [ ] [Java Generics](java-generics/)
 
-  - [ ] [Generic Kavramı](generic-kavramı/)
-  - [ ] [Generic Metotlar](generic-metotlar/)
-  - [ ] [Generic Sınıf Yazmak](generic-sınıf-yazmak/)
-  - [ ] [Sınırlandırılmış Türler (Bounded Types)](sınırlandırılmış-türler-(bounded-types)/)
+  - [ ] [Jenerik Sınıf Yazmak](jenerik-sinif-yazmak/)
+  - [ ] [Jenerikler İlkel Veri Türleri Üzerinde Çalışmaz](jenerikler-ilkel-veri-turleri-uzerinde-calismaz/)
+  - [ ] [Kutulama (Autoboxing) ve Kutudan Çıkarma (Unboxing)](autoboxing-unboxing)
+  - [ ] [Sınırlandırılmış Türler (bounded types)](bounded-types/)
+  - [ ] [Joker Argümanını (Wildcard Argument) Kullanmak](wildcard-argument/)
+  - [ ] [Jenerik Metotlar](jenerik-metotlar/)
+  - [ ] [Diamond Operatörünün Kullanılması](diamond-operatoru/)
+  - [ ] [Jenerik Kısıtlamaları](jenerik-kisitlamalari/)
 
 - [ ]  [Java Collection Framework](java-collection-framework/)
 
@@ -57,11 +73,11 @@
   - [ ] [UDP Client & Server Apps](udp-client-server-apps/)
   - [ ] [HTTP Apps](http-apps/)
 
-- [ ]  [Java Remote Method Invocation (RMI)](java-remote-method-invocation-(rmi)/)
+- [ ] [Java Remote Method Invocation (RMI)](java-remote-method-invocation-(rmi)/)
 
-- [ ]  [Java Reflection Basics](java-reflection-basics/)
+- [ ] [Java Reflection Basics](java-reflection-basics/)
 
-- [ ]  [JDBC API and Databases](jdbc-api-and-databases/)
+- [ ] [JDBC API and Databases](jdbc-api-and-databases/)
 
 - [ ]  [JVM Internals](jvm-internals/)
 
@@ -71,6 +87,6 @@
   - [ ] [Memory - Heap - Stack](memory-heap-stack/)
   - [ ] [Garbage Collection](garbage-collection/)
 
-- [ ]  [JUnit Testing & Debugging](junit-testing-debugging/)
+- [ ] [JUnit Testing & Debugging](junit-testing-debugging/)
 
 - [ ]  [JavaFC or Swing (GUI)](javafc-or-swing-(gui)/)
