@@ -28,14 +28,10 @@
   - [ ] Encapsulation
   - [ ] SOLID Principles & Clean Code Practices
   - [ ] JavaDoc
-
 - [ ] [Java Enums](java-enums/)
-
 - [ ] [Final Keyword Usage](final-keyword-usage/)
-
 - [ ] [Java Generics](java-generics/)
-
-  - [ ] [Jenerik Sınıf Yazmak](jenerik-sinif-yazmak/)
+- [ ] [Jenerik Sınıf Yazmak](jenerik-sinif-yazmak/)
   - [ ] [Jenerikler İlkel Veri Türleri Üzerinde Çalışmaz](jenerikler-ilkel-veri-turleri-uzerinde-calismaz/)
   - [ ] [Kutulama (Autoboxing) ve Kutudan Çıkarma (Unboxing)](autoboxing-unboxing)
   - [ ] [Sınırlandırılmış Türler (bounded types)](bounded-types/)
@@ -43,50 +39,40 @@
   - [ ] [Jenerik Metotlar](jenerik-metotlar/)
   - [ ] [Diamond Operatörünün Kullanılması](diamond-operatoru/)
   - [ ] [Jenerik Kısıtlamaları](jenerik-kisitlamalari/)
+- [ ] [Java Collection Framework](java-collection-framework/)
+  - [ ] [Collection Arayüzü (interface) ve Alt Sınıfları](collection-arayuzu-alt-siniflari/)
+  - [ ] [List interface (Arayüzü)](list-interface/)
+  - [ ] [Set interface (Arayüzü)](set-interface/)
+  - [ ] [Map interface (Arayüzü)](map-interface/)
+  - [ ] [Enumeration, Iterator, Iterable interfaces](enumeration-iterator-iterable-interfaces/) **parçala**
+  - [ ] [Comparable, Comparator interfaces](comparable-comparator-interfaces/) **parçala**
+- [ ]  Java 8 Features
+- [ ] Functional Programming Basics
+  - [ ] Lambda Expressions
+  - [ ] Functional Interfaces
+  - [ ] Stream API
+- [ ]  Multi Threads & Concurrency
 
-- [ ]  [Java Collection Framework](java-collection-framework/)
+   - [ ] MultiThread programlama kavramları
+   - [ ] Critical Section & Race Condition
+   - [ ] Thread, Runnable, Thread Sleep
+   - [ ] Syncronized & Read Write Locks, Volatile Variables
+  - [ ] Thread Pooling & Executers
+- [ ]  Java Network Programming
 
-  - [ ] [Equals & Hascode Kavramları](equals-hascode-kavramları/)
-  - [ ] [List, Set ve Map Veri Yapıları](list-set-ve-map-veri-yapıları/)
-  - [ ] [Enumeration, Iterator, Iterable interfaces](enumeration-iterator-iterable-interfaces/)
-  - [ ] [Comparable, Comparator interfaces](comparable-comparator-interfaces/)
+  - [ ] Client & Server Apps
+  - [ ] Multithreaded Server Apps
+  - [ ] UDP Client & Server Apps
+  - [ ] HTTP Apps
+- [ ] Java Remote Method Invocation (RMI)
+- [ ] Java Reflection Basics
+- [ ] JDBC API and Databases
+- [ ]  JVM Internals
 
-- [ ]  [Java 8 Features](java-8-features/)
-
-  - [ ] [Functional Programming Basics](functional-programming-basics/)
-  - [ ] [Lambda Expressions](lambda-expressions/)
-  - [ ] [Functional Interfaces](functional-interfaces/)
-  - [ ] [Stream API](stream-api/)
-
-- [ ]  [Multi Threads & Concurrency](multi-threads-concurrency/)
-
-   - [ ] [MultiThread programlama kavramları](multi-thread-programlama-kavramları/)
-   - [ ] [Critical Section & Race Condition](critical-section-race-condition/)
-   - [ ] [Thread, Runnable, Thread Sleep](thread-runnable-thread-sleep/)
-   - [ ] [Syncronized & Read Write Locks, Volatile Variables](syncronized-read-write-locks-volatile-variables/)
-  - [ ] [Thread Pooling & Executers](thread-pooling-executers/)
-
-- [ ]  [Java Network Programming](java-network-programming/)
-
-  - [ ] [Client & Server Apps](client-server-apps/)
-  - [ ] [Multithreaded Server Apps](multithreaded-server-apps/)
-  - [ ] [UDP Client & Server Apps](udp-client-server-apps/)
-  - [ ] [HTTP Apps](http-apps/)
-
-- [ ] [Java Remote Method Invocation (RMI)](java-remote-method-invocation-(rmi)/)
-
-- [ ] [Java Reflection Basics](java-reflection-basics/)
-
-- [ ] [JDBC API and Databases](jdbc-api-and-databases/)
-
-- [ ]  [JVM Internals](jvm-internals/)
-
-  - [ ] [Class Loading](class-loading/)
-  - [ ] [Linking](linking/)
-  - [ ] [Runtime Data Areas](runtime-data-areas/)
-  - [ ] [Memory - Heap - Stack](memory-heap-stack/)
-  - [ ] [Garbage Collection](garbage-collection/)
-
-- [ ] [JUnit Testing & Debugging](junit-testing-debugging/)
-
-- [ ]  [JavaFC or Swing (GUI)](javafc-or-swing-(gui)/)
+  - [ ] Class Loading
+  - [ ] Linking
+  - [ ] Runtime Data Areas
+  - [ ] Memory - Heap - Stack
+  - [ ] Garbage Collection
+- [ ] JUnit Testing & Debugging
+- [ ]  JavaFC or Swing (GUI)
