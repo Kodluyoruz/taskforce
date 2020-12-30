@@ -18,7 +18,7 @@ method = Form datanızın hangi methdola gönderileceğine karar verir. "Get" ve
 AUTOCOMPLETE :
 autocomplete = Ingilizce ismindende anlaşılacağı üzere formunuzda otomatik tamamlama özelliğini açıp veya kapatmak için işinize yarar. Bu özelliği açmak daha önceki entrylerinize göre formun tamamlama yapmasını sağlayacaktır.
 
-Örnek kullanım <form action="/script.js" autocomplete="on"> veya <form action="/script.js" autocomplete="off">
+Örnek kullanım `<form action="/script.js" autocomplete="on">` veya <form action="/script.js" autocomplete="off">
 
 
 NOVALIDATE :
