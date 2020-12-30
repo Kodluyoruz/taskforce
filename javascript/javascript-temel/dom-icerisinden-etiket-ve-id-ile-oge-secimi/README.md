@@ -20,7 +20,7 @@ Bize geri dönen NodeList nesnesinin length özelliğiyle kaç tane öge olduğu
 Bu kod bloğunda getElementsByTagNeame metotu ile Html sayfamızdaki p etiketine sahip elemanları elde ettik. Sonrasında bir döngü yardımıyla bu elemanlara eriştik. Bu elemanların  
 arka plan renklerini kırmızı renk yaptık.
 
-##QuerySelector Metotu
+## QuerySelector Metotu
 Üçüncü bir yol olarak QuerySelector kullanabiliriz. Bu metot verilen css seçicisiyle eşleşen ilk değeri bize döner. Eğer eşleşen bir element bulunmazsa null geri döner.Tüm eşleşen elementleri döndürmek için QuerySelectorAll kullanmalıyız.
 
 `var el = document.querySelector("#firstid");` 
