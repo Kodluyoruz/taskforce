@@ -28,7 +28,7 @@ Bu şekilde id kullanarak erişim sağlayabiliriz.
 
 
 ### Alıştırmalar
-Adınızı ve soyadınızı belirtilen p etiklerine dom ile erişerek yazdırınız
+*  Adınızı ve soyadınızı belirtilen p etiklerine dom ile erişerek yazdırınız  
 [CodePen'de Dene](https://codepen.io/bedirhanargn/pen/LYRQLpa)
 
 
