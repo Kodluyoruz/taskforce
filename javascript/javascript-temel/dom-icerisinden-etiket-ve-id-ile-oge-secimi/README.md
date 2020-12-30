@@ -28,7 +28,10 @@ Bu şekilde id kullanarak erişim sağlayabiliriz.
 
 
 ### Alıştırmalar
-*  Adınızı ve soyadınızı belirtilen p etiklerine dom ile erişerek yazdırınız  
+*  Adınızı ve soyadınızı belirtilen p etiketlerine DOM ile erişerek yazdırınız.  
 [CodePen'de Dene](https://codepen.io/bedirhanargn/pen/LYRQLpa)
+
+*  Girilen birinci ve ikinci sayıya DOM ile erişerek toplam sonucunu result alıtndaki p etiketine yazdırınız
+[CodePen'de Dene](https://codepen.io/bedirhanargn/pen/xxEpRpJ)
 
 
