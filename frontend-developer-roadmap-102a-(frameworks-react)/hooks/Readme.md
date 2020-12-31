@@ -8,7 +8,7 @@ React, sunduğu component model sayesinde arayüz yapımı için adeta biçilmi�
 
 React, tekrar kullanılabilecek bir fonksiyonun/davranışın başka bir bileşene bağlanması için bir yöntem sunmuyor. Bunun yerine render props ve high order components (HOC) ile bu probleme bir çözüm sağlanmaya çalışılıyor. Fakat bu geliştirim şablonları kullanıldığında, ilgili component’in tekrar yapılandırılması gerekiyor. Bu durum, yazılımcı için külfetli oluyor ve kodun da okunabilirliğini azaltıyor. Eğer siz de Chrome eklentisi olan [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) ile uygulamanızı incelediyseniz, kendinizi iç içe katmanlardan oluşan wrapper cehenneminde bulmuş olabilirsiniz.
 
-![React-Wrapper-Cehennemi](/Users/isiksinan/Desktop/hooks/figures/React-wrapper-cehennemi.jpg)
+![React-Wrapper-Cehennemi](figures/React-wrapper-cehennemi.jpg)
 
 ​								Ryu’nun hadouken atmış hali gibi görünen Wrapper yığını debug işlemlerini de güçleştiriyor
 
@@ -24,7 +24,7 @@ Stateful işlemler bütün component’te yer aldığı için bu tarz component�
 
 
 
-![Drake-meme-useEffect](/Users/isiksinan/Desktop/hooks/figures/Drake-meme-useEffect.jpg)
+![Drake-meme-useEffect](figures/Drake-meme-useEffect.jpg)
 
 ​					Hook’lar sayesinde componentDidMount() ve componentDidUpdate() yerine useEffect() fonksiyonu kullanılır.
 
@@ -38,7 +38,7 @@ React’i öğrenme aşamasında farketmişsinizdir. JavaScript’teki `this` ke
 
 
 
-![Java-vs-JavaScript-classes](/Users/isiksinan/Desktop/hooks/figures/Java-vs-JavaScript-classes.jpg)
+![Java-vs-JavaScript-classes](figures/Java-vs-JavaScript-classes.jpg)
 
 ​								JavaScript’te class gibi görünen yapılar aslında temelinde prototype ile çalışırlar.
 
@@ -224,7 +224,7 @@ Hook’lar temelinde JavaScript fonksiyonudurlar. Fakat state ve lifecycle ile i
 
 
 
-### Kendi hook’unuzu tasarlayın
+## Kendi hook’unuzu tasarlayın
 
 React class component’lerinde componentler arası mantıksal işlemlerin alışverişi, high order components (HOC) ve render props ile sağlanıyor. Fakat daha önce de anlattığımız gibi bu iki yöntemin dezavantajları bulunuyor. Bunun yerine özel hook tasarlayarak, render ağacına daha fazla component eklemeden çözüm üretebiliriz.
 
@@ -270,8 +270,6 @@ function ArkadasDurumu(props) {
 ```
 
  
-
-
 
 ```javascript
 function ArkadasListItem(props) {
