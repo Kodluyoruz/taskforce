@@ -11,9 +11,9 @@ ile bu metotu kullanabiliriz.Sonrasında bize dönen elemenı manipüle edebilir
 Bu metot verilen tag adı ile eşleşen tüm etiketleri bir dizi olarak getirir.Bize bir NodeList nesnesi döner. NodeList nesnesi bir düğüm koleksiyonunu temsil eder. Düğümlere dizin numaraları ile erişilebilir. Dizin 0'dan başlar.  
 Bize geri dönen NodeList nesnesinin length özelliğiyle kaç tane öge olduğunu tespit edebilir ve bir döngü yardımıyla bu öğelere erişim sağlayabiliriz.  
 
-`var elements = document.getElementsByTagName("P");
- var i;
- for (i = 0; i < elements.length; i++) {
+`var elements = document.getElementsByTagName("P");  
+ var i;  
+ for (i = 0; i < elements.length; i++) {  
     elements[i].style.backgroundColor = "red";
 }`  
 
