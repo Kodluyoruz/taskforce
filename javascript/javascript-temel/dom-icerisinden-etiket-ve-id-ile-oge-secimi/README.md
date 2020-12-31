@@ -31,7 +31,7 @@ Bu şekilde id kullanarak erişim sağlayabiliriz.
 *  Adınızı ve soyadınızı belirtilen p etiketlerine DOM ile erişerek yazdırınız.  
 [CodePen'de Dene](https://codepen.io/bedirhanargn/pen/LYRQLpa)
 
-*  Girilen birinci ve ikinci sayıya DOM ile erişerek toplam sonucunu result alıtndaki p etiketine yazdırınız.
+*  Girilen birinci ve ikinci sayıya DOM ile erişerek toplam sonucunu result alıtndaki p etiketine yazdırınız.  
 [CodePen'de Dene](https://codepen.io/bedirhanargn/pen/xxEpRpJ)  
 
 *  Verilen tabloya bir satır ekleyiniz.  
