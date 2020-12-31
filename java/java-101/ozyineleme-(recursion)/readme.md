@@ -110,5 +110,38 @@ Zaman karmaşıklığı üstel olarak O (n)  = O( n - 1 ) + O ( n - 2 ) dir. Bu 
 
  Yani n nci bir sayı da kötü bir uygulama olduğunu söyleyebiliriz.
 
+Özyinele ile ekok yapmaya çalışalım.
 
+```java
+class Recursion{
+    static int temp=1;
+    int ekok(int sayiBir, int sayiIki) {
+        if (temp % sayiIki == 0 && temp % sayiBir == 0){
+            return temp;
+        }
+        temp++;
+        ekok(sayiBir,sayiIki);
+        return temp;
+    }
+    public static void main(String[] args){
+        Scanner scanner=new Scanner(System.in);
+        System.out.print("Deger 1 : ");
+        int deger1=scanner.nextInt();
+        System.out.print("Deger 2 : ");
+        int deger2=scanner.nextInt();
+        int sonuc;
+        if (deger1 > deger2) {
+            sonuc = ekok(deger1, deger2);
+        } else {
+            sonuc = ekok(deger2, deger1);
+        }
+        System.out.println(sonuc);
+    }
+}
+/*
+Deger 1 : 25
+Deger 2 : 45
+225
+*/
+```
 
