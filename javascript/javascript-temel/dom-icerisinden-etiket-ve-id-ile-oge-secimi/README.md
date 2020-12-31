@@ -11,11 +11,11 @@ ile bu metotu kullanabiliriz.Sonrasında bize dönen elemenı manipüle edebilir
 Bu metot verilen tag adı ile eşleşen tüm etiketleri bir dizi olarak getirir.Bize bir NodeList nesnesi döner. NodeList nesnesi bir düğüm koleksiyonunu temsil eder. Düğümlere dizin numaraları ile erişilebilir. Dizin 0'dan başlar.  
 Bize geri dönen NodeList nesnesinin length özelliğiyle kaç tane öge olduğunu tespit edebilir ve bir döngü yardımıyla bu öğelere erişim sağlayabiliriz.  
 
-`var elements = document.getElementsByTagName("P");  
- var i;  
- for (i = 0; i < elements.length; i++) {  
-    elements[i].style.backgroundColor = "red";
-}`  
+` var elements = document.getElementsByTagName("P");  
+  var i;  
+  for(i=0;i<elements.length;i++={  
+     elements[i].style.backgroundColor="red";  
+  }`  
 
 Bu kod bloğunda getElementsByTagNeame metotu ile Html sayfamızdaki p etiketine sahip elemanları elde ettik. Sonrasında bir döngü yardımıyla bu elemanlara eriştik. Bu elemanların  
 arka plan renklerini kırmızı renk yaptık.
