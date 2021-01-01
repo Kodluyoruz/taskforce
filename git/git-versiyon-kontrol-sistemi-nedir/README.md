@@ -87,20 +87,20 @@ Yukarıda açıkladığımız servisler haricinde GitKraken, SourceTree gibi iri
 
 GIT sistemini kullanmaya başladığınızda karşınıza daha önce aşina olmadığınız bazı tanımlar çıkacaktır. Temel bazı terimleri kısaca açıklayarak içeriğimizi bitirelim.
 
-repository: Kısa ismi ile repo. Kodlarınızın saklandığı depodur.
+`repository`: Kısa ismi ile repo. Kodlarınızın saklandığı depodur.
 
-master: Depodaki kararlı sürüme master denir.
+`master`: Depodaki kararlı sürüme master denir.
 
-branch: GIT ağaç mantığı ile çalışır. Bir projeyi versiyonladığımızda master branch'i oluşur. Ana dosya (master) üzerinde değişklik yapmak hem tehlikelidir hem de çok kişi ile yapılan geliştirmelerde karışıklığa sebep olur. Kimin neyi değiştirdiğini takip etmek zorlaşır. Bu sebeple geliştiriciler master'dan açılan dallar (branch) üzerinde geliştirmelerini yapar. Kullanıcılar branch (dallar) üzerinde yaptıkları geliştirmeleri master'a birleştirmesi için proje sahibine gönderirler.
+`branch`: GIT ağaç mantığı ile çalışır. Bir projeyi versiyonladığımızda master branch'i oluşur. Ana dosya (master) üzerinde değişklik yapmak hem tehlikelidir hem de çok kişi ile yapılan geliştirmelerde karışıklığa sebep olur. Kimin neyi değiştirdiğini takip etmek zorlaşır. Bu sebeple geliştiriciler master'dan açılan dallar (branch) üzerinde geliştirmelerini yapar. Kullanıcılar branch (dallar) üzerinde yaptıkları geliştirmeleri master'a birleştirmesi için proje sahibine gönderirler.
 
-pull request: branch'lerin master ile birleştirilmesi için proje sahibine yapılan istektir.
+`pull request`: branch'lerin master ile birleştirilmesi için proje sahibine yapılan istektir.
 
-merge: branch'lerde yapılan değişikliklerin master branch'i ile birleştirilmesidir.
+`merge`: branch'lerde yapılan değişikliklerin master branch'i ile birleştirilmesidir.
 
-push: Dosyaları repo'ya (depo) göndermek için kullanılır.
+`push`: Dosyaları repo'ya (depo) göndermek için kullanılır.
 
-pull: Depo'dan dosyaları çekmek için kullanılır.
+`pull`: Depo'dan dosyaları çekmek için kullanılır.
 
-.gitignore: GIT'in takip etmesini istemediğimiz dosya ve klasörleri belirttiğimiz dökümandır. Mesela node_module klasörünün izlenmesine gerek yoktur ve .gitignore dökümanı içinde bunu belirtiriz.
+`.gitignore`: GIT'in takip etmesini istemediğimiz dosya ve klasörleri belirttiğimiz dökümandır. Mesela node_module klasörünün izlenmesine gerek yoktur ve .gitignore dökümanı içinde bunu belirtiriz.
 
 GIT sisteminde kullanılan komutlara diğer yazımızdan ulaşabilirsiniz.
