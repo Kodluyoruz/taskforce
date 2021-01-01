@@ -70,6 +70,7 @@ employee.setLastName("Kodluyoruz");
 objectOutputStream.writeObject(employee);
 
 //flush output akışını temizler ve tamponlanmış çıktı baytlarının dışarı yazılmasını zorlar.
+//Eğer fiziksel olarak akışa yazılmamış karakterler varsa, bunların yazılması için bir sinyal gönderir.
 //Büyük projelerde bellek perfonsı için kazanç sağlamak için kullanılır.
 objectOutputStream.flush();
 
