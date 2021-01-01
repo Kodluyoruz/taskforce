@@ -101,3 +101,18 @@ Yukarıdaki örnekte şunları yaptık:
 - Dosyanın içeriğine yazmak için bir metin belirledik.
 - Bu metni UTF-8’e göre byte dizisine dönüştürdük.
 - **_FileOutputStream_** kullanarak bu byte dizisini dosyaya yazdık ve daha sonra akışı kapattık.
+
+![Java-Stream Classes - Java Tutorial](https://hajsoftutorial.com/java/wp-content/uploads/2015/10/Untitled41.png)
+
+Akış sınıflarından karakter akışları resimde görüldüğü gibidir. İsminden de anlaşıldığı üzere karakter düzeyinde okuma ve yazma işlemi gerçekleşmektedir.
+
+![Java-Stream Classes - Java Tutorial](https://hajsoftutorial.com/java/wp-content/uploads/2015/10/Untitled3.png)
+
+Diğer bir akış sınıfı olarak da Byte akışları da resimde görüldüğü gibidir. Byte düzeyinde yani makine dilimiz olan 0 ve 1'lerden oluşan okuma ve yazma işlemi gerçekleştirilmektedir.
+
+Burada unutulmaması gereken iki önemli nokta vardır.
+
+- Akış dediğimiz olay çalışılan süre boyunca devam etmekte olduğu için akışın bir başlangıcı ve sonu olmalıdır. Buna örnek olarak bilgisayarı kullanmayı düşünebiliriz. İşimiz bittikten sonra bilgisayarı kapatmamız gerekir çünkü boşuna çalışmasın. Bir diğer örnek olarak musluktan akan suyu da verebiliriz.
+
+- Hatanın olmadığı bir dünya düşünemeyiz. Aynı şekilde programlarda da uygulamalarda da bu geçerlidir. O yüzden dosya işlemlerinde IOException hatası bulunmaktadır.
+![img](https://blog.eduonix.com/wp-content/uploads/2014/08/111.jpg)
