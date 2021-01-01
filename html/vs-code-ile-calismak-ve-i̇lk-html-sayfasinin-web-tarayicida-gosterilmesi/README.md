@@ -1,5 +1,6 @@
 # Visual Studio Code
 
+Visual Studio Code bütün işletim sistemlerinde çalışabilen ve yapacağımız yazılımlar için kodlarımızı yazabileceğimiz bir text editörüdür. 
 
 
 # Visual Studio Code Yükleme
