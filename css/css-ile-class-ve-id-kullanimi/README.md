@@ -11,7 +11,7 @@ Aşağıda html elementlerine nasıl stil özellikleri eklediğimize bakalım.
 
 ```css
 p {
-	color: red;
+   color: red;
 }
 ```
 
@@ -31,7 +31,7 @@ Class seçicisi CSS’de `.` ile belirtilir.
 
 ```css
 .class{
-     özellikler
+   özellikler
 }
 ```
 
@@ -101,10 +101,10 @@ Eğer bir HTML elementinin birden fazla class özelliğine sahip olmasını isti
 
 ```css
 .h-blue{
-    color:blue;
+   color:blue;
 }
 .thick{
-       font-style: italic;
+   font-style: italic;
 }
 
 ```
@@ -148,7 +148,7 @@ Id seçicisinin kullanım amacı olarak class seçicisinden bir farkı yok diyeb
 
 ```css
 #id {
-     özellikler
+  özellikler
 }
 
 ```
@@ -162,7 +162,7 @@ Bir id’yi sadece bir HTML elementi üzerinde kullanabiliriz.
 
 ```css
 #main-title{
-	color:red;
+   color:red;
 }
 
 ```
@@ -199,7 +199,7 @@ A.
 
 ```
 .{title
-	color:red;
+    color:red;
 }
 ```
 
@@ -207,7 +207,7 @@ B.
 
 ```
 title#{
-	color:blue;
+   color:blue;
 }
 ```
 
@@ -223,7 +223,7 @@ D.
 
 ```
 title{
-    color:pink;
+   color:pink;
 }
 ```
 
@@ -267,15 +267,15 @@ title{
 
 ```css
 .main-text {
-    font-style: italic;
+   font-style: italic;
 }
 
 .intro {
-    color:red;
+   color:red;
 }
 
 #outro {
-    color:green;
+   color:green;
 }
 ```
 
