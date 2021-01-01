@@ -8,6 +8,16 @@ Nesnelerin hafızadaki anlık durumu bir byte dosyası olarak kaydedilebilir. Bu
 
 Nesneleri serialize etmek için **_ObjectInputStream_**, deserialize etmek için **_ObjectOutputStream_** sınıfı kullanılır.
 
+##### **_ObjectOutputStream_** :
+
+![deneme](https://github.com/mustafakilicc/taskforce/blob/main/java/java-101/ObjectInputStream-ObjectOutputStream-siniflari/figures/Objoutputstream.png)
+
+**ObjectOutputStream'in** yaptığı, bir nesneyi bayt düzeyindeki akışa yazılabilen bir bayt dizisine dönüştürmektir. **OutputStream** sınıfını kalıtım alan sınıflar bir değeri byte formatını çevirme yeteneğine sahip oluyor. ObjectOutputStream bu yeteneği kullanıp nesneleri de byte türünde saklayabilmemizi sağlıyor.
+
+##### **_ObjectInputStream_**:
+
+![Objinputstream](C:\Users\mustafakilic\Desktop\Objinputstream.png)
+
 Şunu da önemle belirtmek gerekir ki, bir nesneyi serialize edebilmek için o sınıfın **_Serializable_** arayüzünü uygulaması gerekir.
 
 Tek bir nesneyi yazıp okuduğumuz bir örnekle başlayalım.
@@ -94,3 +104,15 @@ System.out.println(employee1.getName());
 objectInputStream.close();
 ```
 
+
+
+Nesnenin içindeki;
+
+- Statik alanlar serileştirilmez (çünkü bir nesneye ait değildirler ve serileştirme yalnızca nesneler için kullanılır). 
+- Bir değer **transient** olarak tanımlanmışsa, bir nesnedeki bir alanı serileştirme seçeneği yoktur :
+
+```java
+public  transient  int  salary ;
+```
+
+yani salary değişkeni dosyaya yazılmaz ve daha sonra nesne oluşturulduğunda salary null olacaktır.
