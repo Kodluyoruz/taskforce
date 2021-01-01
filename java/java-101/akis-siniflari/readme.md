@@ -106,15 +106,15 @@ Yukarıdaki örnekte şunları yaptık:
 - Bu metni UTF-8’e göre byte dizisine dönüştürdük.
 - **_FileOutputStream_** kullanarak bu byte dizisini dosyaya yazdık ve daha sonra akışı kapattık.
 
-![Java-Stream Classes - Java Tutorial](https://hajsoftutorial.com/java/wp-content/uploads/2015/10/Untitled41.png)
+![karakterAkislari](https://hajsoftutorial.com/java/wp-content/uploads/2015/10/Untitled41.png)
 
 Akış sınıflarından karakter akışları resimde görüldüğü gibidir. İsminden de anlaşıldığı üzere karakter düzeyinde okuma ve yazma işlemi gerçekleşmektedir.
 
-![Java-Stream Classes - Java Tutorial](https://hajsoftutorial.com/java/wp-content/uploads/2015/10/Untitled3.png)
+![byteAkislari](https://hajsoftutorial.com/java/wp-content/uploads/2015/10/Untitled3.png)
 
 Diğer bir akış sınıfı olarak da Byte akışları da resimde görüldüğü gibidir. Byte düzeyinde yani makine dilimiz olan 0 ve 1'lerden oluşan okuma ve yazma işlemi gerçekleştirilmektedir.
 
-![img](https://blog.eduonix.com/wp-content/uploads/2014/08/111.jpg)
+![akisOrnegi](https://blog.eduonix.com/wp-content/uploads/2014/08/111.jpg)
 
 Burada unutulmaması gereken iki önemli nokta vardır.
 
