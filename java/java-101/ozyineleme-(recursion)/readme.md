@@ -110,7 +110,7 @@ Zaman karmaşıklığı üstel olarak O (n)  = O( n - 1 ) + O ( n - 2 ) dir. Bu 
 
  Yani n nci bir sayı da kötü bir uygulama olduğunu söyleyebiliriz.
 
-Özyineleme ile ekok yapmaya çalışalım.
+Özyineleme, ile yani ekok adlı özyinele fonksiyon ile iki sayının en küçük ortak katını bulalım.
 
 ```java
 class Recursion{
@@ -150,7 +150,76 @@ Deger 2 : 45
 Özyineleme algoritması şunlara sahip olmalıdır :
 
 - Temel Durum (Base Case) :Temel durum olası en basit çözümdür.
-- Temel Duruma kadar çalış (Work toward Base Case) :Temel duruma kadar çalışma sorunu daha basit hale getirerek kullandığımız yerdir.
-- Yineleme çağrısı (Recursive call) : Özyinele çağrısı, problemin daha basit versiyonunu çözmek için algoritmayı kullandığımız yerdir. 
+- Temel Duruma kadar çalış (Work toward Base Case - Convergence) :Temel duruma kadar çalışma sorunu daha basit hale getirerek kullandığımız yerdir. Temel duruma yaklaşma
+- Yineleme çağrısı (Recursive call - General Case) : Özyinele çağrısı, problemin daha basit versiyonunu çözmek için algoritmayı kullandığımız yerdir. 
 
 Özyinelemeyi tekrar ettikten sonra bir kaç örnek daha inceleyelim.
+
+Bu örneğimizde girilen sayının basamaklar toplamını özyinele fonksiyon ile çözelim.
+
+```java
+class Recursion{
+    static int basamaklarToplami(int sayi){
+        if (sayi == 0){
+            return 0;
+        }else
+           return sayi % 10 + basamaklarToplami(sayi / 10);
+    }
+    public static void main(String[] args){
+  		  System.out.println("Basamak toplami: "+basamaklarToplami(45612));
+    }
+}
+//45612 sayısının basamaklar toplamı : 18 
+```
+
+Temel durum sayi == 0 olduğu durumdur.
+
+Temel duruma doğru çalışan kısım sayi / 10 kısmıdır.
+
+Yinelemeli çağrıda basamaklarToplami( sayi / 10 ) kısmıdır.
+
+Bu örneğimizde klavyeden girilen sayının asal olup olmadığını özyinelemeli fonksiyon kullanarak bulalım.
+
+```java
+class Recursion{
+    static int sayiAsalMi(int sayi, int i) {
+        if (i < sayi) {
+            if (sayi % i != 0)
+                return (sayiAsalMi(sayi, ++i));
+            else {
+                return 0;
+            }
+        }
+        return 1;
+    }
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Sayi giriniz:");
+        int sayi = scanner.nextInt();
+        int sonuc = sayiAsalMi(sayi, 2);
+        if (sonuc == 1) {
+            System.out.println(sayi + " asal sayıdır.");
+        } else {
+            System.out.println(sayi + " asal sayı degildir.");
+        }
+    }
+}
+```
+
+Yaptığımız örnekler sonucunda özyinelemeli fonksiyonlar hakkında şunları söyleyebiliriz :
+
+- Özyineleme işleminde bir blok deyimi sürekli tekrar edilir.
+- Tekrarı sona erdiren kod olmalı.
+- Özyinelemede ardışık çağrılar, taban (base case) denilen en küçük parçaya erişilince sonlanır.
+- Çağrılar taban (base case) parçaya inemiyorsa özyineleme sonsuz kez tekrarlanır ve _StackOverflowException_ hatası alınır.
+- Özyinelemede, üstten başlayarak tabana (base case) ininceye kadar çağrılan fonksiyon değerleri bellekte tutulur. Çağrı sayısı arttıkça bellek kullanımı da artar. 
+
+Neden Özyinele Fonksiyon Kullanılır ? 
+
+- Karmaşık problem çözümlerinde basitlik ve kısa çözüm sağlar. Karmaşık problemi en temel duruma kadar indirger oradan itibaren de adım adım asıl problemi çözer.Yani minimum miktarda kod kullanarak verimli kodlar yazmaya imkan tanınır.
+- Bazı diller döngü olmadığı için özyinele fonksiyonlar kullanılır.
+
+
+
+
+
