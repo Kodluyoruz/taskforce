@@ -37,7 +37,7 @@ System.out.println(factorial(5)); // Konsola 120 yazar
 
 
 
-Factorial probleminde bellekte neler olduğuna bir bakalım. 5 sayısının factoriali ni bulurken özyineli fonksiyon şu adımları yapar.
+Factorial probleminde bellekte neler olduğuna bir bakalım. 5 sayısının factoriali ni bulurken özyineleme fonksiyon şu adımları yapar.
 
 f(5)     =    5 * f (4)
 
@@ -67,7 +67,7 @@ f(5)     =    5 * f (4)
 
 İlk örneğimiz fibonacci serisi : 
 
- Dizinin ilk sayı değeri 0, ikincisi 1 ve her ardışık elemanı da önceki iki elemanın değerinin toplamı alınarak bulunur.Fibonacci sayıları 0 ,1 ,1 , 2 , 3  , 5 , 8 , 13 , 21 , 34 , 55 , 89 , 144 , 233 , . . . . şeklinde devam eden sayılar dizisidir. Matematiksel olarak  
+ Dizinin ilk sayı değeri 0, ikincisi 1 ve her ardışık elemanı da önceki iki elemanın değerinin toplamı alınarak bulunur. Fibonacci sayıları 0 ,1 ,1 , 2 , 3  , 5 , 8 , 13 , 21 , 34 , 55 , 89 , 144 , 233 , . . . . şeklinde devam eden sayılar dizisidir. Matematiksel olarak  
 $$
 Fn = F n-1 +F n-2
 $$
@@ -110,7 +110,7 @@ Zaman karmaşıklığı üstel olarak O (n)  = O( n - 1 ) + O ( n - 2 ) dir. Bu 
 
  Yani n nci bir sayı da kötü bir uygulama olduğunu söyleyebiliriz.
 
-Özyinele ile ekok yapmaya çalışalım.
+Özyineleme ile ekok yapmaya çalışalım.
 
 ```java
 class Recursion{
@@ -145,3 +145,12 @@ Deger 2 : 45
 */
 ```
 
+Özyineleme, problemi en üstten başlayarak adım adım daha küçük parçalara ayırır. Parçalanamayan en basit parçasına taban parçası denilir. En üstten başlayarak tabana kadar iner. Yani bir sonlandırma noktası olmalıdır aksi halde beklenmedik bir durum oluşabilir. 
+
+Özyineleme algoritması şunlara sahip olmalıdır :
+
+- Temel Durum (Base Case) :Temel durum olası en basit çözümdür.
+- Temel Duruma kadar çalış (Work toward Base Case) :Temel duruma kadar çalışma sorunu daha basit hale getirerek kullandığımız yerdir.
+- Yineleme çağrısı (Recursive call) : Özyinele çağrısı, problemin daha basit versiyonunu çözmek için algoritmayı kullandığımız yerdir. 
+
+Özyinelemeyi tekrar ettikten sonra bir kaç örnek daha inceleyelim.
