@@ -221,5 +221,17 @@ Neden Özyinele Fonksiyon Kullanılır ?
 
 
 
-
+> KAYNAKÇA
+>
+> [Recursive Function - techterms](https://techterms.com/definition/recursive_function#:~:text=A%20recursive%20function%20is%20a,the%20end%20of%20each%20iteration.)
+>
+> [Recursive Function - GeeksForGeeks](https://www.geeksforgeeks.org/recursive-functions/)
+>
+> [Recursion Function](https://www.cs.utah.edu/~germain/PPS/Topics/recursion.html)
+>
+> [Recursion Function - Yazılım Hanem](http://yazilimhanem.com/recursive-ozyinelemeli-fonksiyon/)
+>
+> [Recursion Function - forum Java](https://forum.java.com.tr/ozyineleme-recursion/)
+>
+> [Recursion Function - javaTpoint](https://www.javatpoint.com/recursion-in-java)
 
