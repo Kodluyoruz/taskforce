@@ -222,7 +222,7 @@ C.
 D.
 
 ```
-title{
+title.{
    color:pink;
 }
 ```
