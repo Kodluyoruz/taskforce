@@ -69,7 +69,8 @@ employee.setLastName("Kodluyoruz");
 //Ve son olarak nesnemizi dosyaya yazılmak üzere writeObject methoduna emanet ediyoruz.	
 objectOutputStream.writeObject(employee);
 
-//flush output akışını temizler ve tamponlanmış çıktı baytlarının dışarı yazılmasını zorlar.Büyük projelerde bellek perfonsı için kazanç sağlamak için kullanılır.
+//flush output akışını temizler ve tamponlanmış çıktı baytlarının dışarı yazılmasını zorlar.
+//Büyük projelerde bellek perfonsı için kazanç sağlamak için kullanılır.
 objectOutputStream.flush();
 
 //Tüm Stream kullanımlarında olduğu gibi ObjectOutputStream ile işiniz bitince kapatmayı unutmayın.
