@@ -27,6 +27,8 @@ Byte akışlarından gelen verileri okumak için yazılmış soyut bir sınıft�
 | **byte**[] readNBytes(**int** n) | Parametre olarak verilen sayı kadar byte değeri okur ve bir dizi halinde döndürür. |
 | **long** skip(**int** n)         | Parametre olarak verilen sayı kadar byte değerini okumadan atlar. |
 
+Bakınız! Tabloda tanımlanan metotlar byte değerinde okuma işlemi yapar.
+
 ## OutputStream
 
 Byte akışlarına veri yazmak için kullanılan soyut bir sınıftır. Yazma işlemleri için gerekli bazı metotları tanımlamıştır. Bu metotlardan bazılarını inceleyelim:
@@ -36,6 +38,8 @@ Byte akışlarına veri yazmak için kullanılan soyut bir sınıftır. Yazma i�
 | **void** flush()                  | Eğer fiziksel olarak akışa yazılmamış byte değerleri varsa, bunların yazılması için bir sinyal gönderir. |
 | **void** write(**int** c)         | Akışa bir byte değeri yazar. Bu değeri parametre olarak alır. |
 | **void** write(**byte**[] buffer) | Parametre olarak aldığı byte dizisinin içindeki bütün byte değerlerini sırasıyla akışa yazar. |
+
+Bakınız! Tabloda tanımlanan metotlar byte değerinde yazma işlemi yapar.
 
 **_InputStream_** ve **_OutputStream_** sınıfları soyut sınıflardır. Yani bu sınıfları tek başına kullanamayız. Ancak alt sınıfları oluşturulursa bir anlam ifade ederler. Şimdi bu sınıfların en çok kullanılan alt sınıflarını inceleyelim.
 
@@ -110,9 +114,15 @@ Akış sınıflarından karakter akışları resimde görüldüğü gibidir. İs
 
 Diğer bir akış sınıfı olarak da Byte akışları da resimde görüldüğü gibidir. Byte düzeyinde yani makine dilimiz olan 0 ve 1'lerden oluşan okuma ve yazma işlemi gerçekleştirilmektedir.
 
+![img](https://blog.eduonix.com/wp-content/uploads/2014/08/111.jpg)
+
 Burada unutulmaması gereken iki önemli nokta vardır.
 
 - Akış dediğimiz olay çalışılan süre boyunca devam etmekte olduğu için akışın bir başlangıcı ve sonu olmalıdır. Buna örnek olarak bilgisayarı kullanmayı düşünebiliriz. İşimiz bittikten sonra bilgisayarı kapatmamız gerekir çünkü boşuna çalışmasın. Bir diğer örnek olarak musluktan akan suyu da verebiliriz.
 
 - Hatanın olmadığı bir dünya düşünemeyiz. Aynı şekilde programlarda da uygulamalarda da bu geçerlidir. O yüzden dosya işlemlerinde IOException hatası bulunmaktadır.
-![img](https://blog.eduonix.com/wp-content/uploads/2014/08/111.jpg)
+
+
+
+
+
