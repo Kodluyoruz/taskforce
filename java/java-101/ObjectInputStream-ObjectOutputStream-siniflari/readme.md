@@ -10,13 +10,13 @@ Nesneleri serialize etmek için **_ObjectInputStream_**, deserialize etmek için
 
 ##### **_ObjectOutputStream_** :
 
-![deneme](https://github.com/mustafakilicc/taskforce/blob/main/java/java-101/ObjectInputStream-ObjectOutputStream-siniflari/figures/Objoutputstream.png)
+![ObjectOutputStream](https://github.com/mustafakilicc/taskforce/blob/main/java/java-101/ObjectInputStream-ObjectOutputStream-siniflari/figures/Objoutputstream.png)
 
 **ObjectOutputStream'in** yaptığı, bir nesneyi bayt düzeyindeki akışa yazılabilen bir bayt dizisine dönüştürmektir. **OutputStream** sınıfını kalıtım alan sınıflar bir değeri byte formatını çevirme yeteneğine sahip oluyor. ObjectOutputStream bu yeteneği kullanıp nesneleri de byte türünde saklayabilmemizi sağlıyor.
 
 ##### **_ObjectInputStream_**:
 
-![Objinputstream](C:\Users\mustafakilic\Desktop\Objinputstream.png)
+![Objectinputstream](https://github.com/mustafakilicc/taskforce/blob/main/java/java-101/ObjectInputStream-ObjectOutputStream-siniflari/figures/Objinputstream.png)
 
 Şunu da önemle belirtmek gerekir ki, bir nesneyi serialize edebilmek için o sınıfın **_Serializable_** arayüzünü uygulaması gerekir.
 
@@ -116,3 +116,5 @@ public  transient  int  salary ;
 ```
 
 yani salary değişkeni dosyaya yazılmaz ve daha sonra nesne oluşturulduğunda salary null olacaktır.
+
+[Kullanılan görsellerin kaynağı](https://wiki.dcae.pub.ro/index.php/Serialization)
