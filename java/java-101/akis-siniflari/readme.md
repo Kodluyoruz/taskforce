@@ -122,7 +122,7 @@ Burada unutulmaması gereken iki önemli nokta vardır.
 
 - Hatanın olmadığı bir dünya düşünemeyiz. Aynı şekilde programlarda da uygulamalarda da bu geçerlidir. O yüzden dosya işlemlerinde IOException hatası bulunmaktadır.
 
-
-
-
+Konuyla ilgili birkaç soru sorabiliriz. Akış sınıfları neden byte ve karakter akışları olarak ikiye ayrılır?
+Akış sınıfları ile ilgili önemli noktalar nelerdir?
+Akış sınıflarında hangi metotlar kullanılır?
 
