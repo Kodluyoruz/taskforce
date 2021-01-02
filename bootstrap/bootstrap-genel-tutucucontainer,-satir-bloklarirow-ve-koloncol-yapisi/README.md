@@ -2,7 +2,7 @@
 Container, row ve column yapısı aslında bootstrap kullanım mantığının temellerini oluşturuyor diyebiliriz. Bu yapıyı anlamak bootstrap ile çalışmayı çok çok kolaylaştıracaktır. Öncelikle container ile başlayalım.
 
 ## Container
-Containerı(konteynır) isminden de biraz anlaşılacağı gibi, içine web sitemizde bulunması gereken yazıları, resimleri, videoları veya herhangi bir içeriği koyduğumuz kapsayıcı bir çerçeve, kutu gibi düşünebiliriz. Biz içeriklerimizi bu container içerisine koyuyoruz ve bir tarayıcıdan web sitemiz görüntülendiğinde container kendisini ekranın tam ortasına gelecek şekilde ayarlıyor. Görsel bir örnek üzerinden ilerlemek daha açıklayıcı olacaktır. Örnek olarak aşağıda [kodluyoruz](https://www.kodluyoruz.org/)'dan aldığım bir ekran görüntüsünü inceleyebiliriz.
+Containerı(konteynır) isminden de biraz anlaşılacağı gibi, içine web sayfamızda bulunması gereken yazıları, resimleri, videoları veya herhangi bir içeriği koyduğumuz kapsayıcı bir çerçeve, kutu gibi düşünebiliriz. Biz içeriklerimizi bu container içerisine koyuyoruz ve bir tarayıcıdan web sayfamız görüntülendiğinde container kendisini ekranın tam ortasına gelecek şekilde ayarlıyor. Görsel bir örnek üzerinden ilerlemek daha açıklayıcı olacaktır. Örnek olarak aşağıda [kodluyoruz](https://www.kodluyoruz.org/)'dan aldığım bir ekran görüntüsünü inceleyebiliriz.
 
 Becerilerini geliştir, Mezunlar Kulübü'ne Katıl ve  Şirketlerle Buluş kısımlarını kapsayan ancak bize gözükmeyen bir çerçeve olduğunu düşünelim. Bu çerçeve ile sayfayı görüntülediğim ekran arasında sağ taraftan ve sol taraftan eşit miktarda boşluklar var gördüğünüz gibi, yani container ortalanmış.
 
@@ -34,7 +34,7 @@ Containerlarımız bu tablodaki verilen boyutlara göre kendilerini ortalıyacak
 Genel olarak containerların kullanımı bu şekilde diyebiliriz.
 
 ## Row ve Column yapısı
-Row(satır), column(sütun) sistemi bootstrap'in grid system denilen düzenini oluşturuyor. Grid system ile bir web sayfası 12 adet sütuna bölünmüş ve sayfanın içeriği bu sütunların boyutlarına göre düzenlenmiş diyebiliriz. Genel olarak göstermek gerekirse aşağıdaki resim örnek bir sayfanın 12 adet sütuna bölündüğünde hangi içeriğin hangi sütunlar boyutunda olacağını, aralarındaki boşlukları göstermektedir.
+Row(satır), column(sütun) sistemi bootstrap'in grid system(ızgara sistemi) denilen düzenini oluşturuyor. Grid system ile bir web sayfası 12 adet sütuna bölünmüş ve sayfanın içeriği bu sütunların boyutlarına göre düzenlenmiş diyebiliriz. Genel olarak göstermek gerekirse aşağıdaki resim örnek bir sayfanın 12 adet sütuna bölündüğünde hangi içeriğin hangi sütunlar boyutunda olacağını, aralarındaki boşlukları göstermektedir.
 
 ![](figures/overall-grid.png)
 
@@ -50,7 +50,7 @@ Row(satır), column(sütun) sistemi bootstrap'in grid system denilen düzenini o
 
 Görüldüğü gibi 12 adet sütun yapısını istediğimiz biçimde birleştirerek, ayırarak satırlar ile birlikte kullanarak tasarımımızı yapabiliriz.
 
-Son olarak ise grid yapısını oluşturmak için nasıl bir kod yapısı kullanmamız gerektiğini basit bir örnek ile açıklamaya çalışalım.
+Son olarak ise grid yapısını oluşturmak için nasıl bir kod yapısı kullanmamız gerektiğini basit bir örnek ile anlamaya çalışalım.
 
 ![](figures/sample-grid.png)
 
@@ -90,13 +90,15 @@ b) class=.container-md
 
 c) class=".container"
 
-d) class="container" doğdu şık d.
+d) class="container" 
+
+Cevap: d şıkkı
 
 Soru 2) Aşağıdaki cümlede ki boşluğu doldurunuz.
 
 Bootstrap'in sağladığı grid system temel olarak .... adet sütunu baz alarak tasarlanmıştır. Sütunları ve satırları bir .... içerisinde kullanarak, birbirleriyle birleştirip, ayrıştırıp dilediğimiz boyutlarda sayfa tasarımı yapabilmekteyiz.
 
-cevap: ilk boşluk "12", ikinci boşluk "container"
+Cevap: ilk boşluk "12", ikinci boşluk "container"
 
 kaynaklar:
 * https://www.kodluyoruz.org/
