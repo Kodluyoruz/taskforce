@@ -36,6 +36,8 @@ Yukarıdaki kodu açıklamak istersek;
 - Döngü sonlandığında dosyalarımız kapatılır. Kopyalama işlemi gerçekleştirilmiş olur. 
 - Burada **try** **catch** mekanizması yine gözümüze çarpmaktadır. İşlemlerde hata olursa dosya kopyalama işlemi gerçekleştirilemez.
 
+![Dosya Kopyalama](figures/Dosyakopyalama.jpg)
+
 ## BufferedInputStream
 
 Yukarıda gördüğümüz **_FileInputStream_** sınıfı dosyadan okuma yapmak için kullanılıyordu. Okuma yapmak için kullandığımız **_read()_** metodu her seferinde disk üzerindeki dosyaya gidiyor ve fiziksel olarak dosyanın içinde bulunan 1 byte değerini okuyordu.
@@ -43,6 +45,10 @@ Yukarıda gördüğümüz **_FileInputStream_** sınıfı dosyadan okuma yapmak 
 Sabit diske erişim RAM’e erişime göre daha yavaştır. Sıklıkla sabit disk üzerinde işlem yapmak programımızın hızını nispeten yavaşlatır. Peki bunun önüne nasıl geçebiliriz? Şöyle bir çözüm düşünülebilir: dosya üzerinde her seferinde tek bir byte değeri okumaktansa birden fazla byte değerini okuyabilir ve bu değerleri bir dizi halinde RAM’de tutabiliriz. Böylece sık sık sabit diske erişmek yerine RAM’e erişir ve işlemlerimizi daha hızlı yapabiliriz.
 
 **_BufferedInputStream_** sınıfı bize bu işlevselliği sağlar. Parametre olarak bir **_InputStream_** nesnesi ve bir dizi boyutu alır. Siz o InputStream nesnesi üzerindeki **_read()_** metodunu çağırdığınızda, tek bir byte değeri okumak yerine verdiğiniz dizi boyutu kadar okuma yapar ve bunu hafızada tutar. Dizinin tamamını okuduğunuzda tekrar dosyaya başvurur ve dizi boyutu kadar yeni bir okuma yapar. Yani, gerçek akış kaynağına erişimi olabildiğince azaltarak RAM üzerinden okuma işlemi yapar.
+
+Gelin Java'da BufferedInputStream sınıfına bir göz atalım. Gördüğünüz gibi bu sınıf FilterInputStream sınıfından kalıtım almıştır.
+
+![BufferedInputStream](figures/BufferedInputStream.png)
 
 Şimdi **_BufferedInputStream_** sınıfının işlevini anlayabilmek için iki örnek yapalım:
 
@@ -107,6 +113,11 @@ Yukarıdaki kodu aynı dosya üzerinde çalıştırdığım zaman 120 milisaniye
 
 Akışlara veri yazmak için kullanılır. **_BufferedInputStream_** sınıfına benzer şekilde çalışır. Amacı fiziksel akışa erişimi olabildiğince azaltmaktır. Bunun için hafızada bir dizi oluşturur ve değerleri bu diziye yazar. Dizi tamamen dolduğunda dizinin içindeki verileri gerçek akışa yazar. **_BufferedOutputStream_** kullanırken dikkat etmeniz gereken nokta şudur: yazılacak verilerin sonuna gelindiğinde veriler gerçek akışa yazılmamış olabilir. Bu yüzden, yazma işleminin tamamlanması için flush() metodunu kullanmalısınız.
 
+Gelin Java'da BufferedOutputStream sınıfına da bir göz atalım. Gördüğünüz gibi bu sınıf da FilterOutputStream sınıfından kalıtım almıştır.
+
+![BufferedOutputStream](figures/BufferedOutputStream.png) 
+
+Şimdi de örnek java kodunu inceleyelim:
 
 ```java package example;
 
