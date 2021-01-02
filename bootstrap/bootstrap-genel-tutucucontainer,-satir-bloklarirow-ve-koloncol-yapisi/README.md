@@ -53,6 +53,7 @@ Görüldüğü gibi 12 adet sütun yapısını istediğimiz biçimde birleştire
 Son olarak ise grid yapısını oluşturmak için nasıl bir kod yapısı kullanmamız gerektiğini basit bir örnek ile açıklamaya çalışalım.
 
 ![](figures/sample-grid.png)
+
 Bu resimde gördüğümüz 2 satırdan oluşan grid yapısını aşağıdaki kod ile oluşturabiliriz.
 ```html
 <div class="container">
@@ -80,3 +81,20 @@ Bu resimde gördüğümüz 2 satırdan oluşan grid yapısını aşağıdaki kod
 `div` html taglerine `classs="row"` veya `class="col"` sınıfları vererek bu tagların ne amaçla kullanılacağını belirttik. Ayrıca dikkat ederseniz bu grid bir `class="container"` içerisinde bulunmakta.
 
 Row ve column yapısı kullanımı ve mantığı genel hatlarıyla bu şekilde diyebiliriz. Konuyu pekiştirmek için bu küçük quizi cevaplamanızı tavsiye ediyoruz !
+
+Soru 1) Şıklardan hangisi bir html tag'i için geçerli bir container class ismi atamasıdır.
+a) class=container-lg
+b) class=.container-md
+c) class=".container"
+d) class="container" doğdu şık d.
+
+Soru 2) Aşağıdaki cümlede ki boşluğu doldurunuz.
+Bootstrap'in sağladığı grid system temel olarak .... adet sütunu baz alarak tasarlanmıştır. Sütunları ve satırları bir .... içerisinde kullanarak, birbirleriyle birleştirip, ayrıştırıp dilediğimiz boyutlarda sayfa tasarımı yapabilmekteyiz.
+cevap: ilk boşluk "12", ikinci boşluk "container"
+
+kaynaklar:
+https://www.kodluyoruz.org/
+https://getbootstrap.com/docs/4.4/layout/overview/
+https://960.gs/
+https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp
+https://getbootstrap.com/docs/4.0/layout/grid/
