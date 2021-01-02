@@ -52,7 +52,8 @@ h1 etiketleri arasına istediğimiz bir başlığı yazabiliriz. Aşağıda veri
 
 Oluşturduğumuz dosyamızı çalıştırmadan önce kaydetmemiz gerekmektedir. Eğer bir değişiklik yapmış ve dosyamızı kaydetmemişsek yazdığımız dosyanın üzerinde bir nokta ve en solda Explorer'da kaç dosyanın kayıtlı olmadığı gösteren bir ikon göreceğiz.
 
-![vscode-save](vscode-kayit.png)
+
+![vscode-dosya](figures/vscode-dosya.png)
 
 Oluşturduğumuz index dosyamızı File > Save ile veya CTRL+S ile kaydettikten sonra ilk html etiketimizi web browserda görüntüleyebilmek için ana klasörümüzün altında oluşturduğumuz index dosyamızı açıyoruz.
 
