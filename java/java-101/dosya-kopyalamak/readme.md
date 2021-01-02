@@ -1,5 +1,7 @@
 # Dosya kopyalamak
 
+Ctrl+c ve Ctrl+v işlemlerini dosya üzerinde yapabiliriz. Bu işlemleri de **FileInputStream** ve **FileOutputStream** ile yapabiliriz. 
+
 Şimdi **_FileInputStream_** ve **_FileOutputStream_** sınıflarını kullanarak bir dosya kopyalayalım:
 
 ```java
@@ -25,6 +27,14 @@ catch (IOException ex)
 	System.out.println("Dosyayı kopyalarken hata meydana geldi!");
 }
 ```
+Yukarıdaki kodu açıklamak istersek;
+
+- Kopyalama işlemi iki taraflı olduğu için bir tarafında kaynağımız yani kopyalanacak dosyamız, diğer tarafında ise kopyalamak istediğimiz hedef dosyamız bulunmaktadır. Kaynak ve hedef dosyalarımızı tanımladık. 
+- Tanımladıktan sonra kaynak dosyasının içeriğini okumamız gerekiyor. Yani bu da demektir ki **FileInputStream** kullanılacaktır.
+- Hedef dosyasına yazdırma işlemi yapacağımız için **FileOutputStream** kullanıyoruz.
+- Daha sonrasında kaynağımızın içi boş değilse **while** döngüsünün içine girilir ve hedef dosyamıza yazdırma işlemi gerçekleştirilir.
+- Döngü sonlandığında dosyalarımız kapatılır. Kopyalama işlemi gerçekleştirilmiş olur. 
+- Burada **try** **catch** mekanizması yine gözümüze çarpmaktadır. İşlemlerde hata olursa dosya kopyalama işlemi gerçekleştirilemez.
 
 ## BufferedInputStream
 
@@ -97,6 +107,49 @@ Yukarıdaki kodu aynı dosya üzerinde çalıştırdığım zaman 120 milisaniye
 
 Akışlara veri yazmak için kullanılır. **_BufferedInputStream_** sınıfına benzer şekilde çalışır. Amacı fiziksel akışa erişimi olabildiğince azaltmaktır. Bunun için hafızada bir dizi oluşturur ve değerleri bu diziye yazar. Dizi tamamen dolduğunda dizinin içindeki verileri gerçek akışa yazar. **_BufferedOutputStream_** kullanırken dikkat etmeniz gereken nokta şudur: yazılacak verilerin sonuna gelindiğinde veriler gerçek akışa yazılmamış olabilir. Bu yüzden, yazma işleminin tamamlanması için flush() metodunu kullanmalısınız.
 
+
+```java package example;
+
+import java.io.BufferedOutputStream;
+import java.io.FileOutputStream;
+
+public class BufferedOutputStreamOrnek {
+
+	public static void main(String[] args) throws Exception{
+
+		//Yazılacak dosyanın yolunu verdik.
+		FileOutputStream yazi = new FileOutputStream("C:\\Users\\Public\\Documents\\test.txt");
+		
+		//Dosyaya kolayca ve hızlı bir biçimde ulaşmak için BufferedOutputStream'i kullandık.
+		BufferedOutputStream yazi1 = new BufferedOutputStream(yazi);
+		
+		//Yazılacak metni girdik.
+		String s = "Hızlı bir dosyaya yazma işlemidir.";
+		
+		//Byte değerinde yazma işlemi yaptığı için byte[] dizisine dönüştürdük.
+		byte b[] = s.getBytes();
+	
+		//Dosyaya yazıyı yazdırdık.
+		yazi1.write(b);
+		
+		//flush() metodunu kullanmasaydık yazma işlemi tamamlanamazdı. flush() metodunu kullanmak zorundayız.
+		yazi1.flush();
+		
+		//Dosyalarımızı dışarıdan içeri doğru sırayla kapattık. Unutmayın dosyaları kapatmalıyız!
+		yazi1.close();
+		yazi.close();
+		
+		//Console ekranına işlemin başarılı olduğunu yazdırdık.
+		System.out.println("Başarılıdır.");
+		
+		//Bu arada throws Exception ile hata fırlattık. Diğer yöntem de try catch mekanizmasıydı.
+		
+	}
+
+}
+```
+***Bakınız!*** Bu kod parçasında dosyanın içeriği silinip yeniden yazılıyor. Yani dosyanın var olan içeriğine eklenme yapılmıyor.
+
 ## ByteArrayInputStream
 
 Bir byte dizisini tıpkı bir akış gibi okumanızı sağlar. Bu sınıfın sağladığı faydayı bir örnekle anlatalım. Örneğin, dosyalar üzerinde okuma yapmak için bir kod yazdınız. Fakat daha sonra programınız gelişti ve internet üzerinden veri okur hale geldiniz. Bu veriler size byte dizisi halinde geliyor ve siz bu akışı okumak için yeni bir kod yazmak zorundasınız. Bu sınıfı kullanarak yeni bir kod yazmaktansa, byte dizisini bir akış olarak değerlendirebilir ve aynı kodu kullanabilirsiniz.
@@ -104,3 +157,6 @@ Bir byte dizisini tıpkı bir akış gibi okumanızı sağlar. Bu sınıfın sa�
 ## ByteArrayOutputStream
 
 Hedef olarak bir byte dizisi kullanan akış sınıfıdır. Bu sınıfı kullanarak akış üzerinde yazdığınız veriler nihai olarak size bir byte dizisi olarak sunulur.
+
+
+[Fotoğrafın linki](https://blog.ipswitch.com/hubfs/Imported_Blog_Media/automate-file-transfers-1024x512-1.jpg)
