@@ -14,12 +14,12 @@ let car = {
 ~~~
 Property değerlerine noktalı yazım(dot notation) kullanarak erişilebilir:
 
-`console.log( car.brand );      // “BMW”`
+`console.log(car.brand);      // “BMW”`
 
 İstediğimiz zaman property ekleyebilir, kaldırabilir ve objeden property okuyabiliriz.
 Mevcut bir property'i eklemek veya değiştirmek için şu şekilde yazabiliriz:
 
-`car.model = “320i”;      // objeye model isminde bir key ekler ve value olarak string atar `
+`car.model = “320i”;          // objeye model isminde bir key ekler ve value olarak string atar `
 
 Bir property’i kaldırmak için silme (delete) operatörünü kullanabiliriz:
 
@@ -46,14 +46,14 @@ delete person["likes sea"];         // delete (sil)
 Köşeli parantezli yazım aynı zamanda özellik ismini getirmede kullanılabilir:
 
 ~~~markdown
-let animal= {};           // set(oluştur)
+let animal= {};           // set
 let key = "flies";        // key atama
-person[key] = true;       // value atama`
+animal[key] = true;       // value atama
 ~~~
 Yeni objemiz: 
 ~~~markdown
 animal = {     
-   “flies” : true	  // yeni eklediğimiz key value çifti
+   “flies” : true	      // yeni eklediğimiz key value çifti
 }; 
 ~~~
 Burada, değişken(variable) key runtime(çalışma zamanında) hesaplanabilir veya kullanıcı girdisine bağlı olabilir. Sonrasında property’e erişmek için kullanabiliyoruz. Bu bize kullanımda esneklik sağlıyor.
@@ -65,7 +65,7 @@ let person = {
 let key = prompt("Kişinin hangi özelliğini öğrenmek isterdiniz?", "name");
 
 // değişken ile erişim
-alert( person[key] );   // Jack(prompt’a “name” yazarsak erişeceğimiz değer)
+alert( person[key] );      // Jack(prompt’a “name” yazarsak erişeceğimiz değer)
 ~~~
 Dot notation'ı benzer şekilde kullanamayız.
 
@@ -81,21 +81,21 @@ function myObj (key, value) {
 [key]: value
   };
 };
-myObj{name: “Anna”}   // atanmış yeni değer
+myObj{name: “Anna”}       // atanmış yeni değer
 ~~~
 \* Key, square brackets [] içine alındığı sürece herhangi bir ifade olabilir.,
 
 ### Özet 
-
-Objeler, birkaç özel niteliğe sahip ilişkilendirilebilir array(dizi)'lerdir.
-Key / value şeklinde property'leri saklar.
-Key ifadesi string veya sembol olmalıdır.
-Value ifadesi herhangi bir değer alabilir.
-Belli bir property'e erişmek için kullanabileceklerimiz: 
-Dot notation: obj.property 
-Square brackets notation obj[“property”]. Square bracket key'in obj [varWithKey] gibi bir değişkenden alınmasına izin verir.
+~~~markdown
+* Objeler, birkaç özel niteliğe sahip ilişkilendirilebilir array(dizi)'lerdir.
+* Key / value şeklinde property'leri saklar.
+* Key ifadesi string veya sembol olmalıdır.
+* Value ifadesi herhangi bir değer alabilir.
+* Belli bir property'e erişmek için kullanabileceklerimiz: 
+* Dot notation: obj.property 
+* Square brackets notation obj[“property”]. Bu özellik key'in obj[varWithKey] gibi bir değişkenden alınmasına izin verir.
 Bu zamana kadar bahsettiğimiz objeler “plain object” olarak isimlendirilir. 
-
+~~~
 ### Obje Methodları
 
 Plain objects için aşağıdaki metodlar kullanılabilir: 
