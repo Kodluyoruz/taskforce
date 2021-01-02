@@ -36,11 +36,11 @@ Klasörümüzü oluşturduğumuza göre artık ilk html klasörümüzü oluştur
 
 .html uzantılı yaptığımız dosya
 
-![vscode-html-2](vscode-html-2)
+![vscode-html-2](figures/vscode-html-2)
 
 İkisine baktığımızda birinde sağ altta Plain Text yazarken diğerinde html etiketlerimizi anladığını gösteren HTML ibaresi yer almaktadır.
 
-Doğru olarak yazdığımız index.html dosyamızda ilk html etiketimizi oluşturalım. Başlık etiketi için kullanılan h1 etiketi ile örneğimizi yapalım.
+Doğru olarak yazdığımız index.html dosyamızda ilk html etiketimizi oluşturalım. Başlık etiketi için kullanılan h1 etiketi ile alıştırmamızı yapalım.
 
 ```
 <h1> Buraya İstediğimiz Başlığı Yazabiliriz </h1>
@@ -48,7 +48,7 @@ Doğru olarak yazdığımız index.html dosyamızda ilk html etiketimizi oluştu
 
 h1 etiketleri arasına istediğimiz bir başlığı yazabiliriz. Aşağıda verilen örnekte h1 etiketlerimiz arasına "Kodluyoruz" yazılmıştır.
 
-![vscode-kodluyoruz](vscode-kodluyoruz)
+![vscode-kodluyoruz](figures/vscode-kodluyoruz)
 
 Oluşturduğumuz dosyamızı çalıştırmadan önce kaydetmemiz gerekmektedir. Eğer bir değişiklik yapmış ve dosyamızı kaydetmemişsek yazdığımız dosyanın üzerinde bir nokta ve en solda Explorer'da kaç dosyanın kayıtlı olmadığı gösteren bir ikon göreceğiz.
 
@@ -58,4 +58,13 @@ Oluşturduğumuz index dosyamızı File > Save ile veya CTRL+S ile kaydettikten 
 
 ve ilk HTML Sayfamız WEB Tarayacımızda Görülmekte
 
-![vscode-ilk-html](vscode-ilk-html)
+![vscode-ilk-html](figures/vscode-ilk-html)
+
+
+### Sorular
+
+
+
+### Kaynak
+
+Kodluyoruz Frontend End 101 Video Eğitimi - Hakan Yalçınkaya
