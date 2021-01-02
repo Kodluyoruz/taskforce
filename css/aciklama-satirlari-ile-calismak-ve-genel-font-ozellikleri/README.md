@@ -8,6 +8,7 @@ CSS'de açıklama satırı bu şekilde başlar /* ve bu bu şekilde biter */
 Misal:
 
 '''css
+
      /* Tekli yorum satırı */
     p {
        color: red;
@@ -17,6 +18,7 @@ Misal:
 Kodda istediğiniz yere yorum satırı ekleyebilirsiniz: 
 
 '''css
+
     p {
      color: red;  /* Metin rengini kırmızı yap*/
      }
@@ -24,6 +26,7 @@ Kodda istediğiniz yere yorum satırı ekleyebilirsiniz:
  Yorumları birden çok satıra da yazabilirsiniz:
  
  '''css
+ 
      /* Çoklu yorum
       satırı bu 
       şekilde */
@@ -56,6 +59,7 @@ Kodda istediğiniz yere yorum satırı ekleyebilirsiniz:
  Not: Yazı tipi adı birden fazla kelime ise, "Times New Roman" gibi tırnak içinde olmalıdır.
  
  '''css
+ 
      .p1 {
       font-family: "Times New Roman";
      }
@@ -75,6 +79,7 @@ Kodda istediğiniz yere yorum satırı ekleyebilirsiniz:
  - **oblique** Metin eğimli gösterilir ama çok desteklenmiyor.
  
  '''css
+ 
      p.normal {
       font-style: normal;
      }
@@ -112,6 +117,7 @@ Kodda istediğiniz yere yorum satırı ekleyebilirsiniz:
  1em, mevcut yazı tipi boyutuna eşittir. Tarayıcılarda varsayılan metin boyutu 16 pikseldir. Yani, 1em'in varsayılan boyutu 16 pikseldir.
  
  '''css
+ 
      h1 {
       font-size: 2.5em; /* 40px/16=2.5em */
      }
