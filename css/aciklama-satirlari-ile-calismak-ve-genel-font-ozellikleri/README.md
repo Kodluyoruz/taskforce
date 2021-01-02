@@ -6,29 +6,32 @@ Açıklama satırları CSS kodu yazarken aralara kendimiz ve diğer yazılımcı
 CSS'de açıklama satırı bu şekilde başlar /* ve bu bu şekilde biter */
 
 Misal:
+
 '''css
-    /* Tekli yorum satırı */
+     /* Tekli yorum satırı */
     p {
        color: red;
       }
  '''     
  
 Kodda istediğiniz yere yorum satırı ekleyebilirsiniz: 
+
 '''css
-   p {
-    color: red;  /* Metin rengini kırmızı yap*/
-    }
+    p {
+     color: red;  /* Metin rengini kırmızı yap*/
+     }
  ''' 
  Yorumları birden çok satıra da yazabilirsiniz:
+ 
  '''css
-   /* Çoklu yorum
-    satırı bu 
-    şekilde */
-
-    p {
-      color: red;
-    }
+     /* Çoklu yorum
+      satırı bu 
+      şekilde */
+     p {
+       color: red;
+     }
  ''' 
+ 
  ### h3 Genel Font Özellikleri
  CSS'de beş genel yazı tipi ailesi vardır:
  1. **Serif** yazı tiplerinin her harfin kenarlarında küçük bir kontur vardır. Bir formalite ve zarafet duygusu yaratırlar.
@@ -50,21 +53,20 @@ Kodda istediğiniz yere yorum satırı ekleyebilirsiniz:
  
  #### h4 CSS'de, **font-family** bir metnin yazı tipini belirtmek için özelliği kullanırız.
  
- Not: >Yazı tipi adı birden fazla kelime ise, "Times New Roman" gibi tırnak içinde olmalıdır.
+ Not: Yazı tipi adı birden fazla kelime ise, "Times New Roman" gibi tırnak içinde olmalıdır.
  
  '''css
-   .p1 {
-     font-family: "Times New Roman";
-   }
+     .p1 {
+      font-family: "Times New Roman";
+     }
 
-   .p2 {
-     font-family: Arial;
-   }
+     .p2 {
+      font-family: Arial;
+     }
 
-   .p3 {
-     font-family: monospace;
-   }
-  
+     .p3 {
+      font-family: monospace;
+     }
  '''
  
  #### h4 **font-style** çoğunlukla italik metnini belirtmek için kullanılır.
@@ -73,58 +75,60 @@ Kodda istediğiniz yere yorum satırı ekleyebilirsiniz:
  - **oblique** Metin eğimli gösterilir ama çok desteklenmiyor.
  
  '''css
-   p.normal {
-     font-style: normal;
-    }
+     p.normal {
+      font-style: normal;
+     }
 
-   p.italic {
-     font-style: italic;
-    }
+     p.italic {
+      font-style: italic;
+     }
 
-   p.oblique {
-     font-style: oblique;
-    }
+     p.oblique {
+      font-style: oblique;
+     }
  '''   
  
  #### h4 CSS'de **font-size** metnin boyutunu ayarlar.
  Metin boyutunu yönetebilmek web tasarımında önemlidir. Bununla birlikte, paragrafların başlık gibi veya başlıkların paragraflara benzemesi için yazı tipi boyutunu  ayarlamalısınız. Bunun içinde **font-size** kullanılır. 
  
- Not: >Bir yazı tipi boyutu belirtmezseniz, paragraflar gibi normal metin için varsayılan boyut 16 pikseldir (16px = 1em).
+ Not: Bir yazı tipi boyutu belirtmezseniz, paragraflar gibi normal metin için varsayılan boyut 16 pikseldir (16px = 1em).
+ 
  '''css
     
-   h1 {
-    font-size: 40px;
-   }
+     h1 {
+      font-size: 40px;
+     }
     
-   h2 {
-     font-size: 30px;
-   }
+     h2 {
+      font-size: 30px;
+     }
 
-   p {
-     font-size: 14px;
-    }
- 
+     p {
+      font-size: 14px;
+     }
  '''
  #### h4 Em ile Yazı Tipi Boyutunu Ayarla
  Kullanıcıların metni yeniden boyutlandırmasına izin vermek için (tarayıcı menüsünde), birçok geliştirici piksel yerine em kullanır.
  1em, mevcut yazı tipi boyutuna eşittir. Tarayıcılarda varsayılan metin boyutu 16 pikseldir. Yani, 1em'in varsayılan boyutu 16 pikseldir.
  
  '''css
-  h1 {
-   font-size: 2.5em; /* 40px/16=2.5em */
-  }
+     h1 {
+      font-size: 2.5em; /* 40px/16=2.5em */
+     }
 
-  h2 {
-   font-size: 1.875em; /* 30px/16=1.875em */
-  }  
+     h2 {
+      font-size: 1.875em; /* 30px/16=1.875em */
+     }  
 
-  p {
-   font-size: 0.875em; /* 14px/16=0.875em */
-  }
+     p {
+      font-size: 0.875em; /* 14px/16=0.875em */
+     }
  '''
  Yukarıdaki örnekte, em içindeki metin boyutu, piksel cinsinden önceki örnekle aynıdır. Ancak em boyutu ile tüm tarayıcılarda metin boyutunu ayarlamak mümkündür.
  
+ 
  [Yorum satırı kaynak](https://www.w3schools.com/css/css_comments.asp)
+ 
  [Font-family kaynak](https://www.w3schools.com/css/css_font.asp)
 
  
