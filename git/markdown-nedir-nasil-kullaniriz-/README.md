@@ -8,23 +8,23 @@ Sözü fazla uzatmadan dilerseniz örnekler üzerinden ilerleyelim. Başta da de
 
 ## Başlıklar
 
-HTML'de `<h1>, <h2>, <h3>` yapıları ile aç-kapat yaparak oluşturduğumuz başlıkları markdown ile sadece `#` karakteri ile oluşturabiliyoruz. Burada önemli olan nokta `#` karakterinden sonra boşluk bırakmak.
+HTML'de `<h1>, <h2>, <h3>` etiketleri ile aç-kapat yaparak oluşturduğumuz başlıkları, markdown ile sadece `#` karakteri kullanarak oluşturabiliyoruz. Burada önemli olan nokta `#` karakterinden sonra boşluk bırakmaktır.
 
 | Markdown      | HTML                  | Çıktı         |
 | ---           |---                    | ---           |
-| `# h1 Başlık` | `<h1> h1 Başlık </h1>`|  <h1> h1 Başlık </h1>  |
-| `# h2 Başlık` | `<h2> h2 Başlık </h2>`|  <h2> h2 Başlık </h2>  |
-| `# h3 Başlık` | `<h3> h3 Başlık </h3>`|  <h3> h3 Başlık </h3>  |
-| `# h4 Başlık` | `<h4> h4 Başlık </h4>`|  <h4> h4 Başlık </h4>  |
-| `# h5 Başlık` | `<h5> h5 Başlık </h5>`|  <h5> h5 Başlık </h5>  |
-| `# h6 Başlık` | `<h6> h6 Başlık </h6>`|  <h6> h6 Başlık </h6>  |
+| # h1 Başlık | \<h1> h1 Başlık \</h1>|  <h1> h1 Başlık </h1>  |
+| # h2 Başlık | \<h2> h2 Başlık \</h2>|  <h2> h2 Başlık </h2>  |
+| # h3 Başlık | \<h3> h3 Başlık \</h3>|  <h3> h3 Başlık </h3>  |
+| # h4 Başlık | \<h4> h4 Başlık \</h4>|  <h4> h4 Başlık </h4>  |
+| # h5 Başlık | \<h5> h5 Başlık \</h5>|  <h5> h5 Başlık </h5>  |
+| # h6 Başlık | \<h6> h6 Başlık \</h6>|  <h6> h6 Başlık </h6>  |
 
 `h1` ve `h2` başlıklar yazarken alternatif olarak bir yöntem daha mevcut. `h1` için `=` ve `h2` için `-` kullanabilirsiniz.
 
 | Markdown      | HTML                  | Çıktı         |
 | ---           |---                    | ---           |
-| `# h1 Başlık` <br> ========== | `<h1> h1 Başlık </h1>`|  <h1> h1 Başlık </h1>  |
-| `# h2 Başlık` <br> -----------------| `<h2> h2 Başlık </h2>`|  <h2> h2 Başlık </h2>  |
+| # h1 Başlık <br> ======== | \<h1> h1 Başlık \</h1>|  <h1> h1 Başlık </h1>  |
+| # h2 Başlık <br> --------------| \<h2> h2 Başlık \</h2>|  <h2> h2 Başlık </h2>  |
 
 *NOT: `h1` ve `h2` başlıklarda GitHub'ın yaptığı özelleştirme sebebiyle otomatik olarak gri bir çizgi geliyor.*
 
@@ -46,7 +46,7 @@ Paragraf oluşturmak için haricen bir işlem yapmak gerekmiyor. Markdown format
 
 Yaygın kullanımda **kalın** yazmak için `**`, _eğik_ yazmak için `*`, ***hem kalın hem eğik*** yazmak için `***` kullanılmaktadır.
 
-## Tek ve Çok Satır Kod Blokları
+## Tek ve Çok Satırlı Kod Blokları
 
 - Tek satır kod bloğu için kodun başına ve sonuna `` ` `` (backtick) karakteri eklenir. 
 
@@ -67,6 +67,7 @@ Yaygın kullanımda **kalın** yazmak için `**`, _eğik_ yazmak için `*`, ***h
         }
         ```
     ```
+    Çıktı:
 
     ```
     function (){
@@ -197,7 +198,7 @@ yapısı kullanılır. Köşeli parantez bağlantı açıklamasını, küme para
 
 <hr>
 
-Bağlantı resimleri de aynı şekilde eklenir. Sadece köşeli parantezden önce bir tane `!` ünlem eklenmelidir.
+Bağlantı resimleri de aynı şekilde eklenir. Sadece köşeli parantezden önce bir tane `!` ünlem işareti eklenmelidir.
 
 ```
 ![Kodluyoruz Logo](https://pbs.twimg.com/profile_images/1277567238070034432/W5P_ztpB_400x400.jpg)
