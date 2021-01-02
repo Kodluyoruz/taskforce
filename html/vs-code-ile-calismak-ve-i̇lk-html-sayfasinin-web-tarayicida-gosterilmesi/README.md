@@ -9,8 +9,8 @@ Visual Studio Code bütün işletim sistemlerinde çalışabilen ve yapacağım�
 
 
 
-## Visual Studio Code ile Dosyaların Oluşturulması
+### Visual Studio Code ile Dosyaların Oluşturulması
 
 
 
-## Visual Studio Code ile html Dosyasının Oluşturulması ve Web Browserda Gösterilmesi
+### Visual Studio Code ile html Dosyasının Oluşturulması ve Web Browserda Gösterilmesi
