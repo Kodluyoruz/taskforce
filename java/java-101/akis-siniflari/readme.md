@@ -27,8 +27,8 @@ Byte akışlarından gelen verileri okumak için yazılmış soyut bir sınıft�
 | **byte**[] readNBytes(**int** n) | Parametre olarak verilen sayı kadar byte değeri okur ve bir dizi halinde döndürür. |
 | **long** skip(**int** n)         | Parametre olarak verilen sayı kadar byte değerini okumadan atlar. |
 | **int** avaliable()              | Okunabilecek byte'ların(8 bitin) sayısını ifade eder. Alt sınıflarda kullanılmak zorundadır. |
-| **void** mark()                  | Veriler içerisinde istenilen yere işaret koyar. |
-| **void** reset()                 | mark() ile işaretlenmiş konumu geri gönderir. |
+| **void** mark(**int** readlimit) | Veriler içerisinde istenilen yere işaret koyar. |
+| **void** reset()                 | mark() ile işaretlenmiş konuma geri döndürür. |
 | **boolean**  markSupported()     | mark() ve reset() metotlarının çalışıp çalışmadığını test eder. Çalışıyorsa **true** değilse **false** değerini döndürür. |
 
 Bakınız! Tabloda tanımlanan metotlar byte değerinde okuma işlemi yapar.
