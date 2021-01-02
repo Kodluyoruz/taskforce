@@ -84,10 +84,13 @@ Row ve column yapısı kullanımı ve mantığı genel hatlarıyla bu şekilde d
 
 Soru 1) Şıklardan hangisi bir html tag'i için geçerli bir container class ismi atamasıdır.
 
-* a) class=container-lg
-* b) class=.container-md
-* c) class=".container"
-* d) class="container" doğdu şık d.
+a) class=container-lg
+
+b) class=.container-md
+
+c) class=".container"
+
+d) class="container" doğdu şık d.
 
 Soru 2) Aşağıdaki cümlede ki boşluğu doldurunuz.
 
