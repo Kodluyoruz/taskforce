@@ -1,6 +1,6 @@
 # Markdown Nedir ?
 
-Markdown, John Gruber ve Aaron Swartz tarafından geliştirilen ve 2004 yılından bu yana kullanılan metinden HTML'e (text-to-HTML) dönüşüm sağlayan hafif bir işaretleme dilidir.
+Markdown, John Gruber ve Aaron Swartz tarafından geliştirilen ve 2004 yılından bu yana kullanılan metinden HTML'e (text-to-HTML) dönüşüm için kullanılan hafif bir işaretleme dilidir.
 
 GitHub gibi platformları kullananların aşina olduğu markdown formatı, yaygın kanının aksine sadece README dosyaları oluşturmak kullanılmaz. Temel amaç okunabilirliği ve kullanılabilirliği arttırmaktır. Basitliği ve sadeliği sayesinde forumlarda ileti yazmaktan, kitap yazmaya kadar pek çok yerde kullanılabilir.
 
@@ -50,9 +50,23 @@ Yaygın kullanımda **kalın** yazmak için `**`, _eğik_ yazmak için `*`, ***h
 
 - Tek satır kod bloğu için kodun başına ve sonuna `` ` `` (backtick) karakteri eklenir. 
 
+    ```
+    `console.log("Hello, World!");`
+    ```
+
+    Çıktı:
+
     `console.log("Hello, World!");`
 
 - Çok satır kod bloğu için kodun başına ve sonuna 3 adet  `` ``` `` backtick karakteri eklenir.
+
+    ```
+        ```
+        function (){
+            console.log("Hello, World!);
+        }
+        ```
+    ```
 
     ```
     function (){
@@ -63,7 +77,11 @@ Yaygın kullanımda **kalın** yazmak için `**`, _eğik_ yazmak için `*`, ***h
 - Yazılım diline göre kod bloğundaki ifadelerin stillendirilmesini isterseniz, kod bloğunun başındaki 3 adet backtick ifadesinden sonra javascript, python, css gibi etiket ekleybilirsiniz.
 
     ```
-    ```javascript
+        ```javascript
+        function (){
+            console.log("Hello, World!);
+        }
+        ```
     ```
     Çıktınız şu şekilde olacaktır;
 
@@ -81,6 +99,8 @@ Yaygın kullanımda **kalın** yazmak için `**`, _eğik_ yazmak için `*`, ***h
 
 Size yukarıdaki gibi bir çizgi üretir.
 
+## Listeler
+
 HTML'de `<ul> </ul>` ve `<li> </li>` etiketleri ile oluşturulan listeler markdown formatında `-` ve `*` ile oluşturulur.
 
 ```
@@ -95,6 +115,8 @@ Size aşağıdaki çıktıyı üretir;
 - Liste Elemanı 2
 - Liste Elemanı 3
 
+<hr>
+
 Sıralı liste elde etmek için tek yapmanız gereken liste elemanlarının başına sıra numarası ve `.` nokta eklemek.
 
 ```
@@ -107,20 +129,24 @@ Sıralı liste elde etmek için tek yapmanız gereken liste elemanlarının baş
 2. Liste Elemanı
 3. Liste Elemanı
 
-Buradaki önemli nokta şu; Siz farklı sıra numaraları vermek isteseniz de markdown sıra numaralarını otomatik olarak biçimlendirmektedir. Aşağıdaki örnek üzerinden inceleyelim;
+<hr>
+
+Buradaki önemli nokta şu: Siz farklı sıra numaraları vermek isteseniz de markdown sıra numaralarını otomatik olarak biçimlendirmektedir. Aşağıdaki örnek üzerinden inceleyelim;
 
 ```
 1. Liste Elemanı
 8. Liste Elemanı
 13. Liste Elemanı
 ```
-Gördüldüğü üzere biz 1, 8 ve 13 olarak numaralandırdık fakat çıktı sıralı olarak üretildi.
-
 Çıktı:
 
 1. Liste Elemanı
 8. Liste Elemanı
 13. Liste Elemanı
+
+Gördüldüğü üzere biz 1, 8 ve 13 olarak numaralandırdık fakat çıktı sıralı olarak üretildi.
+
+<hr>
 
 Markdown ile iç içe listeler yapmak da oldukça kolay. Alt listelere `tab` ile girinti verdiğinizde otomatik olarak nested list yapısına dönüşmekte.
 
@@ -144,17 +170,16 @@ Markdown ile iç içe listeler yapmak da oldukça kolay. Alt listelere `tab` ile
 Tablo oluşturmak için aşağıdaki yapı kullanılır. Satır çizgisi için kullanılan `-` karaterine, `:` işareti eklenerek tabloda sola, sağa veya ortaya hizalama yapılabilir. 
 
 ```
-| Ürünler| Açıklama| Fiyat|
-| :---   |   :---:   | ---:  |
-| Ürün 1 | Ürün Açıklaması|Ürün Fiyatı|
-
+| Ürünlerin Numaraları| Ürün Açıklaması| Ürünlerin Fiyatı|
+| :--- | :---: | ---: |
+| 1 | Açıklama | Fiyatı |
 ```
 
 Çıktı:
 
-| Ürünler| Açıklama| Fiyat|
-| :---    |:---:      | ---:  |
-| Ürün 1 | Ürün Açıklaması|Ürün Fiyatı|
+| Ürün Numaraları| Ürün Açıklaması| Ürünlerin Fiyatı|
+| :--- | :---: | ---: |
+| 1 | Açıklama | Fiyatı |
 
 ## Bağlantı ve Resim Eklemek
 
@@ -170,18 +195,20 @@ yapısı kullanılır. Köşeli parantez bağlantı açıklamasını, küme para
 
 [Kodluyoruz Sayfamız](https://www.kodluyoruz.org/)
 
-Bağlantı resimleri de aynı şekilde eklenir. Sade köşeli parantezden önce bir tane `!` karakteri eklenir.
+<hr>
+
+Bağlantı resimleri de aynı şekilde eklenir. Sadece köşeli parantezden önce bir tane `!` ünlem eklenmelidir.
 
 ```
 ![Kodluyoruz Logo](https://pbs.twimg.com/profile_images/1277567238070034432/W5P_ztpB_400x400.jpg)
 ```
-yapısı kullanılır. Köşeli parantezin için doldurmak zorunlu değildir. Boş da kalabilir. Çıktı aşağıdaki gibi olacaktır;
+Yapısı kullanılır. Köşeli parantezin için doldurmak zorunlu değildir. Boş da kalabilir. Çıktı aşağıdaki gibi olacaktır;
 
 ![Kodluyoruz Logo](https://pbs.twimg.com/profile_images/1277567238070034432/W5P_ztpB_400x400.jpg)
 
 ## Alıntı
 
-Yazınız içinde alıntı kullanmak isterseniz yapmanız gerelen metinin başına `>` karakteri koymaktır.
+Yazınız içinde alıntı kullanmak isterseniz yapmanız gereken, metinin başına `>` karakteri koymaktır.
 
 ```
 > Alıntı yapılan metin.
@@ -193,5 +220,5 @@ Elde ettiğimiz çıktı;
 
 ## SON
 
-Okuduğunuz bu yazı da markdown formatında oluşturulmuştur. Sayfanın en üstündeki [README.md]() dosyasına gidip, açılan sayfada sağ üstteki Raw butonuna tıklarsanız sayfanın markdown formatındaki hâlini ve kullanılan etiketleri görebilirsiniz.
+Okuduğunuz bu yazı da markdown formatonda oluşturulmuştur. Sayfanın en üstündeki [README.md]() dosyasına gidip, açılan sayfada sağ üstteki Raw butonuna tıklarsanız sayfanın markdown formatındaki hâlini ve kullanılan etiketleri görebilirsiniz.
 
