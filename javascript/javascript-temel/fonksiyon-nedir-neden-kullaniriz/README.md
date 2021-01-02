@@ -59,7 +59,7 @@ result = carp(10,20); // undefined
 ```
 topla fonksiyonu iki değerin toplamını geri döner. carp fonksiyonunda ise **return** anahtar kelimesi kullanılmadığı içn geri dönüş değeri yoktur,dolayısıyla undefined döner.
 
-##Fonksiyon İfadeleri (Function Expressions)
+## Fonksiyon İfadeleri (Function Expressions)
 Javascript bir değişkene fonksiyon atanmasına ve daha sonra bu değişkenin fonksiyon olarak kullanılmasına izin verir. Buna fonksiyon ifadeleri denir:
 
   ```javascript
