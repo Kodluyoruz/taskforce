@@ -1,6 +1,6 @@
 # Markdown Nedir ?
 
-Markdown, John Gruber ve Aaron Swartz tarafından geliştirilen ve 2004 yılından bu yana kullanılan metinden HTML'e (text-to-HTML) dönüşüm için kullanılan hafif bir işaretleme dilidir.
+Markdown, John Gruber ve Aaron Swartz tarafından geliştirilen ve 2004 yılından bu yana kullanılan metinden HTML'e (text-to-HTML) dönüşüm sağlayan hafif bir işaretleme dilidir.
 
 GitHub gibi platformları kullananların aşina olduğu markdown formatı, yaygın kanının aksine sadece README dosyaları oluşturmak kullanılmaz. Temel amaç okunabilirliği ve kullanılabilirliği arttırmaktır. Basitliği ve sadeliği sayesinde forumlarda ileti yazmaktan, kitap yazmaya kadar pek çok yerde kullanılabilir.
 
@@ -193,5 +193,5 @@ Elde ettiğimiz çıktı;
 
 ## SON
 
-Okuduğunuz bu yazı da markdown formatonda oluşturulmuştur. Sayfanın en üstündeki [README.md]() dosyasına gidip, açılan sayfada sağ üstteki Raw butonuna tıklarsanız sayfanın markdown formatındaki hâlini ve kullanılan etiketleri görebilirsiniz.
+Okuduğunuz bu yazı da markdown formatında oluşturulmuştur. Sayfanın en üstündeki [README.md]() dosyasına gidip, açılan sayfada sağ üstteki Raw butonuna tıklarsanız sayfanın markdown formatındaki hâlini ve kullanılan etiketleri görebilirsiniz.
 
