@@ -97,15 +97,15 @@ public class Recursion {
 Zaman karmaşıklığı üstel olarak O (n)  = O( n - 1 ) + O ( n - 2 ) dir. Bu örnekte çok sayıda tekrarlanan iş yapıldığını söyleyebiliriz.
 
 ```
-                   								 fib (5)    
-                    							 /      \ 
-               								fib (4)     fib (3)    
-             								/ 	\         /      \ 
+                   							      fib (5)    
+                    							     /       \ 
+               								fib (4)      fib (3)    
+             								/ 	\        /     \ 
         							  fib (3) 	fib (2)  fib (2)  fib (1) 
        								  /  \         /   \       	/ \ 
-  								fib(2) fib(1) fib(1)  fib(0) fib(1) fib (0) 
+  								fib(2) fib(1) fib(1) fib(0) fib(1) fib (0) 
   								 / \ 
-							fib (1) fib (0)
+							   fib (1)  fib (0)
 ```
 
  Yani n nci bir sayı da kötü bir uygulama olduğunu söyleyebiliriz.
