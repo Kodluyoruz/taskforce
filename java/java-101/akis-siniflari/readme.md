@@ -26,8 +26,14 @@ Byte akışlarından gelen verileri okumak için yazılmış soyut bir sınıft�
 | **byte**[] readAllBytes()        | Dosyanın sonuna kadar bütün byte değerlerini okur ve bir dizi halinde döndürür. |
 | **byte**[] readNBytes(**int** n) | Parametre olarak verilen sayı kadar byte değeri okur ve bir dizi halinde döndürür. |
 | **long** skip(**int** n)         | Parametre olarak verilen sayı kadar byte değerini okumadan atlar. |
+| **int** avaliable()              | Okunabilecek byte'ların(8 bitin) sayısını ifade eder. Alt sınıflarda kullanılmak zorundadır. |
+| **void** mark()                  | Veriler içerisinde istenilen yere işaret koyar. |
+| **void** reset()                 | mark() ile işaretlenmiş konumu geri gönderir. |
+| **boolean**  markSupported()     | mark() ve reset() metotlarının çalışıp çalışmadığını test eder. Çalışıyorsa **true** değilse **false** değerini döndürür. |
 
 Bakınız! Tabloda tanımlanan metotlar byte değerinde okuma işlemi yapar.
+
+InputStream soyut bir sınıftır. Soyut sınıf ne anlama gelir? Soyut sınıfın içerisinde gövdesiz metotlar bulunabilir ve bu metotlar türetilen alt sınıflarda kullanılmak (**@Override** edilmek) zorundadır.
 
 ## OutputStream
 
@@ -38,8 +44,10 @@ Byte akışlarına veri yazmak için kullanılan soyut bir sınıftır. Yazma i�
 | **void** flush()                  | Eğer fiziksel olarak akışa yazılmamış byte değerleri varsa, bunların yazılması için bir sinyal gönderir. |
 | **void** write(**int** c)         | Akışa bir byte değeri yazar. Bu değeri parametre olarak alır. |
 | **void** write(**byte**[] buffer) | Parametre olarak aldığı byte dizisinin içindeki bütün byte değerlerini sırasıyla akışa yazar. |
+| **void** write(**byte**[] b, **int** off, **int** len) | Belirlenen parametrelere göre yazma yapan metottur **byte**[] b: yazılacak olan veri dizisi, **int** off: yazılacak veri dizisinin kaçıncı elemanından başlanması gerektiğini belirten parametre, **int** len: veri dizisinden kaç elemanın yazılacağını belirten parametredir. |
 
-Bakınız! Tabloda tanımlanan metotlar byte değerinde yazma işlemi yapar.
+
+Bakınız! Tabloda tanımlanan metotlar byte değerinde yazma işlemi yapar. 
 
 **_InputStream_** ve **_OutputStream_** sınıfları soyut sınıflardır. Yani bu sınıfları tek başına kullanamayız. Ancak alt sınıfları oluşturulursa bir anlam ifade ederler. Şimdi bu sınıfların en çok kullanılan alt sınıflarını inceleyelim.
 
