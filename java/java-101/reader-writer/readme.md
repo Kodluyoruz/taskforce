@@ -100,6 +100,16 @@ catch (IOException ex)
 
 **_BufferedInputStream_** ve **_BufferedOutputStream_** sınıflarının karakter akışları için kullanılan karşılıklarıdır.
 
+Dosyaya yazma ve okuma işlemleri zaman açısından maliyetlidir. 
+
+Neden Maliyetelidir;
+
+-  Uygulamanın daha yavaş bir donanımla muhatap oluyor olması, 
+-  Her I/O işleminde byte dönüştürme işlemi yapıyor olması. 
+- Dosya üzerinde yapılacak her işlemin bir sonraki işlemi beklemek zorunda olması
+
+Bunu yavaşlığa çözem olarak Bellekte tampon bölge oluşturup I/O işlemlerinin orada yönetilmesinde bulunmuş. Buffer sayesinde bir dosyadan okuma yaparken aynı anda veri yollayabilirsiniz.
+
 #### BufferedReader
 
 BufferedReader  ile dosyayı `read()` metodu ile karakter karakter okuyabiliriz:
@@ -146,15 +156,15 @@ catch (IOException ex)
 
 Java'da dosya okumak için kullanılan yöntemlerinin, okuma süresi üzerinde nasıl etkili olduğunu görmek için 100 milyon baytlık bir dosya kullanılarak süreleri karşılaştırılmış.
 
-![Reading-files-in-Java-performance-comparison](C:\Users\mustafakilic\Desktop\Reading-files-in-Java-performance-comparison.webp)
+![Reading-files-in-Java-performance-comparison](https://raw.githubusercontent.com/mustafakilicc/taskforce/main/java/java-101/reader-writer/figures/Reading-files-in-Java-performance-comparison.webp)
 
 **Buffer kullanmayan** ve **Buffer kullanan** yöntemler arasındaki büyük fark, **Buffer kullanan **yöntemlerin yukarıdaki şemada kendi aralarındaki farkın görünmesini zorlaştırıyor. Bu nedenle, aşağıda **Buffer kullanan** yöntemleri gösteren ikinci bir diyagramla yakından bakalım:
 
-![Reading-files-in-Java-performance-comparison-buffered](C:\Users\mustafakilic\Desktop\Reading-files-in-Java-performance-comparison-buffered.webp)
+![Reading-files-in-Java-performance-comparison-buffered](https://raw.githubusercontent.com/mustafakilicc/taskforce/main/java/java-101/reader-writer/figures/Reading-files-in-Java-performance-comparison-buffered.webp)
 
 Biraz karışık gelmiş olabilir, buraya kadar bir çok sınıf ve metod kullandık. Bu sınıfların ilişkilerini görsel olarak görmek size biraz yardımcı olacaktır.
 
-![](C:\Users\mustafakilic\Desktop\Java-FileInputStream-FileReader-InputStreamReader-BufferedInputStream-BufferedReader-en-v2.svg)
+![](https://github.com/mustafakilicc/taskforce/blob/main/java/java-101/reader-writer/figures/Java-FileInputStream-FileReader-InputStreamReader-BufferedInputStream-BufferedReader-en-v2.svg)
 
 Düz çizgiler, binary verilerin akışını temsil eder; kesikli çizgiler, metin verilerinin, yani karakterlerin akışını gösterir.
 
@@ -180,12 +190,18 @@ catch (IOException ex)
 
 Java'da dosyaya veri  yazmak için kullanılan yöntemlerinin, yazma süresi üzerinde nasıl etkili olduğunu görmek için 100 milyon baytlık bir dosya kullanılarak süreleri karşılaştırılmış:
 
-![Writing-files-in-Java-performance-comparison-v2](C:\Users\mustafakilic\Desktop\Writing-files-in-Java-performance-comparison-v2.webp)
+![Writing-files-in-Java-performance-comparison-v2](https://raw.githubusercontent.com/mustafakilicc/taskforce/main/java/java-101/reader-writer/figures/Writing-files-in-Java-performance-comparison-v2.webp)
 
 **Buffer kullanmayan** ve **Buffer kullanan** yöntemler arasındaki büyük fark okumada olduğu gibi burda da açıkça görünüyor.  **Buffer kullanan** yöntemlerin kendi aralarındaki farkı da aşağıdaki görselde görebiliyoruz:
 
-![Writing-files-in-Java-performance-comparison-buffered](C:\Users\mustafakilic\Desktop\Writing-files-in-Java-performance-comparison-buffered.webp)
+![Writing-files-in-Java-performance-comparison-buffered](https://raw.githubusercontent.com/mustafakilicc/taskforce/main/java/java-101/reader-writer/figures/Writing-files-in-Java-performance-comparison-buffered.webp)
 
 Okuma yapmak için kullanılan sınıfların kendi aralarındaki ilişkiyi görmek işinizi kolaylaştıracaktır:
 
-![Java-FileOutputStream-FileWriter-OutputStreamWriter-BufferedOutputStream-BufferedWriter-en](C:\Users\mustafakilic\Desktop\Java-FileOutputStream-FileWriter-OutputStreamWriter-BufferedOutputStream-BufferedWriter-en.svg)
+![Java-FileOutputStream-FileWriter-OutputStreamWriter-BufferedOutputStream-BufferedWriter-en](Chttps://github.com/mustafakilicc/taskforce/blob/main/java/java-101/reader-writer/figures/Java-FileOutputStream-FileWriter-OutputStreamWriter-BufferedOutputStream-BufferedWriter-en.svg)
+
+
+
+[İlk üç görselin kaynağı](https://www.happycoders.eu/java/how-to-read-files-easily-and-fast/)
+
+[son üç görselin görselin kaynağı](https://www.happycoders.eu/java/how-to-write-files-quickly-and-easily/)
