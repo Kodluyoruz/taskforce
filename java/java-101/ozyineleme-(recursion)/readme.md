@@ -216,7 +216,7 @@ Yaptığımız örnekler sonucunda özyinelemeli fonksiyonlar hakkında şunlar�
 
 Neden Özyinele Fonksiyon Kullanılır ? 
 
-- Karmaşık problem çözümlerinde basitlik ve kısa çözüm sağlar. Karmaşık problemi en temel duruma kadar indirger oradan itibaren de adım adım asıl problemi çözer.Yani minimum miktarda kod kullanarak verimli kodlar yazmaya imkan tanınır.
+- Karmaşık problem çözümlerinde basitlik ve kısa çözüm sağlar. Karmaşık problemi en temel duruma kadar indirger oradan itibaren de adım adım asıl problemi çözer. Yani minimum miktarda kod kullanarak verimli kodlar yazmaya imkan tanınır.
 - Bazı diller döngü olmadığı için özyinele fonksiyonlar kullanılır.
 
 
