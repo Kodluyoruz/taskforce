@@ -47,7 +47,7 @@ Köşeli parantezli yazım aynı zamanda özellik ismini getirmede kullanılabil
 
 ~~~markdown
 let animal= {};           // set(oluştur)
-let key = "flies";    // key atama
+let key = "flies";        // key atama
 person[key] = true;       // value atama`
 ~~~
 Yeni objemiz: 
@@ -99,11 +99,11 @@ Bu zamana kadar bahsettiğimiz objeler “plain object” olarak isimlendirilir.
 ### Obje Methodları
 
 Plain objects için aşağıdaki metodlar kullanılabilir: 
-
+~~~markdown
 Object.keys(obj) – Key’lerden oluşan bir array döner(return).
 Object.values(obj) – Value’lardan oluşan bir array döner.
 Object.entries(obj) – [key, value] çiftlerinden oluşan bir array döner. 
-
+~~~
 Tüm bu Object.* metodları array veri tipinde değer döner.
 ~~~markdown
 let person = {
