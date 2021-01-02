@@ -39,6 +39,6 @@ Bir java projesi oluşturduğumuzda, java bize default bir paket oluşturur ve b
 
 #### Kaynaklar : 
 
-[w3schools.com]((https://www.w3schools.com))
+[w3schools.com](https://www.w3schools.com)
 
 [javapoint.com](https://www.javatpoint.com)
