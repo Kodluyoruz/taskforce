@@ -198,7 +198,7 @@ Java'da dosyaya veri  yazmak için kullanılan yöntemlerinin, yazma süresi üz
 
 Okuma yapmak için kullanılan sınıfların kendi aralarındaki ilişkiyi görmek işinizi kolaylaştıracaktır:
 
-![Java-FileOutputStream-FileWriter-OutputStreamWriter-BufferedOutputStream-BufferedWriter-en](Chttps://github.com/mustafakilicc/taskforce/blob/main/java/java-101/reader-writer/figures/Java-FileOutputStream-FileWriter-OutputStreamWriter-BufferedOutputStream-BufferedWriter-en.svg)
+![Java-FileOutputStream-FileWriter-OutputStreamWriter-BufferedOutputStream-BufferedWriter-en](https://github.com/mustafakilicc/taskforce/blob/main/java/java-101/reader-writer/figures/Java-FileOutputStream-FileWriter-OutputStreamWriter-BufferedOutputStream-BufferedWriter-en.svg)
 
 
 
