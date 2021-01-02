@@ -9,20 +9,20 @@ Visual Studio Code (VS Code) bütün işletim sistemlerinde çalışabilen ve ya
 
 VS Code programını ücretsiz bir şekilde [bu adresten](https://code.visualstudio.com/Download) indirebilirsiniz. Bilgisayarınız işletim sistemi ve işlemci özelliklerine göre indireceğiniz VS Code programını bilgisayarınıza kurabilirsiniz.
 
-![vscode-dowloand](figures/vscode-dowloand)
+![](figures/vscode-dowloand.png)
 
 
 ### Visual Studio Code ile Dosyaların Oluşturulması
 
 Öncelikle VS Code'da çalışabilmemiz için bilgisyarımızda çalışacağımız klasörü oluşturmamız gerekmektedir. Örneğin masaüstünde çalışmak istiyorsak ve yazdığımız kodları burada tutmak istiyorsak ilk olarak masaüstünde bir klasör oluşturmamız gerekmektedir. Klasör oluşturma işlemini tamamladıktan sonra bilgisayarımıza yüklediğimiz VS Code programımızı çalıştırıyoruz ve karşımıza şu şekilde bir ekran çıkıyor;
 
-![vscode-start](figures/vscode-start)
+![vscode-start](figures/vscode-start.jpg)
 
 Bu ekran üzerinde open folder'ı tıkladıktan sonra az önce oluşturduğumuz ve çalışmak istediğimiz klasörümüzü seçiyoruz veya oluşturduğumuz dosyayı sürükle bırak yöntemiyle de açabiliriz. Proje klasörümüz açıldıktan artık bu ekranda proje geliştirme işlemlerimizi yapabiliriz. Burada dikkat etmemiz gereken en önemli konu oluşturduğumuz dosya ismiyle VS Code'a gelen klasör adının ismi aynı olmalıdır. Eğer bir farklılık var ise klasör seçerken bir yanlışlık yapmışız demektir.
 
 Artık proje oluşturacağımız ana klasörümüzü oluşturduk bundan sonra oluşturacağımız klasörleri veya dosyaları ana klasörümüzün yanında bulunan ikonlardan yapabiliriz.
 
-![vscode-file](figures/vscode-file)
+![vscode-file](figures/vscode-file.png)
 
 Solda bulunan ikondan dosya, sağda bulunan ikondan ise klasör oluşurabiliriz. Burada açacağımız dosya ve klasörlerimiz oluşturduğumuz ana klasörün altına otamatik olarak gelecektir. Bu alanda iç içe klasörler oluşturup içerisindeki klasörler veya dosyaları sürekle bırak yöntemi ile istediğimiz düzeni oluşturabiliriz.
 
@@ -32,11 +32,11 @@ Klasörümüzü oluşturduğumuza göre artık ilk html klasörümüzü oluştur
 
 .html uzantılı yapmadığımız dosya
 
-![vscode-html-1](figures/vscode-html-1)
+![vscode-html-1](figures/vscode-html-1.png)
 
 .html uzantılı yaptığımız dosya
 
-![vscode-html-2](figures/vscode-html-2)
+![vscode-html-2](figures/vscode-html-2.png)
 
 İkisine baktığımızda birinde sağ altta Plain Text yazarken diğerinde html etiketlerimizi anladığını gösteren HTML ibaresi yer almaktadır.
 
@@ -48,17 +48,17 @@ Doğru olarak yazdığımız index.html dosyamızda ilk html etiketimizi oluştu
 
 h1 etiketleri arasına istediğimiz bir başlığı yazabiliriz. Aşağıda verilen örnekte h1 etiketlerimiz arasına "Kodluyoruz" yazılmıştır.
 
-![vscode-kodluyoruz](figures/vscode-kodluyoruz)
+![vscode-kodluyoruz](figures/vscode-kodluyoruz.JPG)
 
 Oluşturduğumuz dosyamızı çalıştırmadan önce kaydetmemiz gerekmektedir. Eğer bir değişiklik yapmış ve dosyamızı kaydetmemişsek yazdığımız dosyanın üzerinde bir nokta ve en solda Explorer'da kaç dosyanın kayıtlı olmadığı gösteren bir ikon göreceğiz.
 
-![vscode-save](vscode-save)
+![vscode-save](vscode-save.png)
 
 Oluşturduğumuz index dosyamızı File > Save ile veya CTRL+S ile kaydettikten sonra ilk html etiketimizi web browserda görüntüleyebilmek için ana klasörümüzün altında oluşturduğumuz index dosyamızı açıyoruz.
 
 ve ilk HTML Sayfamız WEB Tarayacımızda Görülmekte
 
-![vscode-ilk-html](figures/vscode-ilk-html)
+![vscode-ilk-html](figures/vscode-ilk-html.JPG)
 
 
 ### Sorular
