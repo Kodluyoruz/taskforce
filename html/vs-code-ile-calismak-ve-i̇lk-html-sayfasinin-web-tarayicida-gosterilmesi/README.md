@@ -44,7 +44,6 @@ Doğru olarak yazdığımız index.html dosyamızda ilk html etiketimizi oluştu
 
 ```
 <h1> Buraya İstediğimiz Başlığı Yazabiliriz </h1>
-
 ```
 
 h1 etiketleri arasına istediğimiz bir başlığı yazabiliriz. Aşağıda verilen örnekte h1 etiketlerimiz arasına "Kodluyoruz" yazılmıştır.
