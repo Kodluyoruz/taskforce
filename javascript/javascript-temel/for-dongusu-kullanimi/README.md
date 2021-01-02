@@ -1,4 +1,3 @@
-
 # JavaScript for Döngüsü Kullanımı
 
 Bir for döngüsü, _belirtilen koşul doğru olduğu sürece komutların çalıştırılmasını sağlar._ Koşul sağlanmazsa döngü çalışmayı durdurur.
