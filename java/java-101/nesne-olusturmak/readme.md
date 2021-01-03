@@ -82,3 +82,14 @@ Box box = new Box(100, 200);
 ```
 
 Benzer şekilde yapılandırıcılar tasarlanarak nesne üretiminde esneklik sağlanabilir.
+
+### Peki anlattıklarımıza göre aşağıda verdiğimiz cümlelerin hangileri doğrudur?
+
+- Sınıfların yalnızce bir adet yapıcısı olabilir.
+- Yapıcısı olmayan bir sınıf olması mümkündür.
+
+
+### Cevaplar:
+
+- Hayır, sınıfların farklı parametreler alan birden fazla yapıcısı olabilir.
+- Evet, eğer bir yapıcı tanımlamazsak nesne üretmemiz yine mümkündür. Default yapıcının çalışacağını belirmiştik.
