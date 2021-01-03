@@ -10,7 +10,7 @@ Component'ler bir kullanıcı arayüzü (UI - User Interface) oluştururken kull
 
 React'te temel olarak 2 tip component yapısı var. Bunlardan ilki ve component oluşturmanın en basit yolu olan JavaScript fonksiyonlarıdır. Adından da anlaşılacağı üzere bu component'ler **functional component** olarak geçer. Diğer yöntem ise fonksiyon yerine bir ES6 class'ı kullanarak component oluşturmaktır. Bu component'lere ise class component'ler denir.
 
-**Not:** ECMAScript 2015 (ES6) ile tanıtılan JavaScript class'ları, aslında halihazırdaki prototype temelli kalıtımın, sözdizi daha kolaylaştırılmış halidir. Class sözdizimi yeni bir nesne tabanlı Javascript modeli sunmamaktadır. [^1]
+**Not:** ECMAScript 2015 (ES6) ile tanıtılan JavaScript class'ları, aslında halihazırdaki prototype temelli kalıtımın, sözdizim (syntax) olarak daha kolaylaştırılmış halidir. Class sözdizimi yeni bir nesne tabanlı Javascript modeli sunmamaktadır. [^1]
 
 ## 1. Functional Component'ler
 
