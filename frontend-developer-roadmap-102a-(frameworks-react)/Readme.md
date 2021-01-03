@@ -10,19 +10,19 @@
 - [ ] [Props Children](props-children/)
 - [ ] [Event Handling](event-handling/)
 - [x] [Conditional Rendering](conditional-rendering/)
-- [x] [Component Lifecycle](component-lifecycle)
-- [ ] Fragments
-- [ ] Lists and keys
-- [x] [Composition vs inheritance](composition-vs-inheritance)
+- [x] [Component Lifecycle](component-lifecycle/)
+- [ ] [Fragments](fragments/)
+- [ ] [Lists and keys](list-and-keys/)
+- [x] [Composition vs inheritance](composition-vs-inheritance/)
 - [ ] Basics of Form Handling
-- [ ] Basic hooks
+- [ ] [Basic hooks](basic-hooks/)
 
 ## Advanced topics
 
-- [ ] Hooks
+- [ ] [Hooks](hooks/)
 - [ ] Hooks örneği - Hesap makinesi
 - [ ] [Context API](context-api/)
-- [ ] Refs
+- [ ] [Refs](refs/)
 - [ ] [Render props](render-props/)
 - [ ] Code splitting
 - [ ] [Higher Order Components](higher-order-components/)
