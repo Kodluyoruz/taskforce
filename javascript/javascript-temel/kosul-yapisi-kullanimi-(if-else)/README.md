@@ -1,4 +1,4 @@
-# Koşul Yapısı Kullanımı (if / else)
+# Koşul Yapısı Kullanımı(If/Else)
 
 C programlama dillerinden tutun da Java, Python gibi programlama dillerine kadar her programlama dillerinde kullanılan karar yapıları için **If/Else** kullanılır. Aynı durum JavaScript için de geçerlidir. JavaScriptte de şartların doğru olup olmadığını kontrol etmek için If/Else ifadeleri kullanılır.
 
@@ -89,3 +89,4 @@ else if(ogrOrtalama > 85 && ogrOrtalama <= 100) {
 
 ```
 Bu örneği [Codepen'de Deneyin.](https://codepen.io/alperceviz/pen/YzGaaXB?editors=0012) 
+
