@@ -394,7 +394,44 @@ p::before {
 ### ::after
 Belirtilen etiketin sonuna CSS uygular.Kullanımı ``::before`` ile aynıdır.
 
+## Sorular
 
+* [Aşağıdaki kod bloğunda hangi etikete CSS uygulanmıştır ?]
+```
+.container > p.intro + ul > li:first-child {
+        color: orange;
+}
+```
+```
+<div class="container">
+  <h2>Kodluyoruz</h2>
+  <p class="intro">Lorem ipsum dolor sit amet.</p>
+  <ul class="list">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+  </ul>
+</div>
+<p class="intro">Lorem, ipsum.</p>
+<div class="container">
+  <h2>Kodluyoruz</h2>
+  <p>Lorem ipsum dolor sit.</p>
+  <ul class="list">
+    <li>Bootstrap</li>
+    <li>React</li>
+    <li>Angular</li>
+   </ul>
+</div>
+```
+  * ``<p class="intro">Lorem ipsum dolor sit amet.</p>``
+  * ``<li>Bootstrap</li>`` 
+  * ``<li>HTML</li>``(Doğru)
+  * ``<li>CSS</li>``
+* [Üstteki kod bloğuna göre, bitişik kardeş etiketi p etiketi olan ve parentinin sınıf özelliği container olan h2 etiketine nasıl erişilir ?]
+  * ``p.intro +h2``
+  * ``.container h2``
+  * ``.container + h2``
+  * ``p + .container h2`` (Doğru)
  
  
  
