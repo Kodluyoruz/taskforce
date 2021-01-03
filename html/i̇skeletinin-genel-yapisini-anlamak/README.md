@@ -2,7 +2,7 @@
 
 
 
-![resimesim](figures\html.jpg)
+![resimesim](figures/html.jpg)
 
 
 
