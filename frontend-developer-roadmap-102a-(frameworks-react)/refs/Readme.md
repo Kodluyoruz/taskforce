@@ -3,7 +3,7 @@
 Ref'ler, React tarafından sağlanan, DOM element'lerine ve kendi yarattığınız React element ulaşmak için kullanılan bir fonksiyondur. Render edilen objenin referansıdır.
 Ref'ler React geliştiricileri için bir imdat çıkışıdır. Çoğu zaman Ref'lerin kullanımından kaçınmak gerekse de, bir component'e metot eklerken veya DOM ile işlemler yaparken kullanışlı olabilir.
 
-## Ref'ler Ne Zaman Kullanılmalıdır 
+## Ref'ler Ne Zaman Kullanılmalıdır?
 
 Ref'leri kulllanmak için bir kaç iyi senaryo vardır:
 
@@ -13,14 +13,14 @@ Ref'leri kulllanmak için bir kaç iyi senaryo vardır:
 4. Aynı zamanda geri çağırmalarda(callbacks) kullanılabilir
 
 
-## Ref'ler Ne Zaman Kullanılmamalı
+## Ref'ler Ne Zaman Kullanılmamalı?
 
 1. Bildirimsel (declarative) olarak halledilebilecek durumlar için ref’leri kullanmaktan kaçının. Örneğin, bir *Dialog* bileşeni için *open()* ve *close()* metodlarını kullanmak yerine, *isOpen* prop’unu *Dialog*‘a atayabilirsiniz.
 
 2. Eğer çok fazla Ref kullandıysanız bu da bir problemdir.
 
 
-## Ref'ler Nasıl Oluşturulur
+## Ref'ler Nasıl Oluşturulur?
 
 Ref’ler, React.createRef() kullanılarak oluşturulur ve React element'lerine ref özelliğini kullanarak eklenir. Ref’ler genellikle bir bileşen oluşturulduğunda, bir nesnenin özelliğine atanır. Böylelikle refler bileşen boyunca referans alınabilir.
 
@@ -102,7 +102,7 @@ Component oluşturulduğunda, React `current` özelliğini DOM element'i ile ata
 
 
 
-## Sınıf Bileşenine Ref Ekleme
+## Class Component'e Ref Ekleme
 
 Yukarıdaki `CustomTextInputun`un, eklendikten hemen sonra tıklandığı senaryosunu simüle etmek istediğimizde,  özel input’a erişmek ve `focusTextInput` metodunu manuel olarak çağırmak için ref kullanabiliriz.
 
