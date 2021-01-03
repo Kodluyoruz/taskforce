@@ -31,8 +31,56 @@ Bu kodda width ve heighti 0 yaptım. Paragraf tuhaf bir şekilde görünecektir.
 
 
 ## CSS Margin ve Padding
+Margin özelliği ile elementin dışında boşluk oluşturmada kullanıldığını öğrenmiştik. Şimdi nasıl kullanıldığını açıklamaya çalışacağım. Margin özelliğini 50px yaptığınızda elementin dört yanında 50px boşluk oluşturulur. Element sağa doğru kayar. Negatif değerler de kullanılır. Margin değerine -50px yazdığınız takdirde element sola doğru kayacaktır. Dört yanında değil de sadece bir yönde boşluk oluşturmak isteyebilirsiniz. Bunun için de özellikler vardır. 
+- Margin-left: Soldan boşluk bırakır.
+- Margin-top: Yukarıdan boşluk bırakır.
+- Margin-bottom: Aşağıdan boşluk bırakır.
+- Margin-right: Sağdan boşluk bırakır.
 
+Bu değerleri tek bir satırda ayarlamanız mümkündür. 
+```
+margin: 100px 150px 60px 50px;
+```
+Bir elementi ortalamak için margin:auto değeri vermelisiniz. Bunun düzgün çalışması için de width öelliğinin de kullanılmasını öneririm. Böylelikte sağdan ve soldan eşit olarak ortalanmış olur.
 
+Şimdi gelelim padding özelliğine. Elementin içindeki yazıların çerçeve(border) ile mesafesini padding ile ayarlarız. Margin özelliğinde olduğu gibi padding:50px yaptığımızda içeriğin her tarafı için 50px boşluk bırakıyoruz. Belirli bir tarafta padding bırakmak için;
+-padding-top: içeriğin yukarısında boşluk bırakır.
+-padding-bottom: içeriğin aşağısında boşluk bırakır.
+-padding-left: içeriğin solunda boşluk bırakır.
+-padding-right: içeriğin sağında boşluk bırakır.
 
+Bunları tek tek tanımlamak yerine tek bir satırda belirlemek mümkündür. 
+
+```
+padding: 10px 20px 30px 40px;
+<!---Burada üst boşluk 10px,sağ boşluk 20px,alt boşluk 30px ve sol boşluk 40px dir--->
+```
+
+```
+padding: 10px 20px 30px;
+<!---Üst boşluk 10px,sağ ve sol boşluk 20px,alt boşluk 30px dir--->
+```
+```
+padding: 10px 20px;
+<!---üst ve alt boşluk 10px,sağ ve sol boşluk 20px--->
+```
+Şimdi ikinci alıştırmaya geçelim.
+
+### Alıştırma 2-Kutu Özelliklerinin Kullanımı
+
+[Alıştırma için buraya tıklayın. Açıklama satırlarında ne yapmanız gerektiğini söyledim.](https://codepen.io/hyperborean17/pen/yLaKpJR)
+
+## Sorular
+
+* [Hangisi içeriğin aşağısında boşluk bırakır?]
+  * bottom-padding: 20px;
+  * padding: 0 20px 0 0;
+  * padding-bottom: 20px; (Doğru)
+  * padding: 20px;
+* [Hangisi kutu modeline ait bir kavram değildir?]
+  * margin
+  * align (Doğru)
+  * padding
+  * border 
 
 
