@@ -6,7 +6,7 @@
 
 Sıklıkla kullandığımız ilişkisel operatörlere yakından bakalım.
 
-Önemli NOT
+Önemli NOT**
 ```java
 Operatörlerden bahsetmeden önce 4 adet değişken tanımlayıp,bunlara değer ataması yapalım ve ilişkisel ifadelerimizi bu değişkenler üzerinden karşılaştıralım.
 **Bu karşılaştırmaları yaparken matematiksel ifademizi cümle haline getirip bu cümlenin doğruluğunu ve yanlışlığını test edeceğiz.**
@@ -19,7 +19,7 @@ int D = 40 ;
 
 Elimizde A,B,C ve D olmak üzere 4 adet değişkenimiz var.Şimdi değişkenlerin birbirleri ile olan ilişkilerini  inceleyelim.
 
-### ==  Eşitlik Operatörü **
+### ==  Eşitlik Operatörü 
 
 ```java
 (A == B) ;//Matematiksel ifademizi cümle haline getirelim. (10 Eşittir 20) bu cümle yanlış bir cümledir.10 sayısı 20 sayısına eşit olamayacağından sonucumuz yanlış yani false'tur.
