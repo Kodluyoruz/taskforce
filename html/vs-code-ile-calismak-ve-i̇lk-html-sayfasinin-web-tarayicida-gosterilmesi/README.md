@@ -73,8 +73,10 @@ veeee ilk HTML Sayfamız WEB Tarayacımızda Görülmekte
   - ``` Başlık<h1></h1>```
   - ```<h1 Başlık> </h1>```
 
-### Kaynak
+### Kaynakça
 
 Kodluyoruz Frontend End 101 Video Eğitimi - Hakan Yalçınkaya
 
 https://code.visualstudio.com/
+
+https://guides.github.com/features/mastering-markdown/
