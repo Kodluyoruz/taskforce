@@ -179,9 +179,8 @@ ikinci sorunun cevabı border,
 dördüncü sorunun cevabı ogg
 
 
-
-
- 
+_Kullandığım Kaynaklar: [1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) ,  [2](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) , 
+[3](https://www.w3schools.com/tags/tag_img.asp) , [4](https://notpast.com/html/HTML-Resim-Ekleme-83.html) , [5](https://www.m5bilisim.com/webokulu/etiketler/ozellik-img-alt.php)_
  
  
 
