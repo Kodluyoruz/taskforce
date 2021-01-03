@@ -1,7 +1,7 @@
 # Görsellerle Çalışmak
 
-Merhaba arkadaşlar bu yazıda HTML belgemize resim ekleme , bu resimlerle çalışma konusunda bilgi edineceğiz.
-Öncelikle HTML sayfamıza resim eklemek için **<img>** tagini kullanırız. 
+Merhaba arkadaşlar bu yazıda HTML belgesine resim ekleme , bu resimlerle çalışma konusunu inceleyeceğiz.
+Öncelikle HTML sayfasına resim eklemek için `<img>` tagi kullanılır. 
 
 - ## Src=""
 Kod bloğundaki **src=""** özelliğine resmin URL ya da dosya adresi belirtilerek resim HTML sayfasına çağırılır. (Resmi webden çağırmak için resmin URL'ini src=”…” parametesine eklemek yeterlidir.)
@@ -10,7 +10,7 @@ Kod bloğundaki **src=""** özelliğine resmin URL ya da dosya adresi belirtiler
 <img src="ornek.jpg"/>
 ```
 
-Yukarıdaki örnekte resim HTML dosyasıyla aynı dizinde olduğu için direkt adını ve uzantısını yazmak yeterlidir. Burada img uzantısına dikkat etmek önemli, HTML dsoyaları nasıl **.html** ile bitiyorsa tüm resim dosyalarının sonu da **.xbm, .gif, .png veya .jpg** ile bitmelidir.
+Yukarıdaki örnekte resim HTML dosyasıyla aynı dizinde olduğu için direkt adını ve uzantısını yazmak yeterlidir. Burada img uzantısına dikkat etmek önemli, HTML dosyaları nasıl **.html** ile bitiyorsa tüm resim dosyalarının sonu da **.xbm, .gif, .png veya .jpg** ile bitmelidir.
 
 ### Yaygın Image Formatları
 Kısaltma | Dosya Formatı | Dosya Uzantısı
@@ -55,7 +55,7 @@ Title özelliği kullanıcıyı bilgilendirme amacı taşır. Cursor ile resmin 
 <img src="../images/kedi.jpg" title="image"/>	
 ```
 
-**NOT**: _Title ve Alt parametreli SEO açısından önem taşımaktadır.
+**NOT**: _Title ve Alt parametreleri SEO açısından önem taşımaktadır._
 
 - ## Width ve Height
 Resme istenen ölçüleri vermek için width ve height özellikleri kullanılır. **Width yatay genişlik, Height ise dikey uzunluk** için kullanılır.Width ve Height özellikleri tanımlanmadığı zaman resim sayfada gerçek ölçüleri ile görünür. Bu ölçülerden yanlızca birine değer verildiğinde  resim oranları korunarak belirlenen ölçüde görünür. Her iki özelliğe de değer verildiğinde resim oranları yeni verilen ölçülerde olduğu gibi görünür. Bu kullanım resim ölçüleri ile uyumlu olmadığı zaman resimde oransal bozukluklar oluşur.
@@ -138,14 +138,45 @@ HTML5 ile gelen picture elementi web sayfamızda responsive imageler kullanmamı
     <img src="/media/cc0-images/painted-hand-298-332.jpg" alt="" />
 </picture>
 ```
-Tarayıcı, her bir source öğesini inceleyip eşleşme sağlar. Eşleşme bulunamazsa veya tarayıcı <picture> öğesini desteklemiyorsa, <img> öğesinin src URL'si seçilir. Seçilen görüntü daha sonra <img> öğesinin kapladığı alanda sunulur.
+Tarayıcı, her bir source öğesini inceleyip eşleşme sağlar. Eşleşme bulunamazsa veya tarayıcı `<picture>` öğesini desteklemiyorsa, `<img>` öğesinin src URL'si seçilir. Seçilen görüntü daha sonra `<img>` öğesinin kapladığı alanda sunulur.
   
 [Buradan](https://jsfiddle.net/a2dvm503/4/) ekran boyutunuzu değiştirerek inceleyebilirsiniz. 
 
 
+## Çoktan Seçmeli Sorular ##
+- Resmimize link vermek için hangi özellik kullanılır? 
+1. src
+2. title
+3. href
+4. link
+
+
+- Resmimize çerçeve eklemek istiyorsak hangi özelliği kullanmamız gerekir? 
+1. align
+2. round
+3. border
+4. width
+
+
+- Image yolumuzu yazarken bir üst dizine nasıl çıkarız? 
+1. /.
+2. ./
+3. ../
+4. //
+
+- Hangisi bir image formatı değildir? 
+1. svg
+2. ico
+3. png
+4. ogg
 
 
 
+### Cevaplar ###
+İlk sorunun cevabı href,
+ikinci sorunun cevabı border,
+üçüncü sorunun cevabı ../ , 
+dördüncü sorunun cevabı ogg
 
 
 
