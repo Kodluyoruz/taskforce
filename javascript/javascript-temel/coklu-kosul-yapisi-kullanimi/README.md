@@ -34,6 +34,7 @@ switch(hava) {
       break;
   case "Firtinali":
       console.log("Bir süre disari cikma");
+      break;
   default:
       console.log("Bilinmeyen hava durumu:" , hava);
 }
