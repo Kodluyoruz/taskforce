@@ -15,43 +15,46 @@ Sınıfın örneği alınarak yeni bir nesne oluşturulduğunda, sınıfın sahi
 Basit bir sınıf tanımlayarak işe başlayalım.
 
 ```java
-class Cake
+class Box
 {
 	double width;
 	double height;
 	double depth;
-	double amountOfCreme;
-	double retailPrice;
 	
-	boolean isFresh()
+	boolean isCube()
 	{
-		// returns state of the cake. If it is still fresh, retun true.
+		// returns state of the box. If it is an box, returns true.
 	};
 }
 ```
 
-Yukarıda, _Cake_ adında yeni bir sınıf tanımladık. Bu sınıfın 5 alanı vardır: genişlik, yükseklik, derinlik, krema miktarı ve satış fiyatı. Ayrıca her sınıfın ortak davranışlarını da tanımlayabiliriz. Örnekte her pasta için tazelik kontrolü yapılmasına yarayan; isFresh adlı bir fonksiyon da ekledik. Her yeni sınıfın yeni bir tür tanımladığını daha önce belirtmiştik. Fakat unutmayın, sınıf tanımlamak yeni bir nesne oluşturmaz, sadece nesne şablonu belirtmiş olur.
+Yukarıda, _Box_ adında yeni bir sınıf tanımladık. Bu sınıfın 5 alanı vardır: genişlik ve yükseklik. Ayrıca her sınıfın ortak davranışlarını da tanımlayabiliriz. Örnekte her box için küplük kontrolü yapılmasına yarayan; isCube adlı bir fonksiyon da ekledik. Her yeni sınıfın yeni bir tür tanımladığını daha önce belirtmiştik. Fakat unutmayın, sınıf tanımlamak yeni bir nesne oluşturmaz, sadece nesne şablonu belirtmiş olur.
 
 Sınıfın örneğini alarak yeni bir nesne oluşturmak için **new** deyimini kullanırız:
 
 ```java
-Cake lemonCake = new Cake();
+Box box1 = new Box();
 ```
 
-Burada _Cake_ türünde yeni bir nesne oluşturduk ve bu nesneyi yine _Cake_ türünde bir değişkene atadık. Bu kodu çalıştırdığımız zaman, _Cake_ şablonuna uygun olarak bir nesne oluşturulur ve hafızaya kaydedilir. Burada sınıf ile nesne kavramları arasındaki farkı iyi anlayalım: _Cake_ bir sınıf, _lemonCake_ ise bu sınıfa göre oluşturulmuş bir nesnedir.
+Burada _Box_ türünde yeni bir nesne oluşturduk ve bu nesneyi yine _Box_ türünde bir değişkene atadık. Bu kodu çalıştırdığımız zaman, _Box_ şablonuna uygun olarak bir nesne oluşturulur ve hafızaya kaydedilir. Burada sınıf ile nesne kavramları arasındaki farkı iyi anlayalım: _Box_ bir sınıf, _box1_ ise bu sınıfa göre oluşturulmuş bir nesnedir.
 
 Her nesnenin alanlarının birbirinden bağımsız olduğunu söylemiştik. Şimdi bunu inceleyelim:
 
 ```java
-Cake strawberryCake = new Cake();
-Cake bananaCake = new Cake();
+Box matchBox = new Box();
+Box shoeBox = new Box();
 
-strawberryCake.width = 100.0;
-bananaCake.width = 150.0;
+matchBox.width = 100.0;
+shoeBox.width = 150.0;
 
-strawberryCake.retailPrice = 45.50;
-bananaCake.retailPrice = 59.90;
 ```
 
-Burada Cake türünde iki farklı nesne oluşturduk, fiyatlarına ve genişliklerine farklı değerler verdik. Buna göre _strawberryCake_ nesnesinin genişliği 100, fiyatı 45.50 iken; _bananaCake_ nesnesinin genişliği 150 ve fiyatı 59.90'dır. İki ayrı nesnenin alanları bağımsız olduğu için, birinin alanını değiştirdiğimizde diğeri bundan etkilenmez.
+Burada Cake türünde iki farklı nesne oluşturduk, genişliklerine farklı değerler verdik. Buna göre _matchBox_ nesnesinin genişliği 100 iken; _shoeBox_ nesnesinin genişliği 150'dir. İki ayrı nesnenin alanları bağımsız olduğu için, birinin alanını değiştirdiğimizde diğeri bundan etkilenmez.
 
+
+
+
+
+## Peki, eğer 2 parametreli yapıcıma genişlik ve derinliği gönderip, uzunluğu göndermezsem ne olur?
+
+Tabi ki paramatere geçtiğimiz yapıcı bizim gönderdiğimiz değerleri sırası ile alıp aynı işlemi yapacak. Yani genişliği bu yapıcı fonksiyona göndermemiz mümkün değil. Daha ileride bu tarz bir tasarımı nasıl yapacağımızı detaylıca anlatacağız.
