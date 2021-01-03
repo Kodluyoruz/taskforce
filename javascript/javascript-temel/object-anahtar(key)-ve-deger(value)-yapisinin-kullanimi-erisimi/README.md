@@ -1,4 +1,4 @@
-# Objeler Key - Value Çiftleri Erişim ve Metodları
+# Object Anahtar(Key) ve Değer(Value) Yapısının Kullanımı ve Metodları
 
 Bir obje(object), {…} süslü parantezleri ile,  isteğe bağlı olarak bir özellikler(property) listesiyle oluşturulabilir. Property bir "anahtar(key): değer(value)" çiftidir ve burada key("property name" de denir) bir string(yazı tipinde), value herhangi bir veri tipi olabilir.
 
