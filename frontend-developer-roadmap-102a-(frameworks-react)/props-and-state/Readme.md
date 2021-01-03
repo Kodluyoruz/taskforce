@@ -166,7 +166,7 @@ this.setState({ property: value}, callback)
 ```javascript
 artir = () => {
   	this.setState({ count: this.state.count + 1 }, () => console.log(this.state.count))
-	}
+}
 ```
 
 Bu şekilde `setState` ile güncellenen `count` properety'sinin güncellendiğinden emin olabiliriz. Yani console'a basılan `count` değerinin güncel halde olduğunu söyleyebiliriz. 
