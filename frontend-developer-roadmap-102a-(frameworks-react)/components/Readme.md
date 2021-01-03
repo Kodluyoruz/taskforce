@@ -118,7 +118,7 @@ ReactDOM.render(
 );
 ```
 
-Burada name attribute farklı değerler alarak `Welcome` componentinin birden fazla kullanımına olanak sağladığını görüyoruz. 
+Burada name attribute farklı değerler alarak `Welcome` component'inin birden fazla kullanımına olanak sağladığını görüyoruz. 
 
 [Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/ZEpEMPg)
 
