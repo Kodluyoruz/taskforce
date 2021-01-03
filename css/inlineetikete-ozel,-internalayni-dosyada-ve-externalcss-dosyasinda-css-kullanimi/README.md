@@ -105,10 +105,11 @@ Bu üç CSS özelliğinin nasıl kullanıldığını öğrendiğinize göre aşa
 ### Sorular
 
 * [ 1)	Internal yöntemi kullanırken yazdığımız CSS kodlarını hangi element içine yazmamız gerekir?]
-* <body>
-* <script>
-* <head> (Doğru)
-* <footer>
+
+* ``<body>``
+* ``<script>``
+* ``<head>`` (Doğru)
+* ``<footer>``
   
 * [ 2)	Aşağıda verilen kod hangi CSS yöntemi ile kullanılmıştır?]
 
