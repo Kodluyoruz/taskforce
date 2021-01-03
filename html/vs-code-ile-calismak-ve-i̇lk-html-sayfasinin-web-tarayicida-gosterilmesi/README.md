@@ -14,7 +14,7 @@ VS Code programını ücretsiz bir şekilde [bu adresten](https://code.visualstu
 
 ### Visual Studio Code ile Dosyaların Oluşturulması
 
-Öncelikle VS Code'da çalışabilmemiz için bilgisyarımızda çalışacağımız klasörü oluşturmamız gerekmektedir. Örneğin masaüstünde çalışmak istiyorsak ve yazdığımız kodları burada tutmak istiyorsak ilk olarak masaüstünde bir klasör oluşturmamız gerekmektedir. Klasör oluşturma işlemini tamamladıktan sonra bilgisayarımıza yüklediğimiz VS Code programımızı çalıştırıyoruz ve karşımıza şu şekilde bir ekran çıkıyor;
+Öncelikle VS Code'da çalışabilmemiz için bilgisayarımızda çalışacağımız klasörü oluşturmamız gerekmektedir. Örneğin masaüstünde çalışmak istiyorsak ve yazdığımız kodları burada tutmak istiyorsak ilk olarak masaüstünde bir klasör oluşturmamız gerekmektedir. Klasör oluşturma işlemini tamamladıktan sonra bilgisayarımıza yüklediğimiz VS Code programımızı çalıştırıyoruz ve karşımıza şu şekilde bir ekran çıkıyor;
 
 ![vscode-start](figures/vscode-start.jpg)
 
@@ -52,20 +52,29 @@ h1 etiketleri arasına istediğimiz bir başlığı yazabiliriz. Aşağıda veri
 
 Oluşturduğumuz dosyamızı çalıştırmadan önce kaydetmemiz gerekmektedir. Eğer bir değişiklik yapmış ve dosyamızı kaydetmemişsek yazdığımız dosyanın üzerinde bir nokta ve en solda Explorer'da kaç dosyanın kayıtlı olmadığı gösteren bir ikon göreceğiz.
 
-
 ![vscode-dosya](figures/vscode-dosya.png)
 
 Oluşturduğumuz index dosyamızı File > Save ile veya CTRL+S ile kaydettikten sonra ilk html etiketimizi web browserda görüntüleyebilmek için ana klasörümüzün altında oluşturduğumuz index dosyamızı açıyoruz.
 
-ve ilk HTML Sayfamız WEB Tarayacımızda Görülmekte
+veeee ilk HTML Sayfamız WEB Tarayacımızda Görülmekte
 
 ![vscode-ilk-html](figures/vscode-ilk-html.JPG)
-
-
 ### Sorular
 
+- Aşağıdakilerden hangisinde HTML dosyasının ismi doğru yazılmıştır?
+  - [ ] index
+  - [ ] index.html (Doğru)
+  - [ ] index.
+  - [ ] index.html.index
 
+- Aşağıda verilen h1 etiketlerinden ve yazılan başlıklardan hangisi doğrudur?
+  - [ ] ```<h1> Başlık </h1>``` (Doğru)
+  - [ ] ```<h1></h1> Başlık```
+  - [ ] ``` Başlık<h1></h1>```
+  - [ ] ```<h1 Başlık> </h1>```
 
 ### Kaynak
 
 Kodluyoruz Frontend End 101 Video Eğitimi - Hakan Yalçınkaya
+
+https://code.visualstudio.com/
