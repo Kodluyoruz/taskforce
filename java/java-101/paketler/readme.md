@@ -41,6 +41,8 @@ paket2 içerisindeki "Kodluyoruz" sınıfını kullanmak için paket2, paket1 i�
 
 
 
+
+
 **NOT:** Sınıf isimleri ile çakışmaması için paket isimleri **küçük** harfle yazılmalıdır.
 
 
