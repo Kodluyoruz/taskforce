@@ -1,7 +1,7 @@
 # React Ref's
 
-Ref'ler, React tarafından sağlanan, DOM elemanlarına ve kendi yarattığınız React elemanlarına ulaşmak için kullanılan bir fonksiyondur. Render edilen objenin referansıdır.
-Ref'ler React geliştiricileri için bir imdat çıkışıdır.Çoğu zaman Ref'lerin kullanımından kaçınmak gerekse de, bir componente metot eklerken veya DOM ile işlemler yaparken kullanışlı olabilir.
+Ref'ler, React tarafından sağlanan, DOM element'lerine ve kendi yarattığınız React element ulaşmak için kullanılan bir fonksiyondur. Render edilen objenin referansıdır.
+Ref'ler React geliştiricileri için bir imdat çıkışıdır. Çoğu zaman Ref'lerin kullanımından kaçınmak gerekse de, bir component'e metot eklerken veya DOM ile işlemler yaparken kullanışlı olabilir.
 
 ## Ref'ler Ne Zaman Kullanılmalıdır 
 
@@ -17,12 +17,12 @@ Ref'leri kulllanmak için bir kaç iyi senaryo vardır:
 
 1. Bildirimsel (declarative) olarak halledilebilecek durumlar için ref’leri kullanmaktan kaçının. Örneğin, bir *Dialog* bileşeni için *open()* ve *close()* metodlarını kullanmak yerine, *isOpen* prop’unu *Dialog*‘a atayabilirsiniz.
 
-2. Eğer çok fazla Ref kullandıysanız bu da bir problemdir
+2. Eğer çok fazla Ref kullandıysanız bu da bir problemdir.
 
 
 ## Ref'ler Nasıl Oluşturulur
 
-Ref’ler, React.createRef() kullanılarak oluşturulur ve React elemanlarına ref özelliğini kullanarak eklenir. Ref’ler genellikle bir bileşen oluşturulduğunda, bir nesnenin özelliğine atanır. Böylelikle refler bileşen boyunca referans alınabilir.
+Ref’ler, React.createRef() kullanılarak oluşturulur ve React element'lerine ref özelliğini kullanarak eklenir. Ref’ler genellikle bir bileşen oluşturulduğunda, bir nesnenin özelliğine atanır. Böylelikle refler bileşen boyunca referans alınabilir.
 
 ```javascript
 
@@ -40,7 +40,7 @@ class MyComponent extends React.Component {
 
 ## Ref'lere Erişim
 
-Bir ref, render içerisinde bir elemena aktarıldığında, o düğüme bağlı bir referans, ref’in current özelliğinde erişilebilir hale gelir.
+Bir ref, render içerisinde bir element'e aktarıldığında, o düğüme bağlı bir referans, ref’in current özelliğinde erişilebilir hale gelir.
 
 ```javascript
 
@@ -50,7 +50,7 @@ const node = this.myRef.current;
 
 Ref’in değeri, düğüm türüne bağlı olarak değişir.
 
-1. *ref* özelliği bir HTML elemanında kullanıldığında, constructorda *React.createRef()* ile oluşturulan ref, esas DOM elemanını kendisinin *current* özelliği olarak alır.
+1. *ref* özelliği bir HTML elemanında kullanıldığında, constructorda *React.createRef()* ile oluşturulan ref, esas DOM element'ini kendisinin *current* özelliği olarak alır.
 
 2. *ref* özelliği özel bir sınıf bileşeninde kullanıldığında, ref nesnesi bileşenin yerleştirilmiş nesnesini *current* olarak alır.
 
@@ -58,7 +58,7 @@ Ref’in değeri, düğüm türüne bağlı olarak değişir.
 
 Aşağıda göreceğiniz örnekler bunu daha iyi açıklamaktadır.
 
-## DOM Elemanına Ref Ekleme
+## DOM Element'ine Ref Ekleme
 
 Bu kod bir DOM düğümüne referans saklamak için ref kullanır:
 
@@ -98,7 +98,7 @@ class CustomTextInput extends React.Component {
 
 ```
 
-Bileşen oluşturulduğunda, React `current` özelliğini DOM elemanı ile atayacak ve bileşen çıkarıldığında `null`a atayacak. `ref` güncellemeleri `componentDidMount` veya `componentDidUpdate` yaşam döngüsü metodlarından önce gerçekleşir.
+Component oluşturulduğunda, React `current` özelliğini DOM element'i ile atayacak ve bileşen çıkarıldığında `null`a atayacak. `ref` güncellemeleri `componentDidMount` veya `componentDidUpdate` yaşam döngüsü metodlarından önce gerçekleşir.
 
 
 
@@ -137,8 +137,8 @@ class CustomTextInput extends React.Component {
 
 ```
 
-## Refler ve Fonksiyon Bileşenleri
-Varsayılan olarak ref değişkenlerini fonksiyon değişkenleri içinde kullanmazsınız, çünkü fonksiyon bileşenlerinin nesneleri olmaz:
+## Refler ve Functional Component'ler
+Varsayılan olarak ref değişkenlerini fonksiyon değişkenleri içinde kullanmazsınız, çünkü functional component'lerin nesneleri olmaz:
 
 ```javascript
 
@@ -161,9 +161,9 @@ class Parent extends React.Component {
 
 ```
 
-Eğer insanların fonksiyon bileşenleriniz için ref kullanmalarına izin vermek istiyorsanız, `forwardRef` (muhtemelen `useImperativeHandle` ile birlikte) kullanabilir, veya bileşeninizi bir sınıfa çevirebilirsiniz.
+Eğer insanların functional component'leriniz için ref kullanmalarına izin vermek istiyorsanız, `forwardRef` (muhtemelen `useImperativeHandle` ile birlikte) kullanabilir, veya bileşeninizi bir sınıfa çevirebilirsiniz.
 
-Bir DOM elemanını veya sınıf bileşenini işaret ettiğiniz sürece fonksiyon bileşeni içerisinde ref kullanabilirsiniz:
+Bir DOM element'ini veya class component'ini işaret ettiğiniz sürece functional component içerisinde ref kullanabilirsiniz:
 
 ```javascript
 
@@ -191,22 +191,22 @@ function CustomTextInput(props) {
 
 ```
 
-## DOM Ref’lerini Üst Bileşenlerde Açığa Çıkarma
+## DOM Ref’lerini Üst Component'lerde Açığa Çıkarma
 
-Nadiren, bir child bileşenin DOM düğümüne parent bileşenden erişmek isteyebilirsiniz. Bu genelde önerilmez, çünkü bu olay bileşenin kapsüllenmesini(encapsulation) bozar. Ancak bazen odağı tetiklemek veya bir child DOM düğümünün boyutunu veya konumunu hesaplamak için faydalı olabilir. 
+Nadiren, bir child component'in DOM düğümüne parent component'den erişmek isteyebilirsiniz. Bu genelde önerilmez, çünkü bu olay component'in kapsüllenmesini (encapsulation) bozar. Ancak bazen odağı tetiklemek veya bir child DOM düğümünün boyutunu veya konumunu hesaplamak için faydalı olabilir. 
 
-Alt bileşene ref ekleyebilirsiniz. Ancak bu ideal bir çözüm değildir. DOM düğümünden ziyade sadece bir tane bileşen nesnesi alırsınız. Ek olarak bu, fonksiyon bileşenleri ile çalışmaz.
+Alt component'lere ref ekleyebilirsiniz. Ancak bu ideal bir çözüm değildir. DOM düğümünden ziyade sadece bir tane component nesnesi alırsınız. Ek olarak bu, functional component'ler ile çalışmaz.
 
-Eğer mümkünse, DOM düğümlerini açığa çıkarmamanızı tavsiye ediyoruz. Fakat bu bazen faydalı bir kaçış yolu olabilir. Bu yaklaşımın, child bileşene bazı kodlar eklemenizi gerektirdiğini unutmayın. Eğer child bileşen üzerinde hiç bir kontrolünüz yoksa, son çareniz `findDOMNode()` kullanmaktır, ama bu `StrictMode` içerisinde kullanımdan kaldırılmıştır.
+Eğer mümkünse, DOM düğümlerini açığa çıkarmamanızı tavsiye ediyoruz. Fakat bu bazen faydalı bir kaçış yolu olabilir. Bu yaklaşımın, child component'e bazı kodlar eklemenizi gerektirdiğini unutmayın. Eğer child component üzerinde hiçbir kontrolünüz yoksa, son çareniz `findDOMNode()` kullanmaktır, ama bu `StrictMode` içerisinde kullanımdan kaldırılmıştır.
 
 
 ## Callback Refs
 
 React ayrıca, `callback refs` adı verilen refleri ayarlamanın başka bir yolunu da destekler. Bu, ref’ler ayarlandıklarında veya ayarlanmadıkları zamanlarda daha fazla kontrole sahip olmalarını sağlar.
 
-`createRef()` tarafından oluşturulan bir refi atamak yerine, bir fonksiyon atarız. Fonksiyon, React bileşeninin nesnesini veya HTML DOM elemanını bir argüman olarak alır, böylelikle bileşenin nesnesi başka bir yerde saklanabilir ve erişilebilir.
+`createRef()` tarafından oluşturulan bir ref'i atamak yerine, bir fonksiyon atarız. Fonksiyon, React bileşeninin nesnesini veya HTML DOM elemanını bir argüman olarak alır, böylelikle bileşenin nesnesi başka bir yerde saklanabilir ve erişilebilir.
 
-Aşağıdaki örnekte yaygın bir kullanım uygulanmıştır. ref callback’i kullanarak bir nesnenin özelliğinde DOM düğümüne bir referans kaydedilir.
+Aşağıdaki örnekte yaygın bir kullanım uygulanmıştır. Ref callback’i kullanarak bir nesnenin özelliğinde DOM düğümüne bir referans kaydedilir.
 
 ```javascript
 
@@ -253,9 +253,9 @@ class CustomTextInput extends React.Component {
 
 ```
 
-React, bileşen eklendiğinde DOM elemanı ile beraber `ref` callback’ini çağırır ve bileşen çıkarıldığında da `null` ile çağırır. Ref’lerin, `componentDidMount` veya `componentDidUpdate` tetiklenmeden önce güncel oldukları garanti edilir.
+React, component eklendiğinde DOM elemanı ile beraber `ref` callback’ini çağırır ve component çıkarıldığında da `null` ile çağırır. Ref’lerin, `componentDidMount` veya `componentDidUpdate` tetiklenmeden önce güncel oldukları garanti edilir.
 
-`React.createRef()` ile oluşturulan nesne ref’leri gibi, Callback ref’lerini de bileşenler arasında aktarabilirsiniz.
+`React.createRef()` ile oluşturulan nesne ref’leri gibi, Callback ref’lerini de component'ler arasında aktarabilirsiniz.
 
 ```javascript
 
@@ -279,11 +279,11 @@ class Parent extends React.Component {
 
 ```
 
-Yukarıdaki örnekte, `Parent` , ref callback’ini `inputRef` prop’u olarak `CustomTextInput`una aktarır ve `CustomTextInput`u aynı fonksiyonu özel bir ref özelliği olarak `<input>`a aktarır. Sonuç olarak, `Parent`taki `this.inputElement`i, `CustomTextInput`taki `<input>` elemanına karşılık gelen DOM düğümüne set edilir.
+Yukarıdaki örnekte, `Parent` , ref callback’ini `inputRef` prop’u olarak `CustomTextInput`una aktarır ve `CustomTextInput`u aynı fonksiyonu özel bir ref özelliği olarak `<input>`a aktarır. Sonuç olarak, `Parent`taki `this.inputElement`i, `CustomTextInput`taki `<input>` element'ine karşılık gelen DOM düğümüne set edilir.
 
 ## Callback Ref'lerine Dair Uyarılar
 
-Eğer ref callback bir satıriçi fonksiyon olarak tanımlanmışsa, güncelleme anında iki kez çağırılacaktır. İlk olarak null ile, sonrasında DOM elemanı yeniden çağrılır. Bunun sebebi, fonksiyonun bir nesnesi her render’da oluşturulur. Bu yüzden React eski ref’i kaldırır ve yenisini ekler. Bunu önlemek için ref callback’ini sınıfa bağlı bir metod olarak tanımlayabilirsiniz. Ancak bu, birçok durumda önemli değildir.
+Eğer ref callback bir satıriçi fonksiyon (inline function) olarak tanımlanmışsa, güncelleme anında iki kez çağırılacaktır. İlk olarak null ile, sonrasında DOM element'i yeniden çağrılır. Bunun sebebi, fonksiyonun bir nesnesi her render’da oluşturulur. Bu yüzden React eski ref’i kaldırır ve yenisini ekler. Bunu önlemek için ref callback’ini sınıfa bağlı bir metot olarak tanımlayabilirsiniz. Ancak bu, birçok durumda önemli değildir.
 
 
 
