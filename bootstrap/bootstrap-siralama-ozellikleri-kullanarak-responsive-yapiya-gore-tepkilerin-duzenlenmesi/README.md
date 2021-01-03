@@ -5,7 +5,7 @@ Bootstrap'de sıralama özelliği(order),içeriklerin HTML'de yazılan sırayla 
 1.İçeriğiniz | 2.İçeriğiniz |3.İçeriğiniz
 -- | -- | -- 
 
-Bura web sitenizin xl görüntüsü olsun istiyorsunuz fakat sm genişliğinde ise aşağıdaki görüntü oluşsun istiyorsunuz
+Web sitenizin xl görüntüsü bu şekilde olsun istiyorsunuz fakat sm genişliğinde ise aşağıdaki görüntü oluşsun istiyorsunuz
 
 3.İçeriğiniz | 2.İçeriğiniz |1.İçeriğiniz
 -- | -- | -- 
