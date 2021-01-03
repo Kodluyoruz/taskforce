@@ -5,7 +5,7 @@ CSS, web sitenizin ekranda nasıl görüneceğini belirleyen belirli stil kurall
 External stil sayfası, bir web sayfasından bağlanan bağımsız bir ``.css`` dosyasıdır. External stil sayfasının avantajı, bir kez oluşturulabilmesi ve birden çok web sayfasına uygulanabilmesidir. Site tasarımınızda geniş çaplı değişiklikler yapmanız gerekirse eğer, stil sayfasında tek bir değişiklik yapabilirsiniz ve bu değişiklik tüm bağlantılı sayfalara uygulanarak zamandan ve emekten tasarruf sağlar.
 
 <p align="center">
-  <img src="figures/css-yapisi.jpg" width="750" title="img">
+  <img src="figures/css-yapisi.jpg" width="650" title="img">
 </p>
 
 Internal stil sayfası, HTML dosyasının ``<head>`` bölümünde sayfa için CSS kural kodlarını barındırır. Kural kodları yalnızca o sayfa için geçerlidir, ancak sayfa kodunda birden çok öğeye stil uygulamak için kullanılabilecek class ve id’leri yapılandırabilirsiniz. Yine, CSS kodunda yapılacak tek bir değişiklik, sayfadaki tüm etiketlenmiş öğelere uygulanacaktır.
