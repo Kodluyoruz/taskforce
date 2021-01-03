@@ -64,7 +64,7 @@ Ancak elementler, kullanıcı tanımlı component'ler de olabilirler:
 const element = <Welcome name="Sinan" />;
 ```
 
-React, kullanıcı tanımlı bir component gördüğü zaman, JSX özelliklerini ve alt elemanlarını (HTML'den tanıdık olduğumuz attribute/property olarak düşünebiliriz) bu componente tek bir obje olarak aktarır. Bu nesneye “**props**” adı verilir.
+React, kullanıcı tanımlı bir component gördüğü zaman, JSX özelliklerini ve alt elemanlarını (HTML'den tanıdık olduğumuz attribute/property olarak düşünebiliriz) bu componente tek bir obje olarak aktarır. Bu objeye “**props**” adı verilir.
 
 Örneğin aşağıdaki kod, sayfada “Merhaba, Sinan” mesajını görüntüler:
 
