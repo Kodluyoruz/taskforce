@@ -1,5 +1,7 @@
 # Java Gün ve Zaman İşlemleri (Date &amp; Time)
 
+
+
 Java 7 ve öncesinde Date ile ilgili işlemlere yardımcı olan sınıflar &quot;java.util&quot; paketi altındadır. Özellikle, Date sınıfı tarih ve zamanı ifade eden nesneler oluşturulmasını sağlar.
 
 Date sınıfının iki tane kurucu metodu vardır.
@@ -69,6 +71,10 @@ System.out.println("Parsed Date: " + parsedDate.toString());
 ````
 
 ## Java8 Tarih/Zaman (Date/Time) API
+
+![Date_Util](C:\Users\serda\Desktop\taskforce-java1\java\java-101\date-time\figures\Date_Util.jpg)
+
+> *Resim: DateTime API paket içeriği*
 
 Java 8 ile birlikte tarih ve zaman bilgisini işleyen yapılar ve sınıflar değiştirildi. Daha esnek ve kullanımı kolay fonksiyonlar ve sınıflar haline dönüştü.
 
@@ -241,11 +247,16 @@ String formatliTarihSaat=tarihSaat.format(tarihSaatFormat);
 
 Çıktı: 02&&01&&2021 // 10:47 ÖS
 
-> **Araştırma:** Bir tarihin formatlanması, type-safe olması bize ne gibi kazanımlar sağlar araştırınız.
+> **1.Soru**:  Tarih ve saat işlemlerini nerelerde kullanabiliriz?
+>
+> **2.Soru**: Tarih ve saatlerin formatlanmasına neden ihtiyaç duyarız?
+>
+> **3.Soru:** Type-Safe olmayan tarih-zaman işlerinde ne gibi problemler yaşayabiliriz?.
 
 ## Kaynak:
 
 * [Kaynak 1](https://howtodoinjava.com/java/date-time/java8-datetimeformatter-example/)
 * [Kaynak 2](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html)
 * [Kaynak 3](https://www.javatpoint.com/java-date)
+* [Resim Kaynağı](https://codenuclear.com/java-8-date-time-intro/)
 
