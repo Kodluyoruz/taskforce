@@ -134,3 +134,7 @@ Konuyla ilgili birkaç soru sorabiliriz. Akış sınıfları neden byte ve karak
 Akış sınıfları ile ilgili önemli noktalar nelerdir?
 Akış sınıflarında hangi metotlar kullanılır?
 
+[1.fotoğraf](https://hajsoftutorial.com/java/wp-content/uploads/2015/10/Untitled41.png)
+[2.fotoğraf](https://hajsoftutorial.com/java/wp-content/uploads/2015/10/Untitled3.png)
+[3.fotoğraf](https://blog.eduonix.com/wp-content/uploads/2014/08/111.jpg)
+
