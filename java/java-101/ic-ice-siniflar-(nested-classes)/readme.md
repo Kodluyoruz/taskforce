@@ -6,6 +6,8 @@
 
 İçteki sınıf, dıştaki sınıfın bütün alanlarına ve metotlarına erişebilir. Dıştaki sınıf tek olmasına rağmen, içteki sınıfın birden fazla örneği alınabilir; bu gibi durumlarda içteki sınıftan oluşturulan nesnelerin hepsi aynı dıştaki sınıfa erişir.
 
+Peki iç içe sınıfları ne zaman kullanmalıyız ? Bir sınıfın varlığı başka bir sınıfa bağlı ise, tek başına var olması mümkün değilse iç içe sınıfları kullanabiliriz. Örneğin bir üniversiteyi düşünecek olursak, her bölüm varlık için bir fakülteye ihtiyaç duyuyorsa, bu bölümün fakülte olmadan varlığının bir anlamı yoksa iç içe sınıflar kullanılabilir. Fakat fakülteden bağımsız bölümler veya birden fazla fakülteye bağlı olan bölümler için iç içe sınıflar kullanmak hatalı bir yaklaşım olacaktır.
+
 ```java
 class Outer
 {
@@ -132,6 +134,34 @@ class Outer
 ```
 
 Yukarıdaki kod hataya neden olur; çünkü statik olarak belirlenmiş içteki Inner sınıfı dıştaki sınıfın statik olmayan number değişkenine erişmeye çalışıyor.
+
+
+
+## İçteki sınıfı private yapmak
+
+İçteki sınıflar static yapılabildiği gibi, içteki sınıfa dışarıdan bir erişim sağlanmasının önüne geçmek için, private ve protected erişim belirleyicileri de kullanılabilir.
+
+```java
+class Outer {
+  int x = 10;
+
+  private class Inner {
+    int y = 5;
+  }
+}
+
+public class Main {
+  public static void main(String[] args) {
+    Outer outer = new Outer();
+    Outer.Inner inner = outer.new Inner();
+    System.out.println(inner.y + outer.x);
+  }
+}
+```
+
+Yukarıdaki kod dışarıdan, private bir sınıfa erişmek istediği için hataya neden olur.
+
+
 
 ## Değişken sayıdaki metot argümanları (Varargs: variable-length arguments)
 
@@ -272,3 +302,14 @@ add(1);
 ```
 
 Bu kod belirsizliğe sebep olur; çünkü metodun her 2 tanımına da uygundur. Dolayısıyla Java ortamı hangisini çalıştıracağına karar veremez.
+
+
+
+
+
+### Kaynaklar:
+
+[w3schools.com](https://www.w3schools.com)
+
+[bilgisayarkavramlari.com](http://bilgisayarkavramlari.com)
+
