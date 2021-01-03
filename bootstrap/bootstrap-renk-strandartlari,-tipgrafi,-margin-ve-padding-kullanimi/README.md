@@ -109,15 +109,7 @@ Paragrafın font stillendirmesi daha okunabilir ve standart paragrafa göre yaz�
 
 > The Internet is for everyone.
 
-HTML kodlarımızda bazen vurgulamak istediğimiz kelimeleri ve ya bir yazıyı inline elementler ile belirtebiliriz. ~~~Üstünü çizmek istersek~~~, **kalın** ve/ya _italic_ yapmak istersek gibi. Bunu yapmanın bir kaç yolu var tabiki. Inline elementler kullanarak `<strong></strong>` gibi ve/ya inline element kullanmadan bir stillendirme vererek de bu sonucu elde edebiliriz.
-
-<dl>
-  <dd><mark>Highlight</mark></dd>
-  <dd><u>Altı çizili</u></dd>
-  <dd><em>Kalın</em>.</dd>
-  <dd><em>italic</em>.</dd>
-  <dd><small>küçük yazı</small></dd>
-</dl>
+HTML kodlarımızda bazen vurgulamak istediğimiz kelimeleri ve ya bir yazıyı inline elementler ile belirtebiliriz. ~~Üstünü çizmek istersek~~, **kalın** ve/ya _italic_ yapmak istersek gibi. Bunu yapmanın bir kaç yolu var tabiki. Inline elementler kullanarak `<strong></strong>` gibi ve/ya inline element kullanmadan bir stillendirme vererek de bu sonucu elde edebiliriz.
 
 ```
 <p><mark>Highlight</mark></p>
@@ -133,7 +125,7 @@ Diğer bir çözüm bootstrap tarafından bize sağlanan classları html etiketi
 
 `.mark .small .text-decoration-underline` gibi.
 
-Bir kelime bütününü ve/ya cümleyi gerçekten **vurgulamak**, _italic_ kullanmak, ~~~üstünü çizmek~~~ şeklinde kullanıp o yapıya bir anlam yükleyecek isek tercihen html taglarini kullanmak önemlidir. Bu şekilde Ekran okuyuculara bu anlamı belirtmiş olur ve en öenmlisi engeli olan ve interneti kullanan bireylere de bu mesajı vermiş oluruz.
+Bir kelime bütününü ve/ya cümleyi gerçekten **vurgulamak**, _italic_ kullanmak, ~~üstünü çizmek~~ şeklinde kullanıp o yapıya bir anlam yükleyecek isek tercihen html taglarini kullanmak önemlidir. Bu şekilde Ekran okuyuculara bu anlamı belirtmiş olur ve en öenmlisi engeli olan ve interneti kullanan bireylere de bu mesajı vermiş oluruz.
 
 > The Internet is for everyone.
 
@@ -229,4 +221,4 @@ Yukarıdakilere ek olarak yatayda bir elementi tam olarak merkeze alabilmek içi
 
 ---
 
-[Elleri kirletmek için...](https://getbootstrap.com/docs/5.0/examples/ 'Bootstrap Docs - Examples')
+[Pratik Pratik Pratik](https://getbootstrap.com/docs/5.0/examples/ 'Bootstrap Docs - Examples')
