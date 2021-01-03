@@ -106,9 +106,8 @@ Bir HTML etiketini her kapatışınızda, en son kapatılmamış etiketi kapatt�
 
 # Kaynaklar
 
-- [informit.com]: https://www.informit.com/articles/article.aspx?p=2472081	"Learning the Basics of HTML"
+- Learning the Basics of HTML [informit.com](https://www.informit.com/articles/article.aspx?p=2472081)
 
-- [w3schools.com]: https://www.w3schools.com/w3css/w3css_web_html.asp	"Using an HTML Skeleton"
-
+- Using an HTML Skeleton [w3schools.com](https://www.w3schools.com/w3css/w3css_web_html.asp)
   
 
