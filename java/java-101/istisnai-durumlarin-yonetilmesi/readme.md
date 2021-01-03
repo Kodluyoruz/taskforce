@@ -132,3 +132,125 @@ public int readIntFromKeyboard() {
 Yukarıdaki örnekte &quot;Scanner&quot; sınıfından bir nesne üretiyoruz. Bu nesne klavyeden girilen değeri alıyor. 
 Aldığımız değeri int tipinde bir sayıya dönüştürüyoruz. Bu dönüşüm esnasında bir hata olsun ya da olmasın &quot;finally&quot; 
 bloğunda &quot;Scanner&quot; sınıfının dinlediği Stream&#39;i close ediyoruz.
+
+
+
+
+## Sorular
+
+[Kod Kaynağı](https://www.w3schools.com/java/java_files_read.asp)
+```java
+import java.io.File;  // Import the File class
+import java.io.FileNotFoundException;  // Import this class to handle errors
+import java.util.Scanner; // Import the Scanner class to read text files
+
+public class ReadFile {
+  public static void main(String[] args) {
+    try {
+      File myObj = new File("filename.txt");
+      Scanner myReader = new Scanner(myObj);
+      while (myReader.hasNextLine()) {
+        String data = myReader.nextLine();
+        System.out.println(data);
+      }
+      myReader.close();
+    }catch (Exception e){
+        System.out.println("An error occurred.");
+        e.printStackTrace();
+    } catch (FileNotFoundException e) {
+      System.out.println("An error occurred.");
+      e.printStackTrace();
+    } 
+  }
+}
+
+```
+Lütfen yukarıda yapılan hatayı bulunuz ve çözüm yöntemini seçiniz?
+1. File sınıfı yerine FileReader sınıfı kullanılmalıydı.
+2. **catch blokları yanlış kurgulanmıştır. Öncelikle FileNotFoundException bloğu gelmeliydi.**
+3. try bloğu içerisine yalnızca döngü konulmalıydı. myobj ve myReader nesnelerin oluşturulması dışarıda yapılmalıydı.
+4. while döngüsü içerisinde myReader.nextline() ifadesinin bulunduğu satır bir try ifadesi içerisine alınmalıdır.
+5. Herhangi bir hata bulunmamaktadır.
+
+
+[Kod Kaynağı](https://www.w3schools.com/java/java_files_read.asp)
+```java
+import java.io.File;  // Import the File class
+import java.io.FileNotFoundException;  // Import this class to handle errors
+import java.util.Scanner; // Import the Scanner class to read text files
+
+public class ReadFile {
+  public static void main(String[] args) {
+    try {
+      File myObj = new File("filename.txt");
+      Scanner myReader = new Scanner(myObj);
+      while (myReader.hasNextLine()) {
+        String data = myReader.nextLine();
+        System.out.println(data);
+      }
+      myReader.close();
+    } catch (FileNotFoundException e) {
+      System.out.println("An error occurred.");
+      e.printStackTrace();
+    } 
+  }
+}
+
+```
+Aşağıdakilerden hangisinin eklenmesi kodun daha iyi hale gelmesini sağlar?
+1. File sınıfı yerine FileReader sınıfı kullanmak.
+2. **finally bloğu eklemek ve myReader.close() fonksiyonunu bu blokta çalıştırmak.**
+3. try myobj ve myReader nesnelerin oluşturulmasını try bloğundan dışarıya çıkartmak.
+4. Her fonksiyon işletilen satırı ayrı ayrı try bloğu içerisine almak.
+5. Kod en iyi haldedir.
+
+```java
+public class ReadFile {
+    public static void main(String[] args) {
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        for (int i = 0; i <= cars.length ; i++) {
+            System.out.println(cars[i]);
+        }
+    }
+}
+```
+Yukarıdaki kod derlenip çalıştırıldığı zaman program çalışıp çökmektedir. Programın **çökmemesi** için aşağıdakilerden hangisi yapılabilir?
+1. **Döngü try-catch içerisine alınarak hatalı durumdaki davranış düzenlenebilir.**
+2. _int i = 0;_ tanımlaması döngüden önce yapılmalıdır.
+3. Dizideki elemanlar dizideki indexlere tek tek atanmalıdır.
+4. Döngü for yerine while ile tekrardan kurgulanmalıdır.
+5. Dizi ArrayList ile tekrardan hazırlanmalıdır.
+
+[Kod Kaynağı](https://www.w3schools.com/java/java_user_input.asp)
+```java
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+
+    System.out.println("Enter name, age and salary:");
+
+    // String input
+    String name = myObj.nextLine();
+
+    // Numerical input
+    int age = myObj.nextInt();
+    double salary = myObj.nextDouble();
+
+    // Output input by user
+    System.out.println("Name: " + name); 
+    System.out.println("Age: " + age); 
+    System.out.println("Salary: " + salary); 
+  }
+}
+```
+
+Yukarıdaki programın kullanıcıları geliştiricilerine programın bazen çöktüğünü bazen çalıştığını söylemişlerdir.
+Programın **çökmesini** engellemek için aşağadıkilerden hangisi yapılmalıdır?
+
+1. _System.out.println()_ fonksiyonu işletilen satırlar try-catch bloklarının içine alınmalı ve gerekli durumlarda programın davranışı düzenlenmelidir.
+2. Her nesne oluşumu try-catch bloklarının içine alınmalı ve gerekli durumlarda programın davranışı düzenlenmelidir.
+3. Scanner sınıfı yerine GetInput sınıfı kullanılmalıdır.
+4. main fonksiyonunun dönüş tipi void yerine String yapılmalı ve değerler dönüş değeri olarak verilmelidir.
+5. **_nextInt()_ ve _nextDouble()_ işletilen satırlar try-catch bloklarının içine alınmalı ve gerekli durumlarda programın davranışı düzenlenmelidir.**
