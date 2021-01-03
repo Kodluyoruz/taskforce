@@ -65,13 +65,13 @@ Burada önemli olan nokta `setState()` metodunun kullanımıdır. State objesi �
 
 **YANLIŞ KULLANIM**
 
-```react
+```javascript
 changeAge = () => {this.state.age = 3}
 ```
 
 ya da 
 
-```react
+```javascript
 changeAge = () => {this.state = {age: 3}}
 ```
 
@@ -166,7 +166,7 @@ this.setState({ property: value}, callback)
 ```javascript
 artir = () => {
   	this.setState({ count: this.state.count + 1 }, () => console.log(this.state.count))
-}
+	}
 ```
 
 Bu şekilde `setState` ile güncellenen `count` properety'sinin güncellendiğinden emin olabiliriz. Yani console'a basılan `count` değerinin güncel halde olduğunu söyleyebiliriz. 
@@ -191,7 +191,7 @@ Eğer ismi değiştirmek istersen bunda sorun yok çünkü ilk seviyede olan bir
 
 ```javascript
 this.setState({
-   name: "Sinan"
+	name: "Sinan"
 });
 ```
 
@@ -199,7 +199,7 @@ Ancak `hobbies` objesi üzerinde bir güncelleme yapmak istediğimizde hedef pro
 
 ```javascript
 this.setState({
-   hobbies: { dancing: true }
+	hobbies: { dancing: true }
 });
 ```
 
@@ -207,9 +207,9 @@ Bu şekilde güncelleme yapmaya çalışırsak eski data'yı kaybederiz. Yani `p
 
 Bu şekilde iç içe objelerde çalışırken, state'imizi **mutate etmemek** (istenmeyen bir şekilde değiştirmemek) için [spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) ya da [Object.assign](https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) metodunu kullanabiliriz.
 
-```react
+```javascript
 this.setState({
-  hobbies: {
+	hobbies: {
     ...this.state.hobbies, 
     dancing: true
   }
@@ -218,7 +218,7 @@ this.setState({
 
 Burada bahsedilebilecek bir diğer problem ise `setState`'e direkt obje vererek kullandığımızda önceki data'ya doğru referans verip vermediğini bilemiyor oluşumuz. Bahsettiğimiz üzere `setState` asenkron çalışır, bu sebeple state'in güncel versiyonda olup olmadığından emin olmalıyız. Bunu da çözmek için `setState`'e `prevState`'i argüman alan fonksiyon geçebiliriz.
 
-```react
+```javascript
 this.setState((prevState) => {
   return {
     hobbies: {
