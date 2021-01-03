@@ -4,7 +4,7 @@
 
 JSX (JavaScript XML) JavaScript için bir syntax uzantısıdır. XML/HTML benzeri bir syntax kullanarak JavaScript kodu yazmamıza olanak sağlar. Bu kod, önişlemciler (preprocessors) tarafından standart JavaScript koduna çevrilir ve böylece JavaScript engine tarafından anlaşılabilir hale gelir. Bu bağlamda bu görevi üstlenen [Babel](https://babeljs.io/docs/en/) adlı transpilerdır.
 
-**Not:** JSX, ES6, ES7 ve TypeScript [Babel](https://babeljs.io/docs/en/) aracılığıyla JS2015'e çevrilir.
+**Not:** JSX, ES6, ES7 ve TypeScript [Babel](https://babeljs.io/docs/en/) aracılığıyla tarayıcılarda uyumlu bir şekilde çalışabilecek standart JavaScript'e çevrilir.
 
 Basitçe ifade etmek gerekirse, JSX kullanmak HTML elemanlarını aynı JavaScript dosyası içerisinde yazmamıza olanak sağlar. Böylece JavaScript'i tüm gücüyle kullanmamız mümkün hale gelir. 
 
