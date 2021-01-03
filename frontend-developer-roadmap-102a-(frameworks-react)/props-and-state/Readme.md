@@ -191,7 +191,7 @@ Eğer ismi değiştirmek istersen bunda sorun yok çünkü ilk seviyede olan bir
 
 ```javascript
 this.setState({
-	name: "Sinan"
+   name: "Sinan"
 });
 ```
 
@@ -199,7 +199,7 @@ Ancak `hobbies` objesi üzerinde bir güncelleme yapmak istediğimizde hedef pro
 
 ```javascript
 this.setState({
-	hobbies: { dancing: true }
+   hobbies: { dancing: true }
 });
 ```
 
@@ -209,9 +209,9 @@ Bu şekilde iç içe objelerde çalışırken, state'imizi **mutate etmemek** (i
 
 ```javascript
 this.setState({
-	hobbies: {
-    ...this.state.hobbies, 
-    dancing: true
+   hobbies: {
+     ...this.state.hobbies, 
+     dancing: true
   }
 });
 ```
