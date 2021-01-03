@@ -2,7 +2,7 @@
 
 ## JSX Nedir?
 
-JSX (JavaScript XML) JavaScript için bir syntax uzantısıdır. XML/HTML benzeri bir syntax kullanarak JavaScript kodu yazmamıza olanak sağlar. Bu kod, önişlemciler (preprocessors) tarafından standart JavaScript koduna çevrilir ve böylece JavaScript engine tarafından anlaşılabilir hale gelir. Bu bağlamda bu görevi üstlenen [Babel](https://babeljs.io/docs/en/) adlı transpilerdır.
+JSX (JavaScript XML) JavaScript için bir syntax uzantısıdır. XML/HTML benzeri bir syntax kullanarak JavaScript kodu yazmamıza olanak sağlar. JSX, JavaScript'e dayanarak oluşturulmuştur ancak direkt olarak web tarayıcılarında çalışmaz. Bu kod, önişlemciler (preprocessors) tarafından standart JavaScript koduna çevrilir ve böylece JavaScript engine tarafından anlaşılabilir hale gelir. Bu bağlamda bu görevi üstlenen [Babel](https://babeljs.io/docs/en/) adlı transpilerdır.
 
 **Not:** JSX, ES6, ES7 ve TypeScript [Babel](https://babeljs.io/docs/en/) aracılığıyla tarayıcılarda uyumlu bir şekilde çalışabilecek standart JavaScript'e çevrilir.
 
