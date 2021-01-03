@@ -3,7 +3,7 @@
 Bir for döngüsü, _belirtilen koşul doğru olduğu sürece komutların çalıştırılmasını sağlar._ Koşul sağlanmazsa döngü çalışmayı durdurur.
 
 ```javascript
-for (BaşlangıçAtaması; Koşulİfadesi; artırımVeyaAzalımİfadesi) {
+for (BaşlangıçAtaması; Koşulİfadesi; döngüSonundaÇalışacakİfade) {
     "Koşul sağlanıyorsa(true) çalışmasını istediğim komutlar."
 }; 
 "Koşul sağlanmazsa(false) döngüden çıkılır."
@@ -68,7 +68,7 @@ https://codepen.io/sahinaykkt/pen/NWRYpNy?editors=0011
 ### Örnek 2: 0 ve 50 sayıları arasından çift olanları konsola yazdıralım.
 
 ```javascript
-for (var i = 1; i < 50; i++) {
+for (var i = 0; i < 50; i++) {
     if (i % 2 == 0) {
         console.log(i);
     };
