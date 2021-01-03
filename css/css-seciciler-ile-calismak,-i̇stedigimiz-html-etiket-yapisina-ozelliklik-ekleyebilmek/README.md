@@ -41,8 +41,8 @@ h1{
 }
 ```
 Kısaca CSS kodlarımızı nasıl yazabileceğimizi öğrendikten sonra şimdi CSS seçicileri kullanarak nasıl HTML taglarına erişebiliyoruz onlara bakalım.
-## CSS selectors (CSS seçicileri)
-### Genel seçici *
+# CSS selectors (CSS seçicileri)
+## Genel seçici *
 Bu seçiciyi kullanarak tüm etiketlere CSS uygula demiş oluyoruz.
 ```
 *{
@@ -56,7 +56,7 @@ div *{
 İlk kullanımda tüm elementlerin margin ve padding değerlerini sıfırlamış olduk.İkinci kullanımda ``div *`` diyerek tüm div elementleri içindeki elementlerin yazı rengine erişmiş olduk.
 
 
-### Element Seçiciler (Element Selectors)
+## Element Seçiciler (Element Selectors)
 Bu seçiciler ile doğrudan HTML etiket isimlerini kullanarak CSS uygulayabiliriz.
 ```
 div{
@@ -66,8 +66,8 @@ div{
 Tüm div etiketleri etkilenir.
 
 
-### Sınıf Seçiciler (Class Selectors)
-Bu tür seçiciler ile sınıf atadğımız etiketlere CSS uygulayabiliriz. Sınıf ismine erişmek için sınıf isminin başına nokta ``.`` ekliyoruz.
+## Sınıf Seçiciler (Class Selectors)
+Bu seçiciler ile sınıf atadığımız etiketlere CSS uygulayabiliriz. Sınıf ismine erişmek için sınıf isminin başına nokta ``.`` ekliyoruz.
  ```
 .turuncu{
   background-color: #FFA500;
@@ -83,8 +83,8 @@ p.mavi{
 
  ```
 Burada İkinci kullanımda ``p.mavi`` sınıf ismi mavi olan p elementlerine erişmiş olduk. Üçüncü kullanımda ``.large .mavi`` sınıfı large olan bir elementin içinde sınıfı mavi olan elemente eriştik.
- ### Id Seçiciler (Id Selectors)
- Bu tür seçiciler ile id atadığımız elementlere CSS uygulayabiliriz. Id' ler tek bir elemente ait olmalıdırlar. Id özelliğine erişmek id' nin başına ``#`` ekliyoruz.
+ ## Id Seçiciler (Id Selectors)
+ Bu seçiciler ile id atadığımız elementlere CSS uygulayabiliriz. Id' ler tek bir elemente ait olmalıdırlar. Id özelliğine erişmek id' nin başına ``#`` ekliyoruz.
  ```
 #mavi{
   background-color: #0000FF;
