@@ -432,7 +432,7 @@ Belirtilen etiketin sonuna CSS uygular.Kullanımı ``::before`` ile aynıdır.
   * ``.container h2``
   * ``.container + h2``
   * ``p + .container h2`` (Doğru)
-* [``a[href$="org"]:hover`` ile ifade edilmek istenen nedir?]
+* ``a[href$="org"]:hover`` ile ifade edilmek istenen nedir?
   * a etiketi href özelliğinde başında "org" olan etiketin üzerine gelindiğinde
   * a etiketi üzerine gelindiğinde
   * href özelliği olan a etiketlerini
