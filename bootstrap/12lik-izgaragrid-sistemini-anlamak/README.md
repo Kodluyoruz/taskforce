@@ -10,7 +10,7 @@ Bootstrap ızgara sistemi 3 anayapıdan oluşur:
 
 Her bir sütun, 12 kolondan meydana gelmekte ve 12'lik Grid sistemi oluşturmaktadır. 12'lik ızgara sisteminde, kolon sayısı varyasyonları ile istenildiği gibi tasarım yapılabilmektedir.
 
-![Bootstrap 12'lik Izgara Sistemi](figures/gridsystem.jng)
+![Bootstrap 12'lik Izgara Sistemi](figures/izgara-sistemi.jpg)
 
 ## Öntanmlı Kolon Sınıf Adları
 
@@ -28,7 +28,7 @@ Her ölçüdeki cihaza uyumlu (responsive) tasarımın oluşturulması için Boo
 
 ## Örnekler:
 
-![Kolonların sıralanması](figures/kolon-siralama.jpg)
+![Kolonların sıralanması](figures/ornekler.jpg)
 
 ### Eşit Kolonlar
 
