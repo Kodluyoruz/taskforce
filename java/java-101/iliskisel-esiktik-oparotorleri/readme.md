@@ -1,6 +1,3 @@
-
-
-
 # İlişkisel ve Eşitlik Operatörleri
 
 ![İLİŞKİSEL+OPERATÖRLER](https://slideplayer.biz.tr/slide/13871352/85/images/5/%C4%B0L%C4%B0%C5%9EK%C4%B0SEL+OPERAT%C3%96RLER.jpg)
@@ -21,7 +18,7 @@ int D = 40 ;
 
 Elimizde A,B,C ve D olmak üzere 4 adet değişkenimiz var.Şimdi değişkenlerin birbirleri ile olan ilişkilerini  inceleyelim.
 
-### **==  Eşitlik Operatörü **
+### ==  Eşitlik Operatörü **
 
 ```java
 (A == B) ;//Matematiksel ifademizi cümle haline getirelim. (10 Eşittir 20) bu cümle yanlış bir cümledir.10 sayısı 20 sayısına eşit olamayacağından sonucumuz yanlış yani false'tur.
@@ -32,7 +29,7 @@ Aynı cümleleri diğer matematiksel ifadelerimiz içinde yazalım.
 
   
 
-### **!=  Eşit Değil Operatörü **
+### !=  Eşit Değil Operatörü **
 
 ```java
 (A != D) ; // (10 Eşit Değildir 40 ) Evet 10 sayısı 40'a eşit değildir ve sonucumuz true'dur.
@@ -42,7 +39,7 @@ Aynı cümleleri diğer matematiksel ifadelerimiz içinde yazalım.
 
 
 
-### **> Büyüktür Operatörü **
+### > Büyüktür Operatörü **
 
 ```java
 (A > D) ; // (10 Büyüktür 40 ) 10 sayısı 40 sayısından büyük değildir cümle yanlış olduğundan cevabımız false olacaktır.
@@ -50,7 +47,7 @@ Aynı cümleleri diğer matematiksel ifadelerimiz içinde yazalım.
 (C > B) ; // (10 Büyüktür 20) False
 ```
 
-### **>= Büyük-Eşittir Operatörü **
+### >= Büyük-Eşittir Operatörü **
 
 ```java
 (A >= D) ; // (10 Büyük Eşittir 40 ) 10 sayısı 40 sayısından büyük veya eşit değildir cümle yanlış olduğundan cevabımız false olacaktır.
@@ -60,7 +57,7 @@ Aynı cümleleri diğer matematiksel ifadelerimiz içinde yazalım.
 
 
 
-### **<  Küçüktür Operatörü **
+### <  Küçüktür Operatörü **
 
 ```java
 (A < D) ; // (10 Küçüktür 40) 10 sayısı 40 sayısından küçük ve cümle doğrudur.Sonucumuz true.
@@ -68,7 +65,7 @@ Aynı cümleleri diğer matematiksel ifadelerimiz içinde yazalım.
 (C < B) ; // (10 Küçüktür 20) True
 ```
 
-###  **<=  Küçük Eşittir Operatörü **
+###  <=  Küçük Eşittir Operatörü **
 
 ```java
 (A <= D) ; // (10 Küçük eşittir 40) 10 sayısı 40 sayısından küçüktür ve cümle doğrudur.Sonucumuz true.
