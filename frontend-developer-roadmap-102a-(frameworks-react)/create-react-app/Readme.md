@@ -1,6 +1,6 @@
 # React Uygulaması Oluşturma
 
-Dökümantasyonunda da belirtildiği üzere React, baştan sona aşamalı olarak kullanılabilecek şekilde tasarlanmıştır. Bu demek oluyor ki ihtiyaca göre az ya da daha fazla kullanmak mümkün. Var olan bir HTML sayfasına React'i entegre edebileceğimiz gibi bazı araçları da içeren geliştirme ortamının hazırlanmasıyla birlikte yeni bir tek sayfa uygulama (Single Page Application) oluşturabiliriz. Bu yazıda create-react-app ile yeni bir React uygulaması oluşturmayı öğreneceğiz.
+Dökümantasyonunda da belirtildiği üzere React, baştan sona aşamalı olarak kullanılabilecek şekilde tasarlanmıştır. Bu demek oluyor ki ihtiyaca göre az ya da daha fazla kullanmak mümkün. Var olan bir HTML sayfasına React'i entegre edebileceğimiz gibi bazı araçları da içeren geliştirme ortamının hazırlanmasıyla birlikte yeni bir tek sayfa uygulama (Single Page Application) oluşturabiliriz. Bu yazıda `create-react-app` ile yeni bir React uygulaması oluşturmayı öğreneceğiz.
 
 ## Giriş
 
@@ -85,7 +85,7 @@ Buradan da anlaşılabileceği üzere App adında bir bileşeni görüntülüyor
 **.gitignore:** Bu dosya sayesinde istenmeyen uzantıdaki ve dizindeki dosyaların takip edilmesini engellemiş oluruz. Böylece git sunucularına göndermek istemediğimiz dosyalar takip edilmez. create-react-app ile node_modules klasörü altındaki paketler ve build klasörü .gitignore içerisinde belirtilmiş olarak gelir.
 
 
-Uygulamayı geliştirme aşamasında start scriptini kullanarak sunucuyu başlatmaktan ve uygulamanın ayağa kaldırılmasından bahsetmiştik. **create-react-app**'in sunmuş olduğu bir diğer önemli script ise **build**. React modüler bir yapı sunuyor ve birçok bileşenden oluşan uygulamalar ortaya çıkıyor. Build scripti oluşturulan bütün ayrı bileşenleri birleştirilip küçültülüyor ve optimize hale getiriyor. Bu sayede canlı ortama (production) alınabilecek bir uygulamaya sahip oluyoruz.
+Uygulamayı geliştirme aşamasında start script'ini kullanarak sunucuyu başlatmaktan ve uygulamanın ayağa kaldırılmasından bahsetmiştik. **create-react-app**'in sunmuş olduğu bir diğer önemli script ise **build**. React modüler bir yapı sunuyor ve birçok bileşenden oluşan uygulamalar ortaya çıkıyor. Build scripti oluşturulan bütün ayrı bileşenleri birleştirilip küçültülüyor ve optimize hale getiriyor. Bu sayede canlı ortama (production) alınabilecek bir uygulamaya sahip oluyoruz.
 
 
 
