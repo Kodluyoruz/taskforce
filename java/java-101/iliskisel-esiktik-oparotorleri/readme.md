@@ -6,7 +6,7 @@
 
 Sıklıkla kullandığımız ilişkisel operatörlere yakından bakalım.
 
-**Önemli NOT** = İlişkilerden bahsedilirken aşağıda tanımlanan değişkenler kullanılacaktır.
+**Önemli NOT** : İlişkilerden bahsedilirken aşağıda tanımlanan değişkenler kullanılacaktır.
 ```java
 Operatörlerden bahsetmeden önce 4 adet değişken tanımlayıp,bunlara değer ataması yapalım ve ilişkisel ifadelerimizi bu değişkenler üzerinden karşılaştıralım.
 **Bu karşılaştırmaları yaparken matematiksel ifademizi cümle haline getirip bu cümlenin doğruluğunu ve yanlışlığını test edeceğiz.**
