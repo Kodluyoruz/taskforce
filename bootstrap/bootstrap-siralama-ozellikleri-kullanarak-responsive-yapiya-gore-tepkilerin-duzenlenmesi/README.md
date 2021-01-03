@@ -69,7 +69,7 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 - order-xxl-3
 - order-xxl-4
 - order-xxl-5
-# İstediğiniz kırılma noktalarında istediğiniz sıralamayı gerçekleştirebilirsiniz, tek kullanım şekli bu şekilde değildir.Aşağıdaki class'ları kullanarakta sıralama işlemlerinizi gerçekleştirebilirsiniz.
+### İstediğiniz kırılma noktalarında istediğiniz sıralamayı gerçekleştirebilirsiniz, tek kullanım şekli bu şekilde değildir.Aşağıdaki class'ları kullanarakta sıralama işlemlerinizi gerçekleştirebilirsiniz.
 - order-first
 - order-last
 - order-sm-first
