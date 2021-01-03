@@ -396,7 +396,7 @@ Belirtilen etiketin sonuna CSS uygular.Kullanımı ``::before`` ile aynıdır.
 
 ## Sorular
 
-* [Aşağıdaki kod bloğunda hangi etikete CSS uygulanmıştır ?]
+* [Aşağıdaki kod bloğunda hangi satıra CSS uygulanmıştır ?]
 ```
 .container > p.intro + ul > li:first-child {
         color: orange;
