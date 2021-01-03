@@ -42,8 +42,8 @@ h1{
 ```
 Kısaca CSS kodlarımızı nasıl yazabileceğimizi öğrendikten sonra şimdi CSS seçicileri kullanarak nasıl HTML taglarına erişebiliyoruz onlara bakalım.
 ## CSS selectors (CSS seçicileri)
-###Genel seçici *
-Bu seçiciyi kullanarak tüm elementlere CSS uygula demiş oluyoruz.
+### Genel seçici *
+Bu seçiciyi kullanarak tüm etiketlere CSS uygula demiş oluyoruz.
 ```
 *{
   margin:0;
@@ -57,17 +57,17 @@ div *{
 
 
 ### Element Seçiciler (Element Selectors)
-Bu tür seçiciler ile HTML elementlerine CSS uygulayabiliriz.
+Bu seçiciler ile doğrudan HTML etiket isimlerini kullanarak CSS uygulayabiliriz.
 ```
 div{
   background-color: orange;
 }
-
 ```
-İlk kullanımdadiv elemanlarının arkaplan rengi turuncu olacaktır.
+Tüm div etiketleri etkilenir.
+
 
 ### Sınıf Seçiciler (Class Selectors)
-Bu tür seçiciler ile sınıf atadğımız elementlere CSS uygulayabiliriz. Sınıf ismine erişmek için sınıf isminin başına nokta ``.`` ekliyoruz.
+Bu tür seçiciler ile sınıf atadğımız etiketlere CSS uygulayabiliriz. Sınıf ismine erişmek için sınıf isminin başına nokta ``.`` ekliyoruz.
  ```
 .turuncu{
   background-color: #FFA500;
@@ -75,17 +75,12 @@ Bu tür seçiciler ile sınıf atadğımız elementlere CSS uygulayabiliriz. Sı
 p.mavi{
   color:blue;
 }
-.large .mavi{
-  color:blue;
-}
+
  ```
  ```
  <p class="turuncu">Arka plan rengim turuncu</p>
  <div class="turuncu">Arka plan rengim turuncu</div>
- <ul class="large">
-      <li class="mavi">mavilendik</li>
- </ul>
- 
+
  ```
 Burada İkinci kullanımda ``p.mavi`` sınıf ismi mavi olan p elementlerine erişmiş olduk. Üçüncü kullanımda ``.large .mavi`` sınıfı large olan bir elementin içinde sınıfı mavi olan elemente eriştik.
  ### Id Seçiciler (Id Selectors)
@@ -110,7 +105,6 @@ Burada İkinci kullanımda ``p.mavi`` sınıf ismi mavi olan p elementlerine eri
   color: orange;
 }
  ```
-Bu şekilde name attribute alan tüm elementler etkilenir.
 ```
 <button name="">gönder</button>
 <ul>
@@ -118,9 +112,9 @@ Bu şekilde name attribute alan tüm elementler etkilenir.
       <li name="css">CSS</li>
 </ul>
 ```
+Bu şekilde name attribute alan tüm elementler etkilenir.
+ 
 
- 
- 
  
  
  
