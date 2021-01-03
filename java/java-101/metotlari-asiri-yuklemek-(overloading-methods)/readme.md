@@ -10,7 +10,7 @@ class Math
 		return x + y;
 	}
 
-    static int add3(int x, int y, int z)
+        static int add3(int x, int y, int z)
 	{
 		return x + y + z;
 	}
