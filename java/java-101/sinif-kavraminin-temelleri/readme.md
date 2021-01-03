@@ -51,12 +51,26 @@ shoeBox.width = 150.0;
 
 Burada Cake türünde iki farklı nesne oluşturduk, genişliklerine farklı değerler verdik. Buna göre _matchBox_ nesnesinin genişliği 100 iken; _shoeBox_ nesnesinin genişliği 150'dir. İki ayrı nesnenin alanları bağımsız olduğu için, birinin alanını değiştirdiğimizde diğeri bundan etkilenmez.
 
+Sınıfın içerisine yazdığımız _isCube_ metodu da oluşturduğumuz her nesnenin bir alanı gibi çağırılarak kullanılır.
+
+```java
+
+matchBox.isCube();
+
+```
+şeklindeği çağrı bize bu nesnenin küp olup olmadığını döndürür.
 
 
 
 
+### Peki anlattıklarımıza göre aşağıda verdiğimiz cümlelerin hangileri doğrudur?
 
+- Sınıflar aslında birer nesneyi temsil ederler.
+- Bir sınıftan üretilmiş nesnelerin farklı alanları olabilir.
+- Nesneleri oluştururken tüm alanlarının değerlerini vermemiz şarttır.
 
-### Peki, eğer 2 parametreli yapıcıma genişlik ve derinliği gönderip, uzunluğu göndermezsem ne olur?
+### Cevaplar:
 
-Tabi ki paramatere geçtiğimiz yapıcı bizim gönderdiğimiz değerleri sırası ile alıp aynı işlemi yapacak. Yani genişliği bu yapıcı fonksiyona göndermemiz mümkün değil. Daha ileride bu tarz bir tasarımı nasıl yapacağımızı detaylıca anlatacağız.
+- Hayır, sınıflar kendi başına bir nesne temsil etmezler. Sınıflardan nesneler üretilir.
+- Hayır, bir sınıftan üretilen nesnelerin alanları aynıdır.
+- Hayır, özel bir durum yok ise nesne üretilirken içlerindeki tüm alanlar boş, null yada default olabilir.
