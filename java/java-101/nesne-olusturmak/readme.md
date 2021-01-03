@@ -1,8 +1,8 @@
 ## Nesne Oluşturmak
 
-![Nesne Oluşturmak](figures/object.jpg)
-
 Nesne oluşturmak için **new** deyimini kullanıyoruz. Şimdi bunu daha ayrıntılı inceleyelim. Nesne oluşturduğumuzda, sınıfın **yapılandırıcıları (constructor)** çalıştırılır. Yapılandırıcı, özel bir tür metottur. Aşağıda ayrıca konu olarak ele alınacaktır. Yapılandırıcılar, nesne oluşturulduğu zaman çalıştırılırlar ve nesneye ilk değerini vermek için kullanılırlar. Biz bir yapılandırıcı yazmazsak, Java derleyicisi derleme aşamasında sınıfa varsayılan yapılandırıcıyı _(default constructor)_ ekler.
+
+![Nesne Oluşturmak](figures/object.jpg)
 
 Yapılandırıcıların yapısı şu şekildedir:
 
