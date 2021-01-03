@@ -29,6 +29,18 @@ import java.util.*;        // java.util paketindeki tüm sınıflar import edili
 
 Bir java projesi oluşturduğumuzda, java bize default bir paket oluşturur ve bu paket altında sınıflar ve arayüzler oluşturulabilir. Bu kullanım şekli küçük projeler için büyük bir sorun olmasa da orta ve büyük çaplı projelerde, sınıf ve arayüz sayısının artmasıyla birlikte, karışıklığa sebep olmaktadır. Bu karışıklığı gidermek, temiz, düzenli  ve daha sonra iyileştirilebilecek bir kod yazımı için ilgili sınıf ve arayüzleri, ilgili paketler altında yazmak çok önemlidir. Oluşturulan farklı paketler, birbirileri içerisinde import edilerek kullanılabilir. Paket oluşturmak için ilgili projeye tıklayıp, sırasıyla **New  > Java Package**  seçeneğine tıklamak yeterli olacaktır. 
 
+
+
+![](figures/paketler.png)
+
+
+
+![](figures/import.png)
+
+paket2 içerisindeki "Kodluyoruz" sınıfını kullanmak için paket2, paket1 içerisine import edildi.
+
+
+
 **NOT:** Sınıf isimleri ile çakışmaması için paket isimleri **küçük** harfle yazılmalıdır.
 
 
