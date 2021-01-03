@@ -28,8 +28,7 @@ Aynı cümleleri diğer matematiksel ifadelerimiz içinde yazalım.
 ```
 
   
-
-### !=  Eşit Değil Operatörü **
+### !=  Eşit Değil Operatörü 
 
 ```java
 (A != D) ; // (10 Eşit Değildir 40 ) Evet 10 sayısı 40'a eşit değildir ve sonucumuz true'dur.
@@ -39,7 +38,7 @@ Aynı cümleleri diğer matematiksel ifadelerimiz içinde yazalım.
 
 
 
-### > Büyüktür Operatörü **
+### > Büyüktür Operatörü 
 
 ```java
 (A > D) ; // (10 Büyüktür 40 ) 10 sayısı 40 sayısından büyük değildir cümle yanlış olduğundan cevabımız false olacaktır.
@@ -47,7 +46,7 @@ Aynı cümleleri diğer matematiksel ifadelerimiz içinde yazalım.
 (C > B) ; // (10 Büyüktür 20) False
 ```
 
-### >= Büyük-Eşittir Operatörü **
+### >= Büyük-Eşittir Operatörü 
 
 ```java
 (A >= D) ; // (10 Büyük Eşittir 40 ) 10 sayısı 40 sayısından büyük veya eşit değildir cümle yanlış olduğundan cevabımız false olacaktır.
@@ -57,7 +56,7 @@ Aynı cümleleri diğer matematiksel ifadelerimiz içinde yazalım.
 
 
 
-### <  Küçüktür Operatörü **
+### <  Küçüktür Operatörü 
 
 ```java
 (A < D) ; // (10 Küçüktür 40) 10 sayısı 40 sayısından küçük ve cümle doğrudur.Sonucumuz true.
@@ -65,7 +64,7 @@ Aynı cümleleri diğer matematiksel ifadelerimiz içinde yazalım.
 (C < B) ; // (10 Küçüktür 20) True
 ```
 
-###  <=  Küçük Eşittir Operatörü **
+###  <=  Küçük Eşittir Operatörü 
 
 ```java
 (A <= D) ; // (10 Küçük eşittir 40) 10 sayısı 40 sayısından küçüktür ve cümle doğrudur.Sonucumuz true.
