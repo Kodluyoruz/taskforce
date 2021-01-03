@@ -12,7 +12,7 @@ Java dilinde Sınıf (Class) kavramı en önemli özelliktir. Java&#39;da her ş
 
 **Değişken:** Değişkenler nesnenin niteliklerini işaret ederler. Örneğin: Printer isimli sınıfa ait &quot;color&quot; isimli nitelik bir değişkeni ifade eder. Eğer rengi beyazsa beyaz bir değer alır.
 
-Java dilinde de sınıflar tasarlanır, bu sınıflardan nesneler üretilir. Bu nesneler birbirine bağımlılıklar kurarlar ve böylece birbiriyle iletişim kurarak bir yazılımı meydana getirirler. Lego parçalarıyla büyük bir uçak yapmak gibi 
+Java dilinde de sınıflar tasarlanır, bu sınıflardan nesneler üretilir. Bu nesneler birbirine bağımlılıklar kurarlar ve böylece birbiriyle iletişim kurarak bir yazılımı meydana getirirler. Lego parçalarıyla büyük bir uçak yapmak gibi  
 
 ## 1.Dilin Temel Kuralları
 
@@ -26,7 +26,7 @@ Java dilinde de sınıflar tasarlanır, bu sınıflardan nesneler üretilir. Bu 
 
 Yazılım geliştiricinin sınıf, metot ve değişken gibi yapılar için yaptığı isimlendirmelere tanımlayıcı denilmektedir. Örneğin: oluşturulan sınıfa &quot;CustomerService&quot; isminin verilmesi gibi. Java dilinde isimlendirme yapılırken dikkat edilmesi gereken belli başlı hususlar vardır. Bunları aşağıda listelenmiştir.
 
-- Java&#39;da isimlendirme yaparken ilk karakter harf, $ işareti ve \_ (alt çizgi) ile başlayabilir. Rakam ve sayı isimlendirmenin başında yer alamaz. İlk karakteri belirtilen şekilde kurallara uygun verirseniz geri kalanında dilediğiniz gibi isimlendirmeye devam edebilirsiniz.
+- Java&#39;da isimlendirme yaparken ilk karakter harf, $ işareti ve \_ (alt çizgi) ile başlayabilir. Rakam ve sayı isimlendirmenin başında yer alamaz. İlk karakteri belirtilen şekilde kurallara uygun verirseniz geri kalanında dilediğiniz gibi isimlendirmeye devam edebilirsiniz. Örnegin: MinNumber, total, ak74, hello_world, $amount, \_name gibi Legal identifiers  yapabilirken 74ak, -amount gibi değişken isimleri Illegal identifiers olarak tanımlanır.
 - Java diline özel ayrılmış anahtar kelimeler vardır. Bunları da değişken ismi olarak kullanamazsınız. Örneğin: class, int, for, while gibi anahtar sözcükler tek başlarına bir tanımlayıcı olarak kullanılamazlar.
 - Java&#39;da yaptığınız isimlendirme büyük küçük harf duyarlılığına sahiptir. &quot;maxAge&quot; ile &quot;MAXAGE&quot; iki ayrı tanımlayıcıyı ifade etmektedir.
 
@@ -39,7 +39,7 @@ Java&#39;da tanımladığınız sınıflara, metotlara, değişkenlere başka ko
 
 ## 4.Java&#39;da Değişkenler (Variables)
 
-Java&#39;da bir veri parçasını, ki bu sayı, yazı alanı veya kompleks veri olabilir, hafızada tutmaya yarayan yapılardır. Örneğin: &quot; **int year = 2019;**&quot; gibi tanımlama yaptığımızda hafıza bir alan bu değer için ayrılır. 2019 verisi hafıza bu adrese yazılır. Değişken, hafıza adresini işaret eder. Aslında, hafıza adresinin kendisini belirtir.
+Java&#39;da bir veri parçasını, ki bu sayı, yazı alanı veya kompleks veri olabilir, hafızada tutmaya yarayan yapılardır. Java dilinde değişken tanımlarken **değişkenin_türü değişkenin_adı = değişken_değeri** şeklinde tanımlama yapılır. Örneğin: &quot; **int year = 2019;**&quot; gibi tanımlama yaptığımızda hafıza bir alan bu değer için ayrılır. 2019 verisi hafıza bu adrese yazılır. Değişken, hafıza adresini işaret eder. Aslında, hafıza adresinin kendisini belirtir.
 
 Değişkenler üç tiptedir:
 
@@ -49,7 +49,7 @@ Değişkenler üç tiptedir:
 
 ## 5.Java&#39;da Diziler (Arrays)
 
-Dizi kavramı liste halinde veriler tutmaya yarayan veri yapısıdır. Örneğin: 12 aya ait şirket bilançosu dizi şeklinde tutulabilecek bir veridir. Java&#39;da diziler oluşturulduğunda Heap Hafıza&#39;da tutulurlar. Dizi konusu ileride detaylıca işlenecektir.
+Dizi kavramı aynı tipte liste halinde veriler tutmaya yarayan veri yapısıdır. Örneğin: 12 aya ait şirket bilançosu dizi şeklinde tutulabilecek bir veridir. Java&#39;da diziler oluşturulduğunda Heap Hafıza&#39;da tutulurlar.Diziler tanımlanırken **veritipi [] diziAdi = new veritipi[dizinin boyutu]** şeklinde tanımlanır. Dizi konusu ileride detaylıca işlenecektir
 
 ## 6.Java&#39;da Enum Yapılar (Enum)
 
@@ -87,7 +87,7 @@ Java&#39;da kod yazarken kodlar arasında dilediğiniz kadar boşluk bırakabili
 
 ## 9.Java&#39;da Kalıtım (Inheritance)
 
-Java, nesneye dayalı programlamayı destekleyen bir dil olduğu için kalıtım mekanizmasına sahiptir. Kalıtım ile bir sınıf üst sınıfından ortak özellikleri miras yoluyla kendine alabilir. Bu konu ileride detaylıca açıklanacaktır.
+Java, nesneye dayalı programlamayı destekleyen bir dil olduğu için kalıtım mekanizmasına sahiptir. Kalıtım ile bir sınıf üst sınıfından ortak özellikleri miras yoluyla kendine alabilir. Üreten sınıf Super class(üst sınıf), oluşan yeni sınıflar ise Sub class(alt sınıf) şeklinde isimlendirilir. Kalıtım yapmak için kullanacağımız kelime **extends**’ dir. Bu konu ileride detaylıca açıklanacaktır.
 
 ## 10.Java&#39;da Ara yüzler (Interfaces)
 
