@@ -14,13 +14,13 @@ Internal stil sayfası, HTML dosyasının ``<head>`` bölümünde sayfa için CS
 
 Inline stili, belirli bir sayfa öğesine stil vermek için, belirli bir HTML etiketi içinde kullanılır. Hızlı ve kalıcı değişiklikler için kullanışlıdırlar, ancak bir tasarım değişikliği yapmaya karar vermeniz durumunda, oluşturduğunuz her Inline stilin ayrı ayrı düzenlenmesi gerektiğinden, External ve Internal stil sayfalarından daha kullanışlı değildir ve diğerlerine göre çok fazla tercih edilmez.
 
-##External CSS Kullanımı
+## External CSS Kullanımı
 
 Yukarıda bahsettiğimiz gibi External CSS, normal HTML dosyanızdan bağımsız bir dosyadır ve ``.css`` uzantılıdır. CSS dosyanızı oluşturduktan sonra mutlaka HTML dosyanıza linklemeniz gerekir. Yoksa CSS dosyanız işlevsiz kalacak ve HTML sayfanızda yaptığınız değişiklikleri göremeyeceksiniz. Hadi gelin bir de örnek üzerinde görelim.
 
 ``.css`` uzantılı dosyamızı oluşturduktan sonra içine kodlarımızı bu şekilde yazıyoruz: 
 
-```javascript
+```css
 body {
   background-color: #f7cac9;
 }
@@ -41,7 +41,7 @@ Daha sonra HTML sayfamıza geri dönüyoruz ve yazdığımız bu External CSS ko
 [Codepen'de dene.](https://codepen.io/lovelysmilee/pen/xxEYeyE)
 
 
-##Internal CSS Kullanımı
+## Internal CSS Kullanımı
 
 Internal CSS, stil kodlarının direk HTML dosyasının içinde ``<head>`` bölümünde kullanıldığı bir yöntemdir. ``<head>`` bölümünün içinde bir ``<style>`` etiketi açtıktan sonra içine gerekli CSS kodlarını yazabilirsiniz. Örnek vermek gerekirse; kodunuz şu şekilde görünecektir:
   
@@ -73,7 +73,7 @@ body {
 [Codepen'de dene.](https://codepen.io/lovelysmilee/pen/zYKRXpx)
 
 
-##Inline CSS Kullanımı
+## Inline CSS Kullanımı
 
 Inline yani satır içi stiller, doğrudan HTML kodunuzdaki herhangi bir öğeye uygulanır. Stil niteliği ve ardından normal CSS özellikleri bir HTML etiketi içinde belirtilir. Kullanımı aşağıdaki örnekte gösterildiği gibidir:
 
@@ -96,20 +96,21 @@ Inline yani satır içi stiller, doğrudan HTML kodunuzdaki herhangi bir öğeye
 
 Bu üç CSS özelliğinin nasıl kullanıldığını öğrendiğinize göre aşağıdaki alıştırma ve iki adet çoktan seçmeli soruyla öğrendiğiniz bilgileri pekiştirebilirsiniz.
 
-###Alıştırmalar
+### Alıştırmalar
 
-[Alıştırma 1 için tıkla.](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto2)
-[Alıştırma 2 için tıkla.](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto3)
-[Alıştırma 3 için tıkla.](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto4)
+- [Alıştırma 1 için tıkla.](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto2)
+- [Alıştırma 2 için tıkla.](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto3)
+- [Alıştırma 3 için tıkla.](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto4)
 
-###Sorular
+### Sorular
 
-*[1)	Internal yöntemi kullanırken yazdığımız CSS kodlarını hangi element içine yazmamız gerekir?]
-*<body>
-*<script>
-*<head> (Doğru)
-*<footer>
-*[2)	Aşağıda verilen kod hangi CSS yöntemi ile kullanılmıştır?]
+* [ 1)	Internal yöntemi kullanırken yazdığımız CSS kodlarını hangi element içine yazmamız gerekir?]
+* <body>
+* <script>
+* <head> (Doğru)
+* <footer>
+  
+* [ 2)	Aşağıda verilen kod hangi CSS yöntemi ile kullanılmıştır?]
 
 ```javascript
 <!DOCTYPE html>
@@ -123,7 +124,7 @@ Bu üç CSS özelliğinin nasıl kullanıldığını öğrendiğinize göre aşa
 </body>
 </html>
 ```
-*Internal
-*Inline (Doğru)
-*Float
-*External
+* Internal
+* Inline (Doğru)
+* Float
+* External
