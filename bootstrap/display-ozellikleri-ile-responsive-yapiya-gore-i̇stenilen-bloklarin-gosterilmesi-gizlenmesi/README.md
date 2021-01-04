@@ -91,22 +91,22 @@ Yukarıdaki satırlarda yazdığımız h1 elementlerinin farklı ekran boyutlar�
 
 ### 1200px Genişlik:
 
-![](./figures/1200.png)
+![](./figures./1200.png)
 
 ### 992px Genişlik:
 
-![](./figures/992.png)
+![](./figures./992.png)
 
 ### 768px Genişlik:
 
-![](./figures/768.png)
+![](./figures./768.png)
 
 ### 576px Genişlik:
 
-![](./figures/576.png)
+![](./figures./576.png)
 
 ### 420px Genişlik:
 
-![](./figures/420.png)
+![](./figures./420.png)
 
 Görüldüğü üzere, 5 farklı h1 elementini farklı ekran boyutlarında göstermiş ve diğer boyutlarda gizlemiş olduk.
