@@ -5,6 +5,10 @@ Bu yazımızda sizlerle Java programlama dilinde yaygın olarak kullandığımı
 
 Switch Case; tanımlanmış olan yalnızca bir değişkenin, alacağı değerlere bağlı olarak, farklı sonuçlar döndürmesini sağlayan bir yapıdır. Switch kısmında kullanılacak olan değişkenler byte, short, int, char veya String veri tipine sahip olmalıdır. 
 
+Switch case akış diyagramı şu şekildedir:
+
+<img src="flow_chart.png"/>
+
 En basit haliyle switch-case yapısının söz dizimi aşağıdaki gibidir:
 
     public class SwitchCase {
