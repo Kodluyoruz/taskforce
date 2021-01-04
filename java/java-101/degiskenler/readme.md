@@ -2,57 +2,61 @@
 
 # Java Değişkenler (Variables)
 
-​	Değişkenler, içinde veri barındıran ve bilgisayarın geçici hafızasında (RAM) fiziksel olarak yer kaplayan yapılardır. Değişkenlere değer (veri) ataması yapılabilir. Java&#39;da değişkenlerin veri tipleri vardır. Bu tipler Java&#39;da varsayılan olarak tanımlı gelen tipler de olabilir yahut yazılımcıların kendi tanımladığı tipler de olabilir.
+​		Değişkenler, içinde veri barındıran ve bilgisayarın geçici hafızasında (RAM) fiziksel olarak yer kaplayan yapılardır. Değişkenlere değer (veri) ataması yapılabilir. Java&#39;da değişkenlerin veri tipleri vardır. Bu tipler Java&#39;da varsayılan olarak tanımlı gelen tipler de olabilir yahut yazılımcıların kendi tanımladığı tipler de olabilir.
 
 ```java
 <veri tipi> <değişken ismi> = veri (değer)
 ```
 
-<img src="figures/degiskenYapisi.png"/>
+<img src="figures/degiskenYapisi.png"  />
 
-​	Değişken tanımlaması yapıldığında aslında bilgisayar hafızasında bir yeri ayırmış oluyoruz. Her veri tipinin farklı boyut ve içerikleri vardır. Tanımladığımız bu alan, değişken veri tipinin boyutu kadar bir alanı ifade eder ve o alanda hangi tipte veri içereceğini bildirir. Örneğin: 2 Byte&#39;lık bir veri tipine sahipsek ve bu tipte bir değişken tanımlıyorsak her değişken için hafızadan 2 Byte&#39;lık yer ayrılacaktır. Java'daki değişken tiplerini hemen alttaki fotoğrafta görebiliriz: 
+​		Değişken tanımlaması yapıldığında aslında bilgisayar hafızasında bir yeri ayırmış oluyoruz. Her veri tipinin farklı boyut ve içerikleri vardır. Tanımladığımız bu alan, değişken veri tipinin boyutu kadar bir alanı ifade eder ve o alanda hangi tipte veri içereceğini bildirir. Örneğin: 2 Byte&#39;lık bir veri tipine sahipsek ve bu tipte bir değişken tanımlıyorsak her değişken için hafızadan 2 Byte&#39;lık yer ayrılacaktır. Java'daki değişken tiplerini hemen alttaki fotoğrafta görebiliriz: 
 
 ![](figures/veri-tipleri-1.png)
 
-​	Burada ilkel (primitive) ve ilkel olmayan (non-primitive) veri tipleri ayrımına da ayrıca dikkat ediniz, ileride bahsedilecektir.
+​		Burada ilkel (primitive) ve ilkel olmayan (non-primitive) veri tipleri ayrımına da ayrıca dikkat ediniz. String, array, class, interface gibi ilkel olmayan(non-primitive) veri tiplerine ileride daha detaylı bakılacaktır. Ancak bu noktada bu tiplerin farkları olarak şunları söyleyebiliriz:
+
+- İlkel(primitive) veri tipleri önceden tanımlanmıştır. İlkel olmayan(non-primitive) tipler ise geliştirici tarafından oluşturulur.
+- İlkel tipler her zaman bir değere sahiptir. İlkel olmayan tipler ise 'null' (boş) olabilir.
+- İlkel olmayan türlerin tümü aynı boyuta sahipken ilkel veri tiplerin boyutu alacağı veri tipine bağlıdır. Yani bir int tipi 4 byte iken alacağı sayı int tipi aralığından büyük bir sayı ise long tipinde tutulur ve boyutu 8 bit olur.[2]
 
 ### Değişken Tanımlamak
 
-​	Şimdi değişken tanımlamaya ve örneklerine biraz daha ayrıntılı bakalım. Java’da bir değişken, sırasıyla önce türü ve sonra ismi belirterek tanımlanır.
+​		Şimdi değişken tanımlamaya ve örneklerine biraz daha ayrıntılı bakalım. Java’da bir değişken, sırasıyla önce türü ve sonra ismi belirterek tanımlanır.
 
 ```java
 int number;
 // number isminde, int türünde bir değişken tanımlanmış
 ```
 
-​	Aynı satırda birden fazla değişken tanımlayabilirsiniz, fakat türleri aynı olmak zorundadır:
+​		Aynı satırda birden fazla değişken tanımlayabilirsiniz, fakat türleri aynı olmak zorundadır:
 
 ```java
 double a, b, c;
 // double türünde 3 ayrı değişken tanımlanmış
 ```
 
-​	Değişkeni tanımladıktan sonra, atama operatörü (=) kullanarak değişkene bir değer verebilirsiniz:
+​		Değişkeni tanımladıktan sonra, atama operatörü (=) kullanarak değişkene bir değer verebilirsiniz:
 
 ```java
 double pi; // Önce double türünde bir değişken tanımladık
 pi = 3.14; // Daha sonra bu değişkene bir değer verdik
 ```
 
-​	Eğer bir değişkene hemen değer atayacaksanız, bunu iki satırda yapmak yerine tek bir satırda halledebilirsiniz:
+​		Eğer bir değişkene hemen değer atayacaksanız, bunu iki satırda yapmak yerine tek bir satırda halledebilirsiniz:
 
 ```java
 double pi = 3.14;
 ```
 
-​	Aynı satırda aynı türden birden fazla değişken tanımlıyorsanız bunlara şu şekilde değer verebilirsiniz:
+​		Aynı satırda aynı türden birden fazla değişken tanımlıyorsanız bunlara şu şekilde değer verebilirsiniz:
 
 ```java
 int year = 2020, age = 25;
 // Aynı satırda int türünde 2 farklı değişken tanımlanmış ve ikisine de değer verilmiş
 ```
 
-​	Değişkene verilen değer herhangi bir anda değiştirilebilir:
+​		Değişkene verilen değer herhangi bir anda değiştirilebilir:
 
 ```java
 int year = 2020; // Bir değişken tanımlanmış ve değer verilmiş
@@ -60,14 +64,14 @@ year = 2021; // Değişkenin değeri değiştirilmiş
 year = 2022; // Değişkenin değeri tekrar değiştirilmiş
 ```
 
-​	Bir değişkeni tanımladığınız zaman, aynı kapsam içinde aynı isimde başka bir değişken tanımlayamazsınız:
+​		Bir değişkeni tanımladığınız zaman, aynı kapsam içinde aynı isimde başka bir değişken tanımlayamazsınız:
 
 ```java
 boolean a = true; // a isminde bir değişken tanımlanmış
 boolean a = false; // Bu satır hataya neden olur, a değişkeni zaten var
 ```
 
-​	Buraya kadar olan örneklerimizde değişkene hep kesin bir değer atadık; fakat Java’da bir metodun sonucunu da değişkene atayabilirsiniz (metodlar konusunu ileride ayrıntılı göreceğiz):
+​		Buraya kadar olan örneklerimizde değişkene hep kesin bir değer atadık; fakat Java’da bir metodun sonucunu da değişkene atayabilirsiniz (metodlar konusunu ileride ayrıntılı göreceğiz):
 
 ```java
 double result = Math.sqrt(16.0);
@@ -75,9 +79,9 @@ double result = Math.sqrt(16.0);
 // Bu işlem sonucunda result değişkeninin değeri 4.0 olur
 ```
 
-**int** tipinde, yani sayı tipinde tanımlanmış **a,b,c,d** isimli değişkenlerin her biri hafızada bir alanı kaplarlar.
+​		**int** tipinde, yani sayı tipinde tanımlanmış **a,b,c,d** isimli değişkenlerin her biri hafızada bir alanı kaplarlar.
 
-Yukarıdakilere benzer şekilde aşağıdaki değişken tanımlama örneklerine de bakalım:
+​		Yukarıdakilere benzer şekilde aşağıdaki değişken tanımlama örneklerine de bakalım:
 
 ```java
 int a, b, c; // 3 tane değişken virgüller ile ayrılarak tek satırda tanımlanabilir.
@@ -89,7 +93,16 @@ byte b = 22; // Tek değişkene ilk değer ataması yapılarak
 double pi = 3.14159; // Tek değişkene ilk değer ataması yapılarak
 
 char a = "a" ; // Tek değişkene ilk değer ataması yapılarak
+
+String str = "Hello"; //İlkel olmayan String veri tipinde de ilkel veri tipleri gibi direkt değer 						//atama veya sonradan değer atama yapılabilir
+
+// veritipi [] değişkenAdı = new veritipi[eleman sayısı];
+int[] array = new int[3]; // İlkel olmayan tiplerde tanımlama yaparken referans değişkenler oldukları 					      //için 'new' sözcüğüyle bir referans tanımlanır. Bu tiplere daha detaylı 						    //bakılacaktır.
 ```
+
+​		
+
+​		Hafızada veri tutmak için değişkenleri kullanırız dedik. Değişkenlerle ilgili 5 önemli kavram vardır. Şimdi bunlara bakalım.
 
 ###### Değişkenin veri tipi: 
 
@@ -120,7 +133,7 @@ char a = "a" ; // Tek değişkene ilk değer ataması yapılarak
 
 - Değişken isimleri harflerden, rakamlardan ve alt çizgi (_) karakterinden oluşabilir. 
 
-- Değişken isimleri harf, dolar işareti ($) ve alt çizgi (_) ile başlayabilir, rakam ile başlayamaz. Ancak değişken isminin dolar işareti ($) ve alt çizgi ile başlamasına izin verilse de kullanılmayan bir isimlendirme şekli olup bu konudaki best practice olarak ortak düşünce küçük harf ile başlamasıdır. [2] Buna ek olarak, örneğin; fazla basamaklı bir değişken değerini yazarken alt çizgi ile basamaklarına ayırmak Java'ya sonradan eklenen yine kodun okunabilirliği açısından faydalı bir gösterimdir.[3]
+- Değişken isimleri harf, dolar işareti ($) ve alt çizgi (_) ile başlayabilir, rakam ile başlayamaz. Ancak değişken isminin dolar işareti ($) ve alt çizgi ile başlamasına izin verilse de kullanılmayan bir isimlendirme şekli olup bu konudaki best practice olarak ortak düşünce küçük harf ile başlamasıdır. [3] Buna ek olarak, örneğin; fazla basamaklı bir değişken değerini yazarken alt çizgi ile basamaklarına ayırmak Java'ya sonradan eklenen yine kodun okunabilirliği açısından faydalı bir gösterimdir.[4]
 
   ```java
   int number = 1_000_000;
@@ -132,6 +145,11 @@ char a = "a" ; // Tek değişkene ilk değer ataması yapılarak
 
 - Değişkenler hafızada değer tutmak için kullanılır.
 - Değişkene tanımlandığı anda bir değer verebileceğiniz gibi, daha sonra da değer atayabilirsiniz. Değişkenin değeri istenilen bir anda değiştirilebilir. Ancak yukarıda değişken tipinde bahsedildiği üzere değişkene vereceğimiz değer, tipiyle uyumlu olmalıdır. Aksi halde Java derleyicisi kodumuzun derlenmesine izin vermez. Örneğin, boolean bir değişkene tamsayı değer atayamazsınız.
+- Değişkenlerin varsayılan(default) olarak tanımlı ilk değerleri vardır. Bu değerler, değişkenlere değer herhangi bir değer atanmadığı zaman Java tarafından arka planda atanmaktadır.
+
+![](figures\default-values.PNG)
+
+
 
 ###### Değişkenin kapsamı (Scope) 
 
@@ -145,13 +163,46 @@ char a = "a" ; // Tek değişkene ilk değer ataması yapılarak
 
 
 
-​	Java'da değişkenler yerel değişkenler(local variables), statik değişkenler(static variables) ve statik olmayan (instance) şeklinde 3 tipte tanımlanmaktadır. Bu değişken türlerinden de ilerde bahsedilecektir.
+​		Java'da değişkenler yerel değişkenler(local variables), statik değişkenler(static variables) ve statik olmayan (instance) şeklinde 3 tipte tanımlanmaktadır. Değişkenlerin türlerinden de ilerde daha detaylı bahsedilecektir. 
 
-##### Kaynaklar
+#### Kaynaklar
 
 - [1] https://www.geeksforgeeks.org/variables-in-java/
-- [2] https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html
-- [3] https://docs.oracle.com/javase/8/docs/technotes/guides/language/underscores-literals.html
+
+- [2] https://www.edureka.co/blog/data-types-in-java/
+
+- [3] https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html
+
+- [4] https://docs.oracle.com/javase/8/docs/technotes/guides/language/underscores-literals.html
+
+- [5] https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+
+  
 
 
 
+#### Sorular
+
+1- Aşağıda verilen veri tiplerinden hangisi ilkel olmayan (non-primitive) bir veri tipidir? 
+
+A. int
+
+B. boolean
+
+C. string
+
+D. char
+
+(Cevap: C. string)
+
+2- Aşağıdakilerden hangisi bir veri tipi değildir?
+
+A. array
+
+B. short
+
+C. boolean
+
+D. static
+
+(Cevap: D. static)
