@@ -12,7 +12,7 @@ Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli 
 
 ![DOM Tree](./figures/dom-tree.png)
 
-<!doctype html>
+```<!doctype html>
 <html>
   <head>
     <title>My home page</title>
@@ -23,7 +23,7 @@ Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli 
     <p>Click to review my resume
       <a href="http://balin.me/cv.pdf">balin.me</a>.</p>
   </body>
-</html>
+</html> ```
 
 _Bu sayfa aşağıdaki yapıya sahiptir:_
 
