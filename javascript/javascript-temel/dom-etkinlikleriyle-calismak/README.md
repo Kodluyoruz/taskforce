@@ -177,7 +177,9 @@ ekran çıktısı:  cerceve
 seklindedir.
 
  Kullanım şekli :
+ 
  element.addEventListener(event, function, useCapture);
+ 
  useCapture parametresi "True" ve "False" değerleri almaktadır.Diğer tüm kullanımı kabarcıklanma etkinliği ile aynıdır.
 
 # event.stopPropagation() Kullanımı
