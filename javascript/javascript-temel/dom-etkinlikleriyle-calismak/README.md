@@ -1,4 +1,3 @@
-# DOM Etkinlikleriyle Çalışmak
 
 # Etkinlik Ekleme ve Özelliklerine Ulaşma
 
