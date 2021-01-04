@@ -139,7 +139,7 @@ Yukarıdaki kod hataya neden olur; çünkü statik olarak belirlenmiş içteki I
 
 ## İçteki sınıfı private yapmak
 
-İçteki sınıflar static yapılabildiği gibi, içteki sınıfa dışarıdan bir erişim sağlanmasının önüne geçmek için, private ve protected erişim belirleyicileri de kullanılabilir.
+İçteki sınıflar static yapılabildiği gibi, içteki sınıfa dışarıdan bir erişim sağlanmasının önüne geçmek için private ve protected erişim belirleyicileri de kullanılabilir.
 
 ```java
 class Outer {
