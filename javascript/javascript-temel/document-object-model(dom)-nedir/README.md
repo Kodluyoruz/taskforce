@@ -37,7 +37,6 @@ HTML ağacı olarak:_
 
 **Dosya oluşturmak, elementleri ve içeriklerini silme/ekleme gibi fonsiyonları vardır.**
 
-```html
 <html>
    <head>
        <titte>Form</titte>
@@ -52,7 +51,7 @@ HTML ağacı olarak:_
            <input type="text" id="yas">
        </form>
    </body>
-</html>```
+</html>
 
 **HTML** içerisine yerleştirilmiş öğeleri çağırmak için, içinde bulunduğu diğer öğelerin çağrılması bir yöntem iken, bir öğeye bir **id** vererek bu **id** üzerinden çağırmak da bir başka yöntemdir.
 
@@ -62,7 +61,6 @@ Sonuç olarak eğer client-side olarak HTML’e daha fazla hükmetmek istiyorsan
 
 Örneğin;
 
-```html
 <!DOCTYPE html>
 <html>
 <body>
@@ -81,7 +79,6 @@ function myFunction() {
 
 </body>
 </html>
-```
 
 [CodePen'de açmak için tıkla](https://codepen.io/baranbalin/pen/JjRLwvY)
 
