@@ -5,12 +5,48 @@ Bu yazımızda sizlerle Java programlama dilinde yaygın olarak kullandığımı
 
 Switch Case; tanımlanmış olan yalnızca bir değişkenin, alacağı değerlere bağlı olarak, farklı sonuçlar döndürmesini sağlayan bir yapıdır. Switch kısmında kullanılacak olan değişkenler byte, short, int, char veya String veri tipine sahip olmalıdır. 
 
+En basit haliyle switch-case yapısının söz dizimi aşağıdaki gibidir:
+
+    public class SwitchCase {
+
+    public static void main (String args []) {
+
+    int value;
+
+    switch (value) {
+
+    case 1: 
+
+         // Value 1
+         break;
+         
+         
+     case 2: 
+
+         // Value 1 
+         break;
+         
+     case 3: 
+
+         // Value 1
+         break;
+         
+     default:
+     
+         // Value is invalid         
+         break;
+         
+     }}}
+
+Yukarıdaki switch-case yapısında hangi kod bloğunun çalıştırılacağını value değişkeni belirler. Value değeri 1 ise case 1, 2 ise case 2, 3 ise case 3 kod bloğu çalıştırılır. Eğer value değişkeninin değeri hiçbir case değeriyle eşleşmiyorsa default alanı çalıştırılır. Her bir case durumunda, switch yapısından çıkmak ve switch'i izleyen bir sonraki ifadeye geçmek için 'break' komutu kullanılır. Break komutunun kullanılmadığı case'lerde ise ilgili case bloğu işletildikten sonra break komutunun bulunduğu satıra kadar olan tüm kod satırları çalıştırılır. Switch-case yapısının çalışma mantığı genel olarak bu şekildedir. Örnekler ile bu yapıyı daha fazla detaylandıracağız.
+
 Switch Case ifadeleri, çalışma mantığı açısından baktığımızda If - Else-if ifadeleri ile benzerlik göstermektedir. Ancak çok fazla koşul gerektiren durumlarda If - Else-if ifadelerinin yerine Switch ifadelerini tercih edebiliriz. Bu sayede uzun kod satırlarının aksine daha sade ve düzenli bir görünüm elde edebilir ve kodumuzun okunabilirliğini artırmış oluruz.
-3&#39;e basarsanız "ev kredisi işlemleri", eğer 4&#39;e basarsanız "müşteri temsilcisine bağlanmak", sıfıra basarsanız "diğer işlemler menüsüne gitmek" gibi çoklu koşullara göre programlama yapmak gerekebilir. Bunu çözmek için "if-else if" yapılarını ya da "switch-case" yapısını kullanırız.
+
+
 
 Not: "switch-case" yapısında eğer her case&#39;in sonuna "break" ifadesi koymazsak aramış olduğu koşulu bulana kadar tüm case&#39;lere girip o kod bloklarını çalıştıracaktır.
 
-Programlama yaparken birden fazla koşula sahip durumlarla karşılaşabiliriz. Örneğin: eğer 1&#39;e basarsanız "vize işlemleri", eğer 2&#39;ye basarsanız "kredi kartı işlemleri", eğer ıracaktır.
+Programlama yaparken birden fazla koşula sahip durumlarla karşılaşabiliriz. Örneğin: eğer 1&#39;e basarsanız "vize işlemleri", eğer 2&#39;ye basarsanız "kredi kartı işlemleri", 3&#39;e basarsanız "ev kredisi işlemleri", eğer 4&#39;e basarsanız "müşteri temsilcisine bağlanmak", sıfıra basarsanız "diğer işlemler menüsüne gitmek" gibi çoklu koşullara göre programlama yapmak gerekebilir. Bunu çözmek için "if-else if" yapılarını ya da "switch-case" yapısını kullanırız.
 
 ````java
 Scanner scanner = new Scanner(System.in);
