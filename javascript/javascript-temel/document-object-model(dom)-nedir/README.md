@@ -12,6 +12,8 @@ Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli 
 
 ![DOM Tree](./figures/dom-tree.png)
 
+
+```
 <!doctype html>
 <html>
   <head>
@@ -25,6 +27,8 @@ Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli 
   </body>
 </html>
 
+```
+
 _Bu sayfa aşağıdaki yapıya sahiptir:_
 
 ![HTML boxes](./figures/html-boxes.jpg)
@@ -36,7 +40,7 @@ HTML ağacı olarak:_
 
 
 **Dosya oluşturmak, elementleri ve içeriklerini silme/ekleme gibi fonsiyonları vardır.**
-
+```
 <html>
    <head>
        <titte>Form</titte>
@@ -52,6 +56,9 @@ HTML ağacı olarak:_
        </form>
    </body>
 </html>
+```
+
+
 
 **HTML** içerisine yerleştirilmiş öğeleri çağırmak için, içinde bulunduğu diğer öğelerin çağrılması bir yöntem iken, bir öğeye bir **id** vererek bu **id** üzerinden çağırmak da bir başka yöntemdir.
 
@@ -60,7 +67,7 @@ HTML ağacı olarak:_
 Sonuç olarak eğer client-side olarak HTML’e daha fazla hükmetmek istiyorsanız, kullandığınız dil ne olursa olsun kesinlikle **DOM** un erişim yöntemlerini çok iyi biliyor olmanız gerekir.
 
 Örneğin;
-
+```
 <!DOCTYPE html>
 <html>
 <body>
@@ -79,6 +86,8 @@ function myFunction() {
 
 </body>
 </html>
+```
+
 
 [CodePen'de açmak için tıkla](https://codepen.io/baranbalin/pen/JjRLwvY)
 
