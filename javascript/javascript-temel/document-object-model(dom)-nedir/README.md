@@ -13,7 +13,7 @@ Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli 
 ![DOM Tree](./figures/dom-tree.png)
 
 
-```
+```html
 <!doctype html>
 <html>
   <head>
@@ -40,7 +40,7 @@ HTML ağacı olarak:_
 
 
 **Dosya oluşturmak, elementleri ve içeriklerini silme/ekleme gibi fonsiyonları vardır.**
-```
+```html
 <html>
    <head>
        <titte>Form</titte>
@@ -67,7 +67,7 @@ HTML ağacı olarak:_
 Sonuç olarak eğer client-side olarak HTML’e daha fazla hükmetmek istiyorsanız, kullandığınız dil ne olursa olsun kesinlikle **DOM** un erişim yöntemlerini çok iyi biliyor olmanız gerekir.
 
 Örneğin;
-```
+```html
 <!DOCTYPE html>
 <html>
 <body>
