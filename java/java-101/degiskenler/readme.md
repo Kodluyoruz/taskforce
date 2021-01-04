@@ -94,10 +94,15 @@ double pi = 3.14159; // Tek değişkene ilk değer ataması yapılarak
 
 char a = "a" ; // Tek değişkene ilk değer ataması yapılarak
 
-String str = "Hello"; //İlkel olmayan String veri tipinde de ilkel veri tipleri gibi direkt değer 						//atama veya sonradan değer atama yapılabilir
+String str = "Hello"; //İlkel olmayan String veri tipinde de ilkel veri tipleri gibi direkt değer
+
+//atama veya sonradan değer atama yapılabilir
 
 // veritipi [] değişkenAdı = new veritipi[eleman sayısı];
-int[] array = new int[3]; // İlkel olmayan tiplerde tanımlama yaparken referans değişkenler oldukları 					      //için 'new' sözcüğüyle bir referans tanımlanır. Bu tiplere daha detaylı 						    //bakılacaktır.
+
+int[] array = new int[3]; // İlkel olmayan tiplerde tanımlama yaparken referans değişkenler oldukları
+
+//için 'new' sözcüğüyle bir referans tanımlanır. Bu tiplere daha detaylı bakılacaktır.
 ```
 
 ​		
