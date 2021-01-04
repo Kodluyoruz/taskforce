@@ -31,3 +31,5 @@ Commit’lediğimiz dosyaları versiyon kontrol sistemimize gönderir.
 GitHub hesabımızı kontrol ettiğimizde tüm dosyaların ve commit işlemlerimizin ulaştığını görmüş oluruz.
 
 ![test foto](figures/github.png)
+
+[Kaynak](https://medium.com/@alianilkocak/temel-git-terimleri-ve-komutlar%C4%B1-6bc62b802baf)
