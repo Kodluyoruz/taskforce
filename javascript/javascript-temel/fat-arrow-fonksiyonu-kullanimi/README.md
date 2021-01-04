@@ -103,3 +103,10 @@ var feedTheCat = (cat) => {
    ```
    Daha okunaklı olduğu için ben çoğu zaman Arrow Fonksiyonunu kullanmayı tercih ediyorum. Umarım sağladığı güzellikler şuan daha iyi anlaşılmıştır ve faydalı bi yazı olmuştur. :)
 
+
+
+### Kaynaklar
+
+https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/
+
+https://www.freecodecamp.org/news/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26/
