@@ -16,8 +16,7 @@
       // Nesneye bir etkinlik atandı..
       const buton = document.querySelector("#button");
       //Burada ilk olarak tip ('click') ,ikinci olarak da fonksiyonun kendisi parametre olarak eklenir
-
-       buton.addEventListener('click' , function(){
+      buton.addEventListener('click' , function(){
             alert("Buton Tıklandı");
        })
    
@@ -34,39 +33,38 @@
       //nesneye bir etkinlik atandı.Burada ilk olarak tip ('click')
       //ikinci olarak da aşağıda fonksiyon tanımlanır ,fonksiyon ismi parametre olarak girilir. 
       button.addEventListener('click',btnClicked);
-
-       function btnClicked(){
+         function btnClicked(){
             alert("Buton Tıklandı!!!")
         }
         
        //Çıktı : Buton Tıklandı!!!
        
-# Mause Etkinliği
- Mause tıklaması ile gerçekleşen etkinliktir.
+# Mouse Etkinliği
+ Mouse tıklaması ile gerçekleşen etkinliktir.
    
-   //id=text olan buton çağrıldı
-   //dblclick=çift tıklama etkinliği nesneye atandı,fonksiyon ismi parametre olarak tanımlandı
-   const button = document.querySelector("#text");
-   button.addEventListener('dblclick',clickFonksiyonu);
+    //id=text olan buton çağrıldı
+    //dblclick=çift tıklama etkinliği nesneye atandı,fonksiyon ismi parametre olarak tanımlandı
+    const button = document.querySelector("#text");
+    button.addEventListener('dblclick',clickFonksiyonu);
     
     //fonksiyonda id=text olan element çağrılarak innerHTML ile içeriği değiştirildi.
         function clickFonksiyonu(){
     document.getElementById("text").innerHTML = "NEW FORM";
 }
-   //codepen uygulama linki
+
+    codepen uygulama linki
     link: https://codepen.io/gurkankirmaci/pen/bGwvjvB
    
 # Klavye Etkinlikliği
    
  Klavyeden herhangi bir tuşa tıklanması sonucu gerçekleşen etkinliklerdir.
    
-   //id=fname olan nesne çağrılarak keyboard değişkenine atandı
-   const keyboard =document.querySelector('#fname');
-   //keyboard isimli değişkene "cut" etkinliği atandı ve fonksiyon ismi parametre olarak atandı
-   keyboard.addEventListener("cut",cuttingFunction);
-   
-   //cuttingFunction isimli fonksiyon ile form inputuna yazılan girdileri klavye ctrl+c ile kesildiğinde etkinlik çalışmaktadır
-   function cuttingFunction(event){
+    //id=fname olan nesne çağrılarak keyboard değişkenine atandı
+    const keyboard =document.querySelector('#fname');
+    //keyboard isimli değişkene "cut" etkinliği atandı ve fonksiyon ismi parametre olarak atandı
+    keyboard.addEventListener("cut",cuttingFunction);
+    //cuttingFunction isimli fonksiyon ile form inputuna yazılan girdileri klavye ctrl+c ile kesildiğinde etkinlik çalışmaktadır
+    function cuttingFunction(event){
     console.log("etkinlik tipi: " , event.type)
     } 
     //console ekranı : etkinlik tipi: cut
@@ -99,8 +97,9 @@
        console.log("Etkinlik tipi : " + event.type);
        console.log("deger : " + event.target.value);
     }
+    
     //Selectbox içinde "blue" değerini seçtiğimiz takdirde;
-   //ekran çıktısı: Etkinlik tipi : change, deger : blue
+    //ekran çıktısı: Etkinlik tipi : change, deger : blue
 
 # Kabarcıklanma Etkinliği(Event Bubbling) ve Yakalama Etkinliği(Event Capturing)
    
@@ -114,7 +113,8 @@
    Örnekte event parametresi "click" etkinliği almaktadır.
    function parametresi ise fonksiyonun ismini veya fonksiyonun kendisini almaktadır.
  
- Örnek HTML formu:
+ Örnek Form:
+ 
       <html>
         <body>
          <div class="container">  
@@ -178,18 +178,19 @@ seklindedir.
 
 # event.stopPropagation() Kullanımı
  Bir etkinliğin özelliğini durdurmak için kullanılır.Bir fonksiyon parametresi olarak girilen "event" e bu etkinlik atanarak kullanılır.
-  
+ 
   Kullanımı:
+  
   event.stopPropagation();
   
   
-
 # event.preventDefault()
  Bir HTML elementinin varsayılan eylemini tamamen engellemek için bu eylem kullanılır.Bir fonksiyon parametresi olarak girilen "event" e bu etkinlik atanarak kullanılır. 
   
-  Kullanımı:
-  event.preventDefault();
   
+  Kullanımı:
+
+  event.preventDefault();
   
   
   
