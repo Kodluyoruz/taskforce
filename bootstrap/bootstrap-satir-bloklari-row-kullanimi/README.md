@@ -2,8 +2,8 @@
 Grid sistem, satırlardan(rows) ve sütunlardan (column) oluşur. Bir satır(row) 12 column'dan oluşur. Bu satırları istediğimiz şekilde parçalayabiliriz. Aşağıdaki resimde de görüldüğü gibi istersek bunları 12 eşit parçaya ayırabilir ya da 12'ye tamamlanacak herhangi bir şekilde de bölebiliriz. Örneklerle bunları açıklamaya çalışayım.
  
  
+ ![gridLayout](https://github.com/engntuba/taskforce/blob/bootstrap/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/Bootstrap-part-2.png)
  
- RESİM GELECEK
  
  
 - Satırlar `.row` sınıfı ile oluşturulur ve sayfada alt alta görünürler ve sütunlar dışında içerik barındırmamalı.
@@ -17,7 +17,8 @@ Grid sistem, satırlardan(rows) ve sütunlardan (column) oluşur. Bir satır(row
   <div class="col">Column</div>
 </div>
 ``````
- örnek resim görüntüsü
+ ![2Columns](https://github.com/engntuba/taskforce/blob/bootstrap/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/6of6.PNG)
+ 
  
 
 ````
@@ -27,7 +28,7 @@ Grid sistem, satırlardan(rows) ve sütunlardan (column) oluşur. Bir satır(row
   <div class="col">Column</div>
 </div>
 ```` 
-örnek resim
+![3Columns](https://github.com/engntuba/taskforce/blob/bootstrap/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/3column.PNG)
 ````
 <div class="row">
   <div class="col">Column</div>
@@ -36,8 +37,7 @@ Grid sistem, satırlardan(rows) ve sütunlardan (column) oluşur. Bir satır(row
   <div class="col">Column</div>
 </div>
 ```` 
-
-örnek resim görüntüsü
+![4Columns](https://github.com/engntuba/taskforce/blob/bootstrap/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/4column.PNG)
 
 Yukarıdaki örneklerde de görüldüğü üzere satırları eşit parçalar halinde columnlara ayırdık. Peki eşit olmayan columnlar yapabilir miyiz? Tabiki yapabiliriz. Şimdi de örneklerle eşit olmayan columnlar oluşturalım...
 
@@ -49,7 +49,7 @@ Yukarıdaki örneklerde de görüldüğü üzere satırları eşit parçalar hal
   <div class="col-10">10 Column</div> 
 </div>
 ````
-resim 
+![2of10Columns](https://github.com/engntuba/taskforce/blob/bootstrap/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/img-2.PNG)
 
 - Alttaki örnekte ise satırı 8'e 4'lük bir column halinde bölmüş olduk.
 ````
@@ -58,6 +58,7 @@ resim
   <div class="col-8">8 Column</div> 
 </div>
 ````
+![8of4Columns](https://github.com/engntuba/taskforce/blob/bootstrap/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/8of4.PNG)
 
 - Satırları böldüğümüzde araya yada herhangi kenara boşlukta ekleyebiliriz onu da şu şekilde gösterelim;
 
@@ -73,6 +74,9 @@ resim
 </div>
 
 ````````
+
+![emptyRow](https://github.com/engntuba/taskforce/blob/bootstrap/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/img-7.PNG)
+
 İki kod bloğunun çıktısı aynı olacak fakat birinci `col` sağından sola doğru itecek ve boşluk bırakacak diğerinde ise tam tersi ikinci `col` solundan sağa doğru iterek boşluk bırakacak.
 
 
@@ -92,6 +96,33 @@ resim
 			</div>
 		</div>
   ``````
+
+![içiçesatırlar](https://github.com/engntuba/taskforce/blob/bootstrap/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/img8.PNG)
+
+
+1- GridSystem hakkında aşağıdakilerden hangisi doğrudur?
+
+A) Düzgün bir hizalama için satırlar .container içine yerleştirilmelidir.
+B) Sütun gruplarını oluşturmak için satırları kullanırız.
+C) İçerikler sütunların içine yerleştirilmelidir ve yalnızca sütunlar satırların hemen alt öğeleri olabilir.
+D) Yukarıdakilerin hepsi.
+
+Cevap:D
+
+2- Aşağıdaki boşlukları doldurunuz.
+
+Satırlar ... sınıfı kullanılarak oluşturulur ve ... html kod bloğu ile column 2 eşit parçaya bölünür.
+
+Cevap: .row , .col-6
+
+Kaynaklar:
+- [https://www.udemy.com/course/komple-web-developer-kursu/learn/lecture/9815366#overview](https://www.udemy.com/course/komple-web-developer-kursu/learn/lecture/9815366#overview)
+- [https://www.sadikturan.com/bootstrap/bootstrap-grids/1201](https://www.sadikturan.com/bootstrap/bootstrap-grids/1201)
+- [https://www.tutorialspoint.com/bootstrap/bootstrap_grid_system.htm](https://www.tutorialspoint.com/bootstrap/bootstrap_grid_system.htm)
+- [https://getbootstrap.com/docs/4.1/layout/overview/](https://getbootstrap.com/docs/4.1/layout/overview/)
+- [https://fatihhayrioglu.com/bootstrap-izgara-Grid-sistemi-1/](https://fatihhayrioglu.com/bootstrap-izgara-Grid-sistemi-1/)
+
+
 
 
 
