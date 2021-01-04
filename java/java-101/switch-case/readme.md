@@ -156,3 +156,62 @@ Saydım.
 ```
 
 Bu örneğimizde bilgisayardan bir işlemi defalarca yapmasını istedik. 1’den 10’a kadar olan sayıları konsola yazdırdık. Bu şekilde, belli bir kod bloğunu birden fazla kez çalıştırmamızı sağlayan ifadelere **döngü ifadeleri** (**iteration statements**) denir. Biz buradaki örneklerde konuya giriş yaptık. Döngü ifadelerini ileride ayrıntıyla inceleyeceğiz.
+
+
+SORU 1: Aşağıdaki switch ifadesinin tamamlanması için eksik parçalar nelerdir?
+
+
+     public class SwitchCase {
+
+	public static void main(String[] args) {
+		
+		int classNo=2;
+
+		switch (A) {
+		
+		B 1:
+			System.out.println("Class-1");
+			
+			C ;
+			
+		B 2:
+			System.out.println("Class-2");
+			
+			C ;
+		}}}
+		
+    
+    
+Cevap: A= classNo, B= case, C= break
+
+
+
+SORU 2: Aşağıda bulunan kod bloğunda value değeri 2 ise kod çıktısı nasıl olur?
+
+
+     import java.util.Scanner;
+
+     public class SwitchCase {
+
+     public static void main(String[] args) {
+		
+		Scanner input=new Scanner(System.in);		
+		
+		int value=input.nextInt();
+		
+		switch(value) {
+		
+		case 1: case 2:	case 3: 
+			
+			System.out.println("Value-3");
+			
+			break;
+			
+		default:				
+			System.out.println("Value is invalid.");
+		    break;
+		
+		}}}
+
+
+Cevap: Value değeri 2 olması durumunda case 2 çalıştırılır. Case 2 bloğunda break komutu olmadığından bir sonraki Case 3 bloğu çalıştırılır ve Value-3 çıktısı elde edilir.
