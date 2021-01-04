@@ -182,7 +182,8 @@ seklindedir.
  
  useCapture parametresi "True" ve "False" değerleri almaktadır.Diğer tüm kullanımı kabarcıklanma etkinliği ile aynıdır.
 
-# event.stopPropagation() Kullanımı
+# event.stopPropagation()
+
  Bir etkinliğin özelliğini durdurmak için kullanılır.Bir fonksiyon parametresi olarak girilen "event" e bu etkinlik atanarak kullanılır.
  
   Kullanımı:
@@ -191,6 +192,7 @@ seklindedir.
   
   
 # event.preventDefault()
+
  Bir HTML elementinin varsayılan eylemini tamamen engellemek için bu eylem kullanılır.Bir fonksiyon parametresi olarak girilen "event" e bu etkinlik atanarak kullanılır. 
   
   
