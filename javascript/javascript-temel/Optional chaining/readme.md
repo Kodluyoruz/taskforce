@@ -38,3 +38,5 @@ console.log(diller.php?.yapici); //Php diye bir dil segmesi olmadığı için da
 Son olarak ise projelerimizde kullanmak için hangi browser desteği olduğuna değineceğim. Edge, Firefox, Chrome, Safari ve operanın 2020 sürümlerinde rahatlıkla kullanılabilmekte fakat Internet Explorer için ne yazıkki kullanımı bulunmamakta. Kullanmadan önce mutlaka göz gezdiriniz. https://caniuse.com/?search=optional%20chaining
 
 Zamanınızı ayırıp okuduğunuz için teşekkür ederim.
+
+Ilker Kurtulan
