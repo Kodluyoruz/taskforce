@@ -12,7 +12,7 @@ Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli 
 
 ![DOM Tree](./figures/dom-tree.png)
 
-```<!doctype html>
+<!doctype html>
 <html>
   <head>
     <title>My home page</title>
@@ -23,7 +23,7 @@ Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli 
     <p>Click to review my resume
       <a href="http://balin.me/cv.pdf">balin.me</a>.</p>
   </body>
-</html> ```
+</html>
 
 _Bu sayfa aşağıdaki yapıya sahiptir:_
 
@@ -52,8 +52,7 @@ HTML ağacı olarak:_
            <input type="text" id="yas">
        </form>
    </body>
-</html>
-```
+</html>```
 
 **HTML** içerisine yerleştirilmiş öğeleri çağırmak için, içinde bulunduğu diğer öğelerin çağrılması bir yöntem iken, bir öğeye bir **id** vererek bu **id** üzerinden çağırmak da bir başka yöntemdir.
 
