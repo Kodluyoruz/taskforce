@@ -45,13 +45,13 @@ inline-flex
 
 Bootstrap’te ekran boyutları için hazır tanımlamalar bulunmaktadır. Bu tanımlamalara göre elementlerin görünürlüğünü açık-kapalı olarak class tag’inde belirtebiliriz. Bu sayede responsive uyumlu dinamik bir görünüm elde ederiz:
 
-_Breakpoint infix Boyutlar_
-X-Small - <576px
-Small sm ≥576px
-Medium md ≥768px
-Large lg ≥992px
-Extra Large xl ≥1200px
-Extra extra large xxl ≥1400px
+_Breakpoint         infix     Boyutlar_
+X-Small             -         <576px
+Small               sm        ≥576px
+Medium              md        ≥768px
+Large               lg        ≥992px
+Extra Large         xl        ≥1200px
+Extra extra large   xxl       ≥1400px
 
 Şimdi, Bootstrap özelliklerini kullanarak 5 adet h1 oluşturalım ve bu h1 elementlerinin display özelliklerini ayarlayalım.
 
