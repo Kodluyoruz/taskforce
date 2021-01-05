@@ -68,13 +68,13 @@ Görüldüğü üzere `handleClick` `e` adlı bir argüman alıyor. Bu argüman 
 
 ```javascript
 <img
-	src="children.jpeg"
-	onMouseMove={handleMouse} {/* e.screenX */}
+  src="children.jpeg"
+  onMouseMove={handleMouse} {/* e.screenX */}
 />
 
 <input
-	onChange={handleInput}  {/* e.target.value */}
-	value={inputText}
+  onChange={handleInput}  {/* e.target.value */}
+  value={inputText}
 />
 ```
 
