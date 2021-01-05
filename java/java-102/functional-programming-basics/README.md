@@ -155,11 +155,12 @@ System.out.println(multiplication.operate(number1, number2));
 System.out.println(division.operate(number1, number2));
 ```
 Yukarıdaki kodu çalıştırdığınız zaman çıktısı aşağıdaki gibi olur:
+```java
 9
 3
 18
 2
-
+```
 **Lambda ifadeleri ve değişkenlere erişim**
 
 Bir lambda ifadesi içinden, tanımlandığı sınıfın statik üyelerine erişilebilir.
@@ -182,13 +183,13 @@ Operation operation = (x, y) ->
  return x + y;
 };
 number1++; // Değişkenin değeri değiştiriliyor, hataya sebebiyet
-```
+
 Yukarıda yazdığımız kod henüz derleme aşamasında hata alır; çünkü lambda
 ifadesi içinde kullandığımız number1 değişkeninin değerini lambda ifadesi
 dışında değiştiriyoruz. Halbuki bu değişkenin dolaylı olarak sabit olması
 gerekirdi. Bu kodu aşağıdaki gibi yazdığımız zaman hata vermez:
 
-```java
+​```java
 final int number1 = 6;
 final int number2 = 3;
 Operation operation = (x, y) ->
@@ -266,11 +267,11 @@ list
 Burada, filter() metodunu kullanarak yalnızca 60’dan büyük sayıların konsola
 yazdırılmasını istiyoruz. Bu kodu çalıştırdığınız zaman çıktısı aşağıdaki gibi
 olur.
-
+```java
 89
 100
 63
-
+````
 **distinct() **
 
 Bu metodu kullanarak akışın içinde her elemanın en fazla 1 kez yer almasını
@@ -284,7 +285,7 @@ list
 ```
 Bu kodu çalıştırırsanız, listeye iki kez eklenen 25 sayısının yalnızca bir kez
 konsola yazdırıldığını görürsünüz:
-
+```java
 25
 12
 3
@@ -293,7 +294,7 @@ konsola yazdırıldığını görürsünüz:
 100
 7
 63
-
+```
 **sorted() **
 Bu metodu kullanarak akışın elemanlarını sıralayabilirsiniz
 
@@ -303,6 +304,7 @@ list
  .sorted()
  .forEach(number -> System.out.println(number));
 ```
+```java
 3
 7
 12
@@ -312,7 +314,7 @@ list
 63
 89
 100
-
+```
 Bu metodun Comparator<T> türünde bir parametre alan başka bir versiyonu
 daha vardır. Bu versiyonu kullanarak akışın sıralama algoritmasını
 değiştirebilirsiniz.
@@ -325,7 +327,7 @@ list
 ```
 Örneğin, bu kodu çalıştırırsanız, elemanların büyükten küçüğe doğru
 sıralanarak konsola yazdırıldığını görürsünüz:
-
+```java
 100
 89
 63
@@ -335,7 +337,7 @@ sıralanarak konsola yazdırıldığını görürsünüz:
 12
 7
 3
-
+```
 **limit()**
 Bu metodu kullanarak akış üzerinde gerçekleştireceğiniz işlemleri belli bir
 sayıyla sınırlandırabilirsiniz. long türünde bir sayıyı parametre olarak alır.
@@ -348,13 +350,13 @@ list
 ```
 Bu kodu çalıştırırsanız, yalnızca ilk 5 elemanın konsola yazdırıldığını
 görürsünüz:
-
+```java
 25
 12
 3
 89
 25
-
+```
 **skip() **
 
 Bu metodu kullanarak akışın belli sayıda elemanını atlayabilirsiniz. Bu
@@ -370,10 +372,10 @@ list
 ```
 Burada, akışın ilk 5 elemanını atlıyor ve sonraki 2 elemanı konsola
 yazdırıyoruz:
-
+```java
 44
 100
-
+```
 **count() **
 
 Bu metodu kullanarak akıştaki eleman sayısını öğrenebilirsiniz. Bu metot akışı
@@ -455,7 +457,7 @@ list
 ```
 Bu örnekte, akışın bütün elemanlarını 2 ile çarptık. Bu kodu çalıştırırsanız
 çıktısı aşağıdaki gibi olur:
-
+```java
 50
 24
 6
@@ -465,7 +467,7 @@ Bu örnekte, akışın bütün elemanlarını 2 ile çarptık. Bu kodu çalışt
 200
 14
 126
-
+```
 Bu metodu kullanarak akışın içindeki elemanların türünü değiştirmek de
 mümkündür:
 
@@ -477,7 +479,7 @@ list
 ```
 Burada akışın türünü Integer’dan Double’a değiştiriyoruz. Bu kodu
 çalıştırırsanız çıktısı aşağıdaki gibi olur:
-
+```java
 5.0
 3.4641016151377544
 1.7320508075688772
@@ -487,3 +489,4 @@ Burada akışın türünü Integer’dan Double’a değiştiriyoruz. Bu kodu
 10.0
 2.6457513110645907
 7.937253933193772
+```
