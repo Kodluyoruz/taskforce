@@ -28,7 +28,7 @@ Aynı uygulamada, yani yazılımda, birden fazla alt iş parçacığının yi
 - CPU’nun (işlemci) zamanını verimli kullanabilmek
 - CPU’nun hızından faydalanmak
 
-**Multithreading Zordur!
+**Multithreading Zordur!**
 
 Multithread (çok kanallı) programlama yöntemiyle performanslı uygulamalar yazma fikri kulağa çok hoş gelebilir. Gerçekten de çok kanallı programlama yaparak uygulamanızın performansını arttırabilirsiniz. Fakat, bu yöntemle programlama yapabilmek bir o kadar zordur. Çünkü, birden fazla olan bu iş parçacıkları aynı hafıza kaynağını kullanıp okuma ve yazma işlemlerini tek bir hafızaya yapmaktadırlar. Her ne kadar işlemci sayısı artıp işlemciler bağımsız çalışma birimleri olsa da hafıza tek bütün halindedir.
 
@@ -36,7 +36,7 @@ Ve bu hafızanın yazma ve okuma işlemlerinde kontrollü bir şekilde koordi
 
 Yazılımcı birden fazla CPU’ya sahip bir donanımda her iş parçacığını bağımsız olarak farklı CPU’larda çalıştırsa bile hafıza ortak olduğu için buraya yapılacak erişimleri koordine edecek kodları yazmalıdır. Hafızaya yapılacak yazma ve okuma işlemlerini sıralı erişime koymalıdır.
 
-**CPU Verimli Kullanmak
+**CPU Verimli Kullanmak**
 
 Diyelimki diskteki dosyaları okuyup işleyen bir program yazıyoruz. Bu yapılan işlemlerin süreleri aşağıdaki gibi ardışıl şekilde olsun.
 
@@ -46,7 +46,7 @@ Diyelimki diskteki dosyaları okuyup işleyen bir program yazıyoruz. Bu yapıl
 * B dosyasını okumak - 5 saniye
 * B dosyasını işlemek – 2 saniye
 
-**Toplam süre:** 14 saniye
+**Toplam süre:14 saniye**
 
 Dosyalar sistemden okuma yapılırken CPU neredeyse tamamıyla boş durumdadır. CPU bu zamanı daha iyi değerlendirip birtakım işlemler yapabilirdi. İşte çok kanallı programlama ile bu boş süreleri değerlendirip CPU’yu daha verimli kullanabiliriz.
 
@@ -57,7 +57,7 @@ Oysa CPU bu zamanda bir yandan dosya işleme işlemini başlatsa daha verimli
 A dosyasını okumak (5 saniye)
 B dosyasını okumak (5 saniye) + A dosyasını işlemek (2 saniye) B dosyasını işlemek (2 saniye)
 
-**Toplam süre: 12 süre
+**Toplam süre: 12 süre**
 
 Görüldüğü gibi süre anlamında kazanç sağlamış oluyoruz.
 
