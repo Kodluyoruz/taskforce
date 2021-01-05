@@ -1,4 +1,4 @@
-# sFunctional Programming Basics
+# Functional Programming Basics
 
 ## Lambda Expressions
 
