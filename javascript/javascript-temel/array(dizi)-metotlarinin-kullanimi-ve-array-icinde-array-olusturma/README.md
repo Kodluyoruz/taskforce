@@ -626,7 +626,7 @@ myFunction(dizi);
 ```javascript
 let dizi = [2,3,4];
 
-// Uygun dizi metodunu kullanarak yukarıda verilen dizinin elemanlarının çarpımının sonucunu (20) veren bir fonksiyon yazınız.
+// Uygun dizi metodunu kullanarak yukarıda verilen dizinin elemanlarının çarpımının sonucunu (24) veren bir fonksiyon yazınız.
 
 
 ```
@@ -636,7 +636,10 @@ let dizi = [2,3,4];
 [Çözümü CodePen'de inceleyin](https://codepen.io/onuraksar/pen/VwKXEZz?editors=0011)
 
 -----
+## Kaynakça:
 
+- (https://www.elated.com/nested-arrays-in-javascript/)
+- [W3Schools](https://www.w3schools.com/js/js_array_methods.asp)
 
 
 
