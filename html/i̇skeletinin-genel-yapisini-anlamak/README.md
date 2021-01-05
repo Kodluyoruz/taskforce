@@ -20,8 +20,8 @@ Bir html sayfası oluşturmadan önce mutlaka **HTML 5 standartlarına uygun bir
 
 ```html
 <!DOCTYPE html>
-<head>
 <html lang="en">
+<head>
 <meta charset="UTF-8">
 <title>Page Title</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -102,6 +102,21 @@ Etiketleri asla çakıştırmamaya dikkat etmelisiniz. Yani, asla aşağıdaki g
 ```
 
 Bir HTML etiketini her kapatışınızda, en son kapatılmamış etiketi kapattığınızdan emin olun.
+
+#Sorular
+
+- Aşağıdakilerden hangisi `<head>` kısmı arasında yer almaz?
+  - title
+  - div (Doğru)
+  - meta
+  - style
+
+- Aşağıda verilen etiketlerden hangisinin içine html sayfamızda bulunması gereken içeriğini yazarız?
+  - `<body>` (Doğru)
+  - `<meta>`
+  - `<div>`
+  - `<style>`
+
 
 
 # Kaynaklar
