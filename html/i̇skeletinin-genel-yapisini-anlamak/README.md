@@ -111,7 +111,7 @@ Bir HTML etiketini her kapatışınızda, en son kapatılmamış etiketi kapatt�
   - meta
   - style
 
-- Aşağıda verilen etiketlerden hangisinin içine html sayfamızda bulunması gereken içeriğini yazarız?
+- Aşağıda verilen etiketlerden hangisinin içine html sayfamızda bulunması gereken içeriği yazarız?
   - `<body>` (Doğru)
   - `<meta>`
   - `<div>`
