@@ -47,7 +47,7 @@
   - [ ] [Enumeration, Iterator, Iterable interfaces](enumeration-iterator-iterable-interfaces/) **parçala**
   - [ ] [Comparable, Comparator interfaces](comparable-comparator-interfaces/) **parçala**
 - [ ]  [Java 8 Features](java-8-features/)
-- [ ] Functional Programming Basics
+- [ ] [Functional Programming Basics](Functional Programming Basics/)
   - [ ] Lambda Expressions
   - [ ] Functional Interfaces
   - [ ] Stream API
