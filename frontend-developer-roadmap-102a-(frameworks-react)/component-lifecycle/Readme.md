@@ -100,7 +100,7 @@ Component'in güncellenmesi aşamasında `render()` metodu haricinde React taraf
 
 Metodundan yukarıda **mounting** kısmında component render olmadan önce çağrıldığından bahsetmiştik. Bu metot ayrıca component her re-render olduğunda yani her güncellemede de çağrıldığı için hem **mounting** hem de **updating** aşamalarında bulunur. Burada dikkat edilmesi gereken nokta, bu metot props üzerinde bir değişiklik olmasa bile çağrılmış olabilir. Bunun sebebi parent component'lerden birinin güncellenmiş olması olabilir çünkü parent component'e bağlı olarak child component'ler de yeniden render olacaktır. Bu yüzden bu metodun çağrılması bu şekilde de mümkündür. 
 
-### shouldComponentUpdate(nextProps, nextState)
+### shouldComponentUpdate(nextProps, nextState)
 
 Metodu bir **boolean** return eder ve bunun sonucuna göre component'in yeniden render olup olmayacağı belirlenir. Varsayılan değeri `true'` return edilir. Performans optimizasyonu için kullanılır. Varsayılan olarak React her props ve state değişiminde component'in render olmasını sağlar ancak bazı durumlarda bunun önüne geçilmek isteniyorsa yani bir component'in boşuna render edilmesi engellenmek isteniyorsa bu lifecycle metot kullanılır. 
 
