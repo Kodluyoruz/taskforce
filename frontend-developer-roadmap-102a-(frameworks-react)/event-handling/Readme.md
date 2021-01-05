@@ -9,10 +9,10 @@ Event, HTML element'leri üzerinde gerçekleşen olaylardır. Bir event'in gerç
 **Not:** JavaScript kodu tek veya çift tırnak içerisinde yazılabilir. Eğer event handler bir fonksiyon olarak belirtilecekse o da bir string ifade olarak yazılır.
 
 ```javascript
-<button onclick="tarihiGoster()">Saat kaç?</button>
+<button onclick="saatiGoster()">Saat kaç?</button>
 ```
 
-Burada `tarihiGoster()` bir fonksiyondur.
+Burada `saatiGoster()` bir fonksiyondur.
 
 ## React'te Event'ler
 
@@ -25,7 +25,7 @@ Burada `tarihiGoster()` bir fonksiyondur.
 ### Örnek
 
 ```javascript
-<button onClick={tarihiGoster}>Saat kaç?</button>
+<button onClick={saatiGoster}>Saat kaç?</button>
 ```
 
 
