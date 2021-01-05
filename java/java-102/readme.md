@@ -51,28 +51,27 @@
   - [ ] Lambda Expressions
   - [ ] Functional Interfaces
   - [ ] Stream API
-- [ ]  Multi Threads & Concurrency
-
-   - [ ] MultiThread programlama kavramları
+- [ ]  [Multi Threads & Concurrency](multi-threads-concurrency/)
+- [ ] MultiThread programlama kavramları
    - [ ] Critical Section & Race Condition
    - [ ] Thread, Runnable, Thread Sleep
    - [ ] Syncronized & Read Write Locks, Volatile Variables
-  - [ ] Thread Pooling & Executers
-- [ ]  Java Network Programming
+   - [ ] Thread Pooling & Executers
+- [ ]  Java Network Programming **(Yok)**
 
   - [ ] Client & Server Apps
   - [ ] Multithreaded Server Apps
   - [ ] UDP Client & Server Apps
   - [ ] HTTP Apps
-- [ ] Java Remote Method Invocation (RMI)
-- [ ] Java Reflection Basics
+- [ ] Java Remote Method Invocation (RMI) **(Yok)**
+- [ ] Java Reflection Basics **(Yok)**
 - [ ] JDBC API and Databases
-- [ ]  JVM Internals
+- [ ]  JVM Internals **(Olduğu kadarını alalım. Yarım var.)**
 
   - [ ] Class Loading
   - [ ] Linking
   - [ ] Runtime Data Areas
   - [ ] Memory - Heap - Stack
   - [ ] Garbage Collection
-- [ ] JUnit Testing & Debugging
-- [ ]  JavaFC or Swing (GUI)
+- [ ] JUnit Testing & Debugging **(Yok)**
+- [ ]  JavaFC or Swing (GUI) **(Yok)**
