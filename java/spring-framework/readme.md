@@ -593,7 +593,6 @@ public class Application {
 ```
 Spring Boot ile ilgili çeşitli ayarların tutalacağı sabit bir dosya tanımlayacağız. “application.properties” isimli bu dosyayı “src/main/resources” altında oluşturuyoruz.
 
-### Server port ####
 server.port=7006
 
 Şimdilik sadece Tomcat web uygulama sunucusunun hizmet vereceği port bilgisini 7006 olarak belirttik. Bu haliyle uygulamamız çalıştırılmaya hazır.
