@@ -34,7 +34,7 @@ Bir diğer farklılık ise varsayılan davranışların engellenme biçimidir. �
 
 ```javascript
 <a href="#" onclick="console.log('Link tıklandı.'); return false">
-	Tıkla
+  Tıkla
 </a>
 ```
 
