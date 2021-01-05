@@ -65,7 +65,8 @@
   - [ ] HTTP Apps
 - [ ] Java Remote Method Invocation (RMI) **(Yok)**
 - [ ] Java Reflection Basics **(Yok)**
-- [ ] JDBC API and Databases
+- [ ] [JDBC API and Databases](jdbc-api-and-databases/)
+
 - [ ]  JVM Internals **(Olduğu kadarını alalım. Yarım var.)**
 
   - [ ] Class Loading
