@@ -66,7 +66,7 @@ x değişkenin değer türü kayan sayı (float) türündedir. Sayının integer
     //0
 ```
 
-## Arttırma : Bir sayıyı arttırmak için kullanırız. Değeri 1 arttırır. For ve While döngüleri içinde sık sık kullanılır. Önce veya sonra kullanılabilir. Operatörün değişkenden sonra gelmesi durumuna postfix form, değişkenden önce gelme durumuna prefix form denilmektedir. Her iki kullanımdada değer +1 arttırılır lakin prefix formu oluşan yeni değeri döndürmektedir. Postfix formu ise eski değeri döndürür, yani ekrana alert keyword(anahtar kelimesi) ile basar, ekrana basılan değer eski değerdir. Arttırma işlemi yapılmıştır ve değişkende arttırılmış hali tutulur. Örneğin;
+## Arttırma : Bir sayıyı arttırmak için kullanırız. Değeri 1 arttırır. For ve While döngüleri içinde sık sık kullanılır, önce veya sonra kullanılabilir. Operatörün değişkenden sonra gelmesi durumuna postfix form, değişkenden önce gelme durumuna prefix form denilmektedir. Her iki kullanımdada değer +1 arttırılır lakin prefix formu oluşan yeni değeri döndürmektedir. Postfix formu ise eski değeri döndürür, yani ekrana alert keyword(anahtar kelimesi) ile basar, ekrana basılan değer eski değerdir. Arttırma işlemi yapılmıştır ve değişkende arttırılmış hali tutulur. Örneğin;
 ```JavaScript
 
    let counter = 1;
@@ -80,7 +80,7 @@ x değişkenin değer türü kayan sayı (float) türündedir. Sayının integer
 
 ```
 
-## Azaltma : Bir sayıyı azaltmak için kullanırız. Değeri 1 azaltır. For ve While döngüleri içinde sık sık kullanılır. Arttırma operatöründe anlatılan başa veya sonraya operatör ekleme işlemi sonunca gerçekleşen durum azaltma operatörü içinde geçerlidir.
+## Azaltma : Bir sayıyı azaltmak için kullanırız. Değeri 1 azaltır. For ve While döngüleri içinde sık sık kullanılır. Arttırma operatöründe anlatılan başa veya sonraya operatör ekleme işlemi sonunda gerçekleşen durum azaltma operatörü içinde geçerlidir.
 ```JavaScript
     let counter = 1;
     let a = --counter;
@@ -89,4 +89,9 @@ x değişkenin değer türü kayan sayı (float) türündedir. Sayının integer
 
 # İşlem Önceliği
 
-    Temel dört işlem kuralları JavaScript yazarkende geçerlidir.
+    Temel dört işlem kuralları, JavaScript içinde geçerlidir.
+    
+# Kaynaklar
+[Godoro Derinlemesine JavaScript][https://books.google.com.tr/books/about/Derinlemesine_JavaScript.html?id=qy6DDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false]
+[Onur Dayıbaşı JS Operatör][https://medium.com/frontend-development-with-js/js-operator-6c4a13a1743]
+
