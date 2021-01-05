@@ -102,7 +102,7 @@ Metodundan yukarıda **mounting** kısmında component render olmadan önce ça�
 
 ### shouldComponentUpdate(nextProps, nextState)
 
-Metodu bir **boolean** return eder ve bunun sonucuna göre component'in yeniden render olup olmayacağı belirlenir. Varsayılan değeri `true'` return edilir. Performans optimizasyonu için kullanılır. Varsayılan olarak React her props ve state değişiminde component'in render olmasını sağlar ancak bazı durumlarda bunun önüne geçilmek isteniyorsa yani bir component'in boşuna render edilmesi engellenmek isteniyorsa bu lifecycle metot kullanılır. 
+Metodu bir **boolean** return eder ve bunun sonucuna göre component'in yeniden render olup olmayacağı belirlenir. Varsayılan değeri `true` return edilir. Performans optimizasyonu için kullanılır. Varsayılan olarak React her props ve state değişiminde component'in render olmasını sağlar ancak bazı durumlarda bunun önüne geçilmek isteniyorsa yani bir component'in boşuna render edilmesi engellenmek isteniyorsa bu lifecycle metot kullanılır. 
 
 ```javascript
 class Example extends React.Component {
