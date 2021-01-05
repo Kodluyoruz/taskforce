@@ -1,6 +1,6 @@
 # Multi Threads & Concurrency
 
-Java Çok Kanallı Programlama
+## Java Çok Kanallı Programlama
 
 Aynı uygulama içinde çalışabilen birden fazla alt işlemler açabilmeyi ifade eder. Bu kavrama Çok Kanallı Programlama (Multithread Programming) diyoruz. Çok kanallı programlama yöntemi ile geliştirilen uygulamalarda kodun farklı bölümleri aynı anda işletilebilirler. Ya da aynı kod parçası farklı veri kümeleriyle aynı anda işletilebilir.
 
