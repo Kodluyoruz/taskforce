@@ -19,7 +19,6 @@
   - [ ] Accessor Mutator Methods
   - [ ] Instance Fields
   - [ ] Scope and Local Variables
-  - [ ] This'e Neden İhtiyacımız Var?
   - [ ] Static Variables and Methods
   - [ ] Inheritance & Composition
   - [ ] SOLID Principles & Clean Code Practices
@@ -66,9 +65,8 @@
 - [ ]  [JVM Internals](jvm-internals/)
 
   - [ ] Class Loading
-  - [ ] Linking
   - [ ] Runtime Data Areas
   - [ ] Memory - Heap - Stack
-  - [ ] Garbage Collection
+  
 - [ ] JUnit Testing & Debugging **(Yok)**
 - [ ]  JavaFC or Swing (GUI) **(Yok)**
