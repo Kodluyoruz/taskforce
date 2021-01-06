@@ -17,10 +17,10 @@
   - [ ] [Implementing Classes](implementing-classes/)
   - [ ] Testing Classes and Methods
   - [ ] Accessor Mutator Methods
-  - [ ] Instance Fields
-  - [ ] Scope and Local Variables
-  - [ ] Static Variables and Methods
-  - [ ] SOLID Principles & Clean Code Practices
+  - [ ] [Instance Fields](instance-fields/)
+  - [ ] [Scope and Local Variables](scope-and-local-variables/)
+  - [ ] [Static Variables and Methods](static-variables-and-methods/)
+  - [ ] [SOLID Principles & Clean Code Practices](solid-principles-clean-code-practices/)
   - [ ] JavaDoc
 - [ ] [Java Enums](java-enums/)
 - [ ] [Final Keyword Usage](final-keyword-usage/)
