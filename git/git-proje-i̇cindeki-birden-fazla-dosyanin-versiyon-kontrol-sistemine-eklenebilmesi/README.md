@@ -48,4 +48,6 @@ GitHub hesabımızı kontrol ettiğimizde tüm dosyaların ve commit işlemlerim
 - [ ] Hiçbir hata ile karşılaşmayız ve dosyalarımız aktarılmaz.
 - [ ] Commit işlemi ile ilgili uyarı verir ancak dosyalarımız aktarılmış olur.
 
+## Kaynaklar
+
 [Temel Git terimleri ve komutları](https://medium.com/@alianilkocak/temel-git-terimleri-ve-komutlar%C4%B1-6bc62b802baf)
