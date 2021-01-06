@@ -33,3 +33,19 @@ GitHub hesabımızı kontrol ettiğimizde tüm dosyaların ve commit işlemlerim
 ![test foto](figures/github.png)
 
 [Kaynak](https://medium.com/@alianilkocak/temel-git-terimleri-ve-komutlar%C4%B1-6bc62b802baf)
+
+## Sorular
+
+1.Versiyon kontrol sistemine tüm dosyalarımızı aynı anda göndermeden önce yapılması gereken kritik işlem nedir ?
+
+- [ ] Öncesinde commit işleminin yapılması.
+- [ ] Gitignore dosyasının hazırlanması.
+- [ ] Göndermek istenen tüm dosyalarının teker teker belirtilmesi.
+- [ ] "Git Add ." Komutunun çalıştırılması.
+
+2.Commit işlemi yapılmadan "git push" komutunu kullandığımızda nasıl bir sonuç ile karşılaşırız ?
+
+- [ ] Commit mesajı olmadan dosyalarımız aktarılır.
+- [ ] Commit işlemi yapılmadığı için hata verir ve dosyalarımız aktarılmaz.
+- [ ] Hiçbir hata ile karşılaşmayız ve dosyalarımız aktarılmaz.
+- [ ] Commit işlemi ile ilgili uyarı verir ancak dosyalarımız aktarılmış olur.
