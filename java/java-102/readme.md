@@ -67,7 +67,7 @@
 - [ ] Java Reflection Basics **(Yok)**
 - [ ] [JDBC API and Databases](jdbc-api-and-databases/)
 
-- [ ]  JVM Internals **(Olduğu kadarını alalım. Yarım var.)**
+- [ ]  [JVM Internals](jvm-internals/)
 
   - [ ] Class Loading
   - [ ] Linking
