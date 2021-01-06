@@ -20,7 +20,6 @@
   - [ ] Instance Fields
   - [ ] Scope and Local Variables
   - [ ] Static Variables and Methods
-  - [ ] Inheritance & Composition
   - [ ] SOLID Principles & Clean Code Practices
   - [ ] JavaDoc
 - [ ] [Java Enums](java-enums/)
