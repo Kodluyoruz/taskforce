@@ -16,7 +16,6 @@
   - [ ] [Anatomy of Classes and Methods](anatomy-of-classes-and-methods/)
   - [ ] [Implementing Classes](implementing-classes/)
   - [ ] Testing Classes and Methods
-  - [ ] Method Parameters
   - [ ] Accessor Mutator Methods
   - [ ] Instance Fields
   - [ ] Scope and Local Variables
