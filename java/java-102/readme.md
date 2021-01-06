@@ -22,9 +22,6 @@
   - [ ] This'e Neden İhtiyacımız Var?
   - [ ] Static Variables and Methods
   - [ ] Inheritance & Composition
-  - [ ] Polymorphisim & Overriding
-  - [ ] Abstraction
-  - [ ] Encapsulation
   - [ ] SOLID Principles & Clean Code Practices
   - [ ] JavaDoc
 - [ ] [Java Enums](java-enums/)
