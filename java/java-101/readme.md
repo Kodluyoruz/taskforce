@@ -1,6 +1,6 @@
 # Java 101
 
-#### - [ ] [Java Nedir?](what-is-java/)
+#### - [ ] [Java Nedir?]
   - [ ] [Java ile Uygulama Geliştirme Yapabileceğiniz Alanlar](uygulama-alanlari/)
   - [ ] [Java Geliştirme Ortamının Kurulumu](java-geliştirme-ortaminin-kurulumu/)
   - [ ] [Geliştirme Araçlarının Kurulumu](gelistirme-araclarinin-kurulumu/)
