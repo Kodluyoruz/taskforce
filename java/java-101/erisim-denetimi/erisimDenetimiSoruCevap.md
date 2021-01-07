@@ -4,7 +4,7 @@
 
 ### Cevap : 
 
-Dahili üye sınıflarını kullanarak erişim imkanı bulunmaktadır . İlk olarak dahili üye sınıflar, sınıf içerisinde tanımlanmış sınıflar olarak tanımlayabiliriz. Dahili üye sınıflar ile paraçalar bir araya gelerek bir bütün oluşturulabilir.
+Dahili üye sınıflarını kullanarak erişim imkanı bulunmaktadır . İlk olarak dahili üye sınıflar, sınıf içerisinde tanımlanmış sınıflar olarak tanımlayabiliriz. Dahili üye sınıflar ile parçalar bir araya gelerek bir bütün oluşturulabilir.
 
 Bu sorunun cevabını ise bir örnek ile güzelce açıklayabiliriz. 
 
