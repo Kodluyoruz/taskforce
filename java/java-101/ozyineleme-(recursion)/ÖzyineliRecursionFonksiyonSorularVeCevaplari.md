@@ -77,7 +77,7 @@ public class Recursion {
 */
 ```
 
-3 - ) N boyutlu bir tam sayı dizisi oluşturunuz ve bu dizinin içini de 0 ile 100 rastgele tam sayi değerleri ile doldurunuz. Bu oluşan dizi içindeki en büyük değeri özyineli fonksiyon ile bulunuz ? 
+3 - ) N boyutlu bir tam sayı dizisi oluşturunuz ve bu dizinin içini de 0 ile 100 arasında rastgele tam sayi değerleri ile doldurunuz. Bu oluşan dizi içindeki en büyük değeri özyineli fonksiyon ile bulunuz ? 
 
 Cevap : 
 
