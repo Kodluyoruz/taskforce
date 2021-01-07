@@ -49,18 +49,21 @@ let div = document.querySelector('#content');
 div.classList.replace('info','block');
 ```
 * **length()** : Bir öğede bulunan sınıf sayısını  bilmemizi sağlar.
- [Codepe'de deneyin](https://codepen.io/brcthn/pen/abmYaRv)
+  [Codepen'de deneyin](https://codepen.io/brcthn/pen/zYKjVjR)
+  
+  ### Sorular
+```
+Soru 1: Codepen'de oluşturmuş olan butona tıklandındığında çemberin rengini classList metodlarını kullanarak degiştiriniz.
+```
+[Codepen'de deneyin](https://codepen.io/brcthn/pen/abmYaRv)
 
 
+Soru 2: Codepen'de oluşturmuş olan butonlara tıklandındığında istenilen değişiklikleri yapiniz.
+ -Add Butonu: Yeni bir class ekleyiniz ve yeni oluşturulan classa css bilgisi ekleyerek kutunun arka plan rengini turuncu yapınız.
+- Remove Butonu: Kutunun içindeki metnin classına, önceden eklenmiş  css  classını kaldırınız.
+- Replace Butonu: Yeni bir class oluşturunuz, istediğiniz özellikleri css ile veriniz. Add  butonu ile eklediğiniz class ile degiştiriniz.
+- Item Butonu: p elementinin class isimlerinin  ilkini ekrana alert ile yazdırınız. 
+- Contains Butonu: p elementinin "classList" classını içerip içermediğini kontrol ediniz. Eğer içeriyorsa  ekrana alert ile "True", içermiyorsa "False"  yazdırınız. 
 
 
-
-
- 
- 
-
- 
-
-
-
-     
+[Codepen'de deneyin](https://codepen.io/brcthn/pen/wvzXZZq)
