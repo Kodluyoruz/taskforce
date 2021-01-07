@@ -49,7 +49,7 @@ import java.util.Scanner;
 import java.util.Scanner;
 
 public class Recursion {
-    static long toplam = 1;
+    static long carpim = 1;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -64,10 +64,10 @@ public class Recursion {
 
     private static long sayiKuvvetiBul(int sayiDegeri, int sayiKuvvetDegeri) {
         if (1 <= sayiKuvvetDegeri) {
-            toplam *= sayiDegeri;
+            carpim *= sayiDegeri;
             sayiKuvvetiBul(sayiDegeri, sayiKuvvetDegeri - 1);
         }
-        return toplam;
+        return carpim;
     }
 }
 /*
