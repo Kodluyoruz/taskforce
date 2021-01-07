@@ -1,0 +1,1 @@
+# Fat Arrow () => Fonksiyonu Kullanımı

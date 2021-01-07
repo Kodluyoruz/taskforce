@@ -1,0 +1,1 @@
+# forEach ile Array içerisindeki Öğelerin Çağrılması

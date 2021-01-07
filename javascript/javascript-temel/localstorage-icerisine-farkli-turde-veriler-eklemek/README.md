@@ -1,0 +1,1 @@
+# localStorage içerisine Farklı Türde Veriler Eklemek

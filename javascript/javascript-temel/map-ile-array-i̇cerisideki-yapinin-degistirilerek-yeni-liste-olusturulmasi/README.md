@@ -1,0 +1,1 @@
+# Map ile Array İçerisideki Yapının Değiştirilerek Yeni Liste Oluşturulması
