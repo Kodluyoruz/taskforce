@@ -4,14 +4,13 @@
 
 **W3C(World Wide Web Consortium)**'e göre **Document Object Model**, programların ve komut dosyalarının bir belgenin içeriğine, yapısına ve stiline dinamik olarak erişmesine ve güncellemesine izin veren bir platform ve dilden bağımsız bir arayüzdür.
 
-Bir HTML belgesini iç içe geçmiş kutular olarak hayal edebilirsiniz. **<body>** ve **</body>** gibi çevreleyen etiketler, sırayla başka etiketler veya metinler içeren diğer etiketleri kapsar. 
+Bir HTML belgesini iç içe geçmiş kutular olarak hayal edebilirsiniz. ``<body>`` ve ``</body>`` gibi çevreleyen etiketler, sırayla başka etiketler veya metinler içeren diğer etiketleri kapsar. 
 
 Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli izler. Her kutu için, hangi HTML etiketini temsil ettiği ve hangi kutuları ve metni içerdiği gibi şeyleri bulmak için etkileşime girebileceğimiz bir nesne vardır. Bu temsil, **Document Object Model** veya kısaca **DOM** olarak adlandırılır.
 
 **DOM**’da **HTML** ile hazırladığınız sayfa, **_document_**; bu document'in içine yerleştirdiğiniz her türlü öğe ise **_element_** olarak adlandırılır. **DOM** da nesnelerin birer **_element_** olarak kullanılabilmesi için hiyerarşik bir düzen izlenerek çağrılmaları gerekir. HTML’deki her bir elamanın birbiri ile hiyearşik bir yapı oluşturması ile oluşur. **DOM** bir ağaç dizini gibi bütün dokümanları birbirine bağlar.
 
-![DOM Tree](./figures/dom-tree.png)
-
+<img src="./figures/dom-tree.png" alt="DOM Tree" style="zoom:40%;" />
 
 ```html
 <!doctype html>
@@ -31,15 +30,13 @@ Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli 
 
 _Bu sayfa aşağıdaki yapıya sahiptir:_
 
-![HTML boxes](./figures/html-boxes.jpg)
-
+<img src="./figures/html-boxes.jpg" alt="HTML boxes" style="zoom:60%;" />
 HTML ağacı olarak:_
 
-![HTML document as a tree](./figures/html-tree.jpg)
-
-
+<img src="./figures/html-tree.jpg" alt="HTML document as a tree" style="zoom:60%;" />
 
 **Dosya oluşturmak, elementleri ve içeriklerini silme/ekleme gibi fonsiyonları vardır.**
+### Örneğin;
 ```html
 <html>
    <head>
@@ -66,7 +63,12 @@ HTML ağacı olarak:_
 
 Sonuç olarak eğer client-side olarak HTML’e daha fazla hükmetmek istiyorsanız, kullandığınız dil ne olursa olsun kesinlikle **DOM** un erişim yöntemlerini çok iyi biliyor olmanız gerekir.
 
-Örneğin;
+## Sorular
+
+### Soru -1
+
+Butona tıklanınca yeni bir sayfa açılsın ve "Hello World!" yazsın.
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -75,21 +77,57 @@ Sonuç olarak eğer client-side olarak HTML’e daha fazla hükmetmek istiyorsan
 
 <button onclick="myFunction()">Tıkla</button>
 
-<script>
-function myFunction() {
-    var w = window.open();
-    w.document.open();
-    w.document.write("<h1>Hello World!</h1>");
-    w.document.close();
-}
-</script>
+</body>
+</html>
+```
+
+[Kendiniz Deneyin](https://codepen.io/baranbalin/pen/JjRZbGG)
+
+[Çözüm](https://codepen.io/baranbalin/pen/JjRLwvY)
+
+### Soru -2
+
+Butona tıklanınca sayfanın domaini görüntülensin
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Bu belgeyi yükleyen sunucunun domain'ini görüntülemek için butona tıklayın.</p>
+
+<button onclick="myFunction()">Tıkla</button>
+
+<p id="domain"></p>
 
 </body>
 </html>
 ```
 
+[Kendiniz Deneyin](https://codepen.io/baranbalin/pen/yLaEVew)
 
-[CodePen'de açmak için tıkla](https://codepen.io/baranbalin/pen/JjRLwvY)
+[Çözüm](https://codepen.io/baranbalin/pen/bGwKwgq)
+
+### Soru -3
+
+Butona tıklanınca alert ile "Butona Tıklandı" mesajı verilsin.
+
+```html
+<html>
+<head>
+	<title>DOM</title>
+</head>
+<body>
+  <input type="button" id="btnClick" value="Tıkla!" />
+
+</body>
+</html>
+```
+
+[Kendiniz Deneyin](https://codepen.io/baranbalin/pen/gOwKLrX)
+
+[Çözüm](https://codepen.io/baranbalin/details/jOMKMBa)
+
 
 
 
