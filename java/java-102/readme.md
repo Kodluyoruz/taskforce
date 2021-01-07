@@ -6,13 +6,23 @@
       - [ ] [Nesneye Dayalı Programlama Yönteminin Özellikleri](oop-yonteminin-ozellikleri/)
         - [ ] [Object](oop-object/)
         - [ ] [Class](oop-class/)
-        - [ ] [Kalıtım Kavramı (Inheritance)](oop-inheritance/) **Parçala**
+        - [ ] [Kalıtım Kavramı (Inheritance)](oop-inheritance/)
+          - [ ] [Tekli Kalıtım (Single Inheritance)](single-inheritance/)
+            - [ ] [Erişim belirteçleri (Access Modifiers)](access-modifiers/)
+            - [ ] [Tip Dönüşümü (Type Casting)](type-casting)
+            - [ ] [Metotların Ezilmesi (Overriding Metods)](overriding-metods/)
+            - [ ] [&quot;instanceof&quot; Komutu](instanceof/)
+            - [ ] [&quot;super&quot; Anahtar Kelimesi ile ATA Sınıfa Erişim Sağlamak](super()/)
+          - [ ] [Çok Katmanlı Kalıtım (Multilevel Inheritance)](multilevel-inheritance/)
+          - [ ] [Hiyerarşik Kalıtım (Hierarchical Inheritance)](hierarchical-inheritance/)
         - [ ] [Çok Biçimlilik (Polymorphism)](oop-polymorphism/)
-        - [ ] [Soyutlama (Abstraction)](oop-abstraction/) **Parçala**
-        - [ ] [Kapsülleme Kavramı (Encapsulation)](oop-encapsulation/)
-  - [ ] [Hata Yönetimi](hata-yonetimi/) (Yeri taşınabilir)
+        - [ ] [Soyutlama (Abstraction)](oop-abstraction/)
+          - [ ] [Soyut Sınıf (Abstract Class)](abstract-class/)
+          - [ ] [Arayüzler (Interface)](interface/)
+      - [ ] [Kapsülleme Kavramı (Encapsulation)](oop-encapsulation/)
+  - [ ] [Hata Yönetimi](hata-yonetimi/)
     - [ ] [İstisnai Durumların Yönetilmesi](istisnai-durumların-yonetilmesi/)
-
+  
   - [ ] [Anatomy of Classes and Methods](anatomy-of-classes-and-methods/)
   - [ ] [Implementing Classes](implementing-classes/)
   - [ ] Testing Classes and Methods
@@ -38,34 +48,51 @@
   - [ ] [List interface (Arayüzü)](list-interface/)
   - [ ] [Set interface (Arayüzü)](set-interface/)
   - [ ] [Map interface (Arayüzü)](map-interface/)
-  - [ ] [Enumeration, Iterator, Iterable interfaces](enumeration-iterator-iterable-interfaces/) **parçala**
-  - [ ] [Comparable, Comparator interfaces](comparable-comparator-interfaces/) **parçala**
+  - [ ] [Collection Framework 5 Kavram](collection-framework-5-kavram/) 
+    - [ ] [Enumeration Interface (Arayüzü)](enumeration-interface/)
+    - [ ] [Iterable Interface (Arayüzü)](iterable-interface/)
+    - [ ] [Iterator Interface (Arayüzü)](iterator-interface/)
+    - [ ] [Comparable Interface](comparable-interface/)
+    - [ ] [Comparator Interface (Arayüzü)](comparator-interface/)
 - [ ]  [Java 8 Features](java-8-features/)
 - [ ] [Functional Programming Basics](functional-programming-basics/)
-  - [ ] Lambda Expressions
-  - [ ] Functional Interfaces
+  - [ ] [Lambda Expressions](lambda-expressions/)
+  - [ ] [Functional Interfaces](functional-interfaces/)
   - [ ] Stream API
-- [ ]  [Multi Threads & Concurrency](multi-threads-concurrency/)
-- [ ] MultiThread programlama kavramları
-   - [ ] Critical Section & Race Condition
-   - [ ] Thread, Runnable, Thread Sleep
-   - [ ] Syncronized & Read Write Locks, Volatile Variables
-   - [ ] Thread Pooling & Executers
-- [ ]  Java Network Programming **(Yok)**
+- [ ] [Multi Threads & Concurrency](multi-threads-concurrency/)
+   - [ ] [Paylaşımlı Durum ve Ayrık Durum](paylasimli-durum-ayrik-durum/)
+   - [ ]  [Java Thread’lerin Oluşturulması ve Kullanılması](thread-olusturulmasi-kullanilmasi/)
+   - [ ] [Runnable interface ile Thread Kullanımı](runnable-interface-thread-kullanimi/)
+   - [ ] [Thread’i beklemeye almak](thread-beklemeye-almak/)
+   - [ ] [Thread’i durdurmak](thread-durdurmak/)
+   - [ ] [Critical Section & Race Condition](critical-race-condition/)
+   - [ ] [Java synchronized](java-synchronized/)
+   - [ ] [Java volatile](java-volatile/)
+   - [ ] [Kilit Nesneler ile Çok Kanallı Programlama (Locks in Java)](locks-in-java/)
+   - [ ] [İş Parçacığı Havuzları (ThreadPooling)](threadpooling/)
+   - [ ] Executers
+- [ ]  Java Network Programming **(Kaynakta Yok)**
 
   - [ ] Client & Server Apps
   - [ ] Multithreaded Server Apps
   - [ ] UDP Client & Server Apps
   - [ ] HTTP Apps
-- [ ] Java Remote Method Invocation (RMI) **(Yok)**
-- [ ] Java Reflection Basics **(Yok)**
+- [ ] Java Remote Method Invocation (RMI) **(Kaynakta Yok)**
+- [ ] Java Reflection Basics **(Kaynakta Yok)**
 - [ ] [JDBC API and Databases](jdbc-api-and-databases/)
-
+   - [ ] [Veri Tabanı Yönetim Sistemleri](veri-tabani-yonetim-sistemleri/)
+   - [ ] [İlişkisel Veri tabanı Yönetim Sistemi](iliskisel-veri-tabani-yonetim-sistemi/)
+   - [ ] [ACID (Atomicity, Consistency, Isolation, Durability](acid/)
+   - [ ] [Veri Tabanı Yönetim Sistemi Mimarisi](db-yonetim-sistemi-mimarisi/)
+   - [ ] [Birincil Anahtar (Primary Key) ve Yabancı Anahtar (Foreign Key)](primary-foreign-key/)
+   - [ ] [İlişki Türleri](iliski-turleri/)
+   - [ ] [Temel SQL](temel-sql/)
+   - [ ] [Java Database Connectivity (JDBC)](jdbc/)
+   - [ ] [Statement interface](statement-interface/)
+   - [ ] [JDBC ile Transaction Yönetimi](jdbc-transaction-yonetimi/)
 - [ ]  [JVM Internals](jvm-internals/)
-
-  - [ ] Class Loading
+- [ ] Class Loading
   - [ ] Runtime Data Areas
   - [ ] Memory - Heap - Stack
-  
-- [ ] JUnit Testing & Debugging **(Yok)**
-- [ ]  JavaFC or Swing (GUI) **(Yok)**
+- [ ] JUnit Testing & Debugging **(Kaynakta Yok)**
+- [ ]  JavaFC or Swing (GUI) **(Kaynakta Yok)**
