@@ -582,3 +582,11 @@ Java'da performanslı String birleştirme işlemleri için "StringBuilder" sın�
         System.out.println(str1.contains("a"));
         System.out.println(str2.contains("a"));
 ```
+
+### Kaynaklar
+
+* [Oracle JavaSE Docs - String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
+
+* [W3Schools JavaSE - DataTypes](https://www.w3schools.com/java/java_data_types.asp)
+
+* [JavaPoint JavaSE - Math](https://www.javatpoint.com/java-math)
