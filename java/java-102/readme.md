@@ -1,47 +1,51 @@
 - [ ] [Object Oriented Programming](object-oriented-programming/)
 
-  - [ ] [Java&#39;da Sınıf Kavramı (Class)](class/)
-  - [ ] [Java&#39;da Nesne Kavramı (Object)](object/)
-    - [ ] [Java&#39;da Kurucu Metotlar (Constructors)](constructors/)
-      - [ ] [Nesneye Dayalı Programlama Yönteminin Özellikleri](oop-yonteminin-ozellikleri/)
-        - [ ] [Object](oop-object/)
-        - [ ] [Class](oop-class/)
-        - [ ] [Kalıtım Kavramı (Inheritance)](oop-inheritance/)
-          - [ ] [Tekli Kalıtım (Single Inheritance)](single-inheritance/)
-            - [ ] [Erişim belirteçleri (Access Modifiers)](access-modifiers/)
-            - [ ] [Tip Dönüşümü (Type Casting)](type-casting)
-            - [ ] [Metotların Ezilmesi (Overriding Metods)](overriding-metods/)
-            - [ ] [&quot;instanceof&quot; Komutu](instanceof/)
-            - [ ] [&quot;super&quot; Anahtar Kelimesi ile ATA Sınıfa Erişim Sağlamak](super()/)
-          - [ ] [Çok Katmanlı Kalıtım (Multilevel Inheritance)](multilevel-inheritance/)
-          - [ ] [Hiyerarşik Kalıtım (Hierarchical Inheritance)](hierarchical-inheritance/)
-        - [ ] [Çok Biçimlilik (Polymorphism)](oop-polymorphism/)
-        - [ ] [Soyutlama (Abstraction)](oop-abstraction/)
-          - [ ] [Soyut Sınıf (Abstract Class)](abstract-class/)
-          - [ ] [Arayüzler (Interface)](interface/)
-        - [ ] [Kapsülleme Kavramı (Encapsulation)](oop-encapsulation/)
-  - [ ] [Hata Yönetimi](hata-yonetimi/)
-    - [ ] [İstisnai Durumların Yönetilmesi](istisnai-durumların-yonetilmesi/)
-  
-  - [ ] [Anatomy of Classes and Methods](anatomy-of-classes-and-methods/)
+  - [ ] [Nesneye Dayalı Programlama Yönteminin Özellikleri](oop-yonteminin-ozellikleri/)
+
+    - [ ] [Java&#39;da Sınıf Kavramı (Class)](class/)
+    - [ ] [Java&#39;da Nesne Kavramı (Object)](object/)
+      - [ ] [Java&#39;da Kurucu Metotlar (Constructors)](constructors/)
+
+    - [ ] [Kalıtım Kavramı (Inheritance)](oop-inheritance/)
+      - [ ] [Tekli Kalıtım (Single Inheritance)](single-inheritance/)
+        - [ ] [Erişim belirteçleri (Access Modifiers)](access-modifiers/)
+        - [ ] [Tip Dönüşümü (Type Casting)](type-casting)
+        - [ ] [Metotların Ezilmesi (Overriding Metods)](overriding-metods/)
+        - [ ] [&quot;instanceof&quot; Komutu](instanceof/)
+        - [ ] [&quot;super&quot; Anahtar Kelimesi ile ATA Sınıfa Erişim Sağlamak](super()/)
+      - [ ] [Çok Katmanlı Kalıtım (Multilevel Inheritance)](multilevel-inheritance/)
+      - [ ] [Hiyerarşik Kalıtım (Hierarchical Inheritance)](hierarchical-inheritance/)
+    - [ ] [Çok Biçimlilik (Polymorphism)](oop-polymorphism/)
+    - [ ] [Soyutlama (Abstraction)](oop-abstraction/)
+      - [ ] [Soyut Sınıf (Abstract Class)](abstract-class/)
+      - [ ] [Arayüzler (Interface)](interface/)
+    - [ ] [Kapsülleme Kavramı (Encapsulation)](oop-encapsulation/)
+
   - [ ] [Implementing Classes](implementing-classes/)
+
   - [ ] Testing Classes and Methods
+
   - [ ] Accessor Mutator Methods
-  - [ ] [Instance Fields](instance-fields/)
+
   - [ ] [Scope and Local Variables](scope-and-local-variables/)
+
   - [ ] [Static Variables and Methods](static-variables-and-methods/)
-  - [ ] [SOLID Principles & Clean Code Practices](solid-principles-clean-code-practices/)
-  - [ ] JavaDoc
+- [ ] [SOLID Principles](solid-principles/)
+- [ ] Clean Code Practices
+- [ ] JavaDoc
+- [ ] [Hata Yönetimi](hata-yonetimi/)
+
+   - [ ] [İstisnai Durumların Yönetilmesi](istisnai-durumların-yonetilmesi/)
 - [ ] [Java Enums](java-enums/)
 - [ ] [Final Keyword Usage](final-keyword-usage/)
 - [ ] [Java Generics](java-generics/)
 - [ ] [Jenerik Sınıf Yazmak](jenerik-sinif-yazmak/)
+  - [ ] [Diamond Operatörünün Kullanılması](diamond-operatoru/)
   - [ ] [Jenerikler İlkel Veri Türleri Üzerinde Çalışmaz](jenerikler-ilkel-veri-turleri-uzerinde-calismaz/)
   - [ ] [Kutulama (Autoboxing) ve Kutudan Çıkarma (Unboxing)](autoboxing-unboxing)
   - [ ] [Sınırlandırılmış Türler (bounded types)](bounded-types/)
   - [ ] [Joker Argümanını (Wildcard Argument) Kullanmak](wildcard-argument/)
   - [ ] [Jenerik Metotlar](jenerik-metotlar/)
-  - [ ] [Diamond Operatörünün Kullanılması](diamond-operatoru/)
   - [ ] [Jenerik Kısıtlamaları](jenerik-kisitlamalari/)
 - [ ] [Java Collection Framework](java-collection-framework/)
   - [ ] [Collection Arayüzü (interface) ve Alt Sınıfları](collection-arayuzu-alt-siniflari/)
@@ -54,13 +58,12 @@
     - [ ] [Iterator Interface (Arayüzü)](iterator-interface/)
     - [ ] [Comparable Interface](comparable-interface/)
     - [ ] [Comparator Interface (Arayüzü)](comparator-interface/)
-- [ ]  [Java 8 Features](java-8-features/)
+- [ ] [Java 8 Features](java-8-features/)
 - [ ] [Functional Programming Basics](functional-programming-basics/)
   - [ ] [Lambda Expressions](lambda-expressions/)
   - [ ] [Functional Interfaces](functional-interfaces/)
   - [ ] Stream API
 - [ ] [Multi Threads & Concurrency](multi-threads-concurrency/)
-   - [ ] [Paylaşımlı Durum ve Ayrık Durum](paylasimli-durum-ayrik-durum/)
    - [ ]  [Java Thread’lerin Oluşturulması ve Kullanılması](thread-olusturulmasi-kullanilmasi/)
    - [ ] [Runnable interface ile Thread Kullanımı](runnable-interface-thread-kullanimi/)
    - [ ] [Thread’i beklemeye almak](thread-beklemeye-almak/)
@@ -69,6 +72,7 @@
    - [ ] [Java synchronized](java-synchronized/)
    - [ ] [Java volatile](java-volatile/)
    - [ ] [Kilit Nesneler ile Çok Kanallı Programlama (Locks in Java)](locks-in-java/)
+   - [ ] [Paylaşımlı Durum ve Ayrık Durum](paylasimli-durum-ayrik-durum/)
    - [ ] [İş Parçacığı Havuzları (ThreadPooling)](threadpooling/)
    - [ ] Executers
 - [ ]  Java Network Programming **(Kaynakta Yok)**
@@ -79,18 +83,16 @@
   - [ ] HTTP Apps
 - [ ] Java Remote Method Invocation (RMI) **(Kaynakta Yok)**
 - [ ] Java Reflection Basics **(Kaynakta Yok)**
-- [ ] [JDBC API and Databases](jdbc-api-and-databases/)
-   - [ ] [Veri Tabanı Yönetim Sistemleri](veri-tabani-yonetim-sistemleri/)
+- [ ] [Veri Tabanı Yönetim Sistemleri](veri-tabani-yonetim-sistemleri/)
    - [ ] [İlişkisel Veri tabanı Yönetim Sistemi](iliskisel-veri-tabani-yonetim-sistemi/)
    - [ ] [ACID (Atomicity, Consistency, Isolation, Durability](acid/)
    - [ ] [Veri Tabanı Yönetim Sistemi Mimarisi](db-yonetim-sistemi-mimarisi/)
    - [ ] [Birincil Anahtar (Primary Key) ve Yabancı Anahtar (Foreign Key)](primary-foreign-key/)
    - [ ] [İlişki Türleri](iliski-turleri/)
    - [ ] [Temel SQL](temel-sql/)
-   - [ ] [Java Database Connectivity (JDBC)](jdbc/)
+- [ ] [Java Database Connectivity (JDBC)](jdbc/)
    - [ ] [Statement interface](statement-interface/)
    - [ ] [JDBC ile Transaction Yönetimi](jdbc-transaction-yonetimi/)
-- [ ]  [JVM Internals](jvm-internals/)
 - [ ] Class Loading
   - [ ] Runtime Data Areas
   - [ ] Memory - Heap - Stack
