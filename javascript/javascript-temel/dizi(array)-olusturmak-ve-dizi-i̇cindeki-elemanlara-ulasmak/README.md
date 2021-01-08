@@ -24,10 +24,10 @@
 `let marmaraBolgesi = ['istanbul','kocaeli','sakarya','bursa','canakkale']` 
 
 `marmaraBolgesi[0] = istanbul` // bir dizide ilk siraya yazdigimiz elemanin numarasi 0 dir.
-`marmaraBolgesi[1] = kocaeli 
+```marmaraBolgesi[1] = kocaeli 
 marmaraBolgesi[2] = sakarya
 marmaraBolgesi[3] = bursa
-marmaraBolgesi[4] = canakkale`
+marmaraBolgesi[4] = canakkale```
 
 9- Yukarida yaptigimiz ornekte goruldugu gibi dizinin icinde 5 tane eleman varken cagirdigimiz son elemanimizin numarasi 4. 
 
