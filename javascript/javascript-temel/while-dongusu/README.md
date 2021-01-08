@@ -13,21 +13,10 @@ while(koşul) {
 
 
 Burada **while** döngüsünün yazılış şeklini gördük şimdi bunu daha gerçekçi bir durumda basitçe inceleyebiliriz. Diyelim ki bir durumda konsola 1’ den 10’a kadar sayıları sırayla yazdırmamız gerekiyor biz bu durumda **while** döngüsünü kullanarak satırlarca kod yazmaktan kurtuluruz ve okunması gayet basit bir kod yazmış oluruz.
+
 ![codExample](codeExamples.png)
-var degisken = 1;
-// burada sınırlandırma verebilmek icin bir degisken atiyoruz.
-  
-while (degisken <= 10){
-  //olusturdugumuz degiskeni kosul olarak ekliyoruz
- 
- console.log ("degiskenin degeri: " + degisken ) 
-  
- degisken++;
-  //dongu sonsuz olmamasi icin degiskeni arttiriyoruz
-}
-
-
 [codepen'de deneyebilirsiniz](https://codepen.io/Zodyrike/pen/ZqBdvL?editors=1111)
+
 ### Yukarıda görmüş olduğunuz kod örneğinde 3 bölüm bulunuyor;
 - Dışarıda bir değişken tanımlama.
 - while döngüsüneu değişkeni koşul parametresi olarak vermek.
