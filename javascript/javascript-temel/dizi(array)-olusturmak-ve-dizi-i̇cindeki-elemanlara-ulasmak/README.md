@@ -50,11 +50,11 @@ marmaraBolgesi[4] = canakkale```
  
 `let gunler = ['pazartesi','sali','carsamba']` 
 `gunler     = ['cuma','cumartesi','pazar']` 
-`console.log(gunler);// ['cuma' , 'cumartesi' , 'pazar'] ciktisini alacagiz. Cunku let kullanarak olusturdugumuz bir array yeniden tanimlanabilir.`
+`console.log(gunler);` // ['cuma' , 'cumartesi' , 'pazar'] ciktisini alacagiz. Cunku let kullanarak olusturdugumuz bir array yeniden tanimlanabilir.
 
 15-Yukarida yaptigimiz ornegin aynisini const ile yapmayi deneyelim 
-```const gunler = ['pazartesi','sali','carsamba']`
-`gunler = ['cuma','cumartesi','pazar']` // 'TypeError: Assignment to constant variable' hatasini aliriz. Const ile deklare ettigimiz bir arrayi yeniden tayin edemeyecegimizi belirtmektedir.```
+`const gunler = ['pazartesi','sali','carsamba']`
+`gunler = ['cuma','cumartesi','pazar']` // 'TypeError: Assignment to constant variable' hatasini aliriz. Const ile deklare ettigimiz bir arrayi yeniden tayin edemeyecegimizi belirtmektedir.
 
 16-const ile deklare ettigimiz bir array yeniden tayin edilemese de icerisindeki elemanlara erisme ve degistirme noktasinda let ile aynidir. 
 
