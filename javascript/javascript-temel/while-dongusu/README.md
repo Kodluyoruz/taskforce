@@ -9,7 +9,7 @@ JavaScript’de tekrar eden işlemleri kodlarımızın karışıklaşmasını ö
 
 Burada **while** döngüsünün yazılış şeklini gördük şimdi bunu daha gerçekçi bir durumda basitçe inceleyebiliriz. Diyelim ki bir durumda konsola 1’ den 10’a kadar sayıları sırayla yazdırmamız gerekiyor biz bu durumda **while** döngüsünü kullanarak satırlarca kod yazmaktan kurtuluruz ve okunması gayet basit bir kod yazmış oluruz.
 
-![codExample](figures/codexample.png.png)
+![codExample](figures/codexample.png)
 [codepen'de deneyebilirsiniz](https://codepen.io/Zodyrike/pen/ZqBdvL?editors=1111)
 
 ### Yukarıda görmüş olduğunuz kod örneğinde 3 bölüm bulunuyor;
