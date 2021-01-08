@@ -21,5 +21,6 @@ Burada **while** döngüsünün yazılış şeklini gördük şimdi bunu daha ge
 - Çalışmamızda yapmamızı istediğim şey belirli araba markalarını bir dizi oluşturarak konsola yazdırmak bunun için yapmamız gerekenler çok basit öncelikle bir **Array** oluşturmalı ve arabalarımızı bu diziye eklemeliyiz.
 - Ardından bir **While** döngüsü oluşturuyoruz ve bu döngüye araba elemanlarımızı ekliyoruz. (döngüyü sınırlandırmayı ve parametre vermeyi unutmuyoruz.) 
 -Bu işlemi önce kendi öğrendiklerimizle deneyebilir ve kodu başarılı bir şekilde yazdıktan sonra isterseniz geliştirebilir ve **Array** methodlarıyla yeni arabalar ekleyebilir veya çıkartabilirsiniz Koda aşağıdaki örnekten ulaşabilirsiniz 
+
 ![Egitimornek](figures/question.png)
 
