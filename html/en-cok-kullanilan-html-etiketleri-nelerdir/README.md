@@ -333,3 +333,32 @@ HTML dilinde yorum satırı ```<!--``` ile başlar ```-->``` ile biter.
 </body>
 </html>
 ```
+<br>
+
+## Sorular
+
+1- Youtube üzerinden yayınlanan bir videoyu sitemizde gösterebilmek için hangi etiketi kullanmalıyız?   <br><br>
+  A) ```<head>``` etiketi       <br>
+  B) ```<script>``` etiketi     <br>
+  C) ```<br>``` etiketi         <br>
+  D) ```<iframe>``` etiketi     <br>
+  
+  <br>
+  
+2- ```<script>``` etiketi aşağıdakilerden hangisi için kullanılır?   <br><br>
+  A) Satır atlatabiliriz                  <br>
+  B) JavaScript kodlarını yazabiliriz     <br>
+  C) Liste oluşturabiliriz                <br>
+  D) Resim ekleyebiliriz                  <br>
+  
+  
+ <br>
+ 
+ ## Cevaplar
+ 1- D   <br>
+ 2- B
+ 
+ <br>
+ 
+ ## Kaynak
+ [w3schools](https://www.w3schools.com/tags/default.asp)
