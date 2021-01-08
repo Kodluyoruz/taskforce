@@ -1,20 +1,15 @@
 # while Döngüsü
 
-JavaScript’de tekrar eden işlemleri kodlarımızın karışıklaşmasını önlemek ve okunabilirliği artırabilmek için döngüler kullanırız bunlardan bir tanesi **While** döngüsüdür.  **While** döngüsü oluşturabilmek için ilk olarak parametre olarak bir koşul vermemiz gerekmektedir verdiğimiz koşul sağlandığı sürece döngü devam eder. Bu koşul sınırsız olursa döngü de sonsuz kere devam eder ve biz bunu istemeyiz genel olarak sonlanacağı bir durumla döngü sonlandırılmalıdır bunu ilk olarak psuedo kod olarak gösterebiliriz. 
+JavaScript’de tekrar eden işlemleri kodlarımızın karışıklaşmasını önlemek ve okunabilirliği artırabilmek için döngüler kullanırız bunlardan bir tanesi **While** döngüsüdür.  **While** döngüsü oluşturabilmek için ilk olarak parametre olarak bir koşul vermemiz gerekmektedir verdiğimiz koşul sağlandığı sürece döngü devam eder. Bu koşul sınırsız olursa döngü de sonsuz kere devam eder ve biz bunu istemeyiz genel olarak sonlanacağı bir durumla döngü sonlandırılmalıdır. 
 
+- Bunu ilk olarak psuedo kod olarak gösterebiliriz. 
  
-
-while(koşul) {
-
-    Yapılacak işlem;
-
-}
-
+![orneKod](figures/psuedo.png)
 
 
 Burada **while** döngüsünün yazılış şeklini gördük şimdi bunu daha gerçekçi bir durumda basitçe inceleyebiliriz. Diyelim ki bir durumda konsola 1’ den 10’a kadar sayıları sırayla yazdırmamız gerekiyor biz bu durumda **while** döngüsünü kullanarak satırlarca kod yazmaktan kurtuluruz ve okunması gayet basit bir kod yazmış oluruz.
 
-![codExample](codeExamples.png)
+![codExample](figures/codexample.png.png)
 [codepen'de deneyebilirsiniz](https://codepen.io/Zodyrike/pen/ZqBdvL?editors=1111)
 
 ### Yukarıda görmüş olduğunuz kod örneğinde 3 bölüm bulunuyor;
