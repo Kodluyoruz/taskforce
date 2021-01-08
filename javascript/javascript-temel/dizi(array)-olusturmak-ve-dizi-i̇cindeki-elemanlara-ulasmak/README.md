@@ -23,7 +23,7 @@
 
 `let marmaraBolgesi = ['istanbul','kocaeli','sakarya','bursa','canakkale']` 
 
-```javascriptmarmaraBolgesi[0] = istanbul`
+```marmaraBolgesi[0] = istanbul`
 `marmaraBolgesi[1] = kocaeli` 
 `marmaraBolgesi[2] = sakarya`
 `marmaraBolgesi[3] = bursa`
@@ -35,7 +35,7 @@
 
 11- O halde icinde kac tane eleman oldugunu bilmedigimiz bir dizinin son elemanina ulasmak icin su yontemi kullanabiliriz.
 
-```javascriptlet aylar = ['mart','nisan','mayis','haziran','temmuz']` 
+```let aylar = ['mart','nisan','mayis','haziran','temmuz']` 
 `let sonEleman = aylar[aylar.length - 1]`  // length propertysi bize arrayin icindeki eleman sayisini verir. Ondan bir cikarttigimizda ise son elemanin numarasini elde etmis oluruz.
 `console.log(sonEleman) = 'temmuz'```
 
@@ -48,13 +48,13 @@
 
 14-Let ile deklare ettigimiz bir array daha sonra yeniden tanimlanabilir. 
  
-```javascriptlet gunler = ['pazartesi','sali','carsamba']` 
+```let gunler = ['pazartesi','sali','carsamba']` 
 `gunler     = ['cuma','cumartesi','pazar']` 
 `console.log(gunler);// ['cuma' , 'cumartesi' , 'pazar'] ciktisini alacagiz. Cunku let kullanarak olusturdugumuz bir array yeniden tanimlanabilir.```
 
 15-Yukarida yaptigimiz ornegin aynisini const ile yapmayi deneyelim 
-```javascriptconst gunler = ['pazartesi','sali','carsamba']`
-`gunler       = ['cuma','cumartesi','pazar']` // 'TypeError: Assignment to constant variable' hatasini aliriz. Const ile deklare ettigimiz bir arrayi yeniden tayin edemeyecegimizi belirtmektedir.```
+```const gunler = ['pazartesi','sali','carsamba']`
+`gunler = ['cuma','cumartesi','pazar']` // 'TypeError: Assignment to constant variable' hatasini aliriz. Const ile deklare ettigimiz bir arrayi yeniden tayin edemeyecegimizi belirtmektedir.```
 
 16-const ile deklare ettigimiz bir array yeniden tayin edilemese de icerisindeki elemanlara erisme ve degistirme noktasinda let ile aynidir. 
 
