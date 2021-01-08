@@ -19,7 +19,7 @@
         - [ ] [Soyutlama (Abstraction)](oop-abstraction/)
           - [ ] [Soyut Sınıf (Abstract Class)](abstract-class/)
           - [ ] [Arayüzler (Interface)](interface/)
-      - [ ] [Kapsülleme Kavramı (Encapsulation)](oop-encapsulation/)
+        - [ ] [Kapsülleme Kavramı (Encapsulation)](oop-encapsulation/)
   - [ ] [Hata Yönetimi](hata-yonetimi/)
     - [ ] [İstisnai Durumların Yönetilmesi](istisnai-durumların-yonetilmesi/)
   
