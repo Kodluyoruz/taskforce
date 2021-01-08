@@ -37,7 +37,7 @@ GitHub hesabımızı kontrol ettiğimizde tüm dosyaların ve commit işlemlerim
 1.Versiyon kontrol sistemine tüm dosyalarımızı aynı anda göndermeden önce yapılması gereken kritik işlem nedir ?
 
 - [ ] Öncesinde commit işleminin yapılması.
-- [ ] Gitignore dosyasının hazırlanması.
+- [x] Gitignore dosyasının hazırlanması.
 - [ ] Göndermek istenen tüm dosyalarının teker teker belirtilmesi.
 - [ ] "Git Add ." Komutunun çalıştırılması.
 
@@ -45,7 +45,7 @@ GitHub hesabımızı kontrol ettiğimizde tüm dosyaların ve commit işlemlerim
 
 - [ ] Commit mesajı olmadan dosyalarımız aktarılır.
 - [ ] Commit işlemi yapılmadığı için hata verir ve dosyalarımız aktarılmaz.
-- [ ] Hiçbir hata ile karşılaşmayız ve dosyalarımız aktarılmaz.
+- [x] Hiçbir hata ile karşılaşmayız ve dosyalarımız aktarılmaz.
 - [ ] Commit işlemi ile ilgili uyarı verir ancak dosyalarımız aktarılmış olur.
 
 ## Kaynaklar
