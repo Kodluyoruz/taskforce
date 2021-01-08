@@ -12,35 +12,34 @@ Switch case akış diyagramı şu şekildedir:
 
 En basit haliyle switch-case yapısının söz dizimi aşağıdaki gibidir:
 
-```
+```java
     public class SwitchCase {
 
     public static void main (String args []) {
 
-    int value;
+       int value;
 
-    switch (value) {
+       switch (value) {
 
-    case 1: 
+       case 1: 
 
-         // Value 1
-         break;
+            // Value 1
+            break;         
          
-         
-     case 2: 
+       case 2: 
 
-         // Value 1 
-         break;
+             // Value 1 
+             break;
          
-     case 3: 
+       case 3: 
 
-         // Value 1
-         break;
+             // Value 1
+             break;
          
-     default:
+       default:
      
-         // Value is invalid         
-         break;
+             // Value is invalid         
+             break;
          
      }}}
   ```
@@ -191,6 +190,7 @@ Bu örneğimizde bilgisayardan bir işlemi defalarca yapmasını istedik. 1’de
 SORU 1: Aşağıdaki switch ifadesinin tamamlanması için eksik parçalar nelerdir?
 
 
+```java
      public class SwitchCase {
 
 	public static void main(String[] args) {
@@ -208,17 +208,20 @@ SORU 1: Aşağıdaki switch ifadesinin tamamlanması için eksik parçalar neler
 			System.out.println("Class-2");
 			
 			C ;
-		}}}
-		
+		}}}		
+```
     
     
 Cevap: A= classNo, B= case, C= break
 
 
 
+
+
 SORU 2: Aşağıda bulunan kod bloğunda value değeri 2 ise kod çıktısı nasıl olur?
 
 
+```java
      import java.util.Scanner;
 
      public class SwitchCase {
@@ -241,7 +244,24 @@ SORU 2: Aşağıda bulunan kod bloğunda value değeri 2 ise kod çıktısı nas
 			System.out.println("Value is invalid.");
 		    break;
 		
-		}}}
-
+		}}}		
+ ```
+ 
 
 Cevap: Value değeri 2 olması durumunda case 2 çalıştırılır. Case 2 bloğunda break komutu olmadığından bir sonraki Case 3 bloğu çalıştırılır ve Value-3 çıktısı elde edilir.
+
+
+**Kaynakça:**
+
+
+
+[1]:  *The Switch Statement*, https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html
+ 
+[2]:  *Switch Statement in Java*, https://www.geeksforgeeks.org/switch-statement-in-java/
+ 
+[3]:  *Java Switch Statements*, https://www.w3schools.com/java/java_switch.asp
+ 
+[4]:  *Java Switch Case*, https://www.journaldev.com/588/java-switch-case-string
+
+
+ 
