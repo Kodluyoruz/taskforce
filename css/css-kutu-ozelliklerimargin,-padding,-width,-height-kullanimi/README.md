@@ -81,6 +81,11 @@ padding: 10px 20px;
   * margin
   * align (Doğru)
   * padding
-  * border 
+  * border
+  
+## Kaynakça
+- [1](https://css.sitesi.web.tr/css-kutu-modeli.html)
+- [2](https://www.yazilimkodlama.com/web/css-kutu-modeli-margin-border-padding-content/)
+- [3](http://uzmanimakademi.net/css/css-kutu-modeli)
 
 
