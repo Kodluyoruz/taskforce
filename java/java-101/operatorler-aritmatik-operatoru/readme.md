@@ -233,4 +233,8 @@ System.out.println(t++); Output = ?
 
 
 ```
+KAYNAKLAR 
 
+[1] https://www.examtray.com/sites/default/files/2019-06/java-arithmetic-operators-precedence.jpg
+
+[2] https://acikders.ankara.edu.tr/pluginfile.php/58696/mod_resource/content/0/DersNotu_Operatorler.pdf
