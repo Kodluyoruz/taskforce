@@ -33,8 +33,8 @@ HTML, 1980'li yılların başlarında bir ihtiyaç neticesinde oluşturulmaya ba
 
 Yukarıdaki kodu çalıştırdığımız zaman aşağıdaki gibi bir çıktı görmüş olacağız. Aşağıda Google web tarayıcısını kullandık. Ancak sizin web tarayıcınız farklı bir tarayıcı olabilir. Burada elde ettiğimiz çıktı tarayıcıdan tarayıcıya değişen bir durum değildir. 
 
-!(figures/İlk-web-sayfamız.png)
+![](figures/İlk-web-sayfamız.png)
 
 ## Kaynakça
 [HTML](https://tr.wikipedia.org/wiki/HTML) </br>
-[wWb Tarayıcısı](https://tr.wikipedia.org/wiki/Web_taray%C4%B1c%C4%B1s%C4%B1)
+[Web Tarayıcısı](https://tr.wikipedia.org/wiki/Web_taray%C4%B1c%C4%B1s%C4%B1)
