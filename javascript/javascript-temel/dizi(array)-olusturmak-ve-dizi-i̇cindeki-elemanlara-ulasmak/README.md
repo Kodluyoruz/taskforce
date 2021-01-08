@@ -23,11 +23,11 @@
 
 `let marmaraBolgesi = ['istanbul','kocaeli','sakarya','bursa','canakkale']` 
 
-`marmaraBolgesi[0] = istanbul` // bir dizide ilk siraya yazdigimiz elemanin numarasi 0 dir.
+```javascriptmarmaraBolgesi[0] = istanbul`
 `marmaraBolgesi[1] = kocaeli` 
 `marmaraBolgesi[2] = sakarya`
 `marmaraBolgesi[3] = bursa`
-`marmaraBolgesi[4] = canakkale`
+`marmaraBolgesi[4] = canakkale```
 
 9- Yukarida yaptigimiz ornekte goruldugu gibi dizinin icinde 5 tane eleman varken cagirdigimiz son elemanimizin numarasi 4. 
 
@@ -35,9 +35,9 @@
 
 11- O halde icinde kac tane eleman oldugunu bilmedigimiz bir dizinin son elemanina ulasmak icin su yontemi kullanabiliriz.
 
-`let aylar = ['mart','nisan','mayis','haziran','temmuz']` 
+```javascriptlet aylar = ['mart','nisan','mayis','haziran','temmuz']` 
 `let sonEleman = aylar[aylar.length - 1]`  // length propertysi bize arrayin icindeki eleman sayisini verir. Ondan bir cikarttigimizda ise son elemanin numarasini elde etmis oluruz.
-`console.log(sonEleman) = 'temmuz'`
+`console.log(sonEleman) = 'temmuz'```
 
 ## TYPE OF ARRAY
 12-Bir arrayin veri tipi object dir. 
@@ -48,13 +48,13 @@
 
 14-Let ile deklare ettigimiz bir array daha sonra yeniden tanimlanabilir. 
  
-`let gunler = ['pazartesi','sali','carsamba']` 
+```javascriptlet gunler = ['pazartesi','sali','carsamba']` 
 `gunler     = ['cuma','cumartesi','pazar']` 
-`console.log(gunler);`// ['cuma' , 'cumartesi' , 'pazar'] ciktisini alacagiz. Cunku let kullanarak olusturdugumuz bir array yeniden tanimlanabilir.
+`console.log(gunler);// ['cuma' , 'cumartesi' , 'pazar'] ciktisini alacagiz. Cunku let kullanarak olusturdugumuz bir array yeniden tanimlanabilir.```
 
 15-Yukarida yaptigimiz ornegin aynisini const ile yapmayi deneyelim 
-`const gunler = ['pazartesi','sali','carsamba']`
-`gunler       = ['cuma','cumartesi','pazar']` // 'TypeError: Assignment to constant variable' hatasini aliriz. Const ile deklare ettigimiz bir arrayi yeniden tayin edemeyecegimizi belirtmektedir.
+```javascriptconst gunler = ['pazartesi','sali','carsamba']`
+`gunler       = ['cuma','cumartesi','pazar']` // 'TypeError: Assignment to constant variable' hatasini aliriz. Const ile deklare ettigimiz bir arrayi yeniden tayin edemeyecegimizi belirtmektedir.```
 
 16-const ile deklare ettigimiz bir array yeniden tayin edilemese de icerisindeki elemanlara erisme ve degistirme noktasinda let ile aynidir. 
 
