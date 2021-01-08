@@ -43,7 +43,7 @@
 12-Bir arrayin veri tipi object dir. 
 `typeof aylar = object`
 
-## ARRAYIN LET VE CONST İLE DEKLARE EDİLMESİ ARASINDAKİ FARKLAR
+## ARRAYIN LET VEYA CONST İLE DEKLARE EDİLMESİ ARASINDAKİ FARKLAR
 13-Arraylari tanimladigimiz degiskenin let veya const ile deklare edilmesi arasinda fark bulunmaktadir. 
 
 14-Let ile deklare ettigimiz bir array daha sonra yeniden tanimlanabilir. 
