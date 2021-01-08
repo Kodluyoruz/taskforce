@@ -1,6 +1,6 @@
-# CSS ile Class ve ID Kullanımı
+# Class ve Id Kullanımı
 
-Web sayfamızı oluştururken HTML elementlerimize bazı stil özellikler eklemek isteriz. Bazı yazıların renkli, bazı resimlerin küçük veya bazı butonların farklı şekilde olması gerekebilir ve biz de bunun için CSS kullanırız. 
+Web sayfamızı oluştururken HTML elementlerimize bazı stil özellikleri eklemek isteriz. Bazı yazıların renkli, bazı resimlerin küçük veya bazı butonların farklı şekilde olması gerekebilir ve biz de bunun için CSS kullanırız. 
 
 Aşağıda html elementlerine nasıl stil özellikleri eklediğimize bakalım.
 
@@ -11,13 +11,13 @@ Aşağıda html elementlerine nasıl stil özellikleri eklediğimize bakalım.
 
 ```css
 p {
-   color: red;
+	color: red;
 }
 ```
 
 **Sonuç**:
 
-![Screenshot_1](https://user-images.githubusercontent.com/45670152/103442057-c2497780-4c63-11eb-8f5f-970bec099a4a.jpg)
+![Screenshot_1](assets/screenshot_1.jpg)
 
 
 
@@ -31,7 +31,7 @@ Class seçicisi CSS’de `.` ile belirtilir.
 
 ```css
 .class{
-   özellikler
+     özellikler
 }
 ```
 
@@ -63,7 +63,7 @@ Daha sonra bunu istediğimiz özelliği ekleyelim.
 
 **Sonuç:**
 
-![Screenshot_2](https://user-images.githubusercontent.com/45670152/103442180-f07b8700-4c64-11eb-99b6-794a325d09e7.jpg)
+![Screenshot_2](assets/screenshot_2.jpg)
 
 
 
@@ -84,7 +84,7 @@ Bir class’ı birden fazla HTML elementi için kullanabiliriz.
 
 **Sonuç:**
 
-![Screenshot_3](https://user-images.githubusercontent.com/45670152/103442232-6b44a200-4c65-11eb-9326-184773009bfe.jpg)
+![Screenshot_3](assets/screenshot_3.jpg)
 
 
 
@@ -101,17 +101,17 @@ Eğer bir HTML elementinin birden fazla class özelliğine sahip olmasını isti
 
 ```css
 .h-blue{
-   color:blue;
+    color:blue;
 }
 .thick{
-   font-style: italic;
+       font-style: italic;
 }
 
 ```
 
 **Sonuç:**
 
-![Screenshot_4](https://user-images.githubusercontent.com/45670152/103442344-5ddbe780-4c66-11eb-892e-dadf151213c0.jpg)
+![Screenshot_4](assets/screenshot_4.jpg)
 
 
 
@@ -132,7 +132,7 @@ Bir HTML elementi kendini kapsayan elementin (parent elementi) stil özellikleri
 
 **Sonuç:**
 
-![Screenshot_5](https://user-images.githubusercontent.com/45670152/103442412-f96d5800-4c66-11eb-9c46-c2c53f88601b.jpg)
+![Screenshot_5](assets/screenshot_5.jpg)
 
 
 
@@ -148,7 +148,7 @@ Id seçicisinin kullanım amacı olarak class seçicisinden bir farkı yok diyeb
 
 ```css
 #id {
-  özellikler
+     özellikler
 }
 
 ```
@@ -162,14 +162,14 @@ Bir id’yi sadece bir HTML elementi üzerinde kullanabiliriz.
 
 ```css
 #main-title{
-   color:red;
+	color:red;
 }
 
 ```
 
 **Sonuç:**
 
-![Screenshot_6](https://user-images.githubusercontent.com/45670152/103442491-b3fd5a80-4c67-11eb-8a66-8e21bd128ce0.jpg)
+![Screenshot_6](assets/screenshot_6.jpg)
 
 Aşağıdaki **yanlış** bir kullanımdır!
 
@@ -197,23 +197,23 @@ Böyle kullanımlar geçerli **değildir.**
 
 A.
 
-```
+```css
 .{title
-    color:red;
+	color:red;
 }
 ```
 
 B.
 
-```
+```css
 title#{
-   color:blue;
+	color:blue;
 }
 ```
 
 C.
 
-```
+```css
 .title{
    color:green;
 }
@@ -222,8 +222,8 @@ C.
 D.
 
 ```
-title.{
-   color:pink;
+title{
+    color:pink;
 }
 ```
 
@@ -235,6 +235,7 @@ title.{
     </summary>
     <p>Doğru cevap: C seçeneği</p>
 </details>
+
 
 **2.  Aşağıdaki ifadelerden hangisi yanlıştır?**
 
@@ -257,6 +258,7 @@ title.{
         Bir id sadece bir html elemanında kullanılabilir.
     </p>
 </details>
+
 **3.**Aşağıdaki  kodun çıktısı nedir?
 
 ```html
@@ -267,15 +269,15 @@ title.{
 
 ```css
 .main-text {
-   font-style: italic;
+    font-style: italic;
 }
 
 .intro {
-   color:red;
+    color:red;
 }
 
 #outro {
-   color:green;
+    color:green;
 }
 ```
 
@@ -283,19 +285,19 @@ title.{
 
 **A.**
 
-![Screenshot_7](https://user-images.githubusercontent.com/45670152/103443526-3a6a6a00-4c71-11eb-9170-8f57630ce0ba.jpg)
+![Screenshot_7](assets/screenshot_7.jpg)
 
 **B.**
 
-![Screenshot_8](https://user-images.githubusercontent.com/45670152/103443552-700f5300-4c71-11eb-9c3a-7726aa91da62.jpg)
+![Screenshot_8](assets/screenshot_8.jpg)
 
 **C.**
 
-![Screenshot_9](https://user-images.githubusercontent.com/45670152/103443567-9cc36a80-4c71-11eb-8285-b3a21eb5be58.jpg)
+![Screenshot_9](assets/screenshot_9.jpg)
 
 **D.**
 
-![Screenshot_10](https://user-images.githubusercontent.com/45670152/103443588-d8f6cb00-4c71-11eb-8b9a-f2883f30f7a6.jpg)
+![Screenshot_10](assets/screenshot_10.jpg)
 
 
 
@@ -305,6 +307,7 @@ title.{
     </summary>
     <p>Doğru cevap: B seçeneği</p>
 </details>
+
 
 
 
