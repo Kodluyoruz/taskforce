@@ -11,9 +11,12 @@ while(koşul) {
 }
 
 
-Burada **while** döngüsünün yazılış şeklini gördük şimdi bunu daha gerçekçi bir durumda basitçe inceleyebiliriz. Diyelim ki bir durumda konsola 1’ den 10’a kadar sayıları sırayla yazdırmamız gerekiyor biz bu durumda **while** döngüsünü kullanarak satırlarca kod yazmaktan kurtuluruz ve okunması gayet basit bir kod yazmış oluruz [buradan](https://codepen.io/Zodyrike/pen/ZqBdvL?editors=1111) kod örneğine erişebilirsiniz.
-Yukarıda görmüş olduğunuz kod örneğinde 3 bölüm bulunuyor;
-## 1- Dışarıda bir değişken tanımlama.
-## 2- while döngüsüneu değişkeni koşul parametresi olarak vermek.
-## 3- While döngüsününe yapmamız gereken işleri yaptırma(bunu biraz açmamız gerekiyor çünkü içeride değişkeni arttırdığımızı göreceksiniz bunun sebebi değişkenimiz 1'den 10 a kadar giden bir değer ve while döngümüzün çalışma şartı değişkenimiz 10 dan küçük olduğu sürece eğer biz değişkeni döngüde arttırmazsak döngü sonsuza defa çalışır ve sistemimizin hata vermesine sebep olur.
+Burada **while** döngüsünün yazılış şeklini gördük şimdi bunu daha gerçekçi bir durumda basitçe inceleyebiliriz. Diyelim ki bir durumda konsola 1’ den 10’a kadar sayıları sırayla yazdırmamız gerekiyor biz bu durumda **while** döngüsünü kullanarak satırlarca kod yazmaktan kurtuluruz ve okunması gayet basit bir kod yazmış oluruz.
+![image](blob:https://carbon.now.sh/3cb11992-17b9-42e6-9cf5-1667937c0523)
+
+[codepen'de deneyebilirsiniz](https://codepen.io/Zodyrike/pen/ZqBdvL?editors=1111)
+### Yukarıda görmüş olduğunuz kod örneğinde 3 bölüm bulunuyor;
+- Dışarıda bir değişken tanımlama.
+- while döngüsüneu değişkeni koşul parametresi olarak vermek.
+- While döngüsününe yapmamız gereken işleri yaptırma(bunu biraz açmamız gerekiyor çünkü içeride değişkeni arttırdığımızı göreceksiniz bunun sebebi değişkenimiz 1'den 10 a kadar giden bir değer ve while döngümüzün çalışma şartı değişkenimiz 10 dan küçük olduğu sürece eğer biz değişkeni döngüde arttırmazsak döngü sonsuza defa çalışır ve sistemimizin hata vermesine sebep olur.
 
