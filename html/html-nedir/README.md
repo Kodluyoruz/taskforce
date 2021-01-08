@@ -36,5 +36,5 @@ Yukarıdaki kodu çalıştırdığımız zaman aşağıdaki gibi bir çıktı g�
 ![](figures/İlk-web-sayfamız.png)
 
 ## Kaynakça
-[1](https://tr.wikipedia.org/wiki/HTML) 
-[2](https://tr.wikipedia.org/wiki/Web_taray%C4%B1c%C4%B1s%C4%B1)
+[HTML](https://tr.wikipedia.org/wiki/HTML)
+[web Tarayıcısı](https://tr.wikipedia.org/wiki/Web_taray%C4%B1c%C4%B1s%C4%B1)
