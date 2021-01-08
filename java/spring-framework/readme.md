@@ -115,7 +115,7 @@ Yukarıdaki örnekte de görüldüğü gibi PaymentService artık interface tipi
 
 Bağımlılığın da yaşam döngüsünü kendisi yönetmektedir. Spring Framework de bağımlılık yönetiminde interface’e dayalı bir yol izlenmesini beklemektedir. Interface’e dayalı Dependency Injection yukarıdaki gibi soyutluluğu arttırarak nesneler arası gevşek bağların kurulmasına yardımcı olmaktadır.
 
-**Aspect Oriented Programming (AOP)**
+## **Aspect Oriented Programming (AOP)**
 
 Spring Framework AOP’yi sıkı sıkıya destekler. AOP yöntemiyle yazdığımız projenin kodlarında belli noktaları keserek, kestiğimiz bu kesişim olan noktalarda bazı kodların bizim müdahalemiz olmadan otomatik olarak çalıştırılmasını isteyebiliriz. Bu kesişen noktalarda kodların otomatik çalıştırılması işi yine Spring Framework ile Aspect’lerin birlikte çalışmasıyla sağlanabilir.
 
@@ -131,11 +131,11 @@ Spring Framework ile nesne bağımlılıklarını yönetme işini çözüyoruz. 
 
 ![spring-calisma](figures/spring-calisma.png)
 
-**Spring Core**
+## **Spring Core**
 
 Spring Core kütüphanesi çekirdek kütüphanedir. Bağımlılıkların yönetiminin yapıldığı yerdir. İçinde Core ve Beans nesneleri vardır, bu nesne ile yazılımın çalışma süresi boyunca Spring yöneteceği bağımlılıkları bu modüllerde yönetir. Spring Framework’de Bean olarak tanımlanmış sınıflar Context modülünde toplanılır. Yazılım çalışma zamanında ihtiyaç duyulan nesne bağımlılıkları Context üzerinden kullanıma sunulur.
 
-**Spring Test**
+## **Spring Test**
 
 Spring Framework ile JUnit testlerin çalıştırılmasını sağlayan alt yapıdır.
 
@@ -143,14 +143,14 @@ Spring Framework ile JUnit testlerin çalıştırılmasını sağlayan alt yapı
 
 Aspect tanımlayarak kodu belli noktalarda kesen ve ardından kestiği bu noktalarda otomatik olarak çeşitli kodlar çalıştırabilen mekanizmayı sağlar. Yukarıda detayları mevcuttur.
 
-**Data Access**
+## **Data Access**
 
 Spring Framework’ün veri tabanı yönetim sistemleriyle etkileşime geçmek için sunduğu alt yapıdır. Biliyoruz ki tüm kurumsal projeler verileri veri tabanı sistemlerinde saklamaktadırlar. Dolayısıyla yazdığımız projeler illaki veri tabanlarıyla iletişim halinde olacaklardır. Spring’in bu kütüphaneleri buna olanak tanımaktadırlar. JDBC, ORM Kütüphanelerini kullanımı, Transaction yönetimi gibi sorumlulukları bu kütüphane yerine getirir.
 
-**Web**
+## **Web**
 Spring Framework ile web uygulamaları geliştirebilmek için gerekli kütüphaneleri sağlar. Java Web-Servlet, Web-Portlet gibi teknolojilerle çalışabilmeyi kapsar.
 
-**Spring Uygulaması Oluşturmak**
+## **Spring Uygulaması Oluşturmak**
 
 Spring uygulaması oluşturmak için çeşitli ayarlar yapılması gerekmektedir. Bu ayarları Annotation (Etiket) tabanlı veya XML tabanlı yapabilirsiniz. Spring ilk çıktığı zamanlar XML ile ayalar yapmak yaygındı. Fakat, sonrasında bu daha kolay hale getirildi. Artık, neredeyse tüm konfigrasyon Annotation üzerinden yapılmaktadır.
 
@@ -263,7 +263,7 @@ public class ApplicationConfig {
 ```
 @ComponentScan ile yukarıda 4 tane Java package Spring Framework taranacak ve sınıflar Spring Context’e dahil edilecektir.
 
-**@Componet Etiketi**
+## **@Componet Etiketi**
 
 Bu etiket sınıf tanımı üstünde kullanılabilir. Yukarıda @ComponentScan ile Spring Framework’ün paketleri taradığından bahsetmiştik. Eğer ki taradığı sınıflar içinden @Component etiketiyle işaretlenmiş bir sınıf görürse bunu Spring Context’e dahil ediyor. Böylece, Spring Context’e dahil ettiği sınıfları yazılım geliştirirken bir nesne bağımlılığı olarak kullanabiliyoruz. Biliyorsunuz ki, @Autowired etiketi ile bir nesne bağımlılığı ilgili sınıfa inject edilebilir. Buna Dependency Injection diyoruz.
 
@@ -275,7 +275,7 @@ public class EmployeeSelectService {
 
 }
 ```
-**@Repository Etiketi**
+## **@Repository Etiketi**
 
 DAO veya Repository sınıfları veri tabanıyla etkileşim içinde olan sınıflardır. Bu nedenle bu veri erişimi sağlayan sınıflarda @Repository etiketi kullanabiliriz. Aynı şekilde bu katmandaki sınıflarda @Component etiketi kullanabilirdik.
 
@@ -288,7 +288,7 @@ public class EmployeeModificationDAO {
 	// Java codes
 }
 ```
-**@Service Etiketi**
+## **@Service Etiketi**
 
 DAO katmanı ile veriye erişim sağlıyorduk. Service katmanı ise iş mantığını kodladığımız katmandır. Burada iş akışları yer alır. Mesela bir e-ticaret sitesinde ödeme akışı Service katmanında kodlanır. Ya da bankacılık uygulamasında para transferi akışı yine Service katmanında kodlanır. Bu sınıfları etiketlemek için @Service etiketi kullanılabilir. Aynı şekilde bu katmandaki sınıflarda @Component etiketi kullanabilirdik.
 
@@ -300,7 +300,7 @@ public class EmployeeSelectService {
 	// Java codes
 }
 ```
-**@Controller**
+## **@Controller**
 
 Bu etiket daha çok web katmanı için kullanılır. Örneğin Spring MVC kütüphanesi ile REST katmanı yazdığımızı düşünelim. Bu durumda REST servisi için tasarladığımız sınıfları @Controller etiketi ile ifade edebiliriz.
 ```java
@@ -310,7 +310,7 @@ public class VehicleController {
     // Java codes
 }
 ```
-**@Configuration Etiketi**
+## **@Configuration Etiketi**
 
 Spring Framework ile ilgili konfigürasyonları etiket tabanlı yapabileceğinizden bahsetmiştik. Java tarafında bu konfigürasyon sınıflarını tanımlamak için @Configuration etiketi kullanılır. Böylece, Spring Framework bu sınıfın bir konfigürasyon sınıfı olduğunu anlar. Biliyorsunuz ki konfigürasyon sınıflarında Bean tanımları yapılabilir. Aynı şekilde hangi Java paketleri altında tarama yapılacağı belirtilerek Spring Context’e Spring Bean’leri otomatik olarak eklenir.
 
@@ -332,7 +332,7 @@ public class ApplicationConfig {
 ```
 Yukarıdaki örnekte 4 Java paketini tarayıp Bean olabilecek sınıfları Spring Context’e ekliyoruz. Yukarıda saydığımız Bean etiketlerinden herhangi birini sınıf tanımında bulunduran sınıf Spring Context’e dahil edilir. Aynı zamanda konfigürasyon sınıfımızda “EmployeeModificationService” tipinden bir sınıfı Bean olarak Spring Context’e dahil ediyorum. @Bean etiketiyle belirttiğimiz nesne artık Spring Context’te kullanabileceğimiz bir dependency (bağımlılık) olarak eklenmiş durumdadır.
 
-**@Aspect Etiketi**
+## **@Aspect Etiketi**
 
 Spring, AOP yöntemini destekleyen bir framework’tür. Spring projesinde bir Aspect sınıfı tanımlamak istiyorsak @Aspect etiketini kullanmalıyız.
 
@@ -441,13 +441,13 @@ Spring Boot projeleri web uygulaması olarak tasarlansa bile “jar” uzantıl�
 
 Klasik yöntemde Java web uygulamaları “war” uzantılı dosyalar olarak üretilir. Spring Boot bu açıdan da farklıdır. “jar” olarak web uygulaması üretilmesi komut satırından çalıştırılabilen web uygulamaları anlamına gelmektedir. Bu yönüyle microservices mimarisi için de uygundur.  
 
-**Spring Boot Otomatik Konfigürasyon**
+## **Spring Boot Otomatik Konfigürasyon**
 
 Bildiğimiz üzere Spring Framework ile proje geliştirmek için XML tabanlı bir yöntemle veya etiket (Annotation) tabanlı bir yöntemle konfigürasyonlar yapmak gerekiyordu. Spring Boot ile artık siz hiçbir konfigürasyon tanımlamasanız bile Spring Boot kendisi classpathleri, Java package’ları otomatik olarak tarayıp gereken en iyi konfigürasyon kendisi arka planda oluşturma yeteneğine sahiptir. Böylece, biz yazılımcılar bir konfigürasyon yapmasak bile Spring Boot uygulamaları varsayılan bir konfigürasyon ile kendisi ayağa kalkabilmektedir.
 
 @EnableAutoConfiguration etiketi ile bu özelliği aktif hale getirebilirsiniz.
 
-**Gömülü Web Uygulama Sunucusu Desteği**
+## **Gömülü Web Uygulama Sunucusu Desteği**
 
 Spring Boot ile gömülü web uygulama sunucusu desteği gelmektedir. Spring Boot uygulamaları bilindiği üzere “jar” uzantılı çalıştırılabilir dosyalar vermektedirler. Bu “jar” dosyası içinde gömülü bir web uygulama sunucusu ile oluşturulur. Örneğin içinde gömülü bir Tomcat bulunur. “jar” uygulaması çalıştırıldığında Tomcat ayağa kalkıp web uygulamasını kendi bünyesinde çalıştırmaya başlar. Böylece bir web uygulama sunucusu bulma derdi ortadan kalkar.
 
@@ -607,7 +607,7 @@ Yukarıdaki iki katmanı hazırladıktan sonra Spring üzerinden bir Java konsol
 
 Böylece bu bölümde Dependency Injection, Spring Bean Annotations (Etiketleri) ve Spring Bean Scope’ları bir arada tek bir örnekte kullanacağız.
 
-**DAO Katmanı**
+## **DAO Katmanı**
 
 Önceki adımlarda hazırladığımız “spring-boot-basics” isimli Spring Boot projesine “com.spring.basics.dao” isminde bir Java package oluşturuyoruz. Hazırlayacağımız DAO sınıflarının kullanacağı interface’leri tasarlıyoruz. Biliyoruz ki Spring Framework’te Dependency Injection yöntemiyle bir nesne bağımlılığını kullanmak istediğimizde interface’den kalıtım almış alt sınıf tiplerinden birini tercih etmiyorduk. Onun yerine referans tipini interface tipi olarak vermeyi amaçlıyorduk.
 
@@ -896,7 +896,7 @@ Sınıfın içinde tasarladığımız “execute” isimli fonksiyon içindeki k
 
 @After etiketi ile ise fonksiyon çağrımı bittikten sonra Aspect içindeki Java kodları devreye alınır ve çalıştırılır. Fonksiyonun çağrımından önce herhangi bir kod çalıştırılmaz. @Before etiketinin tam tersidir.
 
-**@MethodRunningTime Etiketinin Kullanımı**
+## **@MethodRunningTime Etiketinin Kullanımı**
 
 ```java
 @MethodRunningTime(active = true)
