@@ -84,7 +84,7 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 - order-xxl-last
 
 ### Bir örnek daha gerçekleştirelim bootstrap ile hazırladığımız yapı ilk haliyle şu şekil olsun 
-```http
+```html
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-4 col-12 bg-dark text-white border-danger border d-flex ">
@@ -100,7 +100,7 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 		</div>
 ```
 ### Medium kırılma noktasından daha küçük genişliklerde 3.içeriğimizin ilk sıraya geçmesini istiyoruz. Fakat daha büyük genişliklerde bu sırayla kalmasını istiyoruz bunun için 
-``` http
+``` html
 <div class="container-fluid">
 			<div class="row">
 				<div class="col-md-4 col-12 bg-dark text-white border-danger border d-flex order-3 order-md-1 ">
@@ -117,7 +117,7 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 ```
 ### Kodumuzu bootstrap'i dahil ettiğiniz bir projede deneyebilirsiniz.Bu şekilde tüm kırılma noktaları için ayrı ayrı sıralamalar gerçekleştirebiliriz.
 ### Peki bu kodu biraz daha karmaşıklaştırmaya ne dersiniz ? İç içe içeriklerimiz olsun örneğin; 
-```http 
+```html
 <div class="container-fluid">
 			<div class="row">
 				<div class="col-md-4 col-12 bg-dark text-white border-danger border d-flex order-3 order-md-1 ">
@@ -173,7 +173,7 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 ```
 ###Örneğimizi daha iyi anlamak için lütfen bir editör'e kodumuzu kopyalayıp yapıştıralım.Gördüğünüz gibi şuan iç içe içeriklerimizin olduğu bir yapı var ben xs kırılma noktasında farklı,md'da farklı ve lg'da şuanki görüntüsüyle sıralanmasını istiyorum.Şimdi kodumuzu buna göre düzenleyelim
 
-```http
+```html
 	<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-4 col-12 bg-dark text-white border-danger border d-flex order-3 order-md-1 ">
@@ -230,7 +230,7 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 ### Kodumuzu artık istediğimiz düzeye getirmiş olduk.
 ##Ödev
 ### Sizde aşağıda ki kodu bütün içeriğin bütün kırılma noktalarında farklı bir şekilde sıralanmasını sağlayın.Şimdiden başarılar 
-```http
+```html
 <div class="container-fluid">
 			<div class="row">
 				<div class="col-12 col-md-4 d-flex bg-dark text-white border-danger border d-flex">
