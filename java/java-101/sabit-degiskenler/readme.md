@@ -174,8 +174,8 @@ public class FinalVariable
 
 
 ### **KAYNAKÇA**
-*https://www.javatpoint.com/instance-initializer-block
-*https://www.javatpoint.com/final-keyword
-*https://www.geeksforgeeks.org/final-keyword-java/
-*https://medium.com/@metinalniacik/javada-final-keyword-5d711c44375
+* https://www.javatpoint.com/instance-initializer-block
+* https://www.javatpoint.com/final-keyword
+* https://www.geeksforgeeks.org/final-keyword-java/
+* https://medium.com/@metinalniacik/javada-final-keyword-5d711c44375
 
