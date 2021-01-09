@@ -138,8 +138,8 @@ if(true){
 }
 console.log(degisken)
  /// var ile tanimlanan degiskenlere blocklardan erisilebilir
-[Codepen de örneği incele.](https://codepen.io/afatihyavasi/pen/ZEpvPwP?editors=1010)
 ```
+[Codepen de örneği incele.](https://codepen.io/afatihyavasi/pen/ZEpvPwP?editors=1010)
 
 Kod parçasında görüldüğü gibi globalde tanımladığımız ```degisken``` isimli değişkene her yerden erişebiliriz.
 <br></br>
