@@ -1,6 +1,6 @@
 # Bootstrap Sıralama Özellikleri Kullanarak Responsive Yapıya Göre Tepkilerin Düzenlenmesi
 
-Bootstrap'de sıralama özelliği(order),içeriklerin HTML'de yazılan sırayla değil(kodlar yukarıdan aşağı okunarak sıralanır) bizim belirlediğimiz sıraya göre sıralamamızı sağlayan bir kavramdır.Genellikle responsive yapılar oluştururken kullanılır.Örneğin xl genişliğinde çalışıyorsunuz ve web siteniz 3 parçadan oluşuyor,fakat siz sm genişliğinde ki ekranlarda 1. içeriğinizin ilk gözükmesini değil son gözükmesini istiyorsunuz.3.içeriğinizin ise ilk görülmesini istiyorsunuz.Yani aslında; 
+Bootstrap'de sıralama özelliği(order),içeriklerin HTML'de yazılan sırayla değil(kodlar yukarıdan aşağı okunarak sıralanır) bizim belirlediğimiz sıraya göre sıralamamızı sağlayan bir kavramdır.Genellikle responsive yapılar oluştururken kullanılır.Kullanırken kapsayıcı divimizin 'display:flex' classının yani 'd-flex' olması gerekmektedir,kapsayıcı div'in içinde en fazla 5 tane içeriği sıralayabileceğimizi unutmamamız gerekiyor.Bir örnek ile order yapısına başlayalım.Örneğin xl genişliğinde çalışıyorsunuz ve web siteniz 3 parçadan oluşuyor,fakat siz sm genişliğinde ki ekranlarda 1. içeriğinizin ilk gözükmesini değil son gözükmesini istiyorsunuz.3.içeriğinizin ise ilk görülmesini istiyorsunuz.Yani aslında; 
 
 1.İçeriğiniz | 2.İçeriğiniz |3.İçeriğiniz
 -- | -- | -- 
@@ -233,41 +233,41 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 ```http
 <div class="container-fluid">
 			<div class="row">
-				<div class="col-12 col-md-4 d-flex bg-dark text-white border-danger border">
+				<div class="col-12 col-md-4 d-flex bg-dark text-white border-danger border d-flex">
 						<h3>Logo</h3>
 				</div>
-				<div class="col-12 col-md-4 d-flex bg-dark text-white border-danger border">
+				<div class="col-12 col-md-4 d-flex bg-dark text-white border-danger border d-flex">
 					<h3>Menü İçeriği</h3>>
 			</div>
-			<div class="col-12 col-md-4 d-flex bg-dark text-white border-danger border">
+			<div class="col-12 col-md-4 d-flex bg-dark text-white border-danger border d-flex">
 					<h3>Üye Girişi</h3>
 			</div>
 			</div>
 		</div>
 		<div class="container-fluid ">
 			<div class="row">
-				<div class="col-12 col-md-4 bg-danger">
+				<div class="col-12 col-md-4 bg-danger d-flex">
 					<div class="row">
 						<div class="col-12 bg-danger border-dark border">
 							<h3>SideBar Başlık</h3>
 						</div>
-						<div class="col-12 bg-danger border-dark border">
+						<div class="col-12 bg-danger border-dark border ">
 							<h3>Filtre</h3>
 						</div>
-						<div class="col-12 bg-danger border-dark border">
+						<div class="col-12 bg-danger border-dark border ">
 							<h3>Filtre 2</h3>
 						</div>
-						<div class="col-12 bg-danger border-dark border">
+						<div class="col-12 bg-danger border-dark border ">
 							<h3>Filtre 3</h3>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-md-8">
+				<div class="col-12 col-md-8 d-flex">
 					<div class="row">
-						<div class="col-12 col-md-4 bg-primary border-dark border">
+						<div class="col-12 col-md-4 bg-primary border-dark border d-flex">
 							<h3>1.Ürün</h3>
 						</div>
-						<div class="col-12 col-md-4 bg-primary border-dark border">
+						<div class="col-12 col-md-4 bg-primary border-dark border ">
 							<h3>2.Ürün</h3>
 						</div>
 						<div class="col-12 col-md-4 bg-primary border-dark border">
@@ -279,28 +279,6 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 						<div class="col-12 col-md-4 bg-primary border-dark border">
 							<h3>5.Ürün</h3>
 						</div>
-						<div class="col-12 col-md-4 bg-primary border-dark border">
-							<h3>6.Ürün</h3>
-						</div>
-						<div class="col-12 col-md-4 bg-primary border-dark border">
-							<h3>7.Ürün </h3>
-						</div>
-						<div class="col-12 col-md-4 bg-primary border-dark border">
-							<h3>8.Ürün</h3>
-						</div>
-						<div class="col-12 col-md-4 bg-primary border-dark border">
-							<h3>9.Ürün</h3>
-						</div>
-						<div class="col-12 col-md-4 bg-primary border-dark border">
-							<h3>10.Ürün</h3>
-						</div>
-						<div class="col-12 col-md-4 bg-primary border-dark border">
-							<h3>11.Ürün</h3>
-						</div>
-						<div class="col-12 col-md-4 bg-primary border-dark border">
-							<h3>12.Ürün </h3>
-						</div>
-					 
 					</div>
 				</div>
 			</div>
