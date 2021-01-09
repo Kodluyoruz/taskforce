@@ -143,7 +143,7 @@ d) 2
 Konuyu pekiştirmek adına aşağıdaki alıştırmaları yapabilirsiniz:
 
 - [alıştırma 1](https://codepen.io/b-ra-irin/pen/bGwjgJd?editors=0011)
-- [alıştırma 2](https://codepen.io/b-ra-irin/pen/YzGjLVb?editors=0010)
+- [alıştırma 2](https://codepen.io/b-ra-irin/pen/YzGjLVb?editors=0010) 
 
 
 
