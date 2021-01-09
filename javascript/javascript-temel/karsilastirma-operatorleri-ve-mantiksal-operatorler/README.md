@@ -147,6 +147,9 @@ Konuyu pekiştirmek adına aşağıdaki alıştırmaları yapabilirsiniz:
 
 
 
+
+
+
 ```javascript
 console.log(2 && 5 && 9 && 7) // 7 (&& operatörü falsy değer bulamazsa okuduğu son değeri döner.)
 console.log(null ||NaN || 0 || undefined) // undefined (|| operatörü truthy değer bulamazsa okuduğu son değeri döner.)
