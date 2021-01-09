@@ -83,7 +83,7 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 - order-xxl-first
 - order-xxl-last
 
-###Bir örnek daha gerçekleştirelim bootstrap ile hazırladığımız yapı ilk haliyle şu şekil olsun 
+### Bir örnek daha gerçekleştirelim bootstrap ile hazırladığımız yapı ilk haliyle şu şekil olsun 
 ```http
 		<div class="container-fluid">
 			<div class="row">
