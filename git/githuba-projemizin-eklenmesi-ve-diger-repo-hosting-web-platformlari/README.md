@@ -81,14 +81,14 @@ Bitbucket, 2010 yılında Atlassian firması tarafından satın alınması ile b
 
 - [ ] "git add README.md" -> "git push" -> "git commit -m "mesaj" "
 - [ ] "git commit -m "mesaj" " -> "git add README.md" -> "git push"
-- [ ] "git add ." -> "git commit -m "mesaj" " -> "git push"
-- [ ] "git add README.md" -> "git commit -m "mesaj" " -> "git push"
+- [x] "git add ." -> "git commit -m "mesaj" " -> "git push"
+- [x] "git add README.md" -> "git commit -m "mesaj" " -> "git push"
 
 2. Aşağıdakilerden hangisi repo oluşturma aşamasında belirlediğimiz bilgilerin açıklaması yanlış olarak ifade edilmiştir ?
 
 - [ ] Description: Repomuz hakkında detaylı bir açıklama girebiliriz.
 - [ ] Private: Repomuzu bizim dışımızda kimsenin görüntüleyememesini sağlar.
-- [ ] Public: Repomuza belirlediğimiz kişilerin görüntüleyebilmesini sağlar.
+- [x] Public: Repomuza belirlediğimiz kişilerin görüntüleyebilmesini sağlar.
 - [ ] Owner: Repomuzun hangi kullanıcı tarafından oluşturulacağını seçeriz.
 
 3. Git ve GitHub arasındaki farklar nelerdir ?
@@ -96,7 +96,7 @@ Bitbucket, 2010 yılında Atlassian firması tarafından satın alınması ile b
 - [ ] GitHub versiyon kontrol sistemidir, Git ise projelerimizin saklandığı yerdir.
 - [ ] GitHub, git'in çalışmasını sağlayan arabirim yazılımıdır.
 - [ ] Git, GitHub'ın kısaltmasıdır.
-- [ ] Git versiyon kontrol sistemidir, GitHub ise projelerimizin saklandığı yerdir.
+- [x] Git versiyon kontrol sistemidir, GitHub ise projelerimizin saklandığı yerdir.
 
 ## Kaynaklar
 
