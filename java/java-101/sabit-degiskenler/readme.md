@@ -171,3 +171,11 @@ public class FinalVariable
   D)Name :Mark  Surname :Down
 
 **Cevap:** Burada cevap C seçeneğidir. Çünkü buradaki final kelimesi reference final değişkenlerine bir örnektir. Yani onu başka bir referansa veya nesneye yeniden atayamayız. Örneğin; object=object1; desek compiler-time da hata alırdık. Ancak setter metotlarını kullanarak üyelerin değerini değiştirebiliriz.
+
+
+### **KAYNAKÇA**
+*https://www.javatpoint.com/instance-initializer-block
+*https://www.javatpoint.com/final-keyword
+*https://www.geeksforgeeks.org/final-keyword-java/
+*https://medium.com/@metinalniacik/javada-final-keyword-5d711c44375
+
