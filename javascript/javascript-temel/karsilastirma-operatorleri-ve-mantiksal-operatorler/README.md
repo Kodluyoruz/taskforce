@@ -1,4 +1,4 @@
-# Karşılaştırma Operatörleri ve Mantıksal Operatörler# KARŞILAŞTIRMA OPERATÖRLERİ VE MANTIKSAL OPERATÖRLER
+# KARŞILAŞTIRMA OPERATÖRLERİ VE MANTIKSAL OPERATÖRLER
 
 
 
@@ -92,9 +92,24 @@ false      | false      | false
 Örn:
 
 ```javascript
-console.log(2 && 5 && 0 && 7) // 0 (&& operatörü bulduğu ilk falsy değeri yazdırır, falsy değer bulamazsa son değeri döner.)
-console.log(2 ||5 || 0 || 7) // 2 (|| operatörü bulduğu ilk truthy değeri yazdırır, truthy değer bulamazsa son değeri döner.)
+console.log(2 && 5 && 0 && 7) // 0 (&& operatörü bulduğu ilk falsy değeri yazdırır.)
+console.log(2 ||5 || 0 || 7) // 2 (|| operatörü bulduğu ilk truthy değeri yazdırır.)
 ```
+
+
+
+Alttaki kod parçaları ne dönebilir? (Cevap sayfa sonunda)
+
+```javascript
+console.log(2 && 5 && 9 && 7)
+console.log(null ||NaN || 0 || undefined)
+```
+
+a)  7 - undefined
+
+b) 2 - null
+
+c) false 
 
 
 
@@ -105,14 +120,43 @@ console.log(2 ||5 || 0 || 7) // 2 (|| operatörü bulduğu ilk truthy değeri ya
 ```javascript
 !true // false
 !2 // false
-!!2 // true (!2 false dönüyor ise !!2 de true döner.)
 ```
+
+
+
+Peki sizce alttaki kod parçası ne döner? (Cevap sayfa sonunda)
+
+``` javascript
+console.log(!!2) 
+```
+
+a) false
+
+b) true
+
+c) hata verir
+
+d) 2 
 
 
 
 Konuyu pekiştirmek adına aşağıdaki alıştırmaları yapabilirsiniz:
 
 - [alıştırma 1](https://codepen.io/b-ra-irin/pen/bGwjgJd?editors=0011)
-- [alıştırma 2](https://codepen.io/pen/?editors=0011)
+- [alıştırma 2](https://codepen.io/b-ra-irin/pen/YzGjLVb?editors=0010)
+
+
+
+```javascript
+console.log(2 && 5 && 9 && 7) // 7 (&& operatörü falsy değer bulamazsa okuduğu son değeri döner.)
+console.log(null ||NaN || 0 || undefined) // undefined (|| operatörü truthy değer bulamazsa okuduğu son değeri döner.)
+```
+
+
+
+```javascript
+console.log(!!2) // !2 false dönüyorsa !!2 true dönecektir. 
+```
+
 
 
