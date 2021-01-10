@@ -59,3 +59,8 @@ console.log(newArray);
  ```
 Sorunun çözümüne kendiniz denedikten sonra aşağıdaki linkten ulaşabilirsiniz.
 - https://codepen.io/selincaglarr/pen/RwGGboO
+
+### KAYNAKCA
+- https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+- https://www.w3schools.com/jsref/jsref_foreach.asp
+- https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/
