@@ -105,19 +105,20 @@
       
       
    ```Html
-         <form action="#" id="selectColor">
-           <label for="color">Choose a color</label>
-             <select name="colors" id="select">
-               <option value="red">RED</option>
-               <option value="blue">BLUE</option>
-               <option value="purple">PURPLE</option>
-               <option value="orange">ORANGE</option>
-               <option value="pink">PINK</option>
-             </select>
-             <br><br>
-           <input type="submit" value="Submit">
-         </form>
-   ``` 
+        <form action="#" id="selectColor">
+          <label for="color">Choose a color</label>
+            <select name="colors" id="select">
+              <option value="red">RED</option>
+              <option value="blue">BLUE</option>
+              <option value="purple">PURPLE</option>
+              <option value="orange">ORANGE</option>
+              <option value="pink">PINK</option>
+            </select>
+            <br><br>
+          <input type="submit" value="Submit">
+        </form>
+     ``` 
+   
        
        
        
