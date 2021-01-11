@@ -163,8 +163,7 @@
   
   
   
-          ```Html
-               <body>
+           ```Html
                 <div class="container">  
                  <div><p id="text">SUBMIT FORM </p> </div>
                    <form action="/action_page.php" class="inputText">
@@ -186,8 +185,7 @@
                     <br><br>
                   </form>
                  </div>
-               </body>
-          ```  
+           ```  
      
      
      
