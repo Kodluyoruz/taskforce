@@ -4,13 +4,13 @@
 
 
 
-## ![api-call-workapi](/Users/damlaehican/Desktop/api-call/figures/api-call-workapi.png)Bir API ya kaç farklı yolla istek atılabilir?
+## ![api-call-workapi](figures/api-call-workapi.png)Bir API ya kaç farklı yolla istek atılabilir?
 
 API ın kısada nasıl çalıştığını anladığımıza göre ReactJS te kaç farklı yöntemle verileri çekebiliriz bunlara bakalım. Bu noktada Fetch API, Axios kütüphanesi ile, Async/Await ve daha fazlasıyla verileri alabilirim. Bizler burada 2 farklı yöntemle örneklendirerek bu konuyu ayrıntısıyla ele almaya çalışacağız.
 
-![api-call](/Users/damlaehican/Desktop/api-call/figures/api-call.jpg)
+![api-call](figures/api-call.jpg)
 
-**Axios kütüphanesi ile **
+**Axios kütüphanesi ile**
 
 Öncelikle axios kütüphanesi kullanarak oluşturduğumuz ReactJS sayfasına ham bir şekilde stylesız Axios kütüphanesini import etmeliyiz. Bu noktada npm ya da yarn paket yöneticisini kullanarak Axios kütüphanesini projemize dahil etmeliyiz aksi halde import işlemimiz başarısız olmaktadır. [İlgili linkten ulaşıp indirme adımlarını uygulayabilirsiniz https://github.com/axios/axios]
 
@@ -18,7 +18,7 @@ Data çekmek v.b. işlemler için functional componentlerde useEffect fonksiyonu
 
 https://fakestoreapi.com/products tan json verilere ulaşıp kullanabiliriz. bunun için GET isteğini aşağıda ki şekilde kodlamamız yeterlidir.
 
-```react
+```javascript
 import React, { useState, useEffect } from 'react';
 import axios from 'axios'
 
@@ -41,13 +41,13 @@ function App() {
 
 Yukarıda ki kod parçacığında useEffect fonksyonuna ikinci parametre olarak boş bir array verilmiştir. Bunun sebebi sayfa ilk kez render edildiğinde bu fonksiyon çalışsın ve istekte bulunulan api ın cevabı getirilsin. 
 
-```react
+```javascript
 const response = await axios.get('https://fakestoreapi.com/products');
 ```
 
 
 
-```react
+```javascript
 return (
     <ul>
       {data.map(item => (
@@ -61,7 +61,7 @@ return (
 
 Bu kod parçası URL olarak verilen JSON datayı almakta ve response değişkenine atamaktadır.Burada ki gibi bir kod bloğuyla ise response ta object dönen cevabı mapleyip ekrana yazdırıyoruz ve artık aşağıda ki görüntü ile birlikte API ımıza isteğimizi atmış ve cevabınıda almış oluyoruz. (Map fonkdiyonunun nasıl çalıştığı konusunda Javascript array fonksiyonları incelenmelidir.)
 
-![api-call-output](/Users/damlaehican/Desktop/api-call/figures/api-call-output.png)
+![api-call-output](figures/api-call-output.png)
 
 **Fetch yöntemi ile**
 
@@ -71,7 +71,7 @@ Bu yöntemle apidan verileri alabilmek için herhangi bir kütüphane kullanmaya
 
 Fetch metodu ile tüm HTTP isteklerini gerçekleştirebiliriz. Fetch işlemini başlatmak için aşağıda gibi bir tanımı oluşturmalıyız.
 
-```js
+```javascript
 const response = await fetch(resource, [options])
 ```
 
