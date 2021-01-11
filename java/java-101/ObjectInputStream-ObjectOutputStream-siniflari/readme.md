@@ -112,7 +112,7 @@ Nesnenin içindeki;
 - Bir değer **transient** olarak tanımlanmışsa, bir nesnedeki bir alanı serileştirme seçeneği yoktur :
 
 ```java
-public  transient  int  salary ;
+public  transient  int  salary  ;
 ```
 
 yani salary değişkeni dosyaya yazılmaz ve daha sonra nesne oluşturulduğunda salary null olacaktır.
