@@ -11,8 +11,9 @@
    
     Kullanım :
     
+    
     ```javascript
-     element.addEventListener(event, function);
+      element.addEventListener(event, function);
       
       // id =button olan nesne seçildi
       const buton = document.querySelector("id");
@@ -21,8 +22,8 @@
       //Burada ilk olarak tip ('click') ,ikinci olarak da fonksiyonun kendisi parametre olarak eklenir
       buton.addEventListener('click' , function(){
             alert("Buton Tıklandı");
-       })
-     ```
+      })
+    ```
    
       //Çıktı : Buton Tıklandı
       
@@ -33,8 +34,9 @@
     
      Kullanım: 
      
+     
     ```javascript
-     element.addEventListener(event, functionName);
+      element.addEventListener(event, functionName);
 
       //id =button olan nesne seçildi
       const button = document.querySelector("#button");
@@ -43,7 +45,7 @@
       button.addEventListener('click',btnClicked);
          function btnClicked(){
             alert("Buton Tıklandı!!!")
-        }
+      }
      ```  
       
        //Çıktı : Buton Tıklandı!!!
@@ -72,7 +74,7 @@
  Klavyeden herhangi bir tuşa tıklanması sonucu gerçekleşen etkinliklerdir.
  
  
-    ```javascript 
+   ```javascript 
     //id=fname olan nesne çağrılarak keyboard değişkenine atandı
     const keyboard =document.querySelector('#fname');
     //keyboard isimli değişkene "cut" etkinliği atandı ve fonksiyon ismi parametre olarak atandı
@@ -81,7 +83,7 @@
     function cuttingFunction(event){
     console.log("etkinlik tipi: " , event.type)
     } 
-    ```   
+   ```   
     
     //console ekranı : etkinlik tipi: cut
    
@@ -89,7 +91,7 @@
 ## Form Etkinlikleri
    
  Örnek bir selectBox:
-   
+     ```html 
         <form action="#" id="selectColor">
             <label for="color">Choose a color</label>
             <select name="colors" id="select">
@@ -102,7 +104,7 @@
             <br><br>
             <input type="submit" value="Submit">
         </form>
-       
+     ``` 
        
        
    ```javascript 
@@ -139,8 +141,9 @@
    function parametresi ise fonksiyonun ismini veya fonksiyonun kendisini almaktadır.
  
  Örnek Form:
-   
-      <html>
+ 
+    ```html 
+       <html>
         <body>
          <div class="container">  
             <div><p id="text">SUBMIT FORM </p> </div>
@@ -167,7 +170,7 @@
            </div>
         </body>
       </html>
-   
+   ```
    
    ```javascript 
     //iç içe elementler çağrıldı  
@@ -233,21 +236,22 @@ seklindedir.
   
   1.Soru
   
-    <div id="text">
+    ```html
+     <div id="text">
       <div>
        <input id="input" placeholder="write">
        <div id="output" style="background-color:orange ;width:60%"> çıktı </div>
       </div>
     </div>
-  
+   ```
   
    ```javascript 
-   let input = document.getElementById('input');
-   let output = document.getElementById('output');
+    let input = document.getElementById('input');
+    let output = document.getElementById('output');
 
-   input.addEventListener('?', function(event) {
-   output.innerText = event.target.value.split('').join('');
-   });
+    input.addEventListener('?', function(event) {
+    output.innerText = event.target.value.split('').join('');
+    });
    ```
    
    Soru işaretli kısmımda hangi DOM etkinliği kullanılmalıdır?
@@ -258,18 +262,20 @@ seklindedir.
      
   2.Soru 
   
+    ```html
      <div id="yellow"></div>
      <div id="purple"></div>    
+    ```
   
   
-  
-    ```css 
+   ```css 
+    
     #yellow, #purple {
     width:70px;
     height:70px;
     border-radius:50%;
     margin:15px;
-  }
+     }
 
     #yellow{
       background-color:yellow;
@@ -278,16 +284,17 @@ seklindedir.
     #purple{
       background-color:rebeccaPurple;
     }
-    ```
+   ```
+   
     
-    ```javascript 
+   ```javascript 
     let yellowball = document.getElementById("yellow");
     let purpleBall = document.getElementById("purple");
 
     yellowball.x = function() {
     purpleBall.style.backgroundColor = "yellow";
     }
-    ```
+   ```
     
     x olan kısma hangi DOM etkinliği atanmalıdır ?
     
