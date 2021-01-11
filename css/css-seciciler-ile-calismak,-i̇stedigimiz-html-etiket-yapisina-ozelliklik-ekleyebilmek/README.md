@@ -439,9 +439,9 @@ Belirtilen etiketin sonuna CSS uygular.Kullanımı ``::before`` ile aynıdır.
   * a etiketi href özelliği içinde sonunda org olan etiketin üzerine gelindiğinde (Doğru)
  
  
- 
- 
- 
+ ### Kaynaklar
+ * https://www.w3schools.com/cssref/css_selectors.asp
+ * https://css-tricks.com/almanac/selectors/
  
  
 
