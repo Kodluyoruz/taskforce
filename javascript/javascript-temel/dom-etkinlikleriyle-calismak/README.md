@@ -12,6 +12,8 @@
    
     Kullanım :
     
+    
+    
     ```javascript
        element.addEventListener(event, function);
 
@@ -25,6 +27,7 @@
        })
       
     ```
+  
   
       Çıktı : Buton Tıklandı
       
@@ -99,8 +102,9 @@
    
  Örnek bir selectBox:
       
-      ```HTML 
-
+      
+      
+        ```html 
            <form action="#" id="selectColor">
             <label for="color">Choose a color</label>
             <select name="colors" id="select">
@@ -113,7 +117,7 @@
             <br><br>
             <input type="submit" value="Submit">
            </form>
-     ```
+        ```
        
        
    ```javascript 
@@ -151,7 +155,9 @@
  
  Örnek Form:
   
-      ```HTML 
+  
+  
+        ```html 
             <html>
              <body>
               <div class="container">  
@@ -179,7 +185,9 @@
                </div>
             </body>
           </html>
-     ```  
+       ```  
+     
+     
    
   ```javascript 
     //iç içe elementler çağrıldı  
@@ -245,7 +253,8 @@ seklindedir.
   
   1.Soru
   
-    ```HTML 
+  
+    ```html 
        <div id="text">
         <div>
         <input id="input" placeholder="write">
@@ -253,6 +262,8 @@ seklindedir.
        </div>
       </div>
    ```
+  
+  
   
    ```javascript 
      let input = document.getElementById('input');
@@ -264,6 +275,7 @@ seklindedir.
    ```
    
    
+   
    Soru işaretli kısmımda hangi DOM etkinliği kullanılmalıdır?
      a- click
      b- input
@@ -272,10 +284,13 @@ seklindedir.
      
      
   2.Soru 
-    ```HTML 
+  
+    ```html 
       <div id="yellow"></div>
       <div id="purple"></div>    
-  ```  
+    ```  
+  
+  
   
   
    ```css 
@@ -294,7 +309,9 @@ seklindedir.
     #purple{
       background-color:rebeccaPurple;
     }
+    
    ```
+   
    
     
    ```javascript 
@@ -305,7 +322,9 @@ seklindedir.
      yellowball.x = function() {
      purpleBall.style.backgroundColor = "yellow";
      }
+     
    ```
+   
     
     x olan kısma hangi DOM etkinliği atanmalıdır ?
     
