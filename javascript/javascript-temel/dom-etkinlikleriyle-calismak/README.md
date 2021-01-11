@@ -163,7 +163,7 @@
   
   
   
-        ```Html
+          ```Html
               <html>
                <body>
                 <div class="container">  
@@ -189,7 +189,7 @@
                  </div>
                </body>
              </html>
-       ```  
+         ```  
      
      
      
@@ -289,6 +289,7 @@ seklindedir.
    
    
    Soru işaretli kısmımda hangi DOM etkinliği kullanılmalıdır?
+   
      a- click
      b- input
      c- keypress
@@ -342,7 +343,7 @@ seklindedir.
    ```
    
     
-    x olan kısma hangi DOM etkinliği atanmalıdır ?
+    x olan kısıma hangi DOM etkinliği atanmalıdır ?
     
      a- open
      b- currentTarget
