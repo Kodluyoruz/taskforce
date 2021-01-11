@@ -33,10 +33,10 @@
    
  Fonksiyon etkinlik parametresi olarak da çalışabilmektedir.Burada parametre olan "event" i bir değişkene atayıp hedef etkinlik  tanımlandıktan sonra butona basıldıgında hangi butonun tıklandıgı bilgisine ulaşılabilmektedir
     
+    
      Kullanım: 
      
-     
-    ```javascript
+   ```javascript
       element.addEventListener(event, functionName);
 
       //id =button olan nesne seçildi
@@ -48,15 +48,16 @@
             alert("Buton Tıklandı!!!")
       }
      
-    ```  
+   ```  
       
        Çıktı : Buton Tıklandı!!!
        
 ## Mouse Etkinliği
+
  Mouse tıklaması ile gerçekleşen etkinliktir.
  
  
-   ```javascript
+  ```javascript
     //id=text olan buton çağrıldı
     //dblclick=çift tıklama etkinliği nesneye atandı,fonksiyon ismi parametre olarak tanımlandı
     const button = document.querySelector("#text");
@@ -66,9 +67,12 @@
         function clickFonksiyonu(){
     document.getElementById("text").innerHTML = "NEW FORM";
     }
-   ```
+  ```
+   
+   
     codepen uygulama linki:
-    [bu linke tıkla](https://codepen.io/gurkankirmaci/pen/bGwvjvB)
+    [codepen uyg. linki](https://codepen.io/gurkankirmaci/pen/bGwvjvB)
+   
    
    
 ## Klavye Etkinlikliği
@@ -77,14 +81,14 @@
  
  
    ```javascript 
-    //id=fname olan nesne çağrılarak keyboard değişkenine atandı
-    const keyboard =document.querySelector('#fname');
-    //keyboard isimli değişkene "cut" etkinliği atandı ve fonksiyon ismi parametre olarak atandı
-    keyboard.addEventListener("cut",cuttingFunction);
-    //cuttingFunction isimli fonksiyon ile form inputuna yazılan girdileri klavye ctrl+c ile kesildiğinde etkinlik çalışmaktadır
-    function cuttingFunction(event){
-    console.log("etkinlik tipi: " , event.type)
-    } 
+     //id=fname olan nesne çağrılarak keyboard değişkenine atandı
+     const keyboard =document.querySelector('#fname');
+     //keyboard isimli değişkene "cut" etkinliği atandı ve fonksiyon ismi parametre olarak atandı
+     keyboard.addEventListener("cut",cuttingFunction);
+     //cuttingFunction isimli fonksiyon ile form inputuna yazılan girdileri klavye ctrl+c ile kesildiğinde etkinlik çalışmaktadır
+     function cuttingFunction(event){
+     console.log("etkinlik tipi: " , event.type)
+     } 
    ```   
     
     //console ekranı : etkinlik tipi: cut
@@ -93,7 +97,7 @@
 ## Form Etkinlikleri
    
  Örnek bir selectBox:
-     ```html 
+      
         <form action="#" id="selectColor">
             <label for="color">Choose a color</label>
             <select name="colors" id="select">
@@ -106,20 +110,20 @@
             <br><br>
             <input type="submit" value="Submit">
         </form>
-     ``` 
+     
        
        
    ```javascript 
-    //id=select olan nesne çağrılarak color değişkenine atandı
-    const color = document.querySelector("#select");
-    //color değişkenine change etkinliği etkinliği atandı ve fonksiyon ismi parametre olarak atandı
-    color.addEventListener('change' ,selectBox);
-     
-     //selectBox isimli fonksiyon ile selectbox her seçildiğinde etkinlik tipi =change ve değeri consola yazılmaktadır 
-      function selectBox(event){
-       console.log("Etkinlik tipi : " + event.type);
-       console.log("deger : " + event.target.value);
-    }
+     //id=select olan nesne çağrılarak color değişkenine atandı
+     const color = document.querySelector("#select");
+     //color değişkenine change etkinliği etkinliği atandı ve fonksiyon ismi parametre olarak atandı
+     color.addEventListener('change' ,selectBox);
+
+      //selectBox isimli fonksiyon ile selectbox her seçildiğinde etkinlik tipi =change ve değeri consola yazılmaktadır 
+       function selectBox(event){
+        console.log("Etkinlik tipi : " + event.type);
+        console.log("deger : " + event.target.value);
+     }
    ``` 
    
     //Selectbox içinde "blue" değerini seçtiğimiz takdirde;
@@ -144,35 +148,34 @@
  
  Örnek Form:
  
-    ```html 
-       <html>
-        <body>
-         <div class="container">  
-            <div><p id="text">SUBMIT FORM </p> </div>
-            <form action="/action_page.php" class="inputText">
-                <label for="fname" id="l1">First name:</label><br>
+        <html>
+         <body>
+          <div class="container">  
+             <div><p id="text">SUBMIT FORM </p> </div>
+             <form action="/action_page.php" class="inputText">
+                 <label for="fname" id="l1">First name:</label><br>
 
-                <input type="text" id="fname" name="fname" value="John" > <br>
-                <label for="lname" id="l2">Last name:</label><br>
-                <input type="text" id="lname" name="lname" value="Doe" id="label2"><br><br>
-            </form>
-              <button type="button" id="button" >Clicked me </button>
+                 <input type="text" id="fname" name="fname" value="John" > <br>
+                 <label for="lname" id="l2">Last name:</label><br>
+                 <input type="text" id="lname" name="lname" value="Doe" id="label2"><br><br>
+             </form>
+               <button type="button" id="button" >Clicked me </button>
 
-            <form action="#" id="selectColor">
-                <label for="color">Choose a color</label>
-                <select name="colors" id="select">
-                  <option value="red">RED</option>
-                  <option value="blue">BLUE</option>
-                  <option value="purple">PURPLE</option>
-                  <option value="orange">ORANGE</option>
-                  <option value="pink">PINK</option>
-                </select>
-                <br><br>
-            </form>
-           </div>
-        </body>
-      </html>
-   ```
+             <form action="#" id="selectColor">
+                 <label for="color">Choose a color</label>
+                 <select name="colors" id="select">
+                   <option value="red">RED</option>
+                   <option value="blue">BLUE</option>
+                   <option value="purple">PURPLE</option>
+                   <option value="orange">ORANGE</option>
+                   <option value="pink">PINK</option>
+                 </select>
+                 <br><br>
+             </form>
+            </div>
+         </body>
+       </html>
+   
    
   ```javascript 
     //iç içe elementler çağrıldı  
@@ -238,23 +241,24 @@ seklindedir.
   
   1.Soru
   
-    ```html
+   
      <div id="text">
       <div>
        <input id="input" placeholder="write">
        <div id="output" style="background-color:orange ;width:60%"> çıktı </div>
       </div>
     </div>
-   ```
+  
   
    ```javascript 
-    let input = document.getElementById('input');
-    let output = document.getElementById('output');
+     let input = document.getElementById('input');
+     let output = document.getElementById('output');
 
-    input.addEventListener('?', function(event) {
-    output.innerText = event.target.value.split('').join('');
-    });
+     input.addEventListener('?', function(event) {
+     output.innerText = event.target.value.split('').join('');
+     });
    ```
+   
    
    Soru işaretli kısmımda hangi DOM etkinliği kullanılmalıdır?
      a- click
@@ -262,12 +266,12 @@ seklindedir.
      c- keypress
      d- select
      
+     
   2.Soru 
   
-    ```html
      <div id="yellow"></div>
      <div id="purple"></div>    
-    ```
+    
   
   
    ```css 
@@ -290,12 +294,13 @@ seklindedir.
    
     
    ```javascript 
-    let yellowball = document.getElementById("yellow");
-    let purpleBall = document.getElementById("purple");
+   
+     let yellowball = document.getElementById("yellow");
+     let purpleBall = document.getElementById("purple");
 
-    yellowball.x = function() {
-    purpleBall.style.backgroundColor = "yellow";
-    }
+     yellowball.x = function() {
+     purpleBall.style.backgroundColor = "yellow";
+     }
    ```
     
     x olan kısma hangi DOM etkinliği atanmalıdır ?
@@ -308,7 +313,7 @@ seklindedir.
      
   ### Kaynaklar
   
-   [kaynak linki](https://javascript.info/)
-   [kaynak linki](https://eloquentjavascript.net/)
-   [kaynak linki](http://speakingjs.com/es5/index.html)
+   [javascript.info](https://javascript.info/)
+   [eloquentjavascript](https://eloquentjavascript.net/)
+   [speakingjs](http://speakingjs.com/es5/index.html)
     
