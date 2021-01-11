@@ -7,11 +7,12 @@
 
  Event oluşumu öncelikle nesnenin seçimi ile başlar.Bir butona tıklandığında tıklandı uyarısı ekrana uyarı(alert) olarak ekrana yazdırabiliriz.
  
-   ###1.method
+   ### 1.method
    
     Kullanım :
+    
     ```javascript
-    element.addEventListener(event, function);
+     element.addEventListener(event, function);
       
       // id =button olan nesne seçildi
       const buton = document.querySelector("id");
@@ -21,7 +22,8 @@
       buton.addEventListener('click' , function(){
             alert("Buton Tıklandı");
        })
-   ```
+     ```
+   
       //Çıktı : Buton Tıklandı
       
       
@@ -30,7 +32,8 @@
  Fonksiyon etkinlik parametresi olarak da çalışabilmektedir.Burada parametre olan "event" i bir değişkene atayıp hedef etkinlik  tanımlandıktan sonra butona basıldıgında hangi butonun tıklandıgı bilgisine ulaşılabilmektedir
     
      Kullanım: 
-     ```javascript
+     
+    ```javascript
      element.addEventListener(event, functionName);
 
       //id =button olan nesne seçildi
@@ -41,11 +44,14 @@
          function btnClicked(){
             alert("Buton Tıklandı!!!")
         }
-      ```  
+     ```  
+      
        //Çıktı : Buton Tıklandı!!!
        
 ## Mouse Etkinliği
  Mouse tıklaması ile gerçekleşen etkinliktir.
+ 
+ 
    ```javascript
     //id=text olan buton çağrıldı
     //dblclick=çift tıklama etkinliği nesneye atandı,fonksiyon ismi parametre olarak tanımlandı
@@ -55,15 +61,18 @@
     //fonksiyonda id=text olan element çağrılarak innerHTML ile içeriği değiştirildi.
         function clickFonksiyonu(){
     document.getElementById("text").innerHTML = "NEW FORM";
-}
-```
+    }
+   ```
     codepen uygulama linki:
     [bu linke tıkla](https://codepen.io/gurkankirmaci/pen/bGwvjvB)
+   
    
 ## Klavye Etkinlikliği
    
  Klavyeden herhangi bir tuşa tıklanması sonucu gerçekleşen etkinliklerdir.
-  ```javascript 
+ 
+ 
+    ```javascript 
     //id=fname olan nesne çağrılarak keyboard değişkenine atandı
     const keyboard =document.querySelector('#fname');
     //keyboard isimli değişkene "cut" etkinliği atandı ve fonksiyon ismi parametre olarak atandı
@@ -72,7 +81,8 @@
     function cuttingFunction(event){
     console.log("etkinlik tipi: " , event.type)
     } 
- ```   
+    ```   
+    
     //console ekranı : etkinlik tipi: cut
    
    
@@ -92,7 +102,9 @@
             <br><br>
             <input type="submit" value="Submit">
         </form>
-     
+       
+       
+       
    ```javascript 
     //id=select olan nesne çağrılarak color değişkenine atandı
     const color = document.querySelector("#select");
@@ -105,8 +117,11 @@
        console.log("deger : " + event.target.value);
     }
    ``` 
+   
     //Selectbox içinde "blue" değerini seçtiğimiz takdirde;
     //ekran çıktısı: Etkinlik tipi : change, deger : blue
+    
+    
 
 ## Kabarcıklanma Etkinliği(Event Bubbling) ve Yakalama Etkinliği(Event Capturing)
    
@@ -114,10 +129,12 @@
 
  İç içe elementlerde ,örneğin üzerine tıklanan bir eleman kendisini kapsayan elemanıda yazar.Adeta bir sabun köpürmesi mantıgıyla dıştaki hedef elemente kadar ilerler.Buna event bubbling denir.İçten dısa bir aktarım söz konusudur
  
-   Kullanım şekli :   
+   Kullanım şekli : 
+   
    ```javascript 
    element.addEventListener(event, function);
    ```
+   
    Örnekte event parametresi "click" etkinliği almaktadır.
    function parametresi ise fonksiyonun ismini veya fonksiyonun kendisini almaktadır.
  
@@ -151,8 +168,8 @@
         </body>
       </html>
    
+   
    ```javascript 
-
     //iç içe elementler çağrıldı  
     const selectBox = document.querySelector('#selectColor')
     const button = document.querySelector('#button');
@@ -169,7 +186,8 @@
     cerceve.addEventListener('click',function(){
           console.log('cerceve');  
     })
-```
+  ```
+  
  Burada class=container olan div elementi içerisinde 3 farklı "id" numarası olan elementler bulunmaktadır.Container kapsayan küme, diğer elementler ise bu küme içerisindeki ayrık kümelerdir.Dolayısıyla diğer üç elemente tıklandığında class=container olan div elementini tutan cerceve değişkeni, tıklanan elementi tutan değişken ile ekrana yazılacaktır.Örneğin form elementine tıklandığında;
 ekran çıktısı:  form 
                 cerceve 
@@ -183,9 +201,11 @@ ekran çıktısı:  cerceve
 seklindedir.
 
  Kullanım şekli :
-  ```javascript 
+ 
+ ```javascript 
  element.addEventListener(event, function, useCapture);
  ```
+ 
  useCapture parametresi "True" ve "False" değerleri almaktadır.Diğer tüm kullanımı kabarcıklanma etkinliği ile aynıdır.
 
 ### event.stopPropagation()
@@ -193,6 +213,7 @@ seklindedir.
  Bir etkinliğin özelliğini durdurmak için kullanılır.Bir fonksiyon parametresi olarak girilen "event" e bu etkinlik atanarak kullanılır.
  
   Kullanımı:
+  
   ```javascript 
   event.stopPropagation();
   ```
@@ -203,12 +224,14 @@ seklindedir.
   
   
   Kullanımı:
-   ```javascript 
+  
+  ```javascript 
   event.preventDefault();
   ```
+  
   ## SORULAR
   
-  1.
+  1.Soru
   
     <div id="text">
       <div>
@@ -218,23 +241,22 @@ seklindedir.
     </div>
   
   
-  ```javascript 
+   ```javascript 
+   let input = document.getElementById('input');
+   let output = document.getElementById('output');
 
-  let input = document.getElementById('input');
-  let output = document.getElementById('output');
-
-  input.addEventListener('?', function(event) {
-  output.innerText = event.target.value.split('').join('');
-  });
+   input.addEventListener('?', function(event) {
+   output.innerText = event.target.value.split('').join('');
+   });
    ```
    
    Soru işaretli kısmımda hangi DOM etkinliği kullanılmalıdır?
-     - click
-     - input
-     - keypress
-     - select
+     a- click
+     b- input
+     c- keypress
+     d- select
      
-  2- 
+  2.Soru 
   
      <div id="yellow"></div>
      <div id="purple"></div>    
@@ -259,7 +281,6 @@ seklindedir.
     ```
     
     ```javascript 
-
     let yellowball = document.getElementById("yellow");
     let purpleBall = document.getElementById("purple");
 
@@ -267,12 +288,15 @@ seklindedir.
     purpleBall.style.backgroundColor = "yellow";
     }
     ```
+    
     x olan kısma hangi DOM etkinliği atanmalıdır ?
     
-     - open
-     - currentTarget
-     - play
-     - onclick
+     a- open
+     b- currentTarget
+     c- play
+     d- onclick
+     
+     
   ### Kaynaklar
   
    [kaynak linki](https://javascript.info/)
