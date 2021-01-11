@@ -109,7 +109,7 @@ objectInputStream.close();
 Nesnenin içindeki;
 
 - Statik alanlar serileştirilmez (çünkü bir nesneye ait değildirler ve serileştirme yalnızca nesneler için kullanılır). 
-- Bir değer **transient** olarak tanımlanmışsa, bir nesnedeki bir alanı serileştirme seçeneği yoktur :
+- Bir değer **transient** (geçici) olarak tanımlanmışsa, bir nesnedeki bir alanı serileştirme seçeneği yoktur :
 
 ```java
 public  transient  int  salary  ;
