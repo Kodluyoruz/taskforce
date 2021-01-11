@@ -9,4 +9,4 @@
 - [ ] [Display Özellikleri ile Responsive Yapıya Göre İstenilen Blokların Gösterilmesi / Gizlenmesi](display-ozellikleri-ile-responsive-yapiya-gore-i̇stenilen-bloklarin-gosterilmesi-gizlenmesi/)
 - [ ] [Bootstrap - Offset Kullanımı](bootstrap-offset-kullanimi/)
 - [ ] [Bootstrap Sıralama Özellikleri Kullanarak Responsive Yapıya Göre Tepkilerin Düzenlenmesi](bootstrap-siralama-ozellikleri-kullanarak-responsive-yapiya-gore-tepkilerin-duzenlenmesi/)
-- [ ] [Bootstrap Bileşenlerine(UI Components) Genel Bakış](bootstrap-bilesenlerineui-components-genel-bakis/)
+- [x] [Bootstrap Bileşenlerine(UI Components) Genel Bakış](bootstrap-bilesenlerineui-components-genel-bakis/)
