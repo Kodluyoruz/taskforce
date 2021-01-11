@@ -27,7 +27,7 @@ method = Form datanızın hangi methdola gönderileceğine karar verir. "Get" ve
 
 
 
-AUTOCOMPLETE :
+- AUTOCOMPLETE :
 autocomplete = Ingilizce ismindende anlaşılacağı üzere formunuzda otomatik tamamlama özelliğini açıp veya kapatmak için işinize yarar. Bu özelliği açmak daha önceki entrylerinize göre formun tamamlama yapmasını sağlayacaktır.
 
 
@@ -49,15 +49,15 @@ novalidate = Aktif olduğu sürece gönderdiğiniz form datanızın otomatik ola
 
 
 
-### Form taglerinizde birden fazla element bulundurabilirsiniz. Bunlardan olmazsa olmazı inputlar & butonlardır. Input elemanlarının başlıca özellikleri olarak ;
+#### Form taglerinizde birden fazla element bulundurabilirsiniz. Bunlardan olmazsa olmazı inputlar & butonlardır. Input elemanlarının başlıca özellikleri olarak ;
 
-### fname = Görünecek olan yazıyı belirler. Bu yazı, adete bir html etiketi gibi görünür.
+#### fname = Görünecek olan yazıyı belirler. Bu yazı, adete bir html etiketi gibi görünür.
 
-### type = Bu kısımda formunuzun text/numerik bir form olacağına karar verirsiniz.
+#### type = Bu kısımda formunuzun text/numerik bir form olacağına karar verirsiniz.
 
-### name = Inputunuzun name özelliğini belirlersiniz. Genelde isimlendirme küçük harf verilir backend kısmına uygun olması için
+#### name = Inputunuzun name özelliğini belirlersiniz. Genelde isimlendirme küçük harf verilir backend kısmına uygun olması için
 
-### value = Inputtaki aktif görünecek olan yazı için verilir. Örnek olarak butonların üzerindeki yazı gibi düşünebiliriz.
+#### value = Inputtaki aktif görünecek olan yazı için verilir. Örnek olarak butonların üzerindeki yazı gibi düşünebiliriz.
 
 Sizin için hazırladığım basit bir örnekte form ve input özelliklerini deneyebilirsiniz.
 
