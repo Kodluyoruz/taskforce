@@ -29,7 +29,7 @@
       
       
       
-  ###2.method
+  ### 2.method
    
  Fonksiyon etkinlik parametresi olarak da çalışabilmektedir.Burada parametre olan "event" i bir değişkene atayıp hedef etkinlik  tanımlandıktan sonra butona basıldıgında hangi butonun tıklandıgı bilgisine ulaşılabilmektedir
     
