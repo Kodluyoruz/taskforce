@@ -37,14 +37,14 @@ Yukarıdaki kodu çalıştırdığımız zaman aşağıdaki gibi bir çıktı g�
 
    1.[HTML Dili hakkında aşağıdakilerden hangisini yanlıştır?] </br>
    
-    • Yazıların ve görsellerin biçimlendirilmesine imkan verir. 1.1
-    • HTML ile çalışan bir program yazılabilir. </br>
-    • Web sayfalarının tarayıcılarda doğru bir şekilde gözükmesini sağlar. (Doğru) </br>
-    • HTML bir programlama dilidir. </br>
+    • Yazıların ve görsellerin biçimlendirilmesine imkan verir.
+    • HTML ile çalışan bir program yazılabilir. 
+    • Web sayfalarının tarayıcılarda doğru bir şekilde gözükmesini sağlar. (Doğru) 
+    • HTML bir programlama dilidir. 
    2.[HTML dilinin oluşmasını sağlayan kişi kimdir?] </br>
    
-    • Tim Berners-Lee (Doğru) </br>
-    • Bert Bos </br>
-    • Guido van Rossum </br>
-    • Brenden Eich </br>
+    • Tim Berners-Lee (Doğru) 
+    • Bert Bos 
+    • Guido van Rossum
+    • Brenden Eich
    
