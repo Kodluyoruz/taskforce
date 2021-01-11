@@ -140,9 +140,11 @@
     
     
 
+
 ## Kabarcıklanma Etkinliği(Event Bubbling) ve Yakalama Etkinliği(Event Capturing)
    
 ### 1.Kabarcıklanma Etkinliği(Event Bubbling)
+
 
  İç içe elementlerde ,örneğin üzerine tıklanan bir eleman kendisini kapsayan elemanıda yazar.Adeta bir sabun köpürmesi mantıgıyla dıştaki hedef elemente kadar ilerler.Buna event bubbling denir.İçten dısa bir aktarım söz konusudur
  
@@ -183,8 +185,11 @@
               </div>
        ```  
      
+     
+     
+     
     
-```javascript
+       ```javascript
         //iç içe elementler çağrıldı  
         const selectBox = document.querySelector('#selectColor')
         const button = document.querySelector('#button');
@@ -199,7 +204,9 @@
            cerceve.addEventListener('click',function(){
                  console.log('cerceve');  
            })
- ```
+       ```
+
+
 
 
 
@@ -209,6 +216,9 @@
 ekran çıktısı:  form 
                 cerceve 
 seklinde olacaktır.
+
+
+
 
 ### 2.Yakalama Etkinliği(Event Capturing)
 
@@ -224,6 +234,10 @@ seklindedir.
   ```javascript 
    element.addEventListener(event, function, useCapture);
   ```
+
+
+
+
 
 
  
@@ -249,6 +263,11 @@ seklindedir.
   ```javascript 
   event.preventDefault();
   ```
+  
+  
+  
+  
+  
   
   ## SORULAR
   
@@ -277,12 +296,14 @@ seklindedir.
    
    
    
+   
    Soru işaretli kısmımda hangi DOM etkinliği kullanılmalıdır?
    
      a- click
      b- input
      c- keypress
      d- select
+     
      
      
      
