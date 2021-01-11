@@ -37,7 +37,7 @@ Yukarıdaki kodu çalıştırdığımız zaman aşağıdaki gibi bir çıktı g�
 
    1.[HTML Dili hakkında aşağıdakilerden hangisini yanlıştır?] </br>
    
-    • Yazıların ve görsellerin biçimlendirilmesine imkan verir. </br>
+    • Yazıların ve görsellerin biçimlendirilmesine imkan verir.
     • HTML ile çalışan bir program yazılabilir. </br>
     • Web sayfalarının tarayıcılarda doğru bir şekilde gözükmesini sağlar. (Doğru) </br>
     • HTML bir programlama dilidir. </br>
