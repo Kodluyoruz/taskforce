@@ -1,4 +1,4 @@
-# HTML Nedir# HTML Nedir?
+# HTML Nedir?
 
 HTML yani Hiper Metin İşaretleme Dili, web sayfalarında gördüğümüz iskelet yapısını oluşturmak için kullanılan metin işaretleme dilidir. Bir programlama dili olarak tanımlanmayan HTML' e metin işaretleme dili denilmesinin sebebi, HTML kodlarıyla çalışan bir program yazamadığımızdan kaynaklıdır.
 
@@ -36,5 +36,5 @@ Yukarıdaki kodu çalıştırdığımız zaman aşağıdaki gibi bir çıktı g�
 ![İlk Web Sayfamız](figures/İlk-Web-Sayfamız.png)
 
 ## Kaynakça
-[bu linke tıkla](https://tr.wikipedia.org/wiki/HTML) </br>
-[bu linke tıkla](https://tr.wikipedia.org/wiki/Web_taray%C4%B1c%C4%B1s%C4%B1)
+- https://tr.wikipedia.org/wiki/HTML
+- https://tr.wikipedia.org/wiki/Web_taray%C4%B1c%C4%B1s%C4%B1
