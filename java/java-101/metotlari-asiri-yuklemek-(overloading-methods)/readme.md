@@ -5,12 +5,12 @@ Normal olarak, bir sınıf içinde aynı isme sahip birden fazla metot olamaz. B
 ```java
 class Math
 {
-	int add2(int x, int y)
+	static int add2(int x, int y)
 	{
 		return x + y;
 	}
 
-    int add3(int x, int y, int z)
+        static int add3(int x, int y, int z)
 	{
 		return x + y + z;
 	}
@@ -24,12 +24,12 @@ Java’da, bu gibi durumların önüne geçmek için metotları aşırı yükley
 ```java
 class Math
 {
-	int add(int x, int y)
+	static int add(int x, int y)
 	{
 		return x + y;
 	}
 
-    int add(int x, int y, int z)
+        static int add(int x, int y, int z)
 	{
 		return x + y + z;
 	}
@@ -39,12 +39,15 @@ class Math
 Gördüğünüz gibi, metodu aşırı yükleyebilmemiz sayesinde, aynı işi yapan fakat parametreleri farklı olan iki metoda farklı isimler vermek zorunda kalmadık. Aşırı yüklenmiş metotlar çağrılırken parametre sayısına bakılır ve uygun metot çalıştırılır:
 
 ```java
-Math math = new Math();
-math.add(1, 2); // 2 parametre alan metot çalıştırılır
-math.add(1, 2, 3); // 3 parametre alan metot çalıştırılır
+public static void main(String[] args){
+    Math math = new Math();
+    math.add(1, 2); // 2 parametre alan metot çalıştırılır
+    math.add(1, 2, 3); // 3 parametre alan metot çalıştırılır
+}
 ```
 
 Metotları aşırı yükleyebilmek için mutlaka parametrelerinin farklı olması gerekir. **Parametreleri aynı olan birden fazla aşırı yüklenmiş metot olamaz.**
 
-Son olarak şunu belirtelim: aşırı yüklenmiş metotların dönüş türü birbirinden farklı olabilir. Fakat sadece dönüş türünü değiştirmek metodu aşırı yüklemek için yeterli değildir.
+**Not:** Eğer Math class'ında add() metotlarımızı static olarak tanımlamasaydık compiler bize hata verecekti. Çünkü bu metotlarımızı main() metodunda çağırıyoruz ve bu metot static bir metottur ve static olmayan metotlar static bir metot tarafından çağırılamazlar.
 
+Son olarak şunu belirtelim: aşırı yüklenmiş metotların dönüş türü birbirinden farklı olabilir. Fakat sadece dönüş türünü değiştirmek metodu aşırı yüklemek için yeterli değildir.
