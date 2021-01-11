@@ -49,7 +49,7 @@ novalidate = Aktif olduğu sürece gönderdiğiniz form datanızın otomatik ola
 
 
 
-- #### Form taglerinizde birden fazla element bulundurabilirsiniz. Bunlardan olmazsa olmazı inputlar & butonlardır. Input elemanlarının başlıca özellikleri olarak ;
+#### Form taglerinizde birden fazla element bulundurabilirsiniz. Bunlardan olmazsa olmazı inputlar & butonlardır. Input elemanlarının başlıca özellikleri olarak ;
 
 #### fname = Görünecek olan yazıyı belirler. Bu yazı, adete bir html etiketi gibi görünür.
 
@@ -63,10 +63,15 @@ Sizin için hazırladığım basit bir örnekte form ve input özelliklerini den
 
 Son olarak öğrendiklerinizden emin olmak için https://jsfiddle.net/ adresinden : Kullanıcı için isim, soyisim, telefon numarası ve adres isteyen bir form oluşturmanızı istiyorum.
 
-Link için : - https://codepen.io/llker-kurtulan/pen/ExgQYjX
+### Link için : 
+- https://codepen.io/llker-kurtulan/pen/ExgQYjX
 
-Kaynaklar : - https://www.w3schools.com/html/html_forms.asp
-            - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
-            - https://www.tutorialspoint.com/html/html_forms.htm
+
+
+
+Kaynaklar için: 
+- https://www.w3schools.com/html/html_forms.asp
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+- https://www.tutorialspoint.com/html/html_forms.htm
 
             
