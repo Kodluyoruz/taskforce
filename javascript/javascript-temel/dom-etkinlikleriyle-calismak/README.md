@@ -94,7 +94,6 @@
       function cuttingFunction(event){
       console.log("etkinlik tipi: " , event.type)
       } 
-      
     ```   
     
     //console ekranı : etkinlik tipi: cut
@@ -105,7 +104,7 @@
  Örnek bir selectBox:
       
       
-      ```Html
+    ```Html
         <form action="#" id="selectColor">
           <label for="color">Choose a color</label>
             <select name="colors" id="select">
@@ -118,7 +117,7 @@
             <br><br>
           <input type="submit" value="Submit">
         </form>
-    ``` 
+   ``` 
        
        
    ```javascript 
@@ -158,7 +157,7 @@
   
   
   
-      ```Html
+     ```Html
             <html>
              <body>
               <div class="container">  
@@ -186,7 +185,7 @@
                </div>
             </body>
           </html>
-      ```  
+     ```  
      
      
    
