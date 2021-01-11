@@ -1,0 +1,16 @@
+# Veri Bilimi 100
+
+- [ ] [Nedir Bu Makine Öğrenmesi?](nedir-ml/)
+- [ ] [Veri Bilimi Nedir?](nedir-ds/)
+- [ ] [Supervised vs Unsupervised Learning](supervised-unsupervised/)
+- [ ] [Unsupervised Aslında Denetimsiz Değil](no-unsupervised/)
+- [ ] [Veri Analisti](veri-analist/)
+- [ ] [İstatistikçi](istatistikci/)
+- [ ] [Makine Öğrenimi Mühendisi](ml-engineer/)
+- [ ] [Veri Bilimi Uygulama vs Pratik](research-practice/)
+- [ ] [Temel Veri Tipleri](veri-tipleri/)
+- [ ] [Regression vs Classification](regression-classification/)
+- [ ] [Veriyi Model İçin Bölmek](split-data/)
+- [ ] [K-Fold Cross Validation](cross-valid/)
+- [ ] [Hangi Sorun İçin Hangi Modeli Kullanmam Gerekir](how-to-choose-model/)
+- [ ] [Hipotez Testleri](hipotez-test/)
