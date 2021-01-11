@@ -117,7 +117,7 @@
             <br><br>
           <input type="submit" value="Submit">
         </form>
-     ``` 
+   ``` 
    
        
        
@@ -125,7 +125,7 @@
        
        
        
-     ```javascript 
+    ```javascript 
        //id=select olan nesne çağrılarak color değişkenine atandı
        const color = document.querySelector("#select");
        //color değişkenine change etkinliği etkinliği atandı ve fonksiyon ismi parametre olarak atandı
@@ -136,7 +136,7 @@
         console.log("Etkinlik tipi : " + event.type);
         console.log("deger : " + event.target.value);
        }
-     ``` 
+    ``` 
    
    
    
@@ -193,7 +193,7 @@
                    <br><br>
                 </form>
              </div>
-   ```  
+       ```  
      
      
      
