@@ -35,14 +35,14 @@ Yukarıdaki kodu çalıştırdığımız zaman aşağıdaki gibi bir çıktı g�
 
 ![İlk-Web-Sayfamız](https://user-images.githubusercontent.com/45859293/104202278-c3d12780-543b-11eb-9ed1-a638d880b5d1.png)
 
- • [HTML Dili hakkında aşağıdakilerden hangisini yanlıştır?]
-    • Yazıların ve görsellerin biçimlendirilmesine imkan verir.
-    • HTML ile çalışan bir program yazılabilir.
-    • Web sayfalarının tarayıcılarda doğru bir şekilde gözükmesini sağlar. (Doğru)
-    • HTML bir programlama dilidir. 
- • [HTML dilinin oluşmasını sağlayan kişi kimdir?]
-    • Tim Berners-Lee (Doğru)
-    • Bert Bos
-    • Guido van Rossum
-    • Brenden Eich
+ • [HTML Dili hakkında aşağıdakilerden hangisini yanlıştır?] </br>
+    • Yazıların ve görsellerin biçimlendirilmesine imkan verir. </br>
+    • HTML ile çalışan bir program yazılabilir. </br>
+    • Web sayfalarının tarayıcılarda doğru bir şekilde gözükmesini sağlar. (Doğru) </br>
+     • HTML bir programlama dilidir. </br>
+ • [HTML dilinin oluşmasını sağlayan kişi kimdir?] </br>
+    • Tim Berners-Lee (Doğru) </br>
+    • Bert Bos </br>
+    • Guido van Rossum </br>
+    • Brenden Eich </br>
    
