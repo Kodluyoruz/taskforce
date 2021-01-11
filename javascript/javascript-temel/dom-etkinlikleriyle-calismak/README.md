@@ -164,7 +164,6 @@
   
   
           ```Html
-              <html>
                <body>
                 <div class="container">  
                  <div><p id="text">SUBMIT FORM </p> </div>
@@ -188,8 +187,7 @@
                   </form>
                  </div>
                </body>
-             </html>
-         ```  
+          ```  
      
      
      
