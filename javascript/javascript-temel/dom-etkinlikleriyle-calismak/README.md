@@ -122,6 +122,7 @@
        
        
        
+       
   ```javascript 
       //id=select olan nesne çağrılarak color değişkenine atandı
       const color = document.querySelector("#select");
@@ -134,6 +135,8 @@
          console.log("deger : " + event.target.value);
       }
   ``` 
+   
+   
    
    
     //Selectbox içinde "blue" değerini seçtiğimiz takdirde;
@@ -162,7 +165,7 @@
   
   
   
-          ```Html
+    ```Html
              <div class="container">  
                <div><p id="text">SUBMIT FORM </p> </div>
                <form action="/action_page.php" class="inputText">
@@ -184,7 +187,7 @@
                    <br><br>
                 </form>
              </div>
-          ```  
+      ```  
      
      
      
