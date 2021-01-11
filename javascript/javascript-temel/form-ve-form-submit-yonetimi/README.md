@@ -1,4 +1,4 @@
-#Form ve Form submit yönetimi
+# Form ve Form submit yönetimi
 
 Formlar kullanıcıdan bilgi almak için kullanılırlar. Formların en basit örneği olan input ile başlayalım. Tek satırlık numeri, harf veya ikisinin kombini olarakta girilebilir.
 
