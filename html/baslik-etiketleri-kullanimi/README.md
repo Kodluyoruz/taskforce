@@ -247,3 +247,23 @@ Cevaplar :
 <meta name="dominantColor" content="red">
 <meta name="description" content="Kodluyoruz ile webe giris">
 ```
+Çoktan Seçmeli Sorular : 
+
+1) Websitesinin karakter çözümlenme biçiminin tanımlanması için aşağıdakilerden hangisi kullanılır?
+
+a) <meta charset="UTF-8">
+b) <title> UTF-8 </title>
+c) <link charset="UTF-8">
+d) <script charset="UTF-8">
+
+2) Bir sayfaya javascript dosyaları ve link dosyaları eklerken, içeriğin değişmediğinden emin olmak için hangi özelliği kullanmamız gerekir?
+
+a) rel
+b) src
+c) href
+d) integrity
+
+Cevaplar : 
+
+1) A
+2) D
