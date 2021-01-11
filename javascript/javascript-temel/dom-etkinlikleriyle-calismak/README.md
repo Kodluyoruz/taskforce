@@ -12,9 +12,8 @@
    
       Kullanım :
     
-    ```javascript
+  ```javascript
       element.addEventListener(event, function);
-
       // id =button olan nesne seçildi
       const buton = document.querySelector("id");
       // Nesneye bir etkinlik atandı..
@@ -23,7 +22,7 @@
       buton.addEventListener('click' , function(){
              alert("Buton Tıklandı");
        })
-    ```
+  ```
   
   
       Çıktı : Buton Tıklandı
@@ -87,7 +86,6 @@
  
  
     ```javascript 
-    
       //id=fname olan nesne çağrılarak keyboard değişkenine atandı
       const keyboard =document.querySelector('#fname');
       //keyboard isimli değişkene "cut" etkinliği atandı ve fonksiyon ismi parametre olarak atandı
@@ -107,7 +105,7 @@
  Örnek bir selectBox:
       
       
-      `Html
+      ```Html
         <form action="#" id="selectColor">
           <label for="color">Choose a color</label>
             <select name="colors" id="select">
@@ -120,7 +118,7 @@
             <br><br>
           <input type="submit" value="Submit">
         </form>
-      ` 
+    ``` 
        
        
    ```javascript 
@@ -160,7 +158,7 @@
   
   
   
-        `Html
+      ```Html
             <html>
              <body>
               <div class="container">  
@@ -188,7 +186,7 @@
                </div>
             </body>
           </html>
-       `  
+      ```  
      
      
    
@@ -257,14 +255,14 @@ seklindedir.
   1.Soru
   
   
-  `Html
+  ```Html
        <div id="text">
         <div>
         <input id="input" placeholder="write">
         <div id="output" style="background-color:orange ;width:60%"> çıktı </div>
        </div>
       </div>
-   `
+  ```
  
   
    ```javascript 
@@ -289,10 +287,12 @@ seklindedir.
      
   2.Soru 
   
-  `Html
+  
+  ```Html
       <div id="yellow"></div>
       <div id="purple"></div>    
-  `
+  ```
+  
   
   
   
