@@ -63,17 +63,17 @@ Sorular:
 
 1)Aşağıdaki HTML özniteliklerinden hangisi döküman içerisinde yalnızca bir HTML elementine özgüdür yani biriciktir?
 
-A)class
-B)src
-C)id
-D)href
+A)class \
+B)src \
+C)id \
+D)href \
 
 2)Aşağıdakilerden hangisi HTML öznitelikerinden birisi değildir?
 
-A) html elementinin ikinci elemanına yazılırlar.
-B) Tüm html elementleri öznitelik alabilirler
-C) html elementlerine eksta özellik kazandırırlar.
-D) Kullanmak için öznetiliği yazıp ="".(ör. src = "")
+A) html elementinin ikinci elemanına yazılırlar. \
+B) Tüm html elementleri öznitelik alabilirler. \
+C) html elementlerine eksta özellik kazandırırlar. \
+D) Kullanmak için öznetiliği yazıp ="".(ör. src ="").
 
 
 
