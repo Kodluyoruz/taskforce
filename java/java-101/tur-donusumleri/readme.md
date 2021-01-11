@@ -82,5 +82,5 @@ Doğrudan tür dönüşümleri, **daralan dönüşüm (narrowing conversion)** o
  
     d) byte->double
 
-2. Double türündeki bir değişkenin değerini int türündeki bir değişkene atayınız.
+
 
