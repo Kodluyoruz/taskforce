@@ -20,7 +20,7 @@ METHOD :
 method = Form datanızın hangi methdola gönderileceğine karar verir. "Get" veya "Post" request olarak. Bu özellik verilmemesi durumunda default olarak "Get" methodu formunuza atanır. 
 
 
-Örnek kullanım <form action="/script.js" method="get">" veya "<form action="/script.js" method="post">
+Örnek kullanım  ``` <form action="/script.js" method="get">" veya "<form action="/script.js" method="post"> ```
 
 
 
