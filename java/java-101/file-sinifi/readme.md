@@ -39,3 +39,72 @@ _File_ sınıfının bazı önemli metotlarını aşağıdaki tabloda inceleyeli
 | **boolean** mkdir()             | Eğer bir klasör belirtiyorsa ve böyle bir klasör yoksa oluşturmaya çalışır, başarılı olursa true döndürür. |
 | **boolean** mkdirs()            | Eğer bir klasör belirtiyorsa ve böyle bir klasör yoksa oluşturmaya çalışır. Eğer dizin yolundaki klasörlerden birden fazlası yoksa hepsini oluşturmaya çalışır, başarılı olursa **true** döndürür. |
 | **boolean** renameTo(File dest) | Dosyanın ismini belirtilen parametreye uygun olarak değiştirmeye çalışır, başarılı olursa **true** döndürür. |
+
+File nesnesi kullanılarak "filename.txt" adlı bir dosya oluşturma örneği:
+
+``` java
+   try {
+            File file = new File("filename.txt");
+            if (file.createNewFile()) {
+                String dosyaIsmi=file.getName(); 
+                System.out.println("File oluşturuldu: " + dosyaIsmi);
+            } else {
+                System.out.println("filename.txt daha önceden oluşturulmuş.");
+            }
+        } catch (IOException e) {
+            System.out.println("Hata Meydana Geldi.");
+            e.printStackTrace();
+        }
+```
+
+Dosyamızı oluşturduk, şimdi dosyamızda bazı özellikleri kontrol edelim.
+
+``` java
+  		// Dosyanın ismini yazdırıyoruz.
+		System.out.println("Dosya ismi:"+file.getName());
+
+		//Dosyanın tam yolunu yazdırıyoruz  
+        System.out.println("Dosyanın tam yolu: " + file.getAbsolutePath());
+		
+		 // Dosyanın mevcut olup olmadığını yazdırıyoruz.
+        System.out.println("Dosyanın mevcut olma durumu:"+file.exists());
+
+        // Dosyayı okuma yetkimiz olup olmadığını yazdırıyoruz.
+        System.out.println("Dosyayı okuma yetkimiz:"+file.canRead());
+
+        // Dosyaya yazma yetkimiz olup olmadığını yazdırıyoruz.
+        System.out.println("Dosyaya yazma yetkimiz:"+file.canWrite());
+
+        // Dosya boyutunun byte cinsinden değerini yazdırıyoruz.
+        System.out.println("Dosya byte boyutu:"+file.length());
+
+```
+
+Özelliklerimizi kontrol ettikten sonra dosyamızı okuyabiliriz.
+
+```java
+	 try {          
+            Scanner myReader = new Scanner(file);
+            while (myReader.hasNextLine()) {
+                String data = myReader.nextLine();
+                System.out.println(data);
+            }
+            myReader.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("Hata Meydana Geldi.");
+            e.printStackTrace();
+        }
+```
+
+
+
+Artık dosyamızı silebiliriz.
+
+``` java
+ 		if (file.delete()) {
+            System.out.println(file.getName()+"İsimli dosya silindi");
+        } else {
+            System.out.println("Dosya silinemedi");
+        }
+```
+
