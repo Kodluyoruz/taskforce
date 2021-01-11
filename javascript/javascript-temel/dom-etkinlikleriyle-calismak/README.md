@@ -85,7 +85,7 @@
  
  
  
-    ```javascript 
+  ```javascript 
       //id=fname olan nesne çağrılarak keyboard değişkenine atandı
       const keyboard =document.querySelector('#fname');
       //keyboard isimli değişkene "cut" etkinliği atandı ve fonksiyon ismi parametre olarak atandı
@@ -94,7 +94,8 @@
       function cuttingFunction(event){
       console.log("etkinlik tipi: " , event.type)
       } 
-    ```   
+  ```   
+    
     
     //console ekranı : etkinlik tipi: cut
    
@@ -104,33 +105,35 @@
  Örnek bir selectBox:
       
       
-    ```Html
-        <form action="#" id="selectColor">
-          <label for="color">Choose a color</label>
-            <select name="colors" id="select">
-              <option value="red">RED</option>
-              <option value="blue">BLUE</option>
-              <option value="purple">PURPLE</option>
-              <option value="orange">ORANGE</option>
-              <option value="pink">PINK</option>
-            </select>
-            <br><br>
-          <input type="submit" value="Submit">
-        </form>
+      
+   ```Html
+         <form action="#" id="selectColor">
+           <label for="color">Choose a color</label>
+             <select name="colors" id="select">
+               <option value="red">RED</option>
+               <option value="blue">BLUE</option>
+               <option value="purple">PURPLE</option>
+               <option value="orange">ORANGE</option>
+               <option value="pink">PINK</option>
+             </select>
+             <br><br>
+           <input type="submit" value="Submit">
+         </form>
    ``` 
        
        
-   ```javascript 
-     //id=select olan nesne çağrılarak color değişkenine atandı
-     const color = document.querySelector("#select");
-     //color değişkenine change etkinliği etkinliği atandı ve fonksiyon ismi parametre olarak atandı
-     color.addEventListener('change' ,selectBox);
+       
+  ```javascript 
+      //id=select olan nesne çağrılarak color değişkenine atandı
+      const color = document.querySelector("#select");
+      //color değişkenine change etkinliği etkinliği atandı ve fonksiyon ismi parametre olarak atandı
+      color.addEventListener('change' ,selectBox);
 
-      //selectBox isimli fonksiyon ile selectbox her seçildiğinde etkinlik tipi =change ve değeri consola yazılmaktadır 
-       function selectBox(event){
-        console.log("Etkinlik tipi : " + event.type);
-        console.log("deger : " + event.target.value);
-     }
+       //selectBox isimli fonksiyon ile selectbox her seçildiğinde etkinlik tipi =change ve değeri consola yazılmaktadır 
+        function selectBox(event){
+         console.log("Etkinlik tipi : " + event.type);
+         console.log("deger : " + event.target.value);
+      }
    ``` 
    
     //Selectbox içinde "blue" değerini seçtiğimiz takdirde;
@@ -154,7 +157,6 @@
    function parametresi ise fonksiyonun ismini veya fonksiyonun kendisini almaktadır.
  
  Örnek Form:
-  
   
   
      ```Html
@@ -188,24 +190,25 @@
      ```  
      
      
+     
    
-  ```javascript 
-    //iç içe elementler çağrıldı  
-    const selectBox = document.querySelector('#selectColor')
-    const button = document.querySelector('#button');
-    const form = document.querySelector('.inputText');
-    const cerceve = document.querySelector('.container');
+ ```javascript 
+     //iç içe elementler çağrıldı  
+     const selectBox = document.querySelector('#selectColor')
+     const button = document.querySelector('#button');
+     const form = document.querySelector('.inputText');
+     const cerceve = document.querySelector('.container');
 
-    selectBox.addEventListener('click' ,function(){
-          console.log("selectBox");    
-    })
-    form.addEventListener('click',function(){
-          console.log("form");    
-    })
-    cerceve.addEventListener('click',function(){
-          console.log('cerceve');  
-    })
-    
+     selectBox.addEventListener('click' ,function(){
+           console.log("selectBox");    
+     })
+     form.addEventListener('click',function(){
+           console.log("form");    
+     })
+     cerceve.addEventListener('click',function(){
+           console.log('cerceve');  
+     })
+
  ```
   
  Burada class=container olan div elementi içerisinde 3 farklı "id" numarası olan elementler bulunmaktadır.Container kapsayan küme, diğer elementler ise bu küme içerisindeki ayrık kümelerdir.Dolayısıyla diğer üç elemente tıklandığında class=container olan div elementini tutan cerceve değişkeni, tıklanan elementi tutan değişken ile ekrana yazılacaktır.Örneğin form elementine tıklandığında;
