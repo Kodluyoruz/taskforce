@@ -13,18 +13,18 @@ HTML'de `<h1>, <h2>, <h3>` etiketleri ile aç-kapat yaparak oluşturduğumuz ba�
 | Markdown      | HTML                  | Çıktı         |
 | ---           |---                    | ---           |
 | # h1 Başlık | \<h1> h1 Başlık \</h1>|  <h1> h1 Başlık </h1>  |
-| # h2 Başlık | \<h2> h2 Başlık \</h2>|  <h2> h2 Başlık </h2>  |
-| # h3 Başlık | \<h3> h3 Başlık \</h3>|  <h3> h3 Başlık </h3>  |
-| # h4 Başlık | \<h4> h4 Başlık \</h4>|  <h4> h4 Başlık </h4>  |
-| # h5 Başlık | \<h5> h5 Başlık \</h5>|  <h5> h5 Başlık </h5>  |
-| # h6 Başlık | \<h6> h6 Başlık \</h6>|  <h6> h6 Başlık </h6>  |
+| ## h2 Başlık | \<h2> h2 Başlık \</h2>|  <h2> h2 Başlık </h2>  |
+| ### h3 Başlık | \<h3> h3 Başlık \</h3>|  <h3> h3 Başlık </h3>  |
+| #### h4 Başlık | \<h4> h4 Başlık \</h4>|  <h4> h4 Başlık </h4>  |
+| ##### h5 Başlık | \<h5> h5 Başlık \</h5>|  <h5> h5 Başlık </h5>  |
+| ###### h6 Başlık | \<h6> h6 Başlık \</h6>|  <h6> h6 Başlık </h6>  |
 
 `h1` ve `h2` başlıklar yazarken alternatif olarak bir yöntem daha mevcut. `h1` için `=` ve `h2` için `-` kullanabilirsiniz.
 
 | Markdown      | HTML                  | Çıktı         |
 | ---           |---                    | ---           |
 | # h1 Başlık <br> ======== | \<h1> h1 Başlık \</h1>|  <h1> h1 Başlık </h1>  |
-| # h2 Başlık <br> --------------| \<h2> h2 Başlık \</h2>|  <h2> h2 Başlık </h2>  |
+| ## h2 Başlık <br> --------------| \<h2> h2 Başlık \</h2>|  <h2> h2 Başlık </h2>  |
 
 *NOT: `h1` ve `h2` başlıklarda GitHub'ın yaptığı özelleştirme sebebiyle otomatik olarak gri bir çizgi geliyor.*
 
@@ -222,4 +222,17 @@ Elde ettiğimiz çıktı;
 ## SON
 
 Okuduğunuz bu yazı da markdown formatonda oluşturulmuştur. Sayfanın en üstündeki [README.md]() dosyasına gidip, açılan sayfada sağ üstteki Raw butonuna tıklarsanız sayfanın markdown formatındaki hâlini ve kullanılan etiketleri görebilirsiniz.
+
+* [Tek satır kod bloğu hangi karakterler arasına yazılır?]
+  * * (Yıldız)
+  * \` (Backtick) (Doğru)
+  * - (Tire)
+  * " (Çift tırnak)
+* [h1 başlık oluşturmak için aşağıdakilerden hangisi yapılır?]
+  * h1 başlık için bir işlem yapmak gerekmez, otomatik oluşur.
+  * Başlık, * karakterleri arasına yazılır.
+  * # karakterinden sonra bir boşluk bırakılarak başlık yazılır. (Doğru)
+  * Backtick bloğu oluşturulup, içine yazılır.
+  
+
 
