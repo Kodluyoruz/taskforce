@@ -184,8 +184,7 @@
        ```  
      
     
-    
-     ```javascript
+  ```javascript
            //iç içe elementler çağrıldı  
            const selectBox = document.querySelector('#selectColor')
            const button = document.querySelector('#button');
@@ -201,9 +200,9 @@
            cerceve.addEventListener('click',function(){
                  console.log('cerceve');  
            })
-     ```
- 
- 
+   ```
+
+
  Burada class=container olan div elementi içerisinde 3 farklı "id" numarası olan elementler bulunmaktadır.Container kapsayan küme, diğer elementler ise bu küme içerisindeki ayrık kümelerdir.Dolayısıyla diğer üç elemente tıklandığında class=container olan div elementini tutan cerceve değişkeni, tıklanan elementi tutan değişken ile ekrana yazılacaktır.Örneğin form elementine tıklandığında;
 ekran çıktısı:  form 
                 cerceve 
@@ -218,10 +217,13 @@ seklindedir.
 
  Kullanım şekli :
  
- ```javascript 
-  element.addEventListener(event, function, useCapture);
- ```
  
+ 
+  ```javascript 
+   element.addEventListener(event, function, useCapture);
+  ```
+
+
  
  useCapture parametresi "True" ve "False" değerleri almaktadır.Diğer tüm kullanımı kabarcıklanma etkinliği ile aynıdır.
 
