@@ -221,5 +221,5 @@ Elde ettiğimiz çıktı;
 
 ## SON
 
-Okuduğunuz bu yazı da markdown formatonda oluşturulmuştur. Sayfanın en üstündeki [README.md]() dosyasına gidip, açılan sayfada sağ üstteki Raw butonuna tıklarsanız sayfanın markdown formatındaki hâlini ve kullanılan etiketleri görebilirsiniz.
+Okuduğunuz bu yazı da markdown formatında oluşturulmuştur. Sayfanın en üstündeki [README.md]() dosyasına gidip, açılan sayfada sağ üstteki Raw butonuna tıklarsanız sayfanın markdown formatındaki hâlini ve kullanılan etiketleri görebilirsiniz.
 
