@@ -9,7 +9,6 @@
  
    ### 1.method
    
-   
     Kullanım :
     
     
@@ -25,11 +24,11 @@
        buton.addEventListener('click' , function(){
              alert("Buton Tıklandı");
        })
-      
     ```
   
   
       Çıktı : Buton Tıklandı
+      
       
       
   ###2.method
@@ -73,10 +72,13 @@
   ```
    
    
+   
     codepen uygulama linki:
+    
     
     [codepen uyg. linki](https://codepen.io/gurkankirmaci/pen/bGwvjvB/)
 
+   
    
    
 ## Klavye Etkinlikliği
@@ -84,16 +86,16 @@
  Klavyeden herhangi bir tuşa tıklanması sonucu gerçekleşen etkinliklerdir.
  
  
-   ```javascript 
-     //id=fname olan nesne çağrılarak keyboard değişkenine atandı
-     const keyboard =document.querySelector('#fname');
-     //keyboard isimli değişkene "cut" etkinliği atandı ve fonksiyon ismi parametre olarak atandı
-     keyboard.addEventListener("cut",cuttingFunction);
-     //cuttingFunction isimli fonksiyon ile form inputuna yazılan girdileri klavye ctrl+c ile kesildiğinde etkinlik çalışmaktadır
-     function cuttingFunction(event){
-     console.log("etkinlik tipi: " , event.type)
-     } 
-   ```   
+    ```javascript 
+      //id=fname olan nesne çağrılarak keyboard değişkenine atandı
+      const keyboard =document.querySelector('#fname');
+      //keyboard isimli değişkene "cut" etkinliği atandı ve fonksiyon ismi parametre olarak atandı
+      keyboard.addEventListener("cut",cuttingFunction);
+      //cuttingFunction isimli fonksiyon ile form inputuna yazılan girdileri klavye ctrl+c ile kesildiğinde etkinlik çalışmaktadır
+      function cuttingFunction(event){
+      console.log("etkinlik tipi: " , event.type)
+      } 
+    ```   
     
     //console ekranı : etkinlik tipi: cut
    
@@ -104,9 +106,8 @@
       
       
       
-        ```html 
-           <form action="#" id="selectColor">
-            <label for="color">Choose a color</label>
+        <form action="#" id="selectColor">
+          <label for="color">Choose a color</label>
             <select name="colors" id="select">
               <option value="red">RED</option>
               <option value="blue">BLUE</option>
@@ -115,9 +116,9 @@
               <option value="pink">PINK</option>
             </select>
             <br><br>
-            <input type="submit" value="Submit">
-           </form>
-        ```
+          <input type="submit" value="Submit">
+        </form>
+        
        
        
    ```javascript 
@@ -157,7 +158,7 @@
   
   
   
-        ```html 
+       
             <html>
              <body>
               <div class="container">  
@@ -185,7 +186,7 @@
                </div>
             </body>
           </html>
-       ```  
+         
      
      
    
@@ -254,14 +255,15 @@ seklindedir.
   1.Soru
   
   
-    ```html 
+  
        <div id="text">
         <div>
         <input id="input" placeholder="write">
         <div id="output" style="background-color:orange ;width:60%"> çıktı </div>
        </div>
       </div>
-   ```
+   
+  
   
   
   
@@ -283,12 +285,13 @@ seklindedir.
      d- select
      
      
+     
   2.Soru 
   
-    ```html 
+  
       <div id="yellow"></div>
       <div id="purple"></div>    
-    ```  
+   
   
   
   
@@ -313,9 +316,10 @@ seklindedir.
    ```
    
    
+   
     
    ```javascript 
-   
+ 
      let yellowball = document.getElementById("yellow");
      let purpleBall = document.getElementById("purple");
 
