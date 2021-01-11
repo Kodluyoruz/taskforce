@@ -121,9 +121,8 @@
    
        
        
-       
-       
-     ```javascript 
+      
+  ```javascript 
          //id=select olan nesne çağrılarak color değişkenine atandı
          const color = document.querySelector("#select");
          //color değişkenine change etkinliği etkinliği atandı ve fonksiyon ismi parametre olarak atandı
@@ -134,7 +133,7 @@
           console.log("Etkinlik tipi : " + event.type);
           console.log("deger : " + event.target.value);
          }
-     ``` 
+  ``` 
 
    
    
@@ -190,27 +189,27 @@
      
      
      
-   
-  ```javascript 
-  
-      //iç içe elementler çağrıldı  
-      const selectBox = document.querySelector('#selectColor')
-      const button = document.querySelector('#button');
-      const form = document.querySelector('.inputText');
-      const cerceve = document.querySelector('.container');
 
-      selectBox.addEventListener('click' ,function(){
-            console.log("selectBox");    
-      })
-      form.addEventListener('click',function(){
-            console.log("form");    
-      })
-      cerceve.addEventListener('click',function(){
-            console.log('cerceve');  
-      })
+       ```javascript 
 
-  ```
- 
+           //iç içe elementler çağrıldı  
+           const selectBox = document.querySelector('#selectColor')
+           const button = document.querySelector('#button');
+           const form = document.querySelector('.inputText');
+           const cerceve = document.querySelector('.container');
+
+           selectBox.addEventListener('click' ,function(){
+                 console.log("selectBox");    
+           })
+           form.addEventListener('click',function(){
+                 console.log("form");    
+           })
+           cerceve.addEventListener('click',function(){
+                 console.log('cerceve');  
+           })
+
+       ```
+
  
  
  
