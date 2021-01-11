@@ -98,6 +98,8 @@
     //console ekranı : etkinlik tipi: cut
    
    
+   
+   
 ## Form Etkinlikleri
    
  Örnek bir selectBox:
@@ -119,7 +121,10 @@
         </form>
    ``` 
   
-      
+     
+     
+     
+     
   ```javascript 
          //id=select olan nesne çağrılarak color değişkenine atandı
          const color = document.querySelector("#select");
@@ -131,14 +136,15 @@
           console.log("Etkinlik tipi : " + event.type);
           console.log("deger : " + event.target.value);
          }
-    ``` 
+ ``` 
 
-   
    
     //Selectbox içinde "blue" değerini seçtiğimiz takdirde;
     //ekran çıktısı: Etkinlik tipi : change, deger : blue
     
     
+
+
 
 
 ## Kabarcıklanma Etkinliği(Event Bubbling) ve Yakalama Etkinliği(Event Capturing)
@@ -205,7 +211,6 @@
                  console.log('cerceve');  
            })
        ```
-
 
 
 
