@@ -184,14 +184,13 @@
        ```  
      
     
-  ```javascript
-           //iç içe elementler çağrıldı  
-           const selectBox = document.querySelector('#selectColor')
-           const button = document.querySelector('#button');
-           const form = document.querySelector('.inputText');
-           const cerceve = document.querySelector('.container');
-
-           selectBox.addEventListener('click' ,function(){
+```javascript
+        //iç içe elementler çağrıldı  
+        const selectBox = document.querySelector('#selectColor')
+        const button = document.querySelector('#button');
+        const form = document.querySelector('.inputText');  
+        const cerceve = document.querySelector('.container');
+        selectBox.addEventListener('click' ,function(){
                  console.log("selectBox");    
            })
            form.addEventListener('click',function(){
@@ -200,7 +199,9 @@
            cerceve.addEventListener('click',function(){
                  console.log('cerceve');  
            })
-  ```
+ ```
+
+
 
 
 
