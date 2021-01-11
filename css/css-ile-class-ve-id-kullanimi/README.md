@@ -17,7 +17,7 @@ p {
 
 **Sonuç**:
 
-![Screenshot_1](assets/screenshot_1.jpg)
+![Screenshot_1](assets/Screenshot_1.jpg)
 
 
 
@@ -63,7 +63,7 @@ Daha sonra bunu istediğimiz özelliği ekleyelim.
 
 **Sonuç:**
 
-![Screenshot_2](assets/screenshot_2.jpg)
+![Screenshot_2](assets/Screenshot_2.jpg)
 
 
 
@@ -84,7 +84,7 @@ Bir class’ı birden fazla HTML elementi için kullanabiliriz.
 
 **Sonuç:**
 
-![Screenshot_3](assets/screenshot_3.jpg)
+![Screenshot_3](assets/Screenshot_3.jpg)
 
 
 
@@ -111,7 +111,7 @@ Eğer bir HTML elementinin birden fazla class özelliğine sahip olmasını isti
 
 **Sonuç:**
 
-![Screenshot_4](assets/screenshot_4.jpg)
+![Screenshot_4](assets/Screenshot_4.jpg)
 
 
 
@@ -132,7 +132,7 @@ Bir HTML elementi kendini kapsayan elementin (parent elementi) stil özellikleri
 
 **Sonuç:**
 
-![Screenshot_5](assets/screenshot_5.jpg)
+![Screenshot_5](assets/Screenshot_5.jpg)
 
 
 
@@ -169,7 +169,7 @@ Bir id’yi sadece bir HTML elementi üzerinde kullanabiliriz.
 
 **Sonuç:**
 
-![Screenshot_6](assets/screenshot_6.jpg)
+![Screenshot_6](assets/Screenshot_6.jpg)
 
 Aşağıdaki **yanlış** bir kullanımdır!
 
@@ -285,19 +285,19 @@ title{
 
 **A.**
 
-![Screenshot_7](assets/screenshot_7.jpg)
+![Screenshot_7](assets/Screenshot_7.jpg)
 
 **B.**
 
-![Screenshot_8](assets/screenshot_8.jpg)
+![Screenshot_8](assets/Screenshot_8.jpg)
 
 **C.**
 
-![Screenshot_9](assets/screenshot_9.jpg)
+![Screenshot_9](assets/Screenshot_9.jpg)
 
 **D.**
 
-![Screenshot_10](assets/screenshot_10.jpg)
+![Screenshot_10](assets/Screenshot_10.jpg)
 
 
 
