@@ -73,8 +73,7 @@
     codepen uygulama linki:
     
     
-    
-    [codepen uyg. linki](https://codepen.io/gurkankirmaci/pen/bGwvjvB/)
+   [codepen](https://codepen.io/gurkankirmaci/pen/bGwvjvB/)
 
    
    
@@ -158,20 +157,18 @@
  Örnek Form:
   
   
-    ```Html
+     ```Html
              <html>
               <body>
                <div class="container">  
                 <div><p id="text">SUBMIT FORM </p> </div>
                  <form action="/action_page.php" class="inputText">
                   <label for="fname" id="l1">First name:</label><br>
-
                     <input type="text" id="fname" name="fname" value="John" > <br>
                     <label for="lname" id="l2">Last name:</label><br>
                     <input type="text" id="lname" name="lname" value="Doe" id="label2"><br><br>
                 </form>
                   <button type="button" id="button" >Clicked me </button>
-
                 <form action="#" id="selectColor">
                       <label for="color">Choose a color</label>
                      <select name="colors" id="select">
@@ -186,7 +183,7 @@
                 </div>
              </body>
            </html>
-    ```  
+     ```  
      
      
      
