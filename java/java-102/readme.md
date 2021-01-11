@@ -62,7 +62,7 @@
 - [ ] [Functional Programming Basics](functional-programming-basics/)
   - [ ] [Lambda Expressions](lambda-expressions/)
   - [ ] [Functional Interfaces](functional-interfaces/)
-  - [ ] Stream API
+  - [ ] [Stream API](stream-api/)
 - [ ] [Multi Threads & Concurrency](multi-threads-concurrency/)
    - [ ]  [Java Thread’lerin Oluşturulması ve Kullanılması](thread-olusturulmasi-kullanilmasi/)
    - [ ] [Runnable interface ile Thread Kullanımı](runnable-interface-thread-kullanimi/)
