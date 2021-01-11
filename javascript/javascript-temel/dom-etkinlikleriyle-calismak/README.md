@@ -70,13 +70,12 @@
   ```
    
    
-   
     codepen uygulama linki:
+    
     
     
     [codepen uyg. linki](https://codepen.io/gurkankirmaci/pen/bGwvjvB/)
 
-   
    
    
 ## Klavye Etkinlikliği
@@ -159,35 +158,35 @@
  Örnek Form:
   
   
-     ```Html
-            <html>
-             <body>
-              <div class="container">  
-               <div><p id="text">SUBMIT FORM </p> </div>
-                <form action="/action_page.php" class="inputText">
-                 <label for="fname" id="l1">First name:</label><br>
+    ```Html
+             <html>
+              <body>
+               <div class="container">  
+                <div><p id="text">SUBMIT FORM </p> </div>
+                 <form action="/action_page.php" class="inputText">
+                  <label for="fname" id="l1">First name:</label><br>
 
-                   <input type="text" id="fname" name="fname" value="John" > <br>
-                   <label for="lname" id="l2">Last name:</label><br>
-                   <input type="text" id="lname" name="lname" value="Doe" id="label2"><br><br>
-               </form>
-                 <button type="button" id="button" >Clicked me </button>
-
-               <form action="#" id="selectColor">
-                     <label for="color">Choose a color</label>
-                    <select name="colors" id="select">
-                     <option value="red">RED</option>
-                     <option value="blue">BLUE</option>
-                     <option value="purple">PURPLE</option>
-                     <option value="orange">ORANGE</option>
-                     <option value="pink">PINK</option>
-                   </select>
-                   <br><br>
+                    <input type="text" id="fname" name="fname" value="John" > <br>
+                    <label for="lname" id="l2">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="Doe" id="label2"><br><br>
                 </form>
-               </div>
-            </body>
-          </html>
-     ```  
+                  <button type="button" id="button" >Clicked me </button>
+
+                <form action="#" id="selectColor">
+                      <label for="color">Choose a color</label>
+                     <select name="colors" id="select">
+                      <option value="red">RED</option>
+                      <option value="blue">BLUE</option>
+                      <option value="purple">PURPLE</option>
+                      <option value="orange">ORANGE</option>
+                      <option value="pink">PINK</option>
+                    </select>
+                    <br><br>
+                 </form>
+                </div>
+             </body>
+           </html>
+    ```  
      
      
      
