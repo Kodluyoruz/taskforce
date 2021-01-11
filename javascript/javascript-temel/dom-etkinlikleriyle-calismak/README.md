@@ -127,19 +127,22 @@
        
        
        
-    ```javascript 
-        //id=select olan nesne çağrılarak color değişkenine atandı
-        const color = document.querySelector("#select");
-        //color değişkenine change etkinliği etkinliği atandı ve fonksiyon ismi parametre olarak atandı
-        color.addEventListener('change' ,selectBox);
+       
+       
+      ```javascript 
+         //id=select olan nesne çağrılarak color değişkenine atandı
+         const color = document.querySelector("#select");
+         //color değişkenine change etkinliği etkinliği atandı ve fonksiyon ismi parametre olarak atandı
+         color.addEventListener('change' ,selectBox);
 
-        //selectBox isimli fonksiyon ile selectbox her seçildiğinde etkinlik tipi =change ve değeri consola yazılmaktadır 
-         function selectBox(event){
-         console.log("Etkinlik tipi : " + event.type);
-         console.log("deger : " + event.target.value);
-        }
-    ``` 
+         //selectBox isimli fonksiyon ile selectbox her seçildiğinde etkinlik tipi =change ve değeri consola yazılmaktadır 
+          function selectBox(event){
+          console.log("Etkinlik tipi : " + event.type);
+          console.log("deger : " + event.target.value);
+         }
+      ``` 
 
+   
    
    
    
@@ -195,8 +198,8 @@
                    </select>
                    <br><br>
                 </form>
-             </div>
-     ```  
+              </div>
+       ```  
      
      
      
@@ -206,7 +209,9 @@
      
      
    
+   
   ```javascript 
+  
      //iç içe elementler çağrıldı  
      const selectBox = document.querySelector('#selectColor')
      const button = document.querySelector('#button');
@@ -222,7 +227,12 @@
      cerceve.addEventListener('click',function(){
            console.log('cerceve');  
      })
- ```
+      
+  ```
+ 
+ 
+ 
+ 
   
  Burada class=container olan div elementi içerisinde 3 farklı "id" numarası olan elementler bulunmaktadır.Container kapsayan küme, diğer elementler ise bu küme içerisindeki ayrık kümelerdir.Dolayısıyla diğer üç elemente tıklandığında class=container olan div elementini tutan cerceve değişkeni, tıklanan elementi tutan değişken ile ekrana yazılacaktır.Örneğin form elementine tıklandığında;
 ekran çıktısı:  form 
