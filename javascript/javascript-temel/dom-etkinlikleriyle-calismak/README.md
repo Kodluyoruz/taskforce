@@ -10,9 +10,9 @@
    ### 1.method
    
    
-       Kullanım :
+      Kullanım :
     
-     ```javascript
+    ```javascript
       element.addEventListener(event, function);
 
       // id =button olan nesne seçildi
@@ -23,7 +23,7 @@
       buton.addEventListener('click' , function(){
              alert("Buton Tıklandı");
        })
-     ```
+    ```
   
   
       Çıktı : Buton Tıklandı
@@ -85,7 +85,9 @@
  Klavyeden herhangi bir tuşa tıklanması sonucu gerçekleşen etkinliklerdir.
  
  
+ 
     ```javascript 
+    
       //id=fname olan nesne çağrılarak keyboard değişkenine atandı
       const keyboard =document.querySelector('#fname');
       //keyboard isimli değişkene "cut" etkinliği atandı ve fonksiyon ismi parametre olarak atandı
@@ -94,6 +96,7 @@
       function cuttingFunction(event){
       console.log("etkinlik tipi: " , event.type)
       } 
+      
     ```   
     
     //console ekranı : etkinlik tipi: cut
@@ -104,7 +107,7 @@
  Örnek bir selectBox:
       
       
-      
+      `Html
         <form action="#" id="selectColor">
           <label for="color">Choose a color</label>
             <select name="colors" id="select">
@@ -117,7 +120,7 @@
             <br><br>
           <input type="submit" value="Submit">
         </form>
-        
+      ` 
        
        
    ```javascript 
@@ -157,7 +160,7 @@
   
   
   
-       
+        `Html
             <html>
              <body>
               <div class="container">  
@@ -185,7 +188,7 @@
                </div>
             </body>
           </html>
-         
+       `  
      
      
    
@@ -254,17 +257,15 @@ seklindedir.
   1.Soru
   
   
-  
+  `Html
        <div id="text">
         <div>
         <input id="input" placeholder="write">
         <div id="output" style="background-color:orange ;width:60%"> çıktı </div>
        </div>
       </div>
-   
-  
-  
-  
+   `
+ 
   
    ```javascript 
      let input = document.getElementById('input');
@@ -273,6 +274,7 @@ seklindedir.
      input.addEventListener('?', function(event) {
      output.innerText = event.target.value.split('').join('');
      });
+     
    ```
    
    
@@ -287,15 +289,15 @@ seklindedir.
      
   2.Soru 
   
-  
+  `Html
       <div id="yellow"></div>
       <div id="purple"></div>    
-   
+  `
   
   
   
   
-   ```css 
+  ```css 
     
     #yellow, #purple {
     width:70px;
@@ -312,7 +314,7 @@ seklindedir.
       background-color:rebeccaPurple;
     }
     
-   ```
+  ```
    
    
    
