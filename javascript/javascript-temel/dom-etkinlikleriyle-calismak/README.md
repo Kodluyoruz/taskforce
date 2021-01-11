@@ -133,7 +133,8 @@
          console.log("Etkinlik tipi : " + event.type);
          console.log("deger : " + event.target.value);
       }
-   ``` 
+  ``` 
+   
    
     //Selectbox içinde "blue" değerini seçtiğimiz takdirde;
     //ekran çıktısı: Etkinlik tipi : change, deger : blue
@@ -161,10 +162,7 @@
   
   
   
-  
-  
-  
-        ```Html
+          ```Html
              <div class="container">  
                <div><p id="text">SUBMIT FORM </p> </div>
                <form action="/action_page.php" class="inputText">
@@ -187,8 +185,6 @@
                 </form>
              </div>
           ```  
-     
-     
      
      
      
