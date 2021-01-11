@@ -5,7 +5,7 @@ Formlar kullanıcıdan bilgi almak için kullanılırlar. Formların en basit ö
 
 ## Form özellikleri
 
-ACTION :
+- ACTION :
 action = Formunuzu submit ettikten sonra nasıl bir aksiyon alacağını belirlersiniz. Genellikle formlarda gönderi işlemi tamamlandıktan sonra form datası server'a gönderilir. Fakat server haricinde kendimiz bu form datasını başka bir dosyaya atayabiliriz. Örneğimizde görüleceği gibi dosyamız "script.js" adlı bir dosyaya gönderiliyor. Form datasının yönetimi bundan sonra bu dosya üzerinden yürütülür.
 
 
@@ -16,7 +16,7 @@ action = Formunuzu submit ettikten sonra nasıl bir aksiyon alacağını belirle
 
 
 
-METHOD :
+- METHOD :
 method = Form datanızın hangi methdola gönderileceğine karar verir. "Get" veya "Post" request olarak. Bu özellik verilmemesi durumunda default olarak "Get" methodu formunuza atanır. 
 
 
@@ -38,7 +38,7 @@ autocomplete = Ingilizce ismindende anlaşılacağı üzere formunuzda otomatik 
 
 
 
-NOVALIDATE :
+- NOVALIDATE :
 novalidate = Aktif olduğu sürece gönderdiğiniz form datanızın otomatik olarak doğrulanmamasını söyler.
 
 
@@ -49,7 +49,7 @@ novalidate = Aktif olduğu sürece gönderdiğiniz form datanızın otomatik ola
 
 
 
-#### Form taglerinizde birden fazla element bulundurabilirsiniz. Bunlardan olmazsa olmazı inputlar & butonlardır. Input elemanlarının başlıca özellikleri olarak ;
+- #### Form taglerinizde birden fazla element bulundurabilirsiniz. Bunlardan olmazsa olmazı inputlar & butonlardır. Input elemanlarının başlıca özellikleri olarak ;
 
 #### fname = Görünecek olan yazıyı belirler. Bu yazı, adete bir html etiketi gibi görünür.
 
