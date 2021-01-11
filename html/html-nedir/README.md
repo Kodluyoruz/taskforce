@@ -35,7 +35,7 @@ Yukarıdaki kodu çalıştırdığımız zaman aşağıdaki gibi bir çıktı g�
 
 ![İlk-Web-Sayfamız](https://user-images.githubusercontent.com/45859293/104202278-c3d12780-543b-11eb-9ed1-a638d880b5d1.png)
 
-   1.[HTML Dili hakkında aşağıdakilerden hangisini yanlıştır?] </br>
+   1.[HTML Dili hakkında aşağıdakilerden hangisi doğrudur?] </br>
    
     • Yazıların ve görsellerin biçimlendirilmesine imkan verir.
     • HTML ile çalışan bir program yazılabilir. 
