@@ -186,6 +186,7 @@ console.log(true+false)
 - "+" operatörü numeric işlem yapar bu durumlardan boolean ifadeler numaric coercion'a uğrar.
 - Number(true) + Number(false) dönüşen ifade
 - 1+ 0 şeklini alır
+
 **Sonuç** = 1
 
 **2-**
@@ -196,6 +197,7 @@ console.log(12 / “6”)
 - başlangıçta number olduğu için "6" ifadesi
 - numaric coercion'a uğrar Number("6") ve 6 değerini döner
 -  12 / 6 bu şekli alır
+
 **Sonuç**= 2
 
 **3-**
@@ -211,6 +213,7 @@ console.log([1,2,3]>null)
 - Number("1,2,3") ifadesinin sonucu NaN olacağından 
 - NaN>null şeklini alır
 - ve NaN kendine dahil hiçkimseye eşit olmadığından!!
+
 **Sonuç**= false
 
 **4-**
@@ -219,6 +222,7 @@ console.log(“number” + 15 + 3)
 ```
 - örneğimizin başında stirng bir ifade bulunduğundan diğer ögeler için de string coercion teriklenir 
 - "number+ "15" + "3" şeklini alır 
+
  **Sonuç**= "number153"
 
 **5-**
@@ -229,6 +233,7 @@ console.log(['x','y'] == 'x,y')
 - ['x','y'] dizisinin numeric coercion yapabilmesi için primitif tipe dönüştümek gerekir.
 - ['x','y'].toString() metoduyla "x,y" döner
 - Son eşitlik "x,y"=="x,y" halini alır 
+
 **Sonuç**= true
      
 **ALIŞTIRMALAR**
@@ -249,27 +254,27 @@ console.log(['x','y'] == 'x,y')
 
 (Yazının içindeki soruların cevabı)
 
-1- console.log(“foo” + +“bar”)
+**1-** console.log(“foo” + +“bar”)
 
 // +"bar" => Number("bar") => NaN //"foo"+NaN //"foo" +"NaN" //Sonuç= "fooNaN"
 
-2- console.log(‘true’ == true)
+**2-** console.log(‘true’ == true)
 
 //Number('true')=>NaN //NaN == true //NaN == 1 //Sonuç= false
 
-3- console.log(null==””)
+**3-** console.log(null==””)
 
 // null sadece kendine ve undefined'a eşit olduğundan //Sonuç= false
 
-4-console.log(0 || “ 0” && {})
+**4-** console.log(0 || “ 0” && {})
 
 //(0 || "0") %% {} //(false || true) && {} => dolu string true döndüğünden //(true) && {} => || operatörü ilk bulduğu true değeri, && operatörü ilk bulduğu false değeri döner //true && {} => && operatörü false değer bulamazsa son bulduğu değeri döndürür. //Sonuç={}
 
-5-console.log([“a”] > null)
+**5-** console.log([“a”] > null)
 
 //"a" > null => array toStirng metodunun içine girer //NaN > null => Numeric dönüştürmeye girer //NaN > 0 //Sonuç= false
 
-6-(codepen'in cavabı)
+**6-** (codepen'in cavabı)
 
 if(isNaN(yas)){ divEl.innerHTML= Sadece Sayı Giriniz; }
 
