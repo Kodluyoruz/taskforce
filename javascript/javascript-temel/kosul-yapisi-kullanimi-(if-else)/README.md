@@ -1,1 +1,0 @@
-# Koşul Yapısı Kullanımı (if / else)

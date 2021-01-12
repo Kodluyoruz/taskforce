@@ -1,1 +1,0 @@
-# Input içerisinden Değer Almak

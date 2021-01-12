@@ -1,1 +1,0 @@
-# Çoklu Koşul Yapısı Kullanımı

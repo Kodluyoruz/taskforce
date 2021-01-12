@@ -1,1 +1,0 @@
-# prompt ile Kullanıcıdan Bilgi Almak

@@ -1,1 +1,0 @@
-# Fonksiyon Nedir ? Neden Kullanırız?

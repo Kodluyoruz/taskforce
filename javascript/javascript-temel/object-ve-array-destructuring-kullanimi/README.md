@@ -1,1 +1,0 @@
-# Object ve Array Destructuring Kullanımı

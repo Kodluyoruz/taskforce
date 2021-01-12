@@ -1,1 +1,0 @@
-# localStorage ile Veri Eklemek, Düzenlemek ve Silmek

@@ -1,1 +1,0 @@
-# Fonsiyona Parametre(params) ve Geridönüş(return) Eklemek

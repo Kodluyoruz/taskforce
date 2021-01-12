@@ -1,1 +1,0 @@
-# Boolean Veri Türü İle Çalışmak

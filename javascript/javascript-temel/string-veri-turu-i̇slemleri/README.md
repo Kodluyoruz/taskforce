@@ -1,1 +1,0 @@
-# String Veri Türü İşlemleri

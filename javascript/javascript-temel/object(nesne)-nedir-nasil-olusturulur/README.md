@@ -1,1 +1,0 @@
-# Object(Nesne) Nedir ? Nasıl Oluşturulur

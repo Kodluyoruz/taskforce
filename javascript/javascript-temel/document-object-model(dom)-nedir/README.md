@@ -1,1 +1,0 @@
-# Document Object Model(DOM) Nedir

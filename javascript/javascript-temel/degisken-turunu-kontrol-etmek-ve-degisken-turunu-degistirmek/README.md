@@ -1,1 +1,0 @@
-# Değişken Türünü Kontrol Etmek ve Değişken Türünü Değiştirmek
