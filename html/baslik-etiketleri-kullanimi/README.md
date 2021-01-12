@@ -254,14 +254,14 @@ Cevaplar :
 a) `<meta charset="UTF-8">`\
 b) `<title> UTF-8 </title>`\
 c) `<link charset="UTF-8">`\
-d) `<script charset="UTF-8">`\
+d) `<script charset="UTF-8">`
 
 2) Bir sayfaya javascript dosyaları ve link dosyaları eklerken, içeriğin değişmediğinden emin olmak için hangi özelliği kullanmamız gerekir?
 
 a) rel \
 b) src \
 c) href \
-d) integrity \
+d) integrity 
 
 Cevaplar : 
 
