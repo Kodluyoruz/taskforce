@@ -1,4 +1,4 @@
-# Java ile İlk Uygulama test
+# Java ile İlk Uygulama 
 
 ## Komut Satırı ile ilk uygulama
 
