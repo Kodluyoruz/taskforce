@@ -70,17 +70,3 @@ int x -> 3
 Görüldüğü gibi, doğrudan tür dönüşümü yaparken, dönüştürülecek türün adı değişkenin adından önce parantez içinde yazılır. Bunu yaparak Java’ya, türü dönüştüreceği yönü belirtmiş oluruz. Yukarıdaki örnekte double türündeki bir değişkenin değeri int türündeki bir değişkene atanmıştır. int türündeki değişkenler sadece tamsayı değerlerini tutabileceğinden double değişkeninin sayısal değerinin noktadan sonraki kısmı atılmıştır. Bu tarz dönüşümlerde değer kayıpları yaşanabilir. 
 
 Doğrudan tür dönüşümleri, **daralan dönüşüm (narrowing conversion)** olarak da adlandırılır.
-
-## Alıştırmalar
-1. Aşağıdakilerde ok işaretinin solundaki türlere ait değişkenlerin değerleri sağındaki türlere ait değişkenlere atanacaktır. Bu değer ataması için hangi dönüşümün uygulanacağını belirtiniz.
-
-    a) int->long
- 
-    b) double->int
- 
-    c) long->short
- 
-    d) byte->double
-
-
-
