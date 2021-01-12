@@ -159,6 +159,7 @@ console.log([1]+[1,2,3])
 -  [ 1,2,3 ].toString() // sonuç "1,2,3" verir
 Bu durumda iki string ifadenin toplanmasından çıkan sonuç
 "1" +"1,2,3"
+
 **"11,1,2,3"** olacaktır.
 
 Genel olarak algoritma aşağıdaki gibidir:
