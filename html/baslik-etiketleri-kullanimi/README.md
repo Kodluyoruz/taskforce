@@ -13,9 +13,9 @@ Bu etiketimiz html dökümanlarında türkçe anlamı olan "başlık" görevini 
 <title> Kodluyoruzla Web Öğreniyorum </title>
 ```
 
- Gibi bir başlık belirlediğimizde şu şekilde bir görüntüyle karşılaşırız:
+ Gibi bir başlık belirlediğimizde sekme isminde Kodluyoruzla Web Öğreniyorum yazdığını görürüz.
 
-Bu etiket arasına yazdıklarımız aynı zamanda sayfayı favorilere eklerken de karşımıza çıkar : 
+Bu etiket arasına yazdıklarımız aynı zamanda sayfayı favorilere eklerken de karşımıza çıkar.
 
 Ayrıca arama motorları (Google, Yahoo, Bing ...) sayfamızın bu kısmına bakarak sitemizi listeler. Bu yüzden de oluşturduğumuz mükemmel web sayfalarının insanlara ulaşması için bu alanda yazdıklarımızın açıklayıcı, dikkat çekici ve 50-60 karakteri geçmeyecek şekilde ( Arama motorları genelde başlığın ilk 50-60 karakterini gösterir ) yazmamız gerekir.
 
@@ -251,17 +251,17 @@ Cevaplar :
 
 1) Websitesinin karakter çözümlenme biçiminin tanımlanması için aşağıdakilerden hangisi kullanılır?
 
-a) <meta charset="UTF-8">
-b) <title> UTF-8 </title>
-c) <link charset="UTF-8">
-d) <script charset="UTF-8">
+a) `<meta charset="UTF-8">`\
+b) `<title> UTF-8 </title>`\
+c) `<link charset="UTF-8">`\
+d) `<script charset="UTF-8">`
 
 2) Bir sayfaya javascript dosyaları ve link dosyaları eklerken, içeriğin değişmediğinden emin olmak için hangi özelliği kullanmamız gerekir?
 
-a) rel
-b) src
-c) href
-d) integrity
+a) rel \
+b) src \
+c) href \
+d) integrity 
 
 Cevaplar : 
 
