@@ -202,7 +202,7 @@ $ git branch -d <branch_name>
 
 #### git checkout
 
-Branch’ler arası veya comm geçiş yapmak istediğimizde kullanılır.
+Branch’ler veya commitler arası geçiş yapmak için kullanılır.
 
 *mevcutta var olan branch'e geçiş yapmak için;*
 
@@ -293,8 +293,21 @@ $ git diff <commit_id_1>..<commit_id_2>
 $ git diff --staged
 ```
 
+### Sorular
 
+1.Commit’lenmeye hazır olan dosyaları ifade eden terim aşağıdakilerden hangisidir?
 
+- [ ] untracked
+- [ ] unstaged
+- [x] staged
+- [ ] deleted
+
+2. 'git checkout' komutunun tanımı aşağıdakilerden hangisinde doğru olarak verilmiştir?
+
+- [x] Branch’ler veya commitler arası geçiş yapmak için kullanılır.
+- [ ] Repository üzerinde yapılan değişikliklerden sonra dosyalar arasında oluşan farklılıkları göterir.
+- [ ] Henüz versiyon kontrolü altında olmayan bir projenin dizininde, boş bir git deposu oluşturmak için kullanılır. 
+- [ ] Local veya remote repository üzerinde yeni bir branch (dal) eklemek, silmek veya listelemek için kullanılır.
 
 
 ### KAYNAKÇA
