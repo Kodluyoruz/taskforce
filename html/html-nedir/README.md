@@ -11,11 +11,11 @@ HTML aslında bilgisayarda sürekli olarak kullandığımız web sitelerinin olu
 
 ## HMTL Tarihi
 
-HTML, 1980'li yılların başlarında bir ihtiyaç neticesinde oluşturulmaya başlanmıştır. CERN' de çalışan Tim Berners-Lee, CERN araştırmacılarının bilgilerini ve dokümanlarını birbiriyle paylaşmak için bir sistem oluşturmuş ve bu sisteme ENQUIRE ismini vermiştir. Bu sürecin devamında Tim Berners-Lee, 1989 yılında internet tabanlı sistemin temellerini atmaya başlamıştır. Bu temellerin atılmasından 1 yıl sonra yani 1990 yılında HTML dili geliştirilmiştir. HTML dili ile birlikte hepimizin bildiği www (World Wide Web) sistemi de kurulmuştur. Artık hayatımızın bir parçası olan web dünyasının temeli HTML, günümüzün vazgeçilmez teknolojileri arasında yerini almıştır.
+HTML, 1980'li yılların başlarında bir ihtiyaç neticesinde oluşturulmaya başlanmıştır. CERN' de çalışan Tim Berners-Lee, CERN araştırmacılarının bilgilerini ve dokümanlarını birbiriyle paylaşmak için bir sistem oluşturmuş ve bu sisteme ENQUIRE ismini vermiştir. Bu sürecin devamında Tim Berners-Lee, 1989 yılında internet tabanlı sistemin temellerini atmaya başlamıştır. Bu temellerin atılmasından 1 yıl sonra yani 1990 yılında HTML dili geliştirilmiştir. HTML dili ile birlikte hepimizin bildiği www (World Wide Web) sistemi de kurulmuştur. Artık hayatımızın bir parçası olan web dünyasının temeli HTML, günümüzün vazgeçilmez teknolojileri arasında yerini almıştır. [1](https://tr.wikipedia.org/wiki/HTML)
 
 ## Web Tarayıcısı 
 
-"HTML Nedir?" sorusunun cevabını iyi bir şekilde anlamak için web tarayıcıları hakkında kısa da olsa bilgi sahibi olmak gereklidir. Aslında hepimizin sürekli halde kullandığı web tarayıcıları basit anlamıyla; www (World Wide Web) sisteminde bulunan bilgileri görüntülemeye yarayan teknolojiler olduğunu söyleyebiliriz. Bir web tarayıcısı internet dünyasındaki istediğiniz bir noktaya gitmenizi sağlayarak metin, resim ve videolar görmenize imkan verir. 
+"HTML Nedir?" sorusunun cevabını iyi bir şekilde anlamak için web tarayıcıları hakkında kısa da olsa bilgi sahibi olmak gereklidir. Aslında hepimizin sürekli halde kullandığı web tarayıcıları basit anlamıyla; www (World Wide Web) sisteminde bulunan bilgileri görüntülemeye yarayan teknolojiler olduğunu söyleyebiliriz. Bir web tarayıcısı internet dünyasındaki istediğiniz bir noktaya gitmenizi sağlayarak metin, resim ve videolar görmenize imkan verir. [2](https://tr.wikipedia.org/wiki/Web_taray%C4%B1c%C4%B1s%C4%B1)
 
 ## İlk Web Sayfamızı Oluşturalım
 
@@ -34,6 +34,21 @@ HTML, 1980'li yılların başlarında bir ihtiyaç neticesinde oluşturulmaya ba
 Yukarıdaki kodu çalıştırdığımız zaman aşağıdaki gibi bir çıktı görmüş olacağız. Aşağıda Google web tarayıcısını kullandık. Ancak sizin web tarayıcınız farklı bir tarayıcı olabilir. Burada elde ettiğimiz çıktı tarayıcıdan tarayıcıya değişen bir durum değildir. 
 
 ![İlk Web Sayfamız](figures/İlk-Web-Sayfamız.png)
+
+   1.[HTML Dili hakkında aşağıdakilerden hangisi doğrudur?] </br>
+   
+    • Yazıların ve görsellerin biçimlendirilmesine imkan verir.
+    • HTML ile çalışan bir program yazılabilir. 
+    • Web sayfalarının tarayıcılarda doğru bir şekilde gözükmesini sağlar. (Doğru) 
+    • HTML bir programlama dilidir. 
+   2.[HTML dilinin oluşmasını sağlayan kişi kimdir?] </br>
+   
+    • Tim Berners-Lee (Doğru) 
+    • Bert Bos 
+    • Guido van Rossum
+    • Brenden Eich
+   
+
 
 ## Kaynakça
 - https://tr.wikipedia.org/wiki/HTML
