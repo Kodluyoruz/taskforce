@@ -75,7 +75,7 @@ B) Tüm html elementleri öznitelik alabilirler. \
 C) html elementlerine eksta özellik kazandırırlar. \
 D) Kullanmak için öznetiliği yazıp ="".(ör. src ="").
 
-
+(Cevaplar : 1-C 2-A)
 
 
 Kaynaklar: https://www.w3schools.com/html/html_attributes.asp
