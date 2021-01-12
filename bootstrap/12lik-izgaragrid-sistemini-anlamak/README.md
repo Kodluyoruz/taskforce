@@ -184,7 +184,7 @@ Sayfanın tasarımı yukarıdan aşağıya sırasıyla şöyle hazırlanmış; i
 	d) class="col-3", class="col-3", class="col-6"
 
 2. Aynı satırdaki class="col-4", class="col-4", class="col-6" değerleri nasıl bir sonuç verir?
-	a) Yanyana 4'lü, 4'lü ve 6'lı kolon
+	a) Yanyana 4'lü, 4'lü ve altta 6'lı kolon
 	b) Yanyana 4'lü, 4'lü ve 4'lü kolon
 	c) Yanyana 4'lü ve 6'lı kolon
 	d) Yanyana 4'lü ve 4'lü kolon
@@ -197,10 +197,17 @@ Sayfanın tasarımı yukarıdan aşağıya sırasıyla şöyle hazırlanmış; i
 
 4. Aşağıdakilerin hangisi verilen kolonu 2. sıraya konumlandırır?
 	a) class="col-2 order-3"
-	b) class="col-2 order-2"
-	c) class="col-4 order-2"
+	b) class="col-4 order-2"
+	c) class="col-2 order-4"
 	d) class="col-4 order-1"
 ```
+
+#### Cevaplar:
+
+1. c
+2. a
+3. c
+4. b
 
 ---
 
@@ -209,3 +216,9 @@ Sayfanın tasarımı yukarıdan aşağıya sırasıyla şöyle hazırlanmış; i
 Aşağıda görseli verilen sayfayı, Bootsrap 12'li ızgara sistemi ile tasarlayınız.
 
 ![Uygulama](figures/uygulama.jpg)
+
+---
+
+#### Kaynak:
+
+[Bootstrap Resmi Sayfası](https://getbootstrap.com/)
