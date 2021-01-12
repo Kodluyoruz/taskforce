@@ -941,16 +941,86 @@
   D.Kendisinden önceki karakterin metinde bulunmadığını veya 1 ya da daha fazla defa bulunduğunu belirtir.
 
 - [ ] [Exception Handling](exception-handling/)
-  
+
   **1.Aşağıdakilerden hangisi RuntimeException hatasını tanımına karşılık gelir?**
-  
+
   A. Geçersiz ya da hatalı bir işlem sonucunda uygulamada oluşan hatalardır.(Doğru)
-  
+
   B.Kullanıcı tanımlı Exception sınıfları dahil olmak üzere tüm Exception alt sınıflarının ATA sınıfıdır. 
-  
+
   C.Exception hiyerarşinin en üstündeki sınıftır.
-  
+
   D. Programdaki ciddi hatalı temsil eder.
-  
+
   - [ ] [İstisnai Durumların Yönetilmesi](istisnai-durumlarin-yonetilmesi/)
+
+    ```java
+    import java.io.File;  // Import the File class
+    import java.io.FileNotFoundException;  // Import this class to handle errors
+    import java.util.Scanner; // Import the Scanner class to read text files
+    
+    public class ReadFile {
+      public static void main(String[] args) {
+        try {
+          File myObj = new File("filename.txt");
+          Scanner myReader = new Scanner(myObj);
+          while (myReader.hasNextLine()) {
+            String data = myReader.nextLine();
+            System.out.println(data);
+          }
+          myReader.close();
+        }catch (Exception e){
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+          System.out.println("An error occurred.");
+          e.printStackTrace();
+        } 
+      }
+    }
+    ```
+    **1.Lütfen yukarıda yapılan hatayı bulunuz ve çözüm yöntemini seçiniz?**
+
+    A.File sınıfı yerine FileReader sınıfı kullanılmalıydı.
+
+    B.Catch blokları yanlış kurgulanmıştır. Öncelikle FileNotFoundException bloğu gelmeliydi.(Doğru)
+
+    C.try bloğu içerisine yalnızca döngü konulmalıydı. myobj ve myReader nesnelerin oluşturulması dışarıda yapılmalıydı.
+
+    D.while döngüsü içerisinde myReader.nextline() ifadesinin bulunduğu satır bir try ifadesi içerisine alınmalıdır.
+
+    ```java
+    import java.util.Scanner;
+    
+    class Main {
+      public static void main(String[] args) {
+        Scanner myObj = new Scanner(System.in);
+    
+        System.out.println("Enter name, age and salary:");
+    
+        // String input
+        String name = myObj.nextLine();
+    
+        // Numerical input
+        int age = myObj.nextInt();
+        double salary = myObj.nextDouble();
+    
+        // Output input by user
+        System.out.println("Name: " + name); 
+        System.out.println("Age: " + age); 
+        System.out.println("Salary: " + salary); 
+      }
+    }
+    ```
+    **Yukarıdaki programın kullanıcıları geliştiricilerine programın bazen çöktüğünü bazen çalıştığını söylemişlerdir. Programın çökmesini engellemek için aşağadıkilerden hangisi yapılmalıdır?**
+
+    A.System.out.println() fonksiyonu işletilen satırlar try-catch bloklarının içine alınmalı ve gerekli durumlarda programın davranışı düzenlenmelidir.
+
+    B.Scanner sınıfı yerine GetInput sınıfı kullanılmalıdır.
+
+    C.Main fonksiyonunun dönüş tipi void yerine String yapılmalı ve değerler dönüş değeri olarak verilmelidir.
+
+    D.NextInt() ve nextDouble işletilen satırlar try-catch bloklarının içine alınmalı ve gerekli durumlarda programın davranışı düzenlenmelidir.(Doğru)
+
   - [ ] [İstisnai Durumların Yönetilmesi (Devam)](istisnai-durumlarin-yonetilmesi-devam/)
+
