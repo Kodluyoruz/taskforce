@@ -173,7 +173,15 @@
 
   - [ ] [Yapılandırıcıları aşırı yüklemek](yapilandiricilari-asiri-yuklemek/)
 
-    
+    **1.New anahtar kelimesi neden kullanılmaktadır?**
+
+    A.Parametrelere göre doğru yapılandırıcı çağrır.(Doğru)
+
+    B.Nesne türetmek için kullanılır.
+
+    C.Nesne katılımı için kullanılmaktadır.
+
+    D.Sınıfa atama yapmak için kullanılır.
 
   - [ ] [Bir yapılandırıcıdan diğerini çağırmak](yapilandiricidan-digerini-cagirmak/)
 
@@ -182,13 +190,13 @@
     A.This(Doğru)
 
     B.Loop
-
+  
     C.For
-
+  
     D.Default
-
+  
   - [ ] [Özyineleme (Recursion)](ozyineleme-(recursion)/)
-
+  
     ```java
     class Recursion{
         static int basamaklarToplami(int sayi){
@@ -450,43 +458,499 @@
   
   - [ ] [Bitsel Operatörler](bitsel-operatorler/)
   
+    **1.Aşağıdakilerden hangisi  \>>>  bitsel operatörün karşılığıdır?**
+  
+    A.Sağa kaydırma
+  
+    B.Sıfırlı sağa kaydırma(Doğru)
+  
+    C.Sola kaydırma
+  
+    D.Sola sıfırlı kaydırma
+  
   - [ ] [Mantıksal Operatörler](mantıksal-operatorler/)
   
+    **1.Aşağıdakilerden hangisi "instanceof" operatörü için doğru ifadedir?**
+  
+    A.İlkel veri tipleri için bu operatör kullanılır.
+  
+    B. Java'daki "if-else" yapısı yerine kullanılabilir.
+  
+    C.Nesne tipinde değişkenler için kullanılabilir.
+  
+    D.Eşittir operatörüdür.
+  
   - [ ] [Operatör Önceliği](operator-onceligi/)
+  
+    **1.Aşağıdakilerden hangisi -> operatörünün ifade eder?**
+  
+    A.Lambda operatörü(Doğru)
+  
+    B.Eksiltme operatörü
+  
+    C.Karesini alma operatörü
+  
+    D.Çıkarma operatörü
   
 - [ ] Variable, data types ve literals arasındaki farklar
 
 - [ ] [Input/Output Classes](input-output-classes/)
   
+  **1.Aşağıdakilerden hangi paket  girdi-çıktı sınıfları içinde yer alır?**
+  
+  A.Java import
+  
+  B.Java.io(Doğru)
+  
+  C.Java.math
+  
+  D.Java.op
+  
   - [ ] [File sınıfı](file-sinifi/)
+  
+    **1.Aşağıdakilerden hangisi File getAbsoluteFile() metodunu doğru ifade eder?**
+  
+    A.Dosyanın tam yolunu String olarak döndürür.
+  
+    B.Dosyanın bulunduğu klasörün ismini String olarak döndürür. Eğer yoksa null döndürür.
+  
+    C.Dosyanın tam yolunu File olarak döndürür.(Doğru)
+  
+    D.Bu programın dosyaya yazma yetkisi olup olmadığını denetler.
+  
   - [ ] [Akış Sınıfları](akis-siniflari/)
+  
+    **1.Aşağıdakilerden hangisi voidwrite(int c) metodunu doğru ifade eder?**
+  
+    A.Akışa bir byte değeri yazar. Bu değeri parametre olarak alır.(Doğru)
+  
+    B.Parametre olarak verilen sayı kadar byte değerini okumadan atlar.
+  
+    C.Parametre olarak aldığı byte dizisinin içindeki bütün byte değerlerini sırasıyla akışa yazar.
+  
+    D.Dosyanın sonuna kadar bütün byte değerlerini okur ve bir dizi halinde döndürür.
+  
   - [ ] [Dosya kopyalamak](dosya-kopyalamak/)
+  
+    **1.Aşağıdakilerden hangisi ByteArrayInputStream sınıfının tanımına karşılık gelir?**
+  
+    A.Hedef olarak bir byte dizisi kullanan akış sınıfıdır.
+  
+    B.Bir byte dizisini tıpkı bir akış gibi okumanızı sağlayan sınıftır.(Doğru)
+  
+    C.Akışlara veri yazmak için kullanılır.
+  
+    D.Veri yazan bir sınıftır.
+  
   - [ ] [ObjectInputStream ve ObjectOutputStream sınıfları](ObjectInputStream-ObjectOutputStream-siniflari/)
+  
+    **1.Bir nesneyi serialize edebilmek için o sınıfın........... kullanmalıyız?**
+  
+    A.Serializable Arayüzünü(Doğru)
+  
+    B.Soyut Arayüzünü
+  
+    C.Çıktı Arayüzü
+  
+    D.Giriş Arayüzünü
+  
   - [ ] [Reader & Writer](reader-writer/)
+  
+    **1.CharArrayReader sınıfı neden kullanılmaktadır?**
+  
+    A.Bir karakter dizisine tıpkı bir akış gibi yazmak için kullanılır.
+  
+    B.Bir karakter dizisini tıpkı bir akış gibi okumak için kullanılır.(Doğru)
+  
+    C.Parametre olarak aldığı metni akışa yazar.
+  
+    D.Karakter akışlarına veri yazmak için kullanılan soyut bir sınıftır.
   
 - [ ] Replit, BlueJ, Eclipse, IntelliJ, NetBeans (İleri Seviye)
 
 - [ ] [If Statements](if-statements/)
   
+  ```java
+  if(creditRatio > 0.8) {
+  	System.out.println("Kurumsal kredi");
+  }
+  else {
+  	System.out.println("Standart kredi");
+  }
+  ```
+  **Yukarıda verilen kodun anlamı nedir?**
+  
+  A.Eğer, faiz oranı %80'den büyükse "Kurumsal kredi" tipinde kredi ver, değilse "Standart Müşteri" tipinde kredi ver.(Doğru)
+  
+  B.Eğer, faiz oranı %80'den büyükse "Standart kredi"  ver.
+  
+  C.Eğer, faiz oranı %80'den büyükse "Kurumsal kredi" ver.
+  
+  D.Eğer faiz oranı %80 büyük eşitse  "Kurumsal kredi" ver.
+  
   - [ ] [Java&#39;da "switch-case" Yapıları](switch-case/)
   
+    ```java
+    class Kodluyoruz
+    {
+    	public static void main(String[] args)
+    	{
+    
+            System.out.println("1'den 11'a kadar sayıyorum...");
+    
+            for (int i = 1; i <= 11; i++)
+    		{
+    			System.out.println(i);
+    		}
+    
+            System.out.println("Saydım.");
+    	}
+    }
+    ```
+    **Yukarıda verilen kodun çıktısı ne olur?**
+  
+   A.(Doğru)
+  
+    ```java
+    1'den 11'a kadar sayıyorum...
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    11
+    Saydım.
+    ```
+    B.
+
+  ```java
+  1'den 10'a kadar sayıyorum...
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  Saydım.
+  ```
+    C
+  
+  ```java
+  1'den 10'a kadar sayıyorum...
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  ```
+  D.
+  
+  ```java
+  1'den 11'a kadar sayıyorum...
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  Saydım.
+  ```
+
+
 - [ ] [Loops(for, foreach, while)](loops/)
+  
+  **1.Java'da döngü mekanizmaları neden kullanılır?**
+  
+  A.Kodun akış yönünü belirlemek için kullanılır.(Doğru)
+  
+  B.Kodun yapısını belirlemek için kullanılır.
+  
+  C.Çıktı almak için kullanılır.
+  
+  D.Kodu sabitlemek için kullanılır.
+  
   - [ ] [While Döngüsü](while/)
+  
+    ```java
+    int left = 200, right = 300;
+    while (++left < --right);
+    System.out.println("200 ile 300'ün ortası: " + left);
+    ```
+    **Yukarıda verilen kodun çıktısı ne olur?**
+  
+    A.200 ile 300'ün ortası:
+  
+    B.200 ile 300'ün ortası: 250(Doğru)
+  
+    C.250
+  
+    D.Left
+  
   - [ ] [Do-While Döngüsü](do-while/)
+  
+    ```java
+    int year = 2021;
+    do
+    {
+    	System.out.println(“Döngü işletiliyor”);
+    	year++;
+    } while (year < 2021);
+    ```
+    **Yukarıda verilen kodu çıktısı ne olur?**
+  
+    A.2021
+  
+    B.2020
+  
+    C.Döngü işletiliyor(Doğru)
+  
+    D.Hata verir
+  
   - [ ] [For Döngüsü](for-loops/)
+  
+    ```java
+    for (int i = 1; i < 11; i++)
+    {
+    	System.out.println(i);
+    }
+    ```
+    Yukarıda verilen kodun çıktısı ne olur?
+    A.
+  
+    ```java
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    ```
+     B.
+  
+    ```java
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    ```
+    C.(Doğru)
+  
+    ```java
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    11
+    ```
+    D.
+    
+    ```java
+    0
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    ```
+    
   - [ ] [Break & Continue](break-continue/)
+  
+    ```java
+    for (int i = 0; i <= 12; i += 2)
+    {
+    	if (i == 4)
+    	{
+    		continue;
+    	}
+    	
+        System.out.println(i);
+    }
+    ```
+    Yukarıda verilen kodun çıktısı ne olur?
+    A.
+  
+    ```java
+    0
+    2
+    6
+    8
+    10
+    ```
+    B.(Doğru)
+  
+    ```java
+    0
+    2
+    6
+    8
+    10
+    12
+    ```
+    C.
+  
+    ```java
+    0
+    2
+    6
+    8
+    12
+    ```
+    D.
+  
+    ```java
+    0
+    2
+    6
+    8
+    11
+    ```
+  
   - [ ] [For-Each & Nested Loops](for-each-nested-loops/)
+  
+    **1.Aşağıdakilerden hangisi iç içe döngüler içinde kullanılır?**
+  
+    A.For (Doğru)
+  
+    B.This
+  
+    C.Super
+  
+    D.Regex
   
 - [ ] [Numbers & Strings](numbers-strings/)
 
+  **1.Java'da performanslı String birleştirme işlemleri için........ kullanılmaktadır?**
+
+  A.StringJx
+
+  B.StringMetod
+
+  C.StringBuilder(Doğru)
+
+  D.+ operotörü
+
 - [ ] [Diziler (Arrays)](arrays/)
+
+  **1.Aşagıdakilerden hangisi dizinin boyutunu vermektedir?**
+
+  A. Count
+
+  B.Length(Doğru)
+
+  C.Max
+
+  D.Array
 
 - [ ] [Matrisler (Matrice)](matris-islemleri/)
 
+  ```java
+   int[][] array = {{2, 3}, {4, 5}, {6, 7}};
+          for (int i = array.length - 1; i >= 0; i--) {
+              for (int j = array[i].length - 1; j >= 0; j--) {
+                  System.out.print(array[i][j] + " ");
+              }
+              System.out.println();
+          }
+  ```
+  **Yukarıda verilen kodun çıktısı ne olur?**
+  A.
+
+  ```java
+  6 5 
+  4 3 
+  2 1 
+  ```
+  B.(Doğru)
+
+  ```java
+  7 6
+  5 4
+  3 2
+  ```
+  C.
+
+  ```java
+  7 5 
+  4 3 
+  2 1 
+  ```
+  D.
+
+  ```java
+  7 5 
+  4 3 
+  3 1 
+  ```
+
 - [ ] [Date & Time](date-time/)
+
+  **1.Aşağıdakilerden hangisi tarih ve zaman bilgisini işleyen yapılar ve sınıflar ...... sürümde değiştirilmiştir?**
+
+  A.Java 8(Doğru)
+
+  B.Java 6
+
+  C.Java 7
+
+  D.Java 9
 
 - [ ] [Java Regular Expressions](regular-expressions/)
 
+  **1.Aşağıdakilerden hangisi + belirteci regular expressions ............. amaçla kullanır?**
+
+  A.Kendisinden önceki karakterin metinde 1 defa bulunduğunu belirtir.
+
+  B.Kendisinden önceki karakterin metinde en az 1 defa bulunduğunu belirtir.(Doğru)
+
+  C.Kendisinden önceki karakterin metinde en az n, en çok m defa bulunduğunu belirtir.
+
+  D.Kendisinden önceki karakterin metinde bulunmadığını veya 1 ya da daha fazla defa bulunduğunu belirtir.
+
 - [ ] [Exception Handling](exception-handling/)
+  
+  **1.Aşağıdakilerden hangisi RuntimeException hatasını tanımına karşılık gelir?**
+  
+  A. Geçersiz ya da hatalı bir işlem sonucunda uygulamada oluşan hatalardır.(Doğru)
+  
+  B.Kullanıcı tanımlı Exception sınıfları dahil olmak üzere tüm Exception alt sınıflarının ATA sınıfıdır. 
+  
+  C.Exception hiyerarşinin en üstündeki sınıftır.
+  
+  D. Programdaki ciddi hatalı temsil eder.
+  
   - [ ] [İstisnai Durumların Yönetilmesi](istisnai-durumlarin-yonetilmesi/)
   - [ ] [İstisnai Durumların Yönetilmesi (Devam)](istisnai-durumlarin-yonetilmesi-devam/)
