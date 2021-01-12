@@ -39,4 +39,4 @@ Aşağıdaki örnekte birden fazla HTML elementlerini tanımlayıp aralara açı
 <!--footer element bitiş-->
 ```
 
-
+[Kaynak için tıklayınız.](https://www.mehsatek.com/html-yorum-satiri-html-yorum-kodu/)
