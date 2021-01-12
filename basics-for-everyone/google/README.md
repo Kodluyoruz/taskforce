@@ -8,7 +8,7 @@ typora-copy-images-to: figures
 
 
 
-## Google Nedir? deneme
+## Google Nedir?
 
 * İnternet tabanlı hizmetler geliştiren ve bunları bünyesinde barındıran Google, internet araması, çevrimiçi bilgi dağıtımı ve reklam teknolojileri alanında yatırımlar yapan çok uluslu bir Amerikan şirketidir.
 
