@@ -33,7 +33,7 @@ HTML, 1980'li yılların başlarında bir ihtiyaç neticesinde oluşturulmaya ba
 
 Yukarıdaki kodu çalıştırdığımız zaman aşağıdaki gibi bir çıktı görmüş olacağız. Aşağıda Google web tarayıcısını kullandık. Ancak sizin web tarayıcınız farklı bir tarayıcı olabilir. Burada elde ettiğimiz çıktı tarayıcıdan tarayıcıya değişen bir durum değildir. 
 
-![İlk-Web-Sayfamız](https://user-images.githubusercontent.com/45859293/104202278-c3d12780-543b-11eb-9ed1-a638d880b5d1.png)
+![İlk Web Sayfamız](figures/İlk-Web-Sayfamız.png)
 
    1.[HTML Dili hakkında aşağıdakilerden hangisi doğrudur?] </br>
    
@@ -48,3 +48,8 @@ Yukarıdaki kodu çalıştırdığımız zaman aşağıdaki gibi bir çıktı g�
     • Guido van Rossum
     • Brenden Eich
    
+
+
+## Kaynakça
+- https://tr.wikipedia.org/wiki/HTML
+- https://tr.wikipedia.org/wiki/Web_taray%C4%B1c%C4%B1s%C4%B1
