@@ -294,11 +294,11 @@ seklindedir.
    Soru işaretli kısmımda hangi DOM etkinliği kullanılmalıdır?
    
      a- click
-     **b- input**
+     b- input
      c- keypress
      d- select
      
-     
+     **cevap:input**
      
      
   2.Soru 
@@ -352,8 +352,9 @@ seklindedir.
      a- open
      b- currentTarget
      c- play
-     **d- onclick**
+     d- onclick
      
+     **cevap:onclick**
      
   ### Kaynaklar
   
