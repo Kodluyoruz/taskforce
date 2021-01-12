@@ -138,67 +138,28 @@ var d=2 && 3 && 0 && 5 && 7; // 0
 
 var e= 2 && 3 && 5 && 7 // 7
 ```
-#Numeric Dönüşümü
-Explicit coercion yapılmak istenildiğinde Number(), fonksiyonu uygulayın, tıpkı Boolean() ve String() de yaptığımız gibi.
-Implicit coercion biraz kafa karıştırıcı olabilir, çünkü birden fazla durum implicit coercionı tetikler:
+# Nesneler (Objects) için Type Coercion
 
-**1.** Karşılaştırma Operatörleri (>, <, <=,>=)
+Şimdiye kadar primitif değerler için type coercion hakkında bilgi sahibi olduk. Nesneler için bu durum biraz daha farklı.JavaScript'te nesneler refarans tipler olduğundan üzerinde işlem yapabilmek zordur. İşlem yapabilmek için elimizde primitif değerler olması gerekir. Bu durumda referans tipler primitif tiplere zorlanır. 
+Nesneler için en kolaay tip dönüşümü booleandır. Primitif olmayan harhangi bir değer örneğin içi dolu veya boş bir nesne(object),dizi(array) farketmez her zaman true olarak zorlanır.(coerced)
+````javascript
+console.log(Boolean({})) // true
+console.log(Boolean([])) // true
+console.log(Boolean([1,2,3])) // true
+console.log(Boolean({13:234})) //true 
 
-**2.** Aritmetik Operatörler( - + * / % ).  Not: Binary(İkili) + operatörü bir string ifadeye uygulandığında; numeric dönüşümü tektiklemez.
+````
+Nesnelerde de matematiksel veya mantıksal işlemler yapmak mümkündür. İlk paragrafta belirttiğim gibi bu işlemi ancak primitif bir değere dönüştürerek yapabiliriz.Bu dönüşüm için, giriş nesnesinin(input object) valueOf ve toString metodlarından faydalanılır. Bu iki metod Object.prototype da tanımlanmıştır. Bu sayede türetilmiş tüm tiplerde kullanılır. Örneğin Tarih (Date), Dizi (Array) gibi. İlk olarak nesneler toString() e girer ve çıkan değer primitifse o değeri döner. primitif değilse valueOf() içine girer. valueOf()'tan çıkan sonuç primitifse o değeri döner değilse error fırlatır. 
 
-**3.** Unary(tekli) + operatör
-
-**4.** Loose equality  operatörü == (!= de dahil) . NOT : == operatörünün her iki tarafında bulunan ifade string ise numeric dönüşümü tetiklenmez.(“123” == ”123” numeric bir karşılaştırma değildir.)
-``` javascript
-Number('123')   // explicit
-+'123'          // implicit unary +
-123 != '456'    // implicit loose equality
-4 > '5'         // implicit karşılaştırma
-```
-Aşağıda primitif değerlerin number dönüşümleri mevcuttur
-``` javascript
-Number(null)                   // 0
-Number(undefined)              // NaN
-Number(true)                   // 1
-Number(false)                  // 0
-Number(" 12 ")                 // 12
-Number("-12.34")               // -12.34
-Number("\n")                   // 0
-Number(" 12s ")                // NaN
-Number(123)                    // 123
-``` 
-String bir tipi number tipine dönüştürürken; Js engine, ilk olarak başta ve sonda bulunan boşlukları ve \n, \t karakterlerini kaldırır(trim). Eğer trim edilen değer sayısal bir değer değilse NaN değerini döner. Eğer string boş ise 0 değerini döner.
-Null ve undefined ise daha farklı bir şekilde işlem görür. null 0 olurken, undefined ise NaN olur.
-Symbollere implicit ve explicit olarak number tip dönüşümü uygulanamaz. Ayrıca symbol üzerine numeric dönüşümü uygulanırsa NaN yerine TypeError hatası fırlatılır.
-``` javascript
-Number(Symbol('my symbol'))    // TypeError is thrown
-+Symbol('123')                 // TypeError is thrown
-``` 
-***Aklınızdan çıkmaması gereken iki temel kural var.***  Bunlar:
-
-**1.** Null veya undefined tipine == uygulanırken numeric dönüşüm olmaz. null sadece null ve undefined eşittir, ve başka bir şeye eşit değildir.
-
-``` javascript
-null == 0               // false, null is not converted to 0
-null == null            // true
-undefined == undefined  // true
-null == undefined       // true
-``` 
-**2.** NaN hiçbir şeye eşit değildir. Kendisine bile:
-``` javascript
-if (value !== value) { console.log("we're dealing with NaN here") }
-``` 
-
-#Nesneler (Objects) için Type Coercion
-Şimdiye kadar primitif değerler için type coercion hakkında bilgi sahibi olduk. Nesneler ve motor karşılaşmaları(engine encounters) ifadesi söz konusu olduğunda, örneğin [1] + [2,3], ilk önce nesnenin primitif bir değere dönüştürülmesi gerekiyor. Bu da daha sonra son değere dönüştürülür. Ve halen ve yalnız üç tür tip dönüşümü söz konusudur: numeric, string ve boolean
-Boolean dönüşümü en kolayıdır. primitif olmayan herhangi bir değer her zaman true olarak zorlanır(coerced). Nesnenin(object) veya dizinin(array) dolu yada boş olması önemli değildir.
-Nesneler; hem numeric hem de string dönüşümden sorumlu olan   [ [ToPrimitive] ] metodu ile dahili(internal) olarak primitife dönüştürülür.
-[ [ToPrimitive] ] metodunun sözde uygulaması şu şekildedir:
-[ [ToPrimitive] ] metoduna bir değer(input) ve isteğe bağlı olan dönüşüm için tercih edilen tip geçirilir: Number veya String. preferredType isteğe bağlıdır.
-Hem numeric hem de string dönüşüm için, giriş nesnesinin(input object) valueOf ve toString metodlarından faydalanılır. Bu iki metod Object.prototype da tanımlanmıştır. Bu sayede türetilmiş tüm tiplerde kullanılır. Örneğin Tarih (Date), Dizi (Array) vb
-
-
-
+````javascript
+console.log([1]+[1,2,3])
+````
+- işlem yapabilmek için  [ 1 ] ve [ 1,2,3 ] öncelikli olarak primitif türe zorlanır
+- [ 1 ].toString(); // sonuç "1" verir
+-  [ 1,2,3 ].toString() // sonuç "1,2,3" verir
+Bu durumda iki string ifadenin toplanmasından çıkan sonuç
+"1" +"1,2,3"
+**"11,1,2,3"** olacaktır.
 
 Genel olarak algoritma aşağıdaki gibidir:
 
@@ -206,7 +167,7 @@ Genel olarak algoritma aşağıdaki gibidir:
 **1.** Eğer değer(input) primitif ise herhangi bir işlem yapma, dön.
 **2.** input.toString() metodunu çağır(Call). Eğer sonuç primitif ise dön
 **3.** input.valueOf()metodunu çağır(Call). Eğer sonuç primitif ise dön
-**4.** Ne input.toString() ne deinput.valueOf() primitif sonuç vermiyorsa; TypeError fırlat
+**4.** Ne input.toString() ne de input.valueOf() primitif sonuç vermiyorsa; TypeError fırlat
 
 **Referans tipler için:**
 **1.** input.toString() metodunu çağır(Call). Eğer sonuç primitif ise dön
@@ -217,46 +178,58 @@ Genel olarak algoritma aşağıdaki gibidir:
 **NOT:** == operatörünün (loose equality- zayıf eşitlik) farklı iki tipteki a ve b değişkenleri için pratikte nasıl farklı davrandığını,[JavaScript Comparison Table](https://dorey.github.io/JavaScript-Equality-Table/) ’de gösteren matristen görebilirsiniz. 
 
 **ÖRNEKLER**
+
 **1-**
 ``` javascript
 console.log(true+false) 
-//true + false
-// 1 + false
-//1+ 0
-Sonuç= 1
 ``` 
+- "+" operatörü numeric işlem yapar bu durumlardan boolean ifadeler numaric coercion'a uğrar.
+- Number(true) + Number(false) dönüşen ifade
+- 1+ 0 şeklini alır
+**Sonuç** = 1
+
 **2-**
 ``` javascript
 console.log(12 / “6”)
-// 12 / 6
-Sonuç=2
 ``` 
+- "/" operatörü numeric işlem yapacağından
+- başlangıçta number olduğu için "6" ifadesi
+- numaric coercion'a uğrar Number("6") ve 6 değerini döner
+-  12 / 6 bu şekli alır
+**Sonuç**= 2
+
 **3-**
 ``` javascript
 console.log([1,2,3]>null)
-// > karşılaştırma operatörü olduğundan numaric coercion yapacaktır 
-//[1,2,3].toString=”1,2,3”
-//”1,2,3” > null
-// Number(“1,2,3”)=NaN 
-//NaN kendine dahil hiçkimseye eşit olmadığından!!
-//NaN>null
-Sonuç=false
 ```
+- ">" karşılaştırma operatörü olduğundan numaric coercion yapacaktır.
+- [1,2,3] bir array olup refarans tip tutuğundan primitif değere dönüştürülerek işleme alınır
+- [1,2,3].toString() kullanıldığında içeri ”1,2,3” değerini döndürür
+- ”1,2,3” > null şeklini alır
+- ">" karşılaştırma ifadesi olduğundan tekrar numaric coercion teriklenir
+- String ifade numbera zorlanır Number(“1,2,3”)
+- Number("1,2,3") ifadesinin sonucu NaN olacağından 
+- NaN>null şeklini alır
+- ve NaN kendine dahil hiçkimseye eşit olmadığından!!
+**Sonuç**= false
+
 **4-**
 ``` javascript
 console.log(“number” + 15 + 3) 
-//"number15" + 3 
-// "number153"
 ```
+- örneğimizin başında stirng bir ifade bulunduğundan diğer ögeler için de string coercion teriklenir 
+- "number+ "15" + "3" şeklini alır 
+ **Sonuç**= "number153"
+
 **5-**
 ```javascript
 console.log(['x','y'] == 'x,y')
-// == operatörü array için numeric coercion yapacaktır
-//['x','y'].toString()= "x,y" döner
-// "x,y"=="x,y"
-Sonuç=true
-
-```       
+```  
+- == operatörü array için numeric coercion yapacaktır
+- ['x','y'] dizisinin numeric coercion yapabilmesi için primitif tipe dönüştümek gerekir.
+- ['x','y'].toString() metoduyla "x,y" döner
+- Son eşitlik "x,y"=="x,y" halini alır 
+**Sonuç**= true
      
 **ALIŞTIRMALAR**
 
