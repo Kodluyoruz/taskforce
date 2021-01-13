@@ -298,7 +298,7 @@ seklindedir.
      c- keypress
      d- select
      
-     
+     **cevap:input**
      
      
   2.Soru 
@@ -354,6 +354,7 @@ seklindedir.
      c- play
      d- onclick
      
+     **cevap:onclick**
      
   ### Kaynaklar
   
