@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: figures
+---
+
 # PSEUDOCODE (SÖZDE KOD)
 
 
@@ -11,6 +15,10 @@
 ![img](figures/sözdekod1.jpg)	
 
 
+
+## Video Zamanı
+
+[Bu kısma video eklenecek]
 
 
 
@@ -280,5 +288,6 @@ D)
 
 4. https://medium.com/@edisdev/algoritma-ve-pseudo-kodu-nedir-38ad7d09a73e
 
-   ​                                                                                       
+
+
 
