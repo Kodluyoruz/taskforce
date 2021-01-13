@@ -256,7 +256,7 @@ Pattern pattern = Pattern.compile("yağışlı", Pattern.CASE_INSENSITIVE);
 Matcher matcher = pattern.matcher("Bugün hava yağışlı");
 ```
 
-```ava
+```java
 /* 
  Eşleşmenin içerisinde istediğimiz deseni arıyor ve
  boolean bir sonuç üretiyor(true-false)
