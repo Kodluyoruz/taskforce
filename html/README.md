@@ -14,3 +14,6 @@
 - [ ] [Semantic(Anlamlandırılmış) HTML Etiketleri Kullanımı](semanticanlamlandirilmis-html-etiketleri-kullanimi/)
 - [ ] [Diğer HTML Etiketleri Hakkında](diger-html-etiketleri-hakkinda/)
 
+#### Ödevler
+
+- [Ödev 1](odev1/)
