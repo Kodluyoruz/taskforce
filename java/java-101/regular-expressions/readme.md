@@ -216,3 +216,74 @@ Yukarıdaki kodu çalıştırdığınızda çıktısı aşağıdaki gibi olur:
 0531981-66-34 numarası desene UYMUYOR.
 0(567) 144-78-63 numarası desene uyuyor.
 ```
+
+
+
+
+
+
+
+###  ===Pattern ve Matcher - Örnek
+
+
+
+``` java
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+```
+
+
+
+> Ufak bir senaryo oluşturalım.
+>
+> `-Bir desenimiz var ve bu desenimizin içeriği "yağışlı" olsun.`
+>
+> `-Bir de desenimizin eşleşeceği kalıbımız olsun "Bugün hava yağışlı"`
+
+
+
+```java
+// Desen
+Pattern pattern = Pattern.compile("yağışlı", Pattern.CASE_INSENSITIVE);
+```
+
+#####  *Nedir bu 'CASE_INSENSITIVE' ?* => istenilen desenin *büyük ve küçük* olmasına bakılmaksızın karakterlerle eşlemeyi sağlar. 
+
+##### Yani üst kısımdaki kod satırında olan "yağışlı" ifadesi  "yAĞışLı" büyüklü küçüklü de yazılmış olsaydı bunu önemsemeyecek ve karakterlerle eşleşmeyi yapacaktı.
+
+```java
+// Desenin eşleşeceği kalıp
+Matcher matcher = pattern.matcher("Bugün hava yağışlı");
+```
+
+```java
+/* 
+ Eşleşmenin içerisinde istediğimiz deseni arıyor ve
+ boolean bir sonuç üretiyor(true-false)
+*/
+		boolean matchFound = matcher.find();
+```
+
+`Projeyi debug modda çalıştırdığımız zaman görüyoruz ki eşleşme sağlandığı için "matchFound" değişkeni "true" sonucunu bize veriyor.`
+![](figures/boolean-matchFound(debug_mod).png)
+
+```java
+if (matchFound)
+{
+   System.out.println("Eşleşme bulundu");
+}
+else
+{
+   System.out.println("Eşlenme bulunamadı");
+}
+```
+
+```java
+Ekran Çıktısı: Eşleşme bulundu
+```
+
+### ===
+
+
+
+​								
