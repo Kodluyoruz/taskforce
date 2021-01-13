@@ -171,7 +171,7 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 			</div>
 		</div>
 ```
-###Örneğimizi daha iyi anlamak için lütfen bir editör'e kodumuzu kopyalayıp yapıştıralım.Gördüğünüz gibi şuan iç içe içeriklerimizin olduğu bir yapı var ben xs kırılma noktasında farklı,md'da farklı ve lg'da şuanki görüntüsüyle sıralanmasını istiyorum.Şimdi kodumuzu buna göre düzenleyelim
+### Örneğimizi daha iyi anlamak için lütfen bir editör'e kodumuzu kopyalayıp yapıştıralım.Gördüğünüz gibi şuan iç içe içeriklerimizin olduğu bir yapı var ben xs kırılma noktasında farklı,md'da farklı ve lg'da şuanki görüntüsüyle sıralanmasını istiyorum.Şimdi kodumuzu buna göre düzenleyelim
 
 ```html
 	<div class="container-fluid">
@@ -228,7 +228,7 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 		</div>
 ```
 ### Kodumuzu artık istediğimiz düzeye getirmiş olduk.
-##Ödev
+## Ödev
 ### Sizde aşağıda ki kodu bütün içeriğin bütün kırılma noktalarında farklı bir şekilde sıralanmasını sağlayın.Şimdiden başarılar 
 ```html
 <div class="container-fluid">
