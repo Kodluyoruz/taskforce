@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: figures
+---
+
 # TERMİNAL 
 
 
@@ -30,7 +34,7 @@
 
 //Buraya adım adım görseller ekleyebiliriz
 
-![terminal1](C:\Users\Emirhan Şahin\Desktop\terminal1.png)
+![terminal1](figures/terminal1.png)
 
 
 
@@ -38,7 +42,7 @@
 
   //Buraya adım adım görseller ekleyebiliriz
 
-  ![Linux sistemlerde terminal uygulamasını çalıştırmak için ctrl + alt + t tuşlarına birlikte basın](https://aliswebtasarim.com/wp-content/uploads/2018/04/ctrl-alt-t.jpg)
+  ![terminal2](figures/terminal2.jpg)
 
 
 
