@@ -1,0 +1,31 @@
+h1 {
+  color:crimson;
+  text-align: center;
+}
+
+.menu {
+  text-align: center;
+  color: red;
+}
+
+h2, h3, h5, h6 {
+  color:blueviolet;
+}
+
+h4 {
+  color:darkgoldenrod;
+}
+
+.icerik {
+  text-align: left;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
