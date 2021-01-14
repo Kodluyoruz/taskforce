@@ -40,9 +40,11 @@ typora-copy-images-to: figures
 
 
 
-![google3](figures/google3.png)
+### Video Zamanı!
 
- İşte videoya tam da [buradan](https://www.youtube.com/watch?v=BNHR6IQJGZs&feature=youtu.be) ulaşabilirsiniz!
+---
+
+[![googlevideo](figures/googlevideo.png)](https://www.youtube.com/watch?v=BNHR6IQJGZs&feature=youtu.be)
 
 
 
