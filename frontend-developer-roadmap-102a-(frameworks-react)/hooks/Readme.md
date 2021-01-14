@@ -115,7 +115,7 @@ function CokluStateOrnegi() {
 
 #### Effect Hook
 
-React ile geliştirim yaptıysanız; sunucudan veri çekme, event abonelikleri, ve DOM’un manuel olarak değiştirilmesi gibi işlemleri gerçekleştirmiş olabilirsiniz. Bu tarz işlemlere [side effects](https://en.0wikipedia.org/wiki/Side_effect_(computer science)) (yan etkili) işlemler adı verilir. Çünkü bu tarz yan etkiye sahip işlemler rendering esnasında tamamlanıp bitmezler ve diğer component’lere etki edebilirler.
+React ile geliştirim yaptıysanız; sunucudan veri çekme, event abonelikleri, ve DOM’un manuel olarak değiştirilmesi gibi işlemleri gerçekleştirmiş olabilirsiniz. Bu tarz işlemlere [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)#:~:text=In%20computer%20science%2C%20an%20operation,the%20invoker%20of%20the%20operation.) (yan etkili) işlemler adı verilir. Çünkü bu tarz yan etkiye sahip işlemler rendering esnasında tamamlanıp bitmezler ve diğer component’lere etki edebilirler.
 
 `useEffect` fonksiyonu olarak tanımlanan Effect Hook, herhangi bir fonksiyon component’ine bu tarz yan etkili işlemleri yapabilme yeteneği kazandırır. React class’larındaki `componentDidMount`, `componentDidUpdate`, ve `componentWillUnmount` metodları ile aynı görevi yürütür ve bu metodları tek bir fonksiyon çatısı altında gerçekleştirir.
 
