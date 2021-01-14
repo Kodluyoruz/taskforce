@@ -54,15 +54,77 @@ typora-copy-images-to: figures
 
 ### Adım 2:  İçerikleri Sıralamak
 
-​	Bulunduğunuz dizindeki ya da klasördeki içerikleri sıralamak için:
+​	Bulunduğunuz klasördeki içerikleri sıralamak için:
 
-* **Mac Os** ve **Linux** tabanlı sistemlerde terminale *ls* komut satırını yazabilirsiniz.
-
-
-
-#### Bilgi Köşesi!
-
-*ls* : Bu komut satırı terminale yazıldığında Mac Os ve Linux tabanlı sistemlerde dizindeki veya klasördeki içerikleri listeler.
+* **Mac Os** ve **Linux** tabanlı sistemlerde terminale ***ls*** komut satırını yazabilirsiniz.
+* **Windows** tabanlı işletim sistemlerde terminale ***dir*** komut satırını yazabilirsiniz.
 
 
 
+## Bilgi Köşesi!
+
+***ls*** : Bu komut satırı **Mac Os** *ve* **Linux** tabanlı sistemlerde terminale yazıldığında klasördeki içerikler listelenir.
+
+***dir*** : Bu komut satırı **Windows** tabanlı sistemlerde terminale yazıldığında klasördeki içerikler listelenir.
+
+//Resimler ve CS50 den alıntılar yerleştirebilir
+
+
+
+### Adım 3: Klasörler Arası Geçiş Yapmak
+
+#### a) Klasöre Girme
+
+​	Bulunduğunuz klasördeki içerikleri listeledikten sonra, karşınıza çıkan herhangi bir klasöre girmek için:
+
+* *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale ***cd*** komut satırını yazabilirsiniz.
+* Bu komut satırı *cd* yanında bir parametre daha alır. Bu parametre girmek istediğiniz klasörün adıdır.
+  * Örnek: **cd Desktop**
+
+##### b) Klasörden Çıkmak
+
+​	Bulunduğunuz klasörden bir üst klasöre çıkmak için:
+
+* *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale ***cd ..*** komut satırını yazabilirsiniz.
+
+
+
+## Bilgi Köşesi!
+
+***cd <klasorismi>*** : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında ismi yazılan dizine girilir. 
+
+***cd ..*** : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında bir üst dizine geri dönülür.
+
+//Resimler ve CS50 den alıntılar yerleştirebilir
+
+
+
+### Adım 4: Yeni Klasör Oluşturmak
+
+​	Bulunduğunuz klasörün içinde yeni bir klasör oluşturmak için:
+
+* *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale ***mkdir*** komut satırını yazabilirsiniz.
+
+* Bu komut satırı *mkdir* yanında bir parametre daha alır. Bu parametre oluşturmak istediğiniz klasörün adıdır.
+
+* Örnek: **mkdir Kodluyoruz**
+
+
+
+## Bilgi Köşesi!
+
+***mkdir <klasorismi>*** : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında belirtilen klasör isminde yeni bir klasör oluşturur. 
+
+
+
+### Adım 5: Bulunduğunuz Klasörü Görmek
+
+​	Bulunduğunuz klasörü terminal ekranına yazdırmak için:
+
+* *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale ***pwd*** komut satırını yazabilirsiniz.
+
+
+
+## Bilgi Köşesi!
+
+***pwd*** : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında halihazırda bulunulan klasörü ekrana yazdırır. 
