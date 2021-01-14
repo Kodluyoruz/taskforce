@@ -9,24 +9,22 @@
 
 #### Internet
 - [ ] Internet Basics
+
 - [ ] Browsers
+
 - [ ] IP
+
 - [ ] TCP
+
 - [ ] [HTTP](http/)
+
 - [ ] DNS
+
 - [ ] Domain name
+
 - [ ] Hosting
 
-#### İşletim Sistemleri Dosya Yapısı ve Terminaller
-- [ ] Windows			
-  	- [ ]  [Windows Dosya Yapısı](windows-dosya-yapisi/)
-  	- [ ]  [Windows Temel Terminal Komutları](windows-temel-terminal-komutlari/)
-- [ ] MacOS
-   - [ ] MacOS Dosya Yapısı
-   - [ ] MacOS Temel Terminal Komutları 
-- [ ] Linux
-   - [ ] Linux Dosya Yapısı
-   - [ ] Linux Temel Terminal Konutları
+  
 
 #### Editor Kullanımı
 
@@ -37,6 +35,8 @@
 - [ ] Eklentiler
 - [ ] Panellerin Yönetimi, Dosyalar ile Çalışmak
 - [ ] Terminal Kullanımı
+- [ ] Windows Temel Terminal Komutları
+- [ ] MacOS & Linux Temel Terminal Komutları
 - [ ] MultiCursor (Çoklu İmleç) Kullanımı
 - [ ] Klavye ile Çalışmak / Klavye Kısayol Tuşları
 - [ ] Snippets Kullanımı

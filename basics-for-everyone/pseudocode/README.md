@@ -16,9 +16,9 @@ typora-copy-images-to: figures
 
 
 
-## Video Zamanı
+## Video Zamanı!
 
-[Bu kısma video eklenecek]
+[![sözdekod](figures/sözdekod.png)](https://youtu.be/7UcIc7QahBE)
 
 
 
