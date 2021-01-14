@@ -6,3 +6,4 @@
 - [ ] [GIT - Proje İçindeki Birden Fazla Dosyanın Versiyon Kontrol Sistemine Eklenebilmesi](git-proje-i̇cindeki-birden-fazla-dosyanin-versiyon-kontrol-sistemine-eklenebilmesi/)
 - [ ] [GitHub'a Projemizin Eklenmesi ve Diğer Repo Hosting Web Platformları](githuba-projemizin-eklenmesi-ve-diger-repo-hosting-web-platformlari/)
 - [ ] [Markdown Nedir ? Nasıl Kullanırız ?](markdown-nedir-nasil-kullaniriz-/)
+- [ ] [Ödev 1](odev1/)
