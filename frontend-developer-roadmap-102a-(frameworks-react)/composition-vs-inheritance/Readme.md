@@ -12,8 +12,8 @@ Bu konsepti anlamaya çalışırken genel bir örnek olması açısından `Araba
 
 ```javascript
 class Arac {
-	constructor (isim, tip) {
-  	this.isim = isim;
+  constructor (isim, tip) {
+    this.isim = isim;
     this.tip = tip;
   }
   
@@ -23,7 +23,7 @@ class Arac {
 }
 
 class Araba extends Arac {
-	constructor (isim) {
+   constructor (isim) {
     super(isim, "araba");
   }
 
@@ -41,16 +41,13 @@ Composition da OOP (Nesne Tabanlı Programlama)'da kullanılan bir konsepttir. P
 
 ```javascript
 const motor = function () {
-	return {
-		motor: () => { console.log("Araba motoru"); }
-	}
+   return {
+     motor: () => { console.log("Araba motoru"); }
+   }
 }
 
 const araba = () => {
-	return Object.assign(
-    {},
-    motor()
-  );
+   return Object.assign( {}, motor() );
 }
 ```
 
@@ -68,13 +65,13 @@ Bu 2 konsept de birden çok component'in bir arada kullanılmasını sağlamak a
 
 ```javascript
 class Arac extends React.Component {
-	constructor(props) {
+   constructor(props) {
     super(props);
   }
 }
 
 class Kamyonet extends Arac {
-  constructor(props) {
+   constructor(props) {
     super(props);
   }
 }
@@ -104,17 +101,17 @@ Bu örnekte, genel bir `Button` component'i oluşturduk. Sonrasında onun daha �
 
 ```javascript
 const Heading = props => {
-      return (
-	<div>
-      	 <h1>{props.message}</h1>
-       </div>
-     )
+    return (
+      <div>
+      	<h1>{props.message}</h1>
+      </div>
+    )
 }
 
 const Page1 = () => {
-    return(
-       <div>
-      	<Heading message={"Page1 için başlık"} />
+    return (
+      <div>
+       <Heading message={"Page1 için başlık"} />
       </div>
     )
 }
