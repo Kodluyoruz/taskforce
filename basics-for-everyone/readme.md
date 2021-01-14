@@ -8,7 +8,7 @@
 - [ ] [Pseudocode](pseudocode/)
 
 #### Internet
-- [ ] Internet Basics
+- [ ] [Internet Basics](internet/)
 
 - [ ] Browsers
 
