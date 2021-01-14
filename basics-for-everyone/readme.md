@@ -34,7 +34,7 @@
 - [ ] IntelliSense ve Emmet Özelliklerine Genel Bakış
 - [ ] Eklentiler
 - [ ] Panellerin Yönetimi, Dosyalar ile Çalışmak
-- [ ] Terminal Kullanımı
+- [ ] [Terminal Kullanımı](terminal-kullanimi/)
 - [ ] Windows Temel Terminal Komutları
 - [ ] MacOS & Linux Temel Terminal Komutları
 - [ ] MultiCursor (Çoklu İmleç) Kullanımı
