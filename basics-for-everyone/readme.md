@@ -1,5 +1,3 @@
-Basics For Everyone
-
 
 #### Farklı Yazılım Kariyerleri
 - [ ] Frontend Nedir?
