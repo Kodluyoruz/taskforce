@@ -4,11 +4,11 @@ Bir noktadan diğer noktaya veri iletişimini sağlarken verinin yolculuğunu sa
 
 Eğer sadece iki cihazı kablo ile bağlasaydık ve veri iletişimi sağlasaydık, verinin kafası karışmazdı ve karşı bilgisayara giderdi. Eğer sistemde verinin çıkacağı bilgisayara başka bir bilgisayar daha bağlasaydık bu sefer hangisine gideceğini nasıl bilecekti ?
 
-![](figures\hangi_yon.PNG)
+![](figures/hangi_yon.PNG)
 
 Veri iletişiminin sağlandığı ağda çok fazla cihaz olabilir. Hepsini fiziksel olarak bağlamamıza gerek yoktur. *Yönlendiriciler(routers)* üzerinden iletişim sağlanır. Yönlendiriciler ağdaki karmaşıklığı gidererek ağdaki iletişim için yardımcı olurlar. İnternet büyük bir ağdır ve milyonlarca cihaz bu ağ içinde iletişimdedir. İnternete bağlanırken bir yönlendiriciye bağlanırız ve ulaşmak istediğimiz noktaya kadar yönlendiriciler bizi adım adım götürür. 
 
-![internette_iletisim](figures\iletisim.PNG)
+![internette_iletisim](figures/iletisim.PNG)
 
 Yönlendiriciler ağ üzerindeki diğer yönlendiricilere veya cihazlara yönlendirme yaparken bir tablo kullanır. Burada gitmek istenilen adrese göre sağdan git soldan git demek gibidir. 
 
@@ -16,7 +16,7 @@ Aşağıdaki resimde yönlendirme nasıl yapılır basitçe görmek için bir ş
 
 Şimdi 1 numaralı cihazdan veriyi 5 numaralı cihaza göndermeye çalışalım. 1'deki çıkış oku bize diyor ki "Eğer hedefin 1 değilse yönlendiriciye gidebilirsin". Hedefimiz 5 numaralı cihaza gitmek olduğu için kolaylıkla yönlendiriciye gidiyoruz. Yönlendiricide iki seçenek bizi bekliyor ve bize "Hedefin 2'ye gitmek ise yukarıya 3,4,5,6 numaralı cihazlardan birine gitmek ise aşağıya yönlen." diyor. Aşağıdaki ikinci yönlendiriciye yöneliyoruz. Halen hedefimize ulaşamadık yönlendirici bu sefer daha fazla seçeneğe sahip. "Eğer 3'e gitmek istersen yukarı, 6'ya gitmek istersen aşağıdaki 6 numaralı cihaza, 4 veya 5 numaralı cihazlardan birine gitmek istersen aşağıdaki diğer yönlendiriciye git" diyor. 3. yönlendiriciye gittiğimizde ise "5'e gitmek istersen 5 numaralı cihaza yönlenebilirsin."  diyor ve hedefimize ulaşıyoruz.
 
-![](D:\GIT\kisiselWebSitesi\yazilar\IP\figures\network_router_mantigi.PNG)
+![network_router](figures/network_router_mantigi.PNG)
 
 
 
@@ -38,7 +38,7 @@ IP ile veri iletiminin %100 gerçekleşeceğini garanti edemeyiz. Aktarım sıra
 
 Ve işte her şeyi özetleyen, Kodluyoruz tarafından Türkçeleştirilen bir Harvard dersi :)
 
-[![](D:\GIT\kisiselWebSitesi\yazilar\IP\figures\IP_cs50.PNG)](https://www.youtube.com/watch?v=dJK-IkDjxQg&feature=youtu.be)
+[![IP_CS50](figures/IP_cs50.PNG)](https://www.youtube.com/watch?v=dJK-IkDjxQg&feature=youtu.be)
 
 
 
