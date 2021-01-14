@@ -277,6 +277,21 @@ $ git diff <commit_id_1>..<commit_id_2>
 $ git diff --staged
 ```
 
+### Sorular
+
+1.Projedeki commit geçmişini görüntülememizi sağlayan komut aşağıdakilerden hangisidir?
+
+- [ ] git checkout
+- [x] git log
+- [ ] git push
+- [ ] git clone
+
+2. 'git status' komutunun tanımı aşağıdakilerden hangisinde doğru olarak verilmiştir?
+
+- [ ] Projemizde aldığımız commit'leri, remote repository'e gönderir.
+- [ ] Staged ortamına eklenmiş bir dosyanın takibinin bırakılması yani untracked (izlenmeyen) hale getirilmesi sağlar.
+- [ ] Staged ortamına alınan dosyaları Local Repository’e gönderir.
+- [x] Üzerinde çalışılan projenin o anki durumu hakkında bilgi verir. Yapılan değişiklikler, eklenen ve silinen dosyalar gibi bilgiler listelenir.
 
 
 ### KAYNAKÇA
