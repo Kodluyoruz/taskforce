@@ -1,6 +1,6 @@
 # Java 101
 
-#### [Temel Bilgiler]
+#### **Temel Bilgiler**
   - [ ] [Java Nedir?](what-is-java/)
   - [ ] [Java ile Uygulama Geliştirme Yapabileceğiniz Alanlar](uygulama-alanlari/)
   - [ ] [Java Geliştirme Ortamının Kurulumu](java-geliştirme-ortaminin-kurulumu/)
