@@ -30,5 +30,5 @@ Yukardaki *users* dizisindeki nesneler içerisinden isActive'i true olanları al
 ```javascript
 const activeUsers = users.filter(user => user.isActive === true);
 console.log(activeUsers.fullName); //(2)[{...},{...}] (Ali Duran, Ahmet Yılmaz)
-//Üst satırdaki sonuç bize, elemanları nesne olan 2 elemanlı bir dizi olduğunu söylüyor.
 ```
+Üst satırdaki sonuç bize, activeUsers'ın 2 elemanlı, elemanları nesne olan bir dizi olduğunu söylüyor.
