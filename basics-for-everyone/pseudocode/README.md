@@ -168,7 +168,7 @@ D)
 6. Bitir.
 ```
 
-
+---
 
 5. **İki sayının bölümünü veren pseudocode aşağıdakilerden hangisidir?**
 
@@ -224,7 +224,7 @@ D)
 6. Yazabileceğin en büyük bölümü yaz ve işleme devam et.	
 ~~~
 
-
+---
 
 6. **Elinizde aşağıdaki gibi karışık bir yapboz olduğunu düşünün. Bu yapbozu şıklardaki hangi pseudocode kullanılarak çözülebilir?**
 
@@ -270,7 +270,7 @@ D)
 5. Yapbozu bitir.
 ~~~
 
-
+---
 
 ## Cevap Anahtarı
 
