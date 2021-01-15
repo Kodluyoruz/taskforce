@@ -1,7 +1,3 @@
----
-typora-copy-images-to: figures
----
-
 # PSEUDOCODE (SÖZDE KOD)
 
 
@@ -14,39 +10,12 @@ typora-copy-images-to: figures
 
 ![img](figures/sözdekod1.jpg)	
 
-
-
-## Video Zamanı!
-
-[![sözdekod](figures/sözdekod.png)](https://youtu.be/7UcIc7QahBE)
-
-
-
-### Sıra Sizde 1! 
-
-**Pseudocode (Sözde Kod) ile ilgili verilen bilgilerden hangisi** **yanlıştır?**
-
-A) Pseudocode program akışı içinde yazılmalıdır.
-
-B) Pseudocode proglama dilinin detaylarından uzaktır.
-
-C) Pseudocode’da proglamlama dilinin söz dizimlerinde dikkat edilir.
-
-D) Pseudocode’da gerektiği yerlerde doğal dil cümleleri kullanılır.
-
-
-
 ## Pseudocode Neden Kullanılır?
 
 * Pseudocode (Sözde Kod)’ a ihtiyaç duyulmasının temel nedeni programlama dillerini bilmeyen sıradan bir insanın ve her türden yazılımcının programlardaki algoritma mantığını anlamasını sağlamaktır.
 
 * Sözde kodun kullanılmasının bir diğer amacı programın yapımcısına veya programın kullanıcılarına kullanılan programlama dilinden bağımsız olarak, o programın çözüm, çalışma mantığının sunulmasının sağlanmasıdır.
 
-  
-
-  <img src="figures/sözdekod2.jpg" alt="img" style="zoom:50%;" />
-  
-  
 
 
 
@@ -66,9 +35,21 @@ D) Pseudocode’da gerektiği yerlerde doğal dil cümleleri kullanılır.
 
 
 
-### Sıra Sizde 2!
+// Sözel ve görsel örnek ekle.
 
-**Pseudocode (Sözde Kod) özellikleri ile ilgili verilen bilgilerden hangisi** **doğrudur?**
+## Sorular
+
+1. **Pseudocode (Sözde Kod) ile ilgili verilen bilgilerden hangisi** **yanlıştır?**
+
+A) Pseudocode program akışı içinde yazılmalıdır.
+
+B) Pseudocode proglama dilinin detaylarından uzaktır.
+
+C) Pseudocode’da proglamlama dilinin söz dizimlerinde dikkat edilir.
+
+D) Pseudocode’da gerektiği yerlerde doğal dil cümleleri kullanılır.
+
+2. **Pseudocode (Sözde Kod) özellikleri ile ilgili verilen bilgilerden hangisi** **doğrudur?**
 
 A) Üzerlerinde hata ayıklaması (debugging) yapılabilir.
 
@@ -80,13 +61,7 @@ D) Kod niteliği taşırlar.
 
 
 
-## Pseudocode Örnekleri 
-
-<img src="figures\södekod5.gif" alt="södekod5" style="zoom:50%;" />
-
-
-
-**Örnek 1:** Sabah işe giden bir çalışanı düşünelim. İşe gidene kadar hangi işlemleri yapması gerekiyor bunu düşünelim.
+3. Sabah işe giden bir çalışanı düşünelim. İşe gidene kadar hangi işlemleri yapması gerekiyor bunu düşünelim.
 
 ```pseudocode
 1. Uyan.
@@ -100,10 +75,6 @@ D) Kod niteliği taşırlar.
 9. Durağa git.
 10. Otobüs ile ofise git.
 ```
-
-
-
-### Sıra Sizde 3!
 
 **Aşağıdakilerden hangisi örnek verilen pseudocode’ un bir parçasıdır?**
 
@@ -149,7 +120,7 @@ D)
 
 
 
-**Örnek 2:** İki sayının toplamını veren algoritmayı pseudocode ile yazacak olsaydık şu şekilde görünecekti.
+4. İki sayının toplamını veren algoritmayı pseudocode ile yazacak olsaydık şu şekilde görünecekti.
 
 ```pseudocode
 1. Başla.
@@ -160,11 +131,9 @@ D)
 6. Bitir.
 ```
 
+//Sorulaştır.
 
-
-### Sıra Sizde 4!
-
-**İki sayının bölümünü veren pseudocode aşağıdakilerden hangisidir?**
+5. İki sayının bölümünü veren pseudocode aşağıdakilerden hangisidir?
 
 A)
 
@@ -220,9 +189,7 @@ D)
 
 
 
-### Sıra Sizde 5!
-
-**Elinizde aşağıdaki gibi karışık bir yapboz olduğunu düşünün. Bu yapbozu şıklardaki hangi pseudocode kullanılarak çözülebilir?**
+6. **Elinizde aşağıdaki gibi karışık bir yapboz olduğunu düşünün. Bu yapbozu şıklardaki hangi pseudocode kullanılarak çözülebilir?**
 
 <img src="figures\sözdekod4.jpg" alt="sözdekod4" style="zoom:50%;" />
 
@@ -287,7 +254,3 @@ D)
 3. https://technogezgin.com/pseudocode-nedir-sozde-kod/
 
 4. https://medium.com/@edisdev/algoritma-ve-pseudo-kodu-nedir-38ad7d09a73e
-
-
-
-
