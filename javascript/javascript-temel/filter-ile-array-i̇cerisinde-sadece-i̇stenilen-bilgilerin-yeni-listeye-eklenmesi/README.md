@@ -20,8 +20,8 @@ Pekiştirmek için bir örnek daha yapalım.
 const users = [
 	{fullName: "Mehmet Veli", isActive: false},
 	{fullName: "Ali Duran", isActive: true},
-    {fullName: "Ahmet Yılmaz", isActive: true},
-    {fullName: "Oğuz Şahin", isActive: false},
+    	{fullName: "Ahmet Yılmaz", isActive: true},
+    	{fullName: "Oğuz Şahin", isActive: false},
 ]
 ```
 
