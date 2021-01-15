@@ -76,7 +76,7 @@ matchBox.isCube();
 - Hayır, özel bir durum yok ise nesne üretilirken içlerindeki tüm alanlar boş, null yada default olabilir.
 
 ## Kaynaklar:
-- [Oracle What is Class?](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html)
+- [Oracle - What is Class?](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html)
 - [Oracle - Classes](https://docs.oracle.com/javase/tutorial/java/javaOO/classes.html)
 - [Oracle - Object](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html)
 - [Oracle Objects and Classes](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html)
