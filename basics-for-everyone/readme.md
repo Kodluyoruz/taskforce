@@ -28,7 +28,7 @@
 
 #### Editor Kullanımı
 
-- [ ] Visual Studio Code Nedir?
+- [ ] [Visual Studio Code Nedir?](visual-studio-code-nedir/)
 - [ ] Proje Klasörünün Açılması ve Dosyalarla Çalışmak
 - [ ] Genel Görünüm, Tema ve Dosya İkonu Ayarları
 - [ ] IntelliSense ve Emmet Özelliklerine Genel Bakış
