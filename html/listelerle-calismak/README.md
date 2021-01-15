@@ -138,3 +138,30 @@ Liste başındaki içi dolu daireyi değiştirmek için ise **disc, square, circ
 **Ekran çıktısı:**
 
 ![kare](figures/kare.PNG)
+
+
+
+
+### Sorular
+1. Sırasız liste oluşturmak için kullanılan etiket hangisidir ?
+
+A) < list>
+B) < nl>
+C) < ul>
+D) < ol>
+
+2. Sıralı liste oluşturmak için kullanılan etiket hangisidir ?
+
+A) < dl>
+B) < list>
+C) < ul>
+D) < ol>
+
+
+
+1)C  2)D
+
+
+### Kaynak
+
+https://www.geeksforgeeks.org/html-li-tag/
