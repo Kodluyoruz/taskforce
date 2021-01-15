@@ -44,6 +44,8 @@ Bulunduğunuz klasörü terminal ekranına yazdırmak için:
 
 * *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale `pwd` komut satırını yazabilirsiniz.
 
+![MacOS pwd komutu](figures/MacOS_pwd.png)
+
 #### Bilgi Köşesi!
 
 * `pwd` : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında halihazırda bulunulan klasörü ekrana yazdırır.
@@ -54,6 +56,9 @@ Bulunduğunuz klasörü terminal ekranına yazdırmak için:
 Bulunduğunuz klasördeki içerikleri ekrana yazdırmak için, bir başka deyişle bulunduğunuz klasörün içerisinde bulunan dosya ve klasörleri görebilmeniz için:
 
 * **Mac Os** ve **Linux** tabanlı sistemlerde terminale `ls` komut yazabilirsiniz.
+
+  ![MacOS ls komutu](figures/MacOS_ls.png)
+
 * **Windows** tabanlı işletim sistemlerde terminale `dir` komut yazabilirsiniz.
 
 #### Bilgi Köşesi!
@@ -75,20 +80,32 @@ Bulunduğunuz klasördeki içerikleri listeledikten sonra, karşınıza çıkan 
 
 **Örnek:**
 `cd Desktop` komutu size bir alt klasördeki desktop'un yani masaüstünün içerisine girmenize olanak verir. İleride farklı dillerde veya frameworklerde bir kurulum yapacağınız zaman `cd`komutu ile ilgili proje klasörüne gitmeniz gerektiğini unutmayın!
-//resim
+
+**Örnek:**
+
+ `cd Desktop` komutuyla **Desktop** klasörüne gittik.  Dosya yolunu rahat görebilmeniz için `pwd` komutunu kullandık. Gördüğünüz gibi yeni dosya yolumuz `/Users/kodluyoruz/Desktop` oldu. 
+
+![MacOS cd komutu](figures/MacOS_cd.png)
 
 ##### b) Klasörden Çıkmak
 
 Bulunduğunuz klasörden bir üst klasöre çıkmak için:
 
 * *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale `cd ..` komutunu yazabilirsiniz.
-//resim
+
+**Örnek:**
+
+Bir önceki komutla birleştirirsek `cd Desktop` komutuyla **Desktop** klasörüne gittik.  Dosya yolunu rahat görebilmeniz için `pwd` komutunu kullandık. Gördüğünüz gibi yeni dosya yolumuz `/Users/kodluyoruz/Desktop` oldu. Ardından. `cd ..`komutuyla tekrardan bir üst klasöre geri döndük.
+
+![MacOS cd üst dizin komutu](figures/MacOS_cd_ust_dizin.png)
 
 ##### Bilgi Köşesi!
 
 `cd <klasorismi>` : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında ismi yazılan dizine girilir. 
 
 `cd ..` : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında bir üst dizine geri dönülür.
+
+
 
 ### Adım 5: Yeni Klasör Oluşturmak
 
@@ -99,10 +116,10 @@ Bulunduğunuz klasörün içinde yeni bir klasör oluşturmak için:
 * Bu komut satırı *mkdir* yanında bir parametre daha alır. Bu parametre oluşturmak istediğiniz klasörün adıdır.
 
 **Örnek:**
-`mkdir Kodluyoruz`
-//resim
 
+Oluşturduğumuz klasörü rahat görebilmeniz için önce `ls` komutuyla klasörümün içerisindekileri listeledim. Ardından `mkdir Kodluyoruz` komutuyla klasör içerisinde **Kodluyoruz** adında bir klasör oluşturdum. Ardından verdiğim `ls` komutunun çıktısında **Kodluyoruz** klasörünün oluştuğunu görebilirsiniz.
 
+![MacOS mkdir komutu](figures/MacOS_mkdir.png)
 
 #### Bilgi Köşesi!
 
