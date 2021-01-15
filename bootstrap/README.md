@@ -5,7 +5,7 @@
 - [ ] [Bootstrap - Ekran Çözünürlüğü / Cihaz Duyarlı(Responsive) Kolon Yapısı Kullanımları](bootstrap-ekran-cozunurlugu-cihaz-duyarliresponsive-kolon-yapisi-kullanimlari/)
 - [ ] [Bootstrap - Satır Blokları (Row) Kullanımı](bootstrap-satir-bloklari-row-kullanimi/)
 - [ ] [Bootstrap Kullanarak Web Sitesi Nasıl Yapılır (Demo)](bootstrap-kullanarak-web-sitesi-nasil-yapilir-demo/)
-- [ ] [Bootstrap Renk Strandartları, Tipgrafi, Margin ve Padding Kullanımı](bootstrap-renk-strandartlari,-tipgrafi,-margin-ve-padding-kullanimi/)
+- [ ] [Bootstrap Renk Strandartları, Tipografi, Margin ve Padding Kullanımı](bootstrap-renk-strandartlari,-tipgrafi,-margin-ve-padding-kullanimi/)
 - [ ] [Display Özellikleri ile Responsive Yapıya Göre İstenilen Blokların Gösterilmesi / Gizlenmesi](display-ozellikleri-ile-responsive-yapiya-gore-i̇stenilen-bloklarin-gosterilmesi-gizlenmesi/)
 - [ ] [Bootstrap - Offset Kullanımı](bootstrap-offset-kullanimi/)
 - [ ] [Bootstrap Sıralama Özellikleri Kullanarak Responsive Yapıya Göre Tepkilerin Düzenlenmesi](bootstrap-siralama-ozellikleri-kullanarak-responsive-yapiya-gore-tepkilerin-duzenlenmesi/)
