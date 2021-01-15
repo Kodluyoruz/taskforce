@@ -60,7 +60,7 @@ Yukarıdaki örneklerde de görüldüğü üzere satırları eşit parçalar hal
 ````
 ![8of4Columns](https://github.com/engntuba/taskforce/blob/bootstrap/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/8of4.PNG)
 
-- Satırları böldüğümüzde araya yada herhangi kenara boşlukta ekleyebiliriz onu da şu şekilde gösterelim;
+- Satırları böldüğümüzde araya yada herhangi bir kenara boşluk ekleyebiliriz onu da şu şekilde gösterelim;
 
 ````````html
 <div class="row">
