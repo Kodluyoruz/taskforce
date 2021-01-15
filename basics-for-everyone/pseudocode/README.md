@@ -49,6 +49,8 @@ C) Pseudocode’da proglamlama dilinin söz dizimlerinde dikkat edilir.
 
 D) Pseudocode’da gerektiği yerlerde doğal dil cümleleri kullanılır.
 
+---
+
 2. **Pseudocode (Sözde Kod) özellikleri ile ilgili verilen bilgilerden hangisi** **doğrudur?**
 
 A) Üzerlerinde hata ayıklaması (debugging) yapılabilir.
@@ -59,9 +61,9 @@ C) Söz dizim (syntax) kurallarına dikkat edilir.
 
 D) Kod niteliği taşırlar.
 
+---
 
-
-3. Sabah işe giden bir çalışanı düşünelim. İşe gidene kadar hangi işlemleri yapması gerekiyor bunu düşünelim.
+3. *Sabah işe giden bir çalışanı düşünelim. İşe gidene kadar hangi işlemleri yapması gerekiyor bunu düşünelim.*
 
 ```pseudocode
 1. Uyan.
@@ -118,9 +120,44 @@ D)
 5. Yatağından kalk.
 ```
 
-
+---
 
 4. İki sayının toplamını veren algoritmayı pseudocode ile yazacak olsaydık şu şekilde görünecekti.
+
+A)
+
+```pseudocode
+1. Başla.
+2. Birinci sayıyı oku. (sayi1)
+3. toplam = sayi1 + sayi2
+4. İkinci sayıyı oku. (sayi2)
+5. toplam
+6. Bitir.
+```
+
+B)
+
+```pseudocode
+1. Başla.
+2. Birinci sayıyı oku. (sayi1)
+3. İkinci sayıyı oku. (sayi2)
+4. Bitir.
+5. toplam
+6. toplam = sayi1 + sayi2
+```
+
+C)
+
+```pseudocode
+1. Birinci sayıyı oku. (sayi1)
+2. Başla.
+3. İkinci sayıyı oku. (sayi2)
+4. toplam = sayi1 + sayi2
+5. Bitir.
+6. toplam
+```
+
+D)
 
 ```pseudocode
 1. Başla.
@@ -131,9 +168,9 @@ D)
 6. Bitir.
 ```
 
-//Sorulaştır.
 
-5. İki sayının bölümünü veren pseudocode aşağıdakilerden hangisidir?
+
+5. **İki sayının bölümünü veren pseudocode aşağıdakilerden hangisidir?**
 
 A)
 
@@ -144,7 +181,7 @@ A)
 4. Büyük olan sayıyı, küçük olan sayıya bölmeye başla.
 5. Yazabileceğin en büyük bölümü yaz ve işleme devam et.
 6. İşlem sonucunda kalan;
-	a. Bölümden küküç ise işlemi bitir.
+	a. Bölümden küçük ise işlemi bitir.
 	b. Bölümden büyük ise 4. adıma git.
 ```
 
@@ -157,7 +194,7 @@ B)
 4. Yazabileceğin en büyük bölümü yaz ve işleme devam et.
 5. Büyük olan sayıyı, küçük olan sayıya bölmeye başla.
 6. İşlem sonucunda kalan;
-	a. Bölümden küküç ise işlemi bitir.
+	a. Bölümden küçük ise işlemi bitir.
 	b. Bölümden büyük ise 4. adıma git.
 ```
 
@@ -170,7 +207,7 @@ C)
 4. Büyük olan sayıyı, küçük olan sayıya bölmeye başla.
 5. Yazabileceğin en büyük bölümü yaz ve işleme devam et.
 6. İşlem sonucunda kalan;
-	a. Bölümden küküç ise işlemi bitir.
+	a. Bölümden küçük ise işlemi bitir.
 	b. Bölümden büyük ise 4. adıma git.
 ~~~
 
@@ -182,7 +219,7 @@ D)
 3. İkinci sayıyı oku.
 4. Büyük olan sayıyı, küçük olan sayıya bölmeye başla.
 5. İşlem sonucunda kalan;
-	a. Bölümden küküç ise işlemi bitir.
+	a. Bölümden küçük ise işlemi bitir.
 	b. Bölümden büyük ise 4. adıma git.
 6. Yazabileceğin en büyük bölümü yaz ve işleme devam et.	
 ~~~
@@ -237,11 +274,12 @@ D)
 
 ## Cevap Anahtarı
 
-* Sıra Sizde 1  C
-* Sıra Sizde 2  B
-* Sıra Sizde 3  C
-* Sıra Sizde 4  C
-* Sıra Sizde 5  D
+* 1)  C
+* 2)  B
+* 3)  C
+* 4) D
+* 5)  C
+* 6)  D
 
 
 
