@@ -18,7 +18,7 @@
 
 - [ ] [HTTP](http/)
 
-- [ ] DNS
+- [ ] [DNS](DNS/)
 
 - [ ] Domain name
 
