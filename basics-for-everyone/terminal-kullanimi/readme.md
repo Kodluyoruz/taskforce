@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: figures
+---
+
 # TERMİNAL 
 
 ## Terminal Nedir?
@@ -21,6 +25,8 @@ Ek olarak terminalde kullanacağınız komut satırları Linux ve Mac OS işleti
 #### Windows
 **Windows** tabanlı sistemlerde ilk önce **Win** + **R** tuşlarına birlikte basın ardından, açılan **Çalıştır** penceresine *cmd* yazıp **Enter** tuşuna basabilirsiniz.
 
+![terminalwin+r](figures./terminalwin+r.jpg)
+
 #### MacOS
 **Mac OS** bilgisayarlarda ilk önce **⌘** **+** **Space** tuşlarına birlikte basın ardından **Spotlight Search** açıldıktan sonra **terminal** yazıp **Enter** tuşuna basabilirsiniz.
 
@@ -30,6 +36,8 @@ Ek olarak terminalde kullanacağınız komut satırları Linux ve Mac OS işleti
 **Linux** tabanlı sistemlerde **Ctrl** + **Alt** + **T** tuşlarına birlikte basabilirsiniz.
 
 ![terminal2](figures/terminal2.png)
+
+
 
 ### Adım 2: Bulunduğunuz Klasörü Görmek
 
@@ -42,14 +50,27 @@ Bu konum sistemler için genellikle bu konumlardadır;
 
 Bulunduğunuz klasörü terminal ekranına yazdırmak için:
 
-* *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale `pwd` komut satırını yazabilirsiniz.
+* *Mac Os* ve *Linux* tabanlı sistemlerde terminale `pwd` komutunu yazabilirsiniz.
 
 ![MacOS pwd komutu](figures/MacOS_pwd.png)
 
+* Windows tabanlı sistemlerde terminale `echo %cd%` komutunu yazabilirsiniz.
+
+  
+
+![windowsterminali_klasörgörüntüleme](figures/windowsterminali_klasörgörüntüleme.png)
+
 #### Bilgi Köşesi!
 
-* `pwd` : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında halihazırda bulunulan klasörü ekrana yazdırır.
+* `pwd` : Bu komut satırı *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında halihazırda bulunulan klasörü ekrana yazdırır.
+* `echo %cd%` : Bu komut satırı *Windows* tabanlı sistemlerde terminale yazıldığında halihazırda bulunulan klasörü ekrana yazdırır.
 * *İleride işletim sistemleri arasında bir geçiş yapmak istediğinizde dosya yollarını ayırmak için windows'un `\` ters slash kullandığını ve Linux/MacOS ikilisinin ise `/` düz slash kullandığını unutmayın!*
+
+
+
+#### Video Zamanı!
+
+[![video](figures/video-1610726452001.png)](https://youtu.be/eD6Ci_S17k8)
 
 ### Adım 3:  İçerikleri Sıralamak
 
@@ -61,12 +82,19 @@ Bulunduğunuz klasördeki içerikleri ekrana yazdırmak için, bir başka deyiş
 
 * **Windows** tabanlı işletim sistemlerde terminale `dir` komut yazabilirsiniz.
 
+![windowsterminali_liste](figures/windowsterminali_liste.png)
+
 #### Bilgi Köşesi!
 Bazı komutlar Windows ve MacOS/Linux arasında farklılıklar gösterebilir. Bunun temel sebebi Linux ve MacOS'un `Unix` tabanlı olması ve Windows'un kendine özgü `nt` tabanını kullanmasıdır.
 
 * `ls` : Bu komut **Mac Os** *ve* **Linux** tabanlı sistemlerde terminale yazıldığında klasördeki içerikler listelenir.
-
 * `dir` : Bu komut **Windows** tabanlı sistemlerde terminale yazıldığında klasördeki içerikler listelenir.
+
+
+
+#### Video Zamanı!
+
+[![video](figures/video.png)](https://youtu.be/LPo0R7ROYm8)
 
 
 ### Adım 4: Klasörler Arası Geçiş Yapmak
@@ -87,6 +115,8 @@ Bulunduğunuz klasördeki içerikleri listeledikten sonra, karşınıza çıkan 
 
 ![MacOS cd komutu](figures/MacOS_cd.png)
 
+![windowster_cd](figures/windowster_cd.png)
+
 ##### b) Klasörden Çıkmak
 
 Bulunduğunuz klasörden bir üst klasöre çıkmak için:
@@ -99,11 +129,19 @@ Bir önceki komutla birleştirirsek `cd Desktop` komutuyla **Desktop** klasörü
 
 ![MacOS cd üst dizin komutu](figures/MacOS_cd_ust_dizin.png)
 
+![winter_cdcik](figures/winter_cdcik.png)
+
 ##### Bilgi Köşesi!
 
 `cd <klasorismi>` : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında ismi yazılan dizine girilir. 
 
 `cd ..` : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında bir üst dizine geri dönülür.
+
+
+
+#### Video Zamanı!
+
+[![video](figures/video-1610726602333.png)](https://youtu.be/De1rnKCZ134)
 
 
 
@@ -121,9 +159,17 @@ Oluşturduğumuz klasörü rahat görebilmeniz için önce `ls` komutuyla klasö
 
 ![MacOS mkdir komutu](figures/MacOS_mkdir.png)
 
+![winter_mkdir](figures/winter_mkdir.png)
+
 #### Bilgi Köşesi!
 
 `mkdir <klasorismi>` : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında belirtilen klasör isminde yeni bir klasör oluşturur. 
+
+
+
+#### Video Zamanı!
+
+![video](figures/video-1610726665654.png)
 
 
 
