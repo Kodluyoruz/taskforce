@@ -1,7 +1,3 @@
----
-typora-copy-images-to: figures
----
-
 # GOOGLE 
 
 ![google1](figures/google1.png)
@@ -135,7 +131,7 @@ Google’da arama yaparken aşağıdaki maddelere dikkat etmeseniz de olur;
 
 Gün içerisinde bir söz veya şarkı sözü duyduğunuzda ancak bunun sadece belli kısımlarını anlayabildiğinizde ve tamamına ulaşmak istediğinizde Google’ın bu arama yöntemi fazlasıyla yardımcı oluyor. Böyle bir durumla karşılaştığınızda ise yapmanız gereken tek şey, **cümlenin bilmediğiniz kısmına** Google’da arama yaparken **"\* \*" ifadesini** eklemek.
 
-![google9_1](figures\google9_1.jpeg)
+![google9_1](figures/google9_1.jpeg)
 
 
 
