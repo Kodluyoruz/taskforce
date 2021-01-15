@@ -11,7 +11,7 @@ Grid sistem, satırlardan(rows) ve sütunlardan (column) oluşur. Bir satır(row
  
  - Aşağıdaki örnekleri incelediğimiz de her bir satırı sırasıyla 2,3,4 eşit parçalara bölmüş olduk. Peki bunu nasıl yaptık?  `row`  sınıfının altına satırı bölmek istediğimiz kadar `col` sınıfı ekleriz. Bu şekilde bir satırı istediğimiz boyuttaki columnlar halinde oluşturabiliriz. İfade ettiğim cümleyi örneklerle daha iyi pekiştireceğimizi düşünüyorum.
 
-``````
+``````html
 <div class="row">
   <div class="col">Column</div>
   <div class="col">Column</div>
@@ -21,7 +21,7 @@ Grid sistem, satırlardan(rows) ve sütunlardan (column) oluşur. Bir satır(row
  
  
 
-````
+````html
 <div class="row">
   <div class="col">Column</div>
   <div class="col">Column</div>
@@ -29,7 +29,7 @@ Grid sistem, satırlardan(rows) ve sütunlardan (column) oluşur. Bir satır(row
 </div>
 ```` 
 ![3Columns](https://github.com/engntuba/taskforce/blob/bootstrap/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/3column.PNG)
-````
+````html
 <div class="row">
   <div class="col">Column</div>
   <div class="col">Column</div>
@@ -43,7 +43,7 @@ Yukarıdaki örneklerde de görüldüğü üzere satırları eşit parçalar hal
 
 - Bu örnekte 2'ye 10'luk bir column oluşturduk.
 
-````
+````html
 <div class="row">
   <div class="col-2">2 Column</div>
   <div class="col-10">10 Column</div> 
@@ -52,7 +52,7 @@ Yukarıdaki örneklerde de görüldüğü üzere satırları eşit parçalar hal
 ![2of10Columns](https://github.com/engntuba/taskforce/blob/bootstrap/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/img-2.PNG)
 
 - Alttaki örnekte ise satırı 8'e 4'lük bir column halinde bölmüş olduk.
-````
+````html
 <div class="row">
   <div class="col-4">4 Column</div>
   <div class="col-8">8 Column</div> 
@@ -62,7 +62,7 @@ Yukarıdaki örneklerde de görüldüğü üzere satırları eşit parçalar hal
 
 - Satırları böldüğümüzde araya yada herhangi kenara boşlukta ekleyebiliriz onu da şu şekilde gösterelim;
 
-````````
+````````html
 <div class="row">
   <div class="col-4 mr-auto">4 Column</div> <--mr: margin right (sağından boşluk bırak)-->
   <div class="col-5">5 Column</div> 
@@ -82,7 +82,7 @@ Yukarıdaki örneklerde de görüldüğü üzere satırları eşit parçalar hal
 
 - Bir satırı 4'e 8'lik columnlar halinde böldüğümüzü düşünelim bu satırlar daha sonra kendi içlerinde de tekrar 12'lik column gibi düşünülerek bölünebilir. Bunlara iç içe satırlar diyebiliriz. Aşağıdaki örnekte önce satırı 4'e 8'lik olacak şekilde parçaladık daha sonra 8'lik columnı kendi içinde eşit 2 parçaya böldük.
 
-``````
+``````html
     <div class="row">
 			<div class="col-4 border">4 Column</div>
 			<div class="col-8 border">8 Column
