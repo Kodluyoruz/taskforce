@@ -93,12 +93,12 @@ Yukarıdaki ifadede 1'inci index'ten başla ve 4. index'e kadar olan yeri al ded
 
 ```javascript
 let domain = email.slice(email.search("@")+1); 
-console.log(domain); //kodluyoruz.org
+console.log(domain); //"kodluyoruz.org"
 ```
 
 ```javascript
 let domain = email.slice(email.indexOf("@")+1); 
-console.log(domain); //kodluyoruz.org
+console.log(domain); //"kodluyoruz.org"
 ```
 
 ##### Bilgiyi Değiştirmek
@@ -107,7 +107,7 @@ console.log(domain); //kodluyoruz.org
 
 ```javascript
 email = email.replace("kodluyoruz.org", "gmail.com");
-console.log(email); //kodluyoruz@gmail.com
+console.log(email); //"kodluyoruz@gmail.com"
 ```
 
 ##### İstediğim Bilgi Var Mı?
