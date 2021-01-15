@@ -12,7 +12,7 @@ let lastName = "BOOTCAMP"
 
 Bu değişkenleri yazı boyunca kullanacağız.
 
-#### Karakter Sayısı
+### Karakter Sayısı
 
 String bir ifadenin karakter sayısını (uzunluğunu) bulmak istiyorsak **length** özelliğini kullanırız.
 
@@ -21,7 +21,7 @@ console.log(email.length);  //25
 console.log(firstName.length); //10
 ```
 
-#### Karakter Yeri (Index)
+### Karakter Yeri (Index)
 
 String bir ifadenin içerisinde, aradığımız karakterin yerini bulmak için 2 yöntem vardır. **[ ]** ve **chartAt**() metodu bize bu konuda yardımcı olur.
 
@@ -30,7 +30,7 @@ console.log(firstName.[0]); //"J"
 console.log(firstName.charAt(2)); //"v"
 ```
 
-#### Büyük/Küçük Harfe Çevirme
+### Büyük/Küçük Harfe Çevirme
 
 String bir ifadeyi tamamen büyük veya küçük harf yapmak istiyorsak. Büyük harf için **toUpperCase()**, küçük harf için ise **toLowerCase**() metotlarını kullanırız.
 
@@ -42,7 +42,7 @@ lastName = lastName.toLowerCase();
 console.log(lastName); //"bootcamp"
 ```
 
-#### İlk Harfi Büyük Kalan Harfleri Küçük Yapma
+### İlk Harfi Büyük Kalan Harfleri Küçük Yapma
 
 En başta değişkenlerimizi tanımlardan *lastName* değişkenimizi "BOOTCAMP" olarak sadece büyük harf ile yazdık. Bu ifademizi "Bootcamp" değiştirmek isteyebiliriz. Ya da sadece küçük harfler ile yazılmış bir özel ismin ilk harfini, büyük harf yapmak istiyor olabiliriz.
 
@@ -52,7 +52,7 @@ Bu tür durumları şu şekilde sağlarız.
 lastName = `${lastName[0].toUpperCase()}${lastName.slice(1).toLowerCase()}` //Bootcamp
 ```
 
-#### İstediğimiz Bilgiyi Aramak
+### İstediğimiz Bilgiyi Aramak
 
 String bir ifade içerisinde, istediğimiz bir bilginin yerini bulmak için **search()** metodunu kullanırız. Kontrol ettiğimiz ifade nereden başlıyor ise bize onun yerini verir.
 
@@ -72,7 +72,7 @@ search() yerine kullanabileceğimiz başka bir metot ise **indexOf()** metodudur
 console.log(email.indexOf(".")); //21
 ```
 
-#### Belli Bir Bilgiyi Almak
+### Belli Bir Bilgiyi Almak
 
 Biraz önce search() metoduyla @ işaretinin nerede olduğunu almıştık. İşte bu noktada @ işaretinden sonra gelen domain bilgisini almak bizim için çok kolay bir hale geldi, **slice()** methoduyla bu işlemi gerçekleştirebiliriz. 
 
@@ -101,7 +101,7 @@ let domain = email.slice(email.indexOf("@")+1);
 console.log(domain); //"kodluyoruz.org"
 ```
 
-#### Bilgiyi Değiştirmek
+### Bilgiyi Değiştirmek
 
 *email* değişkeninde domaini değiştirmek istersek eğer, **replace()** metodu bize yardımcı olur.
 
@@ -110,7 +110,7 @@ email = email.replace("kodluyoruz.org", "gmail.com");
 console.log(email); //"kodluyoruz@gmail.com"
 ```
 
-#### İstediğim Bilgi Var Mı?
+### İstediğim Bilgi Var Mı?
 
 Aradığımız bilginin değişken içerisinde olup olmadığını kontrol etmek için **includes()** metodunu kullanırız. true veya false döner.
 
@@ -119,7 +119,7 @@ email.includes("@"); //true
 email.includes("$"); //false
 ```
 
-#### Nasıl Başladı Nasıl Bitti?
+### Nasıl Başladı Nasıl Bitti?
 
 Aldığımız veri istediğimiz bilgiyle başladı mı? Veya istediğimiz bilgiyle bitti mi? Bu durumu kontrol etmek için **startsWith()** ve **endsWith()** metodunu kullanırız. 
 
