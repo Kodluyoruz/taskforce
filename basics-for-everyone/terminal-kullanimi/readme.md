@@ -1,7 +1,3 @@
----
-typora-copy-images-to: figures
----
-
 # TERMİNAL 
 
 ## Terminal Nedir?
@@ -70,7 +66,7 @@ Bulunduğunuz klasörü terminal ekranına yazdırmak için:
 
 #### Video Zamanı!
 
-[![video](figures/video-1610726452001.png)](https://youtu.be/eD6Ci_S17k8)
+[![video](figures/video.png)](https://youtu.be/eD6Ci_S17k8)
 
 ### Adım 3:  İçerikleri Sıralamak
 
@@ -141,7 +137,7 @@ Bir önceki komutla birleştirirsek `cd Desktop` komutuyla **Desktop** klasörü
 
 #### Video Zamanı!
 
-[![video](figures/video-1610726602333.png)](https://youtu.be/De1rnKCZ134)
+[![video](figures/video.png)](https://youtu.be/De1rnKCZ134)
 
 
 
@@ -169,7 +165,7 @@ Oluşturduğumuz klasörü rahat görebilmeniz için önce `ls` komutuyla klasö
 
 #### Video Zamanı!
 
-![video](figures/video-1610726665654.png)
+[![video](figures/video.png)](https://youtu.be/eKOvNolcpBA)
 
 
 
