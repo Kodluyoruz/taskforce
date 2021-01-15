@@ -29,7 +29,7 @@ Ek olarak terminalde kullanacağınız komut satırları Linux ve Mac OS işleti
 #### Linux
 **Linux** tabanlı sistemlerde **Ctrl** + **Alt** + **T** tuşlarına birlikte basabilirsiniz.
 
-![terminal2](figures/terminal2.jpg)
+![terminal2](figures/terminal2.png)
 
 ### Adım 2: Bulunduğunuz Klasörü Görmek
 
@@ -49,7 +49,7 @@ Bulunduğunuz klasörü terminal ekranına yazdırmak için:
 #### Bilgi Köşesi!
 
 * `pwd` : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında halihazırda bulunulan klasörü ekrana yazdırır.
-* *İleride işletim sistemleri arasında bir geçiş yapmak istediğinizde dosya yollarını ayırmak için windows'un `\` ters slash kullandığını ve Linux/MacOS ikilisinin ise `/`düz slash kullandığını unutmayın!*
+* *İleride işletim sistemleri arasında bir geçiş yapmak istediğinizde dosya yollarını ayırmak için windows'un `\` ters slash kullandığını ve Linux/MacOS ikilisinin ise `/` düz slash kullandığını unutmayın!*
 
 ### Adım 3:  İçerikleri Sıralamak
 
@@ -124,6 +124,8 @@ Oluşturduğumuz klasörü rahat görebilmeniz için önce `ls` komutuyla klasö
 #### Bilgi Köşesi!
 
 `mkdir <klasorismi>` : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında belirtilen klasör isminde yeni bir klasör oluşturur. 
+
+
 
 
 

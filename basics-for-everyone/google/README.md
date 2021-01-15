@@ -66,7 +66,7 @@ Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık ge
  
 
 * **İnternet** günlük hayatın vazgeçilmez bir parçası. Sınırlarını hayal etmekte bile zorlandığımız bu devasa bilgi ağında kullanıcılar aradıklarını hızlı bir şekilde bulabilmek için arama motorlarından yardım alıyor.
-* Bildiğiniz gibi Google şu an için en popüler arama motoru konumunda. Milyonlarca kullanıcı aradıkları sonuca ulaşabilmek için Google’ın gelişmiş filtreleme ve arama özelliklerini kullanıyor. **Google** her ne kadar gelişmiş filtreleme seçenekleri sunsa da kullanıcıların da atması gereken bir takım adımlar var. Bu adımlar sonuçların daha doğru ve daha net olmasını garantiliyor. Gelin şimdi atılması gereken adımları inceleyelim. Bu adımları oluştururken doğru ve anlaşılır olmasına dikkat ettik. Bu nedenle başta "Tamindir" olmak üzere, çeşitli teknoloji sitesinin yazdığı içeriklerden faydalandık.
+* Bildiğiniz gibi Google şu an için en popüler arama motoru konumunda. Milyonlarca kullanıcı aradıkları sonuca ulaşabilmek için Google’ın gelişmiş filtreleme ve arama özelliklerini kullanıyor. **Google** her ne kadar gelişmiş filtreleme seçenekleri sunsa da kullanıcıların da atması gereken bir takım adımlar var. Bu adımlar sonuçların daha doğru ve daha net olmasını garantiliyor. Gelin şimdi atılması gereken adımları inceleyelim. 
 
 
 
@@ -128,19 +128,19 @@ Sosyal medya kanaları üzerinde aradığınız sonuçlar için yapacağınız a
 
 #### **+[profil-ismi]**
 
-​		Google’da yapacağınız aramanın başına + (artı) işareti koyduktan sonra bir isim yazıp arattığınızda o ismin **Google** **Plus** hesaplarına ulaşabilirsiniz.
+Google’da yapacağınız aramanın başına + (artı) işareti koyduktan sonra bir isim yazıp arattığınızda o ismin **Google** **Plus** hesaplarına ulaşabilirsiniz.
 
 
 
 #### **#[kelime]**
 
-​		Hashtag (#) sembolünü kullanarak yapacağınız aramalarla Google+, Twitter ve diğer **sosyal** **medya** platformlarında yer alan hashtag’lere ait sonuçları listeleyebilirsiniz.
+Hashtag (#) sembolünü kullanarak yapacağınız aramalarla Google+, Twitter ve diğer **sosyal** **medya** platformlarında yer alan hashtag’lere ait sonuçları listeleyebilirsiniz.
 
 ![g3](figures/g3.png)
 
 #### **@[kişi-ismi]**
 
-​		Sosyal medya kanalları üzerinde yapacağınız kişi aramaları için kişi isminden önce "@" sembolünü kullanmanız gerekmekte.
+Sosyal medya kanalları üzerinde yapacağınız kişi aramaları için kişi isminden önce "@" sembolünü kullanmanız gerekmekte.
 
 ![g4](figures/g4.png)
 
