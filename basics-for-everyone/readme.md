@@ -32,7 +32,7 @@
 
 - [x] [Visual Studio Code Nedir?](visual-studio-code-nedir/)
 
-- [ ] [Proje Klasörünün Açılması ve Dosyalarla Çalışmak](vs-dosyalarla-calismak)
+- [x] [Proje Klasörünün Açılması ve Dosyalarla Çalışmak](vs-dosyalarla-calismak)
 
 - [ ] Genel Görünüm, Tema ve Dosya İkonu Ayarları
 
