@@ -59,9 +59,7 @@ Sayımızın geriye doğru azalması gerektiği için -- ifadesini kullandık.
 
 Önce kendiniz yapmayı deneyin, aşağıdaki linkten cevaba ulaşabilirsiniz. 
 
-```
-https://codepen.io/sahinaykkt/pen/NWRYpNy?editors=0011
-```
+[Çözüm Ödev 1](https://codepen.io/sahinaykkt/pen/NWRYpNy?editors=0011)
 
 
 
@@ -88,7 +86,5 @@ Daha sonra çift sayıları alabilmek için bir koşul ifadesi yazdık.
 
 Önce kendiniz yapmayı deneyin, aşağıdaki linkten cevaba ulaşabilirsiniz. 
 
-```
-https://codepen.io/sahinaykkt/pen/KKgoWwe?editors=0011
-```
+[Çözüm Ödev 2](https://codepen.io/sahinaykkt/pen/KKgoWwe?editors=0011)
 
