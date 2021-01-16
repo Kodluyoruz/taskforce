@@ -74,4 +74,23 @@ var sonuc2 = topla(10,20); // geçersiz
 
 
 ```
+### Quiz
+
+#### Javascript'te fonksiyon nasıl yaratılır?
+a) function:myFunction()
+b) function = myFunction()
+c) function myFunction()
+
+-cevap : b
+
+#### myFunction isimli fonksiyon nasıl çağrılır?
+a) myFunction()
+b) call function myFunction()
+c) call myFunction()
+
+-cevap : a
+
+### Kaynaklar:
+[javascript.info](https://javascript.info/function-basics)
+[MDN Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
