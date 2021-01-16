@@ -94,4 +94,4 @@ Bu örneğimizde "scss" klasörünün içinde "main.css" dosyasının oluşturul
 
 Bu yazımızda sizlere Visual Studio Code'da proje dosyasının nasıl oluşturulacağını ve açılacağını aynı zamanda yine Visual Studio Code içerisinde dosyalarla ve klasörle nasıl çalışılacağını anlatmaya çalıştık. Yazımızda değindiğimiz her şey Mac Os ve Windows tabanlı sistemlerde birebir aynı şekilde gerçekleştiriliyor. Yine de tüm bu işlemlerin Mac Os işletim sisteminde nasıl gerçekleştirildiğini merak ediyorsanız bu videoyu ziyaret edebilirsiniz.
 
-[![macoswin](C:\Users\Emirhan Şahin\Documents\GitHub\taskforce\basics-for-everyone\vs-dosyalarla-calismak\figures\macoswin.png)](https://youtu.be/OjFXuoQ6ruM)
+[![macoswin](figures/macoswin.png)](https://youtu.be/OjFXuoQ6ruM)
