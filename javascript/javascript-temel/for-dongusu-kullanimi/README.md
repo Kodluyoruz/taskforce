@@ -57,7 +57,7 @@ Sayımızın geriye doğru azalması gerektiği için -- ifadesini kullandık.
 
 ### Ödev 1: 20 ile 40 arasındaki tüm sayıları konsola yazdırın.
 
-Aşağıdaki linke tıklayarak ödevi yapabilirsiniz. 
+Önce kendiniz yapmayı deneyin, aşağıdaki linkten cevaba ulaşabilirsiniz. 
 
 ```
 https://codepen.io/sahinaykkt/pen/NWRYpNy?editors=0011
@@ -86,7 +86,7 @@ Daha sonra çift sayıları alabilmek için bir koşul ifadesi yazdık.
 
 ### Ödev 2: 0 ve 50 sayıları arasından tek olanları console'a yazdıralım.
 
-Aşağıdaki linke tıklayarak ödevi yapabilirsiniz. 
+Önce kendiniz yapmayı deneyin, aşağıdaki linkten cevaba ulaşabilirsiniz. 
 
 ```
 https://codepen.io/sahinaykkt/pen/KKgoWwe?editors=0011
