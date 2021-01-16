@@ -93,3 +93,11 @@ Benzer şekilde yapılandırıcılar tasarlanarak nesne üretiminde esneklik sa�
 
 - Hayır, sınıfların farklı parametreler alan birden fazla yapıcısı olabilir.
 - Evet, eğer bir yapıcı tanımlamazsak nesne üretmemiz yine mümkündür. Default yapıcının çalışacağını belirmiştik.
+
+## Kaynaklar:
+- [Oracle - Class](https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html)
+- [Oracle - Object](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html)
+- [Oracle - Creating Objects](https://docs.oracle.com/javase/tutorial/java/javaOO/objectcreation.html)
+- [Oracle Objects and Classes](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html)
+
+
