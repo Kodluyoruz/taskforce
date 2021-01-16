@@ -40,7 +40,7 @@ mesajVer("Arturo"); /* çıktı: Merhaba Arturo undefined (Bu örnekte parametre
 mesajVer(); // çıktı Merhaba undefined undefined (Yukarıdaki örnekle aynı mantıktadır.)
 ```
 
-##Geri Dönüş Değeri (Return Value)
+## Geri Dönüş Değeri (Return Value)
 Bir fonksiyon **return** anhatar kelimesi kullanılarak sıfır yada bir değer döner:
   ```javascript
 function topla(sayi1, sayi2) {
