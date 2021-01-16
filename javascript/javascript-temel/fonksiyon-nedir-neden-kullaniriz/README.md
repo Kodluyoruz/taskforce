@@ -77,7 +77,7 @@ var sonuc2 = topla(10,20); // geçersiz
 ### Quiz
 
 #### Javascript'te fonksiyon nasıl yaratılır?
-a) function:myFunction()
+a) function:myFunction()                                                                                                            
 b) function = myFunction()
 c) function myFunction()
 
