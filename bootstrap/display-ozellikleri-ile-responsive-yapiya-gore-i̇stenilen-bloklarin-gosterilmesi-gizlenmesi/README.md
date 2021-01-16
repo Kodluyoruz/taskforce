@@ -135,6 +135,4 @@ Görüldüğü üzere, 5 farklı h1 elementini farklı ekran boyutlarında göst
 [CSS display - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display)  
 [CSS display property - w3schools](https://www.w3schools.com/cssref/pr_class_display.asp)  
 [Display Property - Bootstrap](https://getbootstrap.com/docs/4.0/utilities/display/)  
-[Bootstrap Utilities - w3schools](https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp)  
-=======
-# Display Özellikleri ile Responsive Yapıya Göre İstenilen Blokların Gösterilmesi / Gizlenmesi
+[Bootstrap Utilities - w3schools](https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp)
