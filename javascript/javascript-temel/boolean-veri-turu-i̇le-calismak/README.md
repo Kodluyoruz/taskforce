@@ -88,3 +88,7 @@ console.log(Boolean(a));
 ```
 ### Cevap: C
 
+# Kaynaklar
+
+https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Boolean
+https://www.w3schools.com/js/js_booleans.asp
