@@ -34,7 +34,7 @@ console.log(activeUsers.fullName); //(2)[{...},{...}] (Ali Duran, Ahmet Yılmaz)
 //Üst satırdaki sonuç bize, elemanları nesne olan 2 elemanlı bir dizi olduğunu söylüyor.
 ```
 
-Sorular:
+###Sorular:
 
 ```javascript
 const person = [{
