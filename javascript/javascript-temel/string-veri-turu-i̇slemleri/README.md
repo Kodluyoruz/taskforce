@@ -131,7 +131,7 @@ email.endsWith("org"); //true
 ### Sorular:
 
 ```javascript
-let url = "https://www.kodluyoruz.org";
+let url = "www.kodluyoruz.org";
 let language = "Java";
 ```
 
@@ -141,4 +141,5 @@ let language = "Java";
 
 ### Soru 2: Yukarıdaki *url* değişkenini kullanarak "www" olmadan *domain* (kodluyoruz.org) adında yeni bir değişken oluşturun ve konsola yazdırın.
 
-[Çözüm Soru 2](https://codepen.io/sahinaykkt/pen/mdraxZM?editors=0010)
+[Çözüm Soru 2](https://codepen.io/sahinaykkt/pen/mdraxZM?editors=0011)
+
