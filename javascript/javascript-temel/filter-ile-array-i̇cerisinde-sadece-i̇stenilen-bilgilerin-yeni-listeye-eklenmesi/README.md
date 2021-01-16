@@ -1,5 +1,6 @@
-# Filter ile Array İçerisinde Sadece İstenilen Bilgilerin Yeni Listeye Eklenmesi
-Bir Array metodu olan **filter()**, dizi elemanlarını döngüye alıp, istediğimiz koşula sahip olanlarla yeni bir dizi oluşturmak için kullanılır. Orijinal diziyi bozmaz.
+# Filter Metodu
+
+Bir Array metodu olan **filter()**, dizi elemanlarını döngüye alıp, istediğimiz koşula sahip olanlarla yeni bir dizi oluşturmak için kullanılır.
 
 ```javascript
 const products = ["Mikrofon","Kablo","Telefon","Bilgisayar","Mouse","Klavye","Ekran"]
@@ -20,8 +21,8 @@ Pekiştirmek için bir örnek daha yapalım.
 const users = [
 	{fullName: "Mehmet Veli", isActive: false},
 	{fullName: "Ali Duran", isActive: true},
-    	{fullName: "Ahmet Yılmaz", isActive: true},
-    	{fullName: "Oğuz Şahin", isActive: false},
+    {fullName: "Ahmet Yılmaz", isActive: true},
+    {fullName: "Oğuz Şahin", isActive: false},
 ]
 ```
 
@@ -30,5 +31,34 @@ Yukardaki *users* dizisindeki nesneler içerisinden isActive'i true olanları al
 ```javascript
 const activeUsers = users.filter(user => user.isActive === true);
 console.log(activeUsers.fullName); //(2)[{...},{...}] (Ali Duran, Ahmet Yılmaz)
+//Üst satırdaki sonuç bize, elemanları nesne olan 2 elemanlı bir dizi olduğunu söylüyor.
 ```
-Üst satırdaki sonuç bize, activeUsers'ın 2 elemanlı, elemanları nesne olan bir dizi olduğunu söylüyor.
+
+Sorular:
+
+```javascript
+const person = [{
+  name: "Adem",
+  age: 25,
+  languages: ["JavaScript", "CSS"],
+},
+{
+  name: "Oğuz",
+  age: 33,
+  languages: ["Java", "HTML"],
+  }
+];
+```
+
+### Soru 1: Yukarıdaki diziyi kullanarak filter() metodu ile yaşı 30'dan büyük olan kişiyi getirin.
+
+Önce kendiniz yapmayı deneyin, aşağıdaki linkten cevaba ulaşabilirsiniz. 
+
+[Soru 1 Çözüm](https://codepen.io/sahinaykkt/pen/YzGdaeW?editors=0011)
+
+### Soru 2: Yukarıdaki diziyi kullanarak filter() metodu ile JavaScript bilen kişiyi getirin.
+
+Önce kendiniz yapmayı deneyin, aşağıdaki linkten cevaba ulaşabilirsiniz. 
+
+[Soru 2 Çözüm](https://codepen.io/sahinaykkt/pen/BaLvrxw?editors=0010)
+
