@@ -56,4 +56,11 @@ Yazılan bu kodun çıktısı aşağıdaki gibi olacaktır:
 - Selin : 46
 ```
 
-Eğer dikkat ettiyseniz, veriyi listelerken `li` etiketi içerisinde her bir liste elemanını temsilen bir `key` kullandık. Keyler hangi liste elemanı üzerinde değişiklik yapıldığını belirlemede React'a yardımcı olur. Bu açıdan değerlendirecek olursak listeleme yaparken **_özgün_** bir `key` kullanmayı unutmamamız gerekir. Bu genelde bir verinin id'si olur fakat yukarıdaki örnekteki gibi id belirtilmemişse index kullanılabilir.
+## Liste içerisinde özgün bir key gereksinimi
+
+Eğer dikkat ettiyseniz, veriyi listelerken `li` etiketi içerisinde her bir liste elemanını temsilen bir `key` kullandık. Keyler hangi liste elemanı üzerinde değişiklik yapıldığını belirlemede React'a yardımcı olur. Bu açıdan değerlendirecek olursak listeleme yaparken **_özgün_** bir `key` kullanmayı unutmamak gerekir. Bu genelde bir React varsayılan olarak her bir liste elemanının indexini kullanıp `key` ataması yapar.
+
+## Kaynaklar
+
+[Listeler ve anahtarlar, React Dökümantasyonu](https://tr.reactjs.org/docs/lists-and-keys.html)
+[Index as a key is an anti-pattern - Robin Pokorny](https://robinpokorny.medium.com/index-as-a-key-is-an-anti-pattern-e0349aece318)
