@@ -2,7 +2,7 @@
 
 ## Sorun
 
-React Context API ile **prop drilling** denen sorunun önüne geçmeyi amaçlanmaktadır.
+React Context API, **prop drilling** denen sorunun önüne geçmeyi amaçlamaktadır.
 
 ## Prop Drilling Nedir?
 
@@ -235,11 +235,11 @@ const HeaderTitle = () => {
 
 
 
-## Provider Component'ine Yazılan Bir Metod ile State Değerini Değiştirme
+## Provider Component'ine Yazılan Bir Metot ile State Değerini Değiştirme
 
 Şimdi biraz daha ileriye götürelim ve bir butona tıklanması durumunda title’ın değiştirilmesini sağlayalım. Ancak bu değişikliği de `Provider` içerisine yazacağımız bir metodu kullanarak yapalım.
 
-Öncelikle `Provider` Componentimiz içerisine **handleTitleChange** adında bir metot tanımlayalım. Tanımladığımız bu metodun diğer componentler içerisinde de kullanılabilmesini sağlayabilmek için **value** içerisine aynı zamanda referans olarak bu metodu verelim. **value** ile birden fazla değeri erişelebilir yapabilmek için göndermek istenilen state’leri, metodları bir nesne içerisinde göndermemiz gerekmektedir.
+Öncelikle `Provider` Componentimiz içerisine **handleTitleChange** adında bir metot tanımlayalım. Tanımladığımız bu metodun diğer componentler içerisinde de kullanılabilmesini sağlayabilmek için **value** içerisine aynı zamanda referans olarak bu metodu verelim. **value** ile birden fazla değeri erişelebilir yapabilmek için göndermek istenilen state’leri, metotları bir nesne içerisinde göndermemiz gerekmektedir.
 
 ```javascript
 ...
