@@ -22,7 +22,7 @@
 
 - [ ] [Domain name](domain-name/)
 
-- [ ] Hosting
+- [ ] [Hosting](hosting/)
 
   
 
