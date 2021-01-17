@@ -19,7 +19,7 @@ Web sayfamızı tasarlarken sütunlarda yani "col" sınıfına sahip div element
 
  Yukarıda verilen kodun çıktısı;
 
-![img1](C:\Users\MONSTER\Desktop\img1.JPG)
+![img1](/figures/img1.JPG)
 
 Yukarıdaki örnekte offset için sağdan ve soldan toplam 2 birim ayrıldı. Eğer ki sütunun boyutu 8 birim olarak ayarlansaydı offset için verilebilecek en uygun değer 2 birim olacaktı.
 
@@ -35,7 +35,7 @@ Yukarıdaki örnekte offset için sağdan ve soldan toplam 2 birim ayrıldı. E�
 
 Yukarıda verilen kodun çıktısı;,
 
-![img2](C:\Users\MONSTER\Desktop\img2.JPG)
+![img2](/figures/img2.JPG)
 
 Yukarıdaki örnekte sütun genişliği 8 birim, offset değeri ise sağdan 4 birim ve soldan 4 birim olarak verilmiştir. Fakat verilen değerler toplamı Grid yapısının alabileceği maksimum değerden fazla olduğu için offset ile sütuna yalnızca sol taraftan bir itme uygulanmıştır. Bunun yanı sıra offset için eğer 4'ten fazla bir değer girilseydi de sağ taraftan yapı dışına bir taşma söz konusu olacaktı.
 
