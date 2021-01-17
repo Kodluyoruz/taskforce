@@ -20,7 +20,7 @@
 
 - [ ] [DNS](DNS/)
 
-- [ ] Domain name
+- [ ] [Domain name](domain-name/)
 
 - [ ] Hosting
 
