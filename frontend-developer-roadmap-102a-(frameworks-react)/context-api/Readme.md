@@ -90,7 +90,9 @@ Bu örneğimizde pek fazla props ile veriyi aktarma işlemi gerçekleştirmiyor 
 
 Context API’nın burada getirdiği çözüm ise, aktarılmak istenen değerleri global şekilde tutar ve direkt olarak kullanılması gereken component’e aktarılmasını sağlar. Böylelikle bir state’i, component ağacının altlarında bulunan bir component’e aktarmak istediğiniz zaman, her seferinde props olarak göndermenize gerek kalmaz.
 
-![Prop-drilling-1](figures/context-api.png)
+<p align="center">
+  <img src="figures/context-api.png" alt="context-api"/>
+</p>
 
 Yukarıdaki örneğimizde bulunan title state’ini Context API kullanarak nasıl `HeaderTitle` component’ine aktarabileceğimize bakalım.
 
