@@ -10,7 +10,9 @@ Prop drilling, bir `state`'in component ağacımızın daha yukarısında buluna
 
 Bir state’imiz olduğunu düşünelim (array, nesne veya string türünde bir değer olabilir) ve bunu en alttaki component’te kullanmamız gerekiyorsa, yapacağımız işlem bu state değer veya değerlerini o component’te tanımlamak olacaktır.
 
-![Prop-drilling-1](figures/prop-drilling-1.png)
+<p align="center">
+  <img src="figures/prop-drilling-1.png" alt="Prop-drilling-1"/>
+</p>
 
 
 
@@ -18,17 +20,23 @@ Bir süre sonra bu değerin sadece o component’te değil de sibling dediğimiz
 
 
 
-![Prop-drilling-1](figures/prop-drilling-2.png)
+<p align="center">
+  <img src="figures/prop-drilling-2.png" alt="Prop-drilling-2"/>
+</p>
 
 
 
 Aradan bir süre daha geçti ve bu state’in yine aynı şekilde başka component’lerde de kullanılma ihtiyacı olduğunu varsayalım. Yine aynı şekilde state’i diğer component'lere aktarabilmek için, state’i component ağacında daha yukarıda bulunan bir component’e taşımanız gerekecektir.
 
-![Prop-drilling-1](figures/prop-drilling-3.png)
+<p align="center">
+  <img src="figures/prop-drilling-3.png" alt="Prop-drilling-3"/>
+</p>
 
 Biraz daha zaman geçtikten sonra bu aktardığımız state’i farklı bir dal’da bulunan (örneğin Container dalının en altında bulunan) bir component’e aktarmak istediğimiz zaman, o state’i daha yukarıya taşımamız gerekecektir.
 
-![Prop-drilling-1](figures/prop-drilling-4.png)
+<p align="center">
+  <img src="figures/prop-drilling-4.png" alt="Prop-drilling-4"/>
+</p>
 
 Görselde de görebileceğiniz gibi component ağacımızın yukarısında bulunan bir component’ten, altlarda bulunan bir child component'e bir değer aktarmak istediğimiz zaman arada birkaç component’e de sadece bu değeri aktarabilmek için props yoluyla göndermek zorunda kalıyoruz. İşte bu duruma prop drilling denmektedir. **Prop drilling** ile ilgili küçük bir örnek yapalım.
 
@@ -72,7 +80,9 @@ Buradaki örneği sadece fikir verme açısından düşünecek olursak eğer `Ap
 
 Bu örneğimizde pek fazla props ile veriyi aktarma işlemi gerçekleştirmiyor olsakta, uygulamanızın component ağacının dikey konumda büyümesi durumunda, bu şekilde props ile component ağacının aşağısında bulunan bir component’e state’i gönderdiğinizi düşünün.
 
-![waste-of-time](https://media.giphy.com/media/TKvErZACqjawXcTMSP/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/TKvErZACqjawXcTMSP/giphy.gif" alt="waste-of-time"/>
+</p>
 
 
 
@@ -198,7 +208,10 @@ Context.Consumer içerisine yazmış olduğumuz bu fonksiyonunun parametresi iç
 
 Bu değerleri görebilmek için öncelikle context’i, tarayıcımızın konsoluna yazdıralım.
 
-![Prop-drilling-1](figures/context-api-console.png)
+<p align="center">
+  <img src="figures/context-api-console.png" alt="context-api-console"/>
+</p>
+
 
 Gördüğünüz gibi `Provider` component'imizin **value** kısmına göndermiş olduğumuz `title` state’ine, `HeaderTitle` componentimiz içerisinde, Context’in `Consumer` component’ini kullanarak erişim sağlamış olduk.
 
