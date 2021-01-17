@@ -34,7 +34,7 @@
 
 - [x] [Proje Klasörünün Açılması ve Dosyalarla Çalışmak](vs-dosyalarla-calismak)
 
-- [ ] Genel Görünüm, Tema ve Dosya İkonu Ayarları
+- [x] [Genel Görünüm, Tema ve Dosya İkonu Ayarları](vs-genelgorunum/)
 
 - [ ] IntelliSense ve Emmet Özelliklerine Genel Bakış
 

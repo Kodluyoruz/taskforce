@@ -1,7 +1,3 @@
----
-typora-copy-images-to: figures
----
-
 # Visual Studio Code Menü Çubuğu
 
 Bu yazımızda sizlere Visual Studio Code'taki genel görünüm, tema ve dosya ikonu ayarlarını anlatacağız.
@@ -108,9 +104,10 @@ Tema ve dosya ikonu ayarları için ilk önce, menü çubuğunda tanıttığım�
 
 
 
-- "Color Theme" seçeniğine tıklayarak editörünüzün temasını ayarlayabilirsiniz.
+- **"Color Theme"** seçeniğine tıklayarak editörünüzün temasını ayarlayabilirsiniz.
 
-![vs-temaör](figures/vs-temaör.png)
+![vs-tema](figures/vs-tema.gif)
 
-* "File Icon Theme" seçeneğine tıklayarak editörünüzdeki dosya ikonlarını değiştirebilirsiniz.
+* **"File Icon Theme"** seçeneğine tıklayarak editörünüzdeki dosya ikonlarını değiştirebilirsiniz.
 
+![vs-fileikon](figures/vs-fileikon.gif)
