@@ -1,6 +1,8 @@
-# Visual Studio Code Menü Çubuğu
+# VS CODE |Genel Görünüm, Tema ve Dosya İkonu Ayarları
 
 Bu yazımızda sizlere Visual Studio Code'taki genel görünüm, tema ve dosya ikonu ayarlarını anlatacağız.
+
+## Genel Görünüm
 
 ![vs-menübar](figures/vs-menübar.png)
 
@@ -10,7 +12,7 @@ Visual Studio Code'a başarılı bir şekilde giriş yaptıktan sonra bizleri so
 
 
 
-## Explorer
+### Explorer
 
 ![vs-menübar2exp](figures./vs-menübar2exp.png)
 
@@ -28,7 +30,7 @@ Proje klasörünü başarılı bir şekilde açtıktan sonra yukarıdaki görsel
 
 
 
-## Search
+### Search
 
 ![vs-search](figures/vs-search.png)
 
@@ -50,7 +52,7 @@ Menü çubuğunda ikinci olarak karşımıza "Search" kısmı çıkıyor. Bu kı
 
 
 
-## Source Control
+### Source Control
 
 ![vs-source](figures/vs-source.png) Run
 
@@ -60,7 +62,7 @@ Menü çubuğunda ikinci olarak karşımıza "Search" kısmı çıkıyor. Bu kı
 
 
 
-## Run
+### Run
 
 ![vs-debug](figures/vs-debug.png)
 
@@ -68,7 +70,7 @@ Menü çubuğunda dördüncü kısım olarak bizleri "Run" karşılıyor. Bu kı
 
 
 
-## Extensions
+### Extensions
 
 ![vs-ext](figures/vs-ext.png)
 
@@ -96,7 +98,7 @@ Menü çubuğundaki diğer ve son kısımda da komut paletini görüntüleyebile
 
 
 
-# Tema ve Dosya İkonu Ayarları
+## Tema ve Dosya İkonu Ayarları
 
 ![vs-tema](figures/vs-tema.png)
 
