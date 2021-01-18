@@ -27,7 +27,7 @@
 - [Hosting](hosting/)
 
 
- 
+
 
 #### Editor Kullanımı
 
@@ -38,6 +38,7 @@
 - [Genel Görünüm, Tema ve Dosya İkonu Ayarları](vs-genelgorunum/)
 
 <<<<<<< Updated upstream
+
 - IntelliSense ve Emmet Özelliklerine Genel Bakış
 
 - Eklentiler
@@ -73,8 +74,9 @@
  - MacOS & Linux Temel Terminal Komutları
 
 - MultiCursor (Çoklu İmleç) Kullanımı
-<<<<<<< Updated upstream
-=======
+
+  <<<<<<< Updated upstream
+  =======
 >>>>>>> e123476a0e1a262ef3142da220de2f30237f7796
 >>>>>>> Stashed changes
 
