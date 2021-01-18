@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # HOSTING
 
 Bir web sitesindeki içeriğe ulaşmak için istek gönderdiğimizi ve cevaba göre içeriği görüntülediğimizi biliyoruz. IP adresler ise nereye bakmamızı söylüyor. Buraya kadar tamam ama biz gerçekten nereye bakıyoruz ? Baktığımız web sitesi birinin bilgisayarında çalışıyor da ben ona mı soruyorum şu sayfaya bakmak istiyorum diye ? Hayır, başka birinin bilgisayarında birebir çalışma ihtimali oldukça düşük. 
@@ -76,5 +75,4 @@ Hosting nedir kısaca tekrar bakmak isterseniz aşağıdaki videoyu izleyebilirs
 
 Kaynaklar:
 
->>>>>>> Stashed changes
 * https://www.whoishostingthis.com/resources/web-hosting/

@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # Domain Name (Alan Adı)
 
 Bir web sitesine ulaşırken "www.ornek.com" gibi bir uzantı gireriz. Burada www kısmı her web sitesinde ortak olduğu için hatırlamamız gereken kısım "ornek.com" olur. Eğer bu kısmı hatırlarsak web sitesine direkt giriş sağlayabiliriz. İşte bu kısım yani "ornek.com" **domain name(alan adı)**.
@@ -52,4 +51,3 @@ Kaynaklar:
 
 * https://en.wikipedia.org/wiki/Domain_name
 * https://www.cloudflare.com/learning/dns/glossary/what-is-a-domain-name/
->>>>>>> Stashed changes
