@@ -1,39 +1,155 @@
-# Python 101
+## Programı Dallandırma (Branching)
 
-- [x] [Programlama Nedir?](programlama-nedir/)
-- [x] [Temel Veri Tipleri](temel-veri-tipleri/)
-- [x] [Değişken Atama](degisken-atama/)
-- [x] [Operatörler ve İfadeler](operator-expression/)
-- [x] [Stringler](stringler/)
-  - [x] [Stringler Üzerinde Operatörler](string-operator/)
-  - [x] [Stringlerde İndexleme](string-indexing/)
-  - [x] [Stringlerde Casting](string-casting/)
-- [x] [Input](input/)
-- [ ] [Koda Yorum Ekleme](yorum/)
-- [x] [Sayısal Verilerde Karşılaştırma](numeric-comparison/)
-- [x] [Stringlerde Karşılaştırma](string-comparison/)
-- [x] [Mantıksal Operatörler](logical-operator/)
-- [x] [Short-circuit](short-circuit/)
-- [x] [Short-circuit Olmayan Mantıksal Operatörler](not-short-circuit/)
-- [ ] [If-else-elif](if-else-elif/)
-  - [ ]  [Python'daki False Değerler](false-values/) 
-  - [ ] [Ternary Conditionals](ternary-conditionals/)
-- [ ] [Döngüler](loops/)
-- [ ] [Non-Scalar Veri Tipleri](non-scalar/)
-  - [ ] [List](list/)
-  - [ ] [Tuple](tuple/)
-  - [ ] [set](set/)
-  - [ ] [Dictionary](dictionary/)
-  - [ ] [Non-scalar Veri Tiplerinde For](non-scalar-for/)
-- [ ] [List Comprehension](list-comprehension/)
-- [ ] [Varible Unpacking](variable-unpacking/)
-- [ ] [Enumerate](enumerate/)
-- [ ] [Zip Fonksiyonu](zip/)
-- [ ] [Fonksiyonlar](functions/)
-  - [ ] [return](return/)
-  - [ ] [Birden Fazla Değer Döndürme](multiple-return/)
-  - [ ] [Anonim (lambda) Fonksiyonları](lambda-function/)
-- [ ] [Float Veri Tiplerinin Tutulması](float/)
-- [ ] [Underscore Placeholder](underscore-placeholder/)
-- [ ] [fstring](fstring/)
+* İfadelerin değerlerinin True veya False olduklarını veren karşılaştırmalara ve mantıksal operatörlere bakmıştık
+
+* Şimdi bunların sonuçlarına göre programımızı dallandırmaya bakacağız
+
+  
+
+## `if`
+
+* Eğer testimin değeri True ise `if` bloğunun içinde yazanı yapacağız
+
+* Yapılacakların `if` bloğuna ait olduğunu anlatmak için kodu `if` in içine yazarız. Python'ın o bloğun içinde olduğumuzu anlaması için boşluk bırakmamız gerekir
+
+
+```python
+x = int(input("Bir sayı girin: "))
+
+if x % 2 == 0: 
+    print("Sayınız çift sayı")
+
+print("Programınız sona ulaştı")
+```
+
+    >>> Bir sayı girin: 3
+    >>> Programınız sona ulaştı
+
+
+## `else`
+
+* `if` ile kontrolümüz (veya elseif-elif) `False` sonucu döndürülürse yapılacak blok
+
+
+```python
+x = int(input("Bir sayı girin: "))
+
+if x % 2 == 0:
+    print("Sayınız çift sayı")
+else:
+    print("Sayınız tek sayı")
+
+print("Programınız sona ulaştı")
+```
+
+    >>> Bir sayı girin: 2
+    >>> Sayınız çift sayı
+    >>> Programınız sona ulaştı
+
+
+## `elif`
+
+* `elif` `if` ile yaptığımız teste ek olarak başka testler yapmak istiyorsak kullanılır
+
+
+```python
+x = int(input("Bir sayı girin: "))
+
+if x < 10:
+    print("Sayı 10'dan küçük")
+
+    
+elif x == 10:
+    print("Sayı 10'a eşit")
+    
+else:
+    print("Sayı 10'dan büyük")
+    
+print("Programınız sona ulaştı")
+```
+
+    >>> Bir sayı girin: 10
+    >>> Sayı 10'a eşit
+    >>> Programınız sona ulaştı
+
+
+
+```python
+x = int(input("0 ile 100 arasında bir sayı girin: "))
+
+if x == 100:
+    print("Sayı 100")
+
+elif x >= 90:
+    print("Sayı 90 ile 100 arasında")
+
+elif x >= 80:
+    print("Sayı 80 ile 90 arasında")
+    
+else:
+    print("Sayı 80'den küçük")
+    
+print("Programınız sona ulaştı")
+```
+
+    >>> 0 ile 100 arasında bir sayı girin: 82
+    >>> Sayı 80 ile 90 arasında
+    >>> Programınız sona ulaştı
+
+
+## Nested if
+
+* `if`, `elif` ve `else` bloğunun içine yazdığımız kod normal koddan farklı değil, o yüzden bunların içine de ayrıca `if`, `elif` ve `else` yazabiliriz
+
+
+```python
+x = int(input("Bir sayı girin: "))
+
+if x % 3 == 0:
+    if x % 2 == 0:
+        print("Sayı hem 2'ye hem de 3'e bölünüyor")
+    else:
+        print("Sayı 3'e bölünüyor ama 2'ye bölünmüyor")
+
+else:
+    
+    print("3'e bölünmüyor")
+    
+print("Programınız sona ulaştı")
+```
+
+    >>> Bir sayı girin: 9
+    >>> Sayı 3'e bölünüyor ama 2'ye bölünmüyor
+    >>> Programınız sona ulaştı
+
+
+## Test Olarak Mantıksal Operatörleri Kullanmak
+
+
+```python
+x = int(input("Bir sayı girin: "))
+
+if (x % 3 == 0) and (x % 2) == 0:
+    print("Sayı hem 2'ye hem de 3'e bölünüyor")
+    
+print("Programınız sona ulaştı")
+```
+
+    >>> Bir sayı girin: 9
+    >>> Programınız sona ulaştı
+
+
+
+```python
+x = int(input("Bir sayı girin: "))
+
+if (x % 3 == 0) or (x % 2 == 0):
+    print("Sayı 2 veya 3'den en az birine bölünüyor")
+    
+print("Programınız sona ulaştı")
+```
+
+    >>> Bir sayı girin: 11
+    >>> Programınız sona ulaştı
+
 

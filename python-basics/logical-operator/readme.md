@@ -1,39 +1,191 @@
-# Python 101
+## Mantıksal Operatörler (Logical Operators)
 
-- [x] [Programlama Nedir?](programlama-nedir/)
-- [x] [Temel Veri Tipleri](temel-veri-tipleri/)
-- [x] [Değişken Atama](degisken-atama/)
-- [x] [Operatörler ve İfadeler](operator-expression/)
-- [x] [Stringler](stringler/)
-  - [x] [Stringler Üzerinde Operatörler](string-operator/)
-  - [x] [Stringlerde İndexleme](string-indexing/)
-  - [x] [Stringlerde Casting](string-casting/)
-- [x] [Input](input/)
-- [ ] [Koda Yorum Ekleme](yorum/)
-- [x] [Sayısal Verilerde Karşılaştırma](numeric-comparison/)
-- [x] [Stringlerde Karşılaştırma](string-comparison/)
-- [x] [Mantıksal Operatörler](logical-operator/)
-- [x] [Short-circuit](short-circuit/)
-- [x] [Short-circuit Olmayan Mantıksal Operatörler](not-short-circuit/)
-- [ ] [If-else-elif](if-else-elif/)
-  - [ ]  [Python'daki False Değerler](false-values/) 
-  - [ ] [Ternary Conditionals](ternary-conditionals/)
-- [ ] [Döngüler](loops/)
-- [ ] [Non-Scalar Veri Tipleri](non-scalar/)
-  - [ ] [List](list/)
-  - [ ] [Tuple](tuple/)
-  - [ ] [set](set/)
-  - [ ] [Dictionary](dictionary/)
-  - [ ] [Non-scalar Veri Tiplerinde For](non-scalar-for/)
-- [ ] [List Comprehension](list-comprehension/)
-- [ ] [Varible Unpacking](variable-unpacking/)
-- [ ] [Enumerate](enumerate/)
-- [ ] [Zip Fonksiyonu](zip/)
-- [ ] [Fonksiyonlar](functions/)
-  - [ ] [return](return/)
-  - [ ] [Birden Fazla Değer Döndürme](multiple-return/)
-  - [ ] [Anonim (lambda) Fonksiyonları](lambda-function/)
-- [ ] [Float Veri Tiplerinin Tutulması](float/)
-- [ ] [Underscore Placeholder](underscore-placeholder/)
-- [ ] [fstring](fstring/)
+* Verilerimizle nasıl karşılaştırma yapabileceğimizi gördük. Bunların cevaplarını birleştirmek isteyebiliriz. İki ifadenin sonucu da doğru olunca bir şey yapmak veya en az biri doğruyken bir şey yapmak isteyebilirim. 
+
+* Bunu sağlayabilmek için `boolean` veri tipleri üzerine uygulanabilecek mantıksal operatörlere bakacağız
+
+* Göreceğimiz mantıksal operatörlerinin uygulandığı veri tipleri `boolean` olmalı
+
+## `not`
+
+
+```python
+not True
+```
+
+> False
+
+
+
+
+```python
+not False
+```
+
+> True
+
+
+
+
+```python
+not 5 < 6
+```
+
+> False
+
+
+
+
+```python
+not 5 == 5
+```
+
+> False
+
+
+
+
+```python
+a = 4
+b = 10
+```
+
+
+```python
+not a < b
+```
+
+> False
+
+
+
+
+```python
+not (a > b)
+```
+
+> True
+
+
+
+## `and`
+
+* Sadece iki ifade de `True` ise `True` sonucu verir, yoksa `False` olur
+
+
+```python
+True and True
+```
+
+> True
+
+
+
+
+```python
+True and False
+```
+
+> False
+
+
+
+
+```python
+False and False
+```
+
+> False
+
+
+
+
+```python
+a = 4
+b = 1
+c = 10
+```
+
+
+```python
+(a > b) and (b < c)
+```
+
+> True
+
+
+
+
+```python
+(a > b) and (b > c)
+```
+
+> False
+
+
+
+## `or` 
+
+* Sadece iki ifade de `False` ise `False` sonucu verir, yoksa `True` olur
+
+
+```python
+True or True
+```
+
+> True
+
+
+
+
+```python
+True or False
+```
+
+> True
+
+
+
+
+```python
+False or False
+```
+
+> False
+
+
+
+
+```python
+a = 4
+b = 1
+c = 10
+```
+
+
+```python
+(a > b) or (b < c)
+```
+
+> True
+
+
+
+
+```python
+(a > b) or (b > c)
+```
+
+> True
+
+
+
+
+```python
+(a < b) or (b > c)
+```
+
+> False
+
+
 

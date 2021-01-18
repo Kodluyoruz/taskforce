@@ -1,39 +1,76 @@
-# Python 101
+## &
 
-- [x] [Programlama Nedir?](programlama-nedir/)
-- [x] [Temel Veri Tipleri](temel-veri-tipleri/)
-- [x] [Değişken Atama](degisken-atama/)
-- [x] [Operatörler ve İfadeler](operator-expression/)
-- [x] [Stringler](stringler/)
-  - [x] [Stringler Üzerinde Operatörler](string-operator/)
-  - [x] [Stringlerde İndexleme](string-indexing/)
-  - [x] [Stringlerde Casting](string-casting/)
-- [x] [Input](input/)
-- [ ] [Koda Yorum Ekleme](yorum/)
-- [x] [Sayısal Verilerde Karşılaştırma](numeric-comparison/)
-- [x] [Stringlerde Karşılaştırma](string-comparison/)
-- [x] [Mantıksal Operatörler](logical-operator/)
-- [x] [Short-circuit](short-circuit/)
-- [x] [Short-circuit Olmayan Mantıksal Operatörler](not-short-circuit/)
-- [ ] [If-else-elif](if-else-elif/)
-  - [ ]  [Python'daki False Değerler](false-values/) 
-  - [ ] [Ternary Conditionals](ternary-conditionals/)
-- [ ] [Döngüler](loops/)
-- [ ] [Non-Scalar Veri Tipleri](non-scalar/)
-  - [ ] [List](list/)
-  - [ ] [Tuple](tuple/)
-  - [ ] [set](set/)
-  - [ ] [Dictionary](dictionary/)
-  - [ ] [Non-scalar Veri Tiplerinde For](non-scalar-for/)
-- [ ] [List Comprehension](list-comprehension/)
-- [ ] [Varible Unpacking](variable-unpacking/)
-- [ ] [Enumerate](enumerate/)
-- [ ] [Zip Fonksiyonu](zip/)
-- [ ] [Fonksiyonlar](functions/)
-  - [ ] [return](return/)
-  - [ ] [Birden Fazla Değer Döndürme](multiple-return/)
-  - [ ] [Anonim (lambda) Fonksiyonları](lambda-function/)
-- [ ] [Float Veri Tiplerinin Tutulması](float/)
-- [ ] [Underscore Placeholder](underscore-placeholder/)
-- [ ] [fstring](fstring/)
+* `&`'da `and`'in yaptığını yapar ama short-circuit davranışı göstermez. 
 
+  
+
+
+```python
+(2 == 2) & (3 == 3)
+```
+
+> True
+
+
+
+
+```python
+(5 < 3) & print("hey")
+```
+
+> hey
+
+    ---------------------------------------------------------------------------
+    
+    TypeError                                 Traceback (most recent call last)
+    
+    <ipython-input-2-26ebba7ba675> in <module>
+    ----> 1 (5 < 3) & print("hey")
+    TypeError: unsupported operand type(s) for &: 'bool' and 'NoneType'
+
+
+
+
+* `5 < 3 and print("hey")` karşılaştırması yaptığımızda hata almıyorken `5 < 3 & print("hey")`'de hata alıyoruz. `and` boolean ile NoneType karşılaştırırken hata vermezken, `&` hata veriyor
+
+## |
+
+* `|`'da `or`'un yaptığını yapar ama short-circuit davranışı göstermez. 
+
+  
+
+
+```python
+(2 == 2) | (3 < 3)
+```
+
+> True
+
+
+
+
+```python
+(5 > 3) or print("hey")
+```
+
+> True
+
+
+
+
+```python
+(5 > 3) | print("hey")
+```
+
+> hey
+
+    ---------------------------------------------------------------------------
+    
+    TypeError                                 Traceback (most recent call last)
+    
+    <ipython-input-7-b932c1e836d4> in <module>
+    ----> 1 (5 > 3) | print("hey")
+    TypeError: unsupported operand type(s) for |: 'bool' and 'NoneType'
+
+
+* `5 < 3 or print("hey")` karşılaştırması yaptığımızda hata almıyorken `5 < 3 | print("hey")`'de hata alıyoruz. `or` boolean ile NoneType karşılaştırırken hata vermezken, `|` hata veriyor
