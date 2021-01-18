@@ -1,4 +1,4 @@
-# Visual Studio Code
+# Visual Studio Code (VS CODE)
 
 ## Visual Studio Code Nedir?
 

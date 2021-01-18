@@ -1,7 +1,3 @@
----
-typora-copy-images-to: figures
----
-
 # GOOGLE 
 
 ![google1](figures/google1.png)
@@ -66,7 +62,7 @@ Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık ge
  
 
 * **İnternet** günlük hayatın vazgeçilmez bir parçası. Sınırlarını hayal etmekte bile zorlandığımız bu devasa bilgi ağında kullanıcılar aradıklarını hızlı bir şekilde bulabilmek için arama motorlarından yardım alıyor.
-* Bildiğiniz gibi Google şu an için en popüler arama motoru konumunda. Milyonlarca kullanıcı aradıkları sonuca ulaşabilmek için Google’ın gelişmiş filtreleme ve arama özelliklerini kullanıyor. **Google** her ne kadar gelişmiş filtreleme seçenekleri sunsa da kullanıcıların da atması gereken bir takım adımlar var. Bu adımlar sonuçların daha doğru ve daha net olmasını garantiliyor. Gelin şimdi atılması gereken adımları inceleyelim. Bu adımları oluştururken doğru ve anlaşılır olmasına dikkat ettik. Bu nedenle başta "Tamindir" olmak üzere, çeşitli teknoloji sitesinin yazdığı içeriklerden faydalandık.
+* Bildiğiniz gibi Google şu an için en popüler arama motoru konumunda. Milyonlarca kullanıcı aradıkları sonuca ulaşabilmek için Google’ın gelişmiş filtreleme ve arama özelliklerini kullanıyor. **Google** her ne kadar gelişmiş filtreleme seçenekleri sunsa da kullanıcıların da atması gereken bir takım adımlar var. Bu adımlar sonuçların daha doğru ve daha net olmasını garantiliyor. Gelin şimdi atılması gereken adımları inceleyelim. 
 
 
 
@@ -74,11 +70,9 @@ Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık ge
 
 Yapacağınız aramayı ne kadar komplike hale getirirseniz sonuçlar da bir o kadar karmaşık olacaktır. Bu yüzden aramanızı mümkün olduğunca **basit** tutun. Bu tavsiyeyi uygulayabilmek için aramak istediğiniz konu hakkında bir veya iki kelime seçin ve bu şekilde aratın. Bu aramadan çıkan sonuçlar yetersiz gelirse birkaç adet daha konuyla alakalı kelime yazarak arama yapabilirsiniz.
 
-#### Örnek!
-
 **Arama:** Türkiye’nin yüzölçümü kaç kilometrekaredir?
 
-**Daha etkili arama:** Türkiye yüzölçümü
+**Örnek arama:** Türkiye yüzölçümü
 
 ![g1](figures/g1.jpg)
 
@@ -90,11 +84,9 @@ Arama yaparken doğru kelimeleri seçmek kadar bu kelimelerin nasıl dizildiği 
 
 Google’da ünlü bir cümle veya özlü söz aratacağınız zaman anahtar kelimelerin sırasına mümkün olduğunca dikkat etmek gerekiyor.
 
-#### Örnek!
-
 **Arama:** Az düşünürse insan konuşur
 
-**Daha etkili arama:** İnsan ne kadar az düşünürse, o kadar çok konuşur
+**Örnek arama:** İnsan ne kadar az düşünürse, o kadar çok konuşur
 
 Her ikisinde de sonuçlar çıkıyor fakat ikinci adımdaki mantığı uygularsanız daha karmaşık sonuçlar için daha etkili bir arama metodu uygulamış olursunuz.
 
@@ -118,29 +110,68 @@ Google’da arama yaparken aşağıdaki maddelere dikkat etmeseniz de olur;
 
 - Özel karakterler (parantez, artı, eksi vb.)
 
-  
 
-### **4- Sosyal aramalar**
+
+
+### **4- Dosya tipleriyle arama yapın**
+
+Özel bir **dosya türüne** ait bilgi için Google’da arama yaptığınızda "internetin zararları word" gibi arama kalıplarıyla istediğiniz sonuçlara ulaşamayabilirsiniz. Bunun için bir arama yöntemine sahip olan Google’da, aramak istediğiniz bilginin önüne `filetype:` ekini ve sonuna da **dosya türünü** getirmenizle beraber sadece o dosya türüne ait sonuçlar ekranınıza listelenecek.
+
+**Örnek arama: ** internetin zararları filetype:doc
+
+![google10_1](figures/google10_1.png)
+
+
+
+
+
+### 5-  Bir kısmını unuttuğunuz cümleleri arama
+
+
+
+Gün içerisinde bir söz veya şarkı sözü duyduğunuzda ancak bunun sadece belli kısımlarını anlayabildiğinizde ve tamamına ulaşmak istediğinizde Google’ın bu arama yöntemi fazlasıyla yardımcı oluyor. Böyle bir durumla karşılaştığınızda ise yapmanız gereken tek şey, **cümlenin bilmediğiniz kısmına** Google’da arama yaparken **"\* \*" ifadesini** eklemek.
+
+![google9_1](figures/google9_1.jpeg)
+
+
+
+
+
+### 6- Birden fazla kelime ile arama yapma
+
+Birden fazla kelime ile arama yaptığınızda ve her kelimenin aramanın içinde geçmesini istiyorsanız çift tırnak kullanabilirsiniz.
+
+**Örnek arama**: “kodluyoruz hakkında”
+
+![google-hakkında](figures/google-hakkında.png)
+
+
+
+### 7- Bir site içerisinde arama yapma
+
+Bir web sitesi içinde arama yapmak istiyorsanız `site:` özelliğini kullananabilirsiniz.
+
+**Örnek arama**: cs50x site:kodluyoruz.org
+
+![googlesite](figures/googlesite.png)
+
+
+
+### 8- Sosyal aramalar
 
 Sosyal medya kanaları üzerinde aradığınız sonuçlar için yapacağınız aramalarda bazı noktalara dikkat etmeniz gerekiyor.
 
 
 
-#### **+[profil-ismi]**
-
-​		Google’da yapacağınız aramanın başına + (artı) işareti koyduktan sonra bir isim yazıp arattığınızda o ismin **Google** **Plus** hesaplarına ulaşabilirsiniz.
-
-
-
 #### **#[kelime]**
 
-​		Hashtag (#) sembolünü kullanarak yapacağınız aramalarla Google+, Twitter ve diğer **sosyal** **medya** platformlarında yer alan hashtag’lere ait sonuçları listeleyebilirsiniz.
+Hashtag (#) sembolünü kullanarak yapacağınız aramalarla Google+, Twitter ve diğer **sosyal** **medya** platformlarında yer alan hashtag’lere ait sonuçları listeleyebilirsiniz.
 
 ![g3](figures/g3.png)
 
 #### **@[kişi-ismi]**
 
-​		Sosyal medya kanalları üzerinde yapacağınız kişi aramaları için kişi isminden önce "@" sembolünü kullanmanız gerekmekte.
+Sosyal medya kanalları üzerinde yapacağınız kişi aramaları için kişi isminden önce "@" sembolünü kullanmanız gerekmekte.
 
 ![g4](figures/g4.png)
 
@@ -148,7 +179,7 @@ Sosyal medya kanaları üzerinde aradığınız sonuçlar için yapacağınız a
 
 
 
-### **5- Gün doğumu ve gün batımı sonuçları**
+### **9- Gün doğumu ve gün batımı sonuçları**
 
 Google’ı dünya üzerindeki herhangi bir şehrin veya bölgenin gün doğumu ve gün batımı saatlerini öğrenmek için kullanabilirsiniz.
 
@@ -156,32 +187,29 @@ Bunu yapabilmek için;  *Gün doğumu/gün batımı, şehir ismi*
 
 ![g5](figures/g5.png)
 
-### **6- Eş anlamlı kelime ile arama yapma**.
+
+
+### **10- Eş anlamlı kelime ile arama yapma**.
 
 Google’da herhangi bir anahtar kelimeyi eş anlamlı alternatifleriyle aratma şansına sahipsiniz.
 
-**(~)** sembolünden sonra yazacağını herhangi bir kelime eş anlamlı alternatifleriyle aratılacak. Bu sembolü yapmak için;  ***Alt Gr + Ü*** *(ardından kelimeyi yazın)*
+`~` sembolünden sonra yazacağını herhangi bir kelime eş anlamlı alternatifleriyle aratılacak. Bu sembolü yapmak için;  ***Alt Gr + Ü*** *(ardından kelimeyi yazın)*
 
 ![g6](figures/g6.jpg)
 
-### **7- Limitler arası arama yapma.**
+
+
+### **11- Limitler arası arama yapma.**
 
 Google’da belirli limitler arasında arama yapabilirsiniz. Bu limitler fiyat aralığı, tarih veya ölçü birimi olabilir.
 
-**Tavsiye edilen arama tipi:** *3000..4000 TL Android telefon*
+**Örnek arama:** *3000..4000 TL Android telefon*
 
 ![g7](figures/g7.png)
 
 Elbette bu örneğe benzer şekilde birçok farklı arama gerçekleştirebilirsiniz.
 
-### **8- Dosya tipleriyle arama yapın**
 
-Herhangi bir konuda arama yaparken çıkacak sonuçları belli bir dosya tipiyle sınırlandırabilirsiniz.
-Örneğin akademik bir makale ararken başa **"pdf" **yazarsanız sadece *pdf* sonuçlardan oluşan bir liste bulabilirsiniz.
-
-**İdeal arama: ** *pdf yazılım öğrenme yöntemleri*
-
-![g8](figures\g8.png)
 
 **Google**’da arama yaparken bu adımları izleyerek daha **hedef** **odaklı** aramalar yapabilir ve arama yaparken harcayacağınız vakti hatırı sayılır ölçüde kısaltabilirsiniz. Bahsini ettiğimiz teknikleri tek tek uygulayabileceğiniz gibi birkaç tanesini kombine edip arama yapmak da mümkün. Eğer siz de Google’ı aktif bir şekilde kullanıyorsanız arama sonuçlarınızı daha efektif hale getirmek için yukarıdaki önerileri uygulayabilirsiniz.
 
@@ -249,3 +277,4 @@ Herhangi bir konuda arama yaparken çıkacak sonuçları belli bir dosya tipiyle
 * https://www.tamindir.com/blog/googlei-daha-etkili-kullanmak-icin-ipuclari_15804/
 * https://www.kodkoda.com/
 * https://stackoverflow.com/
+* https://www.webtekno.com/google-arama-yontemleri-h95625.html

@@ -1,7 +1,3 @@
----
-typora-copy-images-to: figures
----
-
 # PSEUDOCODE (SÖZDE KOD)
 
 
@@ -14,39 +10,12 @@ typora-copy-images-to: figures
 
 ![img](figures/sözdekod1.jpg)	
 
-
-
-## Video Zamanı!
-
-[![sözdekod](figures/sözdekod.png)](https://youtu.be/7UcIc7QahBE)
-
-
-
-### Sıra Sizde 1! 
-
-**Pseudocode (Sözde Kod) ile ilgili verilen bilgilerden hangisi** **yanlıştır?**
-
-A) Pseudocode program akışı içinde yazılmalıdır.
-
-B) Pseudocode proglama dilinin detaylarından uzaktır.
-
-C) Pseudocode’da proglamlama dilinin söz dizimlerinde dikkat edilir.
-
-D) Pseudocode’da gerektiği yerlerde doğal dil cümleleri kullanılır.
-
-
-
 ## Pseudocode Neden Kullanılır?
 
 * Pseudocode (Sözde Kod)’ a ihtiyaç duyulmasının temel nedeni programlama dillerini bilmeyen sıradan bir insanın ve her türden yazılımcının programlardaki algoritma mantığını anlamasını sağlamaktır.
 
 * Sözde kodun kullanılmasının bir diğer amacı programın yapımcısına veya programın kullanıcılarına kullanılan programlama dilinden bağımsız olarak, o programın çözüm, çalışma mantığının sunulmasının sağlanmasıdır.
 
-  
-
-  <img src="figures/sözdekod2.jpg" alt="img" style="zoom:50%;" />
-  
-  
 
 
 
@@ -66,9 +35,23 @@ D) Pseudocode’da gerektiği yerlerde doğal dil cümleleri kullanılır.
 
 
 
-### Sıra Sizde 2!
+// Sözel ve görsel örnek ekle.
 
-**Pseudocode (Sözde Kod) özellikleri ile ilgili verilen bilgilerden hangisi** **doğrudur?**
+## Sorular
+
+1. **Pseudocode (Sözde Kod) ile ilgili verilen bilgilerden hangisi** **yanlıştır?**
+
+A) Pseudocode program akışı içinde yazılmalıdır.
+
+B) Pseudocode proglama dilinin detaylarından uzaktır.
+
+C) Pseudocode’da proglamlama dilinin söz dizimlerinde dikkat edilir.
+
+D) Pseudocode’da gerektiği yerlerde doğal dil cümleleri kullanılır.
+
+---
+
+2. **Pseudocode (Sözde Kod) özellikleri ile ilgili verilen bilgilerden hangisi** **doğrudur?**
 
 A) Üzerlerinde hata ayıklaması (debugging) yapılabilir.
 
@@ -78,15 +61,9 @@ C) Söz dizim (syntax) kurallarına dikkat edilir.
 
 D) Kod niteliği taşırlar.
 
+---
 
-
-## Pseudocode Örnekleri 
-
-<img src="figures\södekod5.gif" alt="södekod5" style="zoom:50%;" />
-
-
-
-**Örnek 1:** Sabah işe giden bir çalışanı düşünelim. İşe gidene kadar hangi işlemleri yapması gerekiyor bunu düşünelim.
+3. *Sabah işe giden bir çalışanı düşünelim. İşe gidene kadar hangi işlemleri yapması gerekiyor bunu düşünelim.*
 
 ```pseudocode
 1. Uyan.
@@ -100,10 +77,6 @@ D) Kod niteliği taşırlar.
 9. Durağa git.
 10. Otobüs ile ofise git.
 ```
-
-
-
-### Sıra Sizde 3!
 
 **Aşağıdakilerden hangisi örnek verilen pseudocode’ un bir parçasıdır?**
 
@@ -147,9 +120,44 @@ D)
 5. Yatağından kalk.
 ```
 
+---
 
+4. İki sayının toplamını veren algoritmayı pseudocode ile yazacak olsaydık şu şekilde görünecekti.
 
-**Örnek 2:** İki sayının toplamını veren algoritmayı pseudocode ile yazacak olsaydık şu şekilde görünecekti.
+A)
+
+```pseudocode
+1. Başla.
+2. Birinci sayıyı oku. (sayi1)
+3. toplam = sayi1 + sayi2
+4. İkinci sayıyı oku. (sayi2)
+5. toplam
+6. Bitir.
+```
+
+B)
+
+```pseudocode
+1. Başla.
+2. Birinci sayıyı oku. (sayi1)
+3. İkinci sayıyı oku. (sayi2)
+4. Bitir.
+5. toplam
+6. toplam = sayi1 + sayi2
+```
+
+C)
+
+```pseudocode
+1. Birinci sayıyı oku. (sayi1)
+2. Başla.
+3. İkinci sayıyı oku. (sayi2)
+4. toplam = sayi1 + sayi2
+5. Bitir.
+6. toplam
+```
+
+D)
 
 ```pseudocode
 1. Başla.
@@ -160,11 +168,9 @@ D)
 6. Bitir.
 ```
 
+---
 
-
-### Sıra Sizde 4!
-
-**İki sayının bölümünü veren pseudocode aşağıdakilerden hangisidir?**
+5. **İki sayının bölümünü veren pseudocode aşağıdakilerden hangisidir?**
 
 A)
 
@@ -175,7 +181,7 @@ A)
 4. Büyük olan sayıyı, küçük olan sayıya bölmeye başla.
 5. Yazabileceğin en büyük bölümü yaz ve işleme devam et.
 6. İşlem sonucunda kalan;
-	a. Bölümden küküç ise işlemi bitir.
+	a. Bölümden küçük ise işlemi bitir.
 	b. Bölümden büyük ise 4. adıma git.
 ```
 
@@ -188,7 +194,7 @@ B)
 4. Yazabileceğin en büyük bölümü yaz ve işleme devam et.
 5. Büyük olan sayıyı, küçük olan sayıya bölmeye başla.
 6. İşlem sonucunda kalan;
-	a. Bölümden küküç ise işlemi bitir.
+	a. Bölümden küçük ise işlemi bitir.
 	b. Bölümden büyük ise 4. adıma git.
 ```
 
@@ -201,7 +207,7 @@ C)
 4. Büyük olan sayıyı, küçük olan sayıya bölmeye başla.
 5. Yazabileceğin en büyük bölümü yaz ve işleme devam et.
 6. İşlem sonucunda kalan;
-	a. Bölümden küküç ise işlemi bitir.
+	a. Bölümden küçük ise işlemi bitir.
 	b. Bölümden büyük ise 4. adıma git.
 ~~~
 
@@ -213,16 +219,14 @@ D)
 3. İkinci sayıyı oku.
 4. Büyük olan sayıyı, küçük olan sayıya bölmeye başla.
 5. İşlem sonucunda kalan;
-	a. Bölümden küküç ise işlemi bitir.
+	a. Bölümden küçük ise işlemi bitir.
 	b. Bölümden büyük ise 4. adıma git.
 6. Yazabileceğin en büyük bölümü yaz ve işleme devam et.	
 ~~~
 
+---
 
-
-### Sıra Sizde 5!
-
-**Elinizde aşağıdaki gibi karışık bir yapboz olduğunu düşünün. Bu yapbozu şıklardaki hangi pseudocode kullanılarak çözülebilir?**
+6. **Elinizde aşağıdaki gibi karışık bir yapboz olduğunu düşünün. Bu yapbozu şıklardaki hangi pseudocode kullanılarak çözülebilir?**
 
 <img src="figures\sözdekod4.jpg" alt="sözdekod4" style="zoom:50%;" />
 
@@ -266,15 +270,16 @@ D)
 5. Yapbozu bitir.
 ~~~
 
-
+---
 
 ## Cevap Anahtarı
 
-* Sıra Sizde 1  C
-* Sıra Sizde 2  B
-* Sıra Sizde 3  C
-* Sıra Sizde 4  C
-* Sıra Sizde 5  D
+* 1)  C
+* 2)  B
+* 3)  C
+* 4) D
+* 5)  C
+* 6)  D
 
 
 
@@ -287,7 +292,3 @@ D)
 3. https://technogezgin.com/pseudocode-nedir-sozde-kod/
 
 4. https://medium.com/@edisdev/algoritma-ve-pseudo-kodu-nedir-38ad7d09a73e
-
-
-
-
