@@ -70,6 +70,4 @@
 
 -  [try ve catch Kullanımı](try-ve-catch-kullanimi/)
 
-#### Fetch API
-
--  [Fetch API ile Çalışmak](fetch-api-ile-calismak/)
+#### [Fetch API ile Çalışmak](fetch-api-ile-calismak/)
