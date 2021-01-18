@@ -57,6 +57,6 @@ Basit bir hazır Bootstrap örneği:
 
 # Bootstrap öğrenimi için linkler
 - [Resmi Bootstrap dökümantasyonu](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-- [Bootstrap bileşenleri -1](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- [Bootstrap bileşenleri -1](https://www.toptal.com/front-end/what-is-bootstrap-a-short-tutorial-on-the-what-why-and-how)
 - [Bootstrap bileşenleri -2](https://www.w3schools.com/whatis/whatis_bootstrap.asp)
 - [Hazır Bootstrap temaları ](https://themes.getbootstrap.com/)
