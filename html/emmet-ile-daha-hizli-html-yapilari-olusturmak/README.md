@@ -119,7 +119,23 @@
 </ul>
 ```
 Gördüğünüz gibi ```ul>.className``` yazıp Tab’a bastığımızda ise bunun ```li``` elementi olduğunu algılıyor. 
-### Umarım bu yazı sizin için faydalı olmuştur. Yararlandığım, kendim de çalışırken bakındığım birkaç kaynak bırakıyorum alt kısma. Ayrıca Emmet’in kendi sitesindeki cheat sheete  [buradan](https://docs.emmet.io/cheat-sheet/)  ulaşabilirsiniz. Bu konuda bol bol egzersiz yapmayı unutmayın lütfen, emin olun emmet kullanımı çalışma hızınızı arttıracak ve sizi gereksiz çabadan kurtaracaktır. Kendinize iyi bakın :)
+
+## Emmet ile alakalı bir kaç soru 
+#### ```ul``` tagı altında ```item1 ,item2, item3, item4``` classlarına sahip 4 adet ```li``` tagı oluşturmak istersek aşağıdakilerden hangisini yapmalıyız?
+- A) ```ul>li#item*4```
+- B) ```ul>li.item$*4```
+- C) ```ul>li*4```
+- D) ```.li.item*4```
+
+#### ```div``` tagı altında ```item``` idsine sahip 10 kelimelik loremleri içeren 6 adet  ```p``` tagı oluşturmak istersek aşağıdakilerden hangisini yapmalıyız?
+- A) ```div>p#item$.lorem10```
+- B) ```p.item*6.lorem```
+- C) ```div>p#item*6>lorem10```
+- D) ```.item.p>lorem1```
+ 
+ ##### Cevapları en alttaki kısımda bulabilirsiniz, ya da isterseniz yazıp taba bakarak çıktıları kendiniz görebilirsiniz :innocent:
+
+### Umarım bu yazı sizin için faydalı olmuştur. Yararlandığım, kendim de çalışırken bakındığım birkaç kaynak bırakıyorum alt kısma. Ayrıca Emmet’in kendi sitesindeki cheat sheete  [buradan](https://docs.emmet.io/cheat-sheet/)  ulaşabilirsiniz. Bu konuda bol bol egzersiz yapmayı unutmayın lütfen, emin olun emmet kullanımı çalışma hızınızı arttıracak ve sizi gereksiz çabadan kurtaracaktır. Kendinize iyi bakın :blush:
 
 <br/>
 <br/>
@@ -129,3 +145,5 @@ Gördüğünüz gibi ```ul>.className``` yazıp Tab’a bastığımızda ise bun
 <br/>
 
 [Speed up your HTML workflow with Emmet](https://medium.com/swlh/speed-up-your-html-workflow-with-emmet-f5c887854c63)
+<br/>
+### Cevap 1: B , Cevap 2: C 
