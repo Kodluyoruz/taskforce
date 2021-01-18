@@ -165,9 +165,88 @@
 
 
 
+## context 
+
+1. Context.Provider içerisinde diğer component'ler tarafından erişilmesini istediğimiz değerleri yazdığımız props'un adı nedir?
+   
+   value
+
+2. Provider’ın value kısmına yazmış olduğumuz bir değere erişmek için Context’in hangi componentini çağırmamız gerekir?
+
+   Consumer
+
+
+
+## refs
+
+1. Ref özelliğini fonksiyon bileşenleri üzerinde kullanabiliriz.
+
+   Doğru,Yanlış
+
+2. Eğer functional component'lerinizde için ref kullanmak istiyorsanız  ........ kullanabilirsiniz.
+
+   forwardRef 
+
+
+
+## render props
+
+
+
+## higher order components
+
+1. Higher Order Component'lerin amacı nedir ?
+
+   Yeniden kullanılabilirliği (reusability) sağlamaktır.
+
+2. Higher Order Component'ler Pure fonksiyonlardır, herhangi bir side effect'leri yoktur. Yalnızca kendi argümanlarına bağlı olarak yeni bir component return ederler.
+
+   Doğru, Yanlış
+
+
+
+## api calls
+
+1. Axios bir kütüphane değildir.
+
+   Doğru, Yanlış
+
+2. 
 
 
 
 
 
+## portals
 
+1. React tarafından sağlanan createPortal() fonksiyonu iki arguman alır, bu iki arguman nelerdir?
+   
+   child, container
+
+2. 
+
+
+
+
+
+## error boundaries
+
+1. Error boundary'ler 3 durumda hataları yakalar, bunlar nelerdir?
+
+   render,constructor, lifecycle metodlar
+
+2. Error boundary'ler yalnızca kullanıldıkları component'in altındaki component ağacında meydana gelen hataları yakalarlar.
+
+   Doğru, Yanlış
+
+
+
+## routers
+
+1. Route matching component'leri nelerdir?
+
+   Switch, Route
+
+2. Herhangi bir durumda yönlendirmenin zorunlu olarak yapılması isteniyorsa hangi component kullanılır?
+
+   ``` <Redirect> , <Link> ```
