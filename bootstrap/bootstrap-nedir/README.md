@@ -3,9 +3,11 @@
 
 ![](./figures/bootstrap.png)
 
-Bootstrap dünyanın en popoler, açık kaynak kodlu, ücresiz, farklı cihazlar için responsive tasarıma duyarlı bir CSS (**Framework**) kütüphanesindir.
+Bootstrap dünyanın en popoler, açık kaynak kodlu, ücresiz, farklı cihazlar için responsive tasarıma duyarlı bir CSS (**Framework**) kütüphanesidir.
 
-İçerisinde mevcut olan sayısız tablo, grafik, ikon, carousel, navigasyon gibi pek çok hazır tasarım sayesinde sitenizi kolayca tasarlayabilirsiniz. Ayrıca Bootstrap‘in kullandığı Grid (Izgara) sistemi özelliğiyle sitenizi istediğiniz bölümde konumlandırabiliyorsunuz. Bu özellik, ekranı dilediğiniz ölçüde bölüp, ayırdığınız bu kısımlara kolayca müdahele etmenizi sağlamaktadır.
+İçerisinde mevcut olan sayısız tablo, grafik, ikon, carousel, navigasyon gibi pek çok hazır tasarım sayesinde sitenizi kolayca tasarlayabilirsiniz. 
+
+Ayrıca Bootstrap‘in kullandığı Grid (Izgara) sistemi ile  sitenizi istediğiniz bölümde konumlandırabiliyorsunuz. Bu özellik, ekranı dilediğiniz ölçüde bölüp, ayırdığınız bu kısımlara kolayca müdahele etmenizi sağlamaktadır.
 
 Basit bir hazır Bootstrap örneği:
 ```
@@ -53,7 +55,7 @@ Basit bir hazır Bootstrap örneği:
 ```
 ![](./figures/website.png)
 
-# Bootstrap öğrenimi için yabancı kaynaklı linkler
+# Bootstrap öğrenimi için linkler
 - [Resmi Bootstrap dökümantasyonu](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - [Bootstrap bileşenleri -1](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - [Bootstrap bileşenleri -2](https://www.w3schools.com/whatis/whatis_bootstrap.asp)
