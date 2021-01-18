@@ -1,92 +1,92 @@
 
 #### Farklı Yazılım Kariyerleri
-- [ ] Frontend Nedir?
+- Frontend Nedir?
 
-- [ ] Backend Nedir?
+- Backend Nedir?
 
-- [ ] Frontend & Backend Karşılaştırması ?
+- Frontend & Backend Karşılaştırması ?
 
 #### Algoritma
-- [x] [Pseudocode](pseudocode/)
+- [Pseudocode](pseudocode/)
 
 #### Internet
-- [x] [Internet Basics](internet/)
+- [Internet Basics](internet/)
 
-- [ ] Browsers
+- Browsers
 
-- [x] [IP](IP/)
+- [IP](IP/)
 
-- [ ] TCP
+- TCP
 
-- [x] [HTTP](http/)
+- [HTTP](http/)
 
-- [ ] [DNS](DNS/)
+- [DNS](DNS/)
 
-- [ ] Domain name
+- Domain name
 
-- [ ] Hosting
+- Hosting
 
-  
+ 
 
 #### Editor Kullanımı
 
-- [x] [Visual Studio Code Nedir?](visual-studio-code-nedir/)
+- [Visual Studio Code Nedir?](visual-studio-code-nedir/)
 
-- [x] [Proje Klasörünün Açılması ve Dosyalarla Çalışmak](vs-dosyalarla-calismak)
+- [Proje Klasörünün Açılması ve Dosyalarla Çalışmak](vs-dosyalarla-calismak)
 
-- [x] [Genel Görünüm, Tema ve Dosya İkonu Ayarları](vs-genelgorunum/)
+- [Genel Görünüm, Tema ve Dosya İkonu Ayarları](vs-genelgorunum/)
 
-- [ ] IntelliSense ve Emmet Özelliklerine Genel Bakış
+- IntelliSense ve Emmet Özelliklerine Genel Bakış
 
-- [ ] Eklentiler
+- Eklentiler
 
-- [ ] Panellerin Yönetimi, Dosyalar ile Çalışmak
+- Panellerin Yönetimi, Dosyalar ile Çalışmak
 
-- [x] [Terminal Kullanımı](terminal-kullanimi/)
+- [Terminal Kullanımı](terminal-kullanimi/)
 
-  - [ ] Windows Temel Terminal Komutları
+ - Windows Temel Terminal Komutları
 
-  - [ ] MacOS & Linux Temel Terminal Komutları
+ - MacOS & Linux Temel Terminal Komutları
 
-- [ ] MultiCursor (Çoklu İmleç) Kullanımı
+- MultiCursor (Çoklu İmleç) Kullanımı
 
-- [ ] Klavye ile Çalışmak / Klavye Kısayol Tuşları
+- Klavye ile Çalışmak / Klavye Kısayol Tuşları
 
-- [ ] Snippets Kullanımı
+- Snippets Kullanımı
 
-- [ ] Ayarların Kişiselleştirilmesi
+- Ayarların Kişiselleştirilmesi
 
-- [ ] Diğer Kod Editörleri
+- Diğer Kod Editörleri
 
 
 #### Google'lamak
 
-- [x] [Google Nasıl Kullanılır?](google/)
+- [Google Nasıl Kullanılır?](google/)
 
-- [x] [KodKoda](kodkoda/)
+- [KodKoda](kodkoda/)
 
-- [ ] StackoverFlow
+- StackoverFlow
 
 
 #### Developer'lar İçin Platformların Önemi
 
-- [ ] [Kendinizi güncel tutmak için kullanabileceğiniz platformlar](platformların-önemi/)
+- [Kendinizi güncel tutmak için kullanabileceğiniz platformlar](platformların-önemi/)
 
-  - [ ] Hackerrank
+ - Hackerrank
 
-  - [ ] CodeWars 
+ - CodeWars 
 
-  - [ ] LeetCode 
+ - LeetCode 
 
-  - [ ] Project Euler
+ - Project Euler
 
-  - [ ] Reddit
+ - Reddit
 
-  - [ ] Edabit
+ - Edabit
 
-  - [ ] repl.it
+ - repl.it
 
-  - [ ] codepen
+ - codepen
 
-  
+ 
 
