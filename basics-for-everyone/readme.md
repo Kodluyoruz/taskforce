@@ -22,9 +22,9 @@
 
 - [DNS](DNS/)
 
-- [ ] [Domain name](domain-name/)
+- [Domain name](domain-name/)
 
-- [ ] [Hosting](hosting/)
+- [Hosting](hosting/)
 
 
  
