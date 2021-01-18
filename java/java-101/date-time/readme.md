@@ -72,7 +72,7 @@ System.out.println("Parsed Date: " + parsedDate.toString());
 
 ## Java8 Tarih/Zaman (Date/Time) API
 
-![Date_Util](C:\Users\serda\Desktop\taskforce-java1\java\java-101\date-time\figures\Date_Util.jpg)
+![Date_Util](figures/Date_Util.jpg)
 
 > *Resim: DateTime API paket içeriği*
 
