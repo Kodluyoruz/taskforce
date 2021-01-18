@@ -79,3 +79,29 @@ Kopyalama işlemi de aynı şekilde yapılır;
 ```javascript
 let puan2 = [...puan];
 ```
+
+### Sorular
+
+Aşağıdaki soruları kendiniz yaparak konuyu pekiştirin.
+
+```javascript
+let mevsimler = [ilkbahar, yaz, sonbahar, kış];
+```
+
+##### Soru 1: Yukarıdaki *mevsimler* dizisinin ilk ve ikinci elemanını "ilkMevsim" ve "ikinciMevsim" ismiyle kullanıma açın, kalanını ise "kalanMevsimler" isminde yeni bir diziye atayın.
+
+[Soru 1 Çözüm](https://codepen.io/sahinaykkt/pen/KKgJeoM?editors=0011)
+
+```javascript
+let bilgisayar = {
+    monitor: "philips",
+    klavye: "microsoft",
+    mouse: "logitech",
+    kulaklık: "kingston"
+};
+```
+
+##### Soru2: Yukarıdaki *bilgisayar* objesini *bilgisayar2* adındaki yeni bir objeye kopyalayın ve yeni objenin monitörünün markasını "viewsonic" olarak değiştirin.
+
+[Soru 2 Çözüm](https://codepen.io/sahinaykkt/pen/ExgrRrE?editors=0011)
+
