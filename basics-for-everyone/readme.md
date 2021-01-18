@@ -1,5 +1,6 @@
 
 #### Farklı Yazılım Kariyerleri
+
 - Frontend Nedir?
 
 - Backend Nedir?
@@ -7,9 +8,11 @@
 - Frontend & Backend Karşılaştırması ?
 
 #### Algoritma
+
 - [Pseudocode](pseudocode/)
 
 #### Internet
+
 - [Internet Basics](internet/)
 
 - Browsers
@@ -27,7 +30,7 @@
 - [Hosting](hosting/)
 
 
- 
+
 
 #### Editor Kullanımı
 
@@ -37,17 +40,17 @@
 
 - [Genel Görünüm, Tema ve Dosya İkonu Ayarları](vs-genelgorunum/)
 
-- IntelliSense ve Emmet Özelliklerine Genel Bakış
+- [IntelliSense ve Emmet Özelliklerine Genel Bakış](vs-intellisence-emmet)
 
-- Eklentiler
+- [Eklentiler](vs-eklentiler)
 
 - Panellerin Yönetimi, Dosyalar ile Çalışmak
 
 - [Terminal Kullanımı](terminal-kullanimi/)
 
- - Windows Temel Terminal Komutları
+ - [Windows Temel Terminal Komutları](terminal-kullanimi)
 
- - MacOS & Linux Temel Terminal Komutları
+ - [MacOS & Linux Temel Terminal Komutları](terminal-kullanimi)
 
 - MultiCursor (Çoklu İmleç) Kullanımı
 
