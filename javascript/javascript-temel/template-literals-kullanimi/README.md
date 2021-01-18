@@ -14,7 +14,7 @@ String ifade yazarken, `"` veya `'` kullanırız. Template Literals ile JavaScri
 
 **Windows için** → Alt Gr + ,
 
-**Mac için** → Alt + ,
+**Mac için** → option+ ,
 
 yaparak bu işareti kullanabilirsiniz.
 
