@@ -1,10 +1,14 @@
- [jenerikler-ilkel-veri-turleri-uzerinde-calismaz](jenerikler-ilkel-veri-turleri-uzerinde-calismaz/)
- [İmplementing-classes](implementing-classes/)
+ [Stream Api](stream-api/)
+ 
+ [Jenerikler ilkel veri turleri uzerinde calismaz](jenerikler-ilkel-veri-turleri-uzerinde-calismaz/)
+ 
+ [İmplementing classes](implementing-classes/)
+ 
   [Final Keyword Usage](final-keyword-usage/)
   
-  [Reader-Writer](reader-writer/)
+  [Reader Writer](reader-writer/)
   
-  [ObjectInputStream-ObjectOutputStream-siniflari](ObjectInputStream-ObjectOutputStream-siniflari/)
+  [ObjectInputStream ObjectOutputStream siniflari](ObjectInputStream-ObjectOutputStream-siniflari/)
   
   [Dosya Kopylamak](dosya-kopyalamak/)
   
