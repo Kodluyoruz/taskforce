@@ -1,5 +1,5 @@
 
- ### Sınıflar
+ #### Sınıflar
  
  - [İmplementing classes](implementing-classes/)
  
@@ -15,11 +15,11 @@
  
  - [Dosya Kopyalamak](dosya-kopyalamak/)
 
- ### SOLID
+ #### SOLID
 - [ ] [SOLID Principles](solid-principles/)
 
 - [ ] Clean Code Practices
-
+ #### Java Generikler
 - [ ] [Java Generics](java-generics/)
 - [ ] [Jenerik Sınıf Yazmak](jenerik-sinif-yazmak/)
   - [ ] [Diamond Operatörünün Kullanılması](diamond-operatoru/)
@@ -29,19 +29,22 @@
   - [ ] [Joker Argümanını (Wildcard Argument) Kullanmak](wildcard-argument/)
   - [ ] [Jenerik Metotlar](jenerik-metotlar/)
   - [ ] [Jenerik Kısıtlamaları](jenerik-kisitlamalari/)
-- [ ] [Java Collection Framework](java-collection-framework/)
+  
+ #### [Java Collection Framework](java-collection-framework/)
   - [ ] [Collection Arayüzü (interface) ve Alt Sınıfları](collection-arayuzu-alt-siniflari/)
   - [ ] [List interface (Arayüzü)](list-interface/)
   - [ ] [Set interface (Arayüzü)](set-interface/)
   - [ ] [Map interface (Arayüzü)](map-interface/)
   - [ ] [Collection Framework 5 Kavram](collection-framework-5-kavram/) 
   - [ ] [Funtional interface](functional-interfaces/) 
-- [ ] [Java 8 Features](java-8-features/)
+  
+#### [Java 8 Features](java-8-features/)
 - [ ] [Functional Programming Basics](functional-programming-basics/)
   - [ ] [Lambda Expressions](lambda-expressions/)
   - [ ] [Functional Interfaces](functional-interfaces/)
   - [ ] [Stream API](stream-api/)
-- [ ] [Multi Threads & Concurrency](multi-threads-concurrency/)
+  
+ #### [Multi Threads & Concurrency](multi-threads-concurrency/)
    - [ ]  [Java Thread’lerin Oluşturulması ve Kullanılması](thread-olusturulmasi-kullanilmasi/)
    - [ ] [Runnable interface ile Thread Kullanımı](runnable-interface-thread-kullanimi/)
    - [ ] [Thread’i beklemeye almak](thread-beklemeye-almak/)
@@ -54,7 +57,7 @@
    - [ ] [İş Parçacığı Havuzları (ThreadPooling)](threadpooling/)
    - [ ] Executers
    
-- [ ] Class Loading
+ #### Class Loading
   - [ ] Runtime Data Areas
   - [ ] Memory - Heap - Stack
   
