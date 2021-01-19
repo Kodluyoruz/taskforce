@@ -99,7 +99,7 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 			</div>
 		</div>
 ```
-![ilkicerigimiz]([url=https://hizliresim.com/JlcJ83][img]https://i.hizliresim.com/JlcJ83.png[/img][/url])
+![ilkicerigimiz](https://hizliresim.com/JlcJ83)
 
 ### Medium kırılma noktasından daha küçük genişliklerde 3.içeriğimizin ilk sıraya geçmesini istiyoruz. Fakat daha büyük genişliklerde bu sırayla kalmasını istiyoruz bunun için 
 ``` html
@@ -117,7 +117,9 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 			</div>
 		</div>
 ```
+![ilkicerikdüzenlenmishali](https://hizliresim.com/WBiOne)
 ### Kodumuzu bootstrap'i dahil ettiğiniz bir projede deneyebilirsiniz.Bu şekilde tüm kırılma noktaları için ayrı ayrı sıralamalar gerçekleştirebiliriz.
+
 ### Peki bu kodu biraz daha karmaşıklaştırmaya ne dersiniz ? İç içe içeriklerimiz olsun örneğin; 
 ```html
 <div class="container-fluid">
@@ -173,6 +175,9 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 			</div>
 		</div>
 ```
+
+![karisikicerigimiz](https://hizliresim.com/1ujFkw)
+
 ### Örneğimizi daha iyi anlamak için lütfen bir editör'e kodumuzu kopyalayıp yapıştıralım.Gördüğünüz gibi şuan iç içe içeriklerimizin olduğu bir yapı var ben xs kırılma noktasında farklı,md'da farklı ve lg'da şuanki görüntüsüyle sıralanmasını istiyorum.Şimdi kodumuzu buna göre düzenleyelim
 
 ```html
@@ -229,7 +234,10 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 			</div>
 		</div>
 ```
+![karisikicerikdüzenlenmishali](https://hizliresim.com/cxzLFb)
+
 ### Kodumuzu artık istediğimiz düzeye getirmiş olduk.
+
 ## Ödev
 ### Sizde aşağıda ki kodu bütün içeriğin bütün kırılma noktalarında farklı bir şekilde sıralanmasını sağlayın.Şimdiden başarılar 
 ```html
