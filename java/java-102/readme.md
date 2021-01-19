@@ -1,27 +1,27 @@
 
  #### Sınıflar
  
- - [İmplementing classes](implementing-classes/)
+ - [ ] [İmplementing classes](implementing-classes/)
  
- - [Final Keyword Usage](final-keyword-usage/)
-  
- - [Reader Writer](reader-writer/)
-  
- - [ObjectInputStream ObjectOutputStream siniflari](ObjectInputStream-ObjectOutputStream-siniflari/)
-  
- - [Akiş Sinifları](akis-siniflari/)
-  
- - [File Sınıfı](file-sinifi/)
+ - [ ] [Final Keyword Usage](final-keyword-usage/)
  
- - [Dosya Kopyalamak](dosya-kopyalamak/)
+ - [ ] [ObjectInputStream ObjectOutputStream siniflari](ObjectInputStream-ObjectOutputStream-siniflari/)
+  
+ - [ ] [Akiş Sinifları](akis-siniflari/)
+  
+ - [ ] [File Sınıfı](file-sinifi/)
+ 
+ ####Dosya İşlemleri
+ - [ ][Dosya Kopyalamak](dosya-kopyalamak/)
+ - [ ][Reader Writer](reader-writer/)
 
  #### SOLID
 - [ ] [SOLID Principles](solid-principles/)
-
 - [ ] Clean Code Practices
+
  #### Java Generikler
-- [ ] [Java Generics](java-generics/)
-- [ ] [Jenerik Sınıf Yazmak](jenerik-sinif-yazmak/)
+  - [ ] [Java Generics](java-generics/)
+  - [ ] [Jenerik Sınıf Yazmak](jenerik-sinif-yazmak/)
   - [ ] [Diamond Operatörünün Kullanılması](diamond-operatoru/)
   - [ ] [Jenerikler İlkel Veri Türleri Üzerinde Çalışmaz](jenerikler-ilkel-veri-turleri-uzerinde-calismaz/)
   - [ ] [Kutulama (Autoboxing) ve Kutudan Çıkarma (Unboxing)](autoboxing-unboxing)
