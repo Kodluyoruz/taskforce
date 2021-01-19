@@ -1,6 +1,6 @@
 # Java OOP
 
-## Nesneye-Dayalı-Programlama-Yönteminin-Özellikleri
+## [Nesneye-Dayalı-Programlama-Yönteminin-Özellikleri](oop-yonteminin-ozellikleri/)
 
 ### Sinif-Kavraminin-Temelleri
 - [ ] [Java'da Sınıf](class/)
