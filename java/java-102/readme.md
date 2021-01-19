@@ -1,23 +1,16 @@
 
  #### Sınıflar
- 
- - [ ] [İmplementing classes](implementing-classes/)
- 
- - [ ] [Final Keyword Usage](final-keyword-usage/)
+ - [ ] [File Sınıfı](file-sinifi/)
+
+ - [ ] [Akiş Sinifları](akis-siniflari/)
  
  - [ ] [ObjectInputStream ObjectOutputStream siniflari](ObjectInputStream-ObjectOutputStream-siniflari/)
-  
- - [ ] [Akiş Sinifları](akis-siniflari/)
-  
- - [ ] [File Sınıfı](file-sinifi/)
+ 
+ - [ ] [İmplementing classes](implementing-classes/)  
  
  #### Dosya İşlemleri
  - [ ] [Dosya Kopyalamak](dosya-kopyalamak/)
  - [ ] [Reader Writer](reader-writer/)
-
- #### SOLID
-- [ ] [SOLID Principles](solid-principles/)
-- [ ] Clean Code Practices
 
  #### Java Generikler
   - [ ] [Java Generics](java-generics/)
@@ -45,7 +38,7 @@
   - [ ] [Stream API](stream-api/)
   
  #### [Multi Threads & Concurrency](multi-threads-concurrency/)
-   - [ ]  [Java Thread’lerin Oluşturulması ve Kullanılması](thread-olusturulmasi-kullanilmasi/)
+   - [ ] [Java Thread’lerin Oluşturulması ve Kullanılması](thread-olusturulmasi-kullanilmasi/)
    - [ ] [Runnable interface ile Thread Kullanımı](runnable-interface-thread-kullanimi/)
    - [ ] [Thread’i beklemeye almak](thread-beklemeye-almak/)
    - [ ] [Thread’i durdurmak](thread-durdurmak/)
@@ -61,4 +54,6 @@
   - [ ] Runtime Data Areas
   - [ ] Memory - Heap - Stack
   
-  
+  #### SOLID
+- [ ] [SOLID Principles](solid-principles/)
+- [ ] Clean Code Practices
