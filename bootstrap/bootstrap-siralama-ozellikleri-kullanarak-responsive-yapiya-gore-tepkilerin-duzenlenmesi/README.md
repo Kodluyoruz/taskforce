@@ -99,7 +99,7 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 			</div>
 		</div>
 ```
-![ilkicerigimiz](https://hizliresim.com/JlcJ83)
+![ilkicerigimiz]([url=https://hizliresim.com/JlcJ83][img]https://i.hizliresim.com/JlcJ83.png[/img][/url])
 
 ### Medium kırılma noktasından daha küçük genişliklerde 3.içeriğimizin ilk sıraya geçmesini istiyoruz. Fakat daha büyük genişliklerde bu sırayla kalmasını istiyoruz bunun için 
 ``` html
