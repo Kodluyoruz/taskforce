@@ -117,7 +117,7 @@ const user+info = "info"; //sembol kullanılamaz.
 - Değişken isimleri tanımlarken çok fazla uzun kelime grupları kullanmamaya çalışın. Değişken isimlerini 2 ila 4 kelime arasında tutmaya özen gösterin.
 
 <p align="center">
-  <img src="figures/javascript-degisken-tanimlama.jpg" width="500px" title="img">
+  <img src="figures/javascript-degisken-tanimlama2.jpg" title="img">
 </p>
 
 
