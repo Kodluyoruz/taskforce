@@ -48,3 +48,4 @@ Cevaplar: /*1*/: e.preventDefault();
 /*3*/, /*4*/, /*5*/: userName, userSurname, userAge
 /*6*/: "submit"
 
+Umarım bu sorular konuyu pekiştirmenize yardımcı olmuştur. Form yapıları çok sık karşımıza çıkmakta bu yüzden yaptığımız uygulamalarda form kullanmak ve sık sık örnekler yapmak yararımıza olacaktır.
