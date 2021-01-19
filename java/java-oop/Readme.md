@@ -33,7 +33,7 @@
 - [ ] [İterable İnterface](iterable-interface/)
 - [ ] [İterator İnterface](iterator-interface/)
 - [ ] [Comparable İnterface](comparable-interface)
-- [ ] [comparator İnterface](comparator-interface/)
+- [ ] [Comparator İnterface](comparator-interface/)
 
 
 
