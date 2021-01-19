@@ -1,8 +1,12 @@
   
   [Reader-Writer](reader-writer/)
+  
   [ObjectInputStream-ObjectOutputStream-siniflari](ObjectInputStream-ObjectOutputStream-siniflari/)
+  
   [Dosya Kopylamak](dosya-kopyalamak/)
+  
   [Akiş Sinifları](akis-siniflari/)
+  
   [File Sınıfı](file-sinifi/)
 
 - [ ] [Scope and Local Variables](scope-and-local-variables/)
