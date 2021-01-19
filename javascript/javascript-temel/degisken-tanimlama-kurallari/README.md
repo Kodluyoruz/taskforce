@@ -1,4 +1,4 @@
-<h1 align="center"><img src="figures/confetti.gif" width="50px" title="gif">Değişken Tanımlama Kuralları<img src="figures/confetti.gif" width="50px" title="gif"></h1>
+<h1 align="center"> :sparkles:Değişken Tanımlama Kuralları:sparkles: </h1>
 
 <p align="center">
   <img src="figures/javascript.jpg" title="img">
