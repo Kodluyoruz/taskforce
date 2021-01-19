@@ -23,11 +23,13 @@
 - [ ] [Metotların Ezilmesi (Overriding Metods)](overriding-metods/)
 - [ ] [Kapsülleme Kavramı (Encapsulation)](oop-encapsulation/)
 
+
 ### Java'da Arayüzleri
 - [ ] [Arayüzler (Interface)](interface/)
 - [ ] [Soyutlama (Abstraction)](oop-abstraction/)
 - [ ] [Soyut Sınıf (Abstract Class)](abstract-class/)
 - [ ] [Arayüzler (Interface)](interface/)
+- [ ] [Enumeration İnterface](enumeration-interface/)
 
 
 
