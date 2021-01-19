@@ -10,7 +10,7 @@
   
   [ObjectInputStream ObjectOutputStream siniflari](ObjectInputStream-ObjectOutputStream-siniflari/)
   
-  [Dosya Kopylamak](dosya-kopyalamak/)
+  [Dosya Kopyalamak](dosya-kopyalamak/)
   
   [Akiş Sinifları](akis-siniflari/)
   
