@@ -12,8 +12,8 @@
  - [ ] [File Sınıfı](file-sinifi/)
  
  #### Dosya İşlemleri
- - [ ][Dosya Kopyalamak](dosya-kopyalamak/)
- - [ ][Reader Writer](reader-writer/)
+ - [ ] [Dosya Kopyalamak](dosya-kopyalamak/)
+ - [ ] [Reader Writer](reader-writer/)
 
  #### SOLID
 - [ ] [SOLID Principles](solid-principles/)
