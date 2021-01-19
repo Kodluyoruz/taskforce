@@ -99,6 +99,8 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 			</div>
 		</div>
 ```
+![ilkicerigimiz](https://hizliresim.com/JlcJ83)
+
 ### Medium kırılma noktasından daha küçük genişliklerde 3.içeriğimizin ilk sıraya geçmesini istiyoruz. Fakat daha büyük genişliklerde bu sırayla kalmasını istiyoruz bunun için 
 ``` html
 <div class="container-fluid">
@@ -287,10 +289,10 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 
 ## Soru 1 
 Aşağıdakilerden hangisi order kullanımına uymayan bir classtır ?
-[] order-sm-1
-[] order-lg-4
-[] order-first
-[] order-md-6
+- [] order-sm-1
+- [] order-lg-4
+- [] order-first
+- [] order-md-6
 
 
 ## Soru 2 
