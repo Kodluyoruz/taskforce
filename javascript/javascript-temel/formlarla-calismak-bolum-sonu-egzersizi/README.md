@@ -39,6 +39,12 @@ Aşağıdaki kod parçacığında satır sonlarında numaralarını belirttiğim
 Cevaplar: 1:for, 2:name ve userName 3:number 4:submit
 
 İkinci sorumuz ise bu form yapısını JavaScript kodumuzda nasıl manipüle edebileceğimiz ile ilgili olsun.
+/*1*/ gibi belirttiğim yerlere hangi kodlar gelmelidir? Gelmesi gereken kodların kullanım amaçlarını kısaca yorum satırı olarak belirttim yanlarında.
 
 ![](figures/jscodesnippet.png)
+
+Cevaplar: /*1*/: e.preventDefault();
+/*2*/: userAge.value >= 18
+/*3*/, /*4*/, /*5*/: userName, userSurname, userAge
+/*6*/: "submit"
 
