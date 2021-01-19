@@ -8,7 +8,7 @@ Değişkenler verilerin saklandığı birimlerdir. Değişkenleri tanımlamak i�
 
 Değişken tanımlamamız için gerekli bir takım değişken tanımlama kuralları vardır. Bu kurallar değişkenimizi tanımlarken nelere dikkat etmemiz gerektiğini gösterir. Bu kuralları sıralamak istersek şöyle olacaktır:
 
-- Değişken isimleri Türkçe karakter <u>içermemelidir.</u> 
+- Değişken isimleri Türkçe karakter __*içermemelidir.*__
 - Değişken isimleri büyük ve küçük harf __*duyarlıdır.*__
 - Değişken isimlerinde ilk karakter bir sayı __*olamaz.*__
 - Değişken isimlerinde JavaScript etiketleri __*kullanılamaz.*__
@@ -123,17 +123,17 @@ const user+info = "info"; //sembol kullanılamaz.
 
 ## :speech_balloon:Sorular
 
-1. [Aşağıda ?]
-* a
-* b
-* c (Doğru)
-* d
+1. [ Aşağıdaki değişken tanımlama şekillerinden hangisi __*doğrudur?*__ ]
+* `const ülke = "Almanya";`
+* `let 1countryname = "Almanya";`
+* `const countryName = "Almanya";` (Doğru)
+* `let country.Name = "Almanya";`
   
-2. [Aşağıda ?]
-* a
-* b
-* c (Doğru)
-* d
+2. [ Aşağıdaki değişken tanımlama kurallarından hangisi __*yanlıştır?*__ ]
+* Değişken isimleri büyük ve küçük harf duyarlıdır.
+* Değişken isimlerinde dolar işareti kelime başında kullanılabilir.
+* Değişken isimlerinde alt çizgi kelimenin sonunda kullanılmalıdır. (Doğru)
+* Değişken isimlerinde ilk karakter bir sayı olamaz.
 
 ## :book:Kaynakça 
 
