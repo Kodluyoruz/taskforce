@@ -146,3 +146,5 @@ Gördüğünüz gibi ```ul>.className``` yazıp Tab’a bastığımızda ise bun
 <br/>
 
 [Speed up your HTML workflow with Emmet](https://medium.com/swlh/speed-up-your-html-workflow-with-emmet-f5c887854c63)
+<br/>
+### Cevap 1: B , Cevap 2: C 
