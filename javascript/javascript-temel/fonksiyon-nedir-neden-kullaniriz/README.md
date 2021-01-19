@@ -40,7 +40,7 @@ mesajVer("Arturo"); /* çıktı: Merhaba Arturo undefined (Bu örnekte parametre
 mesajVer(); // çıktı Merhaba undefined undefined (Yukarıdaki örnekle aynı mantıktadır.)
 ```
 
-##Geri Dönüş Değeri (Return Value)
+## Geri Dönüş Değeri (Return Value)
 Bir fonksiyon **return** anhatar kelimesi kullanılarak sıfır yada bir değer döner:
   ```javascript
 function topla(sayi1, sayi2) {
@@ -59,7 +59,7 @@ result = carp(10,20); // undefined
 ```
 topla fonksiyonu iki değerin toplamını geri döner. carp fonksiyonunda ise **return** anahtar kelimesi kullanılmadığı içn geri dönüş değeri yoktur,dolayısıyla undefined döner.
 
-## Fonksiyon İfadeleri (Function Expressions)
+##Fonksiyon İfadeleri (Function Expressions)
 Javascript bir değişkene fonksiyon atanmasına ve daha sonra bu değişkenin fonksiyon olarak kullanılmasına izin verir. Buna fonksiyon ifadeleri denir:
 
   ```javascript
@@ -74,4 +74,23 @@ var sonuc2 = topla(10,20); // geçersiz
 
 
 ```
+### Quiz
+
+#### Javascript'te fonksiyon nasıl yaratılır?
+a) function:myFunction()                                                                                                                                                                
+b) function = myFunction()                                                                                                                                                        
+c) function myFunction()
+
+-cevap : b
+
+#### myFunction isimli fonksiyon nasıl çağrılır?
+a) myFunction()                                                                                                                                                                   
+b) call function myFunction()                                                                                                                                                       
+c) call myFunction()
+
+-cevap : a
+
+### Kaynaklar:
+[javascript.info](https://javascript.info/function-basics)                                                                                                                        
+[MDN Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
