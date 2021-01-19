@@ -9,13 +9,13 @@ CSS'de arka plan renklerini değiştirmekten ve nesnelerin neden olması gerekti
 CSS (Basamaklanmış Stil Katmanları), web sayfasını şekillendirmek için kullanılan bir kodlama türüdür. CSS kullanarak web sayfasının görünümünü ve düzenini değiştirebiliriz. Bir web sitesinin görünümünün masaüstü bilgisayarlar, tabletler ve mobil cihazlar gibi farklı ekranlarda nasıl değiştiğini de tanımlayabiliriz. CSS, C++ veya JavaScript gibi bir programlama dili değildir. Bunun nedeni, CSS'nin amacının web tarayıcıları için biçimlendirmeye(HTML'ye) stil vermek olmasıdır. HTML yalnızca içeriği "işaretleyen" bir dildir - yani, belgeye belirli bir görsel ve yapısal biçimlendirme verir.
 
 Hem HTML hem de CSS doğaları gereği bildirimseldir. Bu, yalnızca bir şeyleri açıkladığı ve herhangi bir işlem yapmadığı anlamına gelir.Tarayıcılar CSS'yi görüntüleme için yorumlarken, bunu doğrusal bir şekilde yapar. Bunun nedeni, CSS'nin dosyayı yukarıdan aşağıya okuyan tarayıcıya talimatlar vermesidir. Bir kural belirlendiğinde ve daha sonra dizin aşağıya doğru değiştirildiğinde, tarayıcı ekranda görüntülenecek nihai sonuç olarak en son değerlendirmeyi alır. CSS'deki C'nin ifade ettiği şey budur. CSS'nin kaskad etkisi, tarayıcıyı, kuralın fiziksel olarak ne zaman gerçekleştiğine bağlı olarak, kuralları art arda ve geçersiz kılacak şekilde görüntüleyecek şekilde ayarlar.Cascade(kaskad), öğe için birden çok CSS bildirimi ve birden çok stil sayfasının bir kombinasyonu olduğunda, belirli bir öğe için uygulanan stiller arasındaki çakışmayı çözme anlamına gelir. Sonuç olarak, CSS göründüğü kadar kolay değildir. Anlamadan kullanmaya çalışırsanız web geliştirmede zorluk yaşarsınız. Bu nedenle, CSS öğrenmek bir programlama dili öğrenmek kadar önemlidir.
-  
+
 # CSS Syntax
 İlk CSS kodumuzu yazalım. Örneğin, "h1" etiketinin rengini değiştirmek istiyorum.
-  
+
   ``` <h1>I'm a Header</h1> ```
 
-![png1](png1.png)
+![png1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/css-nedir/png1.png)
 
 Öncelikle, CSS'ye HTML öğesini nasıl bulacağını söylememiz gerekir. Bunu "selector" denen bir özellik ile yapabiliriz. CSS'de bir selector, HTML öğelerini etiket adı, sınıf adı, kimliği ve çok daha fazlasına göre bulmak için kullanılır. O zaman şimdi HTML öğesi için bir selector tanımlayalım ve ardından selector parantezleri arasında her biri noktalı virgülle biten CSS kurallarını bildirelim.
 
@@ -40,29 +40,6 @@ CSS teknik olarak kolaydır. Anlaşılması gereken sınırlı sayıda kural var
 
 Tasarım yönleri pazarlamaya ve UX tasarımcısına bırakılabilirken, front-end geliştiricilerin tasarımın nasıl çalıştığını anlamaları da iyidir. Tasarımcıların tümü geliştirici değildir ve bazen tarayıcıların ve piksel rehberliğinin daha ince gereksinimlerini anlamayanlarla karşılaşıyoruz. Dijital tasarımcıların stil sayfalarının inceliklerini ve potansiyel karmaşıklığını öğrenmesi gerektiği kadar, tasarım dilinde de konuşabilmelisiniz.
 Daha fazla özellik ve örnek için [buraya](https://www.w3schools.com/css/) tıklayın.
-
-### Sorular
-
-- Aşağıdakilerden hangisi CSS için **söylenemez**?
-  - Açılımı Cascading Style Sheets'tir.
-  - HTML elemanlarının nasıl görüntüleneceğini tanımlar.
-  - .css uzantılı dosyalarda saklanırlar.
-  - Css dosyalarında Javascript kodları saklanabilir.(doğru)
-  
-- Aşağıdakilerden hangisi metnin rengini belirler?
-  - color (doğru)
-  - text-align
-  - text-transform
-  - word-spacing
-  
-- "kodluyoruz.css" adlı bir css dosyasını html sayfasına dahil etmek için en uygun seçenek aşağıdakilerden hangisidir?
-  - ```<head> <link rel="stylesheet" type="text/css" href="kodluyoruz.css"> </head>``` (doğru)
-     
-  - ```<body> <link rel="stylesheet" type="text/css" href="kodluyoruz.css"> </body>```
-  
-  - ```<head> <link rel="stylesheet" type="text/css" href="kodluyoruz"> </head>```
-     
-  - ```<head> <link type="text/css" href="kodluyoruz.css"> </head>```
 
 # Kaynakça
 - https://levelup.gitconnected.com/what-is-css-specificity-and-how-it-works-833bb0b3d3a
