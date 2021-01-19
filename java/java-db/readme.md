@@ -9,4 +9,4 @@
 #### [][Temel SQL](temel-sql/)
 #### [][Java Database Connectivity (JDBC)](jdbc/)
  [][Statement interface](statement-interface/)
- []JDBC ile Transaction Yönetimi(jdbc-transaction-yonetimi/)
+ [][JDBC ile Transaction Yönetimi](jdbc-transaction-yonetimi/)
