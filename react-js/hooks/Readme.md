@@ -1,12 +1,12 @@
 # React Hooks
 
-### Neden React hala kötü?
+### React'te class component kullanımındaki problemler?
 
-React, sunduğu component model sayesinde arayüz yapımı için adeta biçilmiş kaftan olduğunu biliyoruz. Peki React’te ve diğer kütüphanelerde yer alan component sistemindeki problem nedir?
+React'in sunmuş olduğu component model sayesinde, arayüz yapımı için adeta biçilmiş kaftan olduğunu biliyoruz. Peki React’te ve diğer kütüphanelerde yer alan class bazlı component sistemindeki problemler nelerdir?
 
-#### State’li işlerin component’ler arası kullanımı zor olması
+#### State’li işlerin, class component’leri arasındaki kullanımının zor olması
 
-React, tekrar kullanılabilecek bir fonksiyonun/davranışın başka bir bileşene bağlanması için bir yöntem sunmuyor. Bunun yerine render props ve high order components (HOC) ile bu probleme bir çözüm sağlanmaya çalışılıyor. Fakat bu geliştirim şablonları kullanıldığında, ilgili component’in tekrar yapılandırılması gerekiyor. Bu durum, yazılımcı için külfetli oluyor ve kodun da okunabilirliğini azaltıyor. Eğer siz de Chrome eklentisi olan [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) ile uygulamanızı incelediyseniz, kendinizi iç içe katmanlardan oluşan wrapper cehenneminde bulmuş olabilirsiniz.
+React, tekrar kullanılabilecek bir fonksiyonun/davranışın, başka bir bileşene bağlanması için bir yöntem sunmuyor. Bunun yerine render props ve high order components (HOC) ile bu probleme bir çözüm sağlanmaya çalışılıyor. Fakat bu geliştirim şablonları kullanıldığında, ilgili component’in tekrar yapılandırılması gerekiyor. Bu durum, yazılımcı için külfetli oluyor ve kodun da okunabilirliğini azaltıyor. Eğer siz de Chrome eklentisi olan [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) ile uygulamanızı incelediyseniz, kendinizi iç içe katmanlardan oluşan wrapper cehenneminde bulmuş olabilirsiniz.
 
 <p align="center">
   <img src="figures/React-wrapper-cehennemi.jpg" alt="React-Wrapper-Cehennemi"/>
@@ -17,13 +17,13 @@ React, tekrar kullanılabilecek bir fonksiyonun/davranışın başka bir bileşe
 
 Bu problem temelinde, React’ın stateful işlerin aktarılması için daha iyi bir yaklaşım sunması gerektiğine işaret ediyor.
 
-#### Karmaşık component’lerin okunabilirliğinin zor olması
+#### Karmaşık class component’lerinin okunabilirliğinin zor olması
 
 React uygulamalarında yazılan basit componentler, zaman içerisinde büyüyerek yönetilemez bir kod yığını ve yan etkilerle dolu bir hale gelir. Her bir component’in lifecycle metodu genellikle kendisi ile ilişkisiz kodlar ile karışmış bir durum alır. Örneğin componentDidMount() ve componentDidUpdate() metodlarında api çağrımı işlemleri gerçekleştirilebiliyor. Ancak aynı componentDidMount() metodu ilgili event listener’ların oluşturulması ve componentDidUpdate()’de bu listener’ların silinmesi gibi veri ile ilişkisiz işlemleri de içerebilir. Bu durumda birbiriyle ilişkili kodlar birbirinden ayrı metodlara (didMount() ve didUpdate()’e) konur fakat bunun aksine ilişkisiz kodlar (veri çekme ve event listener işlemleri) ise aynı metod içerisinde yer alır hale gelir. Bu durumda beklenmedik hatalar ve tutarsızlıklar oluşabilir.
 
 Stateful işlemler bütün component’te yer aldığı için bu tarz component’leri daha küçük component’lere bölmek de çoğu zaman imkansız hale gelir. Bu nedenle geliştiriciler, ayrı bir state yönetim kütüphanesi (Redux, MobX) kullanımına giderek bu durumu çözmeye çalışırlar. Fakat bu durumda da bileşenler arası soyutlama oldukça artar ve kodu anlamak için dosyalar arasında git-gel yapmayı gerektiren zorlu bir durum oluşur.
 
-
+.
 <p align="center">
   <img src="figures/Drake-meme-useEffect.jpg" alt="Drake-meme-useEffect"/>
 </p>
