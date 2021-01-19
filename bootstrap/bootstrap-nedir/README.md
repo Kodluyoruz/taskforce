@@ -10,7 +10,7 @@ Bootstrap dünyanın en popoler, açık kaynak kodlu, ücresiz, farklı cihazlar
 Ayrıca Bootstrap‘in kullandığı Grid (Izgara) sistemi ile  sitenizi istediğiniz bölümde konumlandırabiliyorsunuz. Bu özellik, ekranı dilediğiniz ölçüde bölüp, ayırdığınız bu kısımlara kolayca müdahele etmenizi sağlamaktadır.
 
 Basit bir hazır Bootstrap örneği:
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
