@@ -35,7 +35,6 @@
 #### - [ ] [Date & Time](date-time/)
 #### - [ ] [Matrisler (Matrice)](matris-islemleri/)
 #### - [ ] [Java Regular Expressions](regular-expressions/)
-   - [ ] [Java Enums](java-enums/)
    - [ ] [Java'da Paketler (Packages)](paketler/)
 #### - [ ] [Exception Handling](exception-handling/)
   - [ ] [Final Keyword Usage](final-keyword-usage/)
