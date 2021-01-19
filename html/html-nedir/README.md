@@ -33,7 +33,9 @@ HTML, 1980'li yılların başlarında bir ihtiyaç neticesinde oluşturulmaya ba
 
 Yukarıdaki kodu çalıştırdığımız zaman aşağıdaki gibi bir çıktı görmüş olacağız. Aşağıda Google web tarayıcısını kullandık. Ancak sizin web tarayıcınız farklı bir tarayıcı olabilir. Burada elde ettiğimiz çıktı tarayıcıdan tarayıcıya değişen bir durum değildir. 
 
-![İlk Web Sayfamız](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/html-nedir/figures/%C4%B0lk-Web-Sayfam%C4%B1z.png)
+<img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/html-nedir/figures/%C4%B0lk-Web-Sayfam%C4%B1z.png" alt="İlk Web Sayfamız" style="
+    width: 100%;
+">
 
    1.[HTML Dili hakkında aşağıdakilerden hangisi doğrudur?] </br>
    
