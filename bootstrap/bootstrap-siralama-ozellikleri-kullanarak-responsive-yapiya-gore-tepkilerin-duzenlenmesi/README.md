@@ -297,10 +297,10 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 
 ## Soru 1 
 Aşağıdakilerden hangisi order kullanımına uymayan bir classtır ?
-- [] order-sm-1
-- [] order-lg-4
-- [] order-first
-- [] order-md-6
+- [ ] order-sm-1
+- [ ] order-lg-4
+- [ ] order-first
+- [ ] order-md-6
 
 
 ## Soru 2 
@@ -325,7 +325,9 @@ Aşağıdakilerden hangisi order kullanımına uymayan bir classtır ?
 ````
 Yukarıda bulunan kod diziliminde içeriklerin sm genişliğinden büyük ekranlarda sıralaması "3.içerik-2.İçerik-1.İçerik-4.İçerik" şeklinde olması isteniyor aşağdakilerden hangisi bu sıralamayı gerçekleştirecek dizilimi temsil eder ? 
 
-[] <div class="container">
+- [ ] 
+```html
+<div class="container">
 			<div class="row">
 				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-3">
 					1.İçerik
@@ -341,7 +343,10 @@ Yukarıda bulunan kod diziliminde içeriklerin sm genişliğinden büyük ekranl
 				</div>
 			</div>
 		</div>
-[]	<div class="container">
+```
+- [ ]	
+```html
+ <div class="container">
 			<div class="row">
 				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-3">
 					1.İçerik
@@ -357,7 +362,10 @@ Yukarıda bulunan kod diziliminde içeriklerin sm genişliğinden büyük ekranl
 				</div>
 			</div>
 		</div>
-[] <div class="container">
+```
+- [ ] 
+```html
+<div class="container">
 			<div class="row">
 				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-4">
 					1.İçerik
@@ -373,7 +381,10 @@ Yukarıda bulunan kod diziliminde içeriklerin sm genişliğinden büyük ekranl
 				</div>
 			</div>
 		</div>
-[] <div class="container">
+```
+- [ ] 
+```html
+<div class="container">
 			<div class="row">
 				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-1">
 					1.İçerik
@@ -389,6 +400,7 @@ Yukarıda bulunan kod diziliminde içeriklerin sm genişliğinden büyük ekranl
 				</div>
 			</div>
 		</div>
+```
 		
 		
 ### Kaynakça 
