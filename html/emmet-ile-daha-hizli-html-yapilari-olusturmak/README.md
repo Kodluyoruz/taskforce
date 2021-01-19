@@ -14,11 +14,10 @@
 ```
 
   Emmet sayesinde çok daha hızlı bir biçinde ```!``` + Tab kullanarak bu yapıyı oluşturabilirsiniz. Bunu tek tek yazmaktansa iki tuşa basarak yapmak çok güzel değil mi?
-<br/>
-<br/>
+
 ![alt değeri](https://miro.medium.com/max/865/0*tILY4GYjBvpFo5Zx.gif)
-<br/>
-  Anlayacağınız üzere emmet bazı kısa yollarla basit bir biçimde Html ve Css kodu yazmamıza yardımcı olur. Aynı kodu tekrar tekrar yazmanızı engellerken üretkenliğinizi de arttırmış olur. Emmet neredeyse tüm text editörlerinde mevcuttur, bu yüzden onu yüklemenize gerek yoktur. Ama herhangi bir nedenden ide’nizde mevcut değilse [bu sayfadan](https://emmet.io/download/) yükleyebilirsiniz.
+
+ Anlayacağınız üzere emmet bazı kısa yollarla basit bir biçimde Html ve Css kodu yazmamıza yardımcı olur. Aynı kodu tekrar tekrar yazmanızı engellerken üretkenliğinizi de arttırmış olur. Emmet neredeyse tüm text editörlerinde mevcuttur, bu yüzden onu yüklemenize gerek yoktur. Ama herhangi bir nedenden ide’nizde mevcut değilse [bu sayfadan](https://emmet.io/download/) yükleyebilirsiniz.
 
 ## Emmet’deki Kısa Yollara Gelecek Olursak...
 - Emmette kullandığımız bazı kısa yollar var, şimdi bunları örnekleriyle tek tek inceleyelim.
@@ -121,30 +120,9 @@
 Gördüğünüz gibi ```ul>.className``` yazıp Tab’a bastığımızda ise bunun ```li``` elementi olduğunu algılıyor. 
 
 
-## Emmet ile alakalı bir kaç soru 
-#### ```ul``` tagı altında ```item1 ,item2, item3, item4``` classlarına sahip 4 adet ```li``` tagı oluşturmak istersek aşağıdakilerden hangisini yapmalıyız?
-- A) ```ul>li#item*4```
-- B) ```ul>li.item$*4```
-- C) ```ul>li*4```
-- D) ```.li.item*4```
 
-#### ```div``` tagı altında ```item``` idsine sahip 10 kelimelik loremleri içeren 6 adet  ```p``` tagı oluşturmak istersek aşağıdakilerden hangisini yapmalıyız?
-- A) ```div>p#item$.lorem10```
-- B) ```p.item*6.lorem```
-- C) ```div>p#item*6>lorem10```
-- D) ```.item.p>lorem1```
+Emmet’in kendi sitesindeki cheat sheete  [buradan](https://docs.emmet.io/cheat-sheet/)  ulaşabilirsiniz. Bu konuda bol bol egzersiz yapmayı unutmayın lütfen, emin olun emmet kullanımı çalışma hızınızı arttıracak ve sizi gereksiz çabadan kurtaracaktır.
 
- ##### Cevapları en alttaki kısımda bulabilirsiniz, ya da isterseniz yazıp taba bakarak çıktıları kendiniz görebilirsiniz :innocent:
-
-### Umarım bu yazı sizin için faydalı olmuştur. Yararlandığım, kendim de çalışırken bakındığım birkaç kaynak bırakıyorum alt kısma. Ayrıca Emmet’in kendi sitesindeki cheat sheete  [buradan](https://docs.emmet.io/cheat-sheet/)  ulaşabilirsiniz. Bu konuda bol bol egzersiz yapmayı unutmayın lütfen, emin olun emmet kullanımı çalışma hızınızı arttıracak ve sizi gereksiz çabadan kurtaracaktır. Kendinize iyi bakın :blush:
-
-<br/>
-<br/>
+## Kaynaklar
 
 [Why I love pressing tab, featuring Emmet](https://medium.com/doctolib/why-i-love-pressing-tab-featuring-emmet-578aa4e77858)
-
-<br/>
-
-[Speed up your HTML workflow with Emmet](https://medium.com/swlh/speed-up-your-html-workflow-with-emmet-f5c887854c63)
-<br/>
-### Cevap 1: B , Cevap 2: C 
