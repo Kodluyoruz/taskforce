@@ -8,10 +8,10 @@ Semantik, anlam veya  anlamlandırma anlamı ifadesi taşımaktadır. O halde se
 
 Aşağıdaki örnek, bir <article> için bir başlık içermektedir.
 
-```HTML5
-`<header> 
+```html
+<header> 
     <h1>Kodluyoruz Akademi Nedir?</h1>
-</header>`
+</header>
 <p>Her bireyin, özellikle kadınların, yükselen teknoloji sektöründe başarılı olması için eşit haklara sahip olması gerektiğine inanıyoruz.
 Bu yüzden, Kodluyoruz Akademi gençlere dünya çapında kaliteli ve ücretsiz içerik, kaynak ve bootcamp sağlıyor!</p> 
 ```
@@ -25,7 +25,7 @@ nav elementi navigasyon bağlantıları büyük sayfalar için ortaya çıkarıl
 
 section elementi bir doküman içinde olan sadece bir kısmı belirtir.
 
-`````<section>
+`````html
 <section>
 <h1>CS50xKodluyoruz Challenge Başlıyor!</h1>
 <p>CS50xKodluyoruz ödevlerine devam etmekte zorlanıyor musun? Bitirmek istediğin halde nasıl ilerleyeceğini bilmiyor musun?
@@ -43,7 +43,7 @@ Her yıl milyonlarca kişi tarafından alınan bu kursu Türkçe’ye çevirsek 
 
 İçeriğinde resim, gösterim, diyagram, kod listeleri vs. gibi nesnelerin olduğunu belirtir. Ana akış ile ilgili olsa da, konumu ana akıştan tamamen bağımsızdır. Çıkarılırsa dokümanın akışını **engellemez**.
 
-````````
+````````html
 <p>CS50x Kodluyoruz için hemen kayıt ol, dersleri anında almaya başla. Dersler tamamen online ve ücretsiz! Üstelik CS50x Kodluyoruz herkese göre.
 İster hiç bilgisayar dersi almamış olun, ister kendinizi ilerletmek isteyin: Bu ders, sağlam bir algoritma temeli isteyen herkes için!</p>
 
@@ -56,7 +56,7 @@ Her yıl milyonlarca kişi tarafından alınan bu kursu Türkçe’ye çevirsek 
 
 <figcaption> etiketi, <figure> elementinin belirttiği resme başlık koymaya yarar.
 
-```HTML5
+```html
 <figcaption>
 	<p>A duck.</p>
 	<p><small>Photograph courtesy of News.</small></p>

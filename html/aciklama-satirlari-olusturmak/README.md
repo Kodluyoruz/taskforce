@@ -15,7 +15,7 @@ Hayır, kullanıcılar web sayfanızda açıklama satırlarını görmezler. Ayr
 # Hadi örneklendirelim!
 Aşağıdaki örnekte birden fazla HTML elementlerini tanımlayıp aralara açıklama satırları ekliyoruz. Böylelikle HTML kodumuz daha okunabilir bir hal alabiliyor. Hangi elementin nerede kapatıldığını veya açıklama satırına yazacağımız o kodun işlevi ile daha açıklayıcı bir hale getiriyoruz. Aşağıdaki örnekte index.html dosyasının body elementi içerisine yazacağımız kodları paylaşıyorum.
 
-```html,
+```html
 <!--nav element başlangıç-->
 <nav>
     <ul>
@@ -39,4 +39,6 @@ Aşağıdaki örnekte birden fazla HTML elementlerini tanımlayıp aralara açı
 <!--footer element bitiş-->
 ```
 
-[Kaynak için tıklayınız.](https://www.mehsatek.com/html-yorum-satiri-html-yorum-kodu/)
+## Kaynaklar
+
+* https://www.mehsatek.com/html-yorum-satiri-html-yorum-kodu/

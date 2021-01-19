@@ -103,23 +103,7 @@ Etiketleri asla çakıştırmamaya dikkat etmelisiniz. Yani, asla aşağıdaki g
 
 Bir HTML etiketini her kapatışınızda, en son kapatılmamış etiketi kapattığınızdan emin olun.
 
-#Sorular
-
-- Aşağıdakilerden hangisi `<head>` kısmı arasında yer almaz?
-  - title
-  - div (Doğru)
-  - meta
-  - style
-
-- Aşağıda verilen etiketlerden hangisinin içine html sayfamızda bulunması gereken içeriği yazarız?
-  - `<body>` (Doğru)
-  - `<meta>`
-  - `<div>`
-  - `<style>`
-
-
-
-# Kaynaklar
+## Kaynaklar
 
 - Learning the Basics of HTML [informit.com](https://www.informit.com/articles/article.aspx?p=2472081)
 

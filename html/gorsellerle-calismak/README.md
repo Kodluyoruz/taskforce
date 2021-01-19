@@ -36,11 +36,11 @@ Ya da resim bir üst dizinde kalıyor olabilir. Bu durumda bir üst dizine çık
 ```
 
  Bu şekilde istediğiniz kadar üst dizine çıkabilirsiniz.
- 
+
 ```html
 <img src="../../images/ornek.jpg"/>
 ```
-  
+
 - ## Alt=""
 Alt textlerin temel amacı, görüntüleri göremeyen kullanıcılar için metinler sunmaktır. Kullanıcı resmi görüntüleyemez ise (Yavaş bağlantı, src özelliğinde hata vb.) alt özelliği görüntü için alternatif bilgilendirici bir metin içerir.
 
@@ -96,7 +96,7 @@ Resme link vermek için img tagi a taginin içerisinde kullanılır. Yönlendiri
 
 - ## Map ve Area 
 Resimlerinize hyperlink atamanız durumunda resmin tüm alanı link alanı haline dönüşecektir. Resmin herhangi bir yerine tıklanılması durumunda resim sizi tanımlanan bağlantıya gönderecektir. <img> etiketleri için kullanılan <map> ve <area> etiketleri ile resmin içindeki koordinatlarla belirlediğimiz bir alanı sadece link haline getirebiliriz. Eklediğimiz <area> etiketi kadar belirlenen alanı bir resim üzerinden birçok bağlantıya link verebiliriz.
- 
+
  ```html
 <html>
 <body>
@@ -139,49 +139,19 @@ HTML5 ile gelen picture elementi web sayfamızda responsive imageler kullanmamı
 </picture>
 ```
 Tarayıcı, her bir source öğesini inceleyip eşleşme sağlar. Eşleşme bulunamazsa veya tarayıcı `<picture>` öğesini desteklemiyorsa, `<img>` öğesinin src URL'si seçilir. Seçilen görüntü daha sonra `<img>` öğesinin kapladığı alanda sunulur.
-  
+
 [Buradan](https://jsfiddle.net/a2dvm503/4/) ekran boyutunuzu değiştirerek inceleyebilirsiniz. 
 
 
-## Çoktan Seçmeli Sorular ##
-- Resmimize link vermek için hangi özellik kullanılır? 
-1. src
-2. title
-3. href
-4. link
 
+## Kaynaklar:
 
-- Resmimize çerçeve eklemek istiyorsak hangi özelliği kullanmamız gerekir? 
-1. align
-2. round
-3. border
-4. width
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+*  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture
+* https://www.w3schools.com/tags/tag_img.asp
+* https://notpast.com/html/HTML-Resim-Ekleme-83.html
+* https://www.m5bilisim.com/webokulu/etiketler/ozellik-img-alt.php
 
-
-- Image yolumuzu yazarken bir üst dizine nasıl çıkarız? 
-1. /.
-2. ./
-3. ../
-4. //
-
-- Hangisi bir image formatı değildir? 
-1. svg
-2. ico
-3. png
-4. ogg
-
-
-
-### Cevaplar ###
-İlk sorunun cevabı href,
-ikinci sorunun cevabı border,
-üçüncü sorunun cevabı ../ , 
-dördüncü sorunun cevabı ogg
-
-
-_Kullandığım Kaynaklar: [1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) ,  [2](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) , 
-[3](https://www.w3schools.com/tags/tag_img.asp) , [4](https://notpast.com/html/HTML-Resim-Ekleme-83.html) , [5](https://www.m5bilisim.com/webokulu/etiketler/ozellik-img-alt.php)_
- 
  
 
 

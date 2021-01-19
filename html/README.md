@@ -18,4 +18,11 @@
 -  [İskeletinin Genel Yapısını Anlamak](i̇skeletinin-genel-yapisini-anlamak/)
 -  [Semantic(Anlamlandırılmış) HTML Etiketleri Kullanımı](semanticanlamlandirilmis-html-etiketleri-kullanimi/)
 -  [Diğer HTML Etiketleri Hakkında](diger-html-etiketleri-hakkinda/)
+
+#### Alıştırmalar & Ödevler
+
+* [Bölüm Sonu Çalışması](bolum-sonu1/)
+* [Bölüm Sonu Çalışması 2](bolum-sonu2/)
+
 -  [Ödev 3](odev3/)
+

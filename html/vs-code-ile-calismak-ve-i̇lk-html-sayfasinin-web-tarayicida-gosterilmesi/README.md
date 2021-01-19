@@ -59,19 +59,7 @@ Oluşturduğumuz index dosyamızı File > Save ile veya CTRL+S ile kaydettikten 
 veeee ilk HTML Sayfamız WEB Tarayacımızda Görülmekte
 
 ![vscode-ilk-html](figures/vscode-ilk-html.JPG)
-### Sorular
 
-- Aşağıdakilerden hangisinde HTML dosyasının ismi doğru yazılmıştır?
-  - index
-  - index.html (Doğru)
-  - index.
-  - index.html.index
-
-- Aşağıda verilen h1 etiketlerinden ve yazılan başlıklardan hangisi doğrudur?
-  - ```<h1> Başlık </h1>``` (Doğru)
-  - ```<h1></h1> Başlık```
-  - ``` Başlık<h1></h1>```
-  - ```<h1 Başlık> </h1>```
 
 ### Kaynakça
 

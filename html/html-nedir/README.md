@@ -35,19 +35,6 @@ Yukarıdaki kodu çalıştırdığımız zaman aşağıdaki gibi bir çıktı g�
 
 ![İlk Web Sayfamız](figures/İlk-Web-Sayfamız.png)
 
-   1.[HTML Dili hakkında aşağıdakilerden hangisi doğrudur?] </br>
-   
-    • Yazıların ve görsellerin biçimlendirilmesine imkan verir.
-    • HTML ile çalışan bir program yazılabilir. 
-    • Web sayfalarının tarayıcılarda doğru bir şekilde gözükmesini sağlar. (Doğru) 
-    • HTML bir programlama dilidir. 
-   2.[HTML dilinin oluşmasını sağlayan kişi kimdir?] </br>
-   
-    • Tim Berners-Lee (Doğru) 
-    • Bert Bos 
-    • Guido van Rossum
-    • Brenden Eich
-   
 
 
 ## Kaynakça

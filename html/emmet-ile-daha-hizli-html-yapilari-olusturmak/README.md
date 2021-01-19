@@ -14,11 +14,10 @@
 ```
 
   Emmet sayesinde çok daha hızlı bir biçinde ```!``` + Tab kullanarak bu yapıyı oluşturabilirsiniz. Bunu tek tek yazmaktansa iki tuşa basarak yapmak çok güzel değil mi?
-<br/>
-<br/>
+
 ![alt değeri](https://miro.medium.com/max/865/0*tILY4GYjBvpFo5Zx.gif)
-<br/>
-  Anlayacağınız üzere emmet bazı kısa yollarla basit bir biçimde Html ve Css kodu yazmamıza yardımcı olur. Aynı kodu tekrar tekrar yazmanızı engellerken üretkenliğinizi de arttırmış olur. Emmet neredeyse tüm text editörlerinde mevcuttur, bu yüzden onu yüklemenize gerek yoktur. Ama herhangi bir nedenden ide’nizde mevcut değilse [bu sayfadan](https://emmet.io/download/) yükleyebilirsiniz.
+
+ Anlayacağınız üzere emmet bazı kısa yollarla basit bir biçimde Html ve Css kodu yazmamıza yardımcı olur. Aynı kodu tekrar tekrar yazmanızı engellerken üretkenliğinizi de arttırmış olur. Emmet neredeyse tüm text editörlerinde mevcuttur, bu yüzden onu yüklemenize gerek yoktur. Ama herhangi bir nedenden ide’nizde mevcut değilse [bu sayfadan](https://emmet.io/download/) yükleyebilirsiniz.
 
 ## Emmet’deki Kısa Yollara Gelecek Olursak...
 - Emmette kullandığımız bazı kısa yollar var, şimdi bunları örnekleriyle tek tek inceleyelim.
@@ -119,13 +118,13 @@
 </ul>
 ```
 Gördüğünüz gibi ```ul>.className``` yazıp Tab’a bastığımızda ise bunun ```li``` elementi olduğunu algılıyor. 
-### Umarım bu yazı sizin için faydalı olmuştur. Yararlandığım, kendim de çalışırken bakındığım birkaç kaynak bırakıyorum alt kısma. Ayrıca Emmet’in kendi sitesindeki cheat sheete  [buradan](https://docs.emmet.io/cheat-sheet/)  ulaşabilirsiniz. Bu konuda bol bol egzersiz yapmayı unutmayın lütfen, emin olun emmet kullanımı çalışma hızınızı arttıracak ve sizi gereksiz çabadan kurtaracaktır. Kendinize iyi bakın :)
 
-<br/>
-<br/>
+
+
+Emmet’in kendi sitesindeki cheat sheete  [buradan](https://docs.emmet.io/cheat-sheet/)  ulaşabilirsiniz. Bu konuda bol bol egzersiz yapmayı unutmayın lütfen, emin olun emmet kullanımı çalışma hızınızı arttıracak ve sizi gereksiz çabadan kurtaracaktır.
+
+## Kaynaklar
 
 [Why I love pressing tab, featuring Emmet](https://medium.com/doctolib/why-i-love-pressing-tab-featuring-emmet-578aa4e77858)
-
-<br/>
 
 [Speed up your HTML workflow with Emmet](https://medium.com/swlh/speed-up-your-html-workflow-with-emmet-f5c887854c63)

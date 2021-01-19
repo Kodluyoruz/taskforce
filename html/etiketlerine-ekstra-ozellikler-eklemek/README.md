@@ -59,27 +59,12 @@ class, HTML etkietinin hangi sınıfta olduğunu belirmemizi sağlar. Aynı sın
 Burada görüldüğü gibi iki HTML etiketi de(img ve a) documents sınıfında bulunmaktadır. Daha sonrasında aynı sınıfta bulunan bu iki etikete CSS ile aynı anda değişiklik yapılabilir.
 
 
-Sorular: 
-
-1)Aşağıdaki HTML özniteliklerinden hangisi döküman içerisinde yalnızca bir HTML elementine özgüdür yani biriciktir?
-
-A)class \
-B)src \
-C)id \
-D)href \
-
-2)Aşağıdakilerden hangisi HTML öznitelikerinden birisi değildir?
-
-A) html elementinin ikinci elemanına yazılırlar. \
-B) Tüm html elementleri öznitelik alabilirler. \
-C) html elementlerine eksta özellik kazandırırlar. \
-D) Kullanmak için öznetiliği yazıp ="".(ör. src ="").
-
-(Cevaplar : 1-C 2-A)
 
 
-Kaynaklar: https://www.w3schools.com/html/html_attributes.asp
-           https://www.algoritmaornekleri.com/web/html/html-oznitelik-kullanimi-html-attributes/
-           
+## Kaynaklar:
+
+- https://www.w3schools.com/html/html_attributes.asp
+-  https://www.algoritmaornekleri.com/web/html/html-oznitelik-kullanimi-html-attributes/
+             
 
 
