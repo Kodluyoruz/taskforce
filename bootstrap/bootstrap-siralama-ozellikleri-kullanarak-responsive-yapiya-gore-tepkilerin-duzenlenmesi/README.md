@@ -344,7 +344,7 @@ Yukarıda bulunan kod diziliminde içeriklerin sm genişliğinden büyük ekranl
 			</div>
 		</div>
 ```
-- [ ]	
+- [  ]	
 ```html
  <div class="container">
 			<div class="row">
