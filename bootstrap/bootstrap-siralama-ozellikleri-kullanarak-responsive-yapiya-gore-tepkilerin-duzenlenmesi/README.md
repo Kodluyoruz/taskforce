@@ -325,7 +325,7 @@ Aşağıdakilerden hangisi order kullanımına uymayan bir classtır ?
 ````
 Yukarıda bulunan kod diziliminde içeriklerin sm genişliğinden büyük ekranlarda sıralaması "3.içerik-2.İçerik-1.İçerik-4.İçerik" şeklinde olması isteniyor aşağdakilerden hangisi bu sıralamayı gerçekleştirecek dizilimi temsil eder ? 
 
-- [ ] 
+- A)
 ```html
 <div class="container">
 			<div class="row">
@@ -344,7 +344,7 @@ Yukarıda bulunan kod diziliminde içeriklerin sm genişliğinden büyük ekranl
 			</div>
 		</div>
 ```
-- [  ]	
+- B)	
 ```html
  <div class="container">
 			<div class="row">
@@ -363,7 +363,7 @@ Yukarıda bulunan kod diziliminde içeriklerin sm genişliğinden büyük ekranl
 			</div>
 		</div>
 ```
-- [ ] 
+- C)
 ```html
 <div class="container">
 			<div class="row">
@@ -382,7 +382,7 @@ Yukarıda bulunan kod diziliminde içeriklerin sm genişliğinden büyük ekranl
 			</div>
 		</div>
 ```
-- [ ] 
+- D)
 ```html
 <div class="container">
 			<div class="row">
