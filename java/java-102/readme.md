@@ -1,28 +1,24 @@
- [Stream Api](stream-api/)
+
+ ### Sınıflar
  
- [Jenerikler ilkel veri turleri uzerinde calismaz](jenerikler-ilkel-veri-turleri-uzerinde-calismaz/)
- 
- [İmplementing classes](implementing-classes/)
+ - [İmplementing classes](implementing-classes/)
  
   [Final Keyword Usage](final-keyword-usage/)
   
-  [Reader Writer](reader-writer/)
+ - [Reader Writer](reader-writer/)
   
-  [ObjectInputStream ObjectOutputStream siniflari](ObjectInputStream-ObjectOutputStream-siniflari/)
+ - [ObjectInputStream ObjectOutputStream siniflari](ObjectInputStream-ObjectOutputStream-siniflari/)
   
-  [Dosya Kopyalamak](dosya-kopyalamak/)
+ - [Akiş Sinifları](akis-siniflari/)
   
-  [Akiş Sinifları](akis-siniflari/)
-  
-  [File Sınıfı](file-sinifi/)
+ - [File Sınıfı](file-sinifi/)
+ 
+ - [Dosya Kopyalamak](dosya-kopyalamak/)
 
-- [ ] [Scope and Local Variables](scope-and-local-variables/)
-
-- [ ] [Static Variables and Methods](static-variables-and-methods/)
-
+ ### SOLID
 - [ ] [SOLID Principles](solid-principles/)
-- [ ] Clean Code Practices
 
+- [ ] Clean Code Practices
 
 - [ ] [Java Generics](java-generics/)
 - [ ] [Jenerik Sınıf Yazmak](jenerik-sinif-yazmak/)
