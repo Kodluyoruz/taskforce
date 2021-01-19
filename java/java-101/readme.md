@@ -37,6 +37,5 @@
 #### - [ ] [Java Regular Expressions](regular-expressions/)
    [Java'da Paketler (Packages)](paketler/)
 #### - [ ] [Exception Handling](exception-handling/)
-  - [ ] [Final Keyword Usage](final-keyword-usage/)
   - [ ] [İstisnai Durumların Yönetilmesi](istisnai-durumlarin-yonetilmesi/)
   - [ ] [İstisnai Durumların Yönetilmesi (Devam)](istisnai-durumlarin-yonetilmesi-devam/)
