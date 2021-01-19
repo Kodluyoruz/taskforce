@@ -33,7 +33,7 @@ Bootstrap ile sizin için böyle bir yapı geliştirdik ve geliştirme sırası 
 
 - Classta belirttiğimiz `middlearea` içinde maksimum yükseklik 200px olmalı ve bunu `important` ile yazmalısınız. (`important`'ın ne olduğunu, ne işe yaradığını henüz bilmiyorsanız bir "Css important nedir?" şeklinde aramanızı ve ne işe yaradığını öğrenmenizi öneririz. Unutmayın parametre vermek bazen istemediğiniz durumlara yol açabilir bilinçli kullanmak gerekir.)
 
-- Bu alanın `col`'unun default değerini 12, diğer tüm ölçekleri ise 6 olarak ayarlayın.
+- Bu alanın `col`'unun default değerini 12, diğer tüm ölçekleri ise 6 olarak ayarlayın. Yani normal boyutta 12, sayfa küçülüp büyüdükçe, boyutuyla oynadıkça 6 ölçek olacak şekilde ayarlayın. *(`Grid` sistemin 12'lik olduğunu hatırlayın)*
 
 - Hikayeler kısmında isimler nasıl resimlerin altına gelecek? *(İpucu: Arama kısmında kullandığımız özellik)*
 
