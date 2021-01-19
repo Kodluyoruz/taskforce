@@ -40,7 +40,7 @@ Cevaplar: 1:for, 2:name ve userName 3:number 4:submit
 
 İkinci sorumuz ise bu form yapısını JavaScript kodumuzda nasıl manipüle edebileceğimiz ile ilgili olsun.
 
-```javacript
+```
 const userForm = document.querySelector("#userForm");
 const userName = document.querySelector("#userName");
 const userSurname = document.querySelector("#userSurname");
