@@ -1,6 +1,4 @@
-- [ ] Testing Classes and Methods
 
-- [ ] Accessor Mutator Methods
 
 - [ ] [Scope and Local Variables](scope-and-local-variables/)
 
@@ -8,11 +6,8 @@
 
 - [ ] [SOLID Principles](solid-principles/)
 - [ ] Clean Code Practices
-- [ ] [Hata Yönetimi](hata-yonetimi/)
 
-   - [ ] [İstisnai Durumların Yönetilmesi](istisnai-durumların-yonetilmesi/)
-- [ ] [Java Enums](java-enums/)
-- [ ] [Final Keyword Usage](final-keyword-usage/)
+
 - [ ] [Java Generics](java-generics/)
 - [ ] [Jenerik Sınıf Yazmak](jenerik-sinif-yazmak/)
   - [ ] [Diamond Operatörünün Kullanılması](diamond-operatoru/)
@@ -28,11 +23,6 @@
   - [ ] [Set interface (Arayüzü)](set-interface/)
   - [ ] [Map interface (Arayüzü)](map-interface/)
   - [ ] [Collection Framework 5 Kavram](collection-framework-5-kavram/) 
-    - [ ] [Enumeration Interface (Arayüzü)](enumeration-interface/)
-    - [ ] [Iterable Interface (Arayüzü)](iterable-interface/)
-    - [ ] [Iterator Interface (Arayüzü)](iterator-interface/)
-    - [ ] [Comparable Interface](comparable-interface/)
-    - [ ] [Comparator Interface (Arayüzü)](comparator-interface/)
 - [ ] [Java 8 Features](java-8-features/)
 - [ ] [Functional Programming Basics](functional-programming-basics/)
   - [ ] [Lambda Expressions](lambda-expressions/)
