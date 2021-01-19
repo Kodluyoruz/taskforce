@@ -12,6 +12,6 @@ Bir önceki ödevimizde ilk web sayfamızı yapıp bunu kişisel sayfamız olara
 
 - Kurduğunuz yapılarda block, inline gibi elementler kullanmaya çalışın.
 
-![Second Web Page](figures/secondwebpage.png)
+![Second Web Page](https://github.com/Kodluyoruz/taskforce/raw/main/html/odev2/figures/secondwebpage.png)
 
 Bu ödevde HTML öğelerini nasıl kullanırız, bir yapıyı nasıl oluştururuz onu gördük. Sıradaki dersimize devam edelim ve bir sonraki ödevi iple çekelim. Ödevleri sevelim, bağrımıza basalım.

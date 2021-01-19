@@ -25,7 +25,7 @@ Sıralı listeler ardışık liste numaraları vermek için kullanılır. Sıral
 
 **Ekran çıktısı:**
 
-![sıra](figures/sıra.PNG)
+![sıra](https://github.com/Kodluyoruz/taskforce/raw/main/html/listelerle-calismak/figures/sıra.PNG)
 
 şeklinde olur.
 
@@ -47,7 +47,7 @@ Liste başındaki sıralandırmayı rakamdan başka **roma rakamı veya alfabeti
 
 **Ekran çıktısı:**
 
-![siralama](figures/siralama.png)
+![siralama](https://github.com/Kodluyoruz/taskforce/raw/main/html/listelerle-calismak/figures/siralama.png)
 
 
 
@@ -63,7 +63,7 @@ Liste başındaki sıralandırmayı rakamdan başka **roma rakamı veya alfabeti
 
 **Ekran çıktısı:**
 
-![alfabetik](figures/alfabetik.PNG)
+![alfabetik](https://github.com/Kodluyoruz/taskforce/raw/main/html/listelerle-calismak/figures/alfabetik.PNG)
 
 
 
@@ -137,7 +137,7 @@ Liste başındaki içi dolu daireyi değiştirmek için ise **disc, square, circ
 
 **Ekran çıktısı:**
 
-![kare](figures/kare.PNG)
+![kare](https://github.com/Kodluyoruz/taskforce/raw/main/html/listelerle-calismak/figures/kare.PNG)
 
 
 
