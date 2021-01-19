@@ -1,7 +1,7 @@
 # JavaScript Nedir?
 
 <p align="center">
-	<img alt="JavaScript Logo" src="figures/javascript-logo.png">
+	<img alt="JavaScript Logo" src="figures/javascript-logo.png" width="300">
 	<br>
 </p>
 
@@ -12,7 +12,7 @@ JavaScript prototip-tabanlı, dinamik türlere ve birinci-sınıf fonksiyonlara 
 > Not: JavaScript ile Java farklı dillerdir.
 
 <p align="center">
-	<img alt="Java-JavaScript" src="figures/java-javascript.png">
+	<img alt="Java-JavaScript" src="figures/java-javascript.png" width="300">
 	<br>
 </p>
 
@@ -23,7 +23,7 @@ JavaScript ve Java arasında; isimleri, yazım şekli ve standart kütüphaneler
 ## HTML, CSS ve JavaScript (Web'in temel taşları)
 
 <p align="center">
-	<img alt="Website Structure" src="figures/www-core-html-css-js.png">
+	<img alt="HTML CSS JS" src="figures/www-core-html-css-js.png" width="500">
 	<br>
 </p>
 
@@ -32,7 +32,7 @@ HTML ve CSS ile birlikte JavaScript, World Wide Web'in (kısaca WWW veya Web) te
 Aşağıda yer alan görseldeki gibi HTML bir web sitesinin iskeletini yani ana yapısını oluşturmakta, CSS bu ana yapıya görsellik ve şekil vermekte, JavaScript ise yapının fonksiyonel olarak çalışmasını sağlar.
 
 <p align="center">
-	<img alt="Website Structure" src="figures/website-structure.png">
+	<img alt="Website Structure" src="figures/website-structure.jpg" width="500">
 	<br>
 </p>
 
@@ -51,7 +51,7 @@ En çok kullanılan tarayıcalardaki JavaScript Motorları, Chrome, Opera ve Edg
 Mosaic Web Browser'ın yazılım ekibinin önemli isimleri Mosaic şirketinden ayrılarak, Netscape isimli şirketi kurmuşlar ve 1994 yılında Netscape Navigator adındaki, yayınlandındıktan sonra oldukça geniş kitleye ulaşan internet tarayıcısını geliştirmişlerdir. O yıllarda statik olan internet sayfalarını interaktif hale getirebilmek amacıyla Sun Microsystems ile Java dilinin ve ekibi aldıkları Brenden Eich ile de Scheme dilini tarayıcıya yerleşik hale getirmek için çalışmalara başlamışlardır. Kısa bir süre sonra Netscape yönetimi, en iyi seçimin söz dizimi Java'ya benzeyen ve Scheme ile diğer script dillerine benzemeyen bir dil geliştirilmesi olduğuna karar vermiş ve bu görevi Brenden Eich'a vermişlerdir. Önce Mocha ardından da LiveScript isimlerini alan bu yeni dil, Eylül 1995'de Navigator'un yeni sürümünde yer bulmuş, üç ay sonra ise ismi o dönem çok popüler olan Java dilinin popülerliğinden yararlanmak amacıyla ismi JavaScript olarak değiştirilmiştir.
 
 <p align="center">
-	<img alt="Brenden Eich" src="figures/brenden-eich.jpg">
+	<img alt="Brenden Eich" src="figures/brenden-eich.jpg" width="400">
 	<br>
 </p>
 
@@ -108,14 +108,14 @@ En çok kullanılan JavaScript Front-end teknolojileri aşağıdaki görselde ye
 ### Back-end Alanında JavaScript
 
 <p align="center">
-	<img alt="Node.js logo" src="figures/nodejs-logo.png">
+	<img alt="Node.js logo" src="figures/nodejs-logo.png" width="400">
 	<br>
 </p>
 
 Ryan Dahl'ın geliştirdiği Node.js isimli JavaScript çalışma ortamı (runtime environment) sayesinde tarayıcılar dışında da JavaScript kodları çalıştırılabilir hale geldi ve yeni bir döen başlamış oldu. Böylece istemci tarafında kalmamakla birlikte sunucu tarafında da JavaScript uygulamalarının yolu açıldı. Node.js Chrome tarayaıcısındaki V8 JavaScript Motorunu kullanmaktadır.
 
 <p align="center">
-	<img alt="Ryan Dahl" src="figures/ryan-dahl.jpg">
+	<img alt="Ryan Dahl" src="figures/ryan-dahl.jpg" width="400">
 	<br>
 </p>
 
