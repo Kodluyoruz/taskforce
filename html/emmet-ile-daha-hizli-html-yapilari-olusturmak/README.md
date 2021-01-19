@@ -15,7 +15,7 @@
 
   Emmet sayesinde çok daha hızlı bir biçinde ```!``` + Tab kullanarak bu yapıyı oluşturabilirsiniz. Bunu tek tek yazmaktansa iki tuşa basarak yapmak çok güzel değil mi?
 
-![alt değeri](https://miro.medium.com/max/865/0*tILY4GYjBvpFo5Zx.gif)
+![alt değeri](https://camo.githubusercontent.com/2b6b8cc6da640800e1cb752bce4fbb8ec4d96ec3988d09ac9a7c5a736f35b49e/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3836352f302a74494c593447596a427670466f355a782e676966)
 
  Anlayacağınız üzere emmet bazı kısa yollarla basit bir biçimde Html ve Css kodu yazmamıza yardımcı olur. Aynı kodu tekrar tekrar yazmanızı engellerken üretkenliğinizi de arttırmış olur. Emmet neredeyse tüm text editörlerinde mevcuttur, bu yüzden onu yüklemenize gerek yoktur. Ama herhangi bir nedenden ide’nizde mevcut değilse [bu sayfadan](https://emmet.io/download/) yükleyebilirsiniz.
 

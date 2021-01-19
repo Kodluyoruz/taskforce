@@ -2,7 +2,7 @@
 
 
 
-![resimesim](figures/html.jpg)
+![resimesim](https://github.com/Kodluyoruz/taskforce/blob/main/html/i%CC%87skeletinin-genel-yapisini-anlamak/figures/html.jpg)
 
 
 

@@ -19,7 +19,7 @@
 -  [Semantic(Anlamlandırılmış) HTML Etiketleri Kullanımı](semanticanlamlandirilmis-html-etiketleri-kullanimi/)
 -  [Diğer HTML Etiketleri Hakkında](diger-html-etiketleri-hakkinda/)
 
-#### Alıştırmalar & Ödevler
+#### Alıştırmalar & Ödevler
 
 - [Bölüm Sonu Çalışması](bolum-sonu1/)
 - [Bölüm Sonu Çalışması 2](bolum-sonu2/)
