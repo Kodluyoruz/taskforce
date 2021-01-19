@@ -1,0 +1,1 @@
+# Değişken Tanımlama Kuralları
