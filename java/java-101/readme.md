@@ -35,7 +35,7 @@
 #### - [ ] [Date & Time](date-time/)
 #### - [ ] [Matrisler (Matrice)](matris-islemleri/)
 #### - [ ] [Java Regular Expressions](regular-expressions/)
-   - [Java'da Paketler (Packages)](paketler/)
+   [][Java'da Paketler (Packages)](paketler/)
 #### - [ ] [Exception Handling](exception-handling/)
   - [ ] [İstisnai Durumların Yönetilmesi](istisnai-durumlarin-yonetilmesi/)
   - [ ] [İstisnai Durumların Yönetilmesi (Devam)](istisnai-durumlarin-yonetilmesi-devam/)
