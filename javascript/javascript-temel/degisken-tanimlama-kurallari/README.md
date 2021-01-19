@@ -1,4 +1,4 @@
-<h1 align="center"> :sparkles:Değişken Tanımlama Kuralları:sparkles: </h1>
+<h1 align="center"><img src="figures/confetti.gif" width="50px" title="gif">Değişken Tanımlama Kuralları<img src="figures/confetti.gif" width="50px" title="gif"></h1>
 
 <p align="center">
   <img src="figures/javascript.jpg" title="img">
@@ -140,3 +140,9 @@ const user+info = "info"; //sembol kullanılamaz.
 - [https://webdunya.com/javascript-degisken-tanimlama/](https://webdunya.com/javascript-degisken-tanimlama/)
 - [https://www.mobilhanem.com/javascript-degiskenler/](https://www.mobilhanem.com/javascript-degiskenler/)
 - [https://youtu.be/pR99HbNsUys](https://youtu.be/pR99HbNsUys)
+
+---
+
+<p align="center">
+  <img src="figures/source2.gif" title="gif">
+</p>
