@@ -33,6 +33,7 @@
   - [ ] [Set interface (Arayüzü)](set-interface/)
   - [ ] [Map interface (Arayüzü)](map-interface/)
   - [ ] [Collection Framework 5 Kavram](collection-framework-5-kavram/) 
+  - [ ] [Funtional interface](functional-interfaces/) 
 - [ ] [Java 8 Features](java-8-features/)
 - [ ] [Functional Programming Basics](functional-programming-basics/)
   - [ ] [Lambda Expressions](lambda-expressions/)
