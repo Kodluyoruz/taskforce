@@ -1,6 +1,6 @@
 # Formlarla calismak-bolum-sonu-egzersizi
 
-Sayfamız ilk yüklendiğinde aşağıdaki resimde görüleceği gibi bir form oluşacaktır.
+Sayfamız ilk yüklendiğinde aşağıdaki resimde görüleceği gibi bir form oluştuğunu düşünelim.
 
 ![](figures/forminitial.png)
 
