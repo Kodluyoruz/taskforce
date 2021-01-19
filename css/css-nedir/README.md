@@ -15,7 +15,7 @@ Hem HTML hem de CSS doğaları gereği bildirimseldir. Bu, yalnızca bir şeyler
   
   ``` <h1>I'm a Header</h1> ```
 
-![png1](png1.png)
+![png1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/css-nedir/png1.png)
 
 Öncelikle, CSS'ye HTML öğesini nasıl bulacağını söylememiz gerekir. Bunu "selector" denen bir özellik ile yapabiliriz. CSS'de bir selector, HTML öğelerini etiket adı, sınıf adı, kimliği ve çok daha fazlasına göre bulmak için kullanılır. O zaman şimdi HTML öğesi için bir selector tanımlayalım ve ardından selector parantezleri arasında her biri noktalı virgülle biten CSS kurallarını bildirelim.
 
