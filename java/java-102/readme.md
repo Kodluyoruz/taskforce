@@ -11,7 +11,7 @@
   
  - [ ] [File Sınıfı](file-sinifi/)
  
- ####Dosya İşlemleri
+ #### Dosya İşlemleri
  - [ ][Dosya Kopyalamak](dosya-kopyalamak/)
  - [ ][Reader Writer](reader-writer/)
 
