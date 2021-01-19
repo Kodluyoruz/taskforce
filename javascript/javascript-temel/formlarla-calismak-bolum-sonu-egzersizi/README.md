@@ -8,7 +8,7 @@ Formu doldurup submit butonuna her bastığımızda ise, girdiğimiz bilgiler fo
 
 ![](figures/formfilled.png)
 
-Formda herhangi bir alanı boş bıraktığımızda veya "Age" kısmına 18'den küçük bir rakam girdiğimizde ise web tarayıcımız bize aşağıdaki gibi bir uyarı verecektir.
+Formda herhangi bir alanı boş bıraktığımızda veya "Age" kısmına 18'den küçük bir sayı girdiğimizde ise web tarayıcımız bize aşağıdaki gibi bir uyarı verecektir.
 
 ![](figures/invalidinput.png)
 
