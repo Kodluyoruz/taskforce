@@ -10,7 +10,7 @@ Hepimiz her gün Google kullanıyoruz ve çok işimize yarıyor değil mi? Her g
 
  - Bu sayfada şu ana kadar öğrendiğiniz her şeyi kullanabilirsiniz. Bu sizin HTML becerilerinizi oldukça iyi bir şekilde geliştirmenizi sağlayacaktır.
 
-![Google Homepage](https://github.com/Kodluyoruz/taskforce/blob/main/html/odev3/figures/googlehomepage.png)
+![Google Homepage](figures/googlehomepage.png)
 
 - Butonların çalışmaması hiç sorun değil. Sadece tasarımsal olarak bu görüntüye benzesin ve aşağıdaki linkler çalışıyor olsun yeterli.
 

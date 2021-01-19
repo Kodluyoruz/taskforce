@@ -158,28 +158,7 @@
 
 - [Emmet ile Daha Hızlı HTML Yapıları Oluşturmak](emmet-ile-daha-hizli-html-yapilari-olusturmak/)
 
-  -  sorular
-     
-     - ## Emmet ile alakalı bir kaç soru 
-        #### ```ul``` tagı altında ```item1 ,item2, item3, item4``` classlarına sahip 4 adet ```li``` tagı oluşturmak istersek aşağıdakilerden hangisini yapmalıyız?
-        - A) ```ul>li#item*4```
-        - B) ```ul>li.item$*4```
-        - C) ```ul>li*4```
-        - D) ```.li.item*4```
-     
-        #### ```div``` tagı altında ```item``` idsine sahip 10 kelimelik loremleri içeren 6 adet  ```p``` tagı oluşturmak istersek aşağıdakilerden hangisini yapmalıyız?
-        - A) ```div>p#item$.lorem10```
-     
-        - B) ```p.item*6.lorem```
-     
-        - C) ```div>p#item*6>lorem10```
-     
-        - D) ```.item.p>lorem1```
-     
-        - ### Cevap 1: B , Cevap 2: C 
-     
   -  Videolar
-     
      -  https://www.youtube.com/watch?v=S9PuaOocC4M
 
 - [Görsellerle Çalışmak](gorsellerle-calismak/)

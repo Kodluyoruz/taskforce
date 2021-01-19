@@ -14,7 +14,7 @@ Eveet harika konular öğrendikten sonra sıra geldi ödevimize. Bu ödevimizde 
 
 - Yazdığınız kodları açıklayan yorum satırları eklemeyi unutmayın.
 
-![First Web Page](https://github.com/Kodluyoruz/taskforce/raw/main/html/odev1/figures/firstwebpage.png)
+![First Web Page](figures/firstwebpage.png)
 Yaptığınız sayfa üstteki gibi bir yapıda olabilir.
 
 Bunun haricinde bolca deneme yapmayı, yanlışlar yapıp bunları düzeltmekten çekinmeyin. Unutmayın, doğrular yanlışlar yapılarak bulunur.
