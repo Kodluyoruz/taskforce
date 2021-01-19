@@ -99,7 +99,7 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 			</div>
 		</div>
 ```
-![ilkicerigimiz](/figures/ilk.png)
+![ilkicerigimiz](figures/ilk.png)
 
 ### Medium kırılma noktasından daha küçük genişliklerde 3.içeriğimizin ilk sıraya geçmesini istiyoruz. Fakat daha büyük genişliklerde bu sırayla kalmasını istiyoruz bunun için 
 ``` html
@@ -117,7 +117,7 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 			</div>
 		</div>
 ```
-![ilkicerikdüzenlenmishali](/figures/ikinci.png)
+![ilkicerikdüzenlenmishali](figures/ikinci.png)
 ### Kodumuzu bootstrap'i dahil ettiğiniz bir projede deneyebilirsiniz.Bu şekilde tüm kırılma noktaları için ayrı ayrı sıralamalar gerçekleştirebiliriz.
 
 ### Peki bu kodu biraz daha karmaşıklaştırmaya ne dersiniz ? İç içe içeriklerimiz olsun örneğin; 
@@ -234,7 +234,7 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 			</div>
 		</div>
 ```
-![karisikicerikdüzenlenmishali](/figures/ikinciicerikduzenlenmis.png)
+![karisikicerikdüzenlenmishali](figures/ikinciicerikduzenlenmis.png)
 
 ### Kodumuzu artık istediğimiz düzeye getirmiş olduk.
 
