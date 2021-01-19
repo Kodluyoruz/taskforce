@@ -126,5 +126,3 @@ Emmet’in kendi sitesindeki cheat sheete  [buradan](https://docs.emmet.io/cheat
 ## Kaynaklar
 
 [Why I love pressing tab, featuring Emmet](https://medium.com/doctolib/why-i-love-pressing-tab-featuring-emmet-578aa4e77858)
-
-[Speed up your HTML workflow with Emmet](https://medium.com/swlh/speed-up-your-html-workflow-with-emmet-f5c887854c63)
