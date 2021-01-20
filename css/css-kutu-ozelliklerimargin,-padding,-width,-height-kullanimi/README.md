@@ -70,19 +70,6 @@ padding: 10px 20px;
 
 [Alıştırma için buraya tıklayın. Açıklama satırlarında ne yapmanız gerektiğini söyledim.](https://codepen.io/hyperborean17/pen/yLaKpJR)
 
-## Sorular
-
-* [Hangisi içeriğin aşağısında boşluk bırakır?]
-  * bottom-padding: 20px;
-  * padding: 0 20px 0 0;
-  * padding-bottom: 20px; (Doğru)
-  * padding: 20px;
-* [Hangisi kutu modeline ait bir kavram değildir?]
-  * margin
-  * align (Doğru)
-  * padding
-  * border
-  
 ## Kaynakça
 - [1](https://css.sitesi.web.tr/css-kutu-modeli.html)
 - [2](https://www.yazilimkodlama.com/web/css-kutu-modeli-margin-border-padding-content/)
