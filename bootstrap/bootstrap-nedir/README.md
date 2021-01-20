@@ -1,7 +1,7 @@
 # Bootstrap Nedir?
 # Bootstrap ile Hızlı ve Responsive Siteler İnşa Edin
 
-![](figures/Bootstrap.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-nedir/figures/Bootstrap.png)
 
 Bootstrap dünyanın en popoler, açık kaynak kodlu, ücresiz, farklı cihazlar için responsive tasarıma duyarlı bir CSS (**Framework**) kütüphanesidir.
 
