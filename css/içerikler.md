@@ -26,11 +26,18 @@
    -  **video**
       -  https://www.youtube.com/watch?v=hU4CHUW_0EU
       -  Bu videoda; CSS kurallarının neler olduğunu, style oluştururken nelere dikkat edilmesi gerektiğini, Inline CSS özelliğini ve özellik değeri vererek style oluşturmayı anlattık.
--  [Inline(Etikete Özel), Internal(Aynı Dosyada) ve External(CSS Dosyasında) CSS Kullanımı](inlineetikete-ozel,-internalayni-dosyada-ve-externalcss-dosyasinda-css-kullanimi/)
+   
+- [Inline(Etikete Özel), Internal(Aynı Dosyada) ve External(CSS Dosyasında) CSS Kullanımı](inlineetikete-ozel,-internalayni-dosyada-ve-externalcss-dosyasinda-css-kullanimi/)
+
+  -  **Video**
+     -  https://www.youtube.com/watch?v=hU4CHUW_0EU
+     -  Bu videoda; CSS kurallarının neler olduğunu, style oluştururken nelere dikkat edilmesi gerektiğini, Inline CSS özelliğini ve özellik değeri vererek style oluşturmayı anlattık. 
+
 -  [Açıklama Satırları ile Çalışmak ve Genel Font Özellikleri](aciklama-satirlari-ile-calismak-ve-genel-font-ozellikleri/)
    -  **video**
       -  https://www.youtube.com/watch?v=LYMK0VARbiY
       -  Bu videoda; CSS de açıklama satırı eklemeyi, açıklama satırı eklerken kullanılan klavye kısayollarını ve açıklama satırlarının neden kullanıldığını; yazı özelliklerini, boyutunu, yazının rengini ve arkaplanın nasıl belirlendiğini anlattık. Ayrıca yazı fontunu belirlemek için dış kaynaklardan nasıl yararlanabileceğinizi de gösterdik.
+   
 - [CSS ile Class ve ID Kullanımı](css-ile-class-ve-id-kullanimi/)
 
   - **Sorular**
