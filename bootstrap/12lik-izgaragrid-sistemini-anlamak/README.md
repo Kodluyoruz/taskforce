@@ -10,7 +10,7 @@ Bootstrap ızgara sistemi 3 anayapıdan oluşur:
 
 Her bir sütun, 12 kolondan meydana gelmekte ve 12'lik Grid sistemi oluşturmaktadır. 12'lik ızgara sisteminde, kolon sayısı varyasyonları ile istenildiği gibi tasarım yapılabilmektedir.
 
-![Bootstrap 12'lik Izgara Sistemi](figures/izgara-sistemi.jpg)
+![Bootstrap 12'lik Izgara Sistemi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/12lik-izgaragrid-sistemini-anlamak/figures/izgara-sistemi.jpg)
 
 ## Öntanmlı Kolon Sınıf Adları
 
@@ -28,13 +28,13 @@ Her ölçüdeki cihaza uyumlu (responsive) tasarımın oluşturulması için Boo
 
 ## Örnekler:
 
-![Kolonların sıralanması](figures/ornekler.jpg)
+![Kolonların sıralanması](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/12lik-izgaragrid-sistemini-anlamak/figures/ornekler.jpg)
 
 ### Eşit Kolonlar
 
 Eşit kolonlu tasarım için 12 adet 1'er kolon (.col-[sınıfAdı]-1), 6 adet 2'li kolon (.col-[sınıfAdı]-2), 4 adet 3'lü kolon (.col-[sınıfAdı]-3), 3 adet 4'lü kolon (.col-[sınıfAdı]-4), 2 adet 6'lı kolon (.col-[sınıfAdı]-6), 1 adet 12'li kolon (.col-[sınıfAdı]-12) oluşturulabilir. Ya da col sınıfına sahip element sayısına göre (Örneğin; 3 adet .col sınıfı olan elementler 3 adet kolon oluşturur) otomotik olarak eşit kolonlara bölünebilir.
 
-![Eşit kolonlu tasarım](figures/esit-kolonlu-tasarim.jpg)
+![Eşit kolonlu tasarım](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/12lik-izgaragrid-sistemini-anlamak/figures/esit-kolonlu-tasarim.jpg)
 
 ```html
 <div class="row">
@@ -96,7 +96,7 @@ Verilen kolon değerlerinin toplamı 12'den fazla olması durumunda son kolon bl
 
 Kolonların arasında da boşluk bırakmak mümkün. Bunun için col sınıfının yanına öntanımlı margin ve margin yönünü (ml-auto gibi) belirten bir sınıf adı daha eklenmelidir. Kolonun solunda boşluk bırakmak için margin (m) left (l) yani ml-auto sınıfı eklemeli, aynı şekilde sağ tarfında boşluk bırakılmak istenirse margin (m) right (r) yani mr-auto sınıfı eklemelidir. Örneğin; col-4 mr-auto sınıfı olan bir kolonun sağ tarafında, col-4 ml-auto sınıfı ise kolonun solunda boşluk bırakır.
 
-![Eşit olmayan kolonlarla tasarım](figures/esit-olmayan-kolonlar.jpg)
+![Eşit olmayan kolonlarla tasarım](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/12lik-izgaragrid-sistemini-anlamak/figures/esit-olmayan-kolonlar.jpg)
 
 ```html
 <div class="row">
@@ -134,7 +134,7 @@ Kolonların arasında da boşluk bırakmak mümkün. Bunun için col sınıfın�
 
 Öntanımlı order-[sıra numarası] sınıfını ekleyerek kolonları sıralayabiliriz. Örneğin; col-3 order-3 üç kolonluk bölümü üçüncü sıraya yerleştirecektir.
 
-![Kolonların sıralanması](figures/kolon-siralama.jpg)
+![Kolonların sıralanması](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/12lik-izgaragrid-sistemini-anlamak/figures/kolon-siralama.jpg)
 
 ```html
 <div class="row">
@@ -148,7 +148,7 @@ Kolonların arasında da boşluk bırakmak mümkün. Bunun için col sınıfın�
 
 Bir satırdaki (row) kolonun (col) içine başka bir satır eklenerek yine kolonlara bölünebilir. Örneğin; 4'lük bir kolon (.col-[sınıfAdı]-4) ile 8'lik bir kolondan (.col-[sınıfAdı]-8) oluşan satırdaki 8'lik kolonun içinde yeni bir satır (row) eklenerek 2 adet 6'lık kolon (.col-[sınıfAdı]-6) oluşturulabilir.
 
-![İçiçe ızgara sistemi](figures/icice-izgara-sistemi.jpg)
+![İçiçe ızgara sistemi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/12lik-izgaragrid-sistemini-anlamak/figures/icice-izgara-sistemi.jpg)
 
 ```html
 <div class="row">
@@ -168,7 +168,7 @@ Bir satırdaki (row) kolonun (col) içine başka bir satır eklenerek yine kolon
 
 ### Örnek Bir Sayfa İncelemesi
 
-![Örnek bir sayfa incelemesi](figures/ornek-sayfa.jpg)
+![Örnek bir sayfa incelemesi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/12lik-izgaragrid-sistemini-anlamak/figures/ornek-sayfa.jpg)
 
 Sayfanın tasarımı yukarıdan aşağıya sırasıyla şöyle hazırlanmış; ilk bölüm 12 kolonlu, ikinci bölüm 8 ve 4 kolonlu, üçüncü bölüm 4 kolonlu üç eşit parça, dördüncü ve beşinci bölüm ise 3 kolonlu dört eşit parçadan oluşturulmuş.
 
@@ -180,7 +180,7 @@ Sayfanın tasarımı yukarıdan aşağıya sırasıyla şöyle hazırlanmış; i
 
 Aşağıda görseli verilen sayfayı, Bootsrap 12'li ızgara sistemi ile tasarlayınız.
 
-![Uygulama](figures/uygulama.jpg)
+![Uygulama](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/12lik-izgaragrid-sistemini-anlamak/figures/uygulama.jpg)
 
 ---
 
