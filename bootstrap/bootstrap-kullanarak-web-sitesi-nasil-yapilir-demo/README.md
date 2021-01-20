@@ -1,11 +1,11 @@
 # Bootstrap Kullanarak Web Sitesi Nasıl Yapılır (Demo)
-![](https://raw.githubusercontent.com/kt-sec/taskforce/bootstrap/bootstrap/bootstrap-kullanarak-web-sitesi-nasil-yapilir-demo/figures/bootstrap.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-kullanarak-web-sitesi-nasil-yapilir-demo/figures/bootstrap.png)
 
 Bootstrap kütüphanesine ait sıklıkla kullanılar bileşenler ile bir web sitesi nasıl yapılacağını öğrenebileceğiniz örnek bir çalışma hazırladım.
 
 >[Demo Web Sitesi Oluşturma Eğitim Videosu](https://drive.google.com/file/d/1DABuYd2qEHxdSeHrp5y5cKImzICPj24N/view?usp=sharing)
 
-![](https://raw.githubusercontent.com/kt-sec/taskforce/bootstrap/bootstrap/bootstrap-kullanarak-web-sitesi-nasil-yapilir-demo/figures/web-sayfasi.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-kullanarak-web-sitesi-nasil-yapilir-demo/figures/web-sayfasi.png)
 
 >[Örnek web sayfası HTML ve CSS dosyaları](https://github.com/kt-sec/taskforce/tree/bootstrap/bootstrap/bootstrap-kullanarak-web-sitesi-nasil-yapilir-demo/src)
 
