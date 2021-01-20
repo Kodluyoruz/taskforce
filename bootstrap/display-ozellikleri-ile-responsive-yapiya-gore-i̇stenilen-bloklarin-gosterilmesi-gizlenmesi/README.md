@@ -96,23 +96,23 @@ Yukarıdaki satırlarda yazdığımız h1 elementlerinin farklı ekran boyutlar�
 
 ### 1200px Genişlik:
 
-![](./figures./1200.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/display-ozellikleri-ile-responsive-yapiya-gore-i%CC%87stenilen-bloklarin-gosterilmesi-gizlenmesi/figures/1200.png)
 
 ### 992px Genişlik:
 
-![](./figures./992.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/display-ozellikleri-ile-responsive-yapiya-gore-i%CC%87stenilen-bloklarin-gosterilmesi-gizlenmesi/figures/992.png)
 
 ### 768px Genişlik:
 
-![](./figures./768.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/display-ozellikleri-ile-responsive-yapiya-gore-i%CC%87stenilen-bloklarin-gosterilmesi-gizlenmesi/figures/768.png)
 
 ### 576px Genişlik:
 
-![](./figures./576.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/display-ozellikleri-ile-responsive-yapiya-gore-i%CC%87stenilen-bloklarin-gosterilmesi-gizlenmesi/figures/576.png)
 
 ### 420px Genişlik:
 
-![](./figures./420.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/display-ozellikleri-ile-responsive-yapiya-gore-i%CC%87stenilen-bloklarin-gosterilmesi-gizlenmesi/figures/420.png)
 
 Görüldüğü üzere, 5 farklı h1 elementini farklı ekran boyutlarında göstermiş ve diğer boyutlarda gizlemiş olduk.
 
