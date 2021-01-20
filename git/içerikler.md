@@ -28,8 +28,9 @@
          -   Staged ortamına alınan dosyaları Local Repository’e gönderir.
          -   Üzerinde çalışılan projenin o anki durumu hakkında bilgi verir. Yapılan değişiklikler, eklenen ve silinen dosyalar gibi bilgiler listelenir.  (Doğru)
    -  Video
-      -  https://www.youtube.com/watch?v=Mn3lljT-nIY
-      -  Bu videoda; git versiyon kontrol sisteminin terminalde kullanımını anlattık.
+      - https://www.youtube.com/watch?v=Mn3lljT-nIY
+      - Bu videoda; git versiyon kontrol sisteminin terminalde kullanımını anlattık.
+
 -  [VS Code içinde Terminal Kullanarak GIT Temel Komutları](vs-code-icinde-terminal-kullanarak-git-temel-komutlari/)
    -  **Sorular**
       -  Commit’lenmeye hazır olan dosyaları ifade eden terim aşağıdakilerden hangisidir?
@@ -43,8 +44,9 @@
          -   Henüz versiyon kontrolü altında olmayan bir projenin dizininde, boş bir git deposu oluşturmak için kullanılır.
          -   Local veya remote repository üzerinde yeni bir branch (dal) eklemek, silmek veya listelemek için kullanılır.
    -  **Video**
-      -  https://www.youtube.com/watch?v=FxN-NlTCWZ0
-      -  Bu videoda; git versiyon kontrol sisteminin VS Code içindeki terminalde kullanımını anlattık.
+      - https://www.youtube.com/watch?v=FxN-NlTCWZ0
+      - Bu videoda; git versiyon kontrol sisteminin VS Code içindeki terminalde kullanımını anlattık.
+
 -  [VS Code içerisinde Terminal Kullanmadan GIT Temel Komutları](vs-code-icerisinde-terminal-kullanmadan-git-temel-komutlari/)
    -  **Sorular**
       -  Yeni eklenen veya üzerinde değişiklik yapılan dosyaları staged ortamına göndermek için aşağıdaki butonlardan hangisine tıklamalıyız?
@@ -58,8 +60,9 @@
          -   clone
          -   checkout to...
    -  **Video**
-      -  https://www.youtube.com/watch?v=5Lnjbkj-4ac
-      -  Bu videoda; git versiyon kontrol sisteminin VS Code içerisinde arayüz özellikleri ile nasıl kullanıldığını anlattık.
+      - https://www.youtube.com/watch?v=5Lnjbkj-4ac
+      - Bu videoda; git versiyon kontrol sisteminin VS Code içerisinde arayüz özellikleri ile nasıl kullanıldığını anlattık.
+
 -  [.gitignore Dosyası Ne İşe Yarar? Nasıl Kullanırız?](gitignore-dosyasi-ne-i̇se-yarar-nasil-kullaniriz/)
    -  **Sorular**
       -  `.dll` uzantısına sahip bütün dosyaları .gitignore dosyasına eklemenin doğru kullanımı hangisidir?
@@ -81,6 +84,7 @@
    -  **Video**
       -  https://www.youtube.com/watch?v=QF99zzvhgUs
       -  Bu videoda .gitignore dosyasının ne olduğunu ve nasıl oluşturulduğunu anlattık. Ayrıca isterseniz kendi .gitignore dosyalarınızı oluşturabilmek için "[https://www.toptal.com/developers/gitignore](https://www.toptal.com/developers/gitignore)" sitesini de ziyaret edebilirsiniz.
+
 -  [GIT - Proje İçindeki Birden Fazla Dosyanın Versiyon Kontrol Sistemine Eklenebilmesi](git-proje-i̇cindeki-birden-fazla-dosyanin-versiyon-kontrol-sistemine-eklenebilmesi/)
    -  **Sorular**
       -  Versiyon kontrol sistemine tüm dosyalarımızı aynı anda göndermeden önce yapılması gereken kritik işlem nedir ?
@@ -96,6 +100,7 @@
    -  **Video**
       -  https://www.youtube.com/watch?v=TP2K4cx3Asw
       -  Bu videoda; birden fazla dosyanın versiyon kontrol sistemine eklenmesini, branch kullanımını ve branch yapısı arasında geçişin nasıl sağlanacağını anlattık. 
+
 #### [GitHub'a Projemizin Eklenmesi ve Diğer Repo Hosting Web Platformları](githuba-projemizin-eklenmesi-ve-diger-repo-hosting-web-platformlari/)
 
 - **Sorular**
@@ -134,5 +139,5 @@
 - **Video**
     - https://www.youtube.com/watch?v=gmfFWi3wbKU
     - Bu videoda; README.md dosyasının önemini ve temel Markdown kullanımının özelliklerini anlattık.
--  [Ödev 1](odev1/)
 
+-  [Ödev 1](odev1/)
