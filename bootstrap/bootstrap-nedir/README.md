@@ -53,7 +53,7 @@ Basit bir hazır Bootstrap örneği:
 </html>
 
 ```
-![](./figures/website.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-nedir/figures/website.png)
 
 # Bootstrap öğrenimi için linkler
 - [Resmi Bootstrap dökümantasyonu](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
