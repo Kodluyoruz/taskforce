@@ -7,13 +7,14 @@
 
 - Frontend & Backend Karşılaştırması ?
 
-#### Algoritma
+#### Algoritma & Pseudocode
 
 - [Pseudocode](pseudocode/)
+- Algoritma
 
 #### Internet
 
-- [Internet Basics](internet/)
+- [İnternet'in Temelleri](internet/)
 
 - Browsers
 
@@ -48,10 +49,6 @@
 
 - [Terminal Kullanımı](terminal-kullanimi/)
 
- - [Windows Temel Terminal Komutları](terminal-kullanimi)
-
- - [MacOS & Linux Temel Terminal Komutları](terminal-kullanimi)
-
 - MultiCursor (Çoklu İmleç) Kullanımı
 
 - Klavye ile Çalışmak / Klavye Kısayol Tuşları
@@ -75,21 +72,15 @@
 #### Developer'lar İçin Platformların Önemi
 
 - [Kendinizi güncel tutmak için kullanabileceğiniz platformlar](platformların-önemi/)
-
+- StackoverFlow
+- KodKoda
  - Hackerrank
-
  - CodeWars 
-
  - LeetCode 
-
  - Project Euler
-
  - Reddit
-
  - Edabit
-
  - repl.it
-
  - codepen
 
  
