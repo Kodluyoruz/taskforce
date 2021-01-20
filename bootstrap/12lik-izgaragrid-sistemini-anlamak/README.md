@@ -12,7 +12,7 @@ Her bir sütun, 12 kolondan meydana gelmekte ve 12'lik Grid sistemi oluşturmakt
 
 ![Bootstrap 12'lik Izgara Sistemi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/12lik-izgaragrid-sistemini-anlamak/figures/izgara-sistemi.jpg)
 
-## Öntanmlı Kolon Sınıf Adları
+## Öntanımlı Kolon Sınıf Adları
 
 Her ölçüdeki cihaza uyumlu (responsive) tasarımın oluşturulması için Bootstrap'te öntanımlı kolon sınıfları (class) kullanılır.
 
