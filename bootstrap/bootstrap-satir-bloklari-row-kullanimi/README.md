@@ -1,14 +1,14 @@
 # Bootstrap - Satır Blokları (Row) Kullanımı
 Grid sistem, satırlardan(rows) ve sütunlardan (column) oluşur. Bir satır(row) 12 column'dan oluşur. Bu satırları istediğimiz şekilde parçalayabiliriz. Aşağıdaki resimde de görüldüğü gibi istersek bunları 12 eşit parçaya ayırabilir ya da 12'ye tamamlanacak herhangi bir şekilde de bölebiliriz. Örneklerle bunları açıklamaya çalışayım.
- 
- 
+
+
  ![gridLayout](https://github.com/engntuba/taskforce/blob/bootstrap/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/Bootstrap-part-2.png)
+
  
- 
- 
+
 - Satırlar `.row` sınıfı ile oluşturulur ve sayfada alt alta görünürler ve sütunlar dışında içerik barındırmamalı.
 - Satırların içerisine doğruca sütunlar gelir ve responsive kullanımına bağlı olarak oluşturulan sütunlar yan yana veya alt alta yerleşebilir. Sütun oluşturmak için `.col`, `col- {boyut}` ya da `col-{kırılım}-{boyut}` sınıflarını kullanırız. 
- 
+
  - Aşağıdaki örnekleri incelediğimiz de her bir satırı sırasıyla 2,3,4 eşit parçalara bölmüş olduk. Peki bunu nasıl yaptık?  `row`  sınıfının altına satırı bölmek istediğimiz kadar `col` sınıfı ekleriz. Bu şekilde bir satırı istediğimiz boyuttaki columnlar halinde oluşturabiliriz. İfade ettiğim cümleyi örneklerle daha iyi pekiştireceğimizi düşünüyorum.
 
 ``````html
@@ -18,7 +18,7 @@ Grid sistem, satırlardan(rows) ve sütunlardan (column) oluşur. Bir satır(row
 </div>
 ``````
  ![2Columns](https://github.com/engntuba/taskforce/blob/bootstrap/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/6of6.PNG)
- 
+
  
 
 ````html
@@ -27,7 +27,7 @@ Grid sistem, satırlardan(rows) ve sütunlardan (column) oluşur. Bir satır(row
   <div class="col">Column</div>
   <div class="col">Column</div>
 </div>
-```` 
+````
 ![3Columns](https://github.com/engntuba/taskforce/blob/bootstrap/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/3column.PNG)
 ````html
 <div class="row">
@@ -36,7 +36,7 @@ Grid sistem, satırlardan(rows) ve sütunlardan (column) oluşur. Bir satır(row
   <div class="col">Column</div>
   <div class="col">Column</div>
 </div>
-```` 
+````
 ![4Columns](https://github.com/engntuba/taskforce/blob/bootstrap/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/4column.PNG)
 
 Yukarıdaki örneklerde de görüldüğü üzere satırları eşit parçalar halinde columnlara ayırdık. Peki eşit olmayan columnlar yapabilir miyiz? Tabiki yapabiliriz. Şimdi de örneklerle eşit olmayan columnlar oluşturalım...
@@ -95,25 +95,9 @@ Yukarıdaki örneklerde de görüldüğü üzere satırları eşit parçalar hal
 			
 			</div>
 		</div>
-  ``````
+``````
 
 ![içiçesatırlar](https://github.com/engntuba/taskforce/blob/bootstrap/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/img8.PNG)
-
-
-1- GridSystem hakkında aşağıdakilerden hangisi doğrudur?
-
-A) Düzgün bir hizalama için satırlar .container içine yerleştirilmelidir.
-B) Sütun gruplarını oluşturmak için satırları kullanırız.
-C) İçerikler sütunların içine yerleştirilmelidir ve yalnızca sütunlar satırların hemen alt öğeleri olabilir.
-D) Yukarıdakilerin hepsi.
-
-Cevap:D
-
-2- Aşağıdaki boşlukları doldurunuz.
-
-Satırlar ... sınıfı kullanılarak oluşturulur ve ... html kod bloğu ile column 2 eşit parçaya bölünür.
-
-Cevap: .row , .col-6
 
 Kaynaklar:
 - [https://www.udemy.com/course/komple-web-developer-kursu/learn/lecture/9815366#overview](https://www.udemy.com/course/komple-web-developer-kursu/learn/lecture/9815366#overview)
@@ -127,7 +111,7 @@ Kaynaklar:
 
 
  
+
  
- 
- 
+
 

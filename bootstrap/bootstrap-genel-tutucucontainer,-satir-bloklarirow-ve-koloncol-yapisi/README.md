@@ -82,24 +82,6 @@ Bu resimde gördüğümüz 2 satırdan oluşan grid yapısını aşağıdaki kod
 
 Row ve column yapısı kullanımı ve mantığı genel hatlarıyla bu şekilde diyebiliriz. Konuyu pekiştirmek için bu küçük quizi cevaplamanızı tavsiye ediyoruz !
 
-Soru 1) Şıklardan hangisi bir html tag'i için geçerli bir container class ismi atamasıdır.
-
-a) class=container-lg
-
-b) class=.container-md
-
-c) class=".container"
-
-d) class="container" 
-
-Cevap: d şıkkı
-
-Soru 2) Aşağıdaki cümlede ki boşluğu doldurunuz.
-
-Bootstrap'in sağladığı grid system temel olarak .... adet sütunu baz alarak tasarlanmıştır. Sütunları ve satırları bir .... içerisinde kullanarak, birbirleriyle birleştirip, ayrıştırıp dilediğimiz boyutlarda sayfa tasarımı yapabilmekteyiz.
-
-Cevap: ilk boşluk "12", ikinci boşluk "container"
-
 kaynaklar:
 * https://www.kodluyoruz.org/
 * https://getbootstrap.com/docs/4.4/layout/overview/

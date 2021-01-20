@@ -4,13 +4,15 @@
 
 Hatırlar mısınız CSS'in ilk ödevinde boynu bükük bir site yapmıştık. Bu site CSS'in özelliklerini kullanan bir müzik aleti satış sitesiydi. Bu siteyi bootstrapte tekrar tasarlayacağız.
 
+### Sizden Beklediklerimiz
+
 - HTML kısmını önceki ödevden alabilirsiniz fakat baştan yapmanızı öneririz.
 
 - Menüyü koyu renkli olarak düzenleyin. İsterseniz arka plan rengi de verebilirsiniz.
 
 - Ana sayfaya bir jumbotron koyup içeriğinizin açıklamasını yazınız.
 
-- Arka plan rengini #E9ECEF ile değiştirin.
+- Arka plan rengini `#E9ECEF` ile değiştirin.
 
 - Ürünlerimiz sayfasında card yapısını kullanın.
 
