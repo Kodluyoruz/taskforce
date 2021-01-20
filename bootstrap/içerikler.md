@@ -319,5 +319,71 @@
   * https://youtu.be/-5ZTS86imFM
   * Bu videoda bootstrap içerisinde bulunan bileşenleri inceleyip nasıl kullanabileceğimizi anlattık. 
 
--  [Ödev 2](odev2/)
+- [Ödev 2](odev2/)
+
+  
+
+#### Alıştırmalar & Ödevler
+
+* [Bootstrap ile Medium Klon Çalışması - Tek Video](klon-calismasi-tek/)
+
+  * **Video**
+
+    * https://youtu.be/nTs19w7JOOY
+
+    * Bu videoda; Bootstrap ile Medium benzeri bir sitenin nasıl oluşturulabileceğine dair proje bir çalışması yaptık.
+
+      
+
+* [Bootstrap ile Medium Klon Çalışması - Bölüm 1](klon-calismasi-bolum1/)
+
+  * **Video**
+
+    * https://youtu.be/oFSCiWrv69E
+
+    * Bu videoda Bootstrap ile Medium benzeri bir sitenin nasıl oluşturulabileceğine dair bir proje çalışması yaptık. (Bir önceki videonun ilk kısmını içermektedir.) 
+
+      
+
+* [Bootstrap ile Medium Klon Çalışması - Bölüm 2](klon-calismasi-bolum2/)
+
+  * **Video**
+
+    * https://youtu.be/xtL5ZGA4shI
+
+    * Bu videoda Bootstrap ile Medium benzeri bir sitenin nasıl oluşturulabileceğine dair bir proje çalışması yaptık. (Bir önceki videonun ikinci kısmını içermektedir.) 
+
+      
+
+* [Bootstrap ile Medium Klon Çalışması - Bölüm 3](klon-calismasi-bolum3/)
+
+  * **Video**
+
+    * https://youtu.be/BZOcGlbejLM
+
+    * Bu videoda Bootstrap ile Medium benzeri bir sitenin nasıl oluşturulabileceğine dair bir proje çalışması yaptık. (Bir önceki videonun üçüncü kısmını içermektedir.) 
+
+      
+
+* [Bootstrap ile Medium Klon Çalışması - Bölüm 4](klon-calismasi-bolum4/)
+
+  * **Video**
+
+    * https://youtu.be/5YOlCGOJlmI
+
+    * Bu videoda Bootstrap ile Medium benzeri bir sitenin nasıl oluşturulabileceğine dair bir proje çalışması yaptık. (Bir önceki videonun son kısmını içermektedir.) 
+
+      
+
+#### [Diğer CSS Kütüphanelerine Genel Bakış](diger-css-kutuphanelerine-genel-bakis/)
+
+* **Video**
+
+  * https://youtu.be/578MJ8gCKew
+
+  * Bootstrap dışında birçok CSS kütüphanesi bulunmaktadır. Bu videoda diğer CSS kütüphanelerinin web sitelerini ve genel özelliklerini inceleyeceğiz.
+
+    
+
+
 
