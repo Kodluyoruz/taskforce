@@ -11,6 +11,7 @@
 - [Bootstrap 4 Dökümanlarına Ulaşmak ve Bootstrap 5 Hakkında](bootstrap-4-dokumanlarina-ulasmak-ve-bootstrap-5-hakkinda/)
 
   -  **Video**
+     
      - https://youtu.be/51t-r9cQRaM
      
      - Eğitim boyunca Bootstrap 4 kullanacağız fakat eğitim hazırlandıktan sonra Bootstrap'in sitesi değişti ve Bootstap 5 Beta aşamasında yayınlandı. Bootstrap 4'un dokümanlarına nasıl ulaşabileceğiniz ve Bootstrap 4 ile Bootstrap 5 arasında bulunan farklar bu videoda anlatılmıştır. 
@@ -82,11 +83,11 @@
 
     - Şıklardan hangisi bir html tag'i için geçerli bir container class ismi atamasıdır?
 
-      - class=container-lg
+      - class=containerLG
 
       - class=.container-md
 
-      - class=".container"
+      - class="containerxl"
 
       - class="container"  (Doğru)
 
