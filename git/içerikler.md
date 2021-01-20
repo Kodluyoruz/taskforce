@@ -13,8 +13,11 @@
     - master
 - Video
   - https://www.youtube.com/watch?v=DVUfB5Iw5js
-  - Bu videoda; Git-SCM versiyon kontrol sisteminin ne işe yaradığını, git versiyon kontrol sistemi ile neler yapılabileceğini ve git versiyon kontrol sisteminde en çok kullanılan komutların neler olduğunu anlattık.
-
+  
+- Bu videoda; Git-SCM versiyon kontrol sisteminin ne işe yaradığını, git versiyon kontrol sistemi ile neler yapılabileceğini ve git versiyon kontrol sisteminde en çok kullanılan komutların neler olduğunu anlattık.
+  
+    
+  
 -  [GIT Bash ile GIT Temel Komutları](git-bash-ile-git-temel-komutlari/)
    -  **Sorular**
       -  Projedeki commit geçmişini görüntülememizi sağlayan komut aşağıdakilerden hangisidir?
@@ -28,8 +31,11 @@
          -   Staged ortamına alınan dosyaları Local Repository’e gönderir.
          -   Üzerinde çalışılan projenin o anki durumu hakkında bilgi verir. Yapılan değişiklikler, eklenen ve silinen dosyalar gibi bilgiler listelenir.  (Doğru)
    -  Video
-      -  https://www.youtube.com/watch?v=Mn3lljT-nIY
-      -  Bu videoda; git versiyon kontrol sisteminin terminalde kullanımını anlattık.
+      - https://www.youtube.com/watch?v=Mn3lljT-nIY
+      
+      - Bu videoda; git versiyon kontrol sisteminin terminalde kullanımını anlattık.
+      
+        
 -  [VS Code içinde Terminal Kullanarak GIT Temel Komutları](vs-code-icinde-terminal-kullanarak-git-temel-komutlari/)
    -  **Sorular**
       -  Commit’lenmeye hazır olan dosyaları ifade eden terim aşağıdakilerden hangisidir?
@@ -43,8 +49,11 @@
          -   Henüz versiyon kontrolü altında olmayan bir projenin dizininde, boş bir git deposu oluşturmak için kullanılır.
          -   Local veya remote repository üzerinde yeni bir branch (dal) eklemek, silmek veya listelemek için kullanılır.
    -  **Video**
-      -  https://www.youtube.com/watch?v=FxN-NlTCWZ0
-      -  Bu videoda; git versiyon kontrol sisteminin VS Code içindeki terminalde kullanımını anlattık.
+      - https://www.youtube.com/watch?v=FxN-NlTCWZ0
+      
+      - Bu videoda; git versiyon kontrol sisteminin VS Code içindeki terminalde kullanımını anlattık.
+      
+        
 -  [VS Code içerisinde Terminal Kullanmadan GIT Temel Komutları](vs-code-icerisinde-terminal-kullanmadan-git-temel-komutlari/)
    -  **Sorular**
       -  Yeni eklenen veya üzerinde değişiklik yapılan dosyaları staged ortamına göndermek için aşağıdaki butonlardan hangisine tıklamalıyız?
@@ -58,8 +67,11 @@
          -   clone
          -   checkout to...
    -  **Video**
-      -  https://www.youtube.com/watch?v=5Lnjbkj-4ac
-      -  Bu videoda; git versiyon kontrol sisteminin VS Code içerisinde arayüz özellikleri ile nasıl kullanıldığını anlattık.
+      - https://www.youtube.com/watch?v=5Lnjbkj-4ac
+      
+      - Bu videoda; git versiyon kontrol sisteminin VS Code içerisinde arayüz özellikleri ile nasıl kullanıldığını anlattık.
+      
+        
 -  [.gitignore Dosyası Ne İşe Yarar? Nasıl Kullanırız?](gitignore-dosyasi-ne-i̇se-yarar-nasil-kullaniriz/)
    -  **Sorular**
       -  `.dll` uzantısına sahip bütün dosyaları .gitignore dosyasına eklemenin doğru kullanımı hangisidir?
@@ -79,8 +91,11 @@
          -   IDE eklentileri
          -   Hepsi (D)
    -  **Video**
-      -  https://www.youtube.com/watch?v=QF99zzvhgUs
-      -  Bu videoda .gitignore dosyasının ne olduğunu ve nasıl oluşturulduğunu anlattık. Ayrıca isterseniz kendi .gitignore dosyalarınızı oluşturabilmek için "[https://www.toptal.com/developers/gitignore](https://www.toptal.com/developers/gitignore)" sitesini de ziyaret edebilirsiniz.
+      - https://www.youtube.com/watch?v=QF99zzvhgUs
+      
+      - Bu videoda .gitignore dosyasının ne olduğunu ve nasıl oluşturulduğunu anlattık. Ayrıca isterseniz kendi .gitignore dosyalarınızı oluşturabilmek için "[https://www.toptal.com/developers/gitignore](https://www.toptal.com/developers/gitignore)" sitesini de ziyaret edebilirsiniz.
+      
+        
 -  [GIT - Proje İçindeki Birden Fazla Dosyanın Versiyon Kontrol Sistemine Eklenebilmesi](git-proje-i̇cindeki-birden-fazla-dosyanin-versiyon-kontrol-sistemine-eklenebilmesi/)
    -  **Sorular**
       -  Versiyon kontrol sistemine tüm dosyalarımızı aynı anda göndermeden önce yapılması gereken kritik işlem nedir ?
@@ -94,8 +109,11 @@
          -  Hiçbir hata ile karşılaşmayız ve dosyalarımız aktarılmaz. (D)
          -  Commit işlemi ile ilgili uyarı verir ancak dosyalarımız aktarılmış olur.
    -  **Video**
-      -  https://www.youtube.com/watch?v=TP2K4cx3Asw
-      -  Bu videoda; birden fazla dosyanın versiyon kontrol sistemine eklenmesini, branch kullanımını ve branch yapısı arasında geçişin nasıl sağlanacağını anlattık. 
+      - https://www.youtube.com/watch?v=TP2K4cx3Asw
+      
+      - Bu videoda; birden fazla dosyanın versiyon kontrol sistemine eklenmesini, branch kullanımını ve branch yapısı arasında geçişin nasıl sağlanacağını anlattık. 
+      
+        
 #### [GitHub'a Projemizin Eklenmesi ve Diğer Repo Hosting Web Platformları](githuba-projemizin-eklenmesi-ve-diger-repo-hosting-web-platformlari/)
 
 - **Sorular**
@@ -116,7 +134,10 @@
     -  Git versiyon kontrol sistemidir, GitHub ise projelerimizin saklandığı yerdir. (D)
 - **Video**
   - https://www.youtube.com/watch?v=lskdPhnXaQw
+  
   - Bu videoda; kendi bilgisayarınızda tuttuğunuz projenizi GitHub Repo Hosting sitesine nasıl atabileceğinizi, gizlilik ayarlarını nasıl yapabileceğinizi ve diğer Repo Hosting sitelerini bu videoda anlattık.
+  
+    
 
 #### [Markdown Nedir ? Nasıl Kullanırız ?](markdown-nedir-nasil-kullaniriz-/)
 
@@ -128,9 +149,14 @@
     - " (Çift tırnak)
   - h1 başlık oluşturmak için aşağıdakilerden hangisi yapılır?
     - h1 başlık için bir işlem yapmak gerekmez, otomatik oluşur.
+    
     - Başlık, * karakterleri arasına yazılır.
-    - \# karakterinden sonra bir boşluk bırakılarak başlık yazılır. (Doğru)
+    
+  - \# karakterinden sonra bir boşluk bırakılarak başlık yazılır. (Doğru)
+    
     - Backtick bloğu oluşturulup, içine yazılır.
-
+    
+      
+  
 -  [Ödev 1](odev1/)
 
