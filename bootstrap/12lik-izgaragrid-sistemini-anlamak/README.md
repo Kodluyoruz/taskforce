@@ -172,42 +172,7 @@ Bir satırdaki (row) kolonun (col) içine başka bir satır eklenerek yine kolon
 
 Sayfanın tasarımı yukarıdan aşağıya sırasıyla şöyle hazırlanmış; ilk bölüm 12 kolonlu, ikinci bölüm 8 ve 4 kolonlu, üçüncü bölüm 4 kolonlu üç eşit parça, dördüncü ve beşinci bölüm ise 3 kolonlu dört eşit parçadan oluşturulmuş.
 
----
 
-### Değerlendirme Soruları
-
-```
-1. Bir satırın sadece 3'te 2'si eşit 2 parça ile nasıl tasarlanabilir?
-	a) class="col-6", class="col-6"
-	b) class="col-3", class="col-3"
-	c) class="col-4", class="col-4"
-	d) class="col-3", class="col-3", class="col-6"
-
-2. Aynı satırdaki class="col-4", class="col-4", class="col-6" değerleri nasıl bir sonuç verir?
-	a) Yanyana 4'lü, 4'lü ve altta 6'lı kolon
-	b) Yanyana 4'lü, 4'lü ve 4'lü kolon
-	c) Yanyana 4'lü ve 6'lı kolon
-	d) Yanyana 4'lü ve 4'lü kolon
-
-3. Aşağıdakilerden hangiside kolonun sol tarafında boşluk bırakılmış olur?
-	a) class="col-4 margin-left"
-	b) class="col-4 margin-right"
-	c) class="col-4 ml-auto"
-	d) class="col-4 mr-auto"
-
-4. Aşağıdakilerin hangisi verilen kolonu 2. sıraya konumlandırır?
-	a) class="col-2 order-3"
-	b) class="col-4 order-2"
-	c) class="col-2 order-4"
-	d) class="col-4 order-1"
-```
-
-#### Cevaplar:
-
-1. c
-2. a
-3. c
-4. b
 
 ---
 
