@@ -637,13 +637,3 @@ Bu yazımızda Bootsrap'in tüm arayüz bileşenlerinden bahsetmeye çalıştık
 
 [https://getbootstrap.com/docs/5.0/](https://getbootstrap.com/docs/5.0/)
 
-## Sorular 
-
-**1-** Sayfalarımızın en başında navigasyonu sağlamak için hangi bileşeni kullanırız? 
-> [*navbar*](https://getbootstrap.com/docs/5.0/components/navbar/)
-
-**2-** Sayfalarımızda resim galerisi oluşturmak için en uygun olan bootsrap bileşeni hangisidir?
-> [*carousel*](https://getbootstrap.com/docs/5.0/components/carousel/)
-
-**3-** Sayfalarımızda bildirim göstermemiz için tasarlanmış bootsrap bileşenleni hangisidir? 
-> [*toasts*](https://getbootstrap.com/docs/5.0/components/toasts/)

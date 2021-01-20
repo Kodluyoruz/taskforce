@@ -116,21 +116,6 @@ Yukarıdaki satırlarda yazdığımız h1 elementlerinin farklı ekran boyutlar�
 
 Görüldüğü üzere, 5 farklı h1 elementini farklı ekran boyutlarında göstermiş ve diğer boyutlarda gizlemiş olduk.
 
-
-## Sorular
-
-1. Aşağıdaki elementlerden hangisi _sadece_ large boyutlu ekranlarda görünürdür?
- * `<div class="d-none d-md-block d-lg-none bg-info"><h1>Bu bir başlıktır.</h1></div>`
- * `<h1 class="d-block d-lg-none bg-warning">Kodluyoruz</h1>`
- * `<h2 class="d-none d-lg-block d-xl-none-primary">Bootstrap</h2>`          (Doğru Cevap)
- * `<span class="d-block d-xl-none bg-success"><p>Responsive</p></span>`
-
-2. Hangisi bir display infix değildir?
- * sm
- * m         (Doğru Cevap)
- * lg
- * xl
-
 ## Kaynaklar
 [CSS display - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display)  
 [CSS display property - w3schools](https://www.w3schools.com/cssref/pr_class_display.asp)  

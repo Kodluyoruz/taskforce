@@ -66,39 +66,3 @@ Yukarıdaki örnekte sütun genişliği 8 birim, offset değeri ise sağdan 4 bi
 
 [Codepen'de deneyin](https://codepen.io/ruysapoly/pen/gOwQrZw)
 
-### Sorular
-
-1. "col-md-6" sınıfı ile oluşturulan bir div elementinin offset sınıfına verilebilecek değer aşağıdakilerden hangisidir?
-
-   A. offset-md-4
-
-   B. offset-md-3
-
-   C. offset-md
-
-   D. offset-sm-1
-
-<details><summary>Cevap</summary>Doğru cevap B şıkkıdır.</details>
-
-2. ​	i.  Offset değeri sütun genişliğinden bağımsızdır.
-
-   ii.  Offset değeri negatif bir değer olabilir
-
-   iii.  "col-md-12" sınıflı bir div'e "offset-md-12" sınıfı verildiğinde taşma olmaz.
-
-   iv.  offset sınıfı ile push sınıfı aynı işlemi uygular.
-
-   Yukarıdakilerden hangisi yanlıştır?
-
-   A.  i ve iii
-
-   B. Yalnız i
-
-   C. ii ve iv
-
-   D. i, ii, iv
-
-   E. i, ii, iii, iv
-
-<details><summary>Cevap</summary>Doğru cevap D şıkkıdır.</details>
-

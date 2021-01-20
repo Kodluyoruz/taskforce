@@ -159,15 +159,165 @@
 
         
 
--  [Ödev 1](odev1/)
+- [Ödev 1](odev1/)
+
+  
 
 #### [Bootstrap Kullanarak Web Sitesi Nasıl Yapılır (Demo)](bootstrap-kullanarak-web-sitesi-nasil-yapilir-demo/)
 
--  [Bootstrap Renk Strandartları, Tipografi, Margin ve Padding Kullanımı](bootstrap-renk-strandartlari,-tipgrafi,-margin-ve-padding-kullanimi/)
--  [Display Özellikleri ile Responsive Yapıya Göre İstenilen Blokların Gösterilmesi / Gizlenmesi](display-ozellikleri-ile-responsive-yapiya-gore-i̇stenilen-bloklarin-gosterilmesi-gizlenmesi/)
--  [Bootstrap - Offset Kullanımı](bootstrap-offset-kullanimi/)
--  [Bootstrap Sıralama Özellikleri Kullanarak Responsive Yapıya Göre Tepkilerin Düzenlenmesi](bootstrap-siralama-ozellikleri-kullanarak-responsive-yapiya-gore-tepkilerin-duzenlenmesi/)
+* **Video**
+
+  * https://youtu.be/n4BGz5vMAJ4
+  * Bu videoda Grid sistem, Row ve Col yapısını oluşturduktan sonra nasıl Bootstrap bileşenlerini kullanabileceğiniz anlatılmıştır. 
+
+  
+
+- [Bootstrap Renk Strandartları, Tipografi, Margin ve Padding Kullanımı](bootstrap-renk-strandartlari,-tipgrafi,-margin-ve-padding-kullanimi/)
+
+  - **Video**
+
+    - https://youtu.be/UwF0wK7j2NQ
+
+    - Bu videoda; web sitelerini hazırlarken Bootstrap renk standartlarlarını, renklerin kullanımını, Flat UI Color sitesindeki renk paletlerini, tipografi yapısı ile text elementlerinin nasıl olacağını, marjin ve paddinglerin nasıl verileceği anlatılmıştır.
+
+      
+
+- [Display Özellikleri ile Responsive Yapıya Göre İstenilen Blokların Gösterilmesi / Gizlenmesi](display-ozellikleri-ile-responsive-yapiya-gore-i̇stenilen-bloklarin-gosterilmesi-gizlenmesi/)
+
+  - **Sorular**
+
+    - Aşağıdaki elementlerden hangisi _sadece_ large boyutlu ekranlarda görünürdür?
+
+      - `<div class="d-none d-md-block d-lg-none bg-info"><h1>Bu bir başlıktır.</h1></div>`
+
+      - `<h1 class="d-block d-lg-none bg-warning">Kodluyoruz</h1>`
+
+      - `<h2 class="d-none d-lg-block d-xl-none-primary">Bootstrap</h2>` (Doğru)
+
+      - `<span class="d-block d-xl-none bg-success"><p>Responsive</p></span>`
+
+        
+
+    -  Hangisi bir display infix değildir?
+
+       -  sm
+
+       -  m (Doğru)
+
+       -  lg
+
+       -  xl
+
+          
+
+  -  **Video**
+
+     -  https://youtu.be/SS__0zIzvpY
+
+     -  Bu videoda; responsive yapıda xs, sm, md, lg ve xl gibi farklı boyutlarda display özelliği ile nasıl web sitesinde istediğimiz bilgilerin gözüküp/gizlenebileceği anlatılmıştır. 
+
+        
+
+- [Bootstrap - Offset Kullanımı](bootstrap-offset-kullanimi/)
+
+  - **Sorular**
+
+    - "col-md-6" sınıfı ile oluşturulan bir div elementinin offset sınıfına verilebilecek değer aşağıdakilerden hangisidir?
+
+      - offset-md-4
+
+      - offset-md-3 (Doğru)
+
+      - offset-md
+
+      - offset-sm-1
+
+        
+
+    -  i.  Offset değeri sütun genişliğinden bağımsızdır.
+
+       ii.  Offset değeri negatif bir değer olabilir
+
+       iii.  "col-md-12" sınıflı bir div'e "offset-md-12" sınıfı verildiğinde taşma olmaz.
+
+       iv.  offset sınıfı ile push sınıfı aynı işlemi uygular.
+
+       Yukarıdakilerden hangisi yanlıştır?
+
+       * i ve iii
+
+       * Yalnız i
+
+       * ii ve iv
+
+       * i, ii, iv (Doğru)
+
+       * i, ii, iii, iv
+
+         
+
+  -  **Video**
+
+     -  https://youtu.be/9eNTrg8v7u4
+
+     -  Bu videoda, bootstap projelerimizde offset ile nasıl bloklar arasında boşluklar oluşturabileceğimizi anlattık. 
+
+        
+
+- [Bootstrap Sıralama Özellikleri Kullanarak Responsive Yapıya Göre Tepkilerin Düzenlenmesi](bootstrap-siralama-ozellikleri-kullanarak-responsive-yapiya-gore-tepkilerin-duzenlenmesi/)
+
+  - **Video**
+
+    - https://youtu.be/rZkHrSVJL3g
+
+    - Bu videoda order ile birlikte yapıların sıralamasını değiştirerek, responsive yapıya uygun tasarımların nasıl yapıldığını anlattık.
+
+      
 
 #### [Bootstrap Bileşenlerine(UI Components) Genel Bakış](bootstrap-bilesenlerineui-components-genel-bakis/)
+
+* **Sorular**
+
+  * Sayfalarımızın en başında navigasyonu sağlamak için hangi bileşeni kullanırız? 
+
+    * Toasts
+
+    * Spinners
+
+    * Navbar (Doğru)
+
+    * Carousel
+
+      
+
+  * Sayfalarımızda resim galerisi oluşturmak için en uygun olan bootsrap bileşeni hangisidir?
+
+    * Collapse
+
+    * Bredcrumb
+
+    * Pagination
+
+    * Carousel (Doğru)
+
+      
+
+  * Sayfalarımızda bildirim göstermemiz için tasarlanmış bootsrap bileşenleni hangisidir? 
+
+    * Tooltips
+
+    * Toasts (Doğru)
+
+    * Popovers
+
+    * Progress
+
+      
+
+* **Video**
+
+  * https://youtu.be/-5ZTS86imFM
+  * Bu videoda bootstrap içerisinde bulunan bileşenleri inceleyip nasıl kullanabileceğimizi anlattık. 
+
 -  [Ödev 2](odev2/)
 
