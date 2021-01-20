@@ -59,7 +59,6 @@
      * External
 
   -  **Video**
-     
      -  https://www.youtube.com/watch?v=hU4CHUW_0EU
      -  Bu videoda; CSS kurallarının neler olduğunu, style oluştururken nelere dikkat edilmesi gerektiğini, Inline CSS özelliğini ve özellik değeri vererek style oluşturmayı anlattık. 
 
