@@ -104,14 +104,3 @@ GIT sistemini kullanmaya başladığınızda karşınıza daha önce aşina olma
 `.gitignore`: GIT'in takip etmesini istemediğimiz dosya ve klasörleri belirttiğimiz dökümandır. Mesela node_module klasörünün izlenmesine gerek yoktur ve .gitignore dökümanı içinde bunu belirtiriz.
 
 GIT sisteminde kullanılan komutlara diğer yazımızdan ulaşabilirsiniz.
-
-* [Hangisi GIT versiyon kontrol sisteminin sağladığı imkanlardan değildir?]
-  * Projelerde takım çalışmasına imkan vermesi.
-  * Commit edilmiş değişikliklere geri dönülebilmesi. 
-  * SnapShot alınmayan değişikliklere dönme imkanı vermesi. (Doğru)
-  * Versiyonlanmasını istemediğimiz dosya ve klasörleri .gitignore içinde belirtmemize imkan vermesi.
-* [Branch'lerde yapılan işlemlerin master branch ile birleştirilmesi işlemine ne ad verilir?]
-  * repository
-  * merge (Doğru)
-  * pull
-  * master

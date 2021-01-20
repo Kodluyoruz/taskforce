@@ -75,29 +75,6 @@ Bu kısımda ise commit hakkında yorum yazabilir ve detaylı olarak değişikli
 
 Bitbucket, 2010 yılında Atlassian firması tarafından satın alınması ile beraber **Mercurial** ile birlikte **Git** desteği de vermeye başlayan ve günümüzde de hala sadece **Git** ve **Mercurial** versiyon kontrol sistemlerini (VCS) destekleyen, yazılım projeleri kodları için web tabanlı bir depolama servisidir.
 
-## Sorular
-
-1. Aşağıdakilerden hangileri versiyon kontrol sistemine yapılan değişikliği göndermek için uygulanan doğru yoldur ?
-
-- [ ] "git add README.md" -> "git push" -> "git commit -m "mesaj" "
-- [ ] "git commit -m "mesaj" " -> "git add README.md" -> "git push"
-- [x] "git add ." -> "git commit -m "mesaj" " -> "git push"
-- [x] "git add README.md" -> "git commit -m "mesaj" " -> "git push"
-
-2. Aşağıdakilerden hangisi repo oluşturma aşamasında belirlediğimiz bilgilerin açıklaması yanlış olarak ifade edilmiştir ?
-
-- [ ] Description: Repomuz hakkında detaylı bir açıklama girebiliriz.
-- [ ] Private: Repomuzu bizim dışımızda kimsenin görüntüleyememesini sağlar.
-- [x] Public: Repomuza belirlediğimiz kişilerin görüntüleyebilmesini sağlar.
-- [ ] Owner: Repomuzun hangi kullanıcı tarafından oluşturulacağını seçeriz.
-
-3. Git ve GitHub arasındaki farklar nelerdir ?
-
-- [ ] GitHub versiyon kontrol sistemidir, Git ise projelerimizin saklandığı yerdir.
-- [ ] GitHub, git'in çalışmasını sağlayan arabirim yazılımıdır.
-- [ ] Git, GitHub'ın kısaltmasıdır.
-- [x] Git versiyon kontrol sistemidir, GitHub ise projelerimizin saklandığı yerdir.
-
 ## Kaynaklar
 
 [GitLab Nedir?](https://www.vargonen.com/blog/gitlab-nedir/)

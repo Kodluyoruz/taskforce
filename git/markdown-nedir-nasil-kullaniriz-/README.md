@@ -223,16 +223,3 @@ Elde ettiğimiz çıktı;
 
 Okuduğunuz bu yazı da markdown formatında oluşturulmuştur. Sayfanın en üstündeki [README.md]() dosyasına gidip, açılan sayfada sağ üstteki Raw butonuna tıklarsanız sayfanın markdown formatındaki hâlini ve kullanılan etiketleri görebilirsiniz.
 
-* [Tek satır kod bloğu hangi karakterler arasına yazılır?]
-  * \* (Yıldız)
-  * \` (Backtick) (Doğru)
-  * \- (Tire)
-  * " (Çift tırnak)
-* [h1 başlık oluşturmak için aşağıdakilerden hangisi yapılır?]
-  * h1 başlık için bir işlem yapmak gerekmez, otomatik oluşur.
-  * Başlık, * karakterleri arasına yazılır.
-  * \# karakterinden sonra bir boşluk bırakılarak başlık yazılır. (Doğru)
-  * Backtick bloğu oluşturulup, içine yazılır.
-  
-
-

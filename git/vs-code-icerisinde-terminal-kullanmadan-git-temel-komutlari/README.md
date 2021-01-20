@@ -53,40 +53,7 @@ Eğer remote repository'e bağlıysak ve commit'lerimizi remote repository'e gö
 
 ![git-push](figures/7-git-push.png)
 
-### Sorular
-
-1. Yeni eklenen veya üzerinde değişiklik yapılan dosyaları staged ortamına göndermek için aşağıdaki butonlardan hangisine tıklamalıyız?
-
-- [ ] Discard Changes
-- [x] Stage Changes
-- [ ] Initialize Repository
-- [ ] Views and More Actions
-
-2.Views and More Actions buttonuna tıkladıktan sonra commit'lerimizi remote repository'e göndermek için aşağıdaki butonlardan hangisine tıklamalıyız?
-
-- [ ] pull
-- [x] push
-- [ ] clone
-- [ ] checkout to...
-
-
-
-
 
 ## KAYNAKÇA
 
 - https://medium.com/fedeveloper/git-bash-ile-komut-komut-versiyonlama-a354efd3063f
-
-
-
-
-
-
-
-
-
-
-
-
-
-
