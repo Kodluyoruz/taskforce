@@ -84,21 +84,3 @@
  Daha fazla gelişmek ve kendime bu konuda yetkinlik kazanmak istiyorum diyorsanız,sevdiğiniz tasarımları klonlamayı deneyebilirsiniz böylelikle uygulama yaparak kendinizi daha çok geliştirebilirsiniz.Sonrasında tasarımları modifiye edebilir ve sonrasında da özgün tasarımlarla web sitesi hazırlayabilirsiniz.
  
  Sonuç olarak her şey alıştırma yapmaktan ve bilgilerimizi diri tutmakta bitiyor... :)
- 
-# Sorular 
-Soru 1: CSS (Cascading Style Sheet) ile aşağıdakilerden hangisi yapılamaz ?
-  - Bir sayfanın yeniden yüklenmesi  (Doğru)
-  - Bir yazının fontunun Arial yapılması
-  - Bir link alt çizgisinin kaldırılması
-  - Bir link’in üzerine gelindiğinde link’in renginin değiştirilmesi 
-  
-
-Soru 2 : Class selector ile id selector arasındaki en önemli fark aşağıdakilerden hangisidir?
-
-  - Class selector’ler yanlızca inline elementler için geçerlidir. id ise block level için geçerlidir.
-  - Class selector’ler yanlızca block level elementler için kullanılır. id ise inline elementler için kullanılır
-  - Class’lar sadece renk ve border özellikleri için kullanılır. id her style için kullanılabilir.
-  - Class selectorler istenildiği kadar kullanılabilir. id selector’ler yanlızca bir kere kullanılabilir. (Doğru)
-   
-
-
