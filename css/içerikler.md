@@ -1,6 +1,6 @@
 #### [CSS Nedir?](css-nedir/)
 
-* **sorular**
+* **Sorular**
   - Aşağıdakilerden hangisi CSS için **söylenemez**?
     - Açılımı Cascading Style Sheets'tir.
     - HTML elemanlarının nasıl görüntüleneceğini tanımlar.
@@ -18,7 +18,7 @@
     - ```<body> <link rel="stylesheet" type="text/css" href="kodluyoruz.css"> </body>```
     - ```<head> <link rel="stylesheet" type="text/css" href="kodluyoruz"> </head>```
     - ```<head> <link type="text/css" href="kodluyoruz.css"> </head>```
-* **video**
+* **Video**
   * https://www.youtube.com/watch?v=ZhVPut2OTeY
   * Bu videoda; CSS'in bir stil şablonu olduğunu, CSS ile birlikte neler yapabileceğimizi ve CSS'in bir HTML sayfasını nasıl etkilediğini anlattık.
 
