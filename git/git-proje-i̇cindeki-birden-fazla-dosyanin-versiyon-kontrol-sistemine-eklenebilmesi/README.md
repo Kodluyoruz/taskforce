@@ -20,17 +20,17 @@ git add .
 
 **git commit -m "ilk commit"** komutu çalıştırdığımızda “ilk commit” başlığıyla o anki çalışma dizinindeki dosyaları .git içindeki özel bir bölüme(head) ekler.
 
-![test foto](figures/ilk-kommit.png)
+![test foto](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/git-proje-i%CC%87cindeki-birden-fazla-dosyanin-versiyon-kontrol-sistemine-eklenebilmesi/figures/ilk-kommit.png)
 
 ### git push
 
 Commit’lediğimiz dosyaları versiyon kontrol sistemimize gönderir.
 
-![test foto](figures/git-push.png)
+![test foto](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/git-proje-i%CC%87cindeki-birden-fazla-dosyanin-versiyon-kontrol-sistemine-eklenebilmesi/figures/git-push.png)
 
 GitHub hesabımızı kontrol ettiğimizde tüm dosyaların ve commit işlemlerimizin ulaştığını görmüş oluruz.
 
-![test foto](figures/github.png)
+![test foto](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/git-proje-i%CC%87cindeki-birden-fazla-dosyanin-versiyon-kontrol-sistemine-eklenebilmesi/figures/github.png)
 
 ## Kaynaklar
 
