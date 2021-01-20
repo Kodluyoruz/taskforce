@@ -201,11 +201,11 @@ yapısı kullanılır. Köşeli parantez bağlantı açıklamasını, küme para
 Bağlantı resimleri de aynı şekilde eklenir. Sadece köşeli parantezden önce bir tane `!` ünlem işareti eklenmelidir.
 
 ```
-![Kodluyoruz Logo](https://pbs.twimg.com/profile_images/1277567238070034432/W5P_ztpB_400x400.jpg)
+![Kodluyoruz Logo](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/markdown-nedir-nasil-kullaniriz-/figures/kodluyoruz_logo.jpg)
 ```
 Yapısı kullanılır. Köşeli parantezin için doldurmak zorunlu değildir. Boş da kalabilir. Çıktı aşağıdaki gibi olacaktır;
 
-![Kodluyoruz Logo](https://pbs.twimg.com/profile_images/1277567238070034432/W5P_ztpB_400x400.jpg)
+![Kodluyoruz Logo](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/markdown-nedir-nasil-kullaniriz-/figures/kodluyoruz_logo.jpg)
 
 ## Alıntı
 
