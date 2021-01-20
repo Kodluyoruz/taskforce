@@ -293,39 +293,8 @@ $ git diff <commit_id_1>..<commit_id_2>
 $ git diff --staged
 ```
 
-### Sorular
-
-1.Commit’lenmeye hazır olan dosyaları ifade eden terim aşağıdakilerden hangisidir?
-
-- [ ] untracked
-- [ ] unstaged
-- [x] staged
-- [ ] deleted
-
-2. 'git checkout' komutunun tanımı aşağıdakilerden hangisinde doğru olarak verilmiştir?
-
-- [x] Branch’ler veya commitler arası geçiş yapmak için kullanılır.
-- [ ] Repository üzerinde yapılan değişikliklerden sonra dosyalar arasında oluşan farklılıkları göterir.
-- [ ] Henüz versiyon kontrolü altında olmayan bir projenin dizininde, boş bir git deposu oluşturmak için kullanılır. 
-- [ ] Local veya remote repository üzerinde yeni bir branch (dal) eklemek, silmek veya listelemek için kullanılır.
-
-
 ### KAYNAKÇA
 
 - https://medium.com/fedeveloper/git-bash-ile-komut-komut-versiyonlama-a354efd3063f
 - https://www.jrebel.com/blog/git-cheat-sheet
 - http://guides.beanstalkapp.com/version-control/common-git-commands.html
-
-
-
-
-
-
-
-
-
-
-
-
-
-
