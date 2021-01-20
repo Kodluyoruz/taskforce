@@ -29,7 +29,37 @@
    
 - [Inline(Etikete Özel), Internal(Aynı Dosyada) ve External(CSS Dosyasında) CSS Kullanımı](inlineetikete-ozel,-internalayni-dosyada-ve-externalcss-dosyasinda-css-kullanimi/)
 
+  - sorular
+
+     1. [Internal yöntemi kullanırken yazdığımız CSS kodlarını hangi element içine yazmamız gerekir?]
+
+     * ``<body>``
+     * ``<script>``
+     * ``<head>`` (Doğru)
+     * ``<footer>``
+
+     2. [Aşağıda verilen kod hangi CSS yöntemi ile kullanılmıştır?]
+
+     ```html
+     <!DOCTYPE html>
+     <html>
+     <head>
+     <title>This is a title.</title>
+     </head>
+     <body>
+     <h1 style="color:blue; font-size:50px;"> This is a heading. </h1>
+     <p> This is my space. </p>
+     </body>
+     </html>
+     ```
+
+     * Internal
+     * Inline (Doğru)
+     * Float
+     * External
+
   -  **Video**
+     
      -  https://www.youtube.com/watch?v=hU4CHUW_0EU
      -  Bu videoda; CSS kurallarının neler olduğunu, style oluştururken nelere dikkat edilmesi gerektiğini, Inline CSS özelliğini ve özellik değeri vererek style oluşturmayı anlattık. 
 
