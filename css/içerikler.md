@@ -31,42 +31,42 @@
 
   - sorular
 
-     1. [Internal yöntemi kullanırken yazdığımız CSS kodlarını hangi element içine yazmamız gerekir?]
+    -  Internal yöntemi kullanırken yazdığımız CSS kodlarını hangi element içine yazmamız gerekir?
+       -  ``<body>``
+       -  ``<script>``
+       -  ``<head>`` (Doğru)
+       -  ``<footer>``
+    -  Aşağıda verilen kod hangi CSS yöntemi ile kullanılmıştır?
 
-     * ``<body>``
-     * ``<script>``
-     * ``<head>`` (Doğru)
-     * ``<footer>``
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>This is a title.</title>
+    </head>
+    <body>
+    <h1 style="color:blue; font-size:50px;"> This is a heading. </h1>
+    <p> This is my space. </p>
+    </body>
+    </html>
+    ```
 
-     2. [Aşağıda verilen kod hangi CSS yöntemi ile kullanılmıştır?]
+    - Internal
+    - Inline (Doğru)
 
-     ```html
-     <!DOCTYPE html>
-     <html>
-     <head>
-     <title>This is a title.</title>
-     </head>
-     <body>
-     <h1 style="color:blue; font-size:50px;"> This is a heading. </h1>
-     <p> This is my space. </p>
-     </body>
-     </html>
-     ```
+    -  Float
+    -  External
 
-     * Internal
-     * Inline (Doğru)
-     * Float
-     * External
+    - **Video**
 
-  -  **Video**
-     -  https://www.youtube.com/watch?v=hU4CHUW_0EU
-     -  Bu videoda; CSS kurallarının neler olduğunu, style oluştururken nelere dikkat edilmesi gerektiğini, Inline CSS özelliğini ve özellik değeri vererek style oluşturmayı anlattık. 
+       -  https://www.youtube.com/watch?v=hU4CHUW_0EU
+       -  Bu videoda; CSS kurallarının neler olduğunu, style oluştururken nelere dikkat edilmesi gerektiğini, Inline CSS özelliğini ve özellik değeri vererek style oluşturmayı anlattık. 
 
--  [Açıklama Satırları ile Çalışmak ve Genel Font Özellikleri](aciklama-satirlari-ile-calismak-ve-genel-font-ozellikleri/)
+- [Açıklama Satırları ile Çalışmak ve Genel Font Özellikleri](aciklama-satirlari-ile-calismak-ve-genel-font-ozellikleri/)
    -  **video**
       -  https://www.youtube.com/watch?v=LYMK0VARbiY
       -  Bu videoda; CSS de açıklama satırı eklemeyi, açıklama satırı eklerken kullanılan klavye kısayollarını ve açıklama satırlarının neden kullanıldığını; yazı özelliklerini, boyutunu, yazının rengini ve arkaplanın nasıl belirlendiğini anlattık. Ayrıca yazı fontunu belirlemek için dış kaynaklardan nasıl yararlanabileceğinizi de gösterdik.
-   
+
 - [CSS ile Class ve ID Kullanımı](css-ile-class-ve-id-kullanimi/)
 
   - **Sorular**
@@ -129,7 +129,7 @@
      -  https://www.youtube.com/watch?v=BvaZdSDImeY
      -  Bu videoda HTML etiketlerinde belirttiğimiz Class ve ID yapılarına nasıl CSS özellikleri verilebileceğini ve bazı Emmet özelliklerini anlattık.
 
--  [Ödev 1](odev1/)
+- [Ödev 1](odev1/)
 
 #### CSS Devam Konuları
 - [CSS Seçiciler ile Çalışmak, İstediğimiz HTML Etiket Yapısına Özelliklik Ekleyebilmek](css-seciciler-ile-calismak,-i̇stedigimiz-html-etiket-yapisina-ozelliklik-ekleyebilmek/)
