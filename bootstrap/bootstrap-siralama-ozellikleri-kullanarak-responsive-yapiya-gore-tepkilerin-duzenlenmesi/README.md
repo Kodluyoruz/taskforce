@@ -228,7 +228,8 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 		</div>
 ```
 ### Kodumuzu artık istediğimiz düzeye getirmiş olduk.
-##Ödev
+## Ödev
+
 ### Sizde aşağıda ki kodu bütün içeriğin bütün kırılma noktalarında farklı bir şekilde sıralanmasını sağlayın.Şimdiden başarılar 
 ```html
 <div class="container-fluid">
