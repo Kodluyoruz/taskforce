@@ -2,9 +2,9 @@
 
 GIT temel komutlarını VS Code içerisindeki terminalde kullanmak için menü barından Terminal'i (1) açarak New Terminal (2) seçeneğini seçmelisiniz.
 
-![new-terminal-1](figures/1-new-terminal-1.png)
+![new-terminal-1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/vs-code-icinde-terminal-kullanarak-git-temel-komutlari/figures/1-new-terminal-1.png)
 
-![new-terminal-2](figures/1-new-terminal-2.png)
+![new-terminal-2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/vs-code-icinde-terminal-kullanarak-git-temel-komutlari/figures/1-new-terminal-2.png)
 
 
 
@@ -13,7 +13,7 @@ GIT temel komutlarını VS Code içerisindeki terminalde kullanmak için menü b
 ## GIT Temel Komutları
 
 
-![GitHub-cheat-sheet-graphic](figures/2-GitHub-cheat-sheet-graphic.jpg)
+![GitHub-cheat-sheet-graphic](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/vs-code-icinde-terminal-kullanarak-git-temel-komutlari/figures/2-GitHub-cheat-sheet-graphic.jpg)
 
 
 
@@ -39,7 +39,7 @@ Henüz versiyon kontrolü altında olmayan bir projenin dizininde, boş bir git 
 $ git init
 ```
 
-![git-init](figures/3-git-init.png)
+![git-init](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/vs-code-icinde-terminal-kullanarak-git-temel-komutlari/figures/3-git-init.png)
 
 
 
@@ -126,7 +126,7 @@ $ git rm <dosya veya klasor_name>
 $ git status
 ```
 
-![git-status-1](figures/4-git-status-1.png)
+![git-status-1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/vs-code-icinde-terminal-kullanarak-git-temel-komutlari/figures/4-git-status-1.png)
 
 On branch main -> *Main* branch'inde olduğumuzu,
 
@@ -136,7 +136,7 @@ Modified: index.html -> Index.html dosyasında **değişiklik** yaptığımızı
 
 Deleted: styles.css -> styles.css dosyasını ***sildiğimizi***,
 
-![git-status-2](figures/4-git-status-2.png)
+![git-status-2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/vs-code-icinde-terminal-kullanarak-git-temel-komutlari/figures/4-git-status-2.png)
 
 Changes not staged for commit -> Üzerinde değişiklik yapılan ama staged ortamına gönderilmemiş dosyaları ifade eder.
 
@@ -168,7 +168,7 @@ Projedeki commit geçmişini görüntülememizi sağlar. Bütün commit'ler, id'
 $ git log
 ```
 
-![git-log](figures/5-git-log.png)
+![git-log](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/vs-code-icinde-terminal-kullanarak-git-temel-komutlari/figures/5-git-log.png)
 
 
 
