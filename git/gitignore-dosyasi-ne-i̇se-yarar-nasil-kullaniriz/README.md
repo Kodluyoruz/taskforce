@@ -138,34 +138,3 @@ https://www.pluralsight.com/guides/how-to-use-gitignore-file
 http://git-scm.com/docs/gitignore
 
 https://sebastiandedeyne.com/setting-up-a-global-gitignore-file/
-
-
-
-## Sorular
-
-1. `.dll`  uzantısına sahip bütün dosyaları .gitignore dosyasına eklemenin doğru kullanımı hangisidir? 
-
-- [ ] `/.dll`
-- [x] `*.dll`
-- [ ] `-.dll`
-- [ ] `!.dll`
-
-2. Hangisi veya hangilerinde .gitignore 'a dosya eklerken doğru bir format kullanılmıştır?
-
-- [ ] node_modules/
-- [ ] .vscode
-- [ ] !files/example.txt
-- [x] Hepsi
-
-3. gitignore dosyalarına hangi tür dosyalar konulabilir?
-
-- [ ] Takip edilmesini istemediğimiz dosyalar 
-- [ ] Apı key vb özel dosyalar
-- [ ] Geçici dosyalar
-- [ ] IDE eklentileri
-- [x] Hepsi
-
-
-
-
-
