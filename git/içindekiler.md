@@ -131,6 +131,8 @@
     - Başlık, * karakterleri arasına yazılır.
     - \# karakterinden sonra bir boşluk bırakılarak başlık yazılır. (Doğru)
     - Backtick bloğu oluşturulup, içine yazılır.
-
+- **Video**
+    - https://www.youtube.com/watch?v=gmfFWi3wbKU
+    - Bu videoda; README.md dosyasının önemini ve temel Markdown kullanımının özelliklerini anlattık.
 -  [Ödev 1](odev1/)
 
