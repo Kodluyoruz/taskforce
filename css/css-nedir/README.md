@@ -28,7 +28,7 @@ O zaman şimdi HTML öğesi için bir selector tanımlayalım ve ardından selec
 h1 { color: red;  }
 ```
 
-![header-color](https://github.com/Kodluyoruz/taskforce/raw/main/css/css-nedir/figures/header-color.png)
+![header-color](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/css-nedir/figures/header-color.png)
 
 Böylelikle, tanımlı selector'e (**h1**) bağlı olarak, CSS artık yeni kuralların nereye uygulanacağını anlayabilir.
 
