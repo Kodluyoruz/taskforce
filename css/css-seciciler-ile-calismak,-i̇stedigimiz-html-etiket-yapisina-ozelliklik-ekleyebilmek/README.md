@@ -58,7 +58,7 @@ div *{
 
 ## Element Seçiciler (Element Selectors)
 Bu seçiciler ile doğrudan HTML etiket isimlerini kullanarak CSS uygulayabiliriz.
-```html
+```css
 div{
   background-color: orange;
 }
