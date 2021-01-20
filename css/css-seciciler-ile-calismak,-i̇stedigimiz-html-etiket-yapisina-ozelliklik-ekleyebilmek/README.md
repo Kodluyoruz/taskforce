@@ -33,9 +33,9 @@ CSS seçiciler, HTML taglarına ulaşarak biçim atamaları yapmamızı sağlar.
 <p>This is a paragraph.</p>
 
 </body>
-```css
+```
 styles.css dosyası:
-```html
+```css
 h1{
   color:orange;
 }
