@@ -39,7 +39,6 @@
   - [ ] [Comment-Fonksiyon](comment-fonksiyon/)
   - [ ] [Birden Fazla Değer Döndürme/input İçerme](multiple-input-return/)
   - [ ] [Predefined Parameters](predefined-fonksiyon/)
-  - [ ] [Anonim (lambda) Fonksiyonları](update-value-fonksiyon/)
   - [ ] [Update Input](update-value-fonksiyon/)
   - [ ] [First Class Function](first-class-fonksiyon/)
   - [ ] [For-Function](for-fonksiyon/)
