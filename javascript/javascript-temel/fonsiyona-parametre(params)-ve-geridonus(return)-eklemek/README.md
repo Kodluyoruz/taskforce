@@ -22,7 +22,7 @@ function fonksiyonunAdi (parametre1, parametre2,...,parametreN)
 }
 ```
 
-Genel olarak fonksiyon şablonunu incelediğimizde, *parametre1, parametre2,...,parametreN* şeklinde belirli sayıda parametre almaktadır. Bu parametreler ile köşeli parantezler içerisinde çeşitli işlemler yapıp, *return fonksiyonunCiktisi* ifadesi ile bunu çıktı olarak vermektedir. Burada kullanılan *return* ifadesi fonksiyonun geridönüşü veya çıktısı olarak adlandırılır. 
+Genel olarak fonksiyon şablonunu incelediğimizde, *parametre1, parametre2,...,parametreN* şeklinde belirli sayıda parametre almaktadır. Bu parametreler ile süslü parantezler içerisinde çeşitli işlemler yapıp, *return fonksiyonunCiktisi* ifadesi ile bunu çıktı olarak vermektedir. Burada kullanılan *return* ifadesi fonksiyonun geri dönüş değeri veya çıktısı olarak adlandırılır. 
 
 Genel şablonu inceledikten sonra kafamızda net bir şeyin oluşmamış olması gayet normal. Bu sebeple ilk örneğimizle bu fonksiyon çeşidini daha yakından tanıyalım.
 
@@ -38,9 +38,9 @@ function toplama (a , b) // a ve b toplanacak iki sayıyı temsil eden fonksiyon
  }        
 ```
 
-Görüldüğü gibi, kullanıcının gireceği her iki sayıyı ifade etmek için *a ve b* parametrelerini kullandık. Fonksiyon içerisinde, toplama işlemini yapıp *sonuc* değişkenine atadık. *return* ifadesiyle de bunun fonksiyonun geridönüşü/çıkışı olduğunu belirtmiş olduk. 
+Görüldüğü gibi, kullanıcının gireceği her iki sayıyı ifade etmek için *a ve b* parametrelerini kullandık. Fonksiyon içerisinde, toplama işlemini yapıp *sonuc* değişkenine atadık. *return* ifadesiyle de bunun fonksiyonun geri dönüşü/çıktısı olduğunu belirtmiş olduk. 
 
-Buraya kadar tamamsak, yazdığımız bu fonksiyonu nasıl çağıracağımızı öğrenelim. Öncelikle, yazdığımız bir fonksiyonu kullanmak istediğimizde, fonksiyonun köşeli parantezini kapattığımızdan ve her iki parantezin dışına çıktığımızdan emin olalım. Daha sonra, çağırmak istediğimiz fonksiyonun adını ve toplamak istediğimiz herhangi iki sayıyı parametre olarak vermemiz gerekecek. Örneğin, 5 ile 7 rakamlarının toplamını isteyelim. 
+Buraya kadar tamamsak, yazdığımız bu fonksiyonu nasıl çağıracağımızı öğrenelim. Öncelikle, yazdığımız bir fonksiyonu kullanmak istediğimizde, fonksiyonun süslü parantezlerini kapattığımızdan ve her iki parantezin de dışına çıktığımızdan emin olalım. Daha sonra, çağırmak istediğimiz fonksiyonun adını yazıp küme parantezi açıp, toplamak istediğimiz herhangi iki sayıyı parametre olarak vereceğiz. Örneğin, 5 ile 7 rakamlarının toplamını isteyelim. Burada fonsiyon çağrımızda parametreleri hangi sıra ile gönderirsek, fonksiyonda o sıra ile işlem görür. Yani a=5, b=7 olarak işlem görür. burada toplama işlemi yerine çıkartma işlemi yapsaydık. Parametrelerin sırası önemli olacaktı. Bunu unutmayalım
 
 ```javascript
 var donenSonuc = toplama(5,7); // 5 ve 7 değerlerini a ve b parametrelerine karşılık gelen argümanlar olarak düşünebiliriz.
@@ -109,3 +109,10 @@ console.log(donenSonuc);  			  // 354.9456 olarak hesaplandı.
 Bu örnekten de görüldüğü gibi, bir fonksiyonu çağırdıktan sonra elde ettiğimiz bir değer ile ikinci bir fonksiyonun argümanı olarak kullanabiliyoruz. Bunu yapabilmemize olanak sağlayan şey, değer döndüren(return) fonksiyonları kullanmamız olduğunu söyleyebiliriz. 
 
 Bu konunun detaylıca öğrenilebilmesi için farklı örneklerle çok fazla pratik yapılması gerektiğini unutmamamız gerekir.
+
+Parametre sorusu:
+Parametre alan bir fonksiyonda, fonksiyona ait parametreler nasıl gönderilir?
+A) Fonksiyon adından sonra iki adet yıldız karakteri arasında
+B) Fonksiyon adından sonra küme parantezleri arasında virgülle ayrılarak (Doğru)
+C) Herhangi bir karakter kullanmadan fonksiyon isminin yanına yazarak
+D) Fonksiyon adından sonra köşeli parantezlerin arasında
