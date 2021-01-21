@@ -98,7 +98,7 @@ class App extends React.Component {
 ```
 Yukarıda da gördüğünüz gibi en dışta kalan Wrapper component'imiz render metodu içerisinde daha önceden tanımladığımız increment, decrement ve count parametrelerini alarak, butonlara verilen onClick fonksiyonu ile tanımladığımız metodları kullanabilmemize olanak sağlıyor. Aynı zamanda tanımladığımız count değerine de erişebiliyoruz. Burada children prop children function olarak kullanılmış oluyor.
 
-***_Hazırladğımız uygulamanın son hali aşağıdaki gibidir_***
+***_Hazırladığımız uygulamanın son hali aşağıdaki gibidir_***
 
 
 ```JavaScript
