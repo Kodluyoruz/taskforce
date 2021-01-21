@@ -11,7 +11,7 @@
 -  [Conditional Rendering](conditional-rendering/)
 -  [Component Lifecycle](component-lifecycle/)
 -  [Fragments](fragments/)
--  [Lists and keys](list-and-keys/)
+-  [Lists and Keys](list-and-keys/)
 -  [Composition vs Inheritance](composition-vs-inheritance/)
 -  Basics of Form Handling
 #### [Basic Hooks](basic-hooks/)
