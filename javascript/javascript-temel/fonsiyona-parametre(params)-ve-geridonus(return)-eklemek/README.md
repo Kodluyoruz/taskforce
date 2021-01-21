@@ -1,116 +1,10 @@
 # Fonsiyona Parametre(params) ve Geridönüş(return) Eklemek
 
-
-# Fonksiyona Geri Dönüş (return) Eklemek
-
-
-
-Fonksiyonlarda return komutunun 2 önemli işlevi vardır.
-
-<ol>
-    <li>Fonksiyonun geri dönüş değerini oluşturur.</li>
-    <li>Fonksiyonu sonlandırır.</li>
-</ol>
-
-
-
-Return komutundan sonra  işlem, değişken veya sabit yazılabilir.
-
-
-
-````javascript
-return false;
-return 95;
-return cikar(x,y)/7.0 
-````
-
-
-
-Return ifadesinden sonra döndürülecek değer atlanırsa, undefined döndürülür.
-
-````java
-return [[değer]];
-````
-
-
-
-Return komutu ASI'ne  dahil olduğundan dolayı return ve değeri aynı satırda olmalıdır. Yoksa aşağıdaki senaryo gerçekleşir.
-
-````javascript
-return
-a*b;
-````
-
-
-
-ASI tarafından aşağıdaki gibi değiştirilir.
-
- `````javascript
-return;
-a*b;
- `````
-
-Ve *return komutundan sonra ulaşılamayan kod* hatasını almamız kaçınılmazdır.
-
-
-
-## Örnek
-
-````javascript
-function Question(hobby) {
-  switch (hobby) {
-    case "car":
-      return function (name) {
-        console.log(name + " do you have a car ?");
-      };
-      break;
-
-    case "book":
-      return function (name) {
-        console.log(name + " what is your favorite author?");
-      };
-      break;
-
-    case "software":
-      return function (name, type) {
-        console.log(name + " are you interested in " + type + "?");
-      };
-      break;
-
-    default:
-      return function (name) {
-        console.log(name + "  how are you ?");
-      };
-      break;
-  }
-}
-
-var softwareQuestion = Question("software");
-softwareQuestion("Cemre","nodejs");
-
-````
-
-
-
-Yukarıdaki kod bloğunun çıktısı aşağıdakilerden hangisidir ?
-
-A) Undefined 
-
-B) What is your favorite author?
-
-C) Cemre are you inretesed in nodejs?
-
-
-
-doğru cevap: C 
-
-kaynak:https://www.w3schools.com/js/js_functions.asp
-
 Fonksiyonlar, bir takım veriler kullanarak, herhangi bir görevi yerine getiren veya bu verileri işleyip, sonuç üreten komut grubudur. 
 
-Fonksiyonlar, JavaScript'te çok önemli bir konudur. Genel işlevi itibariyle diğer programlama dillerindeki fonksiyonlara oldukça benzerler. Fakat, Diğer programlama dillerinden farklı olarak JavaScript'te fonksiyonlar, birer nesne olarak değerlendirilir ve çok farklı şekillerde kullanılmaktadır.
+Fonksiyonlar, JavaScript'te oldukça önemli bir konudur. Genel işlevi itibariyle diğer programlama dillerindeki fonksiyonlara oldukça benzerler. Fakat, diğer programlama dillerinden farklı olarak JavaScript'te fonksiyonlar, birer nesne olarak değerlendirilir ve çok farklı şekillerde kullanılırlar.
 
-Fonksiyonlar, parametreli veya parametresiz, değer döndüren veya değer döndürmeyen fonksiyonlar olarak farklı şekillerde oluşturulabilir. Hangi fonksiyon tipini kullanacağımız, yazmak istediğimiz algoritmanın ihtiyacına göre değişmektedir. 
+Fonksiyonlar, parametreli veya parametresiz fonksiyonlar, değer döndüren veya değer döndürmeyen fonksiyonlar olarak farklı şekillerde oluşturulabilir. Hangi fonksiyon tipini kullanacağımız, yazmak istediğimiz algoritmanın ihtiyacına göre değişmektedir. 
 
 Bu yazımızda, parametreli ve değer döndüren fonksiyonları inceleyeceğiz. Ayrıca, bir fonksiyona parametre(params) ve geridönüş(return) nasıl eklenir öğrenmiş olacağız.
 
@@ -128,11 +22,11 @@ function fonksiyonunAdi (parametre1, parametre2,...,parametreN)
 }
 ```
 
-Genel olarak fonksiyon şablonunu incelediğimizde, *parametre1, parametre2,...,parametreN* şeklinde belirli sayıda parametre almaktadır. Bu parametreler ile köşeli parantezler içerisinde çeşitli işlemler yapıp, *return fonksiyonunCiktisi* ifadesi ile bunu çıktı olarak vermektedir. Burada kullanılan *return* ifadesi fonksiyonun geridönüşü veya çıktısı olarak adlandırılır. 
+Genel olarak fonksiyon şablonunu incelediğimizde, *parametre1, parametre2,...,parametreN* şeklinde belirli sayıda parametre almaktadır. Bu parametreler ile süslü parantezler içerisinde çeşitli işlemler yapıp, *return fonksiyonunCiktisi* ifadesi ile bunu çıktı olarak vermektedir. Burada kullanılan *return* ifadesi fonksiyonun geri dönüş değeri veya çıktısı olarak adlandırılır. 
 
 Genel şablonu inceledikten sonra kafamızda net bir şeyin oluşmamış olması gayet normal. Bu sebeple ilk örneğimizle bu fonksiyon çeşidini daha yakından tanıyalım.
 
-**Örnek 1**: Herhangi iki sayıyı toplayıp, bir değişkene atan fonksiyon ifadesini yazalım.
+**Örnek 1**: Herhangi iki sayıyı toplayıp, bir değişkene atayan fonksiyon ifadesini yazalım.
 
 Örneğimizi çözmeden önce şu konuya açıklık getirmemiz gerekir; yazmak istediğimiz fonksiyonun belirli iki sayının toplamını istemediğini fark etmeliyiz. Yani, ~~"15 ile 12 sayılarının toplamını veren fonksiyonu yazın"~~ denilmemiştir. Bu sebeple, fonksiyonumuz toplanacak bu iki sayıyı parametre olarak alacaktır. Gelin, nasıl olduğunu yakından inceleyelim,
 
@@ -146,7 +40,7 @@ function toplama (a , b) // a ve b toplanacak iki sayıyı temsil eden fonksiyon
 
 Görüldüğü gibi, kullanıcının gireceği her iki sayıyı ifade etmek için *a ve b* parametrelerini kullandık. Fonksiyon içerisinde, toplama işlemini yapıp *sonuc* değişkenine atadık. *return* ifadesiyle de bunun fonksiyonun geridönüşü/çıkışı olduğunu belirtmiş olduk. 
 
-Buraya kadar tamamsak, yazdığımız bu fonksiyonu nasıl çağıracağımız öğrenelim. Öncelikle, yazdığımız bir fonksiyonu kullanmak istediğimizde, fonksiyonun köşeli parantezini kapatmış ve her iki parantezin dışına çıktığımızdan emin olalım. Daha sonra, çağırmak istediğimiz fonksiyonun adını ve toplamak istediğimiz herhangi iki sayıyı parametre olarak vermemiz gerekecek. Örneğin, 5 ile 7 rakamlarının toplamını isteyelim. 
+Buraya kadar tamamsak, yazdığımız bu fonksiyonu nasıl çağıracağımız öğrenelim. Öncelikle, yazdığımız bir fonksiyonu kullanmak istediğimizde, fonksiyonun süslü parantezini kapattığımızdan ve her iki parantezin de dışına çıktığımızdan emin olalım. Daha sonra, çağırmak istediğimiz fonksiyonun adını ve toplamak istediğimiz herhangi iki sayıyı parametre olarak vermemiz gerekecek. Örneğin, 5 ile 7 rakamlarının toplamını isteyelim. Burada dikkat etmemiz gereken önemli bir nokta var. Şöyleki; küme parantezleri arasında fonksiyona gönderdiğimiz parametrelerin sırasına dikkat etmemiz gerekiyor. Fonksiyon çağrısında parametreleri hangi sıra ile gönderirsek, fonksiyonda o sıra ile bilinirler. Yani aşağıdaki fonksiyon çağrısında *toplam(5,7)* dediğimizde fonksiyonun içindeki parametrelerimiz a ve b olduğundan a=5, b=7 olarak kullanılacaktır. Burada toplama yerine çıkartma işlemi yapmış olsaydık parametrelerin gönderim sırası işlemin sonucu tamamen değiştirecekti.
 
 ```javascript
 var donenSonuc = toplama(5,7); // 5 ve 7 değerlerini a ve b parametrelerine karşılık gelen argümanlar olarak düşünebiliriz.
@@ -216,3 +110,98 @@ Bu örnekten de görüldüğü gibi, bir fonksiyonu çağırdıktan sonra elde e
 
 Bu konunun detaylıca öğrenilebilmesi için farklı örneklerle çok fazla pratik yapılması gerektiğini unutmamamız gerekir.
 
+Parametre sorusu:
+
+Aşağıdakilerden hangisi bir fonksiyona parametre göndermenin doğru yoludur?
+* A) Fonksiyon isminden sonra iki adet yıldız karakteri arasına parametreleri yazmak
+* B) Fonksiyon isminden sonra boşluk bırakmadan parametreleri yazmak
+* C) Fonksiyon isminden sonra küme parantezleri arasına parametreleri yazmak (Doğru)
+
+# Fonksiyona Geri Dönüş (return) Eklemek
+
+Fonksiyonlarda return komutunun 2 önemli işlevi vardır.
+
+<ol>
+    <li>Fonksiyonun geri dönüş değerini oluşturur.</li>
+    <li>Fonksiyonu sonlandırır.</li>
+</ol>
+
+Return komutundan sonra  işlem, değişken veya sabit yazılabilir.
+
+````javascript
+return false;
+return 95;
+return cikar(x,y)/7.0 
+````
+
+Return ifadesinden sonra döndürülecek değer atlanırsa, undefined döndürülür.
+
+````java
+return [[değer]];
+````
+
+Return komutu ASI'ne  dahil olduğundan dolayı return ve değeri aynı satırda olmalıdır. Yoksa aşağıdaki senaryo gerçekleşir.
+
+````javascript
+return
+a*b;
+````
+
+ASI tarafından aşağıdaki gibi değiştirilir.
+
+ `````javascript
+return;
+a*b;
+ `````
+
+Ve *return komutundan sonra ulaşılamayan kod* hatasını almamız kaçınılmazdır.
+
+## Örnek
+
+````javascript
+function Question(hobby) {
+  switch (hobby) {
+    case "car":
+      return function (name) {
+        console.log(name + " do you have a car ?");
+      };
+      break;
+
+    case "book":
+      return function (name) {
+        console.log(name + " what is your favorite author?");
+      };
+      break;
+
+    case "software":
+      return function (name, type) {
+        console.log(name + " are you interested in " + type + "?");
+      };
+      break;
+
+    default:
+      return function (name) {
+        console.log(name + "  how are you ?");
+      };
+      break;
+  }
+}
+
+var softwareQuestion = Question("software");
+softwareQuestion("Cemre","nodejs");
+
+````
+
+Yukarıdaki kod bloğunun çıktısı aşağıdakilerden hangisidir ?
+
+A) Undefined 
+
+B) What is your favorite author?
+
+C) Cemre are you inretesed in nodejs?
+
+doğru cevap: C 
+
+kaynak:https://www.w3schools.com/js/js_functions.asp
+
+Bu konunun detaylıca öğrenilebilmesi için farklı örneklerle çok fazla pratik yapılması gerektiğini unutmamamız gerekir.
