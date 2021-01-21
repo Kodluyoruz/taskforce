@@ -4,7 +4,7 @@
 
 
 
-## ![api-call-workapi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/api-call/figures/api-call-workapi.png)
+## ![api-call-workapi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/api-calls/figures/api-call-workapi.png)
 
 
 
@@ -12,7 +12,7 @@
 
 API'ın kısada nasıl çalıştığını anladığımıza göre ReactJS'te kaç farklı yöntemle verileri çekebiliriz bunlara bakalım. Bu noktada Fetch API, Axios kütüphanesi ile, Async/Await ve daha fazlasıyla verileri alabilirim. Bizler burada 2 farklı yöntemle örneklendirerek bu konuyu ayrıntısıyla ele almaya çalışacağız.
 
-![api-calls](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/api-call/figures/api-call.jpg)
+![api-calls](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/api-calls/figures/api-call.jpg)
 
 ### Axios Kütüphanesi 
 
@@ -65,7 +65,7 @@ return (
 
 Bu kod parçası URL olarak verilen JSON datayı almakta ve response değişkenine atamaktadır. Buradaki gibi bir kod bloğuyla ise response'ta obje dönen cevabı map'leyip ekrana yazdırıyoruz ve artık aşağıdaki görüntü ile birlikte API'ımıza isteğimizi atmış ve cevabını da almış oluyoruz. (Map fonksiyonunun nasıl çalıştığı konusunda JavaScript array fonksiyonları incelenmelidir.)
 
-![api-call-output](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/api-call/figures/api-call-output.png)
+![api-call-output](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/api-calls/figures/api-call-output.png)
 
 ### Fetch Yöntemi 
 
