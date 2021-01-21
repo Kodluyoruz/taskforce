@@ -43,7 +43,7 @@ function App() {
 
 Öncelikle bir state tanımlandı ve başlangıç değeri olarak boş bir array verildi. Bu state içerisine data set edildikten sonra aynı sayfada ya da farklı bir sayfada istenildiği gibi kullanılabilir.
 
-Yukarıdaki kod parçacığında useEffect fonksyonuna ikinci parametre olarak boş bir array verilmiştir. Bunun sebebi sayfa ilk kez render edildiğinde bu fonksiyon çalışsın ve istekte bulunulan API'ın cevabı getirilsin. 
+Yukarıdaki kod parçacığında useEffect fonksiyonuna ikinci parametre olarak boş bir array verilmiştir. Bunun sebebi sayfa ilk kez render edildiğinde bu fonksiyon çalışsın ve istekte bulunulan API'ın cevabı getirilsin. 
 
 ```javascript
 const response = await axios.get('https://fakestoreapi.com/products');
