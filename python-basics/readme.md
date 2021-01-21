@@ -63,5 +63,5 @@
   - [ ] [For-Function](for-fonksiyon/)
 
 #### Hmm, geriye kalanlar diyelim :D 
-- [ ] - [ ] [Underscore Placeholder](underscore-placeholder/)
+- [ ] [Underscore Placeholder](underscore-placeholder/)
 - [ ] [fstring](fstring/)
