@@ -1,39 +1,109 @@
-# Python 101
+## F-Strings
 
-- [x] [Programlama Nedir?](programlama-nedir/)
-- [x] [Temel Veri Tipleri](temel-veri-tipleri/)
-- [x] [Değişken Atama](degisken-atama/)
-- [x] [Operatörler ve İfadeler](operator-expression/)
-- [x] [Stringler](stringler/)
-  - [x] [Stringler Üzerinde Operatörler](string-operator/)
-  - [x] [Stringlerde İndexleme](string-indexing/)
-  - [x] [Stringlerde Casting](string-casting/)
-- [x] [Input](input/)
-- [ ] [Koda Yorum Ekleme](yorum/)
-- [x] [Sayısal Verilerde Karşılaştırma](numeric-comparison/)
-- [x] [Stringlerde Karşılaştırma](string-comparison/)
-- [x] [Mantıksal Operatörler](logical-operator/)
-- [x] [Short-circuit](short-circuit/)
-- [x] [Short-circuit Olmayan Mantıksal Operatörler](not-short-circuit/)
-- [ ] [If-else-elif](if-else-elif/)
-  - [ ]  [Python'daki False Değerler](false-values/) 
-  - [ ] [Ternary Conditionals](ternary-conditionals/)
-- [ ] [Döngüler](loops/)
-- [ ] [Non-Scalar Veri Tipleri](non-scalar/)
-  - [ ] [List](list/)
-  - [ ] [Tuple](tuple/)
-  - [ ] [set](set/)
-  - [ ] [Dictionary](dictionary/)
-  - [ ] [Non-scalar Veri Tiplerinde For](non-scalar-for/)
-- [ ] [List Comprehension](list-comprehension/)
-- [ ] [Varible Unpacking](variable-unpacking/)
-- [ ] [Enumerate](enumerate/)
-- [ ] [Zip Fonksiyonu](zip/)
-- [ ] [Fonksiyonlar](functions/)
-  - [ ] [return](return/)
-  - [ ] [Birden Fazla Değer Döndürme](multiple-return/)
-  - [ ] [Anonim (lambda) Fonksiyonları](lambda-function/)
-- [ ] [Float Veri Tiplerinin Tutulması](float/)
-- [ ] [Underscore Placeholder](underscore-placeholder/)
-- [ ] [fstring](fstring/)
+* Değişkenlerimizin değerlerini direkt olarak `string`'lerin içine koymak isteyebiliriz.
 
+* `f-string` de yaptığımız tek şey aslında değişkenlerin değerlerini veya hesaplamaların sonucunu `string`in içine gömmek.
+
+* f"..." diye göreceğimiz yapının adını **String Interpolation** diye görebilirsiniz.
+
+
+```python
+x = 2
+```
+
+* Diyelim ki ekrana x'in değerini bastırmak istiyorum. Bu durumda istediğim şey "x in değeri 2" diye bastırmak. Bunu şöyle yapabilirim:
+
+
+```python
+"x in değeri" + " " + str(x)
+```
+
+* Ama ayrı ayrı yazmaya ihtiyaç olmadan direkt x'in değerini `string`'in içine **gömebilseydim** daha iyi olmaz mıydı ?
+
+
+```python
+f"x in değeri {x}"
+```
+
+
+
+
+    'x in değeri 2'
+
+
+
+* İçine değer gömeceğimiz string'i tanımlarken başına `f` yazarak başlıyoruz `f"...."`. Gömmek istediğimiz değeri/değişkeni süslü parantez içine yazıyoruz `f".....{}...."`. Birden çok değer de gömmek isteyebiliriz, o zaman kaç tane yapacaksak o kadar süslü parantez koymamız gerekirdi `f".....{}....{}.."`
+
+* Python'ın yaptığı şey süslü parantezin içini hesaplayıp stringin içine gömmek
+
+
+```python
+f"x in değerinin iki fazlası {x+2}"
+```
+
+
+
+
+    'x in değerinin iki fazlası 4'
+
+
+
+* `{x+2}` kısmında python `x+2`'yi hesapladı ve string'in içine cevabın değerini gömdü
+
+
+```python
+isim = input("İsim:")
+```
+
+    İsim:engin
+    
+
+
+```python
+f"verilen isim {isim}"
+```
+
+
+
+
+    'verilen isim engin'
+
+
+
+
+```python
+l = [1,2,3,4]
+```
+
+
+```python
+f"verilen liste {l}"
+```
+
+
+
+
+    'verilen liste [1, 2, 3, 4]'
+
+
+
+* {} içerisine değeri hesaplanacak herhangi bir şey yazılabilir
+
+
+```python
+f"verilen isim {isim.capitalize()}"
+```
+
+* Süslü parantezin içine fonksiyon da yazabiliriz
+
+
+```python
+def kare(x):
+    return x**2
+```
+
+
+```python
+x = 10
+f"{x} sayısının karesi {kare(x)}"
+```

@@ -1,90 +1,244 @@
+# Argümanların Değerlerinin Güncellenip Güncellenmediği Durumlar
 
-## Input
+## Integer ve Floatların Değerlerin Değişmez
 
-* Bazen kullanacağımız değeri kullanıcıdan almak isteyebiliriz. Bunu `input` metodu ile yapacağız
-* `input` un içinde yazacağımız bize kullanıcıya gösterilecek yazıyı verecek, kullanıcıdan girdi bekleyip enter'a basmasını bekleyecek, ve girdiyi **string** olarak döndürecek
+
+```python
+a = 2
+```
+
+
+```python
+def f(x):
+    x = 4
+    return x
+```
+
+
+```python
+f(a)
+```
+
+
+
+
+    4
 
 
 
 
 ```python
-x = input("Bir sayı girin:")
+a
 ```
 
-> Bir sayı girin:10
+
+
+
+    2
+
 
 
 
 ```python
-x + 10
+b = 3.4
 ```
 
 
-    ---------------------------------------------------------------------------
+```python
+f(b)
+```
+
+
+
+
+    4
+
+
+
+
+```python
+b
+```
+
+
+
+
+    3.4
+
+
+
+## listler
+
+
+```python
+l = [1,2,3]
+```
+
+
+```python
+l2 = l.copy()
+```
+
+
+```python
+l2
+```
+
+
+
+
+    [1, 2, 3]
+
+
+
+
+```python
+l
+```
+
+
+
+
+    [1, 2, 3]
+
+
+
+
+```python
+l2[0] = 10
+```
+
+
+```python
+l2
+```
+
+
+
+
+    [10, 2, 3]
+
+
+
+
+```python
+l
+```
+
+
+
+
+    [1, 2, 3]
+
+
+
+
+```python
+def f(l):
+    l[0] = "a"
+    return l
+```
+
+
+```python
+f(l)
+```
+
+
+
+
+    ['a', 2, 3]
+
+
+
+
+```python
+l
+```
+
+
+
+
+    ['a', 2, 3]
+
+
+
+def f(l):
+    l = ["a", "b", "c"]
+    #l[0] = ["a", "b", "c"]
+    return l
+
+
+```python
+l = [1,2,3]
+```
+
+
+```python
+def f(x):
     
-    TypeError                                 Traceback (most recent call last)
+    x[0] = 2
     
-    <ipython-input-51-dacbb30d0a09> in <module>
-    ----> 1 x + 10
-    TypeError: can only concatenate str (not "int") to str
-
+    return x
+    
+```
 
 
 ```python
-type(x)
+def f(penguin):
+    
+    penguin[0] = 2
+    
+    return penguin
+    
 ```
-
-> str
-
-
 
 
 ```python
-int(x) + 10
+f(l)
 ```
 
-> 20
 
 
 
-
-```python
-x = int(input("Bir sayı girin:"))
-```
-
-    Bir sayı girin:10
-
-
-
-```python
-x + 10
-```
-
-> 15
+    [2, 2, 3]
 
 
 
 
 ```python
-mesaj = input("Mesajı girin:")
+l
 ```
 
-> Mesajı girin:Merhaba
+
+
+
+    [2, 2, 3]
+
 
 
 
 ```python
-isim = input("İsim girin:")
+l = [1,2,3]
 ```
-
-> İsim girin:Ulaş
-
 
 
 ```python
-mesaj + " " + isim
+def f(x):
+    
+    l2= x.copy()
+    l2[0] = 2
+    
+    return l2
+    
 ```
 
-> 'Merhaba Ulaş'
+
+```python
+f(l)
+```
 
 
+```python
+l
+```

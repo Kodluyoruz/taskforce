@@ -1,13 +1,78 @@
-# Programlama Nedir ?
+## First Class Function
 
-Evet Python ile programla eğitimindeyiz... Hmm peki ne tam olarak bu programlama ?
+* Python'da fonksiyonlar `first class function`. Bunun anlamı fonksiyonların diğer veri tipleri gibi manipüle edilebilir ve başka fonksiyonlara argüman olarak verilebilir.
+
+* Bir fonksiyonu bir değişkene atayabiliriz
+
+
+```python
+def kare(x):
+    return x**2
+```
+
+
+```python
+a = kare
+```
+
+
+```python
+kare(5)
+```
 
 
 
-Programlamayı basit olarak verilen girdilerden istenilen çıktıların elde eden bir yapı olarak düşünebiliriz.
 
-![](figures/input_ouput.png)
+    25
 
-Programlamada yapacağımız şey yukarıdaki resimde gördüğünüz karenin içinde neler olacağını tanımlamak. Ne kadar komplike bir problem ile uğraşıyorsanız uğraşın yapacağımız şey hep aynı olacak. Inputlardan outputlara dönüşüm yapacak olan komutlar bütününü yazmak, yani bu karenin ne yapacağını tanımlamak.
 
- 
+
+
+```python
+a(5)
+```
+
+
+
+
+    25
+
+
+
+* Bir fonksiyonu başka bir fonksiyona argüman olarak verebiliriz
+
+
+```python
+def f2(x, f):
+    return f(x) + 4
+```
+
+
+```python
+f2(3,kare)
+```
+
+
+
+
+    13
+
+
+
+
+```python
+def f3(x):
+    return x**5
+```
+
+
+```python
+f2(2, f3)
+```
+
+
+
+
+    36
+
+

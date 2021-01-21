@@ -1,90 +1,141 @@
+## split()
 
-## Input
+* Belirli bir bölme kriterine göre string'in alt parçalarını listenin elemanları olarak dönüştürebiliriz
 
-* Bazen kullanacağımız değeri kullanıcıdan almak isteyebiliriz. Bunu `input` metodu ile yapacağız
-* `input` un içinde yazacağımız bize kullanıcıya gösterilecek yazıyı verecek, kullanıcıdan girdi bekleyip enter'a basmasını bekleyecek, ve girdiyi **string** olarak döndürecek
+
+```python
+s = "merhaba nasılsın ?"
+```
+
+* split()'in içine neye göre böleceğimizi yazarız
+
+
+```python
+s.split(" ")
+```
+
+
+
+
+    ['merhaba', 'nasılsın', '?']
+
+
+
+* hiç bir şey yazmazsak default olarak boşluğa göre böler
+
+
+```python
+s.split()
+```
+
+
+
+
+    ['merhaba', 'nasılsın', '?']
 
 
 
 
 ```python
-x = input("Bir sayı girin:")
+s2 = "limon,portakal,elma"
 ```
-
-> Bir sayı girin:10
-
 
 
 ```python
-x + 10
+s2.split()
 ```
 
 
-    ---------------------------------------------------------------------------
-    
-    TypeError                                 Traceback (most recent call last)
-    
-    <ipython-input-51-dacbb30d0a09> in <module>
-    ----> 1 x + 10
-    TypeError: can only concatenate str (not "int") to str
 
 
-
-```python
-type(x)
-```
-
-> str
+    ['limon,portakal,elma']
 
 
 
 
 ```python
-int(x) + 10
+s2.split(",")
 ```
 
-> 20
+
+
+
+    ['limon', 'portakal', 'elma']
+
+
+
+## join()
+
+* listenin elemanları arasına belirtilen yapıyı koyup string'e dönüştürür
+
+`"patern".join(elemanları kullanılacak liste)`
+
+
+```python
+l = ['limon', 'portakal', 'elma']
+```
+
+
+```python
+",".join(l)
+```
+
+
+
+
+    'limon,portakal,elma'
 
 
 
 
 ```python
-x = int(input("Bir sayı girin:"))
+s = ",".join(l)
 ```
 
-    Bir sayı girin:10
+
+```python
+s
+```
+
+
+
+
+    'limon,portakal,elma'
+
 
 
 
 ```python
-x + 10
+"-".join(l)
 ```
 
-> 15
+
+
+
+    'limon-portakal-elma'
 
 
 
 
 ```python
-mesaj = input("Mesajı girin:")
+"/".join(l)
 ```
 
-> Mesajı girin:Merhaba
+
+
+
+    'limon/portakal/elma'
+
 
 
 
 ```python
-isim = input("İsim girin:")
+" ".join(l)
 ```
 
-> İsim girin:Ulaş
 
 
 
-```python
-mesaj + " " + isim
-```
-
-> 'Merhaba Ulaş'
+    'limon portakal elma'
 
 
