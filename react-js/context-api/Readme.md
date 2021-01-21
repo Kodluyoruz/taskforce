@@ -10,33 +10,24 @@ Prop drilling, bir `state`'in component ağacımızın daha yukarısında buluna
 
 Bir state’imiz olduğunu düşünelim (array, nesne veya string türünde bir değer olabilir) ve bunu en alttaki component’te kullanmamız gerekiyorsa, yapacağımız işlem bu state değer veya değerlerini o component’te tanımlamak olacaktır.
 
-<p align="center">
-  <img src="figures/prop-drilling-1.png" alt="Prop-drilling-1"/>
-</p>
 
+![prop-drilling-1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/context-api/figures/prop-drilling-1.png)
 
 
 Bir süre sonra bu değerin sadece o component’te değil de sibling dediğimiz yanında bulunan başka bir component’te daha kullanmanız gerektiğinde, bu state’i diğer component’te aktarabilmemiz için, state’i daha üstte bulunan bir component’e taşıyarak props yoluyla component'lere aktarmamız gerekecektir.
 
 
 
-<p align="center">
-  <img src="figures/prop-drilling-2.png" alt="Prop-drilling-2"/>
-</p>
-
+![prop-drilling-2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/context-api/figures/prop-drilling-2.png)
 
 
 Aradan bir süre daha geçti ve bu state’in yine aynı şekilde başka component’lerde de kullanılma ihtiyacı olduğunu varsayalım. Yine aynı şekilde state’i diğer component'lere aktarabilmek için, state’i component ağacında daha yukarıda bulunan bir component’e taşımanız gerekecektir.
 
-<p align="center">
-  <img src="figures/prop-drilling-3.png" alt="Prop-drilling-3"/>
-</p>
+![prop-drilling-3](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/context-api/figures/prop-drilling-3.png)
 
 Biraz daha zaman geçtikten sonra bu aktardığımız state’i farklı bir dal’da bulunan (örneğin Container dalının en altında bulunan) bir component’e aktarmak istediğimiz zaman, o state’i daha yukarıya taşımamız gerekecektir.
 
-<p align="center">
-  <img src="figures/prop-drilling-4.png" alt="Prop-drilling-4"/>
-</p>
+![prop-drilling-4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/context-api/figures/prop-drilling-4.png)
 
 Görselde de görebileceğiniz gibi component ağacımızın yukarısında bulunan bir component’ten, altlarda bulunan bir child component'e bir değer aktarmak istediğimiz zaman arada birkaç component’e de sadece bu değeri aktarabilmek için props yoluyla göndermek zorunda kalıyoruz. İşte bu duruma prop drilling denmektedir. **Prop drilling** ile ilgili küçük bir örnek yapalım.
 
@@ -80,9 +71,7 @@ Buradaki örneği sadece fikir verme açısından düşünecek olursak eğer `Ap
 
 Bu örneğimizde pek fazla props ile veriyi aktarma işlemi gerçekleştirmiyor olsakta, uygulamanızın component ağacının dikey konumda büyümesi durumunda, bu şekilde props ile component ağacının aşağısında bulunan bir component’e state’i gönderdiğinizi düşünün.
 
-<p align="center">
-  <img src="https://media.giphy.com/media/TKvErZACqjawXcTMSP/giphy.gif" alt="waste-of-time"/>
-</p>
+![waste-of-time (https://camo.githubusercontent.com/9b38a1dda267ac915ae3705b5477b8e05a07f2c48cbfb7b04ac41b80e03cb208/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f544b7645725a4143716a61775863544d53502f67697068792e676966)
 
 
 
@@ -90,9 +79,7 @@ Bu örneğimizde pek fazla props ile veriyi aktarma işlemi gerçekleştirmiyor 
 
 Context API’nın burada getirdiği çözüm ise, aktarılmak istenen değerleri global şekilde tutar ve direkt olarak kullanılması gereken component’e aktarılmasını sağlar. Böylelikle bir state’i, component ağacının altlarında bulunan bir component’e aktarmak istediğiniz zaman, her seferinde props olarak göndermenize gerek kalmaz.
 
-<p align="center">
-  <img src="figures/context-api.png" alt="context-api"/>
-</p>
+![context-api](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/context-api/figures/context-api.png)
 
 Yukarıdaki örneğimizde bulunan title state’ini Context API kullanarak nasıl `HeaderTitle` component’ine aktarabileceğimize bakalım.
 
