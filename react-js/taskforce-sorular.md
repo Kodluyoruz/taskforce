@@ -288,8 +288,9 @@
 
     - Doğru  
 - Yanlış (x)
-
-2. 
+2. Fetch ile herhangi bir kütüphaneye gerek kalmadan API isteği atılabilir.
+    - Doğru (x)
+    - Yanlış
 
 
 
@@ -297,33 +298,33 @@
 
 ## portals
 
-1. React tarafından sağlanan createPortal() fonksiyonu iki arguman alır, bu iki arguman nelerdir?
-
-- child , container (x)
-- Provider,child
-- child,ref
-- Provider,Consumer
+1. Portal'ların kullanılabilmesi için root `<div>` harici bir HTML DOM element'ine ihtiyaç vardır.
+   - Doğru (x)
+   - Yanlış
 
 
-2. 
+2. Portal'lar ile child element'ler render edilirken, React bu element'lerin lifecycle'ları üzerinde kontrole sahip değildir.
 
-
+   - Doğru
+   - Yanlış (x)   
 
 
 
 ## error boundaries
 
-Error boundary'ler 3 durumda hataları yakalar, hangisi bunlar birisi değildir?
+1. Error boundary'ler 3 durumda hataları yakalar, hangisi bunlar birisi değildir?
+   - render
+   - lifecycle metodlar
+   - constructor
+   - Event handler (x)
 
-- render
-- lifecycle metodlar
-- constructor
-- Event handler (x)
+2. Error boundary'ler yalnızca kullanıldıkları component'in altındaki component ağacında meydana gelen hataları yakalarlar.
 
-Error boundary'ler yalnızca kullanıldıkları component'in altındaki component ağacında meydana gelen hataları yakalarlar.
+   - Doğru  (x)
 
-- ​    Doğru  (x)
-- ​    Yanlış
+   - Yanlış
+
+     
 
 ## routers
 
