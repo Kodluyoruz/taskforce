@@ -183,8 +183,8 @@
 
 2. React'te inheritance mı composition mı tercih edilir?
 
-     -  Composition  
-     -  Inheritance X
+     -  Composition X
+     -  Inheritance 
 
 
 
@@ -226,7 +226,7 @@
 
 
 
-## context 
+## context-api
 
 1. Context.Provider içerisinde diğer component'ler tarafından erişilmesini istediğimiz değerleri yazdığımız props'un adı nedir?
 
@@ -263,17 +263,18 @@
 
 ## render-props
 
-1. Render prop ile React component'leri arasında kod paylaşımı yapmak mümkündür.
+1. Render prop'un amacı React component'leri arasında kod paylaşımı yapmak değildir.
+   - Doğru 
+   - Yanlış X
+2. Render prop ile yeniden kullanılabilir component'ler oluşturmak mümkündür. 
    - Doğru X
    - Yanlış
-2. 
 
 ## higher-order-components
 
-1. Higher Order Component'lerin amacı nedir ?
-
-- Yeniden kullanılabilirliği (reusability) sağlamaktır. X
-      var olan component'i değiştirir,
+1. Higher Order Component'lerin var olan component'i değiştirirler.
+   - Doğru
+   - Yanlış X
 
 2. Higher Order Component'ler Pure fonksiyonlardır, herhangi bir side effect'leri yoktur. Yalnızca kendi argümanlarına bağlı olarak yeni bir component return ederler.
 
@@ -326,7 +327,7 @@
 
      
 
-## routers
+## router
 
 1. Route matching component'leri nelerdir?
 
