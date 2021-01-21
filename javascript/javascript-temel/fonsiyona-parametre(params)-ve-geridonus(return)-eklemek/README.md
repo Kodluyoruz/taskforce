@@ -2,9 +2,9 @@
 
 Fonksiyonlar, bir takım veriler kullanarak, herhangi bir görevi yerine getiren veya bu verileri işleyip, sonuç üreten komut grubudur. 
 
-Fonksiyonlar, JavaScript'te çok önemli bir konudur. Genel işlevi itibariyle diğer programlama dillerindeki fonksiyonlara oldukça benzerler. Fakat, Diğer programlama dillerinden farklı olarak JavaScript'te fonksiyonlar, birer nesne olarak değerlendirilir ve çok farklı şekillerde kullanılmaktadır.
+Fonksiyonlar, JavaScript'te oldukça önemli bir konudur. Genel işlevi itibariyle diğer programlama dillerindeki fonksiyonlara oldukça benzerler. Fakat, diğer programlama dillerinden farklı olarak JavaScript'te fonksiyonlar, birer nesne olarak değerlendirilir ve çok farklı şekillerde kullanılabilir.
 
-Fonksiyonlar, parametreli veya parametresiz, değer döndüren veya değer döndürmeyen fonksiyonlar olarak farklı şekillerde oluşturulabilir. Hangi fonksiyon tipini kullanacağımız, yazmak istediğimiz algoritmanın ihtiyacına göre değişmektedir. 
+Fonksiyonlar, parametreli veya parametresiz fonksiyonlar, değer döndüren veya değer döndürmeyen fonksiyonlar olarak farklı şekillerde oluşturulabilir. Hangi fonksiyon tipini kullanacağımız, yazmak istediğimiz algoritmanın ihtiyacına göre değişmektedir. 
 
 Bu yazımızda, parametreli ve değer döndüren fonksiyonları inceleyeceğiz. Ayrıca, bir fonksiyona parametre(params) ve geridönüş(return) nasıl eklenir öğrenmiş olacağız.
 
@@ -40,7 +40,7 @@ function toplama (a , b) // a ve b toplanacak iki sayıyı temsil eden fonksiyon
 
 Görüldüğü gibi, kullanıcının gireceği her iki sayıyı ifade etmek için *a ve b* parametrelerini kullandık. Fonksiyon içerisinde, toplama işlemini yapıp *sonuc* değişkenine atadık. *return* ifadesiyle de bunun fonksiyonun geridönüşü/çıkışı olduğunu belirtmiş olduk. 
 
-Buraya kadar tamamsak, yazdığımız bu fonksiyonu nasıl çağıracağımız öğrenelim. Öncelikle, yazdığımız bir fonksiyonu kullanmak istediğimizde, fonksiyonun köşeli parantezini kapatmış ve her iki parantezin dışına çıktığımızdan emin olalım. Daha sonra, çağırmak istediğimiz fonksiyonun adını ve toplamak istediğimiz herhangi iki sayıyı parametre olarak vermemiz gerekecek. Örneğin, 5 ile 7 rakamlarının toplamını isteyelim. 
+Buraya kadar tamamsak, yazdığımız bu fonksiyonu nasıl çağıracağımızı öğrenelim. Öncelikle, yazdığımız bir fonksiyonu kullanmak istediğimizde, fonksiyonun köşeli parantezini kapattığımızdan ve her iki parantezin dışına çıktığımızdan emin olalım. Daha sonra, çağırmak istediğimiz fonksiyonun adını ve toplamak istediğimiz herhangi iki sayıyı parametre olarak vermemiz gerekecek. Örneğin, 5 ile 7 rakamlarının toplamını isteyelim. 
 
 ```javascript
 var donenSonuc = toplama(5,7); // 5 ve 7 değerlerini a ve b parametrelerine karşılık gelen argümanlar olarak düşünebiliriz.
@@ -72,7 +72,7 @@ var donenSonuc = daireAlaniHesaplama(3); // Argüman olarak, alanını hesaplama
 console.log(donenSonuc); // 28.25999999 sonucunu göreceğiz.
 ```
 
-Yazdığımız kodun başında sabit olarak belirttiğimiz pi sabitini, fonksiyonumuzun bir parametresi olarak da belirtebiliriz. Fonksiyon içerisindeki işlemimizi bir değere atamadan, direk olarak return ifadesinden hemen sonra da yazabiliriz. Bu sayede, kodumuzu daha az satırla yazmış olacağız.
+Yazdığımız kodun başında sabit olarak belirttiğimiz pi sabitini, fonksiyonumuzun bir parametresi olarak da belirtebiliriz. Fonksiyon içerisindeki işlemimizi bir değere atamadan, direkt olarak return ifadesinden hemen sonra da yazabiliriz. Bu sayede, kodumuzu daha az satırla yazmış olacağız.
 
 ```javascript
 function daireAlaniHesaplama (r, PI = 3.14) 
