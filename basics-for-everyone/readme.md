@@ -7,10 +7,15 @@
 
 - Frontend & Backend Karşılaştırması ?
 
+  
+
 #### Algoritma & Pseudocode
 
 - [Pseudocode](pseudocode/)
+
 - Algoritma
+
+  
 
 #### Internet
 
@@ -59,29 +64,14 @@
 
 - Diğer Kod Editörleri
 
+  
 
-#### Google'lamak
-
-- [Google Nasıl Kullanılır?](google/)
-
-- [KodKoda](kodkoda/)
-
-- StackoverFlow
+#### [Google'lamak](google/)
 
 
-#### Developer'lar İçin Platformların Önemi
 
-- [Kendinizi güncel tutmak için kullanabileceğiniz platformlar](platformların-önemi/)
-- StackoverFlow
-- KodKoda
- - Hackerrank
- - CodeWars 
- - LeetCode 
- - Project Euler
- - Reddit
- - Edabit
- - repl.it
- - codepen
 
- 
+#### [Developer'lar İçin Platformların Önemi](platformların-önemi/)
+
+
 
