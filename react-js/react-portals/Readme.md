@@ -20,13 +20,13 @@ Burada ilk argüman olan child herhangi tipte bir React child olabilir, örneği
 
 React dökümantasyonunda, React Portal'ın tipik kullanım durumu olarak parent component ve child component'in pozisyonundan dolayı child element'in düzgün bir şekilde görüntülenememesinden bahsediliyor. 
 
-![Tooltip-overflow](https://blog.logrocket.com/wp-content/uploads/2019/12/click-me-nocdn.png)
+![Tooltip-overflow](https://raw.githubusercontent.com/Kodluyoruz/taskforce/react/react-js/react-portals/figures/Tooltip-overflow.png)
 
 Örneğin burada düzgün bir şekilde görüntülenemeyen bir tooltip var. Kırmızı border ile gösterilen parent component `overflow: hidden` CSS property'sine sahip. Bunun kaldırılması bir çözüm olabilir ancak bu çözüm kırılgan bir çözüm sayılır çünkü bazı durumlarda bu problemin tekrarlaması çok muhtemel.  
 
 Örneğin bir görüntüyü kırpmak için `overflow: hidden`'ın eklenmesi durumunda aynı problem devam edecektir. 
 
-![Tooltip-image-crop](https://blog.logrocket.com/wp-content/uploads/2019/12/click-me-styling-of-the-parent-container-nocdn.png)
+![Tooltip-image-crop](https://raw.githubusercontent.com/Kodluyoruz/taskforce/react/react-js/react-portals/figures/Tooltip-image-crop.png)
 
 Eğer parent component'in CSS'i `overflow: hidden` ya da `z-index` içeriyorsa ve child element'in görsel olarak bu container içerisinden çıkması isteniyorsa, React Portal bu duruma çözüm olabilir. Bu kullanımı gerektiren durumlara örnek olarak `modal diyalog kutuları`, `dropdown`, `tooltips`, `hovercards` ve `loaders` verilebilir. 
 
@@ -69,13 +69,13 @@ Bu örnekte biri normal biri de `createPortal()` ile render edilmiş 2 adet moda
 
 Burada daha anlaşılabilir olması için `root` id'li `div` içerisine render ettiğimiz `div`'e kırmızı bir border verdik. Böylece root içerisinde render olacak modal, bu kırmızı border içerisinde yer alacak. 
 
-![Modal](figures/Modal.png)
+![Modal](https://raw.githubusercontent.com/Kodluyoruz/taskforce/react/react-js/react-portals/figures/Portal-Modal.png)
 
 
 
 Portal Modal ise bu root id'li div dışında portal-root id'li bir `div` içerisinde render edileceği için bu kırmızı border'ın dışında görüntülenecek.
 
-![Portal-Modal](figures/Portal-Modal.png)
+![Portal-Modal](https://raw.githubusercontent.com/Kodluyoruz/taskforce/react/react-js/react-portals/figures/Portal-Modal.png)
 
 
 
