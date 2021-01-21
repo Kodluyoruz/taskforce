@@ -308,14 +308,14 @@ Yanlış (x)
 
 ## error boundaries
 
-1. Error boundary'ler 3 durumda hataları yakalar, hangisi bunlar birisi değildir?
+Error boundary'ler 3 durumda hataları yakalar, hangisi bunlar birisi değildir?
 
-    render
-    lifecycle metodlar
-    constructor
+render
+lifecycle metodlar
+constructor
 Event handler (x)
 
-2. Error boundary'ler yalnızca kullanıldıkları component'in altındaki component ağacında meydana gelen hataları yakalarlar.
+Error boundary'ler yalnızca kullanıldıkları component'in altındaki component ağacında meydana gelen hataları yakalarlar.
 
 ​    Doğru  (x)
 ​    Yanlış
