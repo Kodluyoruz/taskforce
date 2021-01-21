@@ -70,7 +70,7 @@ marmaraBolgesi[4] = canakkale```
   <br>
   
 2- Aşağıdakilerden hangisini konsola "denizli" ifadesini yazdırır?  <br>
-   ```<let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa']>```  <br><br>
+   ```let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa']```  <br><br>
   A) console.log(egeBolgesi[1])           <br>
   B) console.log(egeBolgesi[2])           <br>
   C) console.log(egeBolgesi[3])           <br>
