@@ -1,90 +1,103 @@
+## Fonksiyonları Obje Olarak Kullanmak
 
-## Input
+* Python'da fonksiyonların `first class function` olduklarını konuşmuştuk.
 
-* Bazen kullanacağımız değeri kullanıcıdan almak isteyebiliriz. Bunu `input` metodu ile yapacağız
-* `input` un içinde yazacağımız bize kullanıcıya gösterilecek yazıyı verecek, kullanıcıdan girdi bekleyip enter'a basmasını bekleyecek, ve girdiyi **string** olarak döndürecek
-
-
+* Şimdi bu mantığı kullanarak belirli fonksiyonları listenin elemanlarına uygulayacağız
 
 
 ```python
-x = input("Bir sayı girin:")
+l = [1,2,3,4]
 ```
-
-> Bir sayı girin:10
-
 
 
 ```python
-x + 10
-```
-
-
-    ---------------------------------------------------------------------------
+def apply(l, f):
+    """
+    l bir liste, 
+    f listenin tüm elemanlarına uygulanacak fonksiyon
+    sonunda listenin orijinali elemanlarına fonksiyonun uygulanmış haliyle güncellenir
+    """
     
-    TypeError                                 Traceback (most recent call last)
+    n = len(l)
     
-    <ipython-input-51-dacbb30d0a09> in <module>
-    ----> 1 x + 10
-    TypeError: can only concatenate str (not "int") to str
-
+    for i in range(n):
+        l[i] = f(l[i])
+```
 
 
 ```python
-type(x)
+def kare(x):
+    return x**2
 ```
-
-> str
-
-
 
 
 ```python
-int(x) + 10
+apply(l, kare)
 ```
-
-> 20
-
-
 
 
 ```python
-x = int(input("Bir sayı girin:"))
+l
 ```
 
-    Bir sayı girin:10
 
+
+
+    [1, 4, 9, 16]
+
+
+
+* Tüm elemanlara fonksiyon uygulandı ve güncelledik
 
 
 ```python
-x + 10
+l = [1,2,3,4]
 ```
-
-> 15
-
-
 
 
 ```python
-mesaj = input("Mesajı girin:")
+def kup(x):
+    return x**3
+    
 ```
-
-> Mesajı girin:Merhaba
-
 
 
 ```python
-isim = input("İsim girin:")
+apply(l, kup)
 ```
-
-> İsim girin:Ulaş
-
 
 
 ```python
-mesaj + " " + isim
+l
 ```
 
-> 'Merhaba Ulaş'
+
+
+
+    [1, 8, 27, 64]
+
+
+
+### Fonksiyonlar Listesini Belirli Bir Değere Uygulamak
+
+
+```python
+def apply_funcs(f_list, x):
+    l = []
+    for f in f_list:
+        l.append(f(x))
+        
+    return l
+```
+
+
+```python
+apply_funcs([kare, kup], 5)
+```
+
+
+
+
+    [25, 125]
 
 

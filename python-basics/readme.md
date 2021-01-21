@@ -10,8 +10,9 @@
   - [ ] [Stringler Üzerinde Operatörler](string-operator/)
   - [ ] [Stringlerde İndexleme](string-indexing/)
   - [ ] [Stringlerde Casting](string-casting/)
-- [ ] [Input](input/)
-- [ ] [Koda Yorum Ekleme](yorum/)
+- ####  [Input](input/)
+- ####  [Koda Yorum Ekleme](yorum/)
+#### Koda Durumsallık Katmak
 - [ ] [Sayısal Verilerde Karşılaştırma](numeric-comparison/)
 - [ ] [Stringlerde Karşılaştırma](string-comparison/)
 - [ ] [Mantıksal Operatörler](logical-operator/)
@@ -48,9 +49,8 @@
 
   - [ ] [Varible Unpacking](variable-unpacking/)
 
-  - [ ] [Enumerate](enumerate/)
+  - [ ] [Enumerate-Zip](enumerate-zip/)
 
-  - [ ] [Zip Fonksiyonu](zip/)
 
 #### [Fonksiyonlar](fonksiyon-giris/)
 

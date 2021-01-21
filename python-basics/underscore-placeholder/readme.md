@@ -1,39 +1,110 @@
-# Python 101
+## Underscore Placeholders
 
-- [x] [Programlama Nedir?](programlama-nedir/)
-- [x] [Temel Veri Tipleri](temel-veri-tipleri/)
-- [x] [Değişken Atama](degisken-atama/)
-- [x] [Operatörler ve İfadeler](operator-expression/)
-- [x] [Stringler](stringler/)
-  - [x] [Stringler Üzerinde Operatörler](string-operator/)
-  - [x] [Stringlerde İndexleme](string-indexing/)
-  - [x] [Stringlerde Casting](string-casting/)
-- [x] [Input](input/)
-- [ ] [Koda Yorum Ekleme](yorum/)
-- [x] [Sayısal Verilerde Karşılaştırma](numeric-comparison/)
-- [x] [Stringlerde Karşılaştırma](string-comparison/)
-- [x] [Mantıksal Operatörler](logical-operator/)
-- [x] [Short-circuit](short-circuit/)
-- [x] [Short-circuit Olmayan Mantıksal Operatörler](not-short-circuit/)
-- [ ] [If-else-elif](if-else-elif/)
-  - [ ]  [Python'daki False Değerler](false-values/) 
-  - [ ] [Ternary Conditionals](ternary-conditionals/)
-- [ ] [Döngüler](loops/)
-- [ ] [Non-Scalar Veri Tipleri](non-scalar/)
-  - [ ] [List](list/)
-  - [ ] [Tuple](tuple/)
-  - [ ] [set](set/)
-  - [ ] [Dictionary](dictionary/)
-  - [ ] [Non-scalar Veri Tiplerinde For](non-scalar-for/)
-- [ ] [List Comprehension](list-comprehension/)
-- [ ] [Varible Unpacking](variable-unpacking/)
-- [ ] [Enumerate](enumerate/)
-- [ ] [Zip Fonksiyonu](zip/)
-- [ ] [Fonksiyonlar](functions/)
-  - [ ] [return](return/)
-  - [ ] [Birden Fazla Değer Döndürme](multiple-return/)
-  - [ ] [Anonim (lambda) Fonksiyonları](lambda-function/)
-- [ ] [Float Veri Tiplerinin Tutulması](float/)
-- [ ] [Underscore Placeholder](underscore-placeholder/)
-- [ ] [fstring](fstring/)
+
+```python
+num_1 = 90000000000
+```
+
+* Kaç tane 0 var burada ? 1,2,3,4... bir tanesini atladım mı? Nerede kalmıştım, başa dönüp bir daha sayayım... Pff yok mu bunun daha okunabilir bir yolu?
+
+* Cevap tabii ki de evet. Sayıları arka planda algılanmasını değiştirmeden, ama bize daha kolay okunabilir yapan bir yöntem var.
+
+
+```python
+num_2 = 90_000_000_000
+```
+
+* Sayıların arasına alttan çizgi koymak ! 
+
+* Bu bilgisayarın sayıları algılamasını değiştirmiyor, o onları görmezden geliyor, ama bizim için daha okunabilir oluyor.
+
+
+```python
+num_1
+```
+
+
+
+
+    90000000000
+
+
+
+
+```python
+num_2
+```
+
+
+
+
+    90000000000
+
+
+
+* Bilgisayar için 90_000_000_000 ile 90000000000 sayısının hiç bir farkı yok
+
+
+```python
+type(90_000_000_000)
+```
+
+
+
+
+    int
+
+
+
+
+```python
+type(90000000000)
+```
+
+
+
+
+    int
+
+
+
+
+```python
+num_1 = 90000000000
+```
+
+
+```python
+num_2 = 90_000_000_000
+```
+
+
+```python
+num_1 - num_2
+```
+
+
+
+
+    0
+
+
+
+* Bu mantığı `float` veri tipleri için de kullanabiliriz:
+
+
+```python
+num_3 = 0.12_11_12
+```
+
+
+```python
+num_3
+```
+
+
+
+
+    0.121112
+
 
