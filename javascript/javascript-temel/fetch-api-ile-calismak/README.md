@@ -5,13 +5,13 @@ Fetch API ile yapabildiğimiz şey bir veri sunucudan geldikten sonra işlem yap
 
 ## Fetch Interfaces
 
-*`fetch()`,bu yöntem bir kaynak almak için kullanılır.
+*`fetch()`, bu yöntem bir kaynak almak için kullanılır.
 
 *`Headers`, response/request başlıklarını temsil ederek bunları sorgulamanıza ve sonuçlara bağlı olarak farklı eylemler gerçekleştirmenize olanak tanır.
 
-*`Request` ,bir kaynak talebini temsil eder.
+*`Request` , bir kaynak talebini temsil eder.
 
-*`Response`,bir isteğe verilen yanıtı temsil eder.
+*`Response`, bir isteğe verilen yanıtı temsil eder.
 
 ## Temel Fetch Kullanımı 
 Fetch API’ yi kullanmak için fetch metoduna istek yapacağımız url’ i parametre olarak vermek gerekiyor.
