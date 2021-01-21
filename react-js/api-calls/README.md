@@ -8,7 +8,7 @@
 
 
 
-## Bir API ya kaç farklı yolla istek atılabilir?
+## Bir API'ya kaç farklı yolla istek atılabilir?
 
 API'ın kısada nasıl çalıştığını anladığımıza göre ReactJS'te kaç farklı yöntemle verileri çekebiliriz bunlara bakalım. Bu noktada Fetch API, Axios kütüphanesi ile, Async/Await ve daha fazlasıyla verileri alabilirim. Bizler burada 2 farklı yöntemle örneklendirerek bu konuyu ayrıntısıyla ele almaya çalışacağız.
 
