@@ -58,3 +58,28 @@ marmaraBolgesi[4] = canakkale```
 
 16-const ile deklare ettigimiz bir array yeniden tayin edilemese de icerisindeki elemanlara erisme ve degistirme noktasinda let ile aynidir. 
 
+<br>
+
+## Sorular
+1- Bir arrayin veri tipi nedir?   <br><br>
+  A) boolean      <br>
+  B) stringer     <br>
+  C) integer      <br>
+  D) object       <br>
+  
+  <br>
+  
+2- Aşağıdakilerden hangisini konsola "denizli" ifadesini yazdırır?  <br>
+   ```<let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa']>```  <br><br>
+  A) console.log(egeBolgesi[1])           <br>
+  B) console.log(egeBolgesi[2])           <br>
+  C) console.log(egeBolgesi[3])           <br>
+  D) console.log(egeBolgesi[4])           <br>
+  
+  
+ <br>
+ 
+ ## Cevaplar
+ 1- D   <br>
+ 2- C
+
