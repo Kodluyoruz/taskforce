@@ -1,86 +1,180 @@
 # Form ve Form Submit Yönetimi
 
-Form içinde bulunduruğu form elementlerinin name'leri sayesinde değerlerini alıp bu değerlerle işlem yapmanıza olanak sağlayan bir yapıdır.
-Form <form> Form elementleri </form> şeklinde tanımlanır.
-Genellikle backend'e istek yapılacağı zaman kullanılır.(Veri göndermek gibi)
+Form içinde bulundurduğu form elementlerinin name'leri sayesinde değerlerini alıp bu değerlerle işlem yapmanıza olanak sağlayan bir yapıdır.
 
-#### En önemli parametresi method parametresidir. method="post" veya method="get" olarak iki türlü değer alabilir.
-
-### Get : verileri url üzerinden gönderir, örneğin mail diye bir alandan kullanıcının mailini istiyoruz, kullanıcı mailini girip göndere bastığı zaman mail alanına girdiği veri url üzerinden gönderilir.
-
-> örneğin : http://siteadi.com/index.php?mail=mail%40hotmail.com
-
-## Get metodu önemsiz verilerde kullanılmalıdır, kullanıcı adı ve şifre gibi bilgilerin bu metodla formdan aktarılması uygun değildir.
-
-### Post : verileri arka planda gönderir, kullanıcı mail adresini girip gönder butonuna bastığı zaman veriler kullanıcıya gözükmeyecek şekilde sayfaya gönderilir.
-
-# Form Elementleri
-
-## İnput
-
-İnput type'larına göre kullanıcıdan değer almamıza olanak sağlayan elementlerin başında gelmektedir. Kullanımı <input /> şeklindedir en sık kullanılan parametreler 'type' 'value' ve bizim için en önemli parametre 'name' parametresidir. type inputun kullanım şeklini belirleyen parametredir. En sık kullanılan type='text' değeridir. Default olarak tanımlanan değerdir. type='password',type='email' adından da anlaşılacağı üzere kullanıcan şifre ve email istediğimiz zaman kullanacağımız değerlerdir. Value default olarak bir değer vermek istediğimiz zaman kullanacağımız bir parametredir örneğin value='deneme'. Bizim için en önemli parametre name parametresidir. Alanın ismidir form gönderildiği zaman burada atanan ada göre veriler çağırılır, örneğin get ile gönderilen bir formda, name’i mail olan bir input düşünün bu durumda girilen veri adrese buradaki name ile yansıyacaktır.Olmazsa olmazımız <button>Değer</button>'larımız. Button elementinde form ekranında kullanırken bizim için en önemli parametresi type='submit' 'tir.Form'mumuzun submit eventini tetikler.  
-Şimdi gelin aklımızda daha çok canlanması için bir örnek geliştirelim ve bir kullanıcı giriş formu tasarlayalım.
+Form;
 
 ```html
-<form  method="GET">
-	<input
-		type="text"
-		name="username"
-		placeholder="Kullanıcı adınızı giriniz"
-	 
-	/>
-	<input
-		type="password"
-		name="password"
-		placeholder="Şifrenizi giriniz."
- 
-	/>
-	<button type="submit">Giriş</button>
+<form action="siteadi" method="get|post">*form elementleri*</form>
+```
+
+şeklinde tanımlanır.
+
+Genellikle backend'e istek yapılacağı zaman kullanılır.(Veri göndermek gibi)
+
+En önemli parametresi **method** parametresidir. Method, **"post"** veya **"get"** olmak üzere iki türlü değer alabilir.
+
+**GET Methodu**: Form verilerini URL üzerinden gönderir. Örneğin; elimizde kullanıcıdan yaşını istediğimiz bir form elementi bulunsun. Kullanıcı yaşını girip gönder butonuna bastığı zaman mail alanına girdiği veri URL üzerinden gönderilir.
+
+Örnek;
+
+```html
+<form method="GET">
+  <input type="text" name="yas" placeholder="Yaşınızı giriniz." />
+  <button type="submit">Gönder</button>
 </form>
 ```
-Bu form ekranımızda submit ettiğimiz takdirde linkimizin değiştiğini göreceksiniz.Get methodu ile veri aktarmış olduk veriler inputun name parametresi ile taşınmış oldu. Değişen link 
+
+#### UYARI: Get metodu önemsiz verilerde kullanılmalıdır, kullanıcı adı, şifre gibi bilgilerin bu method ile gönderilmesi uygun değildir.
+
+**POST Methodu**: Verileri arka planda gönderir. Örneğin; kullanıcı mail adresini girip gönder butonuna bastığı zaman veriler kullanıcıya gözükmeyecek şekilde sayfaya gönderilir.
+
+Örnek;
+
+```html
+<form method="POST">
+  <input type="email" name="email" placeholder="Email adresinizi giriniz." />
+  <button type="submit">Gönder</button>
+</form>
+```
+
+## Giriş (İnput) elementi/etiketi
+
+Form oluşturulduktan sonra içerisine text, buton, şifre vb. tiplerinde input (giriş) elementleri oluşturulur. Bu input tipleri ile tasarımcının isteğine göre formlar tasarlanabilir. Şimdi input elementini ve en çok kullanılan önemli tiplerini inceleyelim.
+
+### Temel İnput Tipleri
+
+<input type=”text”> :
+
+İnput(giriş) elementi text tipinde belirlenir. Yani klasik textbox kullanımı olarak ifade etsek yanlış olmaz. Örn; kullanıcı adı girişi için idealdir.
+
+<input type=”password”> :
+
+Şifre tipinde veri girişi için kullanılır. Textbox’a girilen ifadeler “**\***” şeklinde gizlenerek gösterilir.
+
+<input type=”radio”> :
+
+Radio button tipinde, istenilen verileri seçmek için geliştirilen giriş yöntemidir.
+
+<input type=”checkbox”> :
+
+Checkbox tipinde, onay gerektiren durumlarda kullanılması için geliştirilen giriş yöntemidir.
+
+<input type=”button”> :
+
+Klasik buton oluşturur. Varsayılan olarak herhangi bir işlem yapmaz. Javascript vb. programlama dilleri ile birlikte işlevsel hale gelir.
+
+<input type=”submit”> :
+
+Form içerisindeki elementlere girilen verileri, gönderme işlemini yapar. action ile açılacak yeni sayfaya veya mevcut sayfanın kendisine, get veya post metoduna göre değişecek şekilde veri gönderme işlevini gerçekleştirir. methot=”get” kullanılmışsa action durumunda göre sayfanın adres çubuğundaki url’nin sonunda, methot=”post” kullanılmışsa sayfanın arka planında veriler saklanır.
+
+<input type=”reset”> :
+
+Buton tipinde bir nesne oluşturur. Form içerisindeki elementlere veriler girilmiş halde iken reset’e tıklandığında görünen tüm verileri temizler ve elementleri ilk haline getirir.
+
+<input type=”color”> :
+
+Renk çeşitlerini tasarımcıya sunan ve seçimini sağlayan giriş tipidir.
+
+<input type=”date”> :
+
+Tarayıcıda tarih gösterimini sağlayan tipdir. gg.aa.yyyy varsayılan formatında görünür.
+
+<input type=”email”> :
+
+Sadece e-mail girişi yapabilmek için kullanılır. Email formatı dışındaki girişlerde, düzgün veri girişi yapılması gerektiği yönünde uyarı vermektedir. Safari dışındaki tüm tarayıcılar desteklemektedir.
+
+<input type=”number”> :
+
+Sadece sayı girişi yapabilmek için kullanılır. Sayı dışındaki girişlerde, düzgün veri girişi yapılması gerektiği yönünde uyarı vermektedir. Safari dışındaki tüm tarayıcılar desteklemektedir.
+
+<input type=”range”> :
+
+Bir aralık belirtmemiz gerektiğinde, bu giriş tipini kullanmamız gerekmektedir. Dizi şeklinde veri gösterimi yapar. min=”başlangıç değer” ve max=”son değer” ile aralık belirlemesi yapılır. Tüm tarayıcılar tarafından desteklenmektedir.
+
+<input type=”search”> :
+
+Arama yapmamızı sağlayan giriş tipidir. Aktif olacak form içerisinde, girilecek olan veri aranır. Sadece Google Chrome ve Safari tarafından desteklenmektedir.
+
+<input type=”time”> :
+
+Tarayıcıda saat gösterimini sağlayan tipdir. hh.mm varsayılan formatında görünür. Element üzerinde saat belirlemesi yapılması mümkündür. İnternet Explorer ve Mozilla Firefox dışındaki tarayıcılar tarafından desteklenmetedir.
+
+## onSubmit ve onChange eventleri
+
+**onSubmit:** Form submit olduğu anda ne yapacağını söyleyeceğimiz eventtir.
+
+**onChange:** Form'un içindeki form elementlerinin(input) value'su her değiştiğinde bu değişen value'yu bizim her defasında elde etmemize olanak sağlayan eventtir.
+
+Şimdi gelin aklımızda daha çok canlanması için iki farklı methodu kullanarak bir örnek geliştirelim ve bir kullanıcı giriş formu tasarlayalım.
+
+```html
+<form method="GET">
+  <input type="text" name="username" placeholder="Kullanıcı adınızı giriniz" />
+  <input type="password" name="password" placeholder="Şifrenizi giriniz." />
+  <button type="submit">Giriş</button>
+</form>
+```
+
+Bu form ekranımızda submit ettiğimiz takdirde linkimizin değiştiğini göreceksiniz. Get methodu ile veri aktarmış olduk veriler input'un name parametresi ile taşınmış oldu. Değişen link;
+
 ![methodget](figures/methotget.png)
 
-## Kodumuza birde java script katalım ve bu veriyi post ile gönderelim
+### Kodumuza bir de JavaScript katalım ve bu veriyi post methodu ile tekrar gönderelim
 
 ```html
 <form onsubmit="handleSubmit(e)" method="POST">
-			<input
-				type="text"
-				name="username"
-				placeholder="Kullanıcı adınızı giriniz"
-				onchange="handleChange(event)"
-			/>
-			<input
-				type="password"
-				name="password"
-				placeholder="Şifrenizi giriniz."
-				onchange="handleChange(event)"
-			/>
-			<button type="submit">Giriş</button>
-		</form>
+  <input
+    type="text"
+    name="username"
+    placeholder="Kullanıcı adınızı giriniz"
+    onchange="handleChange(event)"
+  />
+  <input
+    type="password"
+    name="password"
+    placeholder="Şifrenizi giriniz."
+    onchange="handleChange(event)"
+  />
+  <button type="submit">Giriş</button>
+</form>
 
-		<script>
-			var username
-			var password
-			function handleSubmit(e) {
-				e.preventDefault();
-				console.log('username:'+username+'-'+'password:'+password);
-			}
-			function handleChange(e){
-				if(e.target.name==='username')
-				{
-					username=e.target.value;
-				}
-				if(e.target.name==='password')
-				{
-					password=e.target.value;
-				}
-			}
-		</script>
+<script>
+  var username;
+  var password;
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log("username:" + username + "-" + "password:" + password);
+  }
+  function handleChange(e) {
+    if (e.target.name === "username") {
+      username = e.target.value;
+    }
+    if (e.target.name === "password") {
+      password = e.target.value;
+    }
+  }
+</script>
 ```
-## onsubmit ve onchange eventleri 
-### onsubmit = Form submit olduğu anda ne yapacağını söyleyeceğimiz eventtir.
-### onchange = inputun value'su değiştiğinde bu değişen value'yu bizim elde etmemize olanak sağlayan eventtir.
 
-Bu örneğimizde onsubmit eventi için handleSubmit onchange eventi için handleChange function'larını kullanıyoruz. handleChange'e ve handleSubmit'e tetiklenen değeri yani event'i gönderiyoruz ve function'larımızda karşılıyoruz. handleChange'te (e.target.name) hangi inputun değerini okuduğumuzu e.target.value ise o inputun value'sunu verir.Bu değerleri globalde tanımladığımız değişkenlere atadık. Böylece submit olduğumuz anda bu değerleri artık kullanabilir duruma geldik. Bu değer ile artık formumuz submit olduğunda ne yapmak istiyorsak onu yapabiliriz.
+Yukarıdaki örneğimizde onSubmit eventi için handleSubmit, onChange eventi için handleChange function'larını kullanıyoruz. handleChange'e ve handleSubmit'e tetiklenen değeri yani event'i gönderiyoruz ve function'larımızda karşılıyoruz. handleChange'te (e.target.name) hangi inputun değerini okuduğumuzu e.target.value ise o inputun value'sunu verir.Bu değerleri globalde tanımladığımız değişkenlere atadık. Böylece submit olduğumuz anda bu değerleri artık kullanabilir duruma geldik. Bu değer ile artık formumuz submit olduğunda ne yapmak istiyorsak onu yapabiliriz.
+
+### Sorular
+
+1. Kullanıcıdan, gizli kalması gereken bilgileri aldığımızda kullanmamız gereken method hangisidir?
+
+- [ ] GET
+- [x] POST
+- [ ] PUT
+- [ ] DELETE
+
+  2.Form'un içindeki form elementlerinin(input) value'su her değiştiğinde bu değişen value'yu bizim her defasında elde etmemize olanak sağlayan event hangisidir?
+
+- [ ] handleSubmit
+- [ ] handleChange
+- [ ] onSubmit
+- [x] onChange
+
+### KAYNAK
+
+- http://kod5.org/html5-form-nesneleri-ve-kullanimi-1/
