@@ -2,94 +2,91 @@
 
 1. create-react-app ile bir React uygulaması oluşturduktan sonra uygulamayı hangi komut ile geliştirme ortamında başlatırız?
 
-​     npm start 
-​     npm run build
-​     npm run 
-​     npm run test
-
+   - npm start 
+   - npm run build
+   - npm run 
+   - npm run test
 2. create-react-app ile oluşturulan bir React uygulamasının başlangıç noktası hangi dosyadır? 
-
-     app.js
-  index.js (x)
-     document.js
-     root.js
+   - app.js
+   - index.js (x)
+   - document.js
+   - root.js
 
 
 ## jsx
 
 1. Hangisi geçerli bir react element'idir?
+   - <navbar>
+   - <navbar />
+   - <Navbar /> (x)
+   - <Navbar>
 
-     <navbar>
-     <navbar />
-   <Navbar /> (x)
-     <Navbar>
-   
 2. Bir JSX ifadesi yazarken css class'ı verilmek istendiğinde hangi keyword kullanılır?
+   - class
+   - ClassName
+   - Classname
+   - className (x)
 
-     class  
-     ClassName
-     Classname
-  className (x)
+
 
 
 ## rendering-elements
 
 1. index.html içerisinde bütün react uygulamasının render olduğu div element'inin id'si nedir?
 
-     center  
-     app
-     node
-  root (x)
+     - center  
+     - app
+     - node
+  - root (x)
 
 
 2. React'ın element'leri verimli bir şekilde güncellemesine katkı sağlayan hangisidir?
 
-     Shadow DOM  
-  Virtual DOM (x)
-     React DOM
-     HTML DOM
+     - Shadow DOM  
+  - Virtual DOM (x)
+     - React DOM
+     - HTML DOM
 
 
 ## components
 
 1. State objesi tutmayan component yapısı hangisidir?
 
-      Functional Component (x)
-      Class Component
-
+   -    Functional Component (x)
+   -    Class Component
 2. Kullanıcı tanımlı bir component'in  aldığı bütün özelliklerin (attribute) tutulduğu objeye ne ad verilir?
 
-     state 
-  props (x)
-     children
-     attribute
+     - state 
+  - props (x)
+     - children
+     - attribute
 
 
 ## props-and-state
 
 1. State güncellerken kullanılan fonksiyon hangisidir?
 
-     changeState 
-  setState (x)
-     getState
-     state
-  
+     - changeState 
+  - setState (x)
+     - getState
+     - state
 2. Props read-only yapılardır, hiçbir şekilde mutate edilemezler
 
-   Doğru (x)
-   
-   Yanlış
+   - Doğru (x)
+   - Yanlış
 
 ## props-children
 
 1. Hangisi doğru bir kullanımdır?
 
-    <Photo>Kodluyoruz</Photo> (x)
-   
-   <Photo children="Kodluyoruz" />
+   - <Photo children="Kodluyoruz" />
+   - <Photo>Kodluyoruz</Photo> (x)
 
 
-2. 
+2. props.children bir ya da birden fazla element içerebilir.
+
+   - Doğru (x)
+   - Yanlış
 
 
 
@@ -111,34 +108,39 @@
     </a>
    ```
    
-   
+   (x)
 
 2. Event Handler'a bir parametre gönderirken, event objesi manuel olarak gönderilmek zorundadır.
 
-      Doğru (x)
-      Yanlış
+   -    Doğru (x)
+   -    Yanlış
 
 
 ## conditional-rendering
 
-
+1. React Element'leri tutan değişkenler oluşturarak koşula göre render edilmesi sağlanabilir.
+   - Doğru (x)
+   - Yanlış
+2. Bir koşula bağlı olmadıkları halde component'leri koşul ifadelerinin içerisinde barındırmak performans açısından maliyetli bir işlem değildir.
+   - Doğru 
+   - Yanlış (x)
 
 ## component-lifecycle
 
 1. Data fetch yapılırken hangi lifecycle metot kullanılır?
 
-     componentDidUpdate 
-  componentDidMount (x)
-     componentWillUnmount
-     shouldComponentUpdate
+     - componentDidUpdate 
+  - componentDidMount (x)
+     - componentWillUnmount
+     - shouldComponentUpdate
 
 
 2. React'ın her props vee state değişiminde varsayılan bir şekilde component'i re-render etmesinin önüne hangi lifecycle metot ile geçilebilir?
 
-     componentDidUpdate 
-     componentDidMount
-     componentWillUnmount
-  shouldComponentUpdate (x)
+     - componentDidUpdate 
+     - componentDidMount
+     - componentWillUnmount
+  - shouldComponentUpdate (x)
 
 
 
@@ -146,27 +148,27 @@
 
 1. <React.Fragment></React.Fragment> yerine kullanılabilecek kısa syntax nedir?
 
-     </>.....</> 
-  <>.....</> (x)
-     <>.....<>
-     </>....<>
+     - </>.....</> 
+  - <>.....</> (x)
+     - <>.....<>
+     - </>....<>
 
 
-2. React Fragment kullanmanın sebebi nedir?
-
-   Birden fazla React element'ini `<div>` gibi ekstra bir tag (etiket) kullanmadan return edebilmeyi sağlamak.
+2. React Fragment kullanmanın sebebi birden fazla React element'ini `<div>` gibi ekstra bir tag (etiket) kullanmadan return edebilmeyi sağlamaktır.
+   - Doğru (x)
+   - Yanlış
 
 
 
 ## list-and-keys
 
-1. Map ile listeleme yaparken özgün bir key kullanmak neden önemlidir?
+1. Map ile listeleme yaparken özgün bir key kullanmak liste elemanlarını ayırt edebilmeyi sağlar.
+   - Doğru (x)
+   - Yanlış
+2. Key olarak array index'ini kullanmanın performans açısından bir zararı yoktur. 
 
-   Liste elemanlarını ayırt edebilmek için özgün bir key önemlidir.
-
-2. Key olarak array index'ini neden iyi bir yöntem değildir?
-
-   Array index'leri herhangi bir ekleme-çıkarma durumunda değişiklik göstereceği için React'ın diff algoritması hangi elemanın değiştirildiğini/çıkarıldığını bilemez. 
+   - Doğru
+   - Yanlış (x)
 
 
 
@@ -174,15 +176,15 @@
 
 1. Bir class component oluşturulurken hangisi extend edilir?
 
-     React.useState  
-     React.Class
-     React.Fragment
-  React.Component (x)
+     - React.useState  
+     - React.Class
+     - React.Fragment
+  - React.Component (x)
 
 2. React'te inheritance mı composition mı tercih edilir?
 
-      Composition  
-      Inheritance (x)
+     -  Composition  
+     -  Inheritance (x)
 
 
 
@@ -190,17 +192,17 @@
 
 1. useState hook'unu kullanırken, state'i değiştirmeye yarayan fonksiyonun ismi adlandırma kuralı olarak neyle başlar?
 
-     get 
-  set (x)
-     put
-     change
+     - get 
+  - set (x)
+     - put
+     - change
 
 2. componentDidMount, componentDidUpdate ve componentWillMount lifecycle metodlarının yerine kullanılabilecek hook hangisidir?
 
-     useMemo 
-     useState
-  useEffect (x)
-     useContext
+     - useMemo 
+     - useState
+  - useEffect (x)
+     - useContext
 
 
 
@@ -209,18 +211,18 @@
 
 1. API'dan veri çekme gibi "side effect" olarak bilinen işlemlerin gerçekleştirildiği hook hangisidir?
 
-     useMemo 
-     useState
-  useEffect (x)
-     useContext
+     - useMemo 
+     - useState
+  - useEffect (x)
+     - useContext
 
 2. useState'in aldığı argüman ne işe yarar?
 
-​     State'in başlangıç değerini belirler. (x)
-​     State'in tipini belirler.
-​     set fonksiyonu tetikler.
-​     Alabileceği değer aralığını ifade eder.
-​    
+- State'in başlangıç değerini belirler. (x)
+- State'in tipini belirler.
+- set fonksiyonu tetikler.
+- Alabileceği değer aralığını ifade eder.
+      
 
 
 
@@ -228,18 +230,18 @@
 
 1. Context.Provider içerisinde diğer component'ler tarafından erişilmesini istediğimiz değerleri yazdığımız props'un adı nedir?
 
-     key
-  value (x)
-     id
-     props  
+     - key
+  - value (x)
+     - id
+     - props  
 
 
 2. Provider’ın value kısmına yazmış olduğumuz bir değere erişmek için Context’in hangi componentini çağırmamız gerekir?
 
-       Consumer (x)
-       Context
-       Provider
-       Store
+    -    Consumer (x)
+    -    Context
+    -    Provider
+    -    Store
 
 
 
@@ -247,33 +249,36 @@
 
 1. Ref özelliğini fonksiyon bileşenleri üzerinde kullanabiliriz.
 
-      Doğru  
-   Yanlış (x)
+      - Doğru  
+   - Yanlış (x)
    
 2. Eğer functional component'lerinizde için ref kullanmak istiyorsanız  ........ kullanabilirsiniz.
 
-​    forwardRef  (x)
-​    props
-​    ref
-​    context
+- ​    forwardRef  (x)
+- ​    props
+- ​    ref
+- ​    context
 
 
 
-## render props
+## render-props
 
+1. Render prop ile React component'leri arasında kod paylaşımı yapmak mümkündür.
+   - Doğru (x)
+   - Yanlış
+2. 
 
-
-## higher order components
+## higher-order-components
 
 1. Higher Order Component'lerin amacı nedir ?
 
-​    Yeniden kullanılabilirliği (reusability) sağlamaktır. (x)
-​    var olan component'i değiştirir,
+- Yeniden kullanılabilirliği (reusability) sağlamaktır. (x)
+      var olan component'i değiştirir,
 
 2. Higher Order Component'ler Pure fonksiyonlardır, herhangi bir side effect'leri yoktur. Yalnızca kendi argümanlarına bağlı olarak yeni bir component return ederler.
 
-      Doğru  (x)
-      Yanlış
+   - Doğru  (x)
+   - Yanlış
 
 
 
@@ -281,8 +286,8 @@
 
 1. Axios bir kütüphane değildir.
 
-    Doğru  
-Yanlış (x)
+    - Doğru  
+- Yanlış (x)
 
 2. 
 
@@ -294,10 +299,10 @@ Yanlış (x)
 
 1. React tarafından sağlanan createPortal() fonksiyonu iki arguman alır, bu iki arguman nelerdir?
 
-​    child , container (x)
-​    Provider,child
-​    child,ref
-​    Provider,Consumer
+- child , container (x)
+- Provider,child
+- child,ref
+- Provider,Consumer
 
 
 2. 
@@ -324,14 +329,13 @@ Error boundary'ler yalnızca kullanıldıkları component'in altındaki componen
 
 1. Route matching component'leri nelerdir?
 
-    Switch,Link
-    Redirect,Link
-    Link,Route
-Switch, Route (x)
-
+    - Switch, Link
+    - Redirect, Link
+    - Link, Route
+- Switch, Route (x)
 2. Herhangi bir durumda yönlendirmenin zorunlu olarak yapılması isteniyorsa hangi component kullanılır?
 
-    Switch
-Redirect (x)
-    Link
-    Route
+    - Switch
+- Redirect (x)
+    - Link
+    - Route
