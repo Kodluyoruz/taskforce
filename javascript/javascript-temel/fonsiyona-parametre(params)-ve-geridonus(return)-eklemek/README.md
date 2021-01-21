@@ -112,6 +112,6 @@ Bu konunun detaylıca öğrenilebilmesi için farklı örneklerle çok fazla pra
 
 Parametre sorusu:
 Aşağıdakilerden hangisi bir fonksiyona parametre göndermenin doğru yoludur?
-A) Fonksiyon isminden sonra iki adet yıldız karakteri arasına parametreleri yazmak
-B) Fonksiyon isminden sonra boşluk bırakmadan parametreleri yazmak
-C) Fonksiyon isminden sonra küme parantezleri arasına parametreleri yazmak (Doğru)
+* A) Fonksiyon isminden sonra iki adet yıldız karakteri arasına parametreleri yazmak
+* B) Fonksiyon isminden sonra boşluk bırakmadan parametreleri yazmak
+* C) Fonksiyon isminden sonra küme parantezleri arasına parametreleri yazmak (Doğru)
