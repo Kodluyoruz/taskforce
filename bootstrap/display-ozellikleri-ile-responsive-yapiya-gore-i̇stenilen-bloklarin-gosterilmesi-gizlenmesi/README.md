@@ -96,23 +96,23 @@ Yukarıdaki satırlarda yazdığımız h1 elementlerinin farklı ekran boyutlar�
 
 ### 1200px Genişlik:
 
-![](./figures./1200.png)
+![1200 px Genişlik](./figures/1200.png)
 
 ### 992px Genişlik:
 
-![](./figures./992.png)
+![992 px Genişlik](./figures/992.png)
 
 ### 768px Genişlik:
 
-![](./figures./768.png)
+![768 px Genişlik](./figures/768.png)
 
 ### 576px Genişlik:
 
-![](./figures./576.png)
+![576 px Genişlik](./figures/576.png)
 
 ### 420px Genişlik:
 
-![](./figures./420.png)
+![420 px Genişlik](./figures/420.png)
 
 Görüldüğü üzere, 5 farklı h1 elementini farklı ekran boyutlarında göstermiş ve diğer boyutlarda gizlemiş olduk.
 
@@ -120,16 +120,30 @@ Görüldüğü üzere, 5 farklı h1 elementini farklı ekran boyutlarında göst
 ## Sorular
 
 1. Aşağıdaki elementlerden hangisi _sadece_ large boyutlu ekranlarda görünürdür?
- * `<div class="d-none d-md-block d-lg-none bg-info"><h1>Bu bir başlıktır.</h1></div>`
- * `<h1 class="d-block d-lg-none bg-warning">Kodluyoruz</h1>`
- * `<h2 class="d-none d-lg-block d-xl-none-primary">Bootstrap</h2>`          (Doğru Cevap)
- * `<span class="d-block d-xl-none bg-success"><p>Responsive</p></span>`
+ A) `<div class="d-none d-md-block d-lg-none bg-info"><h1>Bu bir başlıktır.</h1></div>`  
+ B) `<h1 class="d-block d-lg-none bg-warning">Kodluyoruz</h1>`  
+ C) `<h2 class="d-none d-lg-block d-xl-none-primary">Bootstrap</h2>`  
+ D) `<span class="d-block d-xl-none bg-success"><p>Responsive</p></span>`  
+ 
+<details><summary>Cevabı görmek için tıklayın</summary>
+
+```
+Doğru Cevap : C şıkkı.
+```
+</details>
 
 2. Hangisi bir display infix değildir?
- * sm
- * m         (Doğru Cevap)
- * lg
- * xl
+ A) sm  
+ B) m  
+ C) lg  
+ D) xl  
+ 
+ <details><summary>Cevabı görmek için tıklayın</summary>
+
+```
+Doğru Cevap : B şıkkı.
+```
+</details>
 
 ## Kaynaklar
 [CSS display - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display)  
