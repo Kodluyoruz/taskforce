@@ -149,7 +149,7 @@ En çok kullanılan JavaScript masaüstü teknolojileri aşağıdaki görselde y
 En çok kullanılan JavaScript oyun teknolojileri aşağıdaki görselde yer almaktadır. Bunlar soldan sağa doğru; PixiJS, MelonJS, Phaser, BabylonJS ve Impact'tır.
 
 <p align="center">
-	<img alt="JS Desktop Frameworks" src="figures/js-desktop-frameworks.jpg">
+	<img alt="JS Game Frameworks" src="figures/js-game-frameworks.jpg">
 	<br>
 </p>
 
