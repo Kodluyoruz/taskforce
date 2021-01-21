@@ -2,7 +2,7 @@
 
 Fonksiyonlar, bir takım veriler kullanarak, herhangi bir görevi yerine getiren veya bu verileri işleyip, sonuç üreten komut grubudur. 
 
-Fonksiyonlar, JavaScript'te oldukça önemli bir konudur. Genel işlevi itibariyle diğer programlama dillerindeki fonksiyonlara oldukça benzerler. Fakat, diğer programlama dillerinden farklı olarak JavaScript'te fonksiyonlar, birer nesne olarak değerlendirilir ve çok farklı şekillerde kullanılır.
+Fonksiyonlar, JavaScript'te oldukça önemli bir konudur. Genel işlevi itibariyle diğer programlama dillerindeki fonksiyonlara oldukça benzerler. Fakat, diğer programlama dillerinden farklı olarak JavaScript'te fonksiyonlar, birer nesne olarak değerlendirilir ve çok farklı şekillerde kullanılırlar.
 
 Fonksiyonlar, parametreli veya parametresiz fonksiyonlar, değer döndüren veya değer döndürmeyen fonksiyonlar olarak farklı şekillerde oluşturulabilir. Hangi fonksiyon tipini kullanacağımız, yazmak istediğimiz algoritmanın ihtiyacına göre değişmektedir. 
 
