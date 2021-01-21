@@ -8,7 +8,7 @@ JavaScript metinlerin tümü "**_string_**" veri tipi içinde tutulur ve "**_str
 
 String veri tipinde bulunan bir ifadenin ne kadar uzun olduğunu bulmak için "**_Length_**" özelliğimizi kullanırız.
 
-![code](\figures\1-code.png)
+![code](figures\1-code.png)
 
 ![cikti](\figures\1-cikti.png)
 
