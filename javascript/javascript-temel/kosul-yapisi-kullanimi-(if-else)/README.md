@@ -1,6 +1,6 @@
 # Koşul Yapısı Kullanımı(If/Else)
 
-C programlama dillerinden tutun da Java, Python gibi programlama dillerine kadar her programlama dillerinde kullanılan karar yapıları için **If/Else** kullanılır. Aynı durum JavaScript için de geçerlidir. JavaScriptte de şartların doğru olup olmadığını kontrol etmek için If/Else ifadeleri kullanılır.
+C programlama dilinden tutun da Java, Python gibi programlama dillerinin her birinde karar yapıları için **If/Else** koşul kelimeleri kullanılır. Aynı durum JavaScript için de geçerlidir. JavaScript'te de şartların doğru olup olmadığını kontrol etmek için If/Else kod blokları kullanılır.
 
 If else yapısı içerisinde koşulun sağlandığı kodlar **if** içerisinde yer alırken, koşulun sağlanmadığı kodlar ise **else** içerisinde yer alır.
 
@@ -17,18 +17,34 @@ else {
 }
 
 ```
+Bir if koşuluna bağlı gerçekleşecek tek bir fonksiyon veya atama varsa, koşul tek satırda köşeli parantez( **{ }** ) kullanımına gerek duymadan yazılabilir..
+```javascript
+if(kosul) fonksiyon(parametre);
+```
 
- Else kod blokları arasında tek satırlık bir kod yazılacaksa köşeli parantez( **{ }** ) kullanımına gerek yoktur.
+ Aynı şekilde bir if koşuluna bağlı else durumu da tek satır olarak yazılabilir.
 
  ```javascript
 
 if(kosul) {
     // Bu kod satırı çalışacaktır.
-} 
-
-else // tek satırlık kodu buraya yazabilirsin. 
+}
+else fonksiyon(parametre);// tek satırlık kodu buraya yazabilirsin. 
 
 ```
+Bununla beraber if blokları iç içe kullanılabilmektedir.
+```javascript
+if(kosul1){
+
+  if(kosul2){
+    // Birinci koşulun gerçekleşmesi sonucuna bağlı ikinci bir 
+    // koşulun kontrolü için kullanılabilir.
+  }
+
+}
+```
+
+
 
 If / Else koşulunun teoride çalışma prensibi bu şekildedir. Şimdi ise basitten başlayarak örneklerle teorik bilgileri pratiğe dökelim. 
 
@@ -76,15 +92,15 @@ if(ogrOrtalama > 0 && ogrOrtalama < 30) {
 }
 
 else if(ogrOrtalama > 31 && ogrOrtalama < 49) {
-  console.log("Not ortalamnız: " +ogrOrtalama + " DC - KOŞULLU ");
+  console.log("Not ortalamanız: " +ogrOrtalama + " DC - KOŞULLU ");
 }
 
 else if(ogrOrtalama > 50 && ogrOrtalama < 84) {
-  console.log("Not ortalamnız: " +ogrOrtalama + " CC - GEÇTİNİZ ");
+  console.log("Not ortalamanız: " +ogrOrtalama + " CC - GEÇTİNİZ ");
 }
 
 else if(ogrOrtalama > 85 && ogrOrtalama <= 100) {
-  console.log("Not ortalamnız: " +ogrOrtalama + " AA - GEÇTİNİZ ");
+  console.log("Not ortalamanız: " +ogrOrtalama + " AA - GEÇTİNİZ ");
 }
 
 ```
