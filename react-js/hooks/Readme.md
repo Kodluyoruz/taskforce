@@ -8,9 +8,9 @@ React'in sunmuş olduğu component model sayesinde, arayüz yapımı için adeta
 
 React, tekrar kullanılabilecek bir fonksiyonun/davranışın, başka bir bileşene bağlanması için bir yöntem sunmuyor. Bunun yerine render props ve high order components (HOC) ile bu probleme bir çözüm sağlanmaya çalışılıyor. Fakat bu geliştirim şablonları kullanıldığında, ilgili component’in tekrar yapılandırılması gerekiyor. Bu durum, yazılımcı için külfetli oluyor ve kodun da okunabilirliğini azaltıyor. Eğer siz de Chrome eklentisi olan [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) ile uygulamanızı incelediyseniz, kendinizi iç içe katmanlardan oluşan wrapper cehenneminde bulmuş olabilirsiniz.
 
-<p align="center">
-  <img src="figures/React-wrapper-cehennemi.jpg" alt="React-Wrapper-Cehennemi"/>
-</p>
+
+![React-wrapper-cehennemi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/hooks/figures/React-wrapper-cehennemi.jpg)
+
 ​								Ryu’nun hadouken atmış hali gibi görünen Wrapper yığını debug işlemlerini de güçleştiriyor
 
 
@@ -23,10 +23,9 @@ React uygulamalarında yazılan basit componentler, zaman içerisinde büyüyere
 
 Stateful işlemler bütün component’te yer aldığı için bu tarz component’leri daha küçük component’lere bölmek de çoğu zaman imkansız hale gelir. Bu nedenle geliştiriciler, ayrı bir state yönetim kütüphanesi (Redux, MobX) kullanımına giderek bu durumu çözmeye çalışırlar. Fakat bu durumda da bileşenler arası soyutlama oldukça artar ve kodu anlamak için dosyalar arasında git-gel yapmayı gerektiren zorlu bir durum oluşur.
 
-.
-<p align="center">
-  <img src="figures/Drake-meme-useEffect.jpg" alt="Drake-meme-useEffect"/>
-</p>
+
+![Drake-meme-useEffect](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/hooks/figures/Drake-meme-useEffect.jpg)
+
 ​					Hook’lar sayesinde componentDidMount() ve componentDidUpdate() yerine useEffect() fonksiyonu kullanılır.
 
 
@@ -38,9 +37,8 @@ Bunu çözmek için hook’lar bir bileşeni birbirleri ile ilişkili daha küç
 React’i öğrenme aşamasında farketmişsinizdir. JavaScript’teki `this` keyword’ünün kullanımı bizim alışkın olduğumuz Java, C# gibi dillere göre farklılık göstermektedir.
 
 
-<p align="center">
-  <img src="figures/Java-vs-JavaScript-classes.jpg" alt="Java-vs-JavaScript-classes"/>
-</p>
+![Java-vs-JavaScript-classes](https://raw.githubusercontent.com/Kodluyoruz/taskforce/react/react-js/hooks/figures/Java-vs-JavaScript-classes.jpg)
+
 ​								JavaScript’te class gibi görünen yapılar aslında temelinde prototype ile çalışırlar.
 
 `handleClick` gibi custom olarak oluşturulan event’lerin çalışabilmesi için `this `ile bind etmek gereklidir.

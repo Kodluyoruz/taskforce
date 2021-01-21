@@ -171,11 +171,11 @@ Bu örneği göz önüne aldığımızda, `Photo` ve `Comments` component'leri h
 
 Yukarıdaki performans açısından problemli render metodumuzun basitleştirilmiş haldeki virtual DOM yapısına bakalım.
 
-![rendering-with-multiple-if](figures/rendering-with-multiple-if.png)
+![rendering-with-multiple-if](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/conditional-rendering/figures/rendering-with-multiple-if.png)
 
 `showHeader` değişkeninin `true` olarak geldiğini ve component'lerin render edildiğini düşünelim. Sonrasında bir kullanıcı etkileşimi olduğunu ve `showHeader`'ın değiştiğini varsayalım. Yani sadece `Photo` ve `Comments` component'lerimiz rendeer olacak. Bu durumda React, virtual DOM'da diffing algoritması ile karşılaştırma yaptığında bütün component ağacının değiştirilmesi gerektiğini düşünecek çünkü component'lerin pozisyonları değişmiş oldu. 
 
-![multiple-if-second-call](figures/multiple-if-second-call.png)
+![multiple-if-second-call](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/conditional-rendering/figures/multiple-if-second-call.png)
 
 `showHeader` `true` olduğunda `Header` component ilk sırada olacak ama `false` olduğu durumda `Photo` `component`'i onun yerini alarak 1. sıraya geçecek. React, karşılaştırma yaptığında bu pozisyonların farklı olduğunu gördüğünde bütün DOM yeniden render edilmiş olacak. 
 
@@ -195,11 +195,11 @@ render() {
 
 Bu sayede `showHeader` `false` olduğunda onun pozisyonunu `null` değer tutacak. Component ağacının basitleştirilmiş haldeki görünümü şu şekilde olacak:
 
-![component-tree-with-null](figures/component-tree-with-null.png)
+![component-tree-with-null](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/conditional-rendering/figures/component-tree-with-null.png)
 
 Aynı şekilde `showHeader` falsy bir değere döndüğünde yani bir güncelleme olduğunda `null` pozisyon yerine artık `Header` component'i alacak. `Photo` ve `Comments` component'lerinin pozisyonları sabit kaldığı için o tarafta herhangi bir güncelleme yapılma ihtiyacı duyulmayacak.
 
-![with-null-second-call](figures/with-null-second-call.png)
+![with-null-second-call](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/conditional-rendering/figures/with-null-second-call.png)
 
 
 

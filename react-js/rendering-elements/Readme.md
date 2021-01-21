@@ -75,7 +75,7 @@ Bu örnekte `tick` adlı fonksiyon içerisinde bir React element'i tanımlanıyo
 
 React DOM, ilgili elementi ve elementin alt elemanlarını, bir önceki versiyonlarıyla karşılaştırır. Farkları tespit ettikten sonra yalnızca gerekli olan kısımlarda DOM güncellemesi yapar. DOM ağacında değişmesi gerekmeyen yerler aynı şekilde kalarak gereksiz element render edilmesinin önüne geçilmiş olur. React, virtual DOM sayesinde kullanıcının sayfayla her etkileşiminde sayfayı güncellemek yerine gerekli yerlerde, küçük element'ler üzerinde güncellemeler yaparak Vanilla JavaScript (plain-pure JavaScript) kullanılarak oluşturulmuş sayfalardan daha performanslı çalışır. 
 
-![react-dom-guncellemeleri](figures/react-dom-guncellemeleri.gif)
+![react-dom-guncellemeleri](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/rendering-elements/figures/react-dom-guncellemeleri.gif)
 
 Bütün UI ağacını her saniyede bir görüntüleyen bir element oluşturmamıza rağmen, React DOM tarafından **yalnızca içeriği değişen** string ifade güncellenir. [^1]
 
