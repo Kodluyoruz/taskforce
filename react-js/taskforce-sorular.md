@@ -2,15 +2,15 @@
 
 1. create-react-app ile bir React uygulaması oluşturduktan sonra uygulamayı hangi komut ile geliştirme ortamında başlatırız?
 
-  x- npm start
-     npm run build
-     npm run 
-     npm run test
+​     npm start 
+​     npm run build
+​     npm run 
+​     npm run test
 
 2. create-react-app ile oluşturulan bir React uygulamasının başlangıç noktası hangi dosyadır? 
 
      app.js
-  x- index.js
+  index.js (x)
      document.js
      root.js
 
@@ -21,7 +21,7 @@
 
      <navbar>
      <navbar />
-  x- <Navbar /> 
+   <Navbar /> (x)
      <Navbar>
    
 2. Bir JSX ifadesi yazarken css class'ı verilmek istendiğinde hangi keyword kullanılır?
@@ -29,9 +29,9 @@
      class  
      ClassName
      Classname
-  x- className
-    
-    
+  className (x)
+
+
 ## rendering-elements
 
 1. index.html içerisinde bütün react uygulamasının render olduğu div element'inin id'si nedir?
@@ -39,13 +39,13 @@
      center  
      app
      node
-  x- root
-    
+  root (x)
+
 
 2. React'ın element'leri verimli bir şekilde güncellemesine katkı sağlayan hangisidir?
 
      Shadow DOM  
-  x- Virtual DOM
+  Virtual DOM (x)
      React DOM
      HTML DOM
 
@@ -54,40 +54,38 @@
 
 1. State objesi tutmayan component yapısı hangisidir?
 
-   x- Functional Component
+      Functional Component (x)
       Class Component
 
 2. Kullanıcı tanımlı bir component'in  aldığı bütün özelliklerin (attribute) tutulduğu objeye ne ad verilir?
 
      state 
-  x- props
+  props (x)
      children
      attribute
-    
+
 
 ## props-and-state
 
 1. State güncellerken kullanılan fonksiyon hangisidir?
 
      changeState 
-  x- setState
+  setState (x)
      getState
      state
   
 2. Props read-only yapılardır, hiçbir şekilde mutate edilemezler
 
-   x- Doğru  Yanlış
+   Doğru (x)
+   
+   Yanlış
 
 ## props-children
 
 1. Hangisi doğru bir kullanımdır?
 
-   ```
-    <Photo>
-           Kodluyoruz
-     </Photo>
-   ```
-
+    <Photo>Kodluyoruz</Photo> (x)
+   
    <Photo children="Kodluyoruz" />
 
 
@@ -99,21 +97,25 @@
 
 1. Hangisi doğru bir kullanımdır?
 
-   ```
+   
+   
+   ```javascript
     <a href="#" onclick={handleClick}>
-       	Tıkla
-       </a>
+       Tıkla
+    </a> 
    ```
-
-```
- <a href="#" onClick={handleClick}>
-    	Tıkla
+   
+   ```javascript
+    <a href="#" onClick={handleClick}>
+       Tıkla
     </a>
-```
+   ```
+   
+   
 
 2. Event Handler'a bir parametre gönderirken, event objesi manuel olarak gönderilmek zorundadır.
 
-   x- Doğru 
+      Doğru (x)
       Yanlış
 
 
@@ -126,17 +128,17 @@
 1. Data fetch yapılırken hangi lifecycle metot kullanılır?
 
      componentDidUpdate 
-  x- componentDidMount
+  componentDidMount (x)
      componentWillUnmount
      shouldComponentUpdate
-   
+
 
 2. React'ın her props vee state değişiminde varsayılan bir şekilde component'i re-render etmesinin önüne hangi lifecycle metot ile geçilebilir?
 
      componentDidUpdate 
      componentDidMount
      componentWillUnmount
-  x- shouldComponentUpdate
+  shouldComponentUpdate (x)
 
 
 
@@ -145,10 +147,10 @@
 1. <React.Fragment></React.Fragment> yerine kullanılabilecek kısa syntax nedir?
 
      </>.....</> 
-  x- <>.....</>
+  <>.....</> (x)
      <>.....<>
      </>....<>
-   
+
 
 2. React Fragment kullanmanın sebebi nedir?
 
@@ -175,12 +177,12 @@
      React.useState  
      React.Class
      React.Fragment
-  x- React.Component
+  React.Component (x)
 
 2. React'te inheritance mı composition mı tercih edilir?
 
- x- Composition  
-    Inheritance
+      Composition  
+      Inheritance (x)
 
 
 
@@ -189,7 +191,7 @@
 1. useState hook'unu kullanırken, state'i değiştirmeye yarayan fonksiyonun ismi adlandırma kuralı olarak neyle başlar?
 
      get 
-  x- set
+  set (x)
      put
      change
 
@@ -197,9 +199,9 @@
 
      useMemo 
      useState
-  x- useEffect
+  useEffect (x)
      useContext
-   
+
 
 
 
@@ -209,16 +211,16 @@
 
      useMemo 
      useState
-  x- useEffect
+  useEffect (x)
      useContext
 
 2. useState'in aldığı argüman ne işe yarar?
 
-  x- State'in başlangıç değerini belirler.
-     State'in tipini belirler.
-     set fonksiyonu tetikler.
-     Alabileceği değer aralığını ifade eder.
-    
+​     State'in başlangıç değerini belirler. (x)
+​     State'in tipini belirler.
+​     set fonksiyonu tetikler.
+​     Alabileceği değer aralığını ifade eder.
+​    
 
 
 
@@ -227,14 +229,14 @@
 1. Context.Provider içerisinde diğer component'ler tarafından erişilmesini istediğimiz değerleri yazdığımız props'un adı nedir?
 
      key
-  x- value
+  value (x)
      id
      props  
 
 
 2. Provider’ın value kısmına yazmış olduğumuz bir değere erişmek için Context’in hangi componentini çağırmamız gerekir?
- 
-    x- Consumer
+
+       Consumer (x)
        Context
        Provider
        Store
@@ -246,14 +248,14 @@
 1. Ref özelliğini fonksiyon bileşenleri üzerinde kullanabiliriz.
 
       Doğru  
-   x- Yanlış
-     
+   Yanlış (x)
+   
 2. Eğer functional component'lerinizde için ref kullanmak istiyorsanız  ........ kullanabilirsiniz.
 
- x- forwardRef 
-    props
-    ref
-    context
+​    forwardRef  (x)
+​    props
+​    ref
+​    context
 
 
 
@@ -265,12 +267,12 @@
 
 1. Higher Order Component'lerin amacı nedir ?
 
- x- Yeniden kullanılabilirliği (reusability) sağlamaktır.
-    var olan component'i değiştirir,
+​    Yeniden kullanılabilirliği (reusability) sağlamaktır. (x)
+​    var olan component'i değiştirir,
 
 2. Higher Order Component'ler Pure fonksiyonlardır, herhangi bir side effect'leri yoktur. Yalnızca kendi argümanlarına bağlı olarak yeni bir component return ederler.
 
-   x- Doğru  
+      Doğru  (x)
       Yanlış
 
 
@@ -280,7 +282,7 @@
 1. Axios bir kütüphane değildir.
 
     Doğru  
- x- Yanlış
+Yanlış (x)
 
 2. 
 
@@ -292,10 +294,10 @@
 
 1. React tarafından sağlanan createPortal() fonksiyonu iki arguman alır, bu iki arguman nelerdir?
 
- x- child , container
-    Provider,child
-    child,ref
-    Provider,Consumer
+​    child , container (x)
+​    Provider,child
+​    child,ref
+​    Provider,Consumer
 
 
 2. 
@@ -311,12 +313,12 @@
     render
     lifecycle metodlar
     constructor
- x- Event handler
+Event handler (x)
 
 2. Error boundary'ler yalnızca kullanıldıkları component'in altındaki component ağacında meydana gelen hataları yakalarlar.
 
- x- Doğru  
-    Yanlış
+​    Doğru  (x)
+​    Yanlış
 
 
 
@@ -327,11 +329,11 @@
     Switch,Link
     Redirect,Link
     Link,Route
- x- Switch, Route
+Switch, Route (x)
 
 2. Herhangi bir durumda yönlendirmenin zorunlu olarak yapılması isteniyorsa hangi component kullanılır?
 
     Switch
- x- Redirect
+Redirect (x)
     Link
     Route
