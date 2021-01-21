@@ -20,7 +20,17 @@
 -  [Liste içerisindeki Öğeye Erişmek ve Yeni Öğe Eklemek](liste-icerisindeki-ogeye-erismek-ve-yeni-oge-eklemek/)
 -  [DOM'a CSS Class Bilgisi Eklemek veya Çıkarmak](dom'a-css-class-bilgisi-eklemek-veya-cikarmak/)
 
+
+- [ ] [Degisken Tanimlama: var, ES6 ile Birlikte Gelen let ve const Değişken Tanımlama Yapısının Kullanımı, var ile Arasındaki Farklar](degisken-tanimlama-var-es6-ile-birlikte-gelen-let-ve-const-degisken-tanimlama-yapisinin-kullanimi-var-ile-arasindaki-farklar/)
+- [ ] [Değişken Tanımlama Kuralları](degisken-tanimlama-kurallari/)
+- [ ] [Number Veri Turu Kullanımı, Temel Aritmetik İşlemler ve İşlem Önceliği ve Arttırma ve Azaltma İşlemleri](number-veri-turu-kullanimi-temel-aritmetik-i̇slemler-ve-i̇slem-onceligi-ve-arttirma-ve-azaltma-i̇slemleri/)
+- [ ] [Boolean Veri Türü İle Çalışmak](boolean-veri-turu-i̇le-calismak/)
+- [ ] [Değişken Türünü Kontrol Etmek ve Değişken Türünü Değiştirmek](degisken-turunu-kontrol-etmek-ve-degisken-turunu-degistirmek/)
+- [ ] [Template Literals Kullanımı](template-literals-kullanimi/)
+- [ ] [String Veri Türü İşlemleri](string-veri-turu-i̇slemleri/)
+=======
 #### Karar Yapıları / Koşullar
+
 
 -  [Karşılaştırma Operatörleri ve Mantıksal Operatörler](karsilastirma-operatorleri-ve-mantiksal-operatorler/)
 -  [Koşul Yapısı Kullanımı (if / else)](kosul-yapisi-kullanimi-(if-else)/)
@@ -70,4 +80,19 @@
 
 -  [try ve catch Kullanımı](try-ve-catch-kullanimi/)
 
+
+- [ ] [Object(Nesne) Nedir ? Nasıl Oluşturulur](object(nesne)-nedir-nasil-olusturulur/)
+- [ ] [Object Anahtar(Key) ve Değer(Value) Yapısının Kullanımı / Erişimi](object-anahtar(key)-ve-deger(value)-yapisinin-kullanimi-erisimi/)
+- [ ] [Nesnelere Nasıl Metot Ekleriz?](nesnelere-nasil-metot-ekleriz/)
+- [ ] [Object ve Array Destructuring Kullanımı](object-ve-array-destructuring-kullanimi/)
+
+JS - Hata Yönetimi
+
+- [ ] [try ve catch Kullanımı](try-ve-catch-kullanimi/)
+
+JS - Fetch API
+
+- [ ] [Fetch API ile Çalışmak](fetch-api-ile-calismak/)
+=======
 #### [Fetch API ile Çalışmak](fetch-api-ile-calismak/)
+
