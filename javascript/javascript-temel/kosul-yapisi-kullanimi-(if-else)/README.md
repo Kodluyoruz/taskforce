@@ -43,7 +43,16 @@ if(kosul1){
 
 }
 ```
-
+İç içe  if blokları else durumlu yazılabilmektedir.
+```javascript
+if (condition1) {
+  //  İlk koşul sağlanırsa bu kod satırı gerçekleşecektir.
+} else if (condition2) {
+  //  İlk koşul sağlanmayıp, ikinci koşul sağlandığında gerçekleşecek kod satırı.
+} else {
+  //  İki koşul da sağlanmadığında gerçekleşecek kod satırı.
+}
+```
 
 
 If / Else koşulunun teoride çalışma prensibi bu şekildedir. Şimdi ise basitten başlayarak örneklerle teorik bilgileri pratiğe dökelim. 
@@ -66,8 +75,28 @@ else {
 
 Bu örneğin benzerlerini kendiniz de [burada](https://codepen.io/alperceviz/pen/PoGRQxv?editors=0011) deneyebilirsiniz.,
 
+### Örnek - 2: Saatin durumuna göre verilecek mesajı bulalım.  
 
-### Örnek - 2: Vize ve final notları belli olan bir öğrencinin yıl sonunda dersten geçip geçmediğini hesaplayalım. 
+```javascript
+  var tarih = new Date();
+  var saat = tarih.getHours();
+
+  if(saat < 10) {
+      alert("Günaydın");
+  } else if(saat < 18) {
+      alert("İyi günler");
+  } else {
+      alert("İyi akşamlar")
+  }
+
+
+```
+
+Bu örneğin benzerlerini kendiniz de [burada](https://codepen.io/OnurKaral/pen/JjRVybg?editors=0010) deneyebilirsiniz.,
+
+
+
+### Örnek - 3: Vize ve final notları belli olan bir öğrencinin yıl sonunda dersten geçip geçmediğini hesaplayalım. 
 
 
 <hr />
