@@ -1,15 +1,15 @@
-## ReactJS - Render Props
+## Render Props
 
-React’te render props kullanmak, kodu verimli bir şekilde yeniden kullanmak için bir tekniktir bu yöntem ile componentler arasında kod paylaşımı yapmış oluruz. React’in kendi dökümantasyonuna göre “ render prop’lu bir bileşen, prop olarak bir React elemanı döndüren bir fonksiyon alır ve kendi render mantığını yürütmek yerine bu fonksiyonu çağırır.” Bunu daha net alamk için gelin biraz arıntılarıyla inceleyelim. 
+React’te render props kullanmak, kodu verimli bir şekilde yeniden kullanmak için bir tekniktir bu yöntem ile component'ler arasında kod paylaşımı yapmış oluruz. React’in kendi dökümantasyonuna göre “render prop’lu bir bileşen, prop olarak bir React elemanı döndüren bir fonksiyon alır ve kendi render mantığını yürütmek yerine bu fonksiyonu çağırır.” Bunu daha net anlamak için gelin biraz ayrıntılarıyla inceleyelim. 
 
 
 
 ```Javascript
 <DataProvider render={ data => (<h1> Hello! {data.target} </h1> )} />
 ```
-## The Render Props Pattern 
+## Render Props Pattern 
 
-Render fonksiyonu ile çalışırken React öğesi döndüren bir bileşene render fonksiyonu iletirsiniz. Bu render işlevi başka bir bileşen tarafından tanımlanır ve alıcı bileşen, render işlevi araçılığıyla iletileni paylaşır. Böylelikle component prop olarak gelen değer sayesinde neyi render edeceğini öğrenmiş olur.
+Render fonksiyonu ile çalışırken React element'i döndüren bir component'e render fonksiyonu iletirsiniz. Bu render işlevi başka bir component tarafından tanımlanır ve alıcı component, render işlevi araçılığıyla iletileni paylaşır. Böylelikle component prop olarak gelen değer sayesinde neyi render edeceğini öğrenmiş olur.
 
 
 ##### Örneğin:  
@@ -21,7 +21,7 @@ class BaseComponent extends Component {
 };
 ```
 
-Uygulamamızın kendisinin en üstte olduğu bir hediye kutusu olduğunu hayal edin. Kutu, oluşturduğumuz bileşense ve onu açarsak, render () tarafından çağrıldıktan sonra bileşenin çalışması için gereken props, state, functions ve methods ları ortaya çıkaracağız. 
+Uygulamamızın kendisinin en üstte bir hediye kutusu olduğunu hayal edin. Kutu, oluşturduğumuz component ise ve onu açarsak, render() tarafından çağrıldıktan sonra bileşenin çalışması için gereken props, state, fonksiyon ve metotları ortaya çıkaracağız. 
 
 
 ![Box](https://i2.wp.com/css-tricks.com/wp-content/uploads/2018/11/render-props-01.jpg?resize=768%2C384&ssl=1)
@@ -30,12 +30,9 @@ Uygulamamızın kendisinin en üstte olduğu bir hediye kutusu olduğunu hayal e
 
 Burada gösterilen basit sayaç örneğinde `count` değeri, `increment` ve `decrement` fonksiyonları ile arttırılıyor ve azaltılıyor. Başlangıç değerimizi `count:0` olarak tanımladık. 
 
+### 1. Kapsayıcı Component ( Wrapper )
 
-1.Kapsayıcı Component ( Wrapper )
-
-İlk olarak count adlı değişkenin başlangıç değerini, kullanılacak fonksiyonları ve kapsayıcı bileşenimizi tanımlayarak başlayalım.
-
-
+İlk olarak count adlı değişkenin başlangıç değerini, kullanılacak fonksiyonları ve kapsayıcı component'imizi tanımlayarak başlayalım.
 
 ```Javascript
 class Wrapper extends Component {
@@ -70,13 +67,12 @@ class Wrapper extends Component {
   }
 }
 ```
-Kapsayıcı bileşende kullancağımız fonksiyonlar ve etkilenecek olan state değerini belirleriz. Bu örnek için incelememiz gerekirse sayıyı artırmak için kullanacağımız inreament ve azaltmak için kullanacağımız decreament methodlarını tanımladık. Tabi ki bu methodların etki edeceği değerimiz olan count ın başlangıç değerini 0 olarak tanımladık. Butonlara tıklanarak kazanılan aksiyonlar state değerimizi artıracak ya da azalltacak.
-Burada return() methodunun bulunduğu kısma bakacak olursak this.render.props() kullandığımızı göreceksiniz. Bu yöntem ile kapsayıcı componentimiz olan Wrapper componentinden tanımlamış olduğumuz function ve state öğelerini iletiyoruz. Böylece Wrapper componenti tarafından kapsanan her component, Wrapper componentimizin sağladığı değer ve methodlara erişebilir. 
+Kapsayıcı bileşende kullancağımız fonksiyonlar ve etkilenecek olan state değerini belirleriz. Bu örnek için incelememiz gerekirse, sayıyı artırmak için kullanacağımız inrement ve azaltmak için kullanacağımız decrement metotlarını tanımladık. Tabii ki bu metotların etki edeceği değerimiz olan count'ın başlangıç değerini 0 olarak tanımladık. Butonlara tıklanarak kazanılan aksiyonlar state değerimizi artıracak ya da azalltacak.
+Burada return() metodunun bulunduğu kısma bakacak olursak this.render.props() kullandığımızı göreceksiniz. Bu yöntem ile kapsayıcı component'imiz olan Wrapper component'inden tanımlamış olduğumuz fonksiyon ve state öğelerini iletiyoruz. Böylece Wrapper component'i tarafından kapsanan her component, Wrapper component'imizin sağladığı değer ve metotlara erişebilir. 
 
+### 2. App
 
-2.App
-
-Şimdi bu kapsayıcımızı App componentimiz içerisinde kullanalım.
+Şimdi bu kapsayıcımızı App component'imiz içerisinde kullanalım.
 
 ```Javascript
 class App extends React.Component {
@@ -100,14 +96,9 @@ class App extends React.Component {
   }
 }
 ```
-Yukarıda da gördüğünüz gibi en dışta kalan Wrapper componentimiz render methodu içerisinde daha önceden tanımladığımız increment , decrement ve count parametrelerini alarak, butonlara verilen onClick fonksiyonu ile tanımladığımız methodları kullanabilmemize olanak sağlıor. Aynı zamanda tanımladığımız count değerine de erişebiliyoruz. Burada children prop children function olarak kullanılmış oluyor.
+Yukarıda da gördüğünüz gibi en dışta kalan Wrapper component'imiz render metodu içerisinde daha önceden tanımladığımız increment, decrement ve count parametrelerini alarak, butonlara verilen onClick fonksiyonu ile tanımladığımız metodları kullanabilmemize olanak sağlıyor. Aynı zamanda tanımladığımız count değerine de erişebiliyoruz. Burada children prop children function olarak kullanılmış oluyor.
 
-
-***_Hazırladğımız uygulmanın son hali aşağıdaki gibidir_***
-
-
-
-
+***_Hazırladğımız uygulamanın son hali aşağıdaki gibidir_***
 
 
 ```JavaScript
@@ -169,11 +160,11 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 ```
 
+[Codepen'de deneyin.](https://codepen.io/Kodluyoruz/pen/WNGWdKJ)
 
 
 
-
-
+## Kaynaklar
 
 
 
