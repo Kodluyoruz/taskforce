@@ -1,7 +1,7 @@
 # React.JS
 
 #### Fundamental topics
--  [Create React app](create-react-app/)
+-  [Create React App](create-react-app/)
 -  [JSX](jsx/)
 -  [Rendering Elements](rendering-elements/)
 -  [Components](components/) 
@@ -11,10 +11,10 @@
 -  [Conditional Rendering](conditional-rendering/)
 -  [Component Lifecycle](component-lifecycle/)
 -  [Fragments](fragments/)
--  [Lists and keys](list-and-keys/)
--  [Composition vs inheritance](composition-vs-inheritance/)
+-  [Lists and Keys](list-and-keys/)
+-  [Composition vs Inheritance](composition-vs-inheritance/)
 -  Basics of Form Handling
-#### [Basic hooks](basic-hooks/)
+#### [Basic Hooks](basic-hooks/)
 
 #### [Hooks](hooks/)
 
@@ -25,19 +25,19 @@
 #### Advanced Topics
 
 -  [Refs](refs/)
--  [Render props](render-props/)
+-  [Render Props](render-props/)
 -  Code splitting
 -  [Higher Order Components](higher-order-components/)
 -  [Portals](react-portals/)
--  [Error boundaries](error-boundaries/)
--  Reconciliationss
+-  [Error Boundaries](error-boundaries/)
+-  Reconciliation
 
 #### Ecosystem
 
--  Routers
+-  [Router](routers/)
 -  SSR
 -  SSG
--  API calls
+-  [API Calls](api-calls/)
 -  Forms
 -  Testing
 -  State management
