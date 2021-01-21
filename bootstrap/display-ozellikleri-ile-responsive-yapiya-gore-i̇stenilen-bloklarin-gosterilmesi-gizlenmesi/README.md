@@ -119,7 +119,7 @@ Görüldüğü üzere, 5 farklı h1 elementini farklı ekran boyutlarında göst
 
 ## Sorular
 
-1. Aşağıdaki elementlerden hangisi _sadece_ large boyutlu ekranlarda görünürdür?
+1. Aşağıdaki elementlerden hangisi _sadece_ large boyutlu ekranlarda görünürdür?  
  A) `<div class="d-none d-md-block d-lg-none bg-info"><h1>Bu bir başlıktır.</h1></div>`  
  B) `<h1 class="d-block d-lg-none bg-warning">Kodluyoruz</h1>`  
  C) `<h2 class="d-none d-lg-block d-xl-none-primary">Bootstrap</h2>`  
@@ -132,7 +132,7 @@ Doğru Cevap : C şıkkı.
 ```
 </details>
 
-2. Hangisi bir display infix değildir?
+2. Hangisi bir display infix değildir?  
  A) sm  
  B) m  
  C) lg  
@@ -149,6 +149,4 @@ Doğru Cevap : B şıkkı.
 [CSS display - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display)  
 [CSS display property - w3schools](https://www.w3schools.com/cssref/pr_class_display.asp)  
 [Display Property - Bootstrap](https://getbootstrap.com/docs/4.0/utilities/display/)  
-[Bootstrap Utilities - w3schools](https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp)  
-=======
-# Display Özellikleri ile Responsive Yapıya Göre İstenilen Blokların Gösterilmesi / Gizlenmesi
+[Bootstrap Utilities - w3schools](https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp)
