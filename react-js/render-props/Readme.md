@@ -24,7 +24,7 @@ class BaseComponent extends Component {
 Uygulamamızın kendisinin en üstte bir hediye kutusu olduğunu hayal edin. Kutu, oluşturduğumuz component ise ve onu açarsak, render() tarafından çağrıldıktan sonra bileşenin çalışması için gereken props, state, fonksiyon ve metotları ortaya çıkaracağız. 
 
 
-![Box](https://i2.wp.com/css-tricks.com/wp-content/uploads/2018/11/render-props-01.jpg?resize=768%2C384&ssl=1)
+![render-props](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/render-props/figures/render-props.jpeg)
 
 ### Örnek: Basit Sayaç Yapımı
 
