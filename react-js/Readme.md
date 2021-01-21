@@ -30,7 +30,7 @@
 -  [Higher Order Components](higher-order-components/)
 -  [Portals](react-portals/)
 -  [Error Boundaries](error-boundaries/)
--  Reconciliationss
+-  Reconciliation
 
 #### Ecosystem
 

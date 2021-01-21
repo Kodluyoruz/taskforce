@@ -83,7 +83,7 @@ Portal Modal ise bu root id'li div dışında portal-root id'li bir `div` içeri
 
 React Portal kullanırken göz önünde bulundurulması gereken şeyler:
 
-- Portal'lar node'un konumundan bağımsız olarak **event bubbling** beklendiği gibi çalışır.
+- Portal'lar ile node'un konumundan bağımsız olarak **event bubbling** beklendiği gibi çalışır.
 - Portal'lar ile child element'ler render ederken React lifecycle üzerinde kontrol sahibidir.
 - Portal'lar yalnızca HTML DOM yapısını etkiler, React component tree üzerinde bir etkisi yoktur.
 - Portal'ların mount olabilmesi için ayrı bir HTML DOM element'inin oluşturulması gerekir.
