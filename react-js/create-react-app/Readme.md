@@ -42,7 +42,7 @@ Bir React projesi oluşturmanın en kolay yöntemlerinden biri olan create-react
 
 Burada *ilk-uygulama*, uygulamaya vermek istediğimiz isimdir. Bunun yerine istediğiniz uygulama ismini verebilirsiniz (büyük harf içermediği sürece).  
 
-![react-proje-olusturuldu](figures/react-proje-olusturuldu.png)
+![react-proje-olusturuldu](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/create-react-app/figures/react-proje-olusturuldu.png)
 
 Komutu çalıştırdıktan sonra bazı ufak ipuçlarının da olduğu böyle bir çıktı ile karşılaşacaksınız. Bu demek oluyor ki React.js uygulaması sağlıklı bir şekilde oluşturuldu ve geliştirme ortamı hazırlandı. Burada start, run build, test ve run eject olmak üzere 4 adet script ismi görüyoruz. Biz create-react-app'in bize sağlamış olduğu start scriptini kullanarak projemizi localhost üzerinde çalıştıracağız. 
 
@@ -52,11 +52,11 @@ Komutu çalıştırdıktan sonra bazı ufak ipuçlarının da olduğu böyle bir
 
 komutlarını çalıştırdıktan sonra geliştirme web sunucusu başlatılmış olacak ve projemiz 3000 numaralı port üzerinde çalışıyor olacak. 
 
-![localhost3000](figures/localhost3000.png)
+![localhost3000](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/create-react-app/figures/localhost3000.png)
 
 Otomatik olarak açılan tarayıcı ile http://localhost:3000/ adresinden projenin çalışıyor olduğunu aşağıdaki çıktı eşliğinde görebileceğiz.
 
-![react-ilk-ekran](figures/react-ilk-ekran.png)
+![react-ilk-ekran](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/create-react-app/figures/react-ilk-ekran.png)
 
 Buradan da anlaşılabileceği üzere App adında bir bileşeni görüntülüyoruz. Bileşenleri (component) React'in yapı taşları olarak düşünebiliriz. Dolayısıyla bir bileşen aslında bir JavaScript sınıfı (class) ya da fonksiyonudur. Bir React uygulaması  tasarımına bağlı olarak birkaç ya da binlerce bileşenin bir araya gelmesiyle oluşabilir. Tasarım ilkelerine göre bu sayının çok fazla büyüyebileceğini söyleyebiliriz. 
 
@@ -70,7 +70,7 @@ Buradan da anlaşılabileceği üzere App adında bir bileşeni görüntülüyor
 
 ## Klasör Yapısı
 
-![react-klasor-yapisi](figures/react-klasor-yapisi.png)
+![react-klasor-yapisi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/create-react-app/figures/react-klasor-yapisi.png)
 
 *create-react-app* ile bir React uygulaması oluşturduğumuzda yukarıdaki gibi bir klasör yapısına sahip oluyoruz. Burada **src** klasörü altında olan **App.js** ekranda gösterilen bileşen, **index.js** React uygulamasının başlangıç noktasıdır. index.js bütün React uygulamasının nerede render edileceğini belirler. Bu dosyaya gidip incelediğimizde `'root'` id ile belirtilmiş bir HTML etiketine bütün uygulamanın render edileceğini görebiliriz. public klasörü altında index.html'e gittiğimizde ise bu bahsettiğimiz `'root'` id'li `<div>` etiketini görebiliriz.
 
