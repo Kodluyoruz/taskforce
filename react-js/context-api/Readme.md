@@ -71,7 +71,7 @@ Buradaki örneği sadece fikir verme açısından düşünecek olursak eğer `Ap
 
 Bu örneğimizde pek fazla props ile veriyi aktarma işlemi gerçekleştirmiyor olsakta, uygulamanızın component ağacının dikey konumda büyümesi durumunda, bu şekilde props ile component ağacının aşağısında bulunan bir component’e state’i gönderdiğinizi düşünün.
 
-![waste-of-time] (https://camo.githubusercontent.com/9b38a1dda267ac915ae3705b5477b8e05a07f2c48cbfb7b04ac41b80e03cb208/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f544b7645725a4143716a61775863544d53502f67697068792e676966)
+![waste-of-time](https://camo.githubusercontent.com/9b38a1dda267ac915ae3705b5477b8e05a07f2c48cbfb7b04ac41b80e03cb208/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f544b7645725a4143716a61775863544d53502f67697068792e676966)
 
 
 
