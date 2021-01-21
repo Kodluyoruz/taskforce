@@ -62,6 +62,6 @@
   - [ ] [First Class Function](first-class-fonksiyon/)
   - [ ] [For-Function](for-fonksiyon/)
 
-#### Hmm, geriye kalanlar diyelim :D 
+#### İş kolaylaştıran Konular
 - [ ] [Underscore Placeholder](underscore-placeholder/)
 - [ ] [fstring](fstring/)
