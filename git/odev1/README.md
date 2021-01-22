@@ -14,7 +14,7 @@
 
 - "Choose a license" seçeneğini seçip "MIT License" seçeneğini seçin. Lisanslar ile alakalı detaylı bilgi için [Choose a License](https://choosealicense.com/) sitesini ziyaret edebilirsiniz.
 
-![github](figures/github.png)
+![github](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/odev1/figures/github.png)
 
 Evet ilk repomuzu oluşturduk. Bundan sonraki adımda oluşturduğumuz repoyu bilgisayarımıza clonelamak olacak.
 
@@ -24,7 +24,7 @@ Evet ilk repomuzu oluşturduk. Bundan sonraki adımda oluşturduğumuz repoyu bi
 
 - Markdown içeriği aşağıdaki gibi olacak şekilde düzenleyin. Markdown için şu [Guide](https://www.markdownguide.org/cheat-sheet/)'ı kullanabilirsiniz.
 
-![markdown](figures/markdown.png)
+![markdown](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/odev1/figures/markdown.png)
 
 Detaylı bakmak için [Örnek Readme Dosyası](ornekreadme.md)nı inceleyebilirsiniz.
 
