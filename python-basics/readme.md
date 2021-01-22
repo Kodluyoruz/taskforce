@@ -1,4 +1,4 @@
-
+# Python 101
 #### Giriş
 -  [Programlama Nedir?](programlama-nedir/)
 -  [Temel Veri Tipleri](temel-veri-tipleri/)
