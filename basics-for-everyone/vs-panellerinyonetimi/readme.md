@@ -10,4 +10,7 @@ Bu yazımızda Visual Studio Code içerisindeki panellerin yönetiminden ve yine
 
 
 
-## Adım 1: 
+## Adım 1: Panelleri Açıp Kapatmak
+
+
+
