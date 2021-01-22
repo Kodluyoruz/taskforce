@@ -49,7 +49,3 @@ a etiketinin href özelliğine verilen **mailto:** ve **tel:** özellikleri saye
 
 Kod örneği: https://codepen.io/Ebuu/pen/OJRvwaR
 <br/> <hr/>
-
-### Seçmeli Sorular
-<a href="https://forms.gle/1eogdxovwZjf1Z8d6">Tıklayınız</a>
-
