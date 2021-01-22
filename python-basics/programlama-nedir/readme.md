@@ -6,7 +6,9 @@ Evet Python ile programla eğitimindeyiz... Hmm peki ne tam olarak bu programlam
 
 Programlamayı basit olarak verilen girdilerden istenilen çıktıların elde eden bir yapı olarak düşünebiliriz.
 
-<img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/python-basics/programlama-nedir/figures/input_ouput.png"/>
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/python-basics/programlama-nedir/figures/input_ouput.png)
+
+<img src=""/>
 
 Programlamada yapacağımız şey yukarıdaki resimde gördüğünüz karenin içinde neler olacağını tanımlamak. Ne kadar komplike bir problem ile uğraşıyorsanız uğraşın yapacağımız şey hep aynı olacak. Inputlardan outputlara dönüşüm yapacak olan komutlar bütününü yazmak, yani bu karenin ne yapacağını tanımlamak.
 
