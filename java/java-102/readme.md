@@ -1,5 +1,5 @@
 
- #### Sınıflar
+ #### [Sınıflar](file-sinifi/)
  - [ ] [File Sınıfı](file-sinifi/)
 
  - [ ] [Akiş Sinifları](akis-siniflari/)
@@ -8,11 +8,11 @@
  
  - [ ] [İmplementing classes](implementing-classes/)  
  
- #### Dosya İşlemleri
+ #### [Dosya İşlemleri](dosya-kopyalamak/)
  - [ ] [Dosya Kopyalamak](dosya-kopyalamak/)
  - [ ] [Reader Writer](reader-writer/)
 
- #### Java Generikler
+ #### [Java Generikler](java-generics/)
   - [ ] [Java Generics](java-generics/)
   - [ ] [Jenerik Sınıf Yazmak](jenerik-sinif-yazmak/)
   - [ ] [Diamond Operatörünün Kullanılması](diamond-operatoru/)
@@ -54,6 +54,6 @@
   - [ ] Runtime Data Areas
   - [ ] Memory - Heap - Stack
   
-  #### SOLID
+  #### [SOLID](solid-principles/)
 - [ ] [SOLID Principles](solid-principles/)
 - [ ] Clean Code Practices
