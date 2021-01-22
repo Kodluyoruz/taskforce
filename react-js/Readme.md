@@ -34,7 +34,7 @@
 
 #### Ecosystem
 
--  [Router](routers/)
+-  [Router](router/)
 -  SSR
 -  SSG
 -  [API Calls](api-calls/)
