@@ -82,5 +82,5 @@ b + 4
 * Variable assingment'ı kafamızda canlandırmak için şöyle düşünebiliriz:
     * Variable'a bir isim verip bir atama yaptığımızda python bilgisayarın hafızasında o isimli bir konteyner oluşturuyor ve ismini verdiğimiz isim yapıyor. Daha sonra bu isim çağrıldığında o konteynera gidiyor ve o değeri alıyor
 
-![](figures/variable_assignment.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/python-basics/degisken-atama/figures/variable_assignment.png)
 
