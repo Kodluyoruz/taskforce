@@ -37,30 +37,27 @@
      - center  
      - app
      - node
-  - root X
-
+     - root X
 
 2. React'ın element'leri verimli bir şekilde güncellemesine katkı sağlayan hangisidir?
 
      - Shadow DOM  
-  - Virtual DOM X
+     - Virtual DOM X
      - React DOM
      - HTML DOM
 
-
 ## components
 
-1. State objesi tutmayan component yapısı hangisidir?
+1. State objesi tutmayan component yapısı hangisidir? (Hook'lar olmadan)
 
    -    Functional Component X
    -    Class Component
-2. Kullanıcı tanımlı bir component'in  aldığı bütün özelliklerin (attribute) tutulduğu objeye ne ad verilir?
+2. Kullanıcı tanımlı bir component'in kendisine aktarıldığı ve bütün özelliklerin (attribute) tutulduğu objeye ne ad verilir?
 
      - state 
-  - props X
+     - props X
      - children
      - attribute
-
 
 ## props-and-state
 
@@ -118,7 +115,7 @@
 
 ## conditional-rendering
 
-1. React Element'leri tutan değişkenler oluşturarak koşula göre render edilmesi sağlanabilir.
+1. React Element'leri değişkenlere atanarak koşula göre render edilmesi sağlanabilir.
    - Doğru X
    - Yanlış
 2. Bir koşula bağlı olmadıkları halde component'leri koşul ifadelerinin içerisinde barındırmak performans açısından maliyetli bir işlem değildir.
@@ -247,7 +244,7 @@
 
 ## refs
 
-1. Ref özelliğini fonksiyon bileşenleri üzerinde kullanabiliriz.
+1. Ref özelliğini functional component'ler üzerinde kullanabiliriz.
 
       - Doğru  
    - Yanlış X
