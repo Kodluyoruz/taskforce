@@ -12,13 +12,13 @@ Hepimiz her gün Google kullanıyoruz ve çok işimize yarıyor değil mi? Her g
 
 ![googlehomepage](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/odev3/figures/googlehomepage.png)
 
-- Butonların çalışmaması hiç sorun değil. Sadece tasarımsal olarak bu görüntüye benzesin ve aşağıdaki linkler çalışıyor olsun yeterli.
+ Butonların çalışmaması hiç sorun değil. Sadece tasarımsal olarak bu görüntüye benzesin ve aşağıdaki linkler çalışıyor olsun yeterli.
 
 - Tasarladığınız bölümler ile alakalı kodunuzda açıklama satırlarına yer veriniz.
 
 - Sayfa ile alakalı detaylara sayfanın üzerine sağ tıklayıp "İncele/Inspect" diyerek ulaşabilirsiniz.
 
- - Bu [logo](https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg)'yu kullanabilirsiniz.
+- Bu [logo](https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg)'yu kullanabilirsiniz.
 
  İleride göreceğimiz CSS'den sonra Google'un bugünkü halini de tasarlayacağız. Ama öncelikle bakalım Larry Page ve Sergey Brin başlangıçta nasıl yapmışlar!
 
