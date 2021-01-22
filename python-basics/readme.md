@@ -1,4 +1,3 @@
-# Python 101
 
 #### Giriş
 -  [Programlama Nedir?](programlama-nedir/)
