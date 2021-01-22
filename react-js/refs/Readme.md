@@ -54,7 +54,7 @@ Ref’in değeri, düğüm türüne bağlı olarak değişir.
 
 2. *ref* özelliği özel bir sınıf bileşeninde kullanıldığında, ref nesnesi bileşenin yerleştirilmiş nesnesini *current* olarak alır.
 
-3. Ref özelliğini fonksiyon bileşenleri üzerinde kullanamazsınız, çünkü fonksiyon bileşenlerinin nesneleri(instances) olmaz.
+3. Ref özelliğini functional component'ler üzerinde kullanamazsınız, çünkü functional component'lerin nesneleri (instance) olmaz.
 
 Aşağıda göreceğiniz örnekler bunu daha iyi açıklamaktadır.
 
@@ -138,7 +138,7 @@ class CustomTextInput extends React.Component {
 ```
 
 ## Refler ve Functional Component'ler
-Varsayılan olarak ref değişkenlerini fonksiyon değişkenleri içinde kullanmazsınız, çünkü functional component'lerin nesneleri olmaz:
+Varsayılan olarak ref değişkenlerini functional component'ler içinde kullanamazsınız, çünkü functional component'lerin nesneleri olmaz:
 
 ```javascript
 
