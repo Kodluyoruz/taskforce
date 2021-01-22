@@ -12,7 +12,7 @@ Hepimiz her gün Google kullanıyoruz ve çok işimize yarıyor değil mi? Her g
 
 ![googlehomepage](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/odev3/figures/googlehomepage.png)
 
-- Butonların çalışmaması hiç sorun değil. Sadece tasarımsal olarak bu görüntüye benzesin ve aşağıdaki linkler çalışıyor olsun yeterli.
+-Butonların çalışmaması hiç sorun değil. Sadece tasarımsal olarak bu görüntüye benzesin ve aşağıdaki linkler çalışıyor olsun yeterli.
 
 - Tasarladığınız bölümler ile alakalı kodunuzda açıklama satırlarına yer veriniz.
 
