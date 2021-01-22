@@ -2,7 +2,7 @@
 
 ## Sayfamıza Biraz Makyaj Yapalım
 
-![Html Css Js](figures/htmlcssjs.png)
+![Html Css Js](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/odev1/figures/htmlcssjs.png)
 
 Herkese merhaba arkadaşlar kanalımıza hoş geldiniz, bugün HTML sayfamıza hafif bir makyaj yapacağız. Komik gelse de aslında tam olarak böyle yapacağız. Bir HTML sayfası oluşturup buna CSS ile tasarımsal açıdan güzellikler katacağız, HTML sayfamıza güzelliği getireceğiz.
 
@@ -24,7 +24,7 @@ Herkese merhaba arkadaşlar kanalımıza hoş geldiniz, bugün HTML sayfamıza h
 
 - Ana sayfada bulunan listelerin noktalarını ortalamak için ``` list-style-position: inside ```'i kullanabilirsiniz.
 
-![webpage](figures/webpage.gif)
+![webpage](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/odev1/figures/webpage.gif)
 
 Bu ödevde sizlerden istediğimiz hayalgücünüzü kullanarak öğrendiğiniz ve araştırarak bulduklarınızla birlikte güzel bir site oluşturmanız. Burada oluşturduğumuz sitenin tasarımı hoşunuza gitmese dahi burada önemli olan nokta CSS elemanlarını efektif bir şekilde kullanabiliyor muyuz onu görmek. Tasarımı ilerleyen ödevlerde daha güzelleştireceğiz.
 

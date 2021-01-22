@@ -6,7 +6,7 @@ Bir zamanlar basit ama gururlu bir Google Ana Sayfası vardı, hatırladınız m
 
 Sizler için HTML yapısını ve basit CSS'i hazırladık. Sizlerden istediğimiz orijinali inceleyip detayları işlemeniz.
 
-![googlehomepage](figures/googlehomepage.gif)
+![googlehomepage](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/odev2/figures/googlehomepage.gif)
 
 - [Google Homepage Projesi](google_homepage/)'ne buradan erişebilirsiniz.
 
@@ -38,7 +38,7 @@ Sizler için HTML yapısını ve basit CSS'i hazırladık. Sizlerden istediğimi
 
 - Kod yazarken yorum satırları kullanmaya özen gösteriniz.
 
-![Google Homepage](figures/googlehomepage.png)
+![Google Homepage](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/odev2/figures/googlehomepage.png)
 
 Bu ödev ile birlikte CSS bölümünü tamamladınız, tebrik ederiz!
 
