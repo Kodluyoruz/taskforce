@@ -7,7 +7,7 @@
   - [ ] [İlk Uygulama](hello-world/)
   
 ####   [ ] [JDK-JRE-JVM](JDK-JRE-JVM/)
-     - [ ] [JDK-JRE-JVM](JDK-JRE-JVM/)
+  - [ ] [JDK-JRE-JVM](JDK-JRE-JVM/)
 ####  [Java Basic Syntax](java-basic-syntax/)
 ####  [Erişim Denetimi](erisim-denetimi/)
 ####  [Özyineleme (Recursion)](ozyineleme-(recursion)/)
