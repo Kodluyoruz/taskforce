@@ -1,11 +1,28 @@
 # DOM içerisinden Etiket ve ID ile Öğe Seçimi
-Bu yazımızda DOM (Document Object Model) içerisinden öğeleri seçmek için kullanacağımız metotlardan bahsedeceğim.Document Object Model'de öğeler birden fazla yöntem ile seçilebilir. Birinci yöntemimiz olan id ile seçme işlemine başlayalım.
 
-## getElementById Metotu
-Bu metotta seçmek istediğimiz elemente ait id ile o elementi seçebiliyoruz. Eğer o element var ise bize o elementi geri döndürüyor.
-`var myEl=document.getElementById('#idAdı')`  
-ile bu metotu kullanabiliriz.Sonrasında bize dönen elemenı manipüle edebilirsiniz.
+Bu yazımızda [DOM (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) içerisinden öğeleri seçmek için kullanacağımız metotlardan bahsedeceğiz.Document Object Model'de öğeler birden fazla yöntem ile seçilebilir. Birinci yöntemimiz olan element id'sini kullanarak şeçme metodu ile başlayalım.
 
+## getElementById
+
+`document` objesinin `getElementById()` metodu ile sayfada bulunan html elementlerinin ID'leri referans alarak seçme işlemi yapabiliyoruz. Örnek olarak;
+
+```js
+<div id="unicorn">🦄</div>
+```
+sayafada bulana bu elementi `getElementById()` methodunu kullanarak seçmeye çalışalım.
+
+```js
+const unicorn = document.getElementById('unicorn');
+```
+
+ID'ler büyük-küçük harf duyarlıdır. Bu sayede HTML document içinde biriçiklik gösterir ve her zaman geriye bir eleman döndürür. Bir eşleşme bulamazsa da geriye `null` dönüşünü yapar.
+
+> **DİKKAT:** Seçmek istediğiniz elemanın id'sini yazarken eleman isminin başına **`# işaretini`** yazmanıza gerek yoktur. Yazmanız durumunda id'yi seçemeyeceksinizdir. 
+
+```diff
+- document.getElementById('#root'); // null
++ document.getElementById('root'); // <div id=​"root">​…​</div>​
+```
 
 ## getElementsByTagName Metotu
 Bu metot verilen tag adı ile eşleşen tüm etiketleri bir dizi olarak getirir.Bize bir NodeList nesnesi döner. NodeList nesnesi bir düğüm koleksiyonunu temsil eder. Düğümlere dizin numaraları ile erişilebilir. Dizin 0'dan başlar.  
