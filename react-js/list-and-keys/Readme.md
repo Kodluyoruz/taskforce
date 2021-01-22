@@ -58,7 +58,7 @@ Yazılan bu kodun çıktısı aşağıdaki gibi olacaktır:
 
 ## Liste içerisinde özgün bir key gereksinimi
 
-Eğer dikkat ettiyseniz, veriyi listelerken `li` etiketi içerisinde her bir liste elemanını temsilen bir `key` kullandık. Keyler hangi liste elemanı üzerinde değişiklik yapıldığını belirlemede React'a yardımcı olur. Bu açıdan değerlendirecek olursak listeleme yaparken **_özgün_** bir `key` kullanmayı unutmamak gerekir. Bu genelde bir React varsayılan olarak her bir liste elemanının indexini kullanıp `key` ataması yapar.
+Eğer dikkat ettiyseniz, veriyi listelerken `li` etiketi içerisinde her bir liste elemanını temsilen bir `key` kullandık. Keyler hangi liste elemanı üzerinde değişiklik yapıldığını belirlemede React'a yardımcı olur. Bu açıdan değerlendirecek olursak listeleme yaparken **_özgün_** bir `key` kullanmayı unutmamak gerekir. Herhangi bir key ataması yapılmaması durumunda React varsayılan olarak her bir liste elemanının index'ini kullanıp `key` ataması yapar. Fakat array'deki element'lerin yerlerinin değişmesi muhtemel ise key olarak array index'lerini kullanmak iyi bir yöntem değildir. Herhangi bir ekleme-çıkarma durumunda index'ler değişiklik göstereceği için React'ın diff algoritması hangi elemanın değiştirildiğini/çıkarıldığını bilemez. Bu açıdan performans problemlerine yol açabilir. 
 
 ## Kaynaklar
 

@@ -2,7 +2,7 @@
 
 Modern Web Uygulamaları diğer bir deyişle Single Page Application'lar (SPA), tarayıcı içerisinde çalışan ve kullanımları sırasında sayfa yenilenmesini gerektirmeyen uygulamalardır. Single Page Application'lar markup ve data'yı bağımsız bir şekilde elde edip tarayıcıda render eder. SPA'lar ile geleneksel web uygulamaları (Multi-Page Applications -MPA) arasındaki en büyük fark sayfa arasındaki geçiş (routing - yönlendirme) noktasında ortaya çıkar. Geleneksel web uygulamarında bu, bir server (sunucu) ile etkileşim sonucu gerçekleşirken SPA'larda bu geçişler client (istemci) tarafında yani bir web tarayıcısında gerçekleşir. Klasik bir web uygulamasında kullanıcı farklı bir sayfaya geçmek istediğinde, server'a istek atıp sonucunda statik bir sayfanın kendisine dönmesini bekler. SPA'lar klasik bir masaüstü uygulaması gibi çalıştıkları için, bu geçiş aynı uygulama içindeki farklı bir view'ın görüntülenmesine eşdeğerdir. 
 
-![MPA-vs-SPA](https://scand.com/wp-content/uploads/2019/05/bp062-difference.jpg)
+![MPA-vs-SPA](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/router/figures/mpa-vs-spa.jpeg)
 
 Bu figürde sol tarafta geleneksel bir web uygulamasının (Multi Page Application - MPA) yaşam döngüsünü görüyoruz. Her istek (request) sonrası server'dan dönen cevap (response) sonucunda sayfa yeniden yükleniyor (page reload). Sağ tarafta ise bir SPA uygulamasının yaşam döngüsünü görüyoruz. İlk istek sonrasında web sayfası elde ediliyor ve sonraki isteklerde yalnızca ilgili data 
 
@@ -203,11 +203,11 @@ Contact component'inde ise bahsettiğimiz her bir dinamik URL için detay göste
 
 Örneğin Cindy Erickson isimli kişiye tıklandığında match objesi aşağıdaki gibidir. Cindy Erickson adlı kişinin id'si 1 olduğu için url burada "/contact/1" olmuştur. 
 
-![match-prop](figures/match.png)
+![match-prop](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/router/figures/match.png)
 
 Bu id'ye `match.params.id` şeklinde ulaşabiliriz.
 
-![Screen Shot 2021-01-05 at 16.41.42](figures/match-details.png)
+![match-details](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/router/figures/match-details.png)
 
 ```javascript
 const Contact = ({ match }) => {
