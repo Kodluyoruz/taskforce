@@ -24,7 +24,7 @@ Hatırlar mısınız CSS'in ilk ödevinde boynu bükük bir site yapmıştık. B
 
 - [Bootstrap Dökümantasyonu](https://getbootstrap.com/docs/4.5/getting-started/introduction/)'nu iyi inceleyip farklı elementleri denemeye çalışın.
 
-![bootstrap](figures/bootstrap.gif)
+![bootstrap](https://github.com/Kodluyoruz/taskforce/blob/bootstrap/bootstrap/odev1/figures/bootstrap.gif?raw=true)
 
 Tebrikler, bootstrap ile ilk sitenizi oluşturdunuz.
 
