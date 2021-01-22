@@ -310,11 +310,11 @@
 
 ## error boundaries
 
-1. Error boundary'ler 3 durumda hataları yakalar, hangisi bunlar birisi değildir?
+1. Error boundary'ler 3 durumda hataları yakalar, hangisi bunlardan biri değildir?
    - render
-   - lifecycle metodlar
+   - lifecycle metotlar
    - constructor
-   - Event handler X
+   - Event Handler X
 
 2. Error boundary'ler yalnızca kullanıldıkları component'in altındaki component ağacında meydana gelen hataları yakalarlar.
 
