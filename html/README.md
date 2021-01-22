@@ -1,4 +1,4 @@
-#### HTML Giriş
+#### HTML Giriş 
 - [HTML Nedir](html-nedir/)
 -  [En Çok Kullanılan HTML Etiketleri Nelerdir](en-cok-kullanilan-html-etiketleri-nelerdir/)
 -  [Başlık Etiketleri Kullanımı](baslik-etiketleri-kullanimi/)
