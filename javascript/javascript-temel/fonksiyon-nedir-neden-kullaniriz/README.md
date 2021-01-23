@@ -414,8 +414,8 @@ function programDetayi(bootcamp, organizasyon) {
   // nested yardımcı fonk
   const tumProgram = () => bootcamp + ' ' + organizasyon;
 
-  console.log('Basladi, ' + getFullName());
-  consol.log('Bitti, ' + getFullName());
+  console.log('Basladi, ' + tumProgram());
+  consol.log('Bitti, ' + tumProgram());
 }
 ```
 
