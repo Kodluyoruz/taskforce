@@ -19,8 +19,8 @@ Her ölçüdeki cihaza uyumlu (responsive) tasarımın oluşturulması için Boo
 #### Bootrstrap kolon sınıfları
 
 | | **Extra small (xs)** | **Small (sm)** | **Medium (md)** | **Large (lg)** | **Extra large (xl)** | **Extra extra large (xxl)** |
-| | <576px | ≥576px | ≥768px | ≥992px | ≥1200px | ≥1400px |
 | ---------------------------------- |:--------------------:|:--------------:|:---------------:|:--------------:|:--------------------:|----------------------------:|
+| | <576px | ≥576px | ≥768px | ≥992px | ≥1200px | ≥1400px |
 | **Container (max genişlik)** | - otomatik | 540px | 720px | 960px | 1140px | 1320px |
 | **Kolon Sınıf adı (class prefix)** | .col- | .col-sm- | .col-md- | .col-lg- | .col-xl- | .col-xxl- |
 
