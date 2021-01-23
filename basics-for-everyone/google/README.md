@@ -215,7 +215,7 @@ Elbette bu örneğe benzer şekilde birçok farklı arama gerçekleştirebilirsi
 
 * Diyelim ki, sizlere yönelttiğimiz bu iki soruda da izlediğimiz çözüm yolları işe yaramadı. Bu durumda ne yapacağız? 
 
-  * Karşılaştığıımız ve içinden çıkamadığımız bu durumdan araştırarak, deneyimli insanlara ulaşıp yaşadığımız sorundan bahsederek kurtulabiliriz.
+  * Karşılaştığımız ve içinden çıkamadığımız bu durumdan araştırarak, deneyimli insanlara ulaşıp yaşadığımız sorundan bahsederek kurtulabiliriz.
   * İşte tam da bu sırada, sorunumuzu yüzlerce deneyimli, bilgili insanla paylaşabileceğimiz yazılım ile ilgili forum sayfaları devreye giriyor diyebiliriz.
   * ["Kod Koda"](https://www.kodkoda.com/) ve ["Stack Overflow"](https://stackoverflow.com/) bu forum sayfalarına verebileceğimiz örneklerdir.
 
