@@ -47,7 +47,7 @@ return (
 
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/PoGWwwm)
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/PoGWwwm)
 
 > **Not:** Bu bir functional component olduğu için, class component'lerde olduğu gibi "this" keyword'ü kullanmıyoruz.
 
@@ -95,7 +95,7 @@ class Profile extends React.Component {
 }
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/ZEpKVXo?editors=1111).
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/ZEpKVXo?editors=1111).
 
 Bu örnekte, `Profile` isimli class component'te state içerisinde bulunan `photos` array'ini `map` fonksiyonu ile dönüyoruz. Map yaparken `Photo` component'ini return ediyoruz. Burada `Photo` component'ini incelediğimizde herhangi bir buton içermediğini görebiliriz. Ancak bu kod çıktısında her fotoğraf altında bir buton render edilecektir. `Photo` component'inin açılış-kapanış tag'leri arasında yazdığımız buton element'i `Photo` component'i içerisinde `props.children` olarak erişilebilir durumdadır. Biz de `props.children`'ı bir `<div>` içerisinde render ettiğimiz için output'ta her fotoğraf için o fotoğrafın `ID`'sini gösteren bir buton render edilir.
 

@@ -63,7 +63,7 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/BaLZqKZ?editors=1011).
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/BaLZqKZ?editors=1011).
 
 Bu örnekte, Name isimli component yalnızca props.children'ı bir `<span>` etiketi içerisinde göstermekle görevli. Yazmış olduğumuz `withReverse` adlı higher order component'e Name component'ini argüman olarak verdiğimizde, `withReverse` HOC'inden return edilecek ekstra özellikli yeni bir component'e sahip olacağız. Bu component'e `ReversedName` ismini verdik. Sonuç olarak, ReversedName açılış-kapanış etiketleri arasına yazdığımız string ifade tersine çevrilerek render edilecek.
 
@@ -105,7 +105,7 @@ const MainPage = () => {
 const AuthenticatedMainPage = withAuthentication(MainPage);
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/YzGQRjj?editors=1011).
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/YzGQRjj?editors=1011).
 
 Bu örnekte authentication kontrolünü sağladığımız `withAuthentication` adlı bir HOC var. Yalnızca giriş yapmış kullanıcılara gösterilecek component'leri (sayfaları) bu HOC ile sarmalayarak doğrulama işlemini yapıyoruz. Bu örnekte `MainPage` component'i yalnızca giriş yapmış olan kullanıcılara gösterileceği için bu component'i `withAuthentication` ile sarmalıyoruz ve `AuthenticatedMainPage` adlı değişkene atayarak ana component'imiz olan `App` component'inde render ediyoruz . `withAutentication` sayesinde state'te tutulan `isLoggedIn` boolean değeri eğer false ise "Lütfen Giriş Yapınız." ifadesi, eğer true ise "Hoşgeldiniz - Anasayfa" ifadesini gösterecek şekilde koşullu render işlemini yapıyoruz. 
 

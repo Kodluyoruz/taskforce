@@ -12,7 +12,7 @@ State objesi güncellenebilir bir yapıdadır ve sadece o component tarafından 
 
 ### State Kullanımı
 
-Class component'lerin [React.Component](https://tr.reactjs.org/docs/react-component.html)'i extend ederek oluşturulduğundan <u>bahsetmiştik.</u> 
+Class component'lerin [React.Component](https://tr.reactjs.org/docs/react-component.html)'i extend ederek oluşturulduğundan bahsetmiştik. 
 
 ```javascript
 class Cat extends React.Component
@@ -53,7 +53,7 @@ class Cat extends React.Component {
 }
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/MWjYyBa)
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/MWjYyBa)
 
 **Not:** Burada bir extends söz konusu olduğu için `super()` metodu ile extend ettiğimiz class'taki tanımlamalar gerçekleştirilir. Props, `super()` metoduna argüman olarak gelir. Yazının ilerleyen bölümünde prop'lara değineceğiz. Ayrıca bu component bir class olduğu için property'lere erişirken **this** anahtar sözcüğünü kullanıyoruz.
 
@@ -108,9 +108,9 @@ class App extends React.Component {
 }
 ```
 
-*<u>Kod parçası.</u>*[^1]
+[Snippet source](https://css-tricks.com/understanding-react-setstate/)
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/KKgwMmN)
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/KKgwMmN)
 
 Burada basitçe `Artır` butonuna tıklandığında, state içerisindeki `count`'u 1 artırıyoruz. Şu ana kadar bir sorun yok ancak eğer `artir` fonksiyonunun içinde birden fazla `setState` çağırıyor olsaydık, sonraki `setState` çağrılarında state'in güncel halde olup olmadığını bilmiyor olacaktık.
 
@@ -130,7 +130,7 @@ azalt = () => {
 }
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/bGwNeRV)
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/bGwNeRV)
 
 Artır veya Azalt butonuna basıldığında 3 artıracak ya da 3 azaltacak şekilde fonksiyonlarımızı düzenlememize rağmen `count` yine 1'er artıp azalıyor. `setState` asenkron bir şekilde çalıştığı için ard arda çağrılmaları durumunda `count` istediğimiz güncel halinde olmadığı için istediğimiz sonuca ulaşamıyoruz. İstediğimiz sonuca ulaşabilmek için `setState`'e bir obje vermek yerine bir fonksiyon vermemiz gerekiyor. Bu fonksiyonun aldığı `prevState` argümanı aracılığıyla önceki state'e ulaşabileceğiz. `setState` bir fonksiyon aldığında güncellemeleri sıraya koyar böylece önceki state'in güncellediğinden emin olabiliriz.
 
@@ -307,7 +307,7 @@ const Child = (props) => {
 
 Child component'i argüman olarak props alıyor, ve props parent'tan gönderilen bütün attribute'ları içeriyor. Yani argüman olarak gelen props bir objedir. İçerisindeki değere props.text diyerek ulaşabiliriz.    
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/bGwNqmv)
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/bGwNqmv)
 
 
 
@@ -328,11 +328,9 @@ Component'lerden bahsederken React'te temel olarak 2 component (class ve functio
 
 
 
-
-
 ## Kaynaklar
 
-[^1]: https://css-tricks.com/understanding-react-setstate/
+https://css-tricks.com/understanding-react-setstate/
 
 https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0
 

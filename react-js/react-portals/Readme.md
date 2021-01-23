@@ -56,7 +56,7 @@ const PortalModal = (props) => {
 };
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/jOMLPoX?editors=1111).
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/jOMLPoX?editors=1111).
 
 Bu örnekte biri normal biri de `createPortal()` ile render edilmiş 2 adet modal diyalog component'i var. Modal component'i root node içerisinde render edilirken `PortalModal` component'i `portal-root` node'u içerisinde render ediliyor. 
 

@@ -167,7 +167,7 @@ const App = () => {
 };
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/WNGZozX?editors=1111).
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/WNGZozX?editors=1111).
 
 Burada CounterWithError adlı component içerisinde kasıtlı olarak bir hata fırlatılıyor. Bu hatanın sağlıklı bir şekilde yakalanması ve alternatif bir component (burada basitçe birer `<h2>` ve `<p>` element'i render edildi ) render edilebilmesi için ErrorBoundary component'ini oluşturduk. Hataları yakalayabilmek için CounterWithError component'i ErrorBoundary component'i ile sarmaladık. Bu component  `static getDerivedStateFromError(error)` lifecycle metodu sayesinde bir hata yakalanması durumunda state'i güncelleyerek alternatif component'in kullanıcıya gösterilmesini sağlıyor. 
 
