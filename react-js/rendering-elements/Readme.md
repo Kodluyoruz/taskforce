@@ -24,7 +24,7 @@ index.html dosyası aşağıdaki gibi root id'li bir `<div>` element'i içeriyor
 
 Buna “root” (kök) node (düğüm) denir; çünkü içerisindeki her şey React DOM tarafından yönetilir.
 
-Genellikle React ile yazılan uygulamalar, sadece bir adet kök DOM düğümü içerirler. Eğer React’i mevcut uygulamanıza entegre ediyorsanız, birbirinden izole olacak şekilde dilediğiniz kadar kök DOM düğümüne sahip olabilirsiniz. [^1]
+Genellikle React ile yazılan uygulamalar, sadece bir adet kök DOM düğümü içerirler. Eğer React’i mevcut uygulamanıza entegre ediyorsanız, birbirinden izole olacak şekilde dilediğiniz kadar kök DOM düğümüne sahip olabilirsiniz.
 
 **Örneğin:** *create-react-app* ile oluşturulan bir React uygulamasında bir adet root vardır ve bu root element sayesinde React tarafından bütün update'ler gerçekleştirilir.
 
@@ -91,5 +91,6 @@ Bu örnek için render() metodunun birden fazla kez çağrılması amacına hizm
 
 ## Kaynaklar
 
-- [^1] https://tr.reactjs.org/docs/rendering-elements.html
-- https://www.geeksforgeeks.org/reactjs-rendering-elements/
+https://tr.reactjs.org/docs/rendering-elements.html
+
+https://www.geeksforgeeks.org/reactjs-rendering-elements/
