@@ -120,7 +120,7 @@ ReactDOM.render(
 
 Burada name attribute farklı değerler alarak `Welcome` component'inin birden fazla kullanımına olanak sağladığını görüyoruz. 
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/ZEpEMPg)
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/ZEpEMPg)
 
 ## Component'lerin Çıkarılması (Extracting) - Parçalanması
 
@@ -150,7 +150,7 @@ function Comment(props) {
 }
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/QWKWVPz)
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/QWKWVPz)
 
 Burada `Comment` adında bir component görüyoruz ve bu component props objesi alıyor. *props* objesi içerisinde `author` adlı bir obje, `text` adında bir string ve `date` adında tarih formatı tutuyor.  Bu component'in bir sosyal medya sitesinde yorum kutucuğunun görüntülenmesini sağladığını düşünelim.
 
@@ -236,9 +236,9 @@ function Comment(props) {
 
 
 
-`Avatar` ve `UserInfo` component'lerinin çıkarılmasından sonra: [Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/xxExyOR)
+`Avatar` ve `UserInfo` component'lerinin çıkarılmasından sonra: [CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/xxExyOR)
 
-**Not:** Codepen üzerinde bütün component'ler aynı dosya içerisinde oluşturulmuştur ancak yukarıda bahsettiğimiz üzere her bir component'in ayrı bir dosyada tutulması tavsiye edilmektedir. Yani oluşturulan bu component'ler Avatar.js ve UserInfo.js adlı iki farklı dosyada yer alacaktır.
+**Not:** CodePen üzerinde bütün component'ler aynı dosya içerisinde oluşturulmuştur ancak yukarıda bahsettiğimiz üzere her bir component'in ayrı bir dosyada tutulması tavsiye edilmektedir. Yani oluşturulan bu component'ler Avatar.js ve UserInfo.js adlı iki farklı dosyada yer alacaktır.
 
 Component'lerin çıkarılması en başta angarya bir işlem gibi görünebilir. Fakat büyük çaplı uygulamalarda, tekrar kullanılabilir component'ler içeren bir **component paletine** sahip olmak oldukça faydalı hale gelecektir. Component çıkarmanın genel mantığı aşağıdaki gibidir:
 
