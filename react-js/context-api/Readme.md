@@ -60,7 +60,7 @@ const HeaderTitle = (props) => {
 
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/YzGrvQz?editors=1111).
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/YzGrvQz?editors=1111).
 
 Buradaki örneği sadece fikir verme açısından düşünecek olursak eğer `App` içerisinde tanımladığımız bir state’i önce `HeaderContainer` component’ine gönderiyoruz ve daha sonrasında `HeaderTitle` component’ine props yoluyla aktarıyoruz.
 
@@ -259,7 +259,7 @@ Bir önceki örnekten hatırlayabileceğiniz gibi context ile `Provider`’ın *
 
 HeaderButton componentimizi de tanımladıktan sonra `HeaderContainer` component’i içerisinde çağırıp uygulamamızı çalıştırırız.
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/eYdGKxb).
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/eYdGKxb).
 
 ## Kaynaklar
 
