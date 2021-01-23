@@ -4,7 +4,7 @@ Bir HTML dosyası içerisinde herhangi bir sayfaya, sayfa içine, bir websitesin
 `<a href="gitmek istenilen yer">Gidilecek yer için isim tanımlaması</a>` 
 <br/> <br/>
 
-![a-tagi](https://raw.githubusercontent.com/EbubekirPamuk/taskforce/main/html/linklerle-calismak/figures/a-tagi.PNG)
+![a-tagi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/linklerle-calismak/figures/a-tagi.PNG)
 
 
 ### HTML sayfaları içinde kullanımı:
@@ -13,7 +13,7 @@ HTML sayfalar arası geçiş yapmak için linklerden şu şekilde faydalanırız
 `<a href="linksayfasi.html">İkinci sayfaya git</a>` <br/> <br/>
 Bunu oluşturduğumuzda tarayıcı ekranımızda  **İkinci sayfaya git** diye bir link oluşacak (üzerine gelindiğinde mousenin el işaretine dönmesinden anlaşılabilir) Örneği görelim: <br/>
 
-![sayfalar-arasi-link](https://raw.githubusercontent.com/EbubekirPamuk/taskforce/main/html/linklerle-calismak/figures/sayfalar-arasi-link.gif)
+![sayfalar-arasi-link](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/linklerle-calismak/figures/sayfalar-arasi-link.gif)
 
 <br/> <hr/>
 
@@ -27,7 +27,7 @@ Sayfa içerisinde herhangi bir başlığa ya da bölüme gitmek için linkler ku
     
 <br/>
 
-![sayfaici-link](https://raw.githubusercontent.com/EbubekirPamuk/taskforce/main/html/linklerle-calismak/figures/sayfaici-link.gif)
+![sayfaici-link](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/linklerle-calismak/figures/sayfaici-link.gif)
 
 Kod örneği: https://codepen.io/Ebuu/pen/zYKWLLJ
 <br/> <hr/>
@@ -36,7 +36,7 @@ Kod örneği: https://codepen.io/Ebuu/pen/zYKWLLJ
 a etiketinde href özelliğine verilen herhangi bir websitesi adresine kolayca gidilebilir. Burada **target** özelliğini göreceğiz. Bu özellik, gitmek istediğimiz bağlantının geçerli pencerede mi yoksa yeni bir pencerede mi açılması için kullanılır. **_self** özelliği geçerli pencerede açılması içindir. Varsayılan olarak böyledir. **_blank** özelliği ise yeni bir pencerede açılması içindir. **Kodluyoruz**'un internet sitesine gidelim:
 <br/>
 
-![website-link](https://raw.githubusercontent.com/EbubekirPamuk/taskforce/main/html/linklerle-calismak/figures/website-link.gif)
+![website-link](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/linklerle-calismak/figures/website-link.gif)
 
 Kod örneği: https://codepen.io/Ebuu/pen/MWjVBPV
 <br/> <hr/>
@@ -45,7 +45,7 @@ Kod örneği: https://codepen.io/Ebuu/pen/MWjVBPV
 a etiketinin href özelliğine verilen **mailto:** ve **tel:** özellikleri sayesinde direkt olarak herhangi bir e-mail adresine posta gönderilebilir ya da geçerli bir telefon numarası aranabilir. **Kodluyoruz**'un e-mailine gidelim ve rastgele bir numaraya gidelim:
 <br/>
 
-![mail-tel](https://raw.githubusercontent.com/EbubekirPamuk/taskforce/main/html/linklerle-calismak/figures/mail-tel.gif)
+![mail-tel](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/linklerle-calismak/figures/mail-tel.gif)
 
 Kod örneği: https://codepen.io/Ebuu/pen/OJRvwaR
 <br/> <hr/>
