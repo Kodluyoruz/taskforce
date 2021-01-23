@@ -1,4 +1,4 @@
-# VS CODE || MultiCursor (Çoklu İmleç) Kullanımı
+# VS CODE | MultiCursor (Çoklu İmleç) Kullanımı
 
 Visual Studio Code'un en güzel özelliklerinden biri MultiCursor yani çoklu imleç özelliğidir. Bu özellik bizlere birden fazla yeri aynı anda değiştirme imkanı sunmaktadır.
 
@@ -20,9 +20,10 @@ Visual Studio Code'un en güzel özelliklerinden biri MultiCursor yani çoklu im
 
 
 
-Ek olarak, Visual Studio Code içerisinde bir satırda seçmiş olduğunuz ifade diğer satırlarda da tekrarlanıyorsa kod editörü onları bulur ve sizin görebileceğiniz hale getirir. Çoklu seçim özelliği de aynı ifadeleri  **CTRL** + **D** kombinasyonuyla seçebilmenizi ve tek seferde değiştirebilmenizi sağlar.
+Ek olarak, Visual Studio Code içerisinde bir satırda seçmiş olduğunuz ifade diğer satırlarda da tekrarlanıyorsa kod editörü onları bulur ve sizin görebileceğiniz hale getirir. Çoklu imleç özelliği de aynı ifadeleri  **CTRL** + **D** kombinasyonuyla seçebilmenizi ve tek seferde değiştirebilmenizi sağlar.
 
 ![vs-controlsecim](figures/vs-controlsecim.gif)
 
-   
 
+
+Son olarak çoklu imleç özelliğini kapatmak için **ESC** tuşuna basabilirsiniz.
