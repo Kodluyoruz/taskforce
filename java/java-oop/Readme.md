@@ -1,16 +1,16 @@
 # Java OOP
 
-## [Nesneye-Dayalı-Programlama-Yönteminin-Özellikleri](oop-yonteminin-ozellikleri/)
+#### [Nesneye-Dayalı-Programlama-Yönteminin-Özellikleri](oop-yonteminin-ozellikleri/)
 
-### Sinif-Kavraminin-Temelleri
+#### Sinif-Kavraminin-Temelleri
 - [ ] [Java'da Sınıf](class/)
 - [ ] [Java'da İç İçe Sınıf](ic-ice-siniflar-(nested-classes)/)
 - [ ] [Input/Output Classes](input-output-classes/)
 
-### Java'da Nesne Kavramı
+#### Java'da Nesne Kavramı
 - [ ] [Java'da Nesne Kavramı](object/)
 
-### Metotlara Giriş
+#### Metotlara Giriş
 - [ ] [Java'da Kurucu Metotlar ](constructors/)
 - [ ] [Yapılandırıcıları aşırı yüklemek](yapilandiricilari-asiri-yuklemek/)
 - [ ] [Bir yapılandırıcıdan diğerini çağırmak](yapilandiricidan-digerini-cagirmak/)
@@ -24,7 +24,7 @@
 - [ ] [Kapsülleme Kavramı (Encapsulation)](oop-encapsulation/)
 
 
-### Java'da Arayüzleri
+#### Java'da Arayüzleri
 - [ ] [Arayüzler (Interface)](interface/)
 - [ ] [Soyutlama (Abstraction)](oop-abstraction/)
 - [ ] [Soyut Sınıf (Abstract Class)](abstract-class/)
