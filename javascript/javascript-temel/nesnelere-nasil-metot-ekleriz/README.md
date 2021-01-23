@@ -99,7 +99,7 @@ console.log(kitap.kitapTanit())
 
 D)
 
-```
+```javascript
 	...
 	kitapTanit: () => {
 		return `${kitapIsmi} kitabının yazarı ${kitapYazari}.`
