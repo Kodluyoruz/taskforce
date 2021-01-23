@@ -82,7 +82,7 @@ class Example extends React.Component {
 ReactDOM.render(<Example />, document.getElementById('root'));
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/NWRrqEv)
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/NWRrqEv)
 
 Bu örnekte component ilk oluşturulduğunda state içerisinde `favoriteColor` adlı bir property tanımlıyoruz. Bunu yaparken constructor metodunu kullanıyoruz. Daha sonra render metodu çağrılıyor ve ekrana *My favoritee color is blue* bastırılıyor. Sonrasında render içerisindeki `<h1>` tag'inin DOM'a render olduğundan emin oluyoruz ve **componentDidMount** lifecycle metodu çağrılıyor. Bu metod içerisinde bir `setTimeout` var ve 2 saniye sonra state içerisindeki favoriteColor property'sini "red" olarak güncelliyor. 
 
@@ -132,7 +132,7 @@ ReactDOM.render(<Example />, document.getElementById("root"));
 
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/MWjewqG?editors=1010)
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/MWjewqG?editors=1010)
 
 Bu örnekte buton ile state değişimi olsa da `shouldComponentUpdate` lifecycle metodu kullanılarak component'in render edilmesinin önüne geçiliyor. Örnek üzerinde `shouldComponentUpdate`'in return ettiği değeri `true` yaparak bu durumu değiştirebilirsiniz.
 
@@ -183,7 +183,7 @@ ReactDOM.render(<Example />, document.getElementById("root"));
 
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/dypXoEP?editors=1010)
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/dypXoEP?editors=1010)
 
 Burada component ilk render olduktan sonra state üzerinde favori renk mavi olarak ekrana bastırılıyor. Ardından `componentDidMount` lifecycle metodu çağrılıyor ve 2 saniye sonra state içerisindeki renk property'si kırmızı olarak değişiyor. Bu değişim de `componentDidUpdate` fonksiyonunu tetiklediği için ilk render'da ekrana basılmayan `<h2>` tag'i içerisindeki mesaj ekrana basılıyor. Burada dikkat edilmesi gereken durum `componentDidUpdate` içerisinde bir koşula bağlı `setState` metodunun çağrılması. Eğer bir koşul olmadan state üzerinde değişiklik yapsaydık sonsuz bir döngü içerisine girecekti yani her re-render'da `setState` çağrılacaktı. Bu durumda eğer `showMessage` değeri `true` ise herhangi bir işlem yapmıyoruz böylelikle sonsuz döngüye girmesini engelliyoruz.
 
