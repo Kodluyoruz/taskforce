@@ -56,7 +56,7 @@ ActionLink = () => {
 
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/OJRmbrB?editors=1111).
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/OJRmbrB?editors=1111).
 
 `ActionLink` adlı functional component içerisinde `handleClick` adlı bir fonksiyon var. Bu fonksiyon `onClick event`'ine handler olarak verilmiş ve `preventDefault` ile fonksiyonun render sırasında otomatik olarak çağrılmasını ve yeni bir sayfaya yönlendirilmeyi engelliyor.     
 
@@ -119,7 +119,7 @@ class BindExample extends React.Component {
 }
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/gOwWgvN?editors=1011).
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/gOwWgvN?editors=1011).
 
 Bu örnekte bir class component içerisinde `bind` metodu kullanarak `this` ile context'i tanımlıyoruz. `Bind` metodunda ilk argüman **"this"** olmak zorundadır. Görüldüğü üzere event objesini göndermediğimiz halde handler içerisinde ulaşabiliyoruz çünkü [closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) içerisinde olduğu için otomatik olarak aktarılmıştır.
 

@@ -35,7 +35,7 @@ const element = <h1>Merhaba Dünya!</h1>;
 ReactDOM.render(element, document.getElementById('root'));
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/vYXYKoL)
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/vYXYKoL)
 
 Sayfada “Merhaba Dünya!” mesajı görüntülenecektir.
 
@@ -61,7 +61,7 @@ function tick() {
 setInterval(tick, 1000);
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/oNzNLrN)
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/oNzNLrN)
 
 Bu örnekte `tick` adlı fonksiyon içerisinde bir React element'i tanımlanıyor. Bu element `<h1>` etiketi içerisinde "Merhaba Dünya!" içerikli bir string ve `<h2>` etiketi içerisinde ise şu anki yerel saatin string'e çevrilmiş halini tutuyor. Fonksiyon tanımından sonra gelen kod satırı bu fonksiyonun her saniyede bir çağrılmasını sağlıyor.
 

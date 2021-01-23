@@ -160,7 +160,7 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 ```
 
-[Codepen'de deneyin.](https://codepen.io/Kodluyoruz/pen/WNGWdKJ)
+[CodePen'de deneyin.](https://codepen.io/Kodluyoruz/pen/WNGWdKJ)
 
 
 
