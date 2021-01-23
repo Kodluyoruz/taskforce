@@ -26,7 +26,7 @@ ID'ler büyük-küçük harf duyarlıdır. Bu sayede HTML document içinde biri�
 ```
 
 ## Get Elements By Tag Name
-> Elemanları Etiket isimlerine göre getirme
+> Elemanları etiket isimlerine göre getirme
 
 `getElementsByTagName()` metodu birden çok element'e ulaşmak amacı ile kullanılır.
 Girdi olarak bir **html element'i** alır ve buna uygun bir HTMLCollection döndürür. Örneğin elimizde bu şekilde bir sayfa var;
@@ -53,6 +53,25 @@ yazmanız yeterli olcaktır.
 document.getElementsByTagName('*')
 // Çıktı: HTMLCollection(33) [html, head, meta, link#.....
 ```
+
+## Get Elements By Name
+> Elemanları isimlerine göre getirme
+
+`getElementsByName()` methodu elemanların **name** değerlerine göre bir [NodeList objesi](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) döndürür.
+
+```html
+<input type="text" name="e-posta">
+<input type="tel" name="telefon">
+<input type="date" name="tarih">
+```
+E-posta adıni taşıyan tüm öğeleri getirelim.
+
+```js
+const emails = document.getElementsByName('e-posta');
+// Çıktı: NodeList [input]
+```
+
+> **Unutmayınki name değeri id'de olduğu gibi birick bir değer taşımaz birden fazla eleman aynı name değerini taşıyabilir.**
 
 ## QuerySelector Metotu
 Üçüncü bir yol olarak QuerySelector kullanabiliriz. Bu metot verilen css seçicisiyle eşleşen ilk değeri bize döner. Eğer eşleşen bir element bulunmazsa null geri döner.Tüm eşleşen elementleri döndürmek için QuerySelectorAll kullanmalıyız.
