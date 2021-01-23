@@ -221,6 +221,227 @@ c) call myFunction()
 
 -cevap : a
 
+### Arrow Functions
+
+Fonksiyon yaratmanın bir diğer yolu ise ES6 ile birlikte hayatımıza giren, daha okunabilir daha basit bir syntax yapısına sahip olan arrow functions yapısıdır.
+
+```javascript
+let func = (param1, param2, param3) => expression;
+```
+
+Yukarıdaki kod bloğu basitçe, bir param1,param2,param3 parametrelerini alan ve sağ taraftaki ifadeyi değerlendirip sonucunu döndüren bir fonksiyon oluşturur.
+
+Aslında aşağıdaki kod bloğu ile aynı işi yapmamaktadır.
+
+```javascript
+let func = function (param1, param2, param3) {
+  return expression;
+};
+```
+
+#### Aşağıdaki kod bloğunu deneyip sonuçları görebilirsiniz.
+
+```javascript
+const carpim = (sayi1, sayi2) => sayi1 * sayi2;
+/*
+    // Daha uzun hali ise;
+    const carpim = function(sayi1,sayi2){
+      return sayi1 * sayi2;
+    }
+  */
+
+console.log(carpim(3, 5));
+```
+
+Yukarıda yazdığımız fonksiyon , 2 tane parametre alıp, console.log içerisinde fonksiyonu çağırdıktan sonra parametrelerin çarpımlarının değerini döndermektedir. Eğer sadece tek bir parametre alması gereken bir fonksiyon yazsa idik, mesela girilen değerin karesini döndüren bir fonksiyon, arrow function syntaxini şu şekilde de yazabilirdik.
+
+```javascript
+const karesiniAl = (sayi) => sayi * 2;
+//Hiç parametre olmadığı zaman ise
+const helloWorld = () => console.log('Hello World');
+```
+
+Bir koşula göre iki farklı fonksiyon çalıştırmanız gerektiğini düşünün. Dinamik olarak fonksiyon tanımlamayı aşağıdaki şekilde yapabiliriz.
+
+```javascript
+let experience = prompt('Kac yillik gelistirici tecrubeniz var', 4);
+
+const developer =
+  experience < 5
+    ? () => alert('Bir cok konuyu biliyorum')
+    : () => alert('Hicbir sey bilmiyorum:)');
+
+developer();
+```
+
+Bir satıra sığabilecek basitlikte olmayan fonksiyonlarımız için çok satırlı arrow functionu şu şekilde yazabiliriz.
+
+```javascript
+// parantezler bize birden fazla statement yazmamızı sağlar.
+let toplam = (a, b) => {
+  let result = a + b;
+  return result;
+};
+```
+
+### Recursion
+
+Direkt örnek vererek açıklamak gerekirse, yapmamız gereken bir task var diyelim ve biz bu taski birden fazla parçaya ayırıp daha basit halde yazmak istersek ve ya bu taski aksiyon alacak bir fonksiyona ve bu taski daha basit bir task a dönüştürmek istersek ve ya belirli bir data yapısı ile ilgileniyorsak, recursion bu noktada bize yardımı dokunabilecek bir programlama patternidir diyebiliriz.
+
+Bir fonksiyonu çağırdığımız zaman o fonksiyon bir çok fonksiyonu daha çalıştırabilir. Kısaca bir fonsiyon kendisini tekrar çağırıyor ise biz buna recursion diyoruz.
+
+```javascript
+// bir fonksiyon yazalım bu fonksiyon sayının kuvvetini alsın.
+// pow(2,2) = 4
+// pow(2,3) = 8
+// pow(2,4) = 16 değerlerini verecek şekilde diyelim.
+
+// 1.ci yol (recursion patterni ile düşünmeden)
+function pow(x, n) {
+  let result = 1;
+
+  for (let i = 0; i < n; i++) {
+    result *= x;
+  }
+
+  return result;
+}
+
+alert(pow(2, 3)); // 8
+// recursion ile
+function pow(x, n) {
+  if (n == 1) {
+    return x;
+  } else {
+    return x * pow(x, n - 1);
+  }
+}
+
+alert(pow(2, 3)); // 8
+```
+
+Aslında burada biz pow fonksiyonunu 2 ye ayırıyoruz. Eğer `n==1` ise işlem oldukça açık direkt bize `x` i verecek. Diğer türlü ise, fonksiyon `n==1` olana kadar kendisini çağırıp en basit haline ulaşınca, bize sonucu döndermekte.
+
+1.  pow(2,4) = 2 \* pow(2,3)
+2.  pow(2,3) = 2 \* pow(2,2)
+3.  pow(2,2) = 2 \* pow(2,1)
+4.  pow(2,1) = 2
+
+Sonuç olarak recursion, bir fonksiyonu en basit haline kadar getiriyor.Sonuç en açık hale gelene kadar.
+
+```javascript
+//Aşağıdaki soruyu recursion ile arrow function ve if else clause kullanarak yeniden nasıl yazarız
+function pow(x, n) {
+  return n == 1 ? x : x * pow(x, n - 1);
+}
+```
+
+[Daha derinlere inmek isterseniz...](https://javascript.info/recursion)
+
+### Variable scope, Closure
+
+Bir fonksiyonu istediğiniz bir an yaratabilir, başka bir fonksiyona parametre olarak girebilir ve yazdığımız programın çok farklı ir yerinde biz tekrar bu fonksiyonu çalıştırabiliriz. Javascript function-oriented bir dil olduğundan bize bir çok özgürlük sağlar.
+
+Bir fonksiyonun dışında tanımlanan değişkenlere erişebildiğiniz biliyoruz. Peki bir fonksiyonu biz yarattık ve global tanımlanan `var x = 5` bu fonksiyon içerisinde eriştik ve kullandık diyelim. Peki bu değişkenin değeri daha sonra değişirise fonksiyon güncel olanı alacak mı ve ya biz bu fonksiyonu başka bir fonksiyona parametre olarak girdiğimiz zaman hala sağlıklı bir şekilde `x` e ulaşabilecek mi?
+
+Not: Javascript de biz bir değişken atarken 3 farklı yol kullanabiliyoruz. `var` ve modern olanlar(`let`,`const`). Bu bölümde modern olanlardan konusacağız.
+
+#### Code Blocks
+
+Eğer bir değişkeni bir code bloğu içerisinde tanımlarsak `{...}`, o değişken sadece bu code block arasında ulaşılabilir olur.
+
+```javascript
+//Deneyip sonuçları görebilirsiniz.
+{
+  let message = 'Merhaba';
+  console.log(message);
+}
+console.log(message); // ??
+```
+
+```javascript
+//Deneyip sonuçları görebilirsiniz.
+{
+  let message = 'Merhaba';
+  console.log(message);
+}
+
+{
+  let message = 'Hello';
+  console.log(message);
+}
+// Kod blokları kullanmadan da deneyebilirsiniz.
+```
+
+If, for, while gibi döngüler de değişkenleri code blocklarında tanımlar ve sadece orada ulaşılabilirler.
+
+```javascript
+if (true) {
+  let message = 'Merhaba';
+  console.log(message);
+}
+console.log(message); // ? merhaba mı verir yoksa bir hata mı?
+```
+
+Bir fonksiyon yazdığımızı düşünelim ve bu fonksiyon dışardan aldığı bir string parametresini içerisinde 2 ye ayırsın ve bir koşula göre bize çıktı versin.
+
+```javascript
+function stringFormat(str) {
+  {
+    let part1 = str.slice(0, 3);
+    let part2 = str.slice(3);
+    str = part1.toUpperCase() + part2;
+  }
+  //part1 ve part2 kullanılamaz.
+  //bir kosula baglı return edelim. basit olması acısından sadece true yazdım.
+  if (true) {
+    return str;
+  }
+  return str.slice(4);
+}
+```
+
+Neden bir fonksiyon içerisinde bir scope daha açma ihtiyacı duyabiliriz? part1 ve part2 sadece alınan parametrenin değiştirilmesi ile alakalı iki tane değer. str parametresini değiştirdikten sonra bizim artık part1 ve part2 ye ihtiyacımız yok. Bu kısmı ayrı bir scope içerisine alarak ilerde oluşabilecek bir bug ı önlemiş olabiliriz. Mesela, Scope içerisinde olmasa idi hala fonksiyon bodysinde istediğimiz yerde kullanabilir ve daha sonra gelip orayı değiştireceğimiz zaman hali hazırdaki kodu bozabilirdik gibi.
+
+[Daha derinlere inmek isterseniz...](https://github.com/getify/You-Dont-Know-JS)
+
+#### Nested Functions
+
+Nested Functions ( İç içe fonksiyonlar ) javascript de yaygın olarak kullandığımız bir yapı. Bir Fonksiyon içerisinde başka bir fonksiyonu tanımladığımız zaman buna nested functions yapısı diyoruz aslında.
+
+```javascript
+function programDetayi(bootcamp, organizasyon) {
+  // nested yardımcı fonk
+  const tumProgram = () => bootcamp + ' ' + organizasyon;
+
+  console.log('Basladi, ' + getFullName());
+  consol.log('Bitti, ' + getFullName());
+}
+```
+
+`tumProgram` fonksiyonu dış değişkene ulaşabilir ve gerekli bilgileri return eder. Daha ilginç olarak da bir fonksiyon nested fonksiyonu da return edebilir. Bir sayaç üzerinde bunu anlayabiliriz.
+
+```javascript
+function sayacartir() {
+  let sayac = 0;
+
+  return function () {
+    return sayac++;
+  };
+}
+
+let counter = makeCounter();
+
+console.log(sayacartir()); // 0
+console.log(sayacartir()); // 1
+console.log(sayacartir()); // 2
+```
+
+[Daha detayli bilgi için...](https://javascript.info/closure#nested-functions)
+
+
+
+
 ### Kaynaklar:
 [javascript.info](https://javascript.info/function-basics)                                                                                                                        
 [MDN Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
