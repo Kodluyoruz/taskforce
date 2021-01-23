@@ -63,4 +63,5 @@ Eğer dikkat ettiyseniz, veriyi listelerken `li` etiketi içerisinde her bir lis
 ## Kaynaklar
 
 [Listeler ve anahtarlar, React Dökümantasyonu](https://tr.reactjs.org/docs/lists-and-keys.html)
+
 [Index as a key is an anti-pattern - Robin Pokorny](https://robinpokorny.medium.com/index-as-a-key-is-an-anti-pattern-e0349aece318)
