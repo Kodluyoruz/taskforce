@@ -2,7 +2,8 @@
 
 Bu yazımızda [DOM (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) içerisinden öğeleri seçmek için kullanacağımız metotlardan bahsedeceğiz.Document Object Model'de öğeler birden fazla yöntem ile seçilebilir. Birinci yöntemimiz olan element id'sini kullanarak şeçme metodu ile başlayalım.
 
-## getElementById
+## Get Element By ID
+> **Elemanı ID'sine göre getirme**
 
 `document` objesinin `getElementById()` metodu ile sayfada bulunan html elementlerinin ID'leri referans alarak seçme işlemi yapabiliyoruz. Örnek olarak;
 
@@ -24,18 +25,34 @@ ID'ler büyük-küçük harf duyarlıdır. Bu sayede HTML document içinde biri�
 + document.getElementById('root'); // <div id=​"root">​…​</div>​
 ```
 
-## getElementsByTagName Metotu
-Bu metot verilen tag adı ile eşleşen tüm etiketleri bir dizi olarak getirir.Bize bir NodeList nesnesi döner. NodeList nesnesi bir düğüm koleksiyonunu temsil eder. Düğümlere dizin numaraları ile erişilebilir. Dizin 0'dan başlar.  
-Bize geri dönen NodeList nesnesinin length özelliğiyle kaç tane öge olduğunu tespit edebilir ve bir döngü yardımıyla bu öğelere erişim sağlayabiliriz.  
+## Get Elements By Tag Name
+> Elemanları Etiket isimlerine göre getirme
 
-` var elements = document.getElementsByTagName("P");  
-  var i;  
-  for(i=0;i<elements.length;i++={  
-     elements[i].style.backgroundColor="red";  
-  }`  
+`getElementsByTagName()` metodu birden çok element'e ulaşmak amacı ile kullanılır.
+Girdi olarak bir **html element'i** alır ve buna uygun bir HTMLCollection döndürür. Örneğin elimizde bu şekilde bir sayfa var;
 
-Bu kod bloğunda getElementsByTagNeame metotu ile Html sayfamızdaki p etiketine sahip elemanları elde ettik. Sonrasında bir döngü yardımıyla bu elemanlara eriştik. Bu elemanların  
-arka plan renklerini kırmızı renk yaptık.
+```html
+<p>🐱</p>
+<p>🐰</p>
+<p>🐯</p>
+<p>🐧</p>
+```
+
+Bu sayfadaki tüm **p** elemanlarına ulaşmak istersek;
+
+```js
+const animals = document.getElementsByTagName('p'); 
+// Çıktı:  HTMLCollection(4) [p, p, p, p]
+```
+
+yazmanız yeterli olcaktır.
+
+> Ayrıca sayfadaki tüm etiketleri bu şekilde getirebilirsiniz.
+
+```js
+document.getElementsByTagName('*')
+// Çıktı: HTMLCollection(33) [html, head, meta, link#.....
+```
 
 ## QuerySelector Metotu
 Üçüncü bir yol olarak QuerySelector kullanabiliriz. Bu metot verilen css seçicisiyle eşleşen ilk değeri bize döner. Eğer eşleşen bir element bulunmazsa null geri döner.Tüm eşleşen elementleri döndürmek için QuerySelectorAll kullanmalıyız.
