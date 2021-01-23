@@ -4,7 +4,7 @@ Bir HTML dosyası içerisinde herhangi bir sayfaya, sayfa içine, bir websitesin
 `<a href="gitmek istenilen yer">Gidilecek yer için isim tanımlaması</a>` 
 <br/> <br/>
 
-![a-tagi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/linklerle-calismak/figures/a-tagi.PNG)
+![a-tagi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/linklerle-calismak/figures/a-tagi.png)
 
 
 ### HTML sayfaları içinde kullanımı:
