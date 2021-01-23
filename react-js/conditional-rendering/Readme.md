@@ -42,7 +42,7 @@ ReactDOM.render(
 
 `Greeting` component'ine `isLoggedIn` prop'u aktarılıyor. `Greeting` component'i de aldığı bu prop'a göre `true` ise `UserGreeting`, `false` ise `GuestGreeting` component'i render edilecek.
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/XWjbpoV)
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/XWjbpoV)
 
 Burada gönderilen `isLoggedIn` adlı prop'u değiştirerek yani `true` yaparak ekrana basılan çıktının nasıl değiştiriğini görebilirsiniz. 
 
@@ -69,7 +69,7 @@ ReactDOM.render(
 );
 ```
 
-[Codepe'de deneyin](https://codepen.io/Kodluyoruz/pen/PoGqpZZ)
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/PoGqpZZ)
 
 ## 3. Ternary Operatör 
 
@@ -86,7 +86,7 @@ ReactDOM.render(
 );
 ```
 
-[Codepen'de deneyin](https://codepen.io/Kodluyoruz/pen/rNMVyWK)
+[CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/rNMVyWK)
 
 
 
