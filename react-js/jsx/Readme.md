@@ -14,13 +14,13 @@ Basitçe ifade etmek gerekirse, JSX kullanmak HTML elemanlarını aynı JavaScri
 
 HTML ve JavaScript kodlarının ayrı dosyalarda tutularak teknolojilerin birbirinden yapay bir şekilde ayrılması yerine React, hem HTML hem de JavaScript kodu barındıran ve birbirine gevşek bir şekilde bağlı olan componentler sayesinde ilgili [*işlerin* ayrılmasını](https://en.wikipedia.org/wiki/Separation_of_concerns) sağlar. 
 
-React, JSX kullanımını [zorunlu tutmaz](https://tr.reactjs.org/docs/react-without-jsx.html). Fakat birçok geliştirici, JavaScript kodu içerisinde arayüz ile ilgili çalışırken JSX’in kullanılmasının, görsel anlamda yardımcı olduğunu düşünüyor. Ayrıca JSX, React için daha anlaşılır hata ve uyarı mesajlarının görüntülenmesini sağlıyor. [^1]
+React, JSX kullanımını [zorunlu tutmaz](https://tr.reactjs.org/docs/react-without-jsx.html). Fakat birçok geliştirici, JavaScript kodu içerisinde arayüz ile ilgili çalışırken JSX’in kullanılmasının, görsel anlamda yardımcı olduğunu düşünüyor. Ayrıca JSX, React için daha anlaşılır hata ve uyarı mesajlarının görüntülenmesini sağlıyor.
 
 
 
 ## JSX Olmadan React
 
-JSX, React’i kullanmak için bir gereksinim değildir. Her JSX elementi sadece `React.createElement(component, props, ...children)`‘i çağırmak için [syntactic sugar](https://tr.reactjs.org/docs/jsx-in-depth.html)'dır. Yani, JSX ile yapabileceğiniz her şeyi düz JavaScript ile yapabilirsiniz. [^2]
+JSX, React’i kullanmak için bir gereksinim değildir. Her JSX elementi sadece `React.createElement(component, props, ...children)`‘i çağırmak için [syntactic sugar](https://tr.reactjs.org/docs/jsx-in-depth.html)'dır. Yani, JSX ile yapabileceğiniz her şeyi düz JavaScript ile yapabilirsiniz.
 
 Örneğin, JSX ile yazılmış bir kod parçası:
 
@@ -78,7 +78,7 @@ ReactDOM.render(
 );
 ```
 
-JSX’te süslü parantezler arasına dilediğiniz herhangi bir [JavaScript ifadesini](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions) yazabilirsiniz. Örneğin, `2 + 2`, `message.first`, veya `formatMessage(message)` gibi JavaScript ifadelerini kullanabilirsiniz. [^1]
+JSX’te süslü parantezler arasına dilediğiniz herhangi bir [JavaScript ifadesini](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions) yazabilirsiniz. Örneğin, `2 + 2`, `message.first`, veya `formatMessage(message)` gibi JavaScript ifadelerini kullanabilirsiniz.
 
 ### DOM'a JSX Render Etmek
 
@@ -112,13 +112,13 @@ ReactDOM.render(
 );
 ```
 
-Okunabilirliği arttırmak için JSX kodunu birkaç satır halinde yazdık. Buradaki gibi, JSX kodunu birçok satır halinde yazarken, kodun parantezler ile sarmalanması önerilir. Bu sayede [otomatik olarak noktalı virgül eklenmesi](https://stackoverflow.com/q/2846283) ile oluşan birçok hatanın önüne geçebilirsiniz. [^1]
+Okunabilirliği arttırmak için JSX kodunu birkaç satır halinde yazdık. Buradaki gibi, JSX kodunu birçok satır halinde yazarken, kodun parantezler ile sarmalanması önerilir. Bu sayede [otomatik olarak noktalı virgül eklenmesi](https://stackoverflow.com/q/2846283) ile oluşan birçok hatanın önüne geçebilirsiniz.
 
 
 
 ### JSX de bir JavaScript İfadesidir
 
-Oluşan derlemenin ardından JSX ifadeleri, sıradan JavaScript fonksiyon çağrılarına dönüşür ve bu fonksiyonlar JavaScript nesnelerini işleyecek şekilde çalışırlar. Bu sayede `if` ifadelerini ve `for` döngülerini JSX içerisinde kullanabilir, değişkenlere atama yapabilir, fonksiyona parametre olarak geçebilir ve fonksiyondan geri döndürebilirsiniz: [^1]
+Oluşan derlemenin ardından JSX ifadeleri, sıradan JavaScript fonksiyon çağrılarına dönüşür ve bu fonksiyonlar JavaScript nesnelerini işleyecek şekilde çalışırlar. Bu sayede `if` ifadelerini ve `for` döngülerini JSX içerisinde kullanabilir, değişkenlere atama yapabilir, fonksiyona parametre olarak geçebilir ve fonksiyondan geri döndürebilirsiniz:
 
 ```javascript
 function printMessage(message) {
@@ -147,7 +147,7 @@ var element = <div style={styles}>test</div>;
 ReactDOM.render(element, document.getElementById('app1'));
 ```
 
-**Not:** Style niteliği kolaylık sağlaması açısından zaman zaman kullanılsa da bu kullanım yerine className kullanılması tavsiye edilmektedir. Bu şekilde harici CSS dosyalarında belirtilen class’ları kullanabilirsiniz. `style`‘ın kullanım amacı genellikle React’te dinamik hesaplanan stillerin ekrana yansıtma anında ekleyebilmektir. [^3]
+**Not:** Style niteliği kolaylık sağlaması açısından zaman zaman kullanılsa da bu kullanım yerine className kullanılması tavsiye edilmektedir. Bu şekilde harici CSS dosyalarında belirtilen class’ları kullanabilirsiniz. `style`‘ın kullanım amacı genellikle React’te dinamik hesaplanan stillerin ekrana yansıtma anında ekleyebilmektir.
 
 Stillendirme ile ilgili daha detaylı bilgi için [bu bağlantıyı](https://tr.reactjs.org/docs/dom-elements.html#style) kullanabilirsiniz.
 
@@ -167,13 +167,13 @@ Ayrıca bir JavaScript ifadesini, element'in özelliği olarak tanımlamak için
 const element = <img src={user.avatarUrl}></img>;
 ```
 
-Bir JavaScript ifadesini, herhangi bir attribute içerisine yazarken çift tırnak kullanmayınız. **String için çift tırnak, JavaScript ifadeleri için süslü parantezler kullanmalısınız.** Aynı özellik için hem çift tırnak hem de süslü parantez **kullanmayınız**. [^1]
+Bir JavaScript ifadesini, herhangi bir attribute içerisine yazarken çift tırnak kullanmayınız. **String için çift tırnak, JavaScript ifadeleri için süslü parantezler kullanmalısınız.** Aynı özellik için hem çift tırnak hem de süslü parantez **kullanmayınız**.
 
 **Uyarı:**
 
 JSX ifadeleri, HTML’den ziyade JavaScript’e daha yakındırlar. Bu nedenle React DOM, özellik isimlendirme için HTML’deki gibi bir isimlendirme yerine `camelCase` isimlendirme standardını kullanmaktadır. 
 
-**Örneğin** JSX içerisinde `class` özelliği [`className`](https://developer.mozilla.org/en-US/docs/Web/API/Element/className), ve `tabindex` özelliği de [`tabIndex`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/tabIndex) olarak yazılmalıdır. [^1]
+**Örneğin** JSX içerisinde `class` özelliği [`className`](https://developer.mozilla.org/en-US/docs/Web/API/Element/className), ve `tabindex` özelliği de [`tabIndex`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/tabIndex) olarak yazılmalıdır.
 
 Zaten 
 
@@ -247,12 +247,12 @@ Bu şekilde finalde oluşan markup'a etki etmeyecek bir şekilde JSX'in tek bir 
 
 ## Kaynaklar 
 
-- [^1]: (https://tr.reactjs.org/docs/introducing-jsx.html)
+https://tr.reactjs.org/docs/introducing-jsx.html
 
-- [^2]:https://tr.reactjs.org/docs/react-without-jsx.html
+https://tr.reactjs.org/docs/react-without-jsx.html
 
-- [^3]: https://tr.reactjs.org/docs/dom-elements.html#style
+https://tr.reactjs.org/docs/dom-elements.html#style
 
-- https://www.reactenlightenment.com/react-jsx.html
+https://www.reactenlightenment.com/react-jsx.html
 
 
