@@ -25,17 +25,16 @@ Ref'leri kulllanmak için bir kaç iyi senaryo vardır:
 Ref’ler, React.createRef() kullanılarak oluşturulur ve React element'lerine ref özelliğini kullanarak eklenir. Ref’ler genellikle bir bileşen oluşturulduğunda, bir nesnenin özelliğine atanır. Böylelikle refler bileşen boyunca referans alınabilir.
 
 ```javascript
-
 class MyComponent extends React.Component {
-    constructor(props) {
-        super(props);
-        this.myRef = React.createRef();  //Ref'i oluşturma
-    }
-    render() {
-        return <div ref={this.myRef} />;
-    }
+  constructor(props) {
+    super(props);
+    this.myRef = React.createRef();  //Ref'i oluşturma
+  }
+  
+  render() {
+    return <div ref={this.myRef} />;
+  }
 }
-
 ```
 
 ## Ref'lere Erişim
@@ -43,9 +42,7 @@ class MyComponent extends React.Component {
 Bir ref, render içerisinde bir element'e aktarıldığında, o düğüme bağlı bir referans, ref’in current özelliğinde erişilebilir hale gelir.
 
 ```javascript
-
 const node = this.myRef.current;
-
 ```
 
 Ref’in değeri, düğüm türüne bağlı olarak değişir.
@@ -63,7 +60,6 @@ Aşağıda göreceğiniz örnekler bunu daha iyi açıklamaktadır.
 Bu kod bir DOM düğümüne referans saklamak için ref kullanır:
 
 ```javascript
-
 class CustomTextInput extends React.Component {
   constructor(props) {
     super(props);
@@ -95,7 +91,6 @@ class CustomTextInput extends React.Component {
     );
   }
 }
-
 ```
 
 Component oluşturulduğunda, React `current` özelliğini DOM element'i ile atayacak ve bileşen çıkarıldığında `null`a atayacak. `ref` güncellemeleri `componentDidMount` veya `componentDidUpdate` yaşam döngüsü metodlarından önce gerçekleşir.
@@ -107,7 +102,6 @@ Component oluşturulduğunda, React `current` özelliğini DOM element'i ile ata
 Yukarıdaki `CustomTextInputun`un, eklendikten hemen sonra tıklandığı senaryosunu simüle etmek istediğimizde,  özel input’a erişmek ve `focusTextInput` metodunu manuel olarak çağırmak için ref kullanabiliriz.
 
 ```javascript
-
 class AutoFocusTextInput extends React.Component {
   constructor(props) {
     super(props);
@@ -124,24 +118,20 @@ class AutoFocusTextInput extends React.Component {
     );
   }
 }
-
 ```
 
 Yukarıdaki kod sadece `CustomTextInput` sınıf olarak tanımlandıysa çalışır:
 
 ```javascript
-
 class CustomTextInput extends React.Component {
   // ...
 }
-
 ```
 
 ## Refler ve Functional Component'ler
 Varsayılan olarak ref değişkenlerini functional component'ler içinde kullanamazsınız, çünkü functional component'lerin nesneleri olmaz:
 
 ```javascript
-
 function MyFunctionComponent() {
   return <input />;
 }
@@ -158,7 +148,6 @@ class Parent extends React.Component {
     );
   }
 }
-
 ```
 
 Eğer insanların functional component'leriniz için ref kullanmalarına izin vermek istiyorsanız, `forwardRef` (muhtemelen `useImperativeHandle` ile birlikte) kullanabilir, veya bileşeninizi bir sınıfa çevirebilirsiniz.
@@ -166,7 +155,6 @@ Eğer insanların functional component'leriniz için ref kullanmalarına izin ve
 Bir DOM element'ini veya class component'ini işaret ettiğiniz sürece functional component içerisinde ref kullanabilirsiniz:
 
 ```javascript
-
 function CustomTextInput(props) {
   // textInput must be declared here so the ref can refer to it
   const textInput = useRef(null);
@@ -188,7 +176,6 @@ function CustomTextInput(props) {
     </div>
   );
 }
-
 ```
 
 ## DOM Ref’lerini Üst Component'lerde Açığa Çıkarma
@@ -209,7 +196,6 @@ React ayrıca, `callback refs` adı verilen refleri ayarlamanın başka bir yolu
 Aşağıdaki örnekte yaygın bir kullanım uygulanmıştır. Ref callback’i kullanarak bir nesnenin özelliğinde DOM düğümüne bir referans kaydedilir.
 
 ```javascript
-
 class CustomTextInput extends React.Component {
   constructor(props) {
     super(props);
@@ -250,7 +236,6 @@ class CustomTextInput extends React.Component {
     );
   }
 }
-
 ```
 
 React, component eklendiğinde DOM elemanı ile beraber `ref` callback’ini çağırır ve component çıkarıldığında da `null` ile çağırır. Ref’lerin, `componentDidMount` veya `componentDidUpdate` tetiklenmeden önce güncel oldukları garanti edilir.
@@ -258,7 +243,6 @@ React, component eklendiğinde DOM elemanı ile beraber `ref` callback’ini ça
 `React.createRef()` ile oluşturulan nesne ref’leri gibi, Callback ref’lerini de component'ler arasında aktarabilirsiniz.
 
 ```javascript
-
 function CustomTextInput(props) {
   return (
     <div>
@@ -276,7 +260,6 @@ class Parent extends React.Component {
     );
   }
 }
-
 ```
 
 Yukarıdaki örnekte, `Parent` , ref callback’ini `inputRef` prop’u olarak `CustomTextInput`una aktarır ve `CustomTextInput`u aynı fonksiyonu özel bir ref özelliği olarak `<input>`a aktarır. Sonuç olarak, `Parent`taki `this.inputElement`i, `CustomTextInput`taki `<input>` element'ine karşılık gelen DOM düğümüne set edilir.
@@ -290,9 +273,9 @@ Eğer ref callback bir satıriçi fonksiyon (inline function) olarak tanımlanm�
 
 ## Kaynaklar
 
-[^1]: https://www.geeksforgeeks.org/reactjs-refs/
+https://www.geeksforgeeks.org/reactjs-refs/
 
-[^2]: https://tr.reactjs.org/docs/refs-and-the-dom.html
+https://tr.reactjs.org/docs/refs-and-the-dom.html
 
 https://rossbulat.medium.com/how-to-use-react-refs-4541a7501663
 

@@ -15,9 +15,9 @@ Render fonksiyonu ile çalışırken React element'i döndüren bir component'e 
 ##### Örneğin:  
 ```Javascript
 class BaseComponent extends Component {  
-    render() { 
-        return <Fragment>{this.props.render()} </Fragment> 
-    }  
+  render() { 
+    return <Fragment>{this.props.render()} </Fragment> 
+  }  
 };
 ```
 
@@ -157,7 +157,6 @@ class App extends React.Component {
 
 
 ReactDOM.render(<App />, document.getElementById("root"));
-
 ```
 
 [CodePen'de deneyin.](https://codepen.io/Kodluyoruz/pen/WNGWdKJ)

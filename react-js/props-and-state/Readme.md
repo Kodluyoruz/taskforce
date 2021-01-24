@@ -83,12 +83,13 @@ changeAge = () => {this.state = {age: 3}}
 
 ```javascript
 class App extends React.Component {
+  state = { 
+    count: 0 
+  }
 
-	state = { count: 0 }
-
-	artir = () => {
-  	this.setState({ count: this.state.count + 1 })
-	}
+  artir = () => {
+    this.setState({ count: this.state.count + 1 })
+  }
 
   azalt = () => {
     this.setState({ count: this.state.count - 1 })
@@ -143,12 +144,10 @@ artir = () => {
   this.setState((prevState) => ({ count: prevState.count + 1 }))
 }
 azalt = () => {
-	this.setState((prevState) => ({ count: prevState.count - 1 }))
+  this.setState((prevState) => ({ count: prevState.count - 1 }))
   this.setState((prevState) => ({ count: prevState.count - 1 }))
   this.setState((prevState) => ({ count: prevState.count - 1 }))
 }
-
-
 ```
 
 
@@ -165,8 +164,8 @@ this.setState({ property: value}, callback)
 
 ```javascript
 artir = () => {
-  	this.setState({ count: this.state.count + 1 }, () => console.log(this.state.count))
-	}
+  this.setState({ count: this.state.count + 1 }, () => console.log(this.state.count))
+}
 ```
 
 Bu şekilde `setState` ile güncellenen `count` properety'sinin güncellendiğinden emin olabiliriz. Yani console'a basılan `count` değerinin güncel halde olduğunu söyleyebiliriz. 
@@ -191,7 +190,7 @@ Eğer ismi değiştirmek istersen bunda sorun yok çünkü ilk seviyede olan bir
 
 ```javascript
 this.setState({
-   name: "Sinan"
+  name: "Sinan"
 });
 ```
 

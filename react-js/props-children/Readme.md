@@ -138,7 +138,7 @@ function createElement(type, props, ...children) {
 // ...
 ```
 
-`React.createElement()`[^1]
+`React.createElement()`
 
 `<div>` element'i oluşturulurken, child'ları `props.children`'da tutulur. Böyle component children ağacına `this.props.children` kullanarak ulaşabilir (class component için "`this`" olduğunu unutmayalım).
 
@@ -148,7 +148,7 @@ function createElement(type, props, ...children) {
 
 ## Kaynaklar
 
-[^1]: https://blog.bitsrc.io/understanding-render-props-in-react-1edde5921314
+https://blog.bitsrc.io/understanding-render-props-in-react-1edde5921314
 
 https://tr.reactjs.org/docs/composition-vs-inheritance.html
 
