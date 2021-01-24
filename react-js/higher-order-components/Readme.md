@@ -113,10 +113,10 @@ Bu örnekte authentication kontrolünü sağladığımız `withAuthentication` a
 
 ## Kaynaklar
 
-https://tr.reactjs.org/docs/higher-order-components.html
+- https://tr.reactjs.org/docs/higher-order-components.html
 
-https://www.smashingmagazine.com/2020/06/higher-order-components-react/
+- https://www.smashingmagazine.com/2020/06/higher-order-components-react/
 
-https://soorajchandran.medium.com/introduction-to-higher-order-components-hoc-in-react-383c9343a3aa
+- https://soorajchandran.medium.com/introduction-to-higher-order-components-hoc-in-react-383c9343a3aa
 
-https://eloquentjavascript.net/05_higher_order.html
+- https://eloquentjavascript.net/05_higher_order.html

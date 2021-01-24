@@ -103,6 +103,6 @@ Fetch'in yapısını ve nasıl çalıştığını anlamak için JavaScript'te Pr
 
 ### Kaynaklar
 
-https://pusher.com/tutorials/consume-restful-api-react
+- https://pusher.com/tutorials/consume-restful-api-react
 
-https://medium.com/@omercelikceng/fetch-api-e372db942d90
+- https://medium.com/@omercelikceng/fetch-api-e372db942d90

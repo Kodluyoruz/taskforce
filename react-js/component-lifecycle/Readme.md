@@ -211,12 +211,12 @@ Burada lifecycle metotların bahsettiğimiz 3 ana aşamada hangi sıralamayla ç
 
 ## Kaynaklar
 
-https://tr.reactjs.org/docs/react-component.html
+- https://tr.reactjs.org/docs/react-component.html
 
-https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html
+- https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html
 
-https://www.w3schools.com/react/react_lifecycle.asp
+- https://www.w3schools.com/react/react_lifecycle.asp
 
-https://medium.com/better-programming/the-react-component-lifecycle-c9302202a69f
+- https://medium.com/better-programming/the-react-component-lifecycle-c9302202a69f
 
-https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+- https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/

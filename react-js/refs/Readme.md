@@ -273,14 +273,14 @@ Eğer ref callback bir satıriçi fonksiyon (inline function) olarak tanımlanm�
 
 ## Kaynaklar
 
-https://www.geeksforgeeks.org/reactjs-refs/
+- https://www.geeksforgeeks.org/reactjs-refs/
 
-https://tr.reactjs.org/docs/refs-and-the-dom.html
+- https://tr.reactjs.org/docs/refs-and-the-dom.html
 
-https://rossbulat.medium.com/how-to-use-react-refs-4541a7501663
+- https://rossbulat.medium.com/how-to-use-react-refs-4541a7501663
 
-https://blog.logrocket.com/a-guide-to-react-refs/
+- https://blog.logrocket.com/a-guide-to-react-refs/
 
-https://css-tricks.com/working-with-refs-in-react/
+- https://css-tricks.com/working-with-refs-in-react/
 
-https://www.javatpoint.com/react-refs
+- https://www.javatpoint.com/react-refs

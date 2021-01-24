@@ -10,7 +10,7 @@ Component'ler bir kullanıcı arayüzü (UI - User Interface) oluştururken kull
 
 React'te temel olarak 2 tip component yapısı var. Bunlardan ilki ve component oluşturmanın en basit yolu olan JavaScript fonksiyonlarıdır. Adından da anlaşılacağı üzere bu component'ler **functional component** olarak geçer. Diğer yöntem ise fonksiyon yerine bir ES6 class'ı kullanarak component oluşturmaktır. Bu component'lere ise class component'ler denir.
 
-**Not:** ECMAScript 2015 (ES6) ile tanıtılan JavaScript class'ları, aslında halihazırdaki prototype temelli kalıtımın, sözdizim (syntax) olarak daha kolaylaştırılmış halidir. Class sözdizimi yeni bir nesne tabanlı Javascript modeli sunmamaktadır. [^1]
+**Not:** ECMAScript 2015 (ES6) ile tanıtılan JavaScript class'ları, aslında halihazırdaki prototype temelli kalıtımın, sözdizim (syntax) olarak daha kolaylaştırılmış halidir. Class sözdizimi yeni bir nesne tabanlı Javascript modeli sunmamaktadır. 
 
 ## 1. Functional Component'ler
 
@@ -245,19 +245,18 @@ Component'lerin çıkarılması en başta angarya bir işlem gibi görünebilir.
 - Eğer kullanıcı arayüzündeki (UI) bir eleman (`Button`, `Panel`, `Avatar`) uygulama içerisinde birçok defa kullanılıyorsa,
 - Eğer bir component (`App`, `FeedStory`, `Comment`) oldukça karmaşık hale geldiyse,
 
-Bu component, bölünerek içerisinden daha küçük component'ler çıkarmak için iyi bir adaydır diyebiliriz. [^2]
+Bu component, bölünerek içerisinden daha küçük component'ler çıkarmak için iyi bir adaydır diyebiliriz. 
 
 
 
 ## Kaynaklar
 
-[^1]: https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Classes
+- https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Classes
+- https://tr.reactjs.org/docs/components-and-props.html
+- https://www.reactenlightenment.com/basic-react-components/6.1.html
 
-[^2]: https://tr.reactjs.org/docs/components-and-props.html
+- https://medium.com/wesionary-team/types-of-react-components-you-should-know-251cceacd8ac
 
-https://www.reactenlightenment.com/basic-react-components/6.1.html
-
-https://medium.com/wesionary-team/types-of-react-components-you-should-know-251cceacd8ac
 
 
 

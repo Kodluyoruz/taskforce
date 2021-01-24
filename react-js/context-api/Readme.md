@@ -263,8 +263,8 @@ HeaderButton componentimizi de tanımladıktan sonra `HeaderContainer` component
 
 ## Kaynaklar
 
-<https://www.toptal.com/react/react-context-api>
+- <https://www.toptal.com/react/react-context-api>
 
-<https://www.digitalocean.com/community/tutorials/react-manage-user-login-react-context>
+- <https://www.digitalocean.com/community/tutorials/react-manage-user-login-react-context>
 
-<https://reactjs.org/docs/context.html>
+- https://reactjs.org/docs/context.html

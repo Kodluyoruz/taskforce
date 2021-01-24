@@ -148,12 +148,12 @@ function createElement(type, props, ...children) {
 
 ## Kaynaklar
 
-https://blog.bitsrc.io/understanding-render-props-in-react-1edde5921314
+- https://blog.bitsrc.io/understanding-render-props-in-react-1edde5921314
 
-https://tr.reactjs.org/docs/composition-vs-inheritance.html
+- https://tr.reactjs.org/docs/composition-vs-inheritance.html
 
-https://tr.reactjs.org/docs/glossary.html
+- https://tr.reactjs.org/docs/glossary.html
 
-https://medium.com/javascript-in-plain-english/how-to-use-props-children-in-react-7d6ab5836c9d
+- https://medium.com/javascript-in-plain-english/how-to-use-props-children-in-react-7d6ab5836c9d
 
-https://codeburst.io/a-quick-intro-to-reacts-props-children-cb3d2fce4891
+- https://codeburst.io/a-quick-intro-to-reacts-props-children-cb3d2fce4891
