@@ -32,7 +32,7 @@ var person = {
 	surname: 'Turgut',
 	age: 23,
 	introduce: () => {
-		return `My name is ${name} ${surname}, I'm ${age} yo.`;
+		return `My name is ${this.name} ${this.surname}, I'm ${this.age} yo.`;
 	},
 };
 console.log(person.introduce());
