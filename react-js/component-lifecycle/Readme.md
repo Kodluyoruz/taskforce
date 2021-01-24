@@ -22,7 +22,7 @@ Component'in DOM'a eklenmesidir. Bu aşamada React tarafından sunulan 4 tane bu
 ### constructor()
 Component'in ilk oluşturulması sırasında çağrılan metottur, dolayısıyla lifecycle metotları arasından ilk sırada çağrılandır. <u>State ve props</u> konusunda bahsettiğimiz üzere, **state objesinin tanımlandığı yerdir.** Argüman olarak props alır ve constructor içerisinde ilk satır olarak super(props) ifadesiyle başlanır. Bu sayede parent class'ın constructor metodu çağrılır.
 
-```react
+```javascript
 constructor(props) {
     super(props);
     this.state = {favoriteColor: "mavi"};
@@ -35,7 +35,7 @@ Component oluşturulduktan sonra ve render metodundan hemen önce çağrılır. 
 
 ```javascript
 getDerivedStateFromProps(props, state) {
-	return { favoriteColor: props.favCol };
+  return { favoriteColor: props.favCol };
 }
 ```
 
