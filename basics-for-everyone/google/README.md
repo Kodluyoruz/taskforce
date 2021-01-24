@@ -1,33 +1,3 @@
-# GOOGLE 
-
-![google1](figures/google1.png)
-
-
-
-## Google Nedir?
-
-* İnternet tabanlı hizmetler geliştiren ve bunları bünyesinde barındıran Google, internet araması, çevrimiçi bilgi dağıtımı ve reklam teknolojileri alanında yatırımlar yapan çok uluslu bir Amerikan şirketidir.
-
-* Anlık olarak milyonlarca insan tarafından kullanılan Google, 4 Eylül 1998’de Stanford Üniversitesi’nde doktora yapan Sergey Brin ve Larry Page tarafından kuruldu.
-
-* Kurulduğu tarihten itibaren yaklaşık 20 yılda inanılmaz derecede büyüyen Google, bugün dünyanın en değerli ve en prestijli şirketlerinden biri haline geldi.
-
-* [Arama motoru](https://www.vargonen.com/blog/arama-motoru-nedir/), olarak kurulan Google yıllar içinde gelişerek bir sürü [yeni ürün](https://about.google/intl/ALL_tr/products/) piyasaya sürmüştür.
-
-  
-
-![google2](figures/google2.png)
-
-
-
-### Peki Google neden bu kadar hızlı büyüdü?
-
-
-
-* Geleneksel arama motorlarıyla yapılan aramalarda, sonuçlar; aranan terimlerin sayfada kaç kez görüldüğü mantığıyla sıralanıyordu ancak Google siteler arası ilişkilerin analizi konusunda çok daha elverişli iki sistem kuramı ortaya koydu. Bu yeni teknolojiye [PageRank](https://tr.wikipedia.org/wiki/PageRank) adı veriliyordu, bu sisteme göre sayfa dizinlerinin orijinal site ile olan bağlantı dönüşümleri belirlenerek; siteler, gösterilen ilgiye göre sıralanıyordu.
-
-  
-
 # GOOGLE ARAMA
 
 
@@ -251,7 +221,7 @@ Elbette bu örneğe benzer şekilde birçok farklı arama gerçekleştirebilirsi
 
 * Diyelim ki, sizlere yönelttiğimiz bu iki soruda da izlediğimiz çözüm yolları işe yaramadı. Bu durumda ne yapacağız? 
 
-  * Karşılaştığıımız ve içinden çıkamadığımız bu durumdan araştırarak, deneyimli insanlara ulaşıp yaşadığımız sorundan bahsederek kurtulabiliriz.
+  * Karşılaştığımız ve içinden çıkamadığımız bu durumdan araştırarak, deneyimli insanlara ulaşıp yaşadığımız sorundan bahsederek kurtulabiliriz.
   * İşte tam da bu sırada, sorunumuzu yüzlerce deneyimli, bilgili insanla paylaşabileceğimiz yazılım ile ilgili forum sayfaları devreye giriyor diyebiliriz.
   * ["Kod Koda"](https://www.kodkoda.com/) ve ["Stack Overflow"](https://stackoverflow.com/) bu forum sayfalarına verebileceğimiz örneklerdir.
 

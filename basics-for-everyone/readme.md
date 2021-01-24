@@ -1,16 +1,25 @@
 
 #### Farklı Yazılım Kariyerleri
+
 - Frontend Nedir?
 
 - Backend Nedir?
 
 - Frontend & Backend Karşılaştırması ?
 
-#### Algoritma
+  
+
+#### Algoritma & Pseudocode
+
 - [Pseudocode](pseudocode/)
 
+- Algoritma
+
+  
+
 #### Internet
-- [Internet Basics](internet/)
+
+- [İnternet'in Temelleri](internet/)
 
 - [Browsers](Browsers/)
 
@@ -27,7 +36,6 @@
 - [Hosting](hosting/)
 
 
- 
 
 #### Editor Kullanımı
 
@@ -37,17 +45,13 @@
 
 - [Genel Görünüm, Tema ve Dosya İkonu Ayarları](vs-genelgorunum/)
 
-- IntelliSense ve Emmet Özelliklerine Genel Bakış
+- [IntelliSense ve Emmet Özelliklerine Genel Bakış](vs-intellisence-emmet)
 
-- Eklentiler
+- [Eklentiler](vs-eklentiler)
 
 - Panellerin Yönetimi, Dosyalar ile Çalışmak
 
 - [Terminal Kullanımı](terminal-kullanimi/)
-
- - Windows Temel Terminal Komutları
-
- - MacOS & Linux Temel Terminal Komutları
 
 - MultiCursor (Çoklu İmleç) Kullanımı
 
@@ -59,35 +63,14 @@
 
 - Diğer Kod Editörleri
 
+  
 
-#### Google'lamak
-
-- [Google Nasıl Kullanılır?](google/)
-
-- [KodKoda](kodkoda/)
-
-- StackoverFlow
+#### [Google'lamak](google/)
 
 
-#### Developer'lar İçin Platformların Önemi
 
-- [Kendinizi güncel tutmak için kullanabileceğiniz platformlar](platformların-önemi/)
 
- - Hackerrank
+#### [Developer'lar İçin Platformların Önemi](platformların-önemi/)
 
- - CodeWars 
 
- - LeetCode 
-
- - Project Euler
-
- - Reddit
-
- - Edabit
-
- - repl.it
-
- - codepen
-
- 
 
