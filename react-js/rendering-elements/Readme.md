@@ -91,6 +91,8 @@ Bu örnek için render() metodunun birden fazla kez çağrılması amacına hizm
 
 ## Kaynaklar
 
-https://tr.reactjs.org/docs/rendering-elements.html
+- https://tr.reactjs.org/docs/rendering-elements.html
 
-https://www.geeksforgeeks.org/reactjs-rendering-elements/
+- https://www.geeksforgeeks.org/reactjs-rendering-elements/
+
+

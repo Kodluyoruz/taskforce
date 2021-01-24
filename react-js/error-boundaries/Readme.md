@@ -173,10 +173,10 @@ Burada CounterWithError adlı component içerisinde kasıtlı olarak bir hata f�
 
 ## Kaynaklar
 
-https://blog.bitsrc.io/understanding-error-boundaries-in-react-e58f15ae1f38#:~:text=Error%20boundaries%20are%20React%20components,or%20logging%20the%20exact%20error.
+- https://blog.bitsrc.io/understanding-error-boundaries-in-react-e58f15ae1f38#:~:text=Error%20boundaries%20are%20React%20components,or%20logging%20the%20exact%20error.
 
-https://www.digitalocean.com/community/tutorials/react-error-boundaries
+- https://www.digitalocean.com/community/tutorials/react-error-boundaries
 
-https://tr.reactjs.org/docs/error-boundaries.html
+- https://tr.reactjs.org/docs/error-boundaries.html
 
-https://medium.com/swlh/understanding-reacts-error-boundaries-c15db8229d97
+- https://medium.com/swlh/understanding-reacts-error-boundaries-c15db8229d97

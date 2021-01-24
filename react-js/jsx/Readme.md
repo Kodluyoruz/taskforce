@@ -247,12 +247,13 @@ Bu şekilde finalde oluşan markup'a etki etmeyecek bir şekilde JSX'in tek bir 
 
 ## Kaynaklar 
 
-https://tr.reactjs.org/docs/introducing-jsx.html
+- https://tr.reactjs.org/docs/introducing-jsx.html
 
-https://tr.reactjs.org/docs/react-without-jsx.html
+- https://tr.reactjs.org/docs/react-without-jsx.html
 
-https://tr.reactjs.org/docs/dom-elements.html#style
+- https://tr.reactjs.org/docs/dom-elements.html#style
 
-https://www.reactenlightenment.com/react-jsx.html
+- https://www.reactenlightenment.com/react-jsx.html
+
 
 

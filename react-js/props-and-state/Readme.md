@@ -329,13 +329,14 @@ Component'lerden bahsederken React'te temel olarak 2 component (class ve functio
 
 ## Kaynaklar
 
-https://css-tricks.com/understanding-react-setstate/
+- https://css-tricks.com/understanding-react-setstate/
 
-https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0
+- https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0
 
-https://medium.com/kodcular/reactjs-state-nedir-class-componentlerinde-nas%C4%B1l-kullan%C4%B1l%C4%B1r-68694a9e0173
+- https://medium.com/kodcular/reactjs-state-nedir-class-componentlerinde-nas%C4%B1l-kullan%C4%B1l%C4%B1r-68694a9e0173
 
-https://linguinecode.com/post/master-react-state-and-props
+- https://linguinecode.com/post/master-react-state-and-props
 
-https://www.w3schools.com/react/react_state.asp
+- https://www.w3schools.com/react/react_state.asp
+
 

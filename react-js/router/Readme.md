@@ -231,6 +231,6 @@ Yukarıda gördüğümüz üzere, Contact component'inde match objesinden gelen 
 
 ## Kaynaklar
 
-https://scand.com/company/blog/single-page-application-vs-multi-page-application/
+- https://scand.com/company/blog/single-page-application-vs-multi-page-application/
 
-https://reactrouter.com/web/guides/primary-components
+- https://reactrouter.com/web/guides/primary-components

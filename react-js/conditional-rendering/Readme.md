@@ -229,13 +229,14 @@ render() {
 
 ## Kaynaklar
 
-https://tr.reactjs.org/docs/conditional-rendering.html
+- https://tr.reactjs.org/docs/conditional-rendering.html
 
-https://www.digitalocean.com/community/tutorials/7-ways-to-implement-conditional-rendering-in-react-applications
+- https://www.digitalocean.com/community/tutorials/7-ways-to-implement-conditional-rendering-in-react-applications
 
-https://blog.logrocket.com/conditional-rendering-in-react-c6b0e5af381e/
+- https://blog.logrocket.com/conditional-rendering-in-react-c6b0e5af381e/
 
-https://medium.com/@cowi4030/optimizing-conditional-rendering-in-react-3fee6b197a20
+- https://medium.com/@cowi4030/optimizing-conditional-rendering-in-react-3fee6b197a20
+
 
 
 

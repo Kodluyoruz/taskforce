@@ -95,22 +95,22 @@ Uygulamayı geliştirme aşamasında start script'ini kullanarak sunucuyu başla
 
 ## Kaynaklar
 
-https://tr.reactjs.org/docs/create-a-new-react-app.html
+- https://tr.reactjs.org/docs/create-a-new-react-app.html
 
-https://github.com/facebook/create-react-app
+- https://github.com/facebook/create-react-app
 
-https://create-react-app.dev/docs/getting-started/
+- https://create-react-app.dev/docs/getting-started/
 
-https://www.codecademy.com/articles/how-to-create-a-react-app
+- https://www.codecademy.com/articles/how-to-create-a-react-app
 
-https://blog.logrocket.com/everything-you-need-to-know-about-react-scripts/
+- https://blog.logrocket.com/everything-you-need-to-know-about-react-scripts/
 
-https://medium.com/frontend-development-with-js/react-geli%C5%9Ftirme-ortam%C4%B1n%C4%B1n-olu%C5%9Fturulmas%C4%B1-c2eba4e5d30f
+- https://medium.com/frontend-development-with-js/react-geli%C5%9Ftirme-ortam%C4%B1n%C4%B1n-olu%C5%9Fturulmas%C4%B1-c2eba4e5d30f
 
-https://blog.finartz.com/reactjs-nedir-s%C4%B1f%C4%B1rdan-react-e600d7b29f8
+- https://blog.finartz.com/reactjs-nedir-s%C4%B1f%C4%B1rdan-react-e600d7b29f8
 
-https://scotch.io/starters/react/using-create-react-app-to-make-react-applications
+- https://scotch.io/starters/react/using-create-react-app-to-make-react-applications
 
-https://omergulcicek.github.io/react/kurulum/reactjs-kurulumu.html
+- https://omergulcicek.github.io/react/kurulum/reactjs-kurulumu.html
 
-https://medium.com/codingthesmartway-com-blog/modern-react-from-the-beginning-ep1-creating-your-first-react-app-522fced53eed
+- https://medium.com/codingthesmartway-com-blog/modern-react-from-the-beginning-ep1-creating-your-first-react-app-522fced53eed

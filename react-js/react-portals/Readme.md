@@ -90,8 +90,8 @@ React Portal kullanırken göz önünde bulundurulması gereken şeyler:
 
 ## Kaynaklar
 
-https://tr.reactjs.org/docs/portals.html
+- https://tr.reactjs.org/docs/portals.html
 
-https://blog.logrocket.com/learn-react-portals-by-example/
+- https://blog.logrocket.com/learn-react-portals-by-example/
 
-https://blog.bitsrc.io/understanding-react-portals-ab79827732c7
+- https://blog.bitsrc.io/understanding-react-portals-ab79827732c7

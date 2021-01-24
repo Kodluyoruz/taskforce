@@ -123,12 +123,12 @@ Bu örnekte `Heading` adlı bir component oluşturduk ve `<h1>` etiketi içerisi
 
 ## Kaynaklar
 
-https://tr.reactjs.org/docs/composition-vs-inheritance.html
+- https://tr.reactjs.org/docs/composition-vs-inheritance.html
 
-https://programmingwithmosh.com/react/react-composition-vs-inheritance/
+- https://programmingwithmosh.com/react/react-composition-vs-inheritance/
 
-https://flaviocopes.com/react-composition/
+- https://flaviocopes.com/react-composition/
 
-https://codelikethis.com/lessons/react/composition-vs-inheritance
+- https://codelikethis.com/lessons/react/composition-vs-inheritance
 
-https://kriss.io/composition-vs-inheritance-in-react-comparison-and-contrast
+- https://kriss.io/composition-vs-inheritance-in-react-comparison-and-contrast
