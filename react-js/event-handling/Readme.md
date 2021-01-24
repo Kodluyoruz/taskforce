@@ -48,9 +48,7 @@ ActionLink = () => {
     console.log(e.type); // click
   }
     return (
-      <a href="#" onClick={handleClick}>
-    	  Tıkla
-      </a>
+      <a href="#" onClick={handleClick}>Tıkla</a>
     );
   }
 
