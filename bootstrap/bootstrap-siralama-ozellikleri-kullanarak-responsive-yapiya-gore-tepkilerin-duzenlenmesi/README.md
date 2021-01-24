@@ -1,7 +1,7 @@
 # Bootstrap Sıralama Özellikleri Kullanarak Responsive Yapıya Göre Tepkilerin Düzenlenmesi
 
 Bootstrap'de sıralama özelliği(order),içeriklerin HTML'de yazılan sırayla değil(kodlar yukarıdan aşağı okunarak sıralanır) bizim belirlediğimiz sıraya göre sıralamamızı sağlayan bir kavramdır.Genellikle responsive yapılar oluştururken kullanılır.Kullanırken kapsayıcı divimizin 'display:flex' classının yani 'd-flex' olması gerekmektedir,kapsayıcı div'in içinde en fazla 5 tane içeriği sıralayabileceğimizi unutmamamız gerekiyor.Bir örnek ile order yapısına başlayalım.Örneğin xl genişliğinde çalışıyorsunuz ve web siteniz 3 parçadan oluşuyor,fakat siz sm genişliğinde ki ekranlarda 1. içeriğinizin ilk gözükmesini değil son gözükmesini istiyorsunuz.3.içeriğinizin ise ilk görülmesini istiyorsunuz.Yani aslında; 
-
+ 
 1.İçeriğiniz | 2.İçeriğiniz |3.İçeriğiniz
 -- | -- | -- 
 
@@ -237,8 +237,11 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 ![karisikicerikdüzenlenmishali](figures/ikinciicerikduzenlenmis.png)
 
 ### Kodumuzu artık istediğimiz düzeye getirmiş olduk.
-
+ 
 ## Ödev
+=======
+## Ödev
+
 ### Sizde aşağıda ki kodu bütün içeriğin bütün kırılma noktalarında farklı bir şekilde sıralanmasını sağlayın.Şimdiden başarılar 
 ```html
 <div class="container-fluid">
