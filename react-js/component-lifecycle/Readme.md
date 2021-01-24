@@ -1,6 +1,6 @@
 # Component Yaşam Döngüleri (Lifecycle)
 
-**Not:** Daha önceki bölümlerde, React 16.8 versiyonundan önce (React Hook'lar tanıtılmadan önce) yalnızca class component'lerin state objesi tutabildiğinden ve component lifecycle metodlara sahip olabildiğinden bahsetmiştik. React 16.8'den itibaren React Hook'lar tanıtıldı ve böylece artık functional component'ler state objesine ve lifecycle metodlara sahip olabilir hale geldi. Class yerine bir function'dan bahsettiğimiz için bu yazıda bahsedeceğimiz **mounting** ve **unmounting** logic'i yoktur çünkü artık function scope'undan bahsediyoruz. Lifecycle metodların yerini hook denen bazı özel fonksiyonlar almıştır. Bu yazıda React Hook'lar olmadan, yalnızca class component'lerin bu yaşam döngüsü metodlarına sahip olabildiği baz alınarak anlatılacaktır. React Hook'lar ayrı bir bölümde ele alınacaktır.
+**Not:** Daha önceki bölümlerde, React 16.8 versiyonundan önce (React Hook'lar tanıtılmadan önce) yalnızca class component'lerin state objesi tutabildiğinden ve component lifecycle metotlara sahip olabildiğinden bahsetmiştik. React 16.8'den itibaren React Hook'lar tanıtıldı ve böylece artık functional component'ler state objesine ve lifecycle metotlara sahip olabilir hale geldi. Class yerine bir function'dan bahsettiğimiz için bu yazıda bahsedeceğimiz **mounting** ve **unmounting** logic'i yoktur çünkü artık function scope'undan bahsediyoruz. Lifecycle metotların yerini hook denen bazı özel fonksiyonlar almıştır. Bu yazıda React Hook'lar olmadan, yalnızca class component'lerin bu yaşam döngüsü metotlarına sahip olabildiği baz alınarak anlatılacaktır. React Hook'lar ayrı bir bölümde ele alınacaktır.
 
 React'te her component'in bir yaşam döngüsü vardır. Bu yaşam döngüsü, bir component'in 3 ana aşamada görüntülenmesi ve kontrol edilmesi süreci olarak düşünülebilir. Built-in yaşam döngüsü metotları kullanılarak bu yaşam döngüsünde farklı zaman dilimlerine atıf yapılabilir ve component kontrol altına alınır. 3 aşama şunlardır:
 
@@ -17,12 +17,12 @@ Component'in DOM'a eklenmesidir. Bu aşamada React tarafından sunulan 4 tane bu
 3. `render()`
 4. `componentDidMount()`
 
-**render()** metodunun bulunması zorunludur ve her zaman çağrılır. Diğerleri ise isteğe bağlı olarak kullanılabilecek lifecycle metodlardır.
+**render()** metodunun bulunması zorunludur ve her zaman çağrılır. Diğerleri ise isteğe bağlı olarak kullanılabilecek lifecycle metotlardır.
 
 ### constructor()
 Component'in ilk oluşturulması sırasında çağrılan metottur, dolayısıyla lifecycle metotları arasından ilk sırada çağrılandır. <u>State ve props</u> konusunda bahsettiğimiz üzere, **state objesinin tanımlandığı yerdir.** Argüman olarak props alır ve constructor içerisinde ilk satır olarak super(props) ifadesiyle başlanır. Bu sayede parent class'ın constructor metodu çağrılır.
 
-```react
+```javascript
 constructor(props) {
     super(props);
     this.state = {favoriteColor: "mavi"};
@@ -35,7 +35,7 @@ Component oluşturulduktan sonra ve render metodundan hemen önce çağrılır. 
 
 ```javascript
 getDerivedStateFromProps(props, state) {
-	return { favoriteColor: props.favCol };
+  return { favoriteColor: props.favCol };
 }
 ```
 

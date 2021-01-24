@@ -137,9 +137,9 @@ Normalde CSS'i ayrı dosyalarda tutarken inline style CSS syntax'ını JSX kodu 
 
 ```javascript
 var styles = {
-	color:'red',
-	backgroundColor:'black',
-	fontWeight:'bold'
+  color:'red',
+  backgroundColor:'black',
+  fontWeight:'bold'
 };
 
 var element = <div style={styles}>test</div>;

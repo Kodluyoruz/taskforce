@@ -156,7 +156,7 @@ render() {
   }
   return (
     <div>
-     	<Photo />
+      <Photo />
       <Comments />
     </div>
   )
