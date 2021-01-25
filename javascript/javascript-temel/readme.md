@@ -65,8 +65,6 @@
 #### Fetch API ####
 - [Fetch API ile Çalışmak](fetch-api-ile-calismak/)
 
-
-<<<<<<< HEAD
 ####  Değişkenlerle Çalışmak 
 
 -  [Degisken Tanimlama: var, ES6 ile Birlikte Gelen let ve const Değişken Tanımlama Yapısının Kullanımı, var ile Arasındaki Farklar](degisken-tanimlama-var-es6-ile-birlikte-gelen-let-ve-const-degisken-tanimlama-yapisinin-kullanimi-var-ile-arasindaki-farklar/)
@@ -137,5 +135,3 @@
 #### Fetch API
 
 -  [Fetch API ile Çalışmak](fetch-api-ile-calismak/)
-=======
->>>>>>> javascript
