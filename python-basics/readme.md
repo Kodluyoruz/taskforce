@@ -1,40 +1,41 @@
-# Python 101
-#### Giriş
+# Python 101 INDEX
+
+#### Giriş ####
 -  [Programlama Nedir?](programlama-nedir/)
 -  [Temel Veri Tipleri](temel-veri-tipleri/)
 -  [Değişken Atama](degisken-atama/)
 -  [Operatörler ve İfadeler](operator-expression/)
 
-#### String'ler
+#### String'ler ####
   - [Stringler](stringler/)
   - [Stringler Üzerinde Operatörler](string-operator/)
   - [Stringlerde İndexleme](string-indexing/)
   - [Stringlerde Casting](string-casting/)
 
-#### Input 
+#### Input ####
   - [Input](input/)
   
-#### Koda Yorum Ekleme
+#### Koda Yorum Ekleme ####
   - [Koda Yorum Ekleme](yorum/)
 
-#### Koda Durumsallık Katmak
+#### Koda Durumsallık Katmak ####
 - [Sayısal Verilerde Karşılaştırma](numeric-comparison/)
 - [Stringlerde Karşılaştırma](string-comparison/)
 - [Mantıksal Operatörler](logical-operator/)
 - [Short-circuit](short-circuit/)
 - [Short-circuit Olmayan Mantıksal Operatörler](not-short-circuit/)
 
-#### Koşullar
+#### Koşullar ####
 - [If-else-elif](if-else-elif/)
 - [Ternary Conditionals](ternary-conditionals/)
 
-#### Döngüler
+#### Döngüler ####
   - [Döngüler](loops/)
   - [while](while/)
   - [for](for/)
   - [Continue-Break](continue-break/)
 
-#### Non-Scalar Veri Tipleri
+#### Non-Scalar Veri Tipleri ####
   - [Non-Scalar Veri Tipleri](non-scalar/)
   - [List](list/)
   - [Tuple](tuple/)
@@ -47,7 +48,7 @@
   - [Varible Unpacking](variable-unpacking/)
   - [Enumerate-Zip](enumerate-zip/)
 
-#### Fonksiyonlar
+#### Fonksiyonlar ####
   - [Fonksiyonlar](fonksiyon-giris/)
   - [return](return/)
   - [Comment-Fonksiyon](comment-fonksiyon/)
@@ -57,8 +58,8 @@
   - [First Class Function](first-class-fonksiyon/)
   - [For-Function](for-fonksiyon/)
 
-#### Underscore Placeholder
+#### Underscore Placeholder ####
   - [Underscore Placeholder](underscore-placeholder/)
  
-#### fstring
+#### fstring ####
   - [fstring](fstring/)
