@@ -120,13 +120,8 @@ console.log(elems.length); // 4
 ```
 
 ### Alıştırmalar
-*  Adınızı ve soyadınızı belirtilen p etiketlerine DOM ile erişerek yazdırınız.  
-[CodePen'de Dene](https://codepen.io/bedirhanargn/pen/LYRQLpa)
+Bu konu ile ilgili alıştırma yapmak isterseniz doğrudan tarayıcı üzerinden herhangi bir sitede inspect mod'undaki console'da anlatılan methodlar ile denemeler yapabilirsiniz. Ya da [bu linkten](https://www.w3resource.com/javascript-exercises/javascript-dom-exercises.php) alıştırmalar yapabilirsiniz.
 
-*  Girilen birinci ve ikinci sayıya DOM ile erişerek toplam sonucunu result alıtndaki p etiketine yazdırınız.  
-[CodePen'de Dene](https://codepen.io/bedirhanargn/pen/xxEpRpJ)  
 
-*  Verilen tabloya bir satır ekleyiniz.  
-[CodePen'de dene](https://codepen.io/bedirhanargn/pen/qBaxMZO)
 
 
