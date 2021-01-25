@@ -1,6 +1,6 @@
-# React.JS
+# React.JS INDEX
 
-#### Fundamental topics
+#### Fundamental topics ####
 - [Create React App](create-react-app/)
 - [JSX](jsx/)
 - [Rendering Elements](rendering-elements/)
@@ -17,13 +17,17 @@
 - [Lists and Keys](list-and-keys/)
 - [Composition vs Inheritance](composition-vs-inheritance/)
 - Basics of Form Handling
-#### Hooks
+
+#### Hooks ####
 - [Introduction to Hooks](basic-hooks/)
 - [Hooks](hooks/)
 - Hooks örneği - Hesap makinesi
-#### [Context API](context-api/)
+
+#### Context API ####
+- [Context API](context-api/) 
 - [Ödev x - Shopping Cart](https://github.com/Kodluyoruz/shopping-cart)
-#### Advanced Topics
+
+#### Advanced Topics ####
 -  [Refs](refs/)
 -  [Render Props](render-props/)
 -  Code splitting
@@ -31,7 +35,8 @@
 -  [Portals](react-portals/)
 -  [Error Boundaries](error-boundaries/)
 -  Reconciliation
-#### Ecosystem
+
+#### Ecosystem ####
 -  [Router](router/)
 -  SSR
 -  SSG
@@ -40,4 +45,5 @@
 -  Testing
 -  State management
 -  Styling
-#### Serverless
+
+#### Serverless ####
