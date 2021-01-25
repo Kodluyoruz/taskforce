@@ -1,4 +1,4 @@
-# HTML INDEX #
+# HTML INDEX
 
 #### HTML Giriş ####
 - [HTML Nedir](html-nedir/)
