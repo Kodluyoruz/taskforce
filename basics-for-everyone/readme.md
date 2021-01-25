@@ -21,11 +21,11 @@
 
 - [İnternet'in Temelleri](internet/)
 
-- Browsers
+- [Browsers](Browsers/)
 
 - [IP](IP/)
 
-- TCP
+- [TCP](TCP/)
 
 - [HTTP](http/)
 
@@ -34,7 +34,6 @@
 - [Domain name](domain-name/)
 
 - [Hosting](hosting/)
-
 
 
 
