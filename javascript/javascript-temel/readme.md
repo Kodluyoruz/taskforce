@@ -60,10 +60,10 @@
 - [Object ve Array Destructuring Kullanımı](object-ve-array-destructuring-kullanimi/)
 
 #### Hata Yönetimi ####
-- [ ] [try ve catch Kullanımı](try-ve-catch-kullanimi/)
+- [try ve catch Kullanımı](try-ve-catch-kullanimi/)
 
 #### Fetch API ####
-- [ ] [Fetch API ile Çalışmak](fetch-api-ile-calismak/)
+- [Fetch API ile Çalışmak](fetch-api-ile-calismak/)
 
 
 <<<<<<< HEAD
