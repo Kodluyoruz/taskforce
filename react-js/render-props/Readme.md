@@ -165,3 +165,5 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 ## Kaynaklar
 
+- https://reactjs.org/docs/render-props.html
+- https://css-tricks.com/understanding-react-render-props-and-hoc/
