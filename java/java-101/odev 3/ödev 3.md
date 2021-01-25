@@ -4,9 +4,6 @@ Kullanıcıdan alınan isim ve soyisim bilgisini 4X3 matrise yazdıran programı
 
 **Açıklama:** Kullanıcı ismini "mehmetaliefe" olarak girilsin.
 
-**Örnek çıktı**
-m  e   i
-e    t   e
-h   a   f
-m  l   e
+
+![matris](figures/matris.png)
 
