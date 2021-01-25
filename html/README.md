@@ -1,4 +1,6 @@
-#### HTML Giriş 
+# HTML INDEX #
+
+#### HTML Giriş ####
 - [HTML Nedir](html-nedir/)
 -  [En Çok Kullanılan HTML Etiketleri Nelerdir](en-cok-kullanilan-html-etiketleri-nelerdir/)
 -  [Başlık Etiketleri Kullanımı](baslik-etiketleri-kullanimi/)
@@ -6,22 +8,22 @@
 -  [Açıklama Satırları Oluşturmak](aciklama-satirlari-olusturmak/)
 -  [Başlıklar ve Paragraflarla Çalışmak](basliklar-ve-paragraflarla-calismak/)
 -  [Ödev 1](odev1/)
-#### Listeler ve Diğer Özelikler
+
+#### Listeler ve Diğer Özelikler ####
 -  [Listelerle Çalışmak](listelerle-calismak/)
 -  [Emmet ile Daha Hızlı HTML Yapıları Oluşturmak](emmet-ile-daha-hizli-html-yapilari-olusturmak/)
 -  [Görsellerle Çalışmak](gorsellerle-calismak/)
 -  [Linklerle Çalışmak](linklerle-calismak/)
 -  [Blok Elemenler ve Inline Elementlerle Çalışmak](blok-elemenler-ve-inline-elementlerle-calismak/)
 -  [Ödev 2](odev2/)
-#### Ekstra Özellikler
+
+#### Ekstra Özellikler ####
 -  [HTML Etiketlerine Ekstra Özellikler Eklemek](etiketlerine-ekstra-ozellikler-eklemek/)
 -  [İskeletinin Genel Yapısını Anlamak](i̇skeletinin-genel-yapisini-anlamak/)
 -  [Semantic(Anlamlandırılmış) HTML Etiketleri Kullanımı](semanticanlamlandirilmis-html-etiketleri-kullanimi/)
 -  [Diğer HTML Etiketleri Hakkında](diger-html-etiketleri-hakkinda/)
 
-#### Alıştırmalar & Ödevler
-
+#### Alıştırmalar & Ödevler ####
 - [Bölüm Sonu Çalışması](bolum-sonu1/)
 - [Bölüm Sonu Çalışması 2](bolum-sonu2/)
 - [Ödev 3](odev3/)
-
