@@ -1,4 +1,4 @@
-# JavaScript Temel INDEX
+# JavaScript Temel INDEX 
 
 #### JavaScript Nedir? ####
 - [JavaScript Nedir?](javascript-nedir/)
