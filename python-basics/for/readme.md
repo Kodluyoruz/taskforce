@@ -1,90 +1,102 @@
+## `for`
 
-## Input
+* `for` döngüsü `in` den sonra yazdığımız yapının bütün değerleri üzerinde dolanıp, eleman sayısı kadar içindeki kodu çalıştıracak. x `in` `<obje>` yapısı ile tanımlandığında, x döngünün her adımında `in` den sonra tanımlanan yapının elemanlarının değerlerini alacak.
 
-* Bazen kullanacağımız değeri kullanıcıdan almak isteyebiliriz. Bunu `input` metodu ile yapacağız
-* `input` un içinde yazacağımız bize kullanıcıya gösterilecek yazıyı verecek, kullanıcıdan girdi bekleyip enter'a basmasını bekleyecek, ve girdiyi **string** olarak döndürecek
+`for` `<değişken>` in `<obje>`
 
+* `for` döngüsünün en başında `<değişken>`, `<obje>`'nin ilk elemanının değerini alıyor. İçindeki kod 1 kere çalışıp bittikten sonra ikinci kere çalıştırıyor ve `<değişken>`, `<obje>`'nin ikinci elemanının değerini alıyor. Bu `<obje>`'nin tüm elemanları bitene kadar devam ediyor.
+
+
+```python
+for c in "hey":
+    print(c)
+```
+
+    h
+    e
+    y
 
 
 
 ```python
-x = input("Bir sayı girin:")
+toplam = 0
+
+for x in range(101):
+    toplam += x
+print(toplam)
 ```
 
-> Bir sayı girin:10
+    5050
 
 
 
 ```python
-x + 10
+for x in range(5):
+    print(x)
 ```
 
+    0
+    1
+    2
+    3
+    4
 
-    ---------------------------------------------------------------------------
+
+
+```python
+toplam = 1
+for i in range(5):
+    toplam *=5
     
-    TypeError                                 Traceback (most recent call last)
+print(toplam)
+```
+
+    3125
+
+
+
+```python
+toplam = 1
+for _ in range(5):
+    toplam *=5
     
-    <ipython-input-51-dacbb30d0a09> in <module>
-    ----> 1 x + 10
-    TypeError: can only concatenate str (not "int") to str
+print(toplam)
+```
+
+## `for` vs `while`
+
+* `while` yapısında kaç kere iterasyon yapacağımızı bilmiyoruz, `for`'da eleman sayısı kadar iterasyon var (`break` veya `continue` ile bölünmezse)
+
+* Aslında `for` döngüsünü `while` döngüsünü kullanarak yazabiliriz, ama `while` döngüsünü `for` kullanarak yazamayız, çünkü `for`'da test mekanizması yok.
+
+
+```python
+s = "hey"
+```
+
+
+```python
+for c in s:
+    print(c)
+```
+
+    h
+    e
+    y
 
 
 
 ```python
-type(x)
+n = len(s)
+index = 0
+
+while index < n:
+        print(s[index])
+        index += 1
 ```
 
-> str
-
-
-
-
-```python
-int(x) + 10
-```
-
-> 20
-
-
-
-
-```python
-x = int(input("Bir sayı girin:"))
-```
-
-    Bir sayı girin:10
-
-
-
-```python
-x + 10
-```
-
-> 15
-
-
-
-
-```python
-mesaj = input("Mesajı girin:")
-```
-
-> Mesajı girin:Merhaba
-
-
-
-```python
-isim = input("İsim girin:")
-```
-
-> İsim girin:Ulaş
-
-
-
-```python
-mesaj + " " + isim
-```
-
-> 'Merhaba Ulaş'
+    h
+    e
+    y
 
 
