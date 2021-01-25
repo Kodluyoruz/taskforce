@@ -13,7 +13,7 @@
 - [Ödev 2 - Yazı Tura](https://github.com/Kodluyoruz/yazi-tura)
 - [Ödev 3 - Todo App](https://github.com/Kodluyoruz/todo-app)
 - [Component Lifecycle](component-lifecycle/)
-- [Fragments](fragments/)
+- Fragments
 - [Lists and Keys](list-and-keys/)
 - [Composition vs Inheritance](composition-vs-inheritance/)
 - Basics of Form Handling
