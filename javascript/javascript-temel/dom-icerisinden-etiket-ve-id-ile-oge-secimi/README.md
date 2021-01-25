@@ -3,7 +3,7 @@
 Bu yazımızda [DOM (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) içerisinden öğeleri seçmek için kullanacağımız metotlardan bahsedeceğiz.Document Object Model'de öğeler birden fazla yöntem ile seçilebilir. Birinci yöntemimiz olan element id'sini kullanarak şeçme metodu ile başlayalım.
 
 ## Get Element By ID
-> **Elemanı ID'sine göre getirme**
+> **Elemanı ID'sine göre şeçmek**
 
 `document` objesinin `getElementById()` metodu ile sayfada bulunan html elementlerinin ID'leri referans alarak seçme işlemi yapabiliyoruz. Örnek olarak;
 
@@ -26,7 +26,7 @@ ID'ler büyük-küçük harf duyarlıdır. Bu sayede HTML document içinde biri�
 ```
 
 ## Get Elements By Tag Name
-> Elemanları etiket isimlerine göre getirme
+> **Elemanları etiket isimlerine göre şeçmek**
 
 `getElementsByTagName()` metodu birden çok element'e ulaşmak amacı ile kullanılır.
 Girdi olarak bir **html element'i** alır ve buna uygun bir HTMLCollection döndürür. Örneğin elimizde bu şekilde bir sayfa var;
@@ -73,12 +73,51 @@ const emails = document.getElementsByName('e-posta');
 
 > **Unutmayınki name değeri id'de olduğu gibi birick bir değer taşımaz birden fazla eleman aynı name değerini taşıyabilir.**
 
-## QuerySelector Metotu
-Üçüncü bir yol olarak QuerySelector kullanabiliriz. Bu metot verilen css seçicisiyle eşleşen ilk değeri bize döner. Eğer eşleşen bir element bulunmazsa null geri döner.Tüm eşleşen elementleri döndürmek için QuerySelectorAll kullanmalıyız.
+## Get Elements By Class Name
+> **Elemanları class isimlerine göre şeçmek**
 
-`var el = document.querySelector("#firstid");` 
-Bu şekilde id kullanarak erişim sağlayabiliriz.
+DOM'da istediğimiz class name'i taşıyan tüm elemanları seçmek için `getElementsByClassName()` methodunu kullanırız. Bu method bize bir **HTMLCollection** döndürür. Ve kullanırken class isminin başına **nokta "."** koyMAMAnız gerekir.
 
+```html
+<div class="baykuş kusu">🦉</div>
+<div class="güvercin kusu">🐦</div>
+<div class="kartal kusu">🦅</div>
+<div class="kedi">🐱</div>
+```
+Hadi sayfamızdaki tüm kuşları seçelim;
+
+```js
+const kuslar = document.getElementsByClassName('kusu');
+// Çıktı: HTMLCollection(3) [div.baykuş.kusu, div.güvercin.kusu, div.kartal.kusu]
+```
+
+Ayrıca bu methodla birden fazla class name belirtip **daha detaylı** bir seçim yapabilirsiniz.
+
+```js
+document.getElementsByClassName('kartal kusu');
+// Çıktı: HTMLCollection [div.kartal.kusu]
+```
+
+## Query Selector
+> **Tekil Sorgu seçici**
+
+`QuerySelector ()` yöntemi, CSS seçicilere dayalı olarak DOM'dan html elemanlarını seçmenize izin veren iki modern JavaScript yönteminden biridir.
+Bu yöntem ile birlikte hem css class'larını hem de id'lerini kullanabilirsiniz.
+Bunu yaparken class için ön ek olarak **nokta "."**, id'ler için **kare "#"** kullanmanız gerekir. Sayfada **eşleşen ilk elemanı** size döndürecektir. Belirtilen elemanın eşleşememesi durumunda geriye `null` dönecektir.
+
+```js
+const email = document.querySelector('#signup input[name="email"]');
+```
+
+## Query Selector All
+> **Çoğul Sorgu seçici**
+
+**`querySelectorAll()` methodu,** `QuerySelector ()` methodu ile aynı mantık ile çalışır tek farkı eşeleşen ilk elamanı döndürmek yerine eşeleşen **tüm elemanları** bir NodeList objesi olark döndürmesidir.
+
+```js
+const elems = document.querySelectorAll('.bird, .animal');
+console.log(elems.length); // 4
+```
 
 ### Alıştırmalar
 *  Adınızı ve soyadınızı belirtilen p etiketlerine DOM ile erişerek yazdırınız.  
