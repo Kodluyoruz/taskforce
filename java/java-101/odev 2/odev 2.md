@@ -4,10 +4,7 @@ Girilen saat yazıyla yazdırılacak. Saat 24 saat formatında ve SS:DD  (saat v
 
 - Açıklama:
   Kullanıcı saati aşağıdaki formatta girecek;
-  04:20
-  Çıktı şu şekilde olacaktır;
-  dört yirmi ÖÖ
   
   **Örnek çıktı**
-
+  
   ![ saat-gösterimi](figures/saat.png)
