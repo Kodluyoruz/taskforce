@@ -119,6 +119,29 @@ const elems = document.querySelectorAll('.bird, .animal');
 console.log(elems.length); // 4
 ```
 
+### Methoları bir arada kullanabilirsiniz
+Yukarda öğrendiğimiz methodları birarada kullanabiliryoruz. Önce tek bir elemanı seçerek ardından içinde ikinci bir sorugu yapabiliyoruz. Örneğin;
+
+```html
+<form id="signup">
+    <input type="text" name="email">
+    <input type="tel" name="phone">
+    <input type="date" name="date-of-birth">
+</form>
+```
+sigup id'li elemanın içindeki tüm input elemanlarını seçmek istersek;
+
+```js
+const inputs = document.getElementById('signup').getElementsByTagName('input');
+```
+
+ya da 
+
+```js
+const inputs = document.querySelector('#signup').querySelectorAll('input');
+```
+
+
 ### Alıştırmalar
 Bu konu ile ilgili alıştırma yapmak isterseniz doğrudan tarayıcı üzerinden herhangi bir sitede inspect mod'undaki console'da anlatılan methodlar ile denemeler yapabilirsiniz. Ya da [bu linkten](https://www.w3resource.com/javascript-exercises/javascript-dom-exercises.php) alıştırmalar yapabilirsiniz.
 
