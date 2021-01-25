@@ -1,4 +1,4 @@
-# CSS INDEX
+# CSS INDEX
 
 #### CSS Nedir? ####
 - [CSS Nedir?](css-nedir/)
