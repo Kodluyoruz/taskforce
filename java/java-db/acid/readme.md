@@ -84,7 +84,77 @@ Veri tabanı veya tablolarda yapısal değişiklikler yapabilmek için var olan 
 
  CREATE, ALTER, DROP, TRUNCATE, COMMENT, RENAME gibi komutlar bu işlemleri yapabilir.
 
+Create -> Bir veri tabanı veya veri tabanı içinde tablo oluşturmayı sağlar.
 
+Create Indez -> Index oluşturmak için, tablonun sütun adı üzerinde index oluşturur.
+
+Create View -> Görüntü oluşturmak için kullanılır.
+
+Örnek kullanımı : 
+
+```SQL
+-- Database oluşturmak
+Create database veritabanı_adi
+-- Veritabanı oluşturduktan sonra tablo oluşrutulabilir. 
+Create table tablo_adi{
+	sütun_adi1 veri_türü,
+	sütun_adi2 veri_türü,
+	...
+}
+```
+
+Alter -> Alter table ile kullanılabilir, bir tabloya sütun eklemek, mevcut sütunları silmek veya değiştirerek tablonun yapısını değiştirmek için kullanılır.
+
+Örnek kullanımı : 
+
+```SQL
+-- Tabloya sütun eklemek için:
+
+ALTER TABLE tablo_adı ADD sütun_adı veri_türü
+
+-- Tablodaki sütunu silmek için:
+
+ALTER TABLE tablo_adı DROP sütun_adı
+
+-- Tablodaki sütunun veri türünü değiştirmek için:
+
+ALTER TABLE tablo_adı ALTER COLUMN sütun_adı veri_türü (SQL Server, MS Access)
+
+ALTER TABLE tablo_adı MODIFY COLUMN sütun_adı veri_türü (MySQL, Oracle)
+```
+
+Drop -> veri tabanı, tablo ve indekslerin silinmesi için kullanılır.
+
+Drop View -> Görüntüyü siler.
+
+Örnek kullanımı : 
+
+```Sql
+-- Drop database komutu bir veritabanını silmek için kullanılır.
+Drop database veritabanı_adi
+-- Drop table komutu bir tabloyu silmek için kullanılır.
+Drop table tablo_adi
+-- Drop index komutu bir tablo indexini silmek için kullanılabilir.
+ALTER TABLE tablo_adı DROP INDEX indeks_adı (MySQL)
+
+DROP INDEX indeks_adı (DB2/Oracle)
+
+DROP INDEX tablo_adı.indeks_adı (MSSQL)
+```
+
+Truncate -> Truncate table ile tablodaki veri içeriklerini siler fakat tablo yapısı kalır.
+
+Comment -> **Sql de yorum satırı** sql ifadesinin ne amaçla kullanıldığını açıklamak için not almaya ve ya sql ifadesinin yürütülmesini durdurmak için kullanılır. Sql de çok satırı yorum satırı yapmak için aşağıdaki yöntem kullanılır. Bu yöntemi sorgu içerisinde bazı alanları by-pass etmek içinde kullanabiliriz.
+
+```sql
+--Örnek Yorum Satırı
+SELECT * FROM tablo_adi;
+/*Çok Satırda
+Yorum Satırı Kullanımı*/
+SELECT * FROM tablo_adi;
+```
+
+Rename -> Alanların isimlerini değiştirmek için kullanılır.
 
 ## 2-   DML (Data Manipulation Language – Veri İşleme Dili)
 
@@ -92,7 +162,47 @@ Tablolardaki veriler üzerinde kayıt ekleme, silme, değiştirme ve sorgulama y
 
 SELECT, INSERT, UPDATE, DELETE
 
+Select sorgusu, DQL (Data Query Language- Veri Sorgulama Dili) olarak ayrılabilir.
 
+Select -> Veri tabanında yer alan mevcut kayıtların bir kısmını veya tamamını tanımlanan koşullara bağlı olarak alır. Yani bir veri tabanında yer alan bir veya daha fazla tablodan istenen satır değerlerini almak için kullanılır. Select komutu ile elde edilen veriler yine bir tabloya aktarılarak üzerinde işlemler yapılabilir.
+
+Örnek kullanımı: 
+
+```sql
+Select sütun_adi1,sütun_adi2, ... From tablo_adi
+Select * From tablo_adi
+```
+
+Insert -> komutu  DML komutuydu. Insert into komutu ile veri tabanında yer alan tablolara yeni kayıt eklemek için kullanılır. Yani eklenen her bir kayıt tabloya yeni satır ekler. Insert into komutu, hem sütun adı hem de eklenecek verileri içerecek şekilde veya sadece eklenecek değerleri tanımlayarak kullanılabilir.
+
+Örnek kullanımı :
+
+```SQL
+-- Sütun adı ve veri tanımlayarak
+Insert into tablo_adi(sütun_adi1,sütun_adi2,...) Values(deger1,deger2,...)
+-- Sadece veri tanımlayarak
+Insert into tablo_adi Values(deger1,deger2,..)
+```
+
+Update -> komutu bir veri tabanındaki tablolarda yer alan kayıtlarda değişiklik yapmak ve güncellemek için kullanılır.
+
+Örnek kullanımı : 
+
+```SQL
+Update tablo_adi Set sütun_adi1=deger1,sütun_adi2=deger2,... Where sütun_adi=deger
+```
+
+! NOT : Where yapısı kullanılmadığında tüm kayıtlar, kullanıldığında ise sadece koşulu karşılayan kayıtlar güncellenir.
+
+Delete -> Veri tabanında yer alan kayıtları silmek için kullanılır.
+
+Örnek kullanımı : 
+
+```SQL
+Delete from tablo_adi Where sütun_adi=deger
+```
+
+! NOT : Where yapısı kullanılmadığında tüm kayıtlar, kullanıldığında ise sadece koşulu karşılayan kayıtlar silinir.
 
 ## 3-   DCL (Data Control Language – Veri Kontrol Dili)
 
@@ -108,3 +218,11 @@ Tabloların içindeki verileri değiştirmek için kullandığımız DELETE, UPD
 
 COMMIT, ROLLBACK, SAVEPOINT
 
+> **KAYNAKÇA**
+>
+> - [ACID-Wikipedia](https://en.wikipedia.org/wiki/ACID)
+> - [ACID Nedir?-Medium](https://medium.com/cloud-and-servers/acid-nedir-53f729f2bbb2)
+> - [ACID](https://www.yusufsezer.com.tr/veritabani-acid/)
+> - [ACID-Database.Guide](https://database.guide/what-is-acid-in-databases/#:~:text=In%20database%20systems%2C%20ACID%20(Atomicity,occur%20while%20processing%20a%20transaction.))
+> - [ACID-bmcblogs](https://www.bmc.com/blogs/acid-atomic-consistent-isolated-durable/)
+> - 
