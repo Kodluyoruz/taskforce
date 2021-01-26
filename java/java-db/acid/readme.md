@@ -2,9 +2,19 @@
 
 İlişkisel veri tabanı yönetim sistemleri mimarisinde iş süreci (transaction) ve veri bütünlüğünü sağlamak için uyulması gereken kurallara ACID denilmektedir. İş süreci (transaction) kavramı bir işleminin ya bütünüyle yapılmasını ya da yapılan işlemlerin bütünüyle geri alınıp veri tutarlılığın sağlanmasını garanti altına demektir.
 
+**ACID** ne zaman ihtiyaç duyulur ?
+
+ACID işlem tabanlı veritabanı ilkeleri olarak tasarlanmıştır. Yani verilerin bir tür başarısızlık sonucunda bozulmamasını sağlamak için veritabanı işlemlerinin uyması gereken ilkeleri sağlar. 
+
+Transaction, bir veya daha fazla adımdan oluşan tek bir mantıksal işlemdir. Örneğin banka hesapları arasında para transferi (bir hesabın borçlandırılması ve diğerinin kredilendirilmesi gibi) bir işlemdir. Böyle bir işlem olduğunu varsayalım, eğer yarısında başarısız olursa, büyük problemlere sebep olabilir. Yani ilk hesaptan para çekilebilir ve diğer hesaba aktarılamayabilir. İşte ACID ilkeleri bu noktada uyulması gerekir. Aşağıda ise bu anlatılanların bir örneği verilmiştir.
+
 **Örneğin**, hesabınızda 100 TL’yi arkadaşınızın hesabına havale yoluyla göndermek istiyorsun diyelim. 
 
 Bu iş süreci (transaction) iki işlem parçasından oluşur. 100 TL senin hesabından azaltılıp sana ait bakiye bilgileri güncellenir, ardından 100 TL arkadaşın hesabına +100 olarak işlenir ve güncellenir. İşte bu işlem bütünlüğü garanti altına alınmalıdır. Alınamaz ise tutarsız verilerle karşılaşılır. Böylece veri bütünlüğü bozulur. Eğer sizden 100 TL çektikten sonra bir hata oluşursa ve arkadaşınızın hesabına bu ücret yatırılamaz ise tutarsız bir durum oluşacağı aşikardır. Yine mülakatlarda size soru olarak gelebilecek bir bilgidir. ACID’i açıklayabilmek ve mantığını anlamak gerekir.
+
+**ACID** tanımına göre şunu söyleyebiliriz. Bir veritabanı ancak başarılı işlem sonuçlarını içeriyorsa tutarlıdır. **ACID** uyumlu herhangi bir veritabanı, sadece başarılı transactionların işlenmesini sağlayacaktır. Eğer bir transaction tamamlanmadan önce bir problem oluşursa hiçbir veri değiştirilemeyecektir.
+
+Böylece, **ACID** uyumlu DBMS (Database Management System)'ler transaction işleminde bir sorun oluşsa bile bu yapıyı kullananlara veri bütünlüğünü koruyacağına dair bir güven sağlamış oluyor.
 
 ## Atomicity (Bölünmezlik)
 
