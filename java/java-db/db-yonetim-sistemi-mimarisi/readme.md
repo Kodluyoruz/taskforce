@@ -6,6 +6,31 @@ Modern veri tabanı yönetim sistemleri istemci-sunucu (Client-Server) mimarisin
 
 ![veritabanı-calisma](figures/veritabanı-calisma.png)
 
+
+
+Aslında DBMS (Database Management Sytem) tasarımı mimariye bağlıdır. İstemci - Sunucu mimarisi, çok sayıda PC, web sunucusu, veri tabanı sunucusu ve ağlara bağlı diğer bileşenlerle başa çıkmak için kullanılabilir.  Bunu biraz daha açıklayalım.
+
+DBMS package mimarisi, bir adet sıkıca birbirine entegre edilmiş tekil mimariden, client/server (istemci/sunucu) olarak tanımlayabileceğimiz modern DBMS package mimarisine doğru gelişmiştir. Artık büyük merkezi bir bilgisayar yerine yüzlercesine ayrılmış ve kişisel bilgisayarlar web server, database server, file server (dosya server), application server(uygulama server) gibi birçok bilgisayar ile iletişim halinde olmaya başlamışlardır. DBMS mimarisi 2 module dayanıyor diyebiliriz.
+
+* Client Module : İş yerleri ve kişisel bilgisayarlar bu gruba girer. Yani uygulama ve arayüzler üzerinden database' e bağlananlardır. Client modulu kullanıcı etkileşimini elinde bulundurur ve GUI (Grafical User Interface) gibi kulanıcı dostu arayüz sağlar.
+* Server Module : Veri saklama, ulaşım, arama ve diğer fonksiyonları sağlar.
+
+Bir DBMS tasarımı mimarisine bağlıdır.Merkezi, merkezi olmayan ya da hiyerarşik bir yapıda olabilir. Örneğin, bir istemci sunucu mimarisinde, sunucu makinesindeki veri tabanı sistemleri, istemci makine tarafından yapılan istekleri çalıştırabilir.
+
+											## 																	DBMS Mimari türleri
+
+![databasearchitecture](figures/dbms-architecture.png)
+
+
+
+DBMS mimarisi tek katmanlı veya çok katmanlı olarak görülebilir. Yukarıdaki resimde de görüldüğü gibi 3 farklı mimari gözükmektedir.
+
+* ## 1 Katmanlı Mimari
+
+  
+
+
+
 ## Veri Modeli
 
 Veri tabanları verilerin tablolar halinde saklandığı alanlardı. Bu veriler kalıcı diskte (Hard-Disk) belli bir format biçiminde saklanır. Veri tabanı aşağıdaki 3 yapıdan oluşur.
