@@ -47,8 +47,6 @@
 -  State management
 -  Styling
 
-#### Serverless ####
-
 #### Projeler ####
 - Recipe Card Advanced
 - Instagram Clone
