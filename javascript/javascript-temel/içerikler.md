@@ -244,7 +244,26 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 
 #### Form ####
 - [Form ve Form Submit Yönetimi](form-ve-form-submit-yonetimi/)
+  - Sorular
+    - Kullanıcıdan, gizli kalması gereken bilgileri aldığımızda kullanmamız gereken method hangisidir?
+      - GET
+      - POST (Doğru)
+      - PUT
+      - DELETE
+    - Form'un içindeki form elementlerinin(input) value'su her değiştiğinde bu değişen value'yu bizim her defasında elde etmemize olanak sağlayan event hangisidir?
+      - handleSubmit
+      - handleChange
+      - onSubmit
+      - onChange (Doğru)
+  - Video
+    - https://www.youtube.com/watch?v=bU3iC5eA3M4
+    - JavaScript ile form'un GET veya POST işlemi olmadan önce denetimini yapabilir, default tepkisini değiştirebiliriz. Bu videoda form yönetimi konusunu anlattık.
 - [Input içerisinden Değer Almak](input-icerisinden-deger-almak/)
+  - Sorular
+    - X
+  - Video
+    - https://www.youtube.com/watch?v=q7HfV7f39tI
+    - Bu videoda; form yönetimi ile birlikte ınput içerisindeki bilgiyi nasıl alıp kullanabileceğimizi anlattık.
 
 #### Dizi(Array) Veri Tipiyle Çalışmak ####
 - [Dizi(Array) Oluşturmak ve Dizi İçindeki Elemanlara Ulaşmak](dizi(array)-olusturmak-ve-dizi-i̇cindeki-elemanlara-ulasmak/)
