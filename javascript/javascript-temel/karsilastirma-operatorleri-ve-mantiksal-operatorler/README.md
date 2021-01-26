@@ -112,20 +112,6 @@ console.log(!(a>11 || b="kodluyoruz"))  "Ekranda çıkan sonuç = false"
 ```
 ! (değil) mantıksal operatörümüz çalışma mantığı çıkan sonucumuzun tam tersini vermesidir. Yukarıda verdiğimiz örnek ! operatörü olmadan true sonucu döndürücektir fakat ! operatörümüz çıkan true sonucu terse çevirdiği için sonuç **false** dönecektir.
 
-### Sorular
-
-- Aşağıdaki logların hangisinde sonuç hem değer olarak hem tür olarak karşılaştırıldıktan sonra ekran yazdırılır?
-  - ```console.log(a==b)```
-  - ```console.log(a!=b)```
-  - ```console.log(a>=b)```
-  - ```console.log(a===b)```(Doğru)
-
-- ```var user="guest"; var price=1;``` verilen değişkenlere göre aşağıdakilerin hangisinde sonuç true dönecektir?
-  - ```console.log(price>0 && !user=="guest")```
-  - ```console.log(price>0 && user=="guest")```(Doğru)
-  - ```console.log(price>2 && user=="guest")```
-  - ```console.log(!(price>0 && user=="guest"))```
-
 ### Kaynakça
 
 Kodluyoruz Frontend End 101 Video Eğitimi - Hakan Yalçınkaya
@@ -273,22 +259,6 @@ c) false
 
 
 
-Peki sizce alttaki kod parçası ne döner? (Cevap sayfa sonunda)
-
-``` javascript
-console.log(!!2) 
-```
-
-a) false
-
-b) true
-
-c) hata verir
-
-d) 2 
-
-
-
 Konuyu pekiştirmek adına aşağıdaki alıştırmaları yapabilirsiniz:
 
 - [alıştırma 1](https://codepen.io/b-ra-irin/pen/bGwjgJd?editors=0011)
@@ -303,10 +273,3 @@ Konuyu pekiştirmek adına aşağıdaki alıştırmaları yapabilirsiniz:
 console.log(2 && 5 && 9 && 7) // 7 (&& operatörü falsy değer bulamazsa okuduğu son değeri döner.)
 console.log(null ||NaN || 0 || undefined) // undefined (|| operatörü truthy değer bulamazsa okuduğu son değeri döner.)
 ```
-
-
-
-```javascript
-console.log(!!2) // !2 false dönüyorsa !!2 true dönecektir. 
-```
-
