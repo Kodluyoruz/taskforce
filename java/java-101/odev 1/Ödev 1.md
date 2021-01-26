@@ -1,4 +1,4 @@
-Ödev 1
+# Ödev 1
 **ArrayList** adında yeni bir sınıf oluşturun. Bu sınıf bir koleksiyon sınıfı olacaktır. Sınıf arka planda bir dizi tutacaktır, eklenen elemanlar bu dizide tutulacak ve gerekirse dizinin boyutu artırılacaktır.
 
 **ArrayList** sınıfının özellikleri şu şekilde olacaktır:
