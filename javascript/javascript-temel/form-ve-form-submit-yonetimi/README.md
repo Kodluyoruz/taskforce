@@ -159,22 +159,6 @@ Bu form ekranımızda submit ettiğimiz takdirde linkimizin değiştiğini göre
 
 Yukarıdaki örneğimizde onSubmit eventi için handleSubmit, onChange eventi için handleChange function'larını kullanıyoruz. handleChange'e ve handleSubmit'e tetiklenen değeri yani event'i gönderiyoruz ve function'larımızda karşılıyoruz. handleChange'te (e.target.name) hangi inputun değerini okuduğumuzu e.target.value ise o inputun value'sunu verir.Bu değerleri globalde tanımladığımız değişkenlere atadık. Böylece submit olduğumuz anda bu değerleri artık kullanabilir duruma geldik. Bu değer ile artık formumuz submit olduğunda ne yapmak istiyorsak onu yapabiliriz.
 
-### Sorular
-
-1. Kullanıcıdan, gizli kalması gereken bilgileri aldığımızda kullanmamız gereken method hangisidir?
-
-- [ ] GET
-- [x] POST
-- [ ] PUT
-- [ ] DELETE
-
-  2.Form'un içindeki form elementlerinin(input) value'su her değiştiğinde bu değişen value'yu bizim her defasında elde etmemize olanak sağlayan event hangisidir?
-
-- [ ] handleSubmit
-- [ ] handleChange
-- [ ] onSubmit
-- [x] onChange
-
 ### KAYNAK
 
 - http://kod5.org/html5-form-nesneleri-ve-kullanimi-1/
