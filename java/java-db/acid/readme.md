@@ -12,7 +12,7 @@ Transaction, bir veya daha fazla adımdan oluşan tek bir mantıksal işlemdir. 
 
 Bu iş süreci (transaction) iki işlem parçasından oluşur. 100 TL senin hesabından azaltılıp sana ait bakiye bilgileri güncellenir, ardından 100 TL arkadaşın hesabına +100 olarak işlenir ve güncellenir. İşte bu işlem bütünlüğü garanti altına alınmalıdır. Alınamaz ise tutarsız verilerle karşılaşılır. Böylece veri bütünlüğü bozulur. Eğer sizden 100 TL çektikten sonra bir hata oluşursa ve arkadaşınızın hesabına bu ücret yatırılamaz ise tutarsız bir durum oluşacağı aşikardır. Yine mülakatlarda size soru olarak gelebilecek bir bilgidir. ACID’i açıklayabilmek ve mantığını anlamak gerekir.
 
-**ACID** tanımına göre şunu söyleyebiliriz. Bir veritabanı ancak başarılı işlem sonuçlarını içeriyorsa tutarlıdır. **ACID** uyumlu herhangi bir veritabanı, sadece başarılı transactionların işlenmesini sağlayacaktır. Eğer bir transaction tamamlanmadan önce bir problem oluşursa hiçbir veri değiştirilemeyecektir.
+**ACID** tanımına göre şunu söyleyebiliriz. Bir veritabanı ancak başarılı transaction sonuçlarını içeriyorsa tutarlıdır. **ACID** uyumlu herhangi bir veritabanı, sadece başarılı transactionların işlenmesini sağlayacaktır. Eğer bir transaction tamamlanmadan önce bir problem oluşursa hiçbir veri değiştirilemeyecektir.
 
 Böylece, **ACID** uyumlu DBMS (Database Management System)'ler transaction işleminde bir sorun oluşsa bile bu yapıyı kullananlara veri bütünlüğünü koruyacağına dair bir güven sağlamış oluyor.
 
@@ -26,13 +26,27 @@ Ortam Hatası (Media Failure) : Bir depolama cihazından yazamama veya okuyamama
 
 Ortam hatası, Transaction ve Sistem hatasına göre daha nadir olan bir hata türüdür.
 
+## ACID Uyumluluğu
+
+R-DBMS (Relational Database Management System) ' ler ACID ilkelerine sahiptir. Verilerin yazılımsal veya donanımsal problemleri oluştuğunda veya başarısız işlemlerde tutarlı olmasını sağlayan özellikler içerir. NoSQL veritabanları ise biraz farklı bir yapıdadır. Yani NoSQL veritabanları genellikle bir kümede kullanılabilirlik sağlamak için tasarlanır. Tutarlılık ve dayanıklılık bir noktaya kadar feda ediliyor demektir. Çoğu NoSQL DBMS bir seviyeye kadar atomiklik sağlıyor.
+
+Çoğu NoSQL DBMS tutarlı bir yapıda çalışır. Veriler bir süre için senkronize olmayabilir. Ancak sonunda senkronize olacaktır.
+
+MarkLogic, OrientDB ve Neo4j gibi NoSQL veritabanı türleri ACID uyumlu bir yapı sunarlar. 
+
 ## Atomicity (Bölünmezlik)
 
 Bir iş sürecinde (transaction) yapılacak işlemler sıralı bir şekilde birden fazla olabilir. Veri tabanında yapılacak olan bu işlemler kümesi bir bütün olarak ele alınır. Yapılan işlemlerinden herhangi bir tanesi tamamlanamaz ise diğer tüm işlemlerde geçersiz sayılmalıdır. Eğer böyle hatalı bir durum varsa o ana kadar yapılan tüm işlemler geri alınır. Fakat, işlemlerin hepsi başarılı ise o iş süreci sonlandırılır.
 
+İşlemin kısmen bilinmeyen bir duruma kadar tamamlandığı servis talepleri oluşturarak çökmeleri ve kesintileri önlemek için kullanışlıdır. Atomik olmayan bir işlem sırasında bir problem oluşursa, işlem kesintiye uğramadan önce ne kadar ilerlendiği bilinemez. Atomicity (Bölünmezlik) kullanılarak işlemin tamamının başarıyla tamamlandığından veya hiçbirinin tamamlanmadığından emin olunur.
+
 ## Consistency (Tutarlılık)
 
 Veri tabanında yapılan işlemlerde hep aynı girdiler ile hep aynı çıktıları almalıyız. İşte bu tutarlılığı gösterir. 
+
+Aslında veri bütünlüğü kısıtlamalarının sürdürülmesi anlamına gelir. Tutarlı bir işlem de, veri tabanı kuralları ile bütünlük kısıtlamalarını ihlal edemeyecektir.Tutarlılığı zorunlu hale getirmek (veri bütünlüğü kısıtlamalarının ihlal edilmesi ile) ilerleyen süreci durdurmayı ve değişikliklerin yasal duruma geri döndürülmesi sağlanır.
+
+Her işlem de veri tabanı içinde tutarlılık sağlamanın bir başka yöntemi de, veri tabanına yerleştirilen bildirime dayalı kısıtlamaları uygulamaktır. Örnek : Tüm müşteri hesaplarının pozitif bir bakiyeye sahip olması gerektiği olabilir. İşlem, bir müşteri bakiyesini negatif bakiyeye getirirse, bu işlem geri alınır. Bu şekilde veri bütünlüğünü korumada  değişikliklerin başarılı olmasını veya tamamen iptal edilmesini sağlar.
 
 ## Isolation (İzolasyon)
 
