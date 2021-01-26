@@ -35,9 +35,16 @@ DBMS mimarisi tek katmanlı veya çok katmanlı olarak görülebilir. Yukarıdak
 
   Örneğin veri tabanımızda öğrenci kayıtları olduğunu düşünelim. Öğrenci kayıtlarını almak için istek yapıp ve kayıtların veri tabanından sizin tarafınızdan getirilecektir. Bu tür yapılar yerel veri tabanı sistemi olarak adlandırılır.
 
-  ## 
+* ## 2Katmanlı Mimari
 
-  
+  ![2-tier](figures/2-tier.png)
+
+  2 katmanlı mimari, istemci sunucu mimarisine dayanır. Doğrudan iletişim istemci ve sunucu arasında gerçekleşir. İstemci tarafındaki uygulamalar, sunucu  veri tabanı ile doğrudan iletişim kurabilir. Yani veri tabanı sistemi server da bulunur. İstemci SQL gibi bir sorgu dili kullanarak sunucuda bulunan veri tabanına veri tabanına erişimde bulunduğunda  sunucu isteği veri tabanında gerçekleştirir ve sonucu istemciye geri döndürür. Bu kısım için API'lar kullanılabilir. Örnek ODBC, JDBC gibi.
+
+  - Kullanıcı arayüzleri ve uygulama programları istemci tarafından çalıştırılır. 
+  - Sunucu, sorgu işleme ve benzeri işlemleri sağlar.
+
+  DBMS ile iletişim kurmak için, istemci uygulaması sunucu ile bağlantı kurar.
 
 ## Veri Modeli
 
