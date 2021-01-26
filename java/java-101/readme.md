@@ -22,21 +22,23 @@
   - [İlkel Veri Tipleri](veri-tipleri/)
   - [Tür Dönüşümleri](tur-donusumleri/)
   - [Unicode Karakter Sistemi](unicode-karakter-sistemi/)
-  
+
 #### Diziler (Arrays) ####
   - [Diziler (Arrays)](arrays/)
-  
+  - [Ödev -Arraylist](odev 1/)
+
 #### Temel Operatörler & Aritmatik Operatörü ####
   - [Temel Operatörler & Aritmatik Operatörü](operatorler-aritmatik-operatoru/)
   - [İlişkisel ve Eşitlik Operatörleri](iliskisel-esiktik-oparotorleri/)
   - [Bitsel Operatörler](bitsel-operatorler/)
   - [Mantıksal Operatörler](mantıksal-operatorler/)
   - [Operatör Önceliği](operator-onceligi/)
-  
+
 #### Koşullar ####
  - [If Statements](if-statements/)
+ - [Ödev-Koşul-Bankomat](odev 5/)
  - [Java "switch-case" Yapıları](switch-case/)
- 
+
 #### Döngüler ####
   - [Loops(for, foreach, while)](loops/)
   - [While Döngüsü](while/)
@@ -44,20 +46,24 @@
   - [For Döngüsü](for-loops/)
   - [Break & Continue](break-continue/)
   - [For-Each & Nested Loops](for-each-nested-loops/)
-  
+
 #### Numbers & Strings ####
   - [Numbers & Strings](numbers-strings/)
-  
+  - [Ödev-Sayı-Bulma](odev 6/)
+
 #### Date & Time #### 
   - [Date & Time](date-time/)
-  
+  - [Ödev-Saat](odev 2/)
+
 #### Matrisler (Matrice) ####
   - [Matrisler (Matrice)](matris-islemleri/)
-  
+  - [Ödev-Matris-Oluşturma](odev 3/)
+
 #### Java Regular Expressions ####
   - [Java Regular Expressions](regular-expressions/)
+  - [Ödev-Regex](odev 7/)
   - [Java'da Paketler (Packages)](paketler/)
-  
+
 #### Exception Handling ####
   - [Exception Handling](exception-handling/)
   - [İstisnai Durumların Yönetilmesi](istisnai-durumlarin-yonetilmesi/)
