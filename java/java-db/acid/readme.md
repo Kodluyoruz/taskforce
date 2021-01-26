@@ -52,6 +52,14 @@ Her işlem de veri tabanı içinde tutarlılık sağlamanın bir başka yöntemi
 
 Bir transaction’ın tüm işlemleri tamamlanana kadar diğer transactionlar tarafından yapılan değişiklikler ilgili transaction tarafından görülmez. Her transaction birbirinden bağımsız çalışır. İşlem sırasında birbirlerine müdahale etmezler. Veya dışarıdan bir müdahaleyi kabul etmezler. Bu izolasyonu ifade eder.
 
+Yukarıdaki tanımı biraz açıklayalım :
+
+İzole edilmiş işlemler(transaction) serileştirilebilir olarak kabul edilebilir. Her işlem, ardışık olarak gerçekleşen herhangi bir işlem (transaction) olmaksızın farklı bir sırada gerçekleşir. Veri tabanında gerçekleştirilen okuma veya yazma işlemi, aynı veri tabanında gerçekleşen ayrı işlemlerin diğer okuma ve yazmalarından etkilenmeyecektir. İşlemlerin bir diğeri başlamadan önce bütünü ile tamamlanmasını sağlamak için sıraya giren her işlem ile birlikte genel bir durum oluşturulur. İki işlemin yapılamayacağı anlamına gelmez bu durum. Yani işlemlerin aynı anda gerçekleşen diğer işlemleri etkileme olasılığı olmadığı sürece birden fazla işlem gerçekleşebilir.
+
+Birçok işlemi (transaction) başlatmadan önce beklemeye zorlayabileceğinden transactionların hızı etkilenebilir. Bu durum isolation sağladığı ek veri güvenliğine değer.
+
+İzolasyon, optimistic transactions ve pessimistic transactions olarak adlandırılan transactions arasında gidip gelen bir izin verilebilirlik ölçeğinin kullanılması ile yapılabilir. **Optimistic Transaction** aynı yere iki kez okunmadan veya yazmadan tamamlanacağını varsayar. Yani bir işlemin aynı yere iki kez gelmesi durumunda her iki işlemde iptal edilir ve yeniden denenir. **Pessimistic Transaction** transactions diğerlerini etkileyeceği varsayımıyla kaynakları kilitler. 
+
 ## Durability (Sağlamlık)
 
 Bir transaction içinde hata oluşursa geri dönme yeteneğine sahip olmalıdır. Hata oluşursa bir önceki ilk noktaya dönülebilmelidir. Eğer transaction başarılı bir şekilde biterse bu durum loglanmalıdır ve başarılı olduğuna dair mesaj verilmelidir.
