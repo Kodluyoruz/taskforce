@@ -27,9 +27,17 @@ DBMS mimarisi tek katmanlı veya çok katmanlı olarak görülebilir. Yukarıdak
 
 * ## 1 Katmanlı Mimari
 
+  ![1tier](figures/1-tier.png)
+
+   
+
+  Tek katmanlı mimari, bir yazılım uygulaması veya teknolojisi için gerekli tüm bileşenlerin tek bir sunucu veya platforma yerleştirilmesini içerir. Buradan yapılan herhangi bir değişiklik doğrudan veri tabanının kendisinde yapılacaktır. Ağ bağlantısı gerektirmez. 1 Katmanlı mimari, veri tabanı ile doğrudan iletişim kurabildiği için yerel uygulama geliştirmede tercih edilir. Veri tabanı tasarımcıları ve programcıları normalde tek katmanlı mimari kullanmayı tercih ederler.
+
+  Örneğin veri tabanımızda öğrenci kayıtları olduğunu düşünelim. Öğrenci kayıtlarını almak için istek yapıp ve kayıtların veri tabanından sizin tarafınızdan getirilecektir. Bu tür yapılar yerel veri tabanı sistemi olarak adlandırılır.
+
+  ## 
+
   
-
-
 
 ## Veri Modeli
 
