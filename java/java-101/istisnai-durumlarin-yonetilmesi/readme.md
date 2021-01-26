@@ -2,12 +2,22 @@
 
 Hata durumlarını yönetmek için 2 yöntem vardır.
 
-- Try-catch blokları ile hatayı kontrol altına almak
-- Hatayı throws anahtar kelimesi ile çağrıldığı bir üst noktaya fırlatmak
+- Try-catch blokları ile hatayı alınacağı tahmin edilen yerde kontrol altına alabiliriz veya
+- Hatayı throws anahtar kelimesi ile çağrıldığı bir üst noktaya fırlatarak, çözümün orada yapılmasını zorunlu hale getiririz.
 
 ## &quot;try-catch-finally&quot; Mekanizması
 
-Bu yöntem hata oluştuğunda &quot;catch&quot; bloğu adını verdiğimiz kod bloğuna düşer ve biz hataya dair işlemlerimizi burada yaparız. &quot;try-catch&quot; mekanizmasının kullanımı maliyetlidir. Yani, programınızın her noktasını gerekli gereksiz &quot;try-catch&quot; ile doldurursanız programınız performans sorunu yaşayabilirsiniz.
+Bu yöntemde öncelikle hata oluşacağı tahmin edilen ve izlenmesi gereken kod satırları "try" bloğu içerisine alınır.
+Hata oluşmadığı durumda buradaki istenilen işlemler tamamlanacak ve kod sorunsuz bir şekilde devam edecektir ancak 
+hata oluştuğunda &quot;catch&quot; bloğuna düşecektir. 
+
+"catch" bloğu aldığımız hatayla nasıl baş edeceğimizi programladığımız bloktur. Bu yapı hatalarda programımızın
+nasıl davranacağını, kapatılacaksa bile gerekli verilerin kaydedilmesini ve programın bilinçli bir şekilde
+kapatılmasına veya sistemin hata durumlarıda gerekli önlemleri alarak çalışmasını sürdürmesini sağlar.
+Bu sayede yapacağımız uygulama daha kararlı bir şekilde çalışacaktır.
+
+&quot;try-catch&quot; mekanizmasının kullanımı maliyetlidir. Bu nedenle, "try-catch" bloklarını gerekli yerlerde
+kullanmak gerekir.
 
 ````java
 public class DataConverter {
@@ -60,7 +70,23 @@ public class DataConverter {
    }
 ````
 
-Yukarıdaki örnekte ilk önce gelen hatanın &quot;NumberFormatException&quot; tipinde olup olmadığına bakılır. Eğer gelen hata bu tipte değilse, sonra sırayla alttaki catch blokları kontrol edilir. Uygun hata hangi bloğa denk geliyorsa o &quot;catch&quot; bloğu işletilir.
+Yukarıdaki örnekte ilk önce gelen hatanın &quot;NumberFormatException&quot; tipinde olup olmadığına bakılır. 
+Eğer gelen hata bu tipte değilse, sonra sırayla alttaki catch blokları kontrol edilir. Uygun hata hangi bloğa denk 
+geliyorsa o &quot;catch&quot; bloğu işletilir.
+
+Aynı zamanda Exception sınıfındaki hiyerarşik yapısında bulunan sıraya göre bu bloklar sıralanmalıdır.  
+
+````java
+   catch (Exception e) {
+    ...
+   }
+   catch (NullPointerException e) {
+    ...
+   }
+````
+Bu örnekteki gibi sıralanmış bir "catch" bloğunda en genel "Exception" sınıfı kullanıldığı için gelen her "Exception" bu blok tarafından yakalancak ve o blok çalışacaktır.
+Bu "NullPointerException" bloğundaki davranışın hiç çalışmamasına yani programda "NullPointerException" yakalandığı zaman uygulamanın beklendiği gibi davranmamasına neden olacaktır.
+
 
 Eğer, belirli hata tiplerine göre işlemler yaptırmanız gerekmiyorsa tek bir &quot;catch&quot; bloğu yazıp tüm hataların aynı &quot;catch&quot; bloğuna düşmesini sağlayabilirsiniz. Bunun içinde ATA sınıf olan &quot;Exception&quot; tipinde bir hata tipi belirtmeniz gerekir.
 
@@ -103,4 +129,7 @@ public int readIntFromKeyboard() {
 }
 ````
 
-Yukarıdaki örnekte &quot;Scanner&quot; sınıfından bir nesne üretiyoruz. Bu nesne klavyeden girilen değeri alıyor. Aldığımız değeri int tipinde bir sayıya dönüştürüyoruz. Bu dönüşüm esnasında bir hata olsun ya da olmasın &quot;finally&quot; bloğunda &quot;Scanner&quot; sınıfının dinlediği Stream&#39;i close ediyoruz.
+Yukarıdaki örnekte &quot;Scanner&quot; sınıfından bir nesne üretiyoruz. Bu nesne klavyeden girilen değeri alıyor. 
+Aldığımız değeri int tipinde bir sayıya dönüştürüyoruz. Bu dönüşüm esnasında bir hata olsun ya da olmasın &quot;finally&quot; 
+bloğunda &quot;Scanner&quot; sınıfının dinlediği Stream&#39;i close ediyoruz.
+

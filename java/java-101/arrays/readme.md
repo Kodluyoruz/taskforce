@@ -47,7 +47,7 @@ Yukarıdaki örnekte myList isimli diziye ilk değerleri hemen verilmiştir. Sü
 
 Ardından, bir &quot;for&quot; döngüsü ile dizi elemanları ekrana yazdırılır.
 
-### Dizileri fonksiyonlara parametre olarak göndermek
+### Dizileri Fonksiyonlara Parametre Olarak Göndermek
 
 Tanımladığınız dizileri fonksiyonlara parametre olarak gönderebilirsiniz.
 
@@ -65,7 +65,7 @@ public static void printArray(int[] array)
 
 printArray ( int[] array ) kırmızı olarak işaretlediğimiz yer diziyi yerel değişken olarak fonksiyona gönderdiğimiz noktadır. Java&#39;da tüm değişkenler &quot;Pass by Value&quot; yöntemiyle geçilir. Bu şu demektir. Sizin tanımladığınız değişkenin, nesnenin veya dizinin birebir kopyası oluşturulur. Bu kopya değer fonksiyona yerel değişken olarak gider. Bu Java mülakatlarında size sorulabilecek bir detaydır.
 
-### Dizileri fonksiyonlardan geri döndürmek
+### Dizileri Fonksiyonlardan Geri Döndürmek
 
 Fonksiyonlar belli bir işi yapıp sonucunda değer dönebilen veya dönmeyen kod bloklarıdır. Fonksiyonlar için altın kural, her fonksiyonun tek bir işi olmalıdır. Örneğin: dizi ortalaması alma işi yapan bir fonksiyon dizileri ekrana yazdırma işini yapmamalıdır. Veya dizilerin ortalamasını alma işi ile dizileri toplama işlemi aynı fonksiyon içinde olmamalıdır. Her biri ayrı fonksiyonlar olmalıdır.
 
@@ -163,4 +163,29 @@ Her dizinin **length** adında bir özelliği bulunur. Bu özelliği kullanarak 
 ```java
 int[] numbers = new int[100];
 System.out.println(numbers.length); // Konsolda 100 yazar
+```
+
+### Dizinin Bir Elemanını Değiştirme
+
+```java
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+cars[0] = "Opel";
+cars[2] = "Toyota";
+
+System.out.println(cars[0]);
+```
+### Dizi İçinde Foreach Döngüsü İle Gezinme
+
+Dizi içinde aşağıdaki gibi bir notasyonla dolaşılıp işlem yapılabilir.
+```java
+
+int countPositive=0;
+int[] numbers={-5,3,4,-2,6,-8,7};
+for(int number:numbers){
+   if(number>0){
+     countPositive++;
+     }
+}
+System.out.printLn("Positive item count of array:"+countPositive)
+
 ```
