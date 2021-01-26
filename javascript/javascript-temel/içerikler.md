@@ -175,13 +175,72 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 
 #### Fonksiyonlar ####
 - [Fonksiyon Nedir ? Neden Kullanırız?](fonksiyon-nedir-neden-kullaniriz/)
+  - Sorular
+    - Javascript'te fonksiyon nasıl yaratılır?
+      - `function:myFunction()`
+      - `function = myFunction()` (Doğru)
+      - `function myFunction()`
+    - myFunction isimli fonksiyon nasıl çağrılır?
+      - `myFunction()` (Doğru)
+      - `call function myFunction()`
+      - `call myFunction()`
+  - Video
+    - https://www.youtube.com/watch?v=_H5weWiEQYw
+    - Bu videoda; fonksiyon nedir ve nasıl tanımlanır konularını anlattık.
 - [Fonsiyona Parametre(params) ve Geridönüş(return) Eklemek](fonsiyona-parametre(params)-ve-geridonus(return)-eklemek/)
+  - Sorular
+    - X
+  - Video
+    - https://www.youtube.com/watch?v=J4hxdAfxayA
+    - Bu videoda; function içerisinde parametre kullanımını ve  return ile function içerisinden bilgi dönme konularını işledik.
 - [Fat Arrow () => Fonksiyonu Kullanımı](fat-arrow-fonksiyonu-kullanimi/)
+  - Sorular
+    - X
+  - Video
+    - https://www.youtube.com/watch?v=Tv7iBzbMDcI
+    - Bu videoda; ES6 ile birlikte standartlaşmış olan Arrow Function(fat arrow) kullanımını hep birlikte inceleyeceğiz.
 - [DOM Etkinlikleriyle Çalışmak](dom-etkinlikleriyle-calismak/)
+  - Sorular
+    - X
+  - Video
+    - https://www.youtube.com/watch?v=7qF9WvUsdF8
+    - DOM içerisinde her yapının tıklanma, mouse ile üzerine gelme gibi birçok etkinliğini takip edebiliriz. Bu özelliklere genel bakışı ve DOM Events(etkinlikler) yapısını nasıl kullanabileceğimizi bu videoda anlattık.
 
 #### localStorage ####
 - [localStorage ile Veri Eklemek, Düzenlemek ve Silmek](localstorage-ile-veri-eklemek-duzenlemek-ve-silmek/)
+  - Sorular
+    - LocalStorage ve SessionStorage'da hangi veriler saklanmalıdır? Bunlara kimler erişebilir? Erişildiğinde düzenleme yapılabilir mi?
+      - Cevap: LocalStorage'da güvenlik ihlaline sebep olmayacak ve önem arz etmeyen veriler saklanmalıdır. Bunlara hem tarayıcı üzerinden kullanıcı hemde erişim izni verildi ise üçüncü parti programlar erişebilir veya düzenleme yapabilir.
+    - LocalStorage ve SessionStorage'a JavaScript üzerinden değilde başka bir yoldan veri eklemek, düzenlemek veya silmek mümkünmüdür?
+      - Verileri tarayıcı üzerinden ekleyip çıkarmak veya üzerinde düzenleme yapmak mümkündür.
+  - Video
+    - https://www.youtube.com/watch?v=VYbkY1RK6mc
+    - Bu videoda; kullandığımız browser içerisinde bulunan localStorage'a veri ekleme, veriyi düzenleme, çağırma ve silme işlemini anlattık.
 - [localStorage içerisine Farklı Türde Veriler Eklemek](localstorage-icerisine-farkli-turde-veriler-eklemek/)
+  - Sorular
+    - localStorage hangi veri türünde data tutar?
+      - Boolean
+      - String (Doğru)
+      - Object
+      - Number
+    - `var movies = ["Kasaba", "Kış uykusu","Bir Zamanlar Anadolu"]` Verilen movies dizisini localStorage alanına nasıl kaydetmeliyiz?
+      - `localStorage.setItem("Nuri Bilge Ceylan", movies);`
+      - `localStorage.getItem("Nuri Bilge Ceylan", movies);`
+      - `localStorage.setItem("Nuri Bilge Ceylan", JSON.stringfy(movies));` (Doğru)
+      - `localStorage.getItem("Nuri Bilge Ceylan" , JSON.stringfy(movies));`
+    - localStorage alanına kaydedilen veriye nasıl erişiriz ?
+      - `var retrievedData = JSON.parse(localStorage.getItem("Nuri Bilge Ceylan"))` (Doğru)
+      - `var retrievedData = JSON.parse(localStorage.setItem("Nuri Bilge Ceylan"))`
+      - `var retrievedData = localStorage.setItem("Nuri Bilge Ceylan")`
+      - `var retrievedData = localStorage.getItem("Nuri Bilge Ceylan")`
+    - localStorage alanından kaydedilen bütün verileri nasıl sileriz?
+      - `localStorage.clearItem()`
+      - `localStorage.remove()`
+      - `localStorage.removeItem(key)`
+      - `localStorage.clear()` (Doğru)
+  - Video
+    - https://www.youtube.com/watch?v=WwpupdrxVs8
+    - Bu videoda; localStorage içerisinde farklı türde verileri nasıl tuttuğumuzu ve nasıl kullanabileceğimizi anlattık.
 
 #### Form ####
 - [Form ve Form Submit Yönetimi](form-ve-form-submit-yonetimi/)
