@@ -19,7 +19,6 @@
 
 #### Internet
 
-- [İnternet'in Temelleri](internet/)
 - [İnternet Nedir?](internet-nedir/)
 - [Fiziksel Elemanlar ve Wifi](fiziksel-elemanlar/)
 - [IP Adres ve DNS'e Giriş](ipadres-dns-giris/)
@@ -55,7 +54,7 @@
 
 - [MultiCursor (Çoklu İmleç) Kullanımı](vs-coklu-imlec)
 
-- Klavye ile Çalışmak / Klavye Kısayol Tuşları
+- [Klavye ile Çalışmak / Klavye Kısayol Tuşları](vs-klavye-kisayollari/)
 
 - Snippets Kullanımı
 
