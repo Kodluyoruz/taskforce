@@ -16,6 +16,16 @@ Bu iş süreci (transaction) iki işlem parçasından oluşur. 100 TL senin hesa
 
 Böylece, **ACID** uyumlu DBMS (Database Management System)'ler transaction işleminde bir sorun oluşsa bile bu yapıyı kullananlara veri bütünlüğünü koruyacağına dair bir güven sağlamış oluyor.
 
+## Hata Türleri
+
+Transaction Hatası (Transaction Failure) : Hatalı giriş veya başka tutarsız bilgi nedeniyle bir transaction hatası oluşabilir.DBMS'de ki (Database Management System) zaman aşımı veya kilitlenmelerde olabilir.
+
+Sistem Hatası (System Failure) : DBMS (Database Management System)'de bir kod hatası Sistem hatasına neden olabilir. Ya da bir donanım problemide olabilir.
+
+Ortam Hatası (Media Failure) : Bir depolama cihazından yazamama veya okuyamama durumunu ifade eder. Ortamdan ve işletim sisteminden kaynaklanıyor olabilir. 
+
+Ortam hatası, Transaction ve Sistem hatasına göre daha nadir olan bir hata türüdür.
+
 ## Atomicity (Bölünmezlik)
 
 Bir iş sürecinde (transaction) yapılacak işlemler sıralı bir şekilde birden fazla olabilir. Veri tabanında yapılacak olan bu işlemler kümesi bir bütün olarak ele alınır. Yapılan işlemlerinden herhangi bir tanesi tamamlanamaz ise diğer tüm işlemlerde geçersiz sayılmalıdır. Eğer böyle hatalı bir durum varsa o ana kadar yapılan tüm işlemler geri alınır. Fakat, işlemlerin hepsi başarılı ise o iş süreci sonlandırılır.
