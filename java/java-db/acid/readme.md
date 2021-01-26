@@ -249,8 +249,23 @@ Savepoint -> Daha sonra geri dönülecek bir dönüş noktası belirler.
 > **KAYNAKÇA**
 >
 > - [ACID-Wikipedia](https://en.wikipedia.org/wiki/ACID)
+>
 > - [ACID Nedir?-Medium](https://medium.com/cloud-and-servers/acid-nedir-53f729f2bbb2)
+>
 > - [ACID](https://www.yusufsezer.com.tr/veritabani-acid/)
+>
 > - [ACID-Database.Guide](https://database.guide/what-is-acid-in-databases/#:~:text=In%20database%20systems%2C%20ACID%20(Atomicity,occur%20while%20processing%20a%20transaction.))
+>
 > - [ACID-bmcblogs](https://www.bmc.com/blogs/acid-atomic-consistent-isolated-durable/)
-> - 
+>
+> - [Sql Komutları](https://www.bilgigunlugum.net/dbase/sql/sql_drop)
+>
+> - [DML-DDL-DCL](https://medium.com/@seda.kardz/dml-ddl-dcl-komutlar%C4%B1-cc500da62757)
+>
+> - [DML-DCL-DDL-TCL Komutlar](https://tuncayuyar.wordpress.com/2014/05/21/ddl-dml-dcl-ve-tcl-komutlari-arasindaki-fark-nedir/)
+>
+> - [Sql komutları-Geeksforgeeks](https://www.geeksforgeeks.org/sql-ddl-dml-tcl-dcl/)
+>
+> - [Sql Command-w3schools](https://www.w3schools.com/sql/sql_syntax.asp)
+>
+>   
