@@ -10,8 +10,8 @@
 - [Props Children](props-children/)
 - [Event Handling](event-handling/)
 - [Conditional Rendering](conditional-rendering/)
-- [Ödev 2 - Yazı Tura](https://github.com/Kodluyoruz/yazi-tura)
-- [Ödev 3 - Todo App](https://github.com/Kodluyoruz/todo-app)
+- Ödev 2 - Yazı Tura
+- Ödev 3 - Todo App
 - [Component Lifecycle](component-lifecycle/)
 - Fragments
 - [Lists and Keys](list-and-keys/)
@@ -22,7 +22,7 @@
 - [Introduction to Hooks](basic-hooks/)
 - [Hooks](hooks/)
 - Hooks örneği - Hesap makinesi
-- [Ödev 4 - Shopping Cart](https://github.com/Kodluyoruz/shopping-cart)
+- Ödev 4 - Shopping Cart
 
 #### Context API ####
 - [Context API](context-api/)
