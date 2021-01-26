@@ -64,6 +64,14 @@ Birçok işlemi (transaction) başlatmadan önce beklemeye zorlayabileceğinden 
 
 Bir transaction içinde hata oluşursa geri dönme yeteneğine sahip olmalıdır. Hata oluşursa bir önceki ilk noktaya dönülebilmelidir. Eğer transaction başarılı bir şekilde biterse bu durum loglanmalıdır ve başarılı olduğuna dair mesaj verilmelidir.
 
+Aslında Sağlamlık, veri tabanında yapılan değişikliklerin, sistem hataları oluşsa bile kalıcı olarak ayakta kalması sağlanır. Bu durum veri tabanındaki  verilerin hizmet kesintilerinde, çökme durumlarında ve başka durumlarda bozulmamasını sağlar.
+
+
+
+Sonuç olarak ACID yaklaşımının her durumu başarılı olduğunda veri tabanları kuruluşa değer sağlamaya devam edebilmelerini sağlamak için en üst düzey veri bütünlüğü ve güvenliği ile korunur.
+
+Bozuk veri tabanlarına sahip veri tabanı, kullanıcılarına günlük işlemlerinde ve analizlerinde maliyet konusunda sorunlar yaratabilir.
+
 İlişkisel veri tabanı yönetim sistemlerinde veriyi sorgulamak için özel bir programlama dili kullanılır. Dünyada neredeyse standart halini almış bu dil SQL’dir. (Structural Query Language) (Yapısal Sorgulama Dili)
 
 
