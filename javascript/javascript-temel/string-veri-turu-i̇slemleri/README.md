@@ -102,29 +102,6 @@ Split metodu ile istenilen metin diziye çevrilebilir. Kullanılan parametre ile
 
 ![cikti](figures/12-cikti.png)
 
-## Sorular
-
-1. Regular Expressions işlemlerinde çok kullanılan metin içinde arama methodu hangisidir ?
-
-- [ ] indexOf Metodu
-- [ ] lastIndexOf Metodu
-- [ ] Slice Metodu
-- [x] Search Metodu
-
-2. Bir ifade arayıp, o ifadeyi başka bir metin ile değiştirmeye yarayan method hangisidir ?
-
-- [ ] Search Metodu
-- [ ] Concat Metodu
-- [x] Replace Metodu
-- [ ] indexOf Metodu
-
-3. Index numarası ile belirtilen karakterin Unicode değerini veren method hangisidir ?
-
-- [ ] Substring Metodu
-- [ ] Replace Metodu
-- [ ] Split Metodu
-- [x] charCodeAt Metodu
-
 ## Kaynaklar
 
 [JavaScript String Metotları](https://www.btdersleri.com/ders/JavaScript-String-Metotlar%C4%B1)
