@@ -1,4 +1,4 @@
-# ACID (Atomicity, Consistency, Isolation, Durability
+# ACID (Atomicity, Consistency, Isolation, Durability)
 
 İlişkisel veri tabanı yönetim sistemleri mimarisinde iş süreci (transaction) ve veri bütünlüğünü sağlamak için uyulması gereken kurallara ACID denilmektedir. İş süreci (transaction) kavramı bir işleminin ya bütünüyle yapılmasını ya da yapılan işlemlerin bütünüyle geri alınıp veri tutarlılığın sağlanmasını garanti altına demektir.
 
