@@ -22,10 +22,11 @@
 - [Introduction to Hooks](basic-hooks/)
 - [Hooks](hooks/)
 - Hooks örneği - Hesap makinesi
+- [Ödev 4 - Shopping Cart](https://github.com/Kodluyoruz/shopping-cart)
 
 #### Context API ####
-- [Context API](context-api/) 
-- [Ödev x - Shopping Cart](https://github.com/Kodluyoruz/shopping-cart)
+- [Context API](context-api/)
+- Ödev 5 - Shopping Cart Advanced
 
 #### Advanced Topics ####
 -  [Refs](refs/)
@@ -47,3 +48,8 @@
 -  Styling
 
 #### Serverless ####
+
+#### Projeler ####
+- Recipe Card Advanced
+- Instagram Clone
+- Linkedin Clone
