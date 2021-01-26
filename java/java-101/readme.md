@@ -25,7 +25,7 @@
 
 #### Diziler (Arrays) ####
   - [Diziler (Arrays)](arrays/)
-  - [Ödev -Arraylist](odev 1/)
+  - [Ödev -Arraylist](odev-1/)
 
 #### Temel Operatörler & Aritmatik Operatörü ####
   - [Temel Operatörler & Aritmatik Operatörü](operatorler-aritmatik-operatoru/)
@@ -36,7 +36,7 @@
 
 #### Koşullar ####
  - [If Statements](if-statements/)
- - [Ödev-Koşul-Bankomat](odev 5/)
+ - [Ödev-Koşul-Bankomat](odev-5/)
  - [Java "switch-case" Yapıları](switch-case/)
 
 #### Döngüler ####
@@ -49,19 +49,19 @@
 
 #### Numbers & Strings ####
   - [Numbers & Strings](numbers-strings/)
-  - [Ödev-Sayı-Bulma](odev 6/)
+  - [Ödev-Sayı-Bulma](odev-6/)
 
 #### Date & Time #### 
   - [Date & Time](date-time/)
-  - [Ödev-Saat](odev 2/)
+  - [Ödev-Saat](odev-2/)
 
 #### Matrisler (Matrice) ####
   - [Matrisler (Matrice)](matris-islemleri/)
-  - [Ödev-Matris-Oluşturma](odev 3/)
+  - [Ödev-Matris-Oluşturma](odev-3/)
 
 #### Java Regular Expressions ####
   - [Java Regular Expressions](regular-expressions/)
-  - [Ödev-Regex](odev 7/)
+  - [Ödev-Regex](odev-7/)
   - [Java'da Paketler (Packages)](paketler/)
 
 #### Exception Handling ####
