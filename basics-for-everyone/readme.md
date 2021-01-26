@@ -20,19 +20,19 @@
 #### Internet
 
 - [İnternet'in Temelleri](internet/)
-
+- [İnternet Nedir?](internet-nedir/)
+- [Fiziksel Elemanlar ve Wifi](fiziksel-elemanlar/)
+- [IP Adres ve DNS'e Giriş](ipadres-dns-giris/)
+- [Paketler, Yönlendirme ve Güvenirlik](paketler-yonlendirmeler/)
+- [HTTP ve HTML'e Giriş](http-html-giris)
+- [Şifreleme ve Public Key](internet-sifreleme/)
+- [Siber Güvenlik ve Suçlar](siber-guvenlik/)
 - [Browsers](Browsers/)
-
 - [IP](IP/)
-
 - [TCP](TCP/)
-
 - [HTTP](http/)
-
 - [DNS](DNS/)
-
 - [Domain name](domain-name/)
-
 - [Hosting](hosting/)
 
 
@@ -49,11 +49,11 @@
 
 - [Eklentiler](vs-eklentiler)
 
-- Panellerin Yönetimi, Dosyalar ile Çalışmak
+- [Panellerin Yönetimi, Dosyalar ile Çalışmak](vs-panellerinyonetimi)
 
 - [Terminal Kullanımı](terminal-kullanimi/)
 
-- MultiCursor (Çoklu İmleç) Kullanımı
+- [MultiCursor (Çoklu İmleç) Kullanımı](vs-coklu-imlec)
 
 - Klavye ile Çalışmak / Klavye Kısayol Tuşları
 
