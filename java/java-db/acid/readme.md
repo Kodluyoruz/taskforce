@@ -210,6 +210,28 @@ Veri tabanı veya tablolar üzerinde yetkilendirmeler yapabileceğimiz SQL komut
 
  GRANT, REVOKE, ALTER DEFAULT PRIVILEGES
 
+Grant ->  Veritabanı kullanıcısına, veri tabanı rolüne veya uygulama rolüne izinler vermek için kullanılan komuttur.
+
+Deny -> Kullanıcıların haklarını kısıtlayan komuttur.
+
+Revoke ->  Daha önce yapılan tüm kısıtlama ve izinleri iptal eden komuttur.
+
+Örnek Kullanım  :
+
+```sql
+REVOKE INSERT ON *.* FROM 'jeffrey'@'localhost';
+
+REVOKE 'role1', 'role2' FROM 'user1'@'localhost', 'user2'@'localhost';
+
+REVOKE SELECT ON world.* FROM 'role3';
+
+GRANT ALL ON db1.* TO 'jeffrey'@'localhost';
+
+GRANT 'role1', 'role2' TO 'user1'@'localhost', 'user2'@'localhost';
+
+GRANT SELECT ON world.* TO 'role3';
+```
+
 
 
 ## 4-   TCL (Transaction Control Language – İşlem Kontrol Dili) 
@@ -217,6 +239,8 @@ Veri tabanı veya tablolar üzerinde yetkilendirmeler yapabileceğimiz SQL komut
 Tabloların içindeki verileri değiştirmek için kullandığımız DELETE, UPDATE, INSERT gibi DML komutlarımız vardı. Bu komutlarla bir transaction içinde ardışıl şekilde değişiklikler yapabiliriz. İşte bu değişiklikleri yönetebilmek için kullanılan SQL komutlarıdır. Bir transaction başarılı ise DML komutlarının meydana getirdiği değişiklikler COMMIT komutuyla kalıcı olarak tablolara yansıtılır. Özetle veri kalıcı olarak değişir. Eğer, bir sorun varsa ROLLBACK komutu ile o ana kadar oluşan tüm değişimler geri alınır.
 
 COMMIT, ROLLBACK, SAVEPOINT
+
+
 
 > **KAYNAKÇA**
 >
