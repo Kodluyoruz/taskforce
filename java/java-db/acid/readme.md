@@ -240,7 +240,11 @@ Tabloların içindeki verileri değiştirmek için kullandığımız DELETE, UPD
 
 COMMIT, ROLLBACK, SAVEPOINT
 
+Commit -> Yapılan değişiklikleri kalıcı hale getirilir. İş artık tamamlanmıştır.
 
+Rollback -> Son commit e kadar olan yeri geri alır.
+
+Savepoint -> Daha sonra geri dönülecek bir dönüş noktası belirler.
 
 > **KAYNAKÇA**
 >
