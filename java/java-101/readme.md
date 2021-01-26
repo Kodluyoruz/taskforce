@@ -25,7 +25,7 @@
 
 #### Diziler (Arrays) ####
   - [Diziler (Arrays)](arrays/)
-  - [Ödev -Arraylist](odev 1/)
+  - [Ödev -Arraylist](odev1/)
 
 #### Temel Operatörler & Aritmatik Operatörü ####
   - [Temel Operatörler & Aritmatik Operatörü](operatorler-aritmatik-operatoru/)
