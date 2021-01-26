@@ -6,7 +6,7 @@
 - [Rendering Elements](rendering-elements/)
 - [Components](components/) 
 - [Props and State](props-and-state/)
-- [Ödev 1 - Recipe Card](https://github.com/Kodluyoruz/recipe-card)
+- Ödev 1 - Recipe Card
 - [Props Children](props-children/)
 - [Event Handling](event-handling/)
 - [Conditional Rendering](conditional-rendering/)
