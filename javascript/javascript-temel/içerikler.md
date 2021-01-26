@@ -135,9 +135,43 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 
 #### Karar Yapıları / Koşullar ####
 - [Karşılaştırma Operatörleri ve Mantıksal Operatörler](karsilastirma-operatorleri-ve-mantiksal-operatorler/)
+  - Sorular
+    - Aşağıdaki logların hangisinde sonuç hem değer olarak hem tür olarak karşılaştırıldıktan sonra ekran yazdırılır?
+      - `console.log(a==b)`
+      - `console.log(a!=b)`
+      - `console.log(a>=b)`
+      - `console.log(a===b)` (Doğru)
+    - `var user="guest"; var price=1;` verilen değişkenlere göre aşağıdakilerin hangisinde sonuç true dönecektir?
+      - `console.log(price>0 && !user=="guest")`
+      - `console.log(price>0 && user=="guest")` (Doğru)
+      - `console.log(price>2 && user=="guest")`
+      - `console.log(!(price>0 && user=="guest"))`
+    - `console.log(!!2);` kod parçaası ne döner?
+      - False
+      - True (Doğru)
+      - Hata Verir
+      - 2
+  - Video
+    - https://www.youtube.com/watch?v=XePaa7gw1qs
+    - Bu videoda; karşılaştırma operatörlerini ve mantıksal operatörleri anlattık.
 - [Koşul Yapısı Kullanımı (if / else)](kosul-yapisi-kullanimi-(if-else)/)
+  - Sorular
+    - X
+  - Video
+    - https://www.youtube.com/watch?v=il2GbdS_Oo0
+    - Bu videoda; if ve else yapısını, istediğimiz koşullara göre kod bloklarının nasıl çalıştırılabileceğini anlattık.
 - [Çoklu Koşul Yapısı Kullanımı](coklu-kosul-yapisi-kullanimi/)
+  - Sorular
+    - X
+  - Video
+    - https://www.youtube.com/watch?v=LtuzpDY7ngU
+    - Kod bloklarımızı çalıştırırken birden fazla veya iç içe geçmiş koşul yapılarını kullanmamız gerekebilir. Bu videoda; if/else/else if bloklarının çoklu nasıl kullanılabileceğini hep birlikte inceleyelim.
 - [Ternary Operator( koşul ? doğruysa : yanlışsa) ile If Kullanımı](ternary-operator(-kosul-dogruysa-yanlissa)-ile-if-kullanimi/)
+  - Sorular
+    - X
+  - Video
+    - https://www.youtube.com/watch?v=0DetgkxkMok
+    - Bu videoda; ternary operator ile short if kullanımını anlattık.
 
 #### Fonksiyonlar ####
 - [Fonksiyon Nedir ? Neden Kullanırız?](fonksiyon-nedir-neden-kullaniriz/)
