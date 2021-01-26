@@ -103,10 +103,35 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
     - Metinsel(string) verilerimiz içerisinde arama yapma, değiştirme, karakter bulma, istediğimiz kelimenin olup olmadığını kontrol etme gibi birçok işlem yapmamız gerekebilir. Bu videoda; string veri türü metotlarını hep birlikte öğreneceğiz.
 #### DOM ile Çalışmak ####
 - [Document Object Model(DOM) Nedir](document-object-model(dom)-nedir/)
+  - Sorular
+    - X
+  - Video
+    - https://www.youtube.com/watch?v=_OzyMdVDV3g
+    - Bu videoda; DOM(Document Object Model) nedir ve nasıl kullanılır, genel yapısını nasıl inceleyebileceğinizi anlattık.
 - [DOM içerisinden Etiket ve ID ile Öğe Seçimi](dom-icerisinden-etiket-ve-id-ile-oge-secimi/)
+  - Sorular
+    - X
+  - Video
+    - https://www.youtube.com/watch?v=OXR6Z3Yo3hk
+    - Bu videoda; getElementById ve querySelector ile DOM içerisinden öğe seçimini anlatmış olup JavaScript ile style ve class eklemeyi gösterdik.
 - [prompt ile Kullanıcıdan Bilgi Almak](prompt-ile-kullanicidan-bilgi-almak/)
+  - Sorular
+    - X
+  - Video
+    - https://www.youtube.com/watch?v=4qiEWu593Xs
+    - Bu videoda; kullanıcı ile etkileşime geçmek için prompt ile birlikte kullanıcıdan nasıl bilgi alacağımızı anlattık.
 - [Liste içerisindeki Öğeye Erişmek ve Yeni Öğe Eklemek](liste-icerisindeki-ogeye-erismek-ve-yeni-oge-eklemek/)
+  - Sorular
+    - X
+  - Video
+    - https://www.youtube.com/watch?v=R0fF3H2GPOA
+    - Bu videoda; liste içindeki ilk ve son öğeyi bulmayı ve listeye yeni liste öğesi eklemeyi anlattık.
 - [DOM'a CSS Class Bilgisi Eklemek veya Çıkarmak](dom'a-css-class-bilgisi-eklemek-veya-cikarmak/)
+  - Sorular
+    - X
+  - Video
+    - https://www.youtube.com/watch?v=cAuIZv9cwy4
+    - Bu videoda; class eklemeyi, birden fazla class eklemeyi ve class'ın nasıl sildiğimizi anlattık.
 
 #### Karar Yapıları / Koşullar ####
 - [Karşılaştırma Operatörleri ve Mantıksal Operatörler](karsilastirma-operatorleri-ve-mantiksal-operatorler/)
