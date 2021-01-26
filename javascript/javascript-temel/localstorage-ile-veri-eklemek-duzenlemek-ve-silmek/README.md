@@ -104,14 +104,7 @@ button.addEventListener('click', function () {
 
 </html>
 ````
-- [Örneğin Codepen Linki](
-https://codepen.io/pen/?template=BaLYZNK
-)
-## Soru
-- LocalStorage ve SessionStorage'da hangi veriler saklanmalıdır? Bunlara kimler erişebilir? Erişildiğinde düzenleme yapılabilir mi?
-Cevap: LocalStorage'da güvenlik ihlaline sebep olmayacak ve önem arz etmeyen veriler saklanmalıdır. Bunlara hem tarayıcı üzerinden kullanıcı hemde erişim izni verildi ise üçüncü parti programlar erişebilir veya düzenleme yapabilir.
-- LocalStorage ve SessionStorage'a JavaScript üzerinden değilde başka bir yoldan veri eklemek, düzenlemek veya silmek mümkünmüdür?
-Cevap: Verileri tarayıcı üzerinden ekleyip çıkarmak veya üzerinde düzenleme yapmak mümkündür.
+- [Örneğin Codepen Linki](https://codepen.io/pen/?template=BaLYZNK)
 
 ## Kaynakça
 - https://www.tiny.cloud/blog/javascript-localstorage/
