@@ -162,37 +162,6 @@ En çok kullanılan JavaScript Makine Öğrenmesi, Derin Öğrenme ve Yapay Zeka
 	<br>
 </p>
 
----
-
-### Değerlendirme Soruları:
-
-```
-1. JavaScript, kimin tarafından ve hangi yılda geliştirilmiştir?
-    a) James Gosling tarafından 1995 yılında
-    b) Guido van Rossum tarafından 1991 yılında
-    c) Brenden Eich tarafından 1995 yılında
-    d) Dennis Ritchie tarafından 1972 yılında
-
-2. Aşağıdakilerden yer alan seçeneklerden hangisi doğrudur?
-    a) JavaScript sadece web sayfalarını interaktif ve fonksiyonel hale getirmeye yarayan bir betik dilidir.
-    b) JavaScript sadece internet tarayıcılarında çalışır.
-    c) JavaScript ile Java aynı dildir.
-    d) JavaScript prototip-tabanlı bir dildir.
-
-3. Aşağıdakilerden yer alan seçeneklerden hangisi bir JavaScript teknolojisi (Library / Framework) değildir?
-    a) Phaser
-    b) Django
-    c) React
-    d) Express
-
-4. Aşağıdakilerden yer alan ECMAScript versiyonlarından hangisi yayınlanmamıştır?
-    a) ES4 / ECMAScript 4
-    b) ES6 / ECMAScript 2015 (Haziran 2015)
-    c) ES2016 / ECMAScript 2016
-    d) ES2019 / ECMAScript 2019
-```
-
-Cevaplar: Sırasıyla c, d, b, a şeklindedir.
 
 ---
 
