@@ -1,6 +1,6 @@
 # Python 101 INDEX
 
-#### Giriş 
+#### Giriş ####
 -  [Programlama Nedir?](programlama-nedir/)
 -  [Temel Veri Tipleri](temel-veri-tipleri/)
 -  [Değişken Atama](degisken-atama/)
