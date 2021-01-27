@@ -1,4 +1,4 @@
-# Basics for Everyone INDEX
+# Basics for Everyone INDEX
 
 #### Farklı Yazılım Kariyerleri
 - [Frontend Nedir?](frontend-nedir/)
