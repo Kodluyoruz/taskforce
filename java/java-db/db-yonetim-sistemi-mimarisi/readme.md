@@ -10,14 +10,16 @@ Modern veri tabanı yönetim sistemleri istemci-sunucu (Client-Server) mimarisin
 
 Aslında DBMS (Database Management Sytem) tasarımı mimariye bağlıdır. İstemci - Sunucu mimarisi, çok sayıda PC, web sunucusu, veri tabanı sunucusu ve ağlara bağlı diğer bileşenlerle başa çıkmak için kullanılabilir.  Bunu biraz daha açıklayalım.
 
-DBMS package mimarisi, bir adet sıkıca birbirine entegre edilmiş tekil mimariden, client/server (istemci/sunucu) olarak tanımlayabileceğimiz modern DBMS package mimarisine doğru gelişmiştir. Artık büyük merkezi bir bilgisayar yerine yüzlercesine ayrılmış ve kişisel bilgisayarlar web server, database server, file server (dosya server), application server(uygulama server) gibi birçok bilgisayar ile iletişim halinde olmaya başlamışlardır. DBMS mimarisi 2 module dayanıyor diyebiliriz.
+DBMS package mimarisi, bir adet sıkıca birbirine entegre edilmiş tekil mimariden, client/server (istemci/sunucu) olarak tanımlayabileceğimiz modern DBMS package mimarisine doğru gelişmiştir. Artık büyük merkezi bir bilgisayar yerine yüzlercesine ayrılmış ve kişisel bilgisayarlar web server, database server, file server (dosya server), application server(uygulama server) gibi birçok bilgisayar ile iletişim halinde olmaya başlamışlardır. DBMS mimarisi 2 modüle dayanıyor diyebiliriz.
 
-* Client Module : İş yerleri ve kişisel bilgisayarlar bu gruba girer. Yani uygulama ve arayüzler üzerinden database' e bağlananlardır. Client modulu kullanıcı etkileşimini elinde bulundurur ve GUI (Grafical User Interface) gibi kulanıcı dostu arayüz sağlar.
+* Client Module : İş yerleri ve kişisel bilgisayarlar bu gruba girer. Yani uygulama ve ara yüzler üzerinden veri tabanına bağlananlardır. Client modülü kullanıcı etkileşimini elinde bulundurur ve GUI (Grafical User Interface) gibi kulanıcı dostu arayüz sağlar.
 * Server Module : Veri saklama, ulaşım, arama ve diğer fonksiyonları sağlar.
 
-Bir DBMS tasarımı mimarisine bağlıdır.Merkezi, merkezi olmayan ya da hiyerarşik bir yapıda olabilir. Örneğin, bir istemci sunucu mimarisinde, sunucu makinesindeki veri tabanı sistemleri, istemci makine tarafından yapılan istekleri çalıştırabilir.
+Bir DBMS tasarımı mimarisine bağlıdır. Merkezi, merkezi olmayan ya da hiyerarşik bir yapıda olabilir. Örneğin, bir istemci sunucu mimarisinde, sunucu makinesindeki veri tabanı sistemleri, istemci makine tarafından yapılan istekleri çalıştırabilir.
 
-											## 																	DBMS Mimari türleri
+	## DBMS Mimari türleri
+
+
 
 ![databasearchitecture](figures/dbms-architecture.png)
 
@@ -41,7 +43,7 @@ DBMS mimarisi tek katmanlı veya çok katmanlı olarak görülebilir. Yukarıdak
 
   2 katmanlı mimari, istemci sunucu mimarisine dayanır. Doğrudan iletişim istemci ve sunucu arasında gerçekleşir. İstemci tarafındaki uygulamalar, sunucu  veri tabanı ile doğrudan iletişim kurabilir. Yani veri tabanı sistemi server da bulunur. İstemci SQL gibi bir sorgu dili kullanarak sunucuda bulunan veri tabanına erişimde bulunduğunda  sunucu isteği veri tabanında gerçekleştirir ve sonucu istemciye geri döndürür. Bu kısım için API'lar kullanılabilir. Örnek ODBC, JDBC gibi.
 
-  - Kullanıcı arayüzleri ve uygulama programları istemci tarafından çalıştırılır. 
+  - Kullanıcı ara yüzleri ve uygulama programları istemci tarafından çalıştırılır. 
   - Sunucu, sorgu işleme ve benzeri işlemleri sağlar.
 
   DBMS ile iletişim kurmak için, istemci uygulaması sunucu ile bağlantı kurar.
@@ -68,18 +70,36 @@ Bu şekilde DBMS mimarilerini ve nasıl neden kullanıldıklarını öğrenmiş 
 
 ## Veri Modeli
 
-Veri tabanları verilerin tablolar halinde saklandığı alanlardı. Bu veriler kalıcı diskte (Hard-Disk) belli bir format biçiminde saklanır. Veri tabanı aşağıdaki 3 yapıdan oluşur.
+Veri tabanları verilerin tablolar halinde saklandığı alanlardı. Bu veriler kalıcı diskte (Hard-Disk) belli bir format biçiminde saklanır. Veri tabanı aşağıdaki 3 yapıdan oluşur. DBMS kullanarak her veri tabanında yer alacak veriler ve veriler arası ilişkiler oluşturulur. Mantıksal olarak alakalı veri modeline göre düzenlenir. Bu veri modeli kullanılarak da veri tabanının kavramsal ve dış şemaları oluşturulur.
 
 * Entity (Varlık): Gerçek hayat nesnesini veya kavramını ifade eder. Örneğin, öğrenci, çalışan personel, adres, maaş gibi kavramlar veya nesneler varlıkları ifade eder. Varlıklar genelde veritabanı dünyasında tablolar şeklinde ifade edilir.
-
 * Nitelik (Attribute): Yukarıda bahsettiğimiz gerçek hayat varlığı veya kavramının niteliklerini ifade eder. Örneğin, öğrenciyi tanımlayan nitelikler numarası, bölümü, ismi, soy ismi gibi nitelikleridir. İşte bu nitelikler tablodaki sütunları ifade ederler. Her nitelik bir sütunu ifade edebilir.
-
 * İlişki (Relationship): İki varlık arasındaki mantıksal bağlantıyı ifade eder. Örneğin Öğrenci ile Ders varlıkları arasında doğası gereği bir ilişki söz konusudur. Yahut, Personel ile Maaş arasında da benzer bir ilişki vardır. Varlıklar arasındaki ilişki veri tabanı dünyasında tablolar arasındaki ilişkiyi ifade eder.
+
+En çok kullanılan veri modellerini 4 grupta inceleyebiliriz.
 
 ### İlişkisel Veri Modeli
 
-Varlıkların veri tabanı tarafında tabloları ifade ettiğinden bahsetmiştik. Ayrıca, bu varlıkların birçok niteliği bulunmaktaydı. Bu nitelikler tablolardaki sütunları ifade etmektedir. Bu birbiriyle ilişki niteliklerin bir araya gelmesiyle ilişki veri modeli ortaya çıkmaktadır.
+1969 yılında çıkmış, 1970 li yılların sonunda kullanılmaya başlanmış ve1985 yılından sonra yaygınlaşmaya başlamıştır. 1990 lı yıllarda yaygın kullanılan veri tabanlarının çoğunun ilişkisel tabanlı olduğu söylenebilir. Varlıkların veri tabanı tarafında tabloları ifade ettiğinden bahsetmiştik. Ayrıca, bu varlıkların birçok niteliği bulunmaktaydı. Bu nitelikler tablolardaki sütunları ifade etmektedir. Bu birbiriyle ilişki niteliklerin bir araya gelmesiyle ilişki veri modeli ortaya çıkmaktadır.
 
 ![ilişkisel-veritabani](figures/iliskisel-veritabanı.png)
 
 Yukarıdaki örnekte “OGRENCI” isminde bir tablo oluşturulmuştur. “Ogrenci_No”, “Sinif” ve “Bolum” isminde nitelikler bir araya gelerek bu tablo yapısını meydana getirmiştir. Tablodaki her bir satır ise bir öğrenci kaydını ifade etmektedir. Yani bir gerçek hayat varlığının verileriyle birlikte tabloda yer almasını ifade eder.
+
+### Nesneye Yönelik Veri Modeli (Object oriented Data Model) 
+
+10 yıldan fazla süredir gündemde olan, günümüzde çok yaygın kullanılmasa da , kullanımı yaygınlaşan bir modeldir. Veriler nesne olarak modellenir. OOP de olan sınıf ve miras kavramlarına sahiptir. Karmaşık veriler üzerinde yüksek performans sunar. İlişkisel modelin  özelliklerini Nesne tabanlı özellikler ile birleştirir.
+
+- Kullanıcı tanımlı veri türleri
+- Kalıtım ve alt sınıflar
+- Kullanıcı tanımlı fonksiyonlar
+
+ ### Sıra düzensel Veri Modeli (Hierarchical Data Model)
+
+En eski model olup 60 ve 70’li yıllarda çok kullanılmıştır. Ağaç veri yapısına benzer bir yapıdadır. Her kaydın bir parent ve child kayıtları vardır. Her kaydın birçok parent ve birçok child kaydı bulunabilir. Örnek veri tabanları , IDMS, RDM Embedded, RDM Server gibi.
+
+### Ağ Veri Modeli (Network Data Model)  
+
+1969’da ortaya çıkan Ağ Veri Modeli 1970’li yıllarda ve 1980’li yılların ilk yarısında kullanılmıştır.
+
+! Günümüzde hem ilişkisel hem de nesneye-yönelik yaklaşımı birlikte kullanan VTYS’lerinin yaygınlaştığı görülmektedir (ORDBMS).
