@@ -201,25 +201,8 @@ var ekle = function topla(sayi1, sayi2) {
 var sonuc1 = ekle(10,20); 
 var sonuc2 = topla(10,20); // geçersiz
 
-
-
-
 ```
-### Quiz
 
-#### Javascript'te fonksiyon nasıl yaratılır?
-a) function:myFunction()                                                                                                                                                                
-b) function = myFunction()                                                                                                                                                        
-c) function myFunction()
-
--cevap : b
-
-#### myFunction isimli fonksiyon nasıl çağrılır?
-a) myFunction()                                                                                                                                                                   
-b) call function myFunction()                                                                                                                                                       
-c) call myFunction()
-
--cevap : a
 
 ### Arrow Functions
 

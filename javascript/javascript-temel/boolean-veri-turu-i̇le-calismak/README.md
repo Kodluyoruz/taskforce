@@ -137,49 +137,6 @@ console.log(Boolean(Infinity));
 console.log(Boolean({}));
 console.log(Boolean(Symbol()));
 ```
-### Soru 1: Aşağıdakilerden hangisi false döner? 
-A)  
-```javascript
-var x = 10 / 'a';
-console.log(Boolean(x));
-```
-B)
-```javascript
-var y = "" || -2 || 'JavaScript';
-console.log(Boolean(y));
-
-```
-
-C) 
-```javascript
-var z = {2:'js'};
-console.log(Boolean(z));
-
-```
-
-### Cevap: A
-
-### Soru 2: Aşağıdakilerden hangisi true döner?
-
-A) 
-```javascript
-var t = "" && -2 && 'JavaScript';
-console.log(Boolean(t));
-
-```
-B)
-
-```javascript
-var w = false || 0;
-console.log(Boolean(w));
-
-```
-C) 
-```javascript
-var a = true;
-console.log(Boolean(a));
-```
-### Cevap: C
 
 # Kaynaklar
 
