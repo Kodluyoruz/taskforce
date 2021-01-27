@@ -61,8 +61,6 @@ Genel HTTP hakkındaki öğrendiklerimizi özetlemek için Kodluyoruz bünyesind
 
 [![http_cs50](figures/http_nedir_cs50.png)](https://www.youtube.com/watch?v=72YksVaDCUg&feature=youtu.be)
 
- Kaynak:
-
-* https://kamranahmed.info/blog/2016/08/13/http-in-depth/
-
-* https://umuttosun.com/http-protokolu/
+ ## Kaynaklar:
+- https://kamranahmed.info/blog/2016/08/13/http-in-depth/
+- https://umuttosun.com/http-protokolu/

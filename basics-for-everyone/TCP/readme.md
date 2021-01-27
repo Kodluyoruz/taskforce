@@ -24,7 +24,6 @@ TCP'nin temel yapısına değindik, detaylı bir anlatıma Kodluyoruz tarafında
 
 
 
-Kaynaklar:
-
-* https://medium.com/@gokhansengun/tcp-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r-1-484612c5264f
-* https://searchnetworking.techtarget.com/definition/TCP
+## Kaynaklar:
+- https://medium.com/@gokhansengun/tcp-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r-1-484612c5264f
+- https://searchnetworking.techtarget.com/definition/TCP
