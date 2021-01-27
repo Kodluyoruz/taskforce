@@ -77,6 +77,6 @@ Bitbucket, 2010 yılında Atlassian firması tarafından satın alınması ile b
 
 ## Kaynaklar
 
-[GitLab Nedir?](https://www.vargonen.com/blog/gitlab-nedir/)
+- [GitLab Nedir?](https://www.vargonen.com/blog/gitlab-nedir/)
 
-[Bitbucket Nedir?](https://medium.com/plugenie/bitbucket-nedir-2cc5820b51a6)
+- [Bitbucket Nedir?](https://medium.com/plugenie/bitbucket-nedir-2cc5820b51a6)

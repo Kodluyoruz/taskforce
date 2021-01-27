@@ -131,10 +131,7 @@ Kullanımından da bahsettiğimize göre gelelim dikkat edilmesi gereken hususla
 
 Bana bunlar da yeterli değil diyorsanız buyrun bizzat yararlandığım bu linklerden siz de istifade ediniz :hugs:
 
-https://docs.github.com/en/free-pro-team@latest/github/using-git/ignoring-files
-
-https://www.pluralsight.com/guides/how-to-use-gitignore-file
-
-http://git-scm.com/docs/gitignore
-
-https://sebastiandedeyne.com/setting-up-a-global-gitignore-file/
+- https://docs.github.com/en/free-pro-team@latest/github/using-git/ignoring-files
+- https://www.pluralsight.com/guides/how-to-use-gitignore-file
+- http://git-scm.com/docs/gitignore
+- https://sebastiandedeyne.com/setting-up-a-global-gitignore-file/
