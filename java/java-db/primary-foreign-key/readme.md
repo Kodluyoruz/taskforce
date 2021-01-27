@@ -1,4 +1,4 @@
-# Birincil Anahtar (Primary Key) ve Yabancı Anahtar (Foreign Key)
+# Birincil Anahtar (Primary Key) ve Yabancı Anahtar (Foreign Key)
 
 ## Birincil Anahtar:
 
