@@ -220,5 +220,6 @@ Yukarıdakilere ek olarak yatayda bir elementi tam olarak merkeze alabilmek içi
 [Daha fazla bilgi için...](https://getbootstrap.com/docs/5.0/utilities/spacing/ 'Bootstrap Docs - Spacing')
 
 ---
+## Kaynakça : 
 
-[Pratik Pratik Pratik](https://getbootstrap.com/docs/5.0/examples/ 'Bootstrap Docs - Examples')
+- [Pratik Pratik Pratik](https://getbootstrap.com/docs/5.0/examples/ 'Bootstrap Docs - Examples')
