@@ -21,7 +21,7 @@ Ek olarak terminalde kullanacağınız komut satırları Linux ve Mac OS işleti
 #### Windows
 **Windows** tabanlı sistemlerde ilk önce **Win** + **R** tuşlarına birlikte basın ardından, açılan **Çalıştır** penceresine *cmd* yazıp **Enter** tuşuna basabilirsiniz.
 
-![terminalwin+r](figures/terminalwin+r.jpg)
+![terminalwin+r](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/terminal-kullanimi/figures/terminalwin%2Br.jpg)
 
 #### MacOS
 **Mac OS** bilgisayarlarda ilk önce **⌘** **+** **Space** tuşlarına birlikte basın ardından **Spotlight Search** açıldıktan sonra **terminal** yazıp **Enter** tuşuna basabilirsiniz.
@@ -147,10 +147,6 @@ Oluşturduğumuz klasörü rahat görebilmeniz için önce `ls` komutuyla klasö
 #### Bilgi Köşesi!
 
 `mkdir <klasorismi>` : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında belirtilen klasör isminde yeni bir klasör oluşturur. 
-
-
-
-
 
 
 
