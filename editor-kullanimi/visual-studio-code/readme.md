@@ -1,6 +1,6 @@
 # Editör Kullanımı INDEX
 
-#### Editor Kullanımı
+#### Editor Kullanımı ####
 
 - [Visual Studio Code Nedir?](visual-studio-code-nedir/)
 

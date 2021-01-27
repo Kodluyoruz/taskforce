@@ -1,15 +1,15 @@
 # Basics for Everyone INDEX
 
-#### Farklı Yazılım Kariyerleri
+#### Farklı Yazılım Kariyerleri ####
 - [Frontend Nedir?](frontend-nedir/)
 - [Backend Nedir?](backend-nedir/)
 - [Frontend & Backend Karşılaştırması](frontend-vs-backend/)
 
-#### Algoritma & Pseudocode
+#### Algoritma & Pseudocode ####
 - [Algoritma](algoritma/)
 - [Pseudocode](pseudocode/)
 
-#### Internet
+#### Internet ####
 - [İnternet Nedir?](internet-nedir/)
 - [Fiziksel Elemanlar ve Wifi](fiziksel-elemanlar/)
 - [IP Adres ve DNS'e Giriş](ipadres-dns-giris/)
@@ -25,11 +25,8 @@
 - [Domain name](domain-name/)
 - [Hosting](hosting/)
 
-#### Araştırma Yapma
+#### Araştırma Yapma ####
 - [Google'lamak](google/)
 
-#### Diğer Platformların Önemi
+#### Diğer Platformların Önemi ####
 - [Developer'lar İçin Platformların Önemi](platformların-önemi/)
-
-
-
