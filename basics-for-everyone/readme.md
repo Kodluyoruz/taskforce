@@ -11,9 +11,9 @@
 
 #### Algoritma & Pseudocode
 
-- [Pseudocode](pseudocode/)
+* [Algoritma](algoritma/)
 
-- Algoritma
+- [Pseudocode](pseudocode/)
 
   
 
