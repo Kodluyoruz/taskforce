@@ -6,7 +6,7 @@ SQL programlama dilinin ilişkisel veri tabanı yönetim sistemlerinde veya ili�
 
 DDL komutları veri tabanı ve tablolar üzerinde yapısal değişiklikler yapmayı sağlar.
 
-*Veri tabanı oluşturmak*
+### Veri tabanı oluşturmak
 
 ```
 CREATE DATABASE mycompany_db;
@@ -14,7 +14,7 @@ CREATE DATABASE mycompany_db;
 
 CREATE DATABASE SQL komutu ile yeni bir veri tabanı yaratabilirsiniz.
 
-*Veri tabanını seçmek*
+**Veri tabanını seçmek**
 
 ```
 USE mycompany_db;
@@ -22,7 +22,7 @@ USE mycompany_db;
 
 USE komutu ile çalışmak istediğiniz veri tabanını seçebiliyorsunuz. Biliyorsunuz ki veri tabanı yönetim sistemleri birden fazla veri tabanı içerebilirler. Hangi SQL komutlarının hangi veri tabanında çalıştırılacağı USE komutu ile belirtilir.
 
-*Tablo oluşturmak*
+**Tablo oluşturmak**
 
 Veri tabanını oluşturduktan sonra veri tabanı içinde birden fazla tablo oluşturabiliriz.
 
@@ -92,7 +92,7 @@ TRUNCATE TABLE salaries;
 
 TRUNCATE TABLE komutu ile tabloyu yapısal olarak koruyarak sadece içindeki verilerin silinmesini sağlayabiliriz.
 
-### Tabloyu yapısal olarak değiştirmek
+### Tabloyu yapısal olarak değiştirmek
 
 Tablolar üzerinde bazen yeni sütun eklemek çıkarmak veya değiştirmek gerekir. Bu yapısal anlamda tabloyu değiştirmek demektir.
 
@@ -123,7 +123,7 @@ MODIFY yeni_sutun INT(10);
 
 Tabloda bir sütunun veri tipini veya ismini değiştirmek isteyebiliriz. Sütun üzerinde değişiklik yapabilmek için MODIFY komutu kullanılabilir.
 
-## DML SQL Komutları (Data Manipulation Language)
+### DML SQL Komutları (Data Manipulation Language)
 
 DML komutları ile tablolardaki veriler üzerinde sorgulama, değiştirme ve silme işlemleri uygulayabiliriz.
 
