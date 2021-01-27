@@ -17,7 +17,7 @@ DBMS package mimarisi, bir adet sıkıca birbirine entegre edilmiş tekil mimari
 
 Bir DBMS tasarımı mimarisine bağlıdır. Merkezi, merkezi olmayan ya da hiyerarşik bir yapıda olabilir. Örneğin, bir istemci sunucu mimarisinde, sunucu makinesindeki veri tabanı sistemleri, istemci makine tarafından yapılan istekleri çalıştırabilir.
 
-	## DBMS Mimari türleri
+## DBMS Mimari Türleri
 
 
 
