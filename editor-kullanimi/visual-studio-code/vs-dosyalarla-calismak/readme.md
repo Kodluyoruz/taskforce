@@ -16,13 +16,13 @@ Yazımızın başında bahsettiğimiz hatayı göz önünde bulundurarak proje k
 
 Klasörün ismini dilediğiniz gibi düzenleyebilirsiniz. Biz "Documents" içerisinde "Sites" adında bir klasör oluşturduk.
 
-![projeklasörü-oluştur](figures/projeklasörü-oluştur.png) 
+![projeklasörü-oluştur](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-dosyalarla-calismak/figures/projeklas%C3%B6r%C3%BC-olu%C5%9Ftur.png) 
 
 
 
 Sonrasındaysa bu klasör içerisine ilk proje dosyamızı oluşturduk.
 
-![projeklasörü-oluştur2](figures/projeklasörü-oluştur2.png)
+![projeklasörü-oluştur2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-dosyalarla-calismak/figures/projeklas%C3%B6r%C3%BC-olu%C5%9Ftur2.png)
 
  
 
@@ -36,7 +36,7 @@ Visual Studio Code içerisinde proje klasörünü açmak için birkaç yol bulun
 
 Visual Studio Code, çeşitli programlar gibi sürükle bırak yöntemini destekliyor. Bu özelliği kullanarak kolay bir şekilde proje klasörünü açabilirsiniz.
 
-![proje-sürüklebırak](figures/proje-sürüklebırak-1610824692490.gif)
+![proje-sürüklebırak](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-dosyalarla-calismak/figures/proje-s%C3%BCr%C3%BCkleb%C4%B1rak-1610824692490.gif)
 
 
 
@@ -44,7 +44,7 @@ Visual Studio Code, çeşitli programlar gibi sürükle bırak yöntemini destek
 
 Visual Studio Code içerisinde proje klasörünü açmak için diğer bir yol da "File" menüsünden "Open Folder" seçeneğini seçerek klasörünüzün konumuna gitmektir.
 
-![proje-filemenüsü](figures/proje-filemenüsü.gif)
+![proje-filemenüsü](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-dosyalarla-calismak/figures/proje-filemen%C3%BCs%C3%BC.gif)
 
 
 
@@ -56,7 +56,7 @@ Visual Studio Code içerisinde yeni dosya ve klasör oluşturabileceğiniz kıs�
 
 ### Dosya Oluşturma
 
-![yeni-dosya](figures/yeni-dosya.png)
+![yeni-dosya](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-dosyalarla-calismak/figures/yeni-dosya.png)
 
 Visual Studio Code içerisinden proje klasörünüzün içine yeni bir dosya oluşturmak istediğinizde görseldeki kısma tıklayabilirsiniz.
 
@@ -64,7 +64,7 @@ Visual Studio Code içerisinden proje klasörünüzün içine yeni bir dosya olu
 
 ### Klasör Oluşturmak
 
-![yeni-dosya](figures/yeni-dosya-1610826554054.png)
+![yeni-dosya](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-dosyalarla-calismak/figures/yeni-dosya-1610826554054.png)
 
 Visual Studio Code içerisinden proje klasörünüzün içine farklı ve yeni bir klasör oluşturmak istediğinizde görseldeki kısma tıklayabilirsiniz.
 
@@ -74,9 +74,7 @@ Visual Studio Code içerisinden proje klasörünüzün içine farklı ve yeni bi
 
 Proje klasörünüz içindeki bir dosyayı yine proje klasörünüz içindeki bir klasöre taşımak istediğinizde sürükle bırak yöntemini kullanabilirsiniz.
 
-
-
-![dosyasürükle](figures/dosyasürükle.gif)
+![dosyasürükle](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-dosyalarla-calismak/figures/dosyas%C3%BCr%C3%BCkle.gif)
 
 Bu örneğimizle "style.css" dosyasını "css" klasörünün içine taşındığını görebiliriz.
 
@@ -86,14 +84,10 @@ Bu örneğimizle "style.css" dosyasını "css" klasörünün içine taşındığ
 
 Bu işlemi gerçekleştirmek için ilk önce yeni bir dosya oluşturmak istediğimizde tıkladığımız kısma tıklamalıyız. Sonrasında ise `klasörismi/dosyaismi` yazarak yeni bir klasör içindeki dosyayı oluşturabiliriz. Buradaki `/` işareti klasör ile dosyayı birlikte oluştur anlamına geliyor.
 
-![klasöriçidosya](figures/klasöriçidosya.gif)
+![klasöriçidosya](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-dosyalarla-calismak/figures/klas%C3%B6ri%C3%A7idosya.gif)
 
 Bu örneğimizde "scss" klasörünün içinde "main.css" dosyasının oluşturulduğunu görebiliriz.
 
 
 
 Bu yazımızda sizlere Visual Studio Code'da proje dosyasının nasıl oluşturulacağını ve açılacağını aynı zamanda yine Visual Studio Code içerisinde dosyalarla ve klasörle nasıl çalışılacağını anlatmaya çalıştık. Yazımızda değindiğimiz her şey Mac Os ve Windows tabanlı sistemlerde birebir aynı şekilde gerçekleştiriliyor. 
-
-
-
-[![macoswin](figures/macoswin.png)](https://youtu.be/OjFXuoQ6ruM)

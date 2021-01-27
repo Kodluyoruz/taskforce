@@ -4,7 +4,7 @@ Bu yazımızda sizlere Visual Studio Code'taki genel görünüm, tema ve dosya i
 
 ## Genel Görünüm
 
-![vs-menübar](figures/vs-menübar.png)
+![vs-menübar](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-men%C3%BCbar.png)
 
 
 
@@ -14,7 +14,7 @@ Visual Studio Code'a başarılı bir şekilde giriş yaptıktan sonra bizleri so
 
 ### Explorer
 
-![vs-menübar2exp](figures./vs-menübar2exp.png)
+![vs-menübar2exp](figures/vs-menübar2exp.png)
 
 
 
@@ -22,7 +22,7 @@ Menü çubuğundaki ilk kısım "Explorer"dır. Bu kısımda Visual Studio Code 
 
 
 
-![vs-menübar3exp](figures/vs-menübar3exp.png)
+![vs-menübar3exp](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-men%C3%BCbar3exp.png)
 
 
 
@@ -32,19 +32,19 @@ Proje klasörünü başarılı bir şekilde açtıktan sonra yukarıdaki görsel
 
 ### Search
 
-![vs-search](figures/vs-search.png)
+![vs-search](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-search.png)
 
 
 
 Menü çubuğunda ikinci olarak karşımıza "Search" kısmı çıkıyor. Bu kısımda proje klasörünüz içinde aramalar yapabilirsiniz. Gelin sizlerle küçük bir örneğe bakalım.
 
-![vs-kod](figures/vs-kod.png)
+![vs-kod](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-kod.png)
 
 Örneğimizde proje klasörünün içinde "kodluyoruz"u arattığımızı ve editörün bu arama sonucunda iki sonuç verdiğini görebiliriz. Örnekte yer alan **"Replace"** kısmı bizlere arama sonuçlarını toplu bir şekilde değiştirme imkanı veriyor. Ne demek istiyoruz?
 
 
 
-![vs-org](figures/vs-org.png)
+![vs-org](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-org.png)
 
 
 
@@ -54,7 +54,7 @@ Menü çubuğunda ikinci olarak karşımıza "Search" kısmı çıkıyor. Bu kı
 
 ### Source Control
 
-![vs-source](figures/vs-source.png) Run
+![vs-source](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-source.png) Run
 
 
 
@@ -64,7 +64,7 @@ Menü çubuğunda ikinci olarak karşımıza "Search" kısmı çıkıyor. Bu kı
 
 ### Run
 
-![vs-debug](figures/vs-debug.png)
+![vs-debug](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-debug.png)
 
 Menü çubuğunda dördüncü kısım olarak bizleri "Run" karşılıyor. Bu kısımda yazdığımız kodları ya da "Debug" yani hata ayıklama sistemini çalıştırabiliriz.
 
@@ -72,7 +72,7 @@ Menü çubuğunda dördüncü kısım olarak bizleri "Run" karşılıyor. Bu kı
 
 ### Extensions
 
-![vs-ext](figures/vs-ext.png)
+![vs-ext](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-ext.png)
 
 
 
@@ -84,13 +84,13 @@ Beşinci kısım "Extensions" yani eklentiler kısmıdır. Bu kısımda popüler
 
 Menü çubuğunun üst kısımlarındaki yapıları inceledikten sonra, alt kısımlarını inceleyerek devam edebiliriz.
 
-![vs-alt](figures/vs-alt.png)
+![vs-alt](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-alt.png)
 
 
 
 Bu kısımda bizleri ilk öncelikle, kendi ayarlarımızı senkronize edebileceğimiz bir kısım karşılıyor. Bu özellikle birlikte, eğer farklı bilgisayarlar kullanıyorsanız ya da başka bir bilgisayara geçiş yapmak istiyorsanız, ayarlarınızı senkronize edebilirsiniz. 	
 
-![vs-ayar](figures/vs-ayar.png)
+![vs-ayar](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-ayar.png)
 
 
 
@@ -100,7 +100,7 @@ Menü çubuğundaki diğer ve son kısımda da komut paletini görüntüleyebile
 
 ## Tema ve Dosya İkonu Ayarları
 
-![vs-tema](figures/vs-tema.png)
+![vs-tema](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-tema.png)
 
 Tema ve dosya ikonu ayarları için ilk önce, menü çubuğunda tanıttığımız son ikona tıklamalısınız. Sonrasında karşınıza çıkacak;
 
@@ -108,8 +108,8 @@ Tema ve dosya ikonu ayarları için ilk önce, menü çubuğunda tanıttığım�
 
 - **"Color Theme"** seçeniğine tıklayarak editörünüzün temasını ayarlayabilirsiniz.
 
-![vs-tema](figures/vs-tema.gif)
+![vs-tema](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-tema.gif)
 
 * **"File Icon Theme"** seçeneğine tıklayarak editörünüzdeki dosya ikonlarını değiştirebilirsiniz.
 
-![vs-fileikon](figures/vs-fileikon.gif)
+![vs-fileikon](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-fileikon.gif)
