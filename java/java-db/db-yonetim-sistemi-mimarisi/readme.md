@@ -104,7 +104,9 @@ En eski model olup 60 ve 70’li yıllarda çok kullanılmıştır. Ağaç veri 
 
 ! Günümüzde hem ilişkisel hem de nesneye-yönelik yaklaşımı birlikte kullanan VTYS’lerinin yaygınlaştığı görülmektedir (ORDBMS).
 
-> 	## Kaynakça
+​		
+
+> KAYNAKÇA
 >
 > [DBMS architecture](https://slideplayer.biz.tr/slide/10181951/)
 >
