@@ -1,12 +1,12 @@
-# Temel SQL
+# Temel SQL
 
 SQL programlama dilinin ilişkisel veri tabanı yönetim sistemlerinde veya ilişkisel formattaki veri tabanlarında veri sorgulama dili olduğundan bahsetmiştik. Şimdi bu sorgulama diliyle yapılabilecekleri yukarıdaki veri tabanını örnek alarak inceleyelim.
 
-## DDL SQL Komutları (Data Definition Language)
+## DDL SQL Komutları (Data Definition Language)
 
 DDL komutları veri tabanı ve tablolar üzerinde yapısal değişiklikler yapmayı sağlar.
 
-### Veri tabanı oluşturmak
+*Veri tabanı oluşturmak*
 
 ```
 CREATE DATABASE mycompany_db;
@@ -14,7 +14,7 @@ CREATE DATABASE mycompany_db;
 
 CREATE DATABASE SQL komutu ile yeni bir veri tabanı yaratabilirsiniz.
 
-### Veri tabanını seçmek
+*Veri tabanını seçmek*
 
 ```
 USE mycompany_db;
@@ -22,7 +22,7 @@ USE mycompany_db;
 
 USE komutu ile çalışmak istediğiniz veri tabanını seçebiliyorsunuz. Biliyorsunuz ki veri tabanı yönetim sistemleri birden fazla veri tabanı içerebilirler. Hangi SQL komutlarının hangi veri tabanında çalıştırılacağı USE komutu ile belirtilir.
 
-### Tablo oluşturmak
+*Tablo oluşturmak*
 
 Veri tabanını oluşturduktan sonra veri tabanı içinde birden fazla tablo oluşturabiliriz.
 
