@@ -52,7 +52,7 @@ DBMS mimarisi tek katmanlı veya çok katmanlı olarak görülebilir. Yukarıdak
 
   ![3-tier](figures/3-tier.png)
 
-  Kullanıcıların veri tabanında bulunan verileri nasıl kullandıklarına  bağlı olarak katmanlarını  birbirinden ayırır. Bir DBMS sistem tasarlamak için kullanılan en yaygın yöntemdir. İstemci sunucu arasında başka bir katman var. Bu  mimaride istemci sunucu ile doğrudan iletişim kuramaz. Yani istemci tarafındaki uygulama, veri tabanı ile daha fazla iletişim kuran uygulama sunucusu ile etkileşime girer. 
+  Kullanıcıların veri tabanında bulunan verileri nasıl kullandıklarına  bağlı olarak katmanlarını  birbirinden ayırır. Bir DBMS (Database Management System) tasarlamak için kullanılan en yaygın yöntemdir. İstemci sunucu arasında başka bir katman var. Bu  mimaride istemci sunucu ile doğrudan iletişim kuramaz. Yani istemci tarafındaki uygulama, veri tabanı ile daha fazla iletişim kuran uygulama sunucusu ile etkileşime girer. 
 
   **Veri Katmanı** : Sorgu işleme dilleri bulunur. Bu katmanda verileri ve kısıtlamalarını tanımlayan ilişkilerde vardır.
 
@@ -64,7 +64,7 @@ DBMS mimarisi tek katmanlı veya çok katmanlı olarak görülebilir. Yukarıdak
 
   ![n-tier](figures/n-tier.png)
 
-  Bu katmanlı mimari, uygulamanın 3 farklı katmana bölünmesini inceler. Logic tier, Presentation tier ve Data tier olarak ayrılır.Model-görünüm-denetleyici (MVC) çerçevesindeki öğelerin genellikle kavramsal veya mantıksal olarak ayrılmasının aksine, uygulamanın farklı bölümlerinin fiziksel olarak ayrılmasıdır. MVC çerçevesinden bir başka fark, n katmanlı katmanların doğrusal olarak bağlanmasıdır, yani tüm iletişim, mantık katmanı olan orta katmandan geçmelidir. MVC'de gerçek bir orta katman yoktur çünkü etkileşim üçgen şeklindedir; kontrol katmanının hem görünüm hem de model katmanlarına erişimi vardır ve model de görünüme erişir; kontrolör ayrıca gereksinimlere göre bir model oluşturur ve bunu görünüme iter. 
+  Bu katmanlı mimari, uygulamanın 3 farklı katmana bölünmesini inceler. Logic tier, Presentation tier ve Data tier olarak ayrılır.Model-görünüm-denetleyici (MVC) çerçevesindeki öğelerin genellikle kavramsal veya mantıksal olarak ayrılmasının aksine, uygulamanın farklı bölümlerinin fiziksel olarak ayrılmasıdır. MVC çerçevesinden bir başka fark, n katmanlı katmanların doğrusal olarak bağlanmasıdır, yani tüm iletişim, mantık katmanı olan orta katmandan geçmelidir. MVC'de gerçek bir orta katman yoktur çünkü etkileşim üçgen şeklindedir; kontrol katmanının hem görünüm hem de model katmanlarına erişimi vardır ve model de görünüme erişir; controller ayrıca gereksinimlere göre bir model oluşturur ve bunu görünüme iter. 
 
 Bu şekilde DBMS mimarilerini ve nasıl neden kullanıldıklarını öğrenmiş olduk.
 
@@ -72,7 +72,7 @@ Bu şekilde DBMS mimarilerini ve nasıl neden kullanıldıklarını öğrenmiş 
 
 Veri tabanları verilerin tablolar halinde saklandığı alanlardı. Bu veriler kalıcı diskte (Hard-Disk) belli bir format biçiminde saklanır. Veri tabanı aşağıdaki 3 yapıdan oluşur. DBMS kullanarak her veri tabanında yer alacak veriler ve veriler arası ilişkiler oluşturulur. Mantıksal olarak alakalı veri modeline göre düzenlenir. Bu veri modeli kullanılarak da veri tabanının kavramsal ve dış şemaları oluşturulur.
 
-* Entity (Varlık): Gerçek hayat nesnesini veya kavramını ifade eder. Örneğin, öğrenci, çalışan personel, adres, maaş gibi kavramlar veya nesneler varlıkları ifade eder. Varlıklar genelde veritabanı dünyasında tablolar şeklinde ifade edilir.
+* Entity (Varlık): Gerçek hayat nesnesini veya kavramını ifade eder. Örneğin, öğrenci, çalışan personel, adres, maaş gibi kavramlar veya nesneler varlıkları ifade eder. Varlıklar genelde veri tabanı dünyasında tablolar şeklinde ifade edilir.
 * Nitelik (Attribute): Yukarıda bahsettiğimiz gerçek hayat varlığı veya kavramının niteliklerini ifade eder. Örneğin, öğrenciyi tanımlayan nitelikler numarası, bölümü, ismi, soy ismi gibi nitelikleridir. İşte bu nitelikler tablodaki sütunları ifade ederler. Her nitelik bir sütunu ifade edebilir.
 * İlişki (Relationship): İki varlık arasındaki mantıksal bağlantıyı ifade eder. Örneğin Öğrenci ile Ders varlıkları arasında doğası gereği bir ilişki söz konusudur. Yahut, Personel ile Maaş arasında da benzer bir ilişki vardır. Varlıklar arasındaki ilişki veri tabanı dünyasında tablolar arasındaki ilişkiyi ifade eder.
 
