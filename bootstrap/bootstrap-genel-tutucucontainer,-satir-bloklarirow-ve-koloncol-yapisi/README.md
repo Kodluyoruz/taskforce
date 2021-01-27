@@ -82,9 +82,9 @@ Bu resimde gördüğümüz 2 satırdan oluşan grid yapısını aşağıdaki kod
 
 Row ve column yapısı kullanımı ve mantığı genel hatlarıyla bu şekilde diyebiliriz. Konuyu pekiştirmek için bu küçük quizi cevaplamanızı tavsiye ediyoruz !
 
-kaynaklar:
-* https://www.kodluyoruz.org/
-* https://getbootstrap.com/docs/4.4/layout/overview/
-* https://960.gs/
-* https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp
-* https://getbootstrap.com/docs/4.0/layout/grid/
+## Kaynaklar:
+- https://www.kodluyoruz.org/
+- https://getbootstrap.com/docs/4.4/layout/overview/
+- https://960.gs/
+- https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp
+- https://getbootstrap.com/docs/4.0/layout/grid/
