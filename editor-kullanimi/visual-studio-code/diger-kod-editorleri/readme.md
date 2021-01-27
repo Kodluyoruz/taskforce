@@ -1,7 +1,3 @@
----
-typora-copy-images-to: figures
----
-
 # DİĞER KOD EDİTÖRLERİ
 
 Bir önceki yazılarımızda sizlere Visual Studio Code editöründen bahsetmiştik. Bu yazımızdaysa kullanabileceğiniz diğer kod editörlerini yer vereceğiz.

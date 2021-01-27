@@ -33,8 +33,3 @@ Yukarıda kırmızı çerçeve ile işaretlenmiş kısımda bizim oluşturduğum
 Artık uzun uzun `<h1>Kodluyoruz</h1>` ifadesini yazmak yerine **k1** ifadesini yazıp *Tab* tuşuna basabiliriz. 
 
 Son olarak "Snippets Kullanımı" ile ilgili daha detaylı bilgiye [buradaki](https://code.visualstudio.com/docs/editor/userdefinedsnippets) bağlantıdan ulaşabilirsiniz.
-
-
-
- 
-
