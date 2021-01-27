@@ -57,7 +57,7 @@ Yukarıdaki tabloda yaygın kullanılan semantik olmayan etiketler ve görevleri
 
 
 
-##### Referanslar
+## Kaynaklar
 - http://www.99lime.com/_bak/topics/you-only-need-10-tags/
 - https://emmet.io/
 - https://www.themt.co/blog/5-bilisim/353-emmet-nedir-ve-ne-ise-yarar
