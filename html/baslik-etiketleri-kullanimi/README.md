@@ -248,7 +248,7 @@ Cevaplar :
 <meta name="description" content="Kodluyoruz ile webe giris">
 ```
 
-##KAYNAKLAR
+## Kaynaklar
 
 - [https://clutch.co/seo-firms/resources/meta-tags-that-improve-seo](https://clutch.co/seo-firms/resources/meta-tags-that-improve-seo)
 
