@@ -1,24 +1,15 @@
+# Basics for Everyone INDEX
 
 #### Farklı Yazılım Kariyerleri
-
-- Frontend Nedir?
-
-- Backend Nedir?
-
-- Frontend & Backend Karşılaştırması ?
-
-  
+- [Frontend Nedir?](frontend-nedir/)
+- [Backend Nedir?](backend-nedir/)
+- [Frontend & Backend Karşılaştırması](frontend-vs-backend/)
 
 #### Algoritma & Pseudocode
-
-* [Algoritma](algoritma/)
-
+- [Algoritma](algoritma/)
 - [Pseudocode](pseudocode/)
 
-  
-
 #### Internet
-
 - [İnternet Nedir?](internet-nedir/)
 - [Fiziksel Elemanlar ve Wifi](fiziksel-elemanlar/)
 - [IP Adres ve DNS'e Giriş](ipadres-dns-giris/)
@@ -34,42 +25,11 @@
 - [Domain name](domain-name/)
 - [Hosting](hosting/)
 
+#### Araştırma Yapma
+- [Google'lamak](google/)
 
-
-#### Editor Kullanımı
-
-- [Visual Studio Code Nedir?](visual-studio-code-nedir/)
-
-- [Proje Klasörünün Açılması ve Dosyalarla Çalışmak](vs-dosyalarla-calismak)
-
-- [Genel Görünüm, Tema ve Dosya İkonu Ayarları](vs-genelgorunum/)
-
-- [IntelliSense ve Emmet Özelliklerine Genel Bakış](vs-intellisence-emmet)
-
-- [Eklentiler](vs-eklentiler)
-
-- [Panellerin Yönetimi, Dosyalar ile Çalışmak](vs-panellerinyonetimi)
-
-- [Terminal Kullanımı](terminal-kullanimi/)
-
-- [MultiCursor (Çoklu İmleç) Kullanımı](vs-coklu-imlec)
-
-- [Klavye ile Çalışmak / Klavye Kısayol Tuşları](vs-klavye-kisayollari/)
-
-- [Snippets Kullanımı](vs-snippets-kullanimi/)
-
-- [Ayarların Kişiselleştirilmesi](vs-ayarlarin-kisisellestirilmesi/)
-
-- [Diğer Kod Editörleri](diger-kod-editorleri/)
-
-  
-
-#### [Google'lamak](google/)
-
-
-
-
-#### [Developer'lar İçin Platformların Önemi](platformların-önemi/)
+#### Diğer Platformların Önemi
+- [Developer'lar İçin Platformların Önemi](platformların-önemi/)
 
 
 
