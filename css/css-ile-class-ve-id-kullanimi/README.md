@@ -315,4 +315,4 @@ title{
 
 ## **Kaynaklar**
 
-- [W3Schools](www.w3schools.com)
+- [W3Schools](https://www.w3schools.com)
