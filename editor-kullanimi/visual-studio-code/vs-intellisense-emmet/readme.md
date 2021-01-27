@@ -1,6 +1,6 @@
 # VS CODE | IntelliSense ve Emmet Özelliklerine Genel Bakış
 
-Visual Studio Code'un en güzel özelliklerinden bazırları "IntelliSence" ve "Emmet" dir. Bu yazımızda sizlere bu özellikleri anlatacağız.
+Visual Studio Code'un en güzel özelliklerinden bazırları "IntelliSense" ve "Emmet" dir. Bu yazımızda sizlere bu özellikleri anlatacağız.
 
 
 

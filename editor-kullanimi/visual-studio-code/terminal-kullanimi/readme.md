@@ -72,11 +72,11 @@ Bulunduğunuz klasörü terminal ekranına yazdırmak için:
 
 Bulunduğunuz klasördeki içerikleri ekrana yazdırmak için, bir başka deyişle bulunduğunuz klasörün içerisinde bulunan dosya ve klasörleri görebilmeniz için:
 
-* **Mac Os** ve **Linux** tabanlı sistemlerde terminale `ls` komut yazabilirsiniz.
+* **Mac Os** ve **Linux** tabanlı sistemlerde terminale `ls` komutunu yazabilirsiniz.
 
   ![MacOS ls komutu](figures/MacOS_ls.png)
 
-* **Windows** tabanlı işletim sistemlerde terminale `dir` komut yazabilirsiniz.
+* **Windows** tabanlı işletim sistemlerde terminale `dir` komutunu yazabilirsiniz.
 
 ![windowsterminali_liste](figures/windowsterminali_liste.png)
 
@@ -99,7 +99,7 @@ Bazı komutlar Windows ve MacOS/Linux arasında farklılıklar gösterebilir. Bu
 
 Bulunduğunuz klasördeki içerikleri listeledikten sonra, karşınıza çıkan herhangi bir klasöre girmek için:
 
-* *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale `cd` komutunu verebilirsiniz.
+* *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale `cd` komutunu kullanabilirsiniz.
 * Bu komut `cd` yanında bir parametre daha alır. Bu parametre girmek istediğiniz klasörün adıdır.
 
 **Örnek:**
