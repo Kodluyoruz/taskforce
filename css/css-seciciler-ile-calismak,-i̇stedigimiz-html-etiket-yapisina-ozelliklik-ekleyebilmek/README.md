@@ -394,6 +394,6 @@ p::before {
 ### ::after
 Belirtilen etiketin sonuna CSS uygular.Kullanımı ``::before`` ile aynıdır.
 
- ### Kaynaklar
- * https://www.w3schools.com/cssref/css_selectors.asp
- * https://css-tricks.com/almanac/selectors/
+ ## Kaynaklar
+ - https://www.w3schools.com/cssref/css_selectors.asp
+ - https://css-tricks.com/almanac/selectors/
