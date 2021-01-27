@@ -52,6 +52,5 @@ Tüm bu süreç kademeli olarak gerçekleşir. Tarayıcılar daha iyi kullanıc�
 
 
 
-*Kaynak:*
-
+## Kaynaklar:
 * https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Parser_Lexer_combination

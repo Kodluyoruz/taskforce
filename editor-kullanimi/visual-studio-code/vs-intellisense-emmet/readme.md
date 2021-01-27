@@ -27,7 +27,6 @@ Ek olarak Emmet'in içerdiği diğer kısaltmalara [buradan](http://www.borakasm
 
 
 ## Kaynaklar
-
-* https://youtu.be/wFff-wHlX3s
-* http://www.borakasmer.com/emmet-nedir/
+- https://youtu.be/wFff-wHlX3s
+- http://www.borakasmer.com/emmet-nedir/
 

@@ -1,12 +1,8 @@
 # PSEUDOCODE (SÖZDE KOD)
 
-
-
 ## Pseudocode (Sözde Kod) Nedir?
 
    **Pseudocode (Sözde Kod)**, [bilgisayar bilimleri](https://tr.wikipedia.org/wiki/Bilgisayar_bilimleri) alanında [algoritmalar](https://tr.wikipedia.org/wiki/Algoritma) ve [programlar](https://tr.wikipedia.org/wiki/Program) oluşturulurken ve aktarılırken kullanılan, günlük konuşma diline benzer ve belli bir programlama dilinin detaylarından uzak anlatımlardır. Programın yapısının ve çalışma mantığının yüksek seviyeli bir biçimde, gerektiği yerde doğrudan [doğal dil](https://tr.wikipedia.org/wiki/Doğal_dil) cümleleriyle, ama yine de bir program yapısı ve akışı içinde anlatılmasıdır. Böylelikle sözde kodu okuyan ya da yazan birisi, programlama dillerinin [söz dizim](https://tr.wikipedia.org/wiki/Sözdizim) detaylarına dikkat etmek zorunda kalmadan, programın ve algoritmanın çalışma mantığını düşünebilir.
-
-
 
 ![img](figures/sözdekod1.jpg)	
 
@@ -15,9 +11,6 @@
 * Pseudocode (Sözde Kod)’ a ihtiyaç duyulmasının temel nedeni programlama dillerini bilmeyen sıradan bir insanın ve her türden yazılımcının programlardaki algoritma mantığını anlamasını sağlamaktır.
 
 * Sözde kodun kullanılmasının bir diğer amacı programın yapımcısına veya programın kullanıcılarına kullanılan programlama dilinden bağımsız olarak, o programın çözüm, çalışma mantığının sunulmasının sağlanmasıdır.
-
-
-
 
 ## Pseudocode Özellikleri
 
@@ -29,11 +22,7 @@
 
 * Söz dizim (syntax) kurallarına dikkat etmek zorunda olunmadığı için algoritma özelliği göstermezler.
 
-  
-
 ![img](figures/sözdekod3.jpg) Şekil 1: Pseudocode ve algoritma farkı.
-
-
 
 // Sözel ve görsel örnek ekle.
 
@@ -284,11 +273,7 @@ D)
 
 
 ## Kaynaklar
-
-1.  https://en.wikipedia.org/wiki/Pseudocode
-
-2.  [https://tr.wikipedia.org/wiki/Sözde_Kod](https://tr.wikipedia.org/wiki/S%C3%B6zde_kod)
-
-3. https://technogezgin.com/pseudocode-nedir-sozde-kod/
-
-4. https://medium.com/@edisdev/algoritma-ve-pseudo-kodu-nedir-38ad7d09a73e
+- https://en.wikipedia.org/wiki/Pseudocode
+- https://tr.wikipedia.org/wiki/Sözde_Kod
+- https://technogezgin.com/pseudocode-nedir-sozde-kod/
+- https://medium.com/@edisdev/algoritma-ve-pseudo-kodu-nedir-38ad7d09a73e

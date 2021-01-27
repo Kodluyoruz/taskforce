@@ -73,6 +73,5 @@ Hosting nedir kısaca tekrar bakmak isterseniz aşağıdaki videoyu izleyebilirs
 
 [![hosting_video](figures/hosting_video.PNG)](https://www.youtube.com/watch?v=p3kTZWNxtSU)
 
-Kaynaklar:
-
-* https://www.whoishostingthis.com/resources/web-hosting/
+## Kaynaklar:
+- https://www.whoishostingthis.com/resources/web-hosting/

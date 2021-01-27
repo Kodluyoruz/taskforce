@@ -181,10 +181,10 @@ Elbette bu örneğe benzer şekilde birçok farklı arama gerçekleştirebilirsi
 
 ## Kaynaklar
 
-* https://tr.wikipedia.org/wiki/Google
-* https://en.wikipedia.org/wiki/Google
-* https://www.crmmedya.com/google-nedir/
-* https://www.vargonen.com/blog/arama-motoru-nedir/
-* https://about.google/intl/ALL_tr/products/
-* https://www.tamindir.com/blog/googlei-daha-etkili-kullanmak-icin-ipuclari_15804/
-* https://www.webtekno.com/google-arama-yontemleri-h95625.html
+- https://tr.wikipedia.org/wiki/Google
+- https://en.wikipedia.org/wiki/Google
+- https://www.crmmedya.com/google-nedir/
+- https://www.vargonen.com/blog/arama-motoru-nedir/
+- https://about.google/intl/ALL_tr/products/
+- https://www.tamindir.com/blog/googlei-daha-etkili-kullanmak-icin-ipuclari_15804/
+- https://www.webtekno.com/google-arama-yontemleri-h95625.html

@@ -42,8 +42,7 @@ Ve işte her şeyi özetleyen, Kodluyoruz tarafından Türkçeleştirilen bir Ha
 
 
 
-Kaynaklar:
-
-* https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/
-* https://www.wpbeginner.com/glossary/ip-address/
-* https://www.tutorialspoint.com/internet_technologies/internet_protocols.htm
+## Kaynaklar:
+- https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/
+- https://www.wpbeginner.com/glossary/ip-address/
+- https://www.tutorialspoint.com/internet_technologies/internet_protocols.htm

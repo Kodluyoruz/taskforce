@@ -131,4 +131,3 @@ Halihazırda kopyalanan ifadeyi yapıştırmak için `CTRL + V` kısayolunu kull
 ### 13) CTRL + X
 
 Seçili olan ifadeyi kesmek için `CTRL + X` kısayolunu kullanabilirsiniz.
-

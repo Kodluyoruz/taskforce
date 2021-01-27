@@ -100,7 +100,7 @@ Yukarıda bahsettiğimiz siber suçlar ile alakalı daha detaylı bilgi için a�
 
 [![cs50_internetin_temelleri](figures/cs50_internetin_temelleri.PNG)](https://www.youtube.com/watch?v=kHxcf2wK_ck&feature=youtu.be)
 
-### Kaynaklar:
+## Kaynaklar:
 - https://roadmap.sh/guides/what-is-internet
 - https://www.youtube.com/watch?v=kHxcf2wK_ck&feature=youtu.be
 - https://code.org/

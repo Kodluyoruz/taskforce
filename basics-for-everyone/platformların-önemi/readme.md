@@ -1,7 +1,3 @@
----
-typora-copy-images-to: figures
----
-
 # **Kendinizi Güncel Tutmak İçin Kullanabileceğiniz Platformlar**
 
 Buraya kadar geldik. Peki kendimizi nasıl sürekli güncel tutacağız? Şimdi sizlere bir yazılımcının mutlaka bilmesi gereken platformları listeliyoruz. 
