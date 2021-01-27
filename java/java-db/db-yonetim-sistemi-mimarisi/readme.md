@@ -103,3 +103,21 @@ En eski model olup 60 ve 70’li yıllarda çok kullanılmıştır. Ağaç veri 
 1969’da ortaya çıkan Ağ Veri Modeli 1970’li yıllarda ve 1980’li yılların ilk yarısında kullanılmıştır.
 
 ! Günümüzde hem ilişkisel hem de nesneye-yönelik yaklaşımı birlikte kullanan VTYS’lerinin yaygınlaştığı görülmektedir (ORDBMS).
+
+> 	## Kaynakça
+>
+> [DBMS architecture](https://slideplayer.biz.tr/slide/10181951/)
+>
+> [DBMS Concepts and Architecture](https://medium.com/oceanize-geeks/concepts-of-database-architecture-dfdc558a93e4#:~:text=A%20database%20architect%20develops%20and,single%20tier%20or%20multi%2Dtier.)
+>
+> [DBMS-beginnersbook](https://beginnersbook.com/2018/11/dbms-architecture/)
+>
+> [DBMS architecture- tutorialspoint](https://beginnersbook.com/2018/11/dbms-architecture/)
+>
+> [DBMS architecture - javaTpoint](https://www.javatpoint.com/dbms-architecture#:~:text=The%20DBMS%20design%20depends%20upon,are%20connected%20via%20the%20network.)
+>
+> [DBMS architecture - medium](https://medium.com/kodcular/katmanl%C4%B1-mimari-9fb34ef8c376)
+>
+> [DBMS Varlık Model](https://ozlemerden.wordpress.com/2012/02/09/veri-modelleri/#:~:text=Bir%20VTYS'yi%20kullanarak%20olu%C5%9Fturulacak,kavramsal%20ve%20d%C4%B1%C5%9F%20%C5%9Femalar%C4%B1%20olu%C5%9Fturulur.&text=Bug%C3%BCne%20kadar%20geli%C5%9Ftirilmi%C5%9F%20olan%20%C3%A7ok%20say%C4%B1da%20veri%20modeli%20vard%C4%B1r.)
+>
+> 
