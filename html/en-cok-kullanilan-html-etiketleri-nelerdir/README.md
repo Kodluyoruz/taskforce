@@ -336,4 +336,4 @@ HTML dilinde yorum satırı ```<!--``` ile başlar ```-->``` ile biter.
 
 
  ## Kaynak
- [w3schools](https://www.w3schools.com/tags/default.asp)
+ - [w3schools](https://www.w3schools.com/tags/default.asp)
