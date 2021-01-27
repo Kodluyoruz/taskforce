@@ -32,7 +32,6 @@ Kullanıcılar genellikle başlıkları ile bir sayfayı gözden kaçırırlar. 
 
 
 ## KAYNAKLAR
-[w3schools.com](https://www.w3schools.com/html/html_paragraphs.asp)
+- [w3schools.com](https://www.w3schools.com/html/html_paragraphs.asp)
 
-[html.com](https://html.com/paragraphs/) 
-
+- [html.com](https://html.com/paragraphs/)

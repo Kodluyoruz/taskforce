@@ -63,8 +63,8 @@ veeee ilk HTML Sayfamız WEB Tarayacımızda Görülmekte
 
 ### Kaynakça
 
-Kodluyoruz Frontend End 101 Video Eğitimi - Hakan Yalçınkaya
+- Kodluyoruz Frontend End 101 Video Eğitimi - Hakan Yalçınkaya
 
-https://code.visualstudio.com/
+- https://code.visualstudio.com/
 
-https://guides.github.com/features/mastering-markdown/
+- https://guides.github.com/features/mastering-markdown/

@@ -247,46 +247,47 @@ Cevaplar :
 <meta name="dominantColor" content="red">
 <meta name="description" content="Kodluyoruz ile webe giris">
 ```
-## KAYNAKLAR
 
-[https://clutch.co/seo-firms/resources/meta-tags-that-improve-seo](https://clutch.co/seo-firms/resources/meta-tags-that-improve-seo)
+## Kaynaklar
 
-[https://www.geeksforgeeks.org/most-commonly-used-tags-in-html/](https://www.geeksforgeeks.org/most-commonly-used-tags-in-html/)
+- [https://clutch.co/seo-firms/resources/meta-tags-that-improve-seo](https://clutch.co/seo-firms/resources/meta-tags-that-improve-seo)
 
-[https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
+- [https://www.geeksforgeeks.org/most-commonly-used-tags-in-html/](https://www.geeksforgeeks.org/most-commonly-used-tags-in-html/)
 
-[https://www.w3schools.com/tags/tag_head.asp](https://www.w3schools.com/tags/tag_head.asp)
+- [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
 
-[https://www.w3docs.com/learn-html/html-head-tag.html](https://www.w3docs.com/learn-html/html-head-tag.html)
+- [https://www.w3schools.com/tags/tag_head.asp](https://www.w3schools.com/tags/tag_head.asp)
 
-[https://help.ahrefs.com/en/articles/2433739-what-is-meta-refresh-redirect-and-why-is-it-considered-a-critical-issue](https://help.ahrefs.com/en/articles/2433739-what-is-meta-refresh-redirect-and-why-is-it-considered-a-critical-issue)
+- [https://www.w3docs.com/learn-html/html-head-tag.html](https://www.w3docs.com/learn-html/html-head-tag.html)
 
-[https://en.wikipedia.org/wiki/Meta_refresh](https://en.wikipedia.org/wiki/Meta_refresh)
+- [https://help.ahrefs.com/en/articles/2433739-what-is-meta-refresh-redirect-and-why-is-it-considered-a-critical-issue](https://help.ahrefs.com/en/articles/2433739-what-is-meta-refresh-redirect-and-why-is-it-considered-a-critical-issue)
 
-[http://www.yunusbassahan.com/blog/genel/arama-motorlari-ve-sosyal-medya-servisleri-icin-meta-tag-ler.html](http://www.yunusbassahan.com/blog/genel/arama-motorlari-ve-sosyal-medya-servisleri-icin-meta-tag-ler.html)
+- [https://en.wikipedia.org/wiki/Meta_refresh](https://en.wikipedia.org/wiki/Meta_refresh)
 
-[https://stackoverflow.com/questions/6535405/what-is-the-attribute-property-ogtitle-inside-meta-tag](https://stackoverflow.com/questions/6535405/what-is-the-attribute-property-ogtitle-inside-meta-tag)
+- [http://www.yunusbassahan.com/blog/genel/arama-motorlari-ve-sosyal-medya-servisleri-icin-meta-tag-ler.html](http://www.yunusbassahan.com/blog/genel/arama-motorlari-ve-sosyal-medya-servisleri-icin-meta-tag-ler.html)
 
-[https://www.w3schools.com/tags/tag_meta.asp](https://www.w3schools.com/tags/tag_meta.asp)
+- [https://stackoverflow.com/questions/6535405/what-is-the-attribute-property-ogtitle-inside-meta-tag](https://stackoverflow.com/questions/6535405/what-is-the-attribute-property-ogtitle-inside-meta-tag)
 
-[https://gist.github.com/lancejpollard/1978404](https://gist.github.com/lancejpollard/1978404)
+- [https://www.w3schools.com/tags/tag_meta.asp](https://www.w3schools.com/tags/tag_meta.asp)
 
-[https://www.w3schools.com/tags/tag_link.asp](https://www.w3schools.com/tags/tag_link.asp)
+- [https://gist.github.com/lancejpollard/1978404](https://gist.github.com/lancejpollard/1978404)
 
-[https://www.w3schools.com/tags/att_link_rel.asp](https://www.w3schools.com/tags/att_link_rel.asp)
+- [https://www.w3schools.com/tags/tag_link.asp](https://www.w3schools.com/tags/tag_link.asp)
 
-[https://www.w3schools.com/tags/att_link_type.asp](https://www.w3schools.com/tags/att_link_type.asp)
+- [https://www.w3schools.com/tags/att_link_rel.asp](https://www.w3schools.com/tags/att_link_rel.asp)
 
-[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link)
+- [https://www.w3schools.com/tags/att_link_type.asp](https://www.w3schools.com/tags/att_link_type.asp)
 
-[https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)
+- [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link)
 
-[https://www.w3schools.com/tags/att_meta_charset.asp](https://www.w3schools.com/tags/att_meta_charset.asp)
+- [https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)
 
-[https://www.w3schools.com/tags/att_meta_name.asp](https://www.w3schools.com/tags/att_meta_name.asp)
+- [https://www.w3schools.com/tags/att_meta_charset.asp](https://www.w3schools.com/tags/att_meta_charset.asp)
 
-[https://stackoverflow.com/questions/2359866/html-set-image-on-browser-tab](https://stackoverflow.com/questions/2359866/html-set-image-on-browser-tab)
+- [https://www.w3schools.com/tags/att_meta_name.asp](https://www.w3schools.com/tags/att_meta_name.asp)
 
-[https://stackoverflow.com/questions/34429024/what-is-the-purpose-of-the-integrity-attribute-in-html](https://stackoverflow.com/questions/34429024/what-is-the-purpose-of-the-integrity-attribute-in-html)
+- [https://stackoverflow.com/questions/2359866/html-set-image-on-browser-tab](https://stackoverflow.com/questions/2359866/html-set-image-on-browser-tab)
 
-[https://www.w3schools.com/tags/att_meta_http_equiv.asp](https://www.w3schools.com/tags/att_meta_http_equiv.asp)
+- [https://stackoverflow.com/questions/34429024/what-is-the-purpose-of-the-integrity-attribute-in-html](https://stackoverflow.com/questions/34429024/what-is-the-purpose-of-the-integrity-attribute-in-html)
+
+- [https://www.w3schools.com/tags/att_meta_http_equiv.asp](https://www.w3schools.com/tags/att_meta_http_equiv.asp)
