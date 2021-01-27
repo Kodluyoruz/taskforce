@@ -132,16 +132,8 @@ Kodda istediğiniz yere yorum satırı ekleyebilirsiniz:
  ```
  Yukarıdaki örnekte, em içindeki metin boyutu, piksel cinsinden önceki örnekle aynıdır. Ancak em boyutu ile tüm tarayıcılarda metin boyutunu ayarlamak mümkündür.
  
+ ## Kaynaklar
  
- [Yorum satırı kaynak](https://www.w3schools.com/css/css_comments.asp)
+ - [Yorum satırı kaynak](https://www.w3schools.com/css/css_comments.asp)
  
- [Font-family kaynak](https://www.w3schools.com/css/css_font.asp)
-
- 
- 
- 
-
-
- 
-
-
+ - [Font-family kaynak](https://www.w3schools.com/css/css_font.asp)

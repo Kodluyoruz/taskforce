@@ -186,4 +186,4 @@ Aşağıda görseli verilen sayfayı, Bootsrap 12'li ızgara sistemi ile tasarla
 
 #### Kaynak:
 
-[Bootstrap Resmi Sayfası](https://getbootstrap.com/)
+- [Bootstrap Resmi Sayfası](https://getbootstrap.com/)

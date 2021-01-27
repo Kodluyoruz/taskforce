@@ -556,5 +556,7 @@ Elementlerin üzerinde geldiğinizde size ip uçu veren componentler.
 
 Bu yazımızda Bootsrap'in tüm arayüz bileşenlerinden bahsetmeye çalıştık. Daha çok bu bileşenlerin tanıtımı gibi oldu. Bunlardan birine ihtiyacınız var ise bootsrap'in kendi dökümantasyonuna gidip bu componet'leri kendi projelerinize nasıl dahil edeceğinize bakabilirsiniz.
 
-[https://getbootstrap.com/docs/5.0/](https://getbootstrap.com/docs/5.0/)
+## Kaynakça
+
+- [https://getbootstrap.com/docs/5.0/](https://getbootstrap.com/docs/5.0/)
 
