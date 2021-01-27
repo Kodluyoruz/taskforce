@@ -1,11 +1,5 @@
 # GOOGLE ARAMA
-
-
-
 ## Google Arama Nasıl Çalışır?
-
-
-
 ### Video Zamanı!
 
 ---
