@@ -166,7 +166,23 @@
 
     - VS Code içerisinde terminal kullanımı projelerinizde size her zaman zaman kazandıracaktır. Bu videoda; VS Code içerisinde terminal(komut satırı)'i nasıl açacağınızı ve nasıl yöneteceğinizi anlattık.
 
+      - Terminal Kullanımı - pwd Komutu
+    
+      - https://youtu.be/eD6Ci_S17k8
+    
+      - Terminal Kullanımı - ls Komutu
       
+      - https://youtu.be/LPo0R7ROYm8
+      
+      - Terminal Kullanımı - cd Komutu
+      
+      - https://youtu.be/De1rnKCZ134
+      
+      -  Terminal Kullanımı - mkdir Komutu
+      
+      - https://youtu.be/eKOvNolcpBA
+      
+        
 
 - [MultiCursor (Çoklu İmleç) Kullanımı](vs-coklu-imlec)
 

@@ -21,17 +21,17 @@ Ek olarak terminalde kullanacağınız komut satırları Linux ve Mac OS işleti
 #### Windows
 **Windows** tabanlı sistemlerde ilk önce **Win** + **R** tuşlarına birlikte basın ardından, açılan **Çalıştır** penceresine *cmd* yazıp **Enter** tuşuna basabilirsiniz.
 
-![terminalwin+r](figures./terminalwin+r.jpg)
+![terminalwin+r](figures/terminalwin+r.jpg)
 
 #### MacOS
 **Mac OS** bilgisayarlarda ilk önce **⌘** **+** **Space** tuşlarına birlikte basın ardından **Spotlight Search** açıldıktan sonra **terminal** yazıp **Enter** tuşuna basabilirsiniz.
 
-![terminal1](figures/terminal1.png)
+![terminal1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/terminal-kullanimi/figures/terminal1.png)
 
 #### Linux
 **Linux** tabanlı sistemlerde **Ctrl** + **Alt** + **T** tuşlarına birlikte basabilirsiniz.
 
-![terminal2](figures/terminal2.png)
+![terminal2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/terminal-kullanimi/figures/terminal2.png)
 
 
 
@@ -48,13 +48,13 @@ Bulunduğunuz klasörü terminal ekranına yazdırmak için:
 
 * *Mac Os* ve *Linux* tabanlı sistemlerde terminale `pwd` komutunu yazabilirsiniz.
 
-![MacOS pwd komutu](figures/MacOS_pwd.png)
+![MacOS pwd komutu](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/terminal-kullanimi/figures/MacOS_pwd.png)
 
 * Windows tabanlı sistemlerde terminale `echo %cd%` komutunu yazabilirsiniz.
 
   
 
-![windowsterminali_klasörgörüntüleme](figures/windowsterminali_klasörgörüntüleme.png)
+![windowsterminali_klasörgörüntüleme](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/terminal-kullanimi/figures/windowsterminali_klas%C3%B6rg%C3%B6r%C3%BCnt%C3%BCleme.png)
 
 #### Bilgi Köşesi!
 
@@ -64,33 +64,26 @@ Bulunduğunuz klasörü terminal ekranına yazdırmak için:
 
 
 
-#### Video Zamanı!
-
-[![video](figures/video.png)](https://youtu.be/eD6Ci_S17k8)
-
 ### Adım 3:  İçerikleri Sıralamak
 
 Bulunduğunuz klasördeki içerikleri ekrana yazdırmak için, bir başka deyişle bulunduğunuz klasörün içerisinde bulunan dosya ve klasörleri görebilmeniz için:
 
 * **Mac Os** ve **Linux** tabanlı sistemlerde terminale `ls` komutunu yazabilirsiniz.
 
-  ![MacOS ls komutu](figures/MacOS_ls.png)
+  ![MacOS ls komutu](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/terminal-kullanimi/figures/MacOS_ls.png)
 
 * **Windows** tabanlı işletim sistemlerde terminale `dir` komutunu yazabilirsiniz.
 
-![windowsterminali_liste](figures/windowsterminali_liste.png)
+![windowsterminali_liste](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/terminal-kullanimi/figures/windowsterminali_liste.png)
 
 #### Bilgi Köşesi!
 Bazı komutlar Windows ve MacOS/Linux arasında farklılıklar gösterebilir. Bunun temel sebebi Linux ve MacOS'un `Unix` tabanlı olması ve Windows'un kendine özgü `nt` tabanını kullanmasıdır.
 
 * `ls` : Bu komut **Mac Os** *ve* **Linux** tabanlı sistemlerde terminale yazıldığında klasördeki içerikler listelenir.
+
 * `dir` : Bu komut **Windows** tabanlı sistemlerde terminale yazıldığında klasördeki içerikler listelenir.
 
-
-
-#### Video Zamanı!
-
-[![video](figures/video.png)](https://youtu.be/LPo0R7ROYm8)
+  
 
 
 ### Adım 4: Klasörler Arası Geçiş Yapmak
@@ -109,9 +102,9 @@ Bulunduğunuz klasördeki içerikleri listeledikten sonra, karşınıza çıkan 
 
  `cd Desktop` komutuyla **Desktop** klasörüne gittik.  Dosya yolunu rahat görebilmeniz için `pwd` komutunu kullandık. Gördüğünüz gibi yeni dosya yolumuz `/Users/kodluyoruz/Desktop` oldu. 
 
-![MacOS cd komutu](figures/MacOS_cd.png)
+![MacOS cd komutu](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/terminal-kullanimi/figures/MacOS_cd.png)
 
-![windowster_cd](figures/windowster_cd.png)
+![windowster_cd](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/terminal-kullanimi/figures/windowster_cd.png)
 
 ##### b) Klasörden Çıkmak
 
@@ -123,21 +116,15 @@ Bulunduğunuz klasörden bir üst klasöre çıkmak için:
 
 Bir önceki komutla birleştirirsek `cd Desktop` komutuyla **Desktop** klasörüne gittik.  Dosya yolunu rahat görebilmeniz için `pwd` komutunu kullandık. Gördüğünüz gibi yeni dosya yolumuz `/Users/kodluyoruz/Desktop` oldu. Ardından. `cd ..`komutuyla tekrardan bir üst klasöre geri döndük.
 
-![MacOS cd üst dizin komutu](figures/MacOS_cd_ust_dizin.png)
+![MacOS cd üst dizin komutu](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/terminal-kullanimi/figures/MacOS_cd_ust_dizin.png)
 
-![winter_cdcik](figures/winter_cdcik.png)
+![winter_cdcik](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/terminal-kullanimi/figures/winter_cdcik.png)
 
 ##### Bilgi Köşesi!
 
 `cd <klasorismi>` : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında ismi yazılan dizine girilir. 
 
 `cd ..` : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında bir üst dizine geri dönülür.
-
-
-
-#### Video Zamanı!
-
-[![video](figures/video.png)](https://youtu.be/De1rnKCZ134)
 
 
 
@@ -153,19 +140,15 @@ Bulunduğunuz klasörün içinde yeni bir klasör oluşturmak için:
 
 Oluşturduğumuz klasörü rahat görebilmeniz için önce `ls` komutuyla klasörümün içerisindekileri listeledim. Ardından `mkdir Kodluyoruz` komutuyla klasör içerisinde **Kodluyoruz** adında bir klasör oluşturdum. Ardından verdiğim `ls` komutunun çıktısında **Kodluyoruz** klasörünün oluştuğunu görebilirsiniz.
 
-![MacOS mkdir komutu](figures/MacOS_mkdir.png)
+![MacOS mkdir komutu](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/terminal-kullanimi/figures/MacOS_mkdir.png)
 
-![winter_mkdir](figures/winter_mkdir.png)
+![winter_mkdir](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/terminal-kullanimi/figures/winter_mkdir.png)
 
 #### Bilgi Köşesi!
 
 `mkdir <klasorismi>` : Bu komut satırı *Windows*, *Mac Os* ve *Linux* tabanlı sistemlerde terminale yazıldığında belirtilen klasör isminde yeni bir klasör oluşturur. 
 
 
-
-#### Video Zamanı!
-
-[![video](figures/video.png)](https://youtu.be/eKOvNolcpBA)
 
 
 

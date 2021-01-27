@@ -8,18 +8,18 @@ Visual Studio Code'u indirip kullanmaya başladığımızda aklımızda "Hangi e
 
 
 
-![vs-ek](figures/vs-ek.png)
+![vs-ek](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-eklentiler/figures/vs-ek.png)
 
 
 
 Visual Studio Code içerisinde eklentilere ulaşmak için ilk önce menü çubuğundan "Extensions" kısmına giriş yapmamız gerektiğini hatırlayalım. Bu konuda aklınıza takılan kısımlar varsa [buradaki](https://github.com/Kodluyoruz/taskforce/tree/basics/basics-for-everyone/vs-genelgorunum) yazımızı ziyaret edebilirsiniz. Eklentiler kısmına giriş yaptıktan sonra "Search Extensions in Marketplace" kısmından dilediğiniz eklentiyi aratabilirsiniz. 
 
-![vs-liveserver](figures/vs-liveserver.png)
+![vs-liveserver](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-eklentiler/figures/vs-liveserver.png)
 
 Bu örneğimizde arama kısmında "live server"ı arattığımızı ve karşımıza çıkan seçenekleri "Install" butonuna tıklayarak indirebileceğimizi görebiliriz. Eklentileri indirmeden önce alt kısmında yer alan eklenti açıklamalarını ve özelliklerini okumanızı tavsiye ediyoruz.
 
 
 
-![vs-öneri](figures/vs-öneri.png)
+![vs-öneri](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-eklentiler/figures/vs-%C3%B6neri.png)
 
 Ek olarak "Extensions" kısmında görseldeki ikona tıklayarak eklentileri öne çıkanlar, popüler olanlar, önerilenler şeklinde filtreleyebilirsiniz.

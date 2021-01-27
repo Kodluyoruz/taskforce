@@ -14,7 +14,7 @@ Projemizdeki dosya isimlerine hakim olmaya başladığımızda menü çubuğunda
 
 ### a) Panel Üzerine Tıklamak
 
-![vs-açkapa](figures/vs-açkapa.gif)
+![vs-açkapa](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-panellerinyonetimi/figures/vs-a%C3%A7kapa.gif)
 
 Bir paneli açmak ya da kapatmak için izleyeceğimiz ilk yol, menü çubuğu üzerinden panelin ikonuna tıklamaktır. Bu yolu klavye kısayollarını öğrenene kadar izleyebiliriz.
 
@@ -36,13 +36,13 @@ Birinci adımda da olduğu gibi "Adım 2"de de kullanabileceğimiz bir klavye k�
 
 
 
-![kontrolp](figures/kontrolp.gif)
+![kontrolp](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-panellerinyonetimi/figures/kontrolp.gif)
 
 Bu örneğimizde *index.html* açıkken **CTRL** + **P** kombinasyonuyla açtığımız menüden *style.css* dosyasını başarılı bir şekilde açtık.
 
 
 
-![vs-cift](figures/vs-cift.gif)
+![vs-cift](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-panellerinyonetimi/figures/vs-cift.gif)
 
 Ek olarak menüdeki pencere ikonuna basarak açmak istediğiniz dosyayı yan pencerede açabilirsiniz. Bu örneğimizde *style.css* dosyayı açıkken *index.html* dosyasının yanındaki pencere ikonuna basarak onu yan pencerede açtık.
 
@@ -58,7 +58,7 @@ Projenizde açık olan dosyaları **CTRL** + **W** kombinasyonunu kullanarak kap
 
 Açık olan dosyalar arasında geçiş yapmak için ilk öncelikle **CTRL** + **Tab** kombinasyonunu kullanmalı ve **CTRL** tuşundan elinizi çekmeden yukarıda açılacak menüde **Tab** tuşuna basarak geçiş yapmak istediğiniz dosyayı seçmelisiniz.
 
-![vs-gecis](figures/vs-gecis.gif)
+![vs-gecis](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-panellerinyonetimi/figures/vs-gecis.gif)
 
 Bu örneğimizde *style.css* dosyası açıkken **CTRL** + **Tab** kısayolunu kullandık ve **CTRL** tuşundan elimizi çekmeden yukarıda açılan menüde **Tab** tuşuna basarak *index.html* dosyasını seçtik. Böylece başarılı bir şekilde *style.css* dosyasından *index.html* dosyasına geçiş yapmış olduk.
 
@@ -68,7 +68,7 @@ Bu örneğimizde *style.css* dosyası açıkken **CTRL** + **Tab** kısayolunu k
 
 Yaptığınız değişiklikleri kaybetmemek ve onların çıktılarını kolayca görebilmek için yapmanız gereken dosyayı kaydetmektir. Visual Studio Code'un ilk ayarlarında "Otomatik Kaydetme" özelliği olmadığından dosyalarda yaptığınız değişikleri sizin kaydetmeniz gerekmektedir. Ek olarak yine Visual Studio Code içerisinde dosyalarda yaptığınız değişiklerin henüz kaydedilmediğini hatırlatmak amacıyla bazı ikonlar yer almaktadır. 
 
-![değişiklik](figures/değişiklik.png)
+![değişiklik](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-panellerinyonetimi/figures/de%C4%9Fi%C5%9Fiklik.png)
 
 Bu örnekte görüldüğü gibi dosyaların ve menü çubuğundaki panelin köşesinde yer alan ikonlar, dosyaların kaydedilmediğini gösterir. Dosyalardaki değişiklikleri kaydetmek için iki yol vardır.
 
@@ -78,7 +78,7 @@ Bu örnekte görüldüğü gibi dosyaların ve menü çubuğundaki panelin köş
 
 Dosyalardaki değişiklikleri kaydetmenin ilk yolu *File* menüsünden **Save** ya da **Save All** seçeneklerinden birini seçmektir.
 
-![vs-file](figures/vs-file.gif)
+![vs-file](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-panellerinyonetimi/figures/vs-file.gif)
 
 
 
@@ -96,7 +96,7 @@ Adımlarımız buraya kadardı ancak ek olarak sizlere **View** menüsünde yapa
 
 View menüsünde yapabileceğimiz birçok işlem bulunuyor. Gelin bu işlemlere bakalım.
 
-![viewmenüsü](figures/viewmenüsü.png)
+![viewmenüsü](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-panellerinyonetimi/figures/viewmen%C3%BCs%C3%BC.png)
 
 
 
@@ -104,13 +104,13 @@ View menüsünde yapabileceğimiz birçok işlem bulunuyor. Gelin bu işlemlere 
 
 Bu kısımda kod editörünüzün pencere sayısını ve boyutlarını ayarlayabilirsiniz.
 
-![vs-view](figures/vs-view.gif)
+![vs-view](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-panellerinyonetimi/figures/vs-view.gif)
 
 
 
 ### b) Show Minimap
 
-![minimap](figures/minimap.png)
+![minimap](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-panellerinyonetimi/figures/minimap.png)
 
 Visual Studio Code editörünün sağ kısmında dosyanızın küçük bir haritası yer alır. Bu haritayı, *Show Minimap* kısmından kapatıp açabilirsiniz.
 
@@ -118,6 +118,6 @@ Visual Studio Code editörünün sağ kısmında dosyanızın küçük bir harit
 
 ### c) Show Breadcrumbs
 
-![yerikonu](figures/yerikonu.png)
+![yerikonu](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-panellerinyonetimi/figures/yerikonu.png)
 
 Bu seçenek ile dosya isminizin köşesinde yer alan ve dosyanın nerede olduğunu gösteren ikonları kapatıp açabilirsiniz.
