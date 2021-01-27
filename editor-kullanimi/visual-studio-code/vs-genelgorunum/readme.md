@@ -58,7 +58,7 @@ Menü çubuğunda ikinci olarak karşımıza "Search" kısmı çıkıyor. Bu kı
 
 
 
-Üçüncü olarak karşımıza çıkan kısım "Source Control" yani "Versiyon Kontrol" kısmıdır. Bu kısımda otomatik bir veersiyon kontrol sistem oluşturabilir ve bunu "Github"ta paylaşabilirsiniz.
+Üçüncü olarak karşımıza çıkan kısım "Source Control" yani "Versiyon Kontrol" kısmıdır. Bu kısımda otomatik bir versiyon kontrol sistem oluşturabilir ve bunu "Github"ta paylaşabilirsiniz.
 
 
 

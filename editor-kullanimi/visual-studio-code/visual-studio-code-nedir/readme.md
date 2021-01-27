@@ -8,18 +8,6 @@ Visual Studio Code, Windows, macOS ve Linux işletim sistemlerinde çalışan bi
 
 
 
-## Haydi başlayalım!
-
-Bu videoda,
-
-- VS Code'da nasıl dosya oluşturacağınızı ve kaydedeceğinizi,
-- VS Code'da vereceğiniz tüm komutların kontrol merkezi olan Command Palette'e nereden ulaşacağınızı,
-- Kullanıcı arayüzünde bulunan alanların ne olduğunu ve bunlara hangi klavye kısayollarını kullanarak ulaşabileceğinizi,
-- Kodlarınızı yazacağınız programlama dilleri için gerekli uzantıları nasıl ekleyebileceğinizi,
-- VS Code'un varsayılan olarak gelen renk temasını nasıl değiştirebileceğinizi göreceksiniz.
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/S320N3sxinE/0.jpg)](https://www.youtube.com/watch?v=S320N3sxinE)
-
 
 
 
