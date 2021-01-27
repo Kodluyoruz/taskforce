@@ -117,7 +117,7 @@ Yukarıdaki satırlarda yazdığımız h1 elementlerinin farklı ekran boyutlar�
 Görüldüğü üzere, 5 farklı h1 elementini farklı ekran boyutlarında göstermiş ve diğer boyutlarda gizlemiş olduk.
 
 ## Kaynaklar
-[CSS display - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display)  
-[CSS display property - w3schools](https://www.w3schools.com/cssref/pr_class_display.asp)  
-[Display Property - Bootstrap](https://getbootstrap.com/docs/4.0/utilities/display/)  
-[Bootstrap Utilities - w3schools](https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp)
+- [CSS display - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display)  
+- [CSS display property - w3schools](https://www.w3schools.com/cssref/pr_class_display.asp)  
+- [Display Property - Bootstrap](https://getbootstrap.com/docs/4.0/utilities/display/)  
+- [Bootstrap Utilities - w3schools](https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp)
