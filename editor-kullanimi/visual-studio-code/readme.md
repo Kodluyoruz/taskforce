@@ -8,7 +8,7 @@
 
 - [Genel Görünüm, Tema ve Dosya İkonu Ayarları](vs-genelgorunum/)
 
-- [IntelliSense ve Emmet Özelliklerine Genel Bakış](vs-intellisence-emmet)
+- [IntelliSense ve Emmet Özelliklerine Genel Bakış](vs-intellisense-emmet)
 
 - [Eklentiler](vs-eklentiler)
 
@@ -25,3 +25,4 @@
 - [Ayarların Kişiselleştirilmesi](vs-ayarlarin-kisisellestirilmesi/)
 
 - [Diğer Kod Editörleri](diger-kod-editorleri/)
+

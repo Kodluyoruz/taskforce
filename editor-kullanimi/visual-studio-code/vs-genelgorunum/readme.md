@@ -14,7 +14,7 @@ Visual Studio Code'a başarılı bir şekilde giriş yaptıktan sonra bizleri so
 
 ### Explorer
 
-![vs-menübar2exp](figures/vs-menübar2exp.png)
+![vs-menübar2exp](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-men%C3%BCbar2exp.png)
 
 
 
