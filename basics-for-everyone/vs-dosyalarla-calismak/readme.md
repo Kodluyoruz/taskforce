@@ -1,4 +1,4 @@
-# VS CODE |Proje Klasörünün Oluşturulması, Açılması ve Dosyalarla Çalışmak 
+# VS CODE | Proje Klasörünün Oluşturulması, Açılması ve Dosyalarla Çalışmak 
 
 Bu yazımızda sizlere Visual Studio Code editöründe proje klasörünün nasıl açılacağını ve nasıl dosyalarla çalışacağını anlatacağız. Ama ondan öncesinde aklınızda "Visual Studio Code nedir?" sorusu varsa [buradan](https://github.com/Kodluyoruz/taskforce/tree/basics/basics-for-everyone/visual-studio-code-nedir) Visual Studio Code editörüne giriş yaptığımız yazıyı okumanızı rica ediyoruz. 
 

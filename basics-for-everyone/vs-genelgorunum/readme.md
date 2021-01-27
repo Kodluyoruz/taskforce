@@ -1,4 +1,4 @@
-# VS CODE |Genel Görünüm, Tema ve Dosya İkonu Ayarları
+# VS CODE | Genel Görünüm, Tema ve Dosya İkonu Ayarları
 
 Bu yazımızda sizlere Visual Studio Code'taki genel görünüm, tema ve dosya ikonu ayarlarını anlatacağız.
 

@@ -56,11 +56,11 @@
 
 - [Klavye ile Çalışmak / Klavye Kısayol Tuşları](vs-klavye-kisayollari/)
 
-- Snippets Kullanımı
+- [Snippets Kullanımı](vs-snippets-kullanimi/)
 
-- Ayarların Kişiselleştirilmesi
+- [Ayarların Kişiselleştirilmesi](vs-ayarlarin-kisisellestirilmesi/)
 
-- Diğer Kod Editörleri
+- [Diğer Kod Editörleri](diger-kod-editorleri/)
 
   
 
