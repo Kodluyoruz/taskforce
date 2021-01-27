@@ -64,7 +64,7 @@ Bu komuttan hemen sonra () parantezler arasında “salaries” tablosunda hangi
 
 Bu örnekte “employees” tablosu ile ilişki kuracağımız için onun ismini yazdık. İlişki kurulacak tabloyu belirledikten sonra () içine bu tablonun hangi sütununu kullanacağımızı belirtiyoruz. Genellikle ilişki kurulan tablonun PRIMARY KEY sütunu burada belirtilir. Bizim örneğimizde “employees” tablosu olduğu için onun “emp_no” isimli PRIMARY KEY sütunuyla ilişki kuruyoruz.
 
-![veritabani calisma mantigi](file:///Users/kodluyoruz/Projeler/kodluyoruz/taskforce/java/java-102/jdbc-api-and-databases/figures/cıktı.png?lastModify=1610030453)
+![veritabani calisma mantigi](figures/veritabanı-silme.png)
 
 Yukarıda “salaries” tablosuna ait kayıtlar görülmektedir. Tablodaki “emp_no” sütunundaki veriler ilişki kurduğumuz “employees” tablosunun PRIMARY KEY alanından gelmektedir. Böylece, her çalışana ait ne kadar maaş kaydı var bulmak çok kolay oluyor.
 
@@ -159,7 +159,7 @@ where emp.emp_no = 10004;
 
 Bu örneğimizde INNER JOIN birleştirme işlemini göreceğiz. INNER JOIN bir araya getirilen tablolardaki kayıtları bire bir eşleştirerek getirir. Eğer bire bir eşleşmiyorsa o kayıt sorgu sonucunda gelmez. INNER JOIN ifadesinden sonra bir arada kullanmak istediğimiz tablo ismini vermektir. Ardından bu tabloların hangi sütunları üzerinden bağlantı kurulması gerektiği belirtilmelidir. Bunun için ON ifadesinden sonra “salaries” tablosundaki “emp_no” sütunu ile “employees” tablosundaki “emp_no” sütununu kıyaslıyoruz. Her iki sütunda birbirine eşit olan kayıtları JOIN’lenmiş biçimde adeta tek bir tabloymuş gibi sorgu sonucunda bir araya getiriyoruz.
 
-![veritabani calisma mantigi](file:///Users/kodluyoruz/Projeler/kodluyoruz/taskforce/java/java-102/jdbc-api-and-databases/figures/kayıt-cıktı.png?lastModify=1610030453)
+![veritabani calisma mantigi](figures/veritabanı-silme2.png/)
 
 ```
 select emp.*, dm.* from employees emp 
@@ -168,7 +168,7 @@ left join dept_manager dm on dm.emp_no = emp.emp_no;
 
 Yukarıdaki komutta ise yine bir araya getirme örneği inceliyoruz. Fakat, LEFT JOIN ile tabloları birleştirmek INNER JOIN’e göre farklıdır. INNER JOIN’de bire bir eşleşen kayıtları bir araya getirip tek bir tablo gibi sunmaktadır. LEFT JOIN’de ise sol tarafta kalan “employees” tablosunda kayıt olmasına rağmen eğer ki sağdaki “dept_manager” tablosunda eşleşen bir kayıt yoksa da sorgu sonucunda “employees”’e ait kayıt getirilir. “dept_manager” tablosunda eşleşmeyen kısımlar ise NULL olarak getirilir.
 
-![veritabani calisma mantigi](file:///Users/kodluyoruz/Projeler/kodluyoruz/taskforce/java/java-102/jdbc-api-and-databases/figures/kayıt-cıktı1.png?lastModify=1610030453)
+![veritabani calisma mantigi](figures/veritabanı.png/)
 
 ```
 select emp.*, dm.* from dept_manager dm 
@@ -195,7 +195,7 @@ select distinct title from titles
 
 DISTINCT anahtar kelimesi ile belirtilen sütunda tekrarlı geçen her ifade bir kayıt şeklinde gösterilir.
 
-![veritabani calisma mantigi](file:///Users/kodluyoruz/Projeler/kodluyoruz/taskforce/java/java-102/jdbc-api-and-databases/figures/cıktı1.png?lastModify=1610030453)
+![veritabani calisma mantigi](figures/distinct.png)
 
 Metin içinde belirtilen ifade ile sorgulama yapabilmek
 
