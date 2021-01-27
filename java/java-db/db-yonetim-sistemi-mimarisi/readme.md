@@ -35,16 +35,36 @@ DBMS mimarisi tek katmanlı veya çok katmanlı olarak görülebilir. Yukarıdak
 
   Örneğin veri tabanımızda öğrenci kayıtları olduğunu düşünelim. Öğrenci kayıtlarını almak için istek yapıp ve kayıtların veri tabanından sizin tarafınızdan getirilecektir. Bu tür yapılar yerel veri tabanı sistemi olarak adlandırılır.
 
-* ## 2Katmanlı Mimari
+* ## 2 Katmanlı Mimari
 
   ![2-tier](figures/2-tier.png)
 
-  2 katmanlı mimari, istemci sunucu mimarisine dayanır. Doğrudan iletişim istemci ve sunucu arasında gerçekleşir. İstemci tarafındaki uygulamalar, sunucu  veri tabanı ile doğrudan iletişim kurabilir. Yani veri tabanı sistemi server da bulunur. İstemci SQL gibi bir sorgu dili kullanarak sunucuda bulunan veri tabanına veri tabanına erişimde bulunduğunda  sunucu isteği veri tabanında gerçekleştirir ve sonucu istemciye geri döndürür. Bu kısım için API'lar kullanılabilir. Örnek ODBC, JDBC gibi.
+  2 katmanlı mimari, istemci sunucu mimarisine dayanır. Doğrudan iletişim istemci ve sunucu arasında gerçekleşir. İstemci tarafındaki uygulamalar, sunucu  veri tabanı ile doğrudan iletişim kurabilir. Yani veri tabanı sistemi server da bulunur. İstemci SQL gibi bir sorgu dili kullanarak sunucuda bulunan veri tabanına erişimde bulunduğunda  sunucu isteği veri tabanında gerçekleştirir ve sonucu istemciye geri döndürür. Bu kısım için API'lar kullanılabilir. Örnek ODBC, JDBC gibi.
 
   - Kullanıcı arayüzleri ve uygulama programları istemci tarafından çalıştırılır. 
   - Sunucu, sorgu işleme ve benzeri işlemleri sağlar.
 
   DBMS ile iletişim kurmak için, istemci uygulaması sunucu ile bağlantı kurar.
+  
+* ## 3 Katmanlı Mimari
+
+  ![3-tier](figures/3-tier.png)
+
+  Kullanıcıların veri tabanında bulunan verileri nasıl kullandıklarına  bağlı olarak katmanlarını  birbirinden ayırır. Bir DBMS sistem tasarlamak için kullanılan en yaygın yöntemdir. İstemci sunucu arasında başka bir katman var. Bu  mimaride istemci sunucu ile doğrudan iletişim kuramaz. Yani istemci tarafındaki uygulama, veri tabanı ile daha fazla iletişim kuran uygulama sunucusu ile etkileşime girer. 
+
+  **Veri Katmanı** : Sorgu işleme dilleri bulunur. Bu katmanda verileri ve kısıtlamalarını tanımlayan ilişkilerde vardır.
+
+  **Uygulama Katmanı** :Uygulama sunucusu ve veri tabanına erişen program bulunur. Veri tabanının soyutlanmış  bir görünüm sağlar. Aslında son kullanıcılar, uygulama dışında veri tabanının varlığından habersizdir. Aynı şekilde veri tabanı katmanı uygulama katmanı dışındaki kullanıcının farkında değildir. Sonuç olarak, Uygulama katmanı ortada yer alır ve son kullanıcı ile veri tabanına aracı görevi görür.
+
+  **Sunum Katmanı** : Son kullanıcılar bu katmanda çalışır. Veri tabanı varlığından haberdar değildir. Veri tabanının  birden fazla görünümü uygulama tarafından sağlanabilir. Aslında tüm görünümler, uygulama katmanında bulunan uygulamalar tarafından oluşturulur.
+
+* ## n - Katmanlı Mimari
+
+  ![n-tier](figures/n-tier.png)
+
+  Bu katmanlı mimari, uygulamanın 3 farklı katmana bölünmesini inceler. Logic tier, Presentation tier ve Data tier olarak ayrılır.Model-görünüm-denetleyici (MVC) çerçevesindeki öğelerin genellikle kavramsal veya mantıksal olarak ayrılmasının aksine, uygulamanın farklı bölümlerinin fiziksel olarak ayrılmasıdır. MVC çerçevesinden bir başka fark, n katmanlı katmanların doğrusal olarak bağlanmasıdır, yani tüm iletişim, mantık katmanı olan orta katmandan geçmelidir. MVC'de gerçek bir orta katman yoktur çünkü etkileşim üçgen şeklindedir; kontrol katmanının hem görünüm hem de model katmanlarına erişimi vardır ve model de görünüme erişir; kontrolör ayrıca gereksinimlere göre bir model oluşturur ve bunu görünüme iter. 
+
+Bu şekilde DBMS mimarilerini ve nasıl neden kullanıldıklarını öğrenmiş olduk.
 
 ## Veri Modeli
 
