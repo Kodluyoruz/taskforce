@@ -14,7 +14,7 @@ Visual Studio Code editöründe klavye kısayollarının tamamına ulaşmak içi
 
 ### 1. Yol: Help Menüsü
 
-![klavye-kisayollari](figures/klavye-kisayollari.png)
+![klavye-kisayollari](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-klavye-kisayollari/figures/klavye-kisayollari.png)
 
 Tüm kısayolları görüntülemek için takip edebileceğimiz ilk yol Visual Studio Code içerisindeki **Help** menüsünden *"Keyboard Shourtcuts Reference*" seçeneğine tıklamaktır. Böylece kullanmış olduğunuz işletim sistemindeki klavye kısayollarına kolayca ulaşabilirsiniz.
 
@@ -26,7 +26,7 @@ Takip edebileceğimiz ikinci yol da Visual Studio Code editörünün web sitesin
 
 
 
-![windows-kisayollari](figures/windows-kisayollari-1611667454420.png)
+![windows-kisayollari](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-klavye-kisayollari/figures/windows-kisayollari-1611667454420.png)
 
 Bu görselde windows tabanlı işletim sistemlerinde Visual Studio Code içerisindeki klavye kısayollarını görebiliriz. Bu kısayolların hepsini tabii ki de ezberlemek zorunda değiliz. Ama mümkün olduğunca temel klavye kısayollarına hakim olmalıyız.
 
@@ -36,7 +36,7 @@ Bu görselde windows tabanlı işletim sistemlerinde Visual Studio Code içerisi
 
 Vusial Studio Code editörü bizlere klavye kısayollarını kişileştirebilmemizi de sağlar.
 
-![vs-kisisellestirme](figures/vs-kisisellestirme.gif)
+![vs-kisisellestirme](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-klavye-kisayollari/figures/vs-kisisellestirme.gif)
 
 Kişileştirme ayarlarına ulaşmak için sırasıyla `File -> Preferences -> Keyboard Shortcuts` yolunu takip edebilirsiniz. Bu kısımda klavye kısayollarını aratabilir ya da değiştirebilirsiniz.
 
@@ -50,7 +50,7 @@ Kişileştirme ayarlarına ulaşmak için sırasıyla `File -> Preferences -> Ke
 
 `CTRL + P` kombinasyonunu kullandığınızda açılan menüden projenizdeki dosyaları açabilirsiniz.
 
-![vs-ctrlp](figures/vs-ctrlp.gif)
+![vs-ctrlp](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-klavye-kisayollari/figures/vs-ctrlp.gif)
 
 
 
@@ -68,7 +68,9 @@ Halihazırda açık olan dosyayı kapatmak için `CTRL + W` kombinasyonunu kulla
 
 ### 4) CTRL + SHIFT + P
 
-`CTRL + SHIFT + P` klavye kısayolunu kullanarak ayarlara ulaşabilirsiniz.![vs-ctrlshiftp](figures/vs-ctrlshiftp.gif)
+`CTRL + SHIFT + P` klavye kısayolunu kullanarak ayarlara ulaşabilirsiniz.
+
+![vs-ctrlshiftp](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-klavye-kisayollari/figures/vs-ctrlshiftp.gif)
 
 Bu örneğimizde ilk öncelik **tema** ayarlarına giriş yaptığımızı ve sonrasında *dosya ikonlarını* kolayca değiştirebildiğimizi görebiliriz. 
 
@@ -78,7 +80,7 @@ Bu örneğimizde ilk öncelik **tema** ayarlarına giriş yaptığımızı ve so
 
 Bir ifadenin tamamını seçmek istediğinizde o ifadenin sonuna gelerek `CTRL + SHIFT + SOL YÖN TUŞU` kombinasyonunu kullanabilirsiniz.
 
-![vs-solok](figures/vs-solok.gif)
+![vs-solok](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-klavye-kisayollari/figures/vs-solok.gif)
 
 Bu örneğimizde *kodluyoruz* ifadesinin sonuna gelerek `CTRL + SHIFT + SOL YÖN TUŞU` kısayolunu kullandığımızda tamamını seçtiğimizi görebiliriz.
 
@@ -88,7 +90,7 @@ Bu örneğimizde *kodluyoruz* ifadesinin sonuna gelerek `CTRL + SHIFT + SOL YÖN
 
 Bir ifadenin yerini değiştirmek istediğinizde `ALT + YUKARI/AŞAĞI YÖN TUŞU` kombinasyonunu kullanabilirsiniz
 
-![vs-altok](figures/vs-altok.gif)
+![vs-altok](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-klavye-kisayollari/figures/vs-altok.gif)
 
 Bu örneğimizde *kodluyoruz* ifadesinin yerini `ALT + YUKARI/AŞAĞI YÖN TUŞU` kısayolunu kullanarak değiştirdiğimizi görebiliriz.
 
@@ -110,7 +112,7 @@ Satırın neresinde olursanız olun bir alt satıra geçmek istediğinizde `CTRL
 
 Dosyanızda yer alan aynı ifadeleri seçmek için `CTRL + D` kısayolunu kullanabilir sonrasında da çoklu imleç özelliğinden yararlanarak aynı ifadeleri tek seferde değiştirebilirsiniz.
 
-![vs-ctrld](figures/vs-ctrld.gif)
+![vs-ctrld](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-klavye-kisayollari/figures/vs-ctrld.gif)
 
 Bu örneğimizde *kodluyoruz* ifadelerinin tamamını `CTRL + D` kombinasyonunu kullanarak seçtiğimizi ve sonrasında hepsi yerine tek seferde *kodluyoruz.org* ifadesini yazdığımızı görebiliriz.
 
