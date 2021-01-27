@@ -247,7 +247,8 @@ Cevaplar :
 <meta name="dominantColor" content="red">
 <meta name="description" content="Kodluyoruz ile webe giris">
 ```
-## KAYNAKLAR
+
+##KAYNAKLAR
 
 - [https://clutch.co/seo-firms/resources/meta-tags-that-improve-seo](https://clutch.co/seo-firms/resources/meta-tags-that-improve-seo)
 
