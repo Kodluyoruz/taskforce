@@ -43,12 +43,6 @@ Cevap içerisinde aynı zamanda sunucu başlığı da bulunuyor. Bu kullanılan 
 
 Başlık kısmından sonra body kısmı bulunuyor ve sunucudan veri geliyorken sunucudan istenilen objenin kendisi bulunuyor(tabi durum kodu OK ise). Body içeriği, istek sırasında header içerisinde "content-type" ile belirtilen format ile gelir.
 
-Buraya kadar öğrendiklerimizi pekiştirmek için aşağıdaki iki videoyu izleyebilirsiniz.
-
-[![HTTP_Protokolu_Status_Kodu](figures/http_protocol_status_code.png)](https://www.youtube.com/watch?v=JbFV-fJGetc&t=1s)
-
-[![http_header_body](figures/http_header_body.png)](https://www.youtube.com/watch?v=2xdgtsvUIow&t=43s)
-
 Peki bu HTTP trafiğini nasıl görebiliriz. Günlük internet kullanımımızda bu yapılarla hiç karşılaşmamış olma ihtimalimiz yüksek. Öncelikle bir tarayıcı açalım. Tarayıcı üzerinde F12'ye bastığınızda bir pencere açılacak. Pencerede "Network" seçeneğine tıklarsanız tüm trafiği görebilirsiniz. Durum kodlarını fark ettiniz mi ? 
 
 ![network_sekmesi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/http/figures/network_sekmesi.png)
@@ -56,10 +50,6 @@ Peki bu HTTP trafiğini nasıl görebiliriz. Günlük internet kullanımımızda
 Gelen-giden paketlerden birinin üstüne tıklarsanız aşağıdaki gibi detaylı bakmak için yan pencere açıldığını göreceksiniz. Bu pencere üzerinden paketin header, cevap ön izlemesi (Preview), cevap body içeriği (Response), zaman detayları (Timing), çerez bilgilerini (Cookies) görebilirsiniz.
 
 ![network_detay](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/http/figures/network_icerik.png)
-
-Genel HTTP hakkındaki öğrendiklerimizi özetlemek için Kodluyoruz bünyesinde Türkçeleştirilen bir Harvard dersi ile sonlandıralım.
-
-[![http_cs50](figures/http_nedir_cs50.png)](https://www.youtube.com/watch?v=72YksVaDCUg&feature=youtu.be)
 
  ## Kaynaklar:
 - https://kamranahmed.info/blog/2016/08/13/http-in-depth/

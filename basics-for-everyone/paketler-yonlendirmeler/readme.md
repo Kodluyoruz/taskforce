@@ -10,12 +10,6 @@ Peki paketler hedefe ulaşamazsa ne olur ? Bu durumun çözümü olarak yeni bir
 
 * TCP+Yönlendiriciler -> Ölçeklendirilebilirlik
 
-Aşağıdaki videoda paket ile iletişimin, yönlendiricilerin ve TCP protokolünün nasıl birlikte çalıştığını görebilirsiniz. Ayrıca videoyu izlerken altyazılardan "Türkçe" seçmeyi unutmayın.
-
-[![packets_routers_reliability](figures/packets_routing_reliability.PNG)](https://www.youtube.com/watch?v=AYdF7b3nMto&feature=emb_logo)
-
-
-
 ## Kaynaklar:
 - https://roadmap.sh/guides/what-is-internet
 - https://www.youtube.com/watch?v=kHxcf2wK_ck&feature=youtu.be

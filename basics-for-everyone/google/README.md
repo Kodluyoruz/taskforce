@@ -4,10 +4,6 @@
 
 ---
 
-[![googlevideo](figures/googlevideo.png)](https://www.youtube.com/watch?v=BNHR6IQJGZs&feature=youtu.be)
-
-
-
 Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık gelebilecek binlerce web sayfası bulabilirsiniz. Google bunları belli bir tekniğe göre bulur ve sıralar. Bunu sıralamayı da şu şekilde yapar;
 
 - Arama sayfasına yazdığınız kelimeyi, anlamına karşılık gelen kavramları, dilini ve bu kelimeyi aratan insanların ortak amacına göre bir algoritma çizer.

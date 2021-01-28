@@ -12,10 +12,6 @@ DNS sunucularına sorarken hızlı olmak için belli bir sıra ile sorulur. Önc
 
 ![Root_DNS](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/DNS/figures/ROOT_DNS.png)
 
-"DNS nedir, nasıl çalışır ?" konulu aşağıdaki videoyu izlemeniz tavsiyemizdir (Dil seçeneklerinden Türkçe seçebilirsiniz).
-
-[![](figures/video.png)](https://www.youtube.com/watch?v=mpQZVYPuDGU)
-
 ## Kaynaklar:
 
 - https://www.quora.com/What-is-a-TLD

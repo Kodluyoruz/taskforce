@@ -8,17 +8,7 @@ IP adres ve alan adını telefon rehberi gibi düşünebiliriz. Tanıdığı her
 
 Bir web sitesi oluştururken de alan adı alırız. Böylelikle web sitemize girmek için o ismi kullanabiliriz.
 
-
-
 ![hierarchy](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/domain-name/figures/hierarchy_domain_name.png) 
-
-
-
-Aşağıdaki videoda kısaca alan adı açıklanmış pekiştirmek için izleyebilirsiniz :)
-
-[![domain_name_video](figures/domain_name_video.png)](https://www.youtube.com/watch?v=-jYUNrFL5G0)
-
-
 
 ## Kaynaklar:
 

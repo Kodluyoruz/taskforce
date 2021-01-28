@@ -8,12 +8,6 @@ Kullandığımız fiziksel elemanların birbirine göre güçlü ve zayıf yanla
 
 ![fiziksel_elemanlar_tablo](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/fiziksel-elemanlar/figures/fiziksel_eleman_tablo.PNG)
 
-Aşağıdaki videoda yukarıdaki tablonun detaylı anlatımını bulabilirsiniz. Ayrıca videoyu izlerken altyazılardan "Türkçe" seçmeyi unutmayın.
-
-[![Wires_cables_wifi](figures/wires_cables_wifi.PNG)](https://www.youtube.com/watch?v=ZhEf7e4kopM&feature=emb_logo)
-
-
-
 ## Kaynaklar:
 - https://roadmap.sh/guides/what-is-internet
 - https://www.youtube.com/watch?v=kHxcf2wK_ck&feature=youtu.be
