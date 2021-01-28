@@ -8,12 +8,6 @@ Cihazlar arası iletişimi IP adresler sağlar ama günlük hayatımızda bir we
 
 İnternete bağlanan çok fazla cihaz olduğu için DNS sunucusunun da bir tane olmasını bekleyemeyiz. Değilse bir web sitesine girmek günler sürebilirdi. Pide kuyruğuna girmişçesine DNS sunucusundan eşleşme için sıraya girmiş olurduk... DNS sunucuları dağıtık hiyerarşi ile birbirine bağlıdır. 
 
-Aşağıdaki videoda iki cihazın birbiri ile haberleşirken IP adresini ve DNS sunucularını nasıl kullandığını görebilirsiniz. Ayrıca videoyu izlerken altyazılardan "Türkçe" seçmeyi unutmayın.
-
-[![IP_adres_dns](figures/ip_address.PNG)](https://www.youtube.com/watch?v=5o8CwafCxnU&feature=emb_logo)
-
-
-
 ## Kaynaklar:
 - https://roadmap.sh/guides/what-is-internet
 - https://www.youtube.com/watch?v=kHxcf2wK_ck&feature=youtu.be

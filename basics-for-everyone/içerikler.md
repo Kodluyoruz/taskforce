@@ -46,11 +46,13 @@
 
 1. https://youtu.be/bWwODnfnS2A
 
-   - Açıklama: Algoritma Nedir? 
+   - Algoritma Nedir? 
+   - İzlemen için bir video paylaştık.
    
 2. https://youtu.be/lnlWdk8Peuo
 
-   -  Açıklama: Akış Diaygramı Nedir? 
+   -  Akış Diaygramı Nedir? 
+   -  İzlemen için bir video paylaştık.
 
 ### [Pseudocode](pseudocode/)
 
@@ -66,7 +68,7 @@
 2. Pseudocode (Sözde Kod) özellikleri ile ilgili verilen bilgilerden hangisi doğrudur?
 
    - Üzerlerinde hata ayıklaması (debugging) yapılabilir.
-   - Herhangi bir derleyici tarafından derlenemezler.
+   - Herhangi bir derleyici tarafından derlenemezler. (Doğru)
    - Söz dizim (syntax) kurallarına dikkat edilir.
    - Kod niteliği taşırlar.
 
@@ -108,7 +110,7 @@
      2. Kahvaltı hazırla.
      3. Yemeğini ye.
      4. Ayakkabılarını giy.
-     5. Evden çık.
+     5. Evden çık.   (Doğru)
      ```
 
    - ```
@@ -119,7 +121,7 @@
      5. Yatağından kalk.
      ```
 
-4. İki sayının toplamını veren algoritmayı pseudocode ile yazacak olsaydık şu şekilde görünecekti.
+4. İki sayının toplamını veren pseudocode aşağıdakilerden hangisidir?
 
    - ```
      1. Başla.
@@ -154,7 +156,7 @@
      3. İkinci sayıyı oku. (sayi2)
      4. toplam = sayi1 + sayi2
      5. toplam
-     6. Bitir.
+     6. Bitir.   (Doğru)
      ```
 
 5. İki sayının bölümünü veren pseudocode aşağıdakilerden hangisidir?
@@ -189,7 +191,7 @@
      5. Yazabileceğin en büyük bölümü yaz ve işleme devam et.
      6. İşlem sonucunda kalan;
      	a. Bölümden küçük ise işlemi bitir.
-     	b. Bölümden büyük ise 4. adıma git.
+     	b. Bölümden büyük ise 4. adıma git.   (Doğru)
      ```
 
    - ```
@@ -205,26 +207,242 @@
 
 6.  Elinizde aşağıdaki gibi karışık bir yapboz olduğunu düşünün. Bu yapbozu şıklardaki hangi pseudocode kullanılarak çözülebilir?
 
-   
+   ![sözdekod4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/pseudocode/figures/s%C3%B6zdekod4.jpg)
+
+   - ```
+     1. Başla
+     2. 1 numaralı parçayı sağa kaydır.
+     3. 4 numaralı parçayı yukarı kaydır.
+     4. 2 numaralı parçayı sola kaydır.
+     5. Yapbozu bitir.
+     ```
+
+   - ```
+     1. Başla
+     2. 3 numaralı parçayı sola kaydır.
+     3. 5 numaralı parçayı yukarı kaydır.
+     4. 6 numaralı parçayı yukarı kaydır.
+     5. Yapbozu bitir.
+     ```
+
+   - ```
+     1. Başla
+     2. 3 numaralı parçayı sola kaydır.
+     3. 5 numaralı parçayı yukarı kaydır.
+     4. 2 numaralı parçayı sağa kaydır.
+     5. Yapbozu bitir.
+     ```
+
+   - ```
+     1. Başla
+     2. 2 numaralı parçayı yukarı kaydır.
+     3. 5 numaralı parçayı sola kaydır.
+     4. 6 numaralı parçayı yukarı kaydır.
+     5. Yapbozu bitir.   (Doğru)
+     ```
+
+#### Videolar
+
+1. https://youtu.be/7UcIc7QahBE
+
+   - Pseudocode (Sözde Kod)
+   - Ve işte her şeyi özetleyen, Kodluyoruz tarafından Türkçeleştirilen bir Harvard dersi :)
 
 ## Internet ####
-- [İnternet Nedir?](internet-nedir/)
-- [Fiziksel Elemanlar ve Wifi](fiziksel-elemanlar/)
-- [IP Adres ve DNS'e Giriş](ipadres-dns-giris/)
-- [Paketler, Yönlendirme ve Güvenirlik](paketler-yonlendirmeler/)
-- [HTTP ve HTML'e Giriş](http-html-giris)
-- [Şifreleme ve Public Key](internet-sifreleme/)
-- [Siber Güvenlik ve Suçlar](siber-guvenlik/)
-- [Browsers](Browsers/)
-- [IP](IP/)
-- [TCP](TCP/)
-- [HTTP](http/)
-- [DNS](DNS/)
-- [Domain name](domain-name/)
-- [Hosting](hosting/)
+### [İnternet Nedir?](internet-nedir/)
 
-#### Araştırma Yapma ####
-- [Google'lamak](google/)
+#### Sorular
 
-#### Diğer Platformların Önemi ####
-- [Developer'lar İçin Platformların Önemi](platformların-önemi/)
+1. Yok
+
+#### Videolar
+
+1. https://youtu.be/kHxcf2wK_ck
+
+   -   İnternete Giriş
+   -   Ve işte her şeyi özetleyen, Kodluyoruz tarafından Türkçeleştirilen bir Harvard dersi :)
+2. https://youtu.be/Dxcc6ycZ73M
+   - İnternet Nedir?
+   - Aşağıdaki videoda "İnternetin babası" olarak adlandırılanlardan biri olan Vint Cerf ile "İnternet nedir?" konusu konuşulmuş. İnternetin aslında ARPANET projesinden ortaya çıktığı ve savaşta bir yer bombalanınca sistemin tamamen çökmesini engellemeye karşı çözüm olarak bulunan dağıtık sistem mimarisini kullandığını biliyor muydunuz? 
+
+### [Fiziksel Elemanlar ve Wifi](fiziksel-elemanlar/)
+
+#### Sorular
+
+1. Yok
+
+#### Videolar
+
+1. https://youtu.be/ZhEf7e4kopM
+   - Videoda yöntem, avantaj ve dezavantaj tablosunun detaylı anlatımını bulabilirsiniz. Ayrıca videoyu izlerken altyazılardan "Türkçe" seçmeyi unutmayın.
+
+### [IP Adres ve DNS'e Giriş](ipadres-dns-giris/)
+
+#### Sorular
+
+1. Yok
+
+#### Videolar
+
+1. https://youtu.be/5o8CwafCxnU
+   - Videoda iki cihazın birbiri ile haberleşirken IP adresini ve DNS sunucularını nasıl kullandığını görebilirsiniz. Ayrıca videoyu izlerken altyazılardan "Türkçe" seçmeyi unutmayın.
+
+### [Paketler, Yönlendirme ve Güvenirlik](paketler-yonlendirmeler/)
+
+#### Sorular
+
+1. Yok
+
+#### Videolar
+
+1. https://youtu.be/AYdF7b3nMto
+   - Videoda paket ile iletişimin, yönlendiricilerin ve TCP protokolünün nasıl birlikte çalıştığını görebilirsiniz. Ayrıca videoyu izlerken altyazılardan "Türkçe" seçmeyi unutmayın.
+
+### [HTTP ve HTML'e Giriş](http-html-giris)
+
+#### Sorular
+
+1. Yok
+
+#### Videolar
+
+1. https://youtu.be/kBXQZMmiA4s
+   - Videoda detaylı bir anlatım ile tarayıcı üzerinde bir araştırmanın arka planını öğrenebilirsiniz. Ayrıca videoyu izlerken altyazılardan "Türkçe" seçmeyi unutmayın.
+
+### [Şifreleme ve Public Key](internet-sifreleme/)
+
+#### Sorular
+
+1. Yok
+
+#### Videolar
+
+1. https://youtu.be/AuYNXgO_f3Y
+   - Şifreleme yöntemlerinin tarihi ve örneklerle anlatımı için videoyu izleyebilirsiniz. Ayrıca videoyu izlerken altyazılardan "Türkçe" seçmeyi unutmayın. 
+
+### [Siber Güvenlik ve Suçlar](siber-guvenlik/)
+
+#### Sorular
+
+1. Yok
+
+#### Videolar
+
+1. https://youtu.be/AuYNXgO_f3Y
+   - Siber suçlar ile alakalı daha detaylı bilgi için aşağıdaki videoyu bırakıyoruz. Ayrıca videoyu izlerken altyazılardan "Türkçe" seçmeyi unutmayın. 
+
+### [Browsers](Browsers/)
+
+#### Sorular
+
+1. Yok
+
+#### Videolar
+
+1. Yok
+
+### [IP](IP/)
+
+#### Sorular
+
+1. Yok
+
+#### Videolar
+
+1. https://youtu.be/dJK-IkDjxQg
+   - Ve işte her şeyi özetleyen, Kodluyoruz tarafından Türkçeleştirilen bir Harvard dersi :)
+
+### [TCP](TCP/)
+
+#### Sorular
+
+1. Yok
+
+#### Videolar
+
+1. https://youtu.be/wxTOcPy2_Pk
+   - TCP ile ilgili detaylı bir anlatıma Kodluyoruz tarafından Türkçeleştirilen aşağıdaki Harvard dersinde de ulaşabilirsiniz.
+
+### [HTTP](http/)
+
+#### Sorular
+
+1. Yok
+
+#### Videolar
+
+1. https://youtu.be/JbFV-fJGetc
+
+   -  HTTP Protocol ve HTTP Status Code Nedir?
+   -  Öğrendiklerimizi pekiştirmek için videoyu izleyebilirsiniz.
+2. https://youtu.be/2xdgtsvUIow
+
+   -  HTTP Header ve HTTP Body Nedir?
+   -  Öğrendiklerimizi pekiştirmek için videoyu izleyebilirsiniz.
+3. https://youtu.be/72YksVaDCUg
+   - Genel HTTP hakkındaki öğrendiklerimizi özetlemek için Kodluyoruz bünyesinde Türkçeleştirilen bir Harvard dersi ile sonlandıralım.
+
+### [DNS](DNS/)
+
+#### Sorular
+
+1. Yok
+
+#### Videolar
+
+1. https://youtu.be/mpQZVYPuDGU
+
+   -  DNS (Alan Adı Sunucusu) Nasıl Çalışır?
+   -  "DNS nedir, nasıl çalışır ?" konulu aşağıdaki videoyu izlemeniz tavsiyemizdir (Dil seçeneklerinden Türkçe seçebilirsiniz).
+
+### [Domain name](domain-name/)
+
+#### Sorular
+
+1. Yok
+
+#### Videolar
+
+1. https://youtu.be/-jYUNrFL5G0
+
+   -  Alan Adı Nedir?
+   -  Videoda kısaca alan adı açıklanmış pekiştirmek için izleyebilirsiniz :)
+
+### [Hosting](hosting/)
+
+#### Sorular
+
+1. Yok
+
+### Videolar
+
+1. https://youtu.be/p3kTZWNxtSU
+
+   -  Web hosting nedir?
+
+   - Hosting nedir kısaca tekrar bakmak isterseniz videoyu izleyebilirsiniz.
+
+## Araştırma Yapma ####
+### [Google'lamak](google/)
+
+#### Sorular
+
+1. Yok
+
+#### Videolar
+
+1. https://youtu.be/BNHR6IQJGZs
+   - Google Nasıl Çalışır?
+   - Sizlerle Google'un nasıl çalıştığıyla ilgili bir video paylaştık. 
+
+## Diğer Platformların Önemi ####
+### [Developer'lar İçin Platformların Önemi](platformların-önemi/)
+
+#### Sorular
+
+1. Yok
+
+#### Videolar
+
+1. Yok
+

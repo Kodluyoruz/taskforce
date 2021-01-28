@@ -34,14 +34,6 @@ Yönlendirici ağda iki veya daha fazla seçeneği olduğunda trafik kontrolü y
 
 IP ile veri iletiminin %100 gerçekleşeceğini garanti edemeyiz. Aktarım sırasında hatalar meydana gelirse iletişim gerçekleşmez. Bu yüzden *güvenilmez(unreliable)* bir protokoldür. TCP gibi güvenilir bir protokol ile kullanıldığında güvenilir hale gelir.
 
-
-
-Ve işte her şeyi özetleyen, Kodluyoruz tarafından Türkçeleştirilen bir Harvard dersi :)
-
-[![IP_CS50](figures/IP_cs50.PNG)](https://www.youtube.com/watch?v=dJK-IkDjxQg&feature=youtu.be)
-
-
-
 ## Kaynaklar:
 - https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/
 - https://www.wpbeginner.com/glossary/ip-address/

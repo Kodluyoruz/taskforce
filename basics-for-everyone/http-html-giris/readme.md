@@ -8,12 +8,6 @@ HTML(HyperText Markup Language), bir web sitesinin temel görünümünü oluştu
 
 ![web_security](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/http-html-giris/figures/web_security.png)
 
-Aşağıdaki videoda detaylı bir anlatım ile tarayıcı üzerinde bir araştırmanın arka planını öğrenebilirsiniz. Ayrıca videoyu izlerken altyazılardan "Türkçe" seçmeyi unutmayın.
-
-[![http_html](figures/http_html.PNG)](https://www.youtube.com/watch?v=kBXQZMmiA4s&feature=emb_logo)
-
-
-
 ### Kaynaklar:
 - https://roadmap.sh/guides/what-is-internet
 - https://www.youtube.com/watch?v=kHxcf2wK_ck&feature=youtu.be
