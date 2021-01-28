@@ -1,7 +1,3 @@
----
-typora-copy-images-to: figures
----
-
 # PSEUDOCODE (SÖZDE KOD)
 
 ## Pseudocode (Sözde Kod) Nedir?
@@ -223,7 +219,7 @@ D)
 
 6. **Elinizde aşağıdaki gibi karışık bir yapboz olduğunu düşünün. Bu yapbozu şıklardaki hangi pseudocode kullanılarak çözülebilir?**
 
-<img src="figures\sözdekod4.jpg" alt="sözdekod4" style="zoom:50%;" />
+![sözdekod4](figures/sözdekod4.jpg)
 
 A)
 
