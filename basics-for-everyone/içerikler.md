@@ -34,7 +34,9 @@
 ## Algoritma & Pseudocode ####
 ### [Algoritma](algoritma/)
 
-#### Sorular
+#### Sorular 
+
+Senin için birkaç soru hazırladık.
 
 1. Algoritma ile ilgili bilgilerden hangisi yanlıştır?
    - Bir sorunu çözmek veya belirlenmiş bir amaca ulaşmak için tasarlanan yola algoritma denir.
@@ -51,7 +53,7 @@
    
 2. https://youtu.be/lnlWdk8Peuo
 
-   -  Akış Diaygramı Nedir? 
+   -  Akış Diyagramı Nedir? 
    -  İzlemen için bir video paylaştık.
 
 ### [Pseudocode](pseudocode/)
