@@ -248,7 +248,7 @@
         "KK1 - KodKoda" : {
         	"prefix" : "kk1" ,
         	"body" : "<h1>KodKoda</h1>" ,
-        	"description" : "Yeni nesil yazilim gelistirici forumu." (Doğru)
+        	"description" : "Yeni nesil yazilim gelistirici forumu." 
         }
         ```
 

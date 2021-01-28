@@ -1,10 +1,14 @@
+---
+typora-copy-images-to: figures
+---
+
 # PSEUDOCODE (SÖZDE KOD)
 
 ## Pseudocode (Sözde Kod) Nedir?
 
    **Pseudocode (Sözde Kod)**, [bilgisayar bilimleri](https://tr.wikipedia.org/wiki/Bilgisayar_bilimleri) alanında [algoritmalar](https://tr.wikipedia.org/wiki/Algoritma) ve [programlar](https://tr.wikipedia.org/wiki/Program) oluşturulurken ve aktarılırken kullanılan, günlük konuşma diline benzer ve belli bir programlama dilinin detaylarından uzak anlatımlardır. Programın yapısının ve çalışma mantığının yüksek seviyeli bir biçimde, gerektiği yerde doğrudan [doğal dil](https://tr.wikipedia.org/wiki/Doğal_dil) cümleleriyle, ama yine de bir program yapısı ve akışı içinde anlatılmasıdır. Böylelikle sözde kodu okuyan ya da yazan birisi, programlama dillerinin [söz dizim](https://tr.wikipedia.org/wiki/Sözdizim) detaylarına dikkat etmek zorunda kalmadan, programın ve algoritmanın çalışma mantığını düşünebilir.
 
-![img](figures/sözdekod1.jpg)	
+![img](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/pseudocode/figures/s%C3%B6zdekod1.jpg)	
 
 ## Pseudocode Neden Kullanılır?
 
@@ -22,9 +26,11 @@
 
 * Söz dizim (syntax) kurallarına dikkat etmek zorunda olunmadığı için algoritma özelliği göstermezler.
 
-![img](figures/sözdekod3.jpg) Şekil 1: Pseudocode ve algoritma farkı.
+![img](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/pseudocode/figures/s%C3%B6zdekod3.jpg) Şekil 1: Pseudocode ve algoritma farkı.
 
-// Sözel ve görsel örnek ekle.
+### Örnek 
+
+![örnek](figures/örnek.png)
 
 ## Sorular
 
