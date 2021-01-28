@@ -6,7 +6,7 @@ HTML(HyperText Markup Language), bir web sitesinin temel görünümünü oluştu
 
 İnternette gezinmek gözetlenme ve onay olmadan değiştirme gibi tehlikeleri barındırır. Bilgilerimizin çalınma tehlikesi olduğu için güvenilir olmayan siteler konusunda dikkatli olmalıyız. Bir web sitesini güvenilir yapan nedir ? Öncelikle TLS(Transport Layer Security) ve SSL(Security Sockets Layer) kullanarak güvenli bir kanal oluşturması gereklidir. HTTPS(HyperText Transfer Protocol Security) protokolü kullanarak istekleri iletmesini bekleriz. Bu kanalda kullanmak üzere bir sertifikaya da ihtiyacı vardır. Peki bunları nasıl hızlıca anlayacağız ? Aşağıdaki gibi https ve kilit işaretinin olduğuna dikkat etmeliyiz, sertifika olmadığında tarayıcımız uyarı verecektir.
 
-![web_security](figures/web_security.png)
+![web_security](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/http-html-giris/figures/web_security.png)
 
 Aşağıdaki videoda detaylı bir anlatım ile tarayıcı üzerinde bir araştırmanın arka planını öğrenebilirsiniz. Ayrıca videoyu izlerken altyazılardan "Türkçe" seçmeyi unutmayın.
 

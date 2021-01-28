@@ -6,7 +6,7 @@ Bilgi bite dönüştürülüyor ve fiziksel elemanlar aracılığı ile hedefe u
 
 Kullandığımız fiziksel elemanların birbirine göre güçlü ve zayıf yanları var. Bunları aşağıdaki tabloda görebilirsiniz.
 
-![fiziksel_elemanlar_tablo](figures/fiziksel_eleman_tablo.PNG)
+![fiziksel_elemanlar_tablo](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/fiziksel-elemanlar/figures/fiziksel_eleman_tablo.PNG)
 
 Aşağıdaki videoda yukarıdaki tablonun detaylı anlatımını bulabilirsiniz. Ayrıca videoyu izlerken altyazılardan "Türkçe" seçmeyi unutmayın.
 
