@@ -1,50 +1,54 @@
 # JavaScript Temel INDEX
 
-#### JavaScript Nedir? ####
-- [JavaScript Nedir?](javascript-nedir/)
-  - Sorular
-    - JavaScript, kimin tarafından ve hangi yılda geliştirilmiştir?
-      - James Gosling tarafından 1995 yılında
-      - Guido van Rossum tarafından 1991 yılında
-      - Brenden Eich tarafından 1995 yılında (Doğru)
-      - Dennis Ritchie tarafından 1972 yılında
-    - Aşağıdakilerden yer alan seçeneklerden hangisi doğrudur?
-      - JavaScript sadece web sayfalarını interaktif ve fonksiyonel hale getirmeye yarayan bir betik dilidir.
-      - JavaScript sadece internet tarayıcılarında çalışır.
-      - JavaScript ile Java aynı dildir.
-      - JavaScript prototip-tabanlı bir dildir. (Doğru)
-    - Aşağıdakilerden yer alan seçeneklerden hangisi bir JavaScript teknolojisi (Library / Framework) değildir?
-      - Phaser
-      - Django (Doğru)
-      - React
-      - Express
-    - Aşağıdakilerden yer alan ECMAScript versiyonlarından hangisi yayınlanmamıştır?
-      - ES4 / ECMAScript 4 (Doğru)
-      - ES6 / ECMAScript 2015 (Haziran 2015)
-      - ES2016 / ECMAScript 2016
-      - ES2019 / ECMAScript 2019
-  - Video
-    - https://www.youtube.com/watch?v=gndWkaTyo6g
-    - Video başlığında belirttiğimiz "Neden JavaScript?" sorusuna en güzel cevabı StackOverflow'un kurucularından olan Jeff Atwood açıklamıştır.
-      “Any application that can be written in JavaScript, will eventually be written in JavaScript(JavaScript ile yazılabilecek herhangi bir uygulama, eninde sonunda JavaScript ile yazılacaktır.)." - Atwood’s Law
-      Kısaca ifade etmek gerekirse burada dile getirilen JavaScript dilinin limitleri dahilinde bir uygulama yazılabilirse, bir gün muhakkak başka bir dille yazılmış olsa bile bu uygulama JavaScript'e geçeceğidir. Atwood bu sözleri 2007 yılında söylediğinde JavaScript bugünkü kadar popüler değildi. Günümüzde ise JavaScript en popüler dillerden birisidir.
- 
-Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
-- [Birçok Platformda Hello World ve Hello World'ün Önemi](helloworld/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=p9vBqtM7blk
-    - Bu videoda; JavaScript ile birçok platformda "Merhaba Dünya" kodumuzu yazıp ilk kez JavaScript kodumuzu çalıştıracağız.
+### [JavaScript Nedir?](javascript-nedir/)
 
-#### Değişkenlerle Çalışmak ####
-- [Degisken Tanimlama: var, ES6 ile Birlikte Gelen let ve const Değişken Tanımlama Yapısının Kullanımı, var ile Arasındaki Farklar](degisken-tanimlama-var-es6-ile-birlikte-gelen-let-ve-const-degisken-tanimlama-yapisinin-kullanimi-var-ile-arasindaki-farklar/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=E739Sr5n2Hw
-    - Bu videoda; JavaScript'te değişken tanımlarken kullandığımız var, let, const kullanımını ve aralarındaki farkları anlattık.
-- [Number Veri Turu Kullanımı, Temel Aritmetik İşlemler ve İşlem Önceliği ve Arttırma ve Azaltma İşlemleri](number-veri-turu-kullanimi-temel-aritmetik-i̇slemler-ve-i̇slem-onceligi-ve-arttirma-ve-azaltma-i̇slemleri/)
+#### Sorular
+
+1. JavaScript, kimin tarafından ve hangi yılda geliştirilmiştir?
+   - James Gosling tarafından 1995 yılında
+   - Guido van Rossum tarafından 1991 yılında
+   - Brenden Eich tarafından 1995 yılında (Doğru)
+   - Dennis Ritchie tarafından 1972 yılında
+
+2. Aşağıdakilerden yer alan seçeneklerden hangisi doğrudur?
+	- JavaScript sadece web sayfalarını interaktif ve fonksiyonel hale getirmeye yarayan bir betik dilidir.
+	- JavaScript sadece internet tarayıcılarında çalışır.
+	- JavaScript ile Java aynı dildir.
+	- JavaScript prototip-tabanlı bir dildir. (Doğru)
+
+3. Aşağıdakilerden yer alan seçeneklerden hangisi bir JavaScript teknolojisi (Library / Framework) değildir?
+	- Phaser
+	- Django (Doğru)
+	- React
+	- Express
+4. Aşağıdakilerden yer alan ECMAScript versiyonlarından hangisi yayınlanmamıştır?
+	- ES4 / ECMAScript 4 (Doğru)
+	- ES6 / ECMAScript 2015 (Haziran 2015)
+	- ES2016 / ECMAScript 2016
+	- ES2019 / ECMAScript 2019
+
+#### Video
+1. https://www.youtube.com/watch?v=gndWkaTyo6g
+	- Video başlığında belirttiğimiz "Neden JavaScript?" sorusuna en güzel cevabı StackOverflow'un kurucularından olan Jeff Atwood açıklamıştır.
+“Any application that can be written in JavaScript, will eventually be written in JavaScript(JavaScript ile yazılabilecek herhangi bir uygulama, eninde sonunda JavaScript ile yazılacaktır.)." - Atwood’s Law
+Kısaca ifade etmek gerekirse burada dile getirilen JavaScript dilinin limitleri dahilinde bir uygulama yazılabilirse, bir gün muhakkak başka bir dille yazılmış olsa bile bu uygulama JavaScript'e geçeceğidir. Atwood bu sözleri 2007 yılında söylediğinde JavaScript bugünkü kadar popüler değildi. Günümüzde ise JavaScript en popüler dillerden birisidir.
+Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
+###  [Birçok Platformda Hello World ve Hello World'ün Önemi](helloworld/)
+#### Sorular
+1. Yok
+
+#### Video
+1. https://www.youtube.com/watch?v=p9vBqtM7blk
+	- Bu videoda; JavaScript ile birçok platformda "Merhaba Dünya" kodumuzu yazıp ilk kez JavaScript kodumuzu çalıştıracağız.
+
+## Değişkenlerle Çalışmak ####
+### [Degisken Tanimlama: var, ES6 ile Birlikte Gelen let ve const Değişken Tanımlama Yapısının Kullanımı, var ile Arasındaki Farklar](degisken-tanimlama-var-es6-ile-birlikte-gelen-let-ve-const-degisken-tanimlama-yapisinin-kullanimi-var-ile-arasindaki-farklar/)
+#### Sorular
+1. Yok.
+#### Video
+1. https://www.youtube.com/watch?v=E739Sr5n2Hw
+	- Bu videoda; JavaScript'te değişken tanımlarken kullandığımız var, let, const kullanımını ve aralarındaki farkları anlattık.
+### [Number Veri Turu Kullanımı, Temel Aritmetik İşlemler ve İşlem Önceliği ve Arttırma ve Azaltma İşlemleri](number-veri-turu-kullanimi-temel-aritmetik-i̇slemler-ve-i̇slem-onceligi-ve-arttirma-ve-azaltma-i̇slemleri/)
   - Sorular
     - X
   - Video
