@@ -185,217 +185,253 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 1. https://www.youtube.com/watch?v=il2GbdS_Oo0
 	- Bu videoda; if ve else yapısını, istediğimiz koşullara göre kod bloklarının nasıl çalıştırılabileceğini anlattık.
 
-- [Çoklu Koşul Yapısı Kullanımı](coklu-kosul-yapisi-kullanimi/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=LtuzpDY7ngU
-    - Kod bloklarımızı çalıştırırken birden fazla veya iç içe geçmiş koşul yapılarını kullanmamız gerekebilir. Bu videoda; if/else/else if bloklarının çoklu nasıl kullanılabileceğini hep birlikte inceleyelim.
-- [Ternary Operator( koşul ? doğruysa : yanlışsa) ile If Kullanımı](ternary-operator(-kosul-dogruysa-yanlissa)-ile-if-kullanimi/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=0DetgkxkMok
-    - Bu videoda; ternary operator ile short if kullanımını anlattık.
+### [Çoklu Koşul Yapısı Kullanımı](coklu-kosul-yapisi-kullanimi/)
+#### Sorular
+1. Yok
 
-#### Fonksiyonlar ####
-- [Fonksiyon Nedir ? Neden Kullanırız?](fonksiyon-nedir-neden-kullaniriz/)
-  - Sorular
-    - Javascript'te fonksiyon nasıl yaratılır?
-      - `function:myFunction()`
-      - `function = myFunction()` (Doğru)
-      - `function myFunction()`
-    - myFunction isimli fonksiyon nasıl çağrılır?
-      - `myFunction()` (Doğru)
-      - `call function myFunction()`
-      - `call myFunction()`
-  - Video
-    - https://www.youtube.com/watch?v=_H5weWiEQYw
-    - Bu videoda; fonksiyon nedir ve nasıl tanımlanır konularını anlattık.
-- [Fonsiyona Parametre(params) ve Geridönüş(return) Eklemek](fonsiyona-parametre(params)-ve-geridonus(return)-eklemek/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=J4hxdAfxayA
-    - Bu videoda; function içerisinde parametre kullanımını ve  return ile function içerisinden bilgi dönme konularını işledik.
-- [Fat Arrow () => Fonksiyonu Kullanımı](fat-arrow-fonksiyonu-kullanimi/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=Tv7iBzbMDcI
-    - Bu videoda; ES6 ile birlikte standartlaşmış olan Arrow Function(fat arrow) kullanımını hep birlikte inceleyeceğiz.
-- [DOM Etkinlikleriyle Çalışmak](dom-etkinlikleriyle-calismak/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=7qF9WvUsdF8
-    - DOM içerisinde her yapının tıklanma, mouse ile üzerine gelme gibi birçok etkinliğini takip edebiliriz. Bu özelliklere genel bakışı ve DOM Events(etkinlikler) yapısını nasıl kullanabileceğimizi bu videoda anlattık.
+#### Video
+1. https://www.youtube.com/watch?v=LtuzpDY7ngU
+	- Kod bloklarımızı çalıştırırken birden fazla veya iç içe geçmiş koşul yapılarını kullanmamız gerekebilir. Bu videoda; if/else/else if bloklarının çoklu nasıl kullanılabileceğini hep birlikte inceleyelim.
 
-#### localStorage ####
-- [localStorage ile Veri Eklemek, Düzenlemek ve Silmek](localstorage-ile-veri-eklemek-duzenlemek-ve-silmek/)
-  - Sorular
-    - LocalStorage ve SessionStorage'da hangi veriler saklanmalıdır? Bunlara kimler erişebilir? Erişildiğinde düzenleme yapılabilir mi?
-      - Cevap: LocalStorage'da güvenlik ihlaline sebep olmayacak ve önem arz etmeyen veriler saklanmalıdır. Bunlara hem tarayıcı üzerinden kullanıcı hemde erişim izni verildi ise üçüncü parti programlar erişebilir veya düzenleme yapabilir.
-    - LocalStorage ve SessionStorage'a JavaScript üzerinden değilde başka bir yoldan veri eklemek, düzenlemek veya silmek mümkünmüdür?
-      - Verileri tarayıcı üzerinden ekleyip çıkarmak veya üzerinde düzenleme yapmak mümkündür.
-  - Video
-    - https://www.youtube.com/watch?v=VYbkY1RK6mc
-    - Bu videoda; kullandığımız browser içerisinde bulunan localStorage'a veri ekleme, veriyi düzenleme, çağırma ve silme işlemini anlattık.
-- [localStorage içerisine Farklı Türde Veriler Eklemek](localstorage-icerisine-farkli-turde-veriler-eklemek/)
-  - Sorular
-    - localStorage hangi veri türünde data tutar?
-      - Boolean
-      - String (Doğru)
-      - Object
-      - Number
-    - `var movies = ["Kasaba", "Kış uykusu","Bir Zamanlar Anadolu"]` Verilen movies dizisini localStorage alanına nasıl kaydetmeliyiz?
-      - `localStorage.setItem("Nuri Bilge Ceylan", movies);`
-      - `localStorage.getItem("Nuri Bilge Ceylan", movies);`
-      - `localStorage.setItem("Nuri Bilge Ceylan", JSON.stringfy(movies));` (Doğru)
-      - `localStorage.getItem("Nuri Bilge Ceylan" , JSON.stringfy(movies));`
-    - localStorage alanına kaydedilen veriye nasıl erişiriz ?
-      - `var retrievedData = JSON.parse(localStorage.getItem("Nuri Bilge Ceylan"))` (Doğru)
-      - `var retrievedData = JSON.parse(localStorage.setItem("Nuri Bilge Ceylan"))`
-      - `var retrievedData = localStorage.setItem("Nuri Bilge Ceylan")`
-      - `var retrievedData = localStorage.getItem("Nuri Bilge Ceylan")`
-    - localStorage alanından kaydedilen bütün verileri nasıl sileriz?
-      - `localStorage.clearItem()`
-      - `localStorage.remove()`
-      - `localStorage.removeItem(key)`
-      - `localStorage.clear()` (Doğru)
-  - Video
-    - https://www.youtube.com/watch?v=WwpupdrxVs8
-    - Bu videoda; localStorage içerisinde farklı türde verileri nasıl tuttuğumuzu ve nasıl kullanabileceğimizi anlattık.
+### [Ternary Operator( koşul ? doğruysa : yanlışsa) ile If Kullanımı](ternary-operator(-kosul-dogruysa-yanlissa)-ile-if-kullanimi/)
+#### Sorular
+1. Yok
 
-#### Form ####
-- [Form ve Form Submit Yönetimi](form-ve-form-submit-yonetimi/)
-  - Sorular
-    - Kullanıcıdan, gizli kalması gereken bilgileri aldığımızda kullanmamız gereken method hangisidir?
-      - GET
-      - POST (Doğru)
-      - PUT
-      - DELETE
-    - Form'un içindeki form elementlerinin(input) value'su her değiştiğinde bu değişen value'yu bizim her defasında elde etmemize olanak sağlayan event hangisidir?
-      - handleSubmit
-      - handleChange
-      - onSubmit
-      - onChange (Doğru)
-  - Video
-    - https://www.youtube.com/watch?v=bU3iC5eA3M4
-    - JavaScript ile form'un GET veya POST işlemi olmadan önce denetimini yapabilir, default tepkisini değiştirebiliriz. Bu videoda form yönetimi konusunu anlattık.
-- [Input içerisinden Değer Almak](input-icerisinden-deger-almak/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=q7HfV7f39tI
-    - Bu videoda; form yönetimi ile birlikte ınput içerisindeki bilgiyi nasıl alıp kullanabileceğimizi anlattık.
+#### Video
+	- https://www.youtube.com/watch?v=0DetgkxkMok
+	- Bu videoda; ternary operator ile short if kullanımını anlattık.
 
-#### Dizi(Array) Veri Tipiyle Çalışmak ####
-- [Dizi(Array) Oluşturmak ve Dizi İçindeki Elemanlara Ulaşmak](dizi(array)-olusturmak-ve-dizi-i̇cindeki-elemanlara-ulasmak/)
-  - Sorular
-    - Bir arrayin veri tipi nedir?
-      - boolean
-      - stringer
-      - integer
-      - object (Doğru)
-    - `let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa'];` Aşağıdakilerden hangisini konsola "denizli" ifadesini yazdırır?
-      - `console.log(egeBolgesi[1])`
-      - `console.log(egeBolgesi[2])`
-      - `console.log(egeBolgesi[3])` (Doğru)
-      - `console.log(egeBolgesi[4])`
-  - Video
-    - https://www.youtube.com/watch?v=7AeqV8-kKOw
-    - Bu videoda; array oluşturmayı, array içerisindeki ilk ve son elamanı bulmayı, istenilen elemana ulaşmayı, veri türü kontrolünü ve değişken içerisindeki bilgi tipinin array olup olmadığını anlattık.
-- [Diziye Yeni Eleman Eklemek, Çıkartmak ve Güncellemek](diziye-yeni-eleman-eklemek-cikartmak-ve-guncellemek/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=ycjLyTRLDk0
-    - Bu videoda; Array yapısına eleman ekleyip çıkartmayı, Array içini düzeltmeyi ve Array içerisinden istediğimiz bilgiyi alma gibi konuları anlattık.
-- [Array(Dizi) Metotlarının Kullanımı ve Array içinde Array Oluşturma](array(dizi)-metotlarinin-kullanimi-ve-array-icinde-array-olusturma/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=Glp6kX7KV94
-    - Bu videoda; Array içinde Array oluşturmayı, Array içerisindeki öğeleri ayırmayı, Array içerisindeki öğenin index bilgisini bulmayı, Array kopyalamayı, iki Array bilgisini birleştirmeyi, Array içindeki bilgiyi String'e çevirmeyi ve istediğimiz index bilgisine göre öğe eklemeyi ve daha birçok Array metot yapısını anlattık.
+## Fonksiyonlar ##
+### [Fonksiyon Nedir ? Neden Kullanırız?](fonksiyon-nedir-neden-kullaniriz/)
+#### Sorular
+1. Javascript'te fonksiyon nasıl yaratılır?
+	- `function:myFunction()`
+	- `function = myFunction()` (Doğru)
+	- `function myFunction()`
+2. myFunction isimli fonksiyon nasıl çağrılır?
+	- `myFunction()` (Doğru)
+	- `call function myFunction()`
+	- `call myFunction()`
+#### Video
+1. https://www.youtube.com/watch?v=_H5weWiEQYw
+	- Bu videoda; fonksiyon nedir ve nasıl tanımlanır konularını anlattık.
 
-#### Döngüler ####
-- [for Döngüsü Kullanımı](for-dongusu-kullanimi/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=nvkrESfSQyk
-    - Bu videoda; for döngüsünün nasıl oluşturulduğunu anlatıp olup daha önce öğrendimiz bilgilerle birlikte for döngüsünün kullanımı ile ilgili egzersizler yaptık.
-- [break ve continue Kullanımı](break-ve-continue-kullanimi/)
-  - Sorular
-    - X
-  - Video 
-    - https://www.youtube.com/watch?v=r1FRJCEnWmk
-    - Bu videoda; break ve countinue kullanımını anlattık.
-- [while Döngüsü](while-dongusu/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=cZrzF91_z5M
-    - Bu videoda; bir şey olana kadar devam eden while döngüsünden bahsettik. for döngüsü belirli bir sayıda dönerken while belirli bir kurala bağlanarak kural yerine getirilene kadar devam edebilir. Hep birlikte bu durumu inceleyelim.
-- [forEach ile Array içerisindeki Öğelerin Çağrılması](foreach-ile-array-icerisindeki-ogelerin-cagrilmasi/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=S02bwfd8Eyo
-    - Bu videoda; forEach'in sadece Array içerisinde kullanıldığını anlatıp for döngüsü ile forEach'in farkını incelediğimiz bir egzersiz yaptık.
-- [Filter ile Array İçerisinde Sadece İstenilen Bilgilerin Yeni Listeye Eklenmesi](filter-ile-array-i̇cerisinde-sadece-i̇stenilen-bilgilerin-yeni-listeye-eklenmesi/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=ZpHBuQVCs8A
-    - Bu videoda; Array filter ile birlikte bir diziyi filtreleyip sadece istenilen verilerle nasıl yeni bir dizinin oluşturulacağını anlattık.
-- [Map ile Array İçerisideki Yapının Değiştirilerek Yeni Liste Oluşturulması](map-ile-array-i̇cerisideki-yapinin-degistirilerek-yeni-liste-olusturulmasi/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=er26CndsoXE
-    - Bu videoda; map metotu ile birlikte fonksiyon oluşturup yeni bir dizi oluşturmayı anlattık.
+### [Fonsiyona Parametre(params) ve Geridönüş(return) Eklemek](fonsiyona-parametre(params)-ve-geridonus(return)-eklemek/)
+#### Sorular
+1. Yok
 
-#### Nesne(Object) ####
+#### Video
+1. https://www.youtube.com/watch?v=J4hxdAfxayA
+	- Bu videoda; function içerisinde parametre kullanımını ve  return ile function içerisinden bilgi dönme konularını işledik.
 
-- [Object(Nesne) Nedir ? Nasıl Oluşturulur](object(nesne)-nedir-nasil-olusturulur/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=G3PnQmiJNNE
-    - Bu videoda; object nedir ve nasıl oluşturulur, key-value ilişkisini, objenin tipine ve içindeki bilgilere nasıl erişilir gibi konuları anlattık.
-- [Object Anahtar(Key) ve Değer(Value) Yapısının Kullanımı / Erişimi](object-anahtar(key)-ve-deger(value)-yapisinin-kullanimi-erisimi/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=El4m8M2-KW8
-    - Bu videoda; key/value oluşturmayı, oluşturulan key/value yapısını göstermeyi, key bilgisine yeni value ekleme veya değiştirmeyi, key bilgisine ulaşmayı, forEach yapısıyla Object içindeki key bilgilerini döndürerek istenilen işlemlerin yapılabilmesini anlattık.
-- [Nesnelere Nasıl Metot Ekleriz?](nesnelere-nasil-metot-ekleriz/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=5PzI_b-Ycn8
-    - Bu videoda; object içine metotların nasıl eklenebileceğini anlattık.
-- [Object ve Array Destructuring Kullanımı](object-ve-array-destructuring-kullanimi/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=TrnfZNPPEAQ
-    - Bu videoda; Array ve Object içerisindeki bilgilerin parçalanmasını ve yeniden başka bir yapıya dönüştürülebilmesi için Destructuring kullanımını anlattık.
+### [Fat Arrow () => Fonksiyonu Kullanımı](fat-arrow-fonksiyonu-kullanimi/)
+#### Sorular
+1. Yok
 
-#### Hata Yönetimi ####
-- [try ve catch Kullanımı](try-ve-catch-kullanimi/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=aa-fjAhCPj4
-    - Bu videoda; kod bloklarımızda çıkabilecek istisnai durumlar için try/catch yapısını kullanarak nasıl hata yönetimi gerçekleştirebileceğimizi anlattık.
+#### Video
+1. https://www.youtube.com/watch?v=Tv7iBzbMDcI
+	- Bu videoda; ES6 ile birlikte standartlaşmış olan Arrow Function(fat arrow) kullanımını hep birlikte inceleyeceğiz.
 
-#### Fetch API ####
-- [Fetch API ile Çalışmak](fetch-api-ile-calismak/)
-  - Sorular
-    - X
-  - Video
-    - https://www.youtube.com/watch?v=_iJk--TuQoM
-    - Bu videoda; veri alma/veri gönderme için kullandığımız Fetch API yapısının temellerini anlattık.
+### [DOM Etkinlikleriyle Çalışmak](dom-etkinlikleriyle-calismak/)
+#### Sorular
+1. Yok
+
+#### Video
+1. https://www.youtube.com/watch?v=7qF9WvUsdF8
+	- DOM içerisinde her yapının tıklanma, mouse ile üzerine gelme gibi birçok etkinliğini takip edebiliriz. Bu özelliklere genel bakışı ve DOM Events(etkinlikler) yapısını nasıl kullanabileceğimizi bu videoda anlattık.
+
+## localStorage ##
+### [localStorage ile Veri Eklemek, Düzenlemek ve Silmek](localstorage-ile-veri-eklemek-duzenlemek-ve-silmek/)
+#### Sorular
+1. LocalStorage ve SessionStorage'da hangi veriler saklanmalıdır? Bunlara kimler erişebilir? Erişildiğinde düzenleme yapılabilir mi?
+	- Cevap: LocalStorage'da güvenlik ihlaline sebep olmayacak ve önem arz etmeyen veriler saklanmalıdır. Bunlara hem tarayıcı üzerinden kullanıcı hemde erişim izni verildi ise üçüncü parti programlar erişebilir veya düzenleme yapabilir.
+2. LocalStorage ve SessionStorage'a JavaScript üzerinden değilde başka bir yoldan veri eklemek, düzenlemek veya silmek mümkünmüdür?
+	- Verileri tarayıcı üzerinden ekleyip çıkarmak veya üzerinde düzenleme yapmak mümkündür.
+#### Video
+1. https://www.youtube.com/watch?v=VYbkY1RK6mc
+	- Bu videoda; kullandığımız browser içerisinde bulunan localStorage'a veri ekleme, veriyi düzenleme, çağırma ve silme işlemini anlattık.
+
+### [localStorage içerisine Farklı Türde Veriler Eklemek](localstorage-icerisine-farkli-turde-veriler-eklemek/)
+#### Sorular
+1. localStorage hangi veri türünde data tutar?
+	- Boolean
+	- String (Doğru)
+	- Object
+	- Number
+2. `var movies = ["Kasaba", "Kış uykusu","Bir Zamanlar Anadolu"]` Verilen movies dizisini localStorage alanına nasıl kaydetmeliyiz?
+	- `localStorage.setItem("Nuri Bilge Ceylan", movies);`
+	- `localStorage.getItem("Nuri Bilge Ceylan", movies);`
+	- `localStorage.setItem("Nuri Bilge Ceylan", JSON.stringfy(movies));` (Doğru)
+	- `localStorage.getItem("Nuri Bilge Ceylan" , JSON.stringfy(movies));`
+3. localStorage alanına kaydedilen veriye nasıl erişiriz ?
+	- `var retrievedData = JSON.parse(localStorage.getItem("Nuri Bilge Ceylan"))` (Doğru)
+	- `var retrievedData = JSON.parse(localStorage.setItem("Nuri Bilge Ceylan"))`
+	- `var retrievedData = localStorage.setItem("Nuri Bilge Ceylan")`
+	- `var retrievedData = localStorage.getItem("Nuri Bilge Ceylan")`
+4. localStorage alanından kaydedilen bütün verileri nasıl sileriz?
+	- `localStorage.clearItem()`
+	- `localStorage.remove()`
+	- `localStorage.removeItem(key)`
+	- `localStorage.clear()` (Doğru)
+
+#### Video
+1. https://www.youtube.com/watch?v=WwpupdrxVs8
+	- Bu videoda; localStorage içerisinde farklı türde verileri nasıl tuttuğumuzu ve nasıl kullanabileceğimizi anlattık.
+
+## Form ##
+### [Form ve Form Submit Yönetimi](form-ve-form-submit-yonetimi/)
+#### Sorular
+1. Kullanıcıdan, gizli kalması gereken bilgileri aldığımızda kullanmamız gereken method hangisidir?
+	- GET
+	- POST (Doğru)
+	- PUT
+	- DELETE
+2. Form'un içindeki form elementlerinin(input) value'su her değiştiğinde bu değişen value'yu bizim her defasında elde etmemize olanak sağlayan event hangisidir?
+	- handleSubmit
+	- handleChange
+	- onSubmit
+	- onChange (Doğru)
+#### Video
+1. https://www.youtube.com/watch?v=bU3iC5eA3M4
+	- JavaScript ile form'un GET veya POST işlemi olmadan önce denetimini yapabilir, default tepkisini değiştirebiliriz. Bu videoda form yönetimi konusunu anlattık.
+
+### [Input içerisinden Değer Almak](input-icerisinden-deger-almak/)
+#### Sorular
+1. Yok
+
+#### Video
+1. https://www.youtube.com/watch?v=q7HfV7f39tI
+	- Bu videoda; form yönetimi ile birlikte ınput içerisindeki bilgiyi nasıl alıp kullanabileceğimizi anlattık.
+
+## Dizi(Array) Veri Tipiyle Çalışmak ##
+### [Dizi(Array) Oluşturmak ve Dizi İçindeki Elemanlara Ulaşmak](dizi(array)-olusturmak-ve-dizi-i̇cindeki-elemanlara-ulasmak/)
+#### Sorular
+1. Bir arrayin veri tipi nedir?
+	- boolean
+	- stringer
+	- integer
+	- object (Doğru)
+2. `let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa'];` Aşağıdakilerden hangisini konsola "denizli" ifadesini yazdırır?
+	- `console.log(egeBolgesi[1])`
+	- `console.log(egeBolgesi[2])`
+	- `console.log(egeBolgesi[3])` (Doğru)
+	- `console.log(egeBolgesi[4])`
+#### Video
+1. https://www.youtube.com/watch?v=7AeqV8-kKOw
+	- Bu videoda; array oluşturmayı, array içerisindeki ilk ve son elamanı bulmayı, istenilen elemana ulaşmayı, veri türü kontrolünü ve değişken içerisindeki bilgi tipinin array olup olmadığını anlattık.
+
+### [Diziye Yeni Eleman Eklemek, Çıkartmak ve Güncellemek](diziye-yeni-eleman-eklemek-cikartmak-ve-guncellemek/)
+#### Sorular
+1. Yok
+
+#### Video
+1. https://www.youtube.com/watch?v=ycjLyTRLDk0
+	- Bu videoda; Array yapısına eleman ekleyip çıkartmayı, Array içini düzeltmeyi ve Array içerisinden istediğimiz bilgiyi alma gibi konuları anlattık.
+
+### [Array(Dizi) Metotlarının Kullanımı ve Array içinde Array Oluşturma](array(dizi)-metotlarinin-kullanimi-ve-array-icinde-array-olusturma/)
+#### Sorular
+1. Yok
+
+#### Video
+1. https://www.youtube.com/watch?v=Glp6kX7KV94
+	- Bu videoda; Array içinde Array oluşturmayı, Array içerisindeki öğeleri ayırmayı, Array içerisindeki öğenin index bilgisini bulmayı, Array kopyalamayı, iki Array bilgisini birleştirmeyi, Array içindeki bilgiyi String'e çevirmeyi ve istediğimiz index bilgisine göre öğe eklemeyi ve daha birçok Array metot yapısını anlattık.
+
+## Döngüler ##
+### [for Döngüsü Kullanımı](for-dongusu-kullanimi/)
+#### Sorular
+1. Yok
+
+#### Video
+1. https://www.youtube.com/watch?v=nvkrESfSQyk
+	- Bu videoda; for döngüsünün nasıl oluşturulduğunu anlatıp olup daha önce öğrendimiz bilgilerle birlikte for döngüsünün kullanımı ile ilgili egzersizler yaptık.
+
+### [break ve continue Kullanımı](break-ve-continue-kullanimi/)
+#### Sorular
+1. Yok
+
+#### Video 
+1. https://www.youtube.com/watch?v=r1FRJCEnWmk
+	- Bu videoda; break ve countinue kullanımını anlattık.
+
+### [while Döngüsü](while-dongusu/)
+#### Sorular
+1. Yok
+
+#### Video
+1. https://www.youtube.com/watch?v=cZrzF91_z5M
+	- Bu videoda; bir şey olana kadar devam eden while döngüsünden bahsettik. for döngüsü belirli bir sayıda dönerken while belirli bir kurala bağlanarak kural yerine getirilene kadar devam edebilir. Hep birlikte bu durumu inceleyelim.
+
+#### [forEach ile Array içerisindeki Öğelerin Çağrılması](foreach-ile-array-icerisindeki-ogelerin-cagrilmasi/)
+#### Sorular
+1. Yok
+
+#### Video
+1. https://www.youtube.com/watch?v=S02bwfd8Eyo
+	- Bu videoda; forEach'in sadece Array içerisinde kullanıldığını anlatıp for döngüsü ile forEach'in farkını incelediğimiz bir egzersiz yaptık.
+
+### [Filter ile Array İçerisinde Sadece İstenilen Bilgilerin Yeni Listeye Eklenmesi](filter-ile-array-i̇cerisinde-sadece-i̇stenilen-bilgilerin-yeni-listeye-eklenmesi/)
+#### Sorular
+1. Yok
+
+#### Video
+1. https://www.youtube.com/watch?v=ZpHBuQVCs8A
+	- Bu videoda; Array filter ile birlikte bir diziyi filtreleyip sadece istenilen verilerle nasıl yeni bir dizinin oluşturulacağını anlattık.
+
+### [Map ile Array İçerisideki Yapının Değiştirilerek Yeni Liste Oluşturulması](map-ile-array-i̇cerisideki-yapinin-degistirilerek-yeni-liste-olusturulmasi/)
+#### Sorular
+1. Yok
+
+#### Video
+1. https://www.youtube.com/watch?v=er26CndsoXE
+	- Bu videoda; map metotu ile birlikte fonksiyon oluşturup yeni bir dizi oluşturmayı anlattık.
+
+## Nesne(Object) ##
+
+### [Object(Nesne) Nedir ? Nasıl Oluşturulur](object(nesne)-nedir-nasil-olusturulur/)
+#### Sorular
+1. Yok
+#### Video
+1. https://www.youtube.com/watch?v=G3PnQmiJNNE
+	- Bu videoda; object nedir ve nasıl oluşturulur, key-value ilişkisini, objenin tipine ve içindeki bilgilere nasıl erişilir gibi konuları anlattık.
+
+### [Object Anahtar(Key) ve Değer(Value) Yapısının Kullanımı / Erişimi](object-anahtar(key)-ve-deger(value)-yapisinin-kullanimi-erisimi/)
+#### Sorular
+1. Yok
+
+#### Video
+1. https://www.youtube.com/watch?v=El4m8M2-KW8
+	- Bu videoda; key/value oluşturmayı, oluşturulan key/value yapısını göstermeyi, key bilgisine yeni value ekleme veya değiştirmeyi, key bilgisine ulaşmayı, forEach yapısıyla Object içindeki key bilgilerini döndürerek istenilen işlemlerin yapılabilmesini anlattık.
+
+### [Nesnelere Nasıl Metot Ekleriz?](nesnelere-nasil-metot-ekleriz/)
+#### Sorular
+1. Yok
+
+#### Video
+1. https://www.youtube.com/watch?v=5PzI_b-Ycn8
+	- Bu videoda; object içine metotların nasıl eklenebileceğini anlattık.
+
+### [Object ve Array Destructuring Kullanımı](object-ve-array-destructuring-kullanimi/)
+#### Sorular
+1. Yok
+
+#### Video
+1. https://www.youtube.com/watch?v=TrnfZNPPEAQ
+	- Bu videoda; Array ve Object içerisindeki bilgilerin parçalanmasını ve yeniden başka bir yapıya dönüştürülebilmesi için Destructuring kullanımını anlattık.
+
+## Hata Yönetimi ##
+### [try ve catch Kullanımı](try-ve-catch-kullanimi/)
+#### Sorular
+1. Yok
+
+#### Video
+1. https://www.youtube.com/watch?v=aa-fjAhCPj4
+	- Bu videoda; kod bloklarımızda çıkabilecek istisnai durumlar için try/catch yapısını kullanarak nasıl hata yönetimi gerçekleştirebileceğimizi anlattık.
+
+## Fetch API ##
+### [Fetch API ile Çalışmak](fetch-api-ile-calismak/)
+#### Sorular
+1. Yok
+
+#### Video
+1. https://www.youtube.com/watch?v=_iJk--TuQoM
+	- Bu videoda; veri alma/veri gönderme için kullandığımız Fetch API yapısının temellerini anlattık.
