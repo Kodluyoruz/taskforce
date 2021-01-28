@@ -4,13 +4,13 @@ HTTP (Hyper-TextTransfer Protocol), istemci ve sunucunun birbiri ile nasıl ilet
 
 İstemci ve sunucu ilk önce TCP bağlantısı kurar. İletişimin güvenli olduğunu kanıtlamak için üçlü el sıkışma(three-way handshake) denilen paket alışverişi gerçekleştirilir. 
 
-![http](figures/http.png)
+![http](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/http/figures/http.png)
 
 İletişim güvenli olduktan sonra istek ve cevaplar ile veri alışverişi başlar. HTTP protokolü burada devreye girer. HTTP bir protokol olarak mesajlaşmanın nasıl olacağını tanımlar. Belirli formatlar sağlayarak iki tarafın da aynı dili konuşmasını sağlar. 
 
 Genel format "method istek-hedefi HTTP/x" şeklindedir. Örneğin "GET /doc HTTP/1.1" gibi.
 
-![http_istek_yapi](figures/http_istek_yapi.png)
+![http_istek_yapi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/http/figures/http_istek_yapi.png)
 
 * Protokol içerisinde çeşitli metodlar mevcuttur. GET,POST,PUT,HEAD,DELETE,... GET metodu, istemci olarak sunucu üzerinden istediğimiz nesneyi belirtmeye yarar. Bu nesne bir sayfa olabilir, doküman olabilir,..
   - GET:  İstediğimiz web sayfasını okumak için kullanılır. (READ)
@@ -51,11 +51,11 @@ Buraya kadar öğrendiklerimizi pekiştirmek için aşağıdaki iki videoyu izle
 
 Peki bu HTTP trafiğini nasıl görebiliriz. Günlük internet kullanımımızda bu yapılarla hiç karşılaşmamış olma ihtimalimiz yüksek. Öncelikle bir tarayıcı açalım. Tarayıcı üzerinde F12'ye bastığınızda bir pencere açılacak. Pencerede "Network" seçeneğine tıklarsanız tüm trafiği görebilirsiniz. Durum kodlarını fark ettiniz mi ? 
 
-![network_sekmesi](figures/network_sekmesi.png)
+![network_sekmesi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/http/figures/network_sekmesi.png)
 
 Gelen-giden paketlerden birinin üstüne tıklarsanız aşağıdaki gibi detaylı bakmak için yan pencere açıldığını göreceksiniz. Bu pencere üzerinden paketin header, cevap ön izlemesi (Preview), cevap body içeriği (Response), zaman detayları (Timing), çerez bilgilerini (Cookies) görebilirsiniz.
 
-![network_detay](figures/network_icerik.png)
+![network_detay](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/http/figures/network_icerik.png)
 
 Genel HTTP hakkındaki öğrendiklerimizi özetlemek için Kodluyoruz bünyesinde Türkçeleştirilen bir Harvard dersi ile sonlandıralım.
 

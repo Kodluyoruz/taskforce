@@ -6,9 +6,7 @@ TCP protokolünü diğerlerinden ayıran bağlantının sağlanması konusundaki
 
 TCP bağlantısı istemci(client) ve sunucu(server) arasında gerçekleşir. İstemci ve sunucu arasında veri alışverişi başlamadan önce 3-way handshake ile bağlantı doğrulanır. Bunun amacı veri gönderimi için güvenilir, veriyi düşürmeyecek bir bağlantı olduğunu kanıtlamak. Bu kanıtlama için standart paketler gönderiliyor. İstemci tarafından SYN biti işaretlenmiş(rastgele işaretleme yapılıyor) paket gönderiliyor. Sunucu paketi aldığında biti bir artırarak, kendi de rastgele bir biti işaretleyerek gönderiyor. İstemci sunucudan gelen paketi aldığında kendi gönderdiğinin bir fazlasını bulduğu için mutlu, demek ki yolda paketi yanlış yere gitmemiş. Bu sefer kendi bitine dokunmadan sunucunun gönderdiği biti bir artırıyor ve tekrar paketi gönderiyor. Paketi alan sunucu da mutlu. İstemci ve sunucuyu mutlu ettiğimizde iletişim başlıyor, artık mesajları gönderebileceğimiz bir bağlantı kanalı oluştu.
 
-
-
-![3_way_handshake](figures/3_way_handshake.png)
+![3_way_handshake](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/TCP/figures/3_way_handshake.png)
 
 TCP iki yönlüdür (bidirectional). Yani hem sunucu istemciye mesaj/veri gönderebilir hem de istemci sunucuya mesaj/veri gönderebilir. Veri ise bir bütün halinde karşı tarafa iletilmez, paketler halinde gönderilir. TCP, verinin eksiksiz karşı tarafa gitmesini istediği için önlemler alır. Veri alışverişi sırasında ACK gelmeyen paketlerde (ki bu karşı tarafın mesajı aldım deme yoludur) tekrar paketi gönderir. Veri paketler halinde gönderildiği için gönderirken bir listeye yazar ve ACK geldikçe tamam bunu göndermişiz diyerek listeden siler gibi düşünebilir. Eğer ACK alamazsa ki bu da paket kayboldu demektir, yeniden gönderilecekler listesi tutar ve paket orada yer alır.
 

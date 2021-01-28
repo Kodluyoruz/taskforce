@@ -30,7 +30,7 @@ typora-copy-images-to: figures
 
 ### Örnek 
 
-![örnek](figures/örnek.png)
+![örnek](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/pseudocode/figures/%C3%B6rnek.png)
 
 ## Sorular
 

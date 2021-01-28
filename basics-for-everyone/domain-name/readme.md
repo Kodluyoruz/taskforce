@@ -10,7 +10,7 @@ Bir web sitesi oluştururken de alan adı alırız. Böylelikle web sitemize gir
 
 
 
-![hierarchy](figures/hierarchy_domain_name.png) 
+![hierarchy](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/domain-name/figures/hierarchy_domain_name.png) 
 
 
 

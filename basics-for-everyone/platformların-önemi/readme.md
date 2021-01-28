@@ -6,7 +6,7 @@ Buraya kadar geldik. Peki kendimizi nasıl sürekli güncel tutacağız? Şimdi 
 
  Stack Overflow programlama ve kodlama ile ilgili spesifik sorularınızı sorabileceğiniz veya başkalarının sorduğu sorulara cevap verebileceğiniz bir platform. Kurulduğu günden bu yana milyonlarca kullanıcı tarafından milyonlarca soruya cevap verildiği için yeni soru oluşturmadan önce cevaplananlara göz atmakta fayda var. Platforma [buradaki](https://stackoverflow.com/) bağlantıdan ulaşabilirsiniz.  
 
-![stack-overflow](figures/stack-overflow.png)
+![stack-overflow](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/stack-overflow.png)
 
 
 
@@ -14,7 +14,7 @@ Buraya kadar geldik. Peki kendimizi nasıl sürekli güncel tutacağız? Şimdi 
 
 Bu sitenin genel kuruluş amacı aslında yazılımcı çalıştırmak isteyen firmalara yazılımcı istihdamı sağlamak. Firmalar bu site içerisinde yazılımcıların mülakatlarını yapıp bilgi seviyelerini ölçebiliyor ve profillerini inceleyip onlara iş teklifi sunabiliyor. Türkiye’de henüz bu amaçla kullanılmasa da mülakatlarda göreceğiniz test caselerde bu platformdan sorulara denk gelebilirsiniz. Peki bu sitede neler yapabiliyorsunuz? Kendinizi geliştirmek istediğiniz bir programlama dilinde veya yapay zeka, veri tabanı, SQL programlama, matematik gibi birçok alanda pratik yapabiliyorsunuz. Eğitim kamplarına katılabiliyor ve ilerleme kaydettikçe rozet/sertifika kazanabiliyorsunuz. Yazdığınız çözümün daha kısa yolu varsa bununla ilgili geri bildirim alabiliyor ve buna göre kodunuzu düzenleyebiliyorsunuz. Başkalarının yazdığı kodları görebiliyor, diğer yazılımcılarla toplu halde veya birebir iletişime geçebiliyorsunuz. Tüm güzellikleriyle HackerRank bir yazılımcının üye olunmazsa olmaz diyeceğimiz platformlardan. Platforma [buradaki](https://www.hackerrank.com/) bağlantıda ulaşabilirsiniz.  
 
-![hackerrank](figures/hackerrank.png)
+![hackerrank](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/hackerrank.png)
 
 
 
@@ -22,7 +22,7 @@ Bu sitenin genel kuruluş amacı aslında yazılımcı çalıştırmak isteyen f
 
 Codility de HackerRank’e benzer şekilde şirketlerin programcı işe alım süreçlerini hızlandırmaya yönelik kurulmuş bir site. Bu servisi kullanan şirketler, programcı işe almak istedikleri zaman platform üzerinde bir challenge oluşturup adaylara ilgili linki yolluyorlar. Adaylar da ilgili platforma girip, verilen süre zarfında ilgili soruları çözüyor.Platform her ne kadar şirketler için kurulmuş olsa da bireysel olarak kendini test etmek isteyen kişiler ücretsiz bir şekilde kayıt olup, yararlanabiliyorlar. Programcılar için dersler kategorisi altında algoritma yeteneğinizi geliştirmeye yönelik pek çok soru bulunuyor. Testlerin hemen altında bulunan yorumlar kısmından da takıldığınız yerlerle ilgili sorular sorabiliyor ve cevaplar alabiliyorsunuz. Codility challengelarının algoritma konusunda oldukça zihin açıcı olduğunu düşünüyor ve bakmadan geçmeyiniz diyoruz. Platforma [buradaki](https://www.codility.com/) bağlantıda ulaşabilirsiniz. 
 
-![codility](figures/codility.png)
+![codility](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/codility.png)
 
  
 
@@ -30,7 +30,7 @@ Codility de HackerRank’e benzer şekilde şirketlerin programcı işe alım s�
 
 Project Euler sitesi oldukça zorlu matematik ve problemlerinden oluşuyor. Zihninize farklı düşünmeyi öğretmek ve problem çözme yeteneğinizi geliştirmek istiyorsanız Project Euler iyi bir seçenek olacaktır. Kendiniz denedikten sonra internette bu sorular üzerine kafa patlatmış kişilerin videolarını izleyip farklı çözüm yöntemlerini de görebilirsiniz. Platforma [buradaki](https://projecteuler.net/) bağlantıda ulaşabilirsiniz.  
 
-![project-euler](figures/project-euler.png)
+![project-euler](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/project-euler.png)
 
 
 
@@ -38,7 +38,7 @@ Project Euler sitesi oldukça zorlu matematik ve problemlerinden oluşuyor. Zihn
 
 GitHub, proje yönetim ve versiyon kontrol sistemi olmakla birlikte, ayrıca geliştiriciler için yapılmış bir sosyal ağ platformu. Tüm dünyadan başka insanlarla işbirliği içinde çalışmanıza, projelerinizi planlamanıza ve izlemenize olanak sağlıyor. Yaptığınız projelerin kodlarını buraya ekledikten sonra github linkinizi özgeçmişinize eklemeyi unutmayın diyoruz. Platforma [buradaki](https://github.com/) bağlantıda ulaşabilirsiniz.  
 
-![github](figures/github.png)
+![github](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/github.png)
 
 
 
@@ -50,9 +50,9 @@ Kodlama yeteneğinizi geliştirmek için aşağıdaki siteleri de tavsiye ediyor
 
 [Kod Koda](https://www.kodkoda.com/), 2020 yılında [Kodluyoruz](https://www.kodluyoruz.org/) tarafından hazırlanan, yazılımla ilgilenen kişilerin sorular sorup cevaplayabildiği bir platformdur. Platforma [buradaki](https://www.kodkoda.com/) bağlantıdan ulaşabilirsiniz.   
 
-![kodkoda4](figures/kodkoda4.gif)
+![kodkoda4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/kodkoda4.gif)
 
-![kodkoda2](figures/kodkoda2.png)
+![kodkoda2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/kodkoda2.png)
 
 
 
@@ -60,7 +60,7 @@ Kodlama yeteneğinizi geliştirmek için aşağıdaki siteleri de tavsiye ediyor
 
 Platforma [buradaki](https://www.codewars.com/) bağlantıdan ulaşabilirsiniz.  
 
-![codewars](figures/codewars.png)
+![codewars](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/codewars.png)
 
 
 
@@ -68,7 +68,7 @@ Platforma [buradaki](https://www.codewars.com/) bağlantıdan ulaşabilirsiniz.
 
 Platforma [buradaki](https://leetcode.com/) bağlantıdan ulaşabilirsiniz.  
 
-![leetcode](figures/leetcode.png)
+![leetcode](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/leetcode.png)
 
 
 
@@ -76,7 +76,7 @@ Platforma [buradaki](https://leetcode.com/) bağlantıdan ulaşabilirsiniz.
 
 Platforma [buradaki](https://edabit.com/) bağlantıdan ulaşabilirsiniz.  
 
-![edabit](figures/edabit.png)
+![edabit](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/edabit.png)
 
 
 
@@ -84,7 +84,7 @@ Platforma [buradaki](https://edabit.com/) bağlantıdan ulaşabilirsiniz.
 
 Platforma [buradaki](https://repl.it/) bağlantıdan ulaşabilirsiniz.  
 
-![replit](figures/replit.png)
+![replit](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/replit.png)
 
 
 
@@ -92,7 +92,7 @@ Platforma [buradaki](https://repl.it/) bağlantıdan ulaşabilirsiniz.
 
 Platforma [buradaki](https://codepen.io/) bağlantıdan ulaşabilirsiniz.  
 
-![codepen](figures/codepen.png)
+![codepen](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/codepen.png)
 
 
 
@@ -100,5 +100,5 @@ Platforma [buradaki](https://codepen.io/) bağlantıdan ulaşabilirsiniz.
 
 Platforma [buradaki](https://exercism.io/) bağlantıdan ulaşabilirsiniz.  
 
-![exercism](figures/exercism.png)
+![exercism](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/exercism.png)
 

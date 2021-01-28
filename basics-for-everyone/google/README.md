@@ -21,7 +21,7 @@ Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık ge
 
 
 
-![google4](figures/google4.png)
+![google4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/google4.png)
 
  
 
@@ -38,7 +38,7 @@ Yapacağınız aramayı ne kadar komplike hale getirirseniz sonuçlar da bir o k
 
 **Örnek arama:** Türkiye yüzölçümü
 
-![g1](figures/g1.jpg)
+![g1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g1.jpg)
 
 
 
@@ -60,7 +60,7 @@ Her ikisinde de sonuçlar çıkıyor fakat ikinci adımdaki mantığı uygularsa
 
 Google yapılan aramalardaki eksikleri ve hataları düzeltebilecek kapasiteye sahip. Bu özelliği sayesinde Google anahtar kelime olarak belirtilenler arasından gereksiz olarak algıladıklarını zaten göz ardı edecektir. Bu yüzden o kelimeleri girmekle vakit harcamayın ve direkt olarak sonuç odaklı çalışın.
 
-![g2](figures/g2.png)
+![g2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g2.png)
 
 #### Not: 
 
@@ -83,7 +83,7 @@ Google’da arama yaparken aşağıdaki maddelere dikkat etmeseniz de olur;
 
 **Örnek arama: ** internetin zararları filetype:doc
 
-![google10_1](figures/google10_1.png)
+![google10_1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/google10_1.png)
 
 
 
@@ -91,11 +91,9 @@ Google’da arama yaparken aşağıdaki maddelere dikkat etmeseniz de olur;
 
 ### 5-  Bir kısmını unuttuğunuz cümleleri arama
 
-
-
 Gün içerisinde bir söz veya şarkı sözü duyduğunuzda ancak bunun sadece belli kısımlarını anlayabildiğinizde ve tamamına ulaşmak istediğinizde Google’ın bu arama yöntemi fazlasıyla yardımcı oluyor. Böyle bir durumla karşılaştığınızda ise yapmanız gereken tek şey, **cümlenin bilmediğiniz kısmına** Google’da arama yaparken **"\* \*" ifadesini** eklemek.
 
-![google9_1](figures/google9_1.jpeg)
+![google9_1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/google9_1.jpeg)
 
 
 
@@ -107,7 +105,7 @@ Birden fazla kelime ile arama yaptığınızda ve her kelimenin aramanın içind
 
 **Örnek arama**: “kodluyoruz hakkında”
 
-![google-hakkında](figures/google-hakkında.png)
+![google-hakkında](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/google-hakk%C4%B1nda.png)
 
 
 
@@ -117,7 +115,7 @@ Bir web sitesi içinde arama yapmak istiyorsanız `site:` özelliğini kullanana
 
 **Örnek arama**: cs50x site:kodluyoruz.org
 
-![googlesite](figures/googlesite.png)
+![googlesite](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/googlesite.png)
 
 
 
@@ -131,15 +129,13 @@ Sosyal medya kanaları üzerinde aradığınız sonuçlar için yapacağınız a
 
 Hashtag (#) sembolünü kullanarak yapacağınız aramalarla Google+, Twitter ve diğer **sosyal** **medya** platformlarında yer alan hashtag’lere ait sonuçları listeleyebilirsiniz.
 
-![g3](figures/g3.png)
+![g3](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g3.png)
 
 #### **@[kişi-ismi]**
 
 Sosyal medya kanalları üzerinde yapacağınız kişi aramaları için kişi isminden önce "@" sembolünü kullanmanız gerekmekte.
 
-![g4](figures/g4.png)
-
-
+![g4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g4.png)
 
 
 
@@ -149,7 +145,7 @@ Google’ı dünya üzerindeki herhangi bir şehrin veya bölgenin gün doğumu 
 
 Bunu yapabilmek için;  *Gün doğumu/gün batımı, şehir ismi*
 
-![g5](figures/g5.png)
+![g5](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g5.png)
 
 
 
@@ -159,7 +155,7 @@ Google’da herhangi bir anahtar kelimeyi eş anlamlı alternatifleriyle aratma 
 
 `~` sembolünden sonra yazacağını herhangi bir kelime eş anlamlı alternatifleriyle aratılacak. Bu sembolü yapmak için;  ***Alt Gr + Ü*** *(ardından kelimeyi yazın)*
 
-![g6](figures/g6.jpg)
+![g6](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g6.jpg)
 
 
 
@@ -169,7 +165,7 @@ Google’da belirli limitler arasında arama yapabilirsiniz. Bu limitler fiyat a
 
 **Örnek arama:** *3000..4000 TL Android telefon*
 
-![g7](figures/g7.png)
+![g7](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g7.png)
 
 Elbette bu örneğe benzer şekilde birçok farklı arama gerçekleştirebilirsiniz.
 

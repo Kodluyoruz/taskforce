@@ -26,7 +26,7 @@ Chrome gibi tarayıcılar her sekmede bir tane olacak şekilde birden fazla rend
 
 Tarayıcıların ana bileşenlerinde akış şeması aşağıdaki gibidir:
 
-![tarayici_bilesenler](figures/tarayici_bilesenler.PNG)
+![tarayici_bilesenler](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/Browsers/figures/tarayici_bilesenler.PNG)
 
 Rendering motorunun görevi istek yapılmış içeriği ekranda görüntülemektir. Görevinden dolayı tarayıcılar için oldukça kritik bir bileşendir. Varsayılan olarak XML ve HTML dokümanlarını görüntüler ama eklenti ve uzantılar sayesinde diğer dokümanları da görüntüleyebilir. Örneğin pdf dokümanı varsayılan olarak görüntülenmez ama pdf eklentisi ile görüntülenebilir. 
 
@@ -42,7 +42,7 @@ Farklı tarayıcılar farklı rendering motorları kullanır.
 
 kullanıyorlar. WebKit, ilk zamanlarında Linux için oluşturulmuş açık kaynak bir rendering motorudur, sonradan Apple tarafından Mac ve Windows desteklemesi için değiştirilmiştir.
 
-![render_motoru_akis](figures/render_motoru_akis.PNG)
+![render_motoru_akis](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/Browsers/figures/render_motoru_akis.PNG)
 
 Rendering motoru HTML belgesini aldığında çözümlemeye başlar, belgedeki elementleri içerik ağacı(content tree) olarak adlandırılan ağaçta yer alan DOM  düğümlerine çevirir. Motor aynı zamanda hem harici CSS dosyalarını hem de satır içi style elemanlarını da ayrıştırır. HTML'de bulunan görsel talimatlar ile diğer tasarım bilgileri başka bir ağaç olan render ağacını oluşturur. Render ağacı boyut ve renk gibi görsel özellikleri içeren dikdörtgenler bulundurur. Bu dikdörtgenler ekranda görünmek üzere düzgün sırada bulunurlar.
 
