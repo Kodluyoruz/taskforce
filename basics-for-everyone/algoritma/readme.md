@@ -12,7 +12,7 @@ Bir sorunu çözmek veya belirlenmiş bir amaca ulaşmak için tasarlanan yola, 
 
 **Algoritma geliştirmek** bize günlük hayatımızda, **programlama ve matematikte** birçok kolaylık sağlamaktadır. Çoğumuz**, iş hayatımızda ve normal yaşantımızda** algoritmayı birçok yerde kullanmaktayız. Algoritma kullanımı, hayatımızda belirli bir **düzen** oluşturmak açısından gerekli bir **yoldur**.
 
-![algortima-örnek](figures/algortima-örnek.jpg)
+![algortima-örnek](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/algoritma/figures/algortima-%C3%B6rnek.jpg)
 
 
 
