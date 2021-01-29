@@ -4,9 +4,9 @@ GIT kontrol sisteminin ne olduğunu anlatmaya başlamadan önce biraz kültür m
 
 Şu sebepten ötürü; Yazılım dehası Bill Gates çok kitap okuyan, okuduklarını iyi şekilde hatırlayan ve konuşmaları sırasında okuduğu kitaplardan alıntılar yapan bir şahsiyet. Bu kadar okuma yapıp da okuduklarını aklında detaylı şekilde nasıl tuttuğu sorulduğunda Bill Gates;
 
-- *Bir konuda okumaya başlamadan önce konu hakkında genel bilgi sahibi olmayı ve konunun tarihini incelemeyi öneriyor. [[1]](https://www.dunyahalleri.com/bill-gatesin-okuduklarini-hatirlama-yontemi/)*
+> *Bir konuda okumaya başlamadan önce konu hakkında genel bilgi sahibi olmayı ve konunun tarihini incelemeyi öneriyor.* [*](https://www.dunyahalleri.com/bill-gatesin-okuduklarini-hatirlama-yontemi/)
 
-Bu içeriğimizde biz de GIT Versiyon Kontrol Sistemi Nedir? sorusuna cevap ararken bu konu hakkında sadece kuru bilgi edinmek yerine bir miktar kültürel kazanım sağlayacağız ki konuyu içselleştirelim ve konu hakkında bir derinlik kazanalım. GIT ile ilgili bu sayfada ve devamındaki sayfalarda öğrendiklerimizi kolay kolay unutmayalım.
+**Bu içeriğimizde biz de GIT Versiyon Kontrol Sistemi Nedir?** sorusuna cevap ararken bu konu hakkında sadece kuru bilgi edinmek yerine bir miktar kültürel kazanım sağlayacağız ki konuyu içselleştirelim ve konu hakkında bir derinlik kazanalım. GIT ile ilgili bu sayfada ve devamındaki sayfalarda öğrendiklerimizi kolay kolay unutmayalım.
 
 ## "git" Kelimesinin Anlamı
 
@@ -17,18 +17,15 @@ Bu isimlendirme Torvalds'a sorulduğunda kendisi espirili şekilde şu cevabı v
 "Ben bir egoistim ve projelerime kendi ismimi veriyorum. Önceki Linux, şimdiki git."
 Torvalds, alternatif olarak kelimenin ruh halinize göre aşağıdaki anlamlara da gelebileceğinden bahsediyor;
 
-"- Yaygın bir UNIX komutu tarafından kullanılmayan, telaffuz edilebilir, rastgele üç harfli bir kombinasyon.
-
+- Yaygın bir UNIX komutu tarafından kullanılmayan, telaffuz edilebilir, rastgele üç harfli bir kombinasyon.
 - Sözlükteki argo anlamı ile; Aptal, Aşağılık ve Basit.
-
 - "Küresel bilgi izleyici" (Global information Tracker).
-
 - "Kahrolası aptal kamyon dolusu pislik" (Goddamn Idiotic Truckload of sh*t)."
 
- (*Not: Alıntı, argo ve küfürden arındırılmıştır. Orjinal cevabına [buradan](https://git.wiki.kernel.org/index.php/GitFaq#Why_the_.27Git.27_name.3F) ulaşabilirsiniz.*)
+**Not:** Alıntı, argo ve küfürden arındırılmıştır. Orjinal cevabına [buradan](https://git.wiki.kernel.org/index.php/GitFaq#Why_the_.27Git.27_name.3F) ulaşabilirsiniz.)
 
 
-Görüldüğü üzere aslında çok da kesin bir anlamı yok. Özgür yazılım dünyası sizi burada da özgür bırakmış :wink:
+Görüldüğü üzere aslında çok da kesin bir anlamı yok. Özgür yazılım dünyası sizi burada da özgür bırakmış.
 
 
 ## GIT'in Tarihsel Gelişimi
@@ -41,11 +38,11 @@ Bu sebeple ihtiyaçlarına çözüm için kolları sıvayan Torvalds, piyasadaki
 
 Yayınlanmasından günümüze kadar geçen sürede ise GIT büyük bir pazar hacmine ulaştı.
 
-# GIT Versiyon Kontrol Sistemi Nedir?
+## GIT Versiyon Kontrol Sistemi Nedir?
 
-GIT nedir? diye sorduğunuzda versiyon kontrol sistemi cevabını almışsınızdır. İyi de versiyon kontrol sistemi nedir? 
+GIT nedir? diye sorduğunuzda versiyon kontrol sistemi cevabını almışsınızdır. İyi de **versiyon kontrol sistemi** nedir? 
 
-Projemi geliştirirken *"proje", "projee", "projee_son", "projee_son_5"* şeklinde klasörlesem olmaz mı? GIT öğrenmeden olmaz mı?
+Projemi geliştirirken *"proje", "projee", "projee_son", "projee_son_5"* şeklinde klasörlesem olmaz mı? GIT öğrenmeden olmaz mı? **- OLMAZ!**
 
 Son sorudan başlayayım. Eğer profesyonel işler yapacaksanız GIT öğrenmek zorundasınız. Klasör isminin sonuna fazladan harfler, rakamlar ekleyerek proje geliştirmek ilerleyen süreçlerde başa çıkılabilecek bir yöntem değildir.
 
@@ -56,51 +53,38 @@ Versiyon Kontrol Sistemi yerine Kaynak Kod Yönetim Sistemi ifadesini de duymuş
 ## GIT Bize Ne Sağlar?
 
 - Birden fazla yerde (dağıtık olarak) dosyalarınızı ve versiyon kontrol bilgilerinizi depolayabilirsiniz. Böylelikle cihaz bağımsız olarak dosyalarınıza erişebilirsiniz.
-
-- "commit" yaparak SnapShot (anlık görüntü) özelliği ile istedeğiniz zaman proje veya dosyaların o anki halini kayıt altına alabilirsiniz. Böylelikle ileride bir hata ile karşılaşırsanız herhangi bir zamandaki herhangi bir versiyona dönüş yapabilirsiniz.
-
-- SnapShot alındıktan sonra değişiklik yapılan dosyaları görebilirsiniz.
-
-- Takımların aynı projede beraber çalışmasına imkan verir. Kim neyi düzenledi? Ne ekledi? Ne çıkarttı? Son değişiklik ne zaman yapıldı? gibi bilgilere erişebilirsiniz. Bu sayede topluluk ile proje geliştirme süreçlerini kolaylaştırabilirisiniz.
-
-- Projede verisyonlanmasını istemediğiniz dosyaları belirtebilirsiniz. (node_modules, .mp4, .log, .env gibi)
+- **"commit"** yaparak SnapShot (anlık görüntü) özelliği ile istedeğiniz zaman proje veya dosyaların o anki halini kayıt altına alabilirsiniz. Böylelikle ileride bir hata ile karşılaşırsanız herhangi bir zamandaki herhangi bir versiyona dönüş yapabilirsiniz.
+- **SnapShot** alındıktan sonra değişiklik yapılan dosyaları görebilirsiniz.
+- Takımların aynı projede beraber çalışmasına imkan verir. *Kim neyi düzenledi? Ne ekledi? Ne çıkarttı? Son değişiklik ne zaman yapıldı?* gibi bilgilere erişebilirsiniz. Bu sayede topluluk ile proje geliştirme süreçlerini kolaylaştırabilirisiniz.
+- Projede verisyonlanmasını istemediğiniz dosyaları belirtebilirsiniz. *(node_modules, .mp4, .log, .env gibi)*
 
 ## GIT'i Anladım Fakat GitHub, GitLab, BitBucket Nedir?
 
 En sade şekilde GIT versiyon kontrol sistemini kullanan depolama servisleri diyebiliriz.
 
 ### GitHub
-
 Yazılımcılar için bir kod kütüphanesi ve bir çeşit sosyal medya ortamıdır.
 
 Yazılım geliştiriciler projelerini halka açık veya özel olarak saklayabilir. Ücretli ve ücretsiz paket seçenekleri mevcuttur.
 
 ### GitLab
-
-GitHub gibi bir GIT servisidir. Farklı olarak firmalara GitLab'i kendi sunucularına kurma imkanı verildiği için genelde kurumsal tarafta kullanılır. GitLab ile firmalar kendi içlerinde git hizmetlerinden faydalanabilir.
+GitHub gibi bir GIT servisidir. Farklı olarak firmalara GitLab'i kendi sunucularına kurma imkanı verildiği için genelde kurumsal tarafta kullanılır. GitLab ile firmalar kendi içlerinde GIT hizmetlerinden faydalanabilir.
 
 ### BitBucket
-
 Genelde kişisel kullanıma yöneliktir. GitHub tarafındaki açık kaynak projeler ve sosyal medya ortamı burada gelişmemiştir.
 
 Yukarıda açıkladığımız servisler haricinde GitKraken, SourceTree gibi irili ufaklı farklı servisler de mevcuttur.
 
 GIT sistemini kullanmaya başladığınızda karşınıza daha önce aşina olmadığınız bazı tanımlar çıkacaktır. Temel bazı terimleri kısaca açıklayarak içeriğimizi bitirelim.
 
-`repository`: Kısa ismi ile repo. Kodlarınızın saklandığı depodur.
+- `repository`: Kısa ismi ile repo. Kodlarınızın saklandığı depodur.
+- `master`: Depodaki kararlı sürüme master denir.
 
-`master`: Depodaki kararlı sürüme master denir.
-
-`branch`: GIT ağaç mantığı ile çalışır. Bir projeyi versiyonladığımızda master branch'i oluşur. Ana dosya (master) üzerinde değişklik yapmak hem tehlikelidir hem de çok kişi ile yapılan geliştirmelerde karışıklığa sebep olur. Kimin neyi değiştirdiğini takip etmek zorlaşır. Bu sebeple geliştiriciler master'dan açılan dallar (branch) üzerinde geliştirmelerini yapar. Kullanıcılar branch (dallar) üzerinde yaptıkları geliştirmeleri master'a birleştirmesi için proje sahibine gönderirler.
-
-`pull request`: branch'lerin master ile birleştirilmesi için proje sahibine yapılan istektir.
-
-`merge`: branch'lerde yapılan değişikliklerin master branch'i ile birleştirilmesidir.
-
-`push`: Dosyaları repo'ya (depo) göndermek için kullanılır.
-
-`pull`: Depo'dan dosyaları çekmek için kullanılır.
-
-`.gitignore`: GIT'in takip etmesini istemediğimiz dosya ve klasörleri belirttiğimiz dökümandır. Mesela node_module klasörünün izlenmesine gerek yoktur ve .gitignore dökümanı içinde bunu belirtiriz.
+- `branch`: GIT ağaç mantığı ile çalışır. Bir projeyi versiyonladığımızda master branch'i oluşur. Ana dosya (master) üzerinde değişklik yapmak hem tehlikelidir hem de çok kişi ile yapılan geliştirmelerde karışıklığa sebep olur. Kimin neyi değiştirdiğini takip etmek zorlaşır. Bu sebeple geliştiriciler master'dan açılan dallar (branch) üzerinde geliştirmelerini yapar. Kullanıcılar branch (dallar) üzerinde yaptıkları geliştirmeleri master'a birleştirmesi için proje sahibine gönderirler.
+- `pull request`: branch'lerin master ile birleştirilmesi için proje sahibine yapılan istektir.
+- `merge`: branch'lerde yapılan değişikliklerin master branch'i ile birleştirilmesidir.
+- `push`: Dosyaları repo'ya (depo) göndermek için kullanılır.
+- `pull`: Depo'dan dosyaları çekmek için kullanılır.
+- `.gitignore`: GIT'in takip etmesini istemediğimiz dosya ve klasörleri belirttiğimiz dökümandır. Mesela node_module klasörünün izlenmesine gerek yoktur ve .gitignore dökümanı içinde bunu belirtiriz.
 
 GIT sisteminde kullanılan komutlara diğer yazımızdan ulaşabilirsiniz.
