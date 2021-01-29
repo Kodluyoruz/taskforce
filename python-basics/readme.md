@@ -1,38 +1,42 @@
-# Python 101
+# Python 101 INDEX
 
-#### Giriş
+#### Giriş ####
 -  [Programlama Nedir?](programlama-nedir/)
 -  [Temel Veri Tipleri](temel-veri-tipleri/)
 -  [Değişken Atama](degisken-atama/)
+-  [Kafa Karışıklığı](kafa_karisikligi/)
 -  [Operatörler ve İfadeler](operator-expression/)
 
-####  [Stringler](stringler/)
+#### String'ler ####
+  - [Stringler](stringler/)
   - [Stringler Üzerinde Operatörler](string-operator/)
   - [Stringlerde İndexleme](string-indexing/)
   - [Stringlerde Casting](string-casting/)
 
-####  [Input](input/)
-####  [Koda Yorum Ekleme](yorum/)
+#### Input ####
+  - [Input](input/)
 
-#### Koda Durumsallık Katmak
+#### Koda Yorum Ekleme ####
+  - [Koda Yorum Ekleme](yorum/)
+
+#### Koda Durumsallık Katmak ####
 - [Sayısal Verilerde Karşılaştırma](numeric-comparison/)
 - [Stringlerde Karşılaştırma](string-comparison/)
 - [Mantıksal Operatörler](logical-operator/)
 - [Short-circuit](short-circuit/)
 - [Short-circuit Olmayan Mantıksal Operatörler](not-short-circuit/)
 
-#### [If-else-elif](if-else-elif/)
+#### Koşullar ####
+- [If-else-elif](if-else-elif/)
+- [Ternary Conditionals](ternary-conditionals/)
 
-  - [Ternary Conditionals](ternary-conditionals/)
-
-#### [Döngüler](loops/)
-
+#### Döngüler ####
+  - [Döngüler](loops/)
   - [while](while/)
   - [for](for/)
   - [Continue-Break](continue-break/)
 
-#### [Non-Scalar Veri Tipleri](non-scalar/)
-
+#### Non-Scalar Veri Tipleri ####
   - [List](list/)
   - [Tuple](tuple/)
   - [in](in/)
@@ -44,9 +48,8 @@
   - [Varible Unpacking](variable-unpacking/)
   - [Enumerate-Zip](enumerate-zip/)
 
-
-#### [Fonksiyonlar](fonksiyon-giris/)
-
+#### Fonksiyonlar ####
+  - [Fonksiyonlar](fonksiyon-giris/)
   - [return](return/)
   - [Comment-Fonksiyon](comment-fonksiyon/)
   - [Birden Fazla Değer Döndürme/input İçerme](multiple-input-return/)
@@ -55,10 +58,8 @@
   - [First Class Function](first-class-fonksiyon/)
   - [For-Function](for-fonksiyon/)
 
+#### Underscore Placeholder ####
+  - [Underscore Placeholder](underscore-placeholder/)
 
-#### [Underscore Placeholder](underscore-placeholder/)
-#### [fstring](fstring/)
-
-
-
- 
+#### fstring ####
+  - [fstring](fstring/)
