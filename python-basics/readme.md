@@ -16,6 +16,7 @@
 #### Input ####
   - [Input](input/)
 
+
 #### Koda Yorum Ekleme ####
   - [Koda Yorum Ekleme](yorum/)
 
@@ -37,6 +38,7 @@
   - [Continue-Break](continue-break/)
 
 #### Non-Scalar Veri Tipleri ####
+
   - [List](list/)
   - [Tuple](tuple/)
   - [in](in/)
@@ -63,3 +65,4 @@
 
 #### fstring ####
   - [fstring](fstring/)
+
