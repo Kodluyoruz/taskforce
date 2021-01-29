@@ -16,14 +16,13 @@ p {
 ```
 
 **Sonuç**:
-
 ![Screenshot_1](assets/Screenshot_1.jpg)
 
 
 
-Yukarıda görüldüğü üzere iki farklı `<p></p>` elementimize kırmızı renk özelliği eklemiş olduk. Fakat sadece belirli `<p></p>` elementine istediğimiz herhangi bir özelliği eklemek istersek ne yapacağız? Bu durumda *class* veya *id* seçicilerini kullanmamız gerekiyor.
+Yukarıda görüldüğü üzere iki farklı `<p></p>` elementimize kırmızı renk özelliği eklemiş olduk. Fakat sadece belirli `<p></p>` elementine istediğimiz herhangi bir özelliği eklemek istersek ne yapacağız? Bu durumda `class` veya `id` seçicilerini kullanmamız gerekiyor.
 
-#### **Class Kullanımı**
+#### `class` Kullanımı
 
 Class seçicisi, HTML üzerinde aynı class’a sahip elemana ulaşmamızı sağlar.
 
@@ -59,13 +58,8 @@ Daha sonra bunu istediğimiz özelliği ekleyelim.
 
 ```
 
-
-
 **Sonuç:**
-
 ![Screenshot_2](assets/Screenshot_2.jpg)
-
-
 
 Bir class’ı birden fazla HTML elementi için kullanabiliriz.
 
@@ -83,12 +77,7 @@ Bir class’ı birden fazla HTML elementi için kullanabiliriz.
 ```
 
 **Sonuç:**
-
 ![Screenshot_3](assets/Screenshot_3.jpg)
-
-
-
-
 
 Eğer bir HTML elementinin birden fazla class özelliğine sahip olmasını istiyorsak aynı anda iki farklı class’ı kullanabiliriz. Bunun için sadece iki class arasına boşluk bırakmak yeterli olacaktır.
 
@@ -110,10 +99,7 @@ Eğer bir HTML elementinin birden fazla class özelliğine sahip olmasını isti
 ```
 
 **Sonuç:**
-
 ![Screenshot_4](assets/Screenshot_4.jpg)
-
-
 
 Bir HTML elementi kendini kapsayan elementin (parent elementi) stil özelliklerine sahip olur.
 
@@ -121,7 +107,7 @@ Bir HTML elementi kendini kapsayan elementin (parent elementi) stil özellikleri
 <div class="intro">
   <p>Birinci Paragraf</p>
   <p>İkinci Paragraf</p>
-</div>ht
+</div>
 ```
 
 ```css
@@ -131,14 +117,11 @@ Bir HTML elementi kendini kapsayan elementin (parent elementi) stil özellikleri
 ```
 
 **Sonuç:**
-
 ![Screenshot_5](assets/Screenshot_5.jpg)
-
-
 
 Yukarıda `<div></div>` elementine CSS özelliği ekledik fakat altındaki elementler (child elementleri) de bu özelliğe sahip oldu.
 
-#### **Id kullanımı**
+#### `id` kullanımı
 
 Id seçicisi, HTML üzerinde aynı id’ye sahip elemana ulaşmamızı sağlar.
 
@@ -168,7 +151,6 @@ Bir id’yi sadece bir HTML elementi üzerinde kullanabiliriz.
 ```
 
 **Sonuç:**
-
 ![Screenshot_6](assets/Screenshot_6.jpg)
 
 Aşağıdaki **yanlış** bir kullanımdır!
@@ -189,130 +171,6 @@ Aşağıdakiler **yanlış** kullanımlardır.
 
 Böyle kullanımlar geçerli **değildir.**
 
-
-
-## Sorular
-
-**1. Aşağıdakilerden hangisi doğru bir kullanımdır?**
-
-A.
-
-```css
-.{title
-	color:red;
-}
-```
-
-B.
-
-```css
-title#{
-	color:blue;
-}
-```
-
-C.
-
-```css
-.title{
-   color:green;
-}
-```
-
-D.
-
-```
-title{
-    color:pink;
-}
-```
-
-
-
-<details> 
-    <summary>
-    Cevap
-    </summary>
-    <p>Doğru cevap: C seçeneği</p>
-</details>
-
-
-**2.  Aşağıdaki ifadelerden hangisi yanlıştır?**
-
-**A.** Bir html elementi birden fazla class'a sahip olabilir.
-
-**B.** Bir html elementi sadece bir  id'ye sahip olabilir.
-
-**C.** Bir class birden fazla html elementinde kullanılabilir.
-
-**D.** Bir id birden fazla html elementinde kullanılabilir.
-
-
-
-<details> 
-    <summary>
-    Cevap
-    </summary>
-    <p>Doğru cevap: D seçeneği</p>
-    <p>
-        Bir id sadece bir html elemanında kullanılabilir.
-    </p>
-</details>
-
-**3.**Aşağıdaki  kodun çıktısı nedir?
-
-```html
-<p class="main-text intro"> Birinci paragraf</p>
-<p class="main-text"> İkinci paragraf</p>
-<p id="outro"> Üçüncü paragraf</p>
-```
-
-```css
-.main-text {
-    font-style: italic;
-}
-
-.intro {
-    color:red;
-}
-
-#outro {
-    color:green;
-}
-```
-
-
-
-**A.**
-
-![Screenshot_7](assets/Screenshot_7.jpg)
-
-**B.**
-
-![Screenshot_8](assets/Screenshot_8.jpg)
-
-**C.**
-
-![Screenshot_9](assets/Screenshot_9.jpg)
-
-**D.**
-
-![Screenshot_10](assets/Screenshot_10.jpg)
-
-
-
-<details> 
-    <summary>
-    Cevap
-    </summary>
-    <p>Doğru cevap: B seçeneği</p>
-</details>
-
-
-
-
-
-
-## **Kaynaklar**
+## Kaynaklar
 
 - [W3Schools](https://www.w3schools.com)

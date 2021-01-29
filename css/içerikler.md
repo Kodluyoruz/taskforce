@@ -94,7 +94,7 @@
        -  Bir html elementi birden fazla class'a sahip olabilir.
        -  Bir html elementi sadece bir id'ye sahip olabilir.
        -  Bir class birden fazla html elementinde kullanılabilir.
-       -  Bir id birden fazla html elementinde kullanılabilir.
+       -  Bir id birden fazla html elementinde kullanılabilir. (Doğru)
 
     -  Aşağıdaki kodun çıktısı nedir?
 
