@@ -4,6 +4,7 @@
 -  [Programlama Nedir?](programlama-nedir/)
 -  [Temel Veri Tipleri](temel-veri-tipleri/)
 -  [Değişken Atama](degisken-atama/)
+-  [Kafa Karışıklığı](kafa_karisikligi/)
 -  [Operatörler ve İfadeler](operator-expression/)
 
 #### String'ler ####
@@ -14,7 +15,8 @@
 
 #### Input ####
   - [Input](input/)
-  
+
+
 #### Koda Yorum Ekleme ####
   - [Koda Yorum Ekleme](yorum/)
 
@@ -36,7 +38,7 @@
   - [Continue-Break](continue-break/)
 
 #### Non-Scalar Veri Tipleri ####
-  - [Non-Scalar Veri Tipleri](non-scalar/)
+
   - [List](list/)
   - [Tuple](tuple/)
   - [in](in/)
@@ -60,6 +62,7 @@
 
 #### Underscore Placeholder ####
   - [Underscore Placeholder](underscore-placeholder/)
- 
+
 #### fstring ####
   - [fstring](fstring/)
+
