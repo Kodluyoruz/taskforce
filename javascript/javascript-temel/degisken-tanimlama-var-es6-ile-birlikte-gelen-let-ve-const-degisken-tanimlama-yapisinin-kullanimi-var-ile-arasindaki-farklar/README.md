@@ -301,4 +301,5 @@ console.log(sayi)
 şeklindedir. Hoisting kavramını daha iyi anlamak için  [JavaScript görselleştiriciyi](https://ui.dev/javascript-visualizer/)  inceleyebilirsiniz.
 [Codepen](https://codepen.io/afatihyavasi/pen/GRjyePm?editors=0010) aracılığıyla hoisting üzerine daha fazla açıklamalı örnek inceleyebilirsiniz.
 
-Kaynakça: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Declarations)
+### Kaynaklar:
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Declarations)
