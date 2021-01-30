@@ -43,11 +43,11 @@ Row(satır), column(sütun) sistemi bootstrap'in grid system(ızgara sistemi) de
 
 ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-genel-tutucucontainer%2C-satir-bloklarirow-ve-koloncol-yapisi/figures/grid-details.png)
 
-* ilk satır birbirine eşit boyutta 12 adet sütundan
-* ikinci satır birbirine eşit boyutta 3 adet sütundan
-* üçüncü satır 2 farklı boyutta sütundan
-* dördüncü satır 2 eşit boyutta sütundan
-* beşinci satır ise tek bir sütundan oluşmaktadır.
+- ilk satır birbirine eşit boyutta 12 adet sütundan
+- ikinci satır birbirine eşit boyutta 3 adet sütundan
+- üçüncü satır 2 farklı boyutta sütundan
+- dördüncü satır 2 eşit boyutta sütundan
+- beşinci satır ise tek bir sütundan oluşmaktadır.
 
 Görüldüğü gibi 12 adet sütun yapısını istediğimiz biçimde birleştirerek, ayırarak satırlar ile birlikte kullanarak tasarımımızı yapabiliriz.
 
