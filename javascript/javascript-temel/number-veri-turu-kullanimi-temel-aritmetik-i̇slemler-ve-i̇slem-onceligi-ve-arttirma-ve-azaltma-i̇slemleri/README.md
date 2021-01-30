@@ -1,6 +1,6 @@
 # Number Veri Turu Kullanımı, Temel Aritmetik İşlemler ve İşlem Önceliği ve Arttırma ve Azaltma İşlemleri
 
-# Number (Sayı) Veri Türü
+## Number (Sayı) Veri Türü
 JavaScript dili weak-typed yani güçsüz türlü bir dildir. Değişkenlerin ve parametrelerin türlerini bildirmek gerekmez. 
 Tür kullanımdan dolaylı olarak çıkartılır.
 
