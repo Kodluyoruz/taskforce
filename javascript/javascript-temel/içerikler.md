@@ -45,7 +45,18 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 ## Değişkenlerle Çalışmak ####
 ### [Degisken Tanimlama: var, ES6 ile Birlikte Gelen let ve const Değişken Tanımlama Yapısının Kullanımı, var ile Arasındaki Farklar](degisken-tanimlama-var-es6-ile-birlikte-gelen-let-ve-const-degisken-tanimlama-yapisinin-kullanimi-var-ile-arasindaki-farklar/)
 #### Sorular
-1. Yok.
+1. [ Aşağıdaki değişken tanımlama şekillerinden hangisi __*doğrudur?*__ ]
+
+	- `const ülke = "Almanya";`
+	- `let 1countryname = "Almanya";`
+	- `const countryName = "Almanya";` (Doğru)
+	- `let country.Name = "Almanya";`
+  
+2. [ Aşağıdaki değişken tanımlama kurallarından hangisi __*yanlıştır?*__ ]
+	- Değişken isimleri büyük ve küçük harf duyarlıdır.
+	- Değişken isimlerinde dolar işareti kelime başında kullanılabilir.
+	- Değişken isimlerinde alt çizgi kelimenin sonunda kullanılmalıdır. (Doğru)
+	- Değişken isimlerinde ilk karakter bir sayı olamaz.
 
 #### Video
 1. https://www.youtube.com/watch?v=E739Sr5n2Hw
