@@ -45,7 +45,6 @@ Yukarıdaki tüm ifadeler bize `false` çıktısını verir. Buradan anlayacağ�
 ## Kaynaklar
 [W3Schools](https://www.w3schools.com)
 
-=======
 Mantıktan matematiğe, bilgisayar bilimine kadar birçok alanda kullanılan Boolean veri türü, İngiliz matematikçi George Boole’un adından türemiştir. Boolean, sayısal olarak 0 veya 1 şeklinde ifade edilir ki aslında 0 veya 1 dediğimiz şey ise doğru – yanlış yani programlama dillerinde de true – false olarak geçen parametrelerden ibarettir. Aynı zamanda bilgisayar hafızasında sadece 1 bit uzunluğunda yer tutar. 
 ## Boolean Veri Türü JavaScriptte Neyi İfade Eder?
 JavaScriptte boolean veri türü, primitive yani ilkel veri tiplerinden bir tanesidir. Mantık olarak diğer dillerle tamamen aynıdır. Haziran 1997’de ECMAScript’in 1.versiyonuyla standartlaşmış olarak karşımıza çıkmıştır. If-Else, switch, while gibi koşullu ifadelerle birlikte oldukça sık bir şekilde kullanılır. Boolean veri türü Mozilla Firefox, Google Chrome, Safari, Opera ve Internet Explorer tarafından desteklenmektedir.
