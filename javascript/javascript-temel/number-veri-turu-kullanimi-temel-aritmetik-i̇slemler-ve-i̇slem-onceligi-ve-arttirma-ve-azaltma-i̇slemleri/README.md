@@ -16,8 +16,8 @@ Tür kullanımdan dolaylı olarak çıkartılır.
 x değişkenin değer türü kayan sayı (float) türündedir. Sayının integer veya float olup olmadığı nokta (.) olup olmamasından anlaşılır.
 
 **Aritmetik Operatörler**
-- Toplama  : + 
-- Çıkarma  : - 
+- Toplama  : +
+- Çıkarma  : -
 - Çarpma   : *
 - Üs Alma  : **
 - Bölme    : /
