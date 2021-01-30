@@ -4,11 +4,11 @@ Bir noktadan diğer noktaya veri iletişimini sağlarken verinin yolculuğunu sa
 
 Eğer sadece iki cihazı kablo ile bağlasaydık ve veri iletişimi sağlasaydık, verinin kafası karışmazdı ve karşı bilgisayara giderdi. Eğer sistemde verinin çıkacağı bilgisayara başka bir bilgisayar daha bağlasaydık bu sefer hangisine gideceğini nasıl bilecekti ?
 
-![](figures/hangi_yon.PNG)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/IP/figures/hangi_yon.PNG)
 
 Veri iletişiminin sağlandığı ağda çok fazla cihaz olabilir. Hepsini fiziksel olarak bağlamamıza gerek yoktur. *Yönlendiriciler(routers)* üzerinden iletişim sağlanır. Yönlendiriciler ağdaki karmaşıklığı gidererek ağdaki iletişim için yardımcı olurlar. İnternet büyük bir ağdır ve milyonlarca cihaz bu ağ içinde iletişimdedir. İnternete bağlanırken bir yönlendiriciye bağlanırız ve ulaşmak istediğimiz noktaya kadar yönlendiriciler bizi adım adım götürür. 
 
-![internette_iletisim](figures/iletisim.PNG)
+![internette_iletisim](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/IP/figures/iletisim.PNG)
 
 Yönlendiriciler ağ üzerindeki diğer yönlendiricilere veya cihazlara yönlendirme yaparken bir tablo kullanır. Burada gitmek istenilen adrese göre sağdan git soldan git demek gibidir. 
 
@@ -16,7 +16,7 @@ Aşağıdaki resimde yönlendirme nasıl yapılır basitçe görmek için bir ş
 
 Şimdi 1 numaralı cihazdan veriyi 5 numaralı cihaza göndermeye çalışalım. 1'deki çıkış oku bize diyor ki "Eğer hedefin 1 değilse yönlendiriciye gidebilirsin". Hedefimiz 5 numaralı cihaza gitmek olduğu için kolaylıkla yönlendiriciye gidiyoruz. Yönlendiricide iki seçenek bizi bekliyor ve bize "Hedefin 2'ye gitmek ise yukarıya 3,4,5,6 numaralı cihazlardan birine gitmek ise aşağıya yönlen." diyor. Aşağıdaki ikinci yönlendiriciye yöneliyoruz. Halen hedefimize ulaşamadık yönlendirici bu sefer daha fazla seçeneğe sahip. "Eğer 3'e gitmek istersen yukarı, 6'ya gitmek istersen aşağıdaki 6 numaralı cihaza, 4 veya 5 numaralı cihazlardan birine gitmek istersen aşağıdaki diğer yönlendiriciye git" diyor. 3. yönlendiriciye gittiğimizde ise "5'e gitmek istersen 5 numaralı cihaza yönlenebilirsin."  diyor ve hedefimize ulaşıyoruz.
 
-![network_router](figures/network_router_mantigi.PNG)
+![network_router](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/IP/figures/network_router_mantigi.PNG)
 
 
 
@@ -34,16 +34,7 @@ Yönlendirici ağda iki veya daha fazla seçeneği olduğunda trafik kontrolü y
 
 IP ile veri iletiminin %100 gerçekleşeceğini garanti edemeyiz. Aktarım sırasında hatalar meydana gelirse iletişim gerçekleşmez. Bu yüzden *güvenilmez(unreliable)* bir protokoldür. TCP gibi güvenilir bir protokol ile kullanıldığında güvenilir hale gelir.
 
-
-
-Ve işte her şeyi özetleyen, Kodluyoruz tarafından Türkçeleştirilen bir Harvard dersi :)
-
-[![IP_CS50](figures/IP_cs50.PNG)](https://www.youtube.com/watch?v=dJK-IkDjxQg&feature=youtu.be)
-
-
-
-Kaynaklar:
-
-* https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/
-* https://www.wpbeginner.com/glossary/ip-address/
-* https://www.tutorialspoint.com/internet_technologies/internet_protocols.htm
+## Kaynaklar:
+- https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/
+- https://www.wpbeginner.com/glossary/ip-address/
+- https://www.tutorialspoint.com/internet_technologies/internet_protocols.htm

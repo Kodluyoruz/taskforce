@@ -98,7 +98,6 @@ Artık hata yapmamızın doğal bir süreç olduğunun farkına vardık, peki he
 
  
 
-# Kaynaklar
-
-* https://www.kodkoda.com/
-* https://www.kodluyoruz.org/
+## Kaynaklar
+- https://www.kodkoda.com/
+- https://www.kodluyoruz.org/

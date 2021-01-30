@@ -1,18 +1,8 @@
 # GOOGLE ARAMA
-
-
-
 ## Google Arama Nasıl Çalışır?
-
-
-
 ### Video Zamanı!
 
 ---
-
-[![googlevideo](figures/googlevideo.png)](https://www.youtube.com/watch?v=BNHR6IQJGZs&feature=youtu.be)
-
-
 
 Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık gelebilecek binlerce web sayfası bulabilirsiniz. Google bunları belli bir tekniğe göre bulur ve sıralar. Bunu sıralamayı da şu şekilde yapar;
 
@@ -27,7 +17,7 @@ Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık ge
 
 
 
-![google4](figures/google4.png)
+![google4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/google4.png)
 
  
 
@@ -44,7 +34,7 @@ Yapacağınız aramayı ne kadar komplike hale getirirseniz sonuçlar da bir o k
 
 **Örnek arama:** Türkiye yüzölçümü
 
-![g1](figures/g1.jpg)
+![g1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g1.jpg)
 
 
 
@@ -66,7 +56,7 @@ Her ikisinde de sonuçlar çıkıyor fakat ikinci adımdaki mantığı uygularsa
 
 Google yapılan aramalardaki eksikleri ve hataları düzeltebilecek kapasiteye sahip. Bu özelliği sayesinde Google anahtar kelime olarak belirtilenler arasından gereksiz olarak algıladıklarını zaten göz ardı edecektir. Bu yüzden o kelimeleri girmekle vakit harcamayın ve direkt olarak sonuç odaklı çalışın.
 
-![g2](figures/g2.png)
+![g2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g2.png)
 
 #### Not: 
 
@@ -89,7 +79,7 @@ Google’da arama yaparken aşağıdaki maddelere dikkat etmeseniz de olur;
 
 **Örnek arama: ** internetin zararları filetype:doc
 
-![google10_1](figures/google10_1.png)
+![google10_1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/google10_1.png)
 
 
 
@@ -97,11 +87,9 @@ Google’da arama yaparken aşağıdaki maddelere dikkat etmeseniz de olur;
 
 ### 5-  Bir kısmını unuttuğunuz cümleleri arama
 
-
-
 Gün içerisinde bir söz veya şarkı sözü duyduğunuzda ancak bunun sadece belli kısımlarını anlayabildiğinizde ve tamamına ulaşmak istediğinizde Google’ın bu arama yöntemi fazlasıyla yardımcı oluyor. Böyle bir durumla karşılaştığınızda ise yapmanız gereken tek şey, **cümlenin bilmediğiniz kısmına** Google’da arama yaparken **"\* \*" ifadesini** eklemek.
 
-![google9_1](figures/google9_1.jpeg)
+![google9_1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/google9_1.jpeg)
 
 
 
@@ -113,7 +101,7 @@ Birden fazla kelime ile arama yaptığınızda ve her kelimenin aramanın içind
 
 **Örnek arama**: “kodluyoruz hakkında”
 
-![google-hakkında](figures/google-hakkında.png)
+![google-hakkında](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/google-hakk%C4%B1nda.png)
 
 
 
@@ -123,7 +111,7 @@ Bir web sitesi içinde arama yapmak istiyorsanız `site:` özelliğini kullanana
 
 **Örnek arama**: cs50x site:kodluyoruz.org
 
-![googlesite](figures/googlesite.png)
+![googlesite](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/googlesite.png)
 
 
 
@@ -137,15 +125,13 @@ Sosyal medya kanaları üzerinde aradığınız sonuçlar için yapacağınız a
 
 Hashtag (#) sembolünü kullanarak yapacağınız aramalarla Google+, Twitter ve diğer **sosyal** **medya** platformlarında yer alan hashtag’lere ait sonuçları listeleyebilirsiniz.
 
-![g3](figures/g3.png)
+![g3](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g3.png)
 
 #### **@[kişi-ismi]**
 
 Sosyal medya kanalları üzerinde yapacağınız kişi aramaları için kişi isminden önce "@" sembolünü kullanmanız gerekmekte.
 
-![g4](figures/g4.png)
-
-
+![g4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g4.png)
 
 
 
@@ -155,7 +141,7 @@ Google’ı dünya üzerindeki herhangi bir şehrin veya bölgenin gün doğumu 
 
 Bunu yapabilmek için;  *Gün doğumu/gün batımı, şehir ismi*
 
-![g5](figures/g5.png)
+![g5](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g5.png)
 
 
 
@@ -165,7 +151,7 @@ Google’da herhangi bir anahtar kelimeyi eş anlamlı alternatifleriyle aratma 
 
 `~` sembolünden sonra yazacağını herhangi bir kelime eş anlamlı alternatifleriyle aratılacak. Bu sembolü yapmak için;  ***Alt Gr + Ü*** *(ardından kelimeyi yazın)*
 
-![g6](figures/g6.jpg)
+![g6](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g6.jpg)
 
 
 
@@ -175,7 +161,7 @@ Google’da belirli limitler arasında arama yapabilirsiniz. Bu limitler fiyat a
 
 **Örnek arama:** *3000..4000 TL Android telefon*
 
-![g7](figures/g7.png)
+![g7](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g7.png)
 
 Elbette bu örneğe benzer şekilde birçok farklı arama gerçekleştirebilirsiniz.
 
@@ -185,66 +171,12 @@ Elbette bu örneğe benzer şekilde birçok farklı arama gerçekleştirebilirsi
 
 
 
-# GOOGLE'U NEDEN KULLANIYORUZ?
-
-![soru](figures/soru.jpg)
-
-
-
-* "Google'u neden kulanıyoruz?". Seneler öncesinde bu soru ile karşılaşmış olsaydık vereceğimiz cevaplar "Bilmediğim bir şeyi öğrenmek için kullanıyorum." ya da "Araştırma yapmak için kullanıyorum." şeklinde olacaktı.
-
-* Ancak Google, gelişmesiyle birlikte bir arama motorundan fazlası olmaya başladı. Artık gün içinde kullandığımız çoğu uygulamanın Google'un bir ürünü olduğunu söyleyebiliriz. Bir yere giderken kullandığımız haritalar uygulaması, yeni bir dil öğrenirken kullandığımız çeviri uygulaması, fotoğraflarınızı başarılı bir şekilde  yedeklediğiniz fotoğraflar uygulaması ve dahası verebileceğimiz örneklerdir.
-
-  
-
-![googleürün](figures/googleürün.jpg)
-
-
-
-
-
-* Peki gelin sizler için soruyu biraz daha özelleştirelim.
-
-  
-
-## Yazılım Konusunda Google'u Nasıl Kullanıyoruz?
-
-* Kullandığınız yazılım dilinde bilmediğiniz bir kavramla karşılaştığınızda nasıl bir yol izliyorsunuz?
-
-  * Karşılaştığınız kavramı, Google'da aratarak  bu konuda yazılmış birden fazla yazıya, konuyu anlatan görsellere, hatta sizlere bunu daha da iyi açıklamak için hazırlanmış videolara ulaşabilirsiniz. 
-
-  
-
-* Öğrenmeye yeni başladığınız ya da deneyimli olduğunuz bir yazılım dilinde daha önce karşılaşmadığınız bir hata aldığınızda neler yapıyorsunuz?
-
-  * Yazılımı, yıllardır durmadan kendini güncelleyen, gelişen bir kavram olarak düşünebiliriz. Aldığınız hatalar, daha önceden bir başkası tarafından alınmış ve çözüm yolu paylaşılmış hatalar olabilir. Bu nedenle aldığınız bir hatayı Google'da aratarak milyonlarca yazılı, görüntülü ve sesli çözüme ulaşabilirsiniz.
-
-* Diyelim ki, sizlere yönelttiğimiz bu iki soruda da izlediğimiz çözüm yolları işe yaramadı. Bu durumda ne yapacağız? 
-
-  * Karşılaştığımız ve içinden çıkamadığımız bu durumdan araştırarak, deneyimli insanlara ulaşıp yaşadığımız sorundan bahsederek kurtulabiliriz.
-  * İşte tam da bu sırada, sorunumuzu yüzlerce deneyimli, bilgili insanla paylaşabileceğimiz yazılım ile ilgili forum sayfaları devreye giriyor diyebiliriz.
-  * ["Kod Koda"](https://www.kodkoda.com/) ve ["Stack Overflow"](https://stackoverflow.com/) bu forum sayfalarına verebileceğimiz örneklerdir.
-
-
-
-![kodkoda](figures/kodkoda.png)
-
-
-
-![stackoverflow](figures/stackoverflow.png)
-
-* "Kod Koda" ile ilgili detaylı bilgiyi [buradan](https://github.com/Kodluyoruz/taskforce/tree/basics/basics-for-everyone/kodkoda); "Stack Overflow" ile ilgili deyatlı bilgiyi de buradan alabilirsiniz.
-
-  
-
 ## Kaynaklar
 
-* https://tr.wikipedia.org/wiki/Google
-* https://en.wikipedia.org/wiki/Google
-* https://www.crmmedya.com/google-nedir/
-* https://www.vargonen.com/blog/arama-motoru-nedir/
-* https://about.google/intl/ALL_tr/products/
-* https://www.tamindir.com/blog/googlei-daha-etkili-kullanmak-icin-ipuclari_15804/
-* https://www.kodkoda.com/
-* https://stackoverflow.com/
-* https://www.webtekno.com/google-arama-yontemleri-h95625.html
+- https://tr.wikipedia.org/wiki/Google
+- https://en.wikipedia.org/wiki/Google
+- https://www.crmmedya.com/google-nedir/
+- https://www.vargonen.com/blog/arama-motoru-nedir/
+- https://about.google/intl/ALL_tr/products/
+- https://www.tamindir.com/blog/googlei-daha-etkili-kullanmak-icin-ipuclari_15804/
+- https://www.webtekno.com/google-arama-yontemleri-h95625.html
