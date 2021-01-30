@@ -92,5 +92,5 @@ x değişkenin değer türü kayan sayı (float) türündedir. Sayının integer
 Temel dört işlem kuralları, JavaScript içinde geçerlidir.
 
 ### Kaynaklar
-- [Godoro Derinlemesine JavaScript][https://books.google.com.tr/books/about/Derinlemesine_JavaScript.html?id=qy6DDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false]
-- [Onur Dayıbaşı JS Operatör][https://medium.com/frontend-development-with-js/js-operator-6c4a13a1743]
+- [Godoro Derinlemesine JavaScript](https://books.google.com.tr/books/about/Derinlemesine_JavaScript.html?id=qy6DDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)
+- [Onur Dayıbaşı JS Operatör](https://medium.com/frontend-development-with-js/js-operator-6c4a13a1743)
