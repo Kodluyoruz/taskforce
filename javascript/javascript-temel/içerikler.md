@@ -3,7 +3,6 @@
 ### [JavaScript Nedir?](javascript-nedir/)
 
 #### Sorular
-
 1. JavaScript, kimin tarafından ve hangi yılda geliştirilmiştir?
 	- James Gosling tarafından 1995 yılında
 	- Guido van Rossum tarafından 1991 yılında
