@@ -1,4 +1,6 @@
-### break ve continue döngülerde sıklıkla kullandığımız önem arz eden ifadelerimizdendir. Döngüye müdahale etmemizi ve akışı kontrol etmemizi sağlarlar.
+# Break Ve Continue Kullanımı
+
+break ve continue döngülerde sıklıkla kullandığımız önem arz eden ifadelerimizdendir. Döngüye müdahale etmemizi ve akışı kontrol etmemizi sağlarlar.
 
 
 1. Break:
@@ -6,16 +8,8 @@ break ifadesi içinde bulunduğu döngüyü sonlandırmak diğer bir deyişle d�
 
 2. Etiketli Break:Etiketli break ifadeleri ise başına konulduğu döngü sistemini sonlandırır.
 
-
-
-
-
-
-
 3. Continue :
 continue ifadesi ise bulunduğu döngü içinde o anki çalışacak olan  devir işlemini pas geçerek bir sonraki devir işlemini başlatır.Yine burda da vurgulanması gereken nokta **"continue"** ifadesinin sadece kendine en yakın yani içerisinde bulunduğu döngü içinde geçerli oluşudur.
-
-
 
 4. Etiketli Continue:Etiketli continue ifadeleri ise başına konulduğu döngü sistemini etkiler.
 
@@ -41,7 +35,7 @@ for (var i = 0; i <= 10; i++) {
   console.log("i:" + i);
 }
 console.log("Döngüden çıkıldı");
-```
+ ```
 
  ```javascript
 //İç içe döngü örneği
@@ -82,6 +76,4 @@ gec_etiketi: for (var i = 0; i <=5; i++) {
   }
   
 }
-
-
-
+ ```

@@ -1,4 +1,4 @@
-# try ve catch Kullanımı
+# Try Ve Catch Kullanımı
 
 **try...catch** ifadesini basitçe ifade edersek; herhangi bir iş yaparken bir hatayla karşılaşılma durumunun ele alınması anlamına gelmektedir. 
 

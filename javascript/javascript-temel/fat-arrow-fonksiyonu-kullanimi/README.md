@@ -149,8 +149,6 @@ console.log(newArray([1,2,3,4,5]));  // output: [3,4,9,8,15]
 
 Daha okunaklı olduğu için ben çoğu zaman Arrow Fonksiyonunu kullanmayı tercih ediyorum. Umarım sağladığı güzellikler şuan daha iyi anlaşılmıştır ve faydalı bi yazı olmuştur. :)
 
-
-
 ### Kaynaklar
 
 https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/

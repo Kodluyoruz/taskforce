@@ -1,4 +1,4 @@
-# İnput İçerisinden Değer Almak
+# Input İçerisinden Değer Almak
 
 Bu yazımızda input içerisinden değer almayı inceleyeceğiz. Öncelikle input oluşturmak ile başlayalım.
 
@@ -41,8 +41,6 @@ var inputDeger = document.getElementById("inputumuz").value;
 ````
 
 
-
-
 Değeri alert olarak ekranda göstermek için;
 ```` javascript
 window.alert(inputDeger)  // Değerimiz burada yazacak
@@ -50,7 +48,7 @@ window.alert(inputDeger)  // Değerimiz burada yazacak
 
  ## Alıştırmalar
 
-## 1-Bir input oluşturup yanına ekleyeceğimiz buton ile butona tıkladığımızda değerimiz alt satırda alalım.
+1. Bir input oluşturup yanına ekleyeceğimiz buton ile butona tıkladığımızda değerimiz alt satırda alalım.
 
  ````html
  <!DOCTYPE html>
@@ -67,7 +65,7 @@ window.alert(inputDeger)  // Değerimiz burada yazacak
 
 </body>
 </html>
-````
+ ````
 
 ````javascript
  function myFunction(){
@@ -78,9 +76,9 @@ window.alert(inputDeger)  // Değerimiz burada yazacak
 
  [1.Alıştırmayı Denemek İçin Tıklayın](https://codepen.io/tugayturk/pen/wvzyoVG)
 
- ## 2-Bir validation form oluşturup e-mail,yaş ve isim bilgilerini standartlara uygun şekilde alalım.
+2. Bir validation form oluşturup e-mail,yaş ve isim bilgilerini standartlara uygun şekilde alalım.
 
- 
+
 ```` Html
  <!DOCTYPE html>
 <html>
@@ -136,9 +134,9 @@ function sampleFunction() {
 
 [2.Alıştırmayı Denemek için Tıklayın](https://www.bitdegree.org/learn/best-code-editor/javascript-input-example-2)
 
+## Sorular
 
-## Soru-1
-Hangisi aşağıda bulunan input için değerini almaya yarayacak yöntemlerden biri değildir ?
+1. Hangisi aşağıda bulunan input için değerini almaya yarayacak yöntemlerden biri değildir ?
 
 ````HTML
 <input type="text" id="myInput" value="myValue">
@@ -152,8 +150,7 @@ B) var x = document.getElemenById("myInput);
 C) document.createElement("value")
 ````
 
-## Soru-2
-Aşağıdakilerden hangisi butonun içindeki değeri almaya yarar?
+2. Aşağıdakilerden hangisi butonun içindeki değeri almaya yarar?
 
 ````HTML
 First Name: <input type="text" id="myText" value="Mickey">
@@ -178,16 +175,15 @@ B) function myFunction() {
 C) function myFunction() {
     var x = document.querySelectorAll("myText").value;
     document.getElementById("demo").innerHTML = x
- ````
+````
 
 Cevap 1: C
 
 Cevap 2 :A
 
+ ## Kaynaklar 
+- https://www.w3schools.com/  
 
- ## Kaynak1 : https://www.w3schools.com/  
- ## Kaynak2 : https://www.bitdegree.org/learn/best-code-editor/javascript-input-example-2
-
- İsmail Tugay Türk
+- https://www.bitdegree.org/learn/best-code-editor/javascript-input-example-2
 
 

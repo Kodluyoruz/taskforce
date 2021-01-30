@@ -1,8 +1,9 @@
-# localStorage ile Veri Eklemek, Düzenlemek ve Silmek
-# Local Storage Nedir? 
+# LocalStorage İle Veri Eklemek, Düzenlemek Ve Silme
+
+## Local Storage Nedir? 
 
 Web Storage terimi web sayfasında yapılan değişikliklerin kaydının tutulmasına karşılık gelmektedir. Örneğin bir web sayfasında kayıt formu doldurulurken sayfanın kapatıldığını veya başka sayfaya geçtiğimizi varsayalım. Kayıt form sayfasına döndüğümüzde kayıtların kaybolması sinir bozucu bir durum olabilir. Bu durumun önüne geçmek için cookie yani çerez dediğimiz sistemlerle geçici veriler saklanabilmekteydi. Ancak bu çerez dosyalarının hem 4 kb ile sınırlı olması hem de üçüncü şahıslar tarafından kolay erişilebiliyor olması Local Storage teriminin yaygınlaşmasına neden olmuştur. HTML  5 ile birlikte web sayfaları veriyi yerel (local) veya tarayıcı (browser) içinde saklayabilir hale gelmiştir. Bu sayede eskiden cookie’ler ile yaptığımız işlemler daha güvenli ve daha hızlı şekilde yapılabilir hale gelmiştir. Daha hızlı çalışmasının nedeni artık veriler her sunucu istediğinde değil, sadece çağırıldıklarında gelmektedir. Veriler **key/value** şeklinde saklanmaktadır ve web sayfaları sadece kendi oluşturdukları verilere erişebilmektedir. Birçok tarayıcı Web Storage API yapısıyla uyumlu şekilde çalışabilmektedir. 
-# Nasıl Kullanılır?
+## Nasıl Kullanılır?
 HTML 5 ile tarayıcılar iki tane yerel kayıt türünü desteklemektedir.
 - localStorage 
 - sessionStorage
@@ -14,8 +15,6 @@ localStorage built-in fonksiyonları ile veriler üzerinde işlem yapmak oldukç
 	window.localStorage.setItem("key","value");`
 ```
 Eğer daha önce belirttiğiniz bir anahtarı kullanırsanız kaydetmek için veri eski kaydın üzerine yazılacaktır. Veriniz güncellenmiş olacaktır. Veriyi kontrol edip yoksa kaydetmek isterseniz. verinin oluşturulup oluşturulmadığını kontrol etmeniz yeterli olacaktır. Verileri kaydederken sadece string biçiminde kayıt yapıldığını bilmemiz gerekmektedir. Karmaşık bir veriyi kaydetmek istediğinizde toString() metodu çalıştırılmalı ve üretilen değer kaydedilmelidir. Json verisini kaydetmek içinse JSON.stringify() metodu kullanılmalıdır.
-
-
 
 
 ## Veri Okuma
@@ -106,7 +105,7 @@ button.addEventListener('click', function () {
 ````
 - [Örneğin Codepen Linki](https://codepen.io/pen/?template=BaLYZNK)
 
-## Kaynakça
+## Kaynaklar
 - https://www.tiny.cloud/blog/javascript-localstorage/
 
 

@@ -108,16 +108,14 @@ API dokümanında Resources bölümünde belirtilen kaynaklardan [/users](https:
 
 Not: Önce kendiniz yazmaya çalışın. Yapamazsanız cevaba bakabilirsiniz:
 
-<details>
-<summary>Cevabı görmek için tıklayın</summary>  
-  
+
 ```javascript
 fetch("https://jsonplaceholder.typicode.com/users")
 .then((response)=>response.json())
 .then((json)=>console.log(json))
 .catch((err)=>console.log(err));
 ```
-</details>
+
 
 Console’da göreceğiniz sonuç aşağıdaki gibi olmalı:
 ![Cevap 1 Console Çıktısı](./figures/fetch-result-1.png)
@@ -128,16 +126,12 @@ Json Placeholder API servisinin [/comments](https://jsonplaceholder.typicode.com
 
 Not: Önce kendiniz yazmaya çalışın. Yapamazsanız cevaba bakabilirsiniz:
 
-<details>
-<summary>Cevabı görmek için tıklayın</summary>  
-  
 ```javascript
   fetch("https://jsonplaceholder.typicode.com/comments")
     .then((response) => response.json())
     .then((json) => json.forEach((item) => console.log(item.email)))
     .catch((err) => console.log(err))
 ```
-</details>
 
 Console’da göreceğiniz sonuç aşağıdaki gibi olmalı:
 ![Cevap 2 Console Çıktısı](./figures/fetch-result-2.png)

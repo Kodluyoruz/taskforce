@@ -1,16 +1,16 @@
-# while Döngüsü
+# While Döngüsü
 
 JavaScript’de tekrar eden işlemleri kodlarımızın karışıklaşmasını önlemek ve okunabilirliği artırabilmek için döngüler kullanırız bunlardan bir tanesi **While** döngüsüdür.  **While** döngüsü oluşturabilmek için ilk olarak parametre olarak bir koşul vermemiz gerekmektedir verdiğimiz koşul sağlandığı sürece döngü devam eder. Bu koşul sınırsız olursa döngü de sonsuz kere devam eder ve biz bunu istemeyiz genel olarak sonlanacağı bir durumla döngü sonlandırılmalıdır. 
 
 - Bunu ilk olarak psuedo kod olarak gösterebiliriz. 
- 
+
 ![orneKod](figures/psuedo.png)
 
 
 Burada **while** döngüsünün yazılış şeklini gördük şimdi bunu daha gerçekçi bir durumda basitçe inceleyebiliriz. Diyelim ki bir durumda konsola 1’ den 10’a kadar sayıları sırayla yazdırmamız gerekiyor biz bu durumda **while** döngüsünü kullanarak satırlarca kod yazmaktan kurtuluruz ve okunması gayet basit bir kod yazmış oluruz.
 
 ![codExample](figures/codexample.png)
-[codepen'de deneyebilirsiniz](https://codepen.io/Zodyrike/pen/ZqBdvL?editors=1111)
+[Codepen'de deneyebilirsiniz](https://codepen.io/Zodyrike/pen/ZqBdvL?editors=1111)
 
 ### Yukarıda görmüş olduğunuz kod örneğinde 3 bölüm bulunuyor;
 - Dışarıda bir değişken tanımlama.
@@ -23,4 +23,3 @@ Burada **while** döngüsünün yazılış şeklini gördük şimdi bunu daha ge
 -Bu işlemi önce kendi öğrendiklerimizle deneyebilir ve kodu başarılı bir şekilde yazdıktan sonra isterseniz geliştirebilir ve **Array** methodlarıyla yeni arabalar ekleyebilir veya çıkartabilirsiniz Koda aşağıdaki örnekten ulaşabilirsiniz 
 
 ![Egitimornek](figures/question.png)
-

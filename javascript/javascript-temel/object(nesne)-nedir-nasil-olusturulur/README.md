@@ -85,9 +85,5 @@ https://codepen.io/yusufuldiz/pen/VwKXRQO
 
 https://codepen.io/yusufuldiz/pen/ExgEMpd
 
-
-
-
-
 Yararlandığım kaynak: David Flanagan – Javascript: The Definition Guide<br>
 https://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527

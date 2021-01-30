@@ -1,4 +1,4 @@
-# JavaScript'de forEach Nasil Kullanilir ?
+# JavaScript'de forEach Nasıl Kullanılır?
 
 JavaScript'de forEach , döngü oluşturmamızı ve bu döngüyü sırayla çalıştırmamızı sağlayan bir array metodudur.
 
@@ -21,7 +21,6 @@ animals.forEach((value , index , array) => {
   console.log('value parametresinin aldığı index :', index );
   console.log('array:' , array );
 });
-
 ```
 Aynı fonksiyonu her zaman  kullanmak zorunda olduğumuz index parametresiyle  yazalim.
 
@@ -42,9 +41,8 @@ numbers.forEach(function(numbers){
 console.log(newArray);
 
 // output = [12, 33, 27]
-
 ```
- ### 1- numbers array ini kullanarak  her elemaninin iki fazlasına sahip olan başka bir array oluşturunuz.
+ ### 1- Numbers array'ini kullanarak  her elemanının iki fazlasına sahip olan başka bir array oluşturunuz.
 
 
 ```javascript
@@ -54,13 +52,12 @@ console.log(newArray);
  numbers.forEach(() => {
      //...
  })
-
-
- ```
+```
 Sorunun çözümüne kendiniz denedikten sonra aşağıdaki linkten ulaşabilirsiniz.
 - https://codepen.io/selincaglarr/pen/RwGGboO
 
-### KAYNAKCA
+## Kaynaklar
 - https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 - https://www.w3schools.com/jsref/jsref_foreach.asp
 - https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/
+

@@ -2,8 +2,6 @@
 
 Bir obje(object), {…} süslü parantezleri ile,  isteğe bağlı olarak bir özellikler(property) listesiyle oluşturulabilir. Property bir "anahtar(key): değer(value)" çiftidir ve burada key("property name" de denir) bir string(yazı tipinde), value herhangi bir veri tipi olabilir.
 
-
-
 ### Literal ve property tanımlamaları
 
 Obje örneği:
@@ -37,8 +35,6 @@ let car = {
  "is manual" : true,
 };
 ~~~
-
-
 
 ### Square brackets kullanımı
 
@@ -83,8 +79,6 @@ alert(person[key]);      // Jack (prompt’a “name” yazarsak erişeceğimiz 
 
 * Dot notation'ı benzer şekilde kullanamayız.
 
-
-
 ### Computed property kullanımı
 
 Bir obje oluştururken, key'ler için köşeli parantezler yardımıyla dinamik değerler(variable) kullanabiliriz. Buna hesaplanmış özellikler(computed properties) denir.
@@ -101,8 +95,6 @@ objectify("name", "Anna");   //  {name: "Anna"} atanmış yeni değer
 ~~~
 
 \* Key, square brackets [] içine alındığı sürece herhangi bir ifade olabilir.,
-
-
 
 ### Kompleks Objeler Kullanımı 
 
@@ -145,8 +137,6 @@ alert(state.settings.website)
 alert(state.users[2].favoriteColor)
 ~~~
 
-
-
 ### JSON Veri Tipini Obje Olarak Kullanmak
 
 Değişmeyen ve statik olarak kullanmanız gereken verileri JSON derslerinde de anlatıldığı gibi ".json "dosya eklentisi ile bir dizinde kaydedip uygulamanızda bu değişmeyen verilerden yararlanmak isteyebilirsiniz. Projenizde JSON dosyalarıyla çalışabilmeniz için önce onu dosyada import etmeniz ve obje şekline çevirmeniz gerekmektedir. Bu işlem çok basit bir şekilde yapılabilir.
@@ -156,8 +146,6 @@ const veri = require("./dosyanizin/dizini/veri.json") // Bu işlemde require fon
 
 // Bu işlemden sonra veri bileşenini obje şeklinde kullanabilirsiniz. 
 ~~~
-
-### 
 
 ### Özet 
 
@@ -215,8 +203,6 @@ let newPerson = JSON.parse(stringObject);
 // parse methodu da stringtify methodunun tersi olarak çalışır ve stringi objeye çevirir 
 ~~~
 
-
-
 ### Sorular
 
 ~~~markdown
@@ -245,8 +231,6 @@ Cevap:
 alert(show.characters[1].job[1])
 ~~~
 
-
-
 1)Show bitme durumunu kontrol edecek "isEnded" isminde boolean bir değer tutan property nasıl ekleyebilirsiniz?
 
 Cevap:
@@ -255,11 +239,7 @@ Cevap:
 show.isEnded = true;
 ~~~
 
-
-
-
-
-#### Referanslar:
+## Kaynaklar
 
 [Javascript.info](https://javascript.info/object)
 

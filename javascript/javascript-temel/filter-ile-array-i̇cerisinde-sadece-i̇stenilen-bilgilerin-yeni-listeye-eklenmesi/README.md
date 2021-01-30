@@ -61,4 +61,3 @@ const person = [{
 Önce kendiniz yapmayı deneyin, aşağıdaki linkten cevaba ulaşabilirsiniz. 
 
 [Soru 2 Çözüm](https://codepen.io/sahinaykkt/pen/BaLvrxw?editors=0010)
-

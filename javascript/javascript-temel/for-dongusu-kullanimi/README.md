@@ -36,8 +36,6 @@ for(var i = 1; i < 5; i++) {
 
 Koşul sağlandığı sürece döngü çalışacak ve **console.log(i)** ifadesi ile bize her çalıştığında **i** sayısının güncel değerini verecek. 
 
-
-
 Konunun pekişmesi adına beraber bir kaç örnek yapalım;
 
 ### Örnek 1: 10'dan 0'a kadar olan sayıları geriye doğru olacak şekilde konsola yazdıralım.
@@ -53,15 +51,11 @@ Döngümüz 10 ve 0 arasındaki sayılara bakacağı için ilk değerimizi 10 ve
 
 Sayımızın geriye doğru azalması gerektiği için -- ifadesini kullandık.
 
-
-
 ### Ödev 1: 20 ile 40 arasındaki tüm sayıları konsola yazdırın.
 
 Önce kendiniz yapmayı deneyin, aşağıdaki linkten cevaba ulaşabilirsiniz. 
 
 [Çözüm Ödev 1](https://codepen.io/sahinaykkt/pen/NWRYpNy?editors=0011)
-
-
 
 ### Örnek 2: 0 ve 50 sayıları arasından çift olanları konsola yazdıralım.
 
@@ -79,8 +73,6 @@ Döngümüz 0 ve 50 arasındaki sayılara bakacağı için ilk değerimizi 1 ver
 Daha sonra çift sayıları alabilmek için bir koşul ifadesi yazdık.
 
 **_if (i % 2 == 0)_** ifadesi **i** sayısının 2'ye bölümünden kalanı 0 olanları console.log(i) ile al demektir.
-
-
 
 ### Ödev 2: 0 ve 50 sayıları arasından tek olanları console'a yazdıralım.
 

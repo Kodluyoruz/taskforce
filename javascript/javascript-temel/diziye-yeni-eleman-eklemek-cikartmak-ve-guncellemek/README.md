@@ -6,7 +6,7 @@ Dizilere push(), unshift() ve splice() methodlarıyla yeni eleman ekleyebiliriz.
 ### push() method
 push() method, var olan bir dizinin sonuna eleman eklemeye yarar.
 
-**örneğin**
+**Örneğin**
 
 ```javascript
   var sports = ['basketball', 'football', 'tennis' ];
@@ -88,7 +88,7 @@ splice() method diziye hem eleman eklemek için hem de eleman silmek için kulla
 ## Dizide eleman güncellemek
 Dizi içerisindeki her bir eleman 0' dan başlayan bir indeks numarasına sahiptir. Bu sayede indeks numaralarını kullanarak güncelleme yapabiliriz.
 
-**örneğin**
+**Örneğin**
 
 ```javascript
   var sports = ['basketball', 'football', 'tennis' ];
@@ -97,3 +97,4 @@ Dizi içerisindeki her bir eleman 0' dan başlayan bir indeks numarasına sahipt
   console.log(sports[2]); // judo
 ```
 [CodePen'de deneyin](https://codepen.io/kcocalak/pen/YzGLJXV?editors=1111)
+

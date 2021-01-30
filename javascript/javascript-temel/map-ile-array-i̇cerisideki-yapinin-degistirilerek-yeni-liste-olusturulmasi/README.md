@@ -8,7 +8,6 @@ let meyveler = ["Kivi", "Muz"];
 
 console.log(meyveler.length);
 // 2
-
 ```
 
 ## Dizideki elemana ulaşma(indeks kulanılmıştır.)
@@ -20,7 +19,6 @@ var ilkMeyve = meyveler[0];
 var sonMeyve = meyveler[meyveler.length - 1];
 /* Diziler sıfır-tabanlı olduğu için uzunluk-1'inci eleman son elemandır.
 // Muz
-
 ```
 
 # Array Map
@@ -51,14 +49,11 @@ console.log(sayilar);
 //[2, 3, 4, 5, 10]
 console.log(yeniArray);
 //[4, 6, 8, 10, 20]
-
 ```
 
 [Codepen'de deneyin](https://codepen.io/ymuzunburun/pen/abmGbrX?editors=1112)
 
 "sayilar" adında veri tipi const(sabit) bir değişken tanımlandık. Bunu içine statik değerler atadık. Daha sonra "yeniArray" olarak belirlediğimiz yeni değişkenimizde sayilar içerisinde map ile döngü oluştururak mevcuttaki değeri 2 ile çarparak return ettik. Bu işlemden sonra sayilar arrayinde herhangi bir değişliklik olmadığını görebilirsiniz. 
-
-
 
 
 ## Örnek2: Maaş zam hesaplama;

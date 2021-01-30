@@ -47,20 +47,20 @@
 #### Döngüler ####
 - [for Döngüsü Kullanımı](for-dongusu-kullanimi/)
 - [break ve continue Kullanımı](break-ve-continue-kullanimi/)
-- [while Döngüsü](while-dongusu/)
+- [While Döngüsü](while-dongusu/)
 - [forEach ile Array içerisindeki Öğelerin Çağrılması](foreach-ile-array-icerisindeki-ogelerin-cagrilmasi/)
 - [Filter ile Array İçerisinde Sadece İstenilen Bilgilerin Yeni Listeye Eklenmesi](filter-ile-array-i̇cerisinde-sadece-i̇stenilen-bilgilerin-yeni-listeye-eklenmesi/)
 - [Map ile Array İçerisideki Yapının Değiştirilerek Yeni Liste Oluşturulması](map-ile-array-i̇cerisideki-yapinin-degistirilerek-yeni-liste-olusturulmasi/)
 
 #### Nesne(Object) ####
 
-- [Object(Nesne) Nedir ? Nasıl Oluşturulur](object(nesne)-nedir-nasil-olusturulur/)
+- [Object(Nesne) Nedir? Nasıl Oluşturulur?](object(nesne)-nedir-nasil-olusturulur/)
 - [Object Anahtar(Key) ve Değer(Value) Yapısının Kullanımı / Erişimi](object-anahtar(key)-ve-deger(value)-yapisinin-kullanimi-erisimi/)
 - [Nesnelere Nasıl Metot Ekleriz?](nesnelere-nasil-metot-ekleriz/)
 - [Object ve Array Destructuring Kullanımı](object-ve-array-destructuring-kullanimi/)
 
 #### Hata Yönetimi ####
-- [try ve catch Kullanımı](try-ve-catch-kullanimi/)
+- [Try ve Catch Kullanımı](try-ve-catch-kullanimi/)
 
 #### Fetch API ####
 - [Fetch API ile Çalışmak](fetch-api-ile-calismak/)

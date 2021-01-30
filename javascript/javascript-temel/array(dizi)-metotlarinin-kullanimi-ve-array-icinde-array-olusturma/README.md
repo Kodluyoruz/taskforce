@@ -1,16 +1,10 @@
-# Array(Dizi) Metotlarının Kullanımı ve Array içinde Array Oluşturma
-
-
+# Array (Dizi) Metotlarının Kullanımı ve Array içinde Array Oluşturma
 
 ## Dizi Metotları
 
 JavaScript'te, Arrayler(Diziler) sayesinde gerektiği zaman verilerimizi saklıyor ve bunları manipüle edebiliyoruz. Bu kısımda anlatılan metotlar dizi içerisinde tuttuğumuz  verilerimizi kullanmak istediğimiz yöntemlere göre değiştirip şekil aldırmamızı sağlıyor.
 
 Yazının devamındaki CodePen üzerinde verilen örnekleri incelerken CodePen'in console sekmesini açmayı unutmayın.  
-
-
-
-------
 
 ### .push() 
 
@@ -30,8 +24,6 @@ console.log(alisverisListem);
 
 [CodePen'de deneyin](https://codepen.io/onuraksar/pen/eYdMOzz)
 
-------
-
 ### .pop()
 
 - Pop metodu var olan bir dizideki en son elemanı silmemizi sağlar. Parantez içerisine parametre almaz.
@@ -50,13 +42,9 @@ console.log(alisverisListem);
 
 [CodePen'de deneyin](https://codepen.io/onuraksar/pen/xxEWKLX)
 
-----
-
 ### .includes()
 
 - Includes metodu bir elemanın dizi içerisinde bulunup bulunmadığını kontrol eder. Boolean (true/false) olarak çıktı alınır.
-
-
 
 
 **Örneğin:**
@@ -76,11 +64,7 @@ console.log(armutVar);
 
 [CodePen'de deneyin](https://codepen.io/onuraksar/pen/OJRvzKw?editors=0012)
 
-----
-
 ### .slice()
-
-
 
 - Slice (dilimleme) metodu bir dizinin bir kısmının kopyasıyla yeni bir dizi oluşturmamıza olanak sağlıyor.
 
@@ -90,12 +74,7 @@ console.log(armutVar);
 
 - Bu metot uygulandığı dizinin orijinal halini değiştirmiyor bu yüzden yeni oluşacak diziyi farklı bir değişkende saklıyoruz.
 
-
-
-
 **Örneğin:**
-
-
 
 ```javascript
 const alisverisListem = ["elma", "ekmek", "süt"];
@@ -107,13 +86,7 @@ console.log(yeniAlisverisListem);
 // ["elma", "ekmek"] görmeyi bekleriz.
 ```
 
-
-
 [CodePen'de deneyin](https://codepen.io/onuraksar/pen/WNGzMeP?editors=0011)
-
-
-
----
 
 ### .join()
 
@@ -121,8 +94,6 @@ console.log(yeniAlisverisListem);
 - Parantez içerisine dizi elemanları arasına koymak istediğimiz string'i parametre oalrak girebiliriz. Eğer bir parametre vermezsek virgül bastırır.
 
 **Örneğin:**
-
-
 
 ```javascript
 const alisverisListem = ["elma", "ekmek", "süt"];
@@ -158,11 +129,7 @@ console.log(menu);
 
 [CodePen'de deneyin](https://codepen.io/onuraksar/pen/KKgoQbz?editors=0012)
 
-----
-
 **Yazının devamında, içerisinde fonksiyon tanımladığımız ve bu fonksiyonlarla dizideki elemanları manipüle ettiğimiz dizi metotlarını inceleyeceğiz.**
-
-----
 
 ### .forEach()
 
@@ -184,8 +151,6 @@ console.log(menu);
 - İhtiyacımıza göre bu parametrelerden hepsini veya aralarından birkaçını kullanabiliriz.
 
 
-
-
 **Örneğin:**
 
 ```javascript
@@ -202,10 +167,6 @@ malzemeler.forEach(function(malzeme, malzemeIndeksi) {
 ```
 
 [CodePen'de deneyin](https://codepen.io/onuraksar/pen/BaLrrqQ?editors=0012)
-
-
-
-----
 
 ### .map()
 
@@ -232,12 +193,6 @@ console.log(sayilar);
 ```
 
 [CodePen'de deneyin](https://codepen.io/onuraksar/pen/xxEWWvN?editors=0011)
-
-
-
-----
-
-
 
 ### .some()
 
@@ -270,12 +225,6 @@ console.log(sonuc2);
 
 [CodePen'de deneyin](https://codepen.io/onuraksar/pen/jOMzpyy?editors=0012)
 
-
-
------
-
-
-
 ### .every()
 
 - every metodu belirtilen bir koşulun dizideki tüm elemanlara uyup uymadığını kontrol ederiz.
@@ -283,8 +232,6 @@ console.log(sonuc2);
 - True dönebilmesi için dizideki tüm elemanların fonksiyondaki koşula uyması gerekir.
 
 **Örneğin:**
-
-
 
 ```javascript
 const sayilar = [4,5,6];
@@ -313,23 +260,13 @@ console.log(sonuc3);
 // Dizideki hiçbir sayı 7'den büyük olmadığı için sonucun false dömmesini bekleriz.
 ```
 
-
-
 [CodePen'de deneyin](https://codepen.io/onuraksar/pen/ExgEpvp?editors=0011)
-
-
-
------
-
-
 
 ### .filter()
 
 - filter metodu bir dizi içerisindeki belirli bir koşulu sağlayan elemanlar ile yeni bir dizi oluşturmamıza dolayısıyla dizi elemanlarını filtrelememize yarıyor.
 - Yeni oluşacak diziyi bir değişkende saklıyoruz. 
 - Orijinal dizi bozulmuyor.
-
-
 
 **Örneğin:**
 
@@ -348,10 +285,6 @@ console.log(sayilar);
 ```
 
 [CodePen'de deneyin](https://codepen.io/onuraksar/pen/PoGRBEP?editors=0012)
-
-
-
----
 
 ### .find()
 
@@ -388,11 +321,7 @@ console.log(bulunacakEleman3);
 
 ```
 
-
-
 [CodePen'de deneyin](https://codepen.io/onuraksar/pen/vYXRaRB?editors=0012)
-
----
 
 ### .sort()
 
@@ -400,8 +329,6 @@ console.log(bulunacakEleman3);
 - Orijinal dizi sıralanmış şekilde döner. (Yani dizi mutate eder.)
 - Eğer parametre olarak bir fonksiyon verilmezse dizi elemanları string'e çevrilir ve UTF-16 değerlerine göre sıralanır.
 - Artan veya azalan olarak sıralamak için farklı bir yol izlenmelidir.
-
-
 
 **Örneğin:**
 
@@ -442,13 +369,7 @@ console.log(sayilar);
 // Çıktı olarak [10, 5, 4, 3, 2] alırız.
 ```
 
-
-
 [CodePen'de deneyin](https://codepen.io/onuraksar/pen/LYRdBaK?editors=0012)
-
-
-
------
 
 ### .reduce()
 
@@ -456,8 +377,6 @@ console.log(sayilar);
 - Parantez içerisine parametre olarak bir fonksiyon ve accumulator'ün (toplayıcının) başlangıç değeri girilir.
 - Bu metot orijinal diziyi değiştirmez. (Mutate etmez.)
 - Tam olarak ne yaptığını anlamak için örnekleri inceleyelim.
-
-
 
 **Örnekler:**
 
@@ -485,17 +404,9 @@ console.log(sonuc2);
 // 5 + 10 + 20 + 30 = 65 olacağından çıktı olarak 65 bekleriz.
 ```
 
-
-
 [CodePen'de deneyin](https://codepen.io/onuraksar/pen/abmYawo?editors=0012)
 
------
-
-
-
 ## Dizi İçerisinde Dizi Oluşturma
-
-
 
 - ### Önce iç içe dizileri inceleyelim:
 
@@ -535,13 +446,7 @@ const ucuncuEleman = piknikSepetim[2] // ["ekmek", 2]
 const kacElma = piknikSepetim[0][1]; // 3
 ```
 
-
-
 [CodePen'de deneyin](https://codepen.io/onuraksar/pen/XWjEPVv?editors=0011)
-
-----
-
-
 
 - ### Dizi içerisinde dizi oluşturalım:
 
@@ -573,17 +478,9 @@ console.log(kalemlik[0][2]);
 
 ```
 
-
-
 [CodePen'de deneyin](https://codepen.io/onuraksar/pen/GRjxXzy?editors=0012)
 
-
-
-----
-
 ## Pekiştirme Soruları
-
-
 
 ### 1.Soru
 
@@ -597,8 +494,6 @@ let dizi = [2,5,8,11,15,17];
 [CodePen üzerinde çalışmak için tıklayın](https://codepen.io/onuraksar/pen/vYXRVxR?editors=0012)
 
 [Çözümü CodePen'de inceleyin](https://codepen.io/onuraksar/pen/oNzqaWo?editors=0012)
-
-
 
 ### 2.Soru
 
@@ -619,8 +514,6 @@ myFunction(dizi);
 
 [Çözümü CodePen'de inceleyin](https://codepen.io/onuraksar/pen/dypmgZd?editors=0011)
 
-
-
 ### 3. Soru
 
 ```javascript
@@ -635,12 +528,7 @@ let dizi = [2,3,4];
 
 [Çözümü CodePen'de inceleyin](https://codepen.io/onuraksar/pen/VwKXEZz?editors=0011)
 
------
-## Kaynakça:
+## Kaynaklar
 
 - (https://www.elated.com/nested-arrays-in-javascript/)
 - [W3Schools](https://www.w3schools.com/js/js_array_methods.asp)
-
-
-
-

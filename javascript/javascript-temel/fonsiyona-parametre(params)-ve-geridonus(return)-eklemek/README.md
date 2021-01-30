@@ -1,4 +1,4 @@
-# Fonsiyona Parametre(params) ve Geridönüş(return) Eklemek
+# Fonksiyona Parametre (params) ve Geridönüş (return) Eklemek
 
 Fonksiyonlar, bir takım veriler kullanarak, herhangi bir görevi yerine getiren veya bu verileri işleyip, sonuç üreten komut grubudur. 
 
