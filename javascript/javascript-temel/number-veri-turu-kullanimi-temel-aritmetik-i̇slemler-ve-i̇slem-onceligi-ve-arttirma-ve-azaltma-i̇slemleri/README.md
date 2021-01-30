@@ -67,7 +67,8 @@ x değişkenin değer türü kayan sayı (float) türündedir. Sayının integer
     //0
 ```
 
-**Arttırma** : Bir sayıyı arttırmak için kullanırız. Değeri 1 arttırır. For ve While döngüleri içinde sık sık kullanılır, önce veya sonra kullanılabilir. Operatörün değişkenden sonra gelmesi durumuna postfix form, değişkenden önce gelme durumuna prefix form denilmektedir. Her iki kullanımdada değer +1 arttırılır lakin prefix formu oluşan yeni değeri döndürmektedir. Postfix formu ise eski değeri döndürür, yani ekrana alert keyword(anahtar kelimesi) ile basar, ekrana basılan değer eski değerdir. Arttırma işlemi yapılmıştır ve değişkende arttırılmış hali tutulur.
+**Arttırma** : Bir sayıyı arttırmak için kullanırız. **Değeri `1` arttırır**. For ve While döngüleri içinde sık sık kullanılır, önce veya sonra kullanılabilir. Operatörün değişkenden sonra gelmesi durumuna postfix form, değişkenden önce gelme durumuna prefix form denilmektedir. Her iki kullanımdada değer `+1` arttırılır lakin prefix formu oluşan yeni değeri döndürmektedir. Postfix formu ise eski değeri döndürür, yani ekrana alert keyword(anahtar kelimesi) ile basar, ekrana basılan değer eski değerdir. Arttırma işlemi yapılmıştır ve değişkende arttırılmış hali tutulur.
+
 **Örneğin;**
 ```JavaScript
 
