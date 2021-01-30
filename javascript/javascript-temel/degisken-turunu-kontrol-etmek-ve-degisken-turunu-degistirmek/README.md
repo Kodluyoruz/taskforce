@@ -166,10 +166,9 @@ Genel olarak algoritma aşağıdaki gibidir:
 **3.** Ne input.toString() ne deinput.valueOf() primitif sonuç vermiyorsa; TypeError fırlat
 
 
-**NOT:** == operatörünün (loose equality- zayıf eşitlik) farklı iki tipteki a ve b değişkenleri için pratikte nasıl farklı davrandığını,[JavaScript Comparison Table](https://dorey.github.io/JavaScript-Equality-Table/) ’de gösteren matristen görebilirsiniz. 
+**NOT:** `==` operatörünün (loose equality- zayıf eşitlik) farklı iki tipteki a ve b değişkenleri için pratikte nasıl farklı davrandığını,[JavaScript Comparison Table](https://dorey.github.io/JavaScript-Equality-Table/) ’de gösteren matristen görebilirsiniz. 
 
 **ÖRNEKLER**
-
 **1-**
 ``` javascript
 console.log(true+false) 
@@ -177,7 +176,6 @@ console.log(true+false)
 - "+" operatörü numeric işlem yapar bu durumlardan boolean ifadeler numaric coercion'a uğrar.
 - Number(true) + Number(false) dönüşen ifade
 - 1+ 0 şeklini alır
-
 **Sonuç** = 1
 
 **2-**
@@ -188,7 +186,6 @@ console.log(12 / “6”)
 - başlangıçta number olduğu için "6" ifadesi
 - numaric coercion'a uğrar Number("6") ve 6 değerini döner
 -  12 / 6 bu şekli alır
-
 **Sonuç**= 2
 
 **3-**
@@ -204,7 +201,6 @@ console.log([1,2,3]>null)
 - Number("1,2,3") ifadesinin sonucu NaN olacağından 
 - NaN>null şeklini alır
 - ve NaN kendine dahil hiçkimseye eşit olmadığından!!
-
 **Sonuç**= false
 
 **4-**
@@ -213,8 +209,7 @@ console.log(“number” + 15 + 3)
 ```
 - örneğimizin başında stirng bir ifade bulunduğundan diğer ögeler için de string coercion teriklenir 
 - "number+ "15" + "3" şeklini alır 
-
- **Sonuç**= "number153"
+**Sonuç**= "number153"
 
 **5-**
 ```javascript
