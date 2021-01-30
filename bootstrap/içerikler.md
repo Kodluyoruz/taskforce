@@ -101,7 +101,7 @@
 
       * 1) 12 , 2)  container-lg
 
-      * 1) 12 , 2)  container
+      * 1) 12 , 2)  container (Doğru)
 
       * 1) 10 , 2)  container-lg
 
