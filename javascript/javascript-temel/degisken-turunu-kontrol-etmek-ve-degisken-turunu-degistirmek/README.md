@@ -4,7 +4,6 @@
 
 Bu kontrolleri yaparken sıkça typeof kullanılır.
 ``` javascript
-
 console.log(typeof 42);
 // beklenen output: "number"
 
@@ -16,9 +15,10 @@ console.log(typeof true);
 
 console.log(typeof Variable);
 // beklenen output: "undefined"
-
 ```
-Bir başka şekilde  isInteger( ),isFinite( ) veya isNaN( ) kullanarak da kontrol sağlayabiliriz. 
+
+Bir başka şekilde  `isInteger( )`,`isFinite( )` veya `isNaN( )` kullanarak da kontrol sağlayabiliriz. 
+
 ``` javascript
 //isInteger( ) yöntemi, sayıların tam sayı olup olmadığını belirler.
 Number.isInteger(123) //true
@@ -45,7 +45,7 @@ Number.isNaN(NaN) //true
 Bu şekilde kontrolleri sağlanan değerler true veya false dönerler.
 
 
-# Değişken Türünü Değiştirmek (Type Coercion)
+## Değişken Türünü Değiştirmek (Type Coercion)
 
 Type Coercion; bir değişkenin türünü, başka bir değişkene dönüştürmeye yarayan yöntemdir. Türkçesi mahalle baskısı olarak karışınıza çıkabilecek olan type coercionın iki tipi vardır. Bunlar explicit ve implicit. Explicit için metotlarla yapılan dönüşüm denilebilir. Implicit için ise operatörlerle veya JavaScriptin kendi yaptığı dönüşümler diyebiliriz
 
@@ -54,17 +54,16 @@ Type Coercion; bir değişkenin türünü, başka bir değişkene dönüştürm
 String(123) // “123”
 ParseInt(“123”) // 12
 ``` 
+
 **Implicit Coercion**
 ``` javascript
 If(3<5) // true
 console.log(‘ ’+123) // “123”
 12/”6” // 2
-
 ```
 Bu dönüşümler nasıl yapılıyor onlara bakalım.
 
-# String Dönüşümü
-
+## String Dönüşümü
 
 Eğer bir değeri açık bir şekilde String’e dönüştürmek istiyorsak String(),fonksiyonunu kullanırız. Binary(ikili) + operatörü bir string ifadeye uygulandığında implicit coercion tetiklenir.Örneklerle bunu daha iyi anlayalım.
 ``` javascript
@@ -88,8 +87,8 @@ String(Symbol('my symbol')) // 'Symbol(my symbol)'
 
 
 ```
- # Boolean Dönüşümü
-Eğer bir değeri açık bir şekilde(explicit) boolean ‘a dönüştürmek istiyorsak Boolean() fonksiyonu kullanılır.
+## Boolean Dönüşümü
+Eğer bir değeri açık bir şekilde(explicit) boolean ‘a dönüştürmek istiyorsak `Boolean()` fonksiyonu kullanılır.
 Implicit coercion ise mantıksal operatörlerinin kullanıldığı, mantıksal işlemlerin yapıldığı alanlarda tetiklenir.(|| && !)
 ``` javascript
 Boolean(2) // explicit
@@ -117,43 +116,34 @@ Boolean(Symbol()) // true
 Boolean(function() {}) // true
 ```
 
-**Önemli NOT :** Mantıksal operatörlerden || ve && , dönüşüm işlemini internally (dahili olarak) yapar. Ama gerçekte  ifadenin (operand) değerini döndürür, değer boolean tipinde olmasa bile.Örneklerle daha iyi anlayalım.
+**Önemli NOT :** Mantıksal operatörlerden `||` ve `&&` , dönüşüm işlemini internally (dahili olarak) yapar. Ama gerçekte  ifadenin (operand) değerini döndürür, değer boolean tipinde olmasa bile.Örneklerle daha iyi anlayalım.
 
 ``` javascript
- // veya “||” operatörü ilk bulduğu true değeri döner
-
+// veya “||” operatörü ilk bulduğu true değeri döner
 var a= 2 || s || 4 || 5; // 2
-
 // eğer true dönecek değer bulamazsa en son buluğu false değeri döndürür
-
 var b=0 || ”” || false || -0 || 0 // 0
-
 var c= 0 ||  “”  ||  “ 123 ” || 4 ; // ”123” dolu string true dönecektir
-
 // ve ”&&” operatörü ilk bulduğu false değeri döner.
-
 var d=2 && 3 && 0 && 5 && 7; // 0
-
 // eğer false dönecek değer bulamazsa en son buluğu true değeri döndürür
-
 var e= 2 && 3 && 5 && 7 // 7
 ```
-# Nesneler (Objects) için Type Coercion
 
+## Nesneler (Objects) için Type Coercion
 Şimdiye kadar primitif değerler için type coercion hakkında bilgi sahibi olduk. Nesneler için bu durum biraz daha farklı.JavaScript'te nesneler refarans tipler olduğundan üzerinde işlem yapabilmek zordur. İşlem yapabilmek için elimizde primitif değerler olması gerekir. Bu durumda referans tipler primitif tiplere zorlanır. 
 Nesneler için en kolaay tip dönüşümü booleandır. Primitif olmayan harhangi bir değer örneğin içi dolu veya boş bir nesne(object),dizi(array) farketmez her zaman true olarak zorlanır.(coerced)
-````javascript
+```javascript
 console.log(Boolean({})) // true
 console.log(Boolean([])) // true
 console.log(Boolean([1,2,3])) // true
-console.log(Boolean({13:234})) //true 
-
-````
+console.log(Boolean({13:234})) //true
+```
 Nesnelerde de matematiksel veya mantıksal işlemler yapmak mümkündür. İlk paragrafta belirttiğim gibi bu işlemi ancak primitif bir değere dönüştürerek yapabiliriz.Bu dönüşüm için, giriş nesnesinin(input object) valueOf ve toString metodlarından faydalanılır. Bu iki metod Object.prototype da tanımlanmıştır. Bu sayede türetilmiş tüm tiplerde kullanılır. Örneğin Tarih (Date), Dizi (Array) gibi. İlk olarak nesneler toString() e girer ve çıkan değer primitifse o değeri döner. primitif değilse valueOf() içine girer. valueOf()'tan çıkan sonuç primitifse o değeri döner değilse error fırlatır. 
 
-````javascript
+```javascript
 console.log([1]+[1,2,3])
-````
+```
 - işlem yapabilmek için  [ 1 ] ve [ 1,2,3 ] öncelikli olarak primitif türe zorlanır
 - [ 1 ].toString(); // sonuç "1" verir
 -  [ 1,2,3 ].toString() // sonuç "1,2,3" verir
@@ -238,57 +228,32 @@ console.log(['x','y'] == 'x,y')
 **Sonuç**= true
      
 **ALIŞTIRMALAR**
-
 **1-** console.log(“foo” +  +“bar”)
-
 **2-** console.log(‘true’ == true)
-
 **3-** console.log(null==””)  
-
 **4-** console.log(0 || “ 0” && {})
-
 **5-** console.log([“a”] > null)
-
 **6-**  [Codepen'de deneyin](https://codepen.io/cosmicwayfarer/pen/wvzpPxp)
 
 **Cevaplar**
-
 (Yazının içindeki soruların cevabı)
-
 **1-** console.log(“foo” + +“bar”)
-
 // +"bar" => Number("bar") => NaN //"foo"+NaN //"foo" +"NaN" //Sonuç= "fooNaN"
-
 **2-** console.log(‘true’ == true)
-
 //Number('true')=>NaN //NaN == true //NaN == 1 //Sonuç= false
-
 **3-** console.log(null==””)
-
 // null sadece kendine ve undefined'a eşit olduğundan //Sonuç= false
-
 **4-** console.log(0 || “ 0” && {})
-
 //(0 || "0") %% {} //(false || true) && {} => dolu string true döndüğünden //(true) && {} => || operatörü ilk bulduğu true değeri, && operatörü ilk bulduğu false değeri döner //true && {} => && operatörü false değer bulamazsa son bulduğu değeri döndürür. //Sonuç={}
-
 **5-** console.log([“a”] > null)
-
 //"a" > null => array toStirng metodunun içine girer //NaN > null => Numeric dönüştürmeye girer //NaN > 0 //Sonuç= false
-
 **6-** (codepen'in cavabı)
+`if(isNaN(yas)){ divEl.innerHTML= Sadece Sayı Giriniz; }`
 
-if(isNaN(yas)){ divEl.innerHTML= Sadece Sayı Giriniz; }
-
-
-
-
-**Kaynakça**
-https://www.w3schools.com/jsref/jsref_isnan_number.asp
-https://www.w3schools.com/jsref/jsref_isinteger.asp
-https://www.sitepoint.com/javascript-truthy-falsy/
-https://www.w3schools.com/jsref/jsref_isfinite_number.asp
-https://dorey.github.io/JavaScript-Equality-Table/
-https://thrkardak.medium.com/%C3%A7eviri-javascriptte-mahalle-bask%C4%B1s%C4%B1-type-coercion-2d2093db3fb4
-
-
-
+## Kaynaklar
+- https://www.w3schools.com/jsref/jsref_isnan_number.asp
+- https://www.w3schools.com/jsref/jsref_isinteger.asp
+- https://www.sitepoint.com/javascript-truthy-falsy/
+- https://www.w3schools.com/jsref/jsref_isfinite_number.asp
+- https://dorey.github.io/JavaScript-Equality-Table/
+- https://thrkardak.medium.com/%C3%A7eviri-javascriptte-mahalle-bask%C4%B1s%C4%B1-type-coercion-2d2093db3fb4
