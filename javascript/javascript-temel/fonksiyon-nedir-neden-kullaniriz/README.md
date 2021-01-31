@@ -1,4 +1,4 @@
-# Fonksiyon Nedir ? Neden Kullanırız?
+# Fonksiyon Nedir? Neden Kullanırız?
 
 Fonksiyonlar adından anlaşılacağı gibi belli bir amacı gerçekleştirmek için oluşturulmuş yapılardır. Koda işlevsellik katmak için bunu sık sık kullanırız. Nasıl tanımlandığına gelecek olursak:
 ### Fonksiyonu Adlandırmak
@@ -131,24 +131,25 @@ function printScreen1() {
 
 ```
 Bu şekilde çıktımız nihayet istediğimiz gibi olacaktır.
-=======
-  Kod yazarken, kodun birçok yerinde aynı işi yapacak alt programlara (subprograms) ihtiyaç duyarız. Mesela, ziyaretçi siteye giriş yaptığında veya çıkış yaptığında bir mesaj göstermek isteriz.
-  Fonksiyonlar, programın ana bloklarıdır ve fonksiyonlar sayesinde kodu tekrar tekrar yazmadan, istediğimiz kadar çağırabiliriz. Javascript'te built-in(dilin kendi içerisinde mevcut) fonksiyonlar olduğu gibi(mesela alert(parametre) ve  prompt(parametre) built-in fonksiyonları) biz de kendi fonksiyonlarımızı oluşturabiliriz.
-  
+
+Kod yazarken, kodun birçok yerinde aynı işi yapacak alt programlara (subprograms) ihtiyaç duyarız. Mesela, ziyaretçi siteye giriş yaptığında veya çıkış yaptığında bir mesaj göstermek isteriz.
+
+Fonksiyonlar, programın ana bloklarıdır ve fonksiyonlar sayesinde kodu tekrar tekrar yazmadan, istediğimiz kadar çağırabiliriz. Javascript'te built-in(dilin kendi içerisinde mevcut) fonksiyonlar olduğu gibi(mesela alert(parametre) ve  prompt(parametre) built-in fonksiyonları) biz de kendi fonksiyonlarımızı oluşturabiliriz.
+
 ## Fonksiyon Bildirimi(Function Declaration)
   Fonksiyon oluşturmak içi fonksiyon bildirimi yapabiliriz. Mesela;
   ```javascript
 function mesajVer() {
   alert( 'Herkese Merhabalar!' );
 }
-```
+  ```
 **function** anahtar kelimesini takiben fonksiyon ismi ve parantez içerisinde parametreler(virgülle ayrılacak şekilde) ve son olarak da süslü parantez içerisinde fonksiyonun içereceği kod(ki bu bölüme fonksiyonun gövdesi(body) denir.) sırasıyla fonksiyonu oluşturur.
 
   ```javascript
 function isim(parametreler) {
   ...fonksiyonun gövdesi...
 }
-```
+  ```
 
 Yukarıda bildirdiğimiz **mesajVer** fonksiyonu ismiyle çağrılabilir:
   ```javascript
@@ -157,7 +158,7 @@ function mesajVer() {
 }
 mesajVer();
 mesajVer();
-```
+  ```
 **mesajVer()** çağrısı fonksiyonu çalıştırır. Burada mesajı iki kere çağırdığımız için mesajı iki defa göreceğiz.
 Yukarıdaki örnekten de görüldüğü üzere; fonksiyonların ana amacı kodu tekrar yazmayı engellemektir. Eğer fonksiyonun vreceği mesajı değiştirmek istiyorsak, bunu sadece fonksiyonun içerisinde(bir kez) yapmamız yeterlidir.
 
@@ -170,10 +171,10 @@ function mesaVer(ad, soyad) {
 mesajVer("Arturo", "Kelesoglu", "Mr."); /* çıktı: Merhaba Arturo Kelesoglu (Bu örnekte parametrelere geçilen argüman sayısı 3'tür(Arturo, Kelesoglu, Mr.). Parametre sayısı ise 2'dir(ad,soyad). Bu yüzden fazlalıklar(Mr.) önemsenmez.*/
 mesajVer("Arturo"); /* çıktı: Merhaba Arturo undefined (Bu örnekte parametrelere geçilen argüman sayısı 1'dir.(Arturo). Parametre sayısı ise 2'dir(ad,soyad). Bu yüzden eksiklikler undefined döner. */
 mesajVer(); // çıktı Merhaba undefined undefined (Yukarıdaki örnekle aynı mantıktadır.)
-```
+  ```
 
 ## Geri Dönüş Değeri (Return Value)
-Bir fonksiyon **return** anhatar kelimesi kullanılarak sıfır yada bir 
+Bir fonksiyon **return** anahtar kelimesi kullanılarak sıfır yada bir 
 function topla(sayi1, sayi2) {
     return sayi1 + sayi2;
 };
@@ -421,8 +422,6 @@ console.log(sayacartir()); // 2
 ```
 
 [Daha detayli bilgi için...](https://javascript.info/closure#nested-functions)
-
-
 
 
 ### Kaynaklar:

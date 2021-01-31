@@ -7,7 +7,7 @@
 
  Event oluşumu öncelikle nesnenin seçimi ile başlar.Bir butona tıklandığında tıklandı uyarısı ekrana uyarı(alert) olarak ekrana yazdırabiliriz.
 
-   ### 1.method
+   ### 1. Metot
 
 
       Kullanım :
@@ -27,7 +27,7 @@
 
       Çıktı : Buton Tıklandı
 
-  ### 2.method
+  ### 2. Metot
 
  Fonksiyon etkinlik parametresi olarak da çalışabilmektedir.Burada parametre olan "event" i bir değişkene atayıp hedef etkinlik  tanımlandıktan sonra butona basıldıgında hangi butonun tıklandıgı bilgisine ulaşılabilmektedir
      Kullanım: 
