@@ -1,4 +1,4 @@
-# ALGORİTMA
+# Algoritma
 
 ## Algoritma Nedir?
 

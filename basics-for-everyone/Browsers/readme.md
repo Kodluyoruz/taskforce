@@ -1,4 +1,4 @@
-# BROWSERS (TARAYICILAR)
+# Browsers (Tarayıcılar)
 
 Bugünlerde masaüstünde ve mobilde bir çok tarayıcı var. Önceden tarayıcıları anlamak zordu çünkü açık kaynak kodlu değillerdi. Ama şimdilerde Chrome, Firefox ve Safari gibi kısmen de olsa açık kaynak kodlu tarayıcı bulmak mümkün. Kullanıcıların hangi tarayıcıları tercih ettiğine baktığımızda büyük yüzdeyi Chrome alıyor. 
 
@@ -49,8 +49,6 @@ Rendering motoru HTML belgesini aldığında çözümlemeye başlar, belgedeki e
 Render ağacı oluşturduktan sonra düzenleme(layout) işlemi başlar. Bu işlemde düğümdeki elemanlara ekranda nerede görüntüleneceklerine dair tam koordinatlar verilir. Sonraki aşama ise boyama(painting) aşamasıdır. Render ağacındaki her düğüm işlenerek UI(Kullanıcı Arayüzü) backend katmanı kullanılarak boyama işlemi yapılır.
 
 Tüm bu süreç kademeli olarak gerçekleşir. Tarayıcılar daha iyi kullanıcı deneyimi sunmak için olabildiğince hızlı ekrana getirmeye çalışırlar. Bir adım tüm içerik için tamamen bitince diğer adım başlar gibi de düşünmemek lazım. İçerik parçalara ayrılır ve bu parçalar için işlem gerçekleşir. Örneğin sayfa gelirken bir anda her şeyi gelmesi yerine ilk önce yazıların sonra görsellerin geldiğini görmüşsünüzdür. Bunun sebebi yazının işlemlerden çok daha hızlı geçip süreç bitince de ekrana yansıtılması görseller için ise sürecin tamamlanmamış olmasındandır. 
-
-
 
 ## Kaynaklar:
 * https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Parser_Lexer_combination

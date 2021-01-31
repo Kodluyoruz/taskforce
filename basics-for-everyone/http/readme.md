@@ -1,4 +1,4 @@
-# HTTP NEDİR?
+# HTTP Nedir?
 
 HTTP (Hyper-TextTransfer Protocol), istemci ve sunucunun birbiri ile nasıl iletişim kurduğunu standartlaştıran TCP/IP tabanlı application layer (uygulama katmanlı) iletişim protokolüdür. İçeriğin internet üzerinden nasıl talep edildiğini ve iletildiğini tanımlar. Varsayılan olarak TCP portu 80’dir ama diğer portlar da kullanılabilir. Ama HTTPS 443 portunu kullanır. 
 
