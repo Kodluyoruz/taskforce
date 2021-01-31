@@ -1,4 +1,4 @@
-# IP ADRES ve DNS'E GİRİŞ
+# IP Adres ve DNS'e Giriş
 
 İnternete bağlanan her bir cihazın kendine has bir IP(Internet Protocol) adresi vardır. IP adresler sayılardan ve belirli bir formattan oluşur. Bu adresleri belirleyen sistem önceleri IPv4 sistemi olsa da şimdilerde yerini IPv6 alıyor. IPv4 ile 32 bitlik bir IP adres uzunluğuna sahipken, IPv6 ile 128 bitlik bir uzunluğa erişti. Bu ise daha fazla cihaza özel adres verilmesini sağladı. 
 

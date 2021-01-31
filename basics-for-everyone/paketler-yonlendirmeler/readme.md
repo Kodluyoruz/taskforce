@@ -1,4 +1,4 @@
-# PAKETLER, YÖNLENDİRME ve GÜVENİLİRLİK
+# Paketler, Yönlendirme ve Güvenilirlik
 
 Bilginin bir cihazdan diğerine gitmesi için illa ki dümdüz bir yola ihtiyacı yoktur. Bu yol karmaşık olabilir. Trafik durumuna göre veri farklı yollardan hedefe ulaşabilir. Bu trafiği yönlendiriciler(routers) yönetir.
 

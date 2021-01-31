@@ -30,7 +30,7 @@ Menü çubuğunda ikinci olarak karşımıza "Search" kısmı çıkıyor. Bu kı
 Ne demek istediğimizi bu görselle biraz daha açıklamaya çalışalım. Örneğimizde replace kısmına "kodluyoruz.org"  yazdığımızı ve işleme devam ettiğimizde eskiden "kodluyoruz" yazılı satırlarda artık "kodluyoruz.org" yazdığını görebiliriz.
 
 ### Source Control
-![vs-source](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-source.png) Run
+![vs-source](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-source.png) 
 
 Üçüncü olarak karşımıza çıkan kısım "Source Control" yani "Versiyon Kontrol" kısmıdır. Bu kısımda otomatik bir versiyon kontrol sistem oluşturabilir ve bunu "Github"ta paylaşabilirsiniz.
 

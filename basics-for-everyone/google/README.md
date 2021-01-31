@@ -1,8 +1,5 @@
-# GOOGLE ARAMA
+# Google Arama
 ## Google Arama Nasıl Çalışır?
-### Video Zamanı!
-
----
 
 Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık gelebilecek binlerce web sayfası bulabilirsiniz. Google bunları belli bir tekniğe göre bulur ve sıralar. Bunu sıralamayı da şu şekilde yapar;
 
@@ -19,12 +16,8 @@ Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık ge
 
 ![google4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/google4.png)
 
- 
-
 * **İnternet** günlük hayatın vazgeçilmez bir parçası. Sınırlarını hayal etmekte bile zorlandığımız bu devasa bilgi ağında kullanıcılar aradıklarını hızlı bir şekilde bulabilmek için arama motorlarından yardım alıyor.
 * Bildiğiniz gibi Google şu an için en popüler arama motoru konumunda. Milyonlarca kullanıcı aradıkları sonuca ulaşabilmek için Google’ın gelişmiş filtreleme ve arama özelliklerini kullanıyor. **Google** her ne kadar gelişmiş filtreleme seçenekleri sunsa da kullanıcıların da atması gereken bir takım adımlar var. Bu adımlar sonuçların daha doğru ve daha net olmasını garantiliyor. Gelin şimdi atılması gereken adımları inceleyelim. 
-
-
 
 ### **1- Mümkün olduğunca basite indirgeyin.**
 
@@ -35,8 +28,6 @@ Yapacağınız aramayı ne kadar komplike hale getirirseniz sonuçlar da bir o k
 **Örnek arama:** Türkiye yüzölçümü
 
 ![g1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g1.jpg)
-
-
 
 ### **2- Kelimelerin dizilimine dikkat edin.**
 
@@ -49,8 +40,6 @@ Google’da ünlü bir cümle veya özlü söz aratacağınız zaman anahtar kel
 **Örnek arama:** İnsan ne kadar az düşünürse, o kadar çok konuşur
 
 Her ikisinde de sonuçlar çıkıyor fakat ikinci adımdaki mantığı uygularsanız daha karmaşık sonuçlar için daha etkili bir arama metodu uygulamış olursunuz.
-
-
 
 ### **3- Gereksiz kelimeleri ve işaretleri atlayın**.
 
@@ -71,8 +60,6 @@ Google’da arama yaparken aşağıdaki maddelere dikkat etmeseniz de olur;
 - Özel karakterler (parantez, artı, eksi vb.)
 
 
-
-
 ### **4- Dosya tipleriyle arama yapın**
 
 Özel bir **dosya türüne** ait bilgi için Google’da arama yaptığınızda "internetin zararları word" gibi arama kalıplarıyla istediğiniz sonuçlara ulaşamayabilirsiniz. Bunun için bir arama yöntemine sahip olan Google’da, aramak istediğiniz bilginin önüne `filetype:` ekini ve sonuna da **dosya türünü** getirmenizle beraber sadece o dosya türüne ait sonuçlar ekranınıza listelenecek.
@@ -81,19 +68,11 @@ Google’da arama yaparken aşağıdaki maddelere dikkat etmeseniz de olur;
 
 ![google10_1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/google10_1.png)
 
-
-
-
-
 ### 5-  Bir kısmını unuttuğunuz cümleleri arama
 
 Gün içerisinde bir söz veya şarkı sözü duyduğunuzda ancak bunun sadece belli kısımlarını anlayabildiğinizde ve tamamına ulaşmak istediğinizde Google’ın bu arama yöntemi fazlasıyla yardımcı oluyor. Böyle bir durumla karşılaştığınızda ise yapmanız gereken tek şey, **cümlenin bilmediğiniz kısmına** Google’da arama yaparken **"\* \*" ifadesini** eklemek.
 
 ![google9_1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/google9_1.jpeg)
-
-
-
-
 
 ### 6- Birden fazla kelime ile arama yapma
 
@@ -103,8 +82,6 @@ Birden fazla kelime ile arama yaptığınızda ve her kelimenin aramanın içind
 
 ![google-hakkında](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/google-hakk%C4%B1nda.png)
 
-
-
 ### 7- Bir site içerisinde arama yapma
 
 Bir web sitesi içinde arama yapmak istiyorsanız `site:` özelliğini kullananabilirsiniz.
@@ -113,13 +90,9 @@ Bir web sitesi içinde arama yapmak istiyorsanız `site:` özelliğini kullanana
 
 ![googlesite](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/googlesite.png)
 
-
-
 ### 8- Sosyal aramalar
 
 Sosyal medya kanaları üzerinde aradığınız sonuçlar için yapacağınız aramalarda bazı noktalara dikkat etmeniz gerekiyor.
-
-
 
 #### **#[kelime]**
 
@@ -133,8 +106,6 @@ Sosyal medya kanalları üzerinde yapacağınız kişi aramaları için kişi is
 
 ![g4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g4.png)
 
-
-
 ### **9- Gün doğumu ve gün batımı sonuçları**
 
 Google’ı dünya üzerindeki herhangi bir şehrin veya bölgenin gün doğumu ve gün batımı saatlerini öğrenmek için kullanabilirsiniz.
@@ -143,8 +114,6 @@ Bunu yapabilmek için;  *Gün doğumu/gün batımı, şehir ismi*
 
 ![g5](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g5.png)
 
-
-
 ### **10- Eş anlamlı kelime ile arama yapma**.
 
 Google’da herhangi bir anahtar kelimeyi eş anlamlı alternatifleriyle aratma şansına sahipsiniz.
@@ -152,8 +121,6 @@ Google’da herhangi bir anahtar kelimeyi eş anlamlı alternatifleriyle aratma 
 `~` sembolünden sonra yazacağını herhangi bir kelime eş anlamlı alternatifleriyle aratılacak. Bu sembolü yapmak için;  ***Alt Gr + Ü*** *(ardından kelimeyi yazın)*
 
 ![g6](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/g6.jpg)
-
-
 
 ### **11- Limitler arası arama yapma.**
 
@@ -168,8 +135,6 @@ Elbette bu örneğe benzer şekilde birçok farklı arama gerçekleştirebilirsi
 
 
 **Google**’da arama yaparken bu adımları izleyerek daha **hedef** **odaklı** aramalar yapabilir ve arama yaparken harcayacağınız vakti hatırı sayılır ölçüde kısaltabilirsiniz. Bahsini ettiğimiz teknikleri tek tek uygulayabileceğiniz gibi birkaç tanesini kombine edip arama yapmak da mümkün. Eğer siz de Google’ı aktif bir şekilde kullanıyorsanız arama sonuçlarınızı daha efektif hale getirmek için yukarıdaki önerileri uygulayabilirsiniz.
-
-
 
 ## Kaynaklar
 

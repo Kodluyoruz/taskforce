@@ -13,7 +13,7 @@
 - [İnternet Nedir?](internet-nedir/)
 - [Fiziksel Elemanlar ve Wifi](fiziksel-elemanlar/)
 - [IP Adres ve DNS'e Giriş](ipadres-dns-giris/)
-- [Paketler, Yönlendirme ve Güvenirlik](paketler-yonlendirmeler/)
+- [Paketler, Yönlendirme ve Güvenilirlik](paketler-yonlendirmeler/)
 - [HTTP ve HTML'e Giriş](http-html-giris)
 - [Şifreleme ve Public Key](internet-sifreleme/)
 - [Siber Güvenlik ve Suçlar](siber-guvenlik/)
