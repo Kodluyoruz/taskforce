@@ -70,6 +70,6 @@ Gelen-giden paketlerden birinin üstüne tıklarsanız aşağıdaki gibi detayl�
   - [x] İstenilen kaynak başka bir yere taşınmıştır, gelen cevap içinde yeni konum vardır.
   - [ ] Sunucu bakımdadır, beklemek gerekir.
 
- ## Kaynaklar:
+ ## Kaynaklar:
 - https://kamranahmed.info/blog/2016/08/13/http-in-depth/
 - https://umuttosun.com/http-protokolu/
