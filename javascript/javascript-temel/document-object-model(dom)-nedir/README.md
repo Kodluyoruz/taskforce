@@ -10,7 +10,7 @@ Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli 
 
 **DOM**’da **HTML** ile hazırladığınız sayfa, **_document_**; bu document'in içine yerleştirdiğiniz her türlü öğe ise **_element_** olarak adlandırılır. **DOM** da nesnelerin birer **_element_** olarak kullanılabilmesi için hiyerarşik bir düzen izlenerek çağrılmaları gerekir. HTML’deki her bir elamanın birbiri ile hiyearşik bir yapı oluşturması ile oluşur. **DOM** bir ağaç dizini gibi bütün dokümanları birbirine bağlar.
 
-<img src="./figures/dom-tree.png" alt="DOM Tree" style="zoom:40%;" />
+![DOM Tree](https://raw.githubusercontent.com/Kodluyoruz/taskforce/javascript/javascript/javascript-temel/document-object-model(dom)-nedir/figures/dom-tree.png)
 
 ```html
 <!doctype html>
@@ -25,15 +25,15 @@ Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli 
       <a href="http://balin.me/cv.pdf">balin.me</a>.</p>
   </body>
 </html>
-
 ```
 
 _Bu sayfa aşağıdaki yapıya sahiptir:_
 
-<img src="./figures/html-boxes.jpg" alt="HTML boxes" style="zoom:60%;" />
+![HTML boxes](https://raw.githubusercontent.com/Kodluyoruz/taskforce/javascript/javascript/javascript-temel/document-object-model(dom)-nedir/figures/html-boxes.jpg)
+
 HTML ağacı olarak:_
 
-<img src="./figures/html-tree.jpg" alt="HTML document as a tree" style="zoom:60%;" />
+![HTML document as a tree](https://raw.githubusercontent.com/Kodluyoruz/taskforce/javascript/javascript/javascript-temel/document-object-model(dom)-nedir/figures/html-tree.jpg)
 
 **Dosya oluşturmak, elementleri ve içeriklerini silme/ekleme gibi fonsiyonları vardır.**
 ### Örneğin;
@@ -55,8 +55,6 @@ HTML ağacı olarak:_
 </html>
 ```
 
-
-
 **HTML** içerisine yerleştirilmiş öğeleri çağırmak için, içinde bulunduğu diğer öğelerin çağrılması bir yöntem iken, bir öğeye bir **id** vererek bu **id** üzerinden çağırmak da bir başka yöntemdir.
 
 **JavaScript** kodumuzun ilk satırında metin kutusunun değeri **hiyerarşik olarak çağrılmış ve değiştirilmiştir.** İkinci satırda ise hiyerarşik yapı daha az önemsenerek **JavaScript** içindeki **DOM**’un temellerinden olan **getElementById** metodu kullanılmıştır.
@@ -64,9 +62,7 @@ HTML ağacı olarak:_
 Sonuç olarak eğer client-side olarak HTML’e daha fazla hükmetmek istiyorsanız, kullandığınız dil ne olursa olsun kesinlikle **DOM** un erişim yöntemlerini çok iyi biliyor olmanız gerekir.
 
 ## Sorular
-
 ### Soru -1
-
 Butona tıklanınca yeni bir sayfa açılsın ve "Hello World!" yazsın.
 
 ```html
@@ -74,9 +70,7 @@ Butona tıklanınca yeni bir sayfa açılsın ve "Hello World!" yazsın.
 <html>
 <body>
   <p>Yeni bir pencere açmak ve biraz içerik eklemek için düğmeye tıklayın.</p>
-
-<button onclick="myFunction()">Tıkla</button>
-
+  <button onclick="myFunction()">Tıkla</button>
 </body>
 </html>
 ```
@@ -86,54 +80,37 @@ Butona tıklanınca yeni bir sayfa açılsın ve "Hello World!" yazsın.
 [Çözüm](https://codepen.io/baranbalin/pen/JjRLwvY)
 
 ### Soru -2
-
 Butona tıklanınca sayfanın domaini görüntülensin
-
 ```html
 <!DOCTYPE html>
 <html>
 <body>
-
-<p>Bu belgeyi yükleyen sunucunun domain'ini görüntülemek için butona tıklayın.</p>
-
-<button onclick="myFunction()">Tıkla</button>
-
-<p id="domain"></p>
-
+  <p>Bu belgeyi yükleyen sunucunun domain'ini görüntülemek için butona tıklayın.</p>
+  <button onclick="myFunction()">Tıkla</button>
+  <p id="domain"></p>
 </body>
 </html>
 ```
-
 [Kendiniz Deneyin](https://codepen.io/baranbalin/pen/yLaEVew)
-
 [Çözüm](https://codepen.io/baranbalin/pen/bGwKwgq)
 
 ### Soru -3
-
 Butona tıklanınca alert ile "Butona Tıklandı" mesajı verilsin.
-
 ```html
 <html>
 <head>
-	<title>DOM</title>
+<title>DOM</title>
 </head>
 <body>
   <input type="button" id="btnClick" value="Tıkla!" />
-
 </body>
 </html>
 ```
-
 [Kendiniz Deneyin](https://codepen.io/baranbalin/pen/gOwKLrX)
-
 [Çözüm](https://codepen.io/baranbalin/details/jOMKMBa)
 
-
-
-
 ## Kaynaklar:
-
--  https://eloquentjavascript.net/14_dom.html
+- https://eloquentjavascript.net/14_dom.html
 - https://www.guru99.com/how-to-use-dom-and-events-in-javascript.html
 - https://dom.spec.whatwg.org/#DOMTS
 - https://www.w3schools.com/js/js_htmldom.asp
