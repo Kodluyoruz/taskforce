@@ -16,19 +16,6 @@ TCP bağlantısı genelde dosya alışverişi, metin mesajları gibi giderken ka
 
 TCP bağlantısını kendiniz de rahatlıkla kodlayabilirsiniz. Bir programlama dili seçin ve TCP server/TCP client olarak arama yapın. İstemediğiniz kadar örnek çıkacaktır. Java için örneklerden birine şu linkten ulaşabilirsiniz: "[TCP Sunucu-İstemci Java üzerinden örnek](https://github.com/aysedemirel/Operating-Systems/tree/master/project%201)". Linkteki projede basit bir sunucu-istemci kodu vardır. Kendi bilgisayarınıza alarak istemci ve sunucuyu ayrı ayrı çalıştırırsanız konsol üzerinden veri alışverişi gerçekleştirebilirsiniz. Kodda geliştirme yaparak TCP tabanlı kendi mesajlaşma uygulamanızı yapabilirsiniz :) Mesaj trafiğini incelemek için [Wireshark](https://www.wireshark.org/#download) uygulamasını indirerek gözlem yapabilirsiniz.
 
-## Sorular:
-
-- Aşağıdakilerden hangisi TCP için söylenemez ?
-  - [ ] Connection oriented(bağlantı odaklı) protokoldür.
-  - [x] Güvenlik değil hız önemlidir, bu yüzden paket kaybı yaşanabilir.
-  - [ ] Bidirectional(iki yönlü) iletişim kurulur.
-  - [ ] Paketler kaybolmuşsa tekrar gönderilir.
-  
-- TCP bağlantısı aşağıdaki amaçlardan hangisi için daha çok tercih edilir ?
-  - [ ] Ses oynatma
-  - [x] Dosya transferi
-  - [ ] Video oynatma
-
 ## Kaynaklar:
 - https://medium.com/@gokhansengun/tcp-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r-1-484612c5264f
 - https://searchnetworking.techtarget.com/definition/TCP

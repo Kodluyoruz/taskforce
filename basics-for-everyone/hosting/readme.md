@@ -30,21 +30,5 @@ Managed -> VPS veya dedicated sunucu gücüne ve bant genişliğine ihtiyacını
 
 ![hosting_secenek_karsilastirma](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/hosting/figures/hosting_types.PNG)
 
-## Sorular
-
-- En hesaplı ama sunucuyu birden çok hosting müşterisinin satın aldığı hosting hizmeti hangisidir ?
-
-  - [ ] Public
-  - [x] Shared
-  - [ ] Dedicated
-  - [ ] Cloud
-
-- Aşağıdakilerden hangisi hosting hizmeti değildir?
-
-  - [ ] Cloud
-  - [ ] Shared
-  - [ ] Dedicated
-  - [x] Public
-  
 ## Kaynaklar:
 - https://www.whoishostingthis.com/resources/web-hosting/

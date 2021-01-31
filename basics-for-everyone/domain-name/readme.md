@@ -10,13 +10,6 @@ Bir web sitesi oluştururken de alan adı alırız. Böylelikle web sitemize gir
 
 ![hierarchy](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/domain-name/figures/hierarchy_domain_name.png) 
 
-## Soru:
-
-- Domain name kullanmamızın sebebi aşağıdakilerden hangisi değildir ?
-  - [ ] Kolay akılda kaldığı için
-  - [ ] Kullanıcı dostu görüntü için
-  - [x] IP adresleri işe yaramadığı için
-
 ## Kaynaklar:
 
 - https://en.wikipedia.org/wiki/Domain_name
