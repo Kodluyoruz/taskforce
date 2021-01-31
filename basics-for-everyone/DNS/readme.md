@@ -12,6 +12,19 @@ DNS sunucularına sorarken hızlı olmak için belli bir sıra ile sorulur. Önc
 
 ![Root_DNS](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/DNS/figures/ROOT_DNS.png)
 
+## Sorular:
+
+- Daha önce ulaştığımız bir web sayfasına tekrar ulaşırken neden daha hızlı erişim sağlarız ?
+  - [ ] Aklımıza daha çabuk gelir
+  - [x] Cache'de(Ön bellekte) sorgulama yapılır
+  - [ ] Root hemen cevap verir
+
+- DNS sorgusu hangi sıra ile gerçekleşir ?
+  - [x] Cache - Root -TLD
+  - [ ] TLD - Root- Cache
+  - [ ] Root - TLD - Cache
+  - [ ] Cache - TLD - Root
+
 ## Kaynaklar:
 
 - https://www.quora.com/What-is-a-TLD
