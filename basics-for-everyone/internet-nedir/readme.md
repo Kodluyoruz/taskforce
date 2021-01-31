@@ -1,4 +1,4 @@
-# İNTERNET NEDİR?
+# İnternet Nedir?
 
 İnternet, belirli standartlar dahilindeki protokoller aracılığı ile iletişimi sağlayan küresel bir ağdır. Dağıtık sistem mimarisi vardır, bu sayede merkezi değildir, biri tarafından yönetilmez.
 
