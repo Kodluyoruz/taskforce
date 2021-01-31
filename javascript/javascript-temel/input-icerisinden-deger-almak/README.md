@@ -134,53 +134,6 @@ function sampleFunction() {
 
 [2.Alıştırmayı Denemek için Tıklayın](https://www.bitdegree.org/learn/best-code-editor/javascript-input-example-2)
 
-## Sorular
-
-1. Hangisi aşağıda bulunan input için değerini almaya yarayacak yöntemlerden biri değildir ?
-
-````HTML
-<input type="text" id="myInput" value="myValue">
-````
-````HTML
-A) document.getElemenById("myInput).value
-
-B) var x = document.getElemenById("myInput);
-   x.value ;
-   
-C) document.createElement("value")
-````
-
-2. Aşağıdakilerden hangisi butonun içindeki değeri almaya yarar?
-
-````HTML
-First Name: <input type="text" id="myText" value="Mickey">
-
-<p>Click the button to display the value of the value attribute of the text field.</p>
-
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
-````
-````HTML
-A) function myFunction() {
-    var x = document.getElementById("myText").value;
-    document.getElementById("demo").innerHTML = x;
-}
-
-B) function myFunction() {
-    var x = document.getElementById("myText");
-    document.getElementById("demo").innerHTML = x;
-}
-
-C) function myFunction() {
-    var x = document.querySelectorAll("myText").value;
-    document.getElementById("demo").innerHTML = x
-````
-
-Cevap 1: C
-
-Cevap 2 :A
-
  ## Kaynaklar 
 - https://www.w3schools.com/  
 

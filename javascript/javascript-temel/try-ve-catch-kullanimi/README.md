@@ -32,7 +32,7 @@ try {
 
 Örnekteki kod bloğunda `hello()` diye bir fonksiyon çalıştırılmak isteniyor ama böyle bir fonksiyon olmadığı için catch bloğu içerisine düşüyor ve cath bloğuna düştükten sonra `console.error()` fonksiyonu ile konsolda hata gösteriliyor.
 
-## throw ile istisnalar oluşturma
+## Throw İle İstisnalar Oluşturma
 
 Normalde kod çalışırken bir hata oluştuğunda, JavaScript durur ve bir hata mesajı oluşturur. Bu duruma JavaScript bir istisna atar (bir hata atar) olarak adlandırılır.
 

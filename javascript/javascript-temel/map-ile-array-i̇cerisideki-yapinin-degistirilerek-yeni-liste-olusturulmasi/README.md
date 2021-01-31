@@ -37,7 +37,7 @@ array.map( function(value, index, array), this)
 - array : Üzerinde işlem yapılan diziye erişimi sağlar
 - this : Kullanımı zorunlu değildir(opsiyoneldir). this değişkenine iletilecek olan değeri belirtir. 
 
-## Örnek1: Bir dizinin tüm elemanlarını 2 ile çarpan foksiyon;
+### Örnek 1: Bir dizinin tüm elemanlarını 2 ile çarpan foksiyon;
 
 ```javascript
 const sayilar = [2, 3, 4, 5, 10]
@@ -56,7 +56,7 @@ console.log(yeniArray);
 "sayilar" adında veri tipi const(sabit) bir değişken tanımlandık. Bunu içine statik değerler atadık. Daha sonra "yeniArray" olarak belirlediğimiz yeni değişkenimizde sayilar içerisinde map ile döngü oluştururak mevcuttaki değeri 2 ile çarparak return ettik. Bu işlemden sonra sayilar arrayinde herhangi bir değişliklik olmadığını görebilirsiniz. 
 
 
-## Örnek2: Maaş zam hesaplama;
+### Örnek 2: Maaş zam hesaplama;
 İşçilerin aldıkları maaşlara ait bir dizi olsun. Maaşı 3000 TL'nin üzerinde olanlarınkine %15, altında olanlarınkine de %25 zam yapan bir array map oluşturalım.
 
 ```javascript

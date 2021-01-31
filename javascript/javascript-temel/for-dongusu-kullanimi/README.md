@@ -74,7 +74,7 @@ Daha sonra çift sayıları alabilmek için bir koşul ifadesi yazdık.
 
 **_if (i % 2 == 0)_** ifadesi **i** sayısının 2'ye bölümünden kalanı 0 olanları console.log(i) ile al demektir.
 
-### Ödev 2: 0 ve 50 sayıları arasından tek olanları console'a yazdıralım.
+### Ödev 3: 0 ve 50 sayıları arasından tek olanları console'a yazdıralım.
 
 Önce kendiniz yapmayı deneyin, aşağıdaki linkten cevaba ulaşabilirsiniz. 
 

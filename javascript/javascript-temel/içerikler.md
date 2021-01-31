@@ -605,8 +605,14 @@ let show = {
 };
 ```
 - alert(show.characters[1].job[1]) (Doğru)
+- alert(show.characters[1].job[2])
+- alert(show.characters[2].job[1])
+- alert(show.characters[2].job[2])
 2. Show bitme durumunu kontrol edecek "isEnded" isminde boolean bir değer tutan property nasıl ekleyebilirsiniz?
 - show.isEnded = true; (Doğru)
+- show.isEnd = true;
+- show.isEnd = false;
+- show.isFirst = false;
 
 #### Video
 1. https://www.youtube.com/watch?v=El4m8M2-KW8

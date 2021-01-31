@@ -203,42 +203,6 @@ let newPerson = JSON.parse(stringObject);
 // parse methodu da stringtify methodunun tersi olarak çalışır ve stringi objeye çevirir 
 ~~~
 
-### Sorular
-
-~~~markdown
-let show = {
-  showName:"How I Met Your Mother",
-  characters:[
-  {
-  	name:"Ted",
-  	age: 35,
-  	job: ["Architect"]
-  },
-  {
-  	name: "Robin",
-  	age: 32,
-  	job: ["News Anchor", "Pop-Star"]
-  }
-  ]
-};
-~~~
-
-1)Robin Karakterinin ikinci işine ulaşmak isterseniz ne yazmanız gerekir?
-
-Cevap:
-
-~~~markdown
-alert(show.characters[1].job[1])
-~~~
-
-1)Show bitme durumunu kontrol edecek "isEnded" isminde boolean bir değer tutan property nasıl ekleyebilirsiniz?
-
-Cevap:
-
-~~~markdown
-show.isEnded = true;
-~~~
-
 ## Kaynaklar
 
 [Javascript.info](https://javascript.info/object)

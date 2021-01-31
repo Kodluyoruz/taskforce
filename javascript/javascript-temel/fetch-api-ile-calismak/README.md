@@ -26,7 +26,6 @@ fetch() metodundan sonra, metodun sonuna then() promise metodunu ekleriz:
 
 ```javascript
 .then(function() {
-
 })
 ```
 
@@ -52,7 +51,6 @@ let payload = {
     body: "lorem ipsum",
     userId:1
   }
-
   fetch('https://jsonplaceholder.typicode.com/posts', {
     method: "POST",
     body: JSON.stringify(payload),
@@ -76,7 +74,6 @@ Fetch isteği yaptığımızda then fonksiyonunu çağırır.
 
 ```javascript
 .then((response) => response.json())
-
 ```
 
 Her şey yolunda giderse gelen veri, then içerisinde bize response olarak gelir. Ve response’u parametre olarak alırız, json içeriğini elde etmek için .json() metodunu kullanırız.
@@ -146,4 +143,4 @@ Console’da göreceğiniz sonuç aşağıdaki gibi olmalı:
 
 [ethemkeskin.com](https://www.etemkeskin.com/index.php/2021/01/19/javascript-fetch-api-kullanimi/)
 
-[{Json Placeholder API}](https://jsonplaceholder.typicode.com/)
+[Json Placeholder API](https://jsonplaceholder.typicode.com/)
