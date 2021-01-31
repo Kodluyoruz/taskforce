@@ -337,7 +337,21 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Aşağıdakilerden hangisi tarayıcıların ana işlevlerinden değildir?
+   - Kullanıcıya arayüz sunmak.
+   - İstenilen verileri lokal olarak depolamak.
+   - JavaScript kodlarını yorumlamak.
+   - Veriyi karşı tarafa ulaştırmak için tüm yaşam döngüsünü sağlamak. (Doğru)
+2. Aşağıdakilerden hangisi rendering motorudur?
+   - Gecko (Doğru)
+   - Firefox
+   - Chrome
+   - Safari
+3. Aşağıda verilen rendering motoru işleyişlerinden hangisi doğrudur?
+   - DOM ağacı - HTML ayrıştırma - Layout(Düzenleme) -  Render ağacı - Boyama(Painting) 
+   - HTML ayrıştırma - DOM ağacı - Render ağacı - Layout(Düzenleme) - Boyama(Painting) (Doğru)
+   - HTML ayrıştırma - DOM ağacı -  Layout(Düzenleme) -  Render ağacı - Boyama(Painting) 
+   - HTML ayrıştırma - DOM ağacı - Boyama(Painting) -  Layout(Düzenleme) - Render ağacı
 
 #### Videolar
 
@@ -347,7 +361,21 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. IP adresimizi öğrenmek istersek aşağıdaki komutlardan hangisi kullanmak gerekir?
+   - netstat
+   - ipconfig (Doğru)
+   - cd 
+   - localhost
+2. Ağda trafik kontrolünü aşağıdaki birimlerden hangisi sağlar?
+   - Routers(Yönlendiriciler)  (Doğru)
+   - Kullanıcılar
+   - Kablolar
+   - Sunucular
+3. IP tek başına güvenli bir protokol değildir. Peki aşağıdakilerden hangisi ile birlikte daha güvenilir bir hale gelir?
+   - DNS
+   - TLD
+   - TCP (Doğru)
+   - Root
 
 #### Videolar
 
@@ -358,7 +386,15 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Aşağıdakilerden hangisi TCP için söylenemez?
+   - Connection oriented(bağlantı odaklı) protokoldür.
+   - Güvenlik değil hız önemlidir, bu yüzden paket kaybı yaşanabilir. (Doğru)
+   - Bidirectional(iki yönlü) iletişim kurulur.
+   - Paketler kaybolmuşsa tekrar gönderilir.
+2. TCP bağlantısı aşağıdaki amaçlardan hangisi için daha çok tercih edilir?
+   - Ses oynatma
+   - Dosya transferi (Doğru)
+   - Video oynatma
 
 #### Videolar
 
@@ -369,7 +405,20 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. TCP iletişiminde istemci ve sunucu mesaj alışverişine başlamadan önce güvenli iletişimi garantilemek için ne yapar?
+   - Sözleşme imzalarlar.
+   - Üçlü el sıkışma (Three-way handshake) yaparlar. (Doğru)
+   - Bir şey yapılmasına gerek yoktur, birbirlerinin IP adreslerini bilmeleri yeterlidir.
+2. Aşağıdakilerin protokol metotları ve kullanım amaçları eşlemelerinden hangileri yanlıştır?
+   - GET - İstenilen web sayfasını görüntülemek için kullanılır.
+   - CONNECT: İstenilen kaynakla iki yönlü iletişim başlatmak için kullanılır.
+   - HEAD - Sayfanın başına gönderilen bilgileri koymak içindir. (Doğru)
+   - OPTIONS:  Belirli seçenekleri sorgulamak için kullanılır.
+3. Cevap olarak dönen mesajda durum kodu(status code) "301" olarak döndüyse ne olmuştur?
+   - İşlem başarılıdır, önemsemeye gerek yok.
+   - Ciddi bir problem var, acilen bakmak gerekir.
+   - İstenilen kaynak başka bir yere taşınmıştır, gelen cevap içinde yeni konum vardır. (Doğru)
+   - Sunucu bakımdadır, beklemek gerekir.
 
 #### Videolar
 
@@ -388,7 +437,15 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Daha önce ulaştığımız bir web sayfasına tekrar ulaşırken neden daha hızlı erişim sağlarız?
+   - Aklımıza daha çabuk gelir.
+   - Cache'de(Ön bellekte) sorgulama yapılır.  (Doğru)
+   - Root hemen cevap verir.
+2. DNS sorgusu hangi sıra ile gerçekleşir?
+   - Cache - Root -TLD (Doğru)
+   - TLD - Root- Cache
+   - Root - TLD - Cache
+   - Cache - TLD - Root
 
 #### Videolar
 
@@ -401,7 +458,10 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Domain name kullanmamızın sebebi aşağıdakilerden hangisi değildir?
+   - Kolay akılda kaldığı için.
+   - Kullanıcı dostu görüntü için.
+   - IP adresleri işe yaramadığı için. (Doğru)
 
 #### Videolar
 
@@ -414,7 +474,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. En hesaplı ama sunucuyu birden çok hosting müşterisinin satın aldığı hosting hizmeti hangisidir?
+   - Public
+   - Shared (Doğru)
+   - Dedicated
+   - Cloud
+2. Aşağıdakilerden hangisi hosting hizmeti değildir?
+   - Cloud
+   - Shared
+   - Dedicated
+   - Public (Doğru)
 
 ### Videolar
 

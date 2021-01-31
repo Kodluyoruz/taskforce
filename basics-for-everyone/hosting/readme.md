@@ -30,5 +30,5 @@ Managed -> VPS veya dedicated sunucu gücüne ve bant genişliğine ihtiyacını
 
 ![hosting_secenek_karsilastirma](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/hosting/figures/hosting_types.PNG)
 
-## Kaynaklar:
+## Kaynaklar:
 - https://www.whoishostingthis.com/resources/web-hosting/

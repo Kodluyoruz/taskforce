@@ -51,6 +51,6 @@ Gelen-giden paketlerden birinin üstüne tıklarsanız aşağıdaki gibi detayl�
 
 ![network_detay](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/http/figures/network_icerik.png)
 
- ## Kaynaklar:
+ ## Kaynaklar:
 - https://kamranahmed.info/blog/2016/08/13/http-in-depth/
 - https://umuttosun.com/http-protokolu/
