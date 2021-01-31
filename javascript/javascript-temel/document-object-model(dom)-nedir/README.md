@@ -27,12 +27,10 @@ Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli 
 </html>
 ```
 
-_Bu sayfa aşağıdaki yapıya sahiptir:_
-
+**Bu sayfa aşağıdaki yapıya sahiptir:**
 ![HTML boxes](https://raw.githubusercontent.com/Kodluyoruz/taskforce/javascript/javascript/javascript-temel/document-object-model(dom)-nedir/figures/html-boxes.jpg)
 
-HTML ağacı olarak:
-
+**HTML ağacı olarak:**
 ![HTML document as a tree](https://raw.githubusercontent.com/Kodluyoruz/taskforce/javascript/javascript/javascript-temel/document-object-model(dom)-nedir/figures/html-tree.jpg)
 
 **Dosya oluşturmak, elementleri ve içeriklerini silme/ekleme gibi fonsiyonları vardır.**
@@ -57,7 +55,7 @@ HTML ağacı olarak:
 
 **HTML** içerisine yerleştirilmiş öğeleri çağırmak için, içinde bulunduğu diğer öğelerin çağrılması bir yöntem iken, bir öğeye bir **id** vererek bu **id** üzerinden çağırmak da bir başka yöntemdir.
 
-**JavaScript** kodumuzun ilk satırında metin kutusunun değeri **hiyerarşik olarak çağrılmış ve değiştirilmiştir.** İkinci satırda ise hiyerarşik yapı daha az önemsenerek **JavaScript** içindeki **DOM**’un temellerinden olan **getElementById** metodu kullanılmıştır.
+**JavaScript** kodumuzun ilk satırında metin kutusunun değeri **hiyerarşik olarak çağrılmış ve değiştirilmiştir.** İkinci satırda ise hiyerarşik yapı daha az önemsenerek **JavaScript** içindeki **DOM**’un temellerinden olan `getElementById` metodu kullanılmıştır.
 
 Sonuç olarak eğer client-side olarak HTML’e daha fazla hükmetmek istiyorsanız, kullandığınız dil ne olursa olsun kesinlikle **DOM** un erişim yöntemlerini çok iyi biliyor olmanız gerekir.
 
@@ -75,9 +73,7 @@ Butona tıklanınca yeni bir sayfa açılsın ve "Hello World!" yazsın.
 </html>
 ```
 
-[Kendiniz Deneyin](https://codepen.io/baranbalin/pen/JjRZbGG)
-
-[Çözüm](https://codepen.io/baranbalin/pen/JjRLwvY)
+[Kendiniz Deneyin](https://codepen.io/baranbalin/pen/JjRZbGG) / [Çözüm](https://codepen.io/baranbalin/pen/JjRLwvY)
 
 ### Soru -2
 Butona tıklanınca sayfanın domaini görüntülensin
@@ -91,8 +87,7 @@ Butona tıklanınca sayfanın domaini görüntülensin
 </body>
 </html>
 ```
-[Kendiniz Deneyin](https://codepen.io/baranbalin/pen/yLaEVew)
-[Çözüm](https://codepen.io/baranbalin/pen/bGwKwgq)
+[Kendiniz Deneyin](https://codepen.io/baranbalin/pen/yLaEVew) / [Çözüm](https://codepen.io/baranbalin/pen/bGwKwgq)
 
 ### Soru -3
 Butona tıklanınca alert ile "Butona Tıklandı" mesajı verilsin.
@@ -106,8 +101,7 @@ Butona tıklanınca alert ile "Butona Tıklandı" mesajı verilsin.
 </body>
 </html>
 ```
-[Kendiniz Deneyin](https://codepen.io/baranbalin/pen/gOwKLrX)
-[Çözüm](https://codepen.io/baranbalin/details/jOMKMBa)
+[Kendiniz Deneyin](https://codepen.io/baranbalin/pen/gOwKLrX) / [Çözüm](https://codepen.io/baranbalin/details/jOMKMBa)
 
 ## Kaynaklar:
 - https://eloquentjavascript.net/14_dom.html
