@@ -42,7 +42,7 @@ console.log(newArray);
 
 // output = [12, 33, 27]
 ```
- ### 1- Numbers array'ini kullanarak  her elemanının iki fazlasına sahip olan başka bir array oluşturunuz.
+Numbers array'ini kullanarak  her elemanının iki fazlasına sahip olan başka bir array oluşturunuz.
 
 
 ```javascript

@@ -102,10 +102,7 @@ Split metodu ile istenilen metin diziye çevrilebilir. Kullanılan parametre ile
 
 ![cikti](https://raw.githubusercontent.com/Kodluyoruz/taskforce/javascript/javascript/javascript-temel/string-veri-turu-i%CC%87slemleri/figures/12-cikti.png)
 
-## Kaynaklar
 
-- [JavaScript String Metotları](https://www.btdersleri.com/ders/JavaScript-String-Metotlar%C4%B1)
-=======
 Bir String ifadesi içerisinde yer alan bilgilerin istediğimiz gibi olup olmadığını kontrol etmek isteyebiliriz. İçerisinde mail adresi geçiyor mu? Kullanıcın verilerinde benim aradığım bilgi var mı? Gibi kontroller yapmak istiyor olabiliriz. String veri türü işlemleri bize bu noktada yardımcı olur.
 
 Örnekler üzerinden görelim.
@@ -242,3 +239,7 @@ let language = "Java";
 ### Soru 2: Yukarıdaki *url* değişkenini kullanarak "www" olmadan *domain* (kodluyoruz.org) adında yeni bir değişken oluşturun ve konsola yazdırın.
 
 [Çözüm Soru 2](https://codepen.io/sahinaykkt/pen/mdraxZM?editors=0011)
+
+## Kaynaklar
+
+- [JavaScript String Metotları](https://www.btdersleri.com/ders/JavaScript-String-Metotlar%C4%B1)

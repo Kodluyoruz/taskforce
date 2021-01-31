@@ -41,10 +41,6 @@ const c6 = Boolean(-0);
 
 Yukarıdaki tüm ifadeler bize `false` çıktısını verir. Buradan anlayacağımız üzere 0 ve -0 hariç tüm sayılar bize `true` olarak döner. 
 
-
-## Kaynaklar
-[W3Schools](https://www.w3schools.com)
-
 Mantıktan matematiğe, bilgisayar bilimine kadar birçok alanda kullanılan Boolean veri türü, İngiliz matematikçi George Boole’un adından türemiştir. Boolean, sayısal olarak 0 veya 1 şeklinde ifade edilir ki aslında 0 veya 1 dediğimiz şey ise doğru – yanlış yani programlama dillerinde de true – false olarak geçen parametrelerden ibarettir. Aynı zamanda bilgisayar hafızasında sadece 1 bit uzunluğunda yer tutar. 
 ## Boolean Veri Türü JavaScriptte Neyi İfade Eder?
 JavaScriptte boolean veri türü, primitive yani ilkel veri tiplerinden bir tanesidir. Mantık olarak diğer dillerle tamamen aynıdır. Haziran 1997’de ECMAScript’in 1.versiyonuyla standartlaşmış olarak karşımıza çıkmıştır. If-Else, switch, while gibi koşullu ifadelerle birlikte oldukça sık bir şekilde kullanılır. Boolean veri türü Mozilla Firefox, Google Chrome, Safari, Opera ve Internet Explorer tarafından desteklenmektedir.
@@ -55,26 +51,26 @@ Bu kod örneğine baktığımızda var değişkeniyle tanımlanan myBoolean’ı
 
 #### Boolean İle İlgili Örnekler  
 
- **Örnek-1:**
+ **Örnek 1:**
  ```javascript
     var x = 1;
     console.log(Boolean(x)); // returns true
 
  ```
 
- **Örnek-2:**
+ **Örnek 2:**
  ```javascript
     var y = 0;
     console.log(Boolean(y)); // returns true
 
  ```
 
- **Örnek-3**
+ **Örnek 3**
  ```javascript
     var z = "0";
     console.log(Boolean(z)); // returns true
  ```
- 
+
 Örnek 2 ile Örnek 3 arasındaki farka değinecek olursak aslında burada 0 normal şartlarda false döndürmeliydi. Ancak Örnek-3'teki kullanımına baktığımızda tırnak içerisinde yani string bir ifade olarak görüyoruz. 0, string olarak yer aldığından dolayı console'da true ifadesini görürüz.
 
 
@@ -90,6 +86,8 @@ console.log(Boolean({}));
 console.log(Boolean(Symbol()));
 ```
 
-# Kaynaklar
+## Kaynaklar
 - https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Boolean
 - https://www.w3schools.com/js/js_booleans.asp
+
+* [W3Schools](https://www.w3schools.com)

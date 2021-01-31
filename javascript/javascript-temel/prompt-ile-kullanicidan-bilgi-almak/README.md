@@ -1,11 +1,11 @@
- 
-# prompt ile Kullanıcıdan Nasıl Bilgi Alınır ?
+
+# Prompt ile Kullanıcıdan Nasıl Bilgi Alınır ?
 
 Javascript kullanıcı ile iletişim kurmamızı sağlayabilen etkileşimli bir dil'dir.Ve biliyoruz ki kullanıcı ile etkileşimi sağlamının bir yolu kullanıcıdan bilgi istemektir.
 
 Javascript ile ilgilenenler, javascript'te prompt komutu ile sağlarlar.
 
-### Şimdi birlikte kullanıcıdan istenilen kelimeyi sayfaya nasıl yazdıracağımıza bakalım...
+Şimdi birlikte kullanıcıdan istenilen kelimeyi sayfaya nasıl yazdıracağımıza bakalım...
 
 Öncelikle bir fonksiyon belirleriz bu fonksiyn içerisinde prompt ile kullanıdan bilgi ister "document.write" ile'de sayfamıza yazdırırz.
 Özelikle bunları aynı fonksiyon içerisinde yazıyoruz ki sayfamız açıldığında ilk olarak fonksiyonumuz yüklensin ve belirtilen uygulamalar yorumlanıp sırası ile sayfamızda gösterilsin.
@@ -23,18 +23,19 @@ function istek()
 }
 ```
 - Prompt Kullanışına geçelim ...
-   
+  
+
 var a=prompt(Bir değer giriniz","lütfen sadece kelime giriniz..")
 
 Yukarıdaki gibidir.var 
 a=prompt diyerek girilecek değer'e "a" değişkenini atıyoruz ki daha sonra sayfamızda yazdırılmak üzere lazım olucak.
 
 - Prompt'ta ilk olarak yazılan ;
- 
+
  "Bir değer giriniz" --> Kullanıcıya yönetilen bilgi girişinin başlığının soru halidir.
 
 - Prompt'ta ikinci olarak yazılan;
- 
+
  "lütfen sadece kelime giriniz.." -->Text(input) içerisinde gösterilcek uyarıdır. Boş da bırakılabilir.
 
 Eveet, Prompt komutunu da kavradık.Şimdi iki işlemimiz kaldı.
@@ -54,10 +55,6 @@ document.write(a)
 
 - Eveet,işte bu kadar.Şimdi sorulara geçelim !
 
-## KAYNAKÇA
-- http://www.erelcolak.com/javascript-temelleri-prompt-ile-kullanicidan-bilgi-almak/
-- https://sanalkurs.net/kullanicidan-bilgi-girisi-istemesi-prompt-2953.html
-=======
 # Prompt ile Kullanıcıdan Bilgi Almak
 
 **Prompt(),** kullanıcıya soru sorup klavyeden girilen bilgiyle işlem yapan, o bilgiyi döndüren bir **window** metodudur. **alert()** gibi Html üzerinde, HTML sayfasından bağımsız çalışır ve karşımıza diyalog penceresi şeklinde çıkar.
@@ -89,7 +86,6 @@ console.log("Merhaba, " + isim);
 Artık **prompt()** komutumuz bir değişken içinde olduğu için **console.log()** içerisine değişken adımızı yazarak konsol ekranında görebildik. Böylelikle normal bir değişkenle yapabildiğimiz her şeyi artık bu tanımlı değişkenle de yapabiliriz.
 
 ### Prompt Mantığı
----
 Kullanıcı **Tamam** düğmesini tıkladığında, giriş alanına girilen metin döndürülür. Kullanıcı herhangi bir metin girmeden Tamam'ı tıklarsa, boş bir dize döndürülür. Kullanıcı **İptal** düğmesini tıklarsa, bu işlev boş döndürür. Bunu bir örnekle gösterelim:
 
 ### Örnek:
@@ -118,9 +114,9 @@ else {
 - Verilen formüle göre **vücut kitle indeksi** hesaplayan ve hesapladığı değere göre yazı yazan bir program yazalım
 - Programda yazılmış kısımları okuyup eksik kısımları tamamlayın.
 
-→Not: Fonksiyon parametreleri prompt ile kullanıcıdan alınmalı.
+Not: Fonksiyon parametreleri prompt ile kullanıcıdan alınmalı.
 
-→Formül: vki = kg/m \* m;
+Formül: vki = kg/m \* m;
 
 **İstenilenler:**
 
@@ -141,3 +137,9 @@ return alert("Girdiğiniz değerleri kontrol ediniz");
 vkiHesapla(weight, height);
 ```
 [Codepen'de Görün](https://codepen.io/ayerdelen/pen/NWRXOLr) / [→ Cevabı Codepen'de Görün](https://codepen.io/ayerdelen/pen/gOwoBEp)
+
+## Kaynaklar
+
+- http://www.erelcolak.com/javascript-temelleri-prompt-ile-kullanicidan-bilgi-almak/
+
+- https://sanalkurs.net/kullanicidan-bilgi-girisi-istemesi-prompt-2953.html

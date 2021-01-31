@@ -60,7 +60,7 @@ Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli 
 Sonuç olarak eğer client-side olarak HTML’e daha fazla hükmetmek istiyorsanız, kullandığınız dil ne olursa olsun kesinlikle **DOM** un erişim yöntemlerini çok iyi biliyor olmanız gerekir.
 
 ## Sorular
-### Soru -1
+### Soru 1
 Butona tıklanınca yeni bir sayfa açılsın ve "Hello World!" yazsın.
 
 ```html
@@ -75,7 +75,7 @@ Butona tıklanınca yeni bir sayfa açılsın ve "Hello World!" yazsın.
 
 [Kendiniz Deneyin](https://codepen.io/baranbalin/pen/JjRZbGG) / [Çözüm](https://codepen.io/baranbalin/pen/JjRLwvY)
 
-### Soru -2
+### Soru 2
 Butona tıklanınca sayfanın domaini görüntülensin
 ```html
 <!DOCTYPE html>
@@ -89,7 +89,7 @@ Butona tıklanınca sayfanın domaini görüntülensin
 ```
 [Kendiniz Deneyin](https://codepen.io/baranbalin/pen/yLaEVew) / [Çözüm](https://codepen.io/baranbalin/pen/bGwKwgq)
 
-### Soru -3
+### Soru 3
 Butona tıklanınca alert ile "Butona Tıklandı" mesajı verilsin.
 ```html
 <html>
@@ -103,7 +103,7 @@ Butona tıklanınca alert ile "Butona Tıklandı" mesajı verilsin.
 ```
 [Kendiniz Deneyin](https://codepen.io/baranbalin/pen/gOwKLrX) / [Çözüm](https://codepen.io/baranbalin/details/jOMKMBa)
 
-## Kaynaklar:
+## Kaynaklar
 - https://eloquentjavascript.net/14_dom.html
 - https://www.guru99.com/how-to-use-dom-and-events-in-javascript.html
 - https://dom.spec.whatwg.org/#DOMTS

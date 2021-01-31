@@ -12,14 +12,16 @@ Burada **while** döngüsünün yazılış şeklini gördük şimdi bunu daha ge
 ![codExample](figures/codexample.png)
 [Codepen'de deneyebilirsiniz](https://codepen.io/Zodyrike/pen/ZqBdvL?editors=1111)
 
-### Yukarıda görmüş olduğunuz kod örneğinde 3 bölüm bulunuyor;
+**Yukarıda görmüş olduğunuz kod örneğinde 3 bölüm bulunuyor;**
+
 - Dışarıda bir değişken tanımlama.
-- while döngüsüneu değişkeni koşul parametresi olarak vermek.
+- while döngüsüne değişkeni koşul parametresi olarak vermek.
 - While döngüsününe yapmamız gereken işleri yaptırma(bunu biraz açmamız gerekiyor çünkü içeride değişkeni arttırdığımızı göreceksiniz bunun sebebi değişkenimiz 1'den 10 a kadar giden bir değer ve while döngümüzün çalışma şartı değişkenimiz 10 dan küçük olduğu sürece eğer biz değişkeni döngüde arttırmazsak döngü sonsuza defa çalışır ve sistemimizin hata vermesine sebep olur.
 
-### Burada Ögrendiklerimizle Ufak Bir Çalışma Yapabiliriz 
+**Burada öğrendiklerimizle ufak bir çalışma yapabiliriz. **
+
 - Çalışmamızda yapmamızı istediğim şey belirli araba markalarını bir dizi oluşturarak konsola yazdırmak bunun için yapmamız gerekenler çok basit öncelikle bir **Array** oluşturmalı ve arabalarımızı bu diziye eklemeliyiz.
-- Ardından bir **While** döngüsü oluşturuyoruz ve bu döngüye araba elemanlarımızı ekliyoruz. (döngüyü sınırlandırmayı ve parametre vermeyi unutmuyoruz.) 
--Bu işlemi önce kendi öğrendiklerimizle deneyebilir ve kodu başarılı bir şekilde yazdıktan sonra isterseniz geliştirebilir ve **Array** methodlarıyla yeni arabalar ekleyebilir veya çıkartabilirsiniz Koda aşağıdaki örnekten ulaşabilirsiniz 
+- Ardından bir **while** döngüsü oluşturuyoruz ve bu döngüye araba elemanlarımızı ekliyoruz. (döngüyü sınırlandırmayı ve parametre vermeyi unutmuyoruz.) 
+-Bu işlemi önce kendi öğrendiklerimizle deneyebilir ve kodu başarılı bir şekilde yazdıktan sonra isterseniz geliştirebilir ve **array** methodlarıyla yeni arabalar ekleyebilir veya çıkartabilirsiniz Koda aşağıdaki örnekten ulaşabilirsiniz 
 
 ![Egitimornek](figures/question.png)

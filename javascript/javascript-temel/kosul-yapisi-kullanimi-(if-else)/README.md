@@ -32,7 +32,8 @@ else // tek satırlık kodu buraya yazabilirsin.
 
 If / Else koşulunun teoride çalışma prensibi bu şekildedir. Şimdi ise basitten başlayarak örneklerle teorik bilgileri pratiğe dökelim. 
 
-**Örnek - 1: İki sayıdan büyük olanı bulalım:**
+**Örnek 1: İki sayıdan büyük olanı bulalım:*.
+
 ```javascript
 var x = 5;
 var y = 7;
@@ -49,8 +50,7 @@ else {
 
 Bu örneğin benzerlerini kendiniz de [burada](https://codepen.io/alperceviz/pen/PoGRQxv?editors=0011) deneyebilirsiniz.,
 
-
-** Örnek - 2: Vize ve final notları belli olan bir öğrencinin yıl sonunda dersten geçip geçmediğini hesaplayalım:**
+**Örnek 2: Vize ve final notları belli olan bir öğrencinin yıl sonunda dersten geçip geçmediğini hesaplayalım:*.
 
 **Şartlar:**
 - Öğrencinin vize notunun %30'unu final notunun %70'ini alalım.

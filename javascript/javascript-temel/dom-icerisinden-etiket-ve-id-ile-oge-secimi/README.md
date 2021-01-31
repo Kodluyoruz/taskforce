@@ -130,8 +130,7 @@ Bu konu ile ilgili alıştırma yapmak isterseniz doğrudan tarayıcı üzerinde
 ## Sonuç
 DOM üzerinden javaScript kullanarak eleman seçmek için gereken tüm methodları bu yazı boyunca öğrenmiş olduk. İhtiyacınız olan her şey buradaydı. Gerisi sizin uygun sorguları yazarak elemanlarınızı seçmenizde. Alıştırma yapmayı unutmayın.
 
----
-### Kaynakça
+### Kaynaklar
 - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
 - https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors
 - https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
