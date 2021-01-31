@@ -31,7 +31,7 @@ _Bu sayfa aşağıdaki yapıya sahiptir:_
 
 ![HTML boxes](https://raw.githubusercontent.com/Kodluyoruz/taskforce/javascript/javascript/javascript-temel/document-object-model(dom)-nedir/figures/html-boxes.jpg)
 
-HTML ağacı olarak:_
+HTML ağacı olarak:
 
 ![HTML document as a tree](https://raw.githubusercontent.com/Kodluyoruz/taskforce/javascript/javascript/javascript-temel/document-object-model(dom)-nedir/figures/html-tree.jpg)
 
