@@ -34,7 +34,27 @@ Yönlendirici ağda iki veya daha fazla seçeneği olduğunda trafik kontrolü y
 
 IP ile veri iletiminin %100 gerçekleşeceğini garanti edemeyiz. Aktarım sırasında hatalar meydana gelirse iletişim gerçekleşmez. Bu yüzden *güvenilmez(unreliable)* bir protokoldür. TCP gibi güvenilir bir protokol ile kullanıldığında güvenilir hale gelir.
 
-## Kaynaklar:
+## Sorular:
+
+- IP adresimizi öğrenmek istersek aşağıdaki komutlardan hangisi kullanmak gerekir ?
+  - [ ] netstat
+  - [x] ipconfig
+  - [ ] cd 
+  - [ ] localhost
+
+- Ağda trafik kontrolünü aşağıdaki birimlerden hangisi sağlar ?
+  - [x] Routers(Yönlendiriciler)
+  - [ ] Kulanıcılar
+  - [ ] Kablolar
+  - [ ] Sunucular
+  
+- IP tek başına güvenli bir protokol değildir. Peki aşağıdakilerden hangisi ile birlikte daha güvenilir bir hale gelir ?
+  - [ ] DNS
+  - [ ] TLD
+  - [x] TCP
+  - [ ] Root
+
+## Kaynaklar:
 - https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/
 - https://www.wpbeginner.com/glossary/ip-address/
 - https://www.tutorialspoint.com/internet_technologies/internet_protocols.htm

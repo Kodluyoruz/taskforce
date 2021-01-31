@@ -51,6 +51,25 @@ Gelen-giden paketlerden birinin üstüne tıklarsanız aşağıdaki gibi detayl�
 
 ![network_detay](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/http/figures/network_icerik.png)
 
- ## Kaynaklar:
+## Sorular:
+
+- TCP iletişiminde istemci ve sunucu mesaj alışverişine başlamadan önce güvenli iletişimi garantilemek için ne yapar ?
+  - [ ] Sözleşme imzalarlar
+  - [x] Üçlü el sıkışma (Three-way handshake) yaparlar
+  - [ ] Bir şey yapılmasına gerek yoktur, birbirlerinin IP adreslerini bilmeleri yeterlidir.
+
+- Aşağıdakilerin protokol metodları ve kullanım amaçları eşlemelerinden hangileri yanlıştır ?
+  - [ ] GET - İstenilen web sayfasını görüntülemek için kullanılır.
+  - [ ] CONNECT: İstenilen kaynakla iki yönlü iletişim başlatmak için kullanılır.
+  - [x] HEAD - Sayfanın başına gönderilen bilgileri koymak içindir.
+  - [ ] OPTIONS:  Belirli seçenekleri sorgulamak için kullanılır.
+
+- Cevap olarak dönen mesajda durum kodu(status code) "301" olarak döndüyse ne olmuştur ?
+  - [ ] İşlem başarılıdır, önemsemeye gerek yok.
+  - [ ] Ciddi bir problem var, acilen bakmak gerekir.
+  - [x] İstenilen kaynak başka bir yere taşınmıştır, gelen cevap içinde yeni konum vardır.
+  - [ ] Sunucu bakımdadır, beklemek gerekir.
+
+ ## Kaynaklar:
 - https://kamranahmed.info/blog/2016/08/13/http-in-depth/
 - https://umuttosun.com/http-protokolu/
