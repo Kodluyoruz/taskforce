@@ -4,30 +4,23 @@ Bu yazımızda [DOM (Document Object Model)](https://developer.mozilla.org/en-US
 
 ## Get Element By ID
 > **Elemanı ID'sine göre şeçmek**
-
 `document` objesinin `getElementById()` metodu ile sayfada bulunan html elementlerinin ID'leri referans alarak seçme işlemi yapabiliyoruz. Örnek olarak;
-
 ```js
 <div id="unicorn">🦄</div>
 ```
 sayafada bulana bu elementi `getElementById()` methodunu kullanarak seçmeye çalışalım.
-
 ```js
 const unicorn = document.getElementById('unicorn');
 ```
-
 ID'ler büyük-küçük harf duyarlıdır. Bu sayede HTML document içinde biriçiklik gösterir ve her zaman geriye bir eleman döndürür. Bir eşleşme bulamazsa da geriye `null` dönüşünü yapar.
 
 > **DİKKAT:** Seçmek istediğiniz elemanın id'sini yazarken eleman isminin başına **`# işaretini`** yazmanıza gerek yoktur. Yazmanız durumunda id'yi seçemeyeceksinizdir. 
-
 ```diff
 - document.getElementById('#root'); // null
 + document.getElementById('root'); // <div id=​"root">​…​</div>​
 ```
-
 ## Get Elements By Tag Name
 > **Elemanları etiket isimlerine göre şeçmek**
-
 `getElementsByTagName()` metodu birden çok element'e ulaşmak amacı ile kullanılır.
 Girdi olarak bir **html element'i** alır ve buna uygun bir HTMLCollection döndürür. Örneğin elimizde bu şekilde bir sayfa var;
 
@@ -37,26 +30,20 @@ Girdi olarak bir **html element'i** alır ve buna uygun bir HTMLCollection dönd
 <p>🐯</p>
 <p>🐧</p>
 ```
-
 Bu sayfadaki tüm **p** elemanlarına ulaşmak istersek;
 
 ```js
 const animals = document.getElementsByTagName('p'); 
 // Çıktı:  HTMLCollection(4) [p, p, p, p]
 ```
-
 yazmanız yeterli olcaktır.
-
 > Ayrıca sayfadaki tüm etiketleri bu şekilde getirebilirsiniz.
-
 ```js
 document.getElementsByTagName('*')
 // Çıktı: HTMLCollection(33) [html, head, meta, link#.....
 ```
-
 ## Get Elements By Name
 > Elemanları isimlerine göre getirme
-
 `getElementsByName()` methodu elemanların **name** değerlerine göre bir [NodeList objesi](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) döndürür.
 
 ```html
@@ -112,16 +99,14 @@ const email = document.querySelector('#signup input[name="email"]');
 ## Query Selector All
 > **Çoğul Sorgu seçici**
 
-**`querySelectorAll()` methodu,** `QuerySelector ()` methodu ile aynı mantık ile çalışır tek farkı eşeleşen ilk elamanı döndürmek yerine eşeleşen **tüm elemanları** bir NodeList objesi olark döndürmesidir.
+`querySelectorAll()` methodu, `QuerySelector ()` methodu ile aynı mantık ile çalışır tek farkı eşeleşen ilk elamanı döndürmek yerine eşeleşen **tüm elemanları** bir NodeList objesi olark döndürmesidir.
 
 ```js
 const elems = document.querySelectorAll('.bird, .animal');
 console.log(elems.length); // 4
 ```
-
 ### Methoları bir arada kullanabilirsiniz
 Yukarda öğrendiğimiz methodları birarada kullanabiliryoruz. Önce tek bir elemanı seçerek ardından içinde ikinci bir sorugu yapabiliyoruz. Örneğin;
-
 ```html
 <form id="signup">
     <input type="text" name="email">
@@ -134,25 +119,20 @@ sigup id'li elemanın içindeki tüm input elemanlarını seçmek istersek;
 ```js
 const inputs = document.getElementById('signup').getElementsByTagName('input');
 ```
-
-ya da 
-
+ya da
 ```js
 const inputs = document.querySelector('#signup').querySelectorAll('input');
 ```
-
 
 ### Alıştırmalar
 Bu konu ile ilgili alıştırma yapmak isterseniz doğrudan tarayıcı üzerinden herhangi bir sitede inspect mod'undaki console'da anlatılan methodlar ile denemeler yapabilirsiniz. Ya da [bu linkten](https://www.w3resource.com/javascript-exercises/javascript-dom-exercises.php) alıştırmalar yapabilirsiniz.
 
 ## Sonuç
-DOM üzerinden javaScript kullanarak eleman seçmek için gereken tüm methodları bu yazı boyunca öğrenmiş olduk. İhtiyacınız olan her şey buradaydı. Gerisi sizin uygun sorguları yazarak elemanlarınızı seçmenizde. Alıştırma yapmayı unutmayın. 👋👋👋
-
+DOM üzerinden javaScript kullanarak eleman seçmek için gereken tüm methodları bu yazı boyunca öğrenmiş olduk. İhtiyacınız olan her şey buradaydı. Gerisi sizin uygun sorguları yazarak elemanlarınızı seçmenizde. Alıştırma yapmayı unutmayın.
 
 ---
-
-> ### Kaynakça
-> - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
-> - https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors
-> - https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
-> - https://attacomsian.com/blog/getting-dom-elements-javascript
+### Kaynakça
+- https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+- https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors
+- https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+- https://attacomsian.com/blog/getting-dom-elements-javascript
