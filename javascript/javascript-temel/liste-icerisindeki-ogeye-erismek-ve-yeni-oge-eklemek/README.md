@@ -22,7 +22,7 @@ Açtığım HTML dosyamın body elementinin içerisine aşağıdaki kodları ekl
 - Sınıf (class) ile öğelere/öğeye ulaşmak.
 - Etiket adı ile öğelere ulaşmak.
 
-### Kimlik yani "id" teknik olarak ise `document.getElementById` ile öğeye erişmek.
+#### Kimlik yani "id" teknik olarak ise `document.getElementById` ile öğeye erişmek.
 
 ```javascript 
 var one = document.getElementById("walterwhite");
@@ -30,7 +30,7 @@ var one = document.getElementById("walterwhite");
 
 Yukarıda önce bir değişken tanımlayıp sonrasında ise "walterwhite" id değerine sahip elementi seçtik. Sayfamızda eğer ki bu id’e sahip bir element var ise bize o elementi döndürür. 
 
-### Sınıf yani "class" teknik anlamda ise getElementsByClassName ile öğe ve öğelere erişmek
+#### Sınıf yani "class" teknik anlamda ise `getElementsByClassName` ile öğe ve öğelere erişmek
 
 ```javascript 
 var two  = document.getElementsByClassName("alternate");
