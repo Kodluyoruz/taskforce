@@ -150,7 +150,17 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 ### [prompt ile Kullanıcıdan Bilgi Almak](prompt-ile-kullanicidan-bilgi-almak/)
 
 #### Sorular
-1. Yok
+
+1. Prompt ile aşağıdakilerden hangisi yapılır ?
+	- Kullanıcı ile etkileşim sağlanmasında kullanılabilir. (Doğru)
+	- Bir yazının fontunun değiştirilmesine yardımcı olur.
+	- Yalnızca .js uzantılı dosyalar içerisinde kullanılır.Html'e entegre          edilemez.
+	- Linklerin işlevselliği için kullanılır.
+2. Aşağıdakilerden hangisi Prompt syntax söz dizimine uygundur ?
+	- a=prompt(Bir değer giriniz,"") 
+	- var kelime=prompt(,"")
+	- kelime=prompt("Bir değer giriniz",değer giriniz)
+	- var a=prompt(Bir değer giriniz,) (Doğru)
 
 #### Video
 1. https://www.youtube.com/watch?v=4qiEWu593Xs
@@ -220,7 +230,69 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 ### [Ternary Operator( koşul ? doğruysa : yanlışsa) ile If Kullanımı](ternary-operator(-kosul-dogruysa-yanlissa)-ile-if-kullanimi/)
 
 #### Sorular
-1. Yok
+1. `console.log(boolean)` bize hangi çıktıyı verir ?
+```javascript
+   
+       let boolean;
+   
+       const isBooleanTrue = boolean ? true : false;
+   
+       console.log(isBooleanTrue)
+       >> false
+   
+       console.log(boolean)
+
+```
+- true
+- false
+- undefined (doğru)
+- NaN
+2. `console.log(permission)` bize hangi çıktıyı verir 
+```javascript
+
+       let age = 24;
+
+       let permission = (age >= 18) ? "Giriş yapabilirsiniz." : "Giriş yapamazsınız.";
+
+       console.log(permission);
+       
+```
+- true
+- "Giriş yapabilirsiniz." (doğru)
+- false
+- "Giriş yapamazsınız."
+
+[Codepen'de deneyin](https://codepen.io/ecsabanci/pen/bGwLEyJ)
+3. `console.log(isEqual)` bize hangi çıktıyı verir ?
+```javascript
+
+       let firstCity = "Ankara";
+
+       let secondCity = "İstanbul";
+
+       const isEqual = (firstCity === secondCity) ? "İki şehir aynı" : "İki şehir aynı değil";
+
+       console.log(isEqual)
+```
+- "Ankara"
+- "İstanbul"
+- "İki şehir aynı"
+- "İki şehir aynı değil" (doğru)
+4. `console.log(canBuy)` bize hangi çıktıyı verir ?
+```javascript
+    var money;
+    var canBuy = 
+        (money < 17) ? "Satın alamazsın..";
+        (money > 30) ? "Satın alabilirsin..";
+        "Para miktarını girmen gerekmektedir..";
+
+    console.log(canBuy) 
+
+```
+- "Satın alamazsın.."
+- "Satın alabilirsin.."
+- "Param miktarını girmen gerekmektedir.." (doğru)
+-  false
 
 #### Video
 1. https://www.youtube.com/watch?v=0DetgkxkMok

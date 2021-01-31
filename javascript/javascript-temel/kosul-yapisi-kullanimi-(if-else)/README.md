@@ -18,9 +18,9 @@ else {
 
 ```
 
- Else kod blokları arasında tek satırlık bir kod yazılacaksa köşeli parantez( **{ }** ) kullanımına gerek yoktur.
+Else kod blokları arasında tek satırlık bir kod yazılacaksa köşeli parantez `{ }` kullanımına gerek yoktur.
 
- ```javascript
+```javascript
 
 if(kosul) {
     // Bu kod satırı çalışacaktır.
@@ -32,8 +32,7 @@ else // tek satırlık kodu buraya yazabilirsin.
 
 If / Else koşulunun teoride çalışma prensibi bu şekildedir. Şimdi ise basitten başlayarak örneklerle teorik bilgileri pratiğe dökelim. 
 
-### Örnek - 1: İki sayıdan büyük olanı bulalım.  
-
+**Örnek - 1: İki sayıdan büyük olanı bulalım:**
 ```javascript
 var x = 5;
 var y = 7;
@@ -51,18 +50,14 @@ else {
 Bu örneğin benzerlerini kendiniz de [burada](https://codepen.io/alperceviz/pen/PoGRQxv?editors=0011) deneyebilirsiniz.,
 
 
-### Örnek - 2: Vize ve final notları belli olan bir öğrencinin yıl sonunda dersten geçip geçmediğini hesaplayalım. 
+** Örnek - 2: Vize ve final notları belli olan bir öğrencinin yıl sonunda dersten geçip geçmediğini hesaplayalım:**
 
-
-<hr />
-
-**-Şartlar-**
-
+**Şartlar:**
 - Öğrencinin vize notunun %30'unu final notunun %70'ini alalım.
 - Vize ve final notunun toplamından doğan not ortalaması eğer 0-30 aralığındaysa KALDINIZ (FF) yazdıralım.
 - 31-49 aralığındaysa DC - KOŞULLU yazdıralım.
 - 50- 84 aralığındaysa CC - GEÇTİNİZ! yazdıralım.
- 85-100 aralığındaysa Notunuz AA yazdıralım. 
+- 85-100 aralığındaysa Notunuz AA yazdıralım. 
 
 ```javascript
 var ogrVizeNot = 45; // Bu kod satırını değiştiriniz. 
@@ -89,4 +84,3 @@ else if(ogrOrtalama > 85 && ogrOrtalama <= 100) {
 
 ```
 Bu örneği [Codepen'de Deneyin.](https://codepen.io/alperceviz/pen/YzGaaXB?editors=0012) 
-
