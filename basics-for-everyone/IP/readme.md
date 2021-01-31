@@ -43,7 +43,7 @@ IP ile veri iletiminin %100 gerçekleşeceğini garanti edemeyiz. Aktarım sıra
   - [ ] localhost
 
 - Ağda trafik kontrolünü aşağıdaki birimlerden hangisi sağlar ?
-  - [ ] Routers(Yönlendiriciler)
+  - [x] Routers(Yönlendiriciler)
   - [ ] Kulanıcılar
   - [ ] Kablolar
   - [ ] Sunucular
