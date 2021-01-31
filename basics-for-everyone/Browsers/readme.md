@@ -50,7 +50,28 @@ Render ağacı oluşturduktan sonra düzenleme(layout) işlemi başlar. Bu işle
 
 Tüm bu süreç kademeli olarak gerçekleşir. Tarayıcılar daha iyi kullanıcı deneyimi sunmak için olabildiğince hızlı ekrana getirmeye çalışırlar. Bir adım tüm içerik için tamamen bitince diğer adım başlar gibi de düşünmemek lazım. İçerik parçalara ayrılır ve bu parçalar için işlem gerçekleşir. Örneğin sayfa gelirken bir anda her şeyi gelmesi yerine ilk önce yazıların sonra görsellerin geldiğini görmüşsünüzdür. Bunun sebebi yazının işlemlerden çok daha hızlı geçip süreç bitince de ekrana yansıtılması görseller için ise sürecin tamamlanmamış olmasındandır. 
 
+## Sorular:
 
+- Aşağıdakilerden hangisi tarayıcıların ana işlevlerinden değildir ?
 
-## Kaynaklar:
+  - [ ] Kullanıcıya arayüz sunmak
+  - [ ] İstenilen verileri lokal olarak depolamak
+  - [ ] JavaScript kodlarını yorumlamak
+  - [x] Veriyi karşı tarafa ulaştırmak için tüm yaşam döngüsünü sağlamak
+
+- Aşağıdakilerden hangisi rendering motorudur ?
+
+  - [x] Gecko
+  - [ ] Firefox
+  - [ ] Chrome
+  - [ ] Safari
+
+- Rendering motorunun işleyişi aşağıda verilmiştir. Hangisi doğrudur ?
+
+  - [ ] DOM ağacı - HTML ayrıştırma - Layout(Düzenleme) -  Render ağacı - Boyama(Painting) 
+  - [x] HTML ayrıştırma - DOM ağacı - Render ağacı - Layout(Düzenleme) - Boyama(Painting) 
+  - [ ] HTML ayrıştırma - DOM ağacı -  Layout(Düzenleme) -  Render ağacı - Boyama(Painting) 
+  - [ ] HTML ayrıştırma - DOM ağacı - Boyama(Painting) -  Layout(Düzenleme) - Render ağacı
+
+## Kaynaklar:
 * https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Parser_Lexer_combination
