@@ -128,7 +128,7 @@ const inputs = document.querySelector('#signup').querySelectorAll('input');
 Bu konu ile ilgili alıştırma yapmak isterseniz doğrudan tarayıcı üzerinden herhangi bir sitede inspect mod'undaki console'da anlatılan methodlar ile denemeler yapabilirsiniz. Ya da [bu linkten](https://www.w3resource.com/javascript-exercises/javascript-dom-exercises.php) alıştırmalar yapabilirsiniz.
 
 ## Sonuç
-DOM üzerinden javaScript kullanarak eleman seçmek için gereken tüm methodları bu yazı boyunca öğrenmiş olduk. İhtiyacınız olan her şey buradaydı. Gerisi sizin uygun sorguları yazarak elemanlarınızı seçmenizde. Alıştırma yapmayı unutmayın. 👋👋👋
+DOM üzerinden javaScript kullanarak eleman seçmek için gereken tüm methodları bu yazı boyunca öğrenmiş olduk. İhtiyacınız olan her şey buradaydı. Gerisi sizin uygun sorguları yazarak elemanlarınızı seçmenizde. Alıştırma yapmayı unutmayın.
 
 ---
 ### Kaynakça
