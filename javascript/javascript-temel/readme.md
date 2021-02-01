@@ -1,6 +1,6 @@
 # JavaScript Temel INDEX
 
-#### Kurulum süreçleri
+#### Kurulum süreçleri ####
 - [Kullanılacak Tüm Dökümanlar](kullanilacak-tum-dokumanlar/)
 - [Node.js Kurulumu](node-kurulumu/)
 
