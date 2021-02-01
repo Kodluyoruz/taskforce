@@ -1,18 +1,18 @@
 # DOM içerisinden Etiket ve ID ile Öğe Seçimi
 
-Bu yazımızda [DOM (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) içerisinden öğeleri seçmek için kullanacağımız metotlardan bahsedeceğiz.Document Object Model'de öğeler birden fazla yöntem ile seçilebilir. Birinci yöntemimiz olan element id'sini kullanarak şeçme metodu ile başlayalım.
+Bu yazımızda [DOM (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) içerisinden öğeleri seçmek için kullanacağımız metotlardan bahsedeceğiz. Document Object Model'de öğeler birden fazla yöntem ile seçilebilir. Birinci yöntemimiz olan element id'sini kullanarak seçme metodu ile başlayalım.
 
 ## Get Element By ID
-> **Elemanı ID'sine göre şeçmek**
+> **Elemanı ID'sine göre seçmek**
 `document` objesinin `getElementById()` metodu ile sayfada bulunan html elementlerinin ID'leri referans alarak seçme işlemi yapabiliyoruz. Örnek olarak;
 ```js
 <div id="unicorn">🦄</div>
 ```
-sayafada bulana bu elementi `getElementById()` methodunu kullanarak seçmeye çalışalım.
+sayafada bulana bu elementi `getElementById()` metodunu kullanarak seçmeye çalışalım.
 ```js
 const unicorn = document.getElementById('unicorn');
 ```
-ID'ler büyük-küçük harf duyarlıdır. Bu sayede HTML document içinde biriçiklik gösterir ve her zaman geriye bir eleman döndürür. Bir eşleşme bulamazsa da geriye `null` dönüşünü yapar.
+ID'ler büyük-küçük harf duyarlıdır. Bu sayede HTML document içinde biriciklik gösterir ve her zaman geriye bir eleman döndürür. Bir eşleşme bulamazsa da geriye `null` dönüşünü yapar.
 
 > **DİKKAT:** Seçmek istediğiniz elemanın id'sini yazarken eleman isminin başına **`# işaretini`** yazmanıza gerek yoktur. Yazmanız durumunda id'yi seçemeyeceksinizdir. 
 ```diff
@@ -20,9 +20,9 @@ ID'ler büyük-küçük harf duyarlıdır. Bu sayede HTML document içinde biri�
 + document.getElementById('root'); // <div id=​"root">​…​</div>​
 ```
 ## Get Elements By Tag Name
-> **Elemanları etiket isimlerine göre şeçmek**
-`getElementsByTagName()` metodu birden çok element'e ulaşmak amacı ile kullanılır.
-Girdi olarak bir **html element'i** alır ve buna uygun bir HTMLCollection döndürür. Örneğin elimizde bu şekilde bir sayfa var;
+> **Elemanları etiket isimlerine göre seçmek**
+`getElementsByTagName()` metodu birden çok elemente ulaşmak amacı ile kullanılır.
+Girdi olarak bir **html elementi** alır ve buna uygun bir HTMLCollection döndürür. Örneğin elimizde bu şekilde bir sayfa var;
 
 ```html
 <p>🐱</p>
@@ -36,7 +36,7 @@ Bu sayfadaki tüm **p** elemanlarına ulaşmak istersek;
 const animals = document.getElementsByTagName('p'); 
 // Çıktı:  HTMLCollection(4) [p, p, p, p]
 ```
-yazmanız yeterli olcaktır.
+yazmanız yeterli olacaktır.
 > Ayrıca sayfadaki tüm etiketleri bu şekilde getirebilirsiniz.
 ```js
 document.getElementsByTagName('*')
@@ -44,7 +44,7 @@ document.getElementsByTagName('*')
 ```
 ## Get Elements By Name
 > Elemanları isimlerine göre getirme
-`getElementsByName()` methodu elemanların **name** değerlerine göre bir [NodeList objesi](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) döndürür.
+`getElementsByName()` metodu elemanların **name** değerlerine göre bir [NodeList objesi](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) döndürür.
 
 ```html
 <input type="text" name="e-posta">
@@ -58,12 +58,12 @@ const emails = document.getElementsByName('e-posta');
 // Çıktı: NodeList [input]
 ```
 
-> **Unutmayınki name değeri id'de olduğu gibi birick bir değer taşımaz birden fazla eleman aynı name değerini taşıyabilir.**
+> **Unutmayın ki name değeri id'de olduğu gibi biricik bir değer taşımaz birden fazla eleman aynı name değerini taşıyabilir.**
 
 ## Get Elements By Class Name
 > **Elemanları class isimlerine göre şeçmek**
 
-DOM'da istediğimiz class name'i taşıyan tüm elemanları seçmek için `getElementsByClassName()` methodunu kullanırız. Bu method bize bir **HTMLCollection** döndürür. Ve kullanırken class isminin başına **nokta "."** koyMAMAnız gerekir.
+DOM'da istediğimiz class name'i taşıyan tüm elemanları seçmek için `getElementsByClassName()` metodunu kullanırız. Bu metot bize bir **HTMLCollection** döndürür. Ve kullanırken class isminin başına **nokta "."** **koymamanız** gerekir.
 
 ```html
 <div class="baykuş kusu">🦉</div>
@@ -99,14 +99,15 @@ const email = document.querySelector('#signup input[name="email"]');
 ## Query Selector All
 > **Çoğul Sorgu seçici**
 
-`querySelectorAll()` methodu, `QuerySelector ()` methodu ile aynı mantık ile çalışır tek farkı eşeleşen ilk elamanı döndürmek yerine eşeleşen **tüm elemanları** bir NodeList objesi olark döndürmesidir.
+`querySelectorAll()` metodu, `QuerySelector ()` metodu ile aynı mantık ile çalışır tek farkı eşeleşen ilk elamanı döndürmek yerine eşleşen **tüm elemanları** bir NodeList objesi olark döndürmesidir.
 
 ```js
 const elems = document.querySelectorAll('.bird, .animal');
 console.log(elems.length); // 4
 ```
-### Methoları bir arada kullanabilirsiniz
-Yukarda öğrendiğimiz methodları birarada kullanabiliryoruz. Önce tek bir elemanı seçerek ardından içinde ikinci bir sorugu yapabiliyoruz. Örneğin;
+**Metotları bir arada kullanabilirsiniz.**
+Yukarda öğrendiğimiz metotları bir arada kullanabiliyoruz. Önce tek bir elemanı seçerek ardından içinde ikinci bir soruyu yapabiliyoruz. Örneğin;
+
 ```html
 <form id="signup">
     <input type="text" name="email">
@@ -125,10 +126,10 @@ const inputs = document.querySelector('#signup').querySelectorAll('input');
 ```
 
 ### Alıştırmalar
-Bu konu ile ilgili alıştırma yapmak isterseniz doğrudan tarayıcı üzerinden herhangi bir sitede inspect mod'undaki console'da anlatılan methodlar ile denemeler yapabilirsiniz. Ya da [bu linkten](https://www.w3resource.com/javascript-exercises/javascript-dom-exercises.php) alıştırmalar yapabilirsiniz.
+Bu konu ile ilgili alıştırma yapmak isterseniz doğrudan tarayıcı üzerinden herhangi bir sitede inspect modundaki console'da anlatılan methotlar ile denemeler yapabilirsiniz. Ya da [bu linkten](https://www.w3resource.com/javascript-exercises/javascript-dom-exercises.php) alıştırmalar yapabilirsiniz.
 
 ## Sonuç
-DOM üzerinden javaScript kullanarak eleman seçmek için gereken tüm methodları bu yazı boyunca öğrenmiş olduk. İhtiyacınız olan her şey buradaydı. Gerisi sizin uygun sorguları yazarak elemanlarınızı seçmenizde. Alıştırma yapmayı unutmayın.
+DOM üzerinden javaScript kullanarak eleman seçmek için gereken tüm metotları bu yazı boyunca öğrenmiş olduk. İhtiyacınız olan her şey buradaydı. Gerisi sizin uygun sorguları yazarak elemanlarınızı seçmenizde. Alıştırma yapmayı unutmayın.
 
 ### Kaynaklar
 - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model

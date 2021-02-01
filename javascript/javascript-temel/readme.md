@@ -5,7 +5,7 @@
 - [Birçok Platformda Hello World ve Hello World'ün Önemi](helloworld/)
 
 #### Değişkenlerle Çalışmak ####
-- [Degisken Tanimlama: var, ES6 ile Birlikte Gelen let ve const Değişken Tanımlama Yapısının Kullanımı, var ile Arasındaki Farklar](degisken-tanimlama-var-es6-ile-birlikte-gelen-let-ve-const-degisken-tanimlama-yapisinin-kullanimi-var-ile-arasindaki-farklar/)
+- [Değişken Tanımlama: var, ES6 ile Birlikte Gelen let ve const Değişken Tanımlama Yapısının Kullanımı, var ile Arasındaki Farklar](degisken-tanimlama-var-es6-ile-birlikte-gelen-let-ve-const-degisken-tanimlama-yapisinin-kullanimi-var-ile-arasindaki-farklar/)
 - [Number Veri Turu Kullanımı, Temel Aritmetik İşlemler ve İşlem Önceliği ve Arttırma ve Azaltma İşlemleri](number-veri-turu-kullanimi-temel-aritmetik-i̇slemler-ve-i̇slem-onceligi-ve-arttirma-ve-azaltma-i̇slemleri/)
 - [Boolean Veri Türü İle Çalışmak](boolean-veri-turu-i̇le-calismak/)
 - [Değişken Türünü Kontrol Etmek ve Değişken Türünü Değiştirmek](degisken-turunu-kontrol-etmek-ve-degisken-turunu-degistirmek/)
@@ -15,7 +15,7 @@
 #### DOM ile Çalışmak ####
 - [Document Object Model (DOM) Nedir](document-object-model(dom)-nedir/)
 - [DOM içerisinden Etiket ve ID ile Öğe Seçimi](dom-icerisinden-etiket-ve-id-ile-oge-secimi/)
-- [prompt ile Kullanıcıdan Bilgi Almak](prompt-ile-kullanicidan-bilgi-almak/)
+- [Prompt ile Kullanıcıdan Bilgi Almak](prompt-ile-kullanicidan-bilgi-almak/)
 - [Liste içerisindeki Öğeye Erişmek ve Yeni Öğe Eklemek](liste-icerisindeki-ogeye-erismek-ve-yeni-oge-eklemek/)
 - [DOM'a CSS Class Bilgisi Eklemek veya Çıkarmak](dom'a-css-class-bilgisi-eklemek-veya-cikarmak/)
 

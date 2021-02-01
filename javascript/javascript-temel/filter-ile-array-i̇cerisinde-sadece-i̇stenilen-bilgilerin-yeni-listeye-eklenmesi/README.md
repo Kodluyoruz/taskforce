@@ -34,7 +34,7 @@ console.log(activeUsers.fullName); //(2)[{...},{...}] (Ali Duran, Ahmet Yılmaz)
 //Üst satırdaki sonuç bize, elemanları nesne olan 2 elemanlı bir dizi olduğunu söylüyor.
 ```
 
-### Sorular:
+## Sorular:
 
 ```javascript
 const person = [{
@@ -50,14 +50,15 @@ const person = [{
 ];
 ```
 
-### Soru 1: Yukarıdaki diziyi kullanarak filter() metodu ile yaşı 30'dan büyük olan kişiyi getirin.
+**Soru 1:** Yukarıdaki diziyi kullanarak filter() metodu ile yaşı 30'dan büyük olan kişiyi getirin.
 
 Önce kendiniz yapmayı deneyin, aşağıdaki linkten cevaba ulaşabilirsiniz. 
 
 [Soru 1 Çözüm](https://codepen.io/sahinaykkt/pen/YzGdaeW?editors=0011)
 
-### Soru 2: Yukarıdaki diziyi kullanarak filter() metodu ile JavaScript bilen kişiyi getirin.
+**Soru 2:** Yukarıdaki diziyi kullanarak filter() metodu ile JavaScript bilen kişiyi getirin.
 
 Önce kendiniz yapmayı deneyin, aşağıdaki linkten cevaba ulaşabilirsiniz. 
 
 [Soru 2 Çözüm](https://codepen.io/sahinaykkt/pen/BaLvrxw?editors=0010)
+

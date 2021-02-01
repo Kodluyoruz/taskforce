@@ -2,7 +2,7 @@
 
 JavaScript'te fonksiyonları tanımlamanın birçok yolu vardır.
 
-Bunlardan birincisi **function** keyword'ünü kullanarak yazdığımız fonksiyonlardır.
+Bunlardan birincisi **function** keyword'unu kullanarak yazdığımız fonksiyonlardır.
 
 ```javascript
 // Function declaration
@@ -18,7 +18,7 @@ const greet = function(who) {
 }
  greet("John") // output : Hello, John!
 ```
-İkincisi ES6 ile kullanılmaya başlanan **Arrow Fonksiyon** gösterimi. Aynı zamanda Fat Arrow Fonksiyon da deniliyor. Bunlar daha az kod satırı ile fonksiyonu yazmamıza olanak sağlıyor. Üstte yazdığımız örneği bir de Arrow Fonksiyonu olarak yazmayı deniyelim.
+İkincisi ES6 ile kullanılmaya başlanan **Arrow Fonksiyon** gösterimi. Aynı zamanda Fat Arrow Fonksiyon da deniliyor. Bunlar daha az kod satırı ile fonksiyonu yazmamıza olanak sağlıyor. Üstte yazdığımız örneği bir de Arrow Fonksiyonu olarak yazmayı deneyelim.
 ```javascript
 const greet = (who) => `Hello, ${who}!`;
 ```
@@ -69,10 +69,10 @@ myList([1, 2], [3, 4, 5]); // output : [ 1, 2, 3, 4, 5 ]
 const myList = (param1, param2) => param1.concat(param2);
 myList([1, 2], [3, 4, 5]); // output : [ 1, 2, 3, 4, 5 ]
 ```
-### Arrow fonksiyon kullanırken dikkat etmemiz gereken bazı durumlar var.
+**Arrow fonksiyon kullanırken dikkat etmemiz gereken bazı durumlar vardır.**
 
 - "**return**" keyword;
-    * Statement'lar süslü{} parantez kullanılarak yazılırlar. Eğer fonksiyon içerisinde bu parantezlerden varsa **return** keyword'ü kullanmamız gerekir.Bir if Statement'i kullanılan bir arrow fonksiyonu yazalım.
+    * Statement'lar süslü{} parantez kullanılarak yazılırlar. Eğer fonksiyon içerisinde bu parantezlerden varsa **return** keyword'ü kullanmamız gerekir. Bir if Statement'i kullanılan bir arrow fonksiyonu yazalım.
   ```javascript
     var feedTheCat = (cat) => {
       if (cat === 'hungry') {
@@ -147,7 +147,7 @@ const newArray = (nums) => {
 console.log(newArray([1,2,3,4,5]));  // output: [3,4,9,8,15]
 ```
 
-Daha okunaklı olduğu için ben çoğu zaman Arrow Fonksiyonunu kullanmayı tercih ediyorum. Umarım sağladığı güzellikler şuan daha iyi anlaşılmıştır ve faydalı bi yazı olmuştur. :)
+Daha okunaklı olduğu için ben çoğu zaman Arrow Fonksiyonunu kullanmayı tercih ediyorum. Umarım sağladığı güzellikler şuan daha iyi anlaşılmıştır ve faydalı bir yazı olmuştur.
 
 ### Kaynaklar
 

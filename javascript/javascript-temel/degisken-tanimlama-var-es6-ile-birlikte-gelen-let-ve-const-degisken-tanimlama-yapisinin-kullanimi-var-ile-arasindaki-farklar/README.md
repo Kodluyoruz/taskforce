@@ -1,4 +1,4 @@
-# Degisken Tanimlama: var, ES6 ile Birlikte Gelen let ve const Değişken Tanımlama Yapısının Kullanımı, var ile Arasındaki Farklar
+# Değişken Tanımlama: var, ES6 ile Birlikte Gelen let ve const Değişken Tanımlama Yapısının Kullanımı, var ile Arasındaki Farklar
 
 Değişkenler en basit tabirle değerleri hafızada tutmak için kullanılan yapılardır. Bir tanımlayıcı ile tanımlanır. Tanımlayıcı öncesi `var`, `let` veya `const` deklerasyonlarından biri kullanılarak deklare edilir. Değişken isimlendirmede dikkat etmemiz gerekenler şunlardır.
 
@@ -6,7 +6,7 @@ Değişkenler en basit tabirle değerleri hafızada tutmak için kullanılan yap
 
 ```jsx
 var formaNumarasi;  let $tcKimlikNo ; var \u0061; //Değişken isimlendirme örnekleri.
-```  
+```
 - İlk harften sonra değişken isimlerinde rakamlar da kullanılabilir. `$` ve ` _` dışında başka noktalama işaretleri kullanılamaz
 
 ```jsx
@@ -28,8 +28,6 @@ let user name ; // Bu kullanım yasaktır. Boşluk kullanılması gerekilen duru
 //let userName veya let user_name olarak tanımlanabilir. 
 ```
 > İsimlendirme kurallarının dışında, isimlendirme yazım çeşitleri hakkında bilgi almak için [https://devopedia.org/naming-conventions](https://devopedia.org/naming-conventions) adresini inceleyebilirsiniz.
-
-
 
 ## Değişkene Değer Atama ve Veri Türleri
 
@@ -301,5 +299,5 @@ console.log(sayi)
 şeklindedir. Hoisting kavramını daha iyi anlamak için  [JavaScript görselleştiriciyi](https://ui.dev/javascript-visualizer/)  inceleyebilirsiniz.
 [Codepen](https://codepen.io/afatihyavasi/pen/GRjyePm?editors=0010) aracılığıyla hoisting üzerine daha fazla açıklamalı örnek inceleyebilirsiniz.
 
-### Kaynaklar:
+## Kaynaklar:
 [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Declarations)

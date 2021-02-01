@@ -91,7 +91,7 @@ console.log(yeniAlisverisListem);
 ### .join()
 
 - Bazen Dizi içerisinde topladığınız verileri, string (sözdizimi) olarak yazdırmak isteyebilirsiniz. Join metodu bu konuda yardıma yetişiyor.
-- Parantez içerisine dizi elemanları arasına koymak istediğimiz string'i parametre oalrak girebiliriz. Eğer bir parametre vermezsek virgül bastırır.
+- Parantez içerisine dizi elemanları arasına koymak istediğimiz string'i parametre olarak girebiliriz. Eğer bir parametre vermezsek virgül bastırır.
 
 **Örneğin:**
 
@@ -482,7 +482,7 @@ console.log(kalemlik[0][2]);
 
 ## Pekiştirme Soruları
 
-### 1.Soru
+**1.Soru**
 
 ```javascript
 let dizi = [2,5,8,11,15,17];
@@ -495,7 +495,7 @@ let dizi = [2,5,8,11,15,17];
 
 [Çözümü CodePen'de inceleyin](https://codepen.io/onuraksar/pen/oNzqaWo?editors=0012)
 
-### 2.Soru
+**2.Soru**
 
 ```javascript
 let dizi = [3,6,9,14,16];
@@ -514,7 +514,7 @@ myFunction(dizi);
 
 [Çözümü CodePen'de inceleyin](https://codepen.io/onuraksar/pen/dypmgZd?editors=0011)
 
-### 3. Soru
+**3. Soru**
 
 ```javascript
 let dizi = [2,3,4];
@@ -530,5 +530,5 @@ let dizi = [2,3,4];
 
 ## Kaynaklar
 
-- (https://www.elated.com/nested-arrays-in-javascript/)
+- https://www.elated.com/nested-arrays-in-javascript/
 - [W3Schools](https://www.w3schools.com/js/js_array_methods.asp)

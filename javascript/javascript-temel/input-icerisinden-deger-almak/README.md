@@ -14,11 +14,11 @@ myInput.setAttribute("id", "inputumuz");
 myInput.setAttribute("type","text");
 myInput.setAttribute("value","Buraya Yazın");
 ````
-Böylece input ve özellikleri oluşturuldu.Şimdi HTML içine bu inputu yerleştiriyoruz.
+Böylece input ve özellikleri oluşturuldu. Şimdi HTML içine bu input'u yerleştiriyoruz.
 
 1.adım
 
-Body içine bir div oluşturalım.(Daha sonra inputu buraya atayacağız.)
+Body içine bir div oluşturalım.(Daha sonra input'u buraya atayacağız.)
 ````javascript
 var myDiv = document.createElement("div"); 
    
@@ -27,15 +27,15 @@ var myDiv = document.createElement("div");
 
 2.adım
 
-appendChild fonksiyonu ile inputu bu div'e ekleyelim.
+appendChild fonksiyonu ile input'u bu div'e ekleyelim.
 ````javascript
 myDiv.appendChild(myInput);
 ````
 
-## Input değerini alma
+## Input Değerini Alma
 
 
-Artık inputumuz oluştu ve değerini alabiliriz.
+Artık input'umuz oluştu ve değerini alabiliriz.
 ````javascript
 var inputDeger = document.getElementById("inputumuz").value;
 ````
@@ -76,7 +76,7 @@ window.alert(inputDeger)  // Değerimiz burada yazacak
 
  [1.Alıştırmayı Denemek İçin Tıklayın](https://codepen.io/tugayturk/pen/wvzyoVG)
 
-2. Bir validation form oluşturup e-mail,yaş ve isim bilgilerini standartlara uygun şekilde alalım.
+2. Bir validation form oluşturup e-mail, yaş ve isim bilgilerini standartlara uygun şekilde alalım.
 
 
 ```` Html

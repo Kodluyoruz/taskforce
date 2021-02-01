@@ -1,4 +1,4 @@
-# Number Veri Turu Kullanımı, Temel Aritmetik İşlemler ve İşlem Önceliği ve Arttırma ve Azaltma İşlemleri
+# Number Veri Türü Kullanımı, Temel Aritmetik İşlemler ve İşlem Önceliği ve Arttırma ve Azaltma İşlemleri
 
 ## Number (Sayı) Veri Türü
 JavaScript dili weak-typed yani güçsüz türlü bir dildir. Değişkenlerin ve parametrelerin türlerini bildirmek gerekmez. 
@@ -25,7 +25,8 @@ x değişkenin değer türü kayan sayı (float) türündedir. Sayının integer
 - Arttırma : ++
 - Eksiltme : --
 
-**Toplama** : Sayıları toplama işlemini gerçekleştirir.İşlem yönü soldan sağadır.
+**Toplama** : Sayıları toplama işlemini gerçekleştirir. İşlem yönü soldan sağadır.
+
 ```JavaScript
     var result = 3+5;
     console.log(result);
@@ -67,7 +68,7 @@ x değişkenin değer türü kayan sayı (float) türündedir. Sayının integer
     //0
 ```
 
-**Arttırma** : Bir sayıyı arttırmak için kullanırız. **Değeri `1` arttırır**. For ve While döngüleri içinde sık sık kullanılır, önce veya sonra kullanılabilir. Operatörün değişkenden sonra gelmesi durumuna postfix form, değişkenden önce gelme durumuna prefix form denilmektedir. Her iki kullanımdada değer `+1` arttırılır lakin prefix formu oluşan yeni değeri döndürmektedir. Postfix formu ise eski değeri döndürür, yani ekrana alert keyword(anahtar kelimesi) ile basar, ekrana basılan değer eski değerdir. Arttırma işlemi yapılmıştır ve değişkende arttırılmış hali tutulur.
+**Arttırma** : Bir sayıyı arttırmak için kullanırız. **Değeri `1` arttırır**. For ve While döngüleri içinde sık sık kullanılır, önce veya sonra kullanılabilir. Operatörün değişkenden sonra gelmesi durumuna postfix form, değişkenden önce gelme durumuna prefix form denilmektedir. Her iki kullanımda da değer `+1` arttırılır lakin prefix formu oluşan yeni değeri döndürmektedir. Postfix formu ise eski değeri döndürür, yani ekrana alert keyword (anahtar kelimesi) ile basar, ekrana basılan değer eski değerdir. Arttırma işlemi yapılmıştır ve değişkende arttırılmış hali tutulur.
 
 **Örneğin;**
 ```JavaScript
@@ -93,6 +94,6 @@ x değişkenin değer türü kayan sayı (float) türündedir. Sayının integer
 **İşlem Önceliği**
 **Temel dört işlem kuralları, JavaScript içinde geçerlidir.**
 
-### Kaynaklar
+## Kaynaklar
 - [Godoro Derinlemesine JavaScript](https://books.google.com.tr/books/about/Derinlemesine_JavaScript.html?id=qy6DDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)
 - [Onur Dayıbaşı JS Operatör](https://medium.com/frontend-development-with-js/js-operator-6c4a13a1743)

@@ -1,10 +1,10 @@
 # Diziye Yeni Eleman Eklemek, Çıkartmak ve Güncellemek
 
 ## Diziye Yeni Eleman Eklemek
-Dizilere push(), unshift() ve splice() methodlarıyla yeni eleman ekleyebiliriz.
+Dizilere push(), unshift() ve splice() metotlarıyla yeni eleman ekleyebiliriz.
 
-### push() method
-push() method, var olan bir dizinin sonuna eleman eklemeye yarar.
+### push() metot
+push() metot, var olan bir dizinin sonuna eleman eklemeye yarar.
 
 **Örneğin**
 
@@ -16,8 +16,8 @@ push() method, var olan bir dizinin sonuna eleman eklemeye yarar.
 ```
 [CodePen'de deneyin](https://codepen.io/kcocalak/pen/wvzjEbm?editors=0012)
 
-### unshift() method
-unshift() method, var olan bir dizinin başına eleman eklemeye yarar. 
+### unshift() metot
+unshift() metot, var olan bir dizinin başına eleman eklemeye yarar. 
 
 **örneğin**
 
@@ -29,8 +29,8 @@ unshift() method, var olan bir dizinin başına eleman eklemeye yarar.
 ```
 [CodePen'de deneyin](https://codepen.io/kcocalak/pen/mdrLGNM)
 
-### splice() method
-splice() method diziye hem eleman eklemek için hem de eleman silmek için kullanılır. Methodun ilk parametresi işlemin yapılacağı index numarasını, ikinci parametre ise kaç elemanın silineceğini belirtir.
+### splice() metot
+splice() metot diziye hem eleman eklemek için hem de eleman silmek için kullanılır. Metodun ilk parametresi işlemin yapılacağı index numarasını, ikinci parametre ise kaç elemanın silineceğini belirtir.
 
 
 **örneğin**
@@ -43,11 +43,11 @@ splice() method diziye hem eleman eklemek için hem de eleman silmek için kulla
 ```
 [CodePen'de deneyin](https://codepen.io/kcocalak/pen/eYdrPOw?editors=1111)
 
-## Diziden eleman silmek
-Dizilerden pop(), shift() ve splice() methodlarıyla eleman silebiliriz.
+## Diziden Eleman Silmek
+Dizilerden pop(), shift() ve splice() metotlarıyla eleman silebiliriz.
 
-### pop() method
-pop() method, var olan bir dizinin en sonundaki eleman silmeye yarar.
+### pop() metot
+pop() metot, var olan bir dizinin en sonundaki eleman silmeye yarar.
 
 **örneğin**
 
@@ -59,8 +59,8 @@ pop() method, var olan bir dizinin en sonundaki eleman silmeye yarar.
 ```
 [CodePen'de deneyin](https://codepen.io/kcocalak/pen/NWRMOWB)
 
-### shift() method
-shift() method, var olan bir dizinin başından eleman silmeye yarar.
+### shift() metot
+shift() metot, var olan bir dizinin başından eleman silmeye yarar.
 
 **örneğin**
 
@@ -72,8 +72,8 @@ shift() method, var olan bir dizinin başından eleman silmeye yarar.
 ```
 [CodePen'de deneyin](https://codepen.io/kcocalak/pen/ZEpoqEd?editors=1111)
 
-### splice() method
-splice() method diziye hem eleman eklemek için hem de eleman silmek için kullanılabileceğini yukarda belirtmiştik. Methodun ilk parametresi işlemin yapılacağı index numarasını, ikinci parametre ise kaç elemanın silineceğini belirtir.
+### splice() metot
+splice() metot diziye hem eleman eklemek için hem de eleman silmek için kullanılabileceğini yukarda belirtmiştik. Metodun ilk parametresi işlemin yapılacağı index numarasını, ikinci parametre ise kaç elemanın silineceğini belirtir.
 
 **örneğin**
 
@@ -85,7 +85,7 @@ splice() method diziye hem eleman eklemek için hem de eleman silmek için kulla
 ```
 [CodePen'de deneyin](https://codepen.io/kcocalak/pen/QWKrZwJ?editors=1111)
 
-## Dizide eleman güncellemek
+## Dizide Eleman Güncellemek
 Dizi içerisindeki her bir eleman 0' dan başlayan bir indeks numarasına sahiptir. Bu sayede indeks numaralarını kullanarak güncelleme yapabiliriz.
 
 **Örneğin**

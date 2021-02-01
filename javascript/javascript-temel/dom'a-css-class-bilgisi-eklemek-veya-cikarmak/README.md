@@ -52,16 +52,17 @@ div.classList.replace('info','block');
   [Codepen'de deneyin](https://codepen.io/brcthn/pen/zYKjVjR)
   
 ### Sorular
-```
-Soru 1: Codepen'de oluşturmuş olan butona tıklandındığında çemberin rengini classList metodlarını kullanarak degiştiriniz.
-```
+**Soru 1:** Codepen'de oluşturmuş olan butona tıklandığında çemberin rengini classList metotlarını kullanarak değiştiriniz.
+
 [Codepen'de deneyin](https://codepen.io/brcthn/pen/abmYaRv)
 
-Soru 2: Codepen'de oluşturmuş olan butonlara tıklandındığında istenilen değişiklikleri yapiniz.
- -Add Butonu: Yeni bir class ekleyiniz ve yeni oluşturulan classa css bilgisi ekleyerek kutunun arka plan rengini turuncu yapınız.
-- Remove Butonu: Kutunun içindeki metnin classına, önceden eklenmiş  css  classını kaldırınız.
-- Replace Butonu: Yeni bir class oluşturunuz, istediğiniz özellikleri css ile veriniz. Add  butonu ile eklediğiniz class ile degiştiriniz.
-- Item Butonu: p elementinin class isimlerinin  ilkini ekrana alert ile yazdırınız. 
+**Soru 2: **Codepen'de oluşturmuş olan butonlara tıklandığında istenilen değişiklikleri yapınız
+
+- Add Butonu: Yeni bir class ekleyiniz ve yeni oluşturulan class'a css bilgisi ekleyerek kutunun arka plan rengini turuncu yapınız.
+
+- Remove Butonu: Kutunun içindeki metnin class'ına, önceden eklenmiş  css class'ını kaldırınız.
+- Replace Butonu: Yeni bir class oluşturunuz, istediğiniz özellikleri css ile veriniz. Add  butonu ile eklediğiniz class ile değiştiriniz.
+- Item Butonu: p elementinin class isimlerinin ilkini ekrana alert ile yazdırınız. 
 - Contains Butonu: p elementinin "classList" classını içerip içermediğini kontrol ediniz. Eğer içeriyorsa  ekrana alert ile "True", içermiyorsa "False"  yazdırınız. 
 
 [Codepen'de deneyin](https://codepen.io/brcthn/pen/wvzXZZq)

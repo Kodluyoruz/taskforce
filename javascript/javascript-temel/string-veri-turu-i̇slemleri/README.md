@@ -80,7 +80,7 @@ Elimizde bulunan iki string türündeki veriyi birleştirmemize olanak sağlar.
 
 ##### charAt - İndex Numarasına Göre Karakter Bulmak
 
-Belitrilen index numarasında yer alan karakteri verir.
+Belirtilen index numarasında yer alan karakteri verir.
 
 ![code](https://raw.githubusercontent.com/Kodluyoruz/taskforce/javascript/javascript/javascript-temel/string-veri-turu-i%CC%87slemleri/figures/10-code.png)
 
@@ -171,7 +171,7 @@ console.log(email.indexOf(".")); //21
 
 #### Belli Bir Bilgiyi Almak
 
-Biraz önce search() metoduyla @ işaretinin nerede olduğunu almıştık. İşte bu noktada @ işaretinden sonra gelen domain bilgisini almak bizim için çok kolay bir hale geldi, **slice()** methoduyla bu işlemi gerçekleştirebiliriz. 
+Biraz önce search() metoduyla @ işaretinin nerede olduğunu almıştık. İşte bu noktada @ işaretinden sonra gelen domain bilgisini almak bizim için çok kolay bir hale geldi, **slice()** metoduyla bu işlemi gerçekleştirebiliriz. 
 
 ```javascript
 console.log(email.slice(10+1)); //"@kodluyoruz.org"
@@ -225,18 +225,18 @@ email.startsWith("@"); //false
 email.endsWith("org"); //true
 ```
 
-### Sorular:
+## Sorular
 
 ```javascript
 let url = "www.kodluyoruz.org";
 let language = "Java";
 ```
 
-### Soru 1: Yukarıdaki *language* değişkenin değerini JavaScript olarak değiştirin ve konsola yazdırın.
+**Soru 1: Yukarıdaki *language* değişkenin değerini JavaScript olarak değiştirin ve konsola yazdırın.**
 
 [Çözüm Soru 1](https://codepen.io/sahinaykkt/pen/rNModQg?editors=0011)
 
-### Soru 2: Yukarıdaki *url* değişkenini kullanarak "www" olmadan *domain* (kodluyoruz.org) adında yeni bir değişken oluşturun ve konsola yazdırın.
+**Soru 2: Yukarıdaki *url* değişkenini kullanarak "www" olmadan *domain* (kodluyoruz.org) adında yeni bir değişken oluşturun ve konsola yazdırın.**
 
 [Çözüm Soru 2](https://codepen.io/sahinaykkt/pen/mdraxZM?editors=0011)
 

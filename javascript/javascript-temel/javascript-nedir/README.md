@@ -58,9 +58,9 @@ ECMAScript 4 üzerinde ciddi bir çalışma yapılmasına rağmen asla tamamlana
 11. ES2020 / ECMAScript 2020 (Haziran 2020)
 ```
 
----
+**JavaScript sadece tarayıcılarda çalışmakla sınırlı değildir.**
 
-## JavaScript Sadece Tarayıcılarda Çalışmakla Sınırlı Değil
+## JavaScript Kullanım Alanları
 
 JavaScript'in Tarihi konusunda da belirteceğimiz gibi, JavaScript'in ortaya çıkış amacı siteleri interaktif ve fonksiyonel hale getirmekti. Ancak ECMA Standartı ile birlikte hızla değişen ve gelişen JavaScript, yazılımcıların talepleri doğrultusunda sürekli üzerine koyarak ve yeni bir dönem başlatan Node.js'in geliştirilmesiyle, oldukça önemli güncellemeler de alarak her alanda kullanabilecek bir dil haline geldi. Böylece tüm dünyanın en çok kullanılan yazılım dili olarak son yıllarda hep ilk sıralarda yer edinmeyi başardı.
 
@@ -73,7 +73,7 @@ JavaScript'in Tarihi konusunda da belirteceğimiz gibi, JavaScript'in ortaya ç�
 - Oyun (Game)
 - Makine Öğrenmesi, Derin Öğrenme ve Yapay Zeka (Machine Learning, Deep Learning & Artificial Intelligence)
 
-### Front-end Alanında JavaScript
+### Front-End Alanında JavaScript
 JavaScript, Front-end tarafında ilk yıllarında olduğu gibi yalın olarak bir diğer ismiyle Vanilla JavaScript olarak kullabildiği gibi geliştirilen birçok farklı kütüphane (library) ve çatı (framework) ile de kullanabilmektedir. Son yıllarda ortaya çıkan başarılı kütüphane ve çatılar neticesinde, yalın JavaScript kullanımı azalsa da bu kütüphane ve çatıların temelini JavaScript oluşturduğu için, kesinlikle öğrenilmesi gerekmektedir.
 
 En çok kullanılan JavaScript Front-end teknolojileri aşağıdaki görselde yer almaktadır. Bunlar soldan sağa doğru; Angular, React, Vue, Ember ve Svelte'dir.
@@ -83,7 +83,7 @@ En çok kullanılan JavaScript Front-end teknolojileri aşağıdaki görselde ye
 	<br>
 </p>
 
-### Back-end Alanında JavaScript
+### Back-End Alanında JavaScript
 <p align="center">
 	<img alt="Node.js logo" src="figures/nodejs-logo.png" width="400">
 	<br>

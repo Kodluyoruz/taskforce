@@ -229,4 +229,3 @@ ekran çıktısı cerceve form seklindedir.
 - [javascript.info](https://javascript.info/)
 - [eloquentjavascript](https://eloquentjavascript.net/)
 - [speakingjs](http://speakingjs.com/es5/index.html)
-      

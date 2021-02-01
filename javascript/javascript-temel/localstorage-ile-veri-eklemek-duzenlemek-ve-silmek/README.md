@@ -1,4 +1,4 @@
-# LocalStorage İle Veri Eklemek, Düzenlemek Ve Silme
+# LocalStorage ile Veri Eklemek, Düzenlemek ve Silme
 
 ## Local Storage Nedir? 
 
@@ -22,9 +22,9 @@ localStorage üzerinde kayıtlı olan anahtarları okumak için getItem metodu k
 ```` javascript
 	window.localStorage.getItem("key");
 ````
-Eğer veri daha önce kaydedilmeyen bir veriyi okumaya çalıştığımızda undefined değeri geri dönmekterir.
+Eğer veri daha önce kaydedilmeyen bir veriyi okumaya çalıştığımızda undefined değeri geri dönmektedir.
 ## Veri Silme
-Verileri silmek için iki tane metod kullanılmaktadır.  Tüm verileri silmek istiyorsak clear() metodunu kullanmamız gerekir. Şayet istediğimiz bir anahtarı silmek istiyorsak removeItem() metodunu kullanmamız gerekmektedir. removeItem metodu kendisine silinecek anahtarı parametre olarak almaktadır.
+Verileri silmek için iki tane metot kullanılmaktadır.  Tüm verileri silmek istiyorsak clear() metodunu kullanmamız gerekir. Şayet istediğimiz bir anahtarı silmek istiyorsak removeItem() metodunu kullanmamız gerekmektedir. removeItem metodu kendisine silinecek anahtarı parametre olarak almaktadır.
 ```` javascript
 	localStorage.removeItem("key");
 	localStorage.clear();

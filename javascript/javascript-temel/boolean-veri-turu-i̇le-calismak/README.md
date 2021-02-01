@@ -1,16 +1,16 @@
 # Boolean Veri Türü İle Çalışmak
-Bazı ifadeleri sadece iki ihtimale göre değerlendirmek Javascript programlarımızı yazarken oldukça işimize yarar. Bu alternatifler "evet veya hayır" , " var ya da yok" ,"1 veye 0" , "evet veya hayır" gibi değerler olabilir. Bu tür iki alternatiften bahsettiğimiz veri tipine Boolean veri tipi diyoruz.
+Bazı ifadeleri sadece iki ihtimale göre değerlendirmek Javascript programlarımızı yazarken oldukça işimize yarar. Bu alternatifler "evet veya hayır" , " var ya da yok" ,"1 veya 0" , "evet veya hayır" gibi değerler olabilir. Bu tür iki alternatiften bahsettiğimiz veri tipine Boolean veri tipi diyoruz.
 
 Boolean veri tipleri sadece iki değerden birini ifade eder. Bunlar `true` ya da `false` 'dur.
 
-### Boolean() fonksiyonu
+## Boolean() fonksiyonu
 
 ```javascript
 Boolean(10>9);
 //true
 ```
 
-`Boolean()` foksiyonu bize sadece iki farklı değer dönebilir. Bunlar ya `true` ya da  `false`'dur. 
+`Boolean()` fonksiyonu bize sadece iki farklı değer dönebilir. Bunlar ya `true` ya da  `false`'dur. 
 
 Yukarıda `Boolean()` fonksiyonun içinde bir olasılığı karşılaştırdık. Bu olasılık 10 sayısının 9 sayısından büyük olup olmadığıdır. Bu soruda alabileceğimiz iki farklı cevap var. Bunlar doğru veya yanlış yani `true`veya`false` ifadeleridir. 10 sayısı 9 sayısından büyük olduğu için buradan `true` çıktısını alıyoruz.
 
@@ -49,7 +49,7 @@ Boolean'ın kullanımına dair örneği incelemek ve Codepen'de denemek için [l
 
 Bu kod örneğine baktığımızda var değişkeniyle tanımlanan myBoolean’ı true olarak belirtip console’a yazdırdığımızda en başta da boolean’ın sadece iki değer alacağından söz ettiğimiz üzere true olarak dönecektir. Aynı şekilde 1.satırda tanımlanan myBoolean’ın değerini false olarak güncellediğimizde de console’da çıktı olarak false’u görecektik. Peki bu console’a yazdırdığımız değerin tipini merak ettik mi acaba? Boolean olduğunu söyledik ancak her zaman tanımladığımız ve console’a yazdırdığımız bir değerin tipini bu kadar net bir şekilde bilemeyiz. İşte bu konuda devreye “typeof” kavramı giriyor. Typeof’dan kısaca bahsetmek gerekirse, değişkenle tanımladığımız bir değerin hangi veri tipini bize döndürdüğünü öğrenmemizi sağlayan kavramdır diyebiliriz typeof için. Kod penceresinde 3.satırda bunun örneğini açıkça görebilmek mümkündür. Bu durumda boolean olarak belirtilen bir değerin tipinin tabii ki boolean olduğunu söyleyebiliriz. 
 
-#### Boolean İle İlgili Örnekler  
+## Boolean İle İlgili Örnekler  
 
  **Örnek 1:**
  ```javascript
@@ -76,7 +76,7 @@ Bu kod örneğine baktığımızda var değişkeniyle tanımlanan myBoolean’ı
 
 **Alıştırmalar:**
 
-Aşağıda boolean olarak tanımlanmış değerlerin doğruluğunu Codepen'de [buradaki linkte](https://codepen.io/alperceviz/pen/yLaKaaQ?editors=0010) deneyin.
+Aşağıda boolean olarak tanımlanmış değerlerin doğruluğunu [buradaki](https://codepen.io/alperceviz/pen/yLaKaaQ?editors=0010) Codepen bağlantısında deneyin.
 
 ```javascript
 console.log(Boolean(1n));

@@ -1,6 +1,6 @@
 # Dizi(Array) Oluşturmak ve Dizi İçindeki Elemanlara Ulaşmak
 
- Merhaba arkadaşlar,
+Merhaba arkadaşlar,
 javascriptte array(dizi) tanımı birden çok value(değer) saklamamızı sağlar. Bu diziler içinde string, number, boolean, object, tipinde veriler saklanabilir. Dizilerde object(nesne) tipindedir. Bir dizi oluşturmak için yapmamız gereken dizi ismini verip eşittir dedikten sonra köşeli parantezler içinde dizi elemanlarını yazmak. Her eleman arasında bir virgül koymamız gereklidir. 
 Örneğin;
 
@@ -60,26 +60,26 @@ arr.forEach((item, index) => {
 Burada arrow function şeklinde yazılmış forEach metodu her bir dizi elemanı için çalıştırılır. `item` değeri dizinin o anki elamanını tutar ve `index` değeri ise o anki elemanın index değeridir. Bu kodu çalıştırdığımızda dizinin her elemanının aynı for döngüsünde olduğu gibi çıktısını görebiliriz.
 
 ### Array Nedir? 
-1-Programlamanın temel amaçlarından birisi verileri saklamak ve manipule edebilmektir. Arrays (diziler) bu ise yaramaktadır. 
+1. Programlamanın temel amaçlarından birisi verileri saklamak ve manipule edebilmektir. Arrays (diziler) bu ise yaramaktadır. 
 
-2-Arraylerde bir degişken (variable) tanımlayarak birden fazla değeri (value) saklayabilir ve onları daha sonra çesitli methotlarla kullanabiliriz.
+2. Array'lerde bir değişken (variable) tanımlayarak birden fazla değeri (value) saklayabilir ve onları daha sonra çeşitli metotlarla kullanabiliriz.
 
-3-Array olusturmak için köşeli parantez kullanırız. 
+3. Array oluşturmak için köşeli parantez kullanırız. 
 
-4-Oluşturulan arrayde her bir değere 'element' (eleman) denir. 
+4. Oluşturulan array'de her bir değere 'element' (eleman) denir. 
 
 `let favoriArabalar = ['audi', 'volvo', 'mercedes']`
 
-5-Bir arrayin icine yazabileceğimiz elemanların veri tipi (data type) önemli değildir. Örnegin aynı arrayde bir string ile number değer olarak atanabilir.
+5. Bir array'in içine yazabileceğimiz elemanların veri tipi (data type) önemli değildir. Örneğin aynı array'de bir string ile number değer olarak atanabilir.
 
 `let randomDizi = [2021, 'javaScript', true]`
 
 ### Array İçindeki Elemanlara Ulaşmak
-6-Array icindeki bir elemana ulasilmak istendiginde yazilis sirasina gore cagirilmaktadir. 
+6. Array içindeki bir elemana ulaşılmak istendiğinde yazılış sırasına göre çağırılmaktadır. 
 
-7-Elemanlarin yazilis siralarini numaralandirmaya 0 dan baslariz.Bu demek oluyor ki bir arraye yazdigimiz ilk elemanin (yani birinci sirada yazdigimiz eleman) numarasi 0'dir. 
+7. Elemanların yazılış sıralarını numaralandırmaya 0' dan başlarız. Bu demek oluyor ki bir arraye' yazdığımız ilk elemanın (yani birinci sırada yazdığımız eleman) numarası 0'dır. 
 
-8-Elemana ulasmak icin once dizinin degisken adi yazilir daha sonra koseli parantez acilarak elemanin numarasi girilir.
+8. Elemana ulaşmak için önce dizinin değişken adı yazılır daha sonra köşeli parantez açılarak elemanın numarası girilir.
 
 `let marmaraBolgesi = ['istanbul','kocaeli','sakarya','bursa','canakkale']` 
 
@@ -89,31 +89,32 @@ marmaraBolgesi[2] = sakarya
 marmaraBolgesi[3] = bursa
 marmaraBolgesi[4] = canakkale```
 
-9- Yukarida yaptigimiz ornekte goruldugu gibi dizinin icinde 5 tane eleman varken cagirdigimiz son elemanimizin numarasi 4. 
+9. Yukarıda yaptığımız örnekte görüldüğü gibi dizinin içinde 5 tane eleman varken çağırdığımız son elemanımızın numarası 4'tür. 
 
-10- Bu demek oluyor ki ((dizideki toplam eleman sayisi) - 1) bize dizinin son elemanini verir. 
+10. Bu demek oluyor ki ((dizideki toplam eleman sayısı) - 1) bize dizinin son elemanını verir. 
 
-11- O halde icinde kac tane eleman oldugunu bilmedigimiz bir dizinin son elemanina ulasmak icin su yontemi kullanabiliriz.
+11. O halde içinde kaç tane eleman olduğunu bilmediğimiz bir dizinin son elemanına ulaşmak için şu yöntemi kullanabiliriz.
 
 `let aylar = ['mart','nisan','mayis','haziran','temmuz']` 
-`let sonEleman = aylar[aylar.length - 1]`  // length propertysi bize arrayin icindeki eleman sayisini verir. Ondan bir cikarttigimizda ise son elemanin numarasini elde etmis oluruz.
+`let sonEleman = aylar[aylar.length - 1]`  // length propertysi bize array'in içindeki eleman sayısını verir. Ondan bir çıkarttığımızda ise son elemanın numarasını elde etmiş oluruz.
 `console.log(sonEleman) = 'temmuz'`
+
 ### Type Of Array
-12-Bir arrayin veri tipi object dir. 
-`typeof aylar = object`
+12. Bir array'in veri tipi object'dir. 
+    `typeof aylar = object`
 
 ### Array'in Let Veya Const İle Deklare Edilmesi Arasındaki Farklar
-13-Arraylari tanimladigimiz degiskenin let veya const ile deklare edilmesi arasinda fark bulunmaktadir. 
+13. Array'lari tanımladığımız değişkenin let veya const ile deklare edilmesi arasında fark bulunmaktadır. 
 
-14-Let ile deklare ettigimiz bir array daha sonra yeniden tanimlanabilir. 
+14. Let ile deklare ettiğimiz bir array daha sonra yeniden tanımlanabilir. 
 
 `let gunler = ['pazartesi','sali','carsamba']` 
 `gunler     = ['cuma','cumartesi','pazar']` 
-`console.log(gunler);` // ['cuma' , 'cumartesi' , 'pazar'] ciktisini alacagiz. Cunku let kullanarak olusturdugumuz bir array yeniden tanimlanabilir.
+`console.log(gunler);` // ['cuma' , 'cumartesi' , 'pazar'] çıktısını alacağız. Çünkü let kullanarak oluşturduğumuz bir array yeniden tanımlanabilir.
 
-15-Yukarida yaptigimiz ornegin aynisini const ile yapmayi deneyelim 
-`const gunler = ['pazartesi','sali','carsamba']`
-`gunler = ['cuma','cumartesi','pazar']` // 'TypeError: Assignment to constant variable' hatasini aliriz. Const ile deklare ettigimiz bir arrayi yeniden tayin edemeyecegimizi belirtmektedir.
+15. Yukarıda yaptığımız örneğin aynısını const ile yapmayı deneyelim 
+    `const gunler = ['pazartesi','sali','carsamba']`
+    `gunler = ['cuma','cumartesi','pazar']` // 'TypeError: Assignment to constant variable' hatasını alırız. Const ile deklare ettiğimiz bir array'i yeniden tayin edemeyeceğimizi belirtmektedir.
 
-16-const ile deklare ettigimiz bir array yeniden tayin edilemese de icerisindeki elemanlara erisme ve degistirme noktasinda let ile aynidir. 
+16. const ile deklare ettiğimiz bir array yeniden tayin edilemese de içerisindeki elemanlara erişme ve değiştirme noktasında let ile aynıdır. 
 

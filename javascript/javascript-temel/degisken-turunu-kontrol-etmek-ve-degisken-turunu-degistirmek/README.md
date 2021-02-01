@@ -41,7 +41,7 @@ Number.isNaN(true) //false
 Number.isNaN(undefined) //false
 Number.isNaN('NaN') //false
 Number.isNaN(NaN) //true
-``` 
+```
 Bu şekilde kontrolleri sağlanan değerler true veya false dönerler.
 
 
@@ -53,7 +53,7 @@ Type Coercion; bir değişkenin türünü, başka bir değişkene dönüştürm
 ``` javascript
 String(123) // “123”
 ParseInt(“123”) // 12
-``` 
+```
 
 **Implicit Coercion**
 ``` javascript
@@ -69,7 +69,7 @@ Eğer bir değeri açık bir şekilde String’e dönüştürmek istiyorsak Str
 ``` javascript
 String(123) // “123” explicit
 123 + '' // “123”    implicit
-``` 
+```
 Tahmin edebileceğiniz üzere her primitif değer stringe dönüştürülebilir.
 ``` javascript
 String(123) // “123”
@@ -96,7 +96,7 @@ var a=!!2 //explicit
 if (2) { ... } // implicit due to logical context
 !!2 // implicit due to logical operator
 2 || 'hello' // implicit due to logical operator
-``` 
+```
 Boolean tiplerle uğraşırken truthy,falsy değerler işin içine girerler. Kısaca açıklayacak olursak javascriptin kendi doğası gereği true veya false dönen değerler mevcuttur.Bunlar;
 ``` javascript
 Boolean('') // false
@@ -106,7 +106,7 @@ Boolean(NaN) // false
 Boolean(null) // false
 Boolean(undefined) // false
 Boolean(false) // false
-``` 
+```
 Yukarıdaki listede olmayan herhangi bir değer, trueya dönüştürülür. Fonksiyon, Dizi(Array),Tarih (Date), kullanıcı tanımlı tip(user-defined-type) vb Symboller gerçek değerlidir(truthy value). Hatta boş nesneler (objectler) ve diziler (arrayler)gerçek değerlidir(truthy value).
 ``` javascript
 Boolean({}) // true
@@ -155,40 +155,46 @@ Bu durumda iki string ifadenin toplanmasından çıkan sonuç
 Genel olarak algoritma aşağıdaki gibidir:
 
 **Primitif tipler için:**
-**1.** Eğer değer(input) primitif ise herhangi bir işlem yapma, dön.
-**2.** input.toString() metodunu çağır(Call). Eğer sonuç primitif ise dön
-**3.** input.valueOf()metodunu çağır(Call). Eğer sonuç primitif ise dön
-**4.** Ne input.toString() ne de input.valueOf() primitif sonuç vermiyorsa; TypeError fırlat
+
+1. Eğer değer(input) primitif ise herhangi bir işlem yapma, dön.
+2. input.toString() metodunu çağır(Call). Eğer sonuç primitif ise dön.
+3. input.valueOf()metodunu çağır(Call). Eğer sonuç primitif ise dön.
+4. Ne input.toString() ne de input.valueOf() primitif sonuç vermiyorsa; TypeError fırlat.
 
 **Referans tipler için:**
-**1.** input.toString() metodunu çağır(Call). Eğer sonuç primitif ise dön
-**2.** input.valueOf()metodunu çağır(Call). Eğer sonuç primitif ise dön
-**3.** Ne input.toString() ne deinput.valueOf() primitif sonuç vermiyorsa; TypeError fırlat
+
+1. input.toString() metodunu çağır(Call). Eğer sonuç primitif ise dön.
+2. input.valueOf()metodunu çağır(Call). Eğer sonuç primitif ise dön.
+3. Ne input.toString() ne deinput.valueOf() primitif sonuç vermiyorsa; TypeError fırlat.
 
 
 **NOT:** `==` operatörünün (loose equality- zayıf eşitlik) farklı iki tipteki a ve b değişkenleri için pratikte nasıl farklı davrandığını,[JavaScript Comparison Table](https://dorey.github.io/JavaScript-Equality-Table/) ’de gösteren matristen görebilirsiniz. 
 
 **ÖRNEKLER**
-**1-**
+
+1. 
+
 ``` javascript
 console.log(true+false) 
-``` 
+```
 - "+" operatörü numeric işlem yapar bu durumlardan boolean ifadeler numaric coercion'a uğrar.
 - Number(true) + Number(false) dönüşen ifade
 - 1+ 0 şeklini alır
 **Sonuç** = 1
 
-**2-**
+2. 
+
 ``` javascript
 console.log(12 / “6”)
-``` 
+```
 - "/" operatörü numeric işlem yapacağından
 - başlangıçta number olduğu için "6" ifadesi
 - numaric coercion'a uğrar Number("6") ve 6 değerini döner
 -  12 / 6 bu şekli alır
 **Sonuç**= 2
 
-**3-**
+3. 
+
 ``` javascript
 console.log([1,2,3]>null)
 ```
@@ -203,7 +209,8 @@ console.log([1,2,3]>null)
 - ve NaN kendine dahil hiçkimseye eşit olmadığından!!
 **Sonuç**= false
 
-**4-**
+4. 
+
 ``` javascript
 console.log(“number” + 15 + 3) 
 ```
@@ -211,51 +218,51 @@ console.log(“number” + 15 + 3)
 - "number+ "15" + "3" şeklini alır 
 **Sonuç**= "number153"
 
-**5-**
+5. 
+
 ```javascript
 console.log(['x','y'] == 'x,y')
-```  
+```
 - == operatörü array için numeric coercion yapacaktır
 - ['x','y'] dizisinin numeric coercion yapabilmesi için primitif tipe dönüştümek gerekir.
 - ['x','y'].toString() metoduyla "x,y" döner
 - Son eşitlik "x,y"=="x,y" halini alır 
 
 **Sonuç**= true
-     
-**ALIŞTIRMALAR**
-**1-** console.log(“foo” +  +“bar”)
-**2-** console.log(‘true’ == true)
-**3-** console.log(null==””)  
-**4-** console.log(0 || “ 0” && {})
-**5-** console.log([“a”] > null)
-**6-**  [Codepen'de deneyin](https://codepen.io/cosmicwayfarer/pen/wvzpPxp)
+## Alıştırmalar
+1. console.log(“foo” +  +“bar”)
+2. console.log(‘true’ == true)
+3. console.log(null==””)  
+4. console.log(0 || “ 0” && {})
+5. console.log([“a”] > null)
+6. [Codepen'de deneyin](https://codepen.io/cosmicwayfarer/pen/wvzpPxp)
 
-**Cevaplar**
+## Cevaplar
 (Yazının içindeki soruların cevabı)
 
-**1-** console.log(“foo” + +“bar”)
+1. console.log(“foo” + +“bar”)
 
 // +"bar" => Number("bar") => NaN //"foo"+NaN //"foo" +"NaN" //Sonuç= "fooNaN"
 
-**2-** console.log(‘true’ == true)
+2. console.log(‘true’ == true)
 
 //Number('true')=>NaN //NaN == true //NaN == 1 //Sonuç= false
 
-**3-** console.log(null==””)
+3. console.log(null==””)
 
 // null sadece kendine ve undefined'a eşit olduğundan //Sonuç= false
 
-**4-** console.log(0 || “ 0” && {})
+4. console.log(0 || “ 0” && {})
 
 //(0 || "0") %% {} //(false || true) && {} => dolu string true döndüğünden //(true) && {} => || operatörü ilk bulduğu true değeri, && operatörü ilk bulduğu false değeri döner 
 
 //true && {} => && operatörü false değer bulamazsa son bulduğu değeri döndürür. //Sonuç={}
 
-**5-** console.log([“a”] > null)
+5. console.log([“a”] > null)
 
 //"a" > null => array toStirng metodunun içine girer //NaN > null => Numeric dönüştürmeye girer //NaN > 0 //Sonuç= false
 
-**6-** (codepen'in cavabı)
+6. (Codepen'in Cevabı)
 
 `if(isNaN(yas)){ divEl.innerHTML= Sadece Sayı Giriniz; }`
 
