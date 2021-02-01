@@ -118,4 +118,5 @@ public  transient  int  salary  ;
 
 yani salary değişkeni dosyaya yazılmaz ve daha sonra nesne oluşturulduğunda salary null olacaktır.
 
-[Kullanılan görsellerin kaynağı](https://wiki.dcae.pub.ro/index.php/Serialization)
+## Kaynak:
+- [Kullanılan görsellerin kaynağı](https://wiki.dcae.pub.ro/index.php/Serialization)
