@@ -157,10 +157,10 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 	- Yalnızca .js uzantılı dosyalar içerisinde kullanılır.Html'e entegre          edilemez.
 	- Linklerin işlevselliği için kullanılır.
 2. Aşağıdakilerden hangisi Prompt syntax söz dizimine uygundur ?
-	- a=prompt(Bir değer giriniz,"") 
-	- var kelime=prompt(,"")
-	- kelime=prompt("Bir değer giriniz",değer giriniz)
-	- var a=prompt(Bir değer giriniz,) (Doğru)
+	- `a=prompt(Bir değer giriniz,"") `
+	- `var kelime=prompt(,"")`
+	- `kelime=prompt("Bir değer giriniz",değer giriniz)`
+	- `var a=prompt(Bir değer giriniz,)` (Doğru)
 
 #### Video
 1. https://www.youtube.com/watch?v=4qiEWu593Xs
@@ -227,7 +227,7 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 1. https://www.youtube.com/watch?v=LtuzpDY7ngU
 	- Kod bloklarımızı çalıştırırken birden fazla veya iç içe geçmiş koşul yapılarını kullanmamız gerekebilir. Bu videoda; if/else/else if bloklarının çoklu nasıl kullanılabileceğini hep birlikte inceleyelim.
 
-### [Ternary Operator( koşul ? doğruysa : yanlışsa) ile If Kullanımı](ternary-operator(-kosul-dogruysa-yanlissa)-ile-if-kullanimi/)
+### [Ternary Operator( koşul ? doğruysa : yanlışsa) ile If Kullanımı](ternary-operator-kosul-dogruysa-yanlissa-ile-if-kullanimi/)
 
 #### Sorular
 1. `console.log(boolean)` bize hangi çıktıyı verir ?
@@ -249,13 +249,11 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 - NaN
 2. `console.log(permission)` bize hangi çıktıyı verir 
 ```javascript
-
        let age = 24;
-
-       let permission = (age >= 18) ? "Giriş yapabilirsiniz." : "Giriş yapamazsınız.";
+       let permission = (age >= 18) ? "Giriş yapabilirsiniz." : 
+       "Giriş yapamazsınız.";
 
        console.log(permission);
-       
 ```
 - true
 - "Giriş yapabilirsiniz." (doğru)
@@ -263,6 +261,7 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 - "Giriş yapamazsınız."
 
 [Codepen'de deneyin](https://codepen.io/ecsabanci/pen/bGwLEyJ)
+
 3. `console.log(isEqual)` bize hangi çıktıyı verir ?
 ```javascript
 
