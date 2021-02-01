@@ -16,7 +16,8 @@ p {
 ```
 
 **Sonuç**:
-![Screenshot_1](assets/Screenshot_1.jpg)
+![Screenshot_1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_1.jpg)
+
 
 
 
@@ -59,7 +60,7 @@ Daha sonra bunu istediğimiz özelliği ekleyelim.
 ```
 
 **Sonuç:**
-![Screenshot_2](assets/Screenshot_2.jpg)
+![Screenshot_2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_2.jpg)
 
 Bir class’ı birden fazla HTML elementi için kullanabiliriz.
 
@@ -77,7 +78,8 @@ Bir class’ı birden fazla HTML elementi için kullanabiliriz.
 ```
 
 **Sonuç:**
-![Screenshot_3](assets/Screenshot_3.jpg)
+![Screenshot_3](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_3.jpg)
+
 
 Eğer bir HTML elementinin birden fazla class özelliğine sahip olmasını istiyorsak aynı anda iki farklı class’ı kullanabiliriz. Bunun için sadece iki class arasına boşluk bırakmak yeterli olacaktır.
 
@@ -99,7 +101,7 @@ Eğer bir HTML elementinin birden fazla class özelliğine sahip olmasını isti
 ```
 
 **Sonuç:**
-![Screenshot_4](assets/Screenshot_4.jpg)
+![Screenshot_4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_4.jpg)
 
 Bir HTML elementi kendini kapsayan elementin (parent elementi) stil özelliklerine sahip olur.
 
@@ -117,7 +119,7 @@ Bir HTML elementi kendini kapsayan elementin (parent elementi) stil özellikleri
 ```
 
 **Sonuç:**
-![Screenshot_5](assets/Screenshot_5.jpg)
+![Screenshot_5](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_5.jpg)
 
 Yukarıda `<div></div>` elementine CSS özelliği ekledik fakat altındaki elementler (child elementleri) de bu özelliğe sahip oldu.
 
@@ -151,7 +153,7 @@ Bir id’yi sadece bir HTML elementi üzerinde kullanabiliriz.
 ```
 
 **Sonuç:**
-![Screenshot_6](assets/Screenshot_6.jpg)
+![Screenshot_6](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_6.jpg)
 
 Aşağıdaki **yanlış** bir kullanımdır!
 
@@ -172,5 +174,4 @@ Aşağıdakiler **yanlış** kullanımlardır.
 Böyle kullanımlar geçerli **değildir.**
 
 ## Kaynaklar
-
 - [W3Schools](https://www.w3schools.com)
