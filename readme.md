@@ -4,7 +4,7 @@ Taskforce ile amacımız topluluk destekli ve açık kaynaklı eğitim içerikle
 
 ## Nasıl destek olabilirsin
 
-İçeriklerimizi geliştirmemize yardım etmek mi istiyorsun? Bunu yapmak çok basit. Buradan içerik oluşturma şablonumuzu inceleyebilirsin ve sen de önerdiğin içerikleri bize *Pull Request* yaparak gönderebilirsin. Ardından içerikler takımımız tarafından incelenecek ve eğer onaylanırsa ama branch'e eklenecek! (Buradan *Pull Request nasıl yapılır?* yazımıza göz atabilirsin.)
+İçeriklerimizi geliştirmemize yardım etmek mi istiyorsun? Bunu yapmak çok basit. Buradan içerik oluşturma şablonumuzu inceleyebilirsin ve sen de önerdiğin içerikleri bize *Pull Request* yaparak gönderebilirsin. Ardından içerikler takımımız tarafından incelenecek ve eğer onaylanırsa branch'e eklenecek! (Buradan *Pull Request nasıl yapılır?* yazımıza göz atabilirsin.)
 
 **Elbette destek olmanın başka yolları da var!**
 
