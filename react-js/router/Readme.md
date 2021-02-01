@@ -225,7 +225,7 @@ const Contact = ({ match }) => {
 
 Yukarıda gördüğümüz üzere, Contact component'inde match objesinden gelen id'nin hangi kişiye karşılık geldiğini bularak render ediyoruz.
 
-
+Yukarıdaki projenin repository'sine [buradan](https://github.com/Kodluyoruz/react-router-example) ulaşabilirsiniz.
 
 
 
