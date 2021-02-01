@@ -68,7 +68,7 @@
 #### Videolar
 1. https://www.youtube.com/watch?v=upECElpfgck
 
-### [Açıklama Satırları Oluşturmak](aciklama-satirlari-olusturmak/)
+### [Açıklama Satırları Oluşturmak](aciklama-satirlari-olusturmak/)
 #### Sorular
 1. Yok
 
