@@ -2,7 +2,7 @@
 
 3 farklı malzemeyle bir hamburger oluşturabildiğimiz bu küçük projede context-api pratiği yapacağız.
 
-![burger-builder](figures/burger-builder.png)
+![burger-builder](https://github.com/Kodluyoruz/taskforce/raw/react/react-js/burger-builder-context/figures/burger-builder.png)
 
 ### Proje Nasıl Çalıştırılır
 
