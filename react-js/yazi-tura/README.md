@@ -2,7 +2,7 @@
 
 Yalnızca bir madeni paraya ihtiyaç duyulan, oldukça kolay oynanabilecek ve dünyanın hemen her yerinde yaygın olan yazı tura oyununu React ile yapalım.
 
-![yazi-tura](figures/yazi-tura.gif)
+![yazi-tura](https://github.com/Kodluyoruz/taskforce/raw/react/react-js/yazi-tura/figures/yazi-tura.gif)
 
 ### Proje Nasıl Çalıştırılır
 
