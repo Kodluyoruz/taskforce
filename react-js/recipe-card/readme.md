@@ -17,5 +17,7 @@ Card component'i içerisindeki placeholder text olarak verilen yerlerin props ol
 
 ### Not
 1. Şu anda food image Card component'i içerisinde import edilerek görüntülenmektedir. Food adlı image'ın da prop olarak geleceği şekilde düzenleyiniz.
-
 2. Örnek olması açısından author prop olarak geçilmiştir. Card component'inde profile adlı `<div>` içerisindeki `<span>` author prop'unun ilk harfini alacak şekilde render edilmiştir.
+
+**[Proje Repository](https://github.com/Kodluyoruz/recipe-card)**
+
