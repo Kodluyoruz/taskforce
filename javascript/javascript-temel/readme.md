@@ -23,7 +23,7 @@
 - [Karşılaştırma Operatörleri ve Mantıksal Operatörler](karsilastirma-operatorleri-ve-mantiksal-operatorler/)
 - [Koşul Yapısı Kullanımı (if / else)](kosul-yapisi-kullanimi-(if-else)/)
 - [Çoklu Koşul Yapısı Kullanımı](coklu-kosul-yapisi-kullanimi/)
-- [Ternary Operatör ( Koşul ? Doğruysa : Yanlışsa) ile If Kullanımı](ternary-operator(-kosul-dogruysa-yanlissa)-ile-if-kullanimi/)
+- [Ternary Operatör ( Koşul ? Doğruysa : Yanlışsa) ile If Kullanımı](ternary-operator-kosul-dogruysa-yanlissa-ile-if-kullanimi/)
 
 #### Fonksiyonlar ####
 - [Fonksiyon Nedir? Neden Kullanırız?](fonksiyon-nedir-neden-kullaniriz/)

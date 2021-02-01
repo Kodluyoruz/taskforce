@@ -227,7 +227,7 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 1. https://www.youtube.com/watch?v=LtuzpDY7ngU
 	- Kod bloklarımızı çalıştırırken birden fazla veya iç içe geçmiş koşul yapılarını kullanmamız gerekebilir. Bu videoda; if/else/else if bloklarının çoklu nasıl kullanılabileceğini hep birlikte inceleyelim.
 
-### [Ternary Operator( koşul ? doğruysa : yanlışsa) ile If Kullanımı](ternary-operator(-kosul-dogruysa-yanlissa)-ile-if-kullanimi/)
+### [Ternary Operator( koşul ? doğruysa : yanlışsa) ile If Kullanımı](ternary-operator-kosul-dogruysa-yanlissa-ile-if-kullanimi/)
 
 #### Sorular
 1. `console.log(boolean)` bize hangi çıktıyı verir ?
@@ -249,13 +249,11 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 - NaN
 2. `console.log(permission)` bize hangi çıktıyı verir 
 ```javascript
-
        let age = 24;
-
-let permission = (age >= 18) ? "Giriş yapabilirsiniz." : "Giriş 	 yapamazsınız.";
+       let permission = (age >= 18) ? "Giriş yapabilirsiniz." : 
+       "Giriş yapamazsınız.";
 
        console.log(permission);
-       
 ```
 - true
 - "Giriş yapabilirsiniz." (doğru)
