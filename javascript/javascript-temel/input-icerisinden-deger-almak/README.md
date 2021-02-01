@@ -1,4 +1,4 @@
-# İnput İçerisinden Değer Almak
+# Input İçerisinden Değer Almak
 
 Bu yazımızda input içerisinden değer almayı inceleyeceğiz. Öncelikle input oluşturmak ile başlayalım.
 
@@ -14,11 +14,11 @@ myInput.setAttribute("id", "inputumuz");
 myInput.setAttribute("type","text");
 myInput.setAttribute("value","Buraya Yazın");
 ````
-Böylece input ve özellikleri oluşturuldu.Şimdi HTML içine bu inputu yerleştiriyoruz.
+Böylece input ve özellikleri oluşturuldu. Şimdi HTML içine bu input'u yerleştiriyoruz.
 
 1.adım
 
-Body içine bir div oluşturalım.(Daha sonra inputu buraya atayacağız.)
+Body içine bir div oluşturalım.(Daha sonra input'u buraya atayacağız.)
 ````javascript
 var myDiv = document.createElement("div"); 
    
@@ -27,20 +27,18 @@ var myDiv = document.createElement("div");
 
 2.adım
 
-appendChild fonksiyonu ile inputu bu div'e ekleyelim.
+appendChild fonksiyonu ile input'u bu div'e ekleyelim.
 ````javascript
 myDiv.appendChild(myInput);
 ````
 
-## Input değerini alma
+## Input Değerini Alma
 
 
-Artık inputumuz oluştu ve değerini alabiliriz.
+Artık input'umuz oluştu ve değerini alabiliriz.
 ````javascript
 var inputDeger = document.getElementById("inputumuz").value;
 ````
-
-
 
 
 Değeri alert olarak ekranda göstermek için;
@@ -50,7 +48,7 @@ window.alert(inputDeger)  // Değerimiz burada yazacak
 
  ## Alıştırmalar
 
-## 1-Bir input oluşturup yanına ekleyeceğimiz buton ile butona tıkladığımızda değerimiz alt satırda alalım.
+1. Bir input oluşturup yanına ekleyeceğimiz buton ile butona tıkladığımızda değerimiz alt satırda alalım.
 
  ````html
  <!DOCTYPE html>
@@ -67,7 +65,7 @@ window.alert(inputDeger)  // Değerimiz burada yazacak
 
 </body>
 </html>
-````
+ ````
 
 ````javascript
  function myFunction(){
@@ -78,9 +76,9 @@ window.alert(inputDeger)  // Değerimiz burada yazacak
 
  [1.Alıştırmayı Denemek İçin Tıklayın](https://codepen.io/tugayturk/pen/wvzyoVG)
 
- ## 2-Bir validation form oluşturup e-mail,yaş ve isim bilgilerini standartlara uygun şekilde alalım.
+2. Bir validation form oluşturup e-mail, yaş ve isim bilgilerini standartlara uygun şekilde alalım.
 
- 
+
 ```` Html
  <!DOCTYPE html>
 <html>
@@ -136,58 +134,9 @@ function sampleFunction() {
 
 [2.Alıştırmayı Denemek için Tıklayın](https://www.bitdegree.org/learn/best-code-editor/javascript-input-example-2)
 
+ ## Kaynaklar 
+- https://www.w3schools.com/  
 
-## Soru-1
-Hangisi aşağıda bulunan input için değerini almaya yarayacak yöntemlerden biri değildir ?
-
-````HTML
-<input type="text" id="myInput" value="myValue">
-````
-````HTML
-A) document.getElemenById("myInput).value
-
-B) var x = document.getElemenById("myInput);
-   x.value ;
-   
-C) document.createElement("value")
-````
-
-## Soru-2
-Aşağıdakilerden hangisi butonun içindeki değeri almaya yarar?
-
-````HTML
-First Name: <input type="text" id="myText" value="Mickey">
-
-<p>Click the button to display the value of the value attribute of the text field.</p>
-
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
-````
-````HTML
-A) function myFunction() {
-    var x = document.getElementById("myText").value;
-    document.getElementById("demo").innerHTML = x;
-}
-
-B) function myFunction() {
-    var x = document.getElementById("myText");
-    document.getElementById("demo").innerHTML = x;
-}
-
-C) function myFunction() {
-    var x = document.querySelectorAll("myText").value;
-    document.getElementById("demo").innerHTML = x
- ````
-
-Cevap 1: C
-
-Cevap 2 :A
-
-
- ## Kaynak1 : https://www.w3schools.com/  
- ## Kaynak2 : https://www.bitdegree.org/learn/best-code-editor/javascript-input-example-2
-
- İsmail Tugay Türk
+- https://www.bitdegree.org/learn/best-code-editor/javascript-input-example-2
 
 

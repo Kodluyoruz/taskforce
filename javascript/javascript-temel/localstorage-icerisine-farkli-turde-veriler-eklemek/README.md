@@ -1,9 +1,9 @@
-# Local Storage İçine Farklı Türde Veriler Eklemek
+# LocalStorage İçine Farklı Türde Veriler Eklemek
 
 ```bash
 let user = "kodluyoruz" 
 localStorage.setItem('userInfo', user)
-``` 
+```
 
 User objesini localStorage'de tutmak için setItem() fonksiyonu yukarıdaki gibi kullanılabilir. localStorage içindeki görüntüsü aşağıda verilmiştir. Ancak daha kompleks objeler için bu kod satırı yetersizdir. 
 
@@ -12,7 +12,7 @@ User objesini localStorage'de tutmak için setItem() fonksiyonu yukarıdaki gibi
  ```bash
 let userStatus = {userName: 'kodluyoruz', isActive: true}
 localStorage.setItem('user', userStatus)
-``` 
+ ```
 Yukarıdaki komutun localStorage içerisindeki karşılığı aşağıdaki gibidir. 
 
 ![user-complex](./images/user-complex.png)
@@ -23,11 +23,11 @@ Bunun sebebi localStorage içindeki bilgilerin key: value şeklinde, yalnızca s
  ```bash
 let userStatus = {userName: 'kodluyoruz', isActive: true}
 localStorage.setItem('user', JSON.stringify(userStatus))
-``` 
+ ```
 
 ![user-complex](./images/user-complex-fixed.png)
 
-### LocalStorage'den veri alma 
+### LocalStorage'den Veri Alma 
 LocalStoragede değişkenler string olarak tutulduğundan, localStoragedan user objesini almak istediğimizde userName ve isActive değerlerine erişemeyiz. Stringify işlemini geri almak için parse() metodu kullanılabilir. 
 
 ![user-complex](./images/localStorage-getItem-parse.png)

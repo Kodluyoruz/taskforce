@@ -6,12 +6,12 @@
 ## Event Listener ile Çalışmak 
 
  Event oluşumu öncelikle nesnenin seçimi ile başlar.Bir butona tıklandığında tıklandı uyarısı ekrana uyarı(alert) olarak ekrana yazdırabiliriz.
- 
-   ### 1.method
-   
-   
+
+   ### 1. Metot
+
+
       Kullanım :
-    
+
   ```javascript
       element.addEventListener(event, function);
       // id =button olan nesne seçildi
@@ -23,19 +23,15 @@
              alert("Buton Tıklandı");
        })
   ```
-  
-  
+
+
       Çıktı : Buton Tıklandı
-      
-      
-      
-  ### 2.method
-   
+
+  ### 2. Metot
+
  Fonksiyon etkinlik parametresi olarak da çalışabilmektedir.Burada parametre olan "event" i bir değişkene atayıp hedef etkinlik  tanımlandıktan sonra butona basıldıgında hangi butonun tıklandıgı bilgisine ulaşılabilmektedir
-    
-    
      Kullanım: 
-     
+
    ```javascript
       element.addEventListener(event, functionName);
 
@@ -48,15 +44,15 @@
             alert("Buton Tıklandı!!!")
       }
      
-   ```  
-      
+   ```
+
        Çıktı : Buton Tıklandı!!!
-       
+
 ## Mouse Etkinliği
 
  Mouse tıklaması ile gerçekleşen etkinliktir.
- 
- 
+
+
   ```javascript
     //id=text olan buton çağrıldı
     //dblclick=çift tıklama etkinliği nesneye atandı,fonksiyon ismi parametre olarak tanımlandı
@@ -68,21 +64,16 @@
     document.getElementById("text").innerHTML = "NEW FORM";
     }
   ```
-   
-   
-    codepen uygulama linki:
-    
-    
-   [codepen](https://codepen.io/gurkankirmaci/pen/bGwvjvB/)
 
-   
-   
+
+    Codepen uygulama linki:
+
+   [Codepen](https://codepen.io/gurkankirmaci/pen/bGwvjvB/)
+
 ## Klavye Etkinlikliği
-   
+
  Klavyeden herhangi bir tuşa tıklanması sonucu gerçekleşen etkinliklerdir.
- 
- 
- 
+
   ```javascript 
       //id=fname olan nesne çağrılarak keyboard değişkenine atandı
       const keyboard =document.querySelector('#fname');
@@ -92,20 +83,15 @@
       function cuttingFunction(event){
       console.log("etkinlik tipi: " , event.type)
       } 
-  ```   
-    
-    
+  ```
+
+
     //console ekranı : etkinlik tipi: cut
-   
-   
-   
-   
+
+
 ## Form Etkinlikleri
-   
+
  Örnek bir selectBox:
-      
-      
-       
    ```Html
         <form action="#" id="selectColor">
           <label for="color">Choose a color</label>
@@ -118,13 +104,9 @@
             </select>
             <br><br>
           <input type="submit" value="Submit">
-        </form>
-   ``` 
-  
-     
-     
-     
-     
+        </form>   
+   ```
+
   ```javascript 
          //id=select olan nesne çağrılarak color değişkenine atandı
          const color = document.querySelector("#select");
@@ -136,37 +118,31 @@
           console.log("Etkinlik tipi : " + event.type);
           console.log("deger : " + event.target.value);
          }
- ``` 
+  ```
 
-   
+
     //Selectbox içinde "blue" değerini seçtiğimiz takdirde;
     //ekran çıktısı: Etkinlik tipi : change, deger : blue
-    
-    
-
-
 
 
 ## Kabarcıklanma Etkinliği(Event Bubbling) ve Yakalama Etkinliği(Event Capturing)
-   
+
 ### 1.Kabarcıklanma Etkinliği(Event Bubbling)
 
 
  İç içe elementlerde ,örneğin üzerine tıklanan bir eleman kendisini kapsayan elemanıda yazar.Adeta bir sabun köpürmesi mantıgıyla dıştaki hedef elemente kadar ilerler.Buna event bubbling denir.İçten dısa bir aktarım söz konusudur
- 
+
    Kullanım şekli : 
-   
+
    ```javascript 
    element.addEventListener(event, function);
    ```
-   
+
    Örnekte event parametresi "click" etkinliği almaktadır.
    function parametresi ise fonksiyonun ismini veya fonksiyonun kendisini almaktadır.
- 
+
  Örnek Form:
-  
- 
-  
+
    ```Html
              <div class="container">  
                <div><p id="text">SUBMIT FORM </p> </div>
@@ -189,9 +165,9 @@
                    <br><br>
                 </form>
               </div>
-  ```  
-     
-     
+   ```
+
+
  ```javascript 
     
    //iç içe elementler çağrıldı  
@@ -206,159 +182,50 @@
     console.log("form"); })
    cerceve.addEventListener('click',function(){
       console.log('cerceve');})
-```  
- 
+ ```
 
-
-
-
- Burada class=container olan div elementi içerisinde 3 farklı "id" numarası olan elementler bulunmaktadır.Container kapsayan küme, diğer elementler ise bu küme içerisindeki ayrık kümelerdir.Dolayısıyla diğer üç elemente tıklandığında class=container olan div elementini tutan cerceve değişkeni, tıklanan elementi tutan değişken ile ekrana yazılacaktır.Örneğin form elementine tıklandığında;
+ Burada class=container olan div elementi içerisinde 3 farklı "id" numarası olan elementler bulunmaktadır. Container kapsayan küme, diğer elementler ise bu küme içerisindeki ayrık kümelerdir. Dolayısıyla diğer üç elemente tıklandığında class=container olan div elementini tutan cerceve değişkeni, tıklanan elementi tutan değişken ile ekrana yazılacaktır. Örneğin form elementine tıklandığında;
 ekran çıktısı:  form 
                 cerceve 
 seklinde olacaktır.
 
 
-
-
 ### 2.Yakalama Etkinliği(Event Capturing)
 
- İç içe elementlerde,örneğin üzerine tıklanan bir eleman kendisinin içindeki elemanıda yazar.Kabarcıklanma etkinliğinin tam tersi şeklinde çalısır. Hedef dıştan içe doğrudur.Bir önceki örnekteki çıktının tam tersi olarak ;
-ekran çıktısı:  cerceve 
-                form 
-seklindedir.
+ İç içe elementlerde,örneğin üzerine tıklanan bir eleman kendisinin içindeki elemanıda yazar. Kabarcıklanma etkinliğinin tam tersi şeklinde çalısır. Hedef dıştan içe doğrudur.Bir önceki örnekteki çıktının tam tersi olarak ;
+ekran çıktısı cerceve form seklindedir.
 
  Kullanım şekli :
- 
- 
- 
+
   ```javascript 
    element.addEventListener(event, function, useCapture);
   ```
 
-
- 
  useCapture parametresi "True" ve "False" değerleri almaktadır.Diğer tüm kullanımı kabarcıklanma etkinliği ile aynıdır.
 
 ### event.stopPropagation()
 
  Bir etkinliğin özelliğini durdurmak için kullanılır.Bir fonksiyon parametresi olarak girilen "event" e bu etkinlik atanarak kullanılır.
- 
+
   Kullanımı:
-  
+
   ```javascript 
   event.stopPropagation();
   ```
-  
+
 ### event.preventDefault()
 
  Bir HTML elementinin varsayılan eylemini tamamen engellemek için bu eylem kullanılır.Bir fonksiyon parametresi olarak girilen "event" e bu etkinlik atanarak kullanılır. 
-  
-  
+
+
   Kullanımı:
-  
+
   ```javascript 
   event.preventDefault();
   ```
-  
- 
-  
-  
-  ## SORULAR
-  
-  1.Soru
-  
-  
-  ```Html
-       <div id="text">
-        <div>
-        <input id="input" placeholder="write">
-        <div id="output" style="background-color:orange ;width:60%"> çıktı </div>
-       </div>
-      </div>
-  ```
- 
-  
-   ```javascript 
-     let input = document.getElementById('input');
-     let output = document.getElementById('output');
 
-     input.addEventListener('?', function(event) {
-     output.innerText = event.target.value.split('').join('');
-     });
-     
-   ```
-   
-   
-   
-   
-   Soru işaretli kısmımda hangi DOM etkinliği kullanılmalıdır?
-   
-     a- click
-     b- input
-     c- keypress
-     d- select
-     
-     **cevap:input**
-     
-     
-  2.Soru 
-  
-  
-  ```Html
-      <div id="yellow"></div>
-      <div id="purple"></div>    
-  ```
-  
-  
-  
-  
-  
-  ```css 
-    
-    #yellow, #purple {
-    width:70px;
-    height:70px;
-    border-radius:50%;
-    margin:15px;
-     }
+  ## Kaynaklar
 
-    #yellow{
-      background-color:yellow;
-    }
-
-    #purple{
-      background-color:rebeccaPurple;
-    }
-    
-  ```
-   
-   
-   
-    
-   ```javascript 
- 
-     let yellowball = document.getElementById("yellow");
-     let purpleBall = document.getElementById("purple");
-
-     yellowball.x = function() {
-     purpleBall.style.backgroundColor = "yellow";
-     }
-     
-   ```
-   
-    
-    x olan kısıma hangi DOM etkinliği atanmalıdır ?
-    
-     a- open
-     b- currentTarget
-     c- play
-     d- onclick
-     
-     **cevap:onclick**
-     
-  ### Kaynaklar
-  
-   [javascript.info](https://javascript.info/)
-   [eloquentjavascript](https://eloquentjavascript.net/)
-   [speakingjs](http://speakingjs.com/es5/index.html)
-    
+- [javascript.info](https://javascript.info/)
+- [eloquentjavascript](https://eloquentjavascript.net/)
+- [speakingjs](http://speakingjs.com/es5/index.html)

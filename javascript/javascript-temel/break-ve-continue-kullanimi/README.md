@@ -1,23 +1,21 @@
-### break ve continue döngülerde sıklıkla kullandığımız önem arz eden ifadelerimizdendir. Döngüye müdahale etmemizi ve akışı kontrol etmemizi sağlarlar.
+# Break ve Continue Kullanımı
+
+Break ve continue döngülerde sıklıkla kullandığımız önem arz eden ifadelerimizdendir. Döngüye müdahale etmemizi ve akışı kontrol etmemizi sağlarlar.
 
 
 1. Break:
-break ifadesi içinde bulunduğu döngüyü sonlandırmak diğer bir deyişle döngüden çıklması hizmetini sunar.Bu hususta öneminin yeniden vurgulanması gereken  nokta **"break"** ifadesinin sadece kendine en yakın yani içinde bulunduğu döngü içerisinde geçerli oluşudur.----> İç içe döngüler örneğinde daha net anlaşılacaktır.
+break ifadesi içinde bulunduğu döngüyü sonlandırmak diğer bir deyişle döngüden çıkılması hizmetini sunar. Bu hususta öneminin yeniden vurgulanması gereken  nokta **"break"** ifadesinin sadece kendine en yakın yani içinde bulunduğu döngü içerisinde geçerli oluşudur.----> İç içe döngüler örneğinde daha net anlaşılacaktır.
 
-2. Etiketli Break:Etiketli break ifadeleri ise başına konulduğu döngü sistemini sonlandırır.
+2. Etiketli Break:
 
-
-
-
-
-
+   Etiketli break ifadeleri ise başına konulduğu döngü sistemini sonlandırır.
 
 3. Continue :
-continue ifadesi ise bulunduğu döngü içinde o anki çalışacak olan  devir işlemini pas geçerek bir sonraki devir işlemini başlatır.Yine burda da vurgulanması gereken nokta **"continue"** ifadesinin sadece kendine en yakın yani içerisinde bulunduğu döngü içinde geçerli oluşudur.
+  Continue ifadesi ise bulunduğu döngü içinde o anki çalışacak olan  devir işlemini pas geçerek bir sonraki devir işlemini başlatır. Yine burada da vurgulanması gereken nokta **"continue"** ifadesinin sadece kendine en yakın yani içerisinde bulunduğu döngü içinde geçerli oluşudur.
 
+4. Etiketli Continue: 
 
-
-4. Etiketli Continue:Etiketli continue ifadeleri ise başına konulduğu döngü sistemini etkiler.
+   Etiketli continue ifadeleri ise başına konulduğu döngü sistemini etkiler.
 
  ```javascript
 // 1-) break için basit örnek
@@ -41,7 +39,7 @@ for (var i = 0; i <= 10; i++) {
   console.log("i:" + i);
 }
 console.log("Döngüden çıkıldı");
-```
+ ```
 
  ```javascript
 //İç içe döngü örneği
@@ -82,6 +80,4 @@ gec_etiketi: for (var i = 0; i <=5; i++) {
   }
   
 }
-
-
-
+ ```

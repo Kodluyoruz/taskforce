@@ -1,5 +1,11 @@
 # Çoklu Koşul Yapısı Kullanımı
-JavaScript'te if... else koşul yapısındaki koşulların arttığı durumlarda kod okunabilirliğini artırmak ve daha performanslı sayılabilecek bir yapı olan **switch** yapısı tercih edilebilir. Switch yapısı belirli bir değere göre hangi kodun çalıştırılacağını yönetmek için kullanılır. Bir switch yapısı tanımlarken **switch** keywordunu kullanırız ve ardından parantez içerisinde bir değer ya da değişken tanımlarız. Sonrasında switch ile birlikte açılan blok içerisinde yerine getirilmesi gereken koşulları **case** ifadeleriyle birlikte tanımlayabiliriz, tanımlanmış her bir case etiketinden sonra **:** koymalıyız. Case tanımlamalarından sonra çalışmasını istediğimiz deyimleri belirtebiliriz. Program akışında switch ifadesine verilmiş değeri sağlayan case etiketine geçerek ilgili deyimleri çalıştıracaktır, bu kontrol switch ifadesine verilmiş değerlerin tanımlanmış case etiketleri ile değer ve tip kontrolünün (===) otomatik tip dönüşümü olmadan yapılmasıdır. Aşağıda switch yapısının nasıl tanımlanabileceğini görebilirsiniz sonrasında dört işlem örneğiyle konuyu pekiştirelim.
+JavaScript'te if-else koşul yapısındaki koşulların arttığı durumlarda kod okunabilirliğini artırmak ve daha performanslı sayılabilecek bir yapı olan **switch** yapısı tercih edilebilir.
+
+Switch yapısı belirli bir değere göre hangi kodun çalıştırılacağını yönetmek için kullanılır. Bir switch yapısı tanımlarken `switch` keywordunu kullanırız ve ardından parantez içerisinde bir değer ya da değişken tanımlarız. Sonrasında `switch` ile birlikte açılan blok içerisinde yerine getirilmesi gereken koşulları **case** ifadeleriyle birlikte tanımlayabiliriz, tanımlanmış her bir case etiketinden sonra `:` koymalıyız. 
+
+Case tanımlamalarından sonra çalışmasını istediğimiz deyimleri belirtebiliriz. Program akışında switch ifadesine verilmiş değeri sağlayan case etiketine geçerek ilgili deyimleri çalıştıracaktır, bu kontrol switch ifadesine verilmiş değerlerin tanımlanmış case etiketleri ile değer ve tip kontrolünün (===) otomatik tip dönüşümü olmadan yapılmasıdır. 
+
+Aşağıda switch yapısının nasıl tanımlanabileceğini görebilirsiniz sonrasında dört işlem örneğiyle konuyu pekiştirelim.
 
 ```javascript
 switch(ifade) {
@@ -13,7 +19,8 @@ switch(ifade) {
     // kod bloğu
 }
 ```
-Şimdi switch yapısıyla bir örnek yapalım. Tanımlanmış **hava** değişkenine bağlı olarak konsola ilgili hava durumu için öneriler yazdıralım. Switch ifadesinde tanımlamış olduğumuz case etiketleri; _Yağmurlu, Güneşli, Bulutlu, Karlı_ ve _Fırtınalı_ şeklinde olsun.
+
+Şimdi switch yapısıyla bir örnek yapalım. Tanımlanmış `hava` değişkenine bağlı olarak konsola ilgili hava durumu için öneriler yazdıralım. Switch ifadesinde tanımlamış olduğumuz case etiketleri; *Yağmurlu, Güneşli, Bulutlu, Karlı ve Fırtınalı* şeklinde olsun.
 
 ```javascript
 let hava = "Gunesli";
@@ -36,13 +43,17 @@ switch(hava) {
       console.log("Bilinmeyen hava durumu:" , hava);
 }
 ```
-Eğer switch ifadesine verilmiş değer herhangi bir case etiketi ile eşleşmezse **default (geçerli)** etiketine geçilecek ve ilgili deyimler çalışacaktır. Koşulu sağlayan bir case etiketinin deyimleri çalıştıktan sonra program akışında **break** ifadesiyle karşılaşana kadar diğer case etiketlerinin deyimleri de çalışacaktır. Yukarıdaki örnekte _Gunesli_ case etiketi için önce konsola _"Hafif giyin"_ yazdırıldı. Ardından break ifadesi ile karşılaşılmadığı için sonraki _Bulutlu_ etiketine geçildi ve konsola _"Disari cik"_ yazdırıldı.
+Eğer switch ifadesine verilmiş değer herhangi bir case etiketi ile eşleşmezse **default (geçerli)** etiketine geçilecek ve ilgili deyimler çalışacaktır. 
+Koşulu sağlayan bir case etiketinin deyimleri çalıştıktan sonra program akışında `break` ifadesiyle karşılaşana kadar diğer case etiketlerinin deyimleri de çalışacaktır. 
+
+Yukarıdaki örnekte *Gunesli* case etiketi için önce konsola *"Hafif giyin"* yazdırıldı. Ardından *break* ifadesi ile karşılaşılmadığı için sonraki *Bulutlu* etiketine geçildi ve konsola *"Disari cik"* yazdırıldı.
 
 Akış diyagramı üzerinden switch yapısının nasıl çalıştığını inceleyebilirsiniz.
 
 ![Switch Akış Diyagramı](figures/switch-akis-diyagrami.png)
 
-Bir başka örnekte **islem** adında bir name fonksiyon ifadesi (function expression) tanımladık, bu fonksiyon ifadesi 3 parametre alıyor. 1. ve 2. parametreler işlem yapılacak sayılar ve 3. parametre string olarak yapılacak işlemdir. Switch yapısında tanımlanmış olan case etiketlerinde yapmak istediğimiz işlemleri tanımlıyoruz. Bu fonksiyonun işlem sonucunda bir değer döndürmesini istedik, sonrasında ilgili işlemler için sonuçları konsola yazdırdık.
+**Bir başka örnek:**
+**islem** adında bir name fonksiyon ifadesi (function expression) tanımladık, bu fonksiyon ifadesi 3 parametre alıyor. 1. ve 2. parametreler işlem yapılacak sayılar ve 3. parametre string olarak yapılacak işlemdir. Switch yapısında tanımlanmış olan case etiketlerinde yapmak istediğimiz işlemleri tanımlıyoruz. Bu fonksiyonun işlem sonucunda bir değer döndürmesini istedik, sonrasında ilgili işlemler için sonuçları konsola yazdırdık.
 
 ```javascript
 let islem = function(a, b, operator) {
@@ -68,7 +79,7 @@ console.log(islem(23, 14, 'topla'));  // 37
 console.log(islem(10, 3, 'mod'));     // Tanimlanmamis islem
 ```
 
-## KAYNAKLAR
+## Kaynaklar
 1. https://eloquentjavascript.net/1st_edition/appendix1.html
 2. https://medium.com/front-end-weekly/switch-case-if-else-or-a-lookup-map-a-study-case-de1c801d944
 3. https://necatiergin2019.medium.com/switch-deyimi-3133d90074a9

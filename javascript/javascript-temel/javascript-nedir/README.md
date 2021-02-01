@@ -1,59 +1,39 @@
 # JavaScript Nedir?
 
-<p align="center">
-	<img alt="JavaScript Logo" src="figures/javascript-logo.png" width="300">
-	<br>
-</p>
+![JavaScript Logo](figures/javascript-logo.png)
 
 JavaScript, kısaltılmış haliyle JS, high-level (0 ve 1'larden oluşan makine dilinden farklı olarak günlük yaşamdaki konuşma diline yakın olan yüksek seviyeli programlama dili), sıklıkla just-in-time compiled (program başladığı anda kodun makine diline çevrildiği) ve multi-paradigm (birden fazla programlama paradigmasını bünyesinde barındıran, böylelikle spesifik bir problemin çözümünde o dile özgü tekil bir paradigmanın sınırları içinde kalıp zorlanmak yerine çözüme yönelik uygun programlama metodolojisinin seçilerek, minimum maliyetle maksimum verim alınmasına yönelik programlama (tasarım) konsepti)'dir.
 
 JavaScript prototip-tabanlı, dinamik türlere ve birinci-sınıf fonksiyonlara sahip bir betik dilidir. Nesne yönelimli, imperatif ve fonksiyonel programlama prensiplerine sahiptir.
 
-> Not: JavaScript ile Java farklı dillerdir.
+**JavaScript ile Java farklı dillerdir.**
 
-<p align="center">
-	<img alt="Java-JavaScript" src="figures/java-javascript.png" width="300">
-	<br>
-</p>
+![Java-vs-JavaScript](figures/java-javascript.png)
 
 JavaScript ve Java arasında; isimleri, yazım şekli ve standart kütüphanelerindeki benzerlikler dışında bir bağlantı yoktur ve iki dilin semantikleri çok farklıdır. JavaScript'in yazım şekli C programlama dilinden türetilmiş, semantiği ve tasarımı ise Self ve Scheme programlama dillerinden esinlenmiştir. JavaScript isminin kaynağından, JavaScript'in Tarihi bölümünde bahsedeceğiz.
 
----
-
 ## HTML, CSS ve JavaScript (Web'in temel taşları)
 
-<p align="center">
-	<img alt="HTML CSS JS" src="figures/www-core-html-css-js.png" width="500">
-	<br>
-</p>
+![Html-Css-Js](figures/www-core-html-css-js.png)
 
-HTML ve CSS ile birlikte JavaScript, World Wide Web'in (kısaca WWW veya Web) temel üç öğesinden biridir. Yaygın olarak web tarayıcılarında kullanılmakta olan JavaScript ile yazılan istemci tarafı betikler sayesinde tarayıcının kullanıcıyla etkileşimde bulunması, tarayıcının kontrol edilmesi, asenkron bir şekilde sunucu ile iletişime geçilmesi ve web sayfası içeriğinin değiştirilmesi gibi işlevler sağlanır.
+HTML ve CSS ile birlikte JavaScript, World Wide Web'in (kısaca WWW veya Web) **temel üç öğesinden** biridir. Yaygın olarak web tarayıcılarında kullanılmakta olan JavaScript ile yazılan istemci tarafı betikler sayesinde tarayıcının kullanıcıyla etkileşimde bulunması, tarayıcının kontrol edilmesi, asenkron bir şekilde sunucu ile iletişime geçilmesi ve web sayfası içeriğinin değiştirilmesi gibi işlevler sağlanır.
 
 Aşağıda yer alan görseldeki gibi HTML bir web sitesinin iskeletini yani ana yapısını oluşturmakta, CSS bu ana yapıya görsellik ve şekil vermekte, JavaScript ise yapının fonksiyonel olarak çalışmasını sağlar.
 
-<p align="center">
-	<img alt="Website Structure" src="figures/website-structure.jpg" width="500">
-	<br>
-</p>
+![Website Structure](figures/website-structure.jpg)
 
-> JavaScript, her Front-end ve Web yazılımcısının, HTML ve CSS ile birlikte bilmesi gereken bir dildir.
+**JavaScript, her Front-end ve Web yazılımcısının, HTML ve CSS ile birlikte bilmesi gereken bir dildir.**
 
-JavaScript kodları, HTML ve CSS gibi doğrudan tarayıcı tarafından çalıştırılmazlar. Tarayıcılarda yerleşik halde bulunan JavaScript motoru (JavaScript Engine) sayesinde, JavaScript kodları makine diline çevirir ve çalıştırır. Günümüzde internet sitelerinin %95'inden fazlası JavaScript kullanmakta ve modern tüm internet tarayıcıları yerleşik JavaScript Motoru barındırmaktadır.
+JavaScript kodları, HTML ve CSS gibi doğrudan tarayıcı tarafından çalıştırılmazlar. Tarayıcılarda yerleşik halde bulunan JavaScript motoru (JavaScript Engine) sayesinde, JavaScript kodları makine diline çevirir ve çalıştırır. Günümüzde internet sitelerinin **%95**'inden fazlası JavaScript kullanmakta ve modern tüm internet tarayıcıları yerleşik JavaScript Motoru barındırmaktadır.
 
 En çok kullanılan tarayıcalardaki JavaScript Motorları, Chrome, Opera ve Edge'de V8, Firefox'da SpiderMonkey, Safari'de Nitro, Internet Explorer'da Chakra'dır.
-
----
 
 ## JavaScript'in Tarihi
 
 ### Başlangıç ve İsim
-
 Mosaic Web Browser'ın yazılım ekibinin önemli isimleri Mosaic şirketinden ayrılarak, Netscape isimli şirketi kurmuşlar ve 1994 yılında Netscape Navigator adındaki, yayınlandındıktan sonra oldukça geniş kitleye ulaşan internet tarayıcısını geliştirmişlerdir. O yıllarda statik olan internet sayfalarını interaktif hale getirebilmek amacıyla Sun Microsystems ile Java dilinin ve ekibi aldıkları Brenden Eich ile de Scheme dilini tarayıcıya yerleşik hale getirmek için çalışmalara başlamışlardır. Kısa bir süre sonra Netscape yönetimi, en iyi seçimin söz dizimi Java'ya benzeyen ve Scheme ile diğer script dillerine benzemeyen bir dil geliştirilmesi olduğuna karar vermiş ve bu görevi Brenden Eich'a vermişlerdir. Önce Mocha ardından da LiveScript isimlerini alan bu yeni dil, Eylül 1995'de Navigator'un yeni sürümünde yer bulmuş, üç ay sonra ise ismi o dönem çok popüler olan Java dilinin popülerliğinden yararlanmak amacıyla ismi JavaScript olarak değiştirilmiştir.
 
-<p align="center">
-	<img alt="Brenden Eich" src="figures/brenden-eich.jpg" width="400">
-	<br>
-</p>
+![Brenden Eich](figures/brenden-eich.jpg)
 
 ### ECMAScript'in Ortaya Çıkışı
 
@@ -78,24 +58,22 @@ ECMAScript 4 üzerinde ciddi bir çalışma yapılmasına rağmen asla tamamlana
 11. ES2020 / ECMAScript 2020 (Haziran 2020)
 ```
 
----
+**JavaScript sadece tarayıcılarda çalışmakla sınırlı değildir.**
 
-## JavaScript Sadece Tarayıcılarda Çalışmakla Sınırlı Değil
+## JavaScript Kullanım Alanları
 
 JavaScript'in Tarihi konusunda da belirteceğimiz gibi, JavaScript'in ortaya çıkış amacı siteleri interaktif ve fonksiyonel hale getirmekti. Ancak ECMA Standartı ile birlikte hızla değişen ve gelişen JavaScript, yazılımcıların talepleri doğrultusunda sürekli üzerine koyarak ve yeni bir dönem başlatan Node.js'in geliştirilmesiyle, oldukça önemli güncellemeler de alarak her alanda kullanabilecek bir dil haline geldi. Böylece tüm dünyanın en çok kullanılan yazılım dili olarak son yıllarda hep ilk sıralarda yer edinmeyi başardı.
 
-```
-JavaScript'in kullanılabileceği alanlar:
+**JavaScript'in kullanılabileceği alanlar:**
+
 - Front-end
 - Back-end
 - Mobil (Mobile)
 - Masaüstü (Desktop)
 - Oyun (Game)
 - Makine Öğrenmesi, Derin Öğrenme ve Yapay Zeka (Machine Learning, Deep Learning & Artificial Intelligence)
-```
 
-### Front-end Alanında JavaScript
-
+### Front-End Alanında JavaScript
 JavaScript, Front-end tarafında ilk yıllarında olduğu gibi yalın olarak bir diğer ismiyle Vanilla JavaScript olarak kullabildiği gibi geliştirilen birçok farklı kütüphane (library) ve çatı (framework) ile de kullanabilmektedir. Son yıllarda ortaya çıkan başarılı kütüphane ve çatılar neticesinde, yalın JavaScript kullanımı azalsa da bu kütüphane ve çatıların temelini JavaScript oluşturduğu için, kesinlikle öğrenilmesi gerekmektedir.
 
 En çok kullanılan JavaScript Front-end teknolojileri aşağıdaki görselde yer almaktadır. Bunlar soldan sağa doğru; Angular, React, Vue, Ember ve Svelte'dir.
@@ -105,8 +83,7 @@ En çok kullanılan JavaScript Front-end teknolojileri aşağıdaki görselde ye
 	<br>
 </p>
 
-### Back-end Alanında JavaScript
-
+### Back-End Alanında JavaScript
 <p align="center">
 	<img alt="Node.js logo" src="figures/nodejs-logo.png" width="400">
 	<br>
@@ -162,9 +139,5 @@ En çok kullanılan JavaScript Makine Öğrenmesi, Derin Öğrenme ve Yapay Zeka
 	<br>
 </p>
 
-
----
-
-#### Kaynak:
-
-[Wikipedia](wikipedia.org)
+## Kaynaklar:
+- [Wikipedia](https://wikipedia.org)

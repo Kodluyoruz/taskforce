@@ -1,30 +1,11 @@
 
 # Object ve Array Destructuring Kullanımı
 
-## Sorular
-
-* [```let [,pronoun,,name]=["Merhaba","benim","adım","Mehmet"];``` yapısına göre console.log(pronoun) ve console.log(name) çıktısı sırasıyla aşağıdakilerden hangisidir?]
-  * Merhaba-adım
-  * benim-Mehmet (Doğru)
-  * adım-benim
-  * Merhaba-Mehmet
-* [```let person={name: "Selin",city:"Ankara",favoriteColor:"aqua blue"}; let {name:foo}=person;``` yapısına göre console.log(foo)hangi çıktıyı verir? ]
-  * Undefined
-  * Hata verir
-  * foo
-  * Selin (Doğru)
-
-# Destructuring nedir?
-
-
+## Destructuring Nedir?
 
 ![resimesim](figures/js.jpg)
 
-
-
 Destructuring bir obje veya bir array içinden her bir elemanın alınıp bir değişken içine kaydedilmesi.
-
-
 
 Bu şekilde bir objemiz olduğunu düşünelim;
 
@@ -70,11 +51,7 @@ const cikarma = ( { sayi2, sayi1 } ) => { // Siralama farkli
 
 artık fonksiyon içinde obje propertyleri kullanılabilir.
 
-
-
-# Destructuring yapan fonksiyona gönderilen obje eksik property içeriyor ise ne olacak?
-
-
+## Destructuring Yapan Fonksiyona Gönderilen Obje Eksik Property İçeriyor İse Ne Olacak?
 
 Çıkarma işlemi için problem değil ama bölme işlemi için bu bir problem. Örneğin;
 
@@ -90,8 +67,6 @@ bolme(sayilar); // NaN yani 'Not a Number' donecektir.
 
 işte bu örnekte `bolme` fonksiyonunda güzelce destructuring yaptık, `sayi1` ve `sayi2`'yi parçalayıp birbirine böldük. Bölme işleminde sıralama önemli ama ayni zamanda ikinci sayı 0 veya hiçbir şey içermeyen `null` veya `undefined` olursa bölme işlemi tanımsız olur. Bu durumda da fonksiyon `NaN` döner.
 
-
-
 Fonksiyonu çağıran geliştiricinin böyle bir hata yapmasının önüne geçmek için fonksiyon içinde olmazsa olmaz, mutlaka değer içermesi gereken değişkenlere **default** yani varsayılan bir değer atayabiliriz.
 
 ```javascript
@@ -106,9 +81,7 @@ bolme(sayilar); // ama bu sefer sonuc 8, NaN degil
 
 Burada yine ikinci sayıyı unuttuk ama bu sefer destructuring sırasında olmazsa olmaz ikinci sayıya varsayılan olarak `1` değerini atadık. Artık göndermesek bile `sayi2` her zaman `1` olacaktır ve `sayi1`'in belirsiz bir sayıya bölünmesi hatasından kurtulmuş olacağız.
 
-# Peki fazladan gönderdiğimiz bu değerlere ne oluyor?
-
-
+## Peki Fazladan Gönderdiğimiz Bu Değerlere Ne Oluyor?
 
 Destructuring sırasında açıkça belirmediğimiz değer fonksiyon içinde erişilemez. Örneğin burada fonksiyon parametresinde `sayi2`'ye varsayılan değer atamayı geç komple destructure yapmayı unuttuk.
 
@@ -127,9 +100,7 @@ Bu durumda `ReferenceError: sayi2 is not defined` yani sayı iki tanımlanmamı�
 
 Bu durum bu örnekteki gibi iki tane değer içeren objelerde problem değil ama eğer obje birçok değer içeriyor ise bu hata çok kez yapılan bir hata. Bu noktada **spreading operator** imdadımıza yetişiyor.
 
-
-
-# Rest operator
+## Rest Operator
 
 Örneğin fonksiyonumuz ikiden fazla değer alması gerekiyor ise ne olacak? Örneğin bir toplama fonksiyonumuz var bu fonksiyon 5 sayıyı toplayacak.
 
@@ -171,16 +142,10 @@ toplama(sayilar); // 39 doner
 
 Yani burada `{sayi1, sayi2, ...args}` ile diyoruz ki `sayi1` ve `sayi2` destructure olsun ama geri kalanlar `args` değişkende obje olarak kalsın yani args `{ sayi3: 7, sayi4: 9, sayi5: 11 }` seklinde bir obje kalır ve bu obje destructuringden arta kalan değerleri içeren bir objedir.
 
-
-
 Bir obje içindeki tüm değerleri de `for...in` ile teker teker dolaşabilir. `for...in` seklinde oluşturduğumuz döngü yani `for (let sayi in args)` satiri der ki `args` içindeki tüm propertylerin **key**lerini dön bana. Bu döngüdeki `sayi` değişken her bir property için bize `sayi3` , `sayi4`, `sayi5` string anahtarını döner. Ama biz anahtar değil de değerleri almak istersek `args[sayi]` yazabiliriz. bu bize teker teker `7`, `9`, `11` sayılarını dönecektir ve toplama işlemine bunu bir döngüde dahil edebiliriz.
 
 Elbette gerçek hayat için mantıklı bir işlem değil bu ama spreading özelliğinin anlaşılması için böyle bir fonksiyon yazılabilir. hatta `for...in` yerine `map()` veya `reduce()` fonksiyonları kullanarak bu örnek daha da iyi hale getirilebilir.
 
-
-
-# Kaynaklar
+## Kaynaklar
 
 - JavaScript Destructin Hikayesi  [medium.com/@emrahday](https://medium.com/@emrahday/javascriptde-destructuring-hikayesi-bf5884ed1fa5)
-
-
