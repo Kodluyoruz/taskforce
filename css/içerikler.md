@@ -13,12 +13,11 @@
 	- text-transform
 	- word-spacing
 3. "kodluyoruz.css" adlı bir css dosyasını html sayfasına dahil etmek için en uygun seçenek aşağıdakilerden hangisidir?
-	
-	- <head> <link rel="stylesheet" type="text/css" href="kodluyoruz.css"> </head> (doğru)
-- <body> <link rel="stylesheet" type="text/css" href="kodluyoruz.css"> </body>
-- <head> <link rel="stylesheet" type="text/css" href="kodluyoruz"> </head>
-- <head> <link type="text/css" href="kodluyoruz.css"> </head>
-- 
+	- `<head> <link rel="stylesheet" type="text/css" href="kodluyoruz.css"> </head>` (doğru)
+	- `<body> <link rel="stylesheet" type="text/css" href="kodluyoruz.css"> </body>`
+	- `<head> <link rel="stylesheet" type="text/css" href="kodluyoruz"> </head>`
+	- `<head> <link type="text/css" href="kodluyoruz.css"> </head>`
+
 ### Video
 1. https://www.youtube.com/watch?v=ZhVPut2OTeY
 	- Bu videoda; CSS'in bir stil şablonu olduğunu, CSS ile birlikte neler yapabileceğimizi ve CSS'in bir HTML sayfasını nasıl etkilediğini anlattık.
@@ -49,8 +48,8 @@
 </body>
 </html>
 ```
-	-  Internal
-	-  Inline (Doğru)
+	- Internal
+	- Inline (Doğru)
 	- Float
 	- External
 
@@ -67,10 +66,10 @@
 
 ### Sorular
 1. Aşağıdakilerden hangisi doğru bir kullanımdır?
-	- title#{color:blue;}
-	- title#{color:blue;}
-	- .title{color:green;} (Doğru)
-	- title{color:pink;}
+	- `title#{color:blue;}`
+	- `title#{color:blue;}`
+	- `.title{color:green;}` (Doğru)
+	- `title{color:pink;}`
 2. Aşağıdaki ifadelerden hangisi yanlıştır?
 	- Bir html elementi birden fazla class'a sahip olabilir.
 	- Bir html elementi sadece bir id'ye sahip olabilir.
@@ -95,10 +94,10 @@
  color:green;
  }
 ```
-	- https://raw.githubusercontent.com/Kodluyoruz/taskforce/css/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_8.jpg
-	- https://raw.githubusercontent.com/Kodluyoruz/taskforce/css/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_7.jpg (D)
-	- https://raw.githubusercontent.com/Kodluyoruz/taskforce/css/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_9.jpg
-	- https://raw.githubusercontent.com/Kodluyoruz/taskforce/css/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_10.jpg
+	- ![A Şıkkı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/css/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_8.jpg)
+	- ![B Şıkkı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/css/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_7.jpg) (D)
+	- ![C Şıkkı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/css/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_9.jpg)
+	- ![D Şıkkı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/css/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_10.jpg)
 
 ### Videolar
 1. https://www.youtube.com/watch?v=BvaZdSDImeY
