@@ -1,5 +1,9 @@
 # JavaScript Temel INDEX
 
+#### Kurulum süreçleri
+- [Kullanılacak Tüm Dökümanlar](kullanilacak-tum-dokumanlar/)
+- [Node.js Kurulumu](node-kurulumu/)
+
 #### JavaScript Nedir? ####
 - [JavaScript Nedir?](javascript-nedir/)
 - [Birçok Platformda Hello World ve Hello World'ün Önemi](helloworld/)
@@ -24,20 +28,24 @@
 - [Koşul Yapısı Kullanımı (if / else)](kosul-yapisi-kullanimi-(if-else)/)
 - [Çoklu Koşul Yapısı Kullanımı](coklu-kosul-yapisi-kullanimi/)
 - [Ternary Operatör ( Koşul ? Doğruysa : Yanlışsa) ile If Kullanımı](ternary-operator-kosul-dogruysa-yanlissa-ile-if-kullanimi/)
+- [Koşullarla Çalışmak - Bölüm Sonu Egzersizi](kosullarla-calismak-bolum-sonu-egzersizi/)
 
 #### Fonksiyonlar ####
 - [Fonksiyon Nedir? Neden Kullanırız?](fonksiyon-nedir-neden-kullaniriz/)
 - [Fonsiyona Parametre (params) ve Geridönüş (return) Eklemek](fonsiyona-parametre(params)-ve-geridonus(return)-eklemek/)
 - [Fat Arrow () => Fonksiyonu Kullanımı](fat-arrow-fonksiyonu-kullanimi/)
 - [DOM Etkinlikleriyle Çalışmak](dom-etkinlikleriyle-calismak/)
+- [Fonksiyonlar - Bölüm Sonu Egzersizi ](fonksiyonlar-bolum-sonu-egzersizi/)
 
 #### localStorage ####
 - [LocalStorage ile Veri Eklemek, Düzenlemek ve Silmek](localstorage-ile-veri-eklemek-duzenlemek-ve-silmek/)
 - [LocalStorage içerisine Farklı Türde Veriler Eklemek](localstorage-icerisine-farkli-turde-veriler-eklemek/)
+- [localStorage - Bölüm Sonu Egzersizi](localstorage-bolum-sonu-egzersizi/)
 
 #### Form ####
 - [Form ve Form Submit Yönetimi](form-ve-form-submit-yonetimi/)
 - [Input içerisinden Değer Almak](input-icerisinden-deger-almak/)
+- [Formlarla Çalışmak - Bölüm Sonu Egzersizi](formlarla-calismak-bolum-sonu-egzersizi/)
 
 #### Dizi(Array) Veri Tipiyle Çalışmak ####
 - [Dizi (Array) Oluşturmak ve Dizi İçindeki Elemanlara Ulaşmak](dizi(array)-olusturmak-ve-dizi-i̇cindeki-elemanlara-ulasmak/)
@@ -64,5 +72,5 @@
 
 #### Fetch API ####
 - [Fetch API ile Çalışmak](fetch-api-ile-calismak/)
-
-
+- [To-Do Uygulaması](todo-uygulamasi/)
+- [Testimonial Uygulaması](testimonial-uygulamasi/)
