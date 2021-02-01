@@ -50,7 +50,7 @@ Yukarıdaki örnekte *Gunesli* case etiketi için önce konsola *"Hafif giyin"* 
 
 Akış diyagramı üzerinden switch yapısının nasıl çalıştığını inceleyebilirsiniz.
 
-![Switch Akış Diyagramı](figures/switch-akis-diyagrami.png)
+![Switch Akış Diyagramı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/coklu-kosul-yapisi-kullanimi/figures/switch-akis-diyagrami.png)
 
 **Bir başka örnek:**
 **islem** adında bir name fonksiyon ifadesi (function expression) tanımladık, bu fonksiyon ifadesi 3 parametre alıyor. 1. ve 2. parametreler işlem yapılacak sayılar ve 3. parametre string olarak yapılacak işlemdir. Switch yapısında tanımlanmış olan case etiketlerinde yapmak istediğimiz işlemleri tanımlıyoruz. Bu fonksiyonun işlem sonucunda bir değer döndürmesini istedik, sonrasında ilgili işlemler için sonuçları konsola yazdırdık.

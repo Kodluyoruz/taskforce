@@ -62,7 +62,7 @@ let payload = {
 ```
 
 Aşama aşama fetch().then().then().catch() yapısı:
-![Resim 1 - fetch( ).then( ).catch( ) diyagramı](./figures/fetch-diagram.jpg)
+![Resim 1 - fetch( ).then( ).catch( ) diyagramı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/fetch-api-ile-calismak/figures/fetch-diagram.jpg)
 
 Peki bu kod bloğu nasıl çalışır? Şimdi aşama aşama inceleyelim:
 
@@ -113,9 +113,8 @@ fetch("https://jsonplaceholder.typicode.com/users")
 .catch((err)=>console.log(err));
 ```
 
-
 Console’da göreceğiniz sonuç aşağıdaki gibi olmalı:
-![Cevap 1 Console Çıktısı](./figures/fetch-result-1.png)
+![Cevap 1 Console Çıktısı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/fetch-api-ile-calismak/figures/fetch-result-1.png)
 
 ### Uygulama 2
 
@@ -131,7 +130,7 @@ Not: Önce kendiniz yazmaya çalışın. Yapamazsanız cevaba bakabilirsiniz:
 ```
 
 Console’da göreceğiniz sonuç aşağıdaki gibi olmalı:
-![Cevap 2 Console Çıktısı](./figures/fetch-result-2.png)
+![Cevap 2 Console Çıktısı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/fetch-api-ile-calismak/figures/fetch-result-2.png)
 
 ## Kaynaklar
 

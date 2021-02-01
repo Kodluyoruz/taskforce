@@ -250,8 +250,7 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 2. `console.log(permission)` bize hangi çıktıyı verir 
 ```javascript
        let age = 24;
-       let permission = (age >= 18) ? "Giriş yapabilirsiniz." : 
-       "Giriş yapamazsınız.";
+       let permission = (age >= 18) ? "Giriş yapabilirsiniz." : "Giriş yapamazsınız.";
 
        console.log(permission);
 ```
@@ -440,10 +439,11 @@ softwareQuestion("Cemre","nodejs");
 ### [localStorage ile Veri Eklemek, Düzenlemek ve Silmek](localstorage-ile-veri-eklemek-duzenlemek-ve-silmek/)
 
 #### Sorular
-1. LocalStorage ve SessionStorage'da hangi veriler saklanmalıdır? Bunlara kimler erişebilir? Erişildiğinde düzenleme yapılabilir mi?
-	- Cevap: LocalStorage'da güvenlik ihlaline sebep olmayacak ve önem arz etmeyen veriler saklanmalıdır. Bunlara hem tarayıcı üzerinden kullanıcı hemde erişim izni verildi ise üçüncü parti programlar erişebilir veya düzenleme yapabilir.
+1. LocalStorage ve SessionStorage'da hangi veriler saklanmalıdır? Bunlara kimler erişebilir? Erişildiğinde düzenleme yapılabilir mi? **(Soru Eklenemedi)**
+  - Cevap: LocalStorage'da güvenlik ihlaline sebep olmayacak ve önem arz etmeyen veriler saklanmalıdır. Bunlara hem tarayıcı üzerinden kullanıcı hemde erişim izni verildi ise üçüncü parti programlar erişebilir veya düzenleme yapabilir.
 2. LocalStorage ve SessionStorage'a JavaScript üzerinden değilde başka bir yoldan veri eklemek, düzenlemek veya silmek mümkünmüdür?
-	- Verileri tarayıcı üzerinden ekleyip çıkarmak veya üzerinde düzenleme yapmak mümkündür.
+  - Verileri tarayıcı üzerinden ekleyip çıkarmak veya üzerinde düzenleme yapmak mümkündür. (Doğru)
+  - Verileri tarayıcı üzerinden ekleyip çıkarmak veya üzerinde düzenleme yapmak mümkün değildir.
 
 #### Video
 1. https://www.youtube.com/watch?v=VYbkY1RK6mc
@@ -742,7 +742,7 @@ console.log(birey.merhabaDe(birey.yasHesapla()));
 - "Merhaba, ben Ali Veli, 32 yaşındayım" (Doğru)
 - "Merhaba, ben Ali Veli, undefined yaşındayım"
 - Hiçbir çıktı olmayacaktır.
-3. Aşağıdakilerden hangisi fonksiyon kurucu yöntemiyle tanımlanmış bir Araba sınıfına, konsole "Korna Sesi" yazısını bastıran bir korna fonksiyonunu eklemek için kullanılabilir : 
+3. Aşağıdakilerden hangisi fonksiyon kurucu yöntemiyle tanımlanmış bir araba sınıfına, konsola "Korna Sesi" yazısını bastıran bir korna fonksiyonunu eklemek için kullanılabilir? 
 - A) 
 ```jsx
 Araba.__proto__.korna = "Korna Sesi";Araba.prototype.korna = "Korna Sesi";
