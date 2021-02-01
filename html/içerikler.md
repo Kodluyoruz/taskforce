@@ -50,7 +50,7 @@
 #### Videolar
 1. https://www.youtube.com/watch?v=bMZ4-DTuM3c
 
-### [VS Code ile Çalışmak ve İlk HTML Sayfasının Web Tarayıcıda Gösterilmesi](vs-code-ile-calismak-ve-i̇lk-html-sayfasinin-web-tarayicida-gosterilmesi/)
+### [VS Code ile Çalışmak ve İlk HTML Sayfasının Web Tarayıcıda Gösterilmesi](vs-code-ile-calismak-ve-i̇lk-html-sayfasinin-web-tarayicida-gosterilmesi/)
 
 #### Sorular
 1. Aşağıdakilerden hangisinde HTML dosyasının ismi doğru yazılmıştır?
@@ -69,6 +69,8 @@
 1. https://www.youtube.com/watch?v=upECElpfgck
 
 ### [Açıklama Satırları Oluşturmak](aciklama-satirlari-olusturmak/)
+#### Sorular
+1. Yok
 
 #### Videolar
 1. https://www.youtube.com/watch?v=pYvDbbw12Cw
@@ -104,7 +106,7 @@
 #### Videolar
 1. https://www.youtube.com/watch?v=l2TKu8k-GGw
 
-###[Emmet ile Daha Hızlı HTML Yapıları Oluşturmak](emmet-ile-daha-hizli-html-yapilari-olusturmak/)
+### [Emmet ile Daha Hızlı HTML Yapıları Oluşturmak](emmet-ile-daha-hizli-html-yapilari-olusturmak/)
 
 #### Sorular
 1. `ul` tagı altında `item1 ,item2, item3, item4` classlarına sahip 4 adet `li` tagı oluşturmak istersek aşağıdakilerden hangisini yapmalıyız?
@@ -155,20 +157,23 @@
 
 #### Sorular
 1. Hangisi tıklanabilir ve geçerli bir bağlantıdır?
-	- <a href="https://www.kodluyoruz.org/"></a>
-	- <a href="https://www.kodluyoruz.org/">Siteye git</a> (Doğru)
-	- <a href="">Siteye git</a>
-	- <a href="wwww.kodluyoruz.org/">Siteye git</a>
+	- `<a href="https://www.kodluyoruz.org/"></a>`
+	- `<a href="https://www.kodluyoruz.org/">Siteye git</a>` (Doğru)
+	- `<a href="">Siteye git</a>`
+	- `<a href="wwww.kodluyoruz.org/">Siteye git</a>`
 2. Hangi seçenekte doğrudan mail adresine yönlendirme linki bulunmaktadır?
-	- <a href="mail:info@kodluyoruz.org">E-posta</a>
-	- <a href="mailto:info@kodluyoruz.org">E-posta</a> (Doğru)
-	- <a href="info@kodluyoruz.org">E-posta</a>
-	- <a href="mail:infokodluyoruz.org">E-posta</a>
+	- `<a href="mail:info@kodluyoruz.org">E-posta</a>`
+	- `<a href="mailto:info@kodluyoruz.org">E-posta</a>` (Doğru)
+	- `<a href="info@kodluyoruz.org">E-posta</a>`
+	- `<a href="mail:infokodluyoruz.org">E-posta</a>`
 
 #### Videolar
 1. https://www.youtube.com/watch?v=dVO_-_ny-FM
 
 ### [Blok Elemenler ve Inline Elementlerle Çalışmak](blok-elemenler-ve-inline-elementlerle-calismak/)
+#### Sorular
+1. Yok
+
 #### Videolar
 1. https://www.youtube.com/watch?v=nJaJ0wvwpA8
 
@@ -191,7 +196,6 @@
 1. https://www.youtube.com/watch?v=dvocbvfVDpI
 
 ### [İskeletinin Genel Yapısını Anlamak](i̇skeletinin-genel-yapisini-anlamak/)
-
 #### Sorular
 1. Aşağıdakilerden hangisi `<head>` kısmı arasında yer almaz?
 	- title
@@ -208,23 +212,33 @@
 1. https://www.youtube.com/watch?v=ZB0-ma7ILQU
 
 ### [Semantic(Anlamlandırılmış) HTML Etiketleri Kullanımı](semanticanlamlandirilmis-html-etiketleri-kullanimi/)
+#### Sorular
+1. Yok
 
 #### Videolar
 1. https://www.youtube.com/watch?v=iHuHfcogXtQ
 
-### [Diğer HTML Etiketleri Hakkında](diger-html-etiketleri-hakkinda/)
+### [Diğer HTML Etiketleri Hakkında](diger-html-etiketleri-hakkinda/)
+#### Sorular
+1. Yok
 
 #### Videolar
 1. https://www.youtube.com/watch?v=_mZ8cHxVCiI
 
-## Alıştırmalar & Ödevler
+## Alıştırmalar & Ödevler
+#### Sorular
+1. Yok
 
 ### [Bölüm Sonu Çalışması](bolum-sonu1/)
+#### Sorular
+1. Yok
 
 #### Video
 1. https://www.youtube.com/watch?v=hLixmw3Qhds
 
 ### [Bölüm Sonu Çalışması 2](bolum-sonu2/)
+#### Sorular
+1. Yok
 
 #### Video
 1. https://www.youtube.com/watch?v=AgUa1cMUEVk
