@@ -1,6 +1,6 @@
 # React.JS INDEX
 
-#### Fundamental topics ####
+#### Fundamental Topics ####
 - [Create React App](create-react-app/)
 - [JSX](jsx/)
 - [Rendering Elements](rendering-elements/)
@@ -10,8 +10,8 @@
 - [Props Children](props-children/)
 - [Event Handling](event-handling/)
 - [Conditional Rendering](conditional-rendering/)
-- Ödev 2 - Yazı Tura
-- Ödev 3 - Todo App
+- [Ödev 2 - Yazı Tura](yazi-tura/)
+- [Ödev 3 - Todo App](todo-app/)
 - [Component Lifecycle](component-lifecycle/)
 - Fragments
 - [Lists and Keys](list-and-keys/)
@@ -22,11 +22,11 @@
 - [Introduction to Hooks](basic-hooks/)
 - [Hooks](hooks/)
 - [Hooks örneği - Hesap makinesi](hooks-hesap-makinesi/)
-- Ödev 4 - Shopping Cart
+- [Ödev 4 - Shopping Cart](shopping-cart/)
 
 #### Context API ####
 - [Context API](context-api/)
-- Ödev 5 - Shopping Cart Advanced
+- [Ödev 5 - Burger Builder](burger-builder-context/)
 
 #### Advanced Topics ####
 -  [Refs](refs/)
