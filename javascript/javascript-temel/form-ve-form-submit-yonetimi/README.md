@@ -118,7 +118,7 @@ Tarayıcıda saat gösterimini sağlayan tipdir. hh.mm varsayılan formatında g
 
 Bu form ekranımızda submit ettiğimiz takdirde linkimizin değiştiğini göreceksiniz. Get methodu ile veri aktarmış olduk veriler input'un name parametresi ile taşınmış oldu. Değişen link;
 
-![methodget](figures/methotget.png)
+![methodget](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/form-ve-form-submit-yonetimi/figures/methotget.png)
 
 ### Kodumuza bir de JavaScript katalım ve bu veriyi post methodu ile tekrar gönderelim
 

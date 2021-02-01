@@ -3,7 +3,7 @@
 
 ## Destructuring Nedir?
 
-![resimesim](figures/js.jpg)
+![resimesim](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/object-ve-array-destructuring-kullanimi/figures/js.jpg)
 
 Destructuring bir obje veya bir array içinden her bir elemanın alınıp bir değişken içine kaydedilmesi.
 

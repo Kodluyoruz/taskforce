@@ -4,12 +4,12 @@ JavaScript’de tekrar eden işlemleri kodlarımızın karışıklaşmasını ö
 
 - Bunu ilk olarak psuedo kod olarak gösterebiliriz. 
 
-![orneKod](figures/psuedo.png)
+![orneKod](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/while-dongusu/figures/psuedo.png)
 
 
 Burada **while** döngüsünün yazılış şeklini gördük şimdi bunu daha gerçekçi bir durumda basitçe inceleyebiliriz. Diyelim ki bir durumda konsola 1’ den 10’a kadar sayıları sırayla yazdırmamız gerekiyor biz bu durumda **while** döngüsünü kullanarak satırlarca kod yazmaktan kurtuluruz ve okunması gayet basit bir kod yazmış oluruz.
 
-![codExample](figures/codexample.png)
+![codExample](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/while-dongusu/figures/codexample.png)
 [Codepen'de deneyebilirsiniz](https://codepen.io/Zodyrike/pen/ZqBdvL?editors=1111)
 
 **Yukarıda görmüş olduğunuz kod örneğinde 3 bölüm bulunuyor;**
@@ -24,4 +24,4 @@ Burada **while** döngüsünün yazılış şeklini gördük şimdi bunu daha ge
 - Ardından bir **while** döngüsü oluşturuyoruz ve bu döngüye araba elemanlarımızı ekliyoruz. (döngüyü sınırlandırmayı ve parametre vermeyi unutmuyoruz.) 
 -Bu işlemi önce kendi öğrendiklerimizle deneyebilir ve kodu başarılı bir şekilde yazdıktan sonra isterseniz geliştirebilir ve **array** methodlarıyla yeni arabalar ekleyebilir veya çıkartabilirsiniz Koda aşağıdaki örnekten ulaşabilirsiniz 
 
-![Egitimornek](figures/question.png)
+![Egitimornek](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/while-dongusu/figures/question.png)
