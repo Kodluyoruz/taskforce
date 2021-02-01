@@ -21,7 +21,7 @@
 #### Hooks ####
 - [Introduction to Hooks](basic-hooks/)
 - [Hooks](hooks/)
-- Hooks örneği - Hesap makinesi
+- [Hooks örneği - Hesap makinesi](hooks-hesap-makinesi/)
 - Ödev 4 - Shopping Cart
 
 #### Context API ####
