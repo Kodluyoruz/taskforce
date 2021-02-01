@@ -9,7 +9,7 @@ Ternary operator 3 adet parametre alan tek JavaScript operatorüdür. `If` kulla
 
 **Bu aşamaları görsel bir örnekle açıklayalım:**
 
-![Ternary Operator](figures/TernaryOperator.jpg)
+![Ternary Operator](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/ternary-operator-kosul-dogruysa-yanlissa-ile-if-kullanimi/figures/TernaryOperator.jpg)
 
 Gördüğümüz üzere eğer yağmur yağıyorsa `umbrella` dönecek, fakat yağmur yağmıyorsa `nothing` dönecek.
 
