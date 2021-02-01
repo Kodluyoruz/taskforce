@@ -1,11 +1,17 @@
 # Bootstrap Index
 
 ## [Bootstrap Nedir?](bootstrap-nedir/)
+### Sorular
+1. Yok
+
 ### Video
 1. https://youtu.be/Yh8DMFPjuA0
 	- Bu videoda; Bootstrap'ın tarihçesi, Bootstrap ile nasıl responsive yapılar oluşturabileceğimiz, Bootstrap'ın CSS Kütüphanesi olduğu ve diğer CSS kütüphaneleri anlatılmıştır.
 
 ## [Bootstrap 4 Dökümanlarına Ulaşmak ve Bootstrap 5 Hakkında](bootstrap-4-dokumanlarina-ulasmak-ve-bootstrap-5-hakkinda/)
+### Sorular
+1. Yok
+
 ### Video
 1. https://youtu.be/51t-r9cQRaM
 	- Eğitim boyunca Bootstrap 4 kullanacağız fakat eğitim hazırlandıktan sonra Bootstrap'in sitesi değişti ve Bootstap 5 Beta aşamasında yayınlandı. Bootstrap 4'un dokümanlarına nasıl ulaşabileceğiniz ve Bootstrap 4 ile Bootstrap 5 arasında bulunan farklar bu videoda anlatılmıştır. 
@@ -59,6 +65,9 @@ Bootstrap'in sağladığı grid system temel olarak 1) .... adet sütunu baz ala
 	- Bu videoda içeriklerin genel tutucuya eklenmesi(container) ve kolon yapısı kullanımını anlattık.
 
 ## [Bootstrap- Ekran Çözünürlüğü / Cihaz Duyarlı(Responsive) Kolon Yapısı Kullanımları](bootstrap-ekran-cozunurlugu-cihaz-duyarliresponsive-kolon-yapisi-kullanimlari/)
+- [İçerik Eksik]
+### Sorular
+1. Yok
 
 ### Video
 1. https://youtu.be/9_mdnDE5UnA
@@ -84,12 +93,16 @@ Satırlar 1) ... sınıfı kullanılarak oluşturulur ve 2) ... html kod bloğu 
 	- Bu videoda Row kullanımının önemi anlatılmıştır. Row ile istediğimiz her yapıyı tekrar 12'lik sisteme göre bölümleyebiliyoruz. Row ile oluşturduğunuz sayfaları istediğiniz gibi tekrar 12'lik grid sisteme çevirerek kullanabilirsiniz. Nasıl mı? 
 
 ## [Bootstrap Kullanarak Web Sitesi Nasıl Yapılır (Demo)](bootstrap-kullanarak-web-sitesi-nasil-yapilir-demo/)
+### Sorular
+1. Yok
 
 ### Video
 1. https://youtu.be/n4BGz5vMAJ4
 	- Bu videoda Grid sistem, Row ve Col yapısını oluşturduktan sonra nasıl Bootstrap bileşenlerini kullanabileceğiniz anlatılmıştır. 
 
 ## [Bootstrap Renk Strandartları, Tipografi, Margin ve Padding Kullanımı](bootstrap-renk-strandartlari,-tipgrafi,-margin-ve-padding-kullanimi/)
+### Sorular
+1. Yok
 
 ### Video
 1. https://youtu.be/UwF0wK7j2NQ
@@ -137,6 +150,8 @@ iv. offset sınıfı ile push sınıfı aynı işlemi uygular.
 	- Bu videoda, bootstap projelerimizde offset ile nasıl bloklar arasında boşluklar oluşturabileceğimizi anlattık. 
 
 ## [Bootstrap Sıralama Özellikleri Kullanarak Responsive Yapıya Göre Tepkilerin Düzenlenmesi](bootstrap-siralama-ozellikleri-kullanarak-responsive-yapiya-gore-tepkilerin-duzenlenmesi/)
+### Sorular
+1. Yok
 
 ### Video
 1. https://youtu.be/rZkHrSVJL3g
@@ -167,30 +182,45 @@ iv. offset sınıfı ile push sınıfı aynı işlemi uygular.
 
 
 ## [Bootstrap ile Medium Klon Çalışması- Tek Video](klon-calismasi-tek/)
+- [İçerik Eksik]
+### Sorular
+1. Yok
 
 ### Video
 1. https://youtu.be/nTs19w7JOOY
 	- Bu videoda; Bootstrap ile Medium benzeri bir sitenin nasıl oluşturulabileceğine dair proje bir çalışması yaptık.
 
 ## [Bootstrap ile Medium Klon Çalışması- Bölüm 1](klon-calismasi-bolum1/)
+- [İçerik Eksik]
+### Sorular
+1. Yok
 
 ### Video
 1. https://youtu.be/oFSCiWrv69E
 	- Bu videoda Bootstrap ile Medium benzeri bir sitenin nasıl oluşturulabileceğine dair bir proje çalışması yaptık. (Bir önceki videonun ilk kısmını içermektedir.) 
 
 ## [Bootstrap ile Medium Klon Çalışması- Bölüm 2](klon-calismasi-bolum2/)
+- [İçerik Eksik]
+### Sorular
+1. Yok
 
 ### Video
 1. https://youtu.be/xtL5ZGA4shI
 	- Bu videoda Bootstrap ile Medium benzeri bir sitenin nasıl oluşturulabileceğine dair bir proje çalışması yaptık. (Bir önceki videonun ikinci kısmını içermektedir.) 
 
 ## [Bootstrap ile Medium Klon Çalışması- Bölüm 3](klon-calismasi-bolum3/)
+- [İçerik Eksik]
+### Sorular
+1. Yok
 
 ### Video
 1. https://youtu.be/BZOcGlbejLM
 	- Bu videoda Bootstrap ile Medium benzeri bir sitenin nasıl oluşturulabileceğine dair bir proje çalışması yaptık. (Bir önceki videonun üçüncü kısmını içermektedir.) 
 
 ## [Bootstrap ile Medium Klon Çalışması- Bölüm 4](klon-calismasi-bolum4/)
+- [İçerik Eksik]
+### Sorular
+1. Yok
 
 ### Video
 1. https://youtu.be/5YOlCGOJlmI
@@ -198,6 +228,9 @@ iv. offset sınıfı ile push sınıfı aynı işlemi uygular.
 	- Bu videoda Bootstrap ile Medium benzeri bir sitenin nasıl oluşturulabileceğine dair bir proje çalışması yaptık. (Bir önceki videonun son kısmını içermektedir.) 
 
 ## [Diğer CSS Kütüphanelerine Genel Bakış](diger-css-kutuphanelerine-genel-bakis/)
+- [İçerik Eksik]
+### Sorular
+1. Yok
 
 ### Video
 1. https://youtu.be/578MJ8gCKew
