@@ -23,6 +23,10 @@
 	- Bu videoda; CSS'in bir stil şablonu olduğunu, CSS ile birlikte neler yapabileceğimizi ve CSS'in bir HTML sayfasını nasıl etkilediğini anlattık.
 
 ## [CSS - Inline CSS Nasıl Kullanılır](css-inline-css-nasil-kullanilir/)
+- [İçerik Eksik]
+### Sorular
+1. Yok
+
 ### Videolar
 1. https://www.youtube.com/watch?v=hU4CHUW_0EU
 	- Bu videoda; CSS kurallarının neler olduğunu, style oluştururken nelere dikkat edilmesi gerektiğini, Inline CSS özelliğini ve özellik değeri vererek style oluşturmayı anlattık.
@@ -31,10 +35,10 @@
 
 ### Sorular
 1. Internal yöntemi kullanırken yazdığımız CSS kodlarını hangi element içine yazmamız gerekir?
-	- ``<body>``
-	- ``<script>``
-	- ``<head>`` (Doğru)
-	- -``<footer>``
+	- `<body>`
+	- `<script>`
+	- `<head>` (Doğru)
+	- `<footer>`
 2. Aşağıda verilen kod hangi CSS yöntemi ile kullanılmıştır?
 ```html
 <!DOCTYPE html>
@@ -58,6 +62,10 @@
 	- Bu videoda; CSS kurallarının neler olduğunu, style oluştururken nelere dikkat edilmesi gerektiğini, Inline CSS özelliğini ve özellik değeri vererek style oluşturmayı anlattık. 
 
 ## [Açıklama Satırları ile Çalışmak ve Genel Font Özellikleri](aciklama-satirlari-ile-calismak-ve-genel-font-ozellikleri/)
+- [İçerik Eksik]
+### Sorular
+1. Yok
+
 ### Videolar
 1. https://www.youtube.com/watch?v=LYMK0VARbiY
 	- Bu videoda; CSS de açıklama satırı eklemeyi, açıklama satırı eklerken kullanılan klavye kısayollarını ve açıklama satırlarının neden kullanıldığını; yazı özelliklerini, boyutunu, yazının rengini ve arkaplanın nasıl belirlendiğini anlattık. Ayrıca yazı fontunu belirlemek için dış kaynaklardan nasıl yararlanabileceğinizi de gösterdik.
@@ -94,10 +102,10 @@
  color:green;
  }
 ```
-	- ![A Şıkkı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/css/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_8.jpg)
-	- ![B Şıkkı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/css/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_7.jpg) (D)
-	- ![C Şıkkı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/css/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_9.jpg)
-	- ![D Şıkkı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/css/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_10.jpg)
+  - ![A Şıkkı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/css/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_8.jpg)
+  - ![B Şıkkı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/css/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_7.jpg) (D)
+  - ![C Şıkkı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/css/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_9.jpg)
+  - ![D Şıkkı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/css/css/css-ile-class-ve-id-kullanimi/assets/Screenshot_10.jpg)
 
 ### Videolar
 1. https://www.youtube.com/watch?v=BvaZdSDImeY
@@ -138,7 +146,7 @@ color: orange;
 	- `<li>Bootstrap</li>`
 	- `<li>HTML</li>` (Doğru)
 	- `<li>CSS</li>`
-2. 
+2. Aşağıdaki kod bloğuna göre, bitişik kardeş etiketi p etiketi olan ve parentinin sınıf özelliği container olan h2 etiketine nasıl erişilir ?
 ```css
 .container > p.intro + ul > li:first-child {
 color: orange;
@@ -165,7 +173,6 @@ color: orange;
 </ul>
  </div>
 ```
-Üstteki kod bloğuna göre, bitişik kardeş etiketi p etiketi olan ve parentinin sınıf özelliği container olan h2 etiketine nasıl erişilir ?
 	- `p.intro +h2`
 	- `.container h2`
 	- `.container + h2`
@@ -178,7 +185,7 @@ color: orange;
 
 ### Video
 1. https://www.youtube.com/watch?v=iScCq-8OWSE
-	- Bu videoda; CSS seçicileri ile HTML sayfasında bulunan herhangi bir elementi veya birden fazla elementi seçerek elementin özelliklerinin değiştirilmesini anlattık. Bununla birlikte bir başlığı seçip başlığın büyüklüğünü ve rengini değiştirme veya li etiketinin first-child(ilk eleman)/last-child(son eleman) gibi yapılarının seçilerek değiştirilmesi üzerine egzersizler gerçekleştirdik. 
+	- Bu videoda; CSS seçicileri ile HTML sayfasında bulunan herhangi bir elementi veya birden fazla elementi seçerek elementin özelliklerinin değiştirilmesini anlattık. Bununla birlikte bir başlığı seçip başlığın büyüklüğünü ve rengini değiştirme veya li etiketinin first-child(ilk eleman)/last-child(son eleman) gibi yapılarının seçilerek değiştirilmesi üzerine egzersizler gerçekleştirdik.
 
 ## [CSS Kutu Özellikleri(Margin, Padding, Width, Height) Kullanımı](css-kutu-ozelliklerimargin,-padding,-width,-height-kullanimi/)
 
