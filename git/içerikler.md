@@ -76,10 +76,10 @@
 
 ### Sorular
 1. `.dll` uzantısına sahip bütün dosyaları .gitignore dosyasına eklemenin doğru kullanımı hangisidir?
-	-`/.dll`
-	-`*.dll` (Doğru)
-	-`-.dll`
-	-`!.dll`
+	- `/.dll`
+	- `*.dll` (Doğru)
+	- `-.dll`
+	- `!.dll`
 2. Hangisi veya hangilerinde .gitignore 'a dosya eklerken doğru bir format kullanılmıştır?
 	- node_modules/
 	- .vscode
@@ -114,7 +114,7 @@
 1. https://www.youtube.com/watch?v=TP2K4cx3Asw
 	- Bu videoda; birden fazla dosyanın versiyon kontrol sistemine eklenmesini, branch kullanımını ve branch yapısı arasında geçişin nasıl sağlanacağını anlattık. 
 
-#### [GitHub'a Projemizin Eklenmesi ve Diğer Repo Hosting Web Platformları](githuba-projemizin-eklenmesi-ve-diger-repo-hosting-web-platformlari/)
+## [GitHub'a Projemizin Eklenmesi ve Diğer Repo Hosting Web Platformları](githuba-projemizin-eklenmesi-ve-diger-repo-hosting-web-platformlari/)
 
 ### Sorular
 1. Aşağıdakilerden hangileri versiyon kontrol sistemine yapılan değişikliği göndermek için uygulanan doğru yoldur ?
@@ -137,7 +137,7 @@
 1. https://www.youtube.com/watch?v=lskdPhnXaQw
 	- Bu videoda; kendi bilgisayarınızda tuttuğunuz projenizi GitHub Repo Hosting sitesine nasıl atabileceğinizi, gizlilik ayarlarını nasıl yapabileceğinizi ve diğer Repo Hosting sitelerini bu videoda anlattık.
 
-#### [Markdown Nedir ? Nasıl Kullanırız ?](markdown-nedir-nasil-kullaniriz-/)
+## [Markdown Nedir ? Nasıl Kullanırız ?](markdown-nedir-nasil-kullaniriz-/)
 
 ### Sorular
 1. Tek satır kod bloğu hangi karakterler arasına yazılır?
