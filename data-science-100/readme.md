@@ -1,6 +1,6 @@
 # Veri Bilimine Giriş INDEX
 
-#### Veri Bilimine Giriş
+#### Veri Bilimine Giriş ####
 
 
 
