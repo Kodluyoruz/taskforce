@@ -4,7 +4,7 @@ Konu web tasarımı olduğunda, "Frontend" ve "Backend" en sık sözü geçen te
 
 Bu yazımızda sizlere "Frontend" kavramını daha detaylı açıklayacağız.
 
-![frontend1](figures/frontend1.png)
+![frontend1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/frontend-nedir/figures/frontend1.png)
 
 
 
@@ -12,7 +12,7 @@ Bu yazımızda sizlere "Frontend" kavramını daha detaylı açıklayacağız.
 
  Frontend, web'in görüp etkileşime girebildiğiniz kısımlarına verilen addır. Frontend genellikle web tasarımı ve web'in ön yüzünün geliştirilmesini kapsar. Web tasarımı dendiğinde; Adobe XD, Photoshop ve Sketch gibi tasarım programlarını kullanabilen, aynı zamanda da HTML, CSS, JavaScript ve JQuery ile kod yazabilen tasarımcılardan bahsedilir. Bir web sitesini kullanırken gördüğünüz her şey; HTML, CSS ve JavaScript'in, kullandığınız web tarayıcı tarafından kontrol edilmesidir. Bunun içinde de fontlar, açılır menüler, geçişler, sliderlar, iletişim formları vb. tasarımsal işler yer alır.
 
-![frontend2](figures/frontend2.png)
+![frontend2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/frontend-nedir/figures/frontend2.png)
 
 Frontend'de yer alan bu öğelere eklenen bilgilerin depolanabilmesi, yani kısaca frontend'in hayata geçebilmesi için gereken alt yapı ve teknolojiyi sağlayan ise backend'dir.
 
