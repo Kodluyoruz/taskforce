@@ -2,7 +2,7 @@
 
 Günlük, haftalık planlar yapıp bunları takip etme aşamasında kimi sadece kağıt ve kalem kullanırken kimi de sıklıkla tercih edilen todo list uygulamaları kullanır. React ile basit bir todo list uygulaması yapalım.
 
-![todo-app](https://github.com/Kodluyoruz/taskforce/raw/react/react-js/todo-app/figures/todo-app.gif)
+![todo-app](https://raw.githubusercontent.com/Kodluyoruz/taskforce/react/react-js/todo-app/figures/todo-app.gif)
 
 ### Proje Nasıl Çalıştırılır
 

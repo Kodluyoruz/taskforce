@@ -2,7 +2,7 @@
 
 Bu projede bir e-ticaret web sitesinin sunduğu en temel özelliklerden biri olan sepete ürün eklemeyi en basit haliyle uygulayacağız.
 
-![shopping-cart](https://github.com/Kodluyoruz/taskforce/raw/react/react-js/shopping-cart/figures/shopping-cart.png)
+![shopping-cart](https://raw.githubusercontent.com/Kodluyoruz/taskforce/react/react-js/shopping-cart/figures/shopping-cart.png)
 
 ### Proje Nasıl Çalıştırılır
 

@@ -199,11 +199,11 @@ Component'in DOM'dan kaldırılması esnasında çağrılır. Genellikle `compon
 
 ## SON
 
-Burada lifecycle metotların bahsettiğimiz 3 ana aşamada hangi sıralamayla çağırıldıklarını bir şema üstünde görebilirsiniz.
+Burada lifecycle metotlarının bahsettiğimiz 3 ana aşamada hangi sıralamayla çağırıldıklarını bir şema üstünde görebilirsiniz.
 
 ![lifecycle-metotlar](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/component-lifecycle/figures/lifecycle-metotlar.png)
 
-Şemayı etkileşimli şekilde görmek için [tıklayınız](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/). Ayrıca site üzerindeki kutucuğu tıklayarak daha az kullanılan lifecycle metodları da görebilirsiniz.
+Şemayı etkileşimli şekilde görmek için [tıklayınız](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/). Ayrıca site üzerindeki kutucuğa tıklayarak daha az kullanılan lifecycle metodlarını da görebilirsiniz.
 
 
 
