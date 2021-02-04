@@ -4,11 +4,11 @@
 
 Günümüzde iş hayatının Facebook'u, biznısınızın göbeği olan Linkedin çok sık kullanılmakta. Eğer bir Linkedin hesabınız yoksa hemen oluşturmanızı öneririz. Network bizim mesleğimizde ekstra daha çok önemli. Bu güzel sitenin muhteşem bir cloneunu Kodluyoruz mühendislerimiz uzun uğraşlar sonucu yapmayı başardı. Karşınızda Koyun Dolly değil Bootstrap Linkedin!
 
-![linkedin](/figures/linkedin.gif)
+![linkedin](bootstrap/odev3/figures/linkedin.gif)
 
 Yine bir vicdansızlık yaparak size temel olarak vereceğimiz projeyi şuna dönüştürdük.
 
-![garibanlinkedin](/figures/garibanlinkedin.gif)
+![garibanlinkedin](bootstrap/odev3/figures/garibanlinkedin.gif)
 
 - Navbar yukarıya sabitlenmemiş durumda ve kenarlığı yok. Bunları düzeltiniz.
 - Logoya soldan boşluk ayarlayınız.
@@ -17,7 +17,9 @@ Yine bir vicdansızlık yaparak size temel olarak vereceğimiz projeyi şuna dö
 - Menülerdeki yazıları ve ikonları ortalayın.
 - `Ben` kategorisini diğer kategori isimleri gibi düzenleyiniz ve profil fotoğrafını düzeltiniz.
 - Navbarda bir değişiklik görüyor musunuz? Navbarın yüzüne nolmuş yahu?
+
 ![nolmus](https://storia-storage.s3.us-east-1.amazonaws.com/staged/host-prod/05032019105747-1551783467.jpg)
+
 Biz de onu soruyoruz işte nolmuş?
 
 * Navbarı yukarı sabitleyince fark etmişsinizdir ki içerik biraz yukarıda kalıyor. O yüzden yukarıdan biraz boşluk bırakın.
