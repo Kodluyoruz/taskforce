@@ -10,6 +10,8 @@ Yine bir vicdansızlık yaparak size temel olarak vereceğimiz projeyi şuna dö
 
 ![garibanlinkedin](bootstrap/odev3/figures/garibanlinkedin.gif)
 
+Temel dosyalara [şuradan](/bootstraplinkedinclone) ulaşabilirsiniz.
+
 - Navbar yukarıya sabitlenmemiş durumda ve kenarlığı yok. Bunları düzeltiniz.
 - Logoya soldan boşluk ayarlayınız.
 - Arama alanına sağdan boşluk bırakınız ve placeholderını düzeltiniz.
