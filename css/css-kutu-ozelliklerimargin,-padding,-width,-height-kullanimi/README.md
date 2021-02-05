@@ -39,8 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Bu kodda `width` ve `height`'i `0` yaptım. Paragraf tuhaf bir şekilde görünecektir. Bu alıştırmada yapmanız gereken şey paragrafın düzgün görünmesi açısından `width` ve `height`'i istediğiniz şekilde kullanın. 
 Burada `width` ve `heigth`'i görmeniz için `%` ve `px` in ikisini de kullanmanızı tavsiye ediyoruz.. 
 
-Alıştırmaya [buradan](https://codepen.io/hyperborean17/pen/xxEXjYY) ulaşabilirsiniz. 
-
+Alıştırmaya aşağıdaki codepen 'den ulaşabilirsiniz.
 
 ## `margin` ve `padding`
 
@@ -90,7 +89,7 @@ padding: 10px 20px;
 
 ### Alıştırma 2-Kutu Özelliklerinin Kullanımı
 
-[Alıştırma için buraya tıklayın. Açıklama satırlarında ne yapmanız gerektiğini söyledim.](https://codepen.io/hyperborean17/pen/yLaKpJR)
+Alıştırmaya aşağıdaki codepen 'den ulaşabilirsiniz.
 
 ## Kaynaklar
 - https://css.sitesi.web.tr/css-kutu-modeli.html
