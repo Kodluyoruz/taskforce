@@ -7,7 +7,7 @@
 
 1. Frontend ile ilgili verilen bilgilerden hangisi yanlıştır?
    - Web'in görüp etkileşime girebildiğiniz kısımlarına, frontend denir.
-   - Bu alan çalışacak geliştiriciler Adobe XD, Photoshop ve Sketch gibi tasarım programlarını kullanırlar.
+   - Bu alan çalışan geliştiriciler Adobe XD, Photoshop ve Sketch gibi tasarım programlarını kullanırlar.
    - Frontend genellikle web tasarımı ve web'in ön yüzünün geliştirilmesini kapsar.
    - Bu alanda çalışan geliştiriciler Python, PHP, MySQL gibi temel araçları kullanırlar. (Doğru)
 
@@ -61,15 +61,13 @@ Senin için birkaç soru hazırladık.
 
 #### Videolar
 
-1. https://youtu.be/bWwODnfnS2A
+1. https://youtu.be/6hfOvs8pY1k
 
    - Algoritma Nedir? 
    - İzlemen için bir video paylaştık.
    
-2. https://youtu.be/lnlWdk8Peuo
-
-   -  Akış Diyagramı Nedir? 
-   -  İzlemen için bir video paylaştık.
+   
+   
 
 ### [Pseudocode](pseudocode/)
 
@@ -524,7 +522,7 @@ Senin için birkaç soru hazırladık.
    Yukarıda verilen maddelere göre Google arama hangi sırada çalışır?
 
    - i-ii-iii-iv
-   - i-ii-iv-iii
+   - i-ii-iv-iii (Doğru)
    - i-iii-ii-iv
    - i-iv-ii-iii
 
