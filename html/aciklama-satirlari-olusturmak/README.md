@@ -40,5 +40,8 @@ Aşağıdaki örnekte birden fazla HTML elementlerini tanımlayıp aralara açı
 <!--footer element bitiş-->
 ```
 
+**Aşağıda codepen kullanarak pratik yapabilirsin!**
+
 ## Kaynaklar
+
 - https://www.mehsatek.com/html-yorum-satiri-html-yorum-kodu/

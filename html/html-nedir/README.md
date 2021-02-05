@@ -33,6 +33,8 @@ Yukarıdaki kodu çalıştırdığımız zaman aşağıdaki gibi bir çıktı g�
 
 ![İlk Web Sayfamız](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/html-nedir/figures/%C4%B0lk-Web-Sayfam%C4%B1z.png)
 
+**Hemen aşağıda codepen ile deneyimleyebilirsin!**
+
 
 ## Kaynaklar
 - https://tr.wikipedia.org/wiki/HTML

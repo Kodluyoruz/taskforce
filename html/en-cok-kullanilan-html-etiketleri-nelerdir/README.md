@@ -8,8 +8,8 @@ HTML etiketi, dosya içeriğinin HTML dilinde yazıldığını tarayıcımıza b
 
 ```html
 <html>
-  <HEAD></HEAD> 
-  <BODY></BODY>
+  <head></head> 
+  <body></body>
 </html>
 ```
 
@@ -239,7 +239,8 @@ NOT: BR etiketinin farklı kullanımlarını görebilirsiniz. _örn._(`<br>`,`<b
 ```
 
 ## Button Etiketi
-```<button>``` etiketini buton oluşturmak için kullanırız. Buton üzerine yazmak istediğiniz içeriği etiketin içine yazmanız yeterlidir.
+`<button>` etiketini buton oluşturmak için kullanırız. Buton üzerine yazmak istediğiniz içeriği etiketin içine yazmanız yeterlidir.
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -273,7 +274,7 @@ Resim eklemek için`<img>` etiketini kullanıyoruz. <br>
 ```
 
 ## iframe Etiketi
-Belge içinde belge gösterebilmemizi sağlayan etikettir. Genelde başka bir sitedeki belgeyi kendi sayfamızda göstermek için kullanırız. _örn:_ Youtube'dan bir videoyu sayfamızda göstermek istersek`<iframe>``` kodlarını sayfamıza eklememiz yeterli.(video üzerinde sağ tıklayıp yerleştirme kodunu kopyala diyerek iframe kodunu kopyalayabiliriz.)
+Belge içinde belge gösterebilmemizi sağlayan etikettir. Genelde başka bir sitedeki belgeyi kendi sayfamızda göstermek için kullanırız. _örn:_ Youtube'dan bir videoyu sayfamızda göstermek istersek `<iframe>` kodlarını sayfamıza eklememiz yeterli.(video üzerinde sağ tıklayıp yerleştirme kodunu kopyala diyerek iframe kodunu kopyalayabiliriz.)
 
 ```html
 <!DOCTYPE html>
@@ -311,6 +312,7 @@ HTML dilinde yorum satırı`<!--` ile başlar `-->` ile biter.
 </html>
 ```
 
+**Aşağıda hadi bütün örneklerin olduğu codepen'i düzenlemekten değişiklikleri deneyimlemekten çekinme!**
 
- ## Kaynak
+## Kaynaklar
  - [w3schools](https://www.w3schools.com/tags/default.asp)

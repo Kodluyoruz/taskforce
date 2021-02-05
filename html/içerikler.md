@@ -16,6 +16,9 @@
 #### Videolar
 1. https://www.youtube.com/watch?v=CsRT-4sucig
 
+#### Codepen
+1. https://codepen.io/Kodluyoruz/pen/RworQRx
+
 ### [En Çok Kullanılan HTML Etiketleri Nelerdir](en-cok-kullanilan-html-etiketleri-nelerdir/)
 #### Sorular
 1. Youtube üzerinden yayınlanan bir videoyu sitemizde gösterebilmek için hangi etiketi kullanmalıyız?
@@ -114,7 +117,7 @@
 	- ul>li.item$*4 (Doğru)
 	- ul>li*4
 	- .li.item*4```
-     
+   
 2. `div` tagı altında `item` `id`'sine sahip 10 kelimelik loremleri içeren 6 adet  `p` tagı oluşturmak istersek aşağıdakilerden hangisini yapmalıyız?
 	- div>p#item$.lorem10     
 	- p.item*6.lorem
