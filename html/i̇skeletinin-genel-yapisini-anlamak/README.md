@@ -1,8 +1,6 @@
 # İskeletinin Genel Yapısını Anlamak
 
-![html](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/i%CC%87skeletinin-genel-yapisini-anlamak/figures/html.jpg)
-
-## Html sayfalarının en temel bileşenleri nelerdir ? Bir html iskeleti nasıl oluşturulur ?
+** Html sayfalarının en temel bileşenleri nelerdir ? Bir html iskeleti nasıl oluşturulur ?**
 
 Web tasarım konusunda araştırma yapan hemen herkesin karşına çıkan temel kavram **HTML**'dir. Web sayfalarını oluşturma aşamasında kullanılan standart bir metin işaret dili olan **HTML açılımı** **“Hyper Text Markup Language”** olarak bilinir. Genel bilinen yanlış kanının aksine **HTML** bir programlama dili değildir. 
 

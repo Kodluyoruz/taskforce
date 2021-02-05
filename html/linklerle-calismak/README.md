@@ -33,19 +33,17 @@ Sayfa içerisinde herhangi bir başlığa ya da bölüme gitmek için linkler ku
 
 ![sayfaici-link](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/linklerle-calismak/figures/sayfaici-link.gif)
 
-**Kod örneği:** https://codepen.io/Ebuu/pen/zYKWLLJ
-
 
 ### Website yönlendirmesinde kullanımı: 
 `a` etiketinde `href` özelliğine verilen herhangi bir websitesi adresine kolayca gidilebilir. Burada `target` özelliğini göreceğiz. Bu özellik, gitmek istediğimiz bağlantının geçerli pencerede mi yoksa yeni bir pencerede mi açılması için kullanılır. `_self` özelliği geçerli pencerede açılması içindir. Varsayılan olarak böyledir. `_blank` özelliği ise yeni bir pencerede açılması içindir. **Kodluyoruz**'un internet sitesine gidelim:
 
 ![website-link](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/linklerle-calismak/figures/website-link.gif)
 
-**Kod örneği:** https://codepen.io/Ebuu/pen/MWjVBPV
-
 ### Mail ve telefon yönlendirmesinde kullanımı: 
 `a` etiketinin `href` özelliğine verilen `mailto:` ve `tel:` özellikleri sayesinde direkt olarak herhangi bir e-mail adresine posta gönderilebilir ya da geçerli bir telefon numarası aranabilir. **Kodluyoruz**'un e-mailine gidelim ve rastgele bir numaraya gidelim.
 
-![mail-tel](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/linklerle-calismak/figures/mail-tel.gif)
+```html
+<a href="mailto:info@kodluyoruz.org">Kodluyoruz'a mail atınız.</a>
+```
 
-**Kod örneği:** https://codepen.io/Ebuu/pen/OJRvwaR
+**Yukarıda öğrendiklerinizi aşağıda deneyebilirsin!**

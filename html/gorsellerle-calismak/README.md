@@ -116,7 +116,7 @@ Resimlerinize hyperlink atamanız durumunda resmin tüm alanı link alanı halin
 </map>
 </body>
 </html>
-```
+ ```
 [Buradan](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_map2) inceleyebilirsiniz. 
 
 ## `onload` Event'i Kullanımı
@@ -124,7 +124,7 @@ Resimlerinize hyperlink atamanız durumunda resmin tüm alanı link alanı halin
 Bu olay resim yüklenmesi tamamlandığında çalışacak fonksiyonu belirler. *Herhangi bir nedenle resim yüklenemezse ya da belirtilen adreste resim yoksa fonksiyon çalışmaz.*
 Aşağıdaki örnekte resim yüklenmesi tamamlandığında `resimYuklendi()` fonksiyonu çalışacak ve ekrana **Resim Yüklendi.** uyarısı JavaScript tarafından bastırılacak. Bu konuyu ileride çok daha detaylı göreceğiz.
 
-```javascript
+```html
 <html>
     <body>
         <img src="resim.jpg" onload="resimYuklendi()" />
@@ -154,7 +154,10 @@ Tarayıcı, her bir source öğesini inceleyip eşleşme sağlar. Eşleşme bulu
 
 [Buradan](https://jsfiddle.net/a2dvm503/4/) ekran boyutunuzu değiştirerek inceleyebilirsiniz. 
 
+**Aşağıda codepen kullanarak deneyimle!**
+
 ## Kaynaklar:
+
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture
 - https://www.w3schools.com/tags/tag_img.asp
