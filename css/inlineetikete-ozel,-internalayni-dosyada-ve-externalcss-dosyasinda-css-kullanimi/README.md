@@ -35,7 +35,7 @@ Daha sonra HTML sayfamıza geri dönüyoruz ve yazdığımız bu External CSS ko
 <link rel="stylesheet" href="style.css">
 ```
 
-[Codepen'de dene.](https://codepen.io/lovelysmilee/pen/xxEYeyE)
+Aşağıda codepen ile deneyimleyebilirsiniz!
 
 ## Internal CSS Kullanımı
 Internal CSS, stil kodlarının direk HTML dosyasının içinde `<head>` bölümünde kullanıldığı bir yöntemdir. `<head>` bölümünün içinde bir `<style>` etiketi açtıktan sonra içine gerekli CSS kodlarını yazabilirsiniz. 
