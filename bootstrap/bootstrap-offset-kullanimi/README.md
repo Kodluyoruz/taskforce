@@ -62,4 +62,4 @@ Yukarıdaki örnekte sütun genişliği 8 birim, offset değeri ise sağdan 4 bi
 </div>
 ```
 
-[Codepen'de deneyin](https://codepen.io/ruysapoly/pen/gOwQrZw)
+Aşağıda codepen ile deneyimleyebilirsiniz!
