@@ -67,7 +67,7 @@ body {
 </html>
 ```
 
-[Codepen'de dene.](https://codepen.io/lovelysmilee/pen/zYKRXpx)
+**Aşağıda codepen ile deneyimleyebilirsiniz!**
 
 ## Inline CSS Kullanımı
 Inline yani satır içi stiller, doğrudan HTML kodunuzdaki herhangi bir öğeye uygulanır. Stil niteliği ve ardından normal CSS özellikleri bir HTML etiketi içinde belirtilir. Kullanımı aşağıdaki örnekte gösterildiği gibidir:
@@ -86,12 +86,12 @@ Inline yani satır içi stiller, doğrudan HTML kodunuzdaki herhangi bir öğeye
 </html>
 ```
 
-[Codepen'de dene.](https://codepen.io/lovelysmilee/pen/MWjQRQM)
+**Aşağıda codepen ile deneyimleyebilirsiniz!**
 
 Bu üç CSS özelliğinin nasıl kullanıldığını öğrendiğinize göre aşağıdaki alıştırma ve iki adet çoktan seçmeli soruyla öğrendiğiniz bilgileri pekiştirebilirsiniz. :smile:
 
-## Alıştırmalar
-Yapabileceğiniz alıştırmalar.
+## Ekstra Alıştırmalar
+Yapabileceğiniz ekstra alıştırmalar.
 - [Alıştırma 1 için tıkla.](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto2)
 - [Alıştırma 2 için tıkla.](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto3)
 - [Alıştırma 3 için tıkla.](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto4)

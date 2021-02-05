@@ -47,6 +47,8 @@ CSS teknik olarak kolaydır. Anlaşılması gereken sınırlı sayıda kural var
 
 Tasarım yönleri pazarlamaya ve UX tasarımcısına bırakılabilirken, front-end geliştiricilerin tasarımın nasıl çalıştığını anlamaları da iyidir. Tasarımcıların tümü geliştirici değildir ve bazen tarayıcıların ve piksel rehberliğinin daha ince gereksinimlerini anlamayanlarla karşılaşıyoruz. Dijital tasarımcıların stil sayfalarının inceliklerini ve potansiyel karmaşıklığını öğrenmesi gerektiği kadar, tasarım dilinde de konuşabilmelisiniz.
 
+**Yukarıda anlatılanları aşağıda codepen içerisinde deneyimleyebilirsiniz!**
+
 ## Kaynaklar
 - https://levelup.gitconnected.com/what-is-css-specificity-and-how-it-works-833bb0b3d3a
 - https://blog.isimtescil.net/css-nedir/
