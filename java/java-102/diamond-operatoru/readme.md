@@ -1,6 +1,6 @@
 # Diamond Operatörünün (<>) Kullanılması
 
-Java 7'de yeni bir özellik olarak tanıtılan diamond operatörünü JDK 7 ile kullanabiliriz. Bu operatörü kullanarak Java derleyicisinin jenerik türü otomatik olarak tespit etmesini sağlarız. Diamond operatörü, bir nesne oluştururken jeneriklerin kullanımını basitleştirir. Ayrıca, bir programdaki denetlenmemiş uyarıları önler parametre türlerinin açıkça yinelenen belirtimlerini gerektirmeyerek genel ayrıntıları azaltır.
+Java 7'de yeni bir özellik olarak tanıtılan diamond operatörünü JDK 7 ile kullanabiliriz. Bu operatörü kullanarak Java derleyicisinin jenerik türü otomatik olarak tespit etmesini sağlarız. Diamond operatörü, bir nesne oluştururken jeneriklerin kullanımını basitleştirir. Ayrıca, bir programdaki denetlenmemiş uyarıları önler ve parametre türlerinin açıkça yinelenen belirtimlerini gerektirmeyerek genel ayrıntıları azaltır.
 
 Örneğin, aşağıdaki kodu inceleyelim:
 
