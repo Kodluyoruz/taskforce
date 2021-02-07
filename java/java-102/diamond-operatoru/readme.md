@@ -49,3 +49,5 @@ Veri türü aşağıdaki gibi belirtilirse bu uyarılar kaybolacaktır:
 ```java
 List<String> arrayList = new ArrayList<>();
 ```
+
+Kaynak : https://codenuclear.com/diamond-operator-type-inference-generic-instance-creation-java/
