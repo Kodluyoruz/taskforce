@@ -13,6 +13,6 @@ Süper yetenekli mezunlarımızdan [Aycan Aleyna Yerdelen](https://www.linkedin.
 - Site içerisinde `map`, `reduce` gibi methodları kullanmanız gerekecek. Hatırlamıyorsanız [Map ile Array İçerisideki Yapının Değiştirilerek Yeni Liste Oluşturulması #38](https://www.youtube.com/watch?v=er26CndsoXE&list=PLGrTHqyRDvx6PqKkqSPwph57HNN4RWgR2&index=43) isimli videoya dönebilirsiniz.
 
 
-Proje dosyaları için [buraya](/javascript/javascript-temel/odev3/asiankitchen) tıklayabilirsiniz.
+Proje dosyaları için [buraya](https://github.com/Kodluyoruz/taskforce/tree/main/javascript/javascript-temel/odev3/asiankitchen) tıklayabilirsiniz.
 
 Hepinize başarılar ve kolay gelsin.
