@@ -1,7 +1,6 @@
 
 
 # Comparable Interface (Arayüzü)
-
 Yazılımları kodlarken bir veri kümesinin sıralanması, veri kümesinde aranan bir elemana ulaşılması gibi gereklilikler mutlaka ortaya çıkacaktır. Özellikle, veri kümesinin artan veya azalan şekilde sıralanması gibi istekleri karşılamak gerekecektir. Verileri sıralamak için <, >, == gibi operatörleri kullanabiliriz. İlkel veri tipleri zaten varsayılan olarak bu operatörlerle çalışabilir. Zaten, 5 sayısının 10’dan küçük olup olmadığını kontrol etmek basit ve mantıklıdır. Fakat, “Order” tipinde bir sınıf oluşturduğunuzu düşünün bu sınıf içinde “value” isimli değişken siparişe ait toplam ücret değerini tutuyor olsun. Sizden kullanıcının tüm geçmiş siparişlerini en yüksek değerden en küçüğe doğru sıralamanızı istediklerinde Java’da bu sıralamayı yapmak için iki araç kullanabilirsiniz. Yazılımcının tasarladığı sınıflar olsun veya Java’da kendiliğindne tanımlı sınıflar olsun. Bunlardan oluşturduğumuz nesneleri direkt olarak >, <, == ile ifadeler ile kıyaslamak anlamsız kalır. İki nesnenin neye göre büyük veya küçük olduğunu tanımlamak gerekecektir. Bu nedenle bahsettiğimiz bu iki interface bizlere sıralama yapabilmek için yardımcı olacaktır.
 
 \- Comparable Interface
@@ -165,11 +164,11 @@ public class Main {
       String str2 = new String("java");
       String str3 = new String("kodluyoruz");
       
-      //str1 sözcüğü alfabetik ortamda str2'den sonra gelir ve dolayısıyla daha büyük kabul edilir; bu    		  nedenle result'ın sayısal değeri 1 atanır.
+      //str1 sözcüğü alfabetik ortamda str2'den sonra gelir ve dolayısıyla daha büyük kabul edilir; bu nedenle result'ın sayısal değeri 1 atanır.
       int result = str1.compareTo( str2 );
       System.out.println(result); 
        
-      //str1 sözcüğü alfabetik ortamda str2'den önce gelir ve dolayısıyla daha küçük kabul edilir; bu   		  nedenle result'ın sayısal değeri -1 atanır.
+      //str1 sözcüğü alfabetik ortamda str2'den önce gelir ve dolayısıyla daha küçük kabul edilir; bu nedenle result'ın sayısal değeri -1 atanır.
       result = str2.compareTo( str3 );
       System.out.println(result);
        
