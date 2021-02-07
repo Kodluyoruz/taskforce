@@ -1,6 +1,35 @@
 # Jenerik Kısıtlamaları
 
-Jeneriklerle ilgili bası kısıtlamalar mevcuttur. Bunlardan kısaca bahsedelim.
+Jeneriklerle ilgili bazı kısıtlamalar mevcuttur. Bunlardan kısaca bahsedelim.
+
+## Primitive türlerle jenerik türler örneklenemez
+
+```java
+class Pair<K, V> {
+
+    private K key;
+    private V value;
+
+    public Pair(K key, V value) {
+        this.key = key;
+        this.value = value;
+    }
+
+    // ...
+}
+```
+
+Bir ```Pair``` nesnesi oluştururken ```K``` veya ```V``` jenerik tür parametresi için bir primitive tür kullanılamaz:
+
+```java
+Pair<int, char> p = new Pair<>(8, 'a');  // compile-time error
+```
+
+```K``` ve ```V``` jenerik tür parametreleri için yalnızca non-primitive türleri kullanabilirisiniz:
+
+```java
+Pair<Integer, Character> p = new Pair<>(8, 'a');
+```
 
 ## Jenerik türlerin bir örneği alınamaz
 
@@ -17,10 +46,11 @@ public class GenericClass<T>
     }
 }
 ```
+T çalışma zamanında mevcut olmadığından, derleyici hangi tipte nesne oluşturacağını bilemez. Bu nedenle, T'nin bir örneğini oluşturmak kurallara aykırıdır. 
 
 ## Jenerik sınıfların statik üyeleri tür parametresine erişemez
 
-Statik üyelerin sınıfların oluşmasından bağımsız olduğunu daha önce anlatmıştık. Dolayısıyla jenerik bir sınıf içindeki statik üyeler tür parametresine erişemez:
+Statik üyelerin sınıfların oluşmasından bağımsız olduğunu daha önce anlatmıştık. Bir sınıfın statik alanı, sınıfın tüm statik olmayan nesneleri tarafından paylaşılan sınıf düzeyinde bir değişkendir. Dolayısıyla jenerik bir sınıf içindeki statik üyeler tür parametresine erişemez:
 
 ```java
 public class GenericClass<T>
@@ -32,6 +62,25 @@ public class GenericClass<T>
     }
 }
 ```
+Başka bir örnek verelim:
+
+```java
+public class MobileDevice<T> {
+    private static T os;
+
+    // ...
+}
+```
+
+Eğer static üyeler tür parametresine erişiyor olsaydı, aşağıdaki kodun kafası karışırdı:
+
+```java
+MobileDevice<Smartphone> phone = new MobileDevice<>();
+MobileDevice<Pager> pager = new MobileDevice<>();
+MobileDevice<TabletPC> pc = new MobileDevice<>();
+```
+
+```os``` static alanı, ```smartphone```, ```pager``` ve ```tabletPC``` tarafından paylaşıldığı için gerçek ```os``` türü nedir? Aynı anda ```smartphone```, ```pager``` ve ```tabletPC``` olamaz. Bu nedenle tür parametrelerinde static alanlar oluşturamazsınız.
 
 ## Jenerik dizi oluşturamazsınız
 
