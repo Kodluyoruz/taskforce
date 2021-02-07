@@ -108,3 +108,5 @@ public class MyException<T> extends Exception
 ```
 
 Yukarıdaki sınıf henüz derleme aşamasında hata alır; çünkü jenerik bir hata sınıfı oluşturmaya çalışıyoruz.
+
+Kaynak : https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html
