@@ -172,3 +172,48 @@ else if(ogrOrtalama > 85 && ogrOrtalama <= 100) {
 ```
 Bu örneği [Codepen'de Deneyin.](https://codepen.io/alperceviz/pen/YzGaaXB?editors=0012) 
 
+#### Alıştırma:
+**Tahmin Oyunu**
+Bilgisayar tarafından 100 ' e kadar tutulmuş olan rastgele sayıyı bulalım:
+
+```JavaScript
+var randomSayi = Math.floor(Math.random() * 100);
+//Girdiğimiz sayıyı aklında tutması için prompt değişkene atanır
+var tahmin = prompt("Bir sayı gir ve rastgele sayıyı bulmaya çalış!");
+if (tahmin === randomSayi && tahmin != null) alert("Bildin!!!");
+else if (tahmin == "") alert("Boş giriş yaptınız!");
+else if (tahmin == null) alert("Giriş yapmaktan vazgeçtiniz!");
+else {
+  alert("Bir daha denee :(, Random sayi: " + randomSayi);
+}
+```
+[Codepen'de deneyin](https://codepen.io/ayerdelen/pen/BaLJqog)
+### Alıştırma
+---
+
+- Verilen formüle göre **vücut kitle indeksi** hesaplayan ve hesapladığı değere göre yazı yazan bir program yazalım
+- Programda yazılmış kısımları okuyup eksik kısımları tamamlayın.
+
+Not: Fonksiyon parametreleri prompt ile kullanıcıdan alınmalı.
+
+Formül: vki = kg/m \* m;
+
+**İstenilenler:**
+
+1. Prompt ile kullanıcıdan bilgi almak
+2. Verilen formülü uygun yere yazmak
+3. Formülde metre cinsinden istendiği için diyalog kutucuğuna **metre cinsinden örnek 1.66** yazarak kullanıcıya rehberlik etmek
+
+```JavaScript
+//Kod satırını buraya ekleyiniz.
+function vkiHesapla(weight, height) {
+  var vki; //Bu kod satırını değiştiriniz
+if(vki<18.5) return alert(`Vücut kitle indeksiniz: ${vki}, değerleriniz düşüktür`);
+if(vki>= 18.5 && vki <= 24.9) return alert(`Vücut kitle indeksiniz: ${vki}, normal değerdesiniz`);
+if(vki>= 25.0 && vki <= 29.9) return alert(`Vücut kitle indeksiniz: ${vki}, kilolusunuz`);
+if(vki>= 30) return alert(`Vücut kitle indeksiniz: ${vki}, aşırı kilolusunuz`);
+return alert("Girdiğiniz değerleri kontrol ediniz");
+};
+vkiHesapla(weight, height);
+```
+[Codepen'de Görün](https://codepen.io/ayerdelen/pen/NWRXOLr) / [→ Cevabı Codepen'de Görün](https://codepen.io/ayerdelen/pen/gOwoBEp)

@@ -1,7 +1,5 @@
 # Document Object Model(DOM) Nedir?
 
-
-
 **W3C(World Wide Web Consortium)**'e göre **Document Object Model**, programların ve komut dosyalarının bir belgenin içeriğine, yapısına ve stiline dinamik olarak erişmesine ve güncellemesine izin veren bir platform ve dilden bağımsız bir arayüzdür.
 
 Bir HTML belgesini iç içe geçmiş kutular olarak hayal edebilirsiniz. ``<body>`` ve ``</body>`` gibi çevreleyen etiketler, sırayla başka etiketler veya metinler içeren diğer etiketleri kapsar. 
@@ -59,49 +57,32 @@ Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli 
 
 Sonuç olarak eğer client-side olarak HTML’e daha fazla hükmetmek istiyorsanız, kullandığınız dil ne olursa olsun kesinlikle **DOM** un erişim yöntemlerini çok iyi biliyor olmanız gerekir.
 
-## Sorular
-**Soru 1**
-Butona tıklanınca yeni bir sayfa açılsın ve "Hello World!" yazsın.
 
-```html
-<!DOCTYPE html>
-<html>
-<body>
-  <p>Yeni bir pencere açmak ve biraz içerik eklemek için düğmeye tıklayın.</p>
-  <button onclick="myFunction()">Tıkla</button>
-</body>
-</html>
+
+### Aşağıda codepen'i kullanarak senden istediğimiz alıştırmaları yapmanı bekliyoruz!
+
+1. Sana verdiğimiz içerikte butona tıklanınca yeni bir sayfa açılacak ve içerisinde "Hello World!" yazacak. Üzerinden değişiklikler yaparak nasıl çalışıtığını anlamaya çalış!
+
+2. Aşağıdaki codepen içerisinde `id="domain"`olan boş bir paragraf oluştur. Ardından butona tıkladığımızda paragrafın içerisine istediğin bir metni yazdır. Aşağıdaki kod parçası sana yardımcı olacak!
+
+```javascript
+document.getElementById("domain").innerHTML = "DOM Manipülasyonu yaptık!";
 ```
+Yukarıdaki kod ile id'si `domain`olan bir eleman içerisinde `innerHTML` metodunu kullanarak istediğimiz değişikliği yapabiliyoruz.
 
-[Kendiniz Deneyin](https://codepen.io/baranbalin/pen/JjRZbGG) / [Çözüm](https://codepen.io/baranbalin/pen/JjRLwvY)
+3. Codepen içerisinde dene! Butona tıkladığımız zaman bir alert ile mesaj verelim. Bunun için HTML tarafında `<input type="button" id="btnClick" value="Tıkla!!" />`  id'si `btnClick` olan bir buton oluşturalım. Bu sefer buton oluşturmayı daha farklı yaptık!
 
-**Soru 2**
-Butona tıklanınca sayfanın domaini görüntülensin
-```html
-<!DOCTYPE html>
-<html>
-<body>
-  <p>Bu belgeyi yükleyen sunucunun domain'ini görüntülemek için butona tıklayın.</p>
-  <button onclick="myFunction()">Tıkla</button>
-  <p id="domain"></p>
-</body>
-</html>
+Senden istediğimiz JavaScript tarafına yazacağın kodlarla butona tıklandığında **alert** vermen ihtiyacın olanlar ise aşağıda.
+
+```javascript
+document.getElementById("btnClick").addEventListener("click", clicked);
+function clicked(){
+       alert("Butona Tıklandı");
+       } 
 ```
-[Kendiniz Deneyin](https://codepen.io/baranbalin/pen/yLaEVew) / [Çözüm](https://codepen.io/baranbalin/pen/bGwKwgq)
+Yukarıda `btnClick` 'i `getElementById` ile seçtik. Ardından `addEventListener`metodu ile izlemeye başladık. Burada: `.addEventListener("click", clicked);` tıklama gerçekleştirğinde aşağıda tanımdığımız `clicked()` isimli fonksiyonu çalıştırıyoruz. Bu fonksiyon içerisinde başka şeyler de yapabiliriz!
 
-**Soru 3**
-Butona tıklanınca alert ile "Butona Tıklandı" mesajı verilsin.
-```html
-<html>
-<head>
-<title>DOM</title>
-</head>
-<body>
-  <input type="button" id="btnClick" value="Tıkla!" />
-</body>
-</html>
-```
-[Kendiniz Deneyin](https://codepen.io/baranbalin/pen/gOwKLrX) / [Çözüm](https://codepen.io/baranbalin/details/jOMKMBa)
+Denemekten çekinme!
 
 ## Kaynaklar
 - https://eloquentjavascript.net/14_dom.html

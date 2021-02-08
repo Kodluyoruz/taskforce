@@ -1,7 +1,5 @@
 # JavaScript Nedir?
 
-![JavaScript Logo](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/javascript-nedir/figures/javascript-logo.png)
-
 JavaScript, kısaltılmış haliyle JS, high-level (0 ve 1'larden oluşan makine dilinden farklı olarak günlük yaşamdaki konuşma diline yakın olan yüksek seviyeli programlama dili), sıklıkla just-in-time compiled (program başladığı anda kodun makine diline çevrildiği) ve multi-paradigm (birden fazla programlama paradigmasını bünyesinde barındıran, böylelikle spesifik bir problemin çözümünde o dile özgü tekil bir paradigmanın sınırları içinde kalıp zorlanmak yerine çözüme yönelik uygun programlama metodolojisinin seçilerek, minimum maliyetle maksimum verim alınmasına yönelik programlama (tasarım) konsepti)'dir.
 
 JavaScript prototip-tabanlı, dinamik türlere ve birinci-sınıf fonksiyonlara sahip bir betik dilidir. Nesne yönelimli, imperatif ve fonksiyonel programlama prensiplerine sahiptir.
