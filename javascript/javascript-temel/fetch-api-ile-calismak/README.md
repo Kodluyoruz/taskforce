@@ -26,7 +26,6 @@ fetch() metodundan sonra, metodun sonuna then() promise metodunu ekleriz:
 
 ```javascript
 .then(function() {
-
 })
 ```
 
@@ -52,7 +51,6 @@ let payload = {
     body: "lorem ipsum",
     userId:1
   }
-
   fetch('https://jsonplaceholder.typicode.com/posts', {
     method: "POST",
     body: JSON.stringify(payload),
@@ -64,7 +62,7 @@ let payload = {
 ```
 
 Aşama aşama fetch().then().then().catch() yapısı:
-![Resim 1 - fetch( ).then( ).catch( ) diyagramı](./figures/fetch-diagram.jpg)
+![Resim 1 - fetch( ).then( ).catch( ) diyagramı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/fetch-api-ile-calismak/figures/fetch-diagram.jpg)
 
 Peki bu kod bloğu nasıl çalışır? Şimdi aşama aşama inceleyelim:
 
@@ -76,7 +74,6 @@ Fetch isteği yaptığımızda then fonksiyonunu çağırır.
 
 ```javascript
 .then((response) => response.json())
-
 ```
 
 Her şey yolunda giderse gelen veri, then içerisinde bize response olarak gelir. Ve response’u parametre olarak alırız, json içeriğini elde etmek için .json() metodunu kullanırız.
@@ -108,19 +105,16 @@ API dokümanında Resources bölümünde belirtilen kaynaklardan [/users](https:
 
 Not: Önce kendiniz yazmaya çalışın. Yapamazsanız cevaba bakabilirsiniz:
 
-<details>
-<summary>Cevabı görmek için tıklayın</summary>  
-  
+
 ```javascript
 fetch("https://jsonplaceholder.typicode.com/users")
 .then((response)=>response.json())
 .then((json)=>console.log(json))
 .catch((err)=>console.log(err));
 ```
-</details>
 
 Console’da göreceğiniz sonuç aşağıdaki gibi olmalı:
-![Cevap 1 Console Çıktısı](./figures/fetch-result-1.png)
+![Cevap 1 Console Çıktısı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/fetch-api-ile-calismak/figures/fetch-result-1.png)
 
 ### Uygulama 2
 
@@ -128,19 +122,15 @@ Json Placeholder API servisinin [/comments](https://jsonplaceholder.typicode.com
 
 Not: Önce kendiniz yazmaya çalışın. Yapamazsanız cevaba bakabilirsiniz:
 
-<details>
-<summary>Cevabı görmek için tıklayın</summary>  
-  
 ```javascript
   fetch("https://jsonplaceholder.typicode.com/comments")
     .then((response) => response.json())
     .then((json) => json.forEach((item) => console.log(item.email)))
     .catch((err) => console.log(err))
 ```
-</details>
 
 Console’da göreceğiniz sonuç aşağıdaki gibi olmalı:
-![Cevap 2 Console Çıktısı](./figures/fetch-result-2.png)
+![Cevap 2 Console Çıktısı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/fetch-api-ile-calismak/figures/fetch-result-2.png)
 
 ## Kaynaklar
 
@@ -152,4 +142,4 @@ Console’da göreceğiniz sonuç aşağıdaki gibi olmalı:
 
 [ethemkeskin.com](https://www.etemkeskin.com/index.php/2021/01/19/javascript-fetch-api-kullanimi/)
 
-[{Json Placeholder API}](https://jsonplaceholder.typicode.com/)
+[Json Placeholder API](https://jsonplaceholder.typicode.com/)

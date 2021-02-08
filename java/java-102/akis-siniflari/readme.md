@@ -133,8 +133,10 @@ Burada unutulmaması gereken iki önemli nokta vardır.
 Konuyla ilgili birkaç soru sorabiliriz. Akış sınıfları neden byte ve karakter akışları olarak ikiye ayrılır?
 Akış sınıfları ile ilgili önemli noktalar nelerdir?
 Akış sınıflarında hangi metotlar kullanılır?
+## Kaynak:
+- [1.fotoğraf](https://hajsoftutorial.com/java/wp-content/uploads/2015/10/Untitled41.png)
 
-[1.fotoğraf](https://hajsoftutorial.com/java/wp-content/uploads/2015/10/Untitled41.png)
-[2.fotoğraf](https://hajsoftutorial.com/java/wp-content/uploads/2015/10/Untitled3.png)
-[3.fotoğraf](https://blog.eduonix.com/wp-content/uploads/2014/08/111.jpg)
+- [2.fotoğraf](https://hajsoftutorial.com/java/wp-content/uploads/2015/10/Untitled3.png)
+
+- [3.fotoğraf](https://blog.eduonix.com/wp-content/uploads/2014/08/111.jpg)
 

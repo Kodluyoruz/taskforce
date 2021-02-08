@@ -5,31 +5,46 @@
 
 #### Sorular
 
-1. Yok
+1. Frontend ile ilgili verilen bilgilerden hangisi yanlıştır?
+   - Web'in görüp etkileşime girebildiğiniz kısımlarına, frontend denir.
+   - Bu alan çalışan geliştiriciler Adobe XD, Photoshop ve Sketch gibi tasarım programlarını kullanırlar.
+   - Frontend genellikle web tasarımı ve web'in ön yüzünün geliştirilmesini kapsar.
+   - Bu alanda çalışan geliştiriciler Python, PHP, MySQL gibi temel araçları kullanırlar. (Doğru)
 
 #### Videolar
 
-1. Yok
+1. https://youtu.be/qyHyFsT7Hig
+   - İzlemen için bir video paylaştık.
 
 ### [Backend Nedir?](backend-nedir/)
 
 #### Sorular
 
-1. Yok
+1. Backend ile ilgili verilen bilgilerden hangisi yanlıştır?
+   - Backend genellikle bir sunucu, bir uygulama ve bir veri tabanından oluşur.
+   - Backend'in işleyişini anlatmak için, sizin (uygulama), bir bilgiyi bilgisayarınızda (sunucu) bulunan bir Excel (veri tabanı) dosyasına kaydetmeniz örnek verilebilir.
+   - Backend kodlayanlara, Backend Designer denir ve bu alanda çalışan geliştiriciler Python, PHP, MySQL gibi temel araçlar kullanırlar. (Doğru)
+   -  Siz bir web sitesine giriş yapma isteği gönderdiğinizde bunu veri tabanında arayan, bulan ve nasıl bir cevap verileceğini belirleyen şey backend’tir.
 
 #### Videolar
 
-1. Yok
+1. https://youtu.be/cbSrsYiRamo
+   - İzlemen için bir video paylaştık.
 
 ### [Frontend & Backend Karşılaştırması](frontend-vs-backend/)
 
 #### Sorular 
 
-1. Yok
+1. Frontend ve Backend ile ilgili verilen bilgilerden hangisi doğrudur?
+   - Frontend ve Backend'den yalnızca bir tanesi ile bir web sitesi oluşturulabilir.
+   - Hem frontend alanında hem de backend alanında çalışan yazılım geliştiriciler yoktur.
+   - Bir tiyatro oyununda seyircilerin karşısındaki oyuncular backend'i temsil ediyorsa, perdenin arkasında izleyenlerin göremediği çalışanlar da frontend'i temsil eder.
+   - Frontend kavramına insan vücudunun dış görünüşü örnek verildiğinde backend kavramı için insan beyni örnek verilebilir. (Doğru)
 
 #### Videolar
 
-1. Yok
+1. https://youtu.be/n_gODKYn9dM
+   - İzlemen için bir video paylaştık.
 
 ## Algoritma & Pseudocode ####
 ### [Algoritma](algoritma/)
@@ -46,15 +61,13 @@ Senin için birkaç soru hazırladık.
 
 #### Videolar
 
-1. https://youtu.be/bWwODnfnS2A
+1. https://youtu.be/6hfOvs8pY1k
 
    - Algoritma Nedir? 
    - İzlemen için bir video paylaştık.
    
-2. https://youtu.be/lnlWdk8Peuo
-
-   -  Akış Diyagramı Nedir? 
-   -  İzlemen için bir video paylaştık.
+   
+   
 
 ### [Pseudocode](pseudocode/)
 
@@ -337,7 +350,21 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Aşağıdakilerden hangisi tarayıcıların ana işlevlerinden değildir?
+   - Kullanıcıya arayüz sunmak.
+   - İstenilen verileri lokal olarak depolamak.
+   - JavaScript kodlarını yorumlamak.
+   - Veriyi karşı tarafa ulaştırmak için tüm yaşam döngüsünü sağlamak. (Doğru)
+2. Aşağıdakilerden hangisi rendering motorudur?
+   - Gecko (Doğru)
+   - Firefox
+   - Chrome
+   - Safari
+3. Aşağıda verilen rendering motoru işleyişlerinden hangisi doğrudur?
+   - DOM ağacı - HTML ayrıştırma - Layout(Düzenleme) -  Render ağacı - Boyama(Painting) 
+   - HTML ayrıştırma - DOM ağacı - Render ağacı - Layout(Düzenleme) - Boyama(Painting) (Doğru)
+   - HTML ayrıştırma - DOM ağacı -  Layout(Düzenleme) -  Render ağacı - Boyama(Painting) 
+   - HTML ayrıştırma - DOM ağacı - Boyama(Painting) -  Layout(Düzenleme) - Render ağacı
 
 #### Videolar
 
@@ -347,7 +374,21 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. IP adresimizi öğrenmek istersek aşağıdaki komutlardan hangisi kullanmak gerekir?
+   - netstat
+   - ipconfig (Doğru)
+   - cd 
+   - localhost
+2. Ağda trafik kontrolünü aşağıdaki birimlerden hangisi sağlar?
+   - Routers(Yönlendiriciler)  (Doğru)
+   - Kullanıcılar
+   - Kablolar
+   - Sunucular
+3. IP tek başına güvenli bir protokol değildir. Peki aşağıdakilerden hangisi ile birlikte daha güvenilir bir hale gelir?
+   - DNS
+   - TLD
+   - TCP (Doğru)
+   - Root
 
 #### Videolar
 
@@ -358,7 +399,15 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Aşağıdakilerden hangisi TCP için söylenemez?
+   - Connection oriented(bağlantı odaklı) protokoldür.
+   - Güvenlik değil hız önemlidir, bu yüzden paket kaybı yaşanabilir. (Doğru)
+   - Bidirectional(iki yönlü) iletişim kurulur.
+   - Paketler kaybolmuşsa tekrar gönderilir.
+2. TCP bağlantısı aşağıdaki amaçlardan hangisi için daha çok tercih edilir?
+   - Ses oynatma
+   - Dosya transferi (Doğru)
+   - Video oynatma
 
 #### Videolar
 
@@ -369,7 +418,20 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. TCP iletişiminde istemci ve sunucu mesaj alışverişine başlamadan önce güvenli iletişimi garantilemek için ne yapar?
+   - Sözleşme imzalarlar.
+   - Üçlü el sıkışma (Three-way handshake) yaparlar. (Doğru)
+   - Bir şey yapılmasına gerek yoktur, birbirlerinin IP adreslerini bilmeleri yeterlidir.
+2. Aşağıdakilerin protokol metotları ve kullanım amaçları eşlemelerinden hangileri yanlıştır?
+   - GET - İstenilen web sayfasını görüntülemek için kullanılır.
+   - CONNECT: İstenilen kaynakla iki yönlü iletişim başlatmak için kullanılır.
+   - HEAD - Sayfanın başına gönderilen bilgileri koymak içindir. (Doğru)
+   - OPTIONS:  Belirli seçenekleri sorgulamak için kullanılır.
+3. Cevap olarak dönen mesajda durum kodu(status code) "301" olarak döndüyse ne olmuştur?
+   - İşlem başarılıdır, önemsemeye gerek yok.
+   - Ciddi bir problem var, acilen bakmak gerekir.
+   - İstenilen kaynak başka bir yere taşınmıştır, gelen cevap içinde yeni konum vardır. (Doğru)
+   - Sunucu bakımdadır, beklemek gerekir.
 
 #### Videolar
 
@@ -388,7 +450,15 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Daha önce ulaştığımız bir web sayfasına tekrar ulaşırken neden daha hızlı erişim sağlarız?
+   - Aklımıza daha çabuk gelir.
+   - Cache'de(Ön bellekte) sorgulama yapılır.  (Doğru)
+   - Root hemen cevap verir.
+2. DNS sorgusu hangi sıra ile gerçekleşir?
+   - Cache - Root -TLD (Doğru)
+   - TLD - Root- Cache
+   - Root - TLD - Cache
+   - Cache - TLD - Root
 
 #### Videolar
 
@@ -401,7 +471,10 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Domain name kullanmamızın sebebi aşağıdakilerden hangisi değildir?
+   - Kolay akılda kaldığı için.
+   - Kullanıcı dostu görüntü için.
+   - IP adresleri işe yaramadığı için. (Doğru)
 
 #### Videolar
 
@@ -414,7 +487,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. En hesaplı ama sunucuyu birden çok hosting müşterisinin satın aldığı hosting hizmeti hangisidir?
+   - Public
+   - Shared (Doğru)
+   - Dedicated
+   - Cloud
+2. Aşağıdakilerden hangisi hosting hizmeti değildir?
+   - Cloud
+   - Shared
+   - Dedicated
+   - Public (Doğru)
 
 ### Videolar
 
@@ -429,7 +511,40 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1.  i. Arama sayfasına yazdığınız kelimeyi, anlamına karşılık gelen kavramları, dilini ve bu kelimeyi aratan insanların ortak amacına göre bir algoritma çizer.
+
+   ii. Sorguladığınız kavram ile eşleşen web sayfalarını arar.
+
+   iii. Bulunduğunuz konumu, geçmiş aramalarınızı, arama için yaptığınız ayarları, geçmişte sık sık kullandığınız web sitelerini de dikkate alarak karşınıza bir sonuç sayfası çıkarır.
+
+   iv. Web sayfalarındaki bilgilerin bir araya geliş şeklini değerlendirir. 
+
+   Yukarıda verilen maddelere göre Google arama hangi sırada çalışır?
+
+   - i-ii-iii-iv
+   - i-ii-iv-iii (Doğru)
+   - i-iii-ii-iv
+   - i-iv-ii-iii
+
+2. Aşağıda örnek olarak verilen aramalardan hangisinde Google arama etkili kullanılmıştır?
+
+   - Türkiye’nin yüzölçümü kaç kilometrekaredir?
+   - Göl olur damlaya damlaya
+   - Sakla ... gelir zamanı
+   - internetin zararları filetype:doc (doğru)
+
+3.  i. cs50x site:kodluyoruz.org
+
+   ii. ~çay
+
+   iii. “kodluyoruz hakkında”
+
+   Yukarıda verilen Google aramalarda hangi etkili kullanma yöntemi kullanılmamıştır?
+
+   - Birden fazla kelime ile arama yapma.
+   - Bir site içerisinde arama yapma
+   - Dosya tipleriyle arama yapma. (Doğru)
+   - Eş anlamlı kelime ile arama yapma.
 
 #### Videolar
 
@@ -442,7 +557,11 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Kendimizi güncel tutmak için kullanabileceğimiz platformlarla ilgili bilgilerden hangisi yanlıştır?
+   - GitHub, proje yönetim ve versiyon kontrol sistemi olmakla birlikte, ayrıca geliştiriciler için yapılmış bir sosyal ağ platformudur.
+   - Kod Koda, 2020 yılında Kodluyoruz tarafından hazırlanan, yazılımla ilgilenen kişilerin sorular sorup cevaplayabildiği bir platformdur. 
+   - Project Euler, şirketlerin programcı işe alım süreçlerini hızlandırmaya yönelik kurulmuş bir sitedir. (Doğru) 
+   - Stack Overflow programlama ve kodlama ile ilgili spesifik sorularınızı sorabileceğiniz veya başkalarının sorduğu sorulara cevap verebileceğiniz bir platformdur.
 
 #### Videolar
 

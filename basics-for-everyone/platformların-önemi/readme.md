@@ -8,15 +8,11 @@ Buraya kadar geldik. Peki kendimizi nasıl sürekli güncel tutacağız? Şimdi 
 
 ![stack-overflow](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/stack-overflow.png)
 
-
-
 ## 2) HackerRank
 
 Bu sitenin genel kuruluş amacı aslında yazılımcı çalıştırmak isteyen firmalara yazılımcı istihdamı sağlamak. Firmalar bu site içerisinde yazılımcıların mülakatlarını yapıp bilgi seviyelerini ölçebiliyor ve profillerini inceleyip onlara iş teklifi sunabiliyor. Türkiye’de henüz bu amaçla kullanılmasa da mülakatlarda göreceğiniz test caselerde bu platformdan sorulara denk gelebilirsiniz. Peki bu sitede neler yapabiliyorsunuz? Kendinizi geliştirmek istediğiniz bir programlama dilinde veya yapay zeka, veri tabanı, SQL programlama, matematik gibi birçok alanda pratik yapabiliyorsunuz. Eğitim kamplarına katılabiliyor ve ilerleme kaydettikçe rozet/sertifika kazanabiliyorsunuz. Yazdığınız çözümün daha kısa yolu varsa bununla ilgili geri bildirim alabiliyor ve buna göre kodunuzu düzenleyebiliyorsunuz. Başkalarının yazdığı kodları görebiliyor, diğer yazılımcılarla toplu halde veya birebir iletişime geçebiliyorsunuz. Tüm güzellikleriyle HackerRank bir yazılımcının üye olunmazsa olmaz diyeceğimiz platformlardan. Platforma [buradaki](https://www.hackerrank.com/) bağlantıda ulaşabilirsiniz.  
 
 ![hackerrank](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/hackerrank.png)
-
-
 
 ## 3) Codility
 
@@ -24,15 +20,11 @@ Codility de HackerRank’e benzer şekilde şirketlerin programcı işe alım s�
 
 ![codility](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/codility.png)
 
- 
-
 ##  4) Project Euler
 
 Project Euler sitesi oldukça zorlu matematik ve problemlerinden oluşuyor. Zihninize farklı düşünmeyi öğretmek ve problem çözme yeteneğinizi geliştirmek istiyorsanız Project Euler iyi bir seçenek olacaktır. Kendiniz denedikten sonra internette bu sorular üzerine kafa patlatmış kişilerin videolarını izleyip farklı çözüm yöntemlerini de görebilirsiniz. Platforma [buradaki](https://projecteuler.net/) bağlantıda ulaşabilirsiniz.  
 
 ![project-euler](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/project-euler.png)
-
-
 
 ## 5) Github
 
@@ -40,11 +32,7 @@ GitHub, proje yönetim ve versiyon kontrol sistemi olmakla birlikte, ayrıca gel
 
 ![github](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/github.png)
 
-
-
 Kodlama yeteneğinizi geliştirmek için aşağıdaki siteleri de tavsiye ediyoruz.
-
-
 
 ## 6) Kod Koda
 
@@ -54,15 +42,11 @@ Kodlama yeteneğinizi geliştirmek için aşağıdaki siteleri de tavsiye ediyor
 
 ![kodkoda2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/kodkoda2.png)
 
-
-
 ## 7) CodeWars
 
 Platforma [buradaki](https://www.codewars.com/) bağlantıdan ulaşabilirsiniz.  
 
 ![codewars](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/codewars.png)
-
-
 
 ## 8) LeetCode
 
@@ -70,15 +54,11 @@ Platforma [buradaki](https://leetcode.com/) bağlantıdan ulaşabilirsiniz.
 
 ![leetcode](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/leetcode.png)
 
-
-
 ## 9) edabit
 
 Platforma [buradaki](https://edabit.com/) bağlantıdan ulaşabilirsiniz.  
 
 ![edabit](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/edabit.png)
-
-
 
 ## 10) repl.it
 
@@ -86,19 +66,14 @@ Platforma [buradaki](https://repl.it/) bağlantıdan ulaşabilirsiniz.
 
 ![replit](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/replit.png)
 
-
-
 ## 11) CodePen
 
 Platforma [buradaki](https://codepen.io/) bağlantıdan ulaşabilirsiniz.  
 
 ![codepen](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/codepen.png)
 
-
-
 ## 12) Exercism.io
 
 Platforma [buradaki](https://exercism.io/) bağlantıdan ulaşabilirsiniz.  
 
 ![exercism](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/exercism.png)
-

@@ -1,4 +1,4 @@
-# HOSTING
+# Hosting
 
 Bir web sitesindeki içeriğe ulaşmak için istek gönderdiğimizi ve cevaba göre içeriği görüntülediğimizi biliyoruz. IP adresler ise nereye bakmamızı söylüyor. Buraya kadar tamam ama biz gerçekten nereye bakıyoruz ? Baktığımız web sitesi birinin bilgisayarında çalışıyor da ben ona mı soruyorum şu sayfaya bakmak istiyorum diye ? Hayır, başka birinin bilgisayarında birebir çalışma ihtimali oldukça düşük. 
 
@@ -30,5 +30,5 @@ Managed -> VPS veya dedicated sunucu gücüne ve bant genişliğine ihtiyacını
 
 ![hosting_secenek_karsilastirma](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/hosting/figures/hosting_types.PNG)
 
-## Kaynaklar:
+## Kaynaklar:
 - https://www.whoishostingthis.com/resources/web-hosting/

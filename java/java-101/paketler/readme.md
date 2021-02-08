@@ -51,8 +51,6 @@ paket2 içerisindeki "Kodluyoruz" sınıfını kullanmak için paket2, paket1 i�
 
 
 
-#### Kaynaklar : 
-
-[w3schools.com](https://www.w3schools.com)
-
-[javapoint.com](https://www.javatpoint.com)
+## Kaynaklar : 
+- [w3schools.com](https://www.w3schools.com)
+- [javapoint.com](https://www.javatpoint.com)

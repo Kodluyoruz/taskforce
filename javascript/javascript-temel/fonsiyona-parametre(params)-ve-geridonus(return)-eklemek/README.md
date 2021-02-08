@@ -1,4 +1,4 @@
-# Fonsiyona Parametre(params) ve Geridönüş(return) Eklemek
+# Fonksiyona Parametre (params) ve Geridönüş (return) Eklemek
 
 Fonksiyonlar, bir takım veriler kullanarak, herhangi bir görevi yerine getiren veya bu verileri işleyip, sonuç üreten komut grubudur. 
 
@@ -71,6 +71,7 @@ function daireAlaniHesaplama (r) // Fonksiyonumuz, r parametresini alıyor.
 var donenSonuc = daireAlaniHesaplama(3); // Argüman olarak, alanını hesaplamak istediğimiz herhangi bir dairenin yarıçapı için 3 rakamı verildi. 
 console.log(donenSonuc); // 28.25999999 sonucunu göreceğiz.
 ```
+**Aşağıda codepen ile deneyimleyebilirsiniz!**
 
 Yazdığımız kodun başında sabit olarak belirttiğimiz pi sabitini, fonksiyonumuzun bir parametresi olarak da belirtebiliriz. Fonksiyon içerisindeki işlemimizi bir değere atamadan, direk olarak return ifadesinden hemen sonra da yazabiliriz. Bu sayede, kodumuzu daha az satırla yazmış olacağız.
 
@@ -106,16 +107,11 @@ var donenSonuc = carpma(alan1, alan2); // Hesaplanan alanlar argüman olarak ver
 console.log(donenSonuc);  			  // 354.9456 olarak hesaplandı.
 ```
 
+Aşağıda codepen ile deneyimleyebilirsiniz!
+
 Bu örnekten de görüldüğü gibi, bir fonksiyonu çağırdıktan sonra elde ettiğimiz bir değer ile ikinci bir fonksiyonun argümanı olarak kullanabiliyoruz. Bunu yapabilmemize olanak sağlayan şey, değer döndüren(return) fonksiyonları kullanmamız olduğunu söyleyebiliriz. 
 
 Bu konunun detaylıca öğrenilebilmesi için farklı örneklerle çok fazla pratik yapılması gerektiğini unutmamamız gerekir.
-
-Parametre sorusu:
-
-Aşağıdakilerden hangisi bir fonksiyona parametre göndermenin doğru yoludur?
-* A) Fonksiyon isminden sonra iki adet yıldız karakteri arasına parametreleri yazmak
-* B) Fonksiyon isminden sonra boşluk bırakmadan parametreleri yazmak
-* C) Fonksiyon isminden sonra küme parantezleri arasına parametreleri yazmak (Doğru)
 
 # Fonksiyona Geri Dönüş (return) Eklemek
 
@@ -156,52 +152,8 @@ a*b;
 
 Ve *return komutundan sonra ulaşılamayan kod* hatasını almamız kaçınılmazdır.
 
-## Örnek
-
-````javascript
-function Question(hobby) {
-  switch (hobby) {
-    case "car":
-      return function (name) {
-        console.log(name + " do you have a car ?");
-      };
-      break;
-
-    case "book":
-      return function (name) {
-        console.log(name + " what is your favorite author?");
-      };
-      break;
-
-    case "software":
-      return function (name, type) {
-        console.log(name + " are you interested in " + type + "?");
-      };
-      break;
-
-    default:
-      return function (name) {
-        console.log(name + "  how are you ?");
-      };
-      break;
-  }
-}
-
-var softwareQuestion = Question("software");
-softwareQuestion("Cemre","nodejs");
-
-````
-
-Yukarıdaki kod bloğunun çıktısı aşağıdakilerden hangisidir ?
-
-A) Undefined 
-
-B) What is your favorite author?
-
-C) Cemre are you inretesed in nodejs?
-
-doğru cevap: C 
-
-kaynak:https://www.w3schools.com/js/js_functions.asp
-
 Bu konunun detaylıca öğrenilebilmesi için farklı örneklerle çok fazla pratik yapılması gerektiğini unutmamamız gerekir.
+
+## Kaynaklar
+
+https://www.w3schools.com/js/js_functions.asp

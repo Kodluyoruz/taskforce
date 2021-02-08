@@ -8,7 +8,7 @@ Sizler için HTML yapısını ve basit CSS'i hazırladık. Sizlerden istediğimi
 
 ![googlehomepage](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/odev2/figures/googlehomepage.gif)
 
-- [Google Homepage Projesi](google_homepage/)'ne buradan erişebilirsiniz.
+- [Google Homepage Projesi](https://github.com/Kodluyoruz/taskforce/tree/main/css/odev2/google_homepage)'ne buradan erişebilirsiniz.
 
 - Projeyi indirdikten ya da cloneladıktan sonra Visual Studio Code programında LiveServer eklentisi ile açmanızı öneririz.
 

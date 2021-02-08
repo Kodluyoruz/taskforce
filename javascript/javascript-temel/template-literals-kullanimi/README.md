@@ -12,15 +12,14 @@
 
 String ifade yazarken, `"` veya `'` kullanırız. Template Literals ile JavaScript'te backtick (```)  işareti kullanılmaya başlanmıştır. 
 
-**Windows için** → Alt Gr + ,
+**Windows için** → `Alt Gr` + `,`
 
-**Mac için** → option+ ,
+**Mac için** → `option` + `,`
 
 yaparak bu işareti kullanabilirsiniz.
 
 ### Sağladığı Faydalar
 
----
 
 - **Çok Satırlı Dize Yazımı:**
 
@@ -50,7 +49,6 @@ console.log(`Benim adım ${ad} ${soyad}`);
 ```
 
 → Örnek:
-
 ```javascript
 let a = 99;
 let b= 999;
@@ -61,7 +59,7 @@ console.log(`${a} çarpı ${b} eşittir ${a*b}`);
 //99 çarpı 999 eşittir 98901
 ```
 
-[Codepen'de Deneyin](https://codepen.io/ayerdelen/pen/MWjQNVM)
+Aşağıda codepen ile deneyimleyebilirsiniz!
 
 - **HTML Şablonları**
 
@@ -86,7 +84,7 @@ const kisi = "<p>"+ad+"</p>"+
 document.body.innerHTML = kisi;
 ```
 
-[Codepen'de Deneyin](https://codepen.io/ayerdelen/pen/GRjQVLd)
+Aşağıda codepen ile deneyimleyebilirsiniz!
 
 →Yeni kullanım, Template Literals kullanarak:
 
@@ -103,22 +101,17 @@ document.body.innerHTML = kisi;
 //Bu kullanım daha az karmaşık ve okunabilir.
 ```
 
-[Codepen'de Deneyin](https://codepen.io/ayerdelen/pen/XWjZvom)
+Aşağıda codepen ile deneyimleyebilirsiniz!
 
 ### Kısaca
 
----
-
 Template Literals;
-
 - Kod okunabilirliğini kolaylaştırır,
 - Stringler içerisinde değişken yazma kolaylığını sağlar,
 - Şablon etiketlerini daha az karmaşık hale getirir.
 
 ### Alıştırma
-
 - Aşağıdaki kod satırlarını Template Strings yazımına göre düzenleyiniz.
-
 ```javascript
 const kitap = {
   ad: "Fırtına",
@@ -141,22 +134,13 @@ const bookTable =
       "<td>"+kitap.tarih+"</td>"+
     "</tr>"+
  " </tbody>"+
-  
 "</table>"
-
-      
 document.body.innerHTML = bookTable
 ```
 
-[Codepen'de Deneyin](https://codepen.io/ayerdelen/pen/BaLrBWE)
+Aşağıda codepen ile deneyimleyebilirsiniz!
 
-[→ Cevabı Codepen'de Görün](https://codepen.io/ayerdelen/pen/WNGzeEN)
-
-
-### KAYNAKLAR
----
-[https://medium.com/@gulineyel/javascriptde-template-literals-nedir-76eddd333e7](https://medium.com/@gulineyel/javascriptde-template-literals-nedir-76eddd333e7)
-
-[https://www.webcebir.com/227-javascript-template-literal-dersi.html](https://www.webcebir.com/227-javascript-template-literal-dersi.html)
-
-[https://www.w3schools.com/tags/tag_tbody.asp](https://www.w3schools.com/tags/tag_tbody.asp)
+## Kaynaklar
+- [https://medium.com/@gulineyel/javascriptde-template-literals-nedir-76eddd333e7](https://medium.com/@gulineyel/javascriptde-template-literals-nedir-76eddd333e7)
+- [https://www.webcebir.com/227-javascript-template-literal-dersi.html](https://www.webcebir.com/227-javascript-template-literal-dersi.html)
+- [https://www.w3schools.com/tags/tag_tbody.asp](https://www.w3schools.com/tags/tag_tbody.asp)

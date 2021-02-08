@@ -4,19 +4,19 @@
 
 1-1’e ilişki biçimi bir tablodaki kayıt ile ilişki kurulan diğer tabloda sadece bir kayıt ile eşleşir. Örnek olarak Çalışan tablosunda bir personelin sadece bir tane giriş kartı olabilir. Aynı şekilde Giriş Kartı tablosunda bir giriş kartına ait kayıt sadece bir kişiye ait olabilir. Çalışan ile Giriş Kartı arasında bire bir ilişki vardır.
 
-![veritabani calisma mantigi](file:///Users/kodluyoruz/Projeler/kodluyoruz/taskforce/java/java-102/jdbc-api-and-databases/figures/birebir-iliski.png?lastModify=1610030453)
+![veritabani calisma mantigi](figures/bire-bir-iliski.png)
 
 ## Bire Çok İlişki
 
 Bir tablodaki kayıt diğer tablodaki bir veya birden fazla kayıt ile eşleşebilir. Örneğin, çalışan personel ile maaş varlıkları arasında bire çok ilişki biçimi vardır. Çünkü, bir çalışanın birden fazla maaş kaydı olabilir. Fakat, bir maaş kaydı sadece bir çalışana aittir.
 
-![veritabani calisma mantigi](file:///Users/kodluyoruz/Projeler/kodluyoruz/taskforce/java/java-102/jdbc-api-and-databases/figures/birecok-iliski.png?lastModify=1610030453)
+![veritabani calisma mantigi](figures/bire-cok-iliski.png)
 
 ## Çoktan Çoğa İlişki
 
 Bir tablodaki bir kayıt diğer tablodaki bir veya birden çok kayıt ile eşleşebilir. Aynı şekilde diğer tablodaki tek bir kayıt ilişkili olduğu tabloda bir veya birden çok kayıtla eşleşebilir. Örneğin Çalışan tablosundaki bir personelin birden çok unvanı olabilir. Aynı şekilde Unvan tablosundaki bir görev tanımı birden fazla çalışanda olabilir. Yani bir çalışan hem Yazılım Mühendisi unvanına hem de Takım Lideri unvanına sahip olabilir. Aynı şekilde Yazılım Mühendisi unvanı birden fazla çalışana ait olabilir. Bu ilişki biçiminde mutlaka ara bir tablo oluşur. Bu ara tabloda her iki tablodan ilişkiyi tutan sütunlar yer alır.
 
-![veritabani calisma mantigi](file:///Users/kodluyoruz/Projeler/kodluyoruz/taskforce/java/java-102/jdbc-api-and-databases/figures/coktan-coka-iliski.png?lastModify=1610030453)
+![veritabani calisma mantigi](figures/coktan-coga-iliski.png)
 
 ## Normalizasyon
 
@@ -38,7 +38,7 @@ Veritabanı dünyasında bir varlığı temsil bir tablo oluşturduğumuzda onun
 
 Ayrıca, Primary Key ve Foreign Key ile ilişkiler kurulmuştur. Örnek şemayı aşağıda veriyoruz.
 
-![veritabani calisma mantigi](file:///Users/kodluyoruz/Projeler/kodluyoruz/taskforce/java/java-102/jdbc-api-and-databases/figures/diagram.png?lastModify=1610030453)
+![veritabani calisma mantigi](figures/veritabanı.png)
 
 “employees” tablosu çalışan verilerini depolar. “titles” tablosu çalışana ait unvanları depolar. Bir çalışanın birden fazla unvanı olabilir. “salaries” tablosu çalışana ait maaşları depolar. Yine bir çalışanın her yıl için bir maaş tutarı vardır. Bu durumda çalışan ile maaş kayıtları arasında bire çok ilişki vardır. “departments” tablosu şirkette bulunan departmanları depolar. Çalışan geçmişte birden fazla departmanda çalışmış olabilir veya halen aynı departmanda çalışmaya devam ediyor olabilir. Bu durumda “departments” tablosu ile “employees” arasında çoğa-çok bir ilişki vardır. O nedenle “dept_emp” tablosu bu çoğa çok ilişkideki kayıtları tutar. Aynı şekilde bir çalışan departman yönetici konumunda olabilir. Hatta, geçmişte birden çok departmanda yöneticilik de yapmış olabilir. Bu nedenle yine “departments” tablosu ile “employees” tablosu arasında çoğa-çok bir ilişki vardır. Bu çoğa çok ilişki sonucunda bir ara tablo ihtiyacı doğar. “dept_manager” tablosunda çalışanların hangi departmanlarda veya departmanda görev aldıklarının kayıtları vardır.
 

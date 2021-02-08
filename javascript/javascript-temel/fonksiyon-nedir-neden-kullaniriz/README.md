@@ -1,4 +1,4 @@
-# Fonksiyon Nedir ? Neden Kullanırız?
+# Fonksiyon Nedir? Neden Kullanırız?
 
 Fonksiyonlar adından anlaşılacağı gibi belli bir amacı gerçekleştirmek için oluşturulmuş yapılardır. Koda işlevsellik katmak için bunu sık sık kullanırız. Nasıl tanımlandığına gelecek olursak:
 ### Fonksiyonu Adlandırmak
@@ -54,7 +54,7 @@ var add = addition(1,2);   //add değişkenine 1+2 değerini fonksiyon kullanara
 
 #### Fonksiyon Kapsamı 
 
-Javascriptde fonksiyon içinde tanımlamış olduğunuz değişkene fonksiyon dışındaki herhangi bir yerden erişemezsiniz. Çünkü o değişken tanımlandığı fonksiyonun **kapsamındadır**. Bu sebeple değişkenimiz o fonksiyon içinde kullanılan bir **lokal değişkendir**.  Fakat tanımlanan fonksiyon tanımlandığı kapsamdaki diğer değişkenlere erişebilir. Yani fonksiyon kendi dışında tanımlanan fakat aynı kapsamda bulunduğu **global değişkenlere** de erişebilir. Aşağıda örneğini görerek bunu çok daha iyi anlayacağız:
+Javascript'de fonksiyon içinde tanımlamış olduğunuz değişkene fonksiyon dışındaki herhangi bir yerden erişemezsiniz. Çünkü o değişken tanımlandığı fonksiyonun **kapsamındadır**. Bu sebeple değişkenimiz o fonksiyon içinde kullanılan bir **lokal değişkendir**.  Fakat tanımlanan fonksiyon tanımlandığı kapsamdaki diğer değişkenlere erişebilir. Yani fonksiyon kendi dışında tanımlanan fakat aynı kapsamda bulunduğu **global değişkenlere** de erişebilir. Aşağıda örneğini görerek bunu çok daha iyi anlayacağız:
 
 ```javascript 
 //global değişkenleri tanımlıyoruz
@@ -76,7 +76,8 @@ function multiplication(){
 ### Callback Fonksiyonlar ve Asenkron Çalışma
 
 Senkron dediğimiz kavram şunu ifade etmektedir: kodumuz yukarıdan aşağı doğru sırayla işlenir ve bir satırdaki işlem bitmeden bir sonraki satıra geçilmez. Asenkron yapıda ise fonksiyonların birbirlerini beklemelerine gerek yoktur. Uzun zaman ala veya farklı görevleri olan fonksiyonlar aynı anda çalışabilir.
-Javascript asenkron yapıdaki bir programlama dilidir.Bunu anlamak için içinde  setTimeout(parameter1, parameter2) fonksiyonunu kullanacağız. Bu fonksiyon gördüğünüz gibi iki parametre ile kullanılacak: ilk parametre çalışması istenen fonksiyonu, ikinci parametre ise ne kadar süre sonra çalışması istendiğini ifade ediyor. Örneğin 1000 yazılarak 1000 milisaniye yani 1 saniye gecikme sağlanıyor.
+Javascript asenkron yapıdaki bir programlama dilidir. Bunu anlamak için içinde  setTimeout(parameter1, parameter2) fonksiyonunu kullanacağız. Bu fonksiyon gördüğünüz gibi iki parametre ile kullanılacak: ilk parametre çalışması istenen fonksiyonu, ikinci parametre ise ne kadar süre sonra çalışması istendiğini ifade ediyor. Örneğin 1000 yazılarak 1000 milisaniye yani 1 saniye gecikme sağlanıyor.
+
 ```javascript 
 
 function printScreen1 (){
@@ -105,8 +106,9 @@ printScreen3();
 İkinci ekran çıktısı
 ```
 Bunun sebebi asenkron çalışma yapısıdır. printScreen1 fonksiyonu çalıştıktan sonra printScreen2 fonksiyonun çalışması için beklemeden printScreen3 fonksiyonumuz çalışır.  Bu durumdan kurtulmak için callback kullanıyoruz denebilir. 
-Callback fonksiyonlar başka bir fonksiyonu parametre olarak alan fonksiyonlardır. Yani aslında asenkron yapıda bile fonksiyonlar için bir çalışma sırası belirlememize yardımcı olur.   
+Callback fonksiyonlar başka bir fonksiyonu parametre olarak alan fonksiyonlardır. Yani aslında asenkron yapıda bile fonksiyonlar için bir çalışma sırası belirlememize yardımcı olur. 
 Örneğin yukarıda verilen kodumuzun sırasıyla birinci, ikinci ve üçüncü çıktıları vermesini istiyoruz. 
+
 ```javascript 
 
 function printScreen1() {
@@ -131,24 +133,25 @@ function printScreen1() {
 
 ```
 Bu şekilde çıktımız nihayet istediğimiz gibi olacaktır.
-=======
-  Kod yazarken, kodun birçok yerinde aynı işi yapacak alt programlara (subprograms) ihtiyaç duyarız. Mesela, ziyaretçi siteye giriş yaptığında veya çıkış yaptığında bir mesaj göstermek isteriz.
-  Fonksiyonlar, programın ana bloklarıdır ve fonksiyonlar sayesinde kodu tekrar tekrar yazmadan, istediğimiz kadar çağırabiliriz. Javascript'te built-in(dilin kendi içerisinde mevcut) fonksiyonlar olduğu gibi(mesela alert(parametre) ve  prompt(parametre) built-in fonksiyonları) biz de kendi fonksiyonlarımızı oluşturabiliriz.
-  
+
+Kod yazarken, kodun birçok yerinde aynı işi yapacak alt programlara (subprograms) ihtiyaç duyarız. Mesela, ziyaretçi siteye giriş yaptığında veya çıkış yaptığında bir mesaj göstermek isteriz.
+
+Fonksiyonlar, programın ana bloklarıdır ve fonksiyonlar sayesinde kodu tekrar tekrar yazmadan, istediğimiz kadar çağırabiliriz. Javascript'te built-in(dilin kendi içerisinde mevcut) fonksiyonlar olduğu gibi(mesela alert(parametre) ve  prompt(parametre) built-in fonksiyonları) biz de kendi fonksiyonlarımızı oluşturabiliriz.
+
 ## Fonksiyon Bildirimi(Function Declaration)
-  Fonksiyon oluşturmak içi fonksiyon bildirimi yapabiliriz. Mesela;
+  Fonksiyon oluşturmak için fonksiyon bildirimi yapabiliriz. Mesela;
   ```javascript
 function mesajVer() {
   alert( 'Herkese Merhabalar!' );
 }
-```
+  ```
 **function** anahtar kelimesini takiben fonksiyon ismi ve parantez içerisinde parametreler(virgülle ayrılacak şekilde) ve son olarak da süslü parantez içerisinde fonksiyonun içereceği kod(ki bu bölüme fonksiyonun gövdesi(body) denir.) sırasıyla fonksiyonu oluşturur.
 
   ```javascript
 function isim(parametreler) {
   ...fonksiyonun gövdesi...
 }
-```
+  ```
 
 Yukarıda bildirdiğimiz **mesajVer** fonksiyonu ismiyle çağrılabilir:
   ```javascript
@@ -157,9 +160,9 @@ function mesajVer() {
 }
 mesajVer();
 mesajVer();
-```
+  ```
 **mesajVer()** çağrısı fonksiyonu çalıştırır. Burada mesajı iki kere çağırdığımız için mesajı iki defa göreceğiz.
-Yukarıdaki örnekten de görüldüğü üzere; fonksiyonların ana amacı kodu tekrar yazmayı engellemektir. Eğer fonksiyonun vreceği mesajı değiştirmek istiyorsak, bunu sadece fonksiyonun içerisinde(bir kez) yapmamız yeterlidir.
+Yukarıdaki örnekten de görüldüğü üzere; fonksiyonların ana amacı kodu tekrar yazmayı engellemektir. Eğer fonksiyonun vereceği mesajı değiştirmek istiyorsak, bunu sadece fonksiyonun içerisinde(bir kez) yapmamız yeterlidir.
 
 Örnekler:
   ```javascript
@@ -170,39 +173,42 @@ function mesaVer(ad, soyad) {
 mesajVer("Arturo", "Kelesoglu", "Mr."); /* çıktı: Merhaba Arturo Kelesoglu (Bu örnekte parametrelere geçilen argüman sayısı 3'tür(Arturo, Kelesoglu, Mr.). Parametre sayısı ise 2'dir(ad,soyad). Bu yüzden fazlalıklar(Mr.) önemsenmez.*/
 mesajVer("Arturo"); /* çıktı: Merhaba Arturo undefined (Bu örnekte parametrelere geçilen argüman sayısı 1'dir.(Arturo). Parametre sayısı ise 2'dir(ad,soyad). Bu yüzden eksiklikler undefined döner. */
 mesajVer(); // çıktı Merhaba undefined undefined (Yukarıdaki örnekle aynı mantıktadır.)
-```
+  ```
 
 ## Geri Dönüş Değeri (Return Value)
-Bir fonksiyon **return** anhatar kelimesi kullanılarak sıfır yada bir 
+Bir fonksiyon **return** anahtar kelimesi kullanılarak sıfır ya da bir döndürülebilir.
+
+```
 function topla(sayi1, sayi2) {
     return sayi1 + sayi2;
 };
 
 var sonuc = topla(10,20); //  30 döner.
+```
+
+```
+
 
 function carp(sayi1, sayi2) {
     console.log( sayi1 * sayi2);
 };
 
 result = carp(10,20); // undefined 
+```
 
+ Ek olarak "topla" fonksiyonu iki değerin toplamını geri döner. "carp" fonksiyonunda ise **return** anahtar kelimesi kullanılmadığı için geri dönüş değeri yoktur,dolayısıyla "undefined" döner.
 
 ```
-topla fonksiyonu iki değerin toplamını geri döner. carp fonksiyonunda ise **return** anahtar kelimesi kullanılmadığı içn geri dönüş değeri yoktur,dolayısıyla undefined döner.
-
-##Fonksiyon İfadeleri (Function Expressions)
-Javascript bir değişkene fonksiyon atanmasına ve daha sonra bu değişkenin fonksiyon olarak kullanılmasına izin verir. Buna fonksiyon ifadeleri denir:
-
-  ```javascript
 var ekle = function topla(sayi1, sayi2) {
     return sayi1 + sayi2;
 };
 
 var sonuc1 = ekle(10,20); 
 var sonuc2 = topla(10,20); // geçersiz
-
 ```
 
+## Fonksiyon İfadeleri (Function Expressions)
+Javascript bir değişkene fonksiyon atanmasına ve daha sonra bu değişkenin fonksiyon olarak kullanılmasına izin verir. Buna fonksiyon ifadeleri denir.
 
 ### Arrow Functions
 
@@ -222,7 +228,7 @@ let func = function (param1, param2, param3) {
 };
 ```
 
-#### Aşağıdaki kod bloğunu deneyip sonuçları görebilirsiniz.
+**Aşağıdaki kod bloğunu deneyip sonuçları görebilirsiniz.**
 
 ```javascript
 const carpim = (sayi1, sayi2) => sayi1 * sayi2;
@@ -269,9 +275,9 @@ let toplam = (a, b) => {
 
 ### Recursion
 
-Direkt örnek vererek açıklamak gerekirse, yapmamız gereken bir task var diyelim ve biz bu taski birden fazla parçaya ayırıp daha basit halde yazmak istersek ve ya bu taski aksiyon alacak bir fonksiyona ve bu taski daha basit bir task a dönüştürmek istersek ve ya belirli bir data yapısı ile ilgileniyorsak, recursion bu noktada bize yardımı dokunabilecek bir programlama patternidir diyebiliriz.
+Direkt örnek vererek açıklamak gerekirse, yapmamız gereken bir task var diyelim ve biz bu task'ı birden fazla parçaya ayırıp daha basit halde yazmak istersek ve ya bu task'ı aksiyon alacak bir fonksiyona ve bu task'ı daha basit bir task a dönüştürmek istersek ve ya belirli bir data yapısı ile ilgileniyorsak, recursion bu noktada bize yardımı dokunabilecek bir programlama pattern'idir diyebiliriz.
 
-Bir fonksiyonu çağırdığımız zaman o fonksiyon bir çok fonksiyonu daha çalıştırabilir. Kısaca bir fonsiyon kendisini tekrar çağırıyor ise biz buna recursion diyoruz.
+Bir fonksiyonu çağırdığımız zaman o fonksiyon bir çok fonksiyonu daha çalıştırabilir. Kısaca bir fonksiyon kendisini tekrar çağırıyor ise biz buna recursion diyoruz.
 
 ```javascript
 // bir fonksiyon yazalım bu fonksiyon sayının kuvvetini alsın.
@@ -303,14 +309,14 @@ function pow(x, n) {
 alert(pow(2, 3)); // 8
 ```
 
-Aslında burada biz pow fonksiyonunu 2 ye ayırıyoruz. Eğer `n==1` ise işlem oldukça açık direkt bize `x` i verecek. Diğer türlü ise, fonksiyon `n==1` olana kadar kendisini çağırıp en basit haline ulaşınca, bize sonucu döndermekte.
+Aslında burada biz pow fonksiyonunu 2 ye ayırıyoruz. Eğer `n==1` ise işlem oldukça açık direkt bize `x` i verecek. Diğer türlü ise, fonksiyon `n==1` olana kadar kendisini çağırıp en basit haline ulaşınca, bize sonucu döndürmektedir.
 
 1.  pow(2,4) = 2 \* pow(2,3)
 2.  pow(2,3) = 2 \* pow(2,2)
 3.  pow(2,2) = 2 \* pow(2,1)
 4.  pow(2,1) = 2
 
-Sonuç olarak recursion, bir fonksiyonu en basit haline kadar getiriyor.Sonuç en açık hale gelene kadar.
+Sonuç olarak recursion, bir fonksiyonu en basit haline kadar getiriyor. Sonuç en açık hale gelene kadar.
 
 ```javascript
 //Aşağıdaki soruyu recursion ile arrow function ve if else clause kullanarak yeniden nasıl yazarız
@@ -321,13 +327,13 @@ function pow(x, n) {
 
 [Daha derinlere inmek isterseniz...](https://javascript.info/recursion)
 
-### Variable scope, Closure
+### Variable Scope, Closure
 
 Bir fonksiyonu istediğiniz bir an yaratabilir, başka bir fonksiyona parametre olarak girebilir ve yazdığımız programın çok farklı ir yerinde biz tekrar bu fonksiyonu çalıştırabiliriz. Javascript function-oriented bir dil olduğundan bize bir çok özgürlük sağlar.
 
-Bir fonksiyonun dışında tanımlanan değişkenlere erişebildiğiniz biliyoruz. Peki bir fonksiyonu biz yarattık ve global tanımlanan `var x = 5` bu fonksiyon içerisinde eriştik ve kullandık diyelim. Peki bu değişkenin değeri daha sonra değişirise fonksiyon güncel olanı alacak mı ve ya biz bu fonksiyonu başka bir fonksiyona parametre olarak girdiğimiz zaman hala sağlıklı bir şekilde `x` e ulaşabilecek mi?
+Bir fonksiyonun dışında tanımlanan değişkenlere erişebildiğiniz biliyoruz. Peki bir fonksiyonu biz yarattık ve global tanımlanan `var x = 5` bu fonksiyon içerisinde eriştik ve kullandık diyelim. Peki bu değişkenin değeri daha sonra değişirse fonksiyon güncel olanı alacak mı ve ya biz bu fonksiyonu başka bir fonksiyona parametre olarak girdiğimiz zaman hala sağlıklı bir şekilde `x` e ulaşabilecek mi?
 
-Not: Javascript de biz bir değişken atarken 3 farklı yol kullanabiliyoruz. `var` ve modern olanlar(`let`,`const`). Bu bölümde modern olanlardan konusacağız.
+Not: Javascript de biz bir değişken atarken 3 farklı yol kullanabiliyoruz. `var` ve modern olanlar(`let`,`const`). Bu bölümde modern olanlardan konuşacağız.
 
 #### Code Blocks
 
@@ -421,8 +427,6 @@ console.log(sayacartir()); // 2
 ```
 
 [Daha detayli bilgi için...](https://javascript.info/closure#nested-functions)
-
-
 
 
 ### Kaynaklar:

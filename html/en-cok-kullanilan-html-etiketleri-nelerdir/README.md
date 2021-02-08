@@ -1,32 +1,29 @@
 # En Çok Kullanılan HTML Etiketleri Nelerdir
-Yazıya başlamadan önce **HTML** dilinde bir etiket nasıl oluşturulur bunu göstermek istiyorum. Etiketler küçüktür ve büyüktür işaretlerinin arasına yazılarak başlar (_örn._ ```<etiket>```) içeriği yazdıktan sonra etiketi kapatmanız gerekir. Etiketi kapatmak için küçüktür, slash, etiket, büyüktür şeklinde yazılmalı (_örn._ ```</etiket>```) Bütün bir örnek yapmak gerekirse (_örn._ ```<etiket>``` İçerik Yazılacak Alan ```</etiket>```)
+Yazıya başlamadan önce **HTML** dilinde bir etiket nasıl oluşturulur bunu göstermek istiyorum. Etiketler küçüktür ve büyüktür işaretlerinin arasına yazılarak başlar (_örn._ `<etiket>`) içeriği yazdıktan sonra etiketi kapatmanız gerekir. Etiketi kapatmak için küçüktür, slash, etiket, büyüktür şeklinde yazılmalı (_örn._ `</etiket>`) Bütün bir örnek yapmak gerekirse (_örn._ `<etiket>` İçerik Yazılacak Alan `</etiket>`)
 
-NOT: Bazı etiketler kapanmaya ihtiyaç duymazlar (_örn._ ```<br>```, ```<hr>```, ```<meta>``` vs.)
-
-<br>
+**Not:** Bazı etiketler kapanmaya ihtiyaç duymazlar (_örn._ `<br>`, `<hr>`, `<meta>` vs.)
 
 ## HTML Etiketi
-HTML etiketi, dosya içeriğinin HTML dilinde yazıldığını tarayıcımıza bildirir. Bu etiket, kendi altında mutlaka ```<HEAD>``` ve ```<BODY>``` etiketlerini barındırmalıdır. Eğer bir HTML dökümanı oluşturmak isterseniz ilk yapacağınız iş bir ```<html>``` etiketi oluşturmaktır. Ardından HTML etiketi altına ```<HEAD>``` ve ```<BODY>``` etiketlerini yazmalısınız.
+HTML etiketi, dosya içeriğinin HTML dilinde yazıldığını tarayıcımıza bildirir. Bu etiket, kendi altında mutlaka `<HEAD>` ve `<BODY>` etiketlerini barındırmalıdır. Eğer bir HTML dökümanı oluşturmak isterseniz ilk yapacağınız iş bir `<html>` etiketi oluşturmaktır. Ardından HTML etiketi altına `<HEAD>` ve `<BODY>` etiketlerini yazmalısınız.
 
-```
+```html
 <html>
-  <HEAD></HEAD> 
-  <BODY></BODY>
+  <head></head> 
+  <body></body>
 </html>
 ```
-<br>
 
 ## HEAD Etiketi
-```<head>``` etiketi, site ziyaretçileri tarafından görülmesi gerekmeyen kodları içerir. Bu etiket altına yazılan kodlar genellikle arama motorları ve örümcekler (Crawler veya Spider diye geçer) içindir. Head etiketi altında bütün etiketleri kullanabilmeniz mümkün değil. Kullanabileceğiniz etiketler;
-- ```<title>``` (Bu etiketi kullanmak şarttır)
-- ```<meta>```
-- ```<style>```
-- ```<script>```
-- ```<noscript>```
-- ```<link>```
-- ```<base>```
+`<head>` etiketi, site ziyaretçileri tarafından görülmesi gerekmeyen kodları içerir. Bu etiket altına yazılan kodlar genellikle arama motorları ve örümcekler (Crawler veya Spider diye geçer) içindir. Head etiketi altında bütün etiketleri kullanabilmeniz mümkün değil. Kullanabileceğiniz etiketler;
+- `<title>` (Bu etiketi kullanmak şarttır)
+- `<meta>`
+- `<style>`
+- `<script>`
+- `<noscript>`
+- `<link>`
+- `<base>`
 
-```
+```html
 <html>
   <HEAD>
     <title> Sekmede Görülecek İsim </title>
@@ -37,12 +34,11 @@ HTML etiketi, dosya içeriğinin HTML dilinde yazıldığını tarayıcımıza b
   
 </html>
 ```
-<br>
 
 ## BODY Etiketi
-Web sayfamızda görmek istediğimiz bütün içerikleri ```<body>``` etiketi altına yazıyoruz. Anlatacağım diğer etiketleri ```<body>``` etiketi içerisine yazıcaz.
+Web sayfamızda görmek istediğimiz bütün içerikleri `<body>` etiketi altına yazıyoruz. Anlatacağım diğer etiketleri `<body>` etiketi içerisine yazıcaz.
 
-```
+```html
 <html>
   <HEAD>
     <title> Sekmede Görülecek İsim </title>
@@ -54,17 +50,15 @@ Web sayfamızda görmek istediğimiz bütün içerikleri ```<body>``` etiketi al
   </BODY>
 </html>
 ```
-<br>
+**Not:**
 
-## NOT
 Şu ana kadar oluşturduğumuz yapıyı idelerde kısayollar ile hızlıca oluşturabiliyoruz. Ben Visual Studio Code (VSC) kullanıyorum. VSC üzerinde **"! + Enter"** yazarak aşşağıdaki yapıyı hızlıca oluşturabilirsiniz.
 
-<br>
 
-```<!DOCTYPE html>```: Dökümanımızın **HTML** dilinde olduğunu tarayıcımıza bildiren talimattır. <br />
-```<html lang="en">```:  Site içeriğinin dilini belirten etiket, **"en"** yerine **"tr"** yazabilirsiniz. <br/>
+`<!DOCTYPE html>` :  Dökümanımızın **HTML** dilinde olduğunu tarayıcımıza bildiren talimattır.
+`<html lang="en">` :  Site içeriğinin dilini belirten etiket, **"en"** yerine **"tr"** yazabilirsiniz.
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,30 +67,32 @@ Web sayfamızda görmek istediğimiz bütün içerikleri ```<body>``` etiketi al
     <title>Document</title>
 </head>
 <body>
-    
+
 </body>
 </html>
 ```
-<br>
 
 ## H Etiketleri
-**H** etiketleri başlık etiketleridir. Büyükten küçüğe sırasıyla ```<h1>``` ```<h2>``` ```<h3>``` ```<h4>``` ```<h5>``` ```<h6>``` şeklindedir. <br />
-NOT: HTML otomatik olarak **Başlık** etiketlerinin öncesine ve sonrasına satır atlatır.
+**H** etiketleri başlık etiketleridir. Büyükten küçüğe sırasıyla
+```html
+<h1>
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+```
+şeklindedir.
 
-# h1 Etiketi
-## h2 Etiketi
-### h3 Etiketi
-#### h4 Etiketi
-##### h5 Etiketi
-###### h6 Etiketi
+**Not:** HTML otomatik olarak **Başlık** etiketlerinin öncesine ve sonrasına satır atlatır.
 
-<br>
 
 ## P Etiketi
-```<p>``` etiketi paragraf etiketidir. Sayfa içerisinde oluşturacağımız metinleri ```<p>``` etiketi ile oluştururuz. Aşşağıdaki örnekte hem başlık etiketi hemde paragrafa etiketini kullandım. <br />
-NOT: HTML otomatik olarak **Paragraf** etiketinin öncesine ve sonrasına satır atlatır.
+`<p>` etiketi paragraf etiketidir. Sayfa içerisinde oluşturacağımız metinleri `<p>` etiketi ile oluştururuz. Aşşağıdaki örnekte hem başlık etiketi hemde paragrafa etiketini kullandım.
 
-```
+**Not:** HTML otomatik olarak **Paragraf** etiketinin öncesine ve sonrasına satır atlatır.
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -110,13 +106,11 @@ NOT: HTML otomatik olarak **Paragraf** etiketinin öncesine ve sonrasına satır
 </body>
 </html>
 ```
-<br>
-
 ## BR Etiketi
-```<br>``` etiketi satır atlatma etiketidir ve kapatmaya ihtiyaç duymayan etiketlerden biridir. Atlatmak istediğiniz satır sayısı kadar ```<br>``` etiketi kullanabilirsiniz. <br />
-NOT: BR etiketinin farklı kullanımlarını görebilirsiniz. _örn._(```<br>```,```<br/>```,```<br />```) Hepsi aynı işlevi yerine getirir.
+`<br>` etiketi satır atlatma etiketidir ve kapatmaya ihtiyaç duymayan etiketlerden biridir. Atlatmak istediğiniz satır sayısı kadar `<br>` etiketi kullanabilirsiniz. <br />
+NOT: BR etiketinin farklı kullanımlarını görebilirsiniz. _örn._(`<br>`,`<br/>`,`<br />`) Hepsi aynı işlevi yerine getirir.
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -130,13 +124,11 @@ NOT: BR etiketinin farklı kullanımlarını görebilirsiniz. _örn._(```<br>```
 </body>
 </html>
 ```
-<br>
-
 ## A Etiketi
-```<a>``` etiketinin en önemli özelliği href özelliğidir. Bu etiket ile sayfaları linkleyebiliriz. Etiket içerisine yazılan içerik sayfa üzerinde gösterilecek içeriktir. href içine yazılan ise tıklandığında gideceği URL'dir.
+`<a>` etiketinin en önemli özelliği href özelliğidir. Bu etiket ile sayfaları linkleyebiliriz. Etiket içerisine yazılan içerik sayfa üzerinde gösterilecek içeriktir. href içine yazılan ise tıklandığında gideceği URL'dir.
 
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -150,14 +142,13 @@ NOT: BR etiketinin farklı kullanımlarını görebilirsiniz. _örn._(```<br>```
 </html>
 ```
 
-<br>
-
 ## UL - OL - Li Etiketi
-```<ul>``` ve ```<ol>``` etiketleri liste oluşturma etiketleridir. Listeyi oluşturduktan sonra içeriğini oluşturmak için ```<li>``` etiketini kullanıyoruz. <br>
-```<ul>``` = **"unordered list"** sırasız liste anlamına geliyor. <br>
-```<ol>``` = **"ordered list"** sıralı liste anlamına geliyor.
+`<ul>` ve `<ol>` etiketleri liste oluşturma etiketleridir. Listeyi oluşturduktan sonra içeriğini oluşturmak için `<li>` etiketini kullanıyoruz. 
 
-```
+`<ul>` = **"unordered list"** sırasız liste anlamına geliyor.
+`<ol>` = **"ordered list"** sıralı liste anlamına geliyor.
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -182,12 +173,10 @@ NOT: BR etiketinin farklı kullanımlarını görebilirsiniz. _örn._(```<br>```
 </body>
 </html>
 ```
-<br>
-
 ## HR Etiketi
-```<hr>``` etiketi ekrana yatay bir çizgi çizer. Bu etiket kapanmaya ihtiyaç duymaz.
+`<hr>` etiketi ekrana yatay bir çizgi çizer. Bu etiket kapanmaya ihtiyaç duymaz.
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -214,12 +203,10 @@ NOT: BR etiketinin farklı kullanımlarını görebilirsiniz. _örn._(```<br>```
 </body>
 </html>
 ```
-<br>
-
 ## STRONG ve B Etiketi
-```<strong>``` etiketi bir metinin arama motorlarına önemli olduğunu bildirmek için kullanılır. Kullanıldığı zaman metini kalın yapar. Eğer sadece metini kalınlaştırmak isterseniz ```<b>``` etiketini kullanabilirsiniz.
+`<strong>` etiketi bir metinin arama motorlarına önemli olduğunu bildirmek için kullanılır. Kullanıldığı zaman metini kalın yapar. Eğer sadece metini kalınlaştırmak isterseniz `<b>` etiketini kullanabilirsiniz.
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -233,11 +220,9 @@ NOT: BR etiketinin farklı kullanımlarını görebilirsiniz. _örn._(```<br>```
 </body>
 </html>
 ```
-<br>
-
 ## Script Etiketi
-```<script>``` etiketi JavaScript kodlarını HTML içerisine yazabilmemizi sağlar.
-```
+`<script>` etiketi JavaScript kodlarını HTML içerisine yazabilmemizi sağlar.
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -253,11 +238,10 @@ NOT: BR etiketinin farklı kullanımlarını görebilirsiniz. _örn._(```<br>```
 </html>
 ```
 
-<br>
-
 ## Button Etiketi
-```<button>``` etiketini buton oluşturmak için kullanırız. Buton üzerine yazmak istediğiniz içeriği etiketin içine yazmanız yeterlidir.
-```
+`<button>` etiketini buton oluşturmak için kullanırız. Buton üzerine yazmak istediğiniz içeriği etiketin içine yazmanız yeterlidir.
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -271,13 +255,11 @@ NOT: BR etiketinin farklı kullanımlarını görebilirsiniz. _örn._(```<br>```
 </html>
 ```
 
-<br>
-
 ## img Etiketi
-Resim eklemek için ```<img>``` etiketini kullanıyoruz. <br>
-```<img src=”resim.jpg” alt=”açıklama yazısı” />``` **src=""** kısmına eklemek istediğimiz görselin yolunu yani kaynağını yazmalıyız. Eğer görselimiz ve HTML dosyamız aynı klasörde ise görselin adını ve uzantısını yazmamız yeterlidir. **alt=""** kısmına görselin açıklamasını yazıyoruz fakat isterseniz boş bırakabilirsiniz. Bu etiket kapanmaya ihtiyaç duymaz.
+Resim eklemek için`<img>` etiketini kullanıyoruz. <br>
+`<img src=”resim.jpg” alt=”açıklama yazısı” />` **src=""** kısmına eklemek istediğimiz görselin yolunu yani kaynağını yazmalıyız. Eğer görselimiz ve HTML dosyamız aynı klasörde ise görselin adını ve uzantısını yazmamız yeterlidir. **alt=""** kısmına görselin açıklamasını yazıyoruz fakat isterseniz boş bırakabilirsiniz. Bu etiket kapanmaya ihtiyaç duymaz.
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -291,12 +273,10 @@ Resim eklemek için ```<img>``` etiketini kullanıyoruz. <br>
 </html>
 ```
 
-<br>
-
 ## iframe Etiketi
-Belge içinde belge gösterebilmemizi sağlayan etikettir. Genelde başka bir sitedeki belgeyi kendi sayfamızda göstermek için kullanırız. _örn:_ Youtube'dan bir videoyu sayfamızda göstermek istersek ```<iframe>``` kodlarını sayfamıza eklememiz yeterli.(video üzerinde sağ tıklayıp yerleştirme kodunu kopyala diyerek iframe kodunu kopyalayabiliriz.)
+Belge içinde belge gösterebilmemizi sağlayan etikettir. Genelde başka bir sitedeki belgeyi kendi sayfamızda göstermek için kullanırız. _örn:_ Youtube'dan bir videoyu sayfamızda göstermek istersek `<iframe>` kodlarını sayfamıza eklememiz yeterli.(video üzerinde sağ tıklayıp yerleştirme kodunu kopyala diyerek iframe kodunu kopyalayabiliriz.)
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -311,12 +291,10 @@ Belge içinde belge gösterebilmemizi sağlayan etikettir. Genelde başka bir si
 </body>
 </html>
 ```
-<br>
-
 ## Yorum Satırı
-HTML dilinde yorum satırı ```<!--``` ile başlar ```-->``` ile biter.
+HTML dilinde yorum satırı`<!--` ile başlar `-->` ile biter.
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -334,6 +312,7 @@ HTML dilinde yorum satırı ```<!--``` ile başlar ```-->``` ile biter.
 </html>
 ```
 
+**Aşağıda hadi bütün örneklerin olduğu codepen'i düzenlemekten değişiklikleri deneyimlemekten çekinme!**
 
- ## Kaynak
+## Kaynaklar
  - [w3schools](https://www.w3schools.com/tags/default.asp)

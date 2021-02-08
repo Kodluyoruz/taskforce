@@ -1,5 +1,4 @@
 # Bootstrap Nedir?
-# Bootstrap ile Hızlı ve Responsive Siteler İnşa Edin
 
 ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-nedir/figures/Bootstrap.png)
 
@@ -9,7 +8,8 @@ Bootstrap dünyanın en popoler, açık kaynak kodlu, ücresiz, farklı cihazlar
 
 Ayrıca Bootstrap‘in kullandığı Grid (Izgara) sistemi ile  sitenizi istediğiniz bölümde konumlandırabiliyorsunuz. Bu özellik, ekranı dilediğiniz ölçüde bölüp, ayırdığınız bu kısımlara kolayca müdahele etmenizi sağlamaktadır.
 
-Basit bir hazır Bootstrap örneği:
+**Basit bir hazır Bootstrap örneği:**
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -51,11 +51,12 @@ Basit bir hazır Bootstrap örneği:
 
 </body>
 </html>
-
 ```
+**Çıktı:**
 ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-nedir/figures/website.png)
 
-# Bootstrap öğrenimi için linkler
+**Faydalı linkler:**
+
 - [Resmi Bootstrap dökümantasyonu](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - [Bootstrap bileşenleri -1](https://www.toptal.com/front-end/what-is-bootstrap-a-short-tutorial-on-the-what-why-and-how)
 - [Bootstrap bileşenleri -2](https://www.w3schools.com/whatis/whatis_bootstrap.asp)

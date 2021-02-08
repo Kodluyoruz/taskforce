@@ -1,12 +1,10 @@
-# External, Internal ve Inline CSS Kullanımı
+# External, Internal ve Inline CSS Kullanımı
 
 CSS, web sitenizin ekranda nasıl görüneceğini belirleyen belirli stil kurallarına sahip dosyalardır. CSS kuralları, web sitenizin HTML dosyalarına çeşitli şekillerde ve yerlerde uygulanabilir. External yani harici bir stil sayfası, Internal yani dahili bir stil sayfası veya Inline yani satır içi stil kullanabilirsiniz. Her yöntemin belirli kullanımlara uygun avantajları vardır.
 
 External stil sayfası, bir web sayfasından bağlanan bağımsız bir  `.css` dosyasıdır. External stil sayfasının avantajı, bir kez oluşturulabilmesi ve birden çok web sayfasına uygulanabilmesidir. Site tasarımınızda geniş çaplı değişiklikler yapmanız gerekirse eğer, stil sayfasında tek bir değişiklik yapabilirsiniz ve bu değişiklik tüm bağlantılı sayfalara uygulanarak zamandan ve emekten tasarruf sağlar.
 
 ![Css Yapısı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/inlineetikete-ozel%2C-internalayni-dosyada-ve-externalcss-dosyasinda-css-kullanimi/figures/css-yapisi.jpg)
-
-
 
 Internal stil sayfası, HTML dosyasının `<head>` bölümünde sayfa için CSS kural kodlarını barındırır. Kural kodları yalnızca o sayfa için geçerlidir, ancak sayfa kodunda birden çok öğeye stil uygulamak için kullanılabilecek class ve id’leri yapılandırabilirsiniz. Yine, CSS kodunda yapılacak tek bir değişiklik, sayfadaki tüm etiketlenmiş öğelere uygulanacaktır.
 
@@ -15,7 +13,6 @@ Internal stil sayfası, HTML dosyasının `<head>` bölümünde sayfa için CSS 
 Inline stili, belirli bir sayfa öğesine stil vermek için, belirli bir HTML etiketi içinde kullanılır. Hızlı ve kalıcı değişiklikler için kullanışlıdırlar, ancak bir tasarım değişikliği yapmaya karar vermeniz durumunda, oluşturduğunuz her Inline stilin ayrı ayrı düzenlenmesi gerektiğinden, External ve Internal stil sayfalarından daha kullanışlı değildir ve diğerlerine göre çok fazla tercih edilmez.
 
 ## External CSS Kullanımı
-
 Yukarıda bahsettiğimiz gibi External CSS, normal HTML dosyanızdan bağımsız bir dosyadır ve `.css` uzantılıdır. CSS dosyanızı oluşturduktan sonra mutlaka HTML dosyanıza linklemeniz gerekir. Yoksa CSS dosyanız işlevsiz kalacak ve HTML sayfanızda yaptığınız değişiklikleri göremeyeceksiniz. Hadi gelin bir de örnek üzerinde görelim.
 
 `.css` uzantılı dosyamızı oluşturduktan sonra içine kodlarımızı bu şekilde yazıyoruz: 
@@ -38,12 +35,12 @@ Daha sonra HTML sayfamıza geri dönüyoruz ve yazdığımız bu External CSS ko
 <link rel="stylesheet" href="style.css">
 ```
 
-[Codepen'de dene.](https://codepen.io/lovelysmilee/pen/xxEYeyE)
-
+Aşağıda codepen ile deneyimleyebilirsiniz!
 
 ## Internal CSS Kullanımı
+Internal CSS, stil kodlarının direk HTML dosyasının içinde `<head>` bölümünde kullanıldığı bir yöntemdir. `<head>` bölümünün içinde bir `<style>` etiketi açtıktan sonra içine gerekli CSS kodlarını yazabilirsiniz. 
 
-Internal CSS, stil kodlarının direk HTML dosyasının içinde `<head>` bölümünde kullanıldığı bir yöntemdir. `<head>` bölümünün içinde bir `<style>` etiketi açtıktan sonra içine gerekli CSS kodlarını yazabilirsiniz. Örnek vermek gerekirse; kodunuz şu şekilde görünecektir:
+**Örnek vermek gerekirse; kodunuz şu şekilde görünecektir:**
 
 ```html
 <!DOCTYPE html>
@@ -70,11 +67,9 @@ body {
 </html>
 ```
 
-[Codepen'de dene.](https://codepen.io/lovelysmilee/pen/zYKRXpx)
-
+**Aşağıda codepen ile deneyimleyebilirsiniz!**
 
 ## Inline CSS Kullanımı
-
 Inline yani satır içi stiller, doğrudan HTML kodunuzdaki herhangi bir öğeye uygulanır. Stil niteliği ve ardından normal CSS özellikleri bir HTML etiketi içinde belirtilir. Kullanımı aşağıdaki örnekte gösterildiği gibidir:
 
 ```html
@@ -91,18 +86,17 @@ Inline yani satır içi stiller, doğrudan HTML kodunuzdaki herhangi bir öğeye
 </html>
 ```
 
-[Codepen'de dene.](https://codepen.io/lovelysmilee/pen/MWjQRQM)
-
+**Aşağıda codepen ile deneyimleyebilirsiniz!**
 
 Bu üç CSS özelliğinin nasıl kullanıldığını öğrendiğinize göre aşağıdaki alıştırma ve iki adet çoktan seçmeli soruyla öğrendiğiniz bilgileri pekiştirebilirsiniz. :smile:
 
-### Alıştırmalar
-Yapabileceğiniz alıştırmalar.
+## Ekstra Alıştırmalar
+Yapabileceğiniz ekstra alıştırmalar.
 - [Alıştırma 1 için tıkla.](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto2)
 - [Alıştırma 2 için tıkla.](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto3)
 - [Alıştırma 3 için tıkla.](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto4)
 
-## Kaynakça 
+## Kaynaklar
 
 - [https://www.w3schools.com/css/exercise.asp?filename=exercise_howto2](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto2)
 - [https://www.w3schools.com/css/exercise.asp?filename=exercise_howto3](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto3)

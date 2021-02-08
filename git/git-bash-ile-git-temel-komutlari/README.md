@@ -1,45 +1,29 @@
 # GIT Bash ile GIT Temel Komutları
 
-GIT temel komutlarını kullanabilmek için Mac OS X'de Terminal uygulamasını Windows'da ise Git Bash'i açarak aşağıdaki komutları çalıştırmanız gerekir.
+GIT temel komutlarını kullanabilmek için Mac OS X'de Terminal uygulamasını, Windows'da ise GIT Bash'i açarak aşağıdaki komutları çalıştırmanız gerekir.
 
-##### Terminal
-
+**Örnek Terminal görüntüsü**
 ![terminal](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/git-bash-ile-git-temel-komutlari/figures/1-terminal.jpeg)
 
-
-
-
-##### Git Bash
-
+**Örnek  GIT Bash görüntüsü
 ![git-bash](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/git-bash-ile-git-temel-komutlari/figures/2-git-bash.png)
 
-
-
-
-
 ## GIT Temel Komutları
-
 ![GitHub-cheat-sheet-graphic](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/git-bash-ile-git-temel-komutlari/figures/3-GitHub-cheat-sheet-graphic.jpg)
 
+**Başlıca bilmemiz gereken bazı terimler;**
 
-
-Başlıca bilmemiz gereken bazı terimler;
-
-> **untracked (izlenmeyen):** GIT tarafından henüz takip edilmeyen, yani yeni oluşturulmuş dosyaları ifade eder.
->
-> **unstaged (hazırlanmamış):** Güncellenmiş ancak *commit*’lenmek için hazırlanmamış dosyaları ifade eder.
->
-> **staged (hazırlanmış):** *Commit*’lenmeye hazır olan dosyaları ifade eder.
->
-> **deleted (silinmiş):** Projeden silinmiş ama GIT üzerinden kaldırılmamış dosyaları ifade eder.
+- **untracked (izlenmeyen):** GIT tarafından henüz takip edilmeyen, yani yeni oluşturulmuş dosyaları ifade eder.
+- **unstaged (hazırlanmamış):** Güncellenmiş ancak *commit*’lenmek için hazırlanmamış dosyaları ifade eder.
+- **staged (hazırlanmış):** *Commit*’lenmeye hazır olan dosyaları ifade eder.
+- **deleted (silinmiş):** Projeden silinmiş ama GIT üzerinden kaldırılmamış dosyaları ifade eder.
 
 
 
-#### git init
-
+### `git init`
 Henüz versiyon kontrolü altında olmayan bir projenin dizininde, boş bir git deposu oluşturmak için kullanılır. 
 
-```
+```bash
 $ git init
 ```
 
@@ -47,119 +31,100 @@ $ git init
 
 
 
-#### git config
+### `git config`
 
-Git’in bir çok konfigürasyon ve ayarı vardır, bunlardan ikisi user.name ve user.email olanıdır. Bu ayarları yapılandırmak için aşağıdaki komutları kullanırız.
+GIT’in bir çok konfigürasyon ve ayarı vardır, bunlardan ikisi user.name ve user.email olanıdır. Bu ayarları yapılandırmak için aşağıdaki komutları kullanırız. GIT'i ilk kurduğumuzda genellikle aldığımız ilk hata bu configurasyon ayarlarını yapmadığımız için gelir. Burada yazdığınız isim ve email ileride GitHub benzeri bir plat forma commit attığınızda da görüneceği için bunu bilerek isimlendirme yapmak yararlı olur. Ayrıca görüldüğü gibi bu ayarlar `--global`yani sistem genelinde geçerli ayarlardır. Proje bazlı bu ayarları değiştirebiliriz.
 
-```
+
+```bash
 $ git config --global user.name "Name Surname"
 ```
 
-```
+```bash
 $ git config --global user.email "test@email.com"
 ```
 
-Bu ayarların bütününü görüntülemek için;
+**Bu ayarların bütününü görüntülemek için;**
 
-```
+```bash
 $ git config --list
 ```
 
+**Not:**  Eğer windows işletim sistemi kullanıyorsanız, böyle bir hata ile karşılaşabilirsiniz. 
 
-
-Not:  Eğer windows işletim sistemi kullanıyorsanız, böyle bir hata ile karşılaşabilirsiniz. 
-
-> ```
+> ```bash
 > warning: LF will be replaced by CRLF in kaynak/dosya/yolu
 > ```
 
-Bu hatanın çözümü için aşağıdaki komutu kullanabilirsiniz.
+**Bu hatanın çözümü için aşağıdaki komutu kullanabilirsiniz.**
 
-```
+```bash
 $ git config core.autocrlf true
 ```
 
 
 
-#### git add
-
+### `git add`
 Yeni eklenen veya üzerinde değişiklik yapılan dosyaları **staged** ortamına göndermek için kullanılır.
-
-```
+```bash
 $ git add <dosya veya klasor_name>
 ```
 
-Tek seferde bütün dosyaları eklemek için ise,
-
-```
+**Tek seferde bütün dosyaları eklemek için ise,**
+```bash
 $ git add .  veya  $ git add *  veya   $ git add -A .
 ```
 
-Buradaki **-A** (all) tümü anlamındadır. “ . ” ise tüm dosya uzantılarını ifade eder. 
+Buradaki `-A` (all) tümü anlamındadır. `.` ise tüm dosya uzantılarını ifade eder.
 
-
-
-#### git rm
-
+#### `git rm`
 Staged ortamına eklenmiş bir dosyanın takibinin bırakılması yani **untracked** (izlenmeyen) hale getirilmesi sağlayan komuttur.
 
-```
+```bash
 $ git rm  --cached <dosya veya klasor_name>
 ```
 
 Dosyayı klasörden silmek istiyorsak eğer, aşağı komutu kullanılırız.
-
-```
+```bash
 $ git rm <dosya veya klasor_name>
 ```
 
-
-
-#### git status
-
+### git status
 Üzerinde çalışılan projenin o anki durumu hakkında bilgi verir. Yapılan değişiklikler, eklenen ve silinen dosyalar gibi bilgiler listelenir.
 
-```
+```bash
 $ git status
 ```
 
 ![git-status-1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/git-bash-ile-git-temel-komutlari/figures/5-git-status-1.png)
 
 
-On branch main -> *Main* branch'inde olduğumuzu,
-
-Changes to be commited -> Commit'lenmeye hazır değişiklikler olduğunu,
-
-Modified: index.html -> Index.html dosyasında **değişiklik** yaptığımızı,
-
-Deleted: styles.css -> styles.css dosyasını **sildiğimizi**,
+- On branch main -> *Main* branch'inde olduğumuzu,
+- Changes to be commited -> Commit'lenmeye hazır değişiklikler olduğunu,
+- Modified: index.html -> Index.html dosyasında **değişiklik** yaptığımızı,
+- Deleted: styles.css -> styles.css dosyasını **sildiğimizi**,
 
 ![git-status-2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/git-bash-ile-git-temel-komutlari/figures/5-git-status-2.png)
 
 
-Changes not staged for commit -> Üzerinde değişiklik yapılan ama staged ortamına gönderilmemiş dosyaları ifade eder.
+- Changes not staged for commit -> Üzerinde değişiklik yapılan ama staged ortamına gönderilmemiş dosyaları ifade eder.
+- Untracked files -> takibi yapılmayan dosyaları ifade eder.
 
-Untracked files -> takibi yapılmayan dosyaları ifade eder.
+### `git commit`
+*Commit*, **staged** ortamına alınan dosyaların *Local Repository*’e gönderilmesidir.  En iyi uygulama yöntemi her kayıt sırasında yapılan değişiklikleri açıklayıcı bir mesaj eklemektir. Ayrıca her commit benzersiz bir kimliğe (unique ID) sahip olur. Bu sayede eski bir commit'e geri dönebilirsiniz ve herhangi bir kayıp yaşama ihtimaliniz kalmaz.
 
-
-
-#### git commit
-
-*Commit*, **staged** ortamına alınan dosyaların *Local Repository*’e gönderilmesidir.  En iyi uygulama yöntemi her kayıt sırasında yapılan değişiklikleri açıklayıcı bir mesaj eklemektir. Ayrıca her commit benzersiz bir kimliğe (unique ID) sahip olur.
-
-```
+```bash
 $ git commit -m "ilk commit mesajı"
 ```
+* Buradaki **-m** (message) mesaj anlamındadır.
 
-Buradaki **-m** (message) mesaj anlamındadır.
+> Bir dili veya framework'ü yeni öğrendiğiniz zaman `commit`'leri akıllıca kullanmak işimizi oldukça kolaylaştırır. Çünkü eklediğiniz bir işlevsellik veya özelliği hatırlayacağınız bir `commit`mesajıyla kaydetmek, GIT'in doğası gereği hangi satırlarda değişiklik yaptığınızı gösterdiği için tekrar kullanmak istediğiniz zaman eklemeniz gereken komutları hatırlamanızı kolaylaştırır.
 
 
-
-#### git log
-
+### `git log`
 Projedeki commit geçmişini görüntülememizi sağlar. Bütün commit'ler, id'si, yazarı, tarihi ve mesajı ile beraber listelenir.
 
-```
+```bash
 $ git log
 ```
 
@@ -167,118 +132,86 @@ $ git log
 
 
 
-#### git branch
-
+### `git branch`
 Local veya remote repository üzerinde yeni bir branch (dal) eklemek, silmek veya listelemek için kullanılır.
 
-*yeni bir branch eklemek için*;
-
-```
+**Projenize yeni bir branch eklemek için;**
+```bash
 $ git branch <branch_name>
 ```
 
-*tüm uzak ve yerel branch'leri listelemek için;*
-
-```
+**Tüm uzak ve yerel branch'leri listelemek için;*
+```bash
 $ git branch -a
 ```
 
-*bir branch'i silmek için;*
-
-```
+**Bir branch'i silmek için;**
+```bash
 $ git branch -d <branch_name>
 ```
 
+### `git checkout`
+Branch’ler arası veya commit'ler arası geçiş yapmak istediğimizde kullanılır.
 
-
-#### git checkout
-
-Branch’ler arası veya comm geçiş yapmak istediğimizde kullanılır.
-
-*mevcutta var olan branch'e geçiş yapmak için;*
-
-```
+**Mevcutta var olan branch'e geçiş yapmak için;**
+```bash
 $ git checkout <branch_name>
 ```
 
-*yeni bir branch oluşturup, bu branch'e geçiş yapmak için;*
-
-```
+**Yeni bir branch oluşturup, bu branch'e geçiş yapmak için;**
+```bash
 $ git checkout -b <branch_name>
 ```
 
-*commitler arası geçiş yapmak için;*
-
-```
+**Commitler arası geçiş yapmak için;** (Eski bir versiyona dönmek istediğimiz zaman)
+```bash
 $ git checkout <commit_ID>
 ```
 
-
-
-#### git merge
-
+### `git merge`
 Başka bir branch'de olan değişiklikleri, bulunduğumuz branch ile birleştirmek istediğimizde kullanılır.
-
-```
+```bash
 $ git merge <branch_name>
 ```
 
-
-
-#### git clone
-
+### `git clone`
 Mevcut bir Remote Repository'de bulunan dosyaların bilgisayarımızda bir kopyasının oluşturulmasını sağlar.
-
-```
+```bash
 $ git clone <remote_URL>
 ```
 
-
-
-#### git push
-
+### `git push`
 Projemizde aldığımız commit'leri, remote repository'e gönderir.
-
-```
+```bash
 $ git push origin master
 ```
 
-*Burada bahsi geçen `origin` remote repository’nin kök dizinini belirtir ve sabit bir isimdir. `master` ise sizin çalıştığınız branch (dal)’ı belirtir.*
-
-
+***Burada bahsi geçen `origin` remote repository’nin kök dizinini belirtir ve sabit bir isimdir. `master` ise sizin çalıştığınız branch (dal)’ı belirtir.***
 
 *Henüz remote repository’niz yoksa aşağıdaki komut ile local deponuzu uzak sunucudaki depoya bağlayabilirsiniz.*
-
-```
+```bash
 $ git remote add origin http://uzak_deponun_adresi.git
 ```
 
-
-
-#### git diff
-
+### git diff
 Repository üzerinde yapılan değişikliklerden sonra dosyalar arasında oluşan farklılıkları göterir.
 
-*çalışma dizini ile repository (HEAD) arasındaki farklılıkları görmek için;*
-
-```
+**Çalışma dizini ile repository (HEAD) arasındaki farklılıkları görmek için;**
+```bash
 $ git diff HEAD
 ```
 
-*iki commit arasındaki farklılıkları görmek için;*
-
-```
+**İki commit arasındaki farklılıkları görmek için;**
+```bash
 $ git diff <commit_id_1>..<commit_id_2>
 ```
 
-*çalışma dizini ve staged ortamı arasındaki farkları görmek için;*
-
-```
+**Çalışma dizini ve staged ortamı arasındaki farkları görmek için;**
+```bash
 $ git diff --staged
 ```
 
-### KAYNAKÇA
-
+## Kaynaklar
 - https://medium.com/fedeveloper/git-bash-ile-komut-komut-versiyonlama-a354efd3063f
 - https://www.jrebel.com/blog/git-cheat-sheet
 - http://guides.beanstalkapp.com/version-control/common-git-commands.html

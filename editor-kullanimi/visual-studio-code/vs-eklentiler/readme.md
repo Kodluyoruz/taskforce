@@ -1,4 +1,4 @@
-# CODE | Eklentiler
+# Eklentiler
 
 Visual Studio Code'u indirip kullanmaya başladığımızda aklımızda "Hangi eklentileri indirmeliyim?" gibi sorular canlanıyor. Bu yazımızda sizlerle bunun üzerinden duracağız. 
 
