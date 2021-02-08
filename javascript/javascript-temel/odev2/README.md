@@ -6,11 +6,13 @@ Günlük hayatta yapacağımız işleri aklımızda tutmak oldukça zor oluyor d
 
 Projeyi canlı olarak [buradan](https://cengizcmataraci.me/javascripttodolist/) inceleyebilirsiniz.
 
-![todolist](figures/todolist.gif)
+Proje temel dosyalarına [buradan](https://github.com/Kodluyoruz/taskforce/tree/main/javascript/javascript-temel/odev2/todolist) erişebilirsiniz.
+
+![todolist](https://github.com/Kodluyoruz/taskforce/blob/main/javascript/javascript-temel/odev2/figures/todolist.gif)
 
 JS dosyası olmadan aşağıdaki gibi duruyor.
 
-![todolistnojs](figures/todolistnojs.png)
+![todolistnojs](https://github.com/Kodluyoruz/taskforce/blob/main/javascript/javascript-temel/odev2/figures/todolistnojs.png)
 
 Kuracağınız yapı tamamen size kalmış. Birkaç tane püf noktamız var.
 
