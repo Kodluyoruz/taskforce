@@ -8,7 +8,7 @@
 - [Veri Bilimi Nedir?](nedir-ds/)
 - [Veri Bilimi Uygulama vs Pratik](research-practice/)
 - [Format Değişikliği?](format/)
-- [Neden Terimler İngilizce?](neden_ing/)
+- [Neden Terimler İngilizce?](neden-ing/)
 - [Veri Bilimi Şişirilmiş Bir Balon mu?](balon/)
 - [Supervised vs Unsupervised Learning](supervised-unsupervised/)
 - [Unsupervised Aslında Denetimsiz Değil](no-unsupervised/)
