@@ -235,7 +235,7 @@ console.log(['x','y'] == 'x,y')
 3. console.log(null==””)  
 4. console.log(0 || “ 0” && {})
 5. console.log([“a”] > null)
-6. [Codepen'de deneyin](https://codepen.io/cosmicwayfarer/pen/wvzpPxp)
+6. Aşağıda yer alan Codepen 'de deneyelim.
 
 ## Cevaplar
 (Yazının içindeki soruların cevabı)
