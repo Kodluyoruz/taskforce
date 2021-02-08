@@ -59,7 +59,7 @@ console.log(`${a} çarpı ${b} eşittir ${a*b}`);
 //99 çarpı 999 eşittir 98901
 ```
 
-[Codepen'de Deneyin](https://codepen.io/ayerdelen/pen/MWjQNVM)
+Aşağıda codepen ile deneyimleyebilirsiniz!
 
 - **HTML Şablonları**
 
@@ -84,7 +84,7 @@ const kisi = "<p>"+ad+"</p>"+
 document.body.innerHTML = kisi;
 ```
 
-[Codepen'de Deneyin](https://codepen.io/ayerdelen/pen/GRjQVLd)
+Aşağıda codepen ile deneyimleyebilirsiniz!
 
 →Yeni kullanım, Template Literals kullanarak:
 
@@ -101,7 +101,8 @@ document.body.innerHTML = kisi;
 //Bu kullanım daha az karmaşık ve okunabilir.
 ```
 
-[Codepen'de Deneyin](https://codepen.io/ayerdelen/pen/XWjZvom)
+Aşağıda codepen ile deneyimleyebilirsiniz!
+
 ### Kısaca
 
 Template Literals;
@@ -137,8 +138,7 @@ const bookTable =
 document.body.innerHTML = bookTable
 ```
 
-[Codepen'de Deneyin](https://codepen.io/ayerdelen/pen/BaLrBWE)
-[→ Cevabı Codepen'de Görün](https://codepen.io/ayerdelen/pen/WNGzeEN)
+Aşağıda codepen ile deneyimleyebilirsiniz!
 
 ## Kaynaklar
 - [https://medium.com/@gulineyel/javascriptde-template-literals-nedir-76eddd333e7](https://medium.com/@gulineyel/javascriptde-template-literals-nedir-76eddd333e7)
