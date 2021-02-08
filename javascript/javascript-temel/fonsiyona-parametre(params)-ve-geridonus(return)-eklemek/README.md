@@ -71,6 +71,7 @@ function daireAlaniHesaplama (r) // Fonksiyonumuz, r parametresini alıyor.
 var donenSonuc = daireAlaniHesaplama(3); // Argüman olarak, alanını hesaplamak istediğimiz herhangi bir dairenin yarıçapı için 3 rakamı verildi. 
 console.log(donenSonuc); // 28.25999999 sonucunu göreceğiz.
 ```
+**Aşağıda codepen ile deneyimleyebilirsiniz!**
 
 Yazdığımız kodun başında sabit olarak belirttiğimiz pi sabitini, fonksiyonumuzun bir parametresi olarak da belirtebiliriz. Fonksiyon içerisindeki işlemimizi bir değere atamadan, direk olarak return ifadesinden hemen sonra da yazabiliriz. Bu sayede, kodumuzu daha az satırla yazmış olacağız.
 
@@ -105,6 +106,8 @@ var alan2 = daireAlaniHesaplama(6);
 var donenSonuc = carpma(alan1, alan2); // Hesaplanan alanlar argüman olarak verildi.
 console.log(donenSonuc);  			  // 354.9456 olarak hesaplandı.
 ```
+
+Aşağıda codepen ile deneyimleyebilirsiniz!
 
 Bu örnekten de görüldüğü gibi, bir fonksiyonu çağırdıktan sonra elde ettiğimiz bir değer ile ikinci bir fonksiyonun argümanı olarak kullanabiliyoruz. Bunu yapabilmemize olanak sağlayan şey, değer döndüren(return) fonksiyonları kullanmamız olduğunu söyleyebiliriz. 
 

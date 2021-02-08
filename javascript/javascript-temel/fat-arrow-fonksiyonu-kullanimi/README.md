@@ -147,6 +147,8 @@ const newArray = (nums) => {
 console.log(newArray([1,2,3,4,5]));  // output: [3,4,9,8,15]
 ```
 
+Aşağıda codepen ile deneyimleyebilirsiniz!
+
 Daha okunaklı olduğu için ben çoğu zaman Arrow Fonksiyonunu kullanmayı tercih ediyorum. Umarım sağladığı güzellikler şuan daha iyi anlaşılmıştır ve faydalı bir yazı olmuştur.
 
 ### Kaynaklar
