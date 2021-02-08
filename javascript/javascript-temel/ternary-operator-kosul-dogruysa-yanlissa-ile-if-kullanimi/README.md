@@ -15,10 +15,6 @@ Gördüğümüz üzere eğer yağmur yağıyorsa `umbrella` dönecek, fakat yağ
 
 Yazdığımız condition'nın bize direkt olarak `false` dönmesinin yanı sıra, aynı zamanda `false` dönecek diğer ifadeler şunlardır: `null`, `NaN`, `0`, `""`(boş string) ve `undefined`.
 
-## Alıştırmalar
-- [Kolay Örnek](https://codepen.io/chris__sev/pen/orOEjd)
-- [Zor Örnek](https://codepen.io/timswilson/pen/BpLWbd)
-
 ## Ternary Operatorleri Zincirleme
 Ternary operatorleri aynı zamanda birbiri ardına **zincirleyerek** *(chaining)* kullanabiliriz. Bu sayede farklı olasılıkları da katarak daha detaylı senaryoları kontrol edebiliriz.
 
@@ -35,6 +31,12 @@ console.log(canBuy) // "Satın alabilirsin.."
 Burada koşullar denenecek ve doğru olan koşul sonrasında bir string dönecek. Yukarıda gördüğümüz üzere `money` değişkeni 30'dan büyük olduğu için `‘Yes, you can buy..’` yazısının yazdırılması beklediğimiz bir sonuçtur.
 
 Peki eğer `money` değişkenine hiçbir atama yapmasaydık ne olacaktı ? Bu durumda en sonda belirttiğimiz `default` değer dönecekti.
+
+**Hadi aşağıdaki örnekleri codepen ile deneyimle!**
+
+1. Çok basit bir koşul alıştırması! Kendince değiştirebilir ve nasıl çalıştığını öğrenebilirsin!
+
+2. Aşağıda hızımıza göre bize ceza yazan basit bir uyarı sistemi geliştirdik. Hadi sen de düzenlemeler yap!
 
 ## Kaynaklar
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator

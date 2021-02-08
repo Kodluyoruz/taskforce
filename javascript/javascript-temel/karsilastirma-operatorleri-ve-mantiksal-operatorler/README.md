@@ -106,10 +106,7 @@ console.log(!(a>11 || b="kodluyoruz"))  "Ekranda çıkan sonuç = false"
 
 `!` (değil) mantıksal operatörümüz çalışma mantığı çıkan sonucumuzun tam tersini vermesidir. Yukarıda verdiğimiz örnek `!` operatörü olmadan `true` sonucu döndürücektir fakat `!` operatörümüz çıkan `true` sonucu terse çevirdiği için sonuç `false` dönecektir.
 
-Konuyu pekiştirmek adına aşağıdaki alıştırmaları yapabilirsiniz:
 
-- [Alıştırma 1](https://codepen.io/b-ra-irin/pen/bGwjgJd?editors=0011)
-- [Alıştırma 2](https://codepen.io/b-ra-irin/pen/YzGjLVb?editors=0010) 
 
 ## Kaynaklar
 - Kodluyoruz Frontend End 101 Video Eğitimi - Hakan Yalçınkaya

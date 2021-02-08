@@ -22,25 +22,27 @@ Açtığım HTML dosyamın body elementinin içerisine aşağıdaki kodları ekl
 - Sınıf (class) ile öğelere/öğeye ulaşmak.
 - Etiket adı ile öğelere ulaşmak.
 
-#### Kimlik yani "id" teknik olarak ise `document.getElementById` ile öğeye erişmek.
+#### Kimlik yani `id` teknik olarak ise `document.getElementById` ile öğeye erişmek.
 
 ```javascript 
 var one = document.getElementById("walterwhite");
 ```
 
-Yukarıda önce bir değişken tanımlayıp sonrasında ise "walterwhite" id değerine sahip elementi seçtik. Sayfamızda eğer ki bu id’e sahip bir element var ise bize o elementi döndürür. 
+Yukarıda önce bir değişken tanımlayıp sonrasında ise `walterwhite` **id** değerine sahip elementi seçtik. 
 
-#### Sınıf yani "class" teknik anlamda ise `getElementsByClassName` ile öğe ve öğelere erişmek
+Sayfamızda eğer ki bu id’e sahip bir element var ise bize o elementi döndürür. 
+
+#### Sınıf yani `class` teknik anlamda ise `getElementsByClassName` ile öğe ve öğelere erişmek
 
 ```javascript 
 var two  = document.getElementsByClassName("alternate");
 ```
 
-Burada ise two isminde bir değişken tanımlayıp “alternate” sınıfına sahip olan tüm öğeleri alıyoruz. Burada önemli nokta ise `getElementsByClassName` bize class’a sahip tüm öğeleri nodeList olarak döndürür.
+Burada ise `two` isminde bir değişken tanımlayıp `alternate` sınıfına sahip olan tüm öğeleri alıyoruz. Burada önemli nokta ise `getElementsByClassName` bize class’a sahip tüm öğeleri **nodeList** olarak döndürür.
 
 ### Seçtiğimiz sınıfa müdahale edelim.
 
-two olarak tanımladığımız değişkenimizin içerisinde döngü yardımı ile dönelim ve "alternate" sınıfına sahip olarak öğelerin renklerini değiştirelim. Döngü kullanmamızın bir sebebi de `getElementsByClassName` metodunun bize nodeList dönüyor olması.
+`two` olarak tanımladığımız değişkenimizin içerisinde döngü yardımı ile dönelim ve `alternate` sınıfına sahip olarak öğelerin renklerini değiştirelim. Döngü kullanmamızın bir sebebi de `getElementsByClassName` metodunun bize `nodeList` dönüyor olması.
 
 ```javascript 
 for (var i = 0; i < two.length; i++) { 
@@ -48,34 +50,34 @@ for (var i = 0; i < two.length; i++) {
 }
 ```
 
-Yukarıdaki döngümüz sayesinde two değişkenimize gidip "alternate" sınıfına sahip tüm elementleri kırmızı renk yaptık. 
+Yukarıdaki döngümüz sayesinde `two` değişkenimize gidip "alternate" sınıfına sahip tüm elementleri *kırmızı* renk yaptık. 
 
-### Etiket adı ile yani document.querySelector ile öğeye erişmek.
+### Etiket adı ile yani `document.querySelector` ile öğeye erişmek.
 
-Bu öğeye erişim yönteminde ise ilgili etiketi sorguladığımızda bize sayfada eğer bu elementten birden fazla varsa sadece ilk eşleşeni getirir.
+Bu öğeye erişim yönteminde ise ilgili etiketi sorguladığımızda bize sayfada eğer bu elementten birden fazla varsa sadece **ilk** eşleşeni getirir.
 
 ```javascript 
 var liste = document.querySelector("ul");
 ```
 
-Liste değişkenimizi oluşturduk ve querySelector ile sayfadaki ilk eşleşen "ul" etiketini yakaladık. Şimdi ise bu liste elementinin içine yeni bir öğe eklemeyi görelim. 
+Liste değişkenimizi oluşturduk ve `querySelector` ile sayfadaki ilk eşleşen `ul` etiketini yakaladık. Şimdi ise bu liste elementinin içine yeni bir öğe eklemeyi görelim. 
 
 ## Liste İçerisine Yeni Öğe Eklemek
 
-Öncelikle sayfamıza 2 tane etiket ekleyeceğim. Birincisi bir input diğeri ise bir buton. Input etiketi ile kullanıcıdan eklenecek öğe bilgisini alacağız. 
+Öncelikle sayfamıza 2 tane etiket ekleyeceğim. Birincisi bir `input` diğeri ise bir `button`. `input` etiketi ile kullanıcıdan eklenecek öğe bilgisini alacağız. 
 ```javascript
 <input type="text" id="veri">
 <button id="ekle">Listeye Öğe Ekle</button>
 ```
 
-Hatırlarsanız birkaç satır üstte ise "liste" etiketini seçmiştik. Onu da burada kullanacağız. Haydi şimdi input ve button öğelerimizi querySelector ile seçelim.
+Hatırlarsanız birkaç satır üstte ise "liste" etiketini seçmiştik. Onu da burada kullanacağız. Haydi şimdi input ve button öğelerimizi `querySelector` ile seçelim.
 
 ```javascript 
 var urun = document.querySelector("#veri"); 
 var ekle = document.querySelector("#ekle");
 ```
 
-Yukarıda seçim işlemlerimizi de yaptıktan sonra sırada ise "ekle" butonuna tıklandığında ilgili ekleme durumunun gerçekleşmesini sağlamak.
+Yukarıda seçim işlemlerimizi de yaptıktan sonra sırada ise `ekle` butonuna tıklandığında ilgili ekleme durumunun gerçekleşmesini sağlamak.
 
 ```javascript
 ekle.addEventListener("click",function(){
@@ -94,6 +96,8 @@ ekle.addEventListener("click",function(){
 ```
 
 Bu şekilde ise erişim sağladığımız öğenin içerisine yeni bir öğe ekleyebildik. 
+
+**Hadi aşağıda codepen ile deneyin!**
 
 ### Kaynaklar
 -	https://www.w3schools.com/js/js_htmldom.asp

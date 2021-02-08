@@ -79,7 +79,12 @@ console.log(islem(23, 14, 'topla'));  // 37
 console.log(islem(10, 3, 'mod'));     // Tanimlanmamis islem
 ```
 
+**Codepen ile deneyimleyebilirsiniz!** Bir hesap makinesine dönüştürmeden önce *kare alma ve kök alma* case'lerini sizin eklemenizi istiyoruz!
+
+
+
 ## Kaynaklar
+
 1. https://eloquentjavascript.net/1st_edition/appendix1.html
 2. https://medium.com/front-end-weekly/switch-case-if-else-or-a-lookup-map-a-study-case-de1c801d944
 3. https://necatiergin2019.medium.com/switch-deyimi-3133d90074a9
