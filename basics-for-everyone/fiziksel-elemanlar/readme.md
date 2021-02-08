@@ -1,4 +1,4 @@
-# FİZİKSEL ELEMANLAR ve WİFİ
+# Fiziksel Elemanlar ve WİFİ
 
 İnternette paylaştığımız bilgiler [bit](https://tr.wikipedia.org/wiki/Bit_(bili%C5%9Fim)) formatında gidiyor ve ne kullanırsak kullanalım kaynak her zaman fiziksel bir elemana dayanıyor. Bu elektrik veya ışığın geçtiği kablo veya modemden yayılan dalgalar olsun ana kaynak elle tutulur oluyor. Elektrik geleneksel yöntem, ışık ise fiber olarak hayatımıza girmiş bir yöntem. Wifi'ye bağlandığımızda bilgi havadan geliyor gibi görünse de orada da bağlandığımız modemi unutmamak lazım. Dalgalar aracılığı ile iletim yapılıyor bu durumda da.
 

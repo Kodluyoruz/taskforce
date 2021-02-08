@@ -1,4 +1,4 @@
-# VS Code | Ayarların Kişiselleştirilmesi
+# Ayarların Kişiselleştirilmesi
 
 Bu yazımızda Visual Studio Code içerisindeki kişileştirebileceğimiz ayarlardan bahsedeceğiz.
 
@@ -10,13 +10,9 @@ Bu yazımızda Visual Studio Code içerisindeki kişileştirebileceğimiz ayarla
 
 En çok kullanılan ayarlar kısmından dilediğiniz ayarı aratabilir ve otomatik kaydetme, font büyüklüğü ya da tipi gibi ayarları kişiselleştirebilirsiniz.
 
-
-
 ![vs-json](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-ayarlarin-kisisellestirilmesi/figures/vs-json.gif)
 
 Ek olarak sağ üstteki ikona tıklayarak kullanıcı ayarlarınızı `json` yapısında görüntüleyebilirsiniz.
-
-
 
 ![vs-workspace](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-ayarlarin-kisisellestirilmesi/figures/vs-workspace.png)
 

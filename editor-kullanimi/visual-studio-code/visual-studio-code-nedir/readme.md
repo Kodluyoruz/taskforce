@@ -4,7 +4,5 @@ Visual Studio Code, *Windows, macOS ve Linux* işletim sistemlerinde çalışan 
 
 **Visual Studio Code’u (VS Code) [buradan](https://code.visualstudio.com/) indirebilirsiniz.**
 
-
-
 ![vs-code-nedir](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/visual-studio-code-nedir/figures/vs-code-nedir.png)
 

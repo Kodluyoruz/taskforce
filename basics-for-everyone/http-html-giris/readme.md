@@ -1,4 +1,4 @@
-# HTTP ve HTML'E GİRİŞ
+# HTTP ve HTML'e Giriş
 
 HTTP(HyperText Transfer Protocol) web sitelerinde iletişimi sağlayan standart protokoldür. İletişim sırasında çeşitli komutlar ile istekler iletilir. Örneğin kullanıcı giriş sayfasına ulaşmak için GET isteği gider giriş sayfası gelir, parola ve kullanıcı adını girdikten sonra tamama basınca POST komutu  ile girilen bilgiler sunucuya gönderilir. Bilgiler doğruysa kullanıcıya özel sayfa gelir.  
 

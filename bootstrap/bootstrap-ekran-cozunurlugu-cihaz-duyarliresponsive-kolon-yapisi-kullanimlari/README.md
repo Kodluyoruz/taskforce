@@ -1,1 +1,1 @@
-# Bootstrap - Ekran Çözünürlüğü / Cihaz Duyarlı(Responsive) Kolon Yapısı Kullanımları
+# Ekran Çözünürlüğü / Cihaz Duyarlı(Responsive) Kolon Yapısı Kullanımları

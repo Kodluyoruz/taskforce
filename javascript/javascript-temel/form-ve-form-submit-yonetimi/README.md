@@ -25,7 +25,7 @@ En önemli parametresi **method** parametresidir. Method, **"post"** veya **"get
 </form>
 ```
 
-#### UYARI: Get metodu önemsiz verilerde kullanılmalıdır, kullanıcı adı, şifre gibi bilgilerin bu method ile gönderilmesi uygun değildir.
+**UYARI:** Get metodu önemsiz verilerde kullanılmalıdır, kullanıcı adı, şifre gibi bilgilerin bu method ile gönderilmesi uygun değildir.
 
 **POST Methodu**: Verileri arka planda gönderir. Örneğin; kullanıcı mail adresini girip gönder butonuna bastığı zaman veriler kullanıcıya gözükmeyecek şekilde sayfaya gönderilir.
 
@@ -38,17 +38,17 @@ En önemli parametresi **method** parametresidir. Method, **"post"** veya **"get
 </form>
 ```
 
-## Giriş (İnput) elementi/etiketi
+## Giriş (Input) elementi/etiketi
 
 Form oluşturulduktan sonra içerisine text, buton, şifre vb. tiplerinde input (giriş) elementleri oluşturulur. Bu input tipleri ile tasarımcının isteğine göre formlar tasarlanabilir. Şimdi input elementini ve en çok kullanılan önemli tiplerini inceleyelim.
 
-### Temel İnput Tipleri
+### Temel Input Tipleri
 
-<input type=”text”> :
+<input type="text"> 
 
 İnput(giriş) elementi text tipinde belirlenir. Yani klasik textbox kullanımı olarak ifade etsek yanlış olmaz. Örn; kullanıcı adı girişi için idealdir.
 
-<input type=”password”> :
+<input type="password"> 
 
 Şifre tipinde veri girişi için kullanılır. Textbox’a girilen ifadeler “**\***” şeklinde gizlenerek gösterilir.
 
@@ -56,7 +56,7 @@ Form oluşturulduktan sonra içerisine text, buton, şifre vb. tiplerinde input 
 
 Radio button tipinde, istenilen verileri seçmek için geliştirilen giriş yöntemidir.
 
-<input type=”checkbox”> :
+<input type="checkbox"> 
 
 Checkbox tipinde, onay gerektiren durumlarda kullanılması için geliştirilen giriş yöntemidir.
 
@@ -64,15 +64,15 @@ Checkbox tipinde, onay gerektiren durumlarda kullanılması için geliştirilen 
 
 Klasik buton oluşturur. Varsayılan olarak herhangi bir işlem yapmaz. Javascript vb. programlama dilleri ile birlikte işlevsel hale gelir.
 
-<input type=”submit”> :
+<input type="submit"> 
 
 Form içerisindeki elementlere girilen verileri, gönderme işlemini yapar. action ile açılacak yeni sayfaya veya mevcut sayfanın kendisine, get veya post metoduna göre değişecek şekilde veri gönderme işlevini gerçekleştirir. methot=”get” kullanılmışsa action durumunda göre sayfanın adres çubuğundaki url’nin sonunda, methot=”post” kullanılmışsa sayfanın arka planında veriler saklanır.
 
-<input type=”reset”> :
+<input type="reset"> 
 
 Buton tipinde bir nesne oluşturur. Form içerisindeki elementlere veriler girilmiş halde iken reset’e tıklandığında görünen tüm verileri temizler ve elementleri ilk haline getirir.
 
-<input type=”color”> :
+<input type="color"> 
 
 Renk çeşitlerini tasarımcıya sunan ve seçimini sağlayan giriş tipidir.
 
@@ -80,27 +80,27 @@ Renk çeşitlerini tasarımcıya sunan ve seçimini sağlayan giriş tipidir.
 
 Tarayıcıda tarih gösterimini sağlayan tipdir. gg.aa.yyyy varsayılan formatında görünür.
 
-<input type=”email”> :
+<input type="email"> 
 
 Sadece e-mail girişi yapabilmek için kullanılır. Email formatı dışındaki girişlerde, düzgün veri girişi yapılması gerektiği yönünde uyarı vermektedir. Safari dışındaki tüm tarayıcılar desteklemektedir.
 
-<input type=”number”> :
+<input type="number"> 
 
 Sadece sayı girişi yapabilmek için kullanılır. Sayı dışındaki girişlerde, düzgün veri girişi yapılması gerektiği yönünde uyarı vermektedir. Safari dışındaki tüm tarayıcılar desteklemektedir.
 
-<input type=”range”> :
+<input type="range"> 
 
 Bir aralık belirtmemiz gerektiğinde, bu giriş tipini kullanmamız gerekmektedir. Dizi şeklinde veri gösterimi yapar. min=”başlangıç değer” ve max=”son değer” ile aralık belirlemesi yapılır. Tüm tarayıcılar tarafından desteklenmektedir.
 
-<input type=”search”> :
+<input type="search"> 
 
 Arama yapmamızı sağlayan giriş tipidir. Aktif olacak form içerisinde, girilecek olan veri aranır. Sadece Google Chrome ve Safari tarafından desteklenmektedir.
 
-<input type=”time”> :
+<input type="time"> 
 
 Tarayıcıda saat gösterimini sağlayan tipdir. hh.mm varsayılan formatında görünür. Element üzerinde saat belirlemesi yapılması mümkündür. İnternet Explorer ve Mozilla Firefox dışındaki tarayıcılar tarafından desteklenmetedir.
 
-## onSubmit ve onChange eventleri
+## onSubmit ve onChange Eventleri
 
 **onSubmit:** Form submit olduğu anda ne yapacağını söyleyeceğimiz eventtir.
 
@@ -118,7 +118,7 @@ Tarayıcıda saat gösterimini sağlayan tipdir. hh.mm varsayılan formatında g
 
 Bu form ekranımızda submit ettiğimiz takdirde linkimizin değiştiğini göreceksiniz. Get methodu ile veri aktarmış olduk veriler input'un name parametresi ile taşınmış oldu. Değişen link;
 
-![methodget](figures/methotget.png)
+![methodget](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/form-ve-form-submit-yonetimi/figures/methotget.png)
 
 ### Kodumuza bir de JavaScript katalım ve bu veriyi post methodu ile tekrar gönderelim
 
@@ -159,70 +159,48 @@ Bu form ekranımızda submit ettiğimiz takdirde linkimizin değiştiğini göre
 
 Yukarıdaki örneğimizde onSubmit eventi için handleSubmit, onChange eventi için handleChange function'larını kullanıyoruz. handleChange'e ve handleSubmit'e tetiklenen değeri yani event'i gönderiyoruz ve function'larımızda karşılıyoruz. handleChange'te (e.target.name) hangi inputun değerini okuduğumuzu e.target.value ise o inputun value'sunu verir.Bu değerleri globalde tanımladığımız değişkenlere atadık. Böylece submit olduğumuz anda bu değerleri artık kullanabilir duruma geldik. Bu değer ile artık formumuz submit olduğunda ne yapmak istiyorsak onu yapabiliriz.
 
-### KAYNAK
-
-- http://kod5.org/html5-form-nesneleri-ve-kullanimi-1/
-=======
-# Form ve Form submit yönetimi
-
 Formlar kullanıcıdan bilgi almak için kullanılırlar. Formların en basit örneği olan input ile başlayalım. Tek satırlık numeri, harf veya ikisinin kombini olarakta girilebilir.
 
 
-## Form özellikleri
+## Form Özellikleri
 
-- ACTION :
+- ACTION
 action = Formunuzu submit ettikten sonra nasıl bir aksiyon alacağını belirlersiniz. Genellikle formlarda gönderi işlemi tamamlandıktan sonra form datası server'a gönderilir. Fakat server haricinde kendimiz bu form datasını başka bir dosyaya atayabiliriz. Örneğimizde görüleceği gibi dosyamız "script.js" adlı bir dosyaya gönderiliyor. Form datasının yönetimi bundan sonra bu dosya üzerinden yürütülür.
 
 
 Örnek kullanım ``` <form action="/script.js"></form> ```
 
 
-
-
-
-
-- METHOD :
+- METHOD
 method = Form datanızın hangi methdola gönderileceğine karar verir. "Get" veya "Post" request olarak. Bu özellik verilmemesi durumunda default olarak "Get" methodu formunuza atanır. 
 
 
 Örnek kullanım  ``` <form action="/script.js" method="get">" veya "<form action="/script.js" method="post"> ```
 
 
-
-
-
-
-- AUTOCOMPLETE :
+- AUTOCOMPLETE
 autocomplete = Ingilizce ismindende anlaşılacağı üzere formunuzda otomatik tamamlama özelliğini açıp veya kapatmak için işinize yarar. Bu özelliği açmak daha önceki entrylerinize göre formun tamamlama yapmasını sağlayacaktır.
 
 
 Örnek kullanım ``` <form action="/script.js" autocomplete="on"> veya <form action="/script.js" autocomplete="off"> ```
 
 
-
-
-
-
-- NOVALIDATE :
+- NOVALIDATE
 novalidate = Aktif olduğu sürece gönderdiğiniz form datanızın otomatik olarak doğrulanmamasını söyler.
 
 
 Örnek kullanım ``` "<form action="/my_script.js" novalidate>" ```
 
 
+Form taglerinizde birden fazla element bulundurabilirsiniz. Bunlardan olmazsa olmazı inputlar & butonlardır. Input elemanlarının başlıca özellikleri olarak ;
 
+fname = Görünecek olan yazıyı belirler. Bu yazı, adete bir html etiketi gibi görünür.
 
+type = Bu kısımda formunuzun text/numerik bir form olacağına karar verirsiniz.
 
+name = Inputunuzun name özelliğini belirlersiniz. Genelde isimlendirme küçük harf verilir backend kısmına uygun olması için
 
-#### Form taglerinizde birden fazla element bulundurabilirsiniz. Bunlardan olmazsa olmazı inputlar & butonlardır. Input elemanlarının başlıca özellikleri olarak ;
-
-#### fname = Görünecek olan yazıyı belirler. Bu yazı, adete bir html etiketi gibi görünür.
-
-#### type = Bu kısımda formunuzun text/numerik bir form olacağına karar verirsiniz.
-
-#### name = Inputunuzun name özelliğini belirlersiniz. Genelde isimlendirme küçük harf verilir backend kısmına uygun olması için
-
-#### value = Inputtaki aktif görünecek olan yazı için verilir. Örnek olarak butonların üzerindeki yazı gibi düşünebiliriz.
+value = Inputtaki aktif görünecek olan yazı için verilir. Örnek olarak butonların üzerindeki yazı gibi düşünebiliriz.
 
 Sizin için hazırladığım basit bir örnekte form ve input özelliklerini deneyebilirsiniz.
 
@@ -231,10 +209,10 @@ Son olarak öğrendiklerinizden emin olmak için https://jsfiddle.net/ adresinde
 ### Link için : 
 - https://codepen.io/llker-kurtulan/pen/ExgQYjX
 
+## Kaynaklar
 
+- http://kod5.org/html5-form-nesneleri-ve-kullanimi-1/
 
-
-Kaynaklar için: 
 - https://www.w3schools.com/html/html_forms.asp
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
 - https://www.tutorialspoint.com/html/html_forms.htm
