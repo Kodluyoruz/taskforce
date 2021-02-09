@@ -22,7 +22,7 @@ console.log(alisverisListem);
 // Yeni Dizimiz ["elma", "ekmek", "süt", "yumurta"] şeklinde olacaktır.
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/eYdMOzz)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ### .pop()
 
@@ -40,7 +40,7 @@ console.log(alisverisListem);
 // Yeni dizimiz ["elma", "ekmek"] şeklinde olacaktır. Son eleman olan "süt" diziden silinmiş oldu.
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/xxEWKLX)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ### .includes()
 
@@ -62,7 +62,7 @@ console.log(armutVar);
 
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/OJRvzKw?editors=0012)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ### .slice()
 
@@ -86,7 +86,7 @@ console.log(yeniAlisverisListem);
 // ["elma", "ekmek"] görmeyi bekleriz.
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/WNGzMeP?editors=0011)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ### .join()
 
@@ -108,8 +108,6 @@ console.log(stringAlisverisListem2);
 ```
 
 [CodePen'de deneyin](https://codepen.io/onuraksar/pen/ZEpxrpb?editors=0012)
-
-----
 
 ### .concat()
 
