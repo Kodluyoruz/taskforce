@@ -206,8 +206,7 @@ Sizin için hazırladığım basit bir örnekte form ve input özelliklerini den
 
 Son olarak öğrendiklerinizden emin olmak için https://jsfiddle.net/ adresinden : Kullanıcı için isim, soyisim, telefon numarası ve adres isteyen bir form oluşturmanızı istiyorum.
 
-### Link için : 
-- https://codepen.io/llker-kurtulan/pen/ExgQYjX
+Aşağıda codepen ile deneyimleyebilirsiniz!
 
 ## Kaynaklar
 
