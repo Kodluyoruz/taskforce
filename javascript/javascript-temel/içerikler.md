@@ -209,7 +209,7 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 1. https://www.youtube.com/watch?v=XePaa7gw1qs
 	- Bu videoda; karşılaştırma operatörlerini ve mantıksal operatörleri anlattık.
 
-### [Koşul Yapısı Kullanımı (if / else)](kosul-yapisi-kullanimi-(if-else)/)
+### [Koşul Yapısı Kullanımı (if / else)](kosul-yapisi-kullanimi-if-else/)
 
 #### Sorular
 1. Yok
