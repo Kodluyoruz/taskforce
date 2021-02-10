@@ -4,7 +4,7 @@ Buraya kadar geldik. Peki kendimizi nasıl sürekli güncel tutacağız? Şimdi 
 
 ## 1) Stack Overflow
 
- Stack Overflow programlama ve kodlama ile ilgili spesifik sorularınızı sorabileceğiniz veya başkalarının sorduğu sorulara cevap verebileceğiniz bir platform. Kurulduğu günden bu yana milyonlarca kullanıcı tarafından milyonlarca soruya cevap verildiği için yeni soru oluşturmadan önce cevaplananlara göz atmakta fayda var. Platforma [buradaki](https://stackoverflow.com/) bağlantıdan ulaşabilirsiniz.  
+Stack Overflow programlama ve kodlama ile ilgili spesifik sorularınızı sorabileceğiniz veya başkalarının sorduğu sorulara cevap verebileceğiniz bir platform. Kurulduğu günden bu yana milyonlarca kullanıcı tarafından milyonlarca soruya cevap verildiği için yeni soru oluşturmadan önce cevaplananlara göz atmakta fayda var. Platforma [buradaki](https://stackoverflow.com/) bağlantıdan ulaşabilirsiniz.  
 
 ![stack-overflow](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/stack-overflow.png)
 

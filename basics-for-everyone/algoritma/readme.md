@@ -2,7 +2,11 @@
 
 ## Algoritma Nedir?
 
-Bir sorunu çözmek veya belirlenmiş bir amaca ulaşmak için tasarlanan yola, takip edilen işlem basamaklarına algoritma denir. Algoritmalar açıkça belirtilmiş bir başlangıcı ve sonu olan işlemler kümesidir. Amaca ulaşmak için işlenecek çözüm yolları ve sıralamaları belirlenir ve algoritma bu sırayı takip ederek en mantıklı çözüme ulaşır. 
+Bir sorunu çözmek veya belirlenmiş bir amaca ulaşmak için tasarlanan yola, takip edilen işlem basamaklarına **algoritma** denir. Algoritmalar 
+
+açıkça belirtilmiş bir başlangıcı ve sonu olan işlemler kümesidir. 
+
+Amaca ulaşmak için işlenecek çözüm yolları ve sıralamaları belirlenir ve algoritma bu sırayı takip ederek en mantıklı çözüme ulaşır. 
 
 ## Algoritma Neden Gereklidir?
 
