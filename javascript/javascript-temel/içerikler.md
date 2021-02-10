@@ -586,6 +586,12 @@ let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa'];
 1. https://www.youtube.com/watch?v=Glp6kX7KV94
 	- Bu videoda; Array içinde Array oluşturmayı, Array içerisindeki öğeleri ayırmayı, Array içerisindeki öğenin index bilgisini bulmayı, Array kopyalamayı, iki Array bilgisini birleştirmeyi, Array içindeki bilgiyi String'e çevirmeyi ve istediğimiz index bilgisine göre öğe eklemeyi ve daha birçok Array metot yapısını anlattık.
 
+**Codepen Çözümleri**
+
+1. Birinci Soru: https://codepen.io/onuraksar/pen/oNzqaWo?editors=0012
+2. İkinci Soru: https://codepen.io/onuraksar/pen/dypmgZd?editors=0011
+3. Üçüncü Soru: https://codepen.io/onuraksar/pen/VwKXEZz?editors=0011
+
 ## Döngüler ##
 
 ### [for Döngüsü Kullanımı](for-dongusu-kullanimi/)
