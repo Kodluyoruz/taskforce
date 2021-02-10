@@ -22,7 +22,7 @@ console.log(alisverisListem);
 // Yeni Dizimiz ["elma", "ekmek", "süt", "yumurta"] şeklinde olacaktır.
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/eYdMOzz)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ### .pop()
 
@@ -40,7 +40,7 @@ console.log(alisverisListem);
 // Yeni dizimiz ["elma", "ekmek"] şeklinde olacaktır. Son eleman olan "süt" diziden silinmiş oldu.
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/xxEWKLX)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ### .includes()
 
@@ -62,7 +62,7 @@ console.log(armutVar);
 
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/OJRvzKw?editors=0012)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ### .slice()
 
@@ -86,7 +86,7 @@ console.log(yeniAlisverisListem);
 // ["elma", "ekmek"] görmeyi bekleriz.
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/WNGzMeP?editors=0011)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ### .join()
 
@@ -107,9 +107,7 @@ console.log(stringAlisverisListem2);
 // Çıktıda "elma kiraz ekmek kiraz süt" bekleriz.
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/ZEpxrpb?editors=0012)
-
-----
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ### .concat()
 
@@ -127,7 +125,7 @@ console.log(menu);
 // Çıktıda ["pasta", "baklava", "puding", "su", "kahve"] bekleriz.
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/KKgoQbz?editors=0012)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 **Yazının devamında, içerisinde fonksiyon tanımladığımız ve bu fonksiyonlarla dizideki elemanları manipüle ettiğimiz dizi metotlarını inceleyeceğiz.**
 
@@ -166,7 +164,7 @@ malzemeler.forEach(function(malzeme, malzemeIndeksi) {
 
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/BaLrrqQ?editors=0012)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ### .map()
 
@@ -192,7 +190,7 @@ console.log(sayilar);
 
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/xxEWWvN?editors=0011)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ### .some()
 
@@ -223,7 +221,7 @@ console.log(sonuc2);
 // Dizi içerisinde 3'ten küçük herhangi bir sayı olmadığı için çıktıda "false" görmeyi bekleriz. 
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/jOMzpyy?editors=0012)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ### .every()
 
@@ -260,7 +258,7 @@ console.log(sonuc3);
 // Dizideki hiçbir sayı 7'den büyük olmadığı için sonucun false dömmesini bekleriz.
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/ExgEpvp?editors=0011)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ### .filter()
 
@@ -284,7 +282,7 @@ console.log(sayilar);
 // Orijinal dizi bozulmayacağından çıktıda [1,2,3,4,5] olarak görürüz.
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/PoGRBEP?editors=0012)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ### .find()
 
@@ -321,7 +319,7 @@ console.log(bulunacakEleman3);
 
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/vYXRaRB?editors=0012)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ### .sort()
 
@@ -369,7 +367,7 @@ console.log(sayilar);
 // Çıktı olarak [10, 5, 4, 3, 2] alırız.
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/LYRdBaK?editors=0012)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ### .reduce()
 
@@ -404,11 +402,11 @@ console.log(sonuc2);
 // 5 + 10 + 20 + 30 = 65 olacağından çıktı olarak 65 bekleriz.
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/abmYawo?editors=0012)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ## Dizi İçerisinde Dizi Oluşturma
 
-- ### Önce iç içe dizileri inceleyelim:
+-  **Önce iç içe dizileri inceleyelim:**
 
 - JavaScript'te  bir dizi başka bir dizinin elemanı olarak yer alabilir.
 
@@ -446,9 +444,9 @@ const ucuncuEleman = piknikSepetim[2] // ["ekmek", 2]
 const kacElma = piknikSepetim[0][1]; // 3
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/XWjEPVv?editors=0011)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
-- ### Dizi içerisinde dizi oluşturalım:
+- **Dizi içerisinde dizi oluşturalım:**
 
 - Array() constructor fonksiyonu yeni bir dizi oluşturmamıza yarıyor. 
 
@@ -478,7 +476,7 @@ console.log(kalemlik[0][2]);
 
 ```
 
-[CodePen'de deneyin](https://codepen.io/onuraksar/pen/GRjxXzy?editors=0012)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 ## Pekiştirme Soruları
 
