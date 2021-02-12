@@ -339,7 +339,21 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Aşağıdakilerden hangisi bir siber atak değildir ?
+   - DDoS
+   - Virüs
+   - Man in the middle
+   - Fishhooh (Doğru)
+2. DDoS saldırısı nasıl yapılır ?
+   - Saldırı taşınabilir bellek yardımı ile yapılır.
+   - Ulaşılmak istenilen bilgi için iletişim yolunda saldırı yapılır.
+   - Steganografi yöntemi ile şifre çözülür, saldırı çözülmüş şifre ile gerçekleştirilir.
+   - Sistem aşırı talebe boğulur. (Doğru)
+3. Siber saldırılardan kaçınmak için aşağıdakilerden hangisi doğru olmaz ?
+   - Güçlü parolalar kullanmalıyız.
+   - Sistem güvenlik güncellemeleri sıklıkla yüklenmelidir.
+   - Tanımadığımız kişilerin maillerini tarayıcının gizli modunda açarsak sorun olmaz. (Doğru)
+   - Güvenmediğimiz yazılımları yüklememeliyiz.
 
 #### Videolar
 
