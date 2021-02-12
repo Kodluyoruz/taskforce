@@ -1,13 +1,13 @@
 # CSS Seçiciler ile Çalışmak, İstediğimiz HTML Etiket Yapısına Özelliklik Ekleyebilmek
 
-Merhaba arkadaşlar,  
-CSS seçiciler, HTML taglarına ulaşarak biçim atamaları yapmamızı sağlar. CSS işlemleri, HTML tagı içinde ``style`` attribute kullanarak yani inline, ``<head>`` arasında ``<style>`` tagı kullanarak yani internal ya da dosya uzantısı .css olan bir dosya oluşturup bu dosyayı ``<head>`` arasına ekleyerek yani external şekilde kullanabiliriz.  
+CSS seçiciler, HTML taglarına ulaşarak biçim atamaları yapmamızı sağlar. CSS işlemleri, HTML tagı içinde `style` attribute kullanarak yani inline, `<head>` arasında `<style>` tagı kullanarak yani internal ya da dosya uzantısı .css olan bir dosya oluşturup bu dosyayı `<head>` arasına ekleyerek yani external şekilde kullanabiliriz.
 
-### Inline
+## Inline
 ```html 
 <h1 style="color:orange;">Turuncu renkli başlık</h1>
 ```
-### Internal
+
+## Internal
 ```html 
 <head>
   <style>
@@ -22,7 +22,8 @@ CSS seçiciler, HTML taglarına ulaşarak biçim atamaları yapmamızı sağlar.
 
 </body>
 ```
-### External
+
+## External
 ```html
 <head>
   <link rel="stylesheet" href="styles.css">
@@ -34,15 +35,20 @@ CSS seçiciler, HTML taglarına ulaşarak biçim atamaları yapmamızı sağlar.
 
 </body>
 ```
-styles.css dosyası:
+
+`styles.css` dosyası:
+
 ```css
 h1{
   color:orange;
 }
 ```
+
 Kısaca CSS kodlarımızı nasıl yazabileceğimizi öğrendikten sonra şimdi CSS seçicileri kullanarak nasıl HTML taglarına erişebiliyoruz onlara bakalım.
-# CSS selectors (CSS seçicileri)
-## Genel seçici *
+
+## Seçiciler
+
+### Genel seçici `*`
 Bu seçiciyi kullanarak tüm etiketlere CSS uygula demiş oluyoruz.
 ```css
 *{
@@ -53,10 +59,10 @@ div *{
   color:orange;
 }
 ```
-İlk kullanımda tüm elementlerin margin ve padding değerlerini sıfırlamış olduk.İkinci kullanımda ``div *`` diyerek tüm div elementleri içindeki elementlerin yazı rengine erişmiş olduk.
 
+İlk kullanımda tüm elementlerin margin ve padding değerlerini sıfırlamış olduk. İkinci kullanımda `div *` diyerek tüm div elementleri içindeki elementlerin yazı rengine erişmiş olduk.
 
-## Element Seçiciler (Element Selectors)
+### Element Seçiciler (Element Selectors)
 Bu seçiciler ile doğrudan HTML etiket isimlerini kullanarak CSS uygulayabiliriz.
 ```css
 div{
@@ -66,45 +72,51 @@ div{
 Tüm div etiketleri etkilenir.
 
 
-## Sınıf Seçiciler (Class Selectors)
-Bu seçiciler ile sınıf atadığımız etiketlere CSS uygulayabiliriz. Sınıf ismine erişmek için sınıf isminin başına nokta ``.`` ekliyoruz.
- ```css
+### Sınıf Seçiciler (Class Selectors)
+Bu seçiciler ile sınıf atadığımız etiketlere CSS uygulayabiliriz. Sınıf ismine erişmek için sınıf isminin başına nokta `.` ekliyoruz.
+
+```css
 .turuncu{
   background-color: #FFA500;
 }
 p.mavi{
   color:blue;
 }
+```
 
- ```
- ```html
+```html
  <p class="turuncu">Arka plan rengim turuncu</p>
  <div class="turuncu">Arka plan rengim turuncu</div>
 
- ```
-Burada İkinci kullanımda ``p.mavi`` sınıf ismi mavi olan p elementlerine erişmiş olduk. Üçüncü kullanımda ``.large .mavi`` sınıfı large olan bir elementin içinde sınıfı mavi olan elemente eriştik.
- ## Id Seçiciler (Id Selectors)
- Bu seçiciler ile id atadığımız elementlere CSS uygulayabiliriz. Id' ler tek bir elemente ait olmalıdırlar. Id özelliğine erişmek id' nin başına ``#`` ekliyoruz.
- ```css
+```
+
+Burada İkinci kullanımda `p.mavi` sınıf ismi mavi olan p elementlerine erişmiş olduk. Üçüncü kullanımda `.large .mavi` sınıfı large olan bir elementin içinde sınıfı mavi olan elemente eriştik.
+
+### Id Seçiciler (Id Selectors)
+Bu seçiciler ile id atadığımız elementlere CSS uygulayabiliriz. Id' ler tek bir elemente ait olmalıdırlar. Id özelliğine erişmek `id`' nin başına `#` ekliyoruz.
+```css
 #mavi{
   background-color: #0000FF;
 }
 #lila{
   color: #c8a2c8;
 }
+```
 
- ```
- ```html
+```html
  <p id="mavi">Arka plan rengim turuncu</p>
  <div id="lila">yazı rengim lila</div>
- ```
- ## Özellik Seçiciler (Attribute Selectors)
- Bu seçiciler ile özelliğini belirttiğimiz elementlere CSS uygulayabiliriz. Özelliğin içi boş olsada element bundan etkilenecektir. Özelliklere erişmek için yapmamız gereken tek şey köşeli parantezler içinde özelliğin ismini  ``[attribute]`` şeklinde yazıyoruz.
-  ```css
+```
+
+### Özellik Seçiciler (Attribute Selectors)
+Bu seçiciler ile özelliğini belirttiğimiz elementlere CSS uygulayabiliriz. Özelliğin içi boş olsada element bundan etkilenecektir. Özelliklere erişmek için yapmamız gereken tek şey köşeli parantezler içinde özelliğin ismini `[attribute]` şeklinde yazıyoruz.
+
+```css
 [name]{
   color: orange;
 }
- ```
+```
+
 ```html
 <button name="">gönder</button>
 <ul>
@@ -112,27 +124,32 @@ Burada İkinci kullanımda ``p.mavi`` sınıf ismi mavi olan p elementlerine eri
       <li name="css">CSS</li>
 </ul>
 ```
-Bu şekilde name attribute alan tüm elementler etkilenir.  
+Bu şekilde name attribute alan tüm elementler etkilenir. 
+
 ```css
 .btn[disabled] {
   color: orchid;
 }
 ```
+
 ```html
 <button class="btn" disabled="disabled">Submit</button>
 ```
-Burada sınıfı ``.btn`` ve niteliği(attribute) ``[disabled]`` olan butona CSS uyguladık.
+
+Burada sınıfı `.btn` ve niteliği(attribute) `[disabled]` olan butona CSS uyguladık.
 
 ```css
 div[title="deneme"] {
   background-color: orange;
 }
 ```
+
 ```html
 <div title="Deneme">Lorem, ipsum dolor.</div>
 <div title="deneme">Lorem, ipsum dolor.</div>
 <div name="denemefalan">Lorem, ipsum.</div>
 ```
+
 Burada tam eşleşen özelliğe CSS uyguladık. Büyük-küçük harf duyarlılığı vardır.
 
 ```css
@@ -140,24 +157,28 @@ div[title~="isim"] {
   color: orange;
 }
 ```
+
 ```html
 <div title="isim">Lorem, ipsum dolor.</div>
 <div title="isimler">Lorem, ipsum dolor.</div>
 <div title="isim ve şehirler">Lorem, ipsum dolor.</div>
 ```
-Burada ``~=`` ifadesi ile ``title`` özelliği "isim" içeren divlere eriştik.
+Burada `~=` ifadesi ile `title` özelliği "isim" içeren divlere eriştik.
 
 ```css
 a[href ^= "https"] {
   color: palegreen;
 }
 ```
+
 ```html
 <a href="https://www.google.com/">google</a>
 <a href="https://github.com/">github</a>
 <a href="http://github.com/">github</a>
 ```
-Burada ``^=`` ifadesi ile ``href`` özelliği "https" ile başlayan a etiketlerine eriştik.
+
+Burada `^=` ifadesi ile `href` özelliği "https" ile başlayan a etiketlerine eriştik.
+
 ```css
 a[href *= "http"] {
   color: palegreen;
@@ -168,58 +189,63 @@ a[href *= "http"] {
 <a href="https://github.com/">github</a>
 <a href="http://github.com/">github</a>
 ```
-Burada ``*=`` ifadesi ile ``href`` özelliği "http" içeren a etiketlerine eriştik.
+Burada `*=` ifadesi ile `href` özelliği "http" içeren a etiketlerine eriştik.
 
 ```css
 div[class$="test"] {
   background: yellow;
 }
 ```
+
 ```html
 <div class="bir_test">Lorem, ipsum dolor.</div>
 <div class="iki-test">Lorem, ipsum dolor.</div>
 <div class="uc test">Lorem, ipsum dolor.</div>
 <div class="dorttest">Lorem, ipsum dolor.</div>
 ```
-Burada ``$=`` ifadesi ile ``class`` özelliği sonunda "test" içeren divlere eriştik.
+Burada `$=` ifadesi ile `class` özelliği sonunda "test" içeren divlere eriştik.
 
 ```css
 a[href*="https"][href$="com"] {
         color: orange;
 }
 ```
+
 ```html
 <a href="https://www.google.com/"></a>
 <a href="https://reactjs.org/"></a>
 <a href="https://css-tricks.com/"></a>
 ```
-Burada **https** ile başlayan ve sonunda **com** olan a etiketlerine eriştik.
+Burada `https` ile başlayan ve sonunda `com` olan `a` etiketlerine eriştik.
 
 Artık ana hatlarıyla öğrendiğimiz CSS seçicilere daha yakından bakabiliriz.
 
 
-## Grup Seçiciler (Group Selectors)
+### Grup Seçiciler (Group Selectors)
 Çoğunlukla etiketlere verilen CSS özellikleri benzer veya ortak olabilir. Bu gibi durumlarda seçicileri gruplayarak daha temiz CSS dosyaları oluşturabiliriz.
+
 ```css
 h1,h2,h3{
   color:orange;
 }
 ```
-Tüm h1,h2,h3 etiketlerine erişmiş olduk.
+Tüm `h1`, `h2`, `h3` etiketlerine erişmiş olduk.
+
 ```css
 p.turuncu{
   color:orange;
 }
 ```
+
 ```css
 <p class="turuncu">turuncu yazı</p>
 <p>normal yazı</p>
 ```
-Burada sınıf ismi ``.turuncu`` olan p etiketlerine ulaştık.
+Burada sınıf ismi `.turuncu` olan `p` etiketlerine ulaştık.
 
 
-## Çocuk seçiciler (Child Selectors)
-Artık etiketleri birbiriyle olan hiyerarşik durumuna göre seçerek CSS özelliklerini belirleyeceğiz. Child selector, kendisi ve kendisini sarmalayan bir üst etiketle olan ilişkiyi gösterir ve  ``>`` işareti ile ifade edilir.
+### Çocuk seçiciler (Child Selectors)
+Artık etiketleri birbiriyle olan hiyerarşik durumuna göre seçerek CSS özelliklerini belirleyeceğiz. Child selector, kendisi ve kendisini sarmalayan bir üst etiketle olan ilişkiyi gösterir ve  `>` işareti ile ifade edilir.
 
 ```css
 p > span{
@@ -237,17 +263,21 @@ div > ul >li#first{
   <span>child element</span>
 </p>
 ```
-Parent etiketi yani bir üst kapsayıcısı p olan span etiketine ulaştık.
+
+Parent etiketi yani bir üst kapsayıcısı `p` olan `span` etiketine ulaştık.
+
 ```html
 <p>
   <span>Burası turuncu renkte <b>mavi renkte yazılacak</b></span>
 </p>
 ```
+
 ```html
 <p>
   <span>Burası turuncu renkte <b>mavi renkte yazılacak</b></span>
 </p>
 ```
+
 ```html
 <div>
   <ul>
@@ -256,14 +286,18 @@ Parent etiketi yani bir üst kapsayıcısı p olan span etiketine ulaştık.
   </ul>
 </div>
 ```
-### Torun-Soy Seçiciler (Descentad Selectors)
+
+#### Torun-Soy Seçiciler (Descentad Selectors)
 Bir kapsayıcı yani parent element altındaki tüm etiketlere ulaşmak için kullanılır. Her ulaşılacak etiket arasına boşluk konulur.
+
 ```css
 div p{
   background-color:blue;
 }
 ```
+
 Burada div içinde olan tüm p etiketlerine ulaşırız.
+
 ```html
 <div>
   <p>Bu p etiketi arka planı mavi renk</p>
@@ -275,13 +309,16 @@ Burada div içinde olan tüm p etiketlerine ulaşırız.
   <p>Bu p etiketi arka planı mavi renk</p>
 </div>
 ```
-### Genel Kardeş Seçiciler (General Sibling Selectors)
-Aynı parent etikete sahip olan ve birbiri ardına gelen etiketleri seçmek için kullanılır.``AltGr+ü`` Kambinasyonuyla oluşan ``~`` işareti ile gösterilir. 
+
+#### Genel Kardeş Seçiciler (General Sibling Selectors)
+Aynı parent etikete sahip olan ve birbiri ardına gelen etiketleri seçmek için kullanılır. `AltGr+ü` Kambinasyonuyla oluşan `~` işareti ile gösterilir. 
+
 ```css
 ul ~ p{
   color:orange;
 }
 ```
+
 ```html
 <div>
   <p>Lorem, ipsum.</p>
@@ -294,15 +331,17 @@ ul ~ p{
   <p>Bu p etiketi turuncu renkte</p>
 </div>
 ```
-Burada dikkat edilmesi gereken iki nokta var. Birincisi `<p>` etiketi ``<ul>`` etiketinden sonra gelmeli (arada başka etiketler olabilir) ve ikiside aynı düzeyde yania ayni parent etiketine sahip olmalılar.
+Burada dikkat edilmesi gereken iki nokta var. Birincisi `<p>` etiketi `<ul>` etiketinden sonra gelmeli (arada başka etiketler olabilir) ve ikiside aynı düzeyde yania ayni parent etiketine sahip olmalılar.
 
-### Bitişik Kardeş Seçiciler (Adjacent Sibling Selector)
-Genel kardeş seçiciden tek farkı belirtilen etiketler bitişik arka arkaya gelmeliler.``+`` işareti ile gösterilir.
+#### Bitişik Kardeş Seçiciler (Adjacent Sibling Selector)
+Genel kardeş seçiciden tek farkı belirtilen etiketler bitişik arka arkaya gelmeliler.`+` işareti ile gösterilir.
+
 ```css
 ul + p{
   color:green;
 }
 ```
+
 ```html
 <div>
   <p>Lorem, ipsum.</p>
@@ -315,48 +354,57 @@ ul + p{
 </div>
 ```
 ### Sahte Sınıf Seçiciler (Pseudo classes)
-Sahte sınıflar kullanarak HTML etiketlerine CSS uygulayabiliriz. Kullanımları **selector:pseudo class{}** şeklindedir.
+Sahte sınıflar kullanarak HTML etiketlerine CSS uygulayabiliriz. Kullanımları `selector:pseudo class{}`şeklindedir.
 
-### :link
+#### `:link`
 Daha önce tarayıcıda açılmamış linke CSS uygular.
-**NOT:** Etkisini görmek için tarayıcıya geçmişi temizlemek gerekebilir.
+**Not:** Etkisini görmek için tarayıcıya geçmişi temizlemek gerekebilir.
+
 ```css
 a#google:link {
   color: red;
 }
 ```
+
 ```html
 <a id="google" href="https://www.google.com/">Google</a>
 ```
- 
- ### :hover
- Seçici ile işaretlenen etiketin üzerine mouse ile gelindiğinde CSS uygalanır ve mouse üzerinde değilken etki kaybolur.
+
+#### `:hover`
+Seçici ile işaretlenen etiketin üzerine mouse ile gelindiğinde CSS uygalanır ve mouse üzerinde değilken etki kaybolur.
+
 ```css
 a.test:hover {
   color: red;
 }
 ```
+
 ```html
 <a class="test" href="https://www.github.com/">Github</a>
-``` 
-### :active
-Mouse ile tıklandığında CSS uygulanır.Tıklama kaldırıldığında etki kaybolur.
+```
+
+#### `:active`
+Mouse ile tıklandığında CSS uygulanır. Tıklama kaldırıldığında etki kaybolur.
+
 ```css
 a:active {
   position: relative;
   top: 5px;
 }
 ```
+
 ```html
 <a href="#">Submit</a>
 ```
-### :first-child
+#### `:first-child`
 İlk child etikete CSS uygulanır.
+
 ```css
 ul > li:first-child {
   color: orange;
 }
 ```
+
 ```html
 <ul>
 <li>lorem</li>
@@ -365,35 +413,40 @@ ul > li:first-child {
   <li>lorem</li>
 </ul>
 ```
-### :last-child
+#### `:last-child`
 Son child etikete CSS uygular.
-### ::first-letter
-Blok seviyesinde bir etiketteki ilk harfe CSS uygular. ``<span>`` blok seviyesinde bir etiket olmadığından bu pseudo class uygulanamaz.
+
+#### `::first-letter`
+Blok seviyesinde bir etiketteki ilk harfe CSS uygular. `<span>` blok seviyesinde bir etiket olmadığından bu pseudo class uygulanamaz.
 ```css
 p::first-letter {
   font-size: 20px;
   color: orange;
 }
 ```
+
 ```html
 <p>Lorem ipsum dolor sit.</p>
 ```
-### ::first-line
+#### `::first-line`
 Blok seviyesinde bir etiketin ilk satırına CSS uygular.
-### ::before
+
+#### `::before`
 Belirtilen etiketin önüne CSS uygular.
+
 ```css
 p::before {
   content: "selam";
   color: orange;
 }
 ```
+
 ```html
 <p>Lorem ipsum dolor sit.</p>
 ```
-### ::after
-Belirtilen etiketin sonuna CSS uygular.Kullanımı ``::before`` ile aynıdır.
+#### `::after`
+Belirtilen etiketin sonuna CSS uygular. Kullanımı `::before` ile aynıdır.
 
- ## Kaynaklar
+## Kaynaklar
  - https://www.w3schools.com/cssref/css_selectors.asp
  - https://css-tricks.com/almanac/selectors/

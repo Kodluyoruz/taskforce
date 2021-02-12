@@ -282,7 +282,7 @@ else
 Ekran Çıktısı: Eşleşme bulundu
 ```
 
-### ===
+
 
 
 

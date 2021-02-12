@@ -10,7 +10,7 @@ Bu nedenle aşağıdada görüldüğü gibi CPU tarafında küçük hafıza böl
 
 Böylece bu değişken üzerinde işlem yapan tüm Thread’ler aynı değeri görecekleri garanti altına alınmış olunur. Normalde “volatile” demeseydik değişkenimiz CPU cache bölgesinden okunabilirdi. Bu durumda tutarsız durumlar oluşabilirdi. Kritik değerler için “volatile” anahtar kelimesi kullanabilirsiniz.
 
-![volatile-mantigi](/Users/kodluyoruz/Projeler/kodluyoruz/taskforce/java/java-102/multi-threads-concurrency/figures/volatile-mantigi.png)
+![volatile-mantigi](figures/volatile.png)
 
 ```java
 private volatile int orderNo;
