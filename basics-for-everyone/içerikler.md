@@ -328,7 +328,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Sezar şifreleme yaparak mesaj göndermek istiyoruz. Bizde ve karşı tarafta olan anahtar "5". Göndermek istediğimiz mesajın şifrelenmiş hali şu şekilde "PTIQZDTWZE". Mesajın şifresi çözülmüş hali aşağıdakilerden hangisidir ?
+   - YEMEKYIYOR
+   - SUICIYORUZ
+   - UYUMUYORUZ
+   - KODLUYORUZ (Doğru)
+2. Günümüzde kaç bitlik anahtar ile şifreleme yapılıyor ?
+   - 128
+   - 256 (Doğru)
+   - 64
+   - 32
 
 #### Videolar
 
