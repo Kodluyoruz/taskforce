@@ -55,10 +55,6 @@ Sayımızın geriye doğru azalması gerektiği için -- ifadesini kullandık.
 
 **Ödev 1:** 20 ile 40 arasındaki tüm sayıları konsola yazdırın.
 
-Önce kendiniz yapmayı deneyin, aşağıdaki linkten cevaba ulaşabilirsiniz. 
-
-[Çözüm Ödev 1](https://codepen.io/sahinaykkt/pen/NWRYpNy?editors=0011)
-
 **Örnek 2:** 0 ve 50 sayıları arasından çift olanları konsola yazdıralım.
 
 ```javascript
@@ -77,10 +73,6 @@ Daha sonra çift sayıları alabilmek için bir koşul ifadesi yazdık.
 **_if (i % 2 == 0)_** ifadesi **i** sayısının 2'ye bölümünden kalanı 0 olanları console.log(i) ile al demektir.
 
 **Ödev 2:** 0 ve 50 sayıları arasından tek olanları console'a yazdıralım.
-
-Önce kendiniz yapmayı deneyin, aşağıdaki linkten cevaba ulaşabilirsiniz. 
-
-[Çözüm Ödev 2](https://codepen.io/sahinaykkt/pen/KKgoWwe?editors=0011)
 
 
 

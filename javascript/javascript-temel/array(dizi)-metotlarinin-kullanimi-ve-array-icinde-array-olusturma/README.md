@@ -489,9 +489,7 @@ let dizi = [2,5,8,11,15,17];
 
 ```
 
-[CodePen üzerinde çalışmak için tıklayın](https://codepen.io/onuraksar/pen/vYXRVxR?editors=0012)
-
-[Çözümü CodePen'de inceleyin](https://codepen.io/onuraksar/pen/oNzqaWo?editors=0012)
+**Aşağıdaki codepen üzerinde çalışabilirsiniz.**
 
 **2.Soru**
 
@@ -508,9 +506,7 @@ function myFunction (dizi){
 myFunction(dizi);
 ```
 
-[CodePen üzerinde çalışmak için tıklayın](https://codepen.io/onuraksar/pen/NWRYOXZ?editors=0012)
-
-[Çözümü CodePen'de inceleyin](https://codepen.io/onuraksar/pen/dypmgZd?editors=0011)
+**Aşağıdaki codepen üzerinde çalışabilirsiniz.**
 
 **3. Soru**
 
@@ -522,9 +518,7 @@ let dizi = [2,3,4];
 
 ```
 
-[CodePen üzerinde çalışmak için tıklayın](https://codepen.io/onuraksar/pen/KKgoGwL?editors=0011)
-
-[Çözümü CodePen'de inceleyin](https://codepen.io/onuraksar/pen/VwKXEZz?editors=0011)
+**Aşağıdaki codepen üzerinde çalışabilirsiniz.**
 
 ## Kaynaklar
 

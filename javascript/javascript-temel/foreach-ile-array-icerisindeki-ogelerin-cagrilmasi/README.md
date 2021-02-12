@@ -53,9 +53,6 @@ Numbers array'ini kullanarak  her elemanının iki fazlasına sahip olan başka 
      //...
  })
 ```
-Sorunun çözümüne kendiniz denedikten sonra aşağıdaki linkten ulaşabilirsiniz.
-- https://codepen.io/selincaglarr/pen/RwGGboO
-
 ## Kaynaklar
 - https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 - https://www.w3schools.com/jsref/jsref_foreach.asp
