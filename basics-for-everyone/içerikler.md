@@ -306,7 +306,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Network içerisinde farklı yol seçeneklerinin olmasını routers(yönlendiriciler) yönetir. Farklı yollara sahip olmamıza aşağıdaki avantajlardan hangisini sağlamaz ?
+   - Arızaya dayanıklılık
+   - Güvenilirlik
+   - Yedeklilik
+   - Yavaşlık (Doğru)
+2. Network içerisinde mesajların iletilmesinde TCP protokolü kullanılır. Bu protokolün kullanılma sebebi aşağıdakilerden hangisidir ?
+   - Bilgi tek bir paket halinde gidebilsin diye
+   - Güvenilir kanala ihtiyaç olmadığında
+   - En hızlı şekilde bağlanmamız gerektiğinde
+   - Paketlerin hedefe ulaşamama senaryosuna önlemler içerdiği için (Doğru)
 
 #### Videolar
 
@@ -318,10 +327,10 @@ Senin için birkaç soru hazırladık.
 #### Sorular
 
 1.  Bir web sitesinin görünüm olarak temelini oluşturduğumuz işaretleme dili aşağıdakilerden hangisidir ?
-   - C#
-   - Java
-   - HTML (Doğru)
-   - Ruby
+    - C#
+    - Java
+    - HTML (Doğru)
+    - Ruby
 2. Adres çubuğunda aşağıdakilerden hangisini görürsek güvenilir kanaldan erişim sağladığımız daha net bir şekilde söyleyebiliriz ?
    - www
    - com
