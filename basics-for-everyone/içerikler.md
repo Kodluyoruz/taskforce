@@ -295,7 +295,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Tarayıcıda "kodluyoruz.org" yazıp giriş isteği gönderdiğimizde arka plandaki işlemlerin sırası aşağıdakilerden hangisidir ?
+   - Domain ismi tarayıcıya girilir - DNS sunucularından IP alınır - IP adrese yönlendirme yapılır - İstek gönderilir  (Doğru)
+   - IP adresine yönlendirme yapılır - İstek cevabı alınır
+   - İstek mesajı gönderilir - İstek cevabı alınır
+   - Tarayıcı IP adreslerinin hepsini bilir - İstek gönderilir
+2.  IPv6 adres uzunluğu kaç bit uzunluğundadır ?
+    - 32
+    - 64
+    - 128 (Doğru)
+    - 512
 
 #### Videolar
 
