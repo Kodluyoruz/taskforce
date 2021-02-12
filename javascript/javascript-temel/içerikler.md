@@ -673,6 +673,10 @@ let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa'];
 1. https://www.youtube.com/watch?v=G3PnQmiJNNE
 	- Bu videoda; object nedir ve nasıl oluşturulur, key-value ilişkisini, objenin tipine ve içindeki bilgilere nasıl erişilir gibi konuları anlattık.
 
+#### Codepen Çözümleri
+
+1. Object Create alıştırmasının çözümü: https://codepen.io/Kodluyoruz/pen/zYooXbR
+
 ### [Object Anahtar(Key) ve Değer(Value) Yapısının Kullanımı / Erişimi](object-anahtar(key)-ve-deger(value)-yapisinin-kullanimi-erisimi/)
 
 #### Sorular

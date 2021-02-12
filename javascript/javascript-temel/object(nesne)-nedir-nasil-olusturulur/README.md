@@ -79,12 +79,10 @@ objeye, ülkenin başkentini belirten yeni bir property atadık. Artık elimizde
 
 Object.create() yöntemini kullanarak bir alt obje oluşturalım;
 
-https://codepen.io/yusufuldiz/pen/VwKXRQO
+**Aşağıdaki codepen üzerinde çalışabilirsiniz.**
 
+## Kaynaklar
 
-Çözümü için;
+- David Flanagan – Javascript: The Definition Guide
 
-https://codepen.io/yusufuldiz/pen/ExgEMpd
-
-Yararlandığım kaynak: David Flanagan – Javascript: The Definition Guide<br>
-https://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527
+  https://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527

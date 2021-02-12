@@ -98,7 +98,7 @@ objectify("name", "Anna");   //  {name: "Anna"} atanmış yeni değer
 
 ### Kompleks Objeler Kullanımı 
 
-Objelerin asıl amaçlarından biride yazılan uygulamaların state'lerini yönetmektir. Bu nedenle kompleks uygulamalarda da kompleks objeler kullanılmaktadır.  Kompleks bir obje örneğide 
+Objelerin asıl amaçlarından biride yazılan uygulamaların state'lerini yönetmektir. Bu nedenle kompleks uygulamalarda da kompleks objeler kullanılmaktadır. Kompleks bir obje örneği de 
 
 ~~~markdown
 let state = {
@@ -164,7 +164,7 @@ Bu zamana kadar bahsettiğimiz objeler “plain object” olarak isimlendirilir.
 
 ### Obje Metodları
 
-Plain objects için aşağıdaki metodlar(method) kullanılabilir: 
+Plain objects için aşağıdaki metotlar(method) kullanılabilir: 
 
 ~~~markdown
 Object.keys(obj) – Key’lerden oluşan bir array döner(return).
@@ -172,7 +172,7 @@ Object.values(obj) – Value’lardan oluşan bir array döner.
 Object.entries(obj) – [key, value] çiftlerinden oluşan bir array döner. 
 ~~~
 
-Tüm bu Object.* metodları array veri tipinde değer döner.
+Tüm bu Object.* metotları array veri tipinde değer döner.
 
 ~~~markdown
 let person = {
@@ -205,7 +205,7 @@ let newPerson = JSON.parse(stringObject);
 
 ## Kaynaklar
 
-[Javascript.info](https://javascript.info/object)
+- [Javascript.info](https://javascript.info/object)
 
-[Medium](https://medium.com/dailyjs/how-to-use-javascript-computed-properties-8f6f096379e3#:~:text=Computed%20properties%20allow%20you%20to%20dynamically%20choose%20what%20property%20in,name%20and%20value%20from%20event.)
+- [Medium](https://medium.com/dailyjs/how-to-use-javascript-computed-properties-8f6f096379e3#:~:text=Computed%20properties%20allow%20you%20to%20dynamically%20choose%20what%20property%20in,name%20and%20value%20from%20event.)
 
