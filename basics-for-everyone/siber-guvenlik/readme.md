@@ -10,7 +10,7 @@ Virüsler, DDoS ataklar ve oltalama(phishing) yöntemleridir.
 
 Virüsler sayesinde kendi kendine sürüş yeteneğine sahip otomobillimiz ele geçirilir ve virüsü yöneten kişi bu aracı istediği lokasyona yönlendirebilir aynı zaman da bütün bilgilere (resimler, dosyalar, internet geçmişi) erişebilir.
 
-**DDoS**, atağını ise ele geçirilmiş binler hatta milyonlarca aracın aynı cadde üzerine yönlendirilmesi olarak düşünebilirsiniz. Bu sayede o lokasyonda büyük bir trafik sağlanır ve saldırıya maruz kalan sunucu iş göremez hele gelir.
+**DDoS**, atağını ise ele geçirilmiş binler hatta milyonlarca aracın aynı cadde üzerine yönlendirilmesi olarak düşünebilirsiniz. Bu sayede o lokasyonda büyük bir trafik sağlanır ve saldırıya maruz kalan sunucu iş göremez hale gelir.
 
 **Oltalama** yöntemi ise çok basit bir dikkatsizlik sonucu oluşur. Ve kandırma yeteneğine bağlıdır. Genellikle kullandığınız bir servisi taklit ederek sizden giriş bilgilerinizi isterler. Eğer bu durumu kontrol etmez ve istenilen bilgileri karşı tarafa verirseniz. Bu bilgiler kötü niyetli kişilerin eline geçer.
 
