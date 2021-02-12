@@ -175,8 +175,6 @@ JSX ifadeleri, HTML’den ziyade JavaScript’e daha yakındırlar. Bu nedenle R
 
 **Örneğin** JSX içerisinde `class` özelliği [`className`](https://developer.mozilla.org/en-US/docs/Web/API/Element/className), ve `tabindex` özelliği de [`tabIndex`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/tabIndex) olarak yazılmalıdır.
 
-Zaten 
-
 Bunun sebebi "class" anahtar sözcüğünün JavaScript içerisinde halihazırda bulunmasıdır. JSX bir JavaScript uzantısı olduğu için JSX kodu yazarken "class" anahtar sözcüğünü kullanamıyoruz. Bunun yerine className kullanıyoruz.
 
 > Visual Studio Code veya benzeri gelişmiş bir editör kullanıyorsanız. Bu hataları ve doğru yazım şekillerini size önerecektir. Hızlı bir google aramasıyla da bunlara ulaşabilirsiniz.

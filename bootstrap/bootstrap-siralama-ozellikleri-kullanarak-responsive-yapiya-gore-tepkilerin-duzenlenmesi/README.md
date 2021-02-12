@@ -1,16 +1,20 @@
 # Bootstrap Sıralama Özellikleri Kullanarak Responsive Yapıya Göre Tepkilerin Düzenlenmesi
 
-Bootstrap'de sıralama özelliği(order),içeriklerin HTML'de yazılan sırayla değil(kodlar yukarıdan aşağı okunarak sıralanır) bizim belirlediğimiz sıraya göre sıralamamızı sağlayan bir kavramdır.Genellikle responsive yapılar oluştururken kullanılır.Kullanırken kapsayıcı divimizin 'display:flex' classının yani 'd-flex' olması gerekmektedir,kapsayıcı div'in içinde en fazla 5 tane içeriği sıralayabileceğimizi unutmamamız gerekiyor.Bir örnek ile order yapısına başlayalım.Örneğin xl genişliğinde çalışıyorsunuz ve web siteniz 3 parçadan oluşuyor,fakat siz sm genişliğinde ki ekranlarda 1. içeriğinizin ilk gözükmesini değil son gözükmesini istiyorsunuz.3.içeriğinizin ise ilk görülmesini istiyorsunuz.Yani aslında; 
+Bootstrap'de sıralama özelliği(order), içeriklerin HTML'de yazılan sırayla değil (kodlar yukarıdan aşağı okunarak sıralanır) bizim belirlediğimiz sıraya göre sıralamamızı sağlayan bir kavramdır. Genellikle responsive yapılar oluştururken kullanılır. Kullanırken kapsayıcı `div`'imizin `display:flex` classının yani `'d-flex'` olması gerekmektedir, kapsayıcı `div`'in içinde en fazla 5 tane içeriği sıralayabileceğimizi unutmamamız gerekiyor.
+
+**Bir örnek ile order yapısına başlayalım:** 
+Örneğin **xl** genişliğinde çalışıyorsunuz ve web siteniz 3 parçadan oluşuyor, fakat siz **sm** genişliğinde ki ekranlarda;1. içeriğinizin ilk gözükmesini değil son gözükmesini istiyorsunuz. 3.içeriğinizin ise ilk görülmesini istiyorsunuz.**Yani aslında;**
 
 1.İçeriğiniz | 2.İçeriğiniz |3.İçeriğiniz
 -- | -- | -- 
 
-Web sitenizin xl görüntüsü bu şekilde olsun istiyorsunuz fakat sm genişliğinde ise aşağıdaki görüntü oluşsun istiyorsunuz
+Web sitenizin **xl** görüntüsü bu şekilde olsun istiyorsunuz fakat **sm** genişliğinde ise aşağıdaki görüntü oluşsun istiyorsunuz
 
 3.İçeriğiniz | 2.İçeriğiniz |1.İçeriğiniz
 -- | -- | -- 
 
-Tam olarak Order kavramı bu işlemi yapmanıza yardımcı oluyor peki nasıl ?
+Tam olarak Order kavramı bu işlemi yapmanıza yardımcı oluyor peki nasıl?
+
 Yukarıda ki web sitesi görüntümüzü gelin koda dökelim 
 ```html
 <div class="d-flex">
@@ -19,7 +23,10 @@ Yukarıda ki web sitesi görüntümüzü gelin koda dökelim
   <div class="p-2">3. İçeriğimiz</div>
 </div>
 ```
-Bu bizim sitemizin genel içeriğini oluşturan kodlarımız.Fakat biz sm ekranlarda dizilimi değiştirmek istiyoruz o zaman yapmamız gereken tek şey ; 
+
+Bu bizim sitemizin genel içeriğini oluşturan kodlarımız. Fakat biz **sm** 
+ekranlarda dizilimi değiştirmek istiyoruz o zaman yapmamız gereken tek şey ;
+
 ```html
 <div class="d-flex">
   <div class="order-sm-3 p-2">1. İçeriğimiz</div>
@@ -32,7 +39,9 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 3.İçeriğiniz | 2.İçeriğiniz |1.İçeriğiniz
 -- | -- | -- 
 
-İstediğimizi gerçekleştirmiş olduk Order kavramı bootstrap'te bütün kırılma noktaları(xs-sm-md-lg-xl-xxl) için tanımlanmış class'lara sahiptir.Bunlar ; 
+İstediğimizi gerçekleştirmiş olduk Order kavramı bootstrap'te bütün kırılma noktaları(xs-sm-md-lg-xl-xxl) için tanımlanmış class'lara sahiptir.
+**Bunlar:**
+
 - order-0
 - order-1
 - order-2
@@ -69,7 +78,11 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 - order-xxl-3
 - order-xxl-4
 - order-xxl-5
-### İstediğiniz kırılma noktalarında istediğiniz sıralamayı gerçekleştirebilirsiniz, tek kullanım şekli bu şekilde değildir.Aşağıdaki class'ları kullanarakta sıralama işlemlerinizi gerçekleştirebilirsiniz.
+
+**İstediğiniz kırılma noktalarında istediğiniz sıralamayı gerçekleştirebilirsiniz, tek kullanım şekli bu şekilde değildir.**
+
+Aşağıdaki class'ları kullanarakta sıralama işlemlerinizi gerçekleştirebilirsiniz.
+
 - order-first
 - order-last
 - order-sm-first
@@ -83,7 +96,8 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 - order-xxl-first
 - order-xxl-last
 
-### Bir örnek daha gerçekleştirelim bootstrap ile hazırladığımız yapı ilk haliyle şu şekil olsun 
+**Bir örnek daha gerçekleştirelim bootstrap ile hazırladığımız yapı ilk haliyle şu şekil olsun**
+
 ```html
 		<div class="container-fluid">
 			<div class="row">
@@ -99,7 +113,9 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 			</div>
 		</div>
 ```
-### Medium kırılma noktasından daha küçük genişliklerde 3.içeriğimizin ilk sıraya geçmesini istiyoruz. Fakat daha büyük genişliklerde bu sırayla kalmasını istiyoruz bunun için 
+
+**Medium** kırılma noktasından daha küçük genişliklerde 3.içeriğimizin ilk sıraya geçmesini istiyoruz. Fakat daha büyük genişliklerde bu sırayla kalmasını istiyoruz bunun için 
+
 ``` html
 <div class="container-fluid">
 			<div class="row">
@@ -115,8 +131,12 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 			</div>
 		</div>
 ```
-### Kodumuzu bootstrap'i dahil ettiğiniz bir projede deneyebilirsiniz.Bu şekilde tüm kırılma noktaları için ayrı ayrı sıralamalar gerçekleştirebiliriz.
-### Peki bu kodu biraz daha karmaşıklaştırmaya ne dersiniz ? İç içe içeriklerimiz olsun örneğin; 
+
+Kodumuzu bootstrap'i dahil ettiğiniz bir projede deneyebilirsiniz. Bu şekilde tüm kırılma noktaları için ayrı ayrı sıralamalar gerçekleştirebiliriz.
+
+Peki bu kodu biraz daha karmaşıklaştırmaya ne dersiniz ? İç içe içeriklerimiz olsun. 
+**Örneğin:**
+
 ```html
 <div class="container-fluid">
 			<div class="row">
@@ -171,7 +191,9 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 			</div>
 		</div>
 ```
-###Örneğimizi daha iyi anlamak için lütfen bir editör'e kodumuzu kopyalayıp yapıştıralım.Gördüğünüz gibi şuan iç içe içeriklerimizin olduğu bir yapı var ben xs kırılma noktasında farklı,md'da farklı ve lg'da şuanki görüntüsüyle sıralanmasını istiyorum.Şimdi kodumuzu buna göre düzenleyelim
+Örneğimizi daha iyi anlamak için lütfen bir editör'e kodumuzu kopyalayıp yapıştıralım. Gördüğünüz gibi şuan iç içe içeriklerimizin olduğu bir yapı var ben **xs** kırılma noktasında farklı, **md**'da farklı ve **lg**'da şuanki görüntüsüyle sıralanmasını istiyorum. 
+
+**Şimdi kodumuzu buna göre düzenleyelim.**
 
 ```html
 	<div class="container-fluid">
@@ -227,10 +249,11 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 			</div>
 		</div>
 ```
-### Kodumuzu artık istediğimiz düzeye getirmiş olduk.
-## Ödev
+Kodumuzu artık istediğimiz düzeye getirmiş olduk.
 
-### Sizde aşağıda ki kodu bütün içeriğin bütün kırılma noktalarında farklı bir şekilde sıralanmasını sağlayın.Şimdiden başarılar 
+## Alıştırma
+Sizde aşağıda ki kodu bütün içeriğin bütün kırılma noktalarında farklı bir şekilde sıralanmasını sağlayın.Şimdiden başarılar.
+
 ```html
 <div class="container-fluid">
 			<div class="row">
