@@ -2,7 +2,7 @@
 
 ## Asian Kitchen's Menu
 
-![asiankitchen](/javascript/javascript-temel/odev3/figures/asiankitchen.gif)
+![asiankitchen](https://github.com/Kodluyoruz/taskforce/raw/main/javascript/javascript-temel/odev3/figures/asiankitchen.gif)
 
 Süper yetenekli mezunlarımızdan [Aycan Aleyna Yerdelen](https://www.linkedin.com/in/aycanaleynayerdelen/)'in geliştirdiği proje ile karşınızdayız. Bir uzak doğu restoran menüsü şeklinde düzenlenmiş sitede Javascript sayesinde sayfalar arasında gezinilebilmekte. Oldukça hoş bir görüntüye sahip bu sitenin HTML ve CSS kodlarını size hazır vereceğiz. Sizden istediğimiz Javascript kısmını tamamlamanız. Siteyi detaylı incelemek için [Asian Kitchen's Menu](https://ayerdelen.github.io/AsianKitchen/)
 
