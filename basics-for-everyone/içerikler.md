@@ -284,7 +284,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. İnternet için kullanılan fiziksel elemanlar aşağıdakilerden hangisini kaynak olarak kullanmaz ?
+   - Elektrik
+   - Işık
+   - Telekinezi (Doğru)
+   - Radyo dalgaları
+2. Saniyede gönderdiğimiz bit sayısı ne kadar yüksek olursa o kadar hızlı iletim sağlayabiliriz. Saniyede gönderilen bit sayısını ifade eden terim aşağıdakilerden hangisidir ?
+   - Bant uzunluğu
+   - Bant genişliği (Doğru)
+   - Bant çeşidi
+   - Bant göstergesi
 
 #### Videolar
 
