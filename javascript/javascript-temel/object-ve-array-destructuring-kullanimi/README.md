@@ -142,7 +142,7 @@ toplama(sayilar); // 39 doner
 
 Yani burada `{sayi1, sayi2, ...args}` ile diyoruz ki `sayi1` ve `sayi2` destructure olsun ama geri kalanlar `args` değişkende obje olarak kalsın yani args `{ sayi3: 7, sayi4: 9, sayi5: 11 }` seklinde bir obje kalır ve bu obje destructuringden arta kalan değerleri içeren bir objedir.
 
-Bir obje içindeki tüm değerleri de `for...in` ile teker teker dolaşabilir. `for...in` seklinde oluşturduğumuz döngü yani `for (let sayi in args)` satiri der ki `args` içindeki tüm propertylerin **key**lerini dön bana. Bu döngüdeki `sayi` değişken her bir property için bize `sayi3` , `sayi4`, `sayi5` string anahtarını döner. Ama biz anahtar değil de değerleri almak istersek `args[sayi]` yazabiliriz. bu bize teker teker `7`, `9`, `11` sayılarını dönecektir ve toplama işlemine bunu bir döngüde dahil edebiliriz.
+Bir obje içindeki tüm değerleri de `for...in` ile teker teker dolaşabilir. `for...in` seklinde oluşturduğumuz döngü yani `for (let sayi in args)` satiri der ki `args` içindeki tüm propertylerin **key**'lerini dön bana. Bu döngüdeki `sayi` değişken her bir property için bize `sayi3` , `sayi4`, `sayi5` string anahtarını döner. Ama biz anahtar değil de değerleri almak istersek `args[sayi]` yazabiliriz. bu bize teker teker `7`, `9`, `11` sayılarını dönecektir ve toplama işlemine bunu bir döngüde dahil edebiliriz.
 
 Elbette gerçek hayat için mantıklı bir işlem değil bu ama spreading özelliğinin anlaşılması için böyle bir fonksiyon yazılabilir. hatta `for...in` yerine `map()` veya `reduce()` fonksiyonları kullanarak bu örnek daha da iyi hale getirilebilir.
 
