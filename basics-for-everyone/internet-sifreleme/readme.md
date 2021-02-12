@@ -8,6 +8,8 @@ S i f r e l e m e  -> V l i u h o h p h
 
 Sonuç olarak elde ettiğimiz "Vliuhohph" mesajını gönderiyoruz. Alıcı bunu alıp alfabede geriye doğru gidiyor ve mesajı çözüyor. 
 
+![sezar_sifreleme](figures/Sezar_3_anahtar.gif)
+
 Bu yöntem eskide çok kullanılmış olsa da günümüzde alfabedeki sınırlı harf ve bilgisayarlarımızın işlem gücüyle ile çözülmesi oldukça kolay. Saniyeleri bulmadan sezar şifreleme çözülüyor. Günümüzde **256 bitlik** anahtarlar ile şifreleme yapılıyor. Bu anahtarlar kullanılarak veri değiştiriliyor anlaşılamaz hale geliyor.
 
 **Peki anahtar bizde vardı bununla şifreledik karşı taraf nasıl çözecek ?**
@@ -24,4 +26,5 @@ Whatsapp'a birisiyle mesajlaşırken gördüğünüz bu uyarı mesajınızın ik
 - https://roadmap.sh/guides/what-is-internet
 - https://www.youtube.com/watch?v=kHxcf2wK_ck&feature=youtu.be
 - https://code.org/
+- https://tr.wikipedia.org/wiki/Sezar_%C5%9Fifrelemesi
 
