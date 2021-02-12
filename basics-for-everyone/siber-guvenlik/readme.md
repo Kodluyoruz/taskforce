@@ -2,7 +2,7 @@
 
 **En bilinen siber suçlar:**
 
-Virüsler, DDoS ataklar ve oltalama(fishing) yöntemleridir.  
+Virüsler, DDoS ataklar ve oltalama(phishing) yöntemleridir.  
 
 **Virüsler** bilgisayarımızda çoğu şeye erişim sağlayarak dosyalarımız üzerinde işlem yapabilirlerken, **DDoS** ataklarda ise **virüsler** sayesinde ele geçirilmiş bilgisayarlardan bir ordu oluşturularak bir web sitesini aşırı talebe boğma amaçlanır. 
 
