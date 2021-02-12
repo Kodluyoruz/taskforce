@@ -1,6 +1,6 @@
 # JavaScript Temel INDEX
 
-#### Kurulum süreçleri
+#### Kurulum süreçleri ####
 - [Kullanılacak Tüm Dökümanlar](kullanilacak-tum-dokumanlar/)
 - [Node.js Kurulumu](node-kurulumu/)
 
@@ -59,6 +59,7 @@
 - [ForEach ile Array içerisindeki Öğelerin Çağrılması](foreach-ile-array-icerisindeki-ogelerin-cagrilmasi/)
 - [Filter ile Array İçerisinde Sadece İstenilen Bilgilerin Yeni Listeye Eklenmesi](filter-ile-array-i̇cerisinde-sadece-i̇stenilen-bilgilerin-yeni-listeye-eklenmesi/)
 - [Map ile Array İçerisideki Yapının Değiştirilerek Yeni Liste Oluşturulması](map-ile-array-i̇cerisideki-yapinin-degistirilerek-yeni-liste-olusturulmasi/)
+- [Ödev 2](odev2/)
 
 #### Nesne(Object) ####
 
@@ -66,6 +67,7 @@
 - [Object Anahtar (Key) ve Değer (Value) Yapısının Kullanımı/Erişimi](object-anahtar(key)-ve-deger(value)-yapisinin-kullanimi-erisimi/)
 - [Nesnelere Nasıl Metot Ekleriz?](nesnelere-nasil-metot-ekleriz/)
 - [Object ve Array Destructuring Kullanımı](object-ve-array-destructuring-kullanimi/)
+- [Ödev 3](odev3/)
 
 #### Hata Yönetimi ####
 - [Try ve Catch Kullanımı](try-ve-catch-kullanimi/)
