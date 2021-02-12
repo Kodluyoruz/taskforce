@@ -2,7 +2,13 @@
 
 İki cihaz iletişim kurarken, veriyi olduğu gibi gönderseydi araya biri girip veriyi değiştirebilir ve bize ulaştırabilirdi. Çünkü veri hedefe ulaştığı sürece ufak bir gecikme olduğunu düşünürdük. Bu sebeple veriyi olduğu gibi göndermek yerine şifreliyoruz. 
 
-Bunun için çeşitli yöntemler var. Günümüzde **256 bitlik** anahtarlar ile şifreleme yapılıyor. Bu anahtarlar kullanılarak veri değiştiriliyor anlaşılamaz hale geliyor. 
+Bunun için çeşitli yöntemler var ve şifreleme yüzyıllardan beridir kullanılıyor. *Sezar şifreleme* bilenen eski yöntemlerden biri . Bu yöntemde mesajı gönderenin ve alanın bildiği bir anahtar sayı vardır. Mesajdaki her harf ayrı olarak ele alınır ve alfabede anahtar sayı kadar kaydırılır. Örneğin anahtar sayımız 3 olsun ve göndermek istediğimiz mesaj: "Sifreleme".  Aşağıdaki gibi her harfi alfabedeki 3 sıra sonraki harf ile değiştiriyoruz.
+
+S i f r e l e m e  -> V l i u h o h p h 
+
+Sonuç olarak elde ettiğimiz "Vliuhohph" mesajını gönderiyoruz. Alıcı bunu alıp alfabede geriye doğru gidiyor ve mesajı çözüyor. 
+
+Bu yöntem eskide çok kullanılmış olsa da günümüzde alfabedeki sınırlı harf ve bilgisayarlarımızın işlem gücüyle ile çözülmesi oldukça kolay. Saniyeleri bulmadan sezar şifreleme çözülüyor. Günümüzde **256 bitlik** anahtarlar ile şifreleme yapılıyor. Bu anahtarlar kullanılarak veri değiştiriliyor anlaşılamaz hale geliyor.
 
 **Peki anahtar bizde vardı bununla şifreledik karşı taraf nasıl çözecek ?**
 
