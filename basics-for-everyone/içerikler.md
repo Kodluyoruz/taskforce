@@ -317,7 +317,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1.  Bir web sitesinin görünüm olarak temelini oluşturduğumuz işaretleme dili aşağıdakilerden hangisidir ?
+   - C#
+   - Java
+   - HTML (Doğru)
+   - Ruby
+2. Adres çubuğunda aşağıdakilerden hangisini görürsek güvenilir kanaldan erişim sağladığımız daha net bir şekilde söyleyebiliriz ?
+   - www
+   - com
+   - net
+   - https (Doğru)
 
 #### Videolar
 
