@@ -98,5 +98,80 @@ printAll(books);
 ```
 
  Collections isimli sınıfın, “sort”isminde statik tanımlı bir fonksiyonu aracılığıyla veri kümesini sıralayabiliyoruz. “sort” fonksiyonuna eğer ki herhangi bir “Comparator” tipte bir nesne vermezseniz, varsayılan olarak veri kümesindeki nesnelerin “compareTo” metodunu kullanarak sıralama yapacaktır. Bu örnekte “BookPublisher” sınıfı kitap sınıfındaki yayınevi verisine göre, yani “publisher” isimli değişkenin değerine göre sıralama yapmaktadır. 
+
  
- Comparable ve Comparator interface'lerindeki kullanım farkı şöyledir: Eğer bir nesneyi kıyaslayacaksak  Comparable interface kullanırız ; eğer iki nesneyi kıyaslayacaksak Comparator interface kullanırız. 
+ Comparable ve Comparator interface'lerindeki kullanım farkı şöyledir: Eğer bir nesneyi kıyaslayacaksak  Comparable interface kullanırız ; eğer iki nesneyi kıyaslayacaksak Comparator interface kullanırız.
+ 
+ ##### Peki anlattıklarımıza göre aşağıdaki sorulara bi bakalım :)
+ 
+ Aşağıdaki kodun çıktısı ne olur?
+
+```java
+import java.util.*;
+class Dog implements Comparator<Dog>, Comparable<Dog> {
+    String name;
+    int age;
+    Dog() {
+    }
+    Dog(String n, int a) {
+        name = n;
+        age = a;
+    }
+    public int compareTo(Dog d) {
+        return (name).compareTo(d.name);
+    }
+    public int compare(Dog d, Dog d1) {
+        return d.age - d1.age;
+    }
+}
+public class Example {
+    public static void main(String args[]) {
+        List<Dog> list = new ArrayList<Dog>();
+        list.add(new Dog("Shaggy", 3));
+        list.add(new Dog("Lacy", 2));
+        list.add(new Dog("Roger", 10));
+        list.add(new Dog("Tommy", 4));
+        list.add(new Dog("Tammy", 1));
+        Collections.sort(list);
+        for (Dog a : list)
+            System.out.print(a.name + ", ");
+        Collections.sort(list, new Dog());
+        System.out.println(" ");
+        for (Dog a : list)
+            System.out.print(a.name + ":" + a.age + ", ");
+    }
+}
+```
+ 
+      A)          Lacy, Roger, Shaggy, Tammy, Tommy, 
+                  Tammy:1, Lacy:2, Shaggy:3, Tommy:4, Roger:10,
+                  
+      B)          Shaggy, Lacy, Roger, Tommy, Tammy,
+                  Tammy:1, Lacy:2, Shaggy:3, Tommy:4, Roger:10, 
+                   
+      C)          Some other output 
+    
+      D)          Compilation Error or Runtime Error        
+  
+   (Doğru cevap : A)
+ Aşağıda verdiğimiz cümlelerin hangileri doğrudur?
+
+- Nesnelerin sıralanmasının doğal sıraya dayalı olması gerekiyorsa, Comparable'ı kullanırız
+-  İki nesneyi kıyaslarken  Eğer obj1 < obj2 ise 1 değeri döner.
+
+##### Cevaplar:
+
+- Evet, Nesnelerin sıralanmasının doğal sıraya dayalı olması gerekiyorsa, Comparable'ı kullanılır, ancak sıralamanın farklı nesnelerin niteliklerine göre yapılması gerekiyorsa, Java'da Comparator'ı kullanılır.
+
+- Hayır, int compare(Object obj1, Object obj2)  “obj1” ve “obj2” nesnelerini birbiriyle kıyaslar. Bu kıyaslama aşağıdaki kural ile olur.
+
+   Eğer obj1 < obj2 ise -1,
+
+   Eğer obj1 == obj2 ise 0,
+
+   Eğer obj1 > obj2 ise 1
+
+## Kaynaklar:
+
+- [Sorunun orjinali](https://java.meritcampus.com/core-java-questions/Comparable-and-Comparator)
+- [medium yazısı](https://java.meritcampus.com/core-java-questions/Comparable-and-Comparator)
