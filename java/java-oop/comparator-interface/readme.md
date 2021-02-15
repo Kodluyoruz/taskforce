@@ -154,6 +154,7 @@ public class Example {
       D)          Compilation Error or Runtime Error        
   
    (Doğru cevap : A)
+   
  Aşağıda verdiğimiz cümlelerin hangileri doğrudur?
 
 - Nesnelerin sıralanmasının doğal sıraya dayalı olması gerekiyorsa, Comparable'ı kullanırız
