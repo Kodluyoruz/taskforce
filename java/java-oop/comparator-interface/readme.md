@@ -98,3 +98,5 @@ printAll(books);
 ```
 
  Collections isimli sınıfın, “sort”isminde statik tanımlı bir fonksiyonu aracılığıyla veri kümesini sıralayabiliyoruz. “sort” fonksiyonuna eğer ki herhangi bir “Comparator” tipte bir nesne vermezseniz, varsayılan olarak veri kümesindeki nesnelerin “compareTo” metodunu kullanarak sıralama yapacaktır. Bu örnekte “BookPublisher” sınıfı kitap sınıfındaki yayınevi verisine göre, yani “publisher” isimli değişkenin değerine göre sıralama yapmaktadır. 
+ 
+ Comparable ve Comparator interface'lerindeki kullanım farkı şöyledir: Eğer bir nesneyi kıyaslayacaksak  Comparable interface kullanırız ; eğer iki nesneyi kıyaslayacaksak Comparator interface kullanırız. 
