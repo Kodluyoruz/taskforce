@@ -1,5 +1,7 @@
 # Java Gün ve Zaman İşlemleri (Date &amp; Time)
 
+
+
 Java 7 ve öncesinde Date ile ilgili işlemlere yardımcı olan sınıflar &quot;java.util&quot; paketi altındadır. Özellikle, Date sınıfı tarih ve zamanı ifade eden nesneler oluşturulmasını sağlar.
 
 Date sınıfının iki tane kurucu metodu vardır.
@@ -69,6 +71,10 @@ System.out.println("Parsed Date: " + parsedDate.toString());
 ````
 
 ## Java8 Tarih/Zaman (Date/Time) API
+
+![Date_Util](figures/Date_Util.jpg)
+
+> *Resim: DateTime API paket içeriği*
 
 Java 8 ile birlikte tarih ve zaman bilgisini işleyen yapılar ve sınıflar değiştirildi. Daha esnek ve kullanımı kolay fonksiyonlar ve sınıflar haline dönüştü.
 
@@ -158,5 +164,99 @@ LocalTime sevenThirty = LocalTime.parse(&quot;06:30&quot;).plus(1, ChronoUnit.HO
 int six = LocalTime.parse(&quot;06:30&quot;).getHour();
 ````
 
+### LocalDateTime Sınıfı ile Örnekler
+
+LocalDateTime sınıfı hem tarih hem de saat işlemleri için Java 8 ile gelen bir sınıftır. LocalTime ve LocalDate Sınıflarının metotlarını içerir. Bu sınıf da LocalDate ve LocalTime sınıfları gibi type-safe özelliğine sahiptir. 
+
+```
+LocalDateTime simdi= LocalDateTime.now();
+//Formatlama yapılmaz ise çıktısı
+//Yıl-Ay-GünTSaat:Dakika:Saniye:Salise şeklinde olur.
+//Metotların geri dönüşü LocalDateTime olduğu için
+//Stringe dönüştürmek için String.valueOf kullandık
+String onGunOnce=String.valueOf(simdi.minusDays(10));
+String onGunSonra=String.valueOf(simdi.plusDays(10));
+String onDakikaOnce=String.valueOf(simdi.minusMinutes(10));
+String onAyOnce=String.valueOf(simdi.minusMonths(10));
+```
+
+simdi Çıktı: 2021-01-02T22:42:04.146390400
+
+onGunOnce Çıktı: 2020-12-23T22:42:04.146390400
+
+onGunSonra Çıktı: 2021-01-12T22:42:04.146390400
+
+onDakikaOnce Çıktı: 2021-01-02T22:32:04.146390400
+
+onAyOnce Çıktı: 2020-03-02T22:42:04.146390400
+
+### Java'da DateTimeFormatter Sınıfı ile Tarih ve Zaman Formatlama Örnekleri
+
+DateTimeFormatter sınıfı Java 8 ile gelmiştir, LocalDate ve LocalTime sınıfı gibi type-safety özelliği vardır. SimpleDateFormat Sınıfıyla tarih-zaman formatlamak aynı anda iki threadin tarih-zaman formatı değiştirmeye çalıştığında, threadlerin birbirinin formatını kullanma ihtimali doğduğu için DateTimeFormatter zaman formatlamada önerilir. DateTimeFormatter sınıfı ile LocalDate, LocalTime ve LocalDateTime ile oluşturulmuş değerleri formatlar.
+
+**LocalDate Sınıfı için bir örnek;**
+
+```java
+//Bugünün tarihini alıyoruz.
+LocalDate tarih=LocalDate.now();
+
+//ofPattern metodu aracılığıyla formatımızı giriyoruz..
+//Burada tarih LocalDate objesini formatlıyorisek ayı(month) belirtmek için 'MM' kullanılmalıdır.
+//Aksi takdirde 'mm' olarak kullanılması dakika(minute) anlamına gelir.
+//ve 'UnsupportedTemporalTypeException' hatasını alarız.
+DateTimeFormatter tarihFormatlayici=DateTimeFormatter.ofPattern("dd$MM$yyyy");
+
+//tarihFormatlayici nesnemizi formatlayıp tarihStringi değişkenine atıyoruz.
+//Burada tarih objesinin içindeki tarihimiz bizim formatımıza dönüştürülerek
+//Değişkene atılır.
+String tarihStringi=tarih.format(tarihFormatlayici);
+```
+
+Çıktı: 02$01$2021
+
+**LocalTime Sınıfı için bir örnek;**	
+
+```java
+// Bu saat formatımız 24 saatlik dilimi içerir.
+DateTimeFormatter saatFormatlayicisi1=DateTimeFormatter.ofPattern("hh*mm");
+//Bu saat formatımız ÖÖ/ÖS (AM/PM) şekilindedir.
+DateTimeFormatter saatFormatlayicisi2=DateTimeFormatter.ofPattern("hh$mm a");
+
+LocalTime saat=LocalTime.now();
+
+//Formatlarımızı string değişkenlere atıyoruz.
+String ilkFormat=saat.format(saatFormatlayicisi1);
+String ikinciFormat=saat.format(saatFormatlayicisi2);
+```
+
+ilkFormat çıktısı: 10*05
+
+ikinciFormat çıktısı: 10$05 ÖS
+
+**LocalDateTime sınıfı için bir örnek;**
+
+```java
+LocalDateTime tarihSaat= LocalDateTime.now();
+
+//LocalDateTime formatlarken hem tarih için hem de saat için format girilmelidir.
+DateTimeFormatter tarihSaatFormat=DateTimeFormatter.ofPattern("dd&&MM&&yyyy // hh:mm a");
+
+//Önceki örneklerde olduğu gibi formatımızı bir String değere atıyoruz.
+String formatliTarihSaat=tarihSaat.format(tarihSaatFormat);
+```
+
+Çıktı: 02&&01&&2021 // 10:47 ÖS
+
+> **1.Soru**:  Tarih ve saat işlemlerini nerelerde kullanabiliriz?
+>
+> **2.Soru**: Tarih ve saatlerin formatlanmasına neden ihtiyaç duyarız?
+>
+> **3.Soru:** Type-Safe olmayan tarih-zaman işlerinde ne gibi problemler yaşayabiliriz?.
+
 ## Kaynak:
-* [Kaynak 1](#)
+
+* [Kaynak 1](https://howtodoinjava.com/java/date-time/java8-datetimeformatter-example/)
+* [Kaynak 2](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html)
+* [Kaynak 3](https://www.javatpoint.com/java-date)
+* [Resim Kaynağı](https://codenuclear.com/java-8-date-time-intro/)
+

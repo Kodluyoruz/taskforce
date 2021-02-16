@@ -1,8 +1,81 @@
 # Java&#39;da "switch-case" Yapıları
+Merhaba Arkadaşlar,
 
-Programlama yaparken birden fazla koşula sahip durumlarla karşılaşabiliriz. Örneğin: eğer 1&#39;e basarsanız "vize işlemleri", eğer 2&#39;ye basarsanız "kredi kartı işlemleri", eğer 3&#39;e basarsanız "ev kredisi işlemleri", eğer 4&#39;e basarsanız "müşteri temsilcisine bağlanmak", sıfıra basarsanız "diğer işlemler menüsüne gitmek" gibi çoklu koşullara göre programlama yapmak gerekebilir. Bunu çözmek için "if-else if" yapılarını ya da "switch-case" yapısını kullanırız.
+Bu yazımızda sizlerle Java programlama dilinde yaygın olarak kullandığımız koşul ifadelerinden biri olan Switch Case yapısından bahsedeceğiz.
 
-Not: "switch-case" yapısında eğer her case&#39;in sonuna "break" ifadesi koymazsak ise aradığı koşulu bulana kadar tüm case&#39;lere girip o kod bloklarını çalıştıracaktır.
+Switch Case; tanımlanmış olan yalnızca bir değişkenin, alacağı değerlere bağlı olarak, farklı sonuçlar döndürmesini sağlayan bir yapıdır. Switch kısmında kullanılacak olan değişkenler byte, short, int, char veya String veri tipine sahip olmalıdır. 
+
+Switch case akış diyagramı şu şekildedir:
+
+<img src="flow_chart.png"/>
+
+
+En basit haliyle switch-case yapısının söz dizimi aşağıdaki gibidir:
+
+```java
+    public class SwitchCase {
+
+    public static void main (String args []) {
+
+       int value;
+
+       switch (value) {
+
+       case 1: 
+
+            // Value 1
+            break;         
+         
+       case 2: 
+
+             // Value 1 
+             break;
+         
+       case 3: 
+
+             // Value 1
+             break;
+         
+       default:
+     
+             // Value is invalid         
+             break;
+         
+     }}}
+  ```
+
+Yukarıdaki switch-case yapısında hangi kod bloğunun çalıştırılacağını value değişkeni belirler. Value değeri 1 ise case 1, 2 ise case 2, 3 ise case 3 kod bloğu çalıştırılır. Eğer value değişkeninin değeri hiçbir case değeriyle eşleşmiyorsa default alanı çalıştırılır. Her bir case durumunda, switch yapısından çıkmak ve switch'i izleyen bir sonraki ifadeye geçmek için 'break' komutu kullanılır. Break komutunun kullanılmadığı case'lerde ise ilgili case bloğu işletildikten sonra break komutunun bulunduğu satıra kadar olan tüm kod satırları çalıştırılır. Switch-case yapısının çalışma mantığı genel olarak bu şekildedir. Örnekler ile bu yapıyı daha fazla detaylandıracağız.
+
+Switch Case ifadeleri, çalışma mantığı açısından baktığımızda If - Else-if ifadeleri ile benzerlik göstermektedir. Ancak çok fazla koşul gerektiren durumlarda If - Else-if ifadelerinin yerine Switch ifadelerini tercih edebiliriz. Bu sayede uzun kod satırlarının aksine daha sade ve düzenli bir görünüm elde edebilir ve kodumuzun okunabilirliğini artırmış oluruz.
+
+Not: "switch-case" yapısında eğer her case&#39;in sonuna "break" ifadesi koymazsak aramış olduğu koşulu bulana kadar tüm case&#39;lere girip o kod bloklarını çalıştıracaktır.
+
+
+
+   Aşağıdaki örnekte switch-case yapısının Integer anahtar değeri ile kullanımı gösterilmiştir;
+
+
+
+<img src="switchCase01.jpeg"/>
+
+
+
+   Aşağıdaki örnekte switch-case yapısının Char anahtar değeri ile kullanımı gösterilmiştir;
+
+
+
+<img src="switchCase02.png"/>
+
+
+
+   Aşağıdaki örnekte switch-case yapısının String anahtar değeri ile kullanımı gösterilmiştir;
+
+
+<img src="switchCase03.png"/>
+
+
+
+Programlama yaparken birden fazla koşula sahip durumlarla karşılaşabiliriz. Örneğin: eğer 1&#39;e basarsanız "vize işlemleri", eğer 2&#39;ye basarsanız "kredi kartı işlemleri", 3&#39;e basarsanız "ev kredisi işlemleri", eğer 4&#39;e basarsanız "müşteri temsilcisine bağlanmak", sıfıra basarsanız "diğer işlemler menüsüne gitmek" gibi çoklu koşullara göre programlama yapmak gerekebilir. Bunu çözmek için "if-else if" yapılarını ya da "switch-case" yapısını kullanırız.
 
 ````java
 Scanner scanner = new Scanner(System.in);
@@ -112,3 +185,78 @@ Saydım.
 ```
 
 Bu örneğimizde bilgisayardan bir işlemi defalarca yapmasını istedik. 1’den 10’a kadar olan sayıları konsola yazdırdık. Bu şekilde, belli bir kod bloğunu birden fazla kez çalıştırmamızı sağlayan ifadelere **döngü ifadeleri** (**iteration statements**) denir. Biz buradaki örneklerde konuya giriş yaptık. Döngü ifadelerini ileride ayrıntıyla inceleyeceğiz.
+
+
+SORU 1: Aşağıdaki switch ifadesinin tamamlanması için eksik parçalar nelerdir?
+
+
+```java
+     public class SwitchCase {
+
+	public static void main(String[] args) {
+		
+		int classNo=2;
+
+		switch (A) {
+		
+		B 1:
+			System.out.println("Class-1");
+			
+			C ;
+			
+		B 2:
+			System.out.println("Class-2");
+			
+			C ;
+		}}}		
+```
+    
+    
+Cevap: A= classNo, B= case, C= break
+
+
+
+
+
+SORU 2: Aşağıda bulunan kod bloğunda value değeri 2 ise kod çıktısı nasıl olur?
+
+
+```java
+     import java.util.Scanner;
+
+     public class SwitchCase {
+
+     public static void main(String[] args) {
+		
+		Scanner input=new Scanner(System.in);		
+		
+		int value=input.nextInt();
+		
+		switch(value) {
+		
+		case 1: case 2:	case 3: 
+			
+			System.out.println("Value-3");
+			
+			break;
+			
+		default:				
+			System.out.println("Value is invalid.");
+		    break;
+		
+		}}}		
+ ```
+ 
+
+Cevap: Value değeri 2 olması durumunda case 2 çalıştırılır. Case 2 bloğunda break komutu olmadığından bir sonraki Case 3 bloğu çalıştırılır ve Value-3 çıktısı elde edilir.
+
+
+## Kaynakça:
+
+- *The Switch Statement*, https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html
+ 
+- *Switch Statement in Java*, https://www.geeksforgeeks.org/switch-statement-in-java/
+ 
+- *Java Switch Statements*, https://www.w3schools.com/java/java_switch.asp
+ 
+- *Java Switch Case*, https://www.journaldev.com/588/java-switch-case-string

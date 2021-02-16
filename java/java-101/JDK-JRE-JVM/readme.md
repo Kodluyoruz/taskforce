@@ -61,4 +61,4 @@ JDK ise biz yazılımcıların Java programlama diliyle uygulamalar geliştirmes
 
 ## Kaynakça
 
-* jvm mimarisi [1,2,3](https://medium.com/@cemthecebi/jvm-java-virtual-machine-nedir-4e2080d98f49)
+- jvm mimarisi [1,2,3](https://medium.com/@cemthecebi/jvm-java-virtual-machine-nedir-4e2080d98f49)

@@ -1,21 +1,40 @@
 # Java ile Uygulama Geliştirme Yapabileceğiniz Alanlar
 
-Yeryüzünde Java dili geliştirilen yazılımların sayısı gün geçtikçe artmaktadır. Yaklaşık 3 milyar cihazda Java kullanıldığı tahmin edilmektedir. Aynı zamanda Java dili ile birbirinden farklı platformda, farklı amaçlar için çalışan uygulamalar yazabilirsiniz.
+Yeryüzünde Java dili geliştirilen yazılımların sayısı gün geçtikçe artmaktadır. Yaklaşık 3 milyar cihazda Java kullanıldığı tahmin edilmektedir. Aynı zamanda Java dili ile birbirinden farklı platformda, farklı amaçlar için çalışan uygulamalar yazabilirsiniz. Bunlardan bazılarını inceleyelim;
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1504&q=80" width=600px height=350px />
+</p>
 
-- Web uygulamaları geliştirebilirsiniz.
-- Masaüstü uygulamaları geliştirebilirsiniz. (Eclipse IDE gibi)
-- Kurumsal uygulamalar geliştirebilirsiniz. ([www.sahibinden.com](http://www.sahibinden.com/) gibi)
-- Mobil uygulamalar geliştirebilirsiniz. (Android ve Java2ME tabanlı uygulamalar gibi)
-- Gömülü sistem uygulamaları geliştirebilirsiniz. (Java2ME Embedded altyapısı ile)
-- Robotik projelerde kullanabilirsiniz.
-- Oyun programlamada kullanabilirsiniz. (Android ile oyun geliştirme gibi
+- **Web uygulamaları geliştirebilirsiniz.** <br>
+Java web uygulamaları, bir ağ üzerinden birçok bilgisayarda çalışan dağıtılmış bilgi işlem kullanır. Bu yöntem, işletmelerin uygulama ağlarını ve sunucularını güncellemelerine ve korumalarına yardımcı olur. İstemci bilgisayarlara yazılım yükleme ihtiyacını ortadan kaldırır. Web uygulamaları oluşturmada Java kullanımı kapsamlıdır. Java'daki mevcut web geliştirme, çoğunlukla perde arkasında sunucu uygulamaları kullanır.
 
-## Java Uygulama Geliştirme Altyapıları
+- **Masaüstü uygulamaları geliştirebilirsiniz. (Eclipse IDE gibi)**<br>
+Masaüstü Java teknolojileri, hızlı, güvenli ve taşınabilir olan zengin istemci uygulamaları ve küçük uygulamalar oluşturmak için kullanılabilir.
 
-1. **Java SE (Java Standard Edition)**: Java programlama diliyle birlikte genel amaçlı, temel düzeyde programlama yapabilmeyi sağlayan platformdur. Java ile ilgili tüm temel kütüphaneleri ve dil özelliklerini içerir. Nesneye dayalı programlama yapabilmek için gerekli olan özellikleri sağlar.
+- **Kurumsal uygulamalar geliştirebilirsiniz. ([www.sahibinden.com](http://www.sahibinden.com/) gibi)**<br>
+Java en çok talep gören programlama dillerden biridir. Büyük ve küçük işletmeler, bu dilde yazılmış uygulamalarla desteklenmektedir. Bu, yenilikçi bir ticari yazılım türü fikriniz varsa, Java muhtemelen sizin için en iyi dildir demektir. Havayollarının, devlet kurumlarının ve Fortune 500 şirketlerinin her gün kullandığı özel işletme yazılımlarının çoğu için de geçerlidir.
 
-1. **Java EE (Java Enterprise Edition)**: Java SE&#39;yi kapsamaktadır Ayrıca, Java ile daha çok web ve kurumsal düzeyde programlama yapabilmeyi sağlar. Servlet, Java Server Page, Web Service&#39;leri, Enterprise Java Bean (EJB) (orta katman yazılım geliştirme altyapısı), JPA (Java Persistence API) (Veritabanı ile etkileşim katmanı)
+- **Mobil uygulamalar geliştirebilirsiniz.**<br>
+Java Android uygulama geliştirme söz konusu olduğunda en çok tercih edilen dillerden biridir. Çünkü Android İşletim Sistemi Java ile yazılmıştır. Java, tarayıcı penceresi veya sanal bir makinede olmak üzere iki farklı şekilde çalıştırılabilir.
+ Bu esneklik, kodun yeniden yazılması veya güncellenmesi söz konusu olduğunda avantajlar yaratır. Özellikle platformlar arası mobil uygulama geliştirme söz konusu olduğunda tercih edilir. Entegrasyonu kolaylaştıran API’leri destekler ve yüzlerce açık kaynak kütüphanesi bulunur.
 
-1. **Java ME (Java Micro Edition)**: Java ile gömülü sistem uygulamaları geliştirmeyi sağlar. Özellikle mobil cihazlarda geliştirme yapmaya imkan verir.
+- **Gömülü sistem uygulamaları geliştirebilirsiniz. (Java2ME Embedded altyapısı ile)**<br>
+Java, gömülü sistem tasarımcıları için bir dizi avantaja sahiptir. Java, dil olarak, C ++ tehlikeleri olmadan nesne yönelimli programlamaya izin verir. Örneğin, Java sınıf kalıtımına izin verir, ancak birden çok ebeveynden gelmez, bu nedenle kafa karışıklığı fırsatı yoktur. Ayrıca Java, teknoloji geliştiricilerinin değişen pazar koşullarına hızla yanıt vermesini mümkün kılar. Uygun şekilde uygulanırsa, gömülü bir uygulamanın Java bölümleri uygulamanın geri kalanından izole edilebilir, böylece görev açısından kritik bölümleri Java bölümlerinin yol açtığı bozulmaya karşı korur.
 
-1. **JavaFX** : Java masaüstü uygulamaları geliştirmeyi sağlayan yeni nesil altyapıdır. Öncesinde masaüstü programları geliştirmek için Swing altyapısı tercih edilirdi. Swing&#39;in yerini alması için geliştirilmiştir.
+- **Robotik projelerde kullanabilirsiniz.**<br>
+Java Sanal Makinesi(JVM), kodun çalışma süresi boyunca talimatları yorumlar ve insan benzeri görevleri gerçekleştirmek için robotlara özel özellikler, görsel görüntüleri almak ve işlemek için kullanılan konuşma API'si ve JAVA Medya çerçevesi sağlayan hızlı, güvenilir ve güvenli bir dildir.
+
+- **Oyun programlamada kullanabilirsiniz.**<br>
+Java, bağımsız oyun geliştirme şirketleri tarafından ve mobil oyunlar oluşturmak için yaygın olarak kullanılmaktadır. Dilin ne kadar çok yönlü olduğu ve zengin açık kaynak materyal koleksiyonu göz önüne alındığında, bu pek de şaşırtıcı değildir. Dünyanın en iyi mobil oyunlarının çoğu Java'da geliştirilmiştir. Minecraft, Mission Impossible III ve Asphalt 6, muhtemelen aşina olduğunuz birkaç popüler isimdir.
+
+
+ ## Java Uygulama Geliştirme Altyapıları 
+ <p align="center">
+  <img src="https://gokhan.ozar.net/wp-content/uploads/JavaSE-EE-ME-compared.png" />
+</p>
+
+1. **Java SE (Java Standard Edition)**: Java programlama diliyle birlikte genel amaçlı,temel düzeyde programlama yapabilmeyi sağlayan platformdur. Java ile ilgili tüm temel kütüphaneleri ve dil özelliklerini içerir. Nesneye dayalı programlama yapabilmek için gerekli olan özellikleri sağlar. Masaüstü ve sunucu ortamları için taşınabilir kodun geliştirilmesi ve dağıtılması için kullanılabilir.Java.lang,java.io , java.math , java.net , java.util vb. gibi tüm kitaplıkları ve API'leri sağlar .
+2. **Java EE (Java Enterprise Edition)**: Java SE'yi kapsamaktadır. Java ile dağıtılmış bilgi işlem ve web hizmetleri gibi kurumsal özelliklere sahip geliştiriciler için bir platform sağlar. Java EE uygulamaları genellikle mikro sunucular veya uygulama sunucuları gibi referans çalışma sürelerinde çalıştırılır. Java EE'nin kullanıldığı bazı bağlamlara örnekler e-ticaret, muhasebe, bankacılık bilgi sistemleridir. Servlet, Java Server Page, Web Service'leri, Enterprise Java Bean (EJB) (orta katman yazılım geliştirme altyapısı), JPA (Java Persistence API) (Veritabanı ile etkileşim katmanı)
+
+1. **Java ME (Java Micro Edition)**: Gömülü ve mobil cihazlar (sensörler, ağ geçitleri, cep telefonları, yazıcılar, TV set üstü kutuları) için taşınabilir kod geliştirme ve dağıtım platformudur. Nesne yönelimli Java'ya dayanmaktadır. Java ME, güçlü bir kullanıcı arayüzüne, mükemmel bir güvenliğe, yerleşik ağ protokollerine ve dinamik olarak indirilebilen uygulamalar için desteğe sahiptir. Geliştirilen uygulamalar taşınabilirdir ve çeşitli aygıtlarda çalışabilir ve ayrıca aygıtın yerel yeteneklerinden     yararlanabilir.
+2. **JavaFX** : Java teknolojilerinden faydalanarak programcıların masaüstü ve web uygulamaları geliştirmesine olanak sağlayan ileri seviyeli yazılım teknolojisidir. Java FX de ileri seviye içerik, ses, grafik video içeren, etkileşimli modern uygulamalar oluşturulmasına ve dağıtılmasına olanak sağlayan bir yapıdır. Java Fx’de vektör, grafikler ve animasyonlar ile programı güçlendirebiliriz.
