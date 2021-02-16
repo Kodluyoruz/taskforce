@@ -49,5 +49,20 @@ Veri türü aşağıdaki gibi belirtilirse bu uyarılar kaybolacaktır:
 ```java
 List<String> arrayList = new ArrayList<>();
 ```
+### Soru
+
+**1-** Aşağıdakilerden hangisi diamond operatörünün sağladığı avantajlardan biri değildir?
+
+**A)** Java derleyicisinin jenerik türü otomatik olarak tespit etmesini sağlar.
+
+**B)** Programdaki denetlenmemiş uyarıları önler.
+
+**C)** Bu operatör ile nesne oluşturmak daha kolaydır.
+
+**D)** Bir nesne oluştururken jeneriklerin kullanımını basitleştirir.
+
+**E)** Parametre türlerinin açıkça yinelenen belirtimlerini gerektirmeyerek genel ayrıntıları azaltır.
+
+### Cevap : C
 
 Kaynak : https://codenuclear.com/diamond-operator-type-inference-generic-instance-creation-java/
