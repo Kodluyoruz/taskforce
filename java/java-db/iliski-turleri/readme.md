@@ -41,3 +41,24 @@ Ayrıca, Primary Key ve Foreign Key ile ilişkiler kurulmuştur. Örnek şemayı
 ![veritabani calisma mantigi](figures/veritabanı.png)
 
 “employees” tablosu çalışan verilerini depolar. “titles” tablosu çalışana ait unvanları depolar. Bir çalışanın birden fazla unvanı olabilir. Çalışan ile ünvan tablosu arasında bire çok ilişki vardır. “salaries” tablosu çalışana ait maaşları depolar. Yine bir çalışanın her yıl için bir maaş tutarı vardır. Bu durumda çalışan ile maaş kayıtları arasında bire çok ilişki vardır. “departments” tablosu şirkette bulunan departmanları depolar. Çalışan geçmişte birden fazla departmanda çalışmış olabilir veya halen aynı departmanda çalışmaya devam ediyor olabilir. Bu durumda “departments” tablosu ile “employees” arasında çoğa-çok bir ilişki vardır. O nedenle “dept_emp” tablosu bu çoğa çok ilişkideki kayıtları tutar, bu tablo çalışan ve departman tablolarındaki primary key değerlerini tutar. Aynı şekilde bir çalışan departman yönetici konumunda olabilir. Hatta, geçmişte birden çok departmanda yöneticilik de yapmış olabilir. Bu nedenle yine “departments” tablosu ile “employees” tablosu arasında çoğa-çok bir ilişki vardır. Bu çoğa çok ilişki sonucunda bir ara tablo ihtiyacı doğar. “dept_manager” tablosunda çalışanların hangi departmanlarda veya departmanda görev aldıklarının kayıtları vardır, çalışan ve departman tablosundaki primary key değerlerini tutar.
+
+**Sorular**
+
+1- Bir tablodaki bir sütuna ait verilerin başka bir tablonun sütunundan getirilmesini sağlayan anahtar aşağıdakilerden hangisidir?
+
+A.Birincil Anahtar
+
+B.Yabancı Anahtar
+
+C.Sütunlar
+
+D.Unique Kısıtlaması
+
+E.Unique kısıtlaması
+
+Cevap: B
+
+
+**Kaynakça**
+
+> [Kaynak 1](http://auzefkitap.istanbul.edu.tr/kitap/cografi_bilgi_sistemleri_onlisans_ue/veritabanlarina_giris.pdf)

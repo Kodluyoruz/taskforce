@@ -31,3 +31,40 @@ Diğer veritabanı türlerinin büyük miktarlarda verilerle bu gerçek zamanlı
 * Bire çok (OneToMany) (1-N) 
 * Birçoğa bir (ManyToOne) (N-1) 
 * Birçoğa Birçok (ManyToMany) (N-N) 
+
+**Sorular**
+
+1- Tablo üzerindeki her bir satır ne olarak adlandırılır?
+
+A.Kayıt
+
+B.Sorgu
+
+C.İlişkili veri
+
+D.Sütun
+
+E.Hiçbiri
+
+2- Aşağıdakilerden hangisi tablo için yanlıştır?
+
+A.Tablolar satır ve sütunlardan oluşur.
+
+B.Her satır tablo içinde tekil bir değere sahip olmalıdır.
+
+C.Tablolar arası gerekli ilişkiler kurulmalıdır.
+
+D.Veriler hücrelerde saklanır.
+
+E.Her tabloda bir Foreing Key (Yabancı Anahtar) tanımlanmalıdır.
+
+Cevaplar
+
+1: A
+
+2: E
+
+**Kaynakça**
+> [Kaynak 1](http://www.sqlekibi.com/sql-server/veri-tabani-yonetim-sistemi-dbms-ve-iliskisel-veri-tabani-rdbms-ne-demektir.html/)
+>
+> [Kaynak 2](http://auzefkitap.istanbul.edu.tr/kitap/cografi_bilgi_sistemleri_onlisans_ue/veritabanlarina_giris.pdf)
