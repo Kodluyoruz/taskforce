@@ -425,8 +425,8 @@ Yukarıda bulunan kod diziliminde içeriklerin sm genişliğinden büyük ekranl
 			</div>
 		</div>
 ```
-				
-### Kaynakça 
+
+## Kaynakça 
 Bootstrap : https://getbootstrap.com/
 
 
