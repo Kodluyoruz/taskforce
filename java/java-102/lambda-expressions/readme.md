@@ -185,12 +185,12 @@ Cevap: Sadece kendi fiziksel ortamını etkileyen, girdisi ve çıktısı olan m
 
 Cevap: if-else koşul ifadelerinin karşılığıdır.
 
-### Kaynaklar
+## Kaynaklar
 
-- [Lambda Expressions](https://medium.com/s%C4%B1f%C4%B1rdan-i%CC%87leri-d%C3%BCzeye-java-e%C4%9Fitim-serisi/lambda-ifadeleri-ve-fonksiyonel-interface-64312ad545a3)
+- https://medium.com/s%C4%B1f%C4%B1rdan-i%CC%87leri-d%C3%BCzeye-java-e%C4%9Fitim-serisi/lambda-ifadeleri-ve-fonksiyonel-interface-64312ad545a3
 
-- [Lambda Expressions](https://www.w3schools.com/java/java_lambda.asp)
+- https://www.w3schools.com/java/java_lambda.asp
 
-- [Lambda Expressions](https://blog.burakkutbay.com/java-8-lambda-expressions-nedir-lambda-ifadeleri-kullanim-ornekleri.html/)
+- https://blog.burakkutbay.com/java-8-lambda-expressions-nedir-lambda-ifadeleri-kullanim-ornekleri.html/
 
-- [Lambda Expressions](https://www.mobilhanem.com/java-8-lambda-ifadeleri/)
+- (https://www.mobilhanem.com/java-8-lambda-ifadeleri/
