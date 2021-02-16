@@ -109,4 +109,57 @@ public class MyException<T> extends Exception
 
 Yukarıdaki sınıf henüz derleme aşamasında hata alır; çünkü jenerik bir hata sınıfı oluşturmaya çalışıyoruz.
 
+### Sorular
+
+**1-** Aşağıdakilerden hangisi veya hangileri doğrudur?
+
+**I-** Primitive türlerle jenerik türler örneklenemez.
+
+**II-** Jenerik sınıfların statik üyeleri tür parametresine erişebilir.
+
+**III-** Jenerik exception sınıfı oluşturulabilir.
+
+**IV-** Jenerik dizi oluşturulamaz.
+
+**V-** Jenerik türlerin örneği alınabilir.
+
+**A)** Yalnız I
+
+**B)** Yalnız II
+
+**C)** I, II, III
+
+**D)** I ve IV
+
+**E)** III ve IV
+
+**2-** Aşağıdaki kod parçasının hata verme sebebi nedir?
+
+```java
+public class NewClass<T>
+{
+    private T value;
+    
+    public NewClass()
+    {
+    	value = new T();
+    }
+}
+```
+**A)** Derleyici hangi tipte nesne oluşturacağını bilemez.
+
+**B)** Jenerik tür parametresi için bir primitive tür kullanılamaz.
+
+**C)** Jenerik bir sınıf içindeki statik üyeler tür parametresine erişemez.
+
+**D)** Jenerik dizi oluşturulamaz.
+
+**E)** Tür parametrelerinde static alanlar oluşturulamaz.
+
+### Cevaplar
+
+**1-** D
+
+**2-** A
+
 Kaynak : https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html
