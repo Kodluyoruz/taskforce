@@ -1,6 +1,6 @@
 # Implementing Classes
 
-Java’da herşey sınıflar ve nesnelerden oluşur.
+Java’da her şey sınıflar ve nesnelerden oluşur.
 İlk olarak, her bir sınıfın yeni bir veri türü tanımladığını belirterek işe başlamalıyız. Bir kere tanımlandıktan sonra, bu türde yeni nesneler oluşturmak için sınıfları kullanabiliriz. Bu yüzden diyebiliriz ki, sınıflar nesneler için bir şablon niteliğindedir. Daha da kısa bir şekilde özetleyecek olursak bir class nesnelerin özelliklerini ve davranışlarını tanımlar. 
 
 Bir sınıf oluşturduğumuz zaman aslında yeni bir veri türünü taslak olarak tanımlamış oluruz. Sınıfın içinde tanımladığımız değişkenlere o sınıfın alanları (fields) denir. Kodlarımızı ise metotların içine yazarız. Birlikte, metotlar ve alanlar bir sınıfın üyelerini (members) oluşturur.
@@ -185,7 +185,7 @@ Artık c1 değişkenide c2'nin referansını göstermektedir. c2 değişken değ
 
 *Artık c1'in referans değeri kullanılmamaktadır. Bu alan hafızada yer kaplamaması için **Garbage Collection** tarafından temizlenir.* 
 
-##### Kaynaklar:
+## Kaynaklar
 
 - INTRODUCTION TO JAVA PROGRAMMING COMPREHENSIVE VERSION Tenth Edition Y. Daniel Liang Armstrong Atlantic State University
 - [yazilimbilisim.net](https://www.yazilimbilisim.net/java/java-sinif-ve-nesne-olusturma/)
