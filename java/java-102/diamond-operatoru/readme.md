@@ -43,7 +43,6 @@ where E is a type-variable:
 E extends Object declared in class ArrayList
 2 warnings
 ```
-
 Veri türü aşağıdaki gibi belirtilirse bu uyarılar kaybolacaktır:
 
 ```java
