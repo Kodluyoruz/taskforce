@@ -36,3 +36,7 @@ Yukarıdaki duruma ek olarak ortak paylaşılan herhangi bir kaynak (state) yoks
 * CPU zamanı asla boşa harcanmaz. Boşta kalma süresi minimumdur.
 * Daha verimli programlarla sonuçlanır.
 * Herhangi bir nedenle bir iş parçacığı duraklatıldığında, diğer iş parçacıkları normal şekilde çalışır.
+
+**Kaynakça**
+> [Kaynak 1](https://www.mertmekatronik.com/thread-ve-multithread-nedir)
+
