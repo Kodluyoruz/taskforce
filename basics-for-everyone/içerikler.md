@@ -284,7 +284,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. İnternet için kullanılan fiziksel elemanlar aşağıdakilerden hangisini kaynak olarak kullanmaz ?
+   - Elektrik
+   - Işık
+   - Telekinezi (Doğru)
+   - Radyo dalgaları
+2. Saniyede gönderdiğimiz bit sayısı ne kadar yüksek olursa o kadar hızlı iletim sağlayabiliriz. Saniyede gönderilen bit sayısını ifade eden terim aşağıdakilerden hangisidir ?
+   - Bant uzunluğu
+   - Bant genişliği (Doğru)
+   - Bant çeşidi
+   - Bant göstergesi
 
 #### Videolar
 
@@ -295,7 +304,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Tarayıcıda "kodluyoruz.org" yazıp giriş isteği gönderdiğimizde arka plandaki işlemlerin sırası aşağıdakilerden hangisidir ?
+   - Domain ismi tarayıcıya girilir - DNS sunucularından IP alınır - IP adrese yönlendirme yapılır - İstek gönderilir  (Doğru)
+   - IP adresine yönlendirme yapılır - İstek cevabı alınır
+   - İstek mesajı gönderilir - İstek cevabı alınır
+   - Tarayıcı IP adreslerinin hepsini bilir - İstek gönderilir
+2.  IPv6 adres uzunluğu kaç bit uzunluğundadır ?
+    - 32
+    - 64
+    - 128 (Doğru)
+    - 512
 
 #### Videolar
 
@@ -306,7 +324,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Network içerisinde farklı yol seçeneklerinin olmasını routers(yönlendiriciler) yönetir. Farklı yollara sahip olmamıza aşağıdaki avantajlardan hangisini sağlamaz ?
+   - Arızaya dayanıklılık
+   - Güvenilirlik
+   - Yedeklilik
+   - Yavaşlık (Doğru)
+2. Network içerisinde mesajların iletilmesinde TCP protokolü kullanılır. Bu protokolün kullanılma sebebi aşağıdakilerden hangisidir ?
+   - Bilgi tek bir paket halinde gidebilsin diye
+   - Güvenilir kanala ihtiyaç olmadığında
+   - En hızlı şekilde bağlanmamız gerektiğinde
+   - Paketlerin hedefe ulaşamama senaryosuna önlemler içerdiği için (Doğru)
 
 #### Videolar
 
@@ -317,7 +344,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1.  Bir web sitesinin görünüm olarak temelini oluşturduğumuz işaretleme dili aşağıdakilerden hangisidir ?
+    - C#
+    - Java
+    - HTML (Doğru)
+    - Ruby
+2. Adres çubuğunda aşağıdakilerden hangisini görürsek güvenilir kanaldan erişim sağladığımız daha net bir şekilde söyleyebiliriz ?
+   - www
+   - com
+   - net
+   - https (Doğru)
 
 #### Videolar
 
@@ -328,7 +364,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Sezar şifreleme yaparak mesaj göndermek istiyoruz. Bizde ve karşı tarafta olan anahtar "5". Göndermek istediğimiz mesajın şifrelenmiş hali şu şekilde "PTIQZDTWZE". Mesajın şifresi çözülmüş hali aşağıdakilerden hangisidir ?
+   - YEMEKYIYOR
+   - SUICIYORUZ
+   - UYUMUYORUZ
+   - KODLUYORUZ (Doğru)
+2. Günümüzde kaç bitlik anahtar ile şifreleme yapılıyor ?
+   - 128
+   - 256 (Doğru)
+   - 64
+   - 32
 
 #### Videolar
 
@@ -339,7 +384,21 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Aşağıdakilerden hangisi bir siber atak değildir ?
+   - DDoS
+   - Virüs
+   - Man in the middle
+   - Fishhooh (Doğru)
+2. DDoS saldırısı nasıl yapılır ?
+   - Saldırı taşınabilir bellek yardımı ile yapılır.
+   - Ulaşılmak istenilen bilgi için iletişim yolunda saldırı yapılır.
+   - Steganografi yöntemi ile şifre çözülür, saldırı çözülmüş şifre ile gerçekleştirilir.
+   - Sistem aşırı talebe boğulur. (Doğru)
+3. Siber saldırılardan kaçınmak için aşağıdakilerden hangisi doğru olmaz ?
+   - Güçlü parolalar kullanmalıyız.
+   - Sistem güvenlik güncellemeleri sıklıkla yüklenmelidir.
+   - Tanımadığımız kişilerin maillerini tarayıcının gizli modunda açarsak sorun olmaz. (Doğru)
+   - Güvenmediğimiz yazılımları yüklememeliyiz.
 
 #### Videolar
 
