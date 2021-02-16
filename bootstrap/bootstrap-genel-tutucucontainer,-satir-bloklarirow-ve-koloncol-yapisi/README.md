@@ -1,7 +1,8 @@
-# Bootstrap - Genel Tutucu(Container), Satır Blokları(Row) ve Kolon(Col) Yapısı
-Container, row ve column yapısı aslında bootstrap kullanım mantığının temellerini oluşturuyor diyebiliriz. Bu yapıyı anlamak bootstrap ile çalışmayı çok çok kolaylaştıracaktır. Öncelikle container ile başlayalım.
+# Genel Tutucu(Container), Satır Blokları(Row) ve Kolon(Col) Yapısı
 
-## Container
+**Container, row ve column** yapısı aslında bootstrap kullanım mantığının temellerini oluşturuyor diyebiliriz. Bu yapıyı anlamak bootstrap ile çalışmayı çok çok kolaylaştıracaktır. Öncelikle `container` ile başlayalım.
+
+## `container`
 Containerı(konteynır) isminden de biraz anlaşılacağı gibi, içine web sayfamızda bulunması gereken yazıları, resimleri, videoları veya herhangi bir içeriği koyduğumuz kapsayıcı bir çerçeve, kutu gibi düşünebiliriz. Biz içeriklerimizi bu container içerisine koyuyoruz ve bir tarayıcıdan web sayfamız görüntülendiğinde container kendisini ekranın tam ortasına gelecek şekilde ayarlıyor. Görsel bir örnek üzerinden ilerlemek daha açıklayıcı olacaktır. Örnek olarak aşağıda [kodluyoruz](https://www.kodluyoruz.org/)'dan aldığım bir ekran görüntüsünü inceleyebiliriz.
 
 Becerilerini geliştir, Mezunlar Kulübü'ne Katıl ve  Şirketlerle Buluş kısımlarını kapsayan ancak bize gözükmeyen bir çerçeve olduğunu düşünelim. Bu çerçeve ile sayfayı görüntülediğim ekran arasında sağ taraftan ve sol taraftan eşit miktarda boşluklar var gördüğünüz gibi, yani container ortalanmış.
@@ -42,11 +43,11 @@ Row(satır), column(sütun) sistemi bootstrap'in grid system(ızgara sistemi) de
 
 ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-genel-tutucucontainer%2C-satir-bloklarirow-ve-koloncol-yapisi/figures/grid-details.png)
 
-* ilk satır birbirine eşit boyutta 12 adet sütundan
-* ikinci satır birbirine eşit boyutta 3 adet sütundan
-* üçüncü satır 2 farklı boyutta sütundan
-* dördüncü satır 2 eşit boyutta sütundan
-* beşinci satır ise tek bir sütundan oluşmaktadır.
+- ilk satır birbirine eşit boyutta 12 adet sütundan
+- ikinci satır birbirine eşit boyutta 3 adet sütundan
+- üçüncü satır 2 farklı boyutta sütundan
+- dördüncü satır 2 eşit boyutta sütundan
+- beşinci satır ise tek bir sütundan oluşmaktadır.
 
 Görüldüğü gibi 12 adet sütun yapısını istediğimiz biçimde birleştirerek, ayırarak satırlar ile birlikte kullanarak tasarımımızı yapabiliriz.
 
@@ -82,9 +83,9 @@ Bu resimde gördüğümüz 2 satırdan oluşan grid yapısını aşağıdaki kod
 
 Row ve column yapısı kullanımı ve mantığı genel hatlarıyla bu şekilde diyebiliriz. Konuyu pekiştirmek için bu küçük quizi cevaplamanızı tavsiye ediyoruz !
 
-kaynaklar:
-* https://www.kodluyoruz.org/
-* https://getbootstrap.com/docs/4.4/layout/overview/
-* https://960.gs/
-* https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp
-* https://getbootstrap.com/docs/4.0/layout/grid/
+## Kaynaklar:
+- https://www.kodluyoruz.org/
+- https://getbootstrap.com/docs/4.4/layout/overview/
+- https://960.gs/
+- https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp
+- https://getbootstrap.com/docs/4.0/layout/grid/

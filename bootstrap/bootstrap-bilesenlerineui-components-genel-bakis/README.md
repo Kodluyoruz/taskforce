@@ -2,23 +2,20 @@
 
 Bootsrap sizler için önceden tasarlanmış ve hazırlanmış bir çok component sunuyor. Bu hazır componet'ler ile sitelerinizi kolayca stillendirebilir hızlıca porjeler çıkarabilirsiniz. Bu bölümde Bootstrap'ın bizlere sunmuş olduğu component'lere genel bir bakış atacağız. 
 
-> Not: Bu doküman hazırlanırken Bootsrap 5.0 versiyonu baz alınmıştır. Componet'ler ile güncel dokümana **[burdan](https://getbootstrap.com/docs/5.0/components/accordion/)** ulaşabilirsiniz.
+**Not:** Bu doküman hazırlanırken Bootsrap 5.0 versiyonu baz alınmıştır. Componet'ler ile güncel dokümana **[burdan](https://getbootstrap.com/docs/5.0/components/accordion/)** ulaşabilirsiniz.
 
 ![Untitled](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/Untitled.png)
-
 
 Accordion, Alerts, Badge, Breadcrumb, Buttons, Button group, Card, Carousel, Close button, Collapse, Dropdowns, List group, Modal, Navs & tabs, Navbar, Pagination, Popovers, Progress, Scrollspy, Spinners, Toasts, Tooltips
 
 ## Accordion
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/accordion/)
 
-> [**https://getbootstrap.com/docs/5.0/components/accordion/**](https://getbootstrap.com/docs/5.0/components/accordion/)
-
-Sizlere açılır kapanır başlıklar yapmanıza olanak tanıyan bir component. Akordiyon müzik aletine benzediği için bu isimi almış. 
+Sizlere açılır kapanır başlıklar yapmanıza olanak tanıyan bir component. Akordiyon müzik aletine benzediği için bu ismi almış. 
 
 Bu component temelde collapse component'i üzerine geliştirilerek yapılmıştır. O component'e de yazının ilereleyen bölümlerinde değineceğiz. 
 
 ![Accordion](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/Accordion.gif)
-
 
 ```html
 <div class="accordion" id="accordionExample">
@@ -60,17 +57,14 @@ Bu component temelde collapse component'i üzerine geliştirilerek yapılmışt�
   </div>
 </div>
 ```
-
-> **NOT:** Component ile ilgili kodlara en güncel hali ile bootsrap'in kendi dokümantasyonundan ulaşabilirsiniz.
+**Not:** Component ile ilgili kodlara en güncel hali ile bootsrap'in kendi dokümantasyonundan ulaşabilirsiniz.
 
 ## Alerts
-
-> **[https://getbootstrap.com/docs/5.0/components/alerts/](https://getbootstrap.com/docs/5.0/components/alerts/)**
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/alerts/)
 
 Projenizdeki bildirimleri, uyarıları bootsrap'in alert'leri ile gösterebilirsiniz. Buradaki resimde alert çeşitlerini görebilirsiniz.
 
 ![Untitled 1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/Untitled%201.png)
-
 
 ```html
 <div class="alert alert-primary" role="alert">
@@ -99,11 +93,8 @@ Projenizdeki bildirimleri, uyarıları bootsrap'in alert'leri ile gösterebilirs
 </div>
 ```
 
-> **NOT:** Component ile ilgili kodlara en güncel hali ile bootsrap'in kendi dokümantasyonundan ulaşabilirsiniz.
-
 ## Badge
-
-> [**https://getbootstrap.com/docs/5.0/components/badge/**](https://getbootstrap.com/docs/5.0/components/badge/)
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/badge/)
 
 Bu componet'i bildirim sayısını göstermek ya da bir component'in ek bir öğe olarak kullanabilirsiniz.
 
@@ -114,7 +105,6 @@ Yine bu component'in de alert'lerde olduğu gibi renk seçenekleri mevcut.
 ![Untitled 3](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/Untitled%203.png)
 
 ![Untitled 4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/Untitled%204.png)
-
 
 ```html
 <span class="badge bg-primary">Primary</span>
@@ -129,8 +119,7 @@ Yine bu component'in de alert'lerde olduğu gibi renk seçenekleri mevcut.
 ```
 
 ## Bredcrumb
-
-> [**https://getbootstrap.com/docs/5.0/components/breadcrumb/**](https://getbootstrap.com/docs/5.0/components/breadcrumb/)
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/breadcrumb/)
 
 Bu component sayesinde sayfalarınız arasında gezinirken kullanıcının kaybolmadan nerde olduğunu gösterebiliyorsunuz. Hansel ve Gretel masalında olduğu gibi :)
 
@@ -161,15 +150,13 @@ Bu component sayesinde sayfalarınız arasında gezinirken kullanıcının kaybo
 ```
 
 ## Buttons
-
-> [**https://getbootstrap.com/docs/5.0/components/buttons/**](https://getbootstrap.com/docs/5.0/components/buttons/)
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/buttons/)
 
 Bootstrap sizlere kullanabilceğiniz birçok buton çeşidi sunmakta.
 
 ![Untitled 7](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/Untitled%207.png)
 
 ![Untitled 6](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/Untitled%206.png)
-
 
 ```html
 <button type="button" class="btn btn-primary">Primary</button>
@@ -186,8 +173,7 @@ Bootstrap sizlere kullanabilceğiniz birçok buton çeşidi sunmakta.
 
 
 ## Button group
-
-> [**https://getbootstrap.com/docs/5.0/components/button-group/**](https://getbootstrap.com/docs/5.0/components/button-group/)
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/button-group/)
 
 Bu butonları bu şekilde gruplayıp da kullanabilirsiniz.
 
@@ -196,7 +182,6 @@ Bu butonları bu şekilde gruplayıp da kullanabilirsiniz.
 ![Untitled 9](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/Untitled%209.png)
 
 ![Untitled 10](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/Untitled%2010.png)
-
 
 ```html
 <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
@@ -213,14 +198,13 @@ Bu butonları bu şekilde gruplayıp da kullanabilirsiniz.
 
 ## Cards
 
-> [**https://getbootstrap.com/docs/5.0/components/card/**](https://getbootstrap.com/docs/5.0/components/card/)
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/card/)
 
 Bootstrap'in kartları, birden çok varyant ve seçeneğe sahip esnek ve genişletilebilir bir içerik konteyneri sağlar.
 
 ![Untitled 12](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/Untitled%2012.png)
 
 ![Untitled 11](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/Untitled%2011.png)
-
 
 ```html
 <div class="card" style="width: 18rem;">
@@ -233,10 +217,8 @@ Bootstrap'in kartları, birden çok varyant ve seçeneğe sahip esnek ve genişl
 </div>
 ```
 
-
 ## Carousel
-
-> [**https://getbootstrap.com/docs/5.0/components/carousel/**](https://getbootstrap.com/docs/5.0/components/carousel/)
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/carousel/)
 
 Resimlerinizi göstermeye yarayan bir galeri componet'i.
 
@@ -260,13 +242,10 @@ Resimlerinizi göstermeye yarayan bir galeri componet'i.
 ```
 
 ## Close button
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/close-button/)
 
-> [**https://getbootstrap.com/docs/5.0/components/close-button/**](https://getbootstrap.com/docs/5.0/components/close-button/)
-
-Kapatma tuşu
-
+**Kapatma tuşu**
 ![Untitled 13](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/Untitled%2013.png)
-
 
 ```html
 <button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
@@ -274,13 +253,10 @@ Kapatma tuşu
 ```
 
 ## Collapse
-
-> [**https://getbootstrap.com/docs/5.0/components/collapse/**](https://getbootstrap.com/docs/5.0/components/collapse/)
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/collapse/)
 
 Açılır kapanır kartlar.
-
 ![collapse](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/collapse.gif)
-
 
 ```html
 <p>
@@ -307,13 +283,11 @@ Açılır kapanır kartlar.
 ```
 
 ## Dropdowns
-
-> [**https://getbootstrap.com/docs/5.0/components/dropdowns/**](https://getbootstrap.com/docs/5.0/components/dropdowns/)
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/dropdowns/)
 
 Düşen menüler
 
 ![dropdown](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/dropdown.gif)
-
 
 ```html
 <!-- Example single danger button -->
@@ -332,13 +306,11 @@ Düşen menüler
 ```
 
 ## Navbar
-
-> [**https://getbootstrap.com/docs/5.0/components/navbar/**](https://getbootstrap.com/docs/5.0/components/navbar/)
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/navbar/)
 
 Genelde web sitelerinin en üstünü dolduran gezinti bölümünün bootsrap tarafından özelleştirilmiş ve componet haline getirlmiş hali.
 
 ![Untitled 14](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/Untitled%2014.png)
-
 
 ```html
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -378,16 +350,13 @@ Genelde web sitelerinin en üstünü dolduran gezinti bölümünün bootsrap tar
   </div>
 </nav>
 ```
-> **NOT:** Component ile ilgili kodlara en güncel hali ile bootsrap'in kendi dokümantasyonundan ulaşabilirsiniz.
 
 ## Pagination
-
-> [**https://getbootstrap.com/docs/5.0/components/pagination/**](https://getbootstrap.com/docs/5.0/components/pagination/)
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/pagination/)
 
 Sayfada görüntüleceyeğiniz elemanlar yeterince coğaldığında sayfada yapılan istekleri boyutlandırmak için pagination'ı kullanırız. Bu da Bootsrap'in pagination için hazırlamış olduğu componet'leri
 
 ![Untitled 15](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/Untitled%2015.png)
-
 
 ```html
 <nav aria-label="Page navigation example">
@@ -405,31 +374,23 @@ Sayfada görüntüleceyeğiniz elemanlar yeterince coğaldığında sayfada yap�
 </nav>
 ```
 
-> **NOT:** Component ile ilgili kodlara en güncel hali ile bootsrap'in kendi dokümantasyonundan ulaşabilirsiniz.
-
 ## Popovers
-
-> [**https://getbootstrap.com/docs/5.0/components/popovers/**](https://getbootstrap.com/docs/5.0/components/popovers/)
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/popovers/)
 
 Buton'lar üzerinde gösterdiğimiz açılan açıklamalar.
 
 ![popovers](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/popovers.gif)
-
 
 ```html
 <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
 ```
 
 ## Progress
-
-> [**https://getbootstrap.com/docs/5.0/components/progress/**](https://getbootstrap.com/docs/5.0/components/progress/)
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/progress/)
 
 İlerleme ifade eden bar'lar.
 
 ![Untitled 16](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/Untitled%2016.png)
-
-
-
 
 ```html
 <div class="progress">
@@ -450,13 +411,11 @@ Buton'lar üzerinde gösterdiğimiz açılan açıklamalar.
 ```
 
 ## Spinners
-
-> [**https://getbootstrap.com/docs/5.0/components/spinners/**](https://getbootstrap.com/docs/5.0/components/spinners/)
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/spinners/)
 
 Yükelenme durumlarını ifade etmek için kullanılan componet'ler.
 
 ![spinners](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/spinners.gif)
-
 
 ```html
 <div class="spinner-border text-primary" role="status">
@@ -486,13 +445,11 @@ Yükelenme durumlarını ifade etmek için kullanılan componet'ler.
 ```
 
 ## Toasts
-
-> [**https://getbootstrap.com/docs/5.0/components/toasts/**](https://getbootstrap.com/docs/5.0/components/toasts/)
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/toasts/)
 
 Tosast componet'i daha çok kullanıcıya bir bildirim göstermek için kullanılıyor. 
 
 ![Untitled 17](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-bilesenlerineui-components-genel-bakis/images/Untitled%2017.png)
-
 
 ```html
 <div aria-live="polite" aria-atomic="true" class="position-relative">
@@ -531,8 +488,7 @@ Tosast componet'i daha çok kullanıcıya bir bildirim göstermek için kullanı
 ```
 
 ## Tooltips
-
-> [**https://getbootstrap.com/docs/5.0/components/tooltips/**](https://getbootstrap.com/docs/5.0/components/tooltips/)
+İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/tooltips/)
 
 Elementlerin üzerinde geldiğinizde size ip uçu veren componentler.
 
@@ -556,5 +512,5 @@ Elementlerin üzerinde geldiğinizde size ip uçu veren componentler.
 
 Bu yazımızda Bootsrap'in tüm arayüz bileşenlerinden bahsetmeye çalıştık. Daha çok bu bileşenlerin tanıtımı gibi oldu. Bunlardan birine ihtiyacınız var ise bootsrap'in kendi dökümantasyonuna gidip bu componet'leri kendi projelerinize nasıl dahil edeceğinize bakabilirsiniz.
 
-[https://getbootstrap.com/docs/5.0/](https://getbootstrap.com/docs/5.0/)
-
+## Kaynaklar
+- [https://getbootstrap.com/docs/5.0/](https://getbootstrap.com/docs/5.0/)
