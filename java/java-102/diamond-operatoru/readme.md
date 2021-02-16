@@ -48,6 +48,7 @@ Veri türü aşağıdaki gibi belirtilirse bu uyarılar kaybolacaktır:
 ```java
 List<String> arrayList = new ArrayList<>();
 ```
+
 ### Soru
 
 **1-** Aşağıdakilerden hangisi diamond operatörünün sağladığı avantajlardan biri değildir?
