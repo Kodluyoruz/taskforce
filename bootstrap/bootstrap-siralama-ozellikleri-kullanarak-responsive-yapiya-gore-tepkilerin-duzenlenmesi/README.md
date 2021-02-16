@@ -114,6 +114,8 @@ Aşağıdaki class'ları kullanarakta sıralama işlemlerinizi gerçekleştirebi
 		</div>
 ```
 
+![ilkicerigimiz](figures/ilk.png)
+
 **Medium** kırılma noktasından daha küçük genişliklerde 3.içeriğimizin ilk sıraya geçmesini istiyoruz. Fakat daha büyük genişliklerde bu sırayla kalmasını istiyoruz bunun için 
 
 ``` html
@@ -131,6 +133,8 @@ Aşağıdaki class'ları kullanarakta sıralama işlemlerinizi gerçekleştirebi
 			</div>
 		</div>
 ```
+
+![ilkicerikdüzenlenmishali](figures/ikinci.png)
 
 Kodumuzu bootstrap'i dahil ettiğiniz bir projede deneyebilirsiniz. Bu şekilde tüm kırılma noktaları için ayrı ayrı sıralamalar gerçekleştirebiliriz.
 
@@ -191,6 +195,10 @@ Peki bu kodu biraz daha karmaşıklaştırmaya ne dersiniz ? İç içe içerikle
 			</div>
 		</div>
 ```
+
+
+![karisikicerigimiz](figures/ikinciicerik.png)
+
 Örneğimizi daha iyi anlamak için lütfen bir editör'e kodumuzu kopyalayıp yapıştıralım. Gördüğünüz gibi şuan iç içe içeriklerimizin olduğu bir yapı var ben **xs** kırılma noktasında farklı, **md**'da farklı ve **lg**'da şuanki görüntüsüyle sıralanmasını istiyorum. 
 
 **Şimdi kodumuzu buna göre düzenleyelim.**
@@ -249,6 +257,8 @@ Peki bu kodu biraz daha karmaşıklaştırmaya ne dersiniz ? İç içe içerikle
 			</div>
 		</div>
 ```
+![karisikicerikdüzenlenmishali](figures/ikinciicerikduzenlenmis.png)
+
 Kodumuzu artık istediğimiz düzeye getirmiş olduk.
 
 ## Alıştırma
@@ -308,3 +318,115 @@ Sizde aşağıda ki kodu bütün içeriğin bütün kırılma noktalarında fark
 			</div>
 		</div>
 ```
+
+## Soru 1 
+Aşağıdakilerden hangisi order kullanımına uymayan bir classtır ?
+- [ ] order-sm-1
+- [ ] order-lg-4
+- [ ] order-first
+- [ ] order-md-6
+
+
+## Soru 2 
+```html
+<div class="container">
+			<div class="row">
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger">
+					1.İçerik
+				</div>
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger">
+					2.İçerik
+				</div>
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger">
+					3.İçerik
+				</div>
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger">
+					4.İçerik
+				</div>
+			</div>
+		</div>
+
+````
+Yukarıda bulunan kod diziliminde içeriklerin sm genişliğinden büyük ekranlarda sıralaması "3.içerik-2.İçerik-1.İçerik-4.İçerik" şeklinde olması isteniyor aşağdakilerden hangisi bu sıralamayı gerçekleştirecek dizilimi temsil eder ? 
+
+- A)
+```html
+<div class="container">
+			<div class="row">
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-3">
+					1.İçerik
+				</div>
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger">
+					2.İçerik
+				</div>
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-1">
+					3.İçerik
+				</div>
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-4">
+					4.İçerik
+				</div>
+			</div>
+		</div>
+```
+- B)	
+```html
+ <div class="container">
+			<div class="row">
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-3">
+					1.İçerik
+				</div>
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-2">
+					2.İçerik
+				</div>
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-1">
+					3.İçerik
+				</div>
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-4">
+					4.İçerik
+				</div>
+			</div>
+		</div>
+```
+- C)
+```html
+<div class="container">
+			<div class="row">
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-4">
+					1.İçerik
+				</div>
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-1">
+					2.İçerik
+				</div>
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-3">
+					3.İçerik
+				</div>
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-2">
+					4.İçerik
+				</div>
+			</div>
+		</div>
+```
+- D)
+```html
+<div class="container">
+			<div class="row">
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-1">
+					1.İçerik
+				</div>
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-2">
+					2.İçerik
+				</div>
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-3">
+					3.İçerik
+				</div>
+				<div class="col-md-3 d-flex justfiy-content-center bg-dark text-white border border-danger order-sm-4">
+					4.İçerik
+				</div>
+			</div>
+		</div>
+```
+				
+### Kaynakça 
+Bootstrap : https://getbootstrap.com/
+
+
