@@ -49,7 +49,7 @@ Veri türü aşağıdaki gibi belirtilirse bu uyarılar kaybolacaktır:
 List<String> arrayList = new ArrayList<>();
 ```
 
-### Soru
+## Sorular
 
 **1-** Aşağıdakilerden hangisi diamond operatörünün sağladığı avantajlardan biri değildir?
 
@@ -63,6 +63,8 @@ List<String> arrayList = new ArrayList<>();
 
 **E)** Parametre türlerinin açıkça yinelenen belirtimlerini gerektirmeyerek genel ayrıntıları azaltır.
 
-### Cevap : C
+**Cevap : C** 
 
-Kaynak : https://codenuclear.com/diamond-operator-type-inference-generic-instance-creation-java/
+## Kaynaklar 
+
+- https://codenuclear.com/diamond-operator-type-inference-generic-instance-creation-java/
