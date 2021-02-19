@@ -30,9 +30,8 @@ Backend development sık sık Java, Scala, Python, DynamoDB, MongoDB, nodeJS, My
 
 Frontend development ise tam tersine, kullanıcı arayüzü yani müşterilerin kullandığı yazılım katmanıyla ilişkilidir.  
 
-### Neden Önemli
-
-Frontend ve backend development arasındaki farkları anlamak bir uygulama (app) tasarlamadan önce hangi bileşenlerden yararlanacağınızı bilmeniz açısından önemlidir.
+> ### Neden Önemli
+> Frontend ve backend development arasındaki farkları anlamak bir uygulama (app) tasarlamadan önce hangi bileşenlerden yararlanacağınızı bilmeniz açısından önemlidir.
 
 ## Frontend Development
 
