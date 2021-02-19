@@ -40,9 +40,9 @@ Bu kategoride HTML, CSS, JavaScript, jQuery, React, Angular, Swift gibi birbirin
 Bu teknolojiler uygulamayı programlarken bir temel oluşturmanızı sağlar ve sizi yönlendirirler ancak programlama dilleri değillerdir. Bu yüzden onları teknolojiler olarak adlandırıyorum. React ve Angular bunlara verebileceğimiz örnekler.
 Programlama dili basitçe insanların bilgisayarlarla iletişim kurmasında köprü olurlar. Bazıları HTML’i programlama dili sayarken kanımca bu ayrıma girmek için bugün biraz erken.👍
 
-### Neden önemli?
+> ### Neden önemli?
 
-Frontend development öncesinde sadece HTML, CSS ve JavaScript’dan meydana geliyordu. Bugünse kendi yazılım iskeletine ve kurulum araçlarına sahip olan devasa bir yapı. Frontend teknolojisi ışık hızıyla ilerliyor. Bugünkü yazılım dünyasını anlamak için Frontend araçlarını öğrenmenizi şiddetle tavsiye ederim.  
+> Frontend development öncesinde sadece HTML, CSS ve JavaScript’dan meydana geliyordu. Bugünse kendi yazılım iskeletine ve kurulum araçlarına sahip olan devasa bir yapı. Frontend teknolojisi ışık hızıyla ilerliyor. Bugünkü yazılım dünyasını anlamak için Frontend araçlarını öğrenmenizi şiddetle tavsiye ederim.  
 
 ## Programlama dilleri
 
@@ -50,9 +50,9 @@ Bilgisayarlar verilen emirleri uygulamada çok yeteneklidir. Biz insanların bir
 
 Biz insanlar olarak, iletişim için İngilizce, Mandarin, İspanyolca gibi diller kullanırız. Bilgisayarlarla iletişim kurmamız gerektiğinde ise programlama dili kullanırız. Programlama dili insanlar ve bilgisayarların iletişim kurmasını sağlar. Örnek olarak Java, C++, Python ve daha birçokları gibi programlama dillerini sayabiliriz.  
 
-### Neden önemli?
+> ### Neden önemli?
 
-Bir programlama dilini öğrenmek İnternette gördüğünüz bir şeyin arkaplanda nasıl meydana geldiğini görmenizi sağlar. Arabanızın nasıl bir mekanizmayla ve ne amaçla çalıştığını bilmek gibidir. Biraz gayretle Twitter, Candy Crush uygulamaları gibi siz de kendi uygulamanızı programlayabilir hale gelebilirsiniz.  
+> Bir programlama dilini öğrenmek İnternette gördüğünüz bir şeyin arkaplanda nasıl meydana geldiğini görmenizi sağlar. Arabanızın nasıl bir mekanizmayla ve ne amaçla çalıştığını bilmek gibidir. Biraz gayretle Twitter, Candy Crush uygulamaları gibi siz de kendi uygulamanızı programlayabilir hale gelebilirsiniz.  
 
 ![Java_Logo](./figure/java.jpg)  
 
@@ -74,9 +74,9 @@ Bunlar hakkında bilgi edinmenizi kesinlikle öneririm. Sınıflandırma algorit
 
 [![Introduction to Sorting Algorithms](./figure/video.png)](https://www.youtube.com/watch?v=pkkFqlG0Hds&feature=emb_logo)  
 
-### Neden önemli?
+> ### Neden önemli?
 
-Algoritmalar Bilgisayar Bilimi’nin özünü oluşturur. Algoritmaların ne olduğunu ve nasıl işlediklerini anlamak sizi daha iyi bir yazılım mühendisi yapar, nokta.
+> Algoritmalar Bilgisayar Bilimi’nin özünü oluşturur. Algoritmaların ne olduğunu ve nasıl işlediklerini anlamak sizi daha iyi bir yazılım mühendisi yapar, nokta.
 
 ## Uygulama Programlama Arayüzü (UPA / API)
 
@@ -88,9 +88,9 @@ Evinizin dışındaki küçük bir hortuma bağlanan bir hortum yaptırmaya kara
 
 Günümüzde birçok şirketin çalışma şekli de budur. Bu şirketler değerli bir veri kuyusu inşa ederler ve onu bir UPA vasıtasıyla veri edinmek isteyen kişilere satarlar.  
 
-### Bu neden önemli?
+> ### Neden önemli?
 
-Bugünkü internet ağı, farklı web servisleri arasındaki uçsuz bucaksız iletişime dayalıdır. Bu şekilde birbirleriyle etkileşimde olan araç ve websiteleri kurabiliyoruz. UPA bütün bu iletişime imkan tanıyan temel zemindir. Bu yüzden internette iletişimi sağlayan araçları ve onların çalışma koşullarını öğrenmek önemlidir.  
+> Bugünkü internet ağı, farklı web servisleri arasındaki uçsuz bucaksız iletişime dayalıdır. Bu şekilde birbirleriyle etkileşimde olan araç ve websiteleri kurabiliyoruz. UPA bütün bu iletişime imkan tanıyan temel zemindir. Bu yüzden internette iletişimi sağlayan araçları ve onların çalışma koşullarını öğrenmek önemlidir.  
 
 ## Bug 🐛
 
@@ -102,9 +102,9 @@ Bug bir bilgisayar programının alışılmış işleyişi bozan hatanın adıd�
 
 Bu yazılım camiasında çok sık yaşanır, bu yüzden bu konuda yukarıdaki gibi komik meme’ler yapılmıştır. (It’s not a bug, it’s a feature = O bir hata değil, programın kendi özelliği).  
 
-### Neden Önemli?
+> ### Neden Önemli?
 
-Buglar her zaman oluşabilir. Bu bilgi bir şeyler ters gittiğinde fark etmenizi ve internet’i doğru yönetmenizi sağlar. Bir dahakine bir ‘bug’ gördüğünüzde ‘şuraya tıklayınca çıkmayan şey’ yerine doğru bir biçimde ‘bug’ demeyi öğrenmiş olacaksınız.  
+> Buglar her zaman oluşabilir. Bu bilgi bir şeyler ters gittiğinde fark etmenizi ve internet’i doğru yönetmenizi sağlar. Bir dahakine bir ‘bug’ gördüğünüzde ‘şuraya tıklayınca çıkmayan şey’ yerine doğru bir biçimde ‘bug’ demeyi öğrenmiş olacaksınız.  
 
 ## Açık Kaynak Yazılımlar
 
@@ -116,9 +116,9 @@ Veya tam tersi bir şekilde, limonata tarifinizi ücretsiz olarak internet üzer
 
 Bu terim Facebook ve diğer teknoloji şirketlerinin yükselişiyle çok fazla popüler hale gelmiştir. Facebook gibi şirketler yeni ve heyecan verici teknolojilerin geliştirilmesini İnternet kullanıcılarının da katılabileceği bir süreç haline getirdi.  
 
-### Neden Önemli?
+> ### Neden Önemli?
 
-İnternet son yıllarda bu kadar hızla gelişebilmesini Açık Kaynaklara borçlu. Bu bir devrim ve herkes ücretsiz bir şeyler yaratmanın ve bunu tüm dünyaya açık hale getirmenin neden bu kadar önemli olduğunu kavramalı.  
+> İnternet son yıllarda bu kadar hızla gelişebilmesini Açık Kaynaklara borçlu. Bu bir devrim ve herkes ücretsiz bir şeyler yaratmanın ve bunu tüm dünyaya açık hale getirmenin neden bu kadar önemli olduğunu kavramalı.  
 
 ## Crowdsourcing
 
@@ -130,9 +130,9 @@ Yine aynı limonata standından örnek verelim. Farz edelim ki müşterileriniz 
 
 Bunun için tek yapmanız gereken şey bir Twitter hesabı açıp dünyanın farklı yerlerinden insanları en iyi limonata tariflerini paylaşmaya ikna etmek. Buna Crowdsourcing deniyor ki anlamı ortak bir amaç için insanları katkıda bulunmaya ikna etmek. Örneğimizde bu amaç limonata yapmak.  
 
-### Neden Önemli?
+> ### Neden Önemli?
 
-İnternet milyonlarca insanı bir araya getirmeyi ve en iyi fikirlerini bazı zorlu projeler için kullanmaya ikna etmeyi başarabildi. Crowdsourcing ise bunu İnternet üzerinden sorunsuz bir biçimde yapabilmemize olanak tanıyor. Bence bu insanlık için büyük bir ilerleme.  
+> İnternet milyonlarca insanı bir araya getirmeyi ve en iyi fikirlerini bazı zorlu projeler için kullanmaya ikna etmeyi başarabildi. Crowdsourcing ise bunu İnternet üzerinden sorunsuz bir biçimde yapabilmemize olanak tanıyor. Bence bu insanlık için büyük bir ilerleme.  
 
 ## Kaynak Önerileri
 
