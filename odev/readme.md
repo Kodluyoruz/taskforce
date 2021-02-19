@@ -1,6 +1,6 @@
 # Programlamayı Yeni Öğrenenlerin Öğrenmesi Gereken İlk 8 Terim
 
-![code](https://miro.medium.com/max/500/1*iFN_PWPWs6TQ9JzDp2v9Wg.jpeg)  
+![code](./figure/code.jpeg)  
 
 Bilgisayar bilimiyle ilgisi olmayan birçok tanıdığım ve aile üyelerinden farklı farklı konseptler ve terminolojiyle ilgili sorular aldığım için, bu yazıda bazı bilgisayar bilimi konseptlerini olabilecek en basit şekilde açıklamaya çalıştım.  
 
@@ -24,7 +24,7 @@ Backend Development kavramının her yerde, özellikle LinkedIn gibi platformlar
 **Backend** yani **arkauç** yazılım iskeletinin bir tabakasına verilen addır. Bu arkauç genelde dataları tutmak için bir veritabanı bulunan herhangi bir web servisini yazmayı veya sürdürmeyi gerektirir.  
 
 
-![Frontend-Backend.png](https://miro.medium.com/max/500/0*0bPSjeDXls5mhRsU)  
+![Frontend-Backend.png](./figure/frontend_backend.png)  
 
 Backend development sık sık Java, Scala, Python, DynamoDB, MongoDB, nodeJS, MySQL, MapReduce gibi teknolojilerle birlikte anılır.  
 
@@ -55,9 +55,9 @@ Biz insanlar olarak, iletişim için İngilizce, Mandarin, İspanyolca gibi dill
 
 Bir programlama dilini öğrenmek İnternette gördüğünüz bir şeyin arkaplanda nasıl meydana geldiğini görmenizi sağlar. Arabanızın nasıl bir mekanizmayla ve ne amaçla çalıştığını bilmek gibidir. Biraz gayretle Twitter, Candy Crush uygulamaları gibi siz de kendi uygulamanızı programlayabilir hale gelebilirsiniz.  
 
-![Java_Logo](https://miro.medium.com/max/500/0*0r9N8Ihz5ELZSIKy)  
+![Java_Logo](./figure/java.jpg)  
 
-![Python_Logo](https://miro.medium.com/max/500/0*biQtUgbQIEzeY6Pu)  
+![Python_Logo](./figure/python.png)  
 
 ## Algoritmalar
 
@@ -67,7 +67,7 @@ Bilgisayarlar komutları gerçekleştirmede müthişlerdir. Yazılım mühendisl
 
 Bilgisayar bilimi öğrencileri olarak öğrendiğimiz ilk problemlerden biri sınıflandırma problemidir. Bu problemin en önemli adımı item koleksiyonu veya setini en verimli şekilde oluşturmaktır.  
 
-![Algoritma_gif](https://miro.medium.com/max/400/0*OXdXLOz4MQ7MWuSB)  
+![Algoritma_gif](./figure/algoritma.gif)  
 
 Sınıflandırmanın çok fazla çeşiti vardır. Karşılaştırmalı sınıflandırma olarak da bilinen ***Bubble Sort*** en ünlülerindendir. İki itemdan büyük olanı seçmeyi, genel bir karşılaştırmayı ve bunu bütün öğeler için yapmayı gerektirir. ***Insertion Sort***, ***Merge Sort*** ve daha birçok başka çeşit de vardır.  
 
@@ -83,7 +83,7 @@ Algoritmalar Bilgisayar Bilimi’nin özünü oluşturur. Algoritmaların ne old
 
 API, veya Türkçesiyle UPA, veya uygulama programlama arayüzü, basit tabirle bir bilgi kaynağı. Daha somut açıklarsak, düşünün ki evde bir limonata kuyunuz var. Komşularınız bundan bir yudum almak istiyor ama siz kuyunun kirlenmesini istemiyorsunuz. Böyle bir durumda ne yapmalısınız?  
 
-![UPA/API.png](https://miro.medium.com/max/500/0*7V6TL0oOWAjYdiBx)  
+![UPA/API.png](./figure/UPA_API.png)  
 
 Evinizin dışındaki küçük bir hortuma bağlanan bir hortum yaptırmaya karar verdiniz. Sizin müthiş limonatanızdan tatmak isteyen bütün komşularınız bu hortum vasıtasıyla, kuyuya dokunmadan limonataya ulaşabilirler. Limonatayı ne zaman pompalayacağınıza veya kuyunun kuruması durumunda limonatayı boşaltmaya da siz karar veriyorsunuz. Dilerseniz çok fazla limonata içenlerden ücret alabilirsiniz.  
 
@@ -97,7 +97,7 @@ Bugünkü internet ağı, farklı web servisleri arasındaki uçsuz bucaksız il
 
 Aşağıdaki meme’i sosyal medyada görmüş ve ne anlama geldiğini anlamamış olabilirsiniz.  
 
-![not_a_bug.png](https://miro.medium.com/max/413/0*YzQWCwbu3p-UxGRj)  
+![not_a_bug.png](./figure/not_a_bug.png)  
 
 Bug bir bilgisayar programının alışılmış işleyişi bozan hatanın adıdır. Mesela bulunduğunuz yerin hava sıcaklığını Fahrenheit cinsinden gösteren bir iOS uygulaması indirdiğinizi farzedelim. Uygulamanın hava sıcaklığını, beklendiği gibi Fahrenheit değil Celsius cinsinden gösterdiğini fark ederseniz, bu program beklendiği gibi çalışmıyor demektir ve o zaman programda bir ‘**bug**’ yani hata var diyebiliriz.  
 
@@ -137,12 +137,12 @@ Bunun için tek yapmanız gereken şey bir Twitter hesabı açıp dünyanın far
 
 ## Kaynak Önerileri
 
-- **Stanford’s Online CS 101:** Bu online kurs size Bilgisayar Bilimi’nin başlıca kavramlarını tanıtıp internet mekanizmasının nasıl işlediğini gösteriyor. Dijital görüntüler nasıl oluşturulur ve süreç nasıl işler, hepsini bu kursta öğrenebilirsiniz. En güzeli de ücretsiz olması.  
-- **Python Crash Course:** Python programlamasına başlamak için en iyi kaynaklardan biri. Programlama için kollarınızı sıvamayı düşünüyorsanız, Python ve birazdan bahsedeceğim kitapla başlamanızı tavsiye ederim.  
-- **Python, Practical Guide:** Bu Python Crash Course’u bitirdikten sonra edinebileceğiniz bir kitap. Bahsedilen kurstaki örneklerin birçoğunu bu kitaba başvurmadan da yapabileceğinizi düşünüyorum ancak kitap detaylı bir şekilde adım adım neler yapmanız gerektiğini anlatıyor. Örnek görerek daha iyi öğrenen insanlar için müthiş bir kaynak.  
-- **Introduction to Algorithms:** Bilgisayar biliminin temel prensibi olan algoritmalar hakkında bilgi edinmek isterseniz bu kitabın çok yararını göreceksiniz. Kitap ayrıca farklı farklı bilgisayar bilimi kurslarında ders kitabı olarak kullanılıyor.  
-- **Acing the Coding Interview:** Bu benim koçluk kursum. Bu kursta iş görüşmeleri için nasıl hazırlandığımı, görüşmelerde karşı tarafı etkilemenin yolları ve daha birçok şeyi bulabileceksiniz.  
+- **[Stanford’s Online CS 101:](https://online.stanford.edu/courses/soe-ycscs101-sp-computer-science-101)** Bu online kurs size Bilgisayar Bilimi’nin başlıca kavramlarını tanıtıp internet mekanizmasının nasıl işlediğini gösteriyor. Dijital görüntüler nasıl oluşturulur ve süreç nasıl işler, hepsini bu kursta öğrenebilirsiniz. En güzeli de ücretsiz olması.  
+- **[Python Crash Course:](https://www.amazon.com/gp/product/1593276036/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=zrecommended-20&creative=9325&linkCode=as2&creativeASIN=1593276036&linkId=883395cb5bc26ff7275d79ee9779dbbd)** Python programlamasına başlamak için en iyi kaynaklardan biri. Programlama için kollarınızı sıvamayı düşünüyorsanız, Python ve birazdan bahsedeceğim kitapla başlamanızı tavsiye ederim.  
+- **[Python, Practical Guide:](https://www.amazon.com/gp/product/1593275994/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=zrecommended-20&creative=9325&linkCode=as2&creativeASIN=1593275994&linkId=2c371452495fb9295a0ffa2e575b236f)** Bu Python Crash Course’u bitirdikten sonra edinebileceğiniz bir kitap. Bahsedilen kurstaki örneklerin birçoğunu bu kitaba başvurmadan da yapabileceğinizi düşünüyorum ancak kitap detaylı bir şekilde adım adım neler yapmanız gerektiğini anlatıyor. Örnek görerek daha iyi öğrenen insanlar için müthiş bir kaynak.  
+- **[Introduction to Algorithms:](https://www.amazon.com/gp/product/0262033844/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=zrecommended-20&creative=9325&linkCode=as2&creativeASIN=0262033844&linkId=478b4c605397e2a51dd10a45199c467b)** Bilgisayar biliminin temel prensibi olan algoritmalar hakkında bilgi edinmek isterseniz bu kitabın çok yararını göreceksiniz. Kitap ayrıca farklı farklı bilgisayar bilimi kurslarında ders kitabı olarak kullanılıyor.  
+- **[Acing the Coding Interview:](https://docs.google.com/document/d/1ppHix7p9knzaal-Edn3GHQMcx1MM_USY6zPcsbBpR3U/edit)** Bu benim koçluk kursum. Bu kursta iş görüşmeleri için nasıl hazırlandığımı, görüşmelerde karşı tarafı etkilemenin yolları ve daha birçok şeyi bulabileceksiniz.  
 
-***Zhia Hwa Chong*** tarafından [medium.freecodecamp.org](https://www.freecodecamp.org/news/these-are-the-top-computer-science-terms-you-should-know-if-youre-new-to-programming-fc8592242622/)’ta yayınlanan bu yazı Gizem Yılmazer tarafından çevirilmiştir.
+_[Zhia Hwa Chong](https://www.freecodecamp.org/news/author/zhiachong/?source=post_header_lockup)_ tarafından [medium.freecodecamp.org](https://www.freecodecamp.org/news/these-are-the-top-computer-science-terms-you-should-know-if-youre-new-to-programming-fc8592242622/)’ta yayınlanan bu yazı Gizem Yılmazer tarafından çevirilmiştir.
 
 _Görseller_: [medium.freecodecamp.org](https://www.freecodecamp.org/news/these-are-the-top-computer-science-terms-you-should-know-if-youre-new-to-programming-fc8592242622/)
