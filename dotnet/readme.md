@@ -30,9 +30,6 @@
 
 ## .NET CORE MVC
 1. Basics of Model-View-Controller Pattern
-2. Razor View Engine
-3. Dependency Injection  
-
     #### VIEW
     - Usage of View
     - Usage of Layout
@@ -54,6 +51,10 @@
     - Action Attributes
     - Controller - AJAX Interaction
     - Asynchronous Operations
+2. Razor View Engine
+3. Dependency Injection  
+
+
 
 ## Case Management
 1. Session
