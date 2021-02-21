@@ -148,3 +148,54 @@ public class Main {
 
 ```
 Örnekte görüleceği üzere bu sınıftan yarattığımız ilk objede 2  **String** ve 1 **Integer** tipinde değişken kullandık. İkinci objede ise 3 **String** değişkeni ayrıca bir sınıf yaratmaya ihtiyaç duymadan kullanabildik.
+
+Ayrıca Java' da jenerik hata sınıfları oluşturulamaz, derleyici hatasına sebep olur.
+
+```java
+public class GenericException<T> extends Exception {} 
+```
+
+
+
+### Sorular
+
+##### 1-) Java Collection Frameworkte tarafından yaygın olarak kullanılan tür parametresi hangisidir ?
+
+a-)  K
+
+b-)  V
+
+c-)  T
+
+d-)  E
+
+e-)  N
+
+
+
+##### 2-) Jenerikler ile ilgili hangisi veya hangileri doğrudur ?
+
+I - Tip güvenliği sağlar      II - Birden fazla tip parametresi alamaz    III - Kod tekrarının önüne geçer
+
+a-) Yalnız I
+
+b-) Yalnız II
+
+c-) I, III
+
+d-) II, III
+
+e-) I, II, III
+
+
+
+
+
+cevaplar : 1-e, 2-c
+
+
+
+
+### KAYNAK
+
+[javatpoint.com](https://www.javatpoint.com/generics-in-java)
