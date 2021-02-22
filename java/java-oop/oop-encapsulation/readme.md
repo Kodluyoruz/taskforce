@@ -1,6 +1,6 @@
 # Kapsülleme Kavramı (Encapsulation)
 
-![Encapsulation](https://user-images.githubusercontent.com/75500825/108607823-c6785280-73d3-11eb-82a9-81cf96d67ee9.PNG)
+![](figures/Encapsulation.PNG)
 
 Yazılımdaki nesneler gerçek dünyadaki nesnelere benzer yapıdadır. Her nesnenin durumu ve bazı davranışları vardır. Nesnenin durumu sahip olduğu verilerin değerleri ile temsil edilir. Örneğin bir araba nesnesi söz konusu ise arabanın sahibi, plakası, markası, o andaki hızı vb bilgiler nesnenin durumunu gösterir ve bu veriler nesnede tanımlı olan değişkenlerde saklanır. Sınıfların, değişkenlerin ve fonksiyonların bir araya gelmesinden oluştuğunu önceden belirtmiştik. Nesneler ise tanımlanan sınıflardan oluşturulur. Nesneye ait işlevler ise araba sınıfı içindeki fonksiyonlar (metotları) ifade eder. Örneğin arabanın motorunun çalışması, arabanın konum bilgisini bildirmesi, frenleme yapabilmesi, vites değiştirmesi bunlar da araba nesnesine ait fonksiyonlardır.
 
@@ -225,5 +225,28 @@ Tüm bunları özetlemek ve kapsüllemenin avantajlarını sıralamamız gerekir
 2. Bize hem veri gizliliği hem de veri üzerinde kontrolü sağlar. 
 3. Reusability, yani yeniden kullanılabilirliği sağlar. Kodu yeniden kullanabilir ve yeni gereksinimlerini uygulayabiliriz.
 4. Standart IDE'lerdeki araçlar getter ve setter metotlarını biz yazmadan üretmeyi sağlıyor bu nedenle Java'da kapsüllenmiş bir sınıf yaratmak hızlı ve kolay oluyor.
+
+## Sorular
+
+1. Kapsülleme ile hangi OOP özelliği kullanılır?
+
+   a) Inheritance
+   b) Abstraction
+   c) Polymorphism
+   d) Overloading
+
+   Cevap b: Veri soyutlaması kapsülleme kullanılarak elde edilir. Gerçek programın işleyişini ve yapısını kullanıcıdan gizleyebilir ve sadece kullanıcı tarafına gerekli bilgileri gösterebiliriz. 
+
+2. Aşağıdakilerden hangisi kapsüllemeyi en iyi açıklayan cümledir?
+
+   a) Çeşitli veri üyelerini tek bir birimde birleştirmenin yoludur.
+
+   b) Çeşitli üye işlevlerini(fonksiyonlarını) tek bir birimde birleştirmenin yoludur.
+
+   c) Çeşitli veri üyelerini ve üye fonksiyonlarını, herhangi bir veri üzerinde çalışabilen tek bir birimde birleştirmenin yoludur. 
+
+   d) Çeşitli veri üyelerinin ve bu veri üyeleri üzerinde işlemler yapan fonksiyonların tek bir birimde birleştirmenin yoludur. 
+
+   Cevap d: Hem veri üyelerini hem de bu veriler üzerinde işlemler yapan fonksiyonları tek bir birimde birleştirmenin bir yoludur. Biz buna genel olarak OOP'de bir sınıf diyoruz. 
 
 Kaynak: https://www.javapoint.com / https://www.scientecheasy.com
