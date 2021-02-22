@@ -6,7 +6,7 @@ Inheritance birçok farklı tipte uygulanabilmektedir. Bunlardan başlıcaları 
 
 Hiyerarşik kalıtım, bir superclassın birden fazla subclassa sahip olduğu ve her subclassın ise sadece bir tane superclassa sahip olduğu bir kalıtım çeşididir.
 
-![Hiyerarşik Kalıtım](/figures/hierarchical_inheritance.png)
+![Hiyerarşik Kalıtım](figures/hierarchical_inheritance.png)
 
 Yukarıdaki akış şemasında da görüldüğü üzere, class A ‘dan B, C ve D isminde 3 farklı sınıf türetilmiştir. Ve bu türetilen sınıflar yalnızca bir superclass üzerinden miras alabilmektedir. Bu durumda class A superclass, B,C ve D classları ise subclassdır. 
 
