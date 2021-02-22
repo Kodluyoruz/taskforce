@@ -1,7 +1,4 @@
-
-
 # Hiyerarşik Kalıtım (Hierarchical Inheritance)
-
 
 Java’da nesne yönelimli programlamayı oluşturan 4 önemli unsurdan bir tanesi Inheritance kavramıdır. Inheritance, sınıflar arasında kalıtımı mümkün kılarak, bir sınıf özelliklerinin başka bir sınıf içerisinde kullanılabilmesine olanak sağlamaktadır. Bu sayede classlar arasında ortak kullanıma sahip kod parçacıklarının birden fazla yazılması engellenmiş olur. Ayrıca kodun tekrar kullanılabilirliğini sağlayarak performansı artırdığı ve kolay okunabilir bir program yapısı sağladığından dolayı Inheritance kavramı oldukça önemli bir konudur.
 
@@ -9,13 +6,13 @@ Inheritance birçok farklı tipte uygulanabilmektedir. Bunlardan başlıcaları 
 
 Hiyerarşik kalıtım, bir superclassın birden fazla subclassa sahip olduğu ve her subclassın ise sadece bir tane superclassa sahip olduğu bir kalıtım çeşididir.
 
-<img src="hierarchical_inheritance.png"/>
+![Hiyerarşik Kalıtım](hierarchical_inheritance.png)
 
 Yukarıdaki akış şemasında da görüldüğü üzere, class A ‘dan B, C ve D isminde 3 farklı sınıf türetilmiştir. Ve bu türetilen sınıflar yalnızca bir superclass üzerinden miras alabilmektedir. Bu durumda class A superclass, B,C ve D classları ise subclassdır. 
 
 Hierarchical Inheritance sözdizimi aşağıdaki gibidir:
 
-````java
+```java
 
 class A {
 
@@ -51,15 +48,14 @@ objectC.methodA();
 
 }}
 
-````
+```
 
 Kalıtım hiyerarşisinde, subclasslar üzerinde yeni özellikler ve metotlar tanımlanabilirken ayrıca superclasstan kalıtım yoluyla alınan özellikler ve metotlar yeniden tanımlanarak da kullanılabilmektedir. Bu yönteme Overriding denilmektedir. Yani bir üst classtan gelen özelliklerin geçersiz kılınarak, yeniden implemente edilmesi olayıdır.
 
 Hiyerarşik Kalıtım örnek uygulamalar ile daha da anlaşılır hale gelecektir. Örneğin; aşağıdaki modelde bir tane ata sınıfımız ve bu sınıftan kalıtım alan iki tane alt sınıfımız bulunmaktadır. OTVTax, KDVTax subclassları Tax sınıfından kalıtım yoluyla eriştikleri calculate metotunu yeniden implemente ederek Tax sınıfını override etmişlerdir. Bu model hiyerarşik kalıtımın basit bir örneğidir.
 
-![Hiyerarşik Kalıtım](/Users/kodluyoruz/Projeler/kodluyoruz/taskforce/java/java-102/object-oriented-programming/figures/hierarchical-inheritance.png)
 
-````java
+```java
 
 public class Tax {
 	
@@ -87,14 +83,14 @@ public class KDVTax extends Tax{
 	}
 }
 
-````
+```
 
 
 
 Aşağıdaki bir diğer örneğimizi inceleyecek olursak; görüldüğü üzere subclass olan Cat, Dog ve Bird sınıfları "extend" anahtar sözcüğü ve main class içerisinde oluşturulmuş olan objeler aracılığı ile Animal superclass'ından miras almıştır. Ata sınıf olan Animal sınıfı birden fazla alt sınıfa özelliklerini aktarabiliyorken, alt sınıflar yalnızca bir üst sınıfın özelliklerini miras alabilmektedir. 
 
 
-````java
+```java
 class Animal
 {
    public void methodAnimal()
@@ -137,7 +133,7 @@ class InheritanceExample
   }
 }
 
-````
+```
 
 **Output:**
 
