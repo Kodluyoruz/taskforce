@@ -85,6 +85,44 @@ dbConnection.close();
 
 ![Figure 2](./figures/jdbc-interfaces.png)
 
+##Sorular
+
+**Soru 1** Aşağıdakilerden hangisi veri tabanında sorgu çalıştırma adımlarından birisi değildir?
+
+A) Sürücü sınıfını kaydetmek
+
+B) Bir connection almak
+
+C) Statement oluşturmak
+
+**D) Rollback yapmak**
+
+E) Connectionu kapatmak
+
+----------
+
+I. Statment oluşturmak.
+
+II. Connection almak.
+
+III. Statment'ı execute etmek
+
+IV. Driver'ı kaydetmek
+
+V. Connection'ı kapatmak
+
+**Soru 2** Yukarıdakileri doğru sıraya sokarak bir sorguyu işletiniz.
+
+A) I-II-III-IV-V
+
+B) IV-I-II-III-V
+
+**C) IV-II-I-III-V**
+
+D) IV-V-I-II-III
+
+E) V-IV-III-I-II
+
 ## Kaynak:
 * [Figure 1](https://www.simba.com/resources/jdbc/)
 * [Figure 2](https://ducmanhphan.github.io/2020-01-09-How-to-use-JDBC-to-connect-database-in-Java-project/)

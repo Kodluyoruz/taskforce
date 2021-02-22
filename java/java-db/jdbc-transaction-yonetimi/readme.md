@@ -76,4 +76,38 @@ Yukarıdaki örnekte false yaparak Transaction yönetimini üzerimize aldık. �
 
 Sembolik olarak bir if bloğu içine hata fırlatan bir kod ekledik. O hata fırlatan kısmı açtığımızda veri tabanına bir kayıt eklemek komutu işletmiş olsa bile hata alındığından “rollback” fonksiyonu çağırıyoruz. Böylece, o ana kadar yapılmış olan değişikliklerin geri alınmasını sağlıyoruz.
 
- 
+
+## Sorular
+**Soru 1** JDBC' de connection otomatik olarak yapılan işlemleri kaydetmesini sağlayan
+özelliği devre dışı bırakıldığında yapılan işlemin kaydedilmesini ve tablolarda uygulanmasını
+hangi fonksiyon ile sağlarız?
+
+A) accept()
+
+B) acceptAll()
+
+C) apply()
+
+**D) commit()**
+
+E) make()
+
+-----
+
+**Soru 2** JDBC' de connection'nın yapılan işlemlerin otomatik olarak kaydetmesini
+ve tablolara uygulanmasını kontrol eden özellik hangisidir?
+
+A) autoAccept
+
+B) acceptMod
+
+**C) autoCommit**
+
+D) applyMod
+
+E) makeMod
+
+
+## Kaynak:
+
+* [Konu derlemesi](https://medium.com/s%C4%B1f%C4%B1rdan-i%CC%87leri-d%C3%BCzeye-java-e%C4%9Fitim-serisi/jdbc-ile-veritaban%C4%B1-i%CC%87%C5%9Flemleri-e7348de4c88c)
