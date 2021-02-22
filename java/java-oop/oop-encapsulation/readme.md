@@ -231,8 +231,11 @@ Tüm bunları özetlemek ve kapsüllemenin avantajlarını sıralamamız gerekir
 1. Kapsülleme ile hangi OOP özelliği kullanılır?
 
    a) Inheritance
+   
    b) Abstraction
+   
    c) Polymorphism
+   
    d) Overloading
 
    Cevap b: Veri soyutlaması kapsülleme kullanılarak elde edilir. Gerçek programın işleyişini ve yapısını kullanıcıdan gizleyebilir ve sadece kullanıcı tarafına gerekli bilgileri gösterebiliriz. 
