@@ -92,7 +92,7 @@ public class KDVTax extends Tax{
 ````java
 
 
-Aşağıdaki bir diğer örneğimizi inceleyecek olursak; görüldüğü üzere subclass olan Cat, Dog ve Bird sınıfları "extend" anahtar sözcüğüyle Animal superclass'ından miras almıştır.
+Aşağıdaki bir diğer örneğimizi inceleyecek olursak; görüldüğü üzere subclass olan Cat, Dog ve Bird sınıfları "extend" anahtar sözcüğü ve main class içerisinde oluşturulmuş olan objeler aracılığı ile Animal superclass'ından miras almıştır. Ata sınıf olan Animal sınıfı birden fazla alt sınıfa özelliklerini aktarabiliyorken, alt sınıflar yalnızca bir üst sınıfın özelliklerini miras alabilmektedir. 
 
 class Animal
 {
@@ -137,4 +137,14 @@ class InheritanceExample
 }
 
 ````
+
+**Output:**
+
+method of Class Animal
+method of Class Animal
+method of Class Animal
+
+
+
+
 
