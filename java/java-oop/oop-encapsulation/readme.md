@@ -77,16 +77,16 @@ Bunu daha detaylı ve gerçek hayata daha uygun bir örnekle açıklayalım. Yin
 public class Engine {
 
 	private float temperature;
-	
+
 	private short activePistonCount;
-	
+
 	private boolean status = false;
-	
+
 	public Engine() {
 		this.temperature = 0.0f;
 		this.activePistonCount = 0;
 	}
-	
+
 	// motor çalışmaya başladıktan sonra derecesi 5 derece artmaktadır.
 	// "temperature" değişkeninde motorun sıcaklık bilgisi tutulmaktadır.
 	// Bu da nesnenin durumunu ifade eder. Bu durum değişikliğini bir fonksiyon yardımıyla yapıyoruz.
@@ -98,14 +98,13 @@ public class Engine {
 		this.activePistonCount = 4;
 		this.temperature += 5;
 	}
-	
+
 	// Aynı şekilde moturu durdurma işini de bir fonksiyon yardımıyla yapıyoruz. 
 	// Bu değişkenler üzerindeki veri değişimini fonksiyonlar ile yönetiyoruz.
 	public void stop() {
 		this.status = false;
 	}
-	
-	
+
 	// Motorun sıcaklığını azaltmak için soğutma ünitesinden faydalanıyoruz.
 	// Böylece yine sıcaklık bilgisini direkt erişime açmadan dışarıdan bir fonksiyon yardımıyla değiştirilmesini sağlamış oluyoruz.
 	// İşte bu da bir kapsülleme örneğidir.
@@ -113,22 +112,20 @@ public class Engine {
 		
 		this.temperature -= freezeValue;
 	}
-	
-	
+
 	// Nesne üzerindeki private değişkenlerdeki değerleri dışarıdan okuyabilmek için yine fonksiyonlardan faydalanıyoruz.
 	// Veri okuma işini de kapsülleme prensibine uygun şekilde yapmış oluyoruz.
 	public boolean getStatus() {
 		return this.status;
 	}
-	
+
 	public int getActivePistonCount() {
 		return this.activePistonCount;
 	}
-	
+
 	public float getTemperature() {
 		return this.temperature;
 	}
-	
 }
 ```
 
@@ -140,34 +137,34 @@ package main.encapsulation.sample;
 public class Engine {
 
 	private float temperature;
-	
+
 	private short activePistonCount;
-	
+
 	private boolean status = false;
-	
+
 	public Engine() {
 		this.temperature = 0.0f;
 		this.activePistonCount = 0;
 	}
-	
+
 	// motor çalışmaya başladıktan sonra her 2.5 saniyede sıcaklık derecesi 5 derece artmaktadır.
 	// "temperature" değişkeninde motorun sıcaklık bilgisi tutulmaktadır.
 	// Bu da nesnenin durumunu ifade eder. Bu durum değişikliğini bir fonksiyon yardımıyla yapıyoruz.
 	// Engine tipindeki nesnenin sıcaklık bilgisi direkt olarak değiştirilemez. Bu kapsüllemeye iyi bir örnektir.
 	public void start() {
-		
+
 		// motorun çalışma durumunu saklayan değişkeni true'ya çekip motorun çalışmaya başladığını belirtiyoruz.
 		this.status = true;
 		this.activePistonCount = 4;
-		
+
 		// Ayrı bir thread içinde yapıyoruz.
 		Thread thread = new Thread(new Runnable() {
-			
+
 			@Override
 			public void run() {
 				while(status) {
 					temperature += 55;
-					
+
 					// her 25 saniyede bir motorun sıcaklık derecesi 5 derece artıyor.
 					try {
 						Thread.sleep(2500);
@@ -178,17 +175,16 @@ public class Engine {
 				}
 			}
 		});
-		
+
 		thread.start();
 	}
-	
+
 	// Aynı şekilde motoru durdurma işini de bir fonksiyon yardımıyla yapıyoruz. 
 	// Bu değişkenler üzerindeki veri değişimini fonksiyonlar ile yönetiyoruz.
 	public void stop() {
 		this.status = false;
 	}
-	
-	
+
 	// Motorun sıcaklığını azaltmak için soğutma ünitesinden faydalanıyoruz.
 	// Böylece yine sıcaklık bilgisini direkt erişime açmadan dışarıdan bir fonksiyon yardımıyla değiştirilmesini sağlamış oluyoruz.
 	// İşte bu da bir kapsülleme örneğidir.
@@ -196,22 +192,20 @@ public class Engine {
 		
 		this.temperature -= freezeValue;
 	}
-	
-	
+
 	// Nesne üzerindeki private değişkenlerdeki değerleri dışarıdan okuyabilmek için yine fonksiyonlardan faydalanıyoruz.
 	// Veri okuma işini de kapsülleme prensibine uygun şekilde yapmış oluyoruz.
 	public boolean getStatus() {
 		return this.status;
 	}
-	
+
 	public int getActivePistonCount() {
 		return this.activePistonCount;
 	}
-	
+
 	public float getTemperature() {
 		return this.temperature;
 	}
-	
 }
 ```
 
@@ -226,30 +220,7 @@ Tüm bunları özetlemek ve kapsüllemenin avantajlarını sıralamamız gerekir
 3. Reusability, yani yeniden kullanılabilirliği sağlar. Kodu yeniden kullanabilir ve yeni gereksinimlerini uygulayabiliriz.
 4. Standart IDE'lerdeki araçlar getter ve setter metotlarını biz yazmadan üretmeyi sağlıyor bu nedenle Java'da kapsüllenmiş bir sınıf yaratmak hızlı ve kolay oluyor.
 
-## Sorular
 
-1. Kapsülleme ile hangi OOP özelliği kullanılır?
-
-   a) Inheritance
-   
-   b) Abstraction
-   
-   c) Polymorphism
-   
-   d) Overloading
-
-   Cevap b: Veri soyutlaması kapsülleme kullanılarak elde edilir. Gerçek programın işleyişini ve yapısını kullanıcıdan gizleyebilir ve sadece kullanıcı tarafına gerekli bilgileri gösterebiliriz. 
-
-2. Aşağıdakilerden hangisi kapsüllemeyi en iyi açıklayan cümledir?
-
-   a) Çeşitli veri üyelerini tek bir birimde birleştirmenin yoludur.
-
-   b) Çeşitli üye işlevlerini(fonksiyonlarını) tek bir birimde birleştirmenin yoludur.
-
-   c) Çeşitli veri üyelerini ve üye fonksiyonlarını, herhangi bir veri üzerinde çalışabilen tek bir birimde birleştirmenin yoludur. 
-
-   d) Çeşitli veri üyelerinin ve bu veri üyeleri üzerinde işlemler yapan fonksiyonların tek bir birimde birleştirmenin yoludur. 
-
-   Cevap d: Hem veri üyelerini hem de bu veriler üzerinde işlemler yapan fonksiyonları tek bir birimde birleştirmenin bir yoludur. Biz buna genel olarak OOP'de bir sınıf diyoruz. 
-
-Kaynak: https://www.javapoint.com / https://www.scientecheasy.com
+### Kaynak:
+- [https://www.javapoint.com](https://www.javapoint.com)
+- [https://www.scientecheasy.com](https://www.scientecheasy.com)
