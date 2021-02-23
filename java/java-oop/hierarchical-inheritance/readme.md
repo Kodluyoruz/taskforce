@@ -13,7 +13,6 @@ Yukarıdaki akış şemasında da görüldüğü üzere, class A ‘dan B, C ve 
 Hierarchical Inheritance sözdizimi aşağıdaki gibidir:
 
 ```java
-
 class A {
 
 public static void methodA() {
@@ -47,7 +46,6 @@ objectB.methodA();
 objectC.methodA();
 
 }}
-
 ```
 
 Kalıtım hiyerarşisinde, subclasslar üzerinde yeni özellikler ve metotlar tanımlanabilirken ayrıca superclasstan kalıtım yoluyla alınan özellikler ve metotlar yeniden tanımlanarak da kullanılabilmektedir. Bu yönteme Overriding denilmektedir. Yani bir üst classtan gelen özelliklerin geçersiz kılınarak, yeniden implemente edilmesi olayıdır.
@@ -56,33 +54,25 @@ Hiyerarşik Kalıtım örnek uygulamalar ile daha da anlaşılır hale gelecekti
 
 
 ```java
-
 public class Tax {
-	
 	public double calculate(double value) {
-		
 		return value + value * 0.1;
 	}
 }
 
 public class OTVTax extends Tax {
-
 	@Override
 	public double calculate(double value) {
-		
 		return value + value * 0.2;
 	}
 }
 
 public class KDVTax extends Tax{
-
 	@Override
 	public double calculate(double value) {
-		
 		return value + value * 0.3;
 	}
 }
-
 ```
 
 
@@ -132,7 +122,6 @@ class InheritanceExample
      b.methodA();
   }
 }
-
 ```
 
 **Output:**
@@ -142,8 +131,3 @@ method of Class Animal
 method of Class Animal
 
 method of Class Animal
-
-
-
-
-
