@@ -307,7 +307,7 @@ Bu kod belirsizliğe sebep olur; çünkü metodun her 2 tanımına da uygundur. 
 
 ### Kaynaklar:
 
-[w3schools.com](https://www.w3schools.com)
+- [w3schools.com](https://www.w3schools.com)
 
-[bilgisayarkavramlari.com](http://bilgisayarkavramlari.com)
+- [bilgisayarkavramlari.com](http://bilgisayarkavramlari.com)
 
