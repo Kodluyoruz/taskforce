@@ -26,7 +26,7 @@ Eğer, a > b ise 1,
 
 şeklinde özetleyebiliriz. Şimdi bunu basit bir örnekle açıklayalım.
 
-```
+```java
 public class Order implements Comparable<Order> {
 
         private double value;
@@ -72,7 +72,7 @@ public class Order implements Comparable<Order> {
 
 "Order" sınıfı "implements Comparable" ifadesiyle kalıtım alıyor. Kalıtım aldıktan sonra "comperaTo" metodunu override ederek kendi ihtiyacına göre dolduruyor. Eğer fonksiyona gönderilen "order" isimli "Order" tipindeki nesnenin ücreti mevcut nesnenin ücretinden büyükse -1 dönüyoruz. Eğer, her iki nesnenin ücreti aynı ise 0 dönüyoruz. Eğer ki mevcut nesnenin ücret değeri fonksiyona gelen "order" isimli nesneden büyükse 1 dönüyoruz.
 
-```
+```java
 public static void main(String[] args) {
 
         List<Order> orders = new ArrayList<Order>();
@@ -103,7 +103,7 @@ Yukarıdaki örnekte "ArrayList" tipinde düz bir liste tutan veri yapısı olu�
 
 Peki listeyi büyükten küçüğe göre sıralamak isteseydik ne yapmamız gerekirdi. Bu durumda 1 ve -1 ifadelerinin yerini değiştirmek gerekecekti. Yani, "compareTo" fonksiyonunun içini aşağıdaki şekilde değiştirecektik.
 
-```
+```java
 @Override
 public int compareTo(Order order) {
 
@@ -172,4 +172,4 @@ public class Main {
 }
 ```
 
- Bu durumda **Comparable** interface’ini **kullanmadan da compareTo metodu** yazılabilir. Ancak interface’leri farklı class'lar arasında bir bağ kurmak için kullanırız. Neden Comparable interface kullanmamız gerektiğini daha iyi anlamak için Mehmet Fatih Ercik'in  [medium yazısına](https://medium.com/codable/interfacelerin-mantigi-nedir-2-ornek-kullanimlar-60577917caeb)  bakabilirsiniz.
+Bu durumda **Comparable** interface’ini **kullanmadan da compareTo metodu** yazılabilir. Ancak interface’leri farklı class'lar arasında bir bağ kurmak için kullanırız. Neden Comparable interface kullanmamız gerektiğini daha iyi anlamak için Mehmet Fatih Ercik'in  [medium yazısına](https://medium.com/codable/interfacelerin-mantigi-nedir-2-ornek-kullanimlar-60577917caeb)  bakabilirsiniz.
