@@ -41,7 +41,7 @@ Metot ismi aynı olsa da farklı sayıda parametre alıyorlar. Farklı veri tipl
 
 ## Metotların Ezilmesi (Overriding Metods)
 
-Java'da alt sınıflar ATA sınıftan aldıkları metotları ezebilirler. Bu yönteme &quot;Overriding&quot; denilmektedir. Alt sınıfta üst sınıfın metodunu ezmek için `@Override` anahtar kelimesi kullanılır.
+Java'da alt sınıflar ATA sınıftan aldıkları metotları ezebilirler. Bu yönteme "Overriding" denilmektedir. Alt sınıfta üst sınıfın metodunu ezmek için `@Override` anahtar kelimesi kullanılır.
 
 Önemli: Metodu ezebilmek için alt sınıftaki metot imzasıyla, üst sınıftaki metot imzası aynı olması gerekmektedir. Metot imzasından kasıt, metot isimlerinin aynı olması, aynı girdileri alması ve aynı tipte değer döndürmeli veya döndürmemelidir. Ayrıca, Java'da üst sınıftaki "private" metotları ezemezseniz, yani "override" edemezsiniz.
 
@@ -52,7 +52,7 @@ protected void showInfo() {
 }
 ```
 
-Yukarıdaki "showInfo" metodu, "ElectricCar" sınıfı içinde "@Override" tanımlamasıyla üst sınıftaki metodu ezmektedir. "ElectricCar" tipinden oluşturulan nesneler üzerinden "showInfo" metodunu çağıracak olursak "ElectricCar" sınıfı içindeki metodu çağıracaktır.
+Yukarıdaki "showInfo" metodu, "ElectricCar" sınıfı içinde `@Override` tanımlamasıyla üst sınıftaki metodu ezmektedir. "ElectricCar" tipinden oluşturulan nesneler üzerinden "showInfo" metodunu çağıracak olursak "ElectricCar" sınıfı içindeki metodu çağıracaktır.
 
 ```java
 ElectricCar electricCar3 = new ElectricCar();
@@ -188,13 +188,13 @@ public class Main {
 ```
 
 ### instanceof - polymorphism ilişkisi
-* Obje vereceğiz objenin hangi sınıftan olduğuna bakacağız
-* Kedi sınıfı aynı zamanda Hayvan sınıfından miras alıyor. Bu yüzden superclass'la kıyaslanırsa inheritance olduğu için true döner.
-* **_Bütün classlar objeden türüyor.(Object class)_**
-* Polymorphism kullanmazsak bütün nesneleri instanceof ile kontrol etmemiz gerekir.
-* **_Yeni bir sınıf üretirsek_** ve Hayvan sınıfından miras alırsa yine kontrol etmemiz gerekecek ama polymorphism bu iş yükünü azaltıyor.
+- Obje vereceğiz objenin hangi sınıftan olduğuna bakacağız
+- Kedi sınıfı aynı zamanda Hayvan sınıfından miras alıyor. Bu yüzden superclass'la kıyaslanırsa inheritance olduğu için true döner.
+- **_Bütün classlar objeden türüyor.(Object class)_**
+- Polymorphism kullanmazsak bütün nesneleri instanceof ile kontrol etmemiz gerekir.
+- **_Yeni bir sınıf üretirsek_** ve Hayvan sınıfından miras alırsa yine kontrol etmemiz gerekecek ama polymorphism bu iş yükünü azaltıyor.
 
-####Örnek II:
+#### Örnek II:
 ```java
 package org.java.review.oop;
 
@@ -304,7 +304,7 @@ public class Main {
 }
 ```
 
-* Yukarıdaki Örnek II Polymorphism'in gerçek faydasını tam olarak ortaya çıkartıyor. Daha fazla hata yapma ihitmali, daha fazla kod ve daha fazla manuel kontrol. Sonuç olarak, polymorphism kullanmak kod temizliği ve güvenliği açısından verimli bir özellik.
+- Yukarıdaki Örnek II Polymorphism'in gerçek faydasını tam olarak ortaya çıkartıyor. Daha fazla hata yapma ihitmali, daha fazla kod ve daha fazla manuel kontrol. Sonuç olarak, polymorphism kullanmak kod temizliği ve güvenliği açısından verimli bir özellik.
 
 ### Kaynaklar
 
