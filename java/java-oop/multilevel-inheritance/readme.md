@@ -14,10 +14,12 @@ Sınıflar arası Inheritance kullanmak, kod parçacıklarının tekrar tekrar y
 Şimdi gelelim **Multilevel Inheritance** kavramına… Bir sınıf miras alıyorken aynı zamanda miras veriyorsa burada çok katmanlı kalıtım vardır demektir. Bu mimaride, bir superclass sınıfının özellikleri kullanılarak subclass türetilirken, türetilmiş olan subclasstan da yeni bir subclass türetilebilmektedir. Bu durumda superclasstaki özellikler son katmanda bulunan subclassa aktarılmış olur. 
 
 
-<img src="multilevel_inheritance.png"/>
+![](figures/multilevel_inheritance.png)
 
 
 Yukarıda bulunan akış şemasında görüldüğü gibi; C sınıfı B sınıfından miras alırken, B sınıfı ise A sınıfından miras almaktadır. Bu durumda B sınıfı C sınıfı için bir superclass, A sınıfı için ise bir subclass durumundadır. B sınıfının A sınıfından miras olarak aldığı özellikler, C sınıfına miras olarak aktarılabilmektedir. 
+
+----------------------------------------------
 
 ![Çok Katmanlı Kalıtım](/Users/kodluyoruz/Projeler/kodluyoruz/taskforce/java/java-102/object-oriented-programming/figures/multi-level-inheritance.png)
 
