@@ -2,9 +2,9 @@
 
 ![](figures/singleInheritance.png)
 
-&quot;**Car**&quot; isminde bir ATA(parent) sınıf tanımladık. Ardından, &quot;**ElectricCar**&quot; isminde bir sınıf oluşturduk. &quot;**ElectricCar**&quot; isimli sınıf &quot;**Car**&quot; sınıftan kalıtım almaktadır. &quot;**extends**&quot; anahtar kelimesi ile &quot;**Car**&quot; sınıfından kalıtım almasını sağladık. Böylece, &quot;**ElectricCar**&quot; sınıfı &quot;**Car**&quot; sınıfa ait değişkenleri ve fonksiyonları kalıtım yoluyla almış yani değişken ve fonksiyonları genişletilmiş olur. &quot;**ElectricCar**&quot; sınıfı ise alt sınıf(childclass) olmuştur. Artık, &quot;**ElectricCar**&quot; sınıfı da &quot;**setBrand**&quot; ve &quot;**setLicensePlate**&quot; fonksiyonlarını ve &quot;**licensePlate**&quot;, &quot;**brand**&quot; değişkenlerine sahip olmuş olur. Buna ek olarak &quot;**charge**&quot; fonksiyonu da kendisine ait bir fonksiyondur. Bu fonksiyon ATA sınıfta yer almaz. Burada "Car" ve "ElectricCar" sınıfları arasında "IS-A" ilişkisi vardır. Yani  "ElectricCar" bir "Car" dır.
+"**Car**" isminde bir ATA(parent) sınıf tanımladık. Ardından, "**ElectricCar**" isminde bir sınıf oluşturduk. "**ElectricCar**" isimli sınıf "**Car**" sınıftan kalıtım almaktadır. "**extends**" anahtar kelimesi ile "**Car**" sınıfından kalıtım almasını sağladık. Böylece, "**ElectricCar**" sınıfı "**Car**" sınıfa ait değişkenleri ve fonksiyonları kalıtım yoluyla almış yani değişken ve fonksiyonları genişletilmiş olur. "**ElectricCar**" sınıfı ise alt sınıf(childclass) olmuştur. Artık, "**ElectricCar**" sınıfı da "**setBrand**" ve "**setLicensePlate**" fonksiyonlarını ve "**licensePlate**", "**brand**" değişkenlerine sahip olmuş olur. Buna ek olarak "**charge**" fonksiyonu da kendisine ait bir fonksiyondur. Bu fonksiyon ATA sınıfta yer almaz. Burada "Car" ve "ElectricCar" sınıfları arasında "IS-A" ilişkisi vardır. Yani  "ElectricCar" bir "Car" dır.
 
-````java
+```java
 // Ata sınıf
 public class Car {
 
@@ -98,5 +98,4 @@ public class ElectricCar extends Car {
 		return builder.toString();
 	}
 }
-````
-
+```
