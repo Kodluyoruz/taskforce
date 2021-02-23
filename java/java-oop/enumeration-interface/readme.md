@@ -23,7 +23,6 @@ ArrayList<String> aylar = new ArrayList<>();
         System.out.println(aylar.get(1));
 
 Output:OCAK
-
 ```
 
 Şimdi bu örneği Enum yapısı kullanarak inceleyelim.
@@ -64,11 +63,7 @@ Görüldüğü üzere herhangi bir dizi tanımlamadan sadece Class tanımlar gib
 - Enum sabitleri otomatik olarak static ve final tanımlanırlar, yaratıldıktan sonra değiştirilemezler.
 - Enum türleri bir sınıfın içinde veya dışında yaratılabilirler.
 
-
-
 ### Collections Kütüphanesine ait enumeration() Methodu
-
-
 
 Enumeration arayüzü ile veri kümesindeki nesneler üzerinde tek tek gezme işlemi yapılabilir. Enumeration’lar bir veri listesi üzerine kurulur. Enumeration nesnesi bir gezgin gibi veri kümesindeki elemanları tek tek dolaşırken indeks numarasına gerek duymaz. Veri kümesi üzerinde döngü kurulmasını sağlar.
 
@@ -111,11 +106,9 @@ while(enumerationObject1.hasMoreElements())
 
 Yukarıdaki örnekte bir veri kümesinden Enumeration oluşturup while döngüsünde kullanımı gösterilmiştir. Buradaki veri kümemiz liste tipinde elektrikli araçlar listesidir. Bu araç listesini tek tek dolaşacak bir Enumeration nesnesi oluşturuyoruz. Bunu yaparken Collections isimli sınıfın `enumeration()` isimli statik fonksiyonunu kullanıyoruz. Bu fonksiyona elimizdeki veri kümesini girdi olarak gönderiyoruz. "enumeration" fonksiyonu da bu veri kümesi üzerinde dolaşabileceğimiz bir enumeration nesnesi döndürüyor.
 
-
-
 ### Kaynaklar
 
-- [1](https://www.geeksforgeeks.org/collections-enumeration-method-in-java-with-examples/)
-- [2](https://koraypeker.com/2018/12/01/enumeration-nedir/)
-- [3](https://www.injavawetrust.com/tag/enum-nedir/)
-- [4](https://www.seckintozlu.com/1361-javada-enum-turleri.html)
+- [https://www.geeksforgeeks.org/collections-enumeration-method-in-java-with-examples/](https://www.geeksforgeeks.org/collections-enumeration-method-in-java-with-examples/)
+- [https://koraypeker.com/2018/12/01/enumeration-nedir/](https://koraypeker.com/2018/12/01/enumeration-nedir/)
+- [https://www.injavawetrust.com/tag/enum-nedir/](https://www.injavawetrust.com/tag/enum-nedir/)
+- [https://www.seckintozlu.com/1361-javada-enum-turleri.html](https://www.seckintozlu.com/1361-javada-enum-turleri.html)
