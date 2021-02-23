@@ -33,7 +33,7 @@ class EncapsulationDemo {
 
 Örnekte de görüldüğü gibi, EncapsulationDemo sınıfı içerisindeki değişkenleri public yaptığımızda kontrol dışı kalmıştır, yani EncapsulationDemo sınıfından objeler üreten tüm sınıflar bu değişkenleri istedikleri gibi kontrolsüz bir şekilde değiştirebilme imkanları vardır. Bu da kodlarımızın güvenliği için istenilmeyen bir durumdur. Bu nedenle kapsülleme yöntemini kullanırız. 
 
-**Protected:** Kendini extends edenlere, yani subbclaslarına ve aynı paket içerisindeki diğer kodlara erişim imkanı sunar. 
+**Protected:** Kendini extends edenlere, yani subclasslarına ve aynı paket içerisindeki diğer kodlara erişim imkanı sunar. 
 
 **Default:** Sadece aynı paket içerisinde bulunan sınıf ve metotlar tarafından erişilme imkanı vardır. 
 
