@@ -124,7 +124,6 @@ OutputStream > FilterOutputStream > BufferedOutputStream
 ![BufferedOutputStream](figures/BufferedOutputStream.png) 
 
 Şimdi de örnek java kodunu inceleyelim:
-
 ```java 
 package example;
 
@@ -137,31 +136,30 @@ public class BufferedOutputStreamOrnek {
 
 		//Yazılacak dosyanın yolunu verdik.
 		FileOutputStream yazi = new FileOutputStream("C:\\Users\\Public\\Documents\\test.txt");
-		
+
 		//Dosyaya kolayca ve hızlı bir biçimde ulaşmak için BufferedOutputStream'i kullandık.
 		BufferedOutputStream yazi1 = new BufferedOutputStream(yazi);
-		
+
 		//Yazılacak metni girdik.
 		String s = "Hızlı bir dosyaya yazma işlemidir.";
-		
+
 		//Byte değerinde yazma işlemi yaptığı için byte[] dizisine dönüştürdük.
 		byte b[] = s.getBytes();
-	
+
 		//Dosyaya yazıyı yazdırdık.
 		yazi1.write(b);
-		
+
 		//flush() metodunu kullanmasaydık yazma işlemi tamamlanamazdı. flush() metodunu kullanmak zorundayız.
 		yazi1.flush();
-		
+
 		//Dosyalarımızı dışarıdan içeri doğru sırayla kapattık. Unutmayın dosyaları kapatmalıyız!
 		yazi1.close();
 		yazi.close();
-		
+
 		//Console ekranına işlemin başarılı olduğunu yazdırdık.
 		System.out.println("Başarılıdır.");
-		
+
 		//Bu arada throws Exception ile hata fırlattık. Diğer yöntem de try catch mekanizmasıydı.
-		
 	}
 
 }
@@ -223,44 +221,42 @@ import java.io.IOException;
 public class ByteStreamOrnek {
 
 	public static void main(String[] args) throws IOException {
-		
+
 	      //7 byte ara belleğe sahip bir ByteArrayOutputStream nesnesi oluşturduk.
 	      ByteArrayOutputStream yazi = new ByteArrayOutputStream(7);
 
 	      //Yazmak istediğimiz değer String tipinde olduğu için getBytes() ile byte değerine çevirdik.
 	      while( yazi.size() != 7 ) {
-	   
+
 	         yazi.write("merhaba".getBytes());  
 	      }
 	      //Yazının değerini toByteArray() ile yeni bir byte[] dizisine çevirdik.
 	      byte[] dizi = yazi.toByteArray();
-	      
+
 	      System.out.println("Yazının içeriği:");
-	      
+
 	      //Byte dizisi çıktısı istemediğimiz için karakter olarak değerleri yazdırdık.
 	      for(int i = 0; i < dizi.length; i++) {
-	      
 	         System.out.print((char)dizi[i]); 
 	      }
 
 	      System.out.println();
-	         
+
 	      int c;
-	      
+
 	      //Yazdığımız akıştaki değeri okuyabilmek için ByteArrayInputStream nesnesi tanımladık.
 	      ByteArrayInputStream oku = new ByteArrayInputStream(dizi);
-	     
+
 	      //Yazdığımız değeri okuma işlemini burada gerçekleştirdik.  
 	      for(int j = 0 ; j < 1; j++ ) {
-	    	  
+
 	         while(( c = oku.read())!= -1) {
-	        	 
+
 	            System.out.println((char)c);
 	         }
 	         //Akışta olan byte[] dizisini sıfıra eşitledik.
 	         oku.reset(); 
 	      }
 	   }
-
 }
 ```
