@@ -347,11 +347,12 @@ public class Main {
 		obj.getData(); 
 	    } 
 	}
-	```
-	a) Kod sınıfından
-	b) Kodluyoruz Sınıfından
-	c) Compilation error
-	d) Runtime error
+```
+
+a) Kod sınıfından
+b) Kodluyoruz Sınıfından
+c) Compilation error
+d) Runtime error
 
 ### Cevaplar
 	1. a
