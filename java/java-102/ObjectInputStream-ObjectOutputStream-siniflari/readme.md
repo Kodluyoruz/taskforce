@@ -14,7 +14,6 @@ Nesneleri serialize etmek için **_ObjectInputStream_**, deserialize etmek için
 
 **ObjectOutputStream'in** yaptığı, bir nesneyi bayt düzeyindeki akışa yazılabilen bir bayt dizisine dönüştürmektir. **OutputStream** sınıfını kalıtım alan sınıflar bir değeri byte formatını çevirme yeteneğine sahip oluyor. ObjectOutputStream bu yeteneği kullanıp nesneleri de byte türünde saklayabilmemizi sağlıyor.
 
-
 ##### **_ObjectInputStream_**:
 
 ![Objectinputstream](https://github.com/mustafakilicc/taskforce/blob/main/java/java-101/ObjectInputStream-ObjectOutputStream-siniflari/figures/Objinputstream.png)
@@ -104,8 +103,6 @@ System.out.println(employee1.getName());
 //Streami sonlandırıyoruz.
 objectInputStream.close();
 ```
-
-
 
 Nesnenin içindeki;
 
