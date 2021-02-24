@@ -2,7 +2,7 @@
 
 Java'da alt sınıflar ATA sınıftan aldıkları metotları ezebilirler. Bu yönteme "Overriding" denilmektedir. Alt sınıfta üst sınıfın metodunu ezmek için `@Override` anahtar kelimesi kullanılır.
 
-Önemli: Metodu ezebilmek için alt sınıftaki metot imzasıyla, üst sınıftaki metot imzası aynı olması gerekmektedir. Metot imzasından kasıt, metot isimlerinin aynı olması, aynı girdileri alması ve aynı tipte değer döndürmeli veya döndürmemelidir. Ayrıca, Java&#39;da üst sınıftaki &quot;private&quot; metotları ezemezseniz, yani "override" edemezsiniz.
+Önemli: Metodu ezebilmek için alt sınıftaki metot imzasıyla, üst sınıftaki metot imzası aynı olması gerekmektedir. Metot imzasından kasıt, metot isimlerinin aynı olması, aynı girdileri alması ve aynı tipte değer döndürmeli veya döndürmemelidir. Ayrıca, Java'da üst sınıftaki "private" metotları ezemezseniz, yani "override" edemezsiniz.
 
 ```java
 @Override
@@ -11,7 +11,7 @@ protected void showInfo() {
 }
 ```
 
-Yukarıdaki "showInfo" metodu, &quot;ElectricCar&quot; sınıfı içinde `@Override` tanımlamasıyla üst sınıftaki metodu ezmektedir. "ElectricCar" tipinden oluşturulan nesneler üzerinden "showInfo" metodunu çağıracak olursak "ElectricCar" sınıfı içindeki metodu çağıracaktır.
+Yukarıdaki "showInfo" metodu, "ElectricCar" sınıfı içinde `@Override` tanımlamasıyla üst sınıftaki metodu ezmektedir. "ElectricCar" tipinden oluşturulan nesneler üzerinden "showInfo" metodunu çağıracak olursak "ElectricCar" sınıfı içindeki metodu çağıracaktır.
 
 ```java
 ElectricCar electricCar3 = new ElectricCar();
