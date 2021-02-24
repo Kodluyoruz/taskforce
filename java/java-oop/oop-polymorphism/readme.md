@@ -9,56 +9,52 @@ Bunu yapabilmek için iki yöntem vardır.
 
 ## Aşırı Yükleme (Overloading)
 
-````java
+```java
 public class Sum { 
-  
+
     // aşırı yüklenmiş sum() fonksiyonu
     // metod ismi aynı ve 2 parametre alıyor.
     public static int sum(int x, int y) 
     { 
         return (x + y); 
     } 
-  
+
     // aşırı yüklenmiş sum() fonksiyonu
     // metod ismi aynı ve 3 parametre alıyor.
     public static int sum(int x, int y, int z) 
-    { 
+    {
         return (x + y + z); 
-    } 
-  
+    }
+
     // aşırı yüklenmiş sum() fonksiyonu
     // metod ismi aynı ve 2 parametre alıyor. Fakat veri tipi int değil, double oldu!
     public static double sum(double x, double y) 
-    { 
+    {
         return (x + y); 
-    } 
-} 
-````
+    }
+}
+```
 
-
-
-Yukarıda &quot;Sum&quot; sınıfı içinde &quot;sum&quot; isimli metotlar vardır. Bu metotların hepsi aynı isimle, aynı işi yapıyorlar. Fakat, farklı biçimlerle bunu yapıyorlar.
+Yukarıda "Sum" sınıfı içinde "sum" isimli metotlar vardır. Bu metotların hepsi aynı isimle, aynı işi yapıyorlar. Fakat, farklı biçimlerle bunu yapıyorlar.
 
 Metot ismi aynı olsa da farklı sayıda parametre alıyorlar. Farklı veri tipleri alabiliyorlar. Aynı isimli metodun farklı sayıda parametre veya farklı sayıda veri tipiyle ile çalışmasına metot aşırı yüklenmesi diyoruz.
 
 ## Metotların Ezilmesi (Overriding Metods)
 
-Java&#39;da alt sınıflar ATA sınıftan aldıkları metotları ezebilirler. Bu yönteme &quot;Overriding&quot; denilmektedir. Alt sınıfta üst sınıfın metodunu ezmek için &quot;@Override&quot; anahtar kelimesi kullanılır.
+Java'da alt sınıflar ATA sınıftan aldıkları metotları ezebilirler. Bu yönteme "Overriding" denilmektedir. Alt sınıfta üst sınıfın metodunu ezmek için `@Override` anahtar kelimesi kullanılır.
 
-Önemli: Metodu ezebilmek için alt sınıftaki metot imzasıyla, üst sınıftaki metot imzası aynı olması gerekmektedir. Metot imzasından kasıt, metot isimlerinin aynı olması, aynı girdileri alması ve aynı tipte değer döndürmeli veya döndürmemelidir. Ayrıca, Java&#39;da üst sınıftaki &quot;private&quot; metotları ezemezseniz, yani &quot;override&quot; edemezsiniz.
+Önemli: Metodu ezebilmek için alt sınıftaki metot imzasıyla, üst sınıftaki metot imzası aynı olması gerekmektedir. Metot imzasından kasıt, metot isimlerinin aynı olması, aynı girdileri alması ve aynı tipte değer döndürmeli veya döndürmemelidir. Ayrıca, Java'da üst sınıftaki "private" metotları ezemezseniz, yani "override" edemezsiniz.
 
-````java
+```java
 @Override
 protected void showInfo() {
 	System.out.println("ElectricCar: " + toString());
 }
-````
+```
 
-Yukarıdaki &quot;showInfo&quot; metodu, &quot;ElectricCar&quot; sınıfı içinde &quot;@Override&quot; tanımlamasıyla üst sınıftaki metodu ezmektedir. &quot;ElectricCar&quot; tipinden oluşturulan nesneler üzerinden &quot;showInfo&quot; metodunu çağıracak olursak &quot;ElectricCar&quot; sınıfı içindeki metodu çağıracaktır.
+Yukarıdaki "showInfo" metodu, "ElectricCar" sınıfı içinde `@Override` tanımlamasıyla üst sınıftaki metodu ezmektedir. "ElectricCar" tipinden oluşturulan nesneler üzerinden "showInfo" metodunu çağıracak olursak "ElectricCar" sınıfı içindeki metodu çağıracaktır.
 
-
-
-````java
+```java
 ElectricCar electricCar3 = new ElectricCar();
 electricCar3.setLicensePlate("45 FB 1907");
 electricCar3.setBrand("BMW");
@@ -67,18 +63,18 @@ electricCar3.setBrand("BMW");
  * Metot ezmesi yaptığımız için kalıtım aldığı üst sınıftaki "Car" sınıfındaki "showInfo" metodunu çağırmayacaktır.
  */
 electricCar3.showInfo();
-````
+```
 
-````
+```java
 Ekran Çıktısı:
 ElectricCar: [BMW 45 FB 1907 1000.0]
-````
+```
 
-&quot;Car&quot; sınıfı tipinden üretilmiş olan nesne üzerinden &quot;showInfo&quot; metodu çağırıldığında alt sınıftakileri değil de &quot;Car&quot; sınıfında tanımlı olan metodu çağıracaktır.
+"Car" sınıfı tipinden üretilmiş olan nesne üzerinden "showInfo" metodu çağırıldığında alt sınıftakileri değil de "Car" sınıfında tanımlı olan metodu çağıracaktır.
 
 
 
-````java
+```java
 Car carObject1 = new Car();
 carObject1.setBrand("Mercedes");
 carObject1.setLicensePlate("34 AKH 1970");
@@ -86,14 +82,14 @@ carObject1.setLicensePlate("34 AKH 1970");
  * "Car" sınıfı içindeki metodu çağıracaktır. Alt sınıftaki sınıflara ait metotları çağırmayacaktır.
  */
 carObject1.showInfo();
-````
+```
 
-````
+```java
 Ekran Çıktısı:
 Car: [Mercedes 34 AKH 1970]
-````
+```
 
-###Polymorphism Özellikleri
+### Polymorphism Özellikleri
 * PolyMorphism: Bir nesnenin birden fazla nesne gibi davranması olarak tanımlanabilir.
     * Bir tane superclass'a ihtiyaç vardır. Superclass'ı inheritance yoluyla miras alan subclasslar olmalı.
     * Superclass'dan türetilen referans değeri new ile subclass adıyla da çağırılır.
@@ -105,7 +101,7 @@ Car: [Mercedes 34 AKH 1970]
     * Tip dönüşümü yapmadan parametre olarak farklı değerleri yazdırabiliyoruz.
 
 
-####Örnek:
+#### Örnek:
 ```java
 package org.java.review.oop;
 
@@ -172,7 +168,6 @@ public class Main {
     }
 
     public static void main(String[] args){
-
         // İlk Gösterim
         Hayvan hayvan = new Hayvan("Hiper");
         System.out.println(hayvan.konus());
@@ -187,21 +182,19 @@ public class Main {
         konustur(new Kedi("Nasip"));
         konustur(new Kopek("Karabaş"));
         konustur(new At("Bold-Pilot"));
-
     }
-
 }
 
 ```
 
 ### instanceof - polymorphism ilişkisi
-* Obje vereceğiz objenin hangi sınıftan olduğuna bakacağız
-* Kedi sınıfı aynı zamanda Hayvan sınıfından miras alıyor. Bu yüzden superclass'la kıyaslanırsa inheritance olduğu için true döner.
-* **_Bütün classlar objeden türüyor.(Object class)_**
-* Polymorphism kullanmazsak bütün nesneleri instanceof ile kontrol etmemiz gerekir.
-* **_Yeni bir sınıf üretirsek_** ve Hayvan sınıfından miras alırsa yine kontrol etmemiz gerekecek ama polymorphism bu iş yükünü azaltıyor.
+- Obje vereceğiz objenin hangi sınıftan olduğuna bakacağız
+- Kedi sınıfı aynı zamanda Hayvan sınıfından miras alıyor. Bu yüzden superclass'la kıyaslanırsa inheritance olduğu için true döner.
+- **_Bütün classlar objeden türüyor.(Object class)_**
+- Polymorphism kullanmazsak bütün nesneleri instanceof ile kontrol etmemiz gerekir.
+- **_Yeni bir sınıf üretirsek_** ve Hayvan sınıfından miras alırsa yine kontrol etmemiz gerekecek ama polymorphism bu iş yükünü azaltıyor.
 
-####Örnek II:
+#### Örnek II:
 ```java
 package org.java.review.oop;
 
@@ -307,14 +300,11 @@ public class Main {
         konustur(kopek);
         konustur(at);
         konustur(hayvan);
-
     }
-
 }
-
 ```
 
-* Yukarıdaki Örnek II Polymorphism'in gerçek faydasını tam olarak ortaya çıkartıyor. Daha fazla hata yapma ihitmali, daha fazla kod ve daha fazla manuel kontrol. Sonuç olarak, polymorphism kullanmak kod temizliği ve güvenliği açısından verimli bir özellik.
+- Yukarıdaki Örnek II Polymorphism'in gerçek faydasını tam olarak ortaya çıkartıyor. Daha fazla hata yapma ihitmali, daha fazla kod ve daha fazla manuel kontrol. Sonuç olarak, polymorphism kullanmak kod temizliği ve güvenliği açısından verimli bir özellik.
 
 ### Sorular
 1. Aşağıdakilerden hangisi polymorphism durumunu sağlamaz ?
@@ -361,8 +351,6 @@ d) Runtime error
 
 ### Kaynaklar
 
-* [Oracle - JavaSE Polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)
-
-* [Udemy - Online Kurs](https://www.udemy.com/course/sifirdan-ileri-seviyeye-komple-java-gelistirici-kursu/)
-
-* [Medium - Nesneye Yönelik Programlama](https://medium.com/s%C4%B1f%C4%B1rdan-i%CC%87leri-d%C3%BCzeye-java-e%C4%9Fitim-serisi/nesneye-y%C3%B6nelik-programlama-oop-be3094786889)
+- [Oracle - JavaSE Polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)
+- [Udemy - Online Kurs](https://www.udemy.com/course/sifirdan-ileri-seviyeye-komple-java-gelistirici-kursu/)
+- [Medium - Nesneye Yönelik Programlama](https://medium.com/s%C4%B1f%C4%B1rdan-i%CC%87leri-d%C3%BCzeye-java-e%C4%9Fitim-serisi/nesneye-y%C3%B6nelik-programlama-oop-be3094786889)
