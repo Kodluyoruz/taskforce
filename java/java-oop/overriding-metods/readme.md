@@ -173,6 +173,22 @@ public class Main {
 }
 ```
 
+### Sorular
+1. Aşağıdakilerden hangisi yanlıştır ?
+* a. override olması için inheritance olması gerekmez.
+* b. miras alınan sınıftaki metodu dönüş tipi yani imzası ve parametreleri aynı olacak şekilde yeniden düzenleyebiliriz.
+* c. is-a ilişkisi varsa inheritance vardır.
+* d. Bir class(sınıf) ne kadar genel yapıya sahipse o derece ana class olma özelliği vardır.
+
+2. Aşağıdakilerden hangisi doğrudur ?
+* a. Static method override edilemez.
+* b. Private method override edilebilir.
+* c. Override edilen metodun aynı tipte veri dönmesi gerekmez.
+
+### Cevaplar
+1. a
+2. a
+
 ### Kaynaklar
 
 - [Oracle - JavaSE Overriding](https://docs.oracle.com/javase/tutorial/java/IandI/override.html)
