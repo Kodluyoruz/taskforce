@@ -1,7 +1,7 @@
 # Implementing Classes
 
 Java’da her şey sınıflar ve nesnelerden oluşur.
-İlk olarak, her bir sınıfın yeni bir veri türü tanımladığını belirterek işe başlamalıyız. Bir kere tanımlandıktan sonra, bu türde yeni nesneler oluşturmak için sınıfları kullanabiliriz. Bu yüzden diyebiliriz ki, sınıflar nesneler için bir şablon niteliğindedir. Daha da kısa bir şekilde özetleyecek olursak bir class nesnelerin özelliklerini ve davranışlarını tanımlar. 
+İlk olarak, her bir sınıfın yeni bir veri türü tanımladığını belirterek işe başlamalıyız. Bir kere tanımlandıktan sonra, bu türde yeni nesneler oluşturmak için sınıfları kullanabiliriz. Bu yüzden diyebiliriz ki, sınıflar nesneler için bir şablon niteliğindedir. Daha da kısa bir şekilde özetleyecek olursak bir class nesnelerin özelliklerini ve davranışlarını tanımlar.
 
 Bir sınıf oluşturduğumuz zaman aslında yeni bir veri türünü taslak olarak tanımlamış oluruz. Sınıfın içinde tanımladığımız değişkenlere o sınıfın alanları (fields) denir. Kodlarımızı ise metotların içine yazarız. Birlikte, metotlar ve alanlar bir sınıfın üyelerini (members) oluşturur.
 
@@ -12,7 +12,6 @@ Nesneler sınıfların birer örneğidir. Birden fazla örnek oluşturabiliriz. 
 Bu bilgileri somutlaştıracak olursak şekil adında bir class'a sahip olalım ve bundan dikdörtgen adında bir nesne oluşturalım. Classımız en, boy özelliklerine sahip olmalıdır ve şekil için gerekli alan ve çevre hesaplama metodlarına sahip olsun. Bu durumda classımızdan bir diktörtgen oluşturmak istersek sınıfın özelliklerine ve metodlarına sahip olacaktır.
 
 ## Basit Bir Sınıf Örneği
-
 Basit bir sınıf tanımlayarak işe başlayalım.
 
 ```java
@@ -49,28 +48,28 @@ Biraz daha karmaşık bir örnekle devam edelim. Bu örnekte, daire classımızd
 
 ```java
 public class TestSimpleCircle {
-/** Main method */
-public static void main(String[] args) {
-// Yarıçap değeri 1 olan circle1 dairesi oluşturuldu.
-SimpleCircle circle1 = new SimpleCircle();
-System.out.println("The area of the circle of radius "
-+ circle1.radius + " is " + circle1.getArea());
+    /** Main method */
+    public static void main(String[] args) {
+    // Yarıçap değeri 1 olan circle1 dairesi oluşturuldu.
+    SimpleCircle circle1 = new SimpleCircle();
+    System.out.println("The area of the circle of radius "
+    + circle1.radius + " is " + circle1.getArea());
 
-// Yarıçap değeri 25 olan circle2 dairesi oluşturuldu.
-SimpleCircle circle2 = new SimpleCircle(25);
-System.out.println("The area of the circle of radius "
-+ circle2.radius + " is " + circle2.getArea());
+    // Yarıçap değeri 25 olan circle2 dairesi oluşturuldu.
+    SimpleCircle circle2 = new SimpleCircle(25);
+    System.out.println("The area of the circle of radius "
+    + circle2.radius + " is " + circle2.getArea());
 
-// Yarıçap değeri 125 olan circle3 dairesi oluşturuldu.
-SimpleCircle circle3 = new SimpleCircle(125);
-System.out.println("The area of the circle of radius "
-+ circle3.radius + " is " + circle3.getArea());
+    // Yarıçap değeri 125 olan circle3 dairesi oluşturuldu.
+    SimpleCircle circle3 = new SimpleCircle(125);
+    System.out.println("The area of the circle of radius "
+    + circle3.radius + " is " + circle3.getArea());
 
-// Daire yarıçapnı düzenleme
-circle2.radius = 100; // yada circle2.setRadius(100)
-System.out.println("The area of the circle of radius "
-+ circle2.radius + " is " + circle2.getArea());
-}
+    // Daire yarıçapnı düzenleme
+    circle2.radius = 100; // yada circle2.setRadius(100)
+    System.out.println("The area of the circle of radius "
+    + circle2.radius + " is " + circle2.getArea());
+    }
 }
 
 // İki construct ile SimpleCircle tanımlandı.
@@ -125,9 +124,9 @@ Bir nesne **new** operatörü ile çağırıldığında ilk olarak sınıfa ait 
 
 ###### Oluşturduğumuz referans tipi ile primitive tipleri arasındaki fark nedir?
 
-Her değişken bellekte bir alan kaplar. Referans tipteki bir değişkenin değeri nesnenin bulunduğu yere referanstır.
+Her değişken bellekte bir alan kaplar. Referans tipteki bir değişkenin değeri nesnenin bulunduğu yere referanstır. Bir değişkeni başka bir değişken değerine atadığımızda aynı değeri alır.
 
-Bir değişkeni başka bir değişken değerine atadığımızda aynı değeri alır. Örneklendirecek olursak
+Örneklendirecek olursak;
 
 ```java
 int i = 1;
