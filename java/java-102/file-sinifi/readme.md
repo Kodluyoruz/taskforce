@@ -42,7 +42,7 @@ _File_ sınıfının bazı önemli metotlarını aşağıdaki tabloda inceleyeli
 
 File nesnesi kullanılarak "filename.txt" adlı bir dosya oluşturma örneği:
 
-``` java
+```java
    try {
             File file = new File("filename.txt");
             if (file.createNewFile()) {
@@ -59,14 +59,14 @@ File nesnesi kullanılarak "filename.txt" adlı bir dosya oluşturma örneği:
 
 Dosyamızı oluşturduk, şimdi dosyamızda bazı özellikleri kontrol edelim.
 
-``` java
-  		// Dosyanın ismini yazdırıyoruz.
-		System.out.println("Dosya ismi:"+file.getName());
+```java
+  	// Dosyanın ismini yazdırıyoruz.
+	System.out.println("Dosya ismi:"+file.getName());
 
-		//Dosyanın tam yolunu yazdırıyoruz  
+	//Dosyanın tam yolunu yazdırıyoruz  
         System.out.println("Dosyanın tam yolu: " + file.getAbsolutePath());
-		
-		 // Dosyanın mevcut olup olmadığını yazdırıyoruz.
+
+	// Dosyanın mevcut olup olmadığını yazdırıyoruz.
         System.out.println("Dosyanın mevcut olma durumu:"+file.exists());
 
         // Dosyayı okuma yetkimiz olup olmadığını yazdırıyoruz.
@@ -77,13 +77,12 @@ Dosyamızı oluşturduk, şimdi dosyamızda bazı özellikleri kontrol edelim.
 
         // Dosya boyutunun byte cinsinden değerini yazdırıyoruz.
         System.out.println("Dosya byte boyutu:"+file.length());
-
 ```
 
 Özelliklerimizi kontrol ettikten sonra dosyamızı okuyabiliriz.
 
 ```java
-	 try {          
+	try {          
             Scanner myReader = new Scanner(file);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
@@ -96,11 +95,8 @@ Dosyamızı oluşturduk, şimdi dosyamızda bazı özellikleri kontrol edelim.
         }
 ```
 
-
-
 Artık dosyamızı silebiliriz.
-
-``` java
+```java
  		if (file.delete()) {
             System.out.println(file.getName()+"İsimli dosya silindi");
         } else {
