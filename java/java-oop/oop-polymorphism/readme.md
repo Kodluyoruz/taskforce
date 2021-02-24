@@ -323,7 +323,7 @@ public class Main {
 		c. Superclass'dan türetilen referans değeri new ile subclass adıyla da çağırılır.
 		d. Eğer subclass içinde overriding yapılmışsa subclass içindeki metod superclass içindeki metodu ezer.
 * 2. What is the output of the following program?
-
+```java
 	class Kod 
 	{ 
 	    protected void getData() 
@@ -346,7 +346,8 @@ public class Main {
 		Kdo obj = new Kodluyoruz(); 
 		obj.getData(); 
 	    } 
-	} 
+	}
+	```
 	a) Kod sınıfından
 	b) Kodluyoruz Sınıfından
 	c) Compilation error
