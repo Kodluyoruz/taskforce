@@ -306,49 +306,6 @@ public class Main {
 
 - Yukarıdaki Örnek II Polymorphism'in gerçek faydasını tam olarak ortaya çıkartıyor. Daha fazla hata yapma ihitmali, daha fazla kod ve daha fazla manuel kontrol. Sonuç olarak, polymorphism kullanmak kod temizliği ve güvenliği açısından verimli bir özellik.
 
-### Sorular
-1. Aşağıdakilerden hangisi polymorphism durumunu sağlamaz ?
-* a. Polymorphism kullanırsak bütün nesneleri instanceof ile kontrol etmemiz gerekir.
-* b. Bir tane superclass'a ihtiyaç vardır. Superclass'ı inheritance yoluyla miras alan subclasslar olmalı.
-* c. Superclass'dan türetilen referans değeri new ile subclass adıyla da çağırılır.
-* d. Eğer subclass içinde overriding yapılmışsa subclass içindeki metod superclass içindeki metodu ezer.
-
-2. What is the output of the following program?
-```java
-	class Kod 
-	{ 
-	    protected void getData() 
-	    { 
-		System.out.println("Kod sınıfından"); 
-	    } 
-	} 
-	class Kodluyoruz extends Kod 
-	{ 
-	    protected void getData() 
-	    { 
-		System.out.println("Kodluyoruz Sınıfından"); 
-	    } 
-	} 
-
-	public class Test 
-	{ 
-	    public static void main(String[] args) 
-	    { 
-		Kdo obj = new Kodluyoruz(); 
-		obj.getData(); 
-	    } 
-	}
-```
-
-a) Kod sınıfından
-b) Kodluyoruz Sınıfından
-c) Compilation error
-d) Runtime error
-
-### Cevaplar
-	1. a
-	2. b
-
 ### Kaynaklar
 
 - [Oracle - JavaSE Polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)
