@@ -8,7 +8,7 @@ Java 7'de yeni bir özellik olarak tanıtılan diamond operatörünü JDK 7 ile 
 Nullable<Integer> nullable = new Nullable<Integer>();
 ```
 
-Burada öncelikle **_Nullable<Integer>_** türünde bir değişken oluşturuyoruz. Daha sonra bu değişkene yine bu türde bir atama yapıyoruz. Dikkat ederseniz, **_Nullable_** nesnesini oluştururken de parametre olarak Integer yazdık. Fakat JDK 7 ile artık bunu belirtmemize gerek yoktur; çünkü Java derleyicisi değişkene bakarak türün ne olduğunu anlayabilir. Dolayısıyla, yukarıdaki kodu daha kısa bir şekilde yazabiliriz:
+Burada öncelikle **_Nullable<Integer>_** türünde bir değişken oluşturuyoruz. Daha sonra bu değişkene yine bu türde bir atama yapıyoruz. Dikkat ederseniz, **_Nullable_** nesnesini oluştururken de parametre olarak Integer yazdık. Fakat JDK 7 ile artık bunu belirtmemize gerek yoktur; çünkü Java derleyicisi değişkene bakarak türün ne olduğunu anlayabilir. Dolayısıyla, yukarıdaki kodu daha kısa bir şekilde yazabiliriz :
 
 ```java
 Nullable<Integer> nullable = new Nullable<>();
@@ -30,7 +30,7 @@ arrayList.add("First");
 arrayList.add("Second");
 ```
 
-Programın ```–Xlint:unchecked``` olarak derlenmesi aşağıdaki uyarılara neden olur:
+Programın `–Xlint:unchecked` olarak derlenmesi aşağıdaki uyarılara neden olur:
 
 ```java
 ... codenuclear\Diamond.java:10: warning: [unchecked] unchecked call to add(E) as a member of the
@@ -43,11 +43,12 @@ where E is a type-variable:
 E extends Object declared in class ArrayList
 2 warnings
 ```
-
 Veri türü aşağıdaki gibi belirtilirse bu uyarılar kaybolacaktır:
 
 ```java
 List<String> arrayList = new ArrayList<>();
 ```
 
-Kaynak : https://codenuclear.com/diamond-operator-type-inference-generic-instance-creation-java/
+## Kaynaklar
+
+- [https://codenuclear.com/diamond-operator-type-inference-generic-instance-creation-java/](https://codenuclear.com/diamond-operator-type-inference-generic-instance-creation-java/)

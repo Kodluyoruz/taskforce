@@ -134,10 +134,10 @@ catch (IOException ex)
 
 BufferedReader  InputStreamReader'a kıyasla epey hızlı çalışır. Bunu buffer kullanarak başarır.
 
- `BufferedReader`ın  bir başka avantajı , metin dosyasını yalnızca karakter karakter değil, satır satır da okumanıza ve işlemenize olanak tanıyan ek bir yöntem olarak `readLine()` metodunu sunmasıdır:
+`BufferedReader`ın  bir başka avantajı , metin dosyasını yalnızca karakter karakter değil, satır satır da okumanıza ve işlemenize olanak tanıyan ek bir yöntem olarak `readLine()` metodunu sunmasıdır:
 
 ```java
-try  
+try
 {
   String fileName = "ornek_dosya.txt";  
   FileReader reader = new FileReader(fileName);
@@ -156,15 +156,15 @@ catch (IOException ex)
 
 Java'da dosya okumak için kullanılan yöntemlerinin, okuma süresi üzerinde nasıl etkili olduğunu görmek için 100 milyon baytlık bir dosya kullanılarak süreleri karşılaştırılmış.
 
-![Reading-files-in-Java-performance-comparison](https://raw.githubusercontent.com/mustafakilicc/taskforce/main/java/java-101/reader-writer/figures/Reading-files-in-Java-performance-comparison.webp)
+![Reading-files-in-Java-performance-comparison](figures/Reading-files-in-Java-performance-comparison.webp)
 
 **Buffer kullanmayan** ve **Buffer kullanan** yöntemler arasındaki büyük fark, **Buffer kullanan **yöntemlerin yukarıdaki şemada kendi aralarındaki farkın görünmesini zorlaştırıyor. Bu nedenle, aşağıda **Buffer kullanan** yöntemleri gösteren ikinci bir diyagramla yakından bakalım:
 
-![Reading-files-in-Java-performance-comparison-buffered](https://raw.githubusercontent.com/mustafakilicc/taskforce/main/java/java-101/reader-writer/figures/Reading-files-in-Java-performance-comparison-buffered.webp)
+![Reading-files-in-Java-performance-comparison-buffered](figures/Reading-files-in-Java-performance-comparison-buffered.webp)
 
 Biraz karışık gelmiş olabilir, buraya kadar bir çok sınıf ve metod kullandık. Bu sınıfların ilişkilerini görsel olarak görmek size biraz yardımcı olacaktır.
 
-![](https://github.com/mustafakilicc/taskforce/blob/main/java/java-101/reader-writer/figures/Java-FileInputStream-FileReader-InputStreamReader-BufferedInputStream-BufferedReader-en-v2.svg)
+![](figures/Java-FileInputStream-FileReader-InputStreamReader-BufferedInputStream-BufferedReader-en-v2.svg)
 
 Düz çizgiler, binary verilerin akışını temsil eder; kesikli çizgiler, metin verilerinin, yani karakterlerin akışını gösterir.
 
@@ -190,15 +190,15 @@ catch (IOException ex)
 
 Java'da dosyaya veri  yazmak için kullanılan yöntemlerinin, yazma süresi üzerinde nasıl etkili olduğunu görmek için 100 milyon baytlık bir dosya kullanılarak süreleri karşılaştırılmış:
 
-![Writing-files-in-Java-performance-comparison-v2](https://raw.githubusercontent.com/mustafakilicc/taskforce/main/java/java-101/reader-writer/figures/Writing-files-in-Java-performance-comparison-v2.webp)
+![Writing-files-in-Java-performance-comparison-v2](figures/Writing-files-in-Java-performance-comparison-v2.webp)
 
 **Buffer kullanmayan** ve **Buffer kullanan** yöntemler arasındaki büyük fark okumada olduğu gibi burda da açıkça görünüyor.  **Buffer kullanan** yöntemlerin kendi aralarındaki farkı da aşağıdaki görselde görebiliyoruz:
 
-![Writing-files-in-Java-performance-comparison-buffered](https://raw.githubusercontent.com/mustafakilicc/taskforce/main/java/java-101/reader-writer/figures/Writing-files-in-Java-performance-comparison-buffered.webp)
+![Writing-files-in-Java-performance-comparison-buffered](figures/Writing-files-in-Java-performance-comparison-buffered.webp)
 
 Okuma yapmak için kullanılan sınıfların kendi aralarındaki ilişkiyi görmek işinizi kolaylaştıracaktır:
 
-![Java-FileOutputStream-FileWriter-OutputStreamWriter-BufferedOutputStream-BufferedWriter-en](https://github.com/mustafakilicc/taskforce/blob/main/java/java-101/reader-writer/figures/Java-FileOutputStream-FileWriter-OutputStreamWriter-BufferedOutputStream-BufferedWriter-en.svg)
+![Java-FileOutputStream-FileWriter-OutputStreamWriter-BufferedOutputStream-BufferedWriter-en](figures/Java-FileOutputStream-FileWriter-OutputStreamWriter-BufferedOutputStream-BufferedWriter-en.svg)
 
 
 ## Kaynak:

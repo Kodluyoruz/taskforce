@@ -1,19 +1,19 @@
 # Metotların Ezilmesi (Overriding Metods)
 
-Java&#39;da alt sınıflar ATA sınıftan aldıkları metotları ezebilirler. Bu yönteme &quot;Overriding&quot; denilmektedir. Alt sınıfta üst sınıfın metodunu ezmek için &quot;@Override&quot; anahtar kelimesi kullanılır.
+Java'da alt sınıflar ATA sınıftan aldıkları metotları ezebilirler. Bu yönteme "Overriding" denilmektedir. Alt sınıfta üst sınıfın metodunu ezmek için `@Override` anahtar kelimesi kullanılır.
 
-Önemli: Metodu ezebilmek için alt sınıftaki metot imzasıyla, üst sınıftaki metot imzası aynı olması gerekmektedir. Metot imzasından kasıt, metot isimlerinin aynı olması, aynı girdileri alması ve aynı tipte değer döndürmeli veya döndürmemelidir. Ayrıca, Java&#39;da üst sınıftaki &quot;private&quot; metotları ezemezseniz, yani &quot;override&quot; edemezsiniz.
+Önemli: Metodu ezebilmek için alt sınıftaki metot imzasıyla, üst sınıftaki metot imzası aynı olması gerekmektedir. Metot imzasından kasıt, metot isimlerinin aynı olması, aynı girdileri alması ve aynı tipte değer döndürmeli veya döndürmemelidir. Ayrıca, Java'da üst sınıftaki "private" metotları ezemezseniz, yani "override" edemezsiniz.
 
-````java
+```java
 @Override
 protected void showInfo() {
 	System.out.println("ElectricCar: " + toString());
 }
-````
+```
 
-Yukarıdaki &quot;showInfo&quot; metodu, &quot;ElectricCar&quot; sınıfı içinde &quot;@Override&quot; tanımlamasıyla üst sınıftaki metodu ezmektedir. &quot;ElectricCar&quot; tipinden oluşturulan nesneler üzerinden &quot;showInfo&quot; metodunu çağıracak olursak &quot;ElectricCar&quot; sınıfı içindeki metodu çağıracaktır.
+Yukarıdaki "showInfo" metodu, "ElectricCar" sınıfı içinde `@Override` tanımlamasıyla üst sınıftaki metodu ezmektedir. "ElectricCar" tipinden oluşturulan nesneler üzerinden "showInfo" metodunu çağıracak olursak "ElectricCar" sınıfı içindeki metodu çağıracaktır.
 
-````java
+```java
 ElectricCar electricCar3 = new ElectricCar();
 electricCar3.setLicensePlate("45 FB 1907");
 electricCar3.setBrand("BMW");
@@ -22,19 +22,17 @@ electricCar3.setBrand("BMW");
  * Metot ezmesi yaptığımız için kalıtım aldığı üst sınıftaki "Car" sınıfındaki "showInfo" metodunu çağırmayacaktır.
  */
 electricCar3.showInfo();
-````
+```
 
 Ekran Çıktısı:
 
-````terminal
+```terminal
 ElectricCar: [BMW 45 FB 1907 1000.0]
-````
+```
 
+"Car" sınıfı tipinden üretilmiş olan nesne üzerinden "showInfo" metodu çağırıldığında alt sınıftakileri değil de "Car" sınıfında tanımlı olan metodu çağıracaktır.
 
-
-&quot;Car&quot; sınıfı tipinden üretilmiş olan nesne üzerinden &quot;showInfo&quot; metodu çağırıldığında alt sınıftakileri değil de &quot;Car&quot; sınıfında tanımlı olan metodu çağıracaktır.
-
-````java
+```java
 Car carObject1 = new Car();
 carObject1.setBrand("Mercedes");
 carObject1.setLicensePlate("34 AKH 1970");
@@ -42,22 +40,24 @@ carObject1.setLicensePlate("34 AKH 1970");
  * "Car" sınıfı içindeki metodu çağıracaktır. Alt sınıftaki sınıflara ait metotları çağırmayacaktır.
  */
 carObject1.showInfo();
-````
+```
 
 Ekran Çıktısı:
 
-`````terminal
+```terminal
 Car:[Mercedes 34 AKH 1970]
-`````
-###Overriding - Inheritance ve super ilişkisi
+```
 
-* ****override** olması için inheritance olması gerekir.**
-* **miras alınan sınıftaki metodu dönüş tipi yani imzası ve parametreleri aynı olacak şekilde yeniden düzenleyebiliriz.**
-* is-a ilişkisi varsa inheritance vardır.
-* Örneğin: çalışan ve yönetici olarak iki farklı başlık olsa da sonuç olarak ikisi de çalışan.
-* Bir class(sınıf) ne kadar genel yapıya sahipse o derece ana class olma özelliği vardır.
-* Yani tüm neseneler için ortak özellikleri barındıran class olarak düşünülebilir.
-####Örnek:
+### Overriding - Inheritance ve super ilişkisi
+
+- ****override** olması için inheritance olması gerekir.**
+- **miras alınan sınıftaki metodu dönüş tipi yani imzası ve parametreleri aynı olacak şekilde yeniden düzenleyebiliriz.**
+- is-a ilişkisi varsa inheritance vardır.
+- Örneğin: çalışan ve yönetici olarak iki farklı başlık olsa da sonuç olarak ikisi de çalışan.
+- Bir class(sınıf) ne kadar genel yapıya sahipse o derece ana class olma özelliği vardır.
+- Yani tüm neseneler için ortak özellikleri barındıran class olarak düşünülebilir.
+
+#### Örnek:
 ```java
 public class Worker { //SuperClass or BaseClass
 
@@ -119,13 +119,14 @@ public class Worker { //SuperClass or BaseClass
     }
 }
 ```
-* Worker içindeki özellikler private olduğu için sadece o sınıf içinde kullanılabilir.
-* Bu nedenle Manager sınıfında bu verilere erişebilmek için constructor oluşturuyoruz.
-* Sadece constructor yetmez tabi ek olarak bu verilerin superclass'dan geldiğini ifade etmek için
-* "super" anahtar kelimesini kullanıyoruz.
-* Ek olarak Manager sınıfına sadece o sınıfa ait özellikler ve metodlar eklenir.
-* super anahtar kelimesi ile üst sınıfın metedonu çağırırken super kelimesini kullanmadan çağırırsak daha güvenli olur.
-  Subclass içinde override edilmiş metod varsa o aktif olur eğer yoksa direk üst sınıfın metodunu çağırır.
+
+- Worker içindeki özellikler private olduğu için sadece o sınıf içinde kullanılabilir.
+- Bu nedenle Manager sınıfında bu verilere erişebilmek için constructor oluşturuyoruz.
+- Sadece constructor yetmez tabi ek olarak bu verilerin superclass'dan geldiğini ifade etmek için
+- "super" anahtar kelimesini kullanıyoruz.
+- Ek olarak Manager sınıfına sadece o sınıfa ait özellikler ve metodlar eklenir.
+- super anahtar kelimesi ile üst sınıfın metedonu çağırırken super kelimesini kullanmadan çağırırsak daha güvenli olur.
+- Subclass içinde override edilmiş metod varsa o aktif olur eğer yoksa direk üst sınıfın metodunu çağırır.
 
 ```java
 public class Manager extends Worker{ //SubClass
@@ -156,6 +157,7 @@ public class Manager extends Worker{ //SubClass
     }
 }
 ```
+
 ```java
 public class Main {
 
@@ -170,7 +172,7 @@ public class Main {
 
 }
 ```
+
 ### Kaynaklar
 
-* [Oracle - JavaSE Overriding](https://docs.oracle.com/javase/tutorial/java/IandI/override.html)
-
+- [Oracle - JavaSE Overriding](https://docs.oracle.com/javase/tutorial/java/IandI/override.html)

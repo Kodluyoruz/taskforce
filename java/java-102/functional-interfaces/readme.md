@@ -103,7 +103,7 @@ ifadesi içinde kullandığımız number1 değişkeninin değerini lambda ifades
 dışında değiştiriyoruz. Halbuki bu değişkenin dolaylı olarak sabit olması
 gerekirdi. Bu kodu aşağıdaki gibi yazdığımız zaman hata vermez:
 
-​```java
+```java
 final int number1 = 6;
 final int number2 = 3;
 Operation operation = (x, y) ->
@@ -112,6 +112,7 @@ Operation operation = (x, y) ->
  return x + y;
 };
 ```
+
 **STREAM API**
 
 JDK 8 ile lambda ifadelerinin Java’ya eklenmesi üzerine, yine bununla ilintili
@@ -141,6 +142,7 @@ interface Collection<T>
  Stream<T> stream();
 }
 ```
+
 **forEach() **
 
 Bu metodu kullanarak akışın bütün elemanları üzerinde bir işlem
@@ -167,6 +169,7 @@ konsola yazdırıyoruz. Bu kodu çalıştırdığınız zaman çıktısı aşağ
 7
 63
 ```
+
 **filter() **
 
 Bu metodu kullanarak akışın elemanlarını filtreleyebilirsiniz. Predicate<T>
@@ -185,7 +188,8 @@ olur.
 89
 100
 63
-````
+```
+
 **distinct() **
 
 Bu metodu kullanarak akışın içinde her elemanın en fazla 1 kez yer almasını
@@ -209,6 +213,7 @@ konsola yazdırıldığını görürsünüz:
 7
 63
 ```
+
 **sorted() **
 Bu metodu kullanarak akışın elemanlarını sıralayabilirsiniz
 
@@ -252,6 +257,7 @@ sıralanarak konsola yazdırıldığını görürsünüz:
 7
 3
 ```
+
 **limit()**
 Bu metodu kullanarak akış üzerinde gerçekleştireceğiniz işlemleri belli bir
 sayıyla sınırlandırabilirsiniz. long türünde bir sayıyı parametre olarak alır.
@@ -271,6 +277,7 @@ görürsünüz:
 89
 25
 ```
+
 **skip() **
 
 Bu metodu kullanarak akışın belli sayıda elemanını atlayabilirsiniz. Bu
@@ -290,6 +297,7 @@ yazdırıyoruz:
 44
 100
 ```
+
 **count() **
 
 Bu metodu kullanarak akıştaki eleman sayısını öğrenebilirsiniz. Bu metot akışı
@@ -363,7 +371,7 @@ Akışın elemanlarını değiştirmek için bu metodu kullanabilirsiniz.
 Function<T,R> türünde bir parametre alır ve bu fonksiyonu akışın bütün
 elemanlarına uygular. Akışın yeni elemanları bu metottan dönen değerlerdir.
 
-​```java
+```java
 list
  .stream()
  .map(number -> number * 2)

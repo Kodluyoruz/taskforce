@@ -8,13 +8,13 @@ Not: İndeks değeri olmayan veri kümelerini indeksli klasik for döngüsüyle 
 
 Iterator nesnesi aşağıdaki döngü tiplerinde kullanılabilir. 
 
-\-    while döngüsü (tavsiye edilen)
+\- while döngüsü (tavsiye edilen)
 
-\-    for döngüsü
+\- for döngüsü
 
-\-    do-while döngüsü 
+\- do-while döngüsü 
 
-Iterator interface’in fonksiyonları: 
+**Iterator interface’in fonksiyonları:**
 
 | boolean  hasNext()                                 | Iterator ile  veri kümesi üzerinde dolaşırken devam edilebilecek bir sonraki elemanın var  olup olmadığını true/false şeklinde belirtir. |
 | -------------------------------------------------- | ------------------------------------------------------------ |
@@ -28,9 +28,9 @@ Iterator interface’in fonksiyonları:
 List<ElectricCar> electricalCars = new ArrayList<ElectricCar>();
 electricalCars.add(new ElectricCar("BMW", "34 AL 377", 100));
 electricalCars.add(new ElectricCar("Mercedes", "35 Aa 547", 200));
- 
+
 Iterator<ElectricCar> iteratorObject = electricalCars.iterator();
- 
+
 while(iteratorObject.hasNext()) 
 {       
         ElectricCar electricCar = iteratorObject.next();
@@ -42,7 +42,6 @@ while(iteratorObject.hasNext())
 
 ```java
 Iterator<ElectricCar> iteratorObject = electricalCars.iterator();
- 
 electricalCars.add(new ElectricCar("Mercedes", "35 Aa 547", 200));
 ```
 
@@ -62,28 +61,27 @@ List<ElectricCar> electricalCars = new ArrayList<ElectricCar>();
 electricalCars.add(new ElectricCar("BMW", "34 AL 377", 100));
 electricalCars.add(new ElectricCar("Mercedes", "35 Aa 547", 200));
 electricalCars.add(new ElectricCar("BMW", "45 AB 547", 200));
- 
- 
+
 Iterator<ElectricCar> iteratorObject = electricalCars.iterator();
- 
+
 while(iteratorObject.hasNext()) 
-{       
+{
         ElectricCar electricCar = iteratorObject.next();
         
         if(electricCar.getBrand().equals("BMW")) {
                iteratorObject.remove();
         }
 }
- 
+
 Iterator<ElectricCar> iteratorObject2 = electricalCars.iterator();
- 
+
 while(iteratorObject2.hasNext()) 
-{       
+{
         ElectricCar electricCar = iteratorObject2.next();
         electricCar.showInfo();
 }
 ```
 
- Yukarıdaki senaryo mülakatlarda da çıkacaktır. Sizlere bir liste verilir ve döngü kurup içinden bazı elemanları silmeniz beklenir. Bu tarz durumlarda bu silme işlemini Iterator üzerinden yapabileceğinizi söylemek gerekiyor. Aynı, şekilde Iterator nesnesi ile döngü içindeyken yeni bir eleman eklemesi yapamazsınız. Bunu akılda tutmak gerekiyor. 
+Yukarıdaki senaryo mülakatlarda da çıkacaktır. Sizlere bir liste verilir ve döngü kurup içinden bazı elemanları silmeniz beklenir. Bu tarz durumlarda bu silme işlemini Iterator üzerinden yapabileceğinizi söylemek gerekiyor. Aynı, şekilde Iterator nesnesi ile döngü içindeyken yeni bir eleman eklemesi yapamazsınız. Bunu akılda tutmak gerekiyor. 
 
 Not: Veri kümemizde çok fazla eleman varsa, binlerce elemanlık bir veri kümesi gibi, Iterator ile while döngüsünü kullanmak performans kazancı sağlayacaktır.

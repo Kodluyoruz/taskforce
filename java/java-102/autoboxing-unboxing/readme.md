@@ -35,4 +35,3 @@ boolean primitiveBoolean = true;
 Boolean booleanObject = primitiveBoolean;
 boolean booleanValue = booleanObject;
 ```
-

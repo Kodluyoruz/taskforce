@@ -19,13 +19,13 @@ class Pair<K, V> {
 }
 ```
 
-Bir ```Pair``` nesnesi oluştururken ```K``` veya ```V``` jenerik tür parametresi için bir primitive tür kullanılamaz:
+Bir `Pair` nesnesi oluştururken `K` veya `V` jenerik tür parametresi için bir primitive tür kullanılamaz:
 
 ```java
 Pair<int, char> p = new Pair<>(8, 'a');  // compile-time error
 ```
 
-```K``` ve ```V``` jenerik tür parametreleri için yalnızca non-primitive türleri kullanabilirisiniz:
+`K` ve `V` jenerik tür parametreleri için yalnızca non-primitive türleri kullanabilirisiniz:
 
 ```java
 Pair<Integer, Character> p = new Pair<>(8, 'a');
@@ -80,7 +80,7 @@ MobileDevice<Pager> pager = new MobileDevice<>();
 MobileDevice<TabletPC> pc = new MobileDevice<>();
 ```
 
-```os``` static alanı, ```smartphone```, ```pager``` ve ```tabletPC``` tarafından paylaşıldığı için gerçek ```os``` türü nedir? Aynı anda ```smartphone```, ```pager``` ve ```tabletPC``` olamaz. Bu nedenle tür parametrelerinde static alanlar oluşturamazsınız.
+`os` static alanı, `smartphone`, `pager` ve `tabletPC` tarafından paylaşıldığı için gerçek `os` türü nedir? Aynı anda `smartphone`, `pager` ve `tabletPC` olamaz. Bu nedenle tür parametrelerinde static alanlar oluşturamazsınız.
 
 ## Jenerik dizi oluşturamazsınız
 
@@ -109,4 +109,5 @@ public class MyException<T> extends Exception
 
 Yukarıdaki sınıf henüz derleme aşamasında hata alır; çünkü jenerik bir hata sınıfı oluşturmaya çalışıyoruz.
 
-Kaynak : https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html
+### Kaynak
+- [https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html](https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html)

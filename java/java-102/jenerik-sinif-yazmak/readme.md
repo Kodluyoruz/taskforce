@@ -2,15 +2,15 @@
 
 Jenerikler class, interface ve metodlarda kullanılabildiğini ve jeneriklerin parametrelendirilmiş tür olduğunu söylemiştik. Jenerik bir sınıf yazarken sınıf adından sonra küçüktür ve büyüktür işaretleri arasında bir tür parametresi belirtilir. Bu parametreyi Java’nın değişken isimlendirme kurallarına uygun olarak adlandırabilirsiniz. Bunlar :
 
-**E**: Element (Genellikle Java Collection Frameworkte kullanılır.)
+\- **E**: Element (Genellikle Java Collection Frameworkte kullanılır.)
 
-**K**: Key
+\- **K**: Key
 
-**N**: Number
+\- **N**: Number
 
-**T**:Type
+\- **T**:Type
 
-**V**: Value
+\- **V**: Value
 
 olarak sıralanabilir. Yine de geleneksel olarak tek ve büyük bir harf verilir. Bu harf herhangi bir veri tipini(String, Integer, Obje vb. ) kullanabileceğimiz anlamına gelir. Şimdi **_Nullable_** sınıfını jenerikleri kullanarak tekrar yazalım:
 
@@ -84,10 +84,10 @@ Jenerik sınıflar birden fazla tip parametresi alabilir. Örneğin :
 
 ```java
 public class MultipleTypeParameters<V1,V2,V3> {
-    
-   private V1 value1;
-   private V2 value2;
-   private V3 value3;
+
+    private V1 value1;
+    private V2 value2;
+    private V3 value3;
 
     public MultipleTypeParameters(V1 value1, V2 value2, V3 value3) {
         this.value1 = value1;
@@ -118,18 +118,13 @@ public class MultipleTypeParameters<V1,V2,V3> {
     public void setValue3(V3 value3) {
         this.value3 = value3;
     }
-   
-   public void showInfos(){
-   
+
+    public void showInfos(){
        System.out.println("Veri Tipleri : " + value1.getClass().getName()+ "," + value2.getClass().getName()+"," + value3.getClass().getName()  );
-   
    }
-     
 }
-
-
-
 ```
+
 Bu örnekte 3 adet tip parametresi alabilen bir sınıf yarattık. Bu sınıf içerisine ise bu tip parametrelerini ekrana bastıran bir metod yazdık.
 
 ```java
@@ -145,6 +140,14 @@ public class Main {
         m2.showInfos();
     }
 }
-
 ```
 Örnekte görüleceği üzere bu sınıftan yarattığımız ilk objede 2  **String** ve 1 **Integer** tipinde değişken kullandık. İkinci objede ise 3 **String** değişkeni ayrıca bir sınıf yaratmaya ihtiyaç duymadan kullanabildik.
+
+Ayrıca Java' da jenerik hata sınıfları oluşturulamaz, derleyici hatasına sebep olur.
+
+```java
+public class GenericException<T> extends Exception {} 
+```
+
+### KAYNAK
+- [javatpoint.com](https://www.javatpoint.com/generics-in-java)

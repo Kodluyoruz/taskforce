@@ -1,4 +1,4 @@
-# Lambda Expessions(Lambda İfadeleri)
+# Lambda Expressions(Lambda İfadeleri)
 
 Lambda ifadeleri, fonksiyon yazımının tek satıra indirgenmiş halidir. Bir fonksiyon görevi gördüğü için daha çok fonksiyonel dillerde kullanılmakla birlikte, Java8'den sonra Java dilinde de yerini almıştır. 
 
@@ -174,3 +174,23 @@ System.out.println(result);
 Kalın olarak belirttiğimiz kod bir lambda ifadesidir. Gördüğünüz gibi, anonim sınıf yerine lambda ifadesi kullandığımız zaman kodu tek satıra indirgedik.
 
 Şimdi, lambda ifadelerini daha ayrıntılı incelemeden önce, fonksiyonel arayüzlerden bahsedelim.
+
+### Sorular
+
+**1)** Arrow function nedir?
+
+Cevap: Sadece kendi fiziksel ortamını etkileyen, girdisi ve çıktısı olan matematiksel bir ifadeye benzeyen, kısaltılmış bir fonksiyon ifadesidir.
+
+**2)** Lambda ifadelerinde ? ve : ifadelerinin Java dilindeki karşılığı nedir?
+
+Cevap: if-else koşul ifadelerinin karşılığıdır.
+
+## Kaynaklar
+
+- https://medium.com/s%C4%B1f%C4%B1rdan-i%CC%87leri-d%C3%BCzeye-java-e%C4%9Fitim-serisi/lambda-ifadeleri-ve-fonksiyonel-interface-64312ad545a3
+
+- https://www.w3schools.com/java/java_lambda.asp
+
+- https://blog.burakkutbay.com/java-8-lambda-expressions-nedir-lambda-ifadeleri-kullanim-ornekleri.html/
+
+- (https://www.mobilhanem.com/java-8-lambda-ifadeleri/
