@@ -208,4 +208,15 @@ nameList.addLast("Ümit");
 ```
 
 ArrayList'te implemente edilen metotların çoğu LinkedList için de geçerlidir.
-
+## Kaynak:
+- [Görsel 1](https://www.callicoder.com/assets/images/post/large/java-linkedlist-vs-arraylist.jpg)
+- [Görsel 2](https://beginnersbook.com/wp-content/uploads/2013/12/singly_linkedlist.png)
+- https://github.com/hkarabakla/hello_java/blob/master/notes/resources/Week3.md 
+- https://docs.oracle.com/javase/8/docs/api/java/util/List.html 
+- https://docs.oracle.com/javase/tutorial/collections/interfaces/list.html 
+- http://www-inf.int-evry.fr/cours/java/javatutorial/collections/interfaces/list.html 
+- https://beginnersbook.com/2013/12/java-arraylist/ 
+- https://www.w3schools.com/java/java_arraylist.asp 
+- https://www.javatpoint.com/java-list 
+- https://www.journaldev.com/11444/java-list 
+- https://www.geeksforgeeks.org/list-interface-java-examples/ 
