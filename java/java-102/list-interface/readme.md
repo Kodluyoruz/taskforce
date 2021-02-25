@@ -208,6 +208,25 @@ nameList.addLast("Ümit");
 ```
 
 ArrayList'te implemente edilen metotların çoğu LinkedList için de geçerlidir.
+
+Soru 1. 
+Aşağıdakilerden hangisi List interface'inin alt sınıflarından değildir?
+A)ArrayList
+B)LinkedList
+//C)SortedList
+D)Vector
+Soru 2. 
+ArrayList ile ilgili aşağıdakilerden hangisi doğru değildir?
+//A)Thread-safe'tir.
+B)Araya ekleme işlemi sonrasında kaydırma işlemi yapılması gerekir.
+C)"null" değerli eleman tutabilir.
+D)Bir ArrayList, başka bir ArrayList'e addAll() ile eklenebilir.
+Soru 3. 
+LinkedList ile ilgili aşağıdakilerden hangisi doğru değildir?
+A)Hem List interface'inden hem Queue interface'inden miras alan bir sınıftır.
+B)2 tip constructor'ı vardır.
+//D)Hem List interface'inden hem SortedSet interface'inden miras alan bir sınıftır.
+
 ## Kaynak:
 - [Görsel 1](https://www.callicoder.com/assets/images/post/large/java-linkedlist-vs-arraylist.jpg)
 - [Görsel 2](https://beginnersbook.com/wp-content/uploads/2013/12/singly_linkedlist.png)
