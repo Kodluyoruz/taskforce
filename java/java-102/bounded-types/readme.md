@@ -42,4 +42,3 @@ Nullable<Integer> nullableInteger = new Nullable<Integer>(2020);
 Nullable<String> nullableString = new Nullable<String>("2020");
 // Bu kullanım uygun değildir; String, Number sınıfından türetilmemiştir
 ```
-
