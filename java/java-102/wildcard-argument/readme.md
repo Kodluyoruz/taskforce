@@ -19,7 +19,6 @@ public static boolean isNullableHasValue(Nullable<?> nullable)
 	return nullable != null && !nullable.isNull();
 }
 ```
-
 Artık bu metodu bütün Nullable nesneleri için kullanabiliriz.
 
 ## Sınırlandırılmış Joker Argümanı
