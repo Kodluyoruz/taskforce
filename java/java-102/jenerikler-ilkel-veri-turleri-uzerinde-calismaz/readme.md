@@ -95,5 +95,4 @@ boolean booleanValue = booleanObject.booleanValue();
 ```
 
 ## Kaynaklar
-
 - [quora.com](https://www.quora.com/Why-is-it-impossible-to-use-primitive-types-as-a-type-parameter-in-Java/answer/Piyush-Sagar-2)
