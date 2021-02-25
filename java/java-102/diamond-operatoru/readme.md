@@ -30,7 +30,7 @@ arrayList.add("First");
 arrayList.add("Second");
 ```
 
-Programın ```–Xlint:unchecked``` olarak derlenmesi aşağıdaki uyarılara neden olur:
+Programın `–Xlint:unchecked` olarak derlenmesi aşağıdaki uyarılara neden olur:
 
 ```java
 ... codenuclear\Diamond.java:10: warning: [unchecked] unchecked call to add(E) as a member of the
@@ -49,22 +49,6 @@ Veri türü aşağıdaki gibi belirtilirse bu uyarılar kaybolacaktır:
 List<String> arrayList = new ArrayList<>();
 ```
 
-## Sorular
+## Kaynaklar
 
-**1-** Aşağıdakilerden hangisi diamond operatörünün sağladığı avantajlardan biri değildir?
-
-**A)** Java derleyicisinin jenerik türü otomatik olarak tespit etmesini sağlar.
-
-**B)** Programdaki denetlenmemiş uyarıları önler.
-
-**C)** Bu operatör ile nesne oluşturmak daha kolaydır.
-
-**D)** Bir nesne oluştururken jeneriklerin kullanımını basitleştirir.
-
-**E)** Parametre türlerinin açıkça yinelenen belirtimlerini gerektirmeyerek genel ayrıntıları azaltır.
-
-**Cevap : C** 
-
-## Kaynaklar 
-
-- https://codenuclear.com/diamond-operator-type-inference-generic-instance-creation-java/
+- [https://codenuclear.com/diamond-operator-type-inference-generic-instance-creation-java/](https://codenuclear.com/diamond-operator-type-inference-generic-instance-creation-java/)
