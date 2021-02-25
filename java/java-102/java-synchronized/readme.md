@@ -1,13 +1,9 @@
-# Java “synchronized” Anahtar Kelimesi
-
-
+# Java "synchronized" Anahtar Kelimesi
 
 > ###### Hatırlatmalar:
 >
 > - Kritik Bölge = Thread kullanılan uygulamalarda, paylaşılan ve üzerinde işlem yapılabilen bellek bölgesine denir.
 > - Yarış Durumu = Birden fazla threadin paylaşılan bellek bölgesine aynı anda erişip aynı anda bellek bölgesinde işlem yapması durumudur.
-
-
 
 "Ciritical Section" olan kod bölgelerinde "Race Condition" durumuna engel olmak için kullanılabilecek yöntemlerden biri de "synchronized" anahtar kelimesidir. Bu anahtar kelime ile "Critical Section" kod bölgesi Thread’ler arasında sıralı erişime açabilabilir.  
 
