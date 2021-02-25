@@ -20,7 +20,6 @@ Yukarıdaki duruma ek olarak ortak paylaşılan herhangi bir kaynak (state) yoks
 
 ![multi-thread-system](figures/thread2.png)
 
-
 **Same-Threaded System:**
 
 * Bu tür programlamada bir seferde tek bir iş parçacığı çalışır.
@@ -37,6 +36,5 @@ Yukarıdaki duruma ek olarak ortak paylaşılan herhangi bir kaynak (state) yoks
 * Daha verimli programlarla sonuçlanır.
 * Herhangi bir nedenle bir iş parçacığı duraklatıldığında, diğer iş parçacıkları normal şekilde çalışır.
 
-## Kaynakça
-* https://www.mertmekatronik.com/thread-ve-multithread-nedir
-
+### Kaynakça
+- https://www.mertmekatronik.com/thread-ve-multithread-nedir
