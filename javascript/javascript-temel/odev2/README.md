@@ -20,6 +20,7 @@ Kuracağınız yapı tamamen size kalmış. Birkaç tane püf noktamız var.
 - Yazacağınız javascript kodu içerisinde element eklemeyi sağlayan bir fonksiyon, element silmeyi sağlayan bir fonksiyon, yapıldı işaretlenmesini sağlayan bir fonksiyon olması gerekiyor.
 - Element eklendiğinde ve hata verirken sağ üstte uyarı verdiğini fark etmişsinizdir. Bunu sağlayan [Bootstrap Toast](https://getbootstrap.com/docs/4.3/components/toasts/) bildirimdir. Sayfaya gidip `toast` nedir nasıl yapılır bunu araştırın ve kodunuza ekleyin.
 - Önce ana fonksiyonlar için uğraşın. Yapıldı, toast bildirim bunlar biraz daha için artisliği. Öncelikli amacını sağlıyor olması lazım.
+
 **Bonus**
 - Yaptığınız yapıya `Local Storage`'ı da ekleyip verilerin kaybolmamasını sağlayın.
 - Yazdığınız js dosyasını projenize eklemeyi unutmayın.
