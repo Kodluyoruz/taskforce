@@ -1,5 +1,5 @@
 # Programlamayı Yeni Öğrenenlerin Öğrenmesi Gereken İlk 8 Terim
-![](https://miro.medium.com/max/1050/1*iFN_PWPWs6TQ9JzDp2v9Wg.jpeg)
+![](gorseller/görsel1.png)
 
 Bilgisayar bilimiyle ilgisi olmayan birçok tanıdığım ve aile üyelerinden farklı farklı konseptler ve terminolojiyle ilgili sorular aldığım için, bu yazıda bazı bilgisayar bilimi konseptlerini olabilecek en basit şekilde açıklamaya çalıştım.
 
@@ -20,7 +20,7 @@ Yazının sonunda, bilgisini genişletmek isteyenler için bulduğum kaynakları
 Backend Development kavramının her yerde, özellikle LinkedIn gibi platformlarda sıkça kullanıldığını görmüşsünüzdür.
 “Backend” yani “arkauç” yazılım iskeletinin bir tabakasına verilen addır. Bu arkauç genelde dataları tutmak için bir veritabanı bulunan herhangi bir web servisini yazmayı veya sürdürmeyi gerektirir.
 
-![](https://miro.medium.com/max/750/0*0bPSjeDXls5mhRsU)
+![](gorseller/görsel2.png)
 Backend development sık sık Java, Scala, Python, DynamoDB, MongoDB, nodeJS, MySQL, MapReduce gibi teknolojilerle birlikte anılır.
 Frontend development ise tam tersine, kullanıcı arayüzü yani müşterilerin kullandığı yazılım katmanıyla ilişkilidir.
 ### Neden Önemli
@@ -37,21 +37,21 @@ Bilgisayarlar verilen emirleri uygulamada çok yeteneklidir. Biz insanların bir
 Biz insanlar olarak, iletişim için İngilizce, Mandarin, İspanyolca gibi diller kullanırız. Bilgisayarlarla iletişim kurmamız gerektiğinde ise programlama dili kullanırız. Programlama dili insanlar ve bilgisayarların iletişim kurmasını sağlar. Örnek olarak Java, C++, Python ve daha birçokları gibi programlama dillerini sayabiliriz.
 ### Neden önemli?
 Bir programlama dilini öğrenmek İnternette gördüğünüz bir şeyin arkaplanda nasıl meydana geldiğini görmenizi sağlar. Arabanızın nasıl bir mekanizmayla ve ne amaçla çalıştığını bilmek gibidir. Biraz gayretle Twitter, Candy Crush uygulamaları gibi siz de kendi uygulamanızı programlayabilir hale gelebilirsiniz.
-![Html Css Js](https://miro.medium.com/max/1050/0*0r9N8Ihz5ELZSIKy)
-![Html Css Js](https://miro.medium.com/max/1050/0*biQtUgbQIEzeY6Pu)
+![](gorseller/görsel3.png)
+![](gorseller/görsel4.png)
 ## Algoritmalar
 > “Bilgisayarların gerçekleştirdiği hesaplama ve diğer problem çözme operasyonlarında takip edilecek kurallar seti veya süreç.” Google :)
 
 Bilgisayarlar komutları gerçekleştirmede müthişlerdir. Yazılım mühendisleri olarak bizler de zaten bilgisayarların gerçekleştireceği komutları yazarız. Algoritma spesifik bir problemi çözmek için bilgisayar tarafından veya bilgisayarsız takip edilecek komut ve adımların listesidir.
 Bilgisayar bilimi öğrencileri olarak öğrendiğimiz ilk problemlerden biri sınıflandırma problemidir. Bu problemin en önemli adımı item koleksiyonu veya setini en verimli şekilde oluşturmaktır.
 
-![webpage](https://miro.medium.com/max/600/0*OXdXLOz4MQ7MWuSB)
+![](gorseller/gif.gif)
 
 Sınıflandırmanın çok fazla çeşiti vardır. Karşılaştırmalı sınıflandırma olarak da bilinen [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort) en ünlülerindendir. İki itemdan büyük olanı seçmeyi, genel bir karşılaştırmayı ve bunu bütün öğeler için yapmayı gerektirir. [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort), [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort) ve daha birçok başka çeşit de vardır.
 
 Bunlar hakkında bilgi edinmenizi kesinlikle öneririm. Sınıflandırma algoritmaları algoritmaları öğrenmek için harika bir başlangıçtır. Sınıflandırma algoritmalarını çalışabileceğiniz bir Youtube videosunu aşağı bırakıyorum.
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/pkkFqlG0Hds?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
+[![](http://img.youtube.com/vi/pkkFqlG0Hds/0.jpg)](http://www.youtube.com/watch?v=pkkFqlG0Hds "")
 
 ### Neden önemli?
 Algoritmalar Bilgisayar Bilimi’nin özünü oluşturur. Algoritmaların ne olduğunu ve nasıl işlediklerini anlamak sizi daha iyi bir yazılım mühendisi yapar, nokta.
@@ -59,7 +59,7 @@ Algoritmalar Bilgisayar Bilimi’nin özünü oluşturur. Algoritmaların ne old
 ## Uygulama Programlama Arayüzü (UPA / API)
 API, veya Türkçesiyle UPA, veya uygulama programlama arayüzü, basit tabirle bir bilgi kaynağı. Daha somut açıklarsak, düşünün ki evde bir limonata kuyunuz var. Komşularınız bundan bir yudum almak istiyor ama siz kuyunun kirlenmesini istemiyorsunuz. Böyle bir durumda ne yapmalısınız?
 
-![Html Css Js](https://miro.medium.com/max/1050/0*7V6TL0oOWAjYdiBx)
+![](gorseller/görsel5.png)
 
 Evinizin dışındaki küçük bir hortuma bağlanan bir hortum yaptırmaya karar verdiniz. Sizin müthiş limonatanızdan tatmak isteyen bütün komşularınız bu hortum vasıtasıyla, kuyuya dokunmadan limonataya ulaşabilirler. Limonatayı ne zaman pompalayacağınıza veya kuyunun kuruması durumunda limonatayı boşaltmaya da siz karar veriyorsunuz. Dilerseniz çok fazla limonata içenlerden ücret alabilirsiniz.
 Günümüzde birçok şirketin çalışma şekli de budur. Bu şirketler değerli bir veri kuyusu inşa ederler ve onu bir UPA vasıtasıyla veri edinmek isteyen kişilere satarlar.
@@ -68,7 +68,7 @@ Bugünkü internet ağı, farklı web servisleri arasındaki uçsuz bucaksız il
 ## Bug 🐛
 Aşağıdaki meme’i sosyal medyada görmüş ve ne anlama geldiğini anlamamış olabilirsiniz.
 
-![Html Css Js](https://miro.medium.com/max/620/0*YzQWCwbu3p-UxGRj)
+![](gorseller/görsel6.png)
 
 Bug bir bilgisayar programının alışılmış işleyişi bozan hatanın adıdır. Mesela bulunduğunuz yerin hava sıcaklığını Fahrenheit cinsinden gösteren bir iOS uygulaması indirdiğinizi farzedelim. Uygulamanın hava sıcaklığını, beklendiği gibi Fahrenheit değil Celsius cinsinden gösterdiğini fark ederseniz, bu program beklendiği gibi çalışmıyor demektir ve o zaman programda bir ‘bug’ yani hata var diyebiliriz.
 
@@ -104,4 +104,6 @@ Bunun için tek yapmanız gereken şey bir Twitter hesabı açıp dünyanın far
 - [Introduction to Algorithms](https://www.amazon.com/gp/product/0262033844/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=zrecommended-20&creative=9325&linkCode=as2&creativeASIN=0262033844&linkId=478b4c605397e2a51dd10a45199c467b) — Bilgisayar biliminin temel prensibi olan algoritmalar hakkında bilgi edinmek isterseniz bu kitabın çok yararını göreceksiniz. Kitap ayrıca farklı farklı bilgisayar bilimi kurslarında ders kitabı olarak kullanılıyor.
 - [Acing the Coding Interview](https://docs.google.com/document/d/1ppHix7p9knzaal-Edn3GHQMcx1MM_USY6zPcsbBpR3U/edit) — Bu benim koçluk kursum. Bu kursta iş görüşmeleri için nasıl hazırlandığımı, görüşmelerde karşı tarafı etkilemenin yolları ve daha birçok şeyi bulabileceksiniz.
 
-> **Zhia Hwa Chong tarafından [medium.freecodecamp.org](https://www.freecodecamp.org/news/these-are-the-top-computer-science-terms-you-should-know-if-youre-new-to-programming-fc8592242622/)'ta yayınlanan bu yazı Gizem Yılmazer tarafından çevirilmiştir. Görseller: [medium.freecodecamp.org](https://www.freecodecamp.org/news/these-are-the-top-computer-science-terms-you-should-know-if-youre-new-to-programming-fc8592242622/)**
+> Zhia Hwa Chong tarafından [medium.freecodecamp.org](https://www.freecodecamp.org/news/these-are-the-top-computer-science-terms-you-should-know-if-youre-new-to-programming-fc8592242622/)'ta yayınlanan bu yazı Gizem Yılmazer tarafından çevirilmiştir.
+> 
+>   Görseller: [medium.freecodecamp.org](https://www.freecodecamp.org/news/these-are-the-top-computer-science-terms-you-should-know-if-youre-new-to-programming-fc8592242622/)
