@@ -126,10 +126,8 @@ public class MultipleTypeParameters<V1,V2,V3> {
    }
      
 }
-
-
-
 ```
+
 Bu örnekte 3 adet tip parametresi alabilen bir sınıf yarattık. Bu sınıf içerisine ise bu tip parametrelerini ekrana bastıran bir metod yazdık.
 
 ```java
@@ -155,47 +153,6 @@ Ayrıca Java' da jenerik hata sınıfları oluşturulamaz, derleyici hatasına s
 public class GenericException<T> extends Exception {} 
 ```
 
-
-
-### Sorular
-
-##### 1-) Java Collection Frameworkte tarafından yaygın olarak kullanılan tür parametresi hangisidir ?
-
-a-)  K
-
-b-)  V
-
-c-)  T
-
-d-)  E
-
-e-)  N
-
-
-
-##### 2-) Jenerikler ile ilgili hangisi veya hangileri doğrudur ?
-
-I - Tip güvenliği sağlar      II - Birden fazla tip parametresi alamaz    III - Kod tekrarının önüne geçer
-
-a-) Yalnız I
-
-b-) Yalnız II
-
-c-) I, III
-
-d-) II, III
-
-e-) I, II, III
-
-
-
-
-
-cevaplar : 1-e, 2-c
-
-
-
-
 ### KAYNAK
 
-[javatpoint.com](https://www.javatpoint.com/generics-in-java)
+- [javatpoint.com](https://www.javatpoint.com/generics-in-java)
