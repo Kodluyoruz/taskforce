@@ -19,13 +19,13 @@ class Pair<K, V> {
 }
 ```
 
-Bir ```Pair``` nesnesi oluştururken ```K``` veya ```V``` jenerik tür parametresi için bir primitive tür kullanılamaz:
+Bir `Pair` nesnesi oluştururken `K` veya `V` jenerik tür parametresi için bir primitive tür kullanılamaz:
 
 ```java
 Pair<int, char> p = new Pair<>(8, 'a');  // compile-time error
 ```
 
-```K``` ve ```V``` jenerik tür parametreleri için yalnızca non-primitive türleri kullanabilirisiniz:
+`K` ve `V` jenerik tür parametreleri için yalnızca non-primitive türleri kullanabilirisiniz:
 
 ```java
 Pair<Integer, Character> p = new Pair<>(8, 'a');
@@ -80,7 +80,7 @@ MobileDevice<Pager> pager = new MobileDevice<>();
 MobileDevice<TabletPC> pc = new MobileDevice<>();
 ```
 
-```os``` static alanı, ```smartphone```, ```pager``` ve ```tabletPC``` tarafından paylaşıldığı için gerçek ```os``` türü nedir? Aynı anda ```smartphone```, ```pager``` ve ```tabletPC``` olamaz. Bu nedenle tür parametrelerinde static alanlar oluşturamazsınız.
+`os` static alanı, `smartphone`, `pager` ve `tabletPC` tarafından paylaşıldığı için gerçek `os` türü nedir? Aynı anda `smartphone`, `pager` ve `tabletPC` olamaz. Bu nedenle tür parametrelerinde static alanlar oluşturamazsınız.
 
 ## Jenerik dizi oluşturamazsınız
 
@@ -109,57 +109,5 @@ public class MyException<T> extends Exception
 
 Yukarıdaki sınıf henüz derleme aşamasında hata alır; çünkü jenerik bir hata sınıfı oluşturmaya çalışıyoruz.
 
-### Sorular
-
-**1-** Aşağıdakilerden hangisi veya hangileri doğrudur?
-
-**I-** Primitive türlerle jenerik türler örneklenemez.
-
-**II-** Jenerik sınıfların statik üyeleri tür parametresine erişebilir.
-
-**III-** Jenerik exception sınıfı oluşturulabilir.
-
-**IV-** Jenerik dizi oluşturulamaz.
-
-**V-** Jenerik türlerin örneği alınabilir.
-
-**A)** Yalnız I
-
-**B)** Yalnız II
-
-**C)** I, II, III
-
-**D)** I ve IV
-
-**E)** III ve IV
-
-**2-** Aşağıdaki kod parçasının hata verme sebebi nedir?
-
-```java
-public class NewClass<T>
-{
-    private T value;
-    
-    public NewClass()
-    {
-    	value = new T();
-    }
-}
-```
-**A)** Derleyici hangi tipte nesne oluşturacağını bilemez.
-
-**B)** Jenerik tür parametresi için bir primitive tür kullanılamaz.
-
-**C)** Jenerik bir sınıf içindeki statik üyeler tür parametresine erişemez.
-
-**D)** Jenerik dizi oluşturulamaz.
-
-**E)** Tür parametrelerinde static alanlar oluşturulamaz.
-
-### Cevaplar
-
-**1-** D
-
-**2-** A
-
-Kaynak : https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html
+### Kaynak
+- [https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html](https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html)
