@@ -20,7 +20,7 @@ Java Collection Framework aşağıdaki temel bileşenlerden oluşur.
 
 \-    Algoritmalar: Verinin hangi mantığa göre ekleneceği, listedeki elemanlara hangi sırayla erişilebileceği, veri içinde arama yapılması gibi bir çok işleme ihtiyaç duyarız. Java Collection Framework içindeki sınıflar bu saydığımız işlemleri belli algoritmalara göre yaparlar. Her sınıfın kendine özgü bir algoritması vardır.
 
-Java Collection Framework Soyağacı (Kalıtım Şeması)
+### Java Collection Framework Soyağacı (Kalıtım Şeması)
 
 ![Java Collection Framework](figures/java-cf.png)
 
