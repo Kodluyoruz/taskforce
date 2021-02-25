@@ -24,10 +24,4 @@ Java Collection Framework Soyağacı (Kalıtım Şeması)
 
 ![Java Collection Framework](figures/java-cf.png)
 
- ![img](figures/map.png)
-
- 
-
- 
-
-
+![img](figures/map.png)
