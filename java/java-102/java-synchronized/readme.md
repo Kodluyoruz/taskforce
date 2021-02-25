@@ -1,4 +1,4 @@
-# Java “synchronized” Anahtar Kelimesi
+# Java “synchronized” Anahtar Kelimesi
 
 
 
@@ -9,7 +9,7 @@
 
 
 
-“Ciritical Section” olan kod bölgelerinde “Race Condition” durumuna engel olmak için kullanılabilecek yöntemlerden biri de “synchronized” anahtar kelimesidir. Bu anahtar kelime ile “Critical Section” kod bölgesi Thread’ler arasında sıralı erişime açabilabilir.  
+"Ciritical Section" olan kod bölgelerinde "Race Condition" durumuna engel olmak için kullanılabilecek yöntemlerden biri de "synchronized" anahtar kelimesidir. Bu anahtar kelime ile "Critical Section" kod bölgesi Thread’ler arasında sıralı erişime açabilabilir.  
 
 Kısaca sıralı erişim mantığı şu şekildedir. Kritik bölgeye ilk gelen thread işlem yaptığını belirtmek için bu bölgeyi kilitler. Bu sayede diğer threadler içeride bir threadin işlem yaptığını anlarlar ve işlemin bitmesini bekleyebilirler. İşlemi tamamlayan thread çıktığında kilit kaldırılır ve  bekleyen threadler için tekrar işleme açılmış olur. İşlem için bekleyen başka bir thread içeriye girdiğinde tekrar kilit yapısını kullanarak erişim kısıtlaması yapar ve döngü halinde devam eder. 
 
@@ -21,41 +21,38 @@ Kısaca sıralı erişim mantığı şu şekildedir. Kritik bölgeye ilk gelen t
 
 Bu yöntem genelde kodu başkası tarafından yazılan fakat üzerinde senkronizasyonu sağlanmak istenilen durumlarda kullanılır. Böylelikle yönetime kısmen de olsa müdahale edilmiş olunur.
 
-
 ```java
 metot(){
-    
     synchronized(Lock objesi){
         // kritik bölgede yapılacak işlemler
     }
-
 }
 ```
 
-“synchronized” anahtar kelimesi **bir değişkene, bir blok parçasına veya metoda** verilebilir. Yukarıdaki örnek şimdi “Thread Safe” olarak yazılırsa;
+"synchronized" anahtar kelimesi **bir değişkene, bir blok parçasına veya metoda** verilebilir. Yukarıdaki örnek şimdi "Thread Safe" olarak yazılırsa;
 
 ```java
 public class QMatic implements Runnable {
 
 	private int orderNo;
-	
+
 	private Object LOCK = new Object();
-	
+
 	public QMatic() {
 		this.orderNo = 0;
 	}
-	
+
 	@Override
 	public void run() {
-		
+
 		// a little bit delay to see race condition!
 		ThreadSleeper.sleep(50);
-		
+
 		// Critical section for all threads!
-		
+
 		synchronized (LOCK) {
 			this.orderNo = this.orderNo + 1;
-			
+
 			StringBuilder builder = new StringBuilder();
 			builder.append(Thread.currentThread().getName());
 			builder.append(" thread got ");
@@ -69,9 +66,7 @@ public class QMatic implements Runnable {
 }
 ```
 
-
-
-QMatic isimli “Runnable” interface’den türemiş sınıfta “LOCK” isminde Object türünden bir kilit nesnesi oluşturuluyor. Ardından “Critical Section” olarak belirtilen tüm Thread’lerin ortak kullandığı “orderNo” değişkeniyle işlem yapan kod bloğunu “synchronized” anahtar kelimesiyle korumaya alıp, Thread’ler için sıralı erişime açılıyor. Eğer bir Thread “Critical Section” olarak işaretlenen kod bloğuna girip kaynakları kullanmaya başlarsa diğer Thread’ler o işini bitirene kadar beklemek zorundadırlar.
+QMatic isimli "Runnable" interface'den türemiş sınıfta "LOCK" isminde Object türünden bir kilit nesnesi oluşturuluyor. Ardından "Critical Section" olarak belirtilen tüm Thread’lerin ortak kullandığı "orderNo" değişkeniyle işlem yapan kod bloğunu "synchronized" anahtar kelimesiyle korumaya alıp, Thread'ler için sıralı erişime açılıyor. Eğer bir Thread "Critical Section" olarak işaretlenen kod bloğuna girip kaynakları kullanmaya başlarsa diğer Thread'ler o işini bitirene kadar beklemek zorundadırlar.
 
 ```java
 Thread-9 thread got 1 from Qmatic!
@@ -98,15 +93,13 @@ erisim_belirtesi synchronized geri_dönüş_türü fonskiyon_adı(){
 }
 ```
 
-
-
-Yukarıda “synchronized” olarak belirttiğimiz kod bloğu bir metod içine alınırsa aşağıdaki gibi yapabilir.
+Yukarıda "synchronized" olarak belirttiğimiz kod bloğu bir metod içine alınırsa aşağıdaki gibi yapabilir.
 
 ```java
 private synchronized void increment() {
-	
+
 	this.orderNo = this.orderNo + 1;
-	
+
 	StringBuilder builder = new StringBuilder();
 	builder.append(Thread.currentThread().getName());
 	builder.append(" thread got ");
@@ -117,13 +110,8 @@ private synchronized void increment() {
 }
 ```
 
+### Kaynaklar
 
+- [https://medium.com/s%C4%B1f%C4%B1rdan-i%CC%87leri-d%C3%BCzeye-java-e%C4%9Fitim-serisi/multithreaded-programlama-1-k%C4%B1s%C4%B1m-40904a219a18](https://medium.com/s%C4%B1f%C4%B1rdan-i%CC%87leri-d%C3%BCzeye-java-e%C4%9Fitim-serisi/multithreaded-programlama-1-k%C4%B1s%C4%B1m-40904a219a18)
 
-
-
-**Kaynaklar**
-
-- https://medium.com/s%C4%B1f%C4%B1rdan-i%CC%87leri-d%C3%BCzeye-java-e%C4%9Fitim-serisi/multithreaded-programlama-1-k%C4%B1s%C4%B1m-40904a219a18
-
-- Öneri Kaynak: https://huseyin-karabakla.medium.com/
-
+- Öneri Kaynak: [https://huseyin-karabakla.medium.com/](https://huseyin-karabakla.medium.com/)
