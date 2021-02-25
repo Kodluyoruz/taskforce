@@ -37,9 +37,11 @@ Bilgisayarlar verilen emirleri uygulamada çok yeteneklidir. Biz insanların bir
 Biz insanlar olarak, iletişim için İngilizce, Mandarin, İspanyolca gibi diller kullanırız. Bilgisayarlarla iletişim kurmamız gerektiğinde ise programlama dili kullanırız. Programlama dili insanlar ve bilgisayarların iletişim kurmasını sağlar. Örnek olarak Java, C++, Python ve daha birçokları gibi programlama dillerini sayabiliriz.
 ### Neden önemli?
 Bir programlama dilini öğrenmek İnternette gördüğünüz bir şeyin arkaplanda nasıl meydana geldiğini görmenizi sağlar. Arabanızın nasıl bir mekanizmayla ve ne amaçla çalıştığını bilmek gibidir. Biraz gayretle Twitter, Candy Crush uygulamaları gibi siz de kendi uygulamanızı programlayabilir hale gelebilirsiniz.
+
 ![](gorseller/görsel3.png)
 ![](gorseller/görsel4.png)
 ## Algoritmalar
+
 > “Bilgisayarların gerçekleştirdiği hesaplama ve diğer problem çözme operasyonlarında takip edilecek kurallar seti veya süreç.” Google :)
 
 Bilgisayarlar komutları gerçekleştirmede müthişlerdir. Yazılım mühendisleri olarak bizler de zaten bilgisayarların gerçekleştireceği komutları yazarız. Algoritma spesifik bir problemi çözmek için bilgisayar tarafından veya bilgisayarsız takip edilecek komut ve adımların listesidir.
