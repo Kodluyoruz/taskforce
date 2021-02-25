@@ -1,16 +1,10 @@
 # Map interface (Arayüzü)
 
- 
-
-“java.util” paketi altında tanımlıdır. Bir array'de tutulan değerlere bu değerlerin tutulduğu index'ler aracılığıyla erişilir. Benzer bir şekilde map'te de anahtarlar(keys) aracılığıyla değerlere(values) erişilebilir. Map interface’den türeyen birden çok alt sınıf vardır. Map ile anahtar-değer (key-value) şeklinde veri formatına sahip verileri saklayabiliriz. Düz liste veri kümesinden farklıdır. Anahtarlar, tıpkı array'in indexleri gibi, tekrar etmeyecek şekilde olmalıdır. Yani bir anahtara karşılık gelen yalnızca bir tane nesne olmalıdır. Fakat farklı anahtarlarda(keys), yine array'de olduğu gibi, aynı değerler(values) tutulabilir.
-
- 
+"java.util" paketi altında tanımlıdır. Bir array'de tutulan değerlere bu değerlerin tutulduğu index'ler aracılığıyla erişilir. Benzer bir şekilde map'te de anahtarlar(keys) aracılığıyla değerlere(values) erişilebilir. Map interface’den türeyen birden çok alt sınıf vardır. Map ile anahtar-değer (key-value) şeklinde veri formatına sahip verileri saklayabiliriz. Düz liste veri kümesinden farklıdır. Anahtarlar, tıpkı array'in indexleri gibi, tekrar etmeyecek şekilde olmalıdır. Yani bir anahtara karşılık gelen yalnızca bir tane nesne olmalıdır. Fakat farklı anahtarlarda(keys), yine array'de olduğu gibi, aynı değerler(values) tutulabilir.
 
 ## HashMap Sınıfı
 
- 
-
-Map interface’den kalıtım almıştır. Anahtar-değer şeklindeki verilerin saklanmasını sağlar. HashMap, anahtar (key) değerlerini hashcode’larına göre tutar. Bu nedenle anahtar olarak verdiğimiz nesnelerin “equals” ve “hashCode” fonksiyonlarını doldurmak gerekecektir.
+Map interface’den kalıtım almıştır. Anahtar-değer şeklindeki verilerin saklanmasını sağlar. HashMap, anahtar (key) değerlerini hashcode’larına göre tutar. Bu nedenle anahtar olarak verdiğimiz nesnelerin "equals" ve "hashCode" fonksiyonlarını doldurmak gerekecektir.
 
 Aynı anahtara sahip iki elemanın eklenmesine izin vermez. İlgili anahtarda bir değer varsa üzerine yazar. Map'lerde bir veriyi ekleyebilmek için put metodu, bir değere ulaşabilmek için get metodu, toplam veri sayısını öğrenebilmek içinse size metodu kullanılır.
 
@@ -35,8 +29,6 @@ Output:
 
 Key-Value çiftine bir sınıftan oluşturulan nesne ve liste gibi şeyler de konulabilir.
 
- 
-
 ```java
 Map<Student, List<Lesson>> studentLessonMap = new HashMap<Student, List<Lesson>>();
                studentLessonMap.put(
@@ -44,19 +36,19 @@ Map<Student, List<Lesson>> studentLessonMap = new HashMap<Student, List<Lesson>>
                                Arrays.asList(
                                               new Lesson("Matematik", 90),
                                               new Lesson("Türkçe", 70) ));
-               
+
                studentLessonMap.put(
                                new Student("101", "Ali", "Veli"), 
                                Arrays.asList(
                                               new Lesson("Matematik", 90),
                                               new Lesson("Türkçe", 70) ));
-               
+
                studentLessonMap.put(
                                new Student("105", "Hale", "Jale"), 
                                Arrays.asList(
                                               new Lesson("Matematik", 80),
                                               new Lesson("Türkçe", 60) ));
-               
+
                studentLessonMap.put(
                                new Student("90", "Ahmet", "Mehmet"), 
                                Arrays.asList(
