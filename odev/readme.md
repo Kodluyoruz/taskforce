@@ -21,6 +21,7 @@ Backend Development kavramının her yerde, özellikle LinkedIn gibi platformlar
 “Backend” yani “arkauç” yazılım iskeletinin bir tabakasına verilen addır. Bu arkauç genelde dataları tutmak için bir veritabanı bulunan herhangi bir web servisini yazmayı veya sürdürmeyi gerektirir.
 
 ![](gorseller/görsel2.png)
+
 Backend development sık sık Java, Scala, Python, DynamoDB, MongoDB, nodeJS, MySQL, MapReduce gibi teknolojilerle birlikte anılır.
 Frontend development ise tam tersine, kullanıcı arayüzü yani müşterilerin kullandığı yazılım katmanıyla ilişkilidir.
 ### Neden Önemli
