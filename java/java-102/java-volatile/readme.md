@@ -32,3 +32,45 @@ private volatile int orderNo;
 
 Yukarıda QMatic örneğimizde “volatile” anahtar kelimesinin kullanımını gördük.
 
+
+
+##### Sorular
+
+1- İşlemci içerisinde yer alan ve program çalışırken verileri hızlı işlemek için kullanılan bellek tipinin adı nedir?
+
+​	A- CPU	B- Main Memory	C- Cache	D- Core
+
+
+
+2- Bir değişkene diğer işlemci çekirdeklerinden de ulaşmak için değişken hangi anahtar kelime kullanılarak tanımlanır?
+
+​	A- Synchronized	B- Volatile	C- Static	D-Protected
+
+
+
+3- Bir değişkenin ana bellek üzerinde tanımlanması için aşağıdakilerden hangisi gibi tanımlanmalıdır?
+
+​	A- volatile private int index;
+
+​	B- private volatile int index;
+
+​	C- private int volatile index;
+
+​	D- private int index volatile;
+
+
+
+##### Cevaplar
+
+1-C
+
+2-B
+
+3-B
+
+
+
+#### Kaynaklar
+
+- https://en.wikipedia.org/wiki/Volatile_(computer_programming)
+- Öneri Kaynak: https://huseyin-karabakla.medium.com/

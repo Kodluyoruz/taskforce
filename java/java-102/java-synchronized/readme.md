@@ -119,7 +119,45 @@ private synchronized void increment() {
 
 
 
+##### Sorular
 
+1- Synchronized anahtar kelimesi aşağıdakilerden hangisinde kullanılmaz?
+
+​	A - Değişken	B - Blok Parçası	C - Metot	D - Sınıf
+
+ 
+
+2- Aşağıdaki tanımlamalardan hangisi doğrudur?
+
+​	A- private synchronized void increment(){}
+
+​	B- synchronized  private void increment(){}
+
+​	C- private void synchronized  increment(){}
+
+​	D- private void increment synchronized(){}
+
+
+
+3- Bir thread bellek bölgesine girdiğinde diğer threadlerin erişiminin engellenmesi için kullanılan mekanizma aşağıdakilerden hangisidir?
+
+​	A- Thread Mekanizması
+
+​	B- Bellek Mekanizması
+
+​	C- Kilit Mekanizması
+
+​	D - Anahtar Mekanizması
+
+
+
+##### Cevaplar:
+
+​	1- D
+
+​	2- A
+
+​	3- C
 
 **Kaynaklar**
 
