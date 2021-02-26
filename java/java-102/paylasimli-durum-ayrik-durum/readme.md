@@ -36,21 +36,5 @@ Yukarıdaki duruma ek olarak ortak paylaşılan herhangi bir kaynak (state) yoks
 * Daha verimli programlarla sonuçlanır.
 * Herhangi bir nedenle bir iş parçacığı duraklatıldığında, diğer iş parçacıkları normal şekilde çalışır.
 
-**Sorular**
-
-1- Aşağıdakilerden hangisi multi-thread programlamanın avantajlarından biri değildir?
-
-A.Tek seferde tek iş parçacığı çalışır.
-
-B.Daha verimli programlarla sonuçlanır.
-
-C.Kaynak paylaşıldığı için bir iş parcacığı durakladığında diğer iş parçacıkları normal çalışır.
-
-D.CPU zamanı boşa harcanmaz.
-
-E.Hepsi
-
-Cevap: A
-
 ### Kaynakça
 - https://www.mertmekatronik.com/thread-ve-multithread-nedir
