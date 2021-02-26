@@ -162,6 +162,6 @@ private synchronized void increment() {
 **Kaynaklar**
 
 - https://medium.com/s%C4%B1f%C4%B1rdan-i%CC%87leri-d%C3%BCzeye-java-e%C4%9Fitim-serisi/multithreaded-programlama-1-k%C4%B1s%C4%B1m-40904a219a18
-
+- https://github.com/OsmanDeniz
 - Öneri Kaynak: https://huseyin-karabakla.medium.com/
 

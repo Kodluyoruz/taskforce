@@ -73,4 +73,5 @@ Yukarıda QMatic örneğimizde “volatile” anahtar kelimesinin kullanımını
 #### Kaynaklar
 
 - https://en.wikipedia.org/wiki/Volatile_(computer_programming)
+- https://github.com/OsmanDeniz
 - Öneri Kaynak: https://huseyin-karabakla.medium.com/
