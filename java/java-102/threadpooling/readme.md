@@ -8,7 +8,7 @@ Bu nedenle Thread havuzu oluşturup bu havuzu önceden oluşturulmuş ve kullan�
 ExecutorService executor = Executors.newFixedThreadPool(15);
 ```
 
-Yukarıdaki Java’da hazır bulunan “Executors” sınıfındaki “newFixedThreadPool” metodunu çağırarak bir Thread havuzu oluşturabilirsiniz. Ardından bize 15 Thread’in kullanıma hazır halde bulunduğu bir havuz oluşturup verecektir. Bu fonksiyon ayrıca bize bu havuz üzerinde Thread kullanımını yönetecek “ExecutorService” tipinde bir nesne verecektir. Bu nesne üzerindeki “execute” fonksiyonuyla havuzdaki bir Thread’i kullanıp işimiz bitince tekrar sisteme iade edeceğiz.
+Yukarıdaki Java'da hazır bulunan "Executors" sınıfındaki "newFixedThreadPool" metodunu çağırarak bir Thread havuzu oluşturabilirsiniz. Ardından bize 15 Thread'in kullanıma hazır halde bulunduğu bir havuz oluşturup verecektir. Bu fonksiyon ayrıca bize bu havuz üzerinde Thread kullanımını yönetecek "ExecutorService" tipinde bir nesne verecektir. Bu nesne üzerindeki "execute" fonksiyonuyla havuzdaki bir Thread'i kullanıp işimiz bitince tekrar sisteme iade edeceğiz.
 
 ```java
 ExecutorService executor = Executors.newFixedThreadPool(15);
@@ -20,5 +20,4 @@ for(int i=0; i < 100; i++) {
 }
 ```
 
-Yukarıdaki örnekte “QMatic” isminde önceden de kullandığımız Runnable tipinde sıra numarası veren sınıftan bir nesne yaratıyoruz. Bu kod parçasını “execute” fonksiyonuyla havuzdaki bir Thread’i kullanarak çalıştırıyoruz. Görüldüğü gibi havuz 15 kapasiteli olmasına rağmen döngüde 100 kez Thread kullanma talebi gelmiş. Eğer havuzda uygun boş bir Thread yoksa beklemede kalacaktır. Havuzdan ilk boşa çıkan Thread nesnesini alıp çalışacaktır.
-
+Yukarıdaki örnekte "QMatic" isminde önceden de kullandığımız Runnable tipinde sıra numarası veren sınıftan bir nesne yaratıyoruz. Bu kod parçasını "execute" fonksiyonuyla havuzdaki bir Thread'i kullanarak çalıştırıyoruz. Görüldüğü gibi havuz 15 kapasiteli olmasına rağmen döngüde 100 kez Thread kullanma talebi gelmiş. Eğer havuzda uygun boş bir Thread yoksa beklemede kalacaktır. Havuzdan ilk boşa çıkan Thread nesnesini alıp çalışacaktır.
