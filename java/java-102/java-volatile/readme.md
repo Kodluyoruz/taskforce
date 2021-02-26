@@ -36,19 +36,19 @@ Yukarıda QMatic örneğimizde “volatile” anahtar kelimesinin kullanımını
 
 ##### Sorular
 
-1- İşlemci içerisinde yer alan ve program çalışırken verileri hızlı işlemek için kullanılan bellek tipinin adı nedir?
+###### 1- İşlemci içerisinde yer alan ve program çalışırken verileri hızlı işlemek için kullanılan bellek tipinin adı nedir?
 
-​	A- CPU	B- Main Memory	C- Cache	D- Core
-
-
-
-2- Bir değişkene diğer işlemci çekirdeklerinden de ulaşmak için değişken hangi anahtar kelime kullanılarak tanımlanır?
-
-​	A- Synchronized	B- Volatile	C- Static	D-Protected
+​	A- CPU		B- Main Memory		C- Cache		D- Core
 
 
 
-3- Bir değişkenin ana bellek üzerinde tanımlanması için aşağıdakilerden hangisi gibi tanımlanmalıdır?
+###### 2- Bir değişkene diğer işlemci çekirdeklerinden de ulaşmak için değişken hangi anahtar kelime kullanılarak tanımlanır?
+
+​	A- Synchronized		B- Volatile		C- Static		D-Protected
+
+
+
+###### 3- Bir değişkenin ana bellek üzerinde tanımlanması için aşağıdakilerden hangisi gibi tanımlanmalıdır?
 
 ​	A- volatile private int index;
 
