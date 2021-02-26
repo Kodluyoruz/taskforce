@@ -22,4 +22,4 @@ Erişim_Belirteci volatile Veri_Tipi Değişken_Adı;
 private volatile int orderNo;
 ```
 
-Yukarıda QMatic örneğimizde “volatile” anahtar kelimesinin kullanımını gördük.
+Yukarıda QMatic örneğimizde "volatile" anahtar kelimesinin kullanımını gördük.
