@@ -108,7 +108,7 @@ public interface Operation
 }
 ```
 
-**_Operation_** isminde bir arayüz tanımladık ve içine **operate()** adında bir metot yazdık. Bu metot int türünde iki sayıyı parametre olarak alır, bu sayılar üzerinde bir işlem yapar ve sonucu yine int türünde döndürür.
+**_Operation_** isminde bir arayüz tanımladık ve içine `operate()` adında bir metot yazdık. Bu metot int türünde iki sayıyı parametre olarak alır, bu sayılar üzerinde bir işlem yapar ve sonucu yine int türünde döndürür.
 
 Şimdi bu arayüzü kullanan bir metot yazalım:
 
@@ -122,7 +122,7 @@ public class Math
 }
 ```
 
-_Math_ adında bir sınıf tanımladık ve bu sınıf içinde statik **_operateTwoNumbers()_** metodunu yazdık. Bu metot int türünde iki sayıyı parametre alıyor ve bu sayılar üzerinde bir işlem yapıyor; fakat bu işlemin nasıl yapılacağını yine parametre olarak aldığımız **_Operation_** türündeki nesneden öğreniyoruz.
+_Math_ adında bir sınıf tanımladık ve bu sınıf içinde statik `operateTwoNumbers()` metodunu yazdık. Bu metot int türünde iki sayıyı parametre alıyor ve bu sayılar üzerinde bir işlem yapıyor; fakat bu işlemin nasıl yapılacağını yine parametre olarak aldığımız **_Operation_** türündeki nesneden öğreniyoruz.
 
 Şimdi, iki sayıyı toplayan bir **Operation sınıfı** yazalım:
 
@@ -160,7 +160,7 @@ int result = Math.operateTwoNumbers(5, 10, new Operation()
 System.out.println(result);
 ```
 
-Kalın olarak belirttiğimiz kod anonim sınıf kodudur. Gördüğünüz gibi, new deyimini kullanarak **_Operation_** türünde bir nesne oluşturduk; fakat bildiğiniz gibi, new deyimini arayüzler üzerinde kullanamayız, yalnızca sınıflar üzerinde kullanabiliriz. Burada da new deyimini kullanarak bir sınıf oluşturduk; fakat bu sınıfın bir ismi yoktur. Bu sınıfla ilgili bildiğimiz tek şey, **_Operation_** arayüzünü uyguladığıdır, dolayısıyla **_operate()_** metodunu yazmak zorundadır.
+Kalın olarak belirttiğimiz kod anonim sınıf kodudur. Gördüğünüz gibi, new deyimini kullanarak **_Operation_** türünde bir nesne oluşturduk; fakat bildiğiniz gibi, new deyimini arayüzler üzerinde kullanamayız, yalnızca sınıflar üzerinde kullanabiliriz. Burada da new deyimini kullanarak bir sınıf oluşturduk; fakat bu sınıfın bir ismi yoktur. Bu sınıfla ilgili bildiğimiz tek şey, **_Operation_** arayüzünü uyguladığıdır, dolayısıyla `operate()` metodunu yazmak zorundadır.
 
 Anonim sınıflar, yukarıda da gördüğümüz gibi, bir arayüz veya soyut sınıf üzerinden oluşturulan isimsiz sınıflardır. Bu sayede, bir daha hiçbir zaman kullanmayacağımız **_AdditionOperation_** sınıfını yazmamıza gerek kalmaz.
 
@@ -175,22 +175,9 @@ Kalın olarak belirttiğimiz kod bir lambda ifadesidir. Gördüğünüz gibi, an
 
 Şimdi, lambda ifadelerini daha ayrıntılı incelemeden önce, fonksiyonel arayüzlerden bahsedelim.
 
-### Sorular
-
-**1)** Arrow function nedir?
-
-Cevap: Sadece kendi fiziksel ortamını etkileyen, girdisi ve çıktısı olan matematiksel bir ifadeye benzeyen, kısaltılmış bir fonksiyon ifadesidir.
-
-**2)** Lambda ifadelerinde ? ve : ifadelerinin Java dilindeki karşılığı nedir?
-
-Cevap: if-else koşul ifadelerinin karşılığıdır.
-
 ## Kaynaklar
 
-- https://medium.com/s%C4%B1f%C4%B1rdan-i%CC%87leri-d%C3%BCzeye-java-e%C4%9Fitim-serisi/lambda-ifadeleri-ve-fonksiyonel-interface-64312ad545a3
-
-- https://www.w3schools.com/java/java_lambda.asp
-
-- https://blog.burakkutbay.com/java-8-lambda-expressions-nedir-lambda-ifadeleri-kullanim-ornekleri.html/
-
-- (https://www.mobilhanem.com/java-8-lambda-ifadeleri/
+- [https://medium.com/s%C4%B1f%C4%B1rdan-i%CC%87leri-d%C3%BCzeye-java-e%C4%9Fitim-serisi/lambda-ifadeleri-ve-fonksiyonel-interface-64312ad545a3](https://medium.com/s%C4%B1f%C4%B1rdan-i%CC%87leri-d%C3%BCzeye-java-e%C4%9Fitim-serisi/lambda-ifadeleri-ve-fonksiyonel-interface-64312ad545a3)
+- [https://www.w3schools.com/java/java_lambda.asp](https://www.w3schools.com/java/java_lambda.asp)
+- [https://blog.burakkutbay.com/java-8-lambda-expressions-nedir-lambda-ifadeleri-kullanim-ornekleri.html/](https://blog.burakkutbay.com/java-8-lambda-expressions-nedir-lambda-ifadeleri-kullanim-ornekleri.html/)
+- [https://www.mobilhanem.com/java-8-lambda-ifadeleri/](https://www.mobilhanem.com/java-8-lambda-ifadeleri/)
