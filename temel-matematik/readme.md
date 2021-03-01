@@ -16,5 +16,5 @@
 - [Baz Değişimi](change-basis/)
 - [Dot Product](dot-product/)
 - [Dot Product ile Pisagor Teoremi](pisagor/)
-- [Dot Product ile Cosinüs Teoremi](cosine/)
+- [Dot Product ile Kosinüs Teoremi](cosine/)
 - [Gradient](gradient/)
