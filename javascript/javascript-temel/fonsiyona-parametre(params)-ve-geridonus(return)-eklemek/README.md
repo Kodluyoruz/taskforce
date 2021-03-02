@@ -33,7 +33,7 @@ Genel şablonu inceledikten sonra kafamızda net bir şeyin oluşmamış olması
 ```javascript
 function toplama (a , b) // a ve b toplanacak iki sayıyı temsil eden fonksiyon parametreleri(girdileri)
  {  
-    var sonuc = x+y; // Fonksiyonda aldığımız parametrelerle yaptığımız işlem
+    var sonuc = a+b; // Fonksiyonda aldığımız parametrelerle yaptığımız işlem
 	return sonuc;  	// Herhangi iki sayının toplamından elde edeceğimiz işlem sonucunu, return ifadesinden hemen sonra belirtiyoruz.
  }        
 ```
@@ -108,4 +108,38 @@ console.log(donenSonuc);  			  // 354.9456 olarak hesaplandı.
 
 Bu örnekten de görüldüğü gibi, bir fonksiyonu çağırdıktan sonra elde ettiğimiz bir değer ile ikinci bir fonksiyonun argümanı olarak kullanabiliyoruz. Bunu yapabilmemize olanak sağlayan şey, değer döndüren(return) fonksiyonları kullanmamız olduğunu söyleyebiliriz. 
 
-Bu konunun detaylıca öğrenilebilmesi için farklı örneklerle çok fazla pratik yapılması gerektiğini unutmamamız gerekir.
+Bu konunun detaylıca öğrenilebilmesi için farklı örneklerle çok fazla pratik yapılması gerektiğini unutmamamız gerekir. Aşağıya bıraktığım çoktan seçmeli sorudan başlayarak birçok kaynaktan bolca soru çözebilirsiniz. İyi çalışmalar. 
+
+**Soru:**  Aşağıda, kullanıcının yaş parametresini alarak yaş kontrolü yapan bir fonksiyon kodu yazılmıştır. yaşın 21 olma durumuna göre çıktının ne olması beklenir?
+
+```javascript
+function yasKontrol(yas) {
+  if (yas >= 18) {
+    return true;
+  } else {
+    return confirm('Yas kontrolunden gecemediniz');
+  }
+}
+
+let yas = 21;
+
+if ( yasKontrol(yas) ) {
+  alert( 'Izın verildi' );
+} else {
+  alert( 'Izın verilmedi' );
+}
+```
+
+**a)** "Izın verildi"
+
+**b)** "Izın verilmedi" 
+
+**c)** "Yas kontrolunden gecemediniz" , "Izın verilmedi"																								Cevap: a												
+
+------
+
+**Kaynaklar:** 
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+
+https://javascript.info/function-basics
