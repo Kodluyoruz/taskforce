@@ -173,7 +173,7 @@ JQuery'i tüm gücü ile etkili kullanmak JavaScript aracılığıyla mümkün. 
 * Events
 * Effects
 
-## 13. Getting Started with Bootstrap 4
+## 13. Introduction to Bootstrap 4
 
 Bootstrap, daha hızlı ve daha kolay web tasarımı  için ücretsiz bir frameworktür. Bu kursta Bootstrap düzenlerini, grid sistemini, yardımcı programları anlamayı ve HTML kullanarak web sayfaları oluşturmayı öğreneceğiz. 
  
@@ -186,7 +186,7 @@ Bootstrap, daha hızlı ve daha kolay web tasarımı  için ücretsiz bir framew
 * Alignments and Offsets
  
 
-## 14. Bootstrap 4 CSS Components: Images, List, Tables, Button and Cards
+## 14. Bootstrap 4 CSS Components
 Bir önceki kursta öğrenmiş olduğumuz Bootstap yeteneklerimizi bir ileri seviyeye taşıma zamanı geldi. Bootstrap, mobil öncelikli ve duyarlı web siteleri tasarlamak için ücretsiz ve açık kaynaklı bir CSS framework olduğunu artık biliyoruz. Her Bootstrap bileşeni bir HTML yapısı, CSS bildirimleri ve bazı durumlarda JavaScript kodundan oluşur. Bu kurs, güzel web sayfaları tasarlamak için Bootstrap CSS bileşenlerini birlikte kullanmamızı sağlayacaktır.
 
 ### Neler Öğreneceğiz:
