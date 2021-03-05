@@ -276,7 +276,7 @@ Bir önceki kursta LINQ temellerini öğrenmiştik. LINQ, Entity Framework ve EF
 
 
 
-## 20. Introduction to Entity Framework: Getting Started
+## 20. Introduction to Entity Framework
 ADO.NET Entity Framework, geliştiricilerin ilişkisel veritabanlarıyla nesne yönelimli bir şekilde çalışmasını sağlayan bir Nesne / İlişkisel Eşleme (Object Relational Mapping) çerçevesidir. Bu ders ORM araçları, Entity Framework mimarisi(EF) ve EF veri modelleme yaklaşımlarını öğreneceğiz. Ayrıca, Entity çerçevesini kullanarak SQL veritabanı sorgulamak için EF  yaklaşımını öğreneceğiz.
 
 ### Neler öğreneceğiz:
