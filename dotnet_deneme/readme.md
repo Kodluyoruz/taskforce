@@ -562,8 +562,6 @@ Uçtan uca bir  web sitesi projesi geliştirerek öğrendiklerimizi pratiğe dö
 * CRUD Operations
 * Service Layer Development
 * Integrating Angular with MVC5
-* Shopping Store Using Angular
-* Shopping Cart And Payment Gateway
 * Error Logging And Securing Web API
 * Deployment
 
