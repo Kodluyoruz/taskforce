@@ -2,7 +2,9 @@
 
 # .NET Development Path
 
-.NET yada .NET Framework, Microsoft tarafından geliştirilen, açık internet protokolleri ve standartları üzerine kurulmuş bir yazılım geliştirme platformudur. Sağladığı çoklu dil desteğiyle, tek dile bağlı kalmadan çeşitli uygulamalar geliştirmemize olanak sağlar. [.NET](https://dotnet.microsoft.com/learn)  ile neler yapabilir ?
+.NET yada .NET Framework, Microsoft tarafından geliştirilen, açık internet protokolleri ve standartları üzerine kurulmuş bir yazılım geliştirme platformudur. Sağladığı çoklu dil desteğiyle, tek dile bağlı kalmadan çeşitli uygulamalar geliştirmemize olanak sağlar.
+
+[.NET](https://dotnet.microsoft.com/learn)  ile neler yapabilir ?
  
  - Konsol/Terminal de çalışabilecek text tabanlı uygulama,
  - Windows, Linux, MacOs yada Docker da  web uygulaması,
