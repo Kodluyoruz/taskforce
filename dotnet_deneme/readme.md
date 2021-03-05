@@ -20,7 +20,7 @@ History of .NET Platform
 * .NET Compilation: IL/MSIL, JIT/RyuJIT
 * Assembly and Garbage Collector
 
-## 2. Introduction to C# : Getting Started
+## 2. Introduction to C# 
 C#, developerların .NET Framework üzerinde çalışan çeşitli güvenli ve sağlam uygulamalar oluşturmalarına olanak tanıyan  nesne yönelimli yazılım dilidir. Windows uygulamaları, Web hizmetleri, mobil uygulamalar, istemci-sunucu uygulamaları, veritabanı uygulamaları ve çok daha fazlasını oluşturmak için C# kullanabilirsiniz.
 
 ### Neler Öğreneceğiz:
@@ -72,7 +72,7 @@ C #, .NET Framework ve teknolojilerinden yararlanmak için yaygın olarak kullan
 * Partial Class
 * Partial Methods
 
-## 6. Getting Started with SQL Server
+## 6. Introduction to SQL Server
 Bu kursta yazılım dünyasının vazgeçilmez kahramanlarından olan ilişkisel veri tabanlarını öğrenmeye başlayacağız. SQL dünyasında veri türleri, verilen düzenlenmesi, sorgu taktikleri gibi oldukça eğlenceli konular bizleri bekliyor. Bu kursta C# developerlar için veritabanları üzerindeki uygulamaları öğreneceğiz.
 
 ### Neler Öğreneceğiz:
