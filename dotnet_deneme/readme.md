@@ -550,7 +550,7 @@ Unit testi, hataları, herhangi bir boşluğu veya eksik gereksinimi belirlemeni
 * Debugging
 
 ## 40. Websites Project using MVC5 and Angular
-Uçtan uca bir  web sitesi projesi geliştirerek Angular Developer ile ASP.NET MVC5 olun. Angular'ı ASP.NET MVC5 ile bütünleştirmeyi öğrenmeye ve uygulamaya hazırız. Artık öğrendiklerimizi ayağa kaldırmak ve sonuçlarını görmeyi çoktan hak ettik.  
+Uçtan uca bir  web sitesi projesi geliştirerek öğrendiklerimizi pratiğe dökme zamanı. Angular'ı ASP.NET MVC5 ile bütünleştirmeye  hazırız. Artık öğrendiklerimizi ayağa kaldırmayı ve sonuçlarını görmeyi çoktan hak ettik.  
 
 ### Neler Öğreneceğiz:
 
