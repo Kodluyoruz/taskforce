@@ -575,3 +575,4 @@ Uçtan uca bir  web sitesi projesi geliştirerek Angular Developer ile ASP.NET M
 3.https://docs.microsoft.com/en-us/learn/dotnet/<br>
 4.https://www.sololearn.com/<br>
 5.https://www.coursera.org/learn/introduction-programming-unity<br>
+6.https://www.dotnettricks.com/<br>
