@@ -11,7 +11,7 @@ Bu kurs Windows, Linux, macOS, iOS, Android, tvOS, watchOS vb.  çeşitli platfo
 
 ### Neler Öğreneceğiz:
 
-History of .NET Platform  
+* History of .NET Platform  
 * .NET Framework vs. .NET Core vs. Mono 
 * .NET Standard Library
 * .NET 5: One .NET Vision
