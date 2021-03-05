@@ -7,7 +7,6 @@
 ## 1. .NET Fundamentals: Core Concepts
 Bu bölüm daha önce hiç tecrübeniz olmasa bile .NET temellerini anlamanız için doğru adres. Bu bölümde C# ECMA-335’ in standart özelliklerini, .NET tabanlı uygulamalarda kullanılacak  .NET mimarisin temel bileşenlerini öğreneceğiz.
 
-Bu kurs Windows, Linux, macOS, iOS, Android, tvOS, watchOS vb.  çeşitli platformları kullanan .NET tabanlı uygulamalarla etkili bir şekilde çalışmak için bilmeniz gereken temel kavramları öğretmek için tasarlanmıştır.
 
 ### Neler Öğreneceğiz:
 
