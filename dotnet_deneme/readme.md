@@ -569,4 +569,9 @@ Uçtan uca bir  web sitesi projesi geliştirerek Angular Developer ile ASP.NET M
 * Deployment
 
 
-
+## Kaynaklar:
+1.https://www.itjobswatch.co.uk/jobs/uk/.net.do
+2.https://visualstudio.microsoft.com/tr/vs/features/net-development/
+3.https://docs.microsoft.com/en-us/learn/dotnet/
+4.https://www.sololearn.com/
+5.https://www.coursera.org/learn/introduction-programming-unity
