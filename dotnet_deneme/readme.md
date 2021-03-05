@@ -538,7 +538,7 @@ Angular ve RxJS kullanarak durum yönetimi ile gerçek dünya uygulamaları olu�
 * Change Detection Strategies
 
 ## 39. Angular Unit Testing
-Unit testi, hataları, herhangi bir boşluğu veya eksik gereksinimi belirlemenize yardımcı olur, böylece bunları düzeltebilir ve kaliteli bir ürün geliştirebiliriz. Unity test senaryoları developerlar tarafından yazılır, bu nedenle bir developer olarak Angular uygulamanız için nasıl test senaryoları yazacağımızı bilmeliyiz. Bu kursta, açısal bileşenlerinizi, hizmetlerinizi, direktiflerinizi ve pipe test etmek için Angular Unit test framework-jasmine, test runner-Karma ve mocking framework öğreneceğiz. 
+Unit testi, hataları, herhangi bir boşluğu veya eksik gereksinimi belirlemenize yardımcı olur, böylece bunları düzeltebilir ve kaliteli bir ürün geliştirebiliriz. Unit test senaryoları developerlar tarafından yazılır, bu nedenle bir developer olarak Angular uygulamanız için nasıl test senaryoları yazacağımızı bilmeliyiz. Bu kursta, açısal bileşenlerinizi, hizmetlerinizi, direktiflerinizi ve pipe test etmek için Angular Unit test framework-jasmine, test runner-Karma ve mocking framework öğreneceğiz. 
 
 ### Neler Öğreneceğiz:
 
