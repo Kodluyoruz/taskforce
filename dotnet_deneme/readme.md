@@ -2,7 +2,7 @@
 
 # .NET Development Path
 
-.NET yada .NET Framework, Microsoft tarafından geliştirilen, açık internet protokolleri ve standartları üzerine kurulmuş bir yazılım geliştirme platformudur. Sağladığı çoklu dil desteğiyle, tek dile bağlı kalmadan çeşitli uygulamalar geliştirmemize olanak sağlar. Bu patikada C#, SQL Server, ASP.NET MVC, Web API, Entity Framework Code, Bootstrap ve HTML5  gibi birçok teknoloji, yazılım dili ve frameworkler ile yakın arkadaşlıklar kuracağız. Liste sizi korkutmasın yapbozun parçaları birleştikçe ortaya çıkan resim etkileyici olacak.
+.NET yada .NET Framework, Microsoft tarafından geliştirilen, açık internet protokolleri ve standartları üzerine kurulmuş bir yazılım geliştirme platformudur. Sağladığı çoklu dil desteğiyle, tek dile bağlı kalmadan çeşitli uygulamalar geliştirmemize olanak sağlar. Bu patikada C#, SQL Server, ASP.NET MVC, Web API, Entity Framework Code, Bootstrap ve HTML5  gibi birçok teknoloji, yazılım dili ve frameworkler ile yakın arkadaşlıklar kuracağız. Liste sizi korkutmasın yapbozun parçaları birleştikçe ortaya çıkan resim etkileyici olacak.:rocket:
 
 ## 1. .NET Fundamentals: Core Concepts
 Bu bölüm daha önce hiç tecrübeniz olmasa bile .NET temellerini anlamanız için doğru adres. Bu bölümde C# ECMA-335’ in standart özelliklerini, .NET tabanlı uygulamalarda kullanılacak  .NET mimarisin temel bileşenlerini öğreneceğiz.
