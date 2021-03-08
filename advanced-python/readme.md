@@ -14,3 +14,4 @@
 - [Magic Method](magic-method/)
 - [Iterable & Iterator](iterable-iterator/)
 - [Generator](generator/)
+- [Proje](proje/)
