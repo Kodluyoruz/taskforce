@@ -10,9 +10,9 @@ Wifi'ye bağlandığımızda bilgi havadan geliyor gibi görünse de orada bağl
 
 Bilgi **bit**'e dönüştürülüyor ve fiziksel elemanlar aracılığı ile hedefe ulaşıyor. 
 
-*Burada karşılaştığımız bir terim olan **bant genişliği** ise saniyede gönderebildiğimiz bit sayısını ifade ediyor.* Bant genişliğinin yüksek olması taşıyacağı bit sayınısı arttırıyor ve dolayısıyla o kadar hızlı iletim yapabiliyoruz.
+*Burada karşılaştığımız bir terim olan **bant genişliği** ise saniyede gönderebildiğimiz bit sayısını ifade ediyor.* Bant genişliğinin yüksek olması taşıyacağı bit sayısını arttırıyor ve dolayısıyla o kadar hızlı iletim yapabiliyoruz.
 
-Kullandığımız fiziksel elemanların birbirine göre güçlü ve zayıf yanları var. **Bunları aşağıdaki tabloda görebilirsiniz:****
+Kullandığımız fiziksel elemanların birbirine göre güçlü ve zayıf yanları var. **Bunları aşağıdaki tabloda görebilirsiniz:**
 
 ![fiziksel_elemanlar_tablo](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/fiziksel-elemanlar/figures/fiziksel_eleman_tablo.PNG)
 
