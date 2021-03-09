@@ -1,11 +1,10 @@
 ## `for`
 
-* `for` döngüsü `in` den sonra yazdığımız yapının bütün değerleri üzerinde dolanıp, eleman sayısı kadar içindeki kodu çalıştıracak. x `in` `<obje>` yapısı ile tanımlandığında, x döngünün her adımında `in` den sonra tanımlanan yapının elemanlarının değerlerini alacak.
+* `for` döngüsü `in`'den sonra yazdığımız yapının bütün değerleri üzerinde dolanıp, eleman sayısı kadar içindeki kodu çalıştıracak. `x` `in` `<obje>` yapısı ile tanımlandığında, `x` döngünün her adımında `in` den sonra tanımlanan yapının elemanlarının değerlerini alacak.
 
 `for` `<değişken>` in `<obje>`
 
 * `for` döngüsünün en başında `<değişken>`, `<obje>`'nin ilk elemanının değerini alıyor. İçindeki kod 1 kere çalışıp bittikten sonra ikinci kere çalıştırıyor ve `<değişken>`, `<obje>`'nin ikinci elemanının değerini alıyor. Bu `<obje>`'nin tüm elemanları bitene kadar devam ediyor.
-
 
 ```python
 for c in "hey":
@@ -16,8 +15,6 @@ for c in "hey":
     e
     y
 
-
-
 ```python
 toplam = 0
 
@@ -27,8 +24,6 @@ print(toplam)
 ```
 
     5050
-
-
 
 ```python
 for x in range(5):
@@ -42,7 +37,6 @@ for x in range(5):
     4
 
 
-
 ```python
 toplam = 1
 for i in range(5):
@@ -52,8 +46,6 @@ print(toplam)
 ```
 
     3125
-
-
 
 ```python
 toplam = 1
@@ -74,7 +66,6 @@ print(toplam)
 s = "hey"
 ```
 
-
 ```python
 for c in s:
     print(c)
@@ -83,8 +74,6 @@ for c in s:
     h
     e
     y
-
-
 
 ```python
 n = len(s)
@@ -98,5 +87,3 @@ while index < n:
     h
     e
     y
-
-
