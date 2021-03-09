@@ -5,7 +5,7 @@ Henüz versiyon kontrolü altında olmayan bir projenin dizininde, boş bir git 
 
 ![git-init](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/vs-code-icerisinde-terminal-kullanmadan-git-temel-komutlari/figures/1-git-init.png)
 
-Yeni eklenen veya üzerinde değişiklik yapılan dosyaları **staged** ortamına göndermek için **Stage Changes** buttonuna tıklamalıyız.
+Yeni eklenen veya üzerinde değişiklik yapılan dosyaları **staged** ortamına göndermek için **Stage Changes** butonuna tıklamalıyız.
 
 ![git-add-1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/vs-code-icerisinde-terminal-kullanmadan-git-temel-komutlari/figures/2-git-add-1.png)
 
