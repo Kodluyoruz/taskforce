@@ -20,7 +20,7 @@ Temel dosyalara [şuradan](https://github.com/Kodluyoruz/taskforce/tree/main/boo
 - `Ben` kategorisini diğer kategori isimleri gibi düzenleyiniz ve profil fotoğrafını düzeltiniz.
 - Navbarda bir değişiklik görüyor musunuz? Navbarın yüzüne nolmuş yahu?
 
-![nolmus](https://galeri14.uludagsozluk.com/879/senin-yuzune-nolmus_1377295_m.jpg)
+![nolmus](https://github.com/Kodluyoruz/taskforce/blob/main/bootstrap/odev3/figures/nolmus.jpg)
 
 Biz de onu soruyoruz işte nolmuş?
 
