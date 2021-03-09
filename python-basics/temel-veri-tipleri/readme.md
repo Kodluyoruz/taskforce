@@ -74,7 +74,7 @@
  
 ## Boolean
 
-* Daha ilerki konularda if-else mantığını gördüğümüzde daha iyi oturacak bir veri tipi. Özetle bir şeyin doğru (True) veya yanlış (False) olduğunu belirten bir yapı
+* Daha ileriki konularda if-else mantığını gördüğümüzde daha iyi oturacak bir veri tipi. Özetle bir şeyin doğru (True) veya yanlış (False) olduğunu belirten bir yapı
 
 
 ```python
