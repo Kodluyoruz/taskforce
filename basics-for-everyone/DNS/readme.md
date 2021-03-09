@@ -14,7 +14,7 @@ Evet, belki IP adreslerini bilmiyoruz ama ulaşmak istediğimiz web sitelerinin 
 
 ![URL](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/DNS/figures/URL.png)
 
-DNS sunucularına sorarken hızlı olmak için belli bir sıra ile sorulur. Öncelikle **lokalde** veya **ağda** ön bellekte (cache) bu alan adı daha önce saklanmış mı diye bakılıyor. Daha önce bu web sitesine girmişsek ilk önce saklanan IP adrese istek atılık. Eğer başarılı değilse tekrardan doğru IP'ye ulaşmak için **root DNS** sunucularında aranır. 
+DNS sunucularına sorarken hızlı olmak için belli bir sıra ile sorulur. Öncelikle **lokalde** veya **ağda** ön bellekte (cache) bu alan adı daha önce saklanmış mı diye bakılıyor. Daha önce bu web sitesine girmişsek ilk önce saklanan IP adrese istek atılır. Eğer başarılı değilse tekrardan doğru IP'ye ulaşmak için **root DNS** sunucularında aranır. 
 
 Her **TLD** *(Top Level Domain-Üst Düzey alan Adı)* ,ki bunlar `.com,.me,.io` gibidir, kendi sunucusuna sahiptir. 
 
