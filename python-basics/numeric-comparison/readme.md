@@ -53,7 +53,7 @@ i == j
 
 > True
 
-- Float veri tipleri için eşitlik karşılaştırması yaparken `==` kullanılması çok mantıklı değil, bunun nedenini ilerki derslerde göreceğiz
+- Float veri tipleri için eşitlik karşılaştırması yaparken `==` kullanılması çok mantıklı değil, bunun nedenini ileriki derslerde göreceğiz.
 
 ```python
 5.3 == 5.4
