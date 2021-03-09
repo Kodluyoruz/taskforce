@@ -4,7 +4,7 @@ Bilgisayarlar veya diğer cihazlar iletişim kurmak için **IP** adres kullanır
 
 **Peki kaç tanesinin IP adresini biliyorsunuz ?**
 
-Muhtemelen bilmiyorsunuz, biliyorsanız da çok azını. *IP adreslerini bilmeden bu sitelere nasıl erişiyoruz peki ?* Çünkü öğrendiklerimize göre internette her şey aslında veri almak/vermekten ibaret ve bu da IP gibi protokoller aracılığı ile oluyor. 
+Muhtemelen bilmiyorsunuz, biliyorsanız da çok azını. *IP adreslerini bilmeden bu sitelere nasıl erişiyoruz peki?* Çünkü öğrendiklerimize göre internette her şey aslında veri almak/vermekten ibaret ve bu da IP gibi protokoller aracılığı ile oluyor. 
 
 Evet, belki IP adreslerini bilmiyoruz ama ulaşmak istediğimiz web sitelerinin **alan adlarını**  (domain name) biliyoruz.
 
