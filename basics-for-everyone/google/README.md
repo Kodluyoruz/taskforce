@@ -1,15 +1,15 @@
 # Google Arama
 ## Google Arama Nasıl Çalışır?
 
-Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık gelebilecek binlerce web sayfası bulabilirsiniz. Google bunları belli bir tekniğe göre bulur ve sıralar. Bunu bilirseniz aradıklarınızı çok daha fokur bir şekilde bulabilirsiniz.
+Google arama motorunda klasik bir arama yaptığınızda, bunlara karşılık gelebilecek binlerce web sayfası bulabilirsiniz. Google bunları belli bir tekniğe göre bulur ve sıralar. Bunu bilirseniz aradıklarınızı çok daha rahat bir şekilde bulabilirsiniz.
 
-**Bunu sıralamayı şu şekilde yapar;**
+**Bunu sıralamayı şu şekilde yapar:**
 
 - Arama sayfasına yazdığınız kelimeyi, anlamına karşılık gelen kavramları, dilini ve bu kelimeyi aratan insanların ortak amacına göre bir algoritma çizer.
 
 - Sorguladığınız kavram ile eşleşen web sayfalarını arar. Alakalı bir sayfa bulduğuna dair en temel sinyal ise arama sırasında kullandığınız anahtar kelimeleri içermesidir. Aranan kelimenin hangi sayfada sıklıkla kullanıldığını belirler. 
 
-  **Örneğin:** ana başlıkta, alt başlıkta ya da metnin içinde mi kullanılıyor olabilir. Alaka düzeyinin artması için yoğunluğu yüksek sayfaları sıralamada yukarı taşır. *Bu durumda anahtar kelimeyi başlık ve alt başlıkta geçirmek üst sıralara çıkmanızı kolaylaştırır.*
+  **Örneğin:** ana başlıkta, alt başlıkta ya da metnin içinde kullanılıyor olabilir. Alaka düzeyinin artması için yoğunluğu yüksek sayfaları sıralamada yukarı taşır. *Bu durumda anahtar kelimeyi başlık ve alt başlıkta geçirmek üst sıralara çıkmanızı kolaylaştırır.*
 
 - Sonuçları sunmaya bir adım kala web sayfalarındaki bilgilerin bir araya geliş şeklini değerlendirir. Yani sayfada tek bir konuya mı odaklanılmış yoksa birden çok konu tek seferde mi işlenmiş, buna bakılır. Olabildiğince kapsamlı ve geniş bilgiler içeren web sitelerinin bizlere daha çok yardımcı olacağı varsayımıyla hareket eder.
 
@@ -67,7 +67,7 @@ Google yapılan aramalardaki eksikleri ve hataları düzeltebilecek kapasiteye s
 
 Özel bir **dosya türüne** ait bilgi için Google’da arama yaptığınızda "internetin zararları word" gibi arama kalıplarıyla istediğiniz sonuçlara ulaşamayabilirsiniz. Bunun için bir arama yöntemine sahip olan Google’da, aramak istediğiniz bilginin önüne `filetype:` ekini ve sonuna da **dosya türünü** getirmenizle beraber sadece o dosya türüne ait sonuçlar ekranınıza listelenecek. Bu akıllıca kullanıldığında gereksiz pek çok sayfayı elemenizi sağlar.
 
-**Örnek arama: ** internetin zararları filetype:doc
+**Örnek arama:**  internetin zararları filetype:doc
 
 ![google10_1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/google/figures/google10_1.png)
 
@@ -95,7 +95,7 @@ Bir web sitesi içinde arama yapmak istiyorsanız `site:` özelliğini kullanana
 
 8. **Sosyal aramalar**
 
-Sosyal medya kanaları üzerinde aradığınız sonuçlar için yapacağınız aramalarda bazı noktalara dikkat etmeniz gerekiyor.
+Sosyal medya kanalları üzerinde aradığınız sonuçlar için yapacağınız aramalarda bazı noktalara dikkat etmeniz gerekiyor.
 
 - **#[kelime]**
 
