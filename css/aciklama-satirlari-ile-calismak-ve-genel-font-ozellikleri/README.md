@@ -14,7 +14,7 @@ CSS'de açıklama satırı bu şekilde başlar /* ve bu bu şekilde biter */
       }
 ```
 
-Kodda istediğiniz yere yorum satırı ekleyebilirsiniz: 
+Kod da istediğiniz yere yorum satırı ekleyebilirsiniz: 
 
 ```css
     p {
@@ -36,9 +36,9 @@ Yorumları birden çok satıra da yazabilirsiniz:
 CSS'de beş genel yazı tipi ailesi vardır:
  1. **Serif** yazı tiplerinin her harfin kenarlarında küçük bir kontur vardır. Bir formalite ve zarafet duygusu yaratırlar.
  2. **Sans-serif** yazı tiplerinin temiz satırları vardır (küçük konturlar eklenmez). Modern ve minimalist bir görünüm yaratırlar.
- 3. **Monospace** yazı tipleri - burada tüm harfler aynı sabit genişliğe sahiptir. Mekanik bir görünüm yaratırlar.
+ 3. **Monospace** yazı tipleri burada tüm harfler aynı sabit genişliğe sahiptir. Mekanik bir görünüm yaratırlar.
  4. **Cursive** yazı insan el yazısı taklidi gibidir.
- 5. **Fantasy** yazı tipleri dekoratif / eğlenceli yazı tipleridir.
+ 5. **Fantasy** yazı tipleri dekoratif, eğlenceli yazı tipleridir.
 
 Tüm farklı yazı tipi adları, genel yazı tipi ailelerinden birine aittir.
 
