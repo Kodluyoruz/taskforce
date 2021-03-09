@@ -25,7 +25,7 @@ Yukarıda ki web sitesi görüntümüzü gelin koda dökelim
 ```
 
 Bu bizim sitemizin genel içeriğini oluşturan kodlarımız. Fakat biz **sm** 
-ekranlarda dizilimi değiştirmek istiyoruz o zaman yapmamız gereken tek şey ;
+ekranlarda dizilimi değiştirmek istiyoruz o zaman yapmamız gereken tek şey:
 
 ```html
 <div class="d-flex">
@@ -34,12 +34,12 @@ ekranlarda dizilimi değiştirmek istiyoruz o zaman yapmamız gereken tek şey ;
   <div class="order-sm-1 p-2">3. İçeriğimiz</div>
 </div>
 ```
-Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
+Artık sitemiz sm genişliklerde aşağıdaki gibi gözükecektir:
 
 3.İçeriğiniz | 2.İçeriğiniz |1.İçeriğiniz
 -- | -- | -- 
 
-İstediğimizi gerçekleştirmiş olduk Order kavramı bootstrap'te bütün kırılma noktaları(xs-sm-md-lg-xl-xxl) için tanımlanmış class'lara sahiptir.
+İstediğimizi gerçekleştirmiş olduk Order kavramı Bootstrap bütün kırılma noktaları(xs-sm-md-lg-xl-xxl) için tanımlanmış class'lara sahiptir.
 **Bunlar:**
 
 - order-0
@@ -79,7 +79,7 @@ Artık sitemiz sm genişliklerde aşağıda ki gibi gözükecektir
 - order-xxl-4
 - order-xxl-5
 
-**İstediğiniz kırılma noktalarında istediğiniz sıralamayı gerçekleştirebilirsiniz, tek kullanım şekli bu şekilde değildir.**
+**İstediğiniz kırılma noktalarında istediğiniz sıralamayı gerçekleştirebilirsiniz, tek kullanım şekli bu değildir.**
 
 Aşağıdaki class'ları kullanarakta sıralama işlemlerinizi gerçekleştirebilirsiniz.
 
@@ -96,7 +96,7 @@ Aşağıdaki class'ları kullanarakta sıralama işlemlerinizi gerçekleştirebi
 - order-xxl-first
 - order-xxl-last
 
-**Bir örnek daha gerçekleştirelim bootstrap ile hazırladığımız yapı ilk haliyle şu şekil olsun**
+**Bir örnek daha gerçekleştirelim Bootstrap ile hazırladığımız yapı ilk haliyle şu şekil olsun**
 
 ```html
 		<div class="container-fluid">
@@ -116,7 +116,7 @@ Aşağıdaki class'ları kullanarakta sıralama işlemlerinizi gerçekleştirebi
 
 ![ilkicerigimiz](figures/ilk.png)
 
-**Medium** kırılma noktasından daha küçük genişliklerde 3.içeriğimizin ilk sıraya geçmesini istiyoruz. Fakat daha büyük genişliklerde bu sırayla kalmasını istiyoruz bunun için 
+**Medium** kırılma noktasından daha küçük genişliklerde 3.içeriğimizin ilk sıraya geçmesini istiyoruz. Fakat daha büyük genişliklerde bu sırayla kalmasını istiyoruz bunun için:
 
 ``` html
 <div class="container-fluid">
@@ -136,9 +136,9 @@ Aşağıdaki class'ları kullanarakta sıralama işlemlerinizi gerçekleştirebi
 
 ![ilkicerikdüzenlenmishali](figures/ikinci.png)
 
-Kodumuzu bootstrap'i dahil ettiğiniz bir projede deneyebilirsiniz. Bu şekilde tüm kırılma noktaları için ayrı ayrı sıralamalar gerçekleştirebiliriz.
+Kodumuzu Bootstrap'i dahil ettiğiniz bir projede deneyebilirsiniz. Bu şekilde tüm kırılma noktaları için ayrı ayrı sıralamalar gerçekleştirebiliriz.
 
-Peki bu kodu biraz daha karmaşıklaştırmaya ne dersiniz ? İç içe içeriklerimiz olsun. 
+Peki bu kodu biraz daha karmaşıklaştırmaya ne dersiniz? İç içe içeriklerimiz olsun. 
 **Örneğin:**
 
 ```html
@@ -199,7 +199,7 @@ Peki bu kodu biraz daha karmaşıklaştırmaya ne dersiniz ? İç içe içerikle
 
 ![karisikicerigimiz](figures/ikinciicerik.png)
 
-Örneğimizi daha iyi anlamak için lütfen bir editör'e kodumuzu kopyalayıp yapıştıralım. Gördüğünüz gibi şuan iç içe içeriklerimizin olduğu bir yapı var ben **xs** kırılma noktasında farklı, **md**'da farklı ve **lg**'da şuanki görüntüsüyle sıralanmasını istiyorum. 
+Örneğimizi daha iyi anlamak için lütfen bir editöre kodumuzu kopyalayıp yapıştıralım. Gördüğünüz gibi şuan iç içe içeriklerimizin olduğu bir yapı var ben **xs** kırılma noktasında farklı, **md**'da farklı ve **lg**'da şuanki görüntüsüyle sıralanmasını istiyorum. 
 
 **Şimdi kodumuzu buna göre düzenleyelim.**
 
@@ -262,7 +262,7 @@ Peki bu kodu biraz daha karmaşıklaştırmaya ne dersiniz ? İç içe içerikle
 Kodumuzu artık istediğimiz düzeye getirmiş olduk.
 
 ## Alıştırma
-Sizde aşağıda ki kodu bütün içeriğin bütün kırılma noktalarında farklı bir şekilde sıralanmasını sağlayın.Şimdiden başarılar.
+Sizde aşağıda ki kodu bütün içeriğin bütün kırılma noktalarında farklı bir şekilde sıralanmasını sağlayın. Şimdiden başarılar.
 
 ```html
 <div class="container-fluid">
