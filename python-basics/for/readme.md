@@ -57,7 +57,7 @@ print(toplam)
 
 ## `for` vs `while`
 
-* `while` yapısında kaç kere iterasyon yapacağımızı bilmiyoruz, `for`'da eleman sayısı kadar iterasyon var (`break` veya `continue` ile bölünmezse)
+* `while` yapısında kaç kere iterasyon yapacağımızı bilmiyoruz, `for`'da eleman sayısı kadar iterasyon var. (`break` veya `continue` ile bölünmezse)
 
 * Aslında `for` döngüsünü `while` döngüsünü kullanarak yazabiliriz, ama `while` döngüsünü `for` kullanarak yazamayız, çünkü `for`'da test mekanizması yok.
 
