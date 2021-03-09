@@ -8,25 +8,25 @@ Aşağıdaki linkten Oracle sitesi üzerinden JDK indirme işlemini başlatabili
 
 [https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
 
-![JDK 8 Kurulumu](figures/JDK-8-Kurulumu.png) 
+![JDK 8 Kurulumu](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java/java-101/java-geli%C5%9Ftirme-ortaminin-kurulumu/figures/JDK-8-Kurulumu.png?raw=true) 
 
 Yukarıda da görüleceği üzere işlemci tipinize göre x86 (32 Bit) / x64 (64 Bit) seçebilirsiniz. Tıklayıp sözleşmeyi kabul edip indirebilirsiniz. İndirilen .exe uzantılı dosyaya çift tıklayarak kurulumu başlatabilirsiniz.
 
-![JDK Kurulumu 2 ](figures/jdk-kurulumu-2.jpg)
+![JDK Kurulumu 2 ](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java/java-101/java-geli%C5%9Ftirme-ortaminin-kurulumu/figures/jdk-kurulumu-2.jpg)
 
 
 
 &quot;Next&quot; seçeneği ile kuruluma devam edilir.
 
-![JDK Kurulumu 3 ](figures/jdk-kurulumu-3.jpg)
+![JDK Kurulumu 3 ](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java/java-101/java-geli%C5%9Ftirme-ortaminin-kurulumu/figures/jdk-kurulumu-3.jpg)
 
 Yukarıdaki gibi varsayılan ayarlar bırakılır ve &quot;Next&quot; ile kuruluma devam edilir.
 
-![JDK Kurulumu 4 ](figures/jdk-kurulumu-4.jpg)
+![JDK Kurulumu 4 ](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java/java-101/java-geli%C5%9Ftirme-ortaminin-kurulumu/figures/jdk-kurulumu-4.jpg)
 
 Yukarıda Java&#39;nın kurulacağı dosya yolu belirtilmiştir. &quot;Change&quot; butonuna tıklayarak dilediğiniz dosya yolu verebilirsiniz. &quot;Next&quot; ile kuruluma devam edilir.
 
-![JDK Kurulumu 5 ](figures/jdk-kurulumu-5.jpg)
+![JDK Kurulumu 5 ](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java/java-101/java-geli%C5%9Ftirme-ortaminin-kurulumu/figures/jdk-kurulumu-5.jpg)
 
 JDK 8 kurulumu böylece tamamlanmış olur. Java&#39;nın sisteme doğru bir şekilde kurulduğunu kontrol için &quot;Windows > cmd&quot; yoluyla Komut İstemcisi açılır.
 
@@ -34,7 +34,7 @@ JDK 8 kurulumu böylece tamamlanmış olur. Java&#39;nın sisteme doğru bir şe
 >>java -version
 ```
 
-![JDK Kurulumu 6](figures/jdk-kurulumu-6.jpg)
+![JDK Kurulumu 6](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java/java-101/java-geli%C5%9Ftirme-ortaminin-kurulumu/figures/jdk-kurulumu-6.jpg)
 
 Komut satırı üzerinden versiyon sorgulaması yaptığınızda yukarıdaki fotoğrafta da görüldüğü gibi eğer Java başarılı bir şekilde yüklendiyse size kısa bilgiler verecektir.
 
@@ -52,11 +52,11 @@ JAVA\_HOME ortam değişkeni tanımlanırken JDK&#39;nin kurulu olduğu dosya di
 
 Windows arama çubuğuna **&quot;Gelişmiş Sistem Ayarları&quot;** veya İngilizcesi ile **&quot;Advanced System Settings&quot;** yazarak erişebilirsiniz. Açılan pencerede &quot;Gelişmiş&quot; (Advanced) tabına gelerek Ortam Değişkenleri&#39;ni (Environment Variables) güncelleyebilirsiniz.
 
-![](figures/jdk-kurulumu-7.jpg)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java/java-101/java-geli%C5%9Ftirme-ortaminin-kurulumu/figures/jdk-kurulumu-7.jpg)
 
 Ardından, **&quot;Sistem Değişkenleri&quot; (System Variables)** altında yer alan &quot;Yeni&quot; (New) butonuna tıklayarak JAVA\_HOME değişkenini, JDK dosya dizinini vererek tanımlayabilirsiniz.
 
-![JDK Kurulumu 8](figures/jdk-kurulumu-8.jpg)
+![JDK Kurulumu 8](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java/java-101/java-geli%C5%9Ftirme-ortaminin-kurulumu/figures/jdk-kurulumu-8.jpg)
 
 #### PATH Tanımının Güncellenmesi
 
@@ -79,7 +79,7 @@ Yukarıda da görüldüğü gibi **&quot;ExampleSourceCode.java&quot;** isimli �
 
 Yine **&quot;Sistem Değişkenleri&quot; (System Variables)** içinde yer alan &quot;Path&quot; isimli öğeyi seçilir ve &quot;Güncelle&quot; (Edit) seçeneğine tıklanır. Gelen ekranda &quot;Yeni&quot; (New) butonuna tıklayarak yeni PATH tanımı eklenir. Bu PATH tanımında bir önceki bölümde tanımladığımız &quot;JAVA\_HOME&quot; ortam değişkeni kullanılabilir. JAVA\_HOME zaten JDK&#39;nin kurulu olduğu dosya dizinini verir. **&quot;%JAVA\_HOME\bin%&quot;** şeklinde sonuna &quot;\bin&quot; gelecek şekilde ekleme yapılarak, Java işletim sisteminin PATH tanımına eklenmiş olur.
 
-![JDK Kurulumu 9](figures/jdk-kurulumu-9.jpg)
+![JDK Kurulumu 9](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java/java-101/java-geli%C5%9Ftirme-ortaminin-kurulumu/figures/jdk-kurulumu-9.jpg)
 
 ### Linux İşletim Sisteminde JDK 8 Kurulumu
 
@@ -126,7 +126,7 @@ Mac OS üzerinde JDK 8 kurulumu için Oracle websitesinden &quot;.**dmg**&quot; 
 
 İndirilen dosyaya çift tıklayarak kurulumu başlatabilirsiniz.
 
-![JDK Kurulumu 10](figures/jdk-kurulumu-10.jpg)
+![JDK Kurulumu 10](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java/java-101/java-geli%C5%9Ftirme-ortaminin-kurulumu/figures/jdk-kurulumu-10.jpg)
 
 Mac OS üzerinde komut istemcisi üzerinden işleri halletmek verimli ve entegrasyon esnekliği açısından faydalı denilebilir. Mac OS için &quot; **iTerm**&quot; Terminali tavsiye edebilirim. &quot; **iTerm**&quot; terminal kurulu olduğunu varsayarak veya var olan Terminali açarak Java kurulumunun başarılı bir şekilde yapılıp yapılmadığı kontrol edilmelidir.
 
@@ -134,7 +134,7 @@ Mac OS üzerinde komut istemcisi üzerinden işleri halletmek verimli ve entegra
 java -version
 ```
 
-![JDK Kurulumu 11](figures/jdk-kurulumu-11.jpg)
+![JDK Kurulumu 11](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java/java-101/java-geli%C5%9Ftirme-ortaminin-kurulumu/figures/jdk-kurulumu-11.jpg)
 
 Ardından, Windows ve Ubuntu işletim sistemlerinde yaptığımız gibi Mac OS işletim sisteminin PATH ortam değişkenini, JAVA\_HOME ortam değişkenini belirtmeliyiz.
 
