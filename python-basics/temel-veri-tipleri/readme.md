@@ -6,7 +6,7 @@
 
 ## Integers (tam sayılar)
 
-* Integerlar küsuratı olmayan, *1,2,3,4* gibi sayılardır.
+* Integer'ler küsuratı olmayan, *1,2,3,4* gibi sayılardır.
 
   
 
@@ -15,7 +15,7 @@
 ```python
 3
 ```
-* Integerlar negatif değerler de alabilir
+* Integer'ler negatif değerler de alabilir
 
 ```python
 -3
