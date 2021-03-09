@@ -12,6 +12,4 @@
 - [Class Method ve Static Method](class-static/)
 - [Inheritence](inheritence/)
 - [Magic Method](magic-method/)
-- [Iterable & Iterator](iterable-iterator/)
 - [Generator](generator/)
-- [Proje](proje/)
