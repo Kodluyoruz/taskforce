@@ -1,16 +1,16 @@
 ## Programı Dallandırma (Branching)
 
-* İfadelerin değerlerinin True veya False olduklarını veren karşılaştırmalara ve mantıksal operatörlere bakmıştık
+- İfadelerin değerlerinin True veya False olduklarını veren karşılaştırmalara ve mantıksal operatörlere bakmıştık.
 
-* Şimdi bunların sonuçlarına göre programımızı dallandırmaya bakacağız
+- Şimdi bunların sonuçlarına göre programımızı dallandırmaya bakacağız.
 
   
 
 ## `if`
 
-* Eğer testimin değeri True ise `if` bloğunun içinde yazanı yapacağız
+- Eğer testimin değeri True ise `if` bloğunun içinde yazanı yapacağız.
 
-* Yapılacakların `if` bloğuna ait olduğunu anlatmak için kodu `if` in içine yazarız. Python'ın o bloğun içinde olduğumuzu anlaması için boşluk bırakmamız gerekir
+- Yapılacakların `if` bloğuna ait olduğunu anlatmak için kodu `if` in içine yazarız. Python'ın o bloğun içinde olduğumuzu anlaması için boşluk bırakmamız gerekir.
 
 
 ```python
@@ -28,7 +28,7 @@ print("Programınız sona ulaştı")
 
 ## `else`
 
-* `if` ile kontrolümüz (veya elseif-elif) `False` sonucu döndürülürse yapılacak blok
+- `if` ile kontrolümüz (veya elseif-elif) `False` sonucu döndürülürse yapılacak blok
 
 
 ```python
@@ -49,7 +49,7 @@ print("Programınız sona ulaştı")
 
 ## `elif`
 
-* `elif` `if` ile yaptığımız teste ek olarak başka testler yapmak istiyorsak kullanılır
+* `elif` `if` ile yaptığımız teste ek olarak başka testler yapmak istiyorsak kullanılır.
 
 
 ```python
@@ -99,7 +99,7 @@ print("Programınız sona ulaştı")
 
 ## Nested if
 
-* `if`, `elif` ve `else` bloğunun içine yazdığımız kod normal koddan farklı değil, o yüzden bunların içine de ayrıca `if`, `elif` ve `else` yazabiliriz
+* `if`, `elif` ve `else` bloğunun içine yazdığımız kod normal koddan farklı değil, o yüzden bunların içine de ayrıca `if`, `elif` ve `else` yazabiliriz.
 
 
 ```python
