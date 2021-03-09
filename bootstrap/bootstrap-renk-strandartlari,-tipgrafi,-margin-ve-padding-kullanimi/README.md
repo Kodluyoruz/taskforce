@@ -1,7 +1,7 @@
 # Renk Strandartları, Tipografi, Margin ve Padding Kullanımı
 
 ## Bootstrap Renk Standartları
-Bootstrap temamızı, bileşenlerimizi daha iyi stillendirebilmemiz adına *kapsamlı* bir renk sistemine sahip. Renk standartları deyince aklımıza belirli renk kullanımları gelebilir fakat direkt renk ataması yapmak yerine bootstrap **anlamlı** renk kümelerini içeriyor. Günümüzde bootstrap kullanılmayan projelerde dahi standart olarak bu yaklaşımı görebiliyoruz.
+Bootstrap temamızı, bileşenlerimizi daha iyi stillendirebilmemiz adına *kapsamlı* bir renk sistemine sahip. Renk standartları deyince aklımıza belirli renk kullanımları gelebilir fakat direkt renk ataması yapmak yerine Bootstrap **anlamlı** renk kümelerini içeriyor. Günümüzde Bootstrap kullanılmayan projelerde dahi standart olarak bu yaklaşımı görebiliyoruz.
 
 Herhangi bir web sitesini ziyaret ettiğinizde en ön plana çıkan renk, site içerisindeki önemli vurgularda ve kullanıcıyı harekete geçirebilecek dinamikliğin olduğu yerlerde, ana renk olarak görürüz. Ana rengin yanına ek olarak kullanıcıya daha iyi UI/UX tecrübesi sunabilmek için kullanıcıyı site içerisinde yönlendirirken belirli renk seçimleri yaparız. Bootstrap renk standartlarında da bu yapıyı görmek mümkün.
 
@@ -63,7 +63,7 @@ Web sitesinin içeriğinde, önem derecesine göre attığımız başlıkları `
   <h6>h6 heading</h6>
 ```
 
-Eğer başlık etiketlerinden farklı bir html etiketinde, paragraph etiketi gibi(`<p>`), başlıklardan birinin font stillerini kullanmak isterseniz `.h1` den `.h6` ya kadar class lar bootstrap de mevcut. 
+Eğer başlık etiketlerinden farklı bir html etiketinde, paragraph etiketi gibi(`<p>`), başlıklardan birinin font stillerini kullanmak isterseniz `.h1` den `.h6` ya kadar class lar Bootstrap de mevcut. 
 
 **Örneğin:**
 ```html
@@ -73,7 +73,7 @@ Yukarıda `p` etiketi içerisinde yazdıklarımız şekil olarak `h1` class'ın
 
 
 ### Paragraf
-Web sitesinde bir içeriğe dikkat çekmek, daha belirgin kılmak için bootstrap içerisinde var olan utility classlardan `.lead` classını kullanabiliriz.
+Web sitesinde bir içeriğe dikkat çekmek, daha belirgin kılmak için Bootstrap içerisinde var olan utility classlardan `.lead` classını kullanabiliriz.
 
 **Örnek kullanım:**
 ```html
@@ -96,7 +96,7 @@ HTML kodlarımızda bazen vurgulamak istediğimiz kelimeleri ve ya bir yazıyı 
 <p><small></small></p>
 ```
 
-Diğer bir çözüm bootstrap tarafından bize sağlanan classları html etiketine atamak. 
+Diğer bir çözüm Bootstrap tarafından bize sağlanan classları html etiketine atamak. 
 Yani `.mark .small .text-decoration-underline` gibi class'ları etiket içerisinde kullanmak.
 
 **Örneğin:**
@@ -141,7 +141,7 @@ Son olarak bootstrap in tipografi için gelen varsıyalan ayarlarına bakalım.
 [Daha fazla bilgi için...](https://getbootstrap.com/docs/5.0/content/typography/ 'Bootstrap Docs - Typography')
 
 ## Margin ve Padding Kullanımı
-Bootstrap, margin ve padding kullanımı için basit ve geniş classlara sahip. Kullanıma geçmeden önce classların gösterimi için kullanılan harflerin ne anlama geldiğini ve bootstrapin kullandığı default boşluk değerlerine bakalım.
+Bootstrap, margin ve padding kullanımı için basit ve geniş classlara sahip. Kullanıma geçmeden önce classların gösterimi için kullanılan harflerin ne anlama geldiğini ve Bootstrapin kullandığı default boşluk değerlerine bakalım.
 
 - `m-`: ile başlayan classlar **margini** temsil eder.
 - `p-` ile başlayan classlar **paddingi** temsil eder.
@@ -173,7 +173,7 @@ Bootstrap, margin ve padding kullanımı için basit ve geniş classlara sahip. 
 Yukarıdaki örnekte `margin-top`yerine geçen class kullanılmıştır ve kutumuzun üst kısmına `4` büyüklüğünde pay bırakmıştır.
 
 ### Yatayda Ortalama
-Yukarıdakilere ek olarak yatayda bir elementi tam olarak merkeze alabilmek için bootstrap `.mx-auto` classını içerir. Bu classın işlevini yerine getirebilmesi için elementin genişliğinin verilmiş olması gerekir.
+Yukarıdakilere ek olarak yatayda bir elementi tam olarak merkeze alabilmek için Bootstrap `.mx-auto` classını içerir. Bu classın işlevini yerine getirebilmesi için elementin genişliğinin verilmiş olması gerekir.
 
 ```html
   <div class="mx-auto" style="width: 200px;">
