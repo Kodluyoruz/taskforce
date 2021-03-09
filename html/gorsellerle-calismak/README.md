@@ -156,7 +156,7 @@ Tarayıcı, her bir source öğesini inceleyip eşleşme sağlar. Eşleşme bulu
 
 **Aşağıda codepen kullanarak deneyimle!**
 
-## Kaynaklar:
+## Kaynaklar:
 
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture
