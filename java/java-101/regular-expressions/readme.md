@@ -264,7 +264,8 @@ Matcher matcher = pattern.matcher("Bugün hava yağışlı");
 		boolean matchFound = matcher.find();
 ```
 
-`Projeyi debug modda çalıştırdığımız zaman görüyoruz ki eşleşme sağlandığı için "matchFound" değişkeni "true" sonucunu bize veriyor.`
+Projeyi debug modda çalıştırdığımız zaman görüyoruz ki eşleşme sağlandığı için "matchFound" değişkeni "true" sonucunu bize veriyor.
+
 ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java/java-101/regular-expressions/figures/boolean-matchFound(debug_mod).png)
 
 ```java
