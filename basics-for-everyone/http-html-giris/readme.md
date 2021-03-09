@@ -20,7 +20,7 @@ Bilgilerimizin çalınma tehlikesi olduğu için güvenilir olmayan siteler konu
 
 **Peki kullandığımız websitesinin güvenilir bir kanal kullanıp kullanmadığını nasıl anlayacağız ?**
 
-Tarayıcımız ile bir adrese girdiğimizde `http` yerine `https` ile başladğına ve kilit işaretinin olduğuna dikkat etmeliyiz, sertifika olmadığında tarayıcımız uyarı verecektir.
+Tarayıcımız ile bir adrese girdiğimizde `http` yerine `https` ile başladığına ve kilit işaretinin olduğuna dikkat etmeliyiz, sertifika olmadığında tarayıcımız uyarı verecektir.
 
 ![web_security](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/http-html-giris/figures/web_security.png)
 
