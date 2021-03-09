@@ -84,7 +84,7 @@ Başlık kısmından sonra body kısmı bulunuyor ve sunucudan veri geliyorken s
 
 Daha önce bunlarla hiç karşılaşmama ihtimaliniz yüksek. Yukarıda anlattıklarımızı denemeniz için gelin öncelikle bir tarayıcı açalım. Tarayıcı üzerinde **F12'ye** bastığınızda bir pencere açılacak. Sayfa içerisinde sağ tık **incele** ile de ulaşabilirsiniz.
 
-Açılan pencerede **"Network"** seçeneğine tıklarsanız tüm trafiği görebilirsiniz. **Durum kodlarını fark ettiniz mi ?**
+Açılan pencerede **"Network"** seçeneğine tıklarsanız tüm trafiği görebilirsiniz. **Durum kodlarını fark ettiniz mi?**
 
 ![network_sekmesi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/http/figures/network_sekmesi.png)
 
