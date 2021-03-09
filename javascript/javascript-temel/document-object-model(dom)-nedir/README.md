@@ -6,7 +6,7 @@ Bir HTML belgesini iç içe geçmiş kutular olarak hayal edebilirsiniz. ``<body
 
 Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli izler. Her kutu için, hangi HTML etiketini temsil ettiği ve hangi kutuları ve metni içerdiği gibi şeyleri bulmak için etkileşime girebileceğimiz bir nesne vardır. Bu temsil, **Document Object Model** veya kısaca **DOM** olarak adlandırılır.
 
-**DOM**’da **HTML** ile hazırladığınız sayfa, **_document_**; bu document'in içine yerleştirdiğiniz her türlü öğe ise **_element_** olarak adlandırılır. **DOM** da nesnelerin birer **_element_** olarak kullanılabilmesi için hiyerarşik bir düzen izlenerek çağrılmaları gerekir. HTML’deki her bir elamanın birbiri ile hiyearşik bir yapı oluşturması ile oluşur. **DOM** bir ağaç dizini gibi bütün dokümanları birbirine bağlar.
+**DOM**’da **HTML** ile hazırladığınız sayfa, **_document_**; bu document'in içine yerleştirdiğiniz her türlü öğe ise **_element_** olarak adlandırılır. **DOM**'da nesnelerin birer **_element_** olarak kullanılabilmesi için hiyerarşik bir düzen izlenerek çağrılmaları gerekir. HTML’deki her bir elamanın birbiri ile hiyearşik bir yapı oluşturması ile oluşur. **DOM** bir ağaç dizini gibi bütün dokümanları birbirine bağlar.
 
 ![DOM Tree](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/document-object-model(dom)-nedir/figures/dom-tree.png)
 
