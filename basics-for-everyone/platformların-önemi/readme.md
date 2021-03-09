@@ -16,19 +16,19 @@ Bu sitenin genel kuruluş amacı aslında yazılımcı çalıştırmak isteyen f
 
 ## 3) Codility
 
-Codility de HackerRank’e benzer şekilde şirketlerin programcı işe alım süreçlerini hızlandırmaya yönelik kurulmuş bir site. Bu servisi kullanan şirketler, programcı işe almak istedikleri zaman platform üzerinde bir challenge oluşturup adaylara ilgili linki yolluyorlar. Adaylar da ilgili platforma girip, verilen süre zarfında ilgili soruları çözüyor.Platform her ne kadar şirketler için kurulmuş olsa da bireysel olarak kendini test etmek isteyen kişiler ücretsiz bir şekilde kayıt olup, yararlanabiliyorlar. Programcılar için dersler kategorisi altında algoritma yeteneğinizi geliştirmeye yönelik pek çok soru bulunuyor. Testlerin hemen altında bulunan yorumlar kısmından da takıldığınız yerlerle ilgili sorular sorabiliyor ve cevaplar alabiliyorsunuz. Codility challengelarının algoritma konusunda oldukça zihin açıcı olduğunu düşünüyor ve bakmadan geçmeyiniz diyoruz. Platforma [buradaki](https://www.codility.com/) bağlantıda ulaşabilirsiniz. 
+Codility de HackerRank’e benzer şekilde şirketlerin programcı işe alım süreçlerini hızlandırmaya yönelik kurulmuş bir site. Bu servisi kullanan şirketler, programcı işe almak istedikleri zaman platform üzerinde bir challenge oluşturup adaylara ilgili linki yolluyorlar. Adaylar da ilgili platforma girip, verilen süre zarfında ilgili soruları çözüyor.Platform her ne kadar şirketler için kurulmuş olsa da bireysel olarak kendini test etmek isteyen kişiler ücretsiz bir şekilde kayıt olup, yararlanabiliyorlar. Programcılar için dersler kategorisi altında algoritma yeteneğinizi geliştirmeye yönelik pek çok soru bulunuyor. Testlerin hemen altında bulunan yorumlar kısmından da takıldığınız yerlerle ilgili sorular sorabiliyor ve cevaplar alabiliyorsunuz. Codility challengelarının algoritma konusunda oldukça zihin açıcı olduğunu düşünüyor ve bakmadan geçmeyiniz diyoruz. Platforma [buradaki](https://www.codility.com/) bağlantıdan ulaşabilirsiniz. 
 
 ![codility](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/codility.png)
 
 ##  4) Project Euler
 
-Project Euler sitesi oldukça zorlu matematik ve problemlerinden oluşuyor. Zihninize farklı düşünmeyi öğretmek ve problem çözme yeteneğinizi geliştirmek istiyorsanız Project Euler iyi bir seçenek olacaktır. Kendiniz denedikten sonra internette bu sorular üzerine kafa patlatmış kişilerin videolarını izleyip farklı çözüm yöntemlerini de görebilirsiniz. Platforma [buradaki](https://projecteuler.net/) bağlantıda ulaşabilirsiniz.  
+Project Euler sitesi oldukça zorlu matematik ve problemlerinden oluşuyor. Zihninize farklı düşünmeyi öğretmek ve problem çözme yeteneğinizi geliştirmek istiyorsanız Project Euler iyi bir seçenek olacaktır. Kendiniz denedikten sonra internette bu sorular üzerine kafa patlatmış kişilerin videolarını izleyip farklı çözüm yöntemlerini de görebilirsiniz. Platforma [buradaki](https://projecteuler.net/) bağlantıdan ulaşabilirsiniz.  
 
 ![project-euler](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/project-euler.png)
 
 ## 5) Github
 
-GitHub, proje yönetim ve versiyon kontrol sistemi olmakla birlikte, ayrıca geliştiriciler için yapılmış bir sosyal ağ platformu. Tüm dünyadan başka insanlarla işbirliği içinde çalışmanıza, projelerinizi planlamanıza ve izlemenize olanak sağlıyor. Yaptığınız projelerin kodlarını buraya ekledikten sonra github linkinizi özgeçmişinize eklemeyi unutmayın diyoruz. Platforma [buradaki](https://github.com/) bağlantıda ulaşabilirsiniz.  
+GitHub, proje yönetim ve versiyon kontrol sistemi olmakla birlikte, ayrıca geliştiriciler için yapılmış bir sosyal ağ platformu. Tüm dünyadan başka insanlarla işbirliği içinde çalışmanıza, projelerinizi planlamanıza ve izlemenize olanak sağlıyor. Yaptığınız projelerin kodlarını buraya ekledikten sonra github linkinizi özgeçmişinize eklemeyi unutmayın diyoruz. Platforma [buradaki](https://github.com/) bağlantıdan ulaşabilirsiniz.  
 
 ![github](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/github.png)
 
