@@ -1,6 +1,6 @@
 # Programlama Nedir ?
 
-Evet Python ile programla eğitimindeyiz... Hmm peki ne tam olarak bu programlama ?
+Evet Python ile programlama eğitimindeyiz... Hmm peki ne tam olarak bu programlama ?
 
 
 
