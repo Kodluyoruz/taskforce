@@ -1,12 +1,10 @@
-## Stringlerde değer atama(Variable Assignment)
+## String'lerde Değer Atama(Variable Assignment)
 
 - Sayısal veri tiplerinde nasıl ki değer atayabiliyor, verilerin değerlerine isim verebiliyorsak, aynısını stringler için de yapabiliyoruz.
-
 
 ```python
 merhaba = "Merhaba nasılsın bugün?"
 ```
-
 
 ```python
 print(merhaba)
@@ -16,11 +14,11 @@ print(merhaba)
 
 ## String Concatenation
 
-* Operatörlerin uygulandıkları objelere göre değişik şeyler ifade edebileceğini konuşmuştuk.
+- Operatörlerin uygulandıkları objelere göre değişik şeyler ifade edebileceğini konuşmuştuk.
 
-* `+` operatörü sayısal veri tipleri üzerine etki edince toplama işlemi yapıyor. Ama uygulandığı objeler `string` ise yapacağı işlem `concatenation` (birleştirme) olacak. İki string'i ard arda birleştirecek
+- `+` operatörü sayısal veri tipleri üzerine etki edince toplama işlemi yapıyor. Ama uygulandığı objeler `string` ise yapacağı işlem `concatenation` (birleştirme) olacak. İki string'i art arta birleştirecek.
 
-* En çok karıştırılan durumlardan biri `string` olarak ifade edilen sayıları `+` operatörüne sokmak.
+- En çok karıştırılan durumlardan biri `string` olarak ifade edilen sayıları `+` operatörüne sokmak.
 
 ```python
 "5" + "4"
@@ -28,7 +26,7 @@ print(merhaba)
 
 > '54'
 
-* Python tırnak işareti içinde verdiklerimize karater olarak davrandığı için artık 5 ve 4 ü sayı olarak algılamıyor. `+` işlemi burada artık bu iki değeri yan yana koy demek, topla demek değil !
+- Python tırnak işareti içinde verdiklerimize karater olarak davrandığı için artık 5 ve 4 ü sayı olarak algılamıyor. `+` işlemi burada artık bu iki değeri yan yana koy demek, topla demek değil!
 
 ```python
 "hey"+"nasılsın?"
@@ -36,7 +34,7 @@ print(merhaba)
 
 > 'heynasılsın?'
 
-* `+` operatörünün tek yaptığı birleştirmek, stringlerde boşluk(space) olmadığı için ifadenin sonucu boşluksuz çıktı.
+- `+` operatörünün tek yaptığı birleştirmek, stringlerde boşluk(space) olmadığı için ifadenin sonucu boşluksuz çıktı.
 
 
 ```python
