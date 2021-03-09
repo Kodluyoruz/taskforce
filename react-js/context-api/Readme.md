@@ -265,7 +265,7 @@ HeaderButton componentimizi de tanımladıktan sonra `HeaderContainer` component
 
 Context'i kullandığınız component Fonksiyon tipinde bir (Functional Component)  component ise, Context.Consumer ile değerlere erişmek yerine React'ın sağlamış olduğu **useContext** hook'unu kullanarakta context'in Provider'ı içerisinde sağlanan değerlere erişebiliriz.
 
-### useContext Nasıl Kullanılır ?
+### useContext Nasıl Kullanılır?
 
 useContext hook'u içerisine, createContext ile oluşturan context verilir. Bu hooks sonuç olarak bize, hooks içerisine yazılan context'in sağlamış olduğu değerleri bir nesne (object) olarak döndürür.
 
