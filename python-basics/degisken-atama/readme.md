@@ -52,7 +52,7 @@ b + 4
 
 - Artık kodun başka bir yerinde `a` ile işlem yapmaya çalışsam python `a`'ya `2` olarak davranacak
 
-- Variable assingment'ı kafamızda canlandırmak için şöyle düşünebiliriz:
+- Variable Assingment'i kafamızda canlandırmak için şöyle düşünebiliriz:
     - Variable'a bir isim verip bir atama yaptığımızda Python bilgisayarın hafızasında o isimli bir konteyner oluşturuyor ve ismini verdiğimiz isim yapıyor. Daha sonra bu isim çağrıldığında o konteynera gidiyor ve o değeri alıyor
 
 ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/python-basics/degisken-atama/figures/variable_assignment.png)
