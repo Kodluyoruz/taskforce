@@ -1,6 +1,6 @@
 # Değişken Türünü Kontrol Etmek
 
-Çalıştığımız veriler her zaman kodumuz için uygun olmayabilir.Verilerin kontorlünü sağlayıp ona uygun kod yazabiliriz veya istediğimiz türe dönüştürerek ilerleyebiliriz.
+Çalıştığımız veriler her zaman kodumuz için uygun olmayabilir. Verilerin kontrolünü sağlayıp ona uygun kod yazabiliriz veya istediğimiz türe dönüştürerek ilerleyebiliriz.
 
 Bu kontrolleri yaparken sıkça typeof kullanılır.
 ``` javascript
@@ -65,7 +65,7 @@ Bu dönüşümler nasıl yapılıyor onlara bakalım.
 
 ## String Dönüşümü
 
-Eğer bir değeri açık bir şekilde String’e dönüştürmek istiyorsak String(),fonksiyonunu kullanırız. Binary(ikili) + operatörü bir string ifadeye uygulandığında implicit coercion tetiklenir.Örneklerle bunu daha iyi anlayalım.
+Eğer bir değeri açık bir şekilde String’e dönüştürmek istiyorsak String(),fonksiyonunu kullanırız. Binary(ikili) + operatörü bir string ifadeye uygulandığında implicit coercion tetiklenir. Örneklerle bunu daha iyi anlayalım.
 ``` javascript
 String(123) // “123” explicit
 123 + '' // “123”    implicit
@@ -88,7 +88,7 @@ String(Symbol('my symbol')) // 'Symbol(my symbol)'
 
 ```
 ## Boolean Dönüşümü
-Eğer bir değeri açık bir şekilde(explicit) boolean ‘a dönüştürmek istiyorsak `Boolean()` fonksiyonu kullanılır.
+Eğer bir değeri açık bir şekilde (explicit) boolean ‘a dönüştürmek istiyorsak `Boolean()` fonksiyonu kullanılır.
 Implicit coercion ise mantıksal operatörlerinin kullanıldığı, mantıksal işlemlerin yapıldığı alanlarda tetiklenir.(|| && !)
 ``` javascript
 Boolean(2) // explicit
