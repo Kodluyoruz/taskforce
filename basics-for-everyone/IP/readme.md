@@ -2,9 +2,9 @@
 
 Bir noktadan diğer noktaya veri iletişimini sağlarken verinin yolculuğunu sağlayan iletişim sistemine network denir. 
 
-**Peki veri nereden nereye gideceğiniz nasıl bilir ?**
+**Peki veri nereden nereye gideceğini nasıl bilir?**
 
-Eğer sadece iki cihazı kablo ile bağlasaydık ve veri iletişimi sağlasaydık, verinin kafası karışmazdı ve karşı bilgisayara giderdi. Eğer sistemde verinin çıkacağı bilgisayara başka bir bilgisayar daha bağlasaydık bu sefer hangisine gideceğini nasıl bilecekti ?
+Eğer sadece iki cihazı kablo ile bağlasaydık ve veri iletişimi sağlasaydık, verinin kafası karışmazdı ve karşı bilgisayara giderdi. Eğer sistemde verinin çıkacağı bilgisayara başka bir bilgisayar daha bağlasaydık bu sefer hangisine gideceğini nasıl bilecekti?
 
 ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/IP/figures/hangi_yon.PNG)
 
