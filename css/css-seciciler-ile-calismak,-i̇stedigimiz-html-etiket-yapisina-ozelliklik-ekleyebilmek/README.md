@@ -331,7 +331,7 @@ ul ~ p{
   <p>Bu p etiketi turuncu renkte</p>
 </div>
 ```
-Burada dikkat edilmesi gereken iki nokta var. Birincisi `<p>` etiketi `<ul>` etiketinden sonra gelmeli (arada başka etiketler olabilir) ve ikiside aynı düzeyde yania ayni parent etiketine sahip olmalılar.
+Burada dikkat edilmesi gereken iki nokta var. Birincisi `<p>` etiketi `<ul>` etiketinden sonra gelmeli (arada başka etiketler olabilir) ve ikiside aynı düzeyde yani aynı parent etiketine sahip olmalılar.
 
 #### Bitişik Kardeş Seçiciler (Adjacent Sibling Selector)
 Genel kardeş seçiciden tek farkı belirtilen etiketler bitişik arka arkaya gelmeliler. `+` işareti ile gösterilir.
