@@ -3,7 +3,7 @@
 Merhaba arkadaşlar bu yazıda HTML belgesine resim ekleme , bu resimlerle çalışma konusunu inceleyeceğiz.
 Öncelikle HTML sayfasına resim eklemek için `<img>` tagi kullanılır. 
 
-## `src=""`Kullanımı
+## `src=""`Kullanımı
 Kod bloğundaki `src=""` özelliğine resmin URL ya da dosya adresi belirtilerek resim HTML sayfasına çağırılır. (Resmi webden çağırmak için resmin URL'ini src=”…” parametesine eklemek yeterlidir.)
 
 ```html
