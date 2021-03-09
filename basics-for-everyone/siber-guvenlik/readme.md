@@ -8,15 +8,15 @@ Virüsler, DDoS ataklar ve oltalama(phishing) yöntemleridir.
 
 **Bu durumu şu şekilde örneklendirebiliriz.**
 
-Virüsler sayesinde kendi kendine sürüş yeteneğine sahip otomobillimiz ele geçirilir ve virüsü yöneten kişi bu aracı istediği lokasyona yönlendirebilir aynı zaman da bütün bilgilere (resimler, dosyalar, internet geçmişi) erişebilir.
+Virüsler sayesinde kendi kendine sürüş yeteneğine sahip otomobillimiz ele geçirilir ve virüsü yöneten kişi bu aracı istediği lokasyona yönlendirebilir aynı zamanda bütün bilgilere (resimler, dosyalar, internet geçmişi) erişebilir.
 
 **DDoS**, atağını ise ele geçirilmiş binler hatta milyonlarca aracın aynı cadde üzerine yönlendirilmesi olarak düşünebilirsiniz. Bu sayede o lokasyonda büyük bir trafik sağlanır ve saldırıya maruz kalan sunucu iş göremez hale gelir.
 
-**Oltalama** yöntemi ise çok basit bir dikkatsizlik sonucu oluşur. Ve kandırma yeteneğine bağlıdır. Genellikle kullandığınız bir servisi taklit ederek sizden giriş bilgilerinizi isterler. Eğer bu durumu kontrol etmez ve istenilen bilgileri karşı tarafa verirseniz. Bu bilgiler kötü niyetli kişilerin eline geçer.
+**Oltalama** yöntemi ise çok basit bir dikkatsizlik sonucu oluşur. Ve kandırma yeteneğine bağlıdır. Genellikle kullandığınız bir servisi taklit ederek sizden giriş bilgilerinizi isterler. Eğer bu durumu kontrol etmez ve istenilen bilgileri karşı tarafa verirseniz, bu bilgiler kötü niyetli kişilerin eline geçer.
 
 **Örneğin:**
 
-Mail kutunuza düşen bir emailin bankadan geldiğine inanırsınız. Ve sizden linke tıklayarak giriş bilgilerinizi vererek giriş yaparsınız o sırada bilgisayar korsanları bilgileriniz ile gerçek sistemden giriş yapabilirler. Bu sebeple izin veren bütün uygulamalarda 2 adımlı doğrulama hizmetini açmanızı ve araya bir katman daha katmanızı öneririz.
+Mail kutunuza düşen bir emailin bankadan geldiğine inanırsınız. Ve linke tıklayarak giriş bilgilerinizi vererek giriş yaparsınız. O sırada bilgisayar korsanları bilgileriniz ile gerçek sistemden giriş yapabilirler. Bu sebeple izin veren bütün uygulamalarda 2 adımlı doğrulama hizmetini açmanızı ve araya bir katman daha katmanızı öneririz.
 
 Siber suçlar yazılım kaynaklı gibi görünse de çoğu insan kaynaklıdır. Biz ne kadar dikkat edersek saldırıya uğrama ihtimalimiz o kadar azalır.
 
