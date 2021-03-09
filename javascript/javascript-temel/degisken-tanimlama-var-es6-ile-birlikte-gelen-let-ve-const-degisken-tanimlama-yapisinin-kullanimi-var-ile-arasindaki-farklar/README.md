@@ -99,7 +99,7 @@ let isim = “osman”
 let Sym1 = Symbol("Sym");
 ```
 
-- Object = Yukarıda ki 7 veri türü de primitive tiplidir . Objelerde ( nesne, dizi ) gibi referans tipler de değişkenlere atanabilir.
+- Object = Yukarıda ki 7 veri türü de primitive tiplidir. Objelerde ( nesne, dizi ) gibi referans tipler de değişkenlere atanabilir.
 
 ```javascript
 let sayilar = [1,2,3,4]
@@ -165,7 +165,9 @@ Yukarıda ki kod parçasını incelediğimizde  `functionScopeDegisken` isimli d
 `blocktaTanimliDegisken` isimli değişken block içerisinde tanımla olsa bile, bulunduğu fonksiyonda tanımlı olduğu için tanımlı olduğu fonksiyonun her yerinden ulaşılabilir, fakat fonksiyon dışından erişilemez.
 
 
-`var` ile tanımlanan değişkenlerin block scope olmamasından dolayı karşımıza bazı sorunlar çıkabilir. Örneğin
+`var` ile tanımlanan değişkenlerin block scope olmamasından dolayı karşımıza bazı sorunlar çıkabilir. 
+
+**Örneğin:**
 
 ```javascript
 var  weLove= "Kodluyoruz";
