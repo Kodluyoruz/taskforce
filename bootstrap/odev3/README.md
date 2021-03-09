@@ -8,13 +8,13 @@ Günümüzde iş hayatının Facebook'u, biznısınızın göbeği olan Linkedin
 
 Yine bir vicdansızlık yaparak size temel olarak vereceğimiz projeyi şuna dönüştürdük.
 
-![garibanlinkedin](https://github.com/Kodluyoruz/taskforce/raw/main/bootstrap/odev3/figures/garibanlinkedin.gif)
+![garibanlinkedin](https://github.com/Kodluyoruz/taskforce/blob/main/bootstrap/odev3/figures/garibanlinkedin.gif)
 
 Temel dosyalara [şuradan](https://github.com/Kodluyoruz/taskforce/tree/main/bootstrap/odev3/bootstraplinkedinclone) ulaşabilirsiniz.
 
 - Navbar yukarıya sabitlenmemiş durumda ve kenarlığı yok. Bunları düzeltiniz.
 - Logoya soldan boşluk ayarlayınız.
-- Arama alanına sağdan boşluk bırakınız ve placeholderını düzeltiniz.
+- Arama alanına sağdan boşluk bırakınız ve placeholder'ini düzeltiniz.
 - Arama alanı ile menü arasındaki boşluğu ayarlayınız.
 - Menülerdeki yazıları ve ikonları ortalayın.
 - `Ben` kategorisini diğer kategori isimleri gibi düzenleyiniz ve profil fotoğrafını düzeltiniz.
