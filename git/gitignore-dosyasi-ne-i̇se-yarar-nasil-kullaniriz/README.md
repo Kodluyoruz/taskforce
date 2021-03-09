@@ -14,7 +14,7 @@ Gel bu dosyaları `.gitignore` dosyasına koy ki GIT de senin bu dosyalarını a
 - Log dosyaları
 - Yararsız sistem dosyaları (örneğin MacOS işletim sisteminin `.DS_Store` dosyası )
 - `dist` gibi oluşturulan dosyalar
-- Ve ya herhangi bir dosyanız da olabilir.
+- Veya herhangi bir dosyanız da olabilir.
 
 ## Nasıl oluşturulur?
 Reponuzu oluştururken verilen seçeneklerde add gitignore file dosyasına tıklayarak reponuzla beraber oluşturabilirsiniz. Aynı şekilde editörünüzde `.gitignore` şeklinde de oluşturabilirsiniz.
@@ -34,12 +34,12 @@ $ touch .gitignore
 $ echo some-text or nothing > .gitignore
 ```
 
-şeklindeki komutlarla dosyanızı komut satırından oluşturabilirsiniz. Buradaki `some-text or nothing` kısmı `.gitignore` dosyasına yazılmasını istediğiniz metini ekler . Hiçbir şey de yazmayabilirsiniz. 
+şeklindeki komutlarla dosyanızı komut satırından oluşturabilirsiniz. Buradaki `some-text or nothing` kısmı `.gitignore` dosyasına yazılmasını istediğiniz metini ekler. Hiçbir şey de yazmayabilirsiniz. 
 
-## Nasıl  çalışır , nasıl kullanılmalı ?
+## Nasıl  çalışır, nasıl kullanılmalı?
 `.gitignore` dosyasının her satırına takip edilmesini istemediğimiz dosyaları veya dizinleri yazarak göz ardı edebiliriz.
 
-**Tabi bu dosyaları yazarken bize kolaylık sağlayan bazı formatlar var.  İşte onlar ;**
+**Tabii bu dosyaları yazarken bize kolaylık sağlayan bazı formatlar var.  İşte onlar:**
 
 - En basit haliyle dosyamızın ismini ekleyebiliriz. bu komut `.env`dosyasını göz ardı edecek.
 	```
@@ -93,9 +93,9 @@ Kullanımından da bahsettiğimize göre gelelim dikkat edilmesi gereken hususla
 $ git rm --cached FILENAME
 ```
 
-- Hani olur da derseniz ben belli dosyalarımı her seferinde `.gitignore` dosyasına eklemek istemiyorum bunu tek seferde halledebilir miyim ? Tabi ki buna da bir çözüm bulmuş GIT babamız :)
+- Hani olur da derseniz ben belli dosyalarımı her seferinde `.gitignore` dosyasına eklemek istemiyorum bunu tek seferde halledebilir miyim ? Tabii ki buna da bir çözüm bulmuş GIT babamız :)
 
-*Burada kastımız başka başka projeler için her deferinde eklememek.*
+*Burada kastımız başka başka projeler için her seferinde eklememek.*
 
 - Windows kullanıcısı iseniz  `C:\Users\{myusername}\` adresine giderek  `.gitignore_global` dosyası oluşturup içerisine global olmasını istediğiniz dosyaları ekledikten sonra git bash terminalinizi açarak aşağıdakı komut ile konfigürasyon sağlayabilirsiniz. 
 

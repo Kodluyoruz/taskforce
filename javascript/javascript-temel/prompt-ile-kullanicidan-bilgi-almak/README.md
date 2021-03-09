@@ -1,5 +1,5 @@
 
-# Prompt ile Kullanıcıdan Nasıl Bilgi Alınır ?
+# Prompt ile Kullanıcıdan Nasıl Bilgi Alınır?
 
 Javascript kullanıcı ile iletişim kurmamızı sağlayabilen etkileşimli bir dildir ve biliyoruz ki kullanıcı ile etkileşimi sağlamının bir yolu kullanıcıdan bilgi istemektir.
 
@@ -7,10 +7,10 @@ Javascript ile ilgilenenler, javascript'te prompt komutu ile sağlarlar.
 
 Şimdi birlikte kullanıcıdan istenilen kelimeyi sayfaya nasıl yazdıracağımıza bakalım...
 
-Öncelikle bir fonksiyon belirleriz bu fonksiyon içerisinde prompt ile kullanıcıdan bilgi ister "document.write" ile'de sayfamıza yazdırırız.
+Öncelikle bir fonksiyon belirleriz bu fonksiyon içerisinde prompt ile kullanıcıdan bilgi ister `document.write` ile'de sayfamıza yazdırırız.
 Özelikle bunları aynı fonksiyon içerisinde yazıyoruz ki sayfamız açıldığında ilk olarak fonksiyonumuz yüklensin ve belirtilen uygulamalar yorumlanıp sırası ile sayfamızda gösterilsin.
 
- - `<script>` tagları arasında veya .js dosyamıza yazacağımız fonksiyonumuza geçelim.
+ - `<script>` tagları arasında veya `.js` dosyamıza yazacağımız fonksiyonumuza geçelim.
 
 Fonksiyonumuzun ismi `istek` olsun, `function istek()`;
 

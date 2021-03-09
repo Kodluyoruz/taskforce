@@ -2,13 +2,13 @@
 
 Markdown, John Gruber ve Aaron Swartz tarafından geliştirilen ve 2004 yılından bu yana kullanılan metinden HTML'e (text-to-HTML) dönüşüm için kullanılan hafif bir işaretleme dilidir.
 
-GitHub gibi platformları kullananların aşina olduğu markdown formatı, yaygın kanının aksine sadece README dosyaları oluşturmak kullanılmaz. Temel amaç okunabilirliği ve kullanılabilirliği arttırmaktır. Basitliği ve sadeliği sayesinde forumlarda ileti yazmaktan, kitap yazmaya kadar pek çok yerde kullanılabilir. Asıl güçlü olduğu kısım klavyeden elinizi kaldırmadan tablolardan, matematiksel ifadelere kadar ihtiyaç duyduğunuz her şeyi oluşturabilmeniz ve sonrasında biçimlendirebilmenizdir.
+GitHub gibi platformları kullananların aşina olduğu Markdown formatı, yaygın kanının aksine sadece README dosyaları oluşturmak kullanılmaz. Temel amaç okunabilirliği ve kullanılabilirliği arttırmaktır. Basitliği ve sadeliği sayesinde forumlarda ileti yazmaktan, kitap yazmaya kadar pek çok yerde kullanılabilir. Asıl güçlü olduğu kısım klavyeden elinizi kaldırmadan tablolardan, matematiksel ifadelere kadar ihtiyaç duyduğunuz her şeyi oluşturabilmeniz ve sonrasında biçimlendirebilmenizdir.
 
 Sözü fazla uzatmadan dilerseniz örnekler üzerinden ilerleyelim. Başta da dediğim gibi zaten oldukça basit bir yapısı var, çok seveceğinizi düşünüyorum.
 
 ## Başlıklar
 
-HTML'de `<h1>`, `<h2>`, `<h3>` etiketleri ile aç-kapat yaparak oluşturduğumuz başlıkları, markdown ile sadece `#` karakteri kullanarak oluşturabiliyoruz. Burada önemli olan nokta `#` karakterinden sonra boşluk bırakmaktır.
+HTML'de `<h1>`, `<h2>`, `<h3>` etiketleri ile aç-kapat yaparak oluşturduğumuz başlıkları, Markdown ile sadece `#` karakteri kullanarak oluşturabiliyoruz. Burada önemli olan nokta `#` karakterinden sonra boşluk bırakmaktır.
 
 | Markdown      | HTML                  | Çıktı         |
 | ---           |---                    | ---           |
@@ -78,7 +78,7 @@ console.log("Hello, World!);
 Size yukarıdaki gibi bir çizgi üretir.
 
 ## Listeler
-HTML'de `<ul> </ul>` ve `<li> </li>` etiketleri ile oluşturulan listeler markdown formatında `-` ve `*` ile oluşturulur.
+HTML'de `<ul> </ul>` ve `<li> </li>` etiketleri ile oluşturulan listeler Markdown formatında `-` ve `*` ile oluşturulur.
 
 ```
     - Liste Elemanı 1
@@ -106,7 +106,7 @@ Sıralı liste elde etmek için tek yapmanız gereken liste elemanlarının baş
 3. Liste Elemanı
 
 
-Buradaki önemli nokta şu: Siz farklı sıra numaraları vermek isteseniz de markdown sıra numaralarını otomatik olarak biçimlendirmektedir. Aşağıdaki örnek üzerinden inceleyelim;
+Buradaki önemli nokta şu: Siz farklı sıra numaraları vermek isteseniz de Markdown sıra numaralarını otomatik olarak biçimlendirmektedir. Aşağıdaki örnek üzerinden inceleyelim;
 
 ```
 1. Liste Elemanı
@@ -153,7 +153,7 @@ Tablo oluşturmak için aşağıdaki yapı kullanılır. Satır çizgisi için k
 | 1 | Açıklama | Fiyatı |
 
 ## Bağlantı ve Resim Eklemek
-HTML'den aşina olduğumuz `<a>` etiketi yerine markdown'da `[]()` karakterleri ile;
+HTML'den aşina olduğumuz `<a>` etiketi yerine Markdown'da `[]()` karakterleri ile;
 
 ```
 [Kodluyoruz Sayfamız](https://www.kodluyoruz.org/)
@@ -180,6 +180,6 @@ Yazınız içinde alıntı kullanmak isterseniz yapmanız gereken, metinin baş�
 > Alıntı yapılan metin.
 ```
 
-**Elde ettiğimiz çıktı;**
+**Elde ettiğimiz çıktı:**
 
 > Alıntı yapılan metin.

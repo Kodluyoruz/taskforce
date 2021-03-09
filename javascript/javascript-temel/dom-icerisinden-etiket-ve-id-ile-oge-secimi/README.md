@@ -4,7 +4,9 @@ Bu yazımızda [DOM (Document Object Model)](https://developer.mozilla.org/en-US
 
 ## Get Element By ID
 > **Elemanı ID'sine göre seçmek**
-`document` objesinin `getElementById()` metodu ile sayfada bulunan html elementlerinin ID'leri referans alarak seçme işlemi yapabiliyoruz. Örnek olarak;
+`document` objesinin `getElementById()` metodu ile sayfada bulunan html elementlerinin ID'leri referans alarak seçme işlemi yapabiliyoruz.
+
+**Örnek olarak;**
 ```javascript
 <div id="unicorn">🦄</div>
 ```
@@ -22,7 +24,9 @@ ID'ler büyük-küçük harf duyarlıdır. Bu sayede HTML document içinde biric
 ## Get Elements By Tag Name
 **Elemanları etiket isimlerine göre seçmek**
 `getElementsByTagName()` metodu birden çok elemente ulaşmak amacı ile kullanılır.
-Girdi olarak bir **html elementi** alır ve buna uygun bir HTMLCollection döndürür. Örneğin elimizde bu şekilde bir sayfa var;
+Girdi olarak bir **html elementi** alır ve buna uygun bir HTMLCollection döndürür. 
+
+**Örneğin, elimizde bu şekilde bir sayfa var;**
 
 ```html
 <p>🐱</p>
@@ -125,8 +129,7 @@ Yukarda öğrendiğimiz metotları bir arada kullanabiliyoruz. Önce tek bir ele
 ```javascript
 const inputs = document.getElementById('signup').getElementsByTagName('input');
 ```
-
-ya da
+veya
 
 ```javascript
 const inputs = document.querySelector('#signup').querySelectorAll('input');

@@ -15,7 +15,7 @@ Web sayfamızı tasarlarken sütunlarda yani `col` sınıfına sahip div element
 </div>
 ```
 
- Yukarıda verilen kodun çıktısı;
+ Yukarıda verilen kodun çıktısı:
 
 ![img1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-offset-kullanimi/figures/img1.JPG)
 

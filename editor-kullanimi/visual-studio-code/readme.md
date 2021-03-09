@@ -1,5 +1,8 @@
 # Editör Kullanımı INDEX
 
+#### Başlamadan ####
+- [Visual Studio Code Kurulumu](visual-studio-code-kurulumu/)
+
 #### Editor Kullanımı ####
 
 - [Visual Studio Code Nedir?](visual-studio-code-nedir/)

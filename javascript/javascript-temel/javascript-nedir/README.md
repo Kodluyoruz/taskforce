@@ -87,12 +87,6 @@ Ryan Dahl'ın geliştirdiği Node.js isimli JavaScript çalışma ortamı (runti
 
 ![ryan-dahl](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/javascript-nedir/figures/ryan-dahl.jpg)
 
-
-En çok kullanılan JavaScript Back-end teknolojileri aşağıdaki görselde yer almaktadır. Bunlar soldan sağa doğru; Express, Meteor, Nuxt, Nest ve Next'dir.
-
-![js-backend-frameworks](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/javascript-nedir/figures/js-backend-frameworks.jpg)
-
-
 ### Mobil (Mobile) Alanında JavaScript
 
 En çok kullanılan JavaScript mobil teknolojileri aşağıdaki görselde yer almaktadır. Bunlar soldan sağa doğru; React Native, Ionic, NativeScript, Cordova ve Mobile Angular UI'dır.

@@ -1,4 +1,4 @@
-# CSS Seçiciler ile Çalışmak, İstediğimiz HTML Etiket Yapısına Özelliklik Ekleyebilmek
+# CSS Seçiciler ile Çalışmak, İstediğimiz HTML Etiket Yapısına Özellik Ekleyebilmek
 
 CSS seçiciler, HTML taglarına ulaşarak biçim atamaları yapmamızı sağlar. CSS işlemleri, HTML tagı içinde `style` attribute kullanarak yani inline, `<head>` arasında `<style>` tagı kullanarak yani internal ya da dosya uzantısı .css olan bir dosya oluşturup bu dosyayı `<head>` arasına ekleyerek yani external şekilde kullanabiliriz.
 
@@ -90,7 +90,7 @@ p.mavi{
 
 ```
 
-Burada İkinci kullanımda `p.mavi` sınıf ismi mavi olan p elementlerine erişmiş olduk. Üçüncü kullanımda `.large .mavi` sınıfı large olan bir elementin içinde sınıfı mavi olan elemente eriştik.
+Burada ikinci kullanımda `p.mavi` sınıf ismi mavi olan p elementlerine erişmiş olduk. Üçüncü kullanımda `.large .mavi` sınıfı large olan bir elementin içinde sınıfı mavi olan elemente eriştik.
 
 ### Id Seçiciler (Id Selectors)
 Bu seçiciler ile id atadığımız elementlere CSS uygulayabiliriz. Id' ler tek bir elemente ait olmalıdırlar. Id özelliğine erişmek `id`' nin başına `#` ekliyoruz.
@@ -331,10 +331,10 @@ ul ~ p{
   <p>Bu p etiketi turuncu renkte</p>
 </div>
 ```
-Burada dikkat edilmesi gereken iki nokta var. Birincisi `<p>` etiketi `<ul>` etiketinden sonra gelmeli (arada başka etiketler olabilir) ve ikiside aynı düzeyde yania ayni parent etiketine sahip olmalılar.
+Burada dikkat edilmesi gereken iki nokta var. Birincisi `<p>` etiketi `<ul>` etiketinden sonra gelmeli (arada başka etiketler olabilir) ve ikiside aynı düzeyde yani aynı parent etiketine sahip olmalılar.
 
 #### Bitişik Kardeş Seçiciler (Adjacent Sibling Selector)
-Genel kardeş seçiciden tek farkı belirtilen etiketler bitişik arka arkaya gelmeliler.`+` işareti ile gösterilir.
+Genel kardeş seçiciden tek farkı belirtilen etiketler bitişik arka arkaya gelmeliler. `+` işareti ile gösterilir.
 
 ```css
 ul + p{

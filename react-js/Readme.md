@@ -46,9 +46,3 @@
 -  Testing
 -  State management
 -  Styling
-
-#### Projeler ####
-- [Projeler](projeler.md)
-- Recipe Card Advanced
-- Instagram Clone
-- Linkedin Clone
