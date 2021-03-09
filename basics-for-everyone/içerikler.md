@@ -324,7 +324,7 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Network içerisinde farklı yol seçeneklerinin olmasını routers(yönlendiriciler) yönetir. Farklı yollara sahip olmamıza aşağıdaki avantajlardan hangisini sağlamaz?
+1. Network içerisinde farklı yol seçeneklerinin olmasını routers(yönlendiriciler) yönetir. Farklı yollara sahip olmamız aşağıdaki avantajlardan hangisini sağlamaz?
    - Arızaya dayanıklılık
    - Güvenilirlik
    - Yedeklilik
@@ -349,7 +349,7 @@ Senin için birkaç soru hazırladık.
     - Java
     - HTML (Doğru)
     - Ruby
-2. Adres çubuğunda aşağıdakilerden hangisini görürsek güvenilir kanaldan erişim sağladığımız daha net bir şekilde söyleyebiliriz?
+2. Adres çubuğunda aşağıdakilerden hangisini görürsek güvenilir kanaldan erişim sağladığımızı daha net bir şekilde söyleyebiliriz?
    - www
    - com
    - net
