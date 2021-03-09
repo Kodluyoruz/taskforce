@@ -4,7 +4,7 @@
 
 Bu elektrik, ışığın geçtiği kablo veya modemden yayılan dalgalar olabilir ama ana kaynak elle tutulur oluyor. 
 
-Kullandığımız geleneksel yöntem elektrik , ışık ise fiber olarak hayatımıza girmiş çok daha yüksek hızlara çıkabildiğimiz yeni nesil bir yöntem. 
+Kullandığımız geleneksel yöntem elektrik, ışık ise fiber olarak hayatımıza girmiş çok daha yüksek hızlara çıkabildiğimiz yeni nesil bir yöntem. 
 
 Wifi'ye bağlandığımızda bilgi havadan geliyor gibi görünse de orada bağlandığımız modem olduğunu unutmamamız gerekli. Bu durumda dalgalar aracılığı ile iletim sağlanıyor.
 
