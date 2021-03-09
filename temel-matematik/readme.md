@@ -18,3 +18,4 @@
 - [Dot Product ile Pisagor Teoremi](pisagor/)
 - [Dot Product ile Kosinüs Teoremi](cosine/)
 - [Gradient](gradient/)
+- [Proje](proje/)
