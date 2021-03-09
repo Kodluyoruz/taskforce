@@ -247,9 +247,9 @@ import java.util.regex.Matcher;
 Pattern pattern = Pattern.compile("yağışlı", Pattern.CASE_INSENSITIVE);
 ```
 
-#####  *Nedir bu 'CASE_INSENSITIVE' ?* => istenilen desenin *büyük ve küçük* olmasına bakılmaksızın karakterlerle eşlemeyi sağlar. 
+**Nedir bu 'CASE_INSENSITIVE' ?**
 
-##### Yani üst kısımdaki kod satırında olan "yağışlı" ifadesi  "yAĞışLı" büyüklü küçüklü de yazılmış olsaydı bunu önemsemeyecek ve karakterlerle eşleşmeyi yapacaktı.
+İstenilen desenin *büyük ve küçük* olmasına bakılmaksızın karakterlerle eşlemeyi sağlar. Yani üst kısımdaki kod satırında olan "yağışlı" ifadesi  "yAĞışLı" büyüklü küçüklü de yazılmış olsaydı bunu önemsemeyecek ve karakterlerle eşleşmeyi yapacaktı.
 
 ```java
 // Desenin eşleşeceği kalıp
