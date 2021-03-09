@@ -136,5 +136,5 @@ Gördüğünüz gibi `ul>.className` yazıp Tab’a bastığımızda ise bunun `
 
 Emmet’in kendi sitesindeki cheat sheete  [buradan](https://docs.emmet.io/cheat-sheet/)  ulaşabilirsiniz. Bu konuda bol bol egzersiz yapmayı unutmayın lütfen, emin olun başta eliniz alışana kadar çok zorlansanız da emmet kullanımı çalışma hızınızı arttıracak ve sizi gereksiz çabadan kurtaracaktır.
 
-## Kaynaklar
+## Kaynaklar
 - [Why I love pressing tab, featuring Emmet](https://medium.com/doctolib/why-i-love-pressing-tab-featuring-emmet-578aa4e77858)
