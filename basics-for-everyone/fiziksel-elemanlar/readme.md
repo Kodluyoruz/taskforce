@@ -1,4 +1,4 @@
-# Fiziksel Elemanlar ve WİFİ
+# Fiziksel Elemanlar ve Wifi
 
 İnternette paylaştığımız bilgiler [bit](https://tr.wikipedia.org/wiki/Bit_(bili%C5%9Fim)) formatında gidiyor ve ne kullanırsak kullanalım kaynak her zaman fiziksel bir elemana dayanıyor. 
 
