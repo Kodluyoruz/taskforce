@@ -8,7 +8,7 @@ S i f r e l e m e  -> V l i u h o h p h
 
 Sonuç olarak elde ettiğimiz "Vliuhohph" mesajını gönderiyoruz. Alıcı bunu alıp alfabede geriye doğru gidiyor ve mesajı çözüyor. 
 
-![sezar_sifreleme](https://github.com/Kodluyoruz/taskforce/blob/main/basics-for-everyone/internet-sifreleme/figures/Sezar_3_anahtar.gif?raw=true)
+![Sezar_3_anahtar](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/internet-sifreleme/figures/Sezar_3_anahtar.gif)
 
 Bu yöntem eskide çok kullanılmış olsa da günümüzde alfabedeki sınırlı harf ve bilgisayarlarımızın işlem gücüyle ile çözülmesi oldukça kolay. Saniyeleri bulmadan sezar şifreleme çözülüyor. Günümüzde **256 bitlik** anahtarlar ile şifreleme yapılıyor. Bu anahtarlar kullanılarak veri değiştiriliyor anlaşılamaz hale geliyor.
 
@@ -16,11 +16,11 @@ Bu yöntem eskide çok kullanılmış olsa da günümüzde alfabedeki sınırlı
 
 Bu durumu çözmek için de asimetrik şifreleme var.
 
-Asimetrik şifrelemede iki anahtarımız var: genel(public) anahtar ve özel(private) anahtar. Genel anahtar ile ekleme yapılabilir ama özel anahtar kimde ise veriyi o görebilir mantığı vardır. İnternette TLS ve SSL protokollerinde de bu yöntem temel alınır.
+Asimetrik şifrelemede iki anahtarımız var : genel(public) anahtar ve özel(private) anahtar. Genel anahtar ile ekleme yapılabilir ama özel anahtar kimde ise veriyi o görebilir mantığı vardır. İnternette TLS ve SSL protokollerinde de bu yöntem temel alınır.
 
 Whatsapp'a birisiyle mesajlaşırken gördüğünüz bu uyarı mesajınızın iki taraf arasında şifrelendiğini gösterir.
 
-![image-20210210161356734](https://github.com/Kodluyoruz/taskforce/blob/main/basics-for-everyone/internet-sifreleme/figures/whasapp-sifreleme.png?raw=true)
+![whasapp-sifreleme](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/internet-sifreleme/figures/whasapp-sifreleme.png)
 
 ## Kaynaklar:
 - https://roadmap.sh/guides/what-is-internet
