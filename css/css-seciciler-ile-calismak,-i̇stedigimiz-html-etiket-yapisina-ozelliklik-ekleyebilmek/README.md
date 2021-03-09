@@ -334,7 +334,7 @@ ul ~ p{
 Burada dikkat edilmesi gereken iki nokta var. Birincisi `<p>` etiketi `<ul>` etiketinden sonra gelmeli (arada başka etiketler olabilir) ve ikiside aynı düzeyde yania ayni parent etiketine sahip olmalılar.
 
 #### Bitişik Kardeş Seçiciler (Adjacent Sibling Selector)
-Genel kardeş seçiciden tek farkı belirtilen etiketler bitişik arka arkaya gelmeliler.`+` işareti ile gösterilir.
+Genel kardeş seçiciden tek farkı belirtilen etiketler bitişik arka arkaya gelmeliler. `+` işareti ile gösterilir.
 
 ```css
 ul + p{
