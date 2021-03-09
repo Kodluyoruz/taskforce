@@ -59,14 +59,14 @@ Sunucu cevap döndüğünde de istek gibi **HTTP** formatında gelir. İlk satı
 
 **Örnek olarak bazı durum kodları şunlardır:**
 
-| Kod  | Açıklama |
-| ---- | -------- |
-| 102 | İşleme devam ediliyor. Bilgi amaçlı sunucu tarafından gönderilir.|
+| Kod | Açıklama                                                         |
+| --- | ---------------------------------------------------------------- |
+| 102 | İşleme devam ediliyor. Bilgi amaçlı sunucu tarafından gönderilir.|
 | 200 | İstek başarılı bir şekilde gerçekleşmiştir. Veriler HTTP cevap mesajı ile gönderilmiştir. |
-| 301 | İstenilen objenin yeri değişmiştir ve location başlığında yeni yeri istemciye söylenmiştir.|
-| 400 | Sunucu istenilen mesajı anlayamamıştır.|
-| 404 | İstenilen obje sunucu üzerinde bulunmamaktadır. (Klasik 404 Not Found sayfa bulunamadı hatası)|
-| 503 | Sunucu ulaşılabilir değil.|
+| 301 | İstenilen objenin yeri değişmiştir ve location başlığında yeni yeri istemciye söylenmiştir. |
+| 400 | Sunucu istenilen mesajı anlayamamıştır. |
+| 404 | İstenilen obje sunucu üzerinde bulunmamaktadır. (Klasik 404 Not Found sayfa bulunamadı hatası) |
+| 503 | Sunucu ulaşılabilir değil. |
 
 Cevap içerisinde aynı zamanda sunucu başlığı da bulunuyor. Bu kullanılan web servisinin adı ve işletim sistemi adını dönüyor. Bu başlık zorunlu olmadığı için genelde **HTTP** cevap mesajında bulunmaz.
 
