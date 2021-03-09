@@ -28,7 +28,7 @@ print("Programınız sona ulaştı")
 
 ## `else`
 
-- `if` ile kontrolümüz (veya elseif-elif) `False` sonucu döndürülürse yapılacak blok
+- `if` ile kontrolümüz (veya elseif-elif) `False` sonucu döndürülürse yapılacak blok:
 
 
 ```python
