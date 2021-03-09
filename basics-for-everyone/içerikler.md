@@ -76,8 +76,8 @@ Senin için birkaç soru hazırladık.
 1. Pseudocode (Sözde Kod) ile ilgili verilen bilgilerden hangisi yanlıştır?
 
    - Pseudocode program akışı içinde yazılmalıdır.
-   - Pseudocode proglama dilinin detaylarından uzaktır.
-   - Pseudocode’da proglamlama dilinin söz dizimlerinde dikkat edilir. (Doğru)
+   - Pseudocode programlama dilinin detaylarından uzaktır.
+   - Pseudocode’da programlama dilinin söz dizimlerinde dikkat edilir. (Doğru)
    - Pseudocode’da gerektiği yerlerde doğal dil cümleleri kullanılır.
 
 2. Pseudocode (Sözde Kod) özellikleri ile ilgili verilen bilgilerden hangisi doğrudur?
@@ -220,7 +220,7 @@ Senin için birkaç soru hazırladık.
      6. Yazabileceğin en büyük bölümü yaz ve işleme devam et.	
      ```
 
-6.  Elinizde aşağıdaki gibi karışık bir yapboz olduğunu düşünün. Bu yapbozu şıklardaki hangi pseudocode kullanılarak çözülebilir?
+6.  Elinizde aşağıdaki gibi karışık bir yapboz olduğunu düşünün. Bu yapboz şıklardaki hangi pseudocode kullanılarak çözülebilir?
 
    ![sözdekod4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/pseudocode/figures/s%C3%B6zdekod4.jpg)
 
