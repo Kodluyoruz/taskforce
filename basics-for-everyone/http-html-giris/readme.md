@@ -24,7 +24,7 @@ Tarayıcımız ile bir adrese girdiğimizde `http` yerine `https` ile başladı�
 
 ![web_security](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/http-html-giris/figures/web_security.png)
 
-Son dönemde google `https` kullanmayan ve özellikle bizden bilgi talep eden servisleri göstermeme kararı aldı. Bir web sitesi oluşturduğumuzda `https` sertifikamızın olduğuna emin olmalıyız. 
+Son dönemde Google `https` kullanmayan ve özellikle bizden bilgi talep eden servisleri göstermeme kararı aldı. Bir web sitesi oluşturduğumuzda `https` sertifikamızın olduğuna emin olmalıyız. 
 
 ### Kaynaklar:
 - https://roadmap.sh/guides/what-is-internet
