@@ -22,7 +22,7 @@ Her **TLD** *(Top Level Domain-Üst Düzey alan Adı)* ,ki bunlar `.com,.me,.io`
 
 ![Root_DNS](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/DNS/figures/ROOT_DNS.png)
 
-## Kaynaklar:
+## Kaynaklar:
 
 - https://www.quora.com/What-is-a-TLD
 - https://www.netnod.se/i-root/what-are-root-name-servers
