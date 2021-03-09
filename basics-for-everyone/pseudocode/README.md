@@ -18,7 +18,7 @@ Programın yapısının ve çalışma mantığının yüksek seviyeli bir biçim
 
 * İsminde her ne kadar "Code (Kod)" geçiyor olsa da kod niteliği taşımaz.
 
-* Kod niteliği taşımadıkları için;herhangi bir derleyici tarafından derlenemezler.
+* Kod niteliği taşımadıkları için; herhangi bir derleyici tarafından derlenemezler.
 
 * Üzerlerinde hata ayıklaması ([debugging](https://searchsoftwarequality.techtarget.com/definition/debugging)) yapılamaz. Sade ve kolaylıkla anlaşılabilir olmalıdır.
 
