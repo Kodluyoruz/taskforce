@@ -156,7 +156,7 @@ Kolonların arasında da boşluk bırakmak mümkün. Bunun için `col` sınıfı
 </div>
 ```
 
-### İçiçe Izgara sistemi
+### İç İçe Izgara sistemi
 
 Bir satırdaki (`row`) kolonun (`col`) içine başka bir satır eklenerek yine kolonlara bölünebilir. 
 
