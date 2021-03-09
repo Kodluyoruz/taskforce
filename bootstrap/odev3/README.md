@@ -8,7 +8,7 @@ Günümüzde iş hayatının Facebook'u, biznısınızın göbeği olan Linkedin
 
 Yine bir vicdansızlık yaparak size temel olarak vereceğimiz projeyi şuna dönüştürdük.
 
-![garibanlinkedin](https://github.com/Kodluyoruz/taskforce/blob/main/bootstrap/odev3/figures/garibanlinkedin.gif)
+![garibanlinkedin](https://github.com/Kodluyoruz/taskforce/raw/main/bootstrap/odev3/figures/garibanlinkedin.gif)
 
 Temel dosyalara [şuradan](https://github.com/Kodluyoruz/taskforce/tree/main/bootstrap/odev3/bootstraplinkedinclone) ulaşabilirsiniz.
 
@@ -20,7 +20,7 @@ Temel dosyalara [şuradan](https://github.com/Kodluyoruz/taskforce/tree/main/boo
 - `Ben` kategorisini diğer kategori isimleri gibi düzenleyiniz ve profil fotoğrafını düzeltiniz.
 - Navbar'da bir değişiklik görüyor musunuz? Navbar'ın yüzüne ne olmuş yahu?
 
-![nolmus](https://github.com/Kodluyoruz/taskforce/blob/main/bootstrap/odev3/figures/nolmus.jpg)
+![nolmus](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/odev3/figures/nolmus.jpg)
 
 Biz de onu soruyoruz işte ne olmuş?
 
