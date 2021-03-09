@@ -8,7 +8,7 @@ Tür kullanımdan dolaylı olarak çıkartılır.
 ```JavaScript
     var x = 3;
 ```
-şeklinde bir kullanımda x değişkenin değeri bir tam sayıdır(integer), aşağıdaki **örnekte ise;**
+Şeklinde bir kullanımda x değişkenin değeri bir tam sayıdır (integer), aşağıdaki **örnekte ise;**
 
 ```JavaScript
     var x = 3.2;
@@ -16,16 +16,16 @@ Tür kullanımdan dolaylı olarak çıkartılır.
 x değişkenin değer türü kayan sayı (float) türündedir. Sayının integer veya float olup olmadığı nokta (.) olup olmamasından anlaşılır.
 
 **Aritmetik Operatörler**
-- Toplama  : +
-- Çıkarma  : -
-- Çarpma   : *
-- Üs Alma  : **
-- Bölme    : /
-- Mod Alma : %
-- Arttırma : ++
-- Eksiltme : --
+- Toplama: +
+- Çıkarma: -
+- Çarpma: *
+- Üs Alma: **
+- Bölme: /
+- Mod Alma: %
+- Arttırma: ++
+- Eksiltme: --
 
-**Toplama** : Sayıları toplama işlemini gerçekleştirir. İşlem yönü soldan sağadır.
+**Toplama**: Sayıları toplama işlemini gerçekleştirir. İşlem yönü soldan sağadır.
 
 ```JavaScript
     var result = 3+5;
@@ -33,42 +33,47 @@ x değişkenin değer türü kayan sayı (float) türündedir. Sayının integer
     //8 
 ```
 
-**Çıkarma** : İki sayıyı çıkarma işlemini gerçekleştirir. İşlem yönü soldan sağadır.
+**Çıkarma**: İki sayıyı çıkarma işlemini gerçekleştirir. İşlem yönü soldan sağadır.
+
 ```JavaScript
     var result = 5-2;
     console.log(result);
     //3
 ```
 
-**Çarpma** : İki sayıyı çarpma işlemini gerçekleştirir. İşlem yönü soldan sağadır.
+**Çarpma**: İki sayıyı çarpma işlemini gerçekleştirir. İşlem yönü soldan sağadır.
+
 ```JavaScript
     var result = 5*2;
     console.log(result);
     //10
 ```
 
-**Üs Alma** : ECMAScript6 ile gelmiştir. Soldaki değerin, sağdaki rakam veya sayı baz alınarak kendisiyle çarpılması şeklinde gerçekleşir.
+**Üs Alma**: ECMAScript6 ile gelmiştir. Soldaki değerin, sağdaki rakam veya sayı baz alınarak kendisiyle çarpılması şeklinde gerçekleşir.
+
 ```JavaScript
     var result = 5**2;
     console.log(result);
     //25  
 ```
 
-**Bölme** : İki sayıyı bölme işlemini gerçekleştirir. İşlem yönü soldan sağadır.
+**Bölme**: İki sayıyı bölme işlemini gerçekleştirir. İşlem yönü soldan sağadır.
+
 ```JavaScript
     var result = 6/3;
     console.log(result);
     //2
 ```
 
-**Mod Alma** : Operatörün solundaki değerin sağdakine kalanını bulmak için kullanılmaktadır. İşlem yönü soldan sağadır.
+**Mod Alma**: Operatörün solundaki değerin sağdakine kalanını bulmak için kullanılmaktadır. İşlem yönü soldan sağadır.
+
 ```JavaScript
     var result = 6%3;
     console.log(result);
     //0
 ```
 
-**Arttırma** : Bir sayıyı arttırmak için kullanırız. **Değeri `1` arttırır**. For ve While döngüleri içinde sık sık kullanılır, önce veya sonra kullanılabilir. Operatörün değişkenden sonra gelmesi durumuna postfix form, değişkenden önce gelme durumuna prefix form denilmektedir. Her iki kullanımda da değer `+1` arttırılır lakin prefix formu oluşan yeni değeri döndürmektedir. Postfix formu ise eski değeri döndürür, yani ekrana alert keyword (anahtar kelimesi) ile basar, ekrana basılan değer eski değerdir. Arttırma işlemi yapılmıştır ve değişkende arttırılmış hali tutulur.
+**Arttırma**: Bir sayıyı arttırmak için kullanırız. **Değeri `1` arttırır**. For ve While döngüleri içinde sık sık kullanılır, önce veya sonra kullanılabilir. Operatörün değişkenden sonra gelmesi durumuna postfix form, değişkenden önce gelme durumuna prefix form denilmektedir. Her iki kullanımda da değer `+1` arttırılır lakin prefix formu oluşan yeni değeri döndürmektedir. Postfix formu ise eski değeri döndürür, yani ekrana alert keyword (anahtar kelimesi) ile basar, ekrana basılan değer eski değerdir. Arttırma işlemi yapılmıştır ve değişkende arttırılmış hali tutulur.
 
 **Örneğin;**
 ```JavaScript
@@ -84,7 +89,8 @@ x değişkenin değer türü kayan sayı (float) türündedir. Sayının integer
 
 ```
 
-**Azaltma** : Bir sayıyı azaltmak için kullanırız. Değeri 1 azaltır. For ve While döngüleri içinde sık sık kullanılır. Arttırma operatöründe anlatılan başa veya sonraya operatör ekleme işlemi sonunda gerçekleşen durum azaltma operatörü içinde geçerlidir.
+**Azaltma**: Bir sayıyı azaltmak için kullanırız. Değeri 1 azaltır. For ve While döngüleri içinde sık sık kullanılır. Arttırma operatöründe anlatılan başa veya sonraya operatör ekleme işlemi sonunda gerçekleşen durum azaltma operatörü içinde geçerlidir.
+
 ```JavaScript
     let counter = 1;
     let a = --counter;
