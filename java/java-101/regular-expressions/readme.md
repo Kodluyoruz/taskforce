@@ -217,14 +217,7 @@ Yukarıdaki kodu çalıştırdığınızda çıktısı aşağıdaki gibi olur:
 0(567) 144-78-63 numarası desene uyuyor.
 ```
 
-
-
-
-
-
-
-###  ===Pattern ve Matcher - Örnek
-
+** Pattern ve Matcher - Örnek:**
 
 
 ``` java
