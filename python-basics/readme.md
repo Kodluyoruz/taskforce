@@ -70,4 +70,4 @@
 
 #### Proje
 
-* [proje](proje/)
+* [Proje](proje/)
