@@ -1,7 +1,9 @@
 # Python 101 INDEX
 
 #### Giriş ####
+
 -  [Programlama Nedir?](programlama-nedir/)
+-  [Jupyter Notebook](jupyter/)
 -  [Temel Veri Tipleri](temel-veri-tipleri/)
 -  [Değişken Atama](degisken-atama/)
 -  [Kafa Karışıklığı](kafa_karisikligi/)
@@ -66,3 +68,6 @@
 #### fstring ####
   - [fstring](fstring/)
 
+#### Proje
+
+* [Proje](proje/)

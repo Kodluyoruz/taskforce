@@ -76,8 +76,8 @@ Senin için birkaç soru hazırladık.
 1. Pseudocode (Sözde Kod) ile ilgili verilen bilgilerden hangisi yanlıştır?
 
    - Pseudocode program akışı içinde yazılmalıdır.
-   - Pseudocode proglama dilinin detaylarından uzaktır.
-   - Pseudocode’da proglamlama dilinin söz dizimlerinde dikkat edilir. (Doğru)
+   - Pseudocode programlama dilinin detaylarından uzaktır.
+   - Pseudocode’da programlama dilinin söz dizimlerinde dikkat edilir. (Doğru)
    - Pseudocode’da gerektiği yerlerde doğal dil cümleleri kullanılır.
 
 2. Pseudocode (Sözde Kod) özellikleri ile ilgili verilen bilgilerden hangisi doğrudur?
@@ -220,7 +220,7 @@ Senin için birkaç soru hazırladık.
      6. Yazabileceğin en büyük bölümü yaz ve işleme devam et.	
      ```
 
-6.  Elinizde aşağıdaki gibi karışık bir yapboz olduğunu düşünün. Bu yapbozu şıklardaki hangi pseudocode kullanılarak çözülebilir?
+6.  Elinizde aşağıdaki gibi karışık bir yapboz olduğunu düşünün. Bu yapboz şıklardaki hangi pseudocode kullanılarak çözülebilir?
 
    ![sözdekod4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/pseudocode/figures/s%C3%B6zdekod4.jpg)
 
@@ -289,7 +289,7 @@ Senin için birkaç soru hazırladık.
    - Işık
    - Telekinezi (Doğru)
    - Radyo dalgaları
-2. Saniyede gönderdiğimiz bit sayısı ne kadar yüksek olursa o kadar hızlı iletim sağlayabiliriz. Saniyede gönderilen bit sayısını ifade eden terim aşağıdakilerden hangisidir ?
+2. Saniyede gönderdiğimiz bit sayısı ne kadar yüksek olursa o kadar hızlı iletim sağlayabiliriz. Saniyede gönderilen bit sayısını ifade eden terim aşağıdakilerden hangisidir?
    - Bant uzunluğu
    - Bant genişliği (Doğru)
    - Bant çeşidi
@@ -304,12 +304,12 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Tarayıcıda "kodluyoruz.org" yazıp giriş isteği gönderdiğimizde arka plandaki işlemlerin sırası aşağıdakilerden hangisidir ?
+1. Tarayıcıda "kodluyoruz.org" yazıp giriş isteği gönderdiğimizde arka plandaki işlemlerin sırası aşağıdakilerden hangisidir?
    - Domain ismi tarayıcıya girilir - DNS sunucularından IP alınır - IP adrese yönlendirme yapılır - İstek gönderilir  (Doğru)
    - IP adresine yönlendirme yapılır - İstek cevabı alınır
    - İstek mesajı gönderilir - İstek cevabı alınır
    - Tarayıcı IP adreslerinin hepsini bilir - İstek gönderilir
-2.  IPv6 adres uzunluğu kaç bit uzunluğundadır ?
+2.  IPv6 adres uzunluğu kaç bit uzunluğundadır?
     - 32
     - 64
     - 128 (Doğru)
@@ -324,12 +324,12 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Network içerisinde farklı yol seçeneklerinin olmasını routers(yönlendiriciler) yönetir. Farklı yollara sahip olmamıza aşağıdaki avantajlardan hangisini sağlamaz ?
+1. Network içerisinde farklı yol seçeneklerinin olmasını routers(yönlendiriciler) yönetir. Farklı yollara sahip olmamız aşağıdaki avantajlardan hangisini sağlamaz?
    - Arızaya dayanıklılık
    - Güvenilirlik
    - Yedeklilik
    - Yavaşlık (Doğru)
-2. Network içerisinde mesajların iletilmesinde TCP protokolü kullanılır. Bu protokolün kullanılma sebebi aşağıdakilerden hangisidir ?
+2. Network içerisinde mesajların iletilmesinde TCP protokolü kullanılır. Bu protokolün kullanılma sebebi aşağıdakilerden hangisidir?
    - Bilgi tek bir paket halinde gidebilsin diye
    - Güvenilir kanala ihtiyaç olmadığında
    - En hızlı şekilde bağlanmamız gerektiğinde
@@ -344,12 +344,12 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1.  Bir web sitesinin görünüm olarak temelini oluşturduğumuz işaretleme dili aşağıdakilerden hangisidir ?
+1.  Bir web sitesinin görünüm olarak temelini oluşturduğumuz işaretleme dili aşağıdakilerden hangisidir?
     - C#
     - Java
     - HTML (Doğru)
     - Ruby
-2. Adres çubuğunda aşağıdakilerden hangisini görürsek güvenilir kanaldan erişim sağladığımız daha net bir şekilde söyleyebiliriz ?
+2. Adres çubuğunda aşağıdakilerden hangisini görürsek güvenilir kanaldan erişim sağladığımızı daha net bir şekilde söyleyebiliriz?
    - www
    - com
    - net
@@ -364,12 +364,12 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Sezar şifreleme yaparak mesaj göndermek istiyoruz. Bizde ve karşı tarafta olan anahtar "5". Göndermek istediğimiz mesajın şifrelenmiş hali şu şekilde "PTIQZDTWZE". Mesajın şifresi çözülmüş hali aşağıdakilerden hangisidir ?
+1. Sezar şifreleme yaparak mesaj göndermek istiyoruz. Bizde ve karşı tarafta olan anahtar "5". Göndermek istediğimiz mesajın şifrelenmiş hali şu şekilde "PTIQZDTWZE". Mesajın şifresi çözülmüş hali aşağıdakilerden hangisidir?
    - YEMEKYIYOR
    - SUICIYORUZ
    - UYUMUYORUZ
    - KODLUYORUZ (Doğru)
-2. Günümüzde kaç bitlik anahtar ile şifreleme yapılıyor ?
+2. Günümüzde kaç bitlik anahtar ile şifreleme yapılıyor?
    - 128
    - 256 (Doğru)
    - 64
@@ -384,17 +384,17 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Aşağıdakilerden hangisi bir siber atak değildir ?
+1. Aşağıdakilerden hangisi bir siber atak değildir?
    - DDoS
    - Virüs
    - Man in the middle
    - Fishhooh (Doğru)
-2. DDoS saldırısı nasıl yapılır ?
+2. DDoS saldırısı nasıl yapılır?
    - Saldırı taşınabilir bellek yardımı ile yapılır.
    - Ulaşılmak istenilen bilgi için iletişim yolunda saldırı yapılır.
    - Steganografi yöntemi ile şifre çözülür, saldırı çözülmüş şifre ile gerçekleştirilir.
    - Sistem aşırı talebe boğulur. (Doğru)
-3. Siber saldırılardan kaçınmak için aşağıdakilerden hangisi doğru olmaz ?
+3. Siber saldırılardan kaçınmak için aşağıdakilerden hangisi doğru olmaz?
    - Güçlü parolalar kullanmalıyız.
    - Sistem güvenlik güncellemeleri sıklıkla yüklenmelidir.
    - Tanımadığımız kişilerin maillerini tarayıcının gizli modunda açarsak sorun olmaz. (Doğru)

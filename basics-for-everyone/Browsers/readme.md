@@ -1,8 +1,8 @@
 # Browsers (Tarayıcılar)
 
-Masaüstünde ve mobil cihazlarımızda bir çok tarayıcı var.
+Masaüstünde ve mobil cihazlarımızda birçok tarayıcı var.
 
-Kullanıcıların hangi tarayıcıları tercih ettiğine baktığımızda büyük yüzdeyi **Chrome** alıyor. Bu bilgi bizim için önemli çünkü kodlama yaparken neredeyse pek çok standart aynıda olsa zaman zaman bazı komutlarda tarayıcı davranışları değişiklik gösteriyor ve bu durumları ekstra komutlarla düzenlememiz gerekebiliyor.
+Kullanıcıların hangi tarayıcıları tercih ettiğine baktığımızda büyük yüzdeyi **Chrome** alıyor. Bu bilgi bizim için önemli çünkü kodlama yaparken neredeyse pek çok standart aynı olsa da zaman zaman bazı komutlarda tarayıcı davranışları değişiklik gösteriyor ve bu durumları ekstra komutlarla düzenlememiz gerekebiliyor.
 
 **Peki tarayıcılar ne işe yarar?**
 
@@ -26,11 +26,11 @@ Tarayıcıların ana işlevleri:
 
 - **Ağ İletişimi  (Networking):** HTTP istekleri gibi network istekleri için kullanılır. Kullanılan platformdan bağımsız olarak farklı platformlar için farklı uygulamalar kullanılarak çözümler sunulur.
 
-- **Kullanıcı Arayüzü(UI-User Interface)** **Backend:** Combobox ve pencereler gibi basit grafiksel araçları çizmek için kullanılır.  İşletim sistemi kullanıcı arayüz metodları kullanır. Böylelikle platform bağımsız genel bir arayüz ortaya çıkar.
+- **Kullanıcı Arayüzü (UI-User Interface)** **Backend:** Combobox ve pencereler gibi basit grafiksel araçları çizmek için kullanılır.  İşletim sistemi kullanıcı arayüz metodları kullanır. Böylelikle platform bağımsız genel bir arayüz ortaya çıkar.
 
 - **JavaScript Yorumlayıcı:** JavaScript kodları ayrıştırılır ve çalıştırılır.
 
-- **Veri Belleği(Data Storage):** Süreklilik(persistence) katmanıdır. Tarayıcı verilerin hepsini lokal olarak depolamak isteyebilir, çerezler(cookies) bu tür verilere örnektir. IndexedDB, localStorage, WebSQL ve FileSystem gibi farklı depolama sistemlerini de tarayıcılar destekler.
+- **Veri Belleği (Data Storage):** Süreklilik (persistence) katmanıdır. Tarayıcı verilerin hepsini lokal olarak depolamak isteyebilir, çerezler (cookies) bu tür verilere örnektir. IndexedDB, localStorage, WebSQL ve FileSystem gibi farklı depolama sistemlerini de tarayıcılar destekler.
 
 Chrome gibi tarayıcılar her sekmede bir tane olacak şekilde birden fazla rendering motoru çalıştırırlar. Her sekme ayrı işlemlerde çalışır. Çok fazla sekme ile çalıştığınızda RAM'inizin şişme sebebi tam olarak budur.
 
@@ -64,7 +64,7 @@ Motor aynı zamanda hem harici CSS dosyalarını hem de satır içi style eleman
 
 **Render ağacı** boyut ve renk gibi görsel özellikleri içeren dikdörtgenler bulundurur. Bu dikdörtgenler ekranda görünmek üzere düzgün sırada bulunurlar.
 
-Render ağacı oluşturduktan sonra düzenleme(layout) işlemi başlar. Bu işlemde düğümdeki elemanlara ekranda nerede görüntüleneceklerine dair tam koordinatlar verilir. Sonraki aşama ise boyama (painting) aşamasıdır. Render ağacındaki her düğüm işlenerek UI (Kullanıcı Arayüzü) backend katmanı kullanılarak boyama işlemi yapılır.
+Render ağacı oluşturduktan sonra düzenleme (layout) işlemi başlar. Bu işlemde düğümdeki elemanlara ekranda nerede görüntüleneceklerine dair tam koordinatlar verilir. Sonraki aşama ise boyama (painting) aşamasıdır. Render ağacındaki her düğüm işlenerek UI (Kullanıcı Arayüzü) backend katmanı kullanılarak boyama işlemi yapılır.
 
 Tüm bu süreç kademeli olarak gerçekleşir. Tarayıcılar daha iyi kullanıcı deneyimi sunmak için olabildiğince hızlı ekrana getirmeye çalışırlar. Bir adım tüm içerik için tamamen bitince diğer adım başlar gibi sıralı bir süreç olduğunu düşünmemek gerekir. İçerik parçalara ayrılır ve bu parçalar için işlem gerçekleşir. 
 

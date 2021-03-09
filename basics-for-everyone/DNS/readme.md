@@ -4,7 +4,7 @@ Bilgisayarlar veya diğer cihazlar iletişim kurmak için **IP** adres kullanır
 
 **Peki kaç tanesinin IP adresini biliyorsunuz ?**
 
-Muhtemelen bilmiyorsunuz, biliyorsanız da çok azını. *IP adreslerini bilmeden bu sitelere nasıl erişiyoruz peki ?* Çünkü öğrendiklerimize göre internette her şey aslında veri almak/vermekten ibaret ve bu da IP gibi protokoller aracılığı ile oluyor. 
+Muhtemelen bilmiyorsunuz, biliyorsanız da çok azını. *IP adreslerini bilmeden bu sitelere nasıl erişiyoruz peki?* Çünkü öğrendiklerimize göre internette her şey aslında veri almak/vermekten ibaret ve bu da IP gibi protokoller aracılığı ile oluyor. 
 
 Evet, belki IP adreslerini bilmiyoruz ama ulaşmak istediğimiz web sitelerinin **alan adlarını**  (domain name) biliyoruz.
 
@@ -14,7 +14,7 @@ Evet, belki IP adreslerini bilmiyoruz ama ulaşmak istediğimiz web sitelerinin 
 
 ![URL](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/DNS/figures/URL.png)
 
-DNS sunucularına sorarken hızlı olmak için belli bir sıra ile sorulur. Öncelikle **lokalde** veya **ağda** ön bellekte (cache) bu alan adı daha önce saklanmış mı diye bakılıyor. Daha önce bu web sitesine girmişsek ilk önce saklanan IP adrese istek atılık. Eğer başarılı değilse tekrardan doğru IP'ye ulaşmak için **root DNS** sunucularında aranır. 
+DNS sunucularına sorarken hızlı olmak için belli bir sıra ile sorulur. Öncelikle **lokalde** veya **ağda** ön bellekte (cache) bu alan adı daha önce saklanmış mı diye bakılıyor. Daha önce bu web sitesine girmişsek ilk önce saklanan IP adrese istek atılır. Eğer başarılı değilse tekrardan doğru IP'ye ulaşmak için **root DNS** sunucularında aranır. 
 
 Her **TLD** *(Top Level Domain-Üst Düzey alan Adı)* ,ki bunlar `.com,.me,.io` gibidir, kendi sunucusuna sahiptir. 
 
@@ -22,7 +22,7 @@ Her **TLD** *(Top Level Domain-Üst Düzey alan Adı)* ,ki bunlar `.com,.me,.io`
 
 ![Root_DNS](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/DNS/figures/ROOT_DNS.png)
 
-## Kaynaklar:
+## Kaynaklar:
 
 - https://www.quora.com/What-is-a-TLD
 - https://www.netnod.se/i-root/what-are-root-name-servers

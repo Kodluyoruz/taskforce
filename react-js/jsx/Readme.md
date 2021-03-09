@@ -59,7 +59,7 @@ Bu nesnelere “React elementleri” adı verilir. Bunu, ekranda görmek istedi�
 
 JSX'i React.createElement() fonksiyonunu çağırmanın kısa yolu olarak düşünebiliriz. JSX kodları Babel derleyicisi tarafından React.createElement() fonksiyon çağrılarına dönüştürülür.
 
-JSX’in JavaScript’e nasıl dönüştürüldüğüne dair daha fazla örnek görmek isterseniz, [çevrimiçi Babel derleyicisi](https://babeljs.io/repl/#?presets=react&code_lz=GYVwdgxgLglg9mABACwKYBt1wBQEpEDeAUIogE6pQhlIA8AJjAG4B8AEhlogO5xnr0AhLQD0jVgG4iAXyJA)ni deneyebilirsiniz. [^2]
+JSX’in JavaScript’e nasıl dönüştürüldüğüne dair daha fazla örnek görmek isterseniz, [çevrimiçi Babel derleyicisi](https://babeljs.io/repl/#?presets=react&code_lz=GYVwdgxgLglg9mABACwKYBt1wBQEpEDeAUIogE6pQhlIA8AJjAG4B8AEhlogO5xnr0AhLQD0jVgG4iAXyJA)ni deneyebilirsiniz.
 
 ## JSX Kullanımı
 
@@ -182,7 +182,7 @@ Bunun sebebi "class" anahtar sözcüğünün JavaScript içerisinde halihazırda
 
 ### JSX ile Child Belirlemek
 
-Eğer bir HTML etiketinin içeriği boşsa yani , XML’deki gibi `/>` kullanarak etiketi kapatabilirsiniz:
+Eğer bir HTML etiketinin içeriği boşsa yani, XML’deki gibi `/>` kullanarak etiketi kapatabilirsiniz:
 
 ```javascript
 const element = <img src={user.avatarUrl} />;

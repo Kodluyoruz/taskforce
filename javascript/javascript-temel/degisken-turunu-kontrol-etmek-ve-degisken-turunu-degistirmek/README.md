@@ -116,7 +116,7 @@ Boolean(Symbol()) // true
 Boolean(function() {}) // true
 ```
 
-**Önemli NOT :** Mantıksal operatörlerden `||` ve `&&` , dönüşüm işlemini internally (dahili olarak) yapar. Ama gerçekte  ifadenin (operand) değerini döndürür, değer boolean tipinde olmasa bile.Örneklerle daha iyi anlayalım.
+**Önemli NOT :** Mantıksal operatörlerden `||` ve `&&`, dönüşüm işlemini internally (dahili olarak) yapar. Ama gerçekte  ifadenin (operand) değerini döndürür, değer boolean tipinde olmasa bile.Örneklerle daha iyi anlayalım.
 
 ``` javascript
 // veya “||” operatörü ilk bulduğu true değeri döner

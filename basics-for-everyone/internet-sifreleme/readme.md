@@ -8,7 +8,7 @@ S i f r e l e m e  -> V l i u h o h p h
 
 Sonuç olarak elde ettiğimiz "Vliuhohph" mesajını gönderiyoruz. Alıcı bunu alıp alfabede geriye doğru gidiyor ve mesajı çözüyor. 
 
-![sezar_sifreleme](figures/Sezar_3_anahtar.gif)
+![Sezar_3_anahtar](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/internet-sifreleme/figures/Sezar_3_anahtar.gif)
 
 Bu yöntem eskide çok kullanılmış olsa da günümüzde alfabedeki sınırlı harf ve bilgisayarlarımızın işlem gücüyle ile çözülmesi oldukça kolay. Saniyeleri bulmadan sezar şifreleme çözülüyor. Günümüzde **256 bitlik** anahtarlar ile şifreleme yapılıyor. Bu anahtarlar kullanılarak veri değiştiriliyor anlaşılamaz hale geliyor.
 
@@ -20,7 +20,7 @@ Asimetrik şifrelemede iki anahtarımız var : genel(public) anahtar ve özel(pr
 
 Whatsapp'a birisiyle mesajlaşırken gördüğünüz bu uyarı mesajınızın iki taraf arasında şifrelendiğini gösterir.
 
-![image-20210210161356734](figures/whasapp-sifreleme.png)
+![whasapp-sifreleme](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/internet-sifreleme/figures/whasapp-sifreleme.png)
 
 ## Kaynaklar:
 - https://roadmap.sh/guides/what-is-internet

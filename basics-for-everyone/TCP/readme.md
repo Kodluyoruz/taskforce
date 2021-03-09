@@ -1,4 +1,4 @@
-# TCP(Transmission Control Protocol)
+# TCP (Transmission Control Protocol)
 
 TCP, ağdaki cihazlar arası iletişimi kolaylaştıran bağlantı odaklı(connection oriented) iletişim protokolüdür. IP protokolü ile beraber çalışırlar, genelde TCP/IP olarak beraber görürüz. TCP/IP beraber internetin temel taşlarını oluşturur.
 
@@ -10,7 +10,7 @@ TCP bağlantısı istemci(client) ve sunucu(server) arasında gerçekleşir. İs
 
 TCP iki yönlüdür (bidirectional). Yani hem sunucu istemciye mesaj/veri gönderebilir hem de istemci sunucuya mesaj/veri gönderebilir. Veri ise bir bütün halinde karşı tarafa iletilmez, paketler halinde gönderilir. TCP, verinin eksiksiz karşı tarafa gitmesini istediği için önlemler alır. Veri alışverişi sırasında ACK gelmeyen paketlerde (ki bu karşı tarafın mesajı aldım deme yoludur) tekrar paketi gönderir. Veri paketler halinde gönderildiği için gönderirken bir listeye yazar ve ACK geldikçe tamam bunu göndermişiz diyerek listeden siler gibi düşünebilir. Eğer ACK alamazsa ki bu da paket kayboldu demektir, yeniden gönderilecekler listesi tutar ve paket orada yer alır.
 
-Peki bir paketin düştüğünü nasıl anlıyor ? Paketi gönderdi hemen ACK gelmezse tekrar mı göndersin, bir saniye sonra beklese gelecekti belki değil mi ? İşte bu sorunu da çözmek için timeout süremiz var. Bu süre dolduğunda ACK mesajı gelmediyse o paket kayboldu diye düşünülür. Evet belki 1 saniye sonra gelecekti ama süremiz doldu cevap veren taraf için üzgünüz tekrar paket ona ulaştığında bu sefer elini çabuk tutsun ACK ile aldım desin :)
+Peki bir paketin düştüğünü nasıl anlıyor? Paketi gönderdi, hemen ACK gelmezse tekrar mı göndersin? Bir saniye sonra beklese belki gelecekti, değil mi? İşte bu sorunu da çözmek için timeout süremiz var. Bu süre dolduğunda ACK mesajı gelmediyse o paket kayboldu diye düşünülür. Evet belki 1 saniye sonra gelecekti ama süremiz doldu cevap veren taraf için üzgünüz tekrar paket ona ulaştığında bu sefer elini çabuk tutsun ACK ile aldım desin :)
 
 TCP bağlantısı genelde dosya alışverişi, metin mesajları gibi giderken kayıp yaşamasını istemeyeceğimiz bilgilerde kullanılır. Paketlerin gidip gitmediği kontrol edildiği için hata kontrolü sağlanmış olur, daha güvenilir bir hal alır. Gitmeyen paketleri tekrar gönderir, bazı durumlarda paket boyutu fazlaca artabileceği için maalesef ki yavaşlığa sebep olur.
 

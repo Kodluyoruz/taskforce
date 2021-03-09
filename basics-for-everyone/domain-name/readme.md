@@ -4,7 +4,7 @@ Bir web sitesine ulaşırken "www.ornek.com" gibi bir uzantı gireriz. Burada `w
 
 Bir cihazdan diğer cihaza ulaşmak için IP adres gerekliydi. Ama tüm web sitelerinin IP adresini hatırlamamızı düşünmek bile çılgınca. Bu yüzden alan adları IP adreslere karşılık gelen kullanıcı dostu metinlerdir. 
 
-**IP adres ve alan adını telefon rehberi gibi düşünebiliriz. Tanıdığı herkesin telefon numarasını ezbere bilen kaç kişi kaldı ki ?**
+**IP adres ve alan adını telefon rehberi gibi düşünebiliriz. Tanıdığı herkesin telefon numarasını ezbere bilen kaç kişi kaldı ki?**
 
 Artık herkes telefon numaralarını isimlere göre kaydediyor ve numaraları kimse hatırlamıyor. Alan adı da böyle, herkes `"google.com"` bilir.
 

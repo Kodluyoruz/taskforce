@@ -1,6 +1,6 @@
 # String
 
-* Şimdiye kadar sadece sayılar ile uğraştık. Bu notebook'ta yeni vir veri tipine, `String`'lere bakalım
+* Şimdiye kadar sadece sayılar ile uğraştık. Bu notebook'ta yeni bir veri tipine, `String`'lere bakalım
 
 * Stringler karakterlerden oluşan bir dizidir aslında. Stringlerin elemanları karakterlerdir.
 

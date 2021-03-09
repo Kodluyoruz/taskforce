@@ -22,4 +22,5 @@
 - [Yapay Zekada Bias (Yanlılık)](ai-bias/)
 - [Bias Nasıl Azaltılmaya Çalışılabilir](bias-solution/)
 - [Başkasının Verisini Kullanmak](baska-veri/)
+- [Proje](proje/)
 

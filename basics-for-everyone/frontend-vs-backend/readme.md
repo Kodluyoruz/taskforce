@@ -6,15 +6,13 @@
 
 ![frontend-vs-backend2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/frontend-vs-backend/figures/frontend-vs-backend2.jpg)
 
-Ek olarak frontend ve backend kavramlarını daha iyi anlamak için bu kavramları insan biyolojisine uyarlayalım.
-
 ![frontend-vs-backend3](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/frontend-vs-backend/figures/frontend-vs-backend3.png)
 
 **Frontend** kısmında *HTML, CSS ve JavaScript* gibi araçların kullanıldığından bahsetmiştik. Gelin ilk öncelikle bu kavramlarını insan vücudundaki kısımlara benzetelim.
 
 HTML insan biyolojisinde iskeletimizi temsil eder. Bir web sayfası oluşturmak istiyorsanız ilk olarak bir iskelet yapısı kodlamalısınız. CSS bir sitenin gözümüze güzel gözükmesini sağlayan bir stil aracıdır. CSS’in insan vücudunda ki yeri derimiz, kaşımız, gözümüz ve hatta göz rengimizdir. Yani CSS, iskeletimizin üzerini örterek güzel gözükmemizi sağlar. JavaScript ise insan vücuduna fonksiyon kazandıran yapıdır yani duyu organlarımız buna en güzel örnektir. Mesela gözümüz dışarıyla uyumlu olmamızı sağlayan bir duyu organıdır. Dışarıdan veriyi alır beyne iletir. Yukarıda söylediklerimizin tamamı frontend’in, insan vücuduna uyarlandığında ortaya çıkan tablodur.
 
-Peki, backend bunun neresinde diye soracak olursanız. Backend ise beynimizdir. Birisiyle karşılaştığınızda ilk olarak o kişi gözlerinizle görürüz daha sonra görme verisi beynimize aktarılır. O kişiyi tanıyıp tanımadığınıza karar veren yapı yani beynimiz de backend’tir.
+Peki, backend bunun neresinde diye soracak olursanız: Backend ise beynimizdir. Birisiyle karşılaştığınızda ilk olarak o kişi gözlerinizle görürüz daha sonra görme verisi beynimize aktarılır. O kişiyi tanıyıp tanımadığınıza karar veren yapı yani beynimiz de backend’tir.
 
 ![frontend-vs-backend4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/frontend-vs-backend/figures/frontend-vs-backend4.jpg)
 

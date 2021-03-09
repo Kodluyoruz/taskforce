@@ -105,7 +105,7 @@ Split metodu ile istenilen metin diziye çevrilebilir. Kullanılan parametre ile
 
 Bir String ifadesi içerisinde yer alan bilgilerin istediğimiz gibi olup olmadığını kontrol etmek isteyebiliriz. İçerisinde mail adresi geçiyor mu? Kullanıcın verilerinde benim aradığım bilgi var mı? Gibi kontroller yapmak istiyor olabiliriz. String veri türü işlemleri bize bu noktada yardımcı olur.
 
-Örnekler üzerinden görelim.
+**Örnekler üzerinden görelim:**
 
 ```javascript
 let email = "kodluyoruz@kodluyoruz.org"

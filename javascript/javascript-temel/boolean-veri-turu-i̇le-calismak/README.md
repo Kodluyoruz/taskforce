@@ -1,5 +1,5 @@
 # Boolean Veri Türü İle Çalışmak
-Bazı ifadeleri sadece iki ihtimale göre değerlendirmek Javascript programlarımızı yazarken oldukça işimize yarar. Bu alternatifler "evet veya hayır" , " var ya da yok" ,"1 veya 0" , "evet veya hayır" gibi değerler olabilir. Bu tür iki alternatiften bahsettiğimiz veri tipine Boolean veri tipi diyoruz.
+Bazı ifadeleri sadece iki ihtimale göre değerlendirmek Javascript programlarımızı yazarken oldukça işimize yarar. Bu alternatifler "evet veya hayır", " var ya da yok","1 veya 0", "evet veya hayır" gibi değerler olabilir. Bu tür iki alternatiften bahsettiğimiz veri tipine Boolean veri tipi diyoruz.
 
 Boolean veri tipleri sadece iki değerden birini ifade eder. Bunlar `true` ya da `false` 'dur.
 
