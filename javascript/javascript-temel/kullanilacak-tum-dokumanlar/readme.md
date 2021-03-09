@@ -1,2 +1,1 @@
-# Kullanılacak Tüm Dökümanlar]
-
+# Kullanılacak Tüm Dökümanlar
