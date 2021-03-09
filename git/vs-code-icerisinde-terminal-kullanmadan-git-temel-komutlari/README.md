@@ -9,7 +9,7 @@ Yeni eklenen veya üzerinde değişiklik yapılan dosyaları **staged** ortamın
 
 ![git-add-1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/vs-code-icerisinde-terminal-kullanmadan-git-temel-komutlari/figures/2-git-add-1.png)
 
-Birden fazla dosyamız olduğu zamanlarda eğer bütün değişiklikleri tek bir seferde **staged** ortamına göndermek istiyorsak **Stage All Changes** buttonuna tıklamalıyız. 
+Birden fazla dosyamız olduğu zamanlarda eğer bütün değişiklikleri tek bir seferde **staged** ortamına göndermek istiyorsak **Stage All Changes** butonuna tıklamalıyız. 
 
 ![git-add-2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/vs-code-icerisinde-terminal-kullanmadan-git-temel-komutlari/figures/2-git-add-2.png)
 
