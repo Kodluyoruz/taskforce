@@ -22,7 +22,7 @@ Bu ek özellikler Türkçe kaynaklarda HTML etiketlerinin nitelikleri, özellikl
 ````
 
 HTML dosyasına bir resim eklemek istersek `img` etiketini kullanırız. `img`, İngilizcedeki image(resim) kelimesinin kısaltmasıdır. Bu etiketin yanında ise `src` ve `alt` özniteliklerini ekleyebiliriz. `src` (source = kaynak) ekleyeceğimiz resmi nereden alacağını belirttiğimiz yerdir.
-`alt` (alernative = alternatif) ise eğer bir nedenden resim görüntülenemz ise resme alternatif olarak ne yazması gerektiğidir.
+`alt` (alernative = alternatif) ise eğer bir nedenden resim görüntülenemez ise resme alternatif olarak ne yazması gerektiğidir.
 
 ```html
 <a href =""></a>
