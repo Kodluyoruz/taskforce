@@ -4,12 +4,12 @@ Bilginin bir cihazdan diğerine gitmesi için illa ki dümdüz bir yola ihtiyac�
 
 **Bir örnek verelim:**
 
-Trendyol gibi Türkiye'de üzerinde milyonlarca insanın kullandığı bir e-ticaret sitesini düşünelim. Böyle bir platform genellikle sunucularını tek bir merkezde tutmaz. Bunun yerine İstanbul, Ankara ve daha doğu vilayetler olmak üzere bir kaç noktada konumlandırır. **Bunun temelde iki sebebi vardır:**
+Trendyol gibi Türkiye'de üzerinde milyonlarca insanın kullandığı bir e-ticaret sitesini düşünelim. Böyle bir platform genellikle sunucularını tek bir merkezde tutmaz. Bunun yerine İstanbul, Ankara veya farklı şehirler olmak üzere birkaç noktada konumlandırır. **Bunun temelde iki sebebi vardır:**
 
 * Bağlantı isteği gönderdiğiniz sunucu fiziksel olarak ne kadar uzakta olursa o kadar geç bağlanırsınız. Bütün sunucular İstanbul'da olsaydı Hakkari'den birisi istek yolladığında geçikme yaşanabilirdi. Bunun olmaması için Ankara gibi nispeten Türkiye'nin orta noktası olan bir şehirde 2. bir merkez açmak süreci hızlandıracaktır.
 * İkinci sebep ise güvenlik ve olası sorunlar. Eğer sunucuları tuttuğunuz yerde bir elektrik kesintisi yaşansa veya başka bir durumdan ötürü cihazlar kapansa kimse istek gönderemezdi. Dolayısıyla bembeyaz bir ekran ile karşılaşırdınız. Bunun olmaması için farklı bir şehirde 2. bir merkez kurulup olası durumlarda trafik o noktaya yönlendirilir.
 
-İşte bu gibi durumları yöneten ve size en yakın sunucu ile iletişim kurmanuzı sağlayan şey **routers**'lardır.
+İşte bu gibi durumları yöneten ve size en yakın sunucu ile iletişim kurmanızı sağlayan şey **routers**'lardır.
 
 **Nasıl çalışır?**
 
