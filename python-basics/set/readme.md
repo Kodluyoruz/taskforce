@@ -224,7 +224,7 @@ s
 
     {1, 2, 3, 4, 5, 6}
 
-## Setten Eleman Silmek
+## Set'ten Eleman Silmek
 
 ```python
 s
