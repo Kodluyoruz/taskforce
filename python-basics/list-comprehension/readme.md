@@ -3,7 +3,7 @@
 
 * Yine o yeni bir şey öğrenmediğimiz ama yaptığımız şeyleri daha farklı ve kolay yapmayı öğrendiğimiz bir konudayız.
 
-* Diyelim ki 1'den 10 a kadar olan sayıların karelerinden bir liste oluşturmak istiyorum. Bunu aşağıdaki gibi yapabilirim.
+* Diyelim ki 1'den 10'a kadar olan sayıların karelerinden bir liste oluşturmak istiyorum. Bunu aşağıdaki gibi yapabilirim.
 
 
 ```python
