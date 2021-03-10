@@ -34,7 +34,7 @@ s2
 
     {1, 2, 4, 5, 6}
 
-* Boş set yaratma
+- Boş set yaratma:
 
 ```python
 a = {}
