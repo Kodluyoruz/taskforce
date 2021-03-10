@@ -20,7 +20,6 @@
 - [Bootstrap](bootstrap/)
 - [Subsample](subsample/)
 - [Subsample Yeni Mantık](subsample-2/)
-- [Tahmin Görselleştirme](pred-visualize/)
 - [Hyperparameters](hyperparameter/)
 - [Random Feature Selection](random-feature/)
 - [Proje](proje/)
