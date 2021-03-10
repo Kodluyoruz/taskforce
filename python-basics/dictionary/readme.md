@@ -54,7 +54,7 @@ no[0]
 
 - Her farklı bilgi için yeni bir liste oluşturmam gerekiyor.
 
-- Aynı elemanı ifade eden mantıklar listeler arası aynı indexte tutuluyor (isim[0]'ın notu notlar[0])
+- Aynı elemanı ifade eden mantıklar listeler arası aynı indexte tutuluyor. (isim[0]'ın notu notlar[0])
 
 - Bu yapılabilir ama optimal olmayan bir yaklaşım. Karışıklık çıkması çok muhtemel.
 
@@ -62,15 +62,15 @@ no[0]
 
 - Evet bunu yapabiliriz! Bunun için `dictionary` veri yapısını göreceğiz.
 
-- `Dictionary` yapısının elemanlarına erişmek için belirli `key`ler kullanacağız ve o da bize `value`lar verecek.
+- `Dictionary` yapısının elemanlarına erişmek için belirli `key`ler kullanacağız ve o da bize `value`'lar verecek.
 
 - dictionary'leri süslü parantez `{}` ile belirteceğiz. 
 
 - Formumuz `{key1:value1, key2:value2...}` şeklinde olacak.
 
-- Elemanlarına ulaşmak için öbür non-scalar veri tiplerinde yaptığımız gibi `[]` kullanacağız. Ama - `dictionary`'lerin elemanlarına ulaşmak için belirlediğimiz `key`leri kullanacağız, integer indexing değil
+- Elemanlarına ulaşmak için öbür non-scalar veri tiplerinde yaptığımız gibi `[]` kullanacağız. Ama - `dictionary`'lerin elemanlarına ulaşmak için belirlediğimiz `key`leri kullanacağız, integer indexing değil.
 
-- `dictionary`'lerin keyleri `immutable` herhangi bir yapıda olabilir. `value`lar `mutable` da `immutable` da olabilir. int, float, bool, string, list, tuple, set, even dictionaries itself!
+- `dictionary`'lerin keyleri `immutable` herhangi bir yapıda olabilir. `value`'lar `mutable` da `immutable` da olabilir. int, float, bool, string, list, tuple, set, even dictionaries itself!
 
 ```python
 notlar = {"Deniz": 80, "Ege":72, "Gizem": 95}
@@ -212,7 +212,7 @@ notlar
 
     {'Deniz': 80, 'Ege': 77, 'Gizem': 95, 'Mert': 58}
 
-- Dictionary'ye sorgu yapıyor gibi yazıyoruz, ve `value`'su olmasını istediğimiz değeri de soluna yazıyoruz.
+- Dictionary'ye sorgu yapıyor gibi yazıyoruz, ve `value`'si olmasını istediğimiz değeri de soluna yazıyoruz.
 
 ## Eleman Silmek
 
@@ -303,7 +303,7 @@ d
 
 ## Bir Değer Keyler Arasında Var mı Sorgusu Yapmak
 
-- Bir elemanın dictionary içinde olup olmadığını sorgulamak, list ve tuple'larda sorgulamaktan daha hızlıdır.
+- Bir elemanın dictionary içinde olup olmadığını sorgulamak, list ve tuple'lerde sorgulamaktan daha hızlıdır.
 
 ```python
 notlar
