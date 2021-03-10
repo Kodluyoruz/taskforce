@@ -2,7 +2,7 @@
 
 * Python'da fonksiyonların `first class function` olduklarını konuşmuştuk.
 
-* Şimdi bu mantığı kullanarak belirli fonksiyonları listenin elemanlarına uygulayacağız
+* Şimdi bu mantığı kullanarak belirli fonksiyonları listenin elemanlarına uygulayacağız.
 
 
 ```python
@@ -47,7 +47,7 @@ l
 
 
 
-* Tüm elemanlara fonksiyon uygulandı ve güncelledik
+* Tüm elemanlara fonksiyon uygulandı ve güncelledik.
 
 
 ```python
