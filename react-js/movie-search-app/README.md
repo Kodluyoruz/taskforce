@@ -4,16 +4,16 @@ Bu ödevde OMDb API kullanarak film araması yapabilme ve filmleri favorilere ek
 
 ### Home Page
 
-![movie-search-app](figures/movie-search-app.png)
+![movie-search-app](https://raw.githubusercontent.com/Kodluyoruz/taskforce/react/react-js/movie-search-app/figures/movie-search-app.png)
 
 ### Favorites Page
 
-![favorites](figures/favorites.png)
+![favorites](https://raw.githubusercontent.com/Kodluyoruz/taskforce/react/react-js/movie-search-app/figures/favorites.png)
 
 
 ### Detail Page
 
-![detail](figures/detail.png)
+![detail](https://raw.githubusercontent.com/Kodluyoruz/taskforce/react/react-js/movie-search-app/figures/detail.png)
 
 
 
