@@ -340,7 +340,7 @@ s2 - s1
 
 ## Symmetric Difference
 
-* s1 in s2 den farkı ile s2 nin s1 den farkının birleşimi. (s1 \ s2) U (s2 \ s1)  - > s1 U s2 - (s1 n s2)
+* s1'in s2 den farkı ile s2'nin s1 den farkının birleşimi. (s1 \ s2) U (s2 \ s1)  - > s1 U s2 - (s1 n s2)
 
 U -> Birleşim
 
@@ -591,7 +591,7 @@ len(s1.intersection(s2)) == 0
 
 ## Subset (Alt küme)
 
-* s1.issubset(s2), s1 in s2 nin alt kümesi olup olmadığını kontrol eder
+* s1.issubset(s2), s1'in s2'nin alt kümesi olup olmadığını kontrol eder
 
 
 ```python
@@ -660,69 +660,34 @@ s3.issubset(s2)
 
 ## Superset (üst küme)
 
-* s2.issuperset(s3) s2 nin s3 ün üst kümesi olup olmadığını sorgular
-
+* s2.issuperset(s3) s2'nin s3'ün üst kümesi olup olmadığını sorgular
 
 ```python
 s1
 ```
 
-
-
-
     {1, 5, 10}
-
-
-
 
 ```python
 s2
 ```
 
-
-
-
     {2, 3, 5}
-
-
-
 
 ```python
 s3
 ```
 
-
-
-
     {2, 5}
-
-
-
 
 ```python
 s2.issuperset(s3)
 ```
 
-
-
-
     True
-
-
-
 
 ```python
 s2
 ```
 
-
-
-
     {2, 3, 5}
-
-
-
-
-```python
-
-```
