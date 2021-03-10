@@ -39,6 +39,7 @@
 
 #### Ecosystem ####
 -  [Router](router/)
+-  [Ödev 6 - Movie Search App](movie-search-app/)
 -  SSR
 -  SSG
 -  [API Calls](api-calls/)
