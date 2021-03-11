@@ -40,7 +40,7 @@ Yönlendiricide iki seçenek bizi bekliyor ve bize "Hedefin **2**'ye gitmek ise 
 
 `IPv6 Adres Örneği:4ggr:1925:5656:7:600:t4tt:tc54:98vt `
 
-*Bilgisayarınızın IP adresini öğrenmek isterseniz bir komut satırı açın (Windows için: Windows+L tuşuna basıp gelen ekranda `cmd` yazabilirsiniz). Komut satırında `ipconfig` yazarsanız çıkan sonuçta IP adresinizi öğrenebilirsiniz.*
+*Bilgisayarınızın IP adresini öğrenmek isterseniz bir komut satırı açın (Windows için: Windows+R tuşuna basıp gelen ekranda `cmd` yazabilirsiniz). Komut satırında `ipconfig` yazarsanız çıkan sonuçta IP adresinizi öğrenebilirsiniz.*
 
 Normalde cihazları gerçekten birbirine bağlamış olsak ve yönlendirici kullanmasak *daha hızlı* iletişim sağlayabiliriz. *Ama direkt bağlamak hem maliyetli hem de bakımı zor.* **IP** ile veri gönderirken veri paketlere bölünür. Paketlerin kaybolması gibi durumlarda iletişim kopar. Aşırı fazla paket olması da yönlendiricilerde trafik olmasına yol açabilir. Bu sebeple yavaşlık olur. Ama veriyi tek parça halinde gönderirsek de fazla maliyetlidir.
 
