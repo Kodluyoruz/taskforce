@@ -1,4 +1,4 @@
-# Tuple ve List'lerde Eleman Kontlolü
+# Tuple ve List'lerde Eleman Kontrolü
 
 - Belirli bir eleman listede veya tuple'da var mı diye `in` keyword'ü ile sorgu yapabilirim.
 
