@@ -16,7 +16,7 @@ String ifade yazarken, `"` veya `'` kullanırız. Template Literals ile JavaScri
 
 **Mac için** → `option` + `,`
 
-yaparak bu işareti kullanabilirsiniz.
+Yaparak bu işareti kullanabilirsiniz.
 
 ### Sağladığı Faydalar
 

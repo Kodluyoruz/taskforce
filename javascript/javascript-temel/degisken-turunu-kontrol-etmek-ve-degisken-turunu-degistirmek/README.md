@@ -88,7 +88,7 @@ String(Symbol('my symbol')) // 'Symbol(my symbol)'
 
 ```
 ## Boolean Dönüşümü
-Eğer bir değeri açık bir şekilde (explicit) boolean ‘a dönüştürmek istiyorsak `Boolean()` fonksiyonu kullanılır.
+Eğer bir değeri açık bir şekilde (explicit) boolean'a dönüştürmek istiyorsak `Boolean()` fonksiyonu kullanılır.
 Implicit coercion ise mantıksal operatörlerinin kullanıldığı, mantıksal işlemlerin yapıldığı alanlarda tetiklenir. (|| && !)
 
 ``` javascript
@@ -98,7 +98,7 @@ if (2) { ... } // implicit due to logical context
 !!2 // implicit due to logical operator
 2 || 'hello' // implicit due to logical operator
 ```
-Boolean tiplerle uğraşırken truthy,falsy değerler işin içine girerler. Kısaca açıklayacak olursak javascriptin kendi doğası gereği true veya false dönen değerler mevcuttur. Bunlar;
+Boolean tiplerle uğraşırken truthy, falsy değerler işin içine girerler. Kısaca açıklayacak olursak javascriptin kendi doğası gereği true veya false dönen değerler mevcuttur. Bunlar;
 ``` javascript
 Boolean('') // false
 Boolean(0) // false 
@@ -169,7 +169,7 @@ Genel olarak algoritma aşağıdaki gibidir:
 2. input.valueOf()metodunu çağır(Call). Eğer sonuç primitif ise dön.
 3. Ne input.toString() ne deinput.valueOf() primitif sonuç vermiyorsa; TypeError fırlat.
 
-**NOT:** `==` operatörünün (loose equality- zayıf eşitlik) farklı iki tipteki a ve b değişkenleri için pratikte nasıl farklı davrandığını, [JavaScript Comparison Table](https://dorey.github.io/JavaScript-Equality-Table/) ’de gösteren matristen görebilirsiniz. 
+**NOT:** `==` operatörünün (lose equality- zayıf eşitlik) farklı iki tipteki a ve b değişkenleri için pratikte nasıl farklı davrandığını, [JavaScript Comparison Table](https://dorey.github.io/JavaScript-Equality-Table/) ’de gösteren matristen görebilirsiniz. 
 
 **ÖRNEKLER**
 
@@ -203,11 +203,11 @@ console.log([1,2,3]>null)
 - [1,2,3] bir array olup refarans tip tutuğundan primitif değere dönüştürülerek işleme alınır
 - [1,2,3].toString() kullanıldığında içeri ”1,2,3” değerini döndürür
 - ”1,2,3”> null şeklini alır
-- ">" karşılaştırma ifadesi olduğundan tekrar numaric coercion teriklenir
+- ">" karşılaştırma ifadesi olduğundan tekrar numaric coercion tetiklenir
 - String ifade numbera zorlanır Number(“1,2,3”)
 - Number("1,2,3") ifadesinin sonucu NaN olacağından 
 - NaN>null şeklini alır
-- ve NaN kendine dahil hiçkimseye eşit olmadığından!!
+- ve NaN kendine dahil hiç kimseye eşit olmadığından!!
 **Sonuç**= false
 
 4. 
@@ -215,7 +215,7 @@ console.log([1,2,3]>null)
 ``` javascript
 console.log(“number” + 15 + 3) 
 ```
-- örneğimizin başında stirng bir ifade bulunduğundan diğer ögeler için de string coercion teriklenir 
+- örneğimizin başında string bir ifade bulunduğundan diğer ögeler için de string coercion tetiklenir 
 - "number+ "15" + "3" şeklini alır 
 **Sonuç**= "number153"
 
@@ -225,7 +225,7 @@ console.log(“number” + 15 + 3)
 console.log(['x','y'] == 'x,y')
 ```
 - == operatörü array için numeric coercion yapacaktır
-- ['x','y'] dizisinin numeric coercion yapabilmesi için primitif tipe dönüştümek gerekir.
+- ['x','y'] dizisinin numeric coercion yapabilmesi için primitif tipe dönüştürmek gerekir.
 - ['x','y'].toString() metoduyla "x,y" döner
 - Son eşitlik "x,y"=="x,y" halini alır 
 
