@@ -40,7 +40,7 @@ Bu sayfadaki tüm `p` elemanlarına ulaşmak istersek;
 const animals = document.getElementsByTagName('p'); 
 // Çıktı:  HTMLCollection(4) [p, p, p, p]
 ```
-yazmanız yeterli olacaktır.
+Yazmanız yeterli olacaktır.
 
 **Ayrıca sayfadaki tüm etiketleri bu şekilde getirebilirsiniz.**
 ```javascript
@@ -84,7 +84,7 @@ Hadi sayfamızdaki tüm kuşları seçelim;
 const kuslar = document.getElementsByClassName('kusu');
 // Çıktı: HTMLCollection(3) [div.baykuş.kusu, div.güvercin.kusu, div.kartal.kusu]
 ```
-Ayrıca bu methodla birden fazla class name belirtip **daha detaylı** bir seçim yapabilirsiniz.
+Ayrıca bu methotla birden fazla class name belirtip **daha detaylı** bir seçim yapabilirsiniz.
 
 ```javascript
 document.getElementsByClassName('kartal kusu');
@@ -95,7 +95,7 @@ document.getElementsByClassName('kartal kusu');
 > **Tekil Sorgu seçici**
 
 `QuerySelector ()` yöntemi, CSS seçicilere dayalı olarak DOM'dan html elemanlarını seçmenize izin veren iki modern JavaScript yönteminden biridir.
-Bu yöntem ile birlikte hem css class'larını hem de id'lerini kullanabilirsiniz.
+Bu yöntem ile hem css class'larını hem de id'lerini kullanabilirsiniz.
 Bunu yaparken class için ön ek olarak **nokta "."**, id'ler için **kare "#"** kullanmanız gerekir. Sayfada **eşleşen ilk elemanı** size döndürecektir. Belirtilen elemanın eşleşememesi durumunda geriye `null` dönecektir.
 
 ```javascript
@@ -105,7 +105,7 @@ const email = document.querySelector('#signup input[name="email"]');
 ## Query Selector All
 > **Çoğul Sorgu seçici**
 
-`querySelectorAll()` metodu, `QuerySelector ()` metodu ile aynı mantık ile çalışır tek farkı eşeleşen ilk elamanı döndürmek yerine eşleşen **tüm elemanları** bir NodeList objesi olark döndürmesidir.
+`querySelectorAll()` metodu, `QuerySelector ()` metodu ile aynı mantık ile çalışır tek farkı eşleşen ilk elamanı döndürmek yerine eşleşen **tüm elemanları** bir NodeList objesi olarak döndürmesidir.
 
 ```javascript
 const elems = document.querySelectorAll('.bird, .animal');
@@ -134,7 +134,7 @@ veya
 ```javascript
 const inputs = document.querySelector('#signup').querySelectorAll('input');
 ```
-Sonrasında oluşturduğumuz `inputs`değişkenine **Console** üzerinden ulaşabilirsiniz.
+Sonrasında oluşturduğumuz `inputs ` değişkenine **Console** üzerinden ulaşabilirsiniz.
 ![Console inputs](figures/console_inputs.png)
 
 ### Alıştırmalar
@@ -143,7 +143,7 @@ Bu konu ile ilgili alıştırma yapmak isterseniz aşağıda sizinle paylaştı�
 Ayrıca [bu linkten](https://www.w3resource.com/javascript-exercises/javascript-dom-exercises.php) alıştırmalar yapabilirsiniz.
 
 ## Sonuç
-DOM üzerinden javaScript kullanarak eleman seçmek için gereken tüm metotları bu yazı boyunca öğrenmiş olduk. İhtiyacınız olan her şey buradaydı. Gerisi sizin uygun sorguları yazarak elemanlarınızı seçmenizde. Alıştırma yapmayı unutmayın.
+DOM üzerinden JavaScript kullanarak eleman seçmek için gereken tüm metotları bu yazı boyunca öğrenmiş olduk. İhtiyacınız olan her şey buradaydı. Gerisi sizin uygun sorguları yazarak elemanlarınızı seçmenizde. Alıştırma yapmayı unutmayın.
 
 ### Kaynaklar
 - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
