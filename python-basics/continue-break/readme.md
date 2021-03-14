@@ -2,7 +2,7 @@
 ## break
 
 * Belki bir şart sağlandığı zaman döngüden aniden çıkmak istiyorum, bunu `break` ile sağlıyoruz
-* `break` komutunu gördüğümüz yerde döngüden çıkıyoruz
+* `break` komutunu gördüğümüz yerde döngüden çıkıyoruz.
 
 
 
