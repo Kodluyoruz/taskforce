@@ -1,92 +1,81 @@
-## `break`
+## `while`
 
-* Belki bir şart sağlandığı zaman döngüden aniden çıkmak istiyorum, bunu `break` ile sağlıyoruz
-
-* `break` komutunu gördüğümüz yerde döngüden çıkıyoruz
-
-
-```python
-for i in range(10):
-    if i == 3:
-        break
-    print(i)
-```
-
-    0
-    1
-    2
-
+* `while` döngüsünün içine yazdığım yapı belirttiğim ifade doğru olduğu sürece çalışacak.
+* `while`'da da `if`'te olduğu gibi bir test mantığı var aslında. **Testimiz doğru çıktığı sürece `while` bloğunun içindeki kodları tekrarlıyorum**
+* `while` ın içindeki kodu python anlasın diye, `if` te yaptığımız gibi iç kısmına boşluk bırakarak yazacağız.
+* Örnek olarak kullanıcıdan pozitif bir sayı bekleyen, negatif sayı girildikçe bir daha soran bir yapıyı düşünelim. Burada bir döngü mantığına ihtiyacımız var çünkü kullanıcının kaç defa negatif sayı gireceğini önceden bilmiyoruz.
 
 
 ```python
-x = 0
+x = int(input("Bir sayı girin: "))
 
-while x < 10:
+while x < 0:
+    print("Sayı negatif, lütfen pozitif bir sayı girin.")
+    x = int(input("Bir sayı girin: "))
     
-    print(x)
-    x += 1
-    
-    if x == 3:
-        break
-        
-    
+print("sayınız pozitif ve", x)
 ```
 
-    0
-    1
-    2
-
-
-## `continue`
-
-* Bazen döngülerde bir şart sağlandığında bir sonraki iterasyondan devam etmek isteyebilirim. Bunu `continue` ile sağlayacağız.
-
-* `continue` komutu ile karşılaşıldığı zaman, döngünün bir sonraki iterasyonuna geçilir.
-
-
-```python
-for i in range(10):
-    
-    if i == 3:
-        continue
-    print(i)
-
-```
-
-    0
-    1
-    2
-    4
-    5
-    6
-    7
-    8
-    9
+    Bir sayı girin: -5
+    Sayı negatif, lütfen pozitif bir sayı girin.
+    Bir sayı girin: -12
+    Sayı negatif, lütfen pozitif bir sayı girin.
+    Bir sayı girin: -3
+    Sayı negatif, lütfen pozitif bir sayı girin.
+    Bir sayı girin: 6
+    sayınız pozitif ve 6
 
 
 
 ```python
 x = 0
 
-while x < 10:
-    
-    x += 1
-    
-    if x == 3:
-        continue
-    
+while x < 3:
     print(x)
+    x = x + 1
+
     
 ```
 
+    0
     1
     2
-    4
-    5
-    6
-    7
-    8
-    9
-    10
+
+* Diyelim ki 0'dan 100'e kadar olan sayıların toplamını bulmak istiyorum ve o kadar sayısı elle yazmak istemiyorum
+
+
+```python
+toplam = 0
+x = 0
+
+while x <=100:
+    toplam += x
+    x +=   1
+print(toplam)
+```
+
+    5050
+
+* Döngümün içinde kontrol ettiğim yapıyı güncelleyecek bir ifadenin olması lazım yoksa sonsuz döngüye girerim
+
+```python
+toplam = 0
+x = 0
+
+while x <=100:
+    toplam += x
+    print(x)
+
+print(toplam)
+    
+```
+
+    0
+    0
+    0
+    0
+    0
+    .
+    .
 
 
