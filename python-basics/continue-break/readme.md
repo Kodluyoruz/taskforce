@@ -1,90 +1,95 @@
 
-## Input
+## break
 
-* Bazen kullanacağımız değeri kullanıcıdan almak isteyebiliriz. Bunu `input` metodu ile yapacağız
-* `input` un içinde yazacağımız bize kullanıcıya gösterilecek yazıyı verecek, kullanıcıdan girdi bekleyip enter'a basmasını bekleyecek, ve girdiyi **string** olarak döndürecek
+* Belki bir şart sağlandığı zaman döngüden aniden çıkmak istiyorum, bunu `break` ile sağlıyoruz
+* `break` komutunu gördüğümüz yerde döngüden çıkıyoruz
 
-
-
-
-```python
-x = input("Bir sayı girin:")
-```
-
-> Bir sayı girin:10
 
 
 
 ```python
-x + 10
+for i in range(10):
+    if i == 3:
+        break
+    print(i)
 ```
 
+> ```text
+> 0
+> 1
+> 2
+> ```
 
-    ---------------------------------------------------------------------------
+
+
+```python
+x = 0
+
+while x < 10:
     
-    TypeError                                 Traceback (most recent call last)
+    print(x)
+    x += 1
     
-    <ipython-input-51-dacbb30d0a09> in <module>
-    ----> 1 x + 10
-    TypeError: can only concatenate str (not "int") to str
-
-
-
-```python
-type(x)
+    if x == 3:
+        break
 ```
 
-> str
+> ```text
+> 0
+> 1
+> 2
+> ```
 
+## continue
 
-
-
-```python
-int(x) + 10
-```
-
-> 20
-
-
-
+- Bazen döngülerde bir şart sağlandığında bir sonraki iterasyondan devam etmek isteyebilirim. Bunu `continue` ile sağlayacağız.
+- `continue` komutu ile karşılaşıldığı zaman, döngünün bir sonraki iterasyonuna geçilir.
 
 ```python
-x = int(input("Bir sayı girin:"))
+for i in range(10):
+    
+    if i == 3:
+        continue
+    print(i)
+
 ```
 
-    Bir sayı girin:10
-
-
-
-```python
-x + 10
-```
-
-> 15
+> ```text
+> 0
+> 1
+> 2
+> 4
+> 5
+> 6
+> 7
+> 8
+> 9
+> ```
 
 
 
 
 ```python
-mesaj = input("Mesajı girin:")
+x = 0
+
+while x < 10:
+    
+    x += 1
+    
+    if x == 3:
+        continue
+    
+    print(x)
 ```
 
-> Mesajı girin:Merhaba
-
-
-
-```python
-isim = input("İsim girin:")
-```
-
-> İsim girin:Ulaş
-
-
-
-```python
-mesaj + " " + isim
-```
-
-> 'Merhaba Ulaş'
-
-
+> ```text
+> 1
+> 2
+> 4
+> 5
+> 6
+> 7
+> 8
+> 9
+> 10
+> ```
