@@ -1,6 +1,6 @@
 # İskeletinin Genel Yapısını Anlamak
 
-** Html sayfalarının en temel bileşenleri nelerdir ? Bir html iskeleti nasıl oluşturulur ?**
+**Html sayfalarının en temel bileşenleri nelerdir ? Bir html iskeleti nasıl oluşturulur ?**
 
 Web tasarım konusunda araştırma yapan hemen herkesin karşına çıkan temel kavram **HTML**'dir. Web sayfalarını oluşturma aşamasında kullanılan standart bir metin işaret dili olan **HTML açılımı** **“Hyper Text Markup Language”** olarak bilinir. Genel bilinen yanlış kanının aksine **HTML** bir programlama dili değildir. 
 
@@ -89,6 +89,6 @@ Etiketleri asla çakıştırmamaya dikkat etmelisiniz. Yani, asla aşağıdaki g
 
 Bir HTML etiketini her kapatışınızda, en son kapatılmamış etiketi kapattığınızdan emin olun.
 
-## Kaynaklar
+## Kaynaklar
 - Learning the Basics of HTML [informit.com](https://www.informit.com/articles/article.aspx?p=2472081)
 - Using an HTML Skeleton [w3schools.com](https://www.w3schools.com/w3css/w3css_web_html.asp)

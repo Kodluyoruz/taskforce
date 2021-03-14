@@ -19,20 +19,20 @@ Eğer daha önce belirttiğiniz bir anahtarı kullanırsanız kaydetmek için ve
 
 ## Veri Okuma
 localStorage üzerinde kayıtlı olan anahtarları okumak için getItem metodu kullanılır. getItem metodu anahtar adını kendisine parametre olarak alıp geriye değeri döndürmektedir.
-```` javascript
+``` javascript
 	window.localStorage.getItem("key");
-````
+```
 Eğer veri daha önce kaydedilmeyen bir veriyi okumaya çalıştığımızda undefined değeri geri dönmektedir.
 ## Veri Silme
 Verileri silmek için iki tane metot kullanılmaktadır.  Tüm verileri silmek istiyorsak clear() metodunu kullanmamız gerekir. Şayet istediğimiz bir anahtarı silmek istiyorsak removeItem() metodunu kullanmamız gerekmektedir. removeItem metodu kendisine silinecek anahtarı parametre olarak almaktadır.
-```` javascript
+``` javascript
 	localStorage.removeItem("key");
 	localStorage.clear();
-````
+```
 Veri silindikten sonra değeri null olarak gözükmektedir.
 
 ## Veri ekleyip çıkarabileceğimiz dinamik bir uygulama
-```` javascript
+``` javascript
 const form = document.querySelector('form');
 const ul = document.querySelector('ul');
 const button = document.querySelector('button');
@@ -68,8 +68,8 @@ button.addEventListener('click', function () {
   }
   itemsArray = [];
 });
-````
-```` html
+```
+``` html
 
 <!doctype html>
 <html lang="en">
@@ -102,8 +102,8 @@ button.addEventListener('click', function () {
 </body>
 
 </html>
-````
-- [Örneğin Codepen Linki](https://codepen.io/pen/?template=BaLYZNK)
+```
+Aşağıda codepen ile deneyimleyebilirsiniz!
 
 ## Kaynaklar
 - https://www.tiny.cloud/blog/javascript-localstorage/

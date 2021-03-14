@@ -1,10 +1,10 @@
 # Enumerate:
 
-* `for` ile non-scalar yapılar içerisinde dolaşırken ya elemanları ya da indexleri üzerinde dolanmıştık, ama neden ikisi de aynı anda olmasın ?
+* `for` ile non-scalar yapılar içerisinde dolaşırken ya elemanları ya da indexleri üzerinde dolanmıştık, ama neden ikisi de aynı anda olmasın?
 
-* Variable unpacking konusunda bir tuple, liste gibi yapıların değerlerini birden çok değişkene bir seferde eşitlemeyi görmüştük
+* Variable Unpacking konusunda bir tuple, liste gibi yapıların değerlerini birden çok değişkene bir seferde eşitlemeyi görmüştük.
 
-* Bunun aynısını iterasyonda da yapabiliriz
+* Bunun aynısını iterasyonda da yapabiliriz.
 
 
 ```python
@@ -85,7 +85,7 @@ for i, e in enumerate(adlar):
     3 indexindeki eleman: Cameron
     
 
-* enumerate() 0'dan başlamak zorunda değil, özellikle kaçtan başlayacağını belirtebiliriz
+* enumerate() 0'dan başlamak zorunda değil, özellikle kaçtan başlayacağını belirtebiliriz.
 
 
 ```python
@@ -101,7 +101,7 @@ for i, e in enumerate(adlar, start = 100):
 
 ## zip()
 
-* Farklı yapıların içinde paralel iterasyon yapmamızı sağlar `zip()`
+* Farklı yapıların içinde paralel iterasyon yapmamızı sağlar. `zip()`
 
 
 ```python
@@ -131,7 +131,7 @@ for i in range(len(ogrenciler)):
     print(ogrenciler[i], notlar[i])
 ```
 
-### zip() Örnek
+### zip() Örnek:
 
 
 ```python

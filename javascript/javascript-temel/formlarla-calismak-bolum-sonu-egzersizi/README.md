@@ -60,7 +60,7 @@ Formda herhangi bir alanı boş bıraktığımızda veya "Age" kısmına 18'den 
 
 İlk sorumuz böyle bir formu oluşturmak ve verilerini kullanabilmek için nasıl bir html dosyası yazmamız gerektiğiyle ilgili olsun. Aşağıda bu form yapısının html kodlarını görüyoruz, tabi ki sizlerin tamamlaması için bazı eksiklikleri var. Sayfanın `class` isimleri ve style yapısıyla ilgili bu noktada herhangi bir işlemimiz olmayacak, o yüzden o kısımları düşünmenize hiç gerek yok, sadece form yapısına odaklanalım.
 
-Aşağıdaki kod parçacığında satır sonlarında numaralarını belirttiğim ___ ile belirtilmiş boşluklara neler yazılmalıdır ? 
+**Örnek 1:** Aşağıdaki kod parçacığında satır sonlarında numaralarını belirttiğim ___ ile belirtilmiş boşluklara neler yazılmalıdır ? 
 
 ```html
     <div class="container">
@@ -84,7 +84,7 @@ Aşağıdaki kod parçacığında satır sonlarında numaralarını belirttiğim
 ```
 Cevaplar: 1:for, 2:name ve userName 3:number 4:submit
 
-İkinci sorumuz ise bu form yapısını JavaScript kodumuzda nasıl manipüle edebileceğimiz ile ilgili olsun.
+**Örnek 2:** İkinci sorumuz ise bu form yapısını JavaScript kodumuzda nasıl manipüle edebileceğimiz ile ilgili olsun.
 /*1*/ gibi belirttiğim yerlere hangi kodlar gelmelidir? Gelmesi gereken kodların kullanım amaçlarını kısaca yorum satırı olarak belirttim yanlarında.
 
 ![](figures/jscodesnippet.png)

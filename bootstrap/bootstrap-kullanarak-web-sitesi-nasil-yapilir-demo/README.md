@@ -1,6 +1,6 @@
 # Bootstrap Kullanarak Web Sitesi Nasıl Yapılır (Demo)
 
-Bootstrap kütüphanesine ait sıklıkla kullanılar bileşenler ile bir web sitesi nasıl yapılacağını öğrenebileceğiniz örnek bir çalışma hazırladık.
+Bootstrap kütüphanesine ait sıklıkla kullanılan bileşenler ile bir web sitesi nasıl yapılacağını öğrenebileceğiniz örnek bir çalışma hazırladık.
 
 [Demo Web Sitesi Oluşturma Eğitim Videosu](https://drive.google.com/file/d/1DABuYd2qEHxdSeHrp5y5cKImzICPj24N/view?usp=sharing)
 

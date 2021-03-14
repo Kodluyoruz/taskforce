@@ -1,9 +1,9 @@
-# List comprehensions
+# List Comprehensions
 
 
-* Yine o yeni bir şey öğrenmediğimiz ama yaptığımız şeyleri daha farklı ve kolay yapmayı öğrendiğimiz bir konudayız
+* Yine o yeni bir şey öğrenmediğimiz ama yaptığımız şeyleri daha farklı ve kolay yapmayı öğrendiğimiz bir konudayız.
 
-* Diyelim ki 1'den 10 a kadar olan sayıların karelerinden bir liste oluşturmak istiyorum. Bunu aşağıdaki gibi yapabilirim:
+* Diyelim ki 1'den 10'a kadar olan sayıların karelerinden bir liste oluşturmak istiyorum. Bunu aşağıdaki gibi yapabilirim.
 
 
 ```python
@@ -25,7 +25,7 @@ squares
 
 
 
-* Bunun aynısını `list comprehension` kullanarak da yapabiliriz
+* Bunun aynısını `list comprehension` kullanarak da yapabiliriz.
 
 
 ```python

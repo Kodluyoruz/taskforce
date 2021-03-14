@@ -68,6 +68,6 @@
 #### fstring ####
   - [fstring](fstring/)
 
-#### Proje
+#### Proje ####
 
 * [Proje](proje/)

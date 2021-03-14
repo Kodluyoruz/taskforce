@@ -55,7 +55,7 @@ console.log(yeniArray);
 //[4, 6, 8, 10, 20]
 ```
 
-[Codepen'de deneyin](https://codepen.io/ymuzunburun/pen/abmGbrX?editors=1112)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 "sayilar" adında veri tipi const(sabit) bir değişken tanımlandık. Bunu içine statik değerler atadık. Daha sonra "yeniArray" olarak belirlediğimiz yeni değişkenimizde sayılar içerisinde map ile döngü oluşturarak mevcuttaki değeri 2 ile çarparak return ettik. Bu işlemden sonra sayılar array'inde herhangi bir değişiklik olmadığını görebilirsiniz. 
 
@@ -77,6 +77,6 @@ console.log( yeniMaaslar );
 
 maaşlar adında statik verilerden oluşan bir array oluşturduk. Bu array içinde dönerek maaşı  3000 TL'nin üzerinde olanlarınkine %15, altında olanlarınkine de %25 ekleyerek oluşan array'i return ettik.
 
-[Codepen'de deneyin](https://codepen.io/ymuzunburun/pen/ExgLaPM?editors=0012)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 

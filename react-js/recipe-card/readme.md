@@ -1,5 +1,7 @@
 # Recipe Card
 
+Lezzetli React dünyasına lezzetli bir ödev ile başlamaya ne dersiniz? Bu ödevimizde tariflerimizi görüntüleyebileceğimiz kartlar oluşturuyoruz. Her ne kadar aşağıda "Avokado Ezmeli Taco" yazsa da Türk mutfağından harika tarifler eklemenizi bekliyoruz. Sonra da akşam Aspava'da buluşup birer iskender gömüyoruz, ne dersiniz?
+
 Bu projede bir yemek tarifi web sitesindeki her bir yemek için görüntülenecek kartı oluşturuyoruz. Projedeki Card Componenti bir yemek tarifinin detaylarını, yazarını, beğeni sayısını ve kullanıcın tarifi beğenip beğenmediğine dair birtakım bilgileri gösteriyor.
 
 ![recipe-card](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/recipe-card/figures/recipe-card.png)

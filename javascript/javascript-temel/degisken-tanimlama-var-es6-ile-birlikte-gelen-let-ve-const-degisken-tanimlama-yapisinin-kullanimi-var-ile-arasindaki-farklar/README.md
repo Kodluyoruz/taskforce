@@ -2,7 +2,7 @@
 
 Değişkenler en basit tabirle değerleri hafızada tutmak için kullanılan yapılardır. Bir tanımlayıcı ile tanımlanır. Tanımlayıcı öncesi `var`, `let` veya `const` deklerasyonlarından biri kullanılarak deklare edilir. Değişken isimlendirmede dikkat etmemiz gerekenler şunlardır.
 
-- Değişken isimleri harf, `_` veya `$` işareti ile başlayabilir. Fakat ES5 (ECMAScript 5) ile birlikte gelen özellikle UNICODE kodları kullanılırken kaçış karakteri olarak kullanılan `\` işareti ilk karakter olarak kullanılabilir.
+- Değişken isimleri harf, `_` veya `$` işareti ile başlayabilir. Fakat ES5 (ECMAScript 5) birlikte gelen özellikle UNICODE kodları kullanılırken kaçış karakteri olarak kullanılan `\` işareti ilk karakter olarak kullanılabilir.
 
 ```javascript
 var formaNumarasi;  let $tcKimlikNo ; var \u0061; //Değişken isimlendirme örnekleri.
@@ -31,13 +31,13 @@ let user name ; // Bu kullanım yasaktır. Boşluk kullanılması gerekilen duru
 
 ## Değişkene Değer Atama ve Veri Türleri
 
-Değişkenlere değer atama `=` operatoru ile yapılır.
+Değişkenlere değer atama `=` operatörü ile yapılır.
 
 ```javascript
 var okulNumarasi = 12;
 ```
 
-şeklinde bir değişken tanımladığımızda `okulNumarasi` değişkenine sayısal bir değer olan 12 değeri atanır.
+Şeklinde bir değişken tanımladığımızda `okulNumarasi` değişkenine sayısal bir değer olan 12 değeri atanır.
 
 ```javascript
 var okulNumarasi;
@@ -50,7 +50,7 @@ Yukarıda kod parçasında görüldüğü gibi ilk olarak değişken tanımlamas
 let okulNumarasi = 32, isim = ‘Ali’;
 ```
 
-Yukarıda ki kod parçasında olduğu gibi tek bir satırda, deklerasyonları aynı fakat farklı tanımlayıcılar ile tanımlamış değişkenler tek bir satırda tanımlanabilir ve değer atanabilir.
+Yukarıdaki kod parçasında olduğu gibi tek bir satırda, deklarasyonları aynı fakat farklı tanımlayıcılar ile tanımlamış değişkenler tek bir satırda tanımlanabilir ve değer atanabilir.
 
 JavaScript loosely typed bir programlama dilidir. Yani bir değişkeni tanımlarken değişkenin türünü (sayısal, metinsel, boolean) belirtmemize gerek yoktur. 
 
@@ -59,10 +59,10 @@ JavaScript loosely typed bir programlama dilidir. Yani bir değişkeni tanımlar
 let okulNumarasi = 12
 ```
 
-Yazdığımız zaman 12 değerinin sayısal bir değer oldugunu anlar.
-Bir değişkene aşağıda ki veri tiplerini atayabiliriz.
+Yazdığımız zaman 12 değerinin sayısal bir değer olduğunu anlar.
+Bir değişkene aşağıdaki veri tiplerini atayabiliriz.
 
-- Boolean = Mantıksal ifadedir. `true` veya `false` degeri atanabilir
+- Boolean = Mantıksal ifadedir. `true` veya `false` değeri atanabilir
 
 ```javascript
 var isEnable = true;
@@ -99,7 +99,8 @@ let isim = “osman”
 let Sym1 = Symbol("Sym");
 ```
 
-- Object = Yukarıda ki 7 veri türü de primitive tiplidir . Objelerde ( nesne, dizi ) gibi referans tipler de değişkenlere atanabilir.
+
+- Object = Yukarıda ki 7 veri türü de primitive tiplidir. Objelerde ( nesne, dizi ) gibi referans tipler de değişkenlere atanabilir.
 
 ```javascript
 let sayilar = [1,2,3,4]
@@ -109,7 +110,7 @@ yas: 12}
 ```
 
 ## var
-Global scope veya function scope ta deklerasyon sağlayamaya yarayan keyword dur. Scope özelliklerini daha sonra örneklerle açıklayacağız.  `var` ile tanımlanan değişkenlerin özellikleri şunlardır.
+Global scope veya function scope ta deklarasyon sağlayamaya yarayan keyword dur. Scope özelliklerini daha sonra örneklerle açıklayacağız.  `var` ile tanımlanan değişkenlerin özellikleri şunlardır.
 - Değişken değerleri değiştirilebilir.
 
 ```javascript
@@ -160,12 +161,14 @@ console.log(blocktaTanimliDegisken);
 
 Aşağıda codepen ile deneyimleyebilirsiniz!
 
-Yukarıda ki kod parçasını incelediğimizde  `functionScopeDegisken` isimli değişken function scope da tanımlanmıştır. Function scope da ki değişkenlere tanımlı oldukları fonksiyonun blocklarından erişilebilir. Function scope da tanımlı değişkenlere fonksiyon dışında erişilmeye çalışıldığı zaman `ReferenceError` hatasını verir. Bunun sebebi function scope da tanımlı olmasıdır.
+Yukarıdaki kod parçasını incelediğimizde  `functionScopeDegisken` isimli değişken function scope da tanımlanmıştır. Function scope da ki değişkenlere tanımlı oldukları fonksiyonun blocklarından erişilebilir. Function scope da tanımlı değişkenlere fonksiyon dışında erişilmeye çalışıldığı zaman `ReferenceError` hatasını verir. Bunun sebebi function scope da tanımlı olmasıdır.
 
 `blocktaTanimliDegisken` isimli değişken block içerisinde tanımla olsa bile, bulunduğu fonksiyonda tanımlı olduğu için tanımlı olduğu fonksiyonun her yerinden ulaşılabilir, fakat fonksiyon dışından erişilemez.
 
 
-`var` ile tanımlanan değişkenlerin block scope olmamasından dolayı karşımıza bazı sorunlar çıkabilir. Örneğin
+`var` ile tanımlanan değişkenlerin block scope olmamasından dolayı karşımıza bazı sorunlar çıkabilir. 
+
+**Örneğin:**
 
 ```javascript
 var  weLove= "Kodluyoruz";
@@ -185,7 +188,7 @@ Aşağıda codepen ile deneyimleyebilirsiniz!
 2015 yılında ES6 çıkmasıyla beraber değişken tanımlamak için `let` ve `const` keywordleri de kullanılmaya başlanmıştır.
 
 ## let
-Değişkenleri block scope ta tanımlayan deklerasyondur. `let` ile tanımlanan değişkenlerin özellikleri şunlardır.
+Değişkenleri block scope ta tanımlayan deklarasyondur. `let` ile tanımlanan değişkenlerin özellikleri şunlardır.
 - Değişken değerleri değiştirilebilir.
 
 ```javascript
@@ -217,7 +220,7 @@ if(true){
 
 Aşağıda codepen ile deneyimleyebilirsiniz!
 
-Yukarıda ki kod parçası aynı zamanda block scope kavramını açıklamamıza da yardımcı olur. `let` ile deklare edilen her değişken bulunduğu blokta tanımlıdır. Başka bir örnek vermek gerekirse
+Yukarıdaki kod parçası aynı zamanda block scope kavramını açıklamamıza da yardımcı olur. `let` ile deklare edilen her değişken bulunduğu blokta tanımlıdır. Başka bir örnek vermek gerekirse
 
 ```javascript
 function scope(){
@@ -236,7 +239,7 @@ scope();
 
 Aşağıda codepen ile deneyimleyebilirsiniz!
 
-Yukarıda ki kod parçasını incelediğimizde `ilkDegisken` isimli değişkenimiz fonksiyon bloğumuzda tanımlıdır ve alt bloklardan da erişilebilir. `ikinciDegisken` isimli değişkenimiz ise if bloğunun içindedir ve sadece orada tanımlıdır, başka yerlerden erişilemez. `var` ile tanımladığımız değişkenler function scope oluyorlardı. İkisi arasında ki farkı scopelarını açıkladığımız örnekleri inceleyerek gözden geçirebilirsiniz.
+Yukarıdaki kod parçasını incelediğimizde `ilkDegisken` isimli değişkenimiz fonksiyon bloğumuzda tanımlıdır ve alt bloklardan da erişilebilir. `ikinciDegisken` isimli değişkenimiz ise if bloğunun içindedir ve sadece orada tanımlıdır, başka yerlerden erişilemez. `var` ile tanımladığımız değişkenler function scope oluyorlardı. İkisi arasındaki farkı scopelarını açıkladığımız örnekleri inceleyerek gözden geçirebilirsiniz.
 
 ## const
 
@@ -283,7 +286,7 @@ var sayi; // sayi degiskenini kullandıktan sonra tanımladık.
 // Çıktı --  732
 ```
 
-Yukarıda ki kod parçasının adım adım çalışması,
+Yukarıdaki kod parçasının adım adım çalışması,
 
 ```javascript
 //Adim 1

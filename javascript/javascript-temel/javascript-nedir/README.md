@@ -1,8 +1,8 @@
 # JavaScript Nedir?
 
-JavaScript, kısaltılmış haliyle JS, high-level (0 ve 1'larden oluşan makine dilinden farklı olarak günlük yaşamdaki konuşma diline yakın olan yüksek seviyeli programlama dili), sıklıkla just-in-time compiled (program başladığı anda kodun makine diline çevrildiği) ve multi-paradigm (birden fazla programlama paradigmasını bünyesinde barındıran, böylelikle spesifik bir problemin çözümünde o dile özgü tekil bir paradigmanın sınırları içinde kalıp zorlanmak yerine çözüme yönelik uygun programlama metodolojisinin seçilerek, minimum maliyetle maksimum verim alınmasına yönelik programlama (tasarım) konsepti)'dir.
+JavaScript, kısaltılmış haliyle JS, high-level (0 ve 1'larden oluşan makine dilinden farklı olarak günlük yaşamdaki konuşma diline yakın olan yüksek seviyeli programlama dili), sıklıkla just-in-time compiled (program başladığı anda kodun makine diline çevrildiği) ve multi-paradigm (birden fazla programlama) paradigmasını bünyesinde barındıran, böylelikle spesifik bir problemin çözümünde o dile özgü tekil bir paradigmanın sınırları içinde kalıp zorlanmak yerine çözüme yönelik uygun programlama metodolojisinin seçilerek, minimum maliyetle maksimum verim alınmasına yönelik programlama (tasarım) konseptidir.
 
-JavaScript prototip-tabanlı, dinamik türlere ve birinci-sınıf fonksiyonlara sahip bir betik dilidir. Nesne yönelimli, imperatif ve fonksiyonel programlama prensiplerine sahiptir.
+JavaScript prototip-tabanlı, dinamik türlere ve birinci-sınıf fonksiyonlara sahip bir betik dildir. Nesne yönelimli, imperatif ve fonksiyonel programlama prensiplerine sahiptir.
 
 **JavaScript ile Java farklı dillerdir.**
 
@@ -14,9 +14,9 @@ JavaScript ve Java arasında; isimleri, yazım şekli ve standart kütüphaneler
 
 ![Html-Css-Js](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/javascript-nedir/figures/www-core-html-css-js.png)
 
-HTML ve CSS ile birlikte JavaScript, World Wide Web'in (kısaca WWW veya Web) **temel üç öğesinden** biridir. Yaygın olarak web tarayıcılarında kullanılmakta olan JavaScript ile yazılan istemci tarafı betikler sayesinde tarayıcının kullanıcıyla etkileşimde bulunması, tarayıcının kontrol edilmesi, asenkron bir şekilde sunucu ile iletişime geçilmesi ve web sayfası içeriğinin değiştirilmesi gibi işlevler sağlanır.
+HTML ve CSS ile JavaScript, World Wide Web'in (kısaca WWW veya Web) **temel üç öğesinden** biridir. Yaygın olarak web tarayıcılarında kullanılmakta olan JavaScript ile yazılan istemci tarafı betikler sayesinde tarayıcının kullanıcıyla etkileşimde bulunması, tarayıcının kontrol edilmesi, asenkron bir şekilde sunucu ile iletişime geçilmesi ve web sayfası içeriğinin değiştirilmesi gibi işlevler sağlanır.
 
-Aşağıda yer alan görseldeki gibi HTML bir web sitesinin iskeletini yani ana yapısını oluşturmakta, CSS bu ana yapıya görsellik ve şekil vermekte, JavaScript ise yapının fonksiyonel olarak çalışmasını sağlar.
+Aşağıda yer alan görseldeki gibi HTML bir web sitesinin iskeletini yani ana yapısını oluşturmakta, CSS bu ana yapıya görsellik ve şekil vermekte, JavaScript ise yapının fonksiyonel olarak çalışmasını sağlamaktadır.
 
 ![Website Structure](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/javascript-nedir/figures/website-structure.jpg)
 
@@ -29,15 +29,15 @@ En çok kullanılan tarayıcalardaki JavaScript Motorları, Chrome, Opera ve Edg
 ## JavaScript'in Tarihi
 
 ### Başlangıç ve İsim
-Mosaic Web Browser'ın yazılım ekibinin önemli isimleri Mosaic şirketinden ayrılarak, Netscape isimli şirketi kurmuşlar ve 1994 yılında Netscape Navigator adındaki, yayınlandındıktan sonra oldukça geniş kitleye ulaşan internet tarayıcısını geliştirmişlerdir. O yıllarda statik olan internet sayfalarını interaktif hale getirebilmek amacıyla Sun Microsystems ile Java dilinin ve ekibi aldıkları Brenden Eich ile de Scheme dilini tarayıcıya yerleşik hale getirmek için çalışmalara başlamışlardır. Kısa bir süre sonra Netscape yönetimi, en iyi seçimin söz dizimi Java'ya benzeyen ve Scheme ile diğer script dillerine benzemeyen bir dil geliştirilmesi olduğuna karar vermiş ve bu görevi Brenden Eich'a vermişlerdir. Önce Mocha ardından da LiveScript isimlerini alan bu yeni dil, Eylül 1995'de Navigator'un yeni sürümünde yer bulmuş, üç ay sonra ise ismi o dönem çok popüler olan Java dilinin popülerliğinden yararlanmak amacıyla ismi JavaScript olarak değiştirilmiştir.
+Mosaic Web Browser'ın yazılım ekibinin önemli isimleri Mosaic şirketinden ayrılarak, Netscape isimli şirketi kurmuşlar ve 1994 yılında Netscape Navigator adındaki, yayınlandıktan sonra oldukça geniş kitleye ulaşan internet tarayıcısını geliştirmişlerdir. O yıllarda statik olan internet sayfalarını interaktif hale getirebilmek amacıyla Sun Microsystems ile Java dilini ve ekibi aldıkları Brenden Eich ile de Scheme dilini tarayıcıya yerleşik hale getirmek için çalışmalara başlamışlardır. Kısa bir süre sonra Netscape yönetimi, en iyi seçimin söz dizimi Java'ya benzeyen ve Scheme ile diğer script dillerine benzemeyen bir dil geliştirilmesi olduğuna karar vermiş ve bu görevi Brenden Eich'a vermişlerdir. Önce Mocha ardından da LiveScript isimlerini alan bu yeni dil, Eylül 1995'te Navigator'un yeni sürümünde yer bulmuş, üç ay sonra ise ismi o dönem çok popüler olan Java dilinin popülerliğinden yararlanmak amacıyla ismi JavaScript olarak değiştirilmiştir.
 
 ![Brenden Eich](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/javascript-nedir/figures/brenden-eich.jpg)
 
 ### ECMAScript'in Ortaya Çıkışı
 
-1996 yılının Kasım ayında Netscape firması JavaScript'in endüstri standardı olarak belirlenmesi amacıyla ECMA International'a (Avrupa Bilgisayar Üreticileri Birliği) başvuruda bulunduğunu ilan etti. Bunun sonucunda standardize edilen sürüm ECMAScript olarak isimlendirildi ve 1997 yılının Haziran ayında ECMA International, ECMA-262 standartları çerçevesinde ilk sürüm ECMAScript (kısca ES) yayınladı. Haziran 1998'de ISO/IEC-16262 standardına uyumlu hale getirilecek değişiklikler yapılarak ECMAScript 2, Aralık 1999'da ise ECMAScript 3 yayınlandı.
+1996 yılının Kasım ayında Netscape firması JavaScript'in endüstri standardı olarak belirlenmesi amacıyla ECMA International'a (Avrupa Bilgisayar Üreticileri Birliği) başvuruda bulunduğunu ilan etti. Bunun sonucunda standardize edilen sürüm ECMAScript olarak isimlendirildi ve 1997 yılının haziran ayında ECMA International, ECMA-262 standartları çerçevesinde ilk sürüm ECMAScript (kısca ES) yayınladı. Haziran 1998'de ISO/IEC-16262 standardına uyumlu hale getirilecek değişiklikler yapılarak ECMAScript 2, Aralık 1999'da ise ECMAScript 3 yayınlandı.
 
-ECMAScript 4 üzerinde ciddi bir çalışma yapılmasına rağmen asla tamamlanamadı, ancak beşinci sürüm için önemli bir ilham kaynağı oldu. ECMAScript 5, 2009 yılının Aralık ayında yayınlandı. En son yayınlanan versiyonu ECMAScript 2020, Haziran 2020'de yayınladı.
+ECMAScript 4 üzerinde ciddi bir çalışma yapılmasına rağmen asla tamamlanamadı, ancak beşinci sürüm için önemli bir ilham kaynağı oldu. ECMAScript 5, 2009 yılının aralık ayında yayınlandı. En son yayınlanan versiyonu ECMAScript 2020, Haziran 2020'de yayınladı.
 
 #### ECMAScript Verisyonları
 
@@ -60,7 +60,7 @@ ECMAScript 4 üzerinde ciddi bir çalışma yapılmasına rağmen asla tamamlana
 
 ## JavaScript Kullanım Alanları
 
-JavaScript'in Tarihi konusunda da belirteceğimiz gibi, JavaScript'in ortaya çıkış amacı siteleri interaktif ve fonksiyonel hale getirmekti. Ancak ECMA Standartı ile birlikte hızla değişen ve gelişen JavaScript, yazılımcıların talepleri doğrultusunda sürekli üzerine koyarak ve yeni bir dönem başlatan Node.js'in geliştirilmesiyle, oldukça önemli güncellemeler de alarak her alanda kullanabilecek bir dil haline geldi. Böylece tüm dünyanın en çok kullanılan yazılım dili olarak son yıllarda hep ilk sıralarda yer edinmeyi başardı.
+JavaScript'in tarihi konusunda da belirteceğimiz gibi, JavaScript'in ortaya çıkış amacı siteleri interaktif ve fonksiyonel hale getirmekti. Ancak ECMA Standartı ile hızla değişen ve gelişen JavaScript, yazılımcıların talepleri doğrultusunda sürekli üzerine koyarak ve yeni bir dönem başlatan Node.js'in geliştirilmesiyle, oldukça önemli güncellemeler de alarak her alanda kullanabilecek bir dil haline geldi. Böylece tüm dünyanın en çok kullanılan yazılım dili olarak son yıllarda hep ilk sıralarda yer edinmeyi başardı.
 
 **JavaScript'in kullanılabileceği alanlar:**
 
@@ -72,7 +72,7 @@ JavaScript'in Tarihi konusunda da belirteceğimiz gibi, JavaScript'in ortaya ç�
 - Makine Öğrenmesi, Derin Öğrenme ve Yapay Zeka (Machine Learning, Deep Learning & Artificial Intelligence)
 
 ### Front-End Alanında JavaScript
-JavaScript, Front-end tarafında ilk yıllarında olduğu gibi yalın olarak bir diğer ismiyle Vanilla JavaScript olarak kullabildiği gibi geliştirilen birçok farklı kütüphane (library) ve çatı (framework) ile de kullanabilmektedir. Son yıllarda ortaya çıkan başarılı kütüphane ve çatılar neticesinde, yalın JavaScript kullanımı azalsa da bu kütüphane ve çatıların temelini JavaScript oluşturduğu için, kesinlikle öğrenilmesi gerekmektedir.
+JavaScript, Front-end tarafında ilk yıllarında olduğu gibi yalın olarak bir diğer ismiyle Vanilla JavaScript olarak kullanabildiği gibi geliştirilen birçok farklı kütüphane (library) ve çatı (framework) ile de kullanabilmektedir. Son yıllarda ortaya çıkan başarılı kütüphane ve çatılar neticesinde, yalın JavaScript kullanımı azalsa da bu kütüphane ve çatıların temelini JavaScript oluşturduğu için, kesinlikle öğrenilmesi gerekmektedir.
 
 En çok kullanılan JavaScript Front-end teknolojileri aşağıdaki görselde yer almaktadır. Bunlar soldan sağa doğru; Angular, React, Vue, Ember ve Svelte'dir.
 
@@ -83,15 +83,9 @@ En çok kullanılan JavaScript Front-end teknolojileri aşağıdaki görselde ye
 ![nodejs-logo](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/javascript-nedir/figures/nodejs-logo.png)
 
 
-Ryan Dahl'ın geliştirdiği Node.js isimli JavaScript çalışma ortamı (runtime environment) sayesinde tarayıcılar dışında da JavaScript kodları çalıştırılabilir hale geldi ve yeni bir döen başlamış oldu. Böylece istemci tarafında kalmamakla birlikte sunucu tarafında da JavaScript uygulamalarının yolu açıldı. Node.js Chrome tarayaıcısındaki V8 JavaScript Motorunu kullanmaktadır.
+Ryan Dahl'ın geliştirdiği Node.js isimli JavaScript çalışma ortamı (runtime environment) sayesinde tarayıcılar dışında da JavaScript kodları çalıştırılabilir hale geldi ve yeni bir dönen başlamış oldu. Böylece istemci tarafında kalmamakla birlikte sunucu tarafında da JavaScript uygulamalarının yolu açıldı. Node.js Chrome tarayıcısındaki V8 JavaScript Motorunu kullanmaktadır.
 
 ![ryan-dahl](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/javascript-nedir/figures/ryan-dahl.jpg)
-
-
-En çok kullanılan JavaScript Back-end teknolojileri aşağıdaki görselde yer almaktadır. Bunlar soldan sağa doğru; Express, Meteor, Nuxt, Nest ve Next'dir.
-
-![js-backend-frameworks](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/javascript-nedir/figures/js-backend-frameworks.jpg)
-
 
 ### Mobil (Mobile) Alanında JavaScript
 

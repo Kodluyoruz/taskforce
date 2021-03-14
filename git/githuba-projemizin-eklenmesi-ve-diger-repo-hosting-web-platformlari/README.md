@@ -1,6 +1,6 @@
 # GitHub'a Projemizin Eklenmesi ve Diğer Repo Hosting Web Platformları
 
-GitHub da repo oluşturabilmek için hesap oluşturma aşamalarından sonra profilimizde bulunan "Repositories" menüsünden sağ kısımda bulunan "New" butonu ile repo oluşturma kısmına erişebiliriz.
+GitHub'da repo oluşturabilmek için hesap oluşturma aşamalarından sonra profilimizde bulunan "Repositories" menüsünden sağ kısımda bulunan "New" butonu ile repo oluşturma kısmına erişebiliriz.
 
 ![test foto](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/githuba-projemizin-eklenmesi-ve-diger-repo-hosting-web-platformlari/figures/github-repo-create.png)
 

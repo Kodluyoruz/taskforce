@@ -5,11 +5,11 @@ Henüz versiyon kontrolü altında olmayan bir projenin dizininde, boş bir git 
 
 ![git-init](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/vs-code-icerisinde-terminal-kullanmadan-git-temel-komutlari/figures/1-git-init.png)
 
-Yeni eklenen veya üzerinde değişiklik yapılan dosyaları **staged** ortamına göndermek için **Stage Changes** buttonuna tıklamalıyız.
+Yeni eklenen veya üzerinde değişiklik yapılan dosyaları **staged** ortamına göndermek için **Stage Changes** butonuna tıklamalıyız.
 
 ![git-add-1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/vs-code-icerisinde-terminal-kullanmadan-git-temel-komutlari/figures/2-git-add-1.png)
 
-Birden fazla dosyamız olduğu zamanlarda eğer bütün değişiklikleri tek bir seferde **staged** ortamına göndermek istiyorsak **Stage All Changes** buttonuna tıklamalıyız. 
+Birden fazla dosyamız olduğu zamanlarda eğer bütün değişiklikleri tek bir seferde **staged** ortamına göndermek istiyorsak **Stage All Changes** butonuna tıklamalıyız. 
 
 ![git-add-2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/git/git/vs-code-icerisinde-terminal-kullanmadan-git-temel-komutlari/figures/2-git-add-2.png)
 

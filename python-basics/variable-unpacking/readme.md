@@ -1,10 +1,10 @@
 # Variable Unpacking
 
-* Şimdiye kadar hep tek değişkene tek değer verdik
+* Şimdiye kadar hep tek değişkene tek değer verdik.
 
-* Peki bir seferde birden çok değişkene değer vermek için ne yaparız ?
+* Peki bir seferde birden çok değişkene değer vermek için ne yaparız?
 
-* Aşağıdaki kodun sonucu 
+* Aşağıdaki kodun sonucu, 
 
 `x=4`
 
@@ -41,7 +41,7 @@ y
 
 
 
-* 2'den çok değere de bunu yapabiliriz
+* 2'den çok değere de bunu yapabiliriz.
 
 
 ```python
@@ -56,16 +56,16 @@ print(x, y ,z)
     4 7 11
 
 
-## Bazı değerlere ihtiyacım yoksa
+## Bazı Değerlere İhtiyacım Yoksa:
 
-* Diyelim ki soldaki yapının sadece birinci elemanına bir değer eşitleyip kullanmak istiyorum. Daha önce döngülerde yaptığımız gibi kulllanmayacağımız değişkene `_` diyebiliriz
+* Diyelim ki soldaki yapının sadece birinci elemanına bir değer eşitleyip kullanmak istiyorum. Daha önce döngülerde yaptığımız gibi kulllanmayacağımız değişkene `_` diyebiliriz.
 
 
 ```python
 x, _ = (4, 7)
 ```
 
-## Sol ve Sağdaki Yapı Farklı Sayıdaysa
+## Sol ve Sağdaki Yapı Farklı Sayıdaysa:
 
 
 ```python
@@ -84,7 +84,7 @@ x, y, z = (4, 7, 11, 4, 21)
     ValueError: too many values to unpack (expected 3)
 
 
-* Bunu gidermek için `*` yapısını kullanacağız. Aşağıdaki kod şu demek oluyor: `ilk iki elemanı x ve y'ye eşitle, sonuna kadar kalan diğer tüm elemanları z'ye eşitle`. Bunun sonunda z 11,2,21'den oluşacak, tipi list olacak
+* Bunu gidermek için `*` yapısını kullanacağız. Aşağıdaki kod şu demek oluyor: `İlk iki elemanı x ve y'ye eşitle, sonuna kadar kalan diğer tüm elemanları z'ye eşitle`. Bunun sonunda z 11,2,21'den oluşacak, tipi list olacak.
 
 
 ```python
@@ -139,7 +139,7 @@ type(z)
 
 
 
-* Diyelim ki ilk 2 sini eşitleyip kalan hepsini görmezden gelmek istiyorum
+* Diyelim ki ilk 2 'sini eşitleyip kalan hepsini görmezden gelmek istiyorum.
 
 
 ```python
@@ -170,7 +170,7 @@ y
 
 
 
-* İlk 2 ve son değeri belirli bir değişkene, arada kalanların hepsini başka bir değişkene eşitlemek istiyorsam
+* İlk 2 ve son değeri belirli bir değişkene, arada kalanların hepsini başka bir değişkene eşitlemek istiyorsam:
 
 
 ```python
@@ -225,7 +225,7 @@ t
 
 
 
-* Aynı şekilde son 2'yi de belirtebiliriz
+* Aynı şekilde son 2'yi de belirtebiliriz.
 
 
 ```python
@@ -268,7 +268,7 @@ u
 
 
 
-* Ama aşağıdaki kod error verir, çünkü kaç tane alacağını bilmiyor y ve t için
+* Ama aşağıdaki kod error verir, çünkü y ve t için kaç tane alacağını bilmiyor. 
 
 
 ```python

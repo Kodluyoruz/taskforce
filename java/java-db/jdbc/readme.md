@@ -1,12 +1,17 @@
 # Java Database Connectivity (JDBC)
 
-JDBC, Java diliyle veri tabanlarına bağlanıp sorgu çalıştırmak, veri tabanı ile etkileşimli uygulamalar geliştirmek için ortaya çıkmış bir kütüphanedir. Java Standard Edition (JavaSE) içinde yer almaktadır. Dolayısıyla JDK içinde varsayılan olarak hazır kullanılabilir şekilde gelmektedir.
+JDBC, Java diliyle veri tabanlarına bağlanıp sorgu çalıştırmak, veri tabanı ile etkileşimli uygulamalar geliştirmek için ortaya çıkmış bir kütüphanedir. 
+Java Standard Edition (JavaSE) içinde yer almaktadır. Dolayısıyla JDK içinde varsayılan olarak hazır kullanılabilir şekilde gelmektedir.
 
-JDBC API her veri tabanı yönetim sistemi için yazılmış olan sürücü kütüphanelerini kullanarak veri tabanı işlemlerini yapabilmeyi sağlar. JDBC bir ara yüz gibidir. Java ile veri tabanı ile etkileşimde olan kodları yazdığınızda sürücü kütüphane örneğin MySQL’den Oracle veri tabanı sistemine geçse bile hiçbir değişiklik gerektirmeden kullanımını sağlar. Böylece, Java ile veri tabanıyla işlemler yapabilmek için yazdığınız kodları değiştirmeden dilediğiniz veri tabanı sistemiyle çalışabilirsiniz. Böyle yüksek bir soyutluluk sağlaması Java kodlarının yeniden kullanılabilirliğini arttırmaktadır.
+JDBC API her veri tabanı yönetim sistemi için yazılmış olan sürücü kütüphanelerini kullanarak veri tabanı işlemlerini yapabilmeyi sağlar. Veri tabanıyla 
+iletişimde kullanılabilecek birçok başka soyutlama olmasına karşın JDBC bunların hepsinin temelinde bulunur. Bu nedenle JDBC'nin standartını öğrenmek önemlidir.
 
-JDBC API ile veri tabanı bağlantısı oluşturup, tablolar üzerinde sorgu çalıştırabilirsiniz. Sorgulama, veri güncelleme, silme veya yeni kayıt ekleme işlemlerini yapabilirsiniz.
+Java ile veri tabanı ile etkileşimde olan kodları yazdığınızda sürücü kütüphane örneğin MySQL’den Oracle veri tabanı sistemine geçse bile hiçbir değişiklik gerektirmeden 
+kullanımını sağlar. Böylece, Java ile veri tabanıyla işlemler yapabilmek için yazdığınız kodları değiştirmeden dilediğiniz veri tabanı sistemiyle çalışabilirsiniz. 
+Böyle yüksek bir soyutluluk sağlaması Java kodlarının yeniden kullanılabilirliğini arttırmaktadır. JDBC API ile veri tabanı bağlantısı oluşturup, tablolar üzerinde 
+sorgu çalıştırabilirsiniz. Sorgulama, veri güncelleme, silme veya yeni kayıt ekleme işlemlerini yapabilirsiniz.
 
-![veritabani calisma mantigi](file:///Users/kodluyoruz/Projeler/kodluyoruz/taskforce/java/java-102/jdbc-api-and-databases/figures/jdbc.png?lastModify=1610030453)
+![Figure 1](./figures/JDBC_Architecture.jpg)
 
 ## 5 Adımda JDBC’yi Kullanmak
 
@@ -77,3 +82,48 @@ dbConnection.close();
 
 
 “Connection” tipindeki sınıftan bir nesne ile veri tabanı bağlantımızı oluşturmuştuk. Aynı şekilde bu nesne üzerindeki “close” fonksiyonu ile bağlantıyı kapatıyoruz.
+
+![Figure 2](./figures/jdbc-interfaces.png)
+
+##Sorular
+
+**Soru 1** Aşağıdakilerden hangisi veri tabanında sorgu çalıştırma adımlarından birisi değildir?
+
+A) Sürücü sınıfını kaydetmek
+
+B) Bir connection almak
+
+C) Statement oluşturmak
+
+**D) Rollback yapmak**
+
+E) Connectionu kapatmak
+
+----------
+
+I. Statment oluşturmak.
+
+II. Connection almak.
+
+III. Statment'ı execute etmek
+
+IV. Driver'ı kaydetmek
+
+V. Connection'ı kapatmak
+
+**Soru 2** Yukarıdakileri doğru sıraya sokarak bir sorguyu işletiniz.
+
+A) I-II-III-IV-V
+
+B) IV-I-II-III-V
+
+**C) IV-II-I-III-V**
+
+D) IV-V-I-II-III
+
+E) V-IV-III-I-II
+
+## Kaynak:
+* [Figure 1](https://www.simba.com/resources/jdbc/)
+* [Figure 2](https://ducmanhphan.github.io/2020-01-09-How-to-use-JDBC-to-connect-database-in-Java-project/)
+  

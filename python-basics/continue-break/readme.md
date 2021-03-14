@@ -1,8 +1,10 @@
 
 ## break
 
+
 * Belki bir şart sağlandığı zaman döngüden aniden çıkmak istiyorum, bunu `break` ile sağlıyoruz
 * `break` komutunu gördüğümüz yerde döngüden çıkıyoruz.
+
 
 
 
@@ -20,16 +22,17 @@ for i in range(10):
 > 2
 > ```
 
-
-
 ```python
+
 x = 0
 
 while x < 10:
+
     
     print(x)
     x += 1
     
+
     if x == 3:
         break
 ```
@@ -52,6 +55,7 @@ for i in range(10):
         continue
     print(i)
 
+
 ```
 
 > ```text
@@ -66,10 +70,8 @@ for i in range(10):
 > 9
 > ```
 
-
-
-
 ```python
+
 x = 0
 
 while x < 10:
@@ -93,3 +95,4 @@ while x < 10:
 > 9
 > 10
 > ```
+

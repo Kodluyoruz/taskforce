@@ -107,7 +107,7 @@ const AuthenticatedMainPage = withAuthentication(MainPage);
 
 [CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/YzGQRjj?editors=1011).
 
-Bu örnekte authentication kontrolünü sağladığımız `withAuthentication` adlı bir HOC var. Yalnızca giriş yapmış kullanıcılara gösterilecek component'leri (sayfaları) bu HOC ile sarmalayarak doğrulama işlemini yapıyoruz. Bu örnekte `MainPage` component'i yalnızca giriş yapmış olan kullanıcılara gösterileceği için bu component'i `withAuthentication` ile sarmalıyoruz ve `AuthenticatedMainPage` adlı değişkene atayarak ana component'imiz olan `App` component'inde render ediyoruz . `withAutentication` sayesinde state'te tutulan `isLoggedIn` boolean değeri eğer false ise "Lütfen Giriş Yapınız." ifadesi, eğer true ise "Hoşgeldiniz - Anasayfa" ifadesini gösterecek şekilde koşullu render işlemini yapıyoruz. 
+Bu örnekte authentication kontrolünü sağladığımız `withAuthentication` adlı bir HOC var. Yalnızca giriş yapmış kullanıcılara gösterilecek component'leri (sayfaları) bu HOC ile sarmalayarak doğrulama işlemini yapıyoruz. Bu örnekte `MainPage` component'i yalnızca giriş yapmış olan kullanıcılara gösterileceği için bu component'i `withAuthentication` ile sarmalıyoruz ve `AuthenticatedMainPage` adlı değişkene atayarak ana component'imiz olan `App` component'inde render ediyoruz. `withAutentication` sayesinde state'te tutulan `isLoggedIn` boolean değeri eğer false ise "Lütfen Giriş Yapınız." ifadesi, eğer true ise "Hoşgeldiniz - Anasayfa" ifadesini gösterecek şekilde koşullu render işlemini yapıyoruz. 
 
 
 

@@ -4,7 +4,7 @@
 
 JavaScript metinlerin tümü "**_string_**" veri tipi içinde tutulur ve "**_string_**" veri türü ile ilgili yapabileceğimiz birden fazla işlem vardır. Bu yazımızda bunlardan bahsedeceğiz.
 
-#### **Length Özelliği - Uzunluk Değerini Alma**
+#### **Length Özelliği- Uzunluk Değerini Alma**
 
 String veri tipinde bulunan bir ifadenin ne kadar uzun olduğunu bulmak için `Length` özelliğimizi kullanırız.
 
@@ -12,7 +12,7 @@ String veri tipinde bulunan bir ifadenin ne kadar uzun olduğunu bulmak için `L
 
 ![cikti](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/string-veri-turu-i%CC%87slemleri/figures/1-cikti.png)
 
-#### **indexOf - Metin İçinde Arama Yapma**
+#### **indexOf- Metin İçinde Arama Yapma**
 
 Metnin içinde aramak istediğimiz değerin `index` numarasını bize verir.
 
@@ -20,7 +20,7 @@ Metnin içinde aramak istediğimiz değerin `index` numarasını bize verir.
 
 ![cikti](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/string-veri-turu-i%CC%87slemleri/figures/2-cikti.png)
 
-#### **lastIndexOf - Metin İçinde Arama Yapma**
+#### **lastIndexOf- Metin İçinde Arama Yapma**
 
 `indexOf` ile arasındaki tek fark aranan kelime birden fazla geçiyor ise en son eşleşmeden gelen `index` numarasını döndürür.
 
@@ -28,7 +28,7 @@ Metnin içinde aramak istediğimiz değerin `index` numarasını bize verir.
 
 ![cikti](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/string-veri-turu-i%CC%87slemleri/figures/3-cikti.png)
 
-#### **Search - Metin İçinde Arama Yapma**
+#### **Search- Metin İçinde Arama Yapma**
 
 indexOf ile aynı sonuçlara ulaşırız genel olarak "**_Regular Expressions_**" işlemleri için çok kullanılan bir metottur.
 
@@ -36,7 +36,7 @@ indexOf ile aynı sonuçlara ulaşırız genel olarak "**_Regular Expressions_**
 
 ![cikti](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/string-veri-turu-i%CC%87slemleri/figures/4-cikti.png)
 
-#### **Slice - Metninden Parça Almak**
+#### **Slice- Metninden Parça Almak**
 
 Metin içinden almak istediğimiz yerlerin index numaralarını vererek metin içinde bulunan parçayı alabiliriz.
 
@@ -46,13 +46,13 @@ Bitiş index numarasındaki karakter sonuca dahil edilmez.
 
 ![cikti](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/string-veri-turu-i%CC%87slemleri/figures/5-cikti.png)
 
-#### Not: Tek index yazmak ise yazılan index numarasından sonra gelen tüm karakterleri almasına neden olur.
+ **Not: Tek index yazmak ise yazılan index numarasından sonra gelen tüm karakterleri almasına neden olur.**
 
 ![code](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/string-veri-turu-i%CC%87slemleri/figures/6-code.png)
 
 ![cikti](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/string-veri-turu-i%CC%87slemleri/figures/6-cikti.png)
 
-#### Replace – Metin Bulma ve Değiştirme
+#### Replace– Metin Bulma ve Değiştirme
 
 Aranan metni istediğimiz metin ile değiştirmemize olanak sağlar.
 
@@ -70,7 +70,7 @@ Aranan metni istediğimiz metin ile değiştirmemize olanak sağlar.
 
 ![cikti](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/string-veri-turu-i%CC%87slemleri/figures/8-cikti.png)
 
-#### Concat - Metin Birleştirme
+#### Concat- Metin Birleştirme
 
 Elimizde bulunan iki string türündeki veriyi birleştirmemize olanak sağlar.
 
@@ -78,7 +78,7 @@ Elimizde bulunan iki string türündeki veriyi birleştirmemize olanak sağlar.
 
 ![cikti](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/string-veri-turu-i%CC%87slemleri/figures/9-cikti.png)
 
-##### charAt - İndex Numarasına Göre Karakter Bulmak
+##### charAt- İndex Numarasına Göre Karakter Bulmak
 
 Belirtilen index numarasında yer alan karakteri verir.
 
@@ -86,7 +86,7 @@ Belirtilen index numarasında yer alan karakteri verir.
 
 ![cikti](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/string-veri-turu-i%CC%87slemleri/figures/10-cikti.png)
 
-#### charCodeAt – İndex Numarasına Göre Karakterin Unicode Değerini Bulma
+#### charCodeAt– İndex Numarasına Göre Karakterin Unicode Değerini Bulma
 
 Belirtilen index numarasında yer alan karakterin Unicode değerini verir.
 
@@ -94,7 +94,7 @@ Belirtilen index numarasında yer alan karakterin Unicode değerini verir.
 
 ![cikti](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/string-veri-turu-i%CC%87slemleri/figures/11-cikti.png)
 
-#### Split – Metni Diziye Çevirme
+#### Split– Metni Diziye Çevirme
 
 Split metodu ile istenilen metin diziye çevrilebilir. Kullanılan parametre ile metnin nasıl parçalanacağı belirtilir.
 
@@ -105,7 +105,7 @@ Split metodu ile istenilen metin diziye çevrilebilir. Kullanılan parametre ile
 
 Bir String ifadesi içerisinde yer alan bilgilerin istediğimiz gibi olup olmadığını kontrol etmek isteyebiliriz. İçerisinde mail adresi geçiyor mu? Kullanıcın verilerinde benim aradığım bilgi var mı? Gibi kontroller yapmak istiyor olabiliriz. String veri türü işlemleri bize bu noktada yardımcı olur.
 
-Örnekler üzerinden görelim.
+**Örnekler üzerinden görelim:**
 
 ```javascript
 let email = "kodluyoruz@kodluyoruz.org"
