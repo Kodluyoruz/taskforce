@@ -1,1 +1,1 @@
-# Başkasının Verisini Kullanmak
+# Başkasının Verisini Kullanmak
