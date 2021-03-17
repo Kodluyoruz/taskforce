@@ -77,7 +77,7 @@
 1. Hangisi doğru bir kullanımdır?
 
    - `<Photo children="Kodluyoruz" />`
-   - `<Photo>Kodluyoruz</Photo> X
+   - `<Photo>Kodluyoruz</Photo>` X
 
 
 2. props.children bir ya da birden fazla element içerebilir.
