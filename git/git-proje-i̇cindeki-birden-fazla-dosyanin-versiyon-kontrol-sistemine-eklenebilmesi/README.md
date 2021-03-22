@@ -2,7 +2,7 @@
 
 Bu yazımızda projelerimizde bulunan birden fazla dosyanın versiyon kontrol sistemine gönderilmesi ve nasıl kontrol edebileceğimiz ile ilgili komutları inceliyor olacağız.
 
-> `.gitignore` dosyamız varsa ve bunu düzenli olarak kontrol edebiliyorsak tüm dosyalarımızı teker teker GIT versiyon kontrol sistemine göndermek zorunda değiliz tek komut ile bunu yapabiliriz.
+> `.gitignore` dosyamız varsa ve bunu düzenli olarak kontrol edebiliyorsak tüm dosyalarımızı teker teker GIT Versiyon Kontrol Sistemi'ne göndermek zorunda değiliz, tek komut ile bunu yapabiliriz.
 
 ## `git add`
 

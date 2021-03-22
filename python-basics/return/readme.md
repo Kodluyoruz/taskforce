@@ -1,17 +1,17 @@
 # return
 
-* Bir fonksiyonu çalıştırdığımızda onun sonucuyla bir şeyler yapmak isteyebilirim. Sonucu bana versin diye özellikle söylemem lazım, bunu `return` keyword'ü ile sağlayacağız
+* Bir fonksiyonu çalıştırdığımızda onun sonucuyla bir şeyler yapmak isteyebilirim. Sonucu bana versin diye özellikle söylemem lazım ve bunu `return` keyword'u ile sağlayacağız.
 
-* `return` yazmasaydık fonksiyon hiç bir şey döndürmezdi
+* `return` yazmasaydık fonksiyon hiç bir şey döndürmezdi.
 
-* fonksiyon tanımladığımı python'a anlatmak için yapım:
+* fonksiyon tanımladığımı Python'a anlatmak için yapım:
 
 
 `def fonksiyonun_adı(input):`
 
-* öbür yapılarda da olduğu gibi, bir kod bloğunun belirttiğimiz yapıya ait olduğunu anlatmak için boşluk bırakarak içine yazmamız gerekiyor
+* öbür yapılarda da olduğu gibi, bir kod bloğunun belirttiğimiz yapıya ait olduğunu anlatmak için boşluk bırakarak içine yazmamız gerekiyor.
 
-* Verdiğimiz değerin karesini alan bir fonksiyon yazalım
+* Verdiğimiz değerin karesini alan bir fonksiyon yazalım.
 
 
 ```python
@@ -19,7 +19,7 @@ def square(x):
     x*x
 ```
 
-* fonksiyonu tanımladıktan sonra tanımladığımız adla onu çağırabiliriz. yapımız şöyle olacak: `fonksiyonun_adı(inputlar)`, bir fonksiyonu çağırmak için inputlarını `()`'ın içine yazmalıyız. Bazı durumlarda hiç input olmayabilir, bazı durumlarda birden çok olabilir.
+* fonksiyonu tanımladıktan sonra tanımladığımız adla onu çağırabiliriz. Yapımız şöyle olacak: `fonksiyonun_adı(inputlar)`, bir fonksiyonu çağırmak için inputlarını `()` 'ın içine yazmalıyız. Bazı durumlarda hiç input olmayabilir, bazı durumlarda birden çok olabilir.
 
 
 ```python
@@ -68,7 +68,7 @@ type(square(3))
 
 
 
-* bize x*x i değer olarak vermedi. Vermesi için bana o değeri döndür diye özellikle söylemem lazım. Bunu `return` ile sağlıyoruz
+* bize x*x i değer olarak vermedi. Vermesi için bana o değeri döndür diye özellikle söylemem lazım. Bunu `return` ile sağlıyoruz.
 
 
 ```python
@@ -123,7 +123,7 @@ b + 2
 
 
 
-* Bu döndürülen değerin int 4 ten bir farkı yok, nereden nasıl geldiği önemli değil, a = 4 dediğimdeki 4 ile aynı. Bu değerle istediğimi yapabilirim
+* Bu döndürülen değerin int 4 'ten bir farkı yok, nereden nasıl geldiği önemli değil, a = 4 dediğimdeki 4 ile aynı. Bu değerle istediğimi yapabilirim
 
 
 ```python
@@ -137,7 +137,7 @@ b + 2
 
 
 
-* Bilgisayar için o da sadece bir değerdi. Aşağıdaki örenekte de square(3) bize 9 döndürüyor, bilgisayar için aşağıdaki kod, `square(9)` ile aynı
+* Bilgisayar için o da sadece bir değerdi. Aşağıdaki örenekte de square(3) bize 9 döndürüyor, bilgisayar için aşağıdaki kod, `square(9)` ile aynıdır.
 
 
 ```python
@@ -171,7 +171,7 @@ weird()
 
 
 
-* Fonksiyonlar return'e geldikten sonrasına bakmıyor, return ün sağına yazılan değeri veriyor ve fonksiyondan çıkıyor
+* Fonksiyonlar return'e geldikten sonrasına bakmıyor, return 'ün sağına yazılan değeri veriyor ve fonksiyondan çıkıyor.
 
 
 
@@ -188,7 +188,7 @@ def square(x):
 
 ```
 
-* Bu yüzden burada bastırma kısmını yapmadı, çünkü o kod `return` ün altında
+* Bu yüzden burada bastırma kısmını yapmadı çünkü o kod `return` 'ün altında yer alıyor.
 
 
 ```python
@@ -245,7 +245,7 @@ square(4)
 
 
 
-* Fonksiyona durumsallık da katabiliriz
+* Fonksiyona durumsallık da katabiliriz.
 
 
 ```python
@@ -289,7 +289,7 @@ f(13)
 
 
 
-* Fonksiyonların içinde döngü mantığı da olabilir
+* Fonksiyonların içinde döngü mantığı da olabilir.
 
 
 ```python

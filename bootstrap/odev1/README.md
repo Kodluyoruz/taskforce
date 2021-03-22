@@ -2,7 +2,7 @@
 
 ## Bootstrap Özelliklerini Kullanarak Yaptığımız Siteyi Geliştirelim
 
-Hatırlar mısınız CSS'in ilk ödevinde boynu bükük bir site yapmıştık. Bu site CSS'in özelliklerini kullanan bir müzik aleti satış sitesiydi. Bu siteyi **bootstrap** ile tekrar tasarlayacağız.
+Hatırlar mısınız CSS'in ilk ödevinde boynu bükük bir site yapmıştık. Bu site CSS'in özelliklerini kullanan bir müzik aleti satış sitesiydi. Bu siteyi **Bootstrap** ile tekrar tasarlayacağız.
 
 ### Sizden Beklediklerimiz
 - HTML kısmını önceki ödevden alabilirsiniz fakat baştan yapmanızı öneririz.
@@ -17,6 +17,6 @@ Hatırlar mısınız CSS'in ilk ödevinde boynu bükük bir site yapmıştık. B
 
 ![bootstrap](https://github.com/Kodluyoruz/taskforce/blob/bootstrap/bootstrap/odev1/figures/bootstrap.gif?raw=true)
 
-Tebrikler, bootstrap ile ilk sitenizi oluşturdunuz.
+Tebrikler, Bootstrap ile ilk sitenizi oluşturdunuz.
 
 Hepinize başarılar ve kolay gelsin!

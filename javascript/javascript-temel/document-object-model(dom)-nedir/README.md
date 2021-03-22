@@ -1,4 +1,4 @@
-# Document Object Model(DOM) Nedir?
+# Document Object Model (DOM) Nedir?
 
 **W3C(World Wide Web Consortium)**'e göre **Document Object Model**, programların ve komut dosyalarının bir belgenin içeriğine, yapısına ve stiline dinamik olarak erişmesine ve güncellemesine izin veren bir platform ve dilden bağımsız bir arayüzdür.
 
@@ -6,7 +6,7 @@ Bir HTML belgesini iç içe geçmiş kutular olarak hayal edebilirsiniz. ``<body
 
 Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli izler. Her kutu için, hangi HTML etiketini temsil ettiği ve hangi kutuları ve metni içerdiği gibi şeyleri bulmak için etkileşime girebileceğimiz bir nesne vardır. Bu temsil, **Document Object Model** veya kısaca **DOM** olarak adlandırılır.
 
-**DOM**’da **HTML** ile hazırladığınız sayfa, **_document_**; bu document'in içine yerleştirdiğiniz her türlü öğe ise **_element_** olarak adlandırılır. **DOM** da nesnelerin birer **_element_** olarak kullanılabilmesi için hiyerarşik bir düzen izlenerek çağrılmaları gerekir. HTML’deki her bir elamanın birbiri ile hiyearşik bir yapı oluşturması ile oluşur. **DOM** bir ağaç dizini gibi bütün dokümanları birbirine bağlar.
+**DOM**’da **HTML** ile hazırladığınız sayfa, **_document_**; bu document'in içine yerleştirdiğiniz her türlü öğe ise **_element_** olarak adlandırılır. **DOM**'da nesnelerin birer **_element_** olarak kullanılabilmesi için hiyerarşik bir düzen izlenerek çağrılmaları gerekir. HTML’deki her bir elamanın birbiri ile hiyerarşik bir yapı oluşturması ile oluşur. **DOM** bir ağaç dizini gibi bütün dokümanları birbirine bağlar.
 
 ![DOM Tree](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/document-object-model(dom)-nedir/figures/dom-tree.png)
 
@@ -57,11 +57,9 @@ Tarayıcının belgeyi temsil etmek için kullandığı veri yapısı bu şekli 
 
 Sonuç olarak eğer client-side olarak HTML’e daha fazla hükmetmek istiyorsanız, kullandığınız dil ne olursa olsun kesinlikle **DOM** un erişim yöntemlerini çok iyi biliyor olmanız gerekir.
 
+**Aşağıda codepen'i kullanarak senden istediğimiz alıştırmaları yapmanı bekliyoruz!**
 
-
-### Aşağıda codepen'i kullanarak senden istediğimiz alıştırmaları yapmanı bekliyoruz!
-
-1. Sana verdiğimiz içerikte butona tıklanınca yeni bir sayfa açılacak ve içerisinde "Hello World!" yazacak. Üzerinden değişiklikler yaparak nasıl çalışıtığını anlamaya çalış!
+1. Sana verdiğimiz içerikte butona tıklanınca yeni bir sayfa açılacak ve içerisinde "Hello World!" yazacak. Üzerinden değişiklikler yaparak nasıl çalıştığını anlamaya çalış!
 
 2. Aşağıdaki codepen içerisinde `id="domain"`olan boş bir paragraf oluştur. Ardından butona tıkladığımızda paragrafın içerisine istediğin bir metni yazdır. Aşağıdaki kod parçası sana yardımcı olacak!
 
@@ -80,7 +78,7 @@ function clicked(){
        alert("Butona Tıklandı");
        } 
 ```
-Yukarıda `btnClick` 'i `getElementById` ile seçtik. Ardından `addEventListener`metodu ile izlemeye başladık. Burada: `.addEventListener("click", clicked);` tıklama gerçekleştirğinde aşağıda tanımdığımız `clicked()` isimli fonksiyonu çalıştırıyoruz. Bu fonksiyon içerisinde başka şeyler de yapabiliriz!
+Yukarıda `btnClick` 'i `getElementById` ile seçtik. Ardından `addEventListener`metodu ile izlemeye başladık. Burada: `.addEventListener("click", clicked);` tıklama gerçekleştiğinde aşağıda tanımladığımız `clicked()` isimli fonksiyonu çalıştırıyoruz. Bu fonksiyon içerisinde başka şeyler de yapabiliriz!
 
 Denemekten çekinme!
 

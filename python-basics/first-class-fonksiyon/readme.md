@@ -2,7 +2,7 @@
 
 * Python'da fonksiyonlar `first class function`. Bunun anlamı fonksiyonların diğer veri tipleri gibi manipüle edilebilir ve başka fonksiyonlara argüman olarak verilebilir.
 
-* Bir fonksiyonu bir değişkene atayabiliriz
+* Bir fonksiyonu bir değişkene atayabiliriz.
 
 
 ```python
@@ -39,7 +39,7 @@ a(5)
 
 
 
-* Bir fonksiyonu başka bir fonksiyona argüman olarak verebiliriz
+* Bir fonksiyonu başka bir fonksiyona argüman olarak verebiliriz.
 
 
 ```python

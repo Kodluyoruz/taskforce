@@ -39,6 +39,7 @@
 
 #### Ecosystem ####
 -  [Router](router/)
+-  [Ödev 6 - Movie Search App](movie-search-app/)
 -  SSR
 -  SSG
 -  [API Calls](api-calls/)
@@ -46,9 +47,3 @@
 -  Testing
 -  State management
 -  Styling
-
-#### Projeler ####
-- [Projeler](projeler.md)
-- Recipe Card Advanced
-- Instagram Clone
-- Linkedin Clone

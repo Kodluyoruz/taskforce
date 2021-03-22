@@ -68,7 +68,7 @@
 
     Codepen uygulama linki:
 
-   [Codepen](https://codepen.io/gurkankirmaci/pen/bGwvjvB/)
+   Aşağıda codepen ile deneyimleyebilirsiniz!
 
 ## Klavye Etkinlikliği
 

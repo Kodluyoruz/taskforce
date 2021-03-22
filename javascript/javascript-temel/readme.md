@@ -25,10 +25,11 @@
 
 #### Karar Yapıları / Koşullar ####
 - [Karşılaştırma Operatörleri ve Mantıksal Operatörler](karsilastirma-operatorleri-ve-mantiksal-operatorler/)
-- [Koşul Yapısı Kullanımı (if / else)](kosul-yapisi-kullanimi-(if-else)/)
+- [Koşul Yapısı Kullanımı (if / else)](kosul-yapisi-kullanimi-if-else/)
 - [Çoklu Koşul Yapısı Kullanımı](coklu-kosul-yapisi-kullanimi/)
 - [Ternary Operatör ( Koşul ? Doğruysa : Yanlışsa) ile If Kullanımı](ternary-operator-kosul-dogruysa-yanlissa-ile-if-kullanimi/)
 - [Koşullarla Çalışmak - Bölüm Sonu Egzersizi](kosullarla-calismak-bolum-sonu-egzersizi/)
+- [Ödev 1](odev1/)
 
 #### Fonksiyonlar ####
 - [Fonksiyon Nedir? Neden Kullanırız?](fonksiyon-nedir-neden-kullaniriz/)
@@ -59,6 +60,7 @@
 - [ForEach ile Array içerisindeki Öğelerin Çağrılması](foreach-ile-array-icerisindeki-ogelerin-cagrilmasi/)
 - [Filter ile Array İçerisinde Sadece İstenilen Bilgilerin Yeni Listeye Eklenmesi](filter-ile-array-i̇cerisinde-sadece-i̇stenilen-bilgilerin-yeni-listeye-eklenmesi/)
 - [Map ile Array İçerisideki Yapının Değiştirilerek Yeni Liste Oluşturulması](map-ile-array-i̇cerisideki-yapinin-degistirilerek-yeni-liste-olusturulmasi/)
+- [Ödev 2](odev2/)
 
 #### Nesne(Object) ####
 
@@ -73,5 +75,5 @@
 
 #### Fetch API ####
 - [Fetch API ile Çalışmak](fetch-api-ile-calismak/)
-- [To-Do Uygulaması](todo-uygulamasi/)
-- [Testimonial Uygulaması](testimonial-uygulamasi/)
+- To-Do Uygulaması
+- Testimonial Uygulaması

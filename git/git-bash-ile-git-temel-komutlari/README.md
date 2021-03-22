@@ -44,7 +44,7 @@ $ git config --global user.name "Name Surname"
 $ git config --global user.email "test@email.com"
 ```
 
-**Bu ayarların bütününü görüntülemek için;**
+**Bu ayarların bütününü görüntülemek için:**
 
 ```bash
 $ git config --list
@@ -70,7 +70,7 @@ Yeni eklenen veya üzerinde değişiklik yapılan dosyaları **staged** ortamın
 $ git add <dosya veya klasor_name>
 ```
 
-**Tek seferde bütün dosyaları eklemek için ise,**
+**Tek seferde bütün dosyaları eklemek için ise:**
 ```bash
 $ git add .  veya  $ git add *  veya   $ git add -A .
 ```
@@ -84,7 +84,7 @@ Staged ortamına eklenmiş bir dosyanın takibinin bırakılması yani **untrack
 $ git rm  --cached <dosya veya klasor_name>
 ```
 
-Dosyayı klasörden silmek istiyorsak eğer, aşağı komutu kullanılırız.
+Dosyayı klasörden silmek istiyorsak eğer, aşağıdaki komutu kullanılırız.
 ```bash
 $ git rm <dosya veya klasor_name>
 ```
@@ -99,7 +99,7 @@ $ git status
 ![git-status-1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/git-bash-ile-git-temel-komutlari/figures/5-git-status-1.png)
 
 
-- On branch main -> *Main* branch'inde olduğumuzu,
+- On branch main -> *Main* branch'ınde olduğumuzu,
 - Changes to be commited -> Commit'lenmeye hazır değişiklikler olduğunu,
 - Modified: index.html -> Index.html dosyasında **değişiklik** yaptığımızı,
 - Deleted: styles.css -> styles.css dosyasını **sildiğimizi**,
@@ -140,12 +140,12 @@ Local veya remote repository üzerinde yeni bir branch (dal) eklemek, silmek vey
 $ git branch <branch_name>
 ```
 
-**Tüm uzak ve yerel branch'leri listelemek için;*
+**Tüm uzak ve yerel branch'lari listelemek için;*
 ```bash
 $ git branch -a
 ```
 
-**Bir branch'i silmek için;**
+**Bir branch'ı silmek için;**
 ```bash
 $ git branch -d <branch_name>
 ```
@@ -153,23 +153,23 @@ $ git branch -d <branch_name>
 ### `git checkout`
 Branch’ler arası veya commit'ler arası geçiş yapmak istediğimizde kullanılır.
 
-**Mevcutta var olan branch'e geçiş yapmak için;**
+**Mevcutta var olan branch'a geçiş yapmak için;**
 ```bash
 $ git checkout <branch_name>
 ```
 
-**Yeni bir branch oluşturup, bu branch'e geçiş yapmak için;**
+**Yeni bir branch oluşturup, bu branch'a geçiş yapmak için;**
 ```bash
 $ git checkout -b <branch_name>
 ```
 
-**Commitler arası geçiş yapmak için;** (Eski bir versiyona dönmek istediğimiz zaman)
+**Commitler arası geçiş yapmak için:** (Eski bir versiyona dönmek istediğimiz zaman)
 ```bash
 $ git checkout <commit_ID>
 ```
 
 ### `git merge`
-Başka bir branch'de olan değişiklikleri, bulunduğumuz branch ile birleştirmek istediğimizde kullanılır.
+Başka bir branch'da olan değişiklikleri, bulunduğumuz branch ile birleştirmek istediğimizde kullanılır.
 ```bash
 $ git merge <branch_name>
 ```
@@ -196,17 +196,17 @@ $ git remote add origin http://uzak_deponun_adresi.git
 ### git diff
 Repository üzerinde yapılan değişikliklerden sonra dosyalar arasında oluşan farklılıkları göterir.
 
-**Çalışma dizini ile repository (HEAD) arasındaki farklılıkları görmek için;**
+**Çalışma dizini ile repository (HEAD) arasındaki farklılıkları görmek için:**
 ```bash
 $ git diff HEAD
 ```
 
-**İki commit arasındaki farklılıkları görmek için;**
+**İki commit arasındaki farklılıkları görmek için:**
 ```bash
 $ git diff <commit_id_1>..<commit_id_2>
 ```
 
-**Çalışma dizini ve staged ortamı arasındaki farkları görmek için;**
+**Çalışma dizini ve staged ortamı arasındaki farkları görmek için:**
 ```bash
 $ git diff --staged
 ```

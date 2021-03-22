@@ -92,9 +92,9 @@ Bu üç CSS özelliğinin nasıl kullanıldığını öğrendiğinize göre aşa
 
 ## Ekstra Alıştırmalar
 Yapabileceğiniz ekstra alıştırmalar.
-- [Alıştırma 1 için tıkla.](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto2)
-- [Alıştırma 2 için tıkla.](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto3)
-- [Alıştırma 3 için tıkla.](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto4)
+- [Alıştırma 1 için tıkla](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto2)
+- [Alıştırma 2 için tıkla](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto3)
+- [Alıştırma 3 için tıkla](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto4)
 
 ## Kaynaklar
 

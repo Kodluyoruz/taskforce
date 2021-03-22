@@ -1,6 +1,6 @@
 ## Shopping Cart
 
-Bu projede bir e-ticaret web sitesinin sunduğu en temel özelliklerden biri olan sepete ürün eklemeyi en basit haliyle uygulayacağız.
+Siteye girdiniz, ürünleri gezdiniz ve birkaç ürün beğendiniz, sırada ne var? Tabii ki sepete ürün ekleme. E-ticaret sitelerinin sunduğu en temel özelliklerden olan sepete ürün eklemeyi bu ödevde yapacağız. Alışveriş sevdalıları hadi yine yaşadınız, bu ödev tam sizlik!
 
 ![shopping-cart](https://raw.githubusercontent.com/Kodluyoruz/taskforce/react/react-js/shopping-cart/figures/shopping-cart.png)
 

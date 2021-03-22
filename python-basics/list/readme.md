@@ -1,9 +1,8 @@
 # List
 
-* Elimizdeki verileri gruplamak bir yapı altında tutmak isteyebiliriz
+- Elimizdeki verileri gruplamak bir yapı altında tutmak isteyebiliriz.
 
-* Mesela bir sınıftaki öğrencilerin notlarını tutmak istiyorum. 5 farklı öğrenci var, şimdiye kadar öğrendiklerimizle şöyle yapabilirdim:
-
+- Mesela bir sınıftaki öğrencilerin notlarını tutmak istiyorum. 5 farklı öğrenci var, şimdiye kadar öğrendiklerimizle şöyle yapabilirdim:
 
 ```python
 ogrenci_1 = 78
@@ -13,16 +12,15 @@ ogrenci_4 = 65
 ogrenci_5 = 90
 ```
 
-* Bunların hepsi bir sınıftaki notları ifade ediyor. Bunları bir veri tipi olarak bir arada tutsak daha mantıklı olmaz mı?
+- Bunların hepsi bir sınıftaki notları ifade ediyor. Bunları bir veri tipi olarak bir arada tutsak daha mantıklı olmaz mı?
 
-* `list` veri tipi de tam burada devreye giriyor. **Birden çok veriyi gruplayıp bir arada tutmak** istediğimizde kullanabileceğimiz bir yapı
+- `list` veri tipi de tam burada devreye giriyor. **Birden çok veriyi gruplayıp bir arada tutmak** istediğimizde kullanabileceğimiz bir yapıdır.
 
-* `list`ler belirtirken köşeli parantezle belirtiyoruz: `[element1, element2,...]`.
+- `list`ler belirtirken köşeli parantezle belirtiyoruz: `[element1, element2,...]`.
 
-* `list`ler içsel yapı içerdikleri için `non-scalar` veri tipidir
+- `list`ler içsel yapı içerdikleri için `non-scalar` veri tipidir.
 
-* Elemanları arasına virgül koyarak farklı eleman belirtmeye başladığımı ifade ediyorum
-
+- Elemanları arasına virgül koyarak farklı eleman belirtmeye başladığımı ifade ediyorum.
 
 ```python
 notlar = [78, 80, 43, 65, 90]
@@ -35,30 +33,26 @@ notlar = [78, 80, 43, 65, 90]
 notlar = [ogrenci_1, ogrenci_2, ogrenci_3, ogrenci_4, ogrenci_5]
 ```
 
-* Bu oluşturduğumuz yapının ilk elemanı ilk öğrencinin notu, ikinci elemanı ikinci öğrencinin notunu belirtiyor (bu mantık böyle devam ediyor). Böylece öğrencilerin notlarını farklı 5 değişkende tutmak yerine bir veri tipi altında düzenli tutabilmiş olduk
+- Bu oluşturduğumuz yapının ilk elemanı ilk öğrencinin notu, ikinci elemanı ikinci öğrencinin notunu belirtiyor (bu mantık böyle devam ediyor). Böylece öğrencilerin notlarını farklı 5 değişkende tutmak yerine bir veri tipi altında düzenli tutabilmiş olduk.
 
-* Nasıl ki stringlerde elemanlarına indexleme yaparak [0] gibi değerlerle ulaşabiliyorsak, listlerde de aynı
+- Nasıl ki stringlerde elemanlarına indexleme yaparak [0] gibi değerlerle ulaşabiliyorsak, listlerde de aynı durum söz konusu.
 
-* `notlar` listesinin ilk elemanına ulaşmak için:
-
+- `notlar` listesinin ilk elemanına ulaşmak için:
 
 ```python
 # ogrenci_1 in notu
 notlar[0]
 ```
 
-* `list`lerin içine istediğimiz veri tipini koyabiliriz. listleri sadece verilerimi içine koyduğumuz bir kutu olarak düşünün, listlerin tek yaptığı şey bunları bir arada tutmak. Elemanları istediğim veri objesi olabilir. int, float, string, hatta listler bile!
-
+- `list`'lerin içine istediğimiz veri tipini koyabiliriz. listeleri sadece verilerimi içine koyduğumuz bir kutu olarak düşünün, listlerin tek yaptığı şey bunları bir arada tutmak. Elemanları istediğim veri objesi olabilir. int, float, string, hatta listler bile!
 
 ```python
 ["a","b"]
 ```
 
-
 ```python
 [True, False]
 ```
-
 
 ```python
 [[1,2], [3,4,5]]
@@ -66,7 +60,7 @@ notlar[0]
 
 ## Listler Farklı Veri Tiplerini İçerebilir
 
-* Aynı list'in içine farklı tipte veri tipleri koyabiliriz
+- Aynı list'in içine farklı tipte veri tipleri koyabiliriz.
 
 
 ```python
@@ -80,48 +74,39 @@ l
 
 ## Indexing ve Slicing
 
-* String konusunda yaptığımız indexleme mantığı ve slicing mantığı tamamen listler için de geçerli
-
+- String konusunda yaptığımız indexleme mantığı ve slicing mantığı tamamen listler için de geçerli.
 
 ```python
 notlar
 ```
 
-
 ```python
 notlar[0]
 ```
 
-
 ```python
 notlar[-1]
 ```
-
 
 ```python
 notlar[10]
 ```
 
-
 ```python
 notlar[-1]
 ```
-
 
 ```python
 notlar[1:]
 ```
 
-
 ```python
 notlar[1:3]
 ```
 
-
 ```python
 notlar[:200]
 ```
-
 
 ```python
 notlar[:3000]
@@ -129,14 +114,14 @@ notlar[:3000]
 
 ## Listlerin Elemanları Değiştirilebilir
 
-* Listler `mutable` veri tipleridir. Elemanlarını güncelleyebiliriz
+- Listler `mutable` veri tipleridir. Elemanlarını güncelleyebiliriz.
 
 
 ```python
 notlar
 ```
 
-* Diyelim ki ikinci öğrencinin notunu eksik okuduk. 5 puan yükseltmek istiyoruz:
+- Diyelim ki ikinci öğrencinin notunu eksik okuduk. 5 puan yükseltmek istiyoruz:
 
 
 ```python
@@ -148,7 +133,7 @@ notlar[1] += 5 # notlar[1] = notlar[1] + 5
 notlar
 ```
 
-* Birden çok elemanı da değiştirebiliriz
+- Birden çok elemanı da değiştirebiliriz.
 
 
 ```python
@@ -170,8 +155,7 @@ l[0:3] = 30, 40, 60
 l
 ```
 
-* Eşit sayıda vermemiz de gerekmez, l[0:3] olacak yere solda yazdığımız yazılır sadece
-
+- Eşit sayıda vermemiz de gerekmez, l[0:3] olacak yere sadece solda yazdığımız yazılır.
 
 ```python
 l[0:3] = 30, 40
@@ -182,17 +166,15 @@ l[0:3] = 30, 40
 l
 ```
 
-
 ```python
 l = [1, 2, 3, 4]
 ```
-
 
 ```python
 l[0:3] = 30
 ```
 
-* Slicing in sonucuna tek bir değer yazacaksak bile direk tek olarak veremeyiz, `iterable` olması gerekir. Bunun ayrıntısını ileride göreceğiz şimdilik sol tarafı list olarak verebileceğimizi bilmeniz yeterli
+- Slicing'in sonucuna tek bir değer yazacaksak bile direkt tek olarak veremeyiz, `iterable` olması gerekir. Bunun ayrıntısını ileride göreceğiz şimdilik sol tarafı list olarak verebileceğimizi bilmeniz yeterli.
 
 
 ```python
@@ -206,7 +188,7 @@ l
 
 ## len()
 
-* Bize list'te kaç eleman olduğunu verir
+* Bize list'te kaç eleman olduğunu verir.
 
 
 ```python
@@ -222,7 +204,7 @@ len(l)
 
 ### append()
 
-* İçine yazılan elemanı listenin sonuna ekler
+* İçine yazılan elemanı listenin sonuna ekler.
 
 
 ```python
@@ -241,7 +223,7 @@ l
 
 ### extend()
 
-* İçine yazılan birden çok elemanı listenin sonuna ekler
+* İçine yazılan birden çok elemanı listenin sonuna ekler.
 
 
 ```python
@@ -260,7 +242,7 @@ l
 
 ## Spesifik Bir Indexe Eleman Eklemek
 
-* Belki list'in sonuna değil, spesifik bir indexine eleman eklemek istiyoruz. Bunu inser() ile yapabiliriz
+* Belki list'in sonuna değil, spesifik bir indexine eleman eklemek istiyoruz. Bunu inser() ile yapabiliriz.
 
 
 ```python
@@ -287,7 +269,7 @@ l = [1, 2, 3, 4, 5]
 l.insert(0, 100) # is not l[0] = 100
 ```
 
-* eğer l[0] = 100 yazmış olsaydık, liste 100,2,3,4,5 e dönerdi, ama ben 1->100 dönüşümü yapmak istemiyorum, ilk indexe 100 ü eklemek istiyorum. l.insert(0,100) tam da istediğimi yapıyor. 0. indexe 100 değerini yazıyor ve `1` değerini sağa kaydırıyor, listeden silmemiş oluyor
+* eğer l[0] = 100 yazmış olsaydık, liste 100,2,3,4,5 e dönerdi, ama ben 1->100 dönüşümü yapmak istemiyorum, ilk indexe 100'ü eklemek istiyorum. l.insert(0,100) tam da istediğimi yapıyor. 0. indexe 100 değerini yazıyor ve `1` değerini sağa kaydırıyor, listeden silmemiş oluyor.
 
 
 ```python
@@ -306,7 +288,7 @@ l
 
 ## remove()
 
-* Belirli bir elemanı listeden silmemize yarar. Eğer yazılan eleman listede yoksa error verir
+- Belirli bir elemanı listeden silmemize yarar. Eğer yazılan eleman listede yoksa error verir.
 
 
 ```python
@@ -318,10 +300,7 @@ l = [1,2,3,4]
 l.remove(40)
 ```
 
-
-
-Bunu try-except ile çözebiliriz ama daha o konuyu görmedik. Yine de aşağıya kodu ekliyorum
-
+Bunu try-except ile çözebiliriz ama daha o konuyu görmedik. Yine de aşağıya kodu ekliyorum.
 
 ```python
 try:
@@ -331,7 +310,7 @@ except ValueError:
     
 ``` 
 
-* remove() sadece ilk gördüğü değeri siler. l.remove(40) dersem ve listte 1 den çok 40 varsa ilk gördüğünü siler
+- remove() sadece ilk gördüğü değeri siler. l.remove(40) dersem ve listede 1'den çok 40 varsa ilk gördüğünü siler.
 
 
 ```python
@@ -350,9 +329,9 @@ l
 
 ## pop()
 
-* listenin belirli indexindeki elemanı silmeye ve o değeri döndürmeye yarar
+- listenin belirli indexindeki elemanı silmeye ve o değeri döndürmeye yarar.
 
-* remove() sadece siliyordu, pop() aynı zamanda o değeri döndürüyor
+- remove() sadece siliyordu, pop() aynı zamanda o değeri döndürüyor.
 
 
 ```python
@@ -393,7 +372,7 @@ l.pop(100)
 
 ## count()
 
-* count() un içine yazdığımız değerin listede kaç defa göründüğünü döndürür
+- `count()`'un içine yazdığımız değerin listede kaç defa göründüğünü döndürür.
 
 
 ```python
@@ -417,11 +396,11 @@ l.count(1000)
 
 ## Aliasing
 
-* Evet. Geldik olayların ilginç bir hal aldığı yere.
+- Evet. Geldik olayların ilginç bir hal aldığı yere.
 
-* Listeler bilgisayarın hafızasında integer, float gibi veri tiplerinin tutulduğundan biraz daha farklı tutuluyor. 
+- Listeler bilgisayarın hafızasında integer, float gibi veri tiplerinin tutulduğundan biraz daha farklı tutuluyor. 
 
-* a = 2 dediğimiz zaman hafızada `a` adında bir kutucuk oluşturuluyor demiştik
+- a = 2 dediğimiz zaman hafızada `a` adında bir kutucuk oluşturuluyor demiştik.
 
 
 ```python
@@ -430,9 +409,9 @@ a = 2
 
 ![aliasing1.png](attachment:aliasing1.png)
 
-* `a` direkt o kutunun adı oluyor.
+- `a` direkt o kutunun adı oluyor.
 
-* Ama listelerde durum böyle değil. l = [1,2,3] gibi bir liste yarattığımızda, `l` kutunun adı değil, kutuyu işaret eden etiketin adı oluyor
+- Ama listelerde durum böyle değil. l = [1,2,3] gibi bir liste yarattığımızda, `l` kutunun adı değil, kutuyu işaret eden etiketin adı oluyor.
 
 
 ```python
@@ -441,9 +420,9 @@ l = [1,2,3]
 
 ![aliasing2.png](attachment:aliasing2.png)
 
-* Bu farkın getirdiği bazı yan etkiler var
+- Bu farkın getirdiği bazı yan etkiler var.
 
-* Mesela kutunun adı direkt değişken adı olduğunda ve aşağıdaki işlemi yaptığımızda:
+- Mesela kutunun adı direkt değişken adı olduğunda ve aşağıdaki işlemi yaptığımızda:
 
 
 ```python
@@ -472,7 +451,7 @@ a
 b
 ```
 
-* `a` yı güncellesek de `b` güncellenmiyor. `b` sadece `a` kutusunun değerine eşit olmuş oldu, kutunun kendisine değil
+* `a` yı güncellesek de `b` güncellenmiyor. `b` sadece `a` kutusunun değerine eşit olmuş oldu, kutunun kendisine değil.
 
 * Aynısını listlerde yaptığımızda:
 
@@ -506,7 +485,6 @@ l[0] = 200
 l
 ```
 
-
 ```python
 l2
 ```
@@ -517,9 +495,9 @@ l2
 
 ![aliasing3.png](attachment:aliasing3.png)
 
-* Git aynı değerle başka bir kutucuk yarat ve oraya etiket ol diyerek güncellenmemesini sağlayabilirim
+* Git aynı değerle başka bir kutucuk yarat ve oraya etiket ol diyerek güncellenmemesini sağlayabilirim.
 
-* Bunu copy() ile yapacağız
+* Bunu `copy()` ile yapacağız.
 
 ![aliasing4.png](attachment:aliasing4.png)
 
@@ -548,15 +526,13 @@ l[0] = 300
 l
 ```
 
-
 ```python
 l2
 ```
 
 ## Listlerde Concatenation
 
-* `+` operatörü listlerde concatenation yapar
-
+- `+` operatörü listlerde concatenation yapar.
 
 ```python
 l = [1,2,3]
@@ -616,7 +592,7 @@ l
 
 
 ```python
-# İlk hangi indexte görünüyorsa onun değerini döndürür
+# İlk hangi indexte görünüyorsa onun değerini döndürür.
 l.index(3)
 ```
 
@@ -627,7 +603,7 @@ l.index(4)
 
 
 ```python
-# listede olmayan değerler için error verir
+# listede olmayan değerler için error verir.
 l.index(100)
 ```
 
@@ -640,7 +616,7 @@ l = [1,2,3,4]
 
 
 ```python
-l.reverse() # inplace: yani l'yi günceller
+l.reverse() # inplace: yani l'yi günceller.
 ```
 
 
@@ -653,7 +629,7 @@ l
 l = [1,2,3,4]
 ```
 
-* Aynısını slicing mantığı ile de yapabilirdik
+- Aynısını slicing mantığı ile de yapabilirdik.
 
 
 ```python
@@ -680,8 +656,7 @@ l3
 l
 ```
 
-* Orijinalini güncellemiyor, variable assignment yapmamız lazım güncellemesi için
-
+* Orijinalini güncellemiyor, güncellemesi için variable assignment yapmamız lazım.
 
 ```python
 l = l[::-1]
@@ -694,9 +669,9 @@ l
 
 ## List'in Elemanlarını Sıralamak (sorting)
 
-* sorted() orijinal listeyi güncellemez
+* sorted() orijinal listeyi güncellemez.
 
-* sorted() ve .sort() a bakacağız. İkisi de default olarak küçükten büyüğe sıralar. Sayısal verilerde sayısal değerine göre, stringlerde alfabetik sıraya göre sıralar
+* sorted() ve .sort() a bakacağız. İkisi de default olarak küçükten büyüğe sıralar. Sayısal verilerde sayısal değerine göre, stringlerde alfabetik sıraya göre sıralar.
 
 
 ```python
@@ -708,167 +683,102 @@ l = ["b","a","c"]
 sorted(l)
 ```
 
-
-
-
     ['a', 'b', 'c']
-
-
-
 
 ```python
 l
 ```
 
-
-
-
     ['b', 'a', 'c']
-
-
-
 
 ```python
 l3 = sorted(l)
 ```
 
-
 ```python
 l3
 ```
 
-
-
-
     ['a', 'b', 'c']
 
-
-
-* .sort() günceller
-
+- `.sort()` günceller
 
 ```python
 l = ["b","a","c"]
 ```
 
-
 ```python
 l.sort() # inplace
 ```
-
 
 ```python
 l
 ```
 
-
-
-
     ['a', 'b', 'c']
-
-
-
 
 ```python
 l = [1,2,10,3,-1]
 ```
 
-
 ```python
 sorted(l)
 ```
 
-
-
-
     [-1, 1, 2, 3, 10]
-
-
-
 
 ```python
 l
 ```
 
-
-
-
     [1, 2, 10, 3, -1]
-
-
-
 
 ```python
 # küçükten büyüğe sıralar
 l.sort()
 ```
 
-
 ```python
 l
 ```
 
-
-
-
     [-1, 1, 2, 3, 10]
-
-
-
 
 ```python
 l = ["b","a","c","1","3","4"]
 ```
 
-
 ```python
 l.sort()
 ```
-
 
 ```python
 l
 ```
 
-
-
-
     ['1', '3', '4', 'a', 'b', 'c']
-
-
-
 
 ```python
 l = [1,3.1,2,0.6]
 ```
 
-
 ```python
 l.sort()
 ```
-
 
 ```python
 l
 ```
 
-
-
-
     [0.6, 1, 2, 3.1]
-
-
-
 
 ```python
 l = ["b","a","c",1,2]
 ```
 
-
 ```python
 l.sort()
 ```
-
 
     ---------------------------------------------------------------------------
 
@@ -880,105 +790,69 @@ l.sort()
 
     TypeError: '<' not supported between instances of 'int' and 'str'
 
-
-
 ```python
 l = ["b","a","c","1","3.5","4","5.6", "0.6"]
 ```
-
 
 ```python
 l.sort()
 ```
 
-
 ```python
 l
 ```
 
-
-
-
     ['0.6', '1', '3.5', '4', '5.6', 'a', 'b', 'c']
-
-
-
 
 ```python
 l = [[1,-20,3], [2,-200,-3]]
 ```
 
-
 ```python
 l.sort()
 ```
-
 
 ```python
 l
 ```
 
-
-
-
     [[1, -20, 3], [2, -200, -3]]
-
-
-
 
 ```python
 l = [[10,-20,-3], [2,-2,3]]
 ```
 
-
 ```python
 l.sort()
 ```
-
 
 ```python
 l
 ```
 
-
-
-
     [[2, -2, 3], [10, -20, -3]]
-
-
-
 
 ```python
 l = [[10,-20,-3], [10,-25,3]]
 ```
 
-
 ```python
 l.sort()
 ```
-
 
 ```python
 l
 ```
 
-
-
-
     [[10, -25, 3], [10, -20, -3]]
-
-
-
 
 ```python
 l = [["a", "b", "c"], [2,-200,-3]]
 ```
 
-
 ```python
 l.sort()
 ```
-
 
     ---------------------------------------------------------------------------
 
@@ -990,51 +864,33 @@ l.sort()
 
     TypeError: '<' not supported between instances of 'int' and 'str'
 
-
-
 ```python
 l
 ```
 
-
-
-
     [['a', 'b', 'c'], [2, -200, -3]]
-
-
-
 
 ```python
 l = [[200, "b", "c"], [2,-200,-3,10]]
 ```
 
-
 ```python
 l.sort()
 ```
-
 
 ```python
 l
 ```
 
-
-
-
     [[2, -200, -3, 10], [200, 'b', 'c']]
-
-
-
 
 ```python
 l = [[200, "b", "c"], [200,-200,-3,10]]
 ```
 
-
 ```python
 l.sort()
 ```
-
 
     ---------------------------------------------------------------------------
 
@@ -1043,6 +899,4 @@ l.sort()
     <ipython-input-175-fb07ac7c73ab> in <module>
     ----> 1 l.sort()
     
-
     TypeError: '<' not supported between instances of 'int' and 'str'
-

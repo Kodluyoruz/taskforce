@@ -209,7 +209,7 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 1. https://www.youtube.com/watch?v=XePaa7gw1qs
 	- Bu videoda; karşılaştırma operatörlerini ve mantıksal operatörleri anlattık.
 
-### [Koşul Yapısı Kullanımı (if / else)](kosul-yapisi-kullanimi-(if-else)/)
+### [Koşul Yapısı Kullanımı (if / else)](kosul-yapisi-kullanimi-if-else/)
 
 #### Sorular
 1. Yok
@@ -586,6 +586,12 @@ let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa'];
 1. https://www.youtube.com/watch?v=Glp6kX7KV94
 	- Bu videoda; Array içinde Array oluşturmayı, Array içerisindeki öğeleri ayırmayı, Array içerisindeki öğenin index bilgisini bulmayı, Array kopyalamayı, iki Array bilgisini birleştirmeyi, Array içindeki bilgiyi String'e çevirmeyi ve istediğimiz index bilgisine göre öğe eklemeyi ve daha birçok Array metot yapısını anlattık.
 
+#### Codepen Çözümleri
+
+1. Birinci Soru: https://codepen.io/Kodluyoruz/pen/abBmaoL
+2. İkinci Soru: https://codepen.io/Kodluyoruz/pen/vYyXzYV
+3. Üçüncü Soru: https://codepen.io/Kodluyoruz/pen/zYoKJGd
+
 ## Döngüler ##
 
 ### [for Döngüsü Kullanımı](for-dongusu-kullanimi/)
@@ -596,6 +602,11 @@ let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa'];
 #### Video
 1. https://www.youtube.com/watch?v=nvkrESfSQyk
 	- Bu videoda; for döngüsünün nasıl oluşturulduğunu anlatıp olup daha önce öğrendimiz bilgilerle birlikte for döngüsünün kullanımı ile ilgili egzersizler yaptık.
+
+#### Codepen Çözümleri
+
+1. Birinci Ödevin Çözümü: https://codepen.io/Kodluyoruz/pen/bGBwxEG
+2. İkinci Ödevin Çözümü: https://codepen.io/Kodluyoruz/pen/JjbRaGL
 
 ### [break ve continue Kullanımı](break-ve-continue-kullanimi/)
 
@@ -624,6 +635,10 @@ let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa'];
 1. https://www.youtube.com/watch?v=S02bwfd8Eyo
 	- Bu videoda; forEach'in sadece Array içerisinde kullanıldığını anlatıp for döngüsü ile forEach'in farkını incelediğimiz bir egzersiz yaptık.
 
+#### Codepen Çözümleri
+
+1. https://codepen.io/Kodluyoruz/pen/RwoGYav
+
 ### [Filter ile Array İçerisinde Sadece İstenilen Bilgilerin Yeni Listeye Eklenmesi](filter-ile-array-i̇cerisinde-sadece-i̇stenilen-bilgilerin-yeni-listeye-eklenmesi/)
 
 #### Sorular
@@ -632,6 +647,11 @@ let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa'];
 #### Video
 1. https://www.youtube.com/watch?v=ZpHBuQVCs8A
 	- Bu videoda; Array filter ile birlikte bir diziyi filtreleyip sadece istenilen verilerle nasıl yeni bir dizinin oluşturulacağını anlattık.
+
+#### Codepen Çözümleri
+
+1. Birinci Sorunun Cevabı: https://codepen.io/Kodluyoruz/pen/BaQLOQa
+2. İkinci Sorunun Cevabı: https://codepen.io/Kodluyoruz/pen/xxREaRW
 
 ### [Map ile Array İçerisideki Yapının Değiştirilerek Yeni Liste Oluşturulması](map-ile-array-i̇cerisideki-yapinin-degistirilerek-yeni-liste-olusturulmasi/)
 
@@ -652,6 +672,10 @@ let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa'];
 #### Video
 1. https://www.youtube.com/watch?v=G3PnQmiJNNE
 	- Bu videoda; object nedir ve nasıl oluşturulur, key-value ilişkisini, objenin tipine ve içindeki bilgilere nasıl erişilir gibi konuları anlattık.
+
+#### Codepen Çözümleri
+
+1. Object Create alıştırmasının çözümü: https://codepen.io/Kodluyoruz/pen/zYooXbR
 
 ### [Object Anahtar(Key) ve Değer(Value) Yapısının Kullanımı / Erişimi](object-anahtar(key)-ve-deger(value)-yapisinin-kullanimi-erisimi/)
 

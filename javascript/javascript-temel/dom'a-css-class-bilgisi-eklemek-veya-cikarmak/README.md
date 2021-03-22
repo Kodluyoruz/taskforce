@@ -1,7 +1,7 @@
 ## ClassList
 
 JavaScrip’te CSS classlarını manipule etmenin en iyi yollarından biri `classList` kullanmaktır. `classList` bir öğenin sınıf isimlerini `DOMTokenList` olarak döndürür.
-`classList` özelliği tüm modern browserlarda calışır.
+`classList` özelliği tüm modern browserlarda çalışır.
 
 ### Syntax
 ```javascript
@@ -12,7 +12,7 @@ const elementClasses = elementNodeReference.classList;
 ```HTML
   <div id="content" class="main red">JavaScript classList</div>
 ```
-- `add()` : HTML ogesine bir veya daha fazla class ekler.
+- `add()` : HTML öğesine bir veya daha fazla class ekler.
 
 ```JavaScript
 let div = document.querySelector('#content');
@@ -26,7 +26,7 @@ div.classList.add('info','visible','block');
 ```
 Tek seferde birden fazla da `class` ekleyebiliriz.
 
-- `remove()` : HTML oğesinden bir veya daha fazla class'ı siler.
+- `remove()` : HTML öğesinden bir veya daha fazla class'ı siler.
 
 ```JavaScript
 let div = document.querySelector('#content');
@@ -51,7 +51,7 @@ div.classList.contains('warning');
 ```
 - `Toggle()` : `classList.add()` ve `classList.remove()` yöntemini aynı anda çağırmak yerine `classList.toggle()` yöntemini kullanılabilir. 
 
-Bu metodu kullanmadan önce `contain()` metodu ile sinisin var olup olmadigini manuel olarak kontrol etmek gerekir.
+Bu metodu kullanmadan önce `contain()` metodu ile sinisin var olup olmadığını manuel olarak kontrol etmek gerekir.
 
 ```JavaScript
 let div = document.querySelector('#content');

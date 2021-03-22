@@ -20,7 +20,7 @@ Yukarıdaki tabloda yaygın kullanılan semantik olmayan etiketler ve görevleri
 
 
   ### Emmet ###
-  HTML ve CSS etiketlerinde kullanım kolaylığı sağlaması açısından **Emmet ** oldukça faydalı bir eklentidir. Kısaltılmış kod yapıları yardımıyla uzun kod blokları oluşturmayı sağlar.
+  HTML ve CSS etiketlerinde kullanım kolaylığı sağlaması açısından **Emmet** oldukça faydalı bir eklentidir. Kısaltılmış kod yapıları yardımıyla uzun kod blokları oluşturmayı sağlar.
 
 **Asıl koda dönüşmeden önceki Emmet yapısı:**
 ```html

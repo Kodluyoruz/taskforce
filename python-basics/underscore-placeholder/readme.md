@@ -14,7 +14,7 @@ num_1 = 90000000000
 num_2 = 90_000_000_000
 ```
 
-* Sayıların arasına alttan çizgi koymak ! 
+* Sayıların arasına alttan çizgi koymak! 
 
 * Bu bilgisayarın sayıları algılamasını değiştirmiyor, o onları görmezden geliyor, ama bizim için daha okunabilir oluyor.
 
@@ -42,7 +42,7 @@ num_2
 
 
 
-* Bilgisayar için 90_000_000_000 ile 90000000000 sayısının hiç bir farkı yok
+* Bilgisayar için 90_000_000_000 ile 90000000000 sayısının hiç bir farkı yok!
 
 
 ```python
@@ -90,7 +90,7 @@ num_1 - num_2
 
 
 
-* Bu mantığı `float` veri tipleri için de kullanabiliriz:
+* Bu mantığı `float` veri tipleri için de kullanabiliriz.
 
 
 ```python

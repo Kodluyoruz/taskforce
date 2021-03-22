@@ -1,4 +1,4 @@
-# Liste İçerisindeki Öğeye Erişmek Ve Yeni Öğe Eklemek
+# Liste İçerisindeki Öğeye Erişmek ve Yeni Öğe Eklemek
 JavaScript’de çoğu zaman HTML elementlerine JavaScript ile müdahale ederiz. Bazen doğrudan bir elemente ulaşmaya çalışıyorken bazen spesifik bir liste öğesine ulaşmamız gerekebilir. Bu başlık altında ise liste öğesine erişmenin farklı yollarını deneyip en sonda ise listemize yeni bir öğe ekleyeceğiz. 
 
 ## Önce Listemizi Oluşturalım

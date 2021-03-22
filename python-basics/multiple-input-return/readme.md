@@ -1,6 +1,6 @@
 # Birden Çok Input
 
-* Fonksiyonların birden çok parametresi olabilir
+* Fonksiyonların birden çok parametresi olabilir.
 
 
 ```python
@@ -61,9 +61,9 @@ f(10)
 
 
 
-* Bana sonucu tuple olarak döndürdü
+* Bana sonucu tuple olarak döndürdü.
 
-* Variable Unpacking kısımda gördüğümüz gibi bu iki değeri farklı değişkenlere eşitleyebilirim
+* Variable Unpacking kısmında gördüğümüz gibi bu iki değeri farklı değişkenlere eşitleyebilirim.
 
 
 ```python
