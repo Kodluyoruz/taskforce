@@ -84,7 +84,7 @@
 1. HTML başlık etiketleri ile ilgili aşağdakilerden hangisi yanlıştır?
 	- `<h7>` başlık etiketi en çok kullanılandır. (Doğru)
 	- `<h1>` başlık etiketi en büyük yazı fontuna sahiptir.
-	- `<h2>` başlık etiketinin yazı fontu `<h2>` den büyüktür.
+	- `<h1>` başlık etiketinin yazı fontu `<h2>` den büyüktür.
 	- `<h3>` başlık etiketinin yazı fontu `<h4>` den büyüktür.
 
 #### Videolar
