@@ -50,7 +50,7 @@
 - [Cyclomatic Complexity](cyclomatic-complexity/)
 - [Halstead's Complexity Measures](halsteads-complexity-measures/)
 
-#### Yazılımın Testi ####
+#### Yazılımın Testi 
 - [Software Testing Giriş](software-testing-giris/)
 - [White Box](white-box-/)
 - [Black Box](black-box/)
