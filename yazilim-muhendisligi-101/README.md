@@ -1,11 +1,12 @@
 # Yazılım Mühendisliği 101
+
 #### Giriş ####
 - [Yazılım Mühendisliği 101 Serisine Giriş](yazilim-muhendisligi-101-serisine-giris/)
 
 #### Yazılım Nedir? ####
 - [Yazılım Nedir?](yazilim-nedir/)
 
-#### Yazılımın Tarihi ####
+#### Yazılımın Tarihi 
 - [Ada Lovelace](ada-lovelace/)
 - [Alan Turing](alan-turing/)
 
@@ -22,13 +23,13 @@
 - [Planlama, Yürütme, İzleme ve Kapanış Adımları](planlama,-yurutme,-izleme-ve-kapanis-adimlari/)
 - [Toyota Üretim Sistemi Üzerine](toyota-uretim-sistemi-uzerine/)
 
-#### Yazılım Tasarımı Yaklaşımları ####
+#### Yazılım Tasarımı Yaklaşımları
 - [Top-down ve Bottom-up](topdown-ve-bottomup/)
 
-#### Cohesion ve Coupling Üzerine ####
+#### Cohesion ve Coupling Üzerine 
 - [Cohesion ve Coupling Kavramları](cohesion-ve-coupling-kavramlari/)
 
-#### Genel Yazılım Mimarisi Desenleri ####
+#### Genel Yazılım Mimarisi Desenleri 
 - [Yazılım Mimarisi Desenlerine Giriş](yazilim-mimarisi-desenlerine-giris/)
 - [Katmanlı Mimari](katmanli-mimari/)
 - [Client Server Mimarisi](client-server-mimarisi/)
@@ -54,7 +55,7 @@
 - [White Box](white-box-/)
 - [Black Box](black-box/)
 
-#### Kodun Dokümantasyonu ####
+#### Kodun Dokümantasyonu 
 - [Dokümantasyon](dokumantasyon/)
 
 #### Yazılımın İstenen Karakteristikleri ####
