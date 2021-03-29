@@ -1,1 +1,1 @@
-# Microsoft Azure
+# Azure Pricing Calculator
