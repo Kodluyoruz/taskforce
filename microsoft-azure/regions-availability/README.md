@@ -1,1 +1,1 @@
-# Microsoft Azure
+# Regions Availability
