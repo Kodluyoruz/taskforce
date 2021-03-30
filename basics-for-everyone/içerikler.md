@@ -43,7 +43,7 @@
 
 #### Videolar
 
-1. https://youtu.be/n_gODKYn9dM
+1. https://youtu.be/CtLfck29wYc
    - İzlemen için bir video paylaştık.
 
 ## Algoritma & Pseudocode ####
