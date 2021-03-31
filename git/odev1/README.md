@@ -19,7 +19,7 @@ Evet ilk repomuzu oluşturduk. Bundan sonraki adımda oluşturduğumuz repoyu bi
 
 ![markdown](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/odev1/figures/markdown.png)
 
-**Detaylı bakmak için [Örnek Readme Dosyası](ornekreadme.md)nı inceleyebilirsiniz.**
+**Detaylı bakmak için [Örnek Readme Dosyası](https://github.com/Kodluyoruz/taskforce/blob/main/git/odev1/ornekreadme.md)nı inceleyebilirsiniz.**
 
 - Markdown dosyanızın içine projemizin bir **resmini** koyun.
 - Repomuzun içine bir adet **index.html** dosyası oluşturun.
