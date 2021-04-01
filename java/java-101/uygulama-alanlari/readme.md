@@ -26,7 +26,8 @@ Java, bağımsız oyun geliştirme şirketleri tarafından ve mobil oyunlar olu�
 
 
  ## Java Uygulama Geliştirme Altyapıları 
-![JavaSE-EE-ME-compared](https://gokhan.ozar.net/wp-content/uploads/JavaSE-EE-ME-compared.png)
+![JavaSE-EE-ME-compared](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java/java-101/uygulama-alanlari/figures/JavaSE-EE-ME-compared.png)
+
 1. **Java SE (Java Standard Edition)**: Java programlama diliyle birlikte genel amaçlı,temel düzeyde programlama yapabilmeyi sağlayan platformdur. Java ile ilgili tüm temel kütüphaneleri ve dil özelliklerini içerir. Nesneye dayalı programlama yapabilmek için gerekli olan özellikleri sağlar. Masaüstü ve sunucu ortamları için taşınabilir kodun geliştirilmesi ve dağıtılması için kullanılabilir.Java.lang,java.io , java.math , java.net , java.util vb. gibi tüm kitaplıkları ve API'leri sağlar .
 2. **Java EE (Java Enterprise Edition)**: Java SE'yi kapsamaktadır. Java ile dağıtılmış bilgi işlem ve web hizmetleri gibi kurumsal özelliklere sahip geliştiriciler için bir platform sağlar. Java EE uygulamaları genellikle mikro sunucular veya uygulama sunucuları gibi referans çalışma sürelerinde çalıştırılır. Java EE'nin kullanıldığı bazı bağlamlara örnekler e-ticaret, muhasebe, bankacılık bilgi sistemleridir. Servlet, Java Server Page, Web Service'leri, Enterprise Java Bean (EJB) (orta katman yazılım geliştirme altyapısı), JPA (Java Persistence API) (Veritabanı ile etkileşim katmanı)
 
