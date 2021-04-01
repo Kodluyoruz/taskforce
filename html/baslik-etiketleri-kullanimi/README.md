@@ -26,7 +26,7 @@ HTML dökümanları oluştururken en çok kullanacağımız etiketler bunlardır
 
 Burada dikkat etmemiz gereken bir konu var. HTML dökümanı işlenirken ve görüntülenirken sayfa sırayla işlendiği için her zaman sırasıyla en altta kalan stil belirlemeleri baskın gelecektir.  
 
-Bu etiketimizin global özelliklere(attribute) ek olarak alabildiği iki farklı özellik vardır. Bunlar media ve type. Çok yaygın olmadığı için kullanım detaylarına girmeyeceğim ama alabildikleri özelliklere şuralardan bakabilirsiniz : [ https://www.w3schools.com/tags/att_style_media.asp ](https://www.w3schools.com/tags/att_style_media.asp) , [https://www.w3schools.com/tags/att_style_type.asp](https://www.w3schools.com/tags/att_style_type.asp) 
+Bu etiketimizin global özelliklere(attribute) ek olarak alabildiği iki farklı özellik vardır. Bunlar media ve type. Çok yaygın olmadığı için kullanım detaylarına girmeyeceğim ama alabildikleri özelliklere şuralardan bakabilirsiniz : < https://www.w3schools.com/tags/att_style_media.asp>, [https://www.w3schools.com/tags/att_style_type.asp](https://www.w3schools.com/tags/att_style_type.asp) 
 
 ### Script Etiketleri
 
