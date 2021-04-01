@@ -28,7 +28,7 @@ Burada dikkat etmemiz gereken bir konu var. HTML dökümanı işlenirken ve gör
 
 Bu etiketimizin global özelliklere(attribute) ek olarak alabildiği iki farklı özellik vardır. Bunlar media ve type. Çok yaygın olmadığı için kullanım detaylarına girmeyeceğim ama alabildikleri özelliklere şuralardan bakabilirsiniz :
 <https://www.w3schools.com/tags/att_style_media.asp>, 
-[https://www.w3schools.com/tags/att_style_type.asp](https://www.w3schools.com/tags/att_style_type.asp) 
+<[https://www.w3schools.com/tags/att_style_type.asp>
 
 ### Script Etiketleri
 
