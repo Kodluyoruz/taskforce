@@ -60,7 +60,7 @@ Bir diğer özelliğimiz ise integrity özelliğidir. Integrity türkçeye  büt
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 ```
 
-Bir diğer etiketimiz de refreferrerpolicy. Bu etiket de scripti yükleyeceğimiz zaman, alacağımız kaynağa atacağımız verileri eklemek için kullınılır. Detaylı kullanımına buradan bakabilirsiniz :[https://www.w3schools.com/tags/att_script_referrepolicy.asp]<https://www.w3schools.com/tags/att_script_referrepolicy.asp> Bu da crossorigin gibi kaynak paylaşımı maksadıyla kullanılan özelliklerdendir.
+Bir diğer etiketimiz de refreferrerpolicy. Bu etiket de scripti yükleyeceğimiz zaman, alacağımız kaynağa atacağımız verileri eklemek için kullınılır. Detaylı kullanımına buradan bakabilirsiniz :<https://www.w3schools.com/tags/att_script_referrepolicy.asp> Bu da crossorigin gibi kaynak paylaşımı maksadıyla kullanılan özelliklerdendir.
 
 HTML sayfamızı oluştururken sayfa içerisindeki kod ne kadar uzun olursa okunması, yazılması ve incelenmesi o kadar zor olur. Bu yüzden kodları farklı sayfalara bölüp kullanmak hem daha kullanışlı hem de daha verimli olur. İşte bu amaçla farklı sayfalardaki scriptleri yükleyebilmek için de script etiketini kullanabiliriz. Bu amaçla script etiketinin *src* özelliğini kullanırız. Bu özellikle hem kendi dosya sistemimizde hem de internet üzerinde herhangi bir adreste bulunan kodları kendi sayfamıza ekleyebiliriz.
 
@@ -122,7 +122,7 @@ Yukarıda HTML dökümanımızın stil ve script dosyalarını ayrı ayrı yazma
 
 Son olarak link etiketi de type özelliği kullanır. Bu özellikle de ilişkilendirdiğimiz dosyanın tipini vermiş oluyoruz. Yaygın kullanılan değerleri stil dosyaları için `type = "text/css"` şeklinde, ikonlar için de `type="image/x-icon"` şeklindedir.
 
-Link etiketi global özellikleri de destekler. Diğer detaylı özellikleri için de buraya bakabilirsiniz : [https://www.w3schools.com/tags/tag_link.asp](https://www.w3schools.com/tags/tag_link.asp)
+Link etiketi global özellikleri de destekler. Diğer detaylı özellikleri için de buraya bakabilirsiniz : <https://www.w3schools.com/tags/tag_link.asp>
 
 ## Meta Etiketi
 
@@ -216,7 +216,7 @@ Meta etiketiyle söyleyeceğimiz son şey de viewport konusu. Akıllı telefonla
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-Burada genişliğin cihaz genişliğinde olduğunu ve zoom oranının 1.0 olacağını tarayıcıya belirmiş oluyoruz. Böylece mobilde masaüstü görünümü gibi bir görünüm değil olması gerektiği gibi düzgün bir görüntü elde ediyoruz. Detaylı bilgi için şurayı inceleyebilirsiniz : [https://fatihhayrioglu.com/meta-viewport-etiketi/](https://fatihhayrioglu.com/meta-viewport-etiketi/)
+Burada genişliğin cihaz genişliğinde olduğunu ve zoom oranının 1.0 olacağını tarayıcıya belirmiş oluyoruz. Böylece mobilde masaüstü görünümü gibi bir görünüm değil olması gerektiği gibi düzgün bir görüntü elde ediyoruz. Detaylı bilgi için şurayı inceleyebilirsiniz : <https://fatihhayrioglu.com/meta-viewport-etiketi/> 
 
 Şimdiye kadar başlık etiketlerini, başlık etiketlerinin özelliklerini ve genel kullanım alanlarını öğrenmiş olduk. 
 
