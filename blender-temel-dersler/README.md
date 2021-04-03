@@ -18,4 +18,4 @@
 - [Blender 2.9x - Snap - 2](blender-29x-snap-2/)
 - [Blender 2.9x - Snap - 3](blender-29x-snap-3/)
 #### Çok Sorulan Sorulara Cevaplar ####
-- [Çok sorulan sorulara cevaplar](cok-sorulan-sorulara-cevaplar/)
+- [Çok Sorulan Sorulara Cevaplar](cok-sorulan-sorulara-cevaplar/)
