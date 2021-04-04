@@ -1,7 +1,7 @@
 # Microsoft Azure # 
 
 
- #### Azure Fundamentals ####
+- [Azure Fundamentals](azure-fundamentals)
 - [Azure Account](azure-account)
 - [Digital Transormation](digital-transormation)
 - [Cloud Concepts](cloud-concepts)
