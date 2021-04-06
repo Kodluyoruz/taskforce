@@ -87,7 +87,7 @@ Cevaplar: 1:for, 2:name ve userName 3:number 4:submit
 **Örnek 2:** İkinci sorumuz ise bu form yapısını JavaScript kodumuzda nasıl manipüle edebileceğimiz ile ilgili olsun.
 /*1*/ gibi belirttiğim yerlere hangi kodlar gelmelidir? Gelmesi gereken kodların kullanım amaçlarını kısaca yorum satırı olarak belirttim yanlarında.
 
-![](figures/jscodesnippet.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/formlarla-calismak-bolum-sonu-egzersizi/figures/jscodesnippet.png)
 
 Cevaplar: /*1*/: e.preventDefault();
 /*2*/: userAge.value >= 18
