@@ -8,7 +8,7 @@
 
 ### Adımlar
 
-1. ![](figures/1-htmlfile.JPG)
+1. ![](https://github.com/Kodluyoruz/taskforce/blob/main/javascript/javascript-temel/formlarla-calismak-bolum-sonu-egzersizi/figures/1-htmlfile.JPG)
 
 Öncelikle 1. ekran alıntısında bulunan html dosyasından, form seçimi yapabilmek için gerekli id'yi alıyoruz.
 Burada form elementinin id'si userForm. 2. ekran alıntısında görüldüğü üzere userForm id'si querySelector fonkisyonu ile alınmıştır. Daha sonrasında addEventListener fonsiyonu ile "submit" olayı gerçekleşitğinde bu html elemntinde ne olması gerektiği ifade edilmiştir. Submit olduğunda formHandler fonsiyonu çağırılıyor
