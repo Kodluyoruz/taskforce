@@ -52,7 +52,7 @@ Sayfamız ilk yüklendiğinde aşağıdaki resimde görüleceği gibi bir form o
 
 Formu doldurup submit butonuna her bastığımızda ise, girdiğimiz bilgiler formun altında oluşacak kısımda bize gösterilecektir.
 
-![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/formlarla-calismak-bolum-sonu-egzersizi/figures/invalidinput.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/formlarla-calismak-bolum-sonu-egzersizi/figures/formfilled.png)
 
 Formda herhangi bir alanı boş bıraktığımızda veya "Age" kısmına 18'den küçük bir sayı girdiğimizde ise web tarayıcımız bize aşağıdaki gibi bir uyarı verecektir.
 
