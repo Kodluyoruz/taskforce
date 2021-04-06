@@ -13,28 +13,28 @@
 Öncelikle 1. ekran alıntısında bulunan html dosyasından, form seçimi yapabilmek için gerekli id'yi alıyoruz.
 Burada form elementinin id'si userForm. 2. ekran alıntısında görüldüğü üzere userForm id'si querySelector fonkisyonu ile alınmıştır. Daha sonrasında addEventListener fonsiyonu ile "submit" olayı gerçekleşitğinde bu html elemntinde ne olması gerektiği ifade edilmiştir. Submit olduğunda formHandler fonsiyonu çağırılıyor
 
-2. ![](figures/2-formhandler.png)
+2. ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/formlarla-calismak-bolum-sonu-egzersizi/figures/2-formhandler.png)
 
 2.ekran alıntısında görülen formHandler fonsiyonu event parametresini alıyor. Daha sonrasında event.preventDefault() fonkisyonu ile submit anında sayfanın yenilenmesini engellemiş oluyoruz. Hemen sonraki satırlarda html dosyasından username ve score idlerini querySelector ile çağırıp bunların değerlerini listeye eklemek için 4. ekran alıntısında görülen addItem adlı fonksiyona yolluyoruz.
 
 
-3. ![](figures/3-formhandler.JPG)
+3. ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/formlarla-calismak-bolum-sonu-egzersizi/figures/3-formhandler.JPG)
 
 İlk aşamada tarayıcımızda gözükecek olan dizayn 3. ekran alıntısında gözükmektedir.
 
-4. ![](figures/4-userlistdom.png)
+4. ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/formlarla-calismak-bolum-sonu-egzersizi/figures/4-userlistdomprint.JPG)
 
 addItem fonksiyonu 2 tane parametre alıyor. Buraya gelen değerleri listenin en altına ekliyor.
 
-5. ![](figures/4-userlistdomprint.JPG)
+5. ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/formlarla-calismak-bolum-sonu-egzersizi/figures/5-alertbasic.png)
 
 5.ekran alıntısı dizayna liste elementi eklendikten sonraki halini göstermektedir.
 
-6. ![](figures/5-alertbasic.png)
+6. ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/formlarla-calismak-bolum-sonu-egzersizi/figures/5-alertbasicprint.JPG)
 
 Hatalı bir durumla karşılaştığımızda(bizimkinde bir şey yazmadan submitlemek) hata mesajı göstermemiz gerekiyor. 6.ekran alıntısında  bootstrap'ten aldığımız ALERT varsayılan mesajı göstermekteyiz. 7.ekran alıntısında nasıl bir sonuç verdiğini görebiliriz.
 
-7. ![](figures/5-alertbasicprint.JPG)
+7. ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/formlarla-calismak-bolum-sonu-egzersizi/figures/6-alertgreen.png)
 
 8. ![](figures/6-alertgreen.png)
 
@@ -48,15 +48,15 @@ Hatalı bir durumla karşılaştığımızda(bizimkinde bir şey yazmadan submit
 
 Sayfamız ilk yüklendiğinde aşağıdaki resimde görüleceği gibi bir form oluştuğunu düşünelim.
 
-![](figures/forminitial.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/formlarla-calismak-bolum-sonu-egzersizi/figures/forminitial.png)
 
 Formu doldurup submit butonuna her bastığımızda ise, girdiğimiz bilgiler formun altında oluşacak kısımda bize gösterilecektir.
 
-![](figures/formfilled.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/formlarla-calismak-bolum-sonu-egzersizi/figures/invalidinput.png)
 
 Formda herhangi bir alanı boş bıraktığımızda veya "Age" kısmına 18'den küçük bir sayı girdiğimizde ise web tarayıcımız bize aşağıdaki gibi bir uyarı verecektir.
 
-![](figures/invalidinput.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/formlarla-calismak-bolum-sonu-egzersizi/figures/invalidinput.png)
 
 İlk sorumuz böyle bir formu oluşturmak ve verilerini kullanabilmek için nasıl bir html dosyası yazmamız gerektiğiyle ilgili olsun. Aşağıda bu form yapısının html kodlarını görüyoruz, tabi ki sizlerin tamamlaması için bazı eksiklikleri var. Sayfanın `class` isimleri ve style yapısıyla ilgili bu noktada herhangi bir işlemimiz olmayacak, o yüzden o kısımları düşünmenize hiç gerek yok, sadece form yapısına odaklanalım.
 
