@@ -61,7 +61,7 @@ Bu kod örneğine baktığımızda var değişkeniyle tanımlanan myBoolean’ı
  **Örnek 2:**
  ```javascript
     var y = 0;
-    console.log(Boolean(y)); // returns true
+    console.log(Boolean(y)); // returns false
 
  ```
 
