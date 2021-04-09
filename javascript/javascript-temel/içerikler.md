@@ -75,8 +75,8 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 	- True
 	- False (Doğru)
 2. `const b  = "0"; Boolean(b);` ifadenin çıktısı nedir?
-	- True
-	- False (Doğru)
+	- True (Doğru)
+	- False 
 3. Aşağıdakilerden hangisi false döner?
 	- `var x = 10 / 'a'; console.log(Boolean(x));` (Doğru)
 	- `var y = "" || -2 || 'JavaScript'; console.log(Boolean(y));`
