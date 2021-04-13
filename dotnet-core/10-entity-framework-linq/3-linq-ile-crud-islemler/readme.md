@@ -1,0 +1,1 @@
+# Linq ile CRUD işlemler
