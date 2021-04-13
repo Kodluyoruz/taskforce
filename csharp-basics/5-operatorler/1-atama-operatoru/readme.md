@@ -1,0 +1,1 @@
+# Atama Operatörü
