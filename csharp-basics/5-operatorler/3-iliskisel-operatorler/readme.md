@@ -1,0 +1,1 @@
+# İlişkisel Operatörler

@@ -1,0 +1,1 @@
+# Object Oriented Prensipleri

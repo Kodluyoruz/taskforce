@@ -1,0 +1,1 @@
+# Propery Nedir ?
