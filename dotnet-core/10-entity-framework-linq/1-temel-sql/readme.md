@@ -1,0 +1,1 @@
+# Temel SQL
