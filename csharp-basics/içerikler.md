@@ -3,20 +3,19 @@
 ### [C# Giriş](1-giris/)
 
 #### Video
+#### Sorular
+1. Bir veritabanı yazılımı aşağıdaki dillerden hangisi ile geliştirilmiş olabilir ?
+   - C (Doğru)
+   - C#
+   - Python
+   - Java
+
 
 ### [Kurulumlar](2-kurulumlar/)
-
-#### Video
 
 ### [Console Programlama](3-console-programlama/)
 
 #### Sorular
-
-1. Soru 1 ?
-   - seçenek 1
-   - seçenek 2
-   - seçenek 3 (Doğru)
-   - seçenek 4
 
 #### Video
 
@@ -26,6 +25,8 @@
 
 #### Sorular
 
+
+<hr>
 #### Videolar
 
 - Bölüm 1 : ...
