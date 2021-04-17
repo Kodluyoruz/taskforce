@@ -17,6 +17,14 @@
 
 #### Sorular
 
+1. Console ekranına yazdırıp daha sonra alt satıra geçmek için aşağıdakilerden hangisi kullanılır? 
+
+   - Console.println('Hi')
+   - Console.Writeline('Hi')
+   - Console.PrintLine('Hi')
+   - Console.WriteLine('Hi') (Doğru)
+   
+
 #### Video
 
 1. https://www.youtube.com/watch?v=gndWkaTyo6g - Video başlığında belirttiğimiz "Neden JavaScript?" sorusuna en güzel cevabı StackOverflow'un kurucularından olan Jeff Atwood açıklamıştır....
@@ -25,6 +33,12 @@
 
 #### Sorular
 
+1. Aşağıdaki degisken tanımlamalarından hangisi **yanlıştır** ?
+
+   - int veri = 3;
+   - string veri = null;
+   - int class = 3; (Doğru)
+   - decimal veri_2 = 4;
 
 <hr>
 #### Videolar
