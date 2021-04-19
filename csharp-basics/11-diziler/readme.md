@@ -1,7 +1,5 @@
 # Diziler
 
-- [Dizi Nedir ?](1-dizi-nedir/)
-- [Dizi Kullanımı ve Özellikleri](2-dizi-kullanimi-ozellikleri/)
-- [Döngüler ile Dizi Kullanımı (Foreach)](3-donguler-ile-dizi-kullanimi/)
-- [Array Sınıfı Nedir?](4-array-sinifi-nedir/)
-- [Array Sınıfı Metotlarının Kullanımı](5-array-sinifi-metotlari/)
+- [Dizi Tanımlama, Dizilere Erişim ve Döngülerle Kullanımı](1-dizi-tanımlama-erişim-ve-döngülerle-kullanım/)
+- [Array Sınıfı ve Methodlari](2-array-sinifi-ve-methodlari/)
+

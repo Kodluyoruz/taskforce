@@ -1,1 +1,0 @@
-# While Döngüsü

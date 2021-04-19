@@ -1,1 +1,0 @@
-# Mantıksal Hatalar

@@ -1,1 +1,0 @@
-# Dizi Kullanımı ve Özellikleri

@@ -1,1 +1,0 @@
-# Derleme Hataları

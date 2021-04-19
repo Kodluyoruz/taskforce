@@ -1,5 +1,4 @@
 # Döngüler
 
-- [For Döngüsü](1-for-dongusu/)
-- [Foreach Döngüsü](2-foreach-dongusu/)
-- [While Döngüsü](3-while-dongusu/)
+- [For Döngüsü ve Break Continue Anahtar Kelimeleri](1-for-dongusu-break-continue/)
+- [While ve ForEach Döngüleri](2-while-foreach-donguleri/)

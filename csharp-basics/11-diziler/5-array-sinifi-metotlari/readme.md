@@ -1,1 +1,0 @@
-# Array Sınıfı Metotlarının Kullanımı

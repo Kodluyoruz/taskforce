@@ -1,1 +1,0 @@
-# ForEach döngüsü
