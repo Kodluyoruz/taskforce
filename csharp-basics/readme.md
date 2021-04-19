@@ -12,56 +12,32 @@
 
 ### [Console Programlama](3-console-programlama/)
 
-- [Main Methodu](3-console-programlama/1-main-methodu/)
-- [Namespace Kavramı](3-console-programlama/2-namespace-kavrami/)
-- [System ve Using direktifleri](3-console-programlama/3-system-using-direktifleri/)
-- [Write, WriteLine ve ReadLine Komutlarının Kullanımı](3-console-programlama/4-write-writeline-readline-kullanimi/)
-
 ### [Değişkenler](4-degiskenler/)
 
-- [Değişken Nedir?](4-degiskenler/1-degisken-nedir/)
-- [Veri Tipleri](4-degiskenler/2-veri-tipleri/)
-- [Değişkenlerin Kullanımı](4-degiskenler/3-degiskenlerin-kullanimi)
-
 ### [Operatörler](5-operatorler/)
-
-- [Atama Operatörü](5-operatorler/1-atama-operatoru/)
-- [Mantıksal Operatörler](5-operatorler/2-mantiksal-operatorler/)
-- [İlişkisel Operatörler](5-operatorler/3-iliskisel-operatorler/)
-- [Aritmetik Operatörler](5-operatorler/4-aritmetik-operatorler/)
 
 ### [Tip Dönüşümleri](6-tip-donusumleri/)
 
 ### [Hata Yönetimi ve Kod İzleme](7-hata-yonetimi-ve-kod-izleme/)
 
-- [Derleme Hataları](7-hata-yonetimi-ve-kod-izleme/1-derleme-hatalari/)
-- [Çalışma Zamanı Hataları](7-hata-yonetimi-ve-kod-izleme/2-calisma-zamani-hatalari/)
-- [Try Catch](7-hata-yonetimi-ve-kod-izleme/3-try-catch-blogu/)
-- [Mantıksal Hatalar](7-hata-yonetimi-ve-kod-izleme/4-mantiksal-hatalar/)
-- [BreakPoint](7-hata-yonetimi-ve-kod-izleme/5-breakpoint/)
-- [Watch Penceresi](7-hata-yonetimi-ve-kod-izleme/6-watch-penceresi/)
+- [Try-Catch-Finally ve Mantıksal Hatalar](1-try-catch-finally-ve-mantiksal-hatalar/)
+- [Debugging, Watch ve Variables Penceleri](2-debugging-watch-ve-variables-pencereleri/)
+
 
 ### [Karar Yapıları](8-karar-yapilari/)
 
-- [If, Else Yapısı](8-karar-yapilari/1-if-else-yapisi/)
-- [Ternary If](8-karar-yapilari/2-ternary-if/)
-- [Switch Case](8-karar-yapilari/3-switch-case/)
+- [If, Else Yapısı ve Ternary If](1-if-else-yapisi-ve-ternary-if/)
+- [Switch Case](3-switch-case/)
 
 ### [Döngüler](9-donguler/)
 
-- [For Döngüsü](9-donguler/1-for-dongusu/)
-- [Foreach Döngüsü](9-donguler/2-foreach-dongusu/)
-- [While Döngüsü](9-donguler/3-while-dongusu/)
-
-### [Anahtar Kelimeler](10-anahtar-kelimeler/)
+- [For Döngüsü ve Break Continue Anahtar Kelimeleri](1-for-dongusu-break-continue/)
+- [While ve ForEach Döngüleri](2-while-foreach-donguleri/)
 
 ### [Diziler](11-diziler/)
 
-- [Dizi Nedir ?](11-diziler/1-dizi-nedir/)
-- [Dizi Kullanımı ve Özellikleri](11-diziler/2-dizi-kullanimi-ozellikleri/)
-- [Döngüler ile Dizi Kullanımı (Foreach)](11-diziler/3-donguler-ile-dizi-kullanimi/)
-- [Array Sınıfı Nedir?](11-diziler/4-array-sinifi-nedir/)
-- [Array Sınıfı Metotlarının Kullanımı](11-diziler/5-array-sinifi-metotlari/)
+- [Dizi Tanımlama, Dizilere Erişim ve Döngülerle Kullanımı](1-dizi-tanımlama-erişim-ve-döngülerle-kullanım/)
+- [Array Sınıfı ve Methodlari](2-array-sinifi-ve-methodlari/)
 
 ### [Metotlar](12-metotlar/)
 
