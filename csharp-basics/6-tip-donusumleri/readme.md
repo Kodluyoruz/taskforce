@@ -4,8 +4,8 @@ Bir değişken tanımlaması yaptığımızda bellekten o değişkenin tipine ba
 Çoğu zaman uygulama yazarken farklı veri tipleri ile çalılmak durumunda kalabiliriz. Bellekte işleri yoluna koyabilmek için bu tip durumlarda tip dönüşümü yapmamız gerekir.
 
 Tip dönüşümleri **2 şekilde** yapılabilir. 
-* Implicit Conversion (Bilinçsiz yada kapalı dönüşüm)
-* Explicit Conversion (Bilinçli yada açık dönüşüm)
+* Implicit Conversion (Bilinçsiz ya da kapalı dönüşüm)
+* Explicit Conversion (Bilinçli ya da açık dönüşüm)
 
 ## Implicit Conversion
 Bir değişkenin kendinen daha yüksek kapasiteli bir değişkene atanmasıdır. Hedef değişkenin veri tipi bellekte yeterli alana sahip olacağından, bu dönüşümde bir veri kaybı sözkonusu olmayacaktır. Dolayısıyla bu dönüşüm kendiliğinden yapılabilir. 
