@@ -303,8 +303,8 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 #### Sorular
 1. Javascript'te fonksiyon nasıl yaratılır?
 	- `function:myFunction()`
-	- `function = myFunction()` (Doğru)
-	- `function myFunction()`
+	- `function = myFunction()` 
+	- `function myFunction()` (Doğru)
 2. myFunction isimli fonksiyon nasıl çağrılır?
 	- `myFunction()` (Doğru)
 	- `call function myFunction()`
