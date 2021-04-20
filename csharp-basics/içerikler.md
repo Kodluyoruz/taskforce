@@ -162,12 +162,76 @@
    - `|` (Doğru)
    - `*`
 
+2. 2 bool değişkeni aşağıdaki hangi operatör ile işleme tabi tutamayız ?
+
+   - `>` (Doğru)
+   - `<<`
+   - `&`
+   - `^`
+
+3. İlişkisel operatör ile yaptığımız işlemin sonucu hangi tiptedir ?
+
+   - İşleme tabi tutulan değişkenler ile aynı tip
+   - bool (Doğru)
+   - byte
+   - string
+
+4. Atama yapmak için aşağıdaki opertörlerden hangisini kullanamayız ?
+
+   - `+=`
+   - `%=`
+   - `|=`
+   - `>=` (Doğru)
+
+5. İki değişkenin birbirine eşit olup olmadığını hangi operatör ile kontrol ederiz ?
+
+   - `!=`
+   - `==` (Doğru)
+   - `=`
+   - `!`
+
+
 #### Video
 * https://drive.google.com/file/d/178r5nJ0MpkQGhFZj8lxFL6aik4Jzsxlm/view?usp=sharing
 
 ### [Tip Dönüşümleri](6-tip-donusumleri/)
 
 #### Sorular
+1. Aşağıdaki tip dönüşümlerinden hangisini implicit olarak gerçekleştirebiliriz ?
+
+   - bool -> int
+   - decimal -> short
+   - long -> int
+   - byte -> float (Doğru)
+
+2. Aşağıdaki tip dönüşümlerinden hangisini explicit dahi olsa gerçekleştiremeyiz ?
+
+   - byte -> int
+   - string -> byte (Doğru)
+   - decimal -> float
+   - long -> int
+
+3. 0-255 aralığında nümerik bilgi barındıran string tipindeki bir değişkenin dönüşümü için aşağıdakilerden hangisi kullanılamaz ?
+
+   - Convert.ToByte() methodu
+   - decimal.Parse() methodu
+   - sbyte.Parse() methodu (Doğru)
+   - Convert.ToDecimal() methodu
+
+4. Herhangi bir tipteki değişkeni string tipine en kolay nasıl çevirebiliriz ?
+
+   - Convert.ToString() methodu ile
+   - string.Parse() methodu ile
+   - string.From() methodu ile
+   - Değişkenin sahip olduğu .ToString() methodu ile (Doğru)
+
+5. DateTime tipine dönüşümü nasıl yapabiliriz ?
+
+   - (DateTime) ile explicit cast ederek
+   - Convert.ToDateTime() yada DateTime.Parse() methodları ile (Doğru)
+   - DateTime.From() methodu ile
+   - .NET bu dönüşümü implicit olarak yapar
+
 
 #### Video
 - https://drive.google.com/file/d/1HkwdQqmEfs3s2ncpnEVCTpQgjvp-7i0J/view?usp=sharing
@@ -175,6 +239,40 @@
 ### [Hata Yönetimi ve Kod İzleme](7-hata-yonetimi-ve-kod-izleme/)
 
 #### Sorular
+1. Aşağıdaki durumlardan hangisinde derleme zamanı hatası alınmaz ?
+
+   - Değişken tipine uyumsuz bir değer atamaya çalıştığımızda
+   - Değişkenler arasında uyumsuz bir operatör kullandığımızda
+   - Komutu ; ile sonlandırmadığımızda
+   - int değişkeni decimal değişkene atamaya çalıştığımızda (Doğru)
+
+2. Aşağıdaki bloklardan hangisi çalışma zamanı hatası alınsa dahi her koşulda çalışır ?
+
+   - final
+   - catch
+   - finally (Doğru)
+   - try
+
+3. Çalışma zamanında hata alabilecek kod bloğu aşağıdaki bloklardan hangisi içinde yer almalıdır ?
+
+   - run
+   - try (Doğru)
+   - when
+   - catch
+
+4. Yazdığımız kodu adım adım çalıştırarak hatalarımızı bulabilmemize yarayan işlem hangisidir ?
+
+   - Tracing
+   - Profiling
+   - Inspection
+   - Debugging (Doğru)
+
+5. Hata ayıklama işlemi sırasında aşağıdakilerden hangisi kod akışını belirlediğimiz yerlerde durdurmamıza yarar ?
+
+   - Breakpoint (Doğru)
+   - DebugPoint
+   - ExecutionPoint
+   - debugger
 
 #### Videolar
 1. Try Catch Finally ve Mantıksal Hatalar : https://drive.google.com/file/d/1Ht68ZgZesxuBfXzfYuPcNNQsksuvMx2X/view?usp=sharing
@@ -182,6 +280,40 @@
 2. Debugging, Watch ve Variables Penceresi : https://drive.google.com/file/d/1_EigHrSwJ15R7P1aQkDF27pWDGI39Qcn/view?usp=sharing
 
 ### [Karar Yapıları](8-karar-yapilari/)
+1. If komutu ile karar verebilmek için aşağıdakilerden hangisini kullanamayız ?
+
+   - Herhangi bir nümerik tip (int, long vb.) (Doğru)
+   - İlişkisel operatörler ile yapılan işlemin sonucu
+   - bool tipinde bir değişken
+   - Mantıksal operatörler ile yapılan işlemin sonucu
+
+2. Hiçbir if koşuluna uymayan bir durumda çalışmasını istediğimiz kodu hangi blokta yazarız ?
+
+   - default
+   - finally
+   - else (Doğru)
+   - else if
+
+3. Switch koşulu ile ilgili aşağıdaki bilgilerden hangisi yanlıştır ?
+
+   - case blokları birbirinden ayrılmalıdır, her bir case bloğu break; yada return; gibi komutlar ile sonlanmalıdır.
+   - Switch içerisinde default bloğu olmak zorundadır. (Doğru)
+   - Switch için nümerik tipler ile birlikte string ve char tiplerini de kullanabiliriz.
+   - case koşulu : ile sonlandırılmalıdır.
+
+4. Hiçbir case koşuluna uymayan bir durumda çalışmasını istediğimiz kodu hangi blokta yazarız ?
+
+   - else
+   - finally
+   - default (Doğru)
+   - catch
+
+5. Basit if-else bloklarının yerine aşağıdaki operatörlerden hangisini kullanabiliriz ?
+
+   - ?: (ternary if) (Doğru)
+   - ?? (null-coalescing operator)
+   - ?. (null-conditional operator)
+   - || (conditional logical OR operator)
 
 #### Sorular
 
