@@ -134,7 +134,7 @@ Aşağıdaki class'ları kullanarakta sıralama işlemlerinizi gerçekleştirebi
 		</div>
 ```
 
-![ilkicerikdüzenlenmishali](figures/ikinci.png)
+![ilkicerikdüzenlenmishali](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-siralama-ozellikleri-kullanarak-responsive-yapiya-gore-tepkilerin-duzenlenmesi/figures/ikinci.png)
 
 Kodumuzu Bootstrap'i dahil ettiğiniz bir projede deneyebilirsiniz. Bu şekilde tüm kırılma noktaları için ayrı ayrı sıralamalar gerçekleştirebiliriz.
 
@@ -197,7 +197,7 @@ Peki bu kodu biraz daha karmaşıklaştırmaya ne dersiniz? İç içe içerikler
 ```
 
 
-![karisikicerigimiz](figures/ikinciicerik.png)
+![karisikicerigimiz](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-siralama-ozellikleri-kullanarak-responsive-yapiya-gore-tepkilerin-duzenlenmesi/figures/ikinciicerik.png)
 
 Örneğimizi daha iyi anlamak için lütfen bir editöre kodumuzu kopyalayıp yapıştıralım. Gördüğünüz gibi şuan iç içe içeriklerimizin olduğu bir yapı var ben **xs** kırılma noktasında farklı, **md**'da farklı ve **lg**'da şuanki görüntüsüyle sıralanmasını istiyorum. 
 
@@ -257,7 +257,7 @@ Peki bu kodu biraz daha karmaşıklaştırmaya ne dersiniz? İç içe içerikler
 			</div>
 		</div>
 ```
-![karisikicerikdüzenlenmishali](figures/ikinciicerikduzenlenmis.png)
+![karisikicerikdüzenlenmishali](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-siralama-ozellikleri-kullanarak-responsive-yapiya-gore-tepkilerin-duzenlenmesi/figures/ikinciicerikduzenlenmis.png)
 
 Kodumuzu artık istediğimiz düzeye getirmiş olduk.
 
