@@ -114,7 +114,7 @@ Aşağıdaki class'ları kullanarakta sıralama işlemlerinizi gerçekleştirebi
 		</div>
 ```
 
-![ilkicerigimiz](figures/ilk.png)
+![ilkicerigimiz](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-siralama-ozellikleri-kullanarak-responsive-yapiya-gore-tepkilerin-duzenlenmesi/figures/ilk.png)
 
 **Medium** kırılma noktasından daha küçük genişliklerde 3.içeriğimizin ilk sıraya geçmesini istiyoruz. Fakat daha büyük genişliklerde bu sırayla kalmasını istiyoruz bunun için:
 
