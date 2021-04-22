@@ -108,3 +108,6 @@ addBook({ name: "Kitap 4", author: "Yazar 4" }, listBooks);
 //Kitap 4
 ```
 Görmüş olduğunuz gibi her yeni kitap eklediğimizde otomatik olarak kitap listemizi güncellemiş olduk.
+
+## Daha Fazlası İçin
+- [Arin Yazılım Senkron - Asenkron JS, Call Stack, Thread, Callback](https://www.youtube.com/watch?v=_kdRtcy43ik)
