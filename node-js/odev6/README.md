@@ -1,6 +1,6 @@
 # Ödev 6
 
-## Koa.ja ile web sunucumuzu yazalım.
+## Koa.js ile web sunucumuzu yazalım.
 Öncelikle şunu belirteyim. Koa.js hakkında konuşmadığımızı biliyorum ve bu ödev ilk aşamada bizi zorlayacak. Buradaki amacım yeni bir teknolojiye
 başlama cesareti oluşturmak ve hata yapma özgürlüğümüz olduğunu göstermek.
 
