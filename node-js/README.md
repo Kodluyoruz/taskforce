@@ -15,4 +15,4 @@
 - [Ödev 2](odev2/)
 
 ## Node.js'in Temelleri
-- [Olay Odaklı - Bloklamayan]EventDrivenNonBlocking/)
+- [Olay Odaklı - Bloklamayan](EventDrivenNonBlocking/)
