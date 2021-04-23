@@ -6,8 +6,9 @@ PCAT projemizi birlikte yapıyoruz ancak işleri biraz daha zorlaştıralım, ne
 PCAT projemizde öğrendiklerimizi aynı zamanda "CLEAN BLOG" olarak ikinci bir proje de kendi başımıza uygulamalı bir şekilde yapmaya çalışacağız.
 Aşağıda görselini gördüğümüz projemizin başlangıç dosyasını da bulacaksınız.
 
-[CLEAN BLOG Proje Başlangıç Dosyaları](https://drive.google.com/file/d/1yWS-hrxi7MwsyU2YxpcCpfXd6ilws1Xw/view?usp=sharing) 
+![CLEAN BLOG](https://github.com/Kodluyoruz/taskforce/blob/node.js/node-js/odev7/figures/CleanBlog.jpg/)
 
+[CLEAN BLOG Proje Başlangıç Dosyaları](https://drive.google.com/file/d/1yWS-hrxi7MwsyU2YxpcCpfXd6ilws1Xw/view?usp=sharing) 
 
 Clean Blog projesini farklı ödevlere ayırarak yapmaya çalışacağız. Bu ödevimizde yapılması gerekenler:
 - CleanBlog proje klasörünü oluşturalım.
