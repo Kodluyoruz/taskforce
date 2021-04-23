@@ -9,6 +9,8 @@ Event Driven **Olay Temelli** yaklaşımda programın akışını olaylar belirl
 tamamlandığını bildirir. Burada şu dikkatinizi çekmiştir, bazı kavramları tekrar ediyoruz, bunun nedeni kavramların sizin de gördüğünüz gibi
 birbirleriyle ilişkili olmasıdır.
 
+![Event Driven](https://github.com/Kodluyoruz/taskforce/blob/node.js/node-js/EventDrivenNonBlocking/figures/event_driven.png)
+
 ## Non-Blocking
 
 Non-Blocking **Bloklamayan** bir yazılımda kodun bir parçasının çalışması durumunda kodun diğer bölümünün çalışmaması durumudur. Biraz daha iyi anlamak 
@@ -37,6 +39,8 @@ moreWork();                               // kod bloklanmadığı için kodun bu
 Aşağıdaki grafikte senkron çalışmanın kodları bloklarken asenkron çalışmanın kodları bloklamadan çalıştığını göstermektedir. Senkron
 çalışmada "user1" beklenip sonra ona ait print işlemi yapılmakta iken asenkron açlışma grafiğinde "user1" den gelen cevap 
 beklenmeden "user2" bilgisi istenmektedir.
+
+![Non Blocking](https://github.com/Kodluyoruz/taskforce/blob/node.js/node-js/EventDrivenNonBlocking/figures/non_blocking.png)
 
 ## Daha Fazlası İçin
 - [Node.js: what it is, when and how to use it, and why you should](https://www.freecodecamp.org/news/node-js-what-when-where-why-how-ab8424886e2/)
