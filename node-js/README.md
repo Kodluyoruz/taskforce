@@ -27,3 +27,4 @@
 - [Ödev 6 - Koa.js ile Web Sunucusu Yazımı](odev6/)
 
 ## PCAT Projesi
+- [PCAT Proje Tanıtımı](PCATProject/)
