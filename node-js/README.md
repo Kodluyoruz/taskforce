@@ -29,3 +29,4 @@
 ## PCAT Projesi
 - [PCAT Proje Tanıtımı](PCATProject/)
 - [PCAT Projesi Çalışma Ortamı](PCATWorkspace/)
+- [PCAT Projesi Express Nodemon Kurulumu](PCATExpressNodemon/)
