@@ -17,4 +17,4 @@
 ## Node.js'in Temelleri
 - [Olay Odaklı - Bloklamayan](EventDrivenNonBlocking/)
 - [Modül Kavramı](WhatIsAModule/)
-- [Ödev 3 - Daire Modülü](Odev3/
+- [Ödev 3 - Daire Modülü](Odev3/)
