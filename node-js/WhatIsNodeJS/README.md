@@ -12,7 +12,7 @@ back-end çalışmalarda kullanılan en popüler programlama dili olmuştur.
 
 ## Node.js Nasıl Çalışır?
 ### Event-Driven:
-Node.js event-driven **olay temelli** çalışır. Tek thread kullanmasından, yani aynı anda sadece bir işlem yapabilmesi nedeniyle node.js kendisinden istenilen işleri 
+Node.js event-driven **olay odaklı** çalışır. Tek thread kullanmasından, yani aynı anda sadece bir işlem yapabilmesi nedeniyle node.js kendisinden istenilen işleri 
 bir olay döngüsünün içerisinde değerlendirir.
 ### Non-Blocking:
 Node.js non-blocking **engelemeyen** çalışır. Node.js işlem sırasına koyduğu bir olayın tamamlanmasını beklemeden diğer olayı işleme alabilir, bunun sonucu olarak Node.js 
