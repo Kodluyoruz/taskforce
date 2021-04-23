@@ -14,4 +14,4 @@
 - [Async - Await Yapısı](AsyncAwait/)
 - [Ödev 2](odev2/)
 
-## Node.js Temelleri
+## Node.js'in Temelleri
