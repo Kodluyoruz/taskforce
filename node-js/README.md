@@ -10,3 +10,6 @@
 ## Asenkron Javascript
 - [Node.js'in Asenkron Yapısı](AsynchronousJavaScript/)
 - [Callback Nedir?](WhatIsCallback/)
+- [Promise Nedir?](WhatIsPromise/)
+- [Async - Await Yapısı](AsyncAwait/)
+- [Ödev 2](odev2/)
