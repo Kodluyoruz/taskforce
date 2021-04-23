@@ -17,11 +17,15 @@ karşı sunucudaki web sayfası kendi bilgisayarımızda gösterilmeye başlar.
 
 Sunucudaki bağlantıyı istediğimiz yerden değil uygun haberleşme noktaları olan portlar üzerinden yaparız.
 
+![REq Res Loop](https://github.com/Kodluyoruz/taskforce/blob/node.js/node-js/RequestResponseLoop/Figures/req_res_1.png)
+
 ### TCP - IP Protokolü
 
 İstemci ile sunucu arasındaki bağlantı TCP - IP protokolü yardımıyla kurulur. Detayları bizi bu çalışmamız içerisinde çok ilgilendirmemekle beraber
 TCP/IP (Transmission Control Protocol/Internet Protocol), istemci - sunucu arasında veri iletme, alma birimleri arasında organizasyonu sağlayan, böylece bir 
 yerden diğerine veri iletişimini olanaklı kılan ve farklı protokollerden oluşan yapıya verilen genel addır.
+
+![TCP IP](https://github.com/Kodluyoruz/taskforce/blob/node.js/node-js/RequestResponseLoop/Figures/tcp_ip.jpg)
 
 
 TCP - IP protokolü sayesinde iletişimi kurduk, peki istemci ve sunucu nasıl anlaşacaklar? Burada ise devreye HTTP ( HyperText Transfer Protocol ) protokolü devreye girer.
