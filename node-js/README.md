@@ -30,3 +30,4 @@
 - [PCAT Proje Tanıtımı](PCATProject/)
 - [PCAT Projesi Çalışma Ortamı](PCATWorkspace/)
 - [PCAT Projesi Express Nodemon Kurulumu](PCATExpressNodemon/)
+- [Statik Dosyalar - Middleware Giriş](StaticFilesMiddleware/)
