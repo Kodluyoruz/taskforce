@@ -33,3 +33,4 @@
 - [Clean Blog Proje - 1. Bölüm - Ödev 7](odev7/)
 - [Statik Dosyalar - Middleware Giriş](StaticFilesMiddleware/)
 - [Template Engine Kavramı](TemplateEngine/)
+- [Clean Blog Proje - 2. Bölüm - Ödev 8](odev8/)
