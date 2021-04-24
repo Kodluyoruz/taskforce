@@ -15,3 +15,5 @@ Clean Blog projesini farklı ödevlere ayırarak yapmaya çalışacağız. Bu ö
 - Package.json dosyasını oluşturalım.
 - Prettier ayarlarını yapalım.(İsteğe bağlı)
 - Express ve Nodemon modüllerini indirelim.
+- `git init` ile lokal repomuzu oluşturalım.
+- .gitignore dosyası oluşturalım ve ilk repomuzu gönderelim.
