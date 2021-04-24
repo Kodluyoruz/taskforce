@@ -30,5 +30,6 @@
 - [PCAT Proje Tanıtımı](PCATProject/)
 - [PCAT Projesi Çalışma Ortamı](PCATWorkspace/)
 - [PCAT Projesi Express Nodemon Kurulumu](PCATExpressNodemon/)
+- [Clean Blog Proje - 1. Bölüm - Ödev 7](odev7/)
 - [Statik Dosyalar - Middleware Giriş](StaticFilesMiddleware/)
 - [Template Engine Kavramı](TemplateEngine/)
