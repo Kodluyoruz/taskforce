@@ -41,3 +41,34 @@ app.get("/", (req, res) => {
 `http://localhost:3000/` adresine tarayıcımızdan istek gönderdiğimizde index sayfamızı başarılı bir şekilde görebileceğiz. Yalnız burada tüm .ejs dosyalarını
 incelediğimizde bazı ortak bölümlerin bulunduğunu görebiliriz. Bu ortak alanları views/partials klasörünün içerisine yerleştireceğiz. Burada yapmamız gereken 
 `_header.ejs`, `_footer.ejs`, `_navigation.ejs`  dosyalarını oluşturarak ortak kod bölümlerini buraya yapıştıralım.
+
+
+index template dosyasının yanında diğer template dosyalarımızı da düzenleyelim. About ve Add New Post sayfaları için gerekli yönlendirmeleri yapalım.
+
+```
+----
+app.get("/about", (req, res) => {
+  res.render('about');
+});
+
+app.get("/add_post", (req, res) => {
+  res.render('add_post');
+});
+```
+
+sonra _navigation.ejs de linkleri güncelleyelim.
+
+```
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/add_post">Add New Post</a>
+          </li>
+
+```
+
+son olarak add.ejs syafamızı video içeriğimize göre güncelleyelim.
