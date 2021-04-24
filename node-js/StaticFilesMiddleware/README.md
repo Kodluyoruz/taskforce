@@ -29,6 +29,7 @@ Middleware kullanarak aşağıdaki işlemleri gerçekleştirebiliriz.
 Aşağıdaki görselde klasik middleware yapısını görebilirsiniz. Gördüğünüz üzere get request de bir middlewaredir. Dikkatinizi çekecek bir diğer nokta 
 kodumuzda `next` metodu kullanmıyoruz çünkü `send` ile aynı döngüyü sonlandırıyoruz '/' adresine ulaşmak için.
 
+![Middleware](https://github.com/Kodluyoruz/taskforce/blob/node.js/node-js/StaticFilesMiddleware/figures/middleware.png)
 
 Şimdi kendi middleware fonksiyonumuzu oluşturalım myLogger isminde. 
 ```javascript
