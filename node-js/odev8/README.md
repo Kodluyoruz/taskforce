@@ -1,8 +1,8 @@
 # Ödev 8
 
-## Clean Blog Projesi 2 Bölüm
+## Clean Blog Projesi 2. Bölüm
 
-Cleann Blog projemizin bu 2. bölümünde aşağıdaki işlemleri yapalım.
+Clean Blog projemizin bu 2. bölümünde aşağıdaki işlemleri yapalım.
 
 - Public klasörü oluşturup statik dosyalarımızı içerisine yerleştirelim.
 - İlgili middleware fonksiyonunu yazarak public klasörümüzü uygulamamıza kaydedelim.
