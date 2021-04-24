@@ -45,6 +45,9 @@ app.listen(port, () => {
   console.log(`Sunucu ${port} portunda başlatıldı..`);
 });
 ```
+
+sonrasında ise `git push` komutu ile kodlarımızı uzak repoya gönderebiliriz.
+
 ## Daha Fazlası İçin
 - [Nodemon NPM](https://www.npmjs.com/package/nodemon)
 - [Express Resmi Sitesi](https://expressjs.com/)
