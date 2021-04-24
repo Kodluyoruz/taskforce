@@ -1,48 +1,36 @@
 import React, {useState} from 'react';
-import {
-  SafeAreaView,
-  Text,
-  View,
-  FlatList,
-  StyleSheet,
-  Switch,
-} from 'react-native';
-
-const data = [
-  {id: 0, name: 'cafe.exe', isFavorite: true},
-  {id: 1, name: 'KafaKafe', isFavorite: false},
-  {id: 2, name: 'BugG', isFavorite: false},
-  {id: 3, name: 'Rock`n Coke', isFavorite: true},
-  {id: 4, name: 'do(drink)', isFavorite: false},
-  {id: 5, name: 'esc', isFavorite: false},
-];
+import {SafeAreaView, View, FlatList, StyleSheet} from 'react-native';
+import music_data from './music-data.json';
+import SongCard from './components/SongCard';
+import SearchBar from './components/SearchBar';
 
 function App() {
-  const [cafeList, setCafeList] = useState(data);
-  const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
+  const [list, setList] = useState(music_data);
 
-  function onFavoritesChange(isFavoriteSelected) {
-    setShowOnlyFavorites(isFavoriteSelected);
-    isFavoriteSelected
-      ? setCafeList(cafeList.filter(cafe => cafe.isFavorite))
-      : setCafeList(data);
-  }
+  const renderSong = ({item}) => <SongCard song={item} />;
 
-  const renderCafe = ({item}) => {
-    return (
-      <View style={styles.cafe_container}>
-        <Text style={styles.cafe_title}>{item.name}</Text>
-      </View>
-    );
+  const renderSeperator = () => <View style={styles.seperator} />;
+
+  const handleSearch = text => {
+    const filteredList = music_data.filter(song => {
+      const searcedText = text.toLowerCase();
+      const currentTitle = song.title.toLowerCase();
+
+      return currentTitle.indexOf(searcedText) > -1;
+    });
+
+    setList(filteredList);
   };
 
   return (
     <SafeAreaView style={styles.container}>
-      <View style={styles.favorite_container}>
-        <Text style={styles.favorite_title}>Show Only Favorites</Text>
-        <Switch value={showOnlyFavorites} onValueChange={onFavoritesChange} />
-      </View>
-      <FlatList data={cafeList} renderItem={renderCafe} />
+      <SearchBar onSearch={handleSearch} />
+      <FlatList
+        keyExtractor={item => item.id}
+        data={list}
+        renderItem={renderSong}
+        ItemSeparatorComponent={renderSeperator}
+      />
     </SafeAreaView>
   );
 }
@@ -50,29 +38,9 @@ function App() {
 export default App;
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-  favorite_container: {
-    justifyContent: 'center',
-    padding: 10,
-    alignItems: 'center',
-  },
-  favorite_title: {
-    fontWeight: 'bold',
-    margin: 5,
-  },
-  cafe_container: {
-    margin: 10,
-    borderRadius: 8,
-    borderColor: '#bdbdbd',
-    backgroundColor: '#eceff1',
+  container: {flex: 1},
+  seperator: {
     borderWidth: 1,
-    padding: 5,
-  },
-  cafe_title: {
-    fontSize: 25,
-    margin: 10,
-    color: '#263238',
+    borderColor: '#e0e0e0',
   },
 });
