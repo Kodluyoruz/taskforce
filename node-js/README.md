@@ -35,3 +35,4 @@
 - [Template Engine Kavramı](TemplateEngine/)
 - [Clean Blog Proje - 2. Bölüm - Ödev 8](odev8/)
 - [MongoDB Giriş](MongoDBIntro/)
+- [MongoDB - Compass Kurulumu](MongoDBCompassSetup/)
