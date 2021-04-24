@@ -38,3 +38,4 @@
 - [MongoDB - Compass Kurulumu](MongoDBCompassSetup/)
 - [Mongoose CRUD](MongooseCRUD/)
 - [Request Body Nesnesi](RequestBody/)
+- [Model ve Dinamik İçerik](ModelAndDynamicContent/)
