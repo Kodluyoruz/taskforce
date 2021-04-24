@@ -25,9 +25,13 @@ veritabları arasındaki farkları sıralamak istersek:
 | **Joins** | gerekli      |   gerekli değil |
 | **Örnekleri** | MySQL, MSQL, PostgreSQL ...      |   MongoDB, CouchDB, Redis ... |
 
+SQL ve NoSQL kavramlarını karşılaştırısak:
+![alt text](https://github.com/Kodluyoruz/taskforce/blob/node.js/node-js/MongoDBIntro/figures/MongoDB.PNG)
+
 ## MongoDB
 
 Biz bu uygulamamızda bir **NoSQL** bir veritabanı olan **MongoDB** veritabanını kullanacağız. Genle bir tanım vermek istersek: MongoDB, döküman tabanlı,
 genel amaçlı kullanıma uygun, dağıtık bir veritabanı yazılımıdır. Özellikle modern bulut uygulamalarında sıklıkla kullanılır.
+
 
 `https://www.mongodb.com/try/download/community` adresinden işletim sistemine uygun versiyonu indirebilirsiniz.
