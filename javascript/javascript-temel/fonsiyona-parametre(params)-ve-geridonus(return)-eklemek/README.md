@@ -198,7 +198,7 @@ A) Undefined
 
 B) What is your favorite author?
 
-C) Cemre are you inretesed in nodejs?
+C) Cemre are you interested in nodejs?
 
 doğru cevap: C 
 
