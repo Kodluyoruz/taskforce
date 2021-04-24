@@ -29,4 +29,15 @@ app.set("view engine", "ejs");
 ```
 
 EJS modülü template dosyaları görebilmek için varsayılan olarak `views` klasörünün içerisindeki .ejs uzantılı dosyalara bakar. Bu ne denle temp dosyamızın 
-ismini views olarak değiştiriyoruz. Videws klasörü içerisindeki tüm .html uzantılarını .ejs olarak değiştiriyoruz.
+ismini views olarak değiştiriyoruz. Videws klasörü içerisindeki tüm .html uzantılarını .ejs olarak değiştiriyoruz. Uygulamamızdaki .get metodunu
+düzenlersek, bu şekilde '/' isteğine karşılık index.ejs dosyasını render ederiz.
+
+```javascript
+app.get("/", (req, res) => {
+  res.render('index');
+});
+```
+
+`http://localhost:3000/` adresine tarayıcımızdan istek gönderdiğimizde index sayfamızı başarılı bir şekilde görebileceğiz. Yalnız burada tüm .ejs dosyalarını
+incelediğimizde bazı ortak bölümlerin bulunduğunu görebiliriz. Bu ortak alanları views/partials klasörünün içerisine yerleştireceğiz. Burada yapmamız gereken 
+`_header.ejs`, `_footer.ejs`, `_navigation.ejs`  dosyalarını oluşturarak ortak kod bölümlerini buraya yapıştıralım.
