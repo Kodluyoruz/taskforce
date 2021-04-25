@@ -40,3 +40,5 @@
 - [Request Body Nesnesi](RequestBody/)
 - [Model ve Dinamik İçerik](ModelAndDynamicContent/)
 - [Clean Blog Proje - 3. Bölüm - Ödev 9](odev9/)
+- [Tekil Fotoğraf Sayfaları](SinglePhotoPages/)
+- [Clean Blog Proje - 4. Bölüm - Ödev 10](odev10/)
