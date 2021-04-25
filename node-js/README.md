@@ -45,3 +45,7 @@
 - [Görsel Yüklemek](UploadImage/)
 - [Fotoğraf Bilgisi Güncellemek](UpdatePhoto/)
 - [Fotoğraf Silmek](DeletePhoto/)
+- [MVC Yeniden Düzenleme](MVCRefactoring/)
+- [Clean Blog Proje - 5. Bölüm - Ödev 11](odev11/)
+- [PCAT Sayfalama](PCATPagination/)
+- [Heroku - MongoDB Atlas Deployment](HerokuDeployment/)
