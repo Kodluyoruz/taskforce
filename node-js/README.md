@@ -49,3 +49,4 @@
 - [Clean Blog Proje - 5. Bölüm - Ödev 11](odev11/)
 - [PCAT Sayfalama](PCATPagination/)
 - [Heroku - MongoDB Atlas Deployment](HerokuDeployment/)
+- [Clean Blog Proje - 6. Bölüm - Ödev 12](odev12/)
