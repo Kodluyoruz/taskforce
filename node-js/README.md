@@ -43,3 +43,4 @@
 - [Tekil Fotoğraf Sayfaları](SinglePhotoPages/)
 - [Clean Blog Proje - 4. Bölüm - Ödev 10](odev10/)
 - [Görsel Yüklemek](UploadImage/)
+- [Fotoğraf Bilgisi Güncellemek](UpdatePhoto/)
