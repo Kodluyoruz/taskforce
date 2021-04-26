@@ -104,7 +104,7 @@ Verilen formüle göre **vücut kitle indeksi** hesaplayan ve hesapladığı de�
 
 Fonksiyon parametreleri prompt ile kullanıcıdan alınmalı.
 
-**Formül:** *vki = kg/m \* m*
+**Formül:** *vki = kg/(m \* m*)
 
 **İstenilenler:**
 
