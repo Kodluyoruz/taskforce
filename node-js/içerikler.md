@@ -262,3 +262,20 @@ bahsettik.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Node.js'in çalışma yapısında çok önemli yerler tutan NPM ve Package.json kavramları üzerine konuştuk.
+### [Bir Web Sunucusu Yazmak](CreateAWebServer/)
+#### Sorular
+1. Node.js http modülü sunucu oluşturmak için hangi metodu kullanır?
+	- findServer
+	- listenServer
+	- writeServer
+	- server
+	- createServer (Doğru)
+2. Node.js http modülü ile url değişimleri hangi özellik ile yakalanır?
+	- res.url
+	- req.url (Doğru)
+	- url
+	- req
+	- res
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Node.js'in çekirdek modülü olan http modülü ile kendi web sunucumuzu oluşturmak üzerine konuştuk.
