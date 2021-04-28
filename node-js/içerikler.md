@@ -354,3 +354,24 @@ app.put('/', function (req, res) {
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Express.js ve Nodemon paketlerinin kurulumu tamamlandı ve bu paketlerin temelleri üzerine konuşuldu.
+### [Clean Blog Proje - 1. Bölüm - Ödev 7](odev7/)
+- Bu ödevde; Clean Blog projejisinin aşağıdaki özelliklerini yapmaya çalışacağız.
+	- CleanBlog proje klasörünü oluşturalım.
+	- Package.json dosyasını oluşturalım.
+	- Prettier ayarlarını yapalım.(İsteğe bağlı)
+	- Express ve Nodemon modüllerini indirelim.
+	- `git init` ile lokal repomuzu oluşturalım.
+	- get request içerisinde const blog = { id: 1, title: "Blog title", description: "Blog description" }, içeriğini gönderelim.
+	- .gitignore dosyası oluşturalım ve ilk repomuzu gönderelim.
+### [Statik Dosyalar - Middleware Giriş](StaticFilesMiddleware/)
+#### Sorular
+1. Middleware yapısı ile ilgili aşağıdakilerden hangisi söylenemez?
+	- Request nesnesinde değişiklik yapabilir.
+	- Response nesnesinde değişiklik yapabilir.
+	- Sadece bir sefer kullanılır. (Doğru)
+	- Request - Response döngüsünü sonlandırabilir.
+	- next metodu kullanılabilir.
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; projemizin staik dosyalarının nasıl kaydedileceğini üzerine konuştuk. Middleware kavramı nedir, nasıl kullanırız konularından
+bahsettik.
