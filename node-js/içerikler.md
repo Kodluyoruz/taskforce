@@ -223,3 +223,23 @@ tekrarını yapacağız.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Node.js'in en önemli konu başlıklarından olan modül kavramı ve kullanım avantajları üzerine konuştuk.
+### [Ödev 3 - Daire Modülü](odev3/)
+- Bu ödevde; Node.js çalışma ortamı için kendi modülümüzü oluşturup bu modülü nasıl kullanacağımız bilgisini kullanacağız.
+### [FS Modülü Kullanımı](FSModule/)
+#### Sorular
+1. Node.js fs modülünde yeni bir klasör oluşturmak için hangi fonksiyon kullanılır?
+	- fs.readFile
+	- fs.writeFile
+	- fs.mkdir (Doğru)
+	- fs.readFileSync
+	- fs.unlink
+2. Node.js fs modülünde dosya silmek için hangi fonksiyon kullanılır?
+	- fs.rmdir
+	- rm.deleteFile
+	- rm.removeFile
+	- fs.unlink (Doğru)
+	- fs.appendFile
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Node.js Javascript çalışma ortamının en önemli çekirdek modülü olan "fs" modülü üzerine konuştuk. Ayrıca çekirdek modülü nedir ondan da
+bahsettik.
