@@ -173,3 +173,7 @@ this
 ```
 Promise
 ``` 
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Javascript'te kullanılan asenkron tasarım şablonlarından olan **promise** yapısı üzerine konuştuk. Callback fonksiyonlara göre
+avantajları nelerdir ondan bahsettik.
