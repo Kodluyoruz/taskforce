@@ -37,6 +37,7 @@
 - [Clean Blog Proje - 2. Bölüm - Ödev 8](odev8/)
 - [MongoDB Giriş](MongoDBIntro/)
 - [MongoDB - Compass Kurulumu](MongoDBCompassSetup/)
+- [MongoDB - CRUD İşlemleri](MongoDBCRUD/)
 - [Mongoose CRUD](MongooseCRUD/)
 - [Request Body Nesnesi](RequestBody/)
 - [Model ve Dinamik İçerik](ModelAndDynamicContent/)
