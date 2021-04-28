@@ -177,3 +177,21 @@ Promise
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Javascript'te kullanılan asenkron tasarım şablonlarından olan **promise** yapısı üzerine konuştuk. Callback fonksiyonlara göre
 avantajları nelerdir ondan bahsettik.
+### [Async - Await Yapısı](AsyncAwait/)
+#### Sorular
+1. Bir fonksiyon async anahtar kelimesi ile birlikte tanımlanırsa, fonksiyonun olumlu sonuçlanması sonucunda ne dönüşü olur?
+	- undefined döner.
+	- argümanlarını döner.
+	- promise döner. (Doğru)
+	- birşey dönmez.
+	- null döner.
+2. Bir async fonksiyon await anahtar kelimesi ile birlikte kullanılırsa ......... ?
+	- İlgili Promise olumlu bir şekilde dönene kadar async fonksiyonunun çalışması bekletilir. (Doğru)
+	- Fonksiyon daha öncelikli olarak çalışır.
+	- Sıradaki fonksiyona geçilir.
+	- Reject olur.
+	- Resolve olur.
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Javascript'te kullanılan asenkron tasarım şablonlarından olan **async await** yapısı üzerine konuştuk. Promise yapısı göre
+avantajları nelerdir ondan bahsettik.
