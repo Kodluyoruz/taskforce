@@ -127,3 +127,7 @@ console.log("3. gelen veri: ", x);
 2. gelen veri:  15
 3. gelen veri:  15
 ``` 
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Javascript'te kullanılan asenkron tasarım şablonlarından olan **callback** -geri çağrılan- fonksyionlar üzerine konuştuk. Nedir, neden kullanırız 
+ve sonrasında örnek çalışma ile konuyu pekiştirmeye çalıştık.
