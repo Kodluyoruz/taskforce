@@ -195,3 +195,14 @@ avantajları nelerdir ondan bahsettik.
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Javascript'te kullanılan asenkron tasarım şablonlarından olan **async await** yapısı üzerine konuştuk. Promise yapısı göre
 avantajları nelerdir ondan bahsettik.
+### [Ödev 2 - Post Sıralama ve Post Ekleme](odev2/)
+- Bu ödevde; Node.js'in asenkron doğası hakkında örnek bir çalışma yapacağız. "Post Sıralama ve Post Ekleme" ile Promise ve Async-Await yapılarının
+tekrarını yapacağız. 
+## Node.js Temelleri
+### [Olay Odaklı - Bloklamayan](EventDrivenNonBlocking/)
+#### Sorular
+1. Yok.
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Node.js Javascript çalışma ortamının son olarak olarak olay tabanlı ve bloklamayan tsanımları üzerine konuştuk. Node.js neden bloklamayan şekilde
+çalışır, olay döngüsü nedir gibi soruları cevaplamaya çalıştık.
