@@ -246,3 +246,19 @@ bahsettik.
 ### [Ödev 4 - FS Modülü Çalışması](odev4/)
 - Bu ödevde; Node.js çekirdek modülü olan "fs" modülü hakkındaki bilgilerimizi pekiştirmeye çalışacağız.
 ### [NPM ve Package.json Kavramları](NPMPackageJson/)
+#### Sorular
+1. NPM komutları ile aşağıdakilerden hangisini yapamayız? 
+	- Node.js çekirdek paketlerini indirmek. (Doğru)
+	- Yeni paketler yüklemek.
+	- Varolan paketleri silmek.
+	- Paketleri güncellemek.
+	- Paketleri listelemek.
+2. Package.json dosyası hangi bilgiyi taşımaz?
+	- Proje ismi.
+	- Proje başlangıç dosyası.
+	- İndirilen paket isimleri.
+	- Projede kullanılan tüm js dosyalarının listesi. (Doğru)
+	- Proje versiyonu.
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Node.js'in çalışma yapısında çok önemli yerler tutan NPM ve Package.json kavramları üzerine konuştuk.
