@@ -206,3 +206,20 @@ tekrarını yapacağız.
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Node.js Javascript çalışma ortamının son olarak olarak olay tabanlı ve bloklamayan tsanımları üzerine konuştuk. Node.js neden bloklamayan şekilde
 çalışır, olay döngüsü nedir gibi soruları cevaplamaya çalıştık.
+### [Modül Kavramı](WhatIsAModule/)
+#### Sorular
+1. Node.js uygulamalarında modül kavramının sıklıkla kullanılmasının nedeni aşağıdakilerden hangisi değildir?
+	- Kod hatalarının daha kolay yakalanması.
+	- Kod yönetiminin daha kolay sağlanması.
+	- Modül haline getirilen Javascript kodun tekrar tekrar kullanılabilmesi.
+	- İşlevlerin farklı dosyalara dağıtılması.
+	- Daha az .js uzantılı dosya oluşturulması. (Doğru)
+2. const { func1, func2 } = require('./otherFile'); şeklinde alınan fonksiyonların kullanımı nasıl olur?
+	- import func1(), func2()
+	- require func1(), func2()
+	- export func1(), func2()
+	- func1(), func2() (Doğru)
+	- module.export func1(), func2()
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Node.js'in en önemli konu başlıklarından olan modül kavramı ve kullanım avantajları üzerine konuştuk.
