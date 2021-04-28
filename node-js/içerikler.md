@@ -243,3 +243,6 @@ tekrarını yapacağız.
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Node.js Javascript çalışma ortamının en önemli çekirdek modülü olan "fs" modülü üzerine konuştuk. Ayrıca çekirdek modülü nedir ondan da
 bahsettik.
+### [Ödev 4 - FS Modülü Çalışması](odev4/)
+- Bu ödevde; Node.js çekirdek modülü olan "fs" modülü hakkındaki bilgilerimizi pekiştirmeye çalışacağız.
+### [NPM ve Package.json Kavramları](NPMPackageJson/)
