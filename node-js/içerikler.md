@@ -87,6 +87,8 @@ bundan da bahsettik. Node.js neden asenkron doğaya sahiptir sorusunu cevaplamay
 	- Await anahtar kelimesi kullanılır.
 	- Async anahtar kelimesi kullaılmalıdır.
 
+
+2. Aşağıdaki kod blokunun çıktısı nasıldır?
 ```javascript
  
 let x = 5;
@@ -100,7 +102,7 @@ setTimeout(() => {
 x = x + 5;
 console.log("3. gelen veri: ", x); 
 ```
-2. Yukarıdaki kod blokunun çıktısı nasıldır?
+
 ```
 1. gelen veri:  5
 3. gelen veri:  10
@@ -131,3 +133,43 @@ console.log("3. gelen veri: ", x);
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Javascript'te kullanılan asenkron tasarım şablonlarından olan **callback** -geri çağrılan- fonksyionlar üzerine konuştuk. Nedir, neden kullanırız 
 ve sonrasında örnek çalışma ile konuyu pekiştirmeye çalıştık.
+### [Promise Nedir?](WhatIsPromise/)
+#### Sorular
+1. Promise yapısı ile ilgili aşağıdakilerden hangisi söylenemez?
+	- Promise tamamlandığında resolve parametresi çağırılabilir.
+	- Promise tamamlandığında reject parametresi çağırılabilir.
+	- Executor fonksiyonu ile oluşturulur.
+	- Resolve ve Reject sonuçlarını birlikte dönebilir. (Doğru)
+	- Bir Javascript nesnesidir.
+2. Aşağıdaki kod blokunun çıktısı nasıldır?
+```javascript
+ 
+const promise1 = new Promise((resolve, reject) => {
+  reject("BAĞLANTI HATASI");
+});
+
+promise1
+  .then((value) => {
+    console.log(value);
+  })
+  .?????((error) => {
+    console.log(error);
+  }); kodunun çalıştırılması sonucunda ????? yerine ne yazılmalıdır?
+```
+
+```
+catch
+(Doğru)
+``` 
+```
+then
+``` 
+```
+return
+``` 
+```
+this
+``` 
+```
+Promise
+``` 
