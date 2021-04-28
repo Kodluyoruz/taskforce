@@ -331,3 +331,26 @@ app.put('/', function (req, res) {
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; PCAT projesinin genel yapısı ve pratiğini yapacağımız genel konular üzerine konuştuk.
+### [PCAT Projesi Çalışma Ortamı](PCATWorkspace/)
+#### Sorular
+1. Yok.
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; PCAT projesinin çalışma ortamını oluşturduk. Prettier ve GitHub ayarlarını tamamladık.
+### [PCAT Projesi Express Nodemon Kurulumu](PCATExpressNodemon/)
+#### Sorular
+1. --save-dev flagı ne için kullanılır?
+	- Modülü silmek.
+	- Web sunucusunu indirmek.
+	- Uygulamamızın modüle geliştirme aşamasında bağımlı olduğunu belirtmek. (Doğru)
+	- Web sunucusunu başlatmak.
+	- Uygulamanın çalışması için modülün gerekli olduğunu belirtmek.
+2. Nodemon modülü ne için kullanılır?
+	- Farklı modülleri indirmek.
+	- Sunucunun kod değişiklikleri sonucunda çalışmasını yeniden başlatması. (Doğru)
+	- İndirilen tüm modüllerin kaydedilmesini sağlamak.
+	- Tüm modüllerin geliştime amaçlı indirileceğini belirtmek.
+	- Yeni modül indirilmesini engellemek.
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Express.js ve Nodemon paketlerinin kurulumu tamamlandı ve bu paketlerin temelleri üzerine konuşuldu.
