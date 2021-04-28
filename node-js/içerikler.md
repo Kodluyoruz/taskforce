@@ -522,3 +522,43 @@ const StudentSchema = new Schema({
 	- app.js içerisinde GET metoduyla "/posts/:id" ile gönderilen "_id" yi yakalayalım. .
 	- tekil post bilgilerini post.ejs dosyasına gönderelim.
 	- post.ejs içerisine post.title, post.detail ve post.dateCreated bilgilerini gönderelim. (her bir post için ayrı image kullanmayacağız)
+### [Görsel Yüklemek](UploadImage/)
+#### Sorular
+1. <input name="test" type="file" /> görsel input alanı sonucunda elde edilen req.files.test nesnesi ile görsele ait hangi bilgiye ulaşılamaz?
+	- Görselin dosya ismine 
+	- body bilgisine (Doğru)
+	- mv fonksiyonuna
+	- "size" özelliğine
+	- md5 checksum özelliğine
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; projemize görsel yüklerken yapılması gereken işlemler üzerine konuştuk.
+### [Fotoğraf Bilgisi Güncellemek](UpdatePhoto/)
+#### Sorular
+1. Yok.
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; projemizdeki tekil fotoğraf bilgilerinin nasıl güncelleyeceğimiz üzerine konuştuk.
+### [Fotoğraf Silmek](DeletePhoto/)
+#### Sorular
+1. Yok.
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; projemizdeki tekil fotoğraf sayfalarının nasıl silineceği üzerine konuştuk.
+### [MVC Yeniden Düzenleme](MVCRefactoring/)
+#### Sorular
+1. Uygulamada Schema düzenlenmesi hangi kod bölümünde yapılır?
+	- Controller
+	- Route
+	- Model (Doğru)
+	- View
+	- Template
+2. Hangisi Node.js uygulamalarında MVC tasarım şablonu kullanılmasının sebeplerinden değildir?
+	- Uygulama dosya yapısını düzenlemek.
+	- Uygulama hatalarının daha kolay yakalanmasını sağlamak.
+	- Tüm kodu tek bir dosya içerisinde toplamak. (Doğru)
+	- app.js dosyası içerisinde model oluşturmak.
+	- Yönlendirmeler ve ilgili fonksiyonları farklı dosyalar içerisinde yapmak.
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; projemizin MVC yeniden düzenlenmesinin nasıl yapılacağı üzerine konuştuk. Aynı zamanda neden MVC düzenlememiz yapılır ondan bahsettik.
