@@ -279,3 +279,40 @@ bahsettik.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Node.js'in çekirdek modülü olan http modülü ile kendi web sunucumuzu oluşturmak üzerine konuştuk.
+### [Ödev 5 - Kendi Web Sunucumuz](odev5/)
+- Bu ödevde; Node.js çekirdek modülü olan "http" modülü ile web sunucusu oluşturma bilgilerimizi pekiştireceğiz.
+### [Express.js Giriş](WhatIsExpress/)
+#### Sorular
+1. Express.js ile '/' adresine bir post request gönderelim ve cevap olarak 'POST Request' yazdıralım. Hangi kod bu işlemi yapar?
+```
+app.post('/', function (req, res) {
+  res.send('POST Request')
+})
+(Doğru)
+``` 
+```
+app.get('/', function (req, res) {
+  res.send('POST Request')
+})
+``` 
+```
+app.get('/', function (req, res) {
+  console.log('POST Request')
+})
+``` 
+```
+app.post('/', function (req, res) {
+  console.log('POST Request')
+})
+``` 
+```
+app.put('/', function (req, res) {
+  res.send('POST Request')
+})
+``` 
+2. Aşağıdaki hangi paket ile bir web sunucusu oluşturulamaz?
+	- http modülü
+	- fs modülü (Doğru)
+	- express.js
+	- koa.js
+	- hapi.js
