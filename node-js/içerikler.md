@@ -324,3 +324,10 @@ app.put('/', function (req, res) {
 	- hapi.js
 ### [Ödev 6 - Koa.js ile Web Sunucusu Yazımı](odev6/)
 - Bu ödevde; Node.js üzerine yazılımı başka bir çatı olan Koa.js ile bir web sunucusu oluşturmaya çalışacağız.
+## PCAT Projesi
+### [PCAT Proje Tanıtımı](PCATProject/)
+#### Sorular
+1. Yok.
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; PCAT projesinin genel yapısı ve pratiğini yapacağımız genel konular üzerine konuştuk.
