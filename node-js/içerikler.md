@@ -562,3 +562,9 @@ const StudentSchema = new Schema({
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; projemizin MVC yeniden düzenlenmesinin nasıl yapılacağı üzerine konuştuk. Aynı zamanda neden MVC düzenlememiz yapılır ondan bahsettik.
+### [Clean Blog Proje - 5. Bölüm - Ödev 11](odev11/)
+- Bu ödevde; Clean Blog projejisinin aşağıdaki özelliklerini yapmaya çalışacağız.
+	- post.ejs template içerisinde UPDATE ve DELETE butonu oluşturalım.
+	- Herhangi bir post verisini güncellemek için gerekli çalışmaları yapalım.
+	- Herhangi bir post verisini silmek için gerekli çalışmaları yapalım.
+	- Kodumuzu MVC yapısına göre tekrar düzenleyelim.
