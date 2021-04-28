@@ -392,3 +392,29 @@ bahsettik.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Template Engine kavramı nedir? Projemizde nasıl kullanırız ve avantajları nedir üzerine konuştuk.
+### [Clean Blog Proje - 2. Bölüm - Ödev 8](odev8/)
+- Bu ödevde; Clean Blog projejisinin aşağıdaki özelliklerini yapmaya çalışacağız.
+	- Public klasörü oluşturup statik dosyalarımızı içerisine yerleştirelim.
+	- İlgili middleware fonksiyonunu yazarak public klasörümüzü uygulamamıza kaydedelim.
+	- EJS modülünü indirelim.
+	- Uygulamamızda EJS modülünü kullanacağımızı belirtelim.
+	- Views klasörü oluşturalım ve tüm .html dosyalarımız views klasörü içerisinde .ejs dosyalarına çevirelim.
+	- Partials klasör yapısını oluşturalım.
+	- İlgili yönlendirmeleri ve _navigation.ejs klasöründeki link düzenlemelerini yapalım.
+### [MongoDB Giriş](MongoDBIntro/)
+#### Sorular
+1. Aşağıdakilerden hangisi bir NoSQL veritabanı değildir?
+	- MongoDB
+	- CouchDB
+	- Redis
+	- PostgreSQL (Doğru)
+	- DynamoDB
+2. Aşağıdakilerden hangisi MongoDB özelliklerinden değildir?
+	- NoSQL bir veritabanıdır.
+	- Katı Schema yapısına sahiptir. (Doğru)
+	- Döküman tabanlıdır.
+	- Dağıtık bir veritabanıdır.
+	- Yatay olarak ölçeklenebilir.
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; MongoDB veri tabanı nedir üzerine genel bir tanımlama yapıldı. SQL ve NoSQL veritabanı şablonları arasındaki farklardan bahsedildi.
