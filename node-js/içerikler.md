@@ -425,3 +425,20 @@ bahsettik.
 1. (Youtube adresi yazılacak)
 	- Bu videoda; MongoDB veritabanı kurulumu üzerine konuştuk. Ayrıca MongoDB veritabanıyla ile birlikte çok sıklıkla kullanılan bir grafik arayüz 
 olan Compass kurulumu da yapıldı.
+### [MongoDB - CRUD İşlemleri](MongoDBCRUD/)
+#### Sorular
+1. Tek döküman oluşturmak için hangi fonksiyon kullanılır?
+	- insertOne (Doğru)
+	- insertMany
+	- find
+	- deleteOne
+	- remove
+2. Aşağıdakilerden hangisi MongoDB özelliklerinden değildir?
+	- deleteOne
+	- deleteMany (Doğru)
+	- insertOne
+	- find
+	- insertMany
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; MongoDB veritabanı ile pratik CRUD işlemleri yapıldı.
