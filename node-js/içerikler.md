@@ -26,3 +26,22 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Node.js yazılımını ve VSCode editörünü indirerek, çalışmalarımızı yapacağımız ortamı kurduk. 
+
+### [Asal Sayılar Çalışması](PrimeNUmbersExample/)
+#### Sorular
+1. Node.JS çalışma ortamında "process.argv[1]" ifadesine ait konsol çıktısı ne olur??
+	- Node.js yazılımına ait dosya yolu.
+	- Çalıştırılan .js dosyasında kullanılacak 3. argüman.
+	- undefined
+	- null
+	- Çalıştırılan .js dosyasına ait dosya yolu. (Doğru)
+2. "process" nesnesi için hangisi söylenemez?
+	- Global bir nesnedir.
+	- Kullanımı için "require()" zorunludur. (Doğru)
+	- Üzerinde çalışılan işlem ile ilgili bilgiler taşır.
+	- Node versiyon bilgisi taşır.
+	- Dosya yolu bilgisi taşır.
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Node.js'in nasıl çalıştığı üzerine bir örnek yaptık. Konsoldan argüman olarak girilen iki sayı arasındaki asla sayıları konsola yazdırdık böylelikle
+artık Javascript kodlarını çalıştırırken tarayıcıya bağımlı olmadığımızı gördük. 
