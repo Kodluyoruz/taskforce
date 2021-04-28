@@ -38,7 +38,7 @@
 - [MongoDB Giriş](MongoDBIntro/)
 - [MongoDB - Compass Kurulumu](MongoDBCompassSetup/)
 - [MongoDB - CRUD İşlemleri](MongoDBCRUD/)
-- [Mongoose CRUD](MongooseCRUD/)
+- [Mongoose CRUD İşlemleri](MongooseCRUD/)
 - [Request Body Nesnesi](RequestBody/)
 - [Model ve Dinamik İçerik](ModelAndDynamicContent/)
 - [Clean Blog Proje - 3. Bölüm - Ödev 9](odev9/)
