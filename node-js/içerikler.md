@@ -442,3 +442,46 @@ olan Compass kurulumu da yapıldı.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; MongoDB veritabanı ile pratik CRUD işlemleri yapıldı.
+### [Mongoose CRUD İşlemleri](MongooseCRUD/)
+#### Sorular
+1. Öğrencilerin isim (name) ve yaş (age) bilgilerinin saklandığı StudentSchema yapısı nasıl olur?
+```
+const StudentSchema = new Schema({
+  name: String,
+  age: String,
+});
+``` 
+```
+new Schema({
+  name: String,
+  age: Number,
+});
+``` 
+```
+const StudentSchema = ({
+  name: String,
+  age: Number,
+});
+``` 
+```
+const StudentSchema = new Schema({
+  name: String,
+  age: Number,
+});
+(Doğru)
+``` 
+```
+const StudentSchema = new Schema({
+  name: 
+  age: 
+});
+``` 
+2. Mongoose ODM ile tek bir veri silmek için hangi fonksiyon kullanılabiliriz?
+	- findOne
+	- replaceOne
+	- deleteOne (Doğru)
+	- updateOne
+	- removeOne
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Mongoose ODM yapısı üzerine konuştuk ve Mongoose ile pratik CRUD işlemleri yapıldı.
