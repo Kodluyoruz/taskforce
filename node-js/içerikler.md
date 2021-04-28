@@ -15,3 +15,14 @@
 	- Asenkron çalışma.
 	- Fonksiyonel programlama.
 	- Olay odaklı çalışma.
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Node.js'in genel tanımı, neden ihtiyaç duyduğumuz ve temel özellikleri üzerine açıklamalar yaptık. 
+
+### [Çalışma Ortamının Kurulması](WorkspaceSetup/)
+#### Sorular
+1. Yok.
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Node.js yazılımını ve VSCode editörünü indirerek, çalışmalarımızı yapacağımız ortamı kurduk. 
