@@ -3,7 +3,7 @@
 ## Node.js Nedir? 
 - [Node.js Nedir?](WhatIsNodeJS/)
 - [Çalışma Ortamının Kurulması](WorkspaceSetup/)
-- [Asal Sayıları Bulmak](PrimeNUmbersExample/)
+- [Asal Sayılar Çalışması](PrimeNUmbersExample/)
 - [Node.js REPL Ortamı](NodejsREPL/)
 - [Ödev 1 - Node.JS Komut Satırı Kullanımı](odev1/)
 
