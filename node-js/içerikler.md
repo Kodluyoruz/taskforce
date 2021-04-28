@@ -417,4 +417,11 @@ bahsettik.
 	- Yatay olarak ölçeklenebilir.
 #### Video
 1. (Youtube adresi yazılacak)
-	- Bu videoda; MongoDB veri tabanı nedir üzerine genel bir tanımlama yapıldı. SQL ve NoSQL veritabanı şablonları arasındaki farklardan bahsedildi.
+	- Bu videoda; MongoDB veritabanı nedir üzerine genel bir tanımlama yapıldı. SQL ve NoSQL veritabanı şablonları arasındaki farklardan bahsedildi.
+### [MongoDB - Compass Kurulumu](MongoDBCompassSetup/)
+#### Sorular
+1. Yok
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; MongoDB veritabanı kurulumu üzerine konuştuk. Ayrıca MongoDB veritabanıyla ile birlikte çok sıklıkla kullanılan bir grafik arayüz 
+olan Compass kurulumu da yapıldı.
