@@ -78,3 +78,52 @@ artık Javascript kodlarını çalıştırırken tarayıcıya bağımlı olmadı
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Asenkron programlama ve bu programlama tekniğinin Node.js için anlamı hakkında konuştuk. Hangi Javascript konuları bizim açımızdan önemlidir 
 bundan da bahsettik. Node.js neden asenkron doğaya sahiptir sorusunu cevaplamaya çalıştık.
+### [Callback Nedir?](WhatIsCallback/)
+#### Sorular
+1. Callback fonksiyon için aşağıdakilerden hangisi söylenebilir?
+	- Başka bir fonksiyon içerisinde argüman olarak kullanılabilen fonksiyondur. (Doğru)
+	- Yüksek seviyeli bir fonksiyon olmak zorundadır.
+	- Bir Promise dönmek zorunludur.
+	- Await anahtar kelimesi kullanılır.
+	- Async anahtar kelimesi kullaılmalıdır.
+
+```javascript
+ 
+let x = 5;
+console.log("1. gelen veri: ", x);
+
+setTimeout(() => {
+  x = x + 5;
+  console.log("2. gelen veri: ", x);
+}, 5000);
+
+x = x + 5;
+console.log("3. gelen veri: ", x); 
+```
+2. Yukarıdaki kod blokunun çıktısı nasıldır?
+```
+1. gelen veri:  5
+3. gelen veri:  10
+2. gelen veri:  15
+(Doğru)
+``` 
+```
+1. gelen veri:  5
+3. gelen veri:  15
+2. gelen veri:  10
+``` 
+```
+1. gelen veri:  5
+2. gelen veri:  10
+3. gelen veri:  15
+``` 
+```
+1. gelen veri:  5
+2. gelen veri:  5
+3. gelen veri:  5
+``` 
+```
+1. gelen veri:  15
+2. gelen veri:  15
+3. gelen veri:  15
+``` 
