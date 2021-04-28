@@ -504,7 +504,7 @@ const StudentSchema = new Schema({
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Model kavramı içeriklerimizi nasıl dinamik olarak veritabanından alabileceğimiz üzerine konuştuk.
 ### [Clean Blog Proje - 3. Bölüm - Ödev 9](odev9/)
-	- Bu ödevde; Clean Blog projejisinin aşağıdaki özelliklerini yapmaya çalışacağız.
+- Bu ödevde; Clean Blog projejisinin aşağıdaki özelliklerini yapmaya çalışacağız.
 	- cleanblog-test-db adında bir veri tabanı için mongoose ile gerekli bağlantı bilgilerini yazalım.
 	- "Add New Post" sayfamızdan göndericeğimiz veriler req.body ile yakalayalım, gerekli middleware fonksiyonarını kullanalım.
 	- title:String, detail:String, dateCreated:Date(default now) özelliklerine sahip `Post` modelini oluşturalım.
