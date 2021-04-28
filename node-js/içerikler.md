@@ -262,6 +262,12 @@ bahsettik.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Node.js'in çalışma yapısında çok önemli yerler tutan NPM ve Package.json kavramları üzerine konuştuk.
+### [Request - Response Döngüsü](RequestResponseLoop/)
+#### Sorular
+1. Yok.
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Node.js çalışma ortamının en önemli çalışma alanlarından olan WEB'in nasıl çalıştığına dair özet bir çalışma yaptık.
 ### [Bir Web Sunucusu Yazmak](CreateAWebServer/)
 #### Sorular
 1. Node.js http modülü sunucu oluşturmak için hangi metodu kullanır?
@@ -316,3 +322,5 @@ app.put('/', function (req, res) {
 	- express.js
 	- koa.js
 	- hapi.js
+### [Ödev 6 - Koa.js ile Web Sunucusu Yazımı](odev6/)
+- Bu ödevde; Node.js üzerine yazılımı başka bir çatı olan Koa.js ile bir web sunucusu oluşturmaya çalışacağız.
