@@ -373,5 +373,22 @@ app.put('/', function (req, res) {
 	- next metodu kullanılabilir.
 #### Video
 1. (Youtube adresi yazılacak)
-	- Bu videoda; projemizin staik dosyalarının nasıl kaydedileceğini üzerine konuştuk. Middleware kavramı nedir, nasıl kullanırız konularından
+	- Bu videoda; projemizin statik dosyalarının nasıl kaydedileceğini üzerine konuştuk. Middleware kavramı nedir, nasıl kullanırız konularından
 bahsettik.
+### [Template Engine Kavramı](TemplateEngine/)
+#### Sorular
+1. Template Engine ile hangisini yapamayız?
+	- app.js içerisine html kodları yazılabilir. (Doğru)
+	- Dinamik içerikleri gösterebiliriz.
+	- Statik içerikleri gösterebiliriz.
+	- Değişken değerlerini gösterebilir.
+	- Saf Javascript kodu yazılabilir.
+2. Template Engine yapısı içerisindeki partials klasörü kullanmamızın amacı nedir?
+	- Template dosyalarının tamamını tek bir klasör içerine yerleştirmek.
+	- Saf javascript kodlarını bu klasör içerisine yerleştirmek.
+	- İlgili template dosyasına ait kodları yazmak.
+	- Tüm template kodlarını tek bir klasöre yerleştirmek.
+	- Ortak kullanılan kod parçalarının tekrar tekrar yazılmasını önlemek. (Doğru)
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Template Engine kavramı nedir? Projemizde nasıl kullanırız ve avantajları nedir üzerine konuştuk.
