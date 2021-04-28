@@ -485,3 +485,15 @@ const StudentSchema = new Schema({
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Mongoose ODM yapısı üzerine konuştuk ve Mongoose ile pratik CRUD işlemleri yapıldı.
+### [Request Body Nesnesi](RequestBody/)
+#### Sorular
+1. Node.js uygulamalarında bir formdan veri gönderilmesi sırasında hangi HTTP metodu kullanılır?
+	- GET
+	- PUT
+	- PATCH
+	- DELETE
+	- POST (Doğru)
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Tarayıcı içerisindeki bilgileri nasıl body özelliği ile yakalayacağımız üzerine konuştuk.
