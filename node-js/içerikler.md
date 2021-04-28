@@ -568,3 +568,19 @@ const StudentSchema = new Schema({
 	- Herhangi bir post verisini güncellemek için gerekli çalışmaları yapalım.
 	- Herhangi bir post verisini silmek için gerekli çalışmaları yapalım.
 	- Kodumuzu MVC yapısına göre tekrar düzenleyelim.
+### [PCAT Sayfalama](PCATPagination/)
+#### Sorular
+1. Yok.
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; projemizdeki sayfalama özelliğinin nasıl yapılacağı üzerine konuştuk.
+### [Heroku - MongoDB Atlas Deployment](HerokuDeployment/)
+#### Sorular
+1. Yok.
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; projemizin Heroku ortamına nasıl yükleneceği üzerine konuştuk. Aynı zamanda MongoDB Atlas bulut veritabanından faydalandık.
+### [Clean Blog Proje - 6. Bölüm - Ödev 12](odev12/)
+- Bu ödevde; Clean Blog projejisinin aşağıdaki özelliklerini yapmaya çalışacağız.
+	- Uygulamamızı HEROKU ve MongoDB Atlas ücresiz servislerini kullanarak yükleyelim.
+	- Not: Uygulamamızda sayfalama ve görsel yükleme işlemlerini yapmadık. Sonraki projemizde de bu özellikleri kullanacağız.
