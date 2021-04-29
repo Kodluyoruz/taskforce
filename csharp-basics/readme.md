@@ -20,8 +20,8 @@
 
 ### [Hata Yönetimi ve Kod İzleme](7-hata-yonetimi-ve-kod-izleme/)
 
-- [Try-Catch-Finally ve Mantıksal Hatalar](1-try-catch-finally-ve-mantiksal-hatalar/)
-- [Debugging, Watch ve Variables Penceleri](2-debugging-watch-ve-variables-pencereleri/)
+- [Try-Catch-Finally ve Mantıksal Hatalar](7-hata-yonetimi-ve-kod-izleme/1-try-catch-finally-ve-mantiksal-hatalar/)
+- [Debugging, Watch ve Variables Penceleri](7-hata-yonetimi-ve-kod-izleme/2-debugging-watch-ve-variables-pencereleri/)
 
 
 ### [Karar Yapıları](8-karar-yapilari/)
