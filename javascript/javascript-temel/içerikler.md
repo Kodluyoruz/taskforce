@@ -320,7 +320,7 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 1. Aşağıdakilerden hangisi bir fonksiyona parametre göndermenin doğru yoludur?
 	- Fonksiyon isminden sonra iki adet yıldız karakteri arasına parametreleri yazmak
 	- Fonksiyon isminden sonra boşluk bırakmadan parametreleri yazmak
-	- Fonksiyon isminden sonra küme parantezleri arasına parametreleri yazmak (Doğru)
+	- Fonksiyon isminden sonra yay ayraç arasına parametreleri yazmak (Doğru)
 2. Aşağıda kod bloğunun çıktısı aşağıdakilerden hangisidir ?
 ```javascript
 function Question(hobby) {

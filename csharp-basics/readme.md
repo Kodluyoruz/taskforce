@@ -20,24 +20,24 @@
 
 ### [Hata Yönetimi ve Kod İzleme](7-hata-yonetimi-ve-kod-izleme/)
 
-- [Try-Catch-Finally ve Mantıksal Hatalar](1-try-catch-finally-ve-mantiksal-hatalar/)
-- [Debugging, Watch ve Variables Penceleri](2-debugging-watch-ve-variables-pencereleri/)
+- [Try-Catch-Finally ve Mantıksal Hatalar](7-hata-yonetimi-ve-kod-izleme/1-try-catch-finally-ve-mantiksal-hatalar/)
+- [Debugging, Watch ve Variables Penceleri](7-hata-yonetimi-ve-kod-izleme/2-debugging-watch-ve-variables-pencereleri/)
 
 
 ### [Karar Yapıları](8-karar-yapilari/)
 
-- [If, Else Yapısı ve Ternary If](1-if-else-yapisi-ve-ternary-if/)
-- [Switch Case](3-switch-case/)
+- [If, Else Yapısı ve Ternary If](8-karar-yapilari/1-if-else-yapisi-ve-ternary-if/)
+- [Switch Case](8-karar-yapilari/2-switch-case/)
 
 ### [Döngüler](9-donguler/)
 
-- [For Döngüsü ve Break Continue Anahtar Kelimeleri](1-for-dongusu-break-continue/)
-- [While ve ForEach Döngüleri](2-while-foreach-donguleri/)
+- [For Döngüsü ve Break Continue Anahtar Kelimeleri](9-donguler/1-for-dongusu-break-continue/)
+- [While ve ForEach Döngüleri](9-donguler/2-while-foreach-donguleri/)
 
 ### [Diziler](11-diziler/)
 
-- [Dizi Tanımlama, Dizilere Erişim ve Döngülerle Kullanımı](1-dizi-tanımlama-erişim-ve-döngülerle-kullanım/)
-- [Array Sınıfı ve Methodlari](2-array-sinifi-ve-methodlari/)
+- [Dizi Tanımlama, Dizilere Erişim ve Döngülerle Kullanımı](11-diziler/1-dizi-tanımlama-erişim-ve-döngülerle-kullanım/)
+- [Array Sınıfı ve Methodlari](11-diziler/2-array-sinifi-ve-methodlari/)
 
 ### [Metotlar](12-metotlar/)
 
