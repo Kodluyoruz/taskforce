@@ -41,12 +41,10 @@
 
 ### [Metotlar](12-metotlar/)
 
+
 - [Metot Nedir?](12-metotlar/1-metot-nedir/)
-- [Metot Overload Nedir?](12-metotlar/2-metot-overload-nedir/)
-- [Metot Kullanımları(Geriye Dönüş Yapan ve - Parametre alan vb.)](12-metotlar/3-metot-kullanimlari/)
-- [Metot Detayları (Summary vb.)](12-metotlar/4-metot-detaylari/)
-- [Metotlarda Out ve Ref Parametrelerini Kullanmak](12-metotlar/5-out-ve-ref-kullanimi/)
-- [Extension Metot Kullanımı](12-metotlar/6-extension-metotlar/)
+- [Metot Overload Nedir? Ref ve Out Parametre Kullanımları](12-metotlar/2-metot-overload-nedir-ve-out-ref-kullanimi/)
+- [Extension ve Rekürsif Metot Kullanımı](12-metotlar/3-extension-recursive-metotlar/)
 
 ### [Ödev 1](13-odev-1/)
 
