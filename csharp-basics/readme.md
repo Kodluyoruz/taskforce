@@ -26,18 +26,18 @@
 
 ### [Karar Yapıları](8-karar-yapilari/)
 
-- [If, Else Yapısı ve Ternary If](1-if-else-yapisi-ve-ternary-if/)
-- [Switch Case](3-switch-case/)
+- [If, Else Yapısı ve Ternary If](8-karar-yapilari/1-if-else-yapisi-ve-ternary-if/)
+- [Switch Case](8-karar-yapilari/2-switch-case/)
 
 ### [Döngüler](9-donguler/)
 
-- [For Döngüsü ve Break Continue Anahtar Kelimeleri](1-for-dongusu-break-continue/)
-- [While ve ForEach Döngüleri](2-while-foreach-donguleri/)
+- [For Döngüsü ve Break Continue Anahtar Kelimeleri](9-donguler(1-for-dongusu-break-continue/)
+- [While ve ForEach Döngüleri](9-donguler/2-while-foreach-donguleri/)
 
 ### [Diziler](11-diziler/)
 
-- [Dizi Tanımlama, Dizilere Erişim ve Döngülerle Kullanımı](1-dizi-tanımlama-erişim-ve-döngülerle-kullanım/)
-- [Array Sınıfı ve Methodlari](2-array-sinifi-ve-methodlari/)
+- [Dizi Tanımlama, Dizilere Erişim ve Döngülerle Kullanımı](11-diziler/1-dizi-tanımlama-erişim-ve-döngülerle-kullanım/)
+- [Array Sınıfı ve Methodlari](11-diziler/2-array-sinifi-ve-methodlari/)
 
 ### [Metotlar](12-metotlar/)
 
