@@ -31,7 +31,7 @@
 
 ### [Döngüler](9-donguler/)
 
-- [For Döngüsü ve Break Continue Anahtar Kelimeleri](9-donguler(1-for-dongusu-break-continue/)
+- [For Döngüsü ve Break Continue Anahtar Kelimeleri](9-donguler/1-for-dongusu-break-continue/)
 - [While ve ForEach Döngüleri](9-donguler/2-while-foreach-donguleri/)
 
 ### [Diziler](11-diziler/)
