@@ -17,12 +17,15 @@ Burda sizin ile paylaştığımız veri setleri ile çeşitli toplumsal,ekolojik
 **Veri Seti Link:** https://www.kaggle.com/arashnic/the-depression-dataset  
 
 
-#### 3.Mahsul Üretimi Tahmini #####
-
-**Problem tanımı ve amaç:** Veri seti, Hindistan'da mahsul üretimi hakkında eyalet, bölge, yıl, sezon, mahsul türü, ekim alanı ve üretim miktarı bilgilerini içermektedir. Bu bilgilere dayanarak mahsul üretimini tahmin etmek amaçlanmaktadır. Mahsul hasarının önceden tahmin edilebilmesi için bir tahmin modeli ya da hasarın neye bağlı olduğunu görebileceğimiz bir model kurulabilir. 
+#### 3.Elma Ağaçlarındaki Yaprak Hastalıklarının Belirlenmesi #####
 
 
-**Veri Seti Link:** https://www.kaggle.com/abhinand05/crop-production-in-india
+**Problem tanımı ve amaç:** Tarımsal ürünleri etkileyen birçok hastalığın yanlış teşhisi, kimyasalların yanlış kullanımına yol açarak dirençli patojen türlerin ortaya çıkmasına neden olur. Bu durum da maalesef önemli ekonomik kayıplara ve çevresel negatif etkilere sahip daha fazla salgına yol açabilir. 
+
+İnsanların  dayalı mevcut hastalık teşhisi zaman alıcı ve pahalıdır ve bilgisayarla görmeye dayalı modeller verimliliği artırma vaadinde bulunsa da, enfekte olmuş dokuların yaşı, genetik varyasyonlar ve ağaçlardaki ışık koşulları nedeniyle semptomlardaki büyük farklılıklar, algılama doğruluğu.
+
+
+**Veri Seti Linki:** https://www.kaggle.com/c/plant-pathology-2020-fgvc7/data
 
 
 
