@@ -2,25 +2,37 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import Welcome from './pages/Welcome';
-import MemberSign from './pages/MemberSign';
-import MemberResult from './pages/MemberResult';
+import Products from './pages/Products';
+import Detail from './pages/Detail';
 
 const Stack = createStackNavigator();
 
-function App() {
+const Router = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator
-        screenOptions={{
-          headerShown: false,
-        }}>
-        <Stack.Screen name="WelcomeScreen" component={Welcome} />
-        <Stack.Screen name="MemberSignScreen" component={MemberSign} />
-        <Stack.Screen name="MemberResultScreen" component={MemberResult} />
+      <Stack.Navigator>
+        <Stack.Screen
+          name="ProductsPage"
+          component={Products}
+          options={{
+            title: 'Dükkan',
+            headerStyle: {backgroundColor: '#64b5f6'},
+            headerTitleStyle: {color: 'white'},
+          }}
+        />
+        <Stack.Screen
+          name="DetailPage"
+          component={Detail}
+          options={{
+            title: 'Detay',
+            headerStyle: {backgroundColor: '#64b5f6'},
+            headerTitleStyle: {color: 'white'},
+            headerTintColor: 'white',
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
-}
+};
 
-export default App;
+export default Router;

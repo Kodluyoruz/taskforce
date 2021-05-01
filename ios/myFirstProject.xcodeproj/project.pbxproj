@@ -13,6 +13,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		32AB2586FCE394F04647E425 /* libPods-myFirstProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DD11F5473032644E9D1A29 /* libPods-myFirstProject.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9665437D263D954D00A66E1F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9665437C263D954D00A66E1F /* File.swift */; };
 		D2848E38978C8D036B9DFF56 /* libPods-myFirstProject-myFirstProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B456961B6FD4A8DC148FC39 /* libPods-myFirstProject-myFirstProjectTests.a */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,8 @@
 		46E5FE4DF75A2AAA130290D0 /* Pods-myFirstProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myFirstProject.debug.xcconfig"; path = "Target Support Files/Pods-myFirstProject/Pods-myFirstProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5E5A11BC3C95EB1AC1C393FF /* Pods-myFirstProject-myFirstProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myFirstProject-myFirstProjectTests.release.xcconfig"; path = "Target Support Files/Pods-myFirstProject-myFirstProjectTests/Pods-myFirstProject-myFirstProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = myFirstProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9665437B263D954C00A66E1F /* myFirstProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myFirstProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		9665437C263D954D00A66E1F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		AD34F9EBC539C82CCE8F312C /* Pods-myFirstProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myFirstProject.release.xcconfig"; path = "Target Support Files/Pods-myFirstProject/Pods-myFirstProject.release.xcconfig"; sourceTree = "<group>"; };
 		C6DD11F5473032644E9D1A29 /* libPods-myFirstProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myFirstProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -92,6 +95,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				9665437C263D954D00A66E1F /* File.swift */,
+				9665437B263D954C00A66E1F /* myFirstProject-Bridging-Header.h */,
 			);
 			name = myFirstProject;
 			sourceTree = "<group>";
@@ -159,7 +164,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				9DA478542D266C617B79AAE9 /* [CP] Embed Pods Frameworks */,
 				E1EA380BAB00F460729A2557 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -182,7 +186,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				54BA1E3C869DD5642E3AAA9C /* [CP] Embed Pods Frameworks */,
 				436F649E191C7B6B398828EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -207,7 +210,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -281,23 +284,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myFirstProject/Pods-myFirstProject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		54BA1E3C869DD5642E3AAA9C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-myFirstProject/Pods-myFirstProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-myFirstProject/Pods-myFirstProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myFirstProject/Pods-myFirstProject-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9ADA69D405E8AA39157BBAFB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -318,23 +304,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9DA478542D266C617B79AAE9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-myFirstProject-myFirstProjectTests/Pods-myFirstProject-myFirstProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-myFirstProject-myFirstProjectTests/Pods-myFirstProject-myFirstProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myFirstProject-myFirstProjectTests/Pods-myFirstProject-myFirstProjectTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BA8F43A0E42972FB18A22313 /* [CP] Check Pods Manifest.lock */ = {
@@ -411,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				9665437D263D954D00A66E1F /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 446F10223FD8C9B3A0B538D1 /* Pods-myFirstProject-myFirstProjectTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -457,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E5A11BC3C95EB1AC1C393FF /* Pods-myFirstProject-myFirstProjectTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = myFirstProjectTests/Info.plist;
@@ -497,6 +469,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = myFirstProject;
+				SWIFT_OBJC_BRIDGING_HEADER = "myFirstProject-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -523,6 +496,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = myFirstProject;
+				SWIFT_OBJC_BRIDGING_HEADER = "myFirstProject-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
