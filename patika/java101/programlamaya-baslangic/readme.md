@@ -4,7 +4,7 @@
 
 ## Genel Sözdizimi (Syntax)
 
-![https://raw.githubusercontent.com/Kodluyoruz/taskforce/java1/patika/java101/programlamaya-baslangic/figures/java-syntax.jpg]()
+![https://raw.githubusercontent.com/Kodluyoruz/taskforce/java1/patika/java101/programlamaya-baslangic/figures/java-syntax.jpg](https://raw.githubusercontent.com/Kodluyoruz/taskforce/java1/patika/java101/programlamaya-baslangic/figures/java-syntax.jpg)
 
 Yukarıda ki örnekte göreceğiniz gibi, en üst kısımda **"public class Sinif"** komutu ile bir sınıf (class) oluşturuyoruz. Java'da sınıflar içerisine kodlarımızı yazarız ve ilerleyen derslerde sınıflar konusuna derin bir giriş yapacağız. Daha sonra program çalıştığında çalışan bir metot olan "**Main Metodu**" sınıfımızın içerisine yazarız çünkü programı çalıştırmak için derleyici ilk olarak main metot içerisindeki komutları okuyacaktır.
 

@@ -2,8 +2,6 @@
 
 Java'da recursive metotlar ile fibonacci serisi bulan program yapıyoruz.
 
-![](https://qph.fs.quoracdn.net/main-qimg-07b90165ddb687ddf6700e90fea22c24.webp)
-
 ```java
 public class JavaPatika {
 
