@@ -16,7 +16,7 @@ Nesne tanımının TDK'da ki tanımına bir bakalım :
 
 - Araba, telefon, elma, ördek, kalem gibi günlük hayatta kullandığımız eşyalar.
 
-![](C:\Users\mmcet\Desktop\Kodluyoruz\Java 101\Eğitimler\7 - Nesneye Yönelik Programlamaya Giriş\7.1 - Sınıf ve Nesne Kavramları\nesneler.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/java1/patika/java101/sinif-nesne/figures/nesneler.png)
 
 Bildiğimiz gibi her nesnenin kendine ait **nitelikleri** ve **davranışları** vardır. Nesneler birbirlerinden farklıdır ve kendi **varoluşlarına** göre davranırlar ve kendi kimliklerine sahiptirler.
 
@@ -32,4 +32,4 @@ NYP sınıflar ve nesneler üzerine kurulmuştur, "**Sınıflar**" bir problemi 
 
 Mesela "**Araba**" bir sınıftır. Arabalara ait nitelikler **renk, hız, vites sayısı, yakıt türü vb.** bir sürü nitelik olabilir. Ayrıca bazı arabalara özel davranışlar olabilir, park sensörü, oto pilot, hız sabitleme gibi arabaların kendilerine özel davranışları da olabilir. Bir araba üretilirken, bir yapım kılavuzuna ihtiyaç vardır. Programlama da bu kılavuzlara "**Sınıf (Class)**" denir.
 
-![](C:\Users\mmcet\Desktop\Kodluyoruz\Java 101\Eğitimler\7 - Nesneye Yönelik Programlamaya Giriş\7.1 - Sınıf ve Nesne Kavramları\car.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/java1/patika/java101/sinif-nesne/figures/car.png)
