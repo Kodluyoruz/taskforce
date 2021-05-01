@@ -88,3 +88,19 @@
 - [Pratik - Boks Oyunu](pratik-boks/)
 - [Ödev - İşçilerin Durumlarına Göre Maaşını Hesaplayan Program](odev-employee/)
 
+#### Diziler ####
+- [Dizilerin Genel Mantıkları](array/)
+- [Tek Boyutlu Diziler](1D-array/)
+- [Çok Boyutlu Diziler](2D-array/)
+- [ForEach Kullanımı](foreach/)
+- [Arrays Sınıfı ve Metotları](arrays-class/)
+- [Pratik - Dizideki Elemanların Ortalamasını Bulan Program](pratik-array-ortalama/)
+- [Pratik - Dizideki Maksimum ve Minimum Değerleri Bulan Program](pratik-min-max/)
+- [Pratik - Çok Boyutlu Diziler ile A Harfi Yazdıran Program](pratik-array-letter/)
+- [Pratik - Dizideki Tekrar Eden Sayıları Bulan Program](pratik-duplicate/)
+
+#### Diğer Konular ####
+- [Math Sınıfı ve Metotları](math-sinifi/)
+- [String Sınıfı ve Metotları](string-sinifi/)
+- [Pratik - Sayı Tahmin Oyunu](pratik-sayi-tahmin/)
+- [Pratik - Palindromik Kelimleri Bulan Program](pratik-palindrom-string/)
