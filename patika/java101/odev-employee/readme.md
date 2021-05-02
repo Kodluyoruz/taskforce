@@ -1,6 +1,6 @@
 # Maaş Hesabı Yapan Sınıf
 
-Java'da "Employee" adında fabrika çalışanlarını temsil eden ve metotları ile çalışanların maaşlarını hesaplayan bir sınıf yazacağız. Bu sınıf 4 nitelik ve 5 metoda sahip olacaktır.
+Java'da "Employee" adında fabrika çalışanlarını temsil eden ve metotları ile çalışanların maaşlarını hesaplayan bir sınıf yazmalısınız. Bu sınıf 4 nitelik ve 5 metoda sahip olacaktır.
 
 Sınıfın Nitelikleri
 
@@ -20,7 +20,9 @@ Sınıfın Metotları
   - Eğer çalışan 10 yıldan az bir süredir çalışıyorsa maaşına %5 zam yapılacaktır.
   - Eğer çalışan 9 yıldan fazla ve 20 yıldan az çalışıyorsa maaşına %10 zam yapılacaktır.
   - Eğer çalışan 19 yıldan fazla çalışıyorsa %15 zam yapılacaktır.
-- toString() : Çalışana ait bilgileri ekrana bastıracaktır. Örnek :
+- toString() : Çalışana ait bilgileri ekrana bastıracaktır. 
+  
+Örnek :
 
 ```
 Adı : kemal

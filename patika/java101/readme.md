@@ -63,7 +63,7 @@
 - [Ödev - Girilen Sayılardan Min ve Max Değerleri Bulma](odev-min-max/)
 - [Ödev - Mükemmel Sayı Bulan Program](odev-mukemmel-sayi/)
 - [Ödev - Ters Üçgen Yapımı](odev-ters-ucgen/)
-- [Ödev - Ödev 1-100 Arasındaki Asal Sayıları Bulan Program](odev-asal-sayi/)
+- [Ödev - 1-100 Arasındaki Asal Sayıları Bulan Program](odev-asal-sayi/)
 
 #### Metotlar ####
 - [Metot Tanımı](metotlar/)
@@ -74,6 +74,9 @@
 - [Pratik - Palindrom Sayılar](pratik-palindrom/)
 - [Pratik - Recursive ile Fibonacci Serisi Bulan Program](pratik-fibo-recursive/)
 - [Pratik - Gelişmiş Hesap Makinesi](pratik-hesap-mak-2/)
+- [Ödev - Üs Hesabı Yapan Program](odev-recursive-power/)
+- [Ödev - Asal Sayı Bulan Program](odev-recursive-prime/)
+- [Ödev - Desene Göre Metot Oluşturma](odev-recursive-pattern/)
 
 #### Nesneye Yönelik Programlamaya Giriş ####
 - [Sınıf ve Nesne Kavramları](sinif-nesne/)
@@ -86,7 +89,7 @@
 - [Constructor (Yapıcı) Metot Kullanımı](constructor/)
 - [Pratik - Öğrenci Bilgi Sistemi](pratik-obs/)
 - [Pratik - Boks Oyunu](pratik-boks/)
-- [Ödev - İşçilerin Durumlarına Göre Maaşını Hesaplayan Program](odev-employee/)
+- [Ödev - Maaş Hesaplayıcı](odev-employee/)
 
 #### Diziler ####
 - [Dizilerin Genel Mantıkları](array/)
