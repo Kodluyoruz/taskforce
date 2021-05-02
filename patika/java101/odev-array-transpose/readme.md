@@ -6,25 +6,11 @@ Matrisin transpozunu (devriğini) almak, matrisin aynı numaralı satırları il
 
 Örneğin aşağıdaki 2x3’lik A matrisinin transpozu (devriği), 2x3’lük bir
 A^T matrisidir.
-$$
-\begin{align*}
-A=\left[
-\begin{array}{rrr}
-1&2&3\\4&5&6
-\end{array}
-\right]    
-\end{align*}
-$$
 
-$$
-\begin{align*}
-A^T=\left[
-\begin{array}{rr}
-1&4\\2&5\\3&6
-\end{array}
-\right]   
-\end{align*}
-$$
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/java1/patika/java101/odev-array-transpose/figures/c1.png)
+
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/java1/patika/java101/odev-array-transpose/figures/c2.png)
+
 
 ## Senaryo
 
