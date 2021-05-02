@@ -65,6 +65,7 @@
 - [Ödev - Mükemmel Sayı Bulan Program](odev-mukemmel-sayi/)
 - [Ödev - Ters Üçgen Yapımı](odev-ters-ucgen/)
 - [Ödev - 1-100 Arasındaki Asal Sayıları Bulan Program](odev-asal-sayi/)
+- [Ödev - Fibonacci Serisi](odev-fibo/)
 
 #### Metotlar ####
 - [Metot Tanımı](metotlar/)
