@@ -235,13 +235,13 @@ i = i + 1;
     - `t--;`
     - `--i+t;`
 6. Hangisi “X=X-2” işlemi ile aynı işleve sahiptir ?
-    - X-=2
+    - X-=2 (Doğru)
     - X += 2
     - X++
     - X++2
 
 7. Eğer m = −12 ve n = −5, ise m%n işleminin sonucu ne olur?
-    - -2
+    - -2 (Doğru)
     - -3
     - -1
     - 2
@@ -249,14 +249,14 @@ i = i + 1;
 ## [Kullanıcıdan Veri Alma](scanner/)
 
 1. Klavyeden girilen tüm satırı okuyan Scanner komutu hangisidir?
-    - nextLine();
+    - nextLine(); (Doğru)
     - nextInt();
     - nextByte();
     - next();
     - nextDouble();
 
 2. Java dili program yapısında hazır kütüphane sınıflarını projemize eklemek için hangi deyim kullanılır?
-    - import
+    - import (Doğru)
     - include
     - package
     - enum
@@ -265,7 +265,7 @@ i = i + 1;
 ## [Karşılaştırma Operatörleri](karsilastirma-operatorleri/)
 
 1. Java’da iki değişkenin eşitliğini kontrol eden karşılaştırma operatörü hangisidir ?
-    - "=="
+    - "==" (Doğru)
     - "="
     - <=
     - <>
@@ -274,7 +274,7 @@ i = i + 1;
 ## [Mantıksal Operatörler](mantiksal-operatorler/)
 
 1. Girilen not 45’den büyükse geçti değilse kaldı mesajını yazan bir Java kod satırıdır ?
-    - `System.out.println ( not > 45 ? "Geçti": "Kaldı");`
+    - `System.out.println ( not > 45 ? "Geçti": "Kaldı");` (Doğru)
     - `System.out.println ( if (not>45) ; “Geçti”: “Kaldı”);`
     - `if (not>45) println “Geçti” else “Kaldı”;`
     - `if (not<=45) printf “Geçti” else “Kaldı”;`
@@ -284,13 +284,13 @@ boolean a = true, b = false;
 System.out.println((a && b) || (a || b));
 ```
 2. Yukarıdaki ifadenin çıktısı ne olur ?
-    - true
+    - true (Doğru)
     - false
 
 ## [Kod Bokları (Scope)](scope/)
 
 1. İki küme parantezi “{“ ve “}” arasında kalan kod kesimine ne denir ?
-    - scope
+    - scope (Doğru)
     - metot
     - sınıf
     - import
@@ -298,7 +298,7 @@ System.out.println((a && b) || (a || b));
 ## [If ve Else Blokları](if-else/)
 
 1. Java’daki karar mekanizmaları hakkında hangi bilgi doğrudur ?
-    - İlk koşul yanlışsa, test edilecek yeni bir koşul belirtmek için eğer if else deyimi kullanılır.
+    - İlk koşul yanlışsa, test edilecek yeni bir koşul belirtmek için eğer if else deyimi kullanılır. (Doğru)
     - Programımızda belirtilen bir koşul doğruysa yürütülecek bir kod bloğu belirtmek için else kullanılır.
     - Yürütülecek birçok alternatif kod bloğu belirtmek için while deyimi kullanılır.
     - Aynı koşul yanlışsa yürütülecek bir kod bloğu belirtmek için if deyimi kullanılır.
@@ -312,7 +312,7 @@ else
     System.out.print(++var2);
 ```
 2. Yukarıdaki programın çıktısı nedir ?
-   - 2
+   - 2 (Doğru)
    - 1
    - 6
    - 5
@@ -327,14 +327,14 @@ if ((a < b) && (b++ < 25)){
 System.out.println(b);
 ```   
 3. Yukarıdaki programın çıktısı nedir ?
-   - 2010
+   - 2010 (Doğru)
    - 21
    - 1020
    - 2021
    - 2025
    
 4. Java if bloğu için kullanılan sözdizimlerinden hangisi doğrudur?
-   - Hepsi
+   - Hepsi (Doğru)
    - ```
      if(condition)
          //statement
@@ -357,13 +357,13 @@ System.out.println(b);
 ## [Switch-Case Yapısı](switch-case/)
 
 1. Java’daki kontrol mekanizmalarından hangisi sadece eşitliği kontrol eder?
-   - switch
+   - switch (Doğru)
    - if
    - if ve switch
    - Hiçbiri
 
 2. Java dilinde switch bloğunun alternatifi hangisidir?
-   - if ve else
+   - if ve else (Doğru)
    - goto ve exit
    - while
    - break
@@ -383,7 +383,7 @@ switch(points)
 
 ```
 3. Yukarıdaki programın çıktısı ne olur ?
-   - Java
+   - Java (Doğru)
    - 101
    - Patika
    - Dev
@@ -391,7 +391,7 @@ switch(points)
 ## [Döngü Yapıları](donguler/)
 
 1. Hangisi Java'da bulunan döngü yapılarından değildir ?
-   - goto
+   - goto (Doğru)
    - for
    - while
    - do-while
@@ -407,7 +407,7 @@ while(a<4)
 }
 ```
 1. Yukarıdaki programın çıktısı nedir ?
-   - 1 2 3
+   - 1 2 3 (Doğru)
    - 1 2 3 4
    - 6
    - Hata verir
@@ -418,7 +418,7 @@ while(a<4)
      {
       //statements
      }
-     ```
+     ```  (Doğru)
    -```
      while(condition);
      {
@@ -436,7 +436,7 @@ while(a<4)
 ## [Do-While Döngüsü](do-while/)
 
 1. Java'da WHILE ve DO-WHILE döngüsü arasındaki temel fark nedir?
-   - Do-while döngüsü, koşul yanlış olsa bile döngü en az bir kez çalışır.
+   - Do-while döngüsü, koşul yanlış olsa bile döngü en az bir kez çalışır. (Doğru)
    - While döngüsü, koşul yanlış olsa bile döngü en az bir kez çalışır.
    - While döngüsü daha hızlıdır
    - Do-while döngüsü daha hızlıdır
@@ -453,7 +453,7 @@ System.out.println(age);
 ```
    
 2. Do-while döngüsüne sahip yukarıdaki Java programında "yaş"ın değeri nedir?
-   - 21
+   - 21 (Doğru)
    - 20
    - 24
    - Hata verir
@@ -471,7 +471,7 @@ while(i<3)
 }
 ```
 3. Yukarıdaki programın çıktısı nedir ?
-   - 1,2,3,4,
+   - 1,2,3,4, (Doğru)
    - 1,2,3,4,1,2,3,4,
    - 1,2,3,1,2,3,
    - 1,2,3,
@@ -486,13 +486,13 @@ for (int i = 0, j = 0; i < 5 || j < 5; ++i, j = i + 1) {
 System.out.println(sum);
 ```
 1. Yukarıdaki programın çıktısı nedir ?
-   - 10
+   - 10 (Doğru)
    - 6
    - 2
    - 1
 
 2. 7 den 77 e kadar olan sayılar, 7 şer 7 şer artıran komut satırı aşağıdakilerden hangisidir?
-   - `for ( int i=7; i<=77; i+=7 );`
+   - `for ( int i=7; i<=77; i+=7 );` (Doğru)
    - `for ( int k=71; k>=1; k-=10);`
    - `for ( int i=1; i<=77; i+=7 );`
    - `for ( int i=77; i<=1; i-=7 );`
@@ -509,7 +509,7 @@ for(i=1; i<=6;i++)
 }
 ```
 1. Yukarıdaki programın çıktısı nedir ?
-   - 1,2,4,5,
+   - 1,2,4,5, (Doğru)
    - 1,2,
    - 3,6,
    - 1,2,4,5
@@ -524,7 +524,7 @@ for (int i = 1; i <= 2; ++i) {
 }
 ```
 2. Yukarıdaki programın çıktısı nedir ?
-   - 345
+   - 345 (Doğru)
    - 123
    - 234
    - 456
@@ -538,7 +538,7 @@ for (int k = 0; k < 9; k++) {
 }                            
 ```
 3. Yukarıdaki programın çıktısında kaç adet yıldız vardır  ?
-   - 4
+   - 4 (Doğru)
    - 0
    - 3
    - 5
@@ -558,13 +558,13 @@ public class PatikaDev {
 }
 ```
 1. Yukarıdaki programın çıktısı nedir ?
-   - Derleme Hatası
+   - Derleme Hatası (Doğru)
    - 20
    - NULL
    - 0
    
 2. Metotlarla ilgili hangi bilgi doğrudur ?
-   - Metot içerisinde başka bir metot çağrılabilir.
+   - Metot içerisinde başka bir metot çağrılabilir. (Doğru)
    - Statik bir metot içerisinde metotlar çağrılmaz.
    - Metotlar tanımlandıkları veri tipinden farklı bir değer geriye döndürebilir.
    - Metotlar çağrılırken parametrelerin sırası önemsizdir.
@@ -583,7 +583,7 @@ public class PatikaDev {
 }
 ```
 3. Yukarıdaki programın çıktısı nedir ?
-   - 10
+   - 10 (Doğru)
    - 25
    - 5
    - Derleme Hatası
@@ -604,13 +604,13 @@ public class PatikaDev {
 ```
 
 1. Yukarıdaki programın çıktısı nedir ?
-   - Show Metodu...
+   - Show Metodu... (Doğru)
    - NULL
    - Derleme Hatası Verir
    - Hiçbiri olmaz
 
 2. Metot geriye bir değer döndürmeyecekse hangi tipte tanımlanmalıdır?
-   - void
+   - void (Doğru)
    - int
    - String
    - static
@@ -619,7 +619,7 @@ public class PatikaDev {
 ## [Metotlarda Overloading (Aşırı Yüklenme)](overloading/)
 
 1. Bir metodun aşırı yüklenmesi (overloading) ne demektir ?
-   - Aynı isime sahip ama farklı parametrelere veya farklı türde parametrelere sahip metotlara denir.
+   - Aynı isime sahip ama farklı parametrelere veya farklı türde parametrelere sahip metotlara denir. (Doğru)
    - Metodun başka bir metot içerisinde çağrılma durumuna denir.
    - Metodun geriye bir değer döndürmesi işlemine denir.
    - Metodun geriye bir değer döndürmemesi işlemine denir.
@@ -642,7 +642,7 @@ public class PatikaDev {
 ```
 
 2. Yukarıdaki programın çıktısı nedir ?
-   - PATİKA PATİKA DEV DEV
+   - PATİKA PATİKA DEV DEV (Doğru)
    - PATİKA PATİKA PATİKA PATİKA
    - DEV DEV PATİKA PATİKA
    - DEV DEV DEV DEV
@@ -665,7 +665,7 @@ public class PatikaDev {
 ```
 
 3. Yukarıdaki programın çıktısı nedir ?
-   - Derlenme Hatası Verir
+   - Derlenme Hatası Verir (Doğru)
    - Patika
    - Dev
    - 0
@@ -692,7 +692,7 @@ public class PatikaDev {
 ```
 
 1. Yukarıdaki programın çıktısı nedir ?
-   - 100
+   - 100 (Doğru)
    - Derleme Hatası Verir
    - 40
    - 60
@@ -715,7 +715,7 @@ public class PatikaDev {
 ```
 
 2. Yukarıdaki programın çıktısı nedir ?
-   - Patika.dev
+   - Patika.dev (Doğru)
    - Java101
    - Kodluyoruz
    - Derleme Hatası Verir
@@ -723,7 +723,7 @@ public class PatikaDev {
 ## [Recursive (Özyineli) Metotlar](recursive/)
 
 1. Recursive (Özyineli) metotlar nedir ?
-   - Bir metodun kendisini çağırmasına denir.
+   - Bir metodun kendisini çağırmasına denir. (Doğru)
    - Aynı isme ama farklı parametrelere sahip metotlara denir.
    - Geriye değer döndüren metotlara denir.
    - Statik tanımlanan metotlara denir.
@@ -745,7 +745,7 @@ public class PatikaDev {
 ```
 
 2. Yukarıdaki programın çıktısı nedir ?
-   - 3,2,1
+   - 3,2,1 (Doğru)
    - 1,2,3,4
    - 4,3,2,1
    - Derleme Hatası Verir
@@ -764,7 +764,7 @@ public class PatikaDev {
 ```
 
 3. Yukarıdaki programın çıktısı nedir ?
-   - 6
+   - 6 (Doğru)
    - 2
    - 1
    - 3
@@ -792,13 +792,13 @@ public class PatikaDev {
 ## [Sınıf Tanımları](classes/)
 
 1. Sınıflara ait nitelikler Java'da hangisi ile ifade edilir ?
-   - Değişkenler
+   - Değişkenler (Doğru)
    - Döngüler
    - Karar Yapıları
    - Metotlar
    
 2. Sınıflara ait davranışları Java'da hangisi ile ifade edilir ?
-   - Metotlar
+   - Metotlar (Doğru)
    - If ve Else
    - Döngüler
    - Değişkenler
