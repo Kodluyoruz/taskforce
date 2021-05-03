@@ -450,7 +450,6 @@ do
 }while(age<20);
 
 System.out.println(age);
-"
 ```
    
 2. Do-while döngüsüne sahip yukarıdaki Java programında "yaş"ın değeri nedir?
@@ -1036,7 +1035,7 @@ public class PatikaDev {
 ## [String Sınıfı ve Metotları](string-sinifi/)
 
 1. Java'da bir string değere ait elemanları gezmek için hangi metot kullanılır ?
-   - charAt();
+   - charAt(); (Doğru)
    - equals();
    - valueOf();
    - toString();
