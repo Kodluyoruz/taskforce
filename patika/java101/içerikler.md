@@ -797,11 +797,40 @@ public class PatikaDev {
    - Karar Yapıları
    - Metotlar
    
-2. Sınıflara ait davranışları Java'da hangisi ile ifade edilir ?
+2. Sınıflara ait davranışlar Java'da hangisi ile ifade edilir ?
    - Metotlar (Doğru)
    - If ve Else
    - Döngüler
    - Değişkenler
+   
+3. Sınıflar ile ilgili hangi ifade doğrudur ?
+   - Sınıf ismi ile java dosya ismi aynı olmalıdır. (Doğru)
+   - Sınıflarda main() metodu tanımlanmak zorundadır.
+   - Sınıflarda constructor (yapıcı) metot tanımlanmalıdır.
+   - Sınıflar başka sınııflardan çağrılamazlar.
+
+## [Nesne Oluşturma ve Sınıf Metotları](object/)
+
+1. Java ____ programlama dilidir ?
+   - Nesne Yönelimli (Doğru)
+   - Fonksiyonel Tabanlı
+   - Modüler Tabanlı
+   - Yapısal tabanlı
+   
+2. Java'da tek bir Sınıftan maksimum kaç nesne oluşturulabilir?
+   - Sınırsız (Doğru)
+   - 32
+   - 64
+   - 128
+   - 216
+   
+3. Java'da yeni bir nesne yaratmak için kullanılan anahtar sözcük ___.
+   - new (Doğru)
+   - class
+   - create
+   - java
+   - object
+   
 
 ## [Constructor (Yapıcı) Metot Kullanımı](constructor/)
 
@@ -811,3 +840,206 @@ public class PatikaDev {
    - Global mettottur.
    - Katılımı sağlayan mettottur.
    
+```
+public class Test
+{
+    public Test()
+    {
+        System.out.printf("1");
+        new Test(10);
+        System.out.printf("5");
+    }
+    public Test(int temp)
+    {
+        System.out.printf("2");
+        new Test(10, 20);
+        System.out.printf("4");
+    }
+    public Test(int data, int temp)
+    {
+        System.out.printf("3");
+          
+    }
+      
+    public static void main(String[] args)
+    {
+        Test obj = new Test();          
+    }
+}
+```
+2. Yukarıdaki programın çıktısı nedir ?
+   - 12345 (Doğru)
+   - 15
+   - 3
+   - Derlenmez
+
+3. Java'da "this" anahtar kelimesinin neden kullanılır ?
+   - Sınıfa ait niteliklere erişmek için kullanılır. (Doğru)
+   - Metoda ait niteliklere erişmek için kullanılır.
+   - Metotlara parametre göndermek için kullanılır.
+   - Kurucu metotlar içerisinde parametrelere erişmek için kullanılır.
+   
+## [Dizilerin Genel Mantıkları](array/)
+
+1. Diziler hakkında hangisi yanlıştır ?
+   - Dizi içerisinde farklı türde veri tipinde eleman olabilir. (Doğru)
+   - Dizilerin boyutu tanımlanırken belirtilmek zorundadır.
+   - Dizilerde her elemana ait indis (index) numarası vardır.
+   - Dizi içinde eleman olmasa bile hafızada yer tutar.
+   
+2. Dizilerde indis numarası nerden başlar ?
+   - 0 (Doğru)
+   - 1 
+   - -1
+   - Kendimiz tanımlarız.
+   
+3. Java'da bir değişkenin dizi olduğunu hangi sembol ile belirtiriz ?
+   - Köşeli Parantez [] (Doğru)
+   - Süslü Parantez {}
+   - Parentez ()
+   - Ünlem !!
+   
+## [Tek Boyutlu Diziler](1D-array/)
+
+```
+int[] numbers = {35,65,95}; 
+System.out.print(numbers.length + "," + numbers[1]);
+```
+1. Yukarıdaki programın çıktısı nedir ?
+   - 3,65 (Doğru)
+   - 2,65
+   - 3,95
+   - Derleme Hatası Verir.
+   
+2. Dizi tanımlanırken {} ifadesi kullanarak varsayılan değer atayabiliriz. Bu işlemi yaparken dizi boyutunu belirtmemiz gerekir ?
+   - Doğru (Doğru)
+   - Yanlış
+   
+```
+int cars[], count=3;
+cars = new int[count];
+for(int i=0; i<cars.length; i++)
+    cars[i] = (i+1)*2;
+for(int j=0; j<cars.length; j++)
+    System.out.print(cars[j] + ",");
+```
+3. Yukarıdaki programın çıktısı nedir ?
+   - 2,4,6 (Doğru)
+   - 0,2,4
+   - 1,2,3
+   - Derleme hatası verir
+   
+## [Çok Boyutlu Diziler](2D-array/)
+ 
+1. Çok boyutlu dizilerde satır ve sütun indis (index) numaraları ___ ile başlar.
+   - 0 (Doğru)
+   - -1
+   - 1
+   - Dizi tanımlanırken belirtilir.
+   
+```
+int[][] numbers;
+numbers = new int[3][];
+numbers[0] = {1,2};
+System.out.println(numbers[0][1]);
+```
+2. Yukarıdaki programın çıktısı nedir ?
+   - Derlenmez Hata Verir. (Doğru)
+   - 0
+   - 1
+   - 2
+   
+```
+public class PatikaDev {
+    public static void main(String[] args) {
+        int[][] arr = new int[3][];
+        arr[0] = new int[1];
+        arr[1] = new int[2];
+        arr[2] = new int[3];
+        int sum = 0;
+        for (int i = 0; i < 3; ++i)
+            for (int j = 0; j < i + 1; ++j)
+                arr[i][j] = j + 1;
+        for (int i = 0; i < 3; ++i)
+            for (int j = 0; j < i + 1; ++j)
+                sum += arr[i][j];
+        System.out.print(sum);
+    }
+}
+```
+3. Yukarıdaki programın çıktısı nedir ?
+   - 10 (Doğru)
+   - 11
+   - 15
+   - 14
+   
+## [ForEach Kullanımı](foreach/)
+
+```
+public class PatikaDev {
+    public static void main(String[] args) {
+        int[] scores = new int[10];
+        scores = new int[3];
+        scores = new int[]{215, 234, 218, 189, 221, 290};
+
+        for (int score : scores) {
+            System.out.print(score + "  ");
+        }
+    }
+}
+```
+1. Yukarıdaki programını çıktısı nedir ?
+   - 215 234 218 189 221 290 (Doğru)
+   - 215 234 218 0 0 0
+   - 0 0 0
+   - 215 234 218
+   
+2. Bir koleksiyondaki elemanlara ulaşmak için java 8'de sunulan yeni yöntem hangisidir?
+   - foreach (String i : StringList) (Doğru)
+   - for (String i : StringList)
+   - StringList.forEach()
+   - List.for()
+   
+## [Arrays Sınıfı ve Metotları](arrays-class/)
+
+1. Java'da Arrays sınıfını projeye dahil etmek için hangi yöntem kullanılır?
+   - import java.util.Arrays; (Doğru)
+   - include Arrays;
+   - use /Java/Util/Arrays;
+   - Hiçbiri
+   
+2. Arrays sınıfında dizileri ekrana bastırmak için kullanılan metot hangisidir ?
+   - Arrays.toString(dizi); (Doğru)
+   - Arrays.toString();
+   - Arrays.fill(dizi);
+   - Arrays.print(dizi);
+
+3. Arrays.binarySearch((dizi) metotunun doğru çalışması için dizinin önceden küçükten büyüğe sıralanması lazım ?
+   - Doğru (Doğru)
+   - Yanlış
+   
+## [Math Sınıfı ve Metotları](math-sinifi/)
+
+1. Java'da Math sınıfı üzerinden üs alma işlemi için hangi metot kullamılır ?
+   - Math.pow(); (Doğru)
+   - Math.floor();
+   - Math.abs();
+   - Math.cos();
+   
+2. Java Math sınıfından 0 ile 100 arasında rastgele sayı üretmek için hangi komut kullanılır ?
+   - (int) (Math.random() * 100) (Doğru)
+   - Math.random() * 100
+   - Math.random(100)
+   - Math.random() / 100
+   
+## [String Sınıfı ve Metotları](string-sinifi/)
+
+1. Java'da bir string değere ait elemanları gezmek için hangi metot kullanılır ?
+   - charAt();
+   - equals();
+   - valueOf();
+   - toString();
+   
+2. Java String sınıfına ait equals(); metodu iki string ifadeyi karşılaştırmak için kullanılır. Bu karşılaştırmada küçük büyük harf duyarı yoktur ?
+   - Doğru 
+   - Yanlış (Doğru)
