@@ -239,10 +239,10 @@ GİRİŞ
 ##### WHITE BOX #####
 
 1. White box test ile ilgili verilen bilgilerden hangisi yanlıştır?
-Kodun içindeki yapıların incelendiği bir test türüdür.
-Functionality test ile benzerlik göstermektedir. (Doğru)
-Developer büyük bir sorumluluğa sahiptir.
-Unit test White box modellerinden biridir.
+- Kodun içindeki yapıların incelendiği bir test türüdür.
+- Functionality test ile benzerlik göstermektedir. (Doğru)
+- Developer büyük bir sorumluluğa sahiptir.
+- Unit test White box modellerinden biridir.
 
 2.Integration testinde senaryo içindeki tüm modüller hazır olmadan testin yapılmaması kavramına ne ad verilir?
 - Integration Test Scenarios
