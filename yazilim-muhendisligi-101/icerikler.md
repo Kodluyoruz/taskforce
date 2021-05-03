@@ -15,7 +15,7 @@ YAZILIM MÜHENDİSLİĞİ 101
 
 ##### YAZILIMIN TARİHİ #####
 
-Bu bölüm için soru hazırlanması gerekli görülmemiştir.
+
 
 ##### YAZILIMIN YAŞAM DÖNGÜSÜ #####
 
@@ -71,11 +71,10 @@ Bu bölüm için soru hazırlanması gerekli görülmemiştir.
 
 ##### PROJE YÖNETİMİ ÜZERİNE #####
 
-Bu bölümde soru hazırlamaya gerek görülmemiştir.
 
 ##### YAZILIM TASARIMI YAKLAŞIMLARI #####
 
-Bu bölümde soru hazırlamaya gerek görülmemiştir.
+
 
 ##### COHESION VE COUPLING ÜZERİNE #####
 
@@ -101,7 +100,7 @@ Bu bölümde soru hazırlamaya gerek görülmemiştir.
 
 GİRİŞ
 
-       Bu bölüm için soru hazırlanmasına gerek duyulmamaktadır.
+
 
 ##### KATMANLI MİMARİ #####
 
@@ -157,15 +156,15 @@ GİRİŞ
 
 ##### EVENT DRİVEN ARCHİTECTURE #####
 
-Soru bulamadım……
+
 
 ##### MEDIATOR TOPOLOJİSİ #####
 
-Soru bulamadım……
+
 
 ##### BROKER TOPOLOJİSİ #####
  
-Soru bulamadım….
+
 
 ##### ANALİZ #####
 
@@ -193,7 +192,7 @@ Soru bulamadım….
 
 ##### DATA ORIENTED DESIGN #####
 
-Soru bulamadım…
+
 
 
 
@@ -235,7 +234,7 @@ Soru bulamadım…
 
 ##### GİRİŞ #####
 
-Bu bölümde soru hazırlanmasına gerek duyulmamaktadır.
+
 
 ##### WHITE BOX #####
 
@@ -273,7 +272,7 @@ Unit test White box modellerinden biridir.
 
 #### CODE DOCUMENTATION ####
 
-Bu bölüm için soru hazırlanmasına gerek duyulmamaktadır.
+
 
 ##### YAZILIMIN İSTENEN KARAKTERİSTİKLERİ #####
 
