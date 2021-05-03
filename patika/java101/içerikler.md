@@ -413,23 +413,24 @@ while(a<4)
    - Hata verir
    
 2. Java while döngüsü için sözdizimi (syntax) nasıldır ?
-   -```
-     while(condition)
-     {
-      //statements
-     }
-     ```  (Doğru)
-   -```
-     while(condition);
-     {
-      //statements
-     }
+   - ```
+        while(condition)
+        {
+         //statements
+        }
+       (Doğru)
      ```
    - ```
-     while
-     {
-     //statements
-     }(contition)
+        while(condition);
+        {
+         //statements
+        }
+     ```
+   - ```
+        while
+        {
+            //statements
+        }(contition)
      ```
    - Hiçbiri  
 
