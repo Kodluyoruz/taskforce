@@ -605,4 +605,19 @@ const StudentSchema = new Schema({
 
 #### Video
 1. (Youtube adresi yazılacak)
-	- Bu videoda; SmartEdu projesinin genelkurulumunu ve HTTP Status Codes konusuna genel bir giriş yaptık. 
+	- Bu videoda; SmartEdu projesinin genel kurulumunu ve HTTP Status Codes konusuna genel bir giriş yaptık. 
+
+### [Linkleri Güncellemek](LinkUpdates/)
+#### Sorular
+1. SmartEdu projesinde "contact" sayfasının linkini aktif etmek için hangi kodu yazmamız gerekir?
+	- <%= page_name ==='contact' 'active' %>
+	- <%= page_name ==='contact' && 'active' %> (Doğru)	
+	- <% page_name ==='contact' && 'active' %>	
+	- <%= page_name ='contact' && 'active' %>		
+	- <%= page_name 'contact' && 'active' %>		
+	
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projemizin statik dosyalarını, template sayfalarını oluşturduk. Sonrasında her sayfaya ait olan linkleri nasıl
+aktif hale getireceğimizden bahsettik. 
