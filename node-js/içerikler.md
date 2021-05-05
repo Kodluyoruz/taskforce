@@ -621,3 +621,25 @@ const StudentSchema = new Schema({
 1. (Youtube adresi yazılacak)
 	- Bu videoda; SmartEdu projemizin statik dosyalarını, template sayfalarını oluşturduk. Sonrasında her sayfaya ait olan linkleri nasıl
 aktif hale getireceğimizden bahsettik. 
+
+### [Routing - Yönlendirme](Routing/)
+#### Sorular
+```
+1. 
+app.get('/random', function (req, res) {
+  res.send('TEST')
+}) yönlendirmesi hangi istek ile eşleşir?
+```
+
+		
+- /index	
+- /test	
+- /app	
+- /random (Doğru)
+- /send		
+	
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projemizin yönlendirme routing klasörünü oluşturduk ve bu yönlendirme dosyalarına bağlı olarak ilgili controller
+dosyası oluşturuldu. 
