@@ -377,34 +377,30 @@
 
 #### Video
 
-### [Nesne Yönelimli Programlama](17-nesne-yonelimli-programlama/)
+### [Enum](17-enum/)
 
 #### Sorular
 
 #### Video
 
-### [Enum](18-enum/)
+
+### [Nesne Yönelimli Programlama](18-nesne-yonelimli-programlama/)
 
 #### Sorular
 
 #### Video
 
-### [Koleksiyonların Kullanımları](19-koleksiyonlarin-kullanimlari/)
+
+### [Proje 1](19-proje-1/)
 
 #### Sorular
 
 #### Video
 
-### [Proje 1](20-proje-1/)
+### [Proje 2](20-proje-2/)
 
 #### Sorular
 
 #### Video
 
-### [Proje 2](21-proje-2/)
-
-#### Sorular
-
-#### Video
-
-### [Tüm Dökümanlar](22-dokumanlar/)
+### [Tüm Dökümanlar](21-dokumanlar/)

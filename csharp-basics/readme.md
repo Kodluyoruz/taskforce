@@ -34,48 +34,51 @@
 - [For Döngüsü ve Break Continue Anahtar Kelimeleri](9-donguler/1-for-dongusu-break-continue/)
 - [While ve ForEach Döngüleri](9-donguler/2-while-foreach-donguleri/)
 
-### [Diziler](11-diziler/)
+### [Diziler](10-diziler/)
 
-- [Dizi Tanımlama, Dizilere Erişim ve Döngülerle Kullanımı](11-diziler/1-dizi-tanımlama-erişim-ve-döngülerle-kullanım/)
-- [Array Sınıfı ve Methodlari](11-diziler/2-array-sinifi-ve-methodlari/)
+- [Dizi Tanımlama, Dizilere Erişim ve Döngülerle Kullanımı](10-diziler/1-dizi-tanımlama-erişim-ve-döngülerle-kullanım/)
+- [Array Sınıfı ve Methodlari](10-diziler/2-array-sinifi-ve-methodlari/)
 
-### [Metotlar](12-metotlar/)
+### [Metotlar](11-metotlar/)
 
 
-- [Metot Nedir? Ref Parametre Kullanımı ](12-metotlar/1-metot-nedir/)
-- [Metot Overload Nedir? Out Parametre Kullanımı](12-metotlar/2-metot-overload-nedir-ve-out-kullanimi/)
-- [Extension ve Rekürsif Metot Kullanımı](12-metotlar/3-extension-recursive-metotlar/)
+- [Metot Nedir? Ref Parametre Kullanımı ](11-metotlar/1-metot-nedir/)
+- [Metot Overload Nedir? Out Parametre Kullanımı](11-metotlar/2-metot-overload-nedir-ve-out-kullanimi/)
+- [Extension ve Rekürsif Metot Kullanımı](11-metotlar/3-extension-recursive-metotlar/)
 
-### [Ödev 1](13-odev-1/)
+### [Ödev 1](12-odev-1/)
 
-### [C# Hazır Metotlar](14-csharp-hazir-metotlar/)
+### [C# Hazır Metotlar](13-csharp-hazir-metotlar/)
 
-- [String Metotlar](14-csharp-hazir-metotlar/1-string-metotlar/)
-- [DateTime Metotlar](14-csharp-hazir-metotlar/2-datetime-metotlar/)
-- [Math Kütüphanesi ve Metotları](14-csharp-hazir-metotlar/3-math-kutuphanesi/)
+- [String Metotlar](13-csharp-hazir-metotlar/1-string-metotlar/)
+- [DateTime Metotlar](13-csharp-hazir-metotlar/2-datetime-metotlar/)
+- [Math Kütüphanesi ve Metotları](13-csharp-hazir-metotlar/3-math-kutuphanesi/)
 
-### [Koleksiyonlar](15-koleksiyonlar/)
+### [Koleksiyonlar](14-koleksiyonlar/)
 
-- [Koleksiyon Nedir?](15-koleksiyonlar/1-koleksiyon-nedir/)
-- [Generic Koleksiyonar](15-koleksiyonlar/2-generic-koleksiyonlar/)
-- [Array List](15-koleksiyonlar/3-arraylist-nedir/)
-- [Dictionary](15-koleksiyonlar/4-dictionary-nedir/)
+- [Koleksiyon Nedir?](14-koleksiyonlar/1-koleksiyon-nedir/)
+- [Generic Koleksiyonar](14-koleksiyonlar/2-generic-koleksiyonlar/)
+- [Array List](14-koleksiyonlar/3-arraylist-nedir/)
+- [Dictionary](14-koleksiyonlar/4-dictionary-nedir/)
 
-### [Ödev 2](16-odev-2/)
+### [Ödev 2](15-odev-2/)
 
-### [Sınıf Kavramı](17-sinif-kavrami/)
+### [Sınıf Kavramı](16-sinif-kavrami/)
 
-- [Sınıf Nedir?](17-sinif-kavrami/1-sinif-nedir/)
-- [Sınıf Nasıl Oluşturulur?](17-sinif-kavrami/2-sinif-olusturma/)
-- [Instance](17-sinif-kavrami/3-instance-kavrami/)
-- [Field](17-sinif-kavrami/4-field-nedir/)
-- [Property](17-sinif-kavrami/5-property-nedir/)
-- [Encapsulation](17-sinif-kavrami/6-encapsulation-kavrami/)
-- [Access Modifiers](17-sinif-kavrami/7-erisim-belirleyiciler/)
-- [Constructor](17-sinif-kavrami/8-constructor-kavrami/)
-- [Reference Types ve Value Types Kavramları](17-sinif-kavrami/9-reference-value-type-kavrami/)
-- [Struct](17-sinif-kavrami/10-struct-nedir/)
-- [Static Class, Static Member](17-sinif-kavrami/11-static-sinif-ve-uyeler/)
+- [Sınıf Nedir?](16-sinif-kavrami/1-sinif-nedir/)
+- [Sınıf Nasıl Oluşturulur?](16-sinif-kavrami/2-sinif-olusturma/)
+- [Instance](16-sinif-kavrami/3-instance-kavrami/)
+- [Field](16-sinif-kavrami/4-field-nedir/)
+- [Property](16-sinif-kavrami/5-property-nedir/)
+- [Encapsulation](16-sinif-kavrami/6-encapsulation-kavrami/)
+- [Access Modifiers](16-sinif-kavrami/7-erisim-belirleyiciler/)
+- [Constructor](16-sinif-kavrami/8-constructor-kavrami/)
+- [Reference Types ve Value Types Kavramları](16-sinif-kavrami/9-reference-value-type-kavrami/)
+- [Struct](16-sinif-kavrami/10-struct-nedir/)
+- [Static Class, Static Member](16-sinif-kavrami/11-static-sinif-ve-uyeler/)
+
+
+### [Enum](17-enum/)
 
 ### [Nesne Yönelimli Programlama](18-nesne-yonelimli-programlama/)
 
@@ -89,12 +92,9 @@
 - [Sealed Class](18-nesne-yonelimli-programlama/8-sealed-class/)
 - [Interface](18-nesne-yonelimli-programlama/9-interface/)
 
-### [Enum](19-enum/)
 
-### [Koleksiyonların Kullanımları](20-koleksiyonlarin-kullanimlari/)
+### [Proje 1](19-proje-1/)
 
-### [Proje 1](21-proje-1/)
+### [Proje 2](20-proje-2/)
 
-### [Proje 2](22-proje-2/)
-
-### [Tüm Dökümanlar](23-dokumanlar/)
+### [Tüm Dökümanlar](21-dokumanlar/)
