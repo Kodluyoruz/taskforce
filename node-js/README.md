@@ -56,3 +56,4 @@
 ## SmartEdu Projesi
 - [HTTP Durum Kodları](HTTPStatusCodes/)
 - [Linkleri Güncellemek](LinkUpdates/)
+- [Routing - Yönlendirme](Routing/)
