@@ -584,3 +584,25 @@ const StudentSchema = new Schema({
 - Bu ödevde; Clean Blog projejisinin aşağıdaki özelliklerini yapmaya çalışacağız.
 	- Uygulamamızı HEROKU ve MongoDB Atlas ücresiz servislerini kullanarak yükleyelim.
 	- Not: Uygulamamızda sayfalama ve görsel yükleme işlemlerini yapmadık. Sonraki projemizde de bu özellikleri kullanacağız.
+
+## SmartEdu Projesi 
+### [HTTP Durum Kodları](HTTPStatusCodes/)
+#### Sorular
+1. 201 HTTP yanıt durumu kodu ne ifade eder?
+	- İsteğin başarılı olduğunu ve bir kaynağın oluşturulduğu belirtilir. (Doğru)
+	- İsteğin sadece başarılı olduğunu belirtir.	
+	- İsteğe karşılık alınan yanıta erişim yetkisi olmadığını belirtir.	
+	- İstenen kaynağın sunucu tarafından bulunamadığını belirtir.	
+	- Sunucu hatası gösterir.	
+
+2. Nodemon uygulamasını sadece uygulama geiştirme amaçlı kullanmak (devDependency) için nasıl indirmemiz gerekir?
+		
+	- npm i nodemon	
+	- npm i --save nodemon
+	- npm i -D nodemon (Doğru)	
+	- npm nodemon	
+	- nodemon npm --save-dev	
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projesinin genelkurulumunu ve HTTP Status Codes konusuna genel bir giriş yaptık. 
