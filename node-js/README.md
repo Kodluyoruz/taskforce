@@ -52,3 +52,7 @@
 - [PCAT Sayfalama](PCATPagination/)
 - [Heroku - MongoDB Atlas Deployment](HerokuDeployment/)
 - [Clean Blog Proje - 6. Bölüm - Ödev 12](odev12/)
+
+## SmartEdu Projesi
+- [HTTP Durum Kodları](HTTPStatusCodes/)
+- [Linkleri Güncellemek](LinkUpdates/)
