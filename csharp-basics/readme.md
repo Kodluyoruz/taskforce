@@ -58,9 +58,8 @@
 
 - [Koleksiyon Nedir?](15-koleksiyonlar/1-koleksiyon-nedir/)
 - [Generic Koleksiyonar](15-koleksiyonlar/2-generic-koleksiyonlar/)
-- [List](15-koleksiyonlar/3-list-nedir/)
-- [Array List](15-koleksiyonlar/4-arraylist-nedir/)
-- [Dictionary](15-koleksiyonlar/5-dictionary-nedir/)
+- [Array List](15-koleksiyonlar/3-arraylist-nedir/)
+- [Dictionary](15-koleksiyonlar/4-dictionary-nedir/)
 
 ### [Ödev 2](16-odev-2/)
 
