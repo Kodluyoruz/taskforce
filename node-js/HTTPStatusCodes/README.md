@@ -29,6 +29,9 @@ veya
 npm - --save-dev <paket_adi>
 ```
 
+#### [Proje GitHub](https://github.com/ArinSoftware/SmarteduProject)
+#### [Çalışma Özel GitHub](https://github.com/ArinSoftware/SmarteduProject/commit/122e424ff06e80017911b6c124fbe996279965a1)
+
 
 ## Daha Fazlası İçin
 - [Javascript MDN Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
