@@ -15,7 +15,7 @@ YAZILIM MÜHENDİSLİĞİ 101
 
 ##### YAZILIMIN TARİHİ #####
 
-Bu bölüm için soru hazırlanması gerekli görülmemiştir.
+
 
 ##### YAZILIMIN YAŞAM DÖNGÜSÜ #####
 
@@ -71,11 +71,10 @@ Bu bölüm için soru hazırlanması gerekli görülmemiştir.
 
 ##### PROJE YÖNETİMİ ÜZERİNE #####
 
-Bu bölümde soru hazırlamaya gerek görülmemiştir.
 
 ##### YAZILIM TASARIMI YAKLAŞIMLARI #####
 
-Bu bölümde soru hazırlamaya gerek görülmemiştir.
+
 
 ##### COHESION VE COUPLING ÜZERİNE #####
 
@@ -101,7 +100,7 @@ Bu bölümde soru hazırlamaya gerek görülmemiştir.
 
 GİRİŞ
 
-       Bu bölüm için soru hazırlanmasına gerek duyulmamaktadır.
+
 
 ##### KATMANLI MİMARİ #####
 
@@ -157,15 +156,15 @@ GİRİŞ
 
 ##### EVENT DRİVEN ARCHİTECTURE #####
 
-Soru bulamadım……
+
 
 ##### MEDIATOR TOPOLOJİSİ #####
 
-Soru bulamadım……
+
 
 ##### BROKER TOPOLOJİSİ #####
  
-Soru bulamadım….
+
 
 ##### ANALİZ #####
 
@@ -193,7 +192,7 @@ Soru bulamadım….
 
 ##### DATA ORIENTED DESIGN #####
 
-Soru bulamadım…
+
 
 
 
@@ -235,15 +234,15 @@ Soru bulamadım…
 
 ##### GİRİŞ #####
 
-Bu bölümde soru hazırlanmasına gerek duyulmamaktadır.
+
 
 ##### WHITE BOX #####
 
 1. White box test ile ilgili verilen bilgilerden hangisi yanlıştır?
-Kodun içindeki yapıların incelendiği bir test türüdür.
-Functionality test ile benzerlik göstermektedir. (Doğru)
-Developer büyük bir sorumluluğa sahiptir.
-Unit test White box modellerinden biridir.
+- Kodun içindeki yapıların incelendiği bir test türüdür.
+- Functionality test ile benzerlik göstermektedir. (Doğru)
+- Developer büyük bir sorumluluğa sahiptir.
+- Unit test White box modellerinden biridir.
 
 2.Integration testinde senaryo içindeki tüm modüller hazır olmadan testin yapılmaması kavramına ne ad verilir?
 - Integration Test Scenarios
@@ -273,7 +272,7 @@ Unit test White box modellerinden biridir.
 
 #### CODE DOCUMENTATION ####
 
-Bu bölüm için soru hazırlanmasına gerek duyulmamaktadır.
+
 
 ##### YAZILIMIN İSTENEN KARAKTERİSTİKLERİ #####
 
