@@ -58,3 +58,4 @@
 - [Linkleri Güncellemek](LinkUpdates/)
 - [Routing - Yönlendirme](Routing/)
 - [Kurs Modeli](CourseModel/)
+- [Postman ve API](PostmanAndAPI/)
