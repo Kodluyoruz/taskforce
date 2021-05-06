@@ -280,6 +280,7 @@
 2. Debugging, Watch ve Variables Penceresi : https://drive.google.com/file/d/1_EigHrSwJ15R7P1aQkDF27pWDGI39Qcn/view?usp=sharing
 
 ### [Karar Yapıları](8-karar-yapilari/)
+#### Sorular
 1. If komutu ile karar verebilmek için aşağıdakilerden hangisini kullanamayız ?
 
    - Herhangi bir nümerik tip (int, long vb.) (Doğru)
@@ -315,7 +316,6 @@
    - ?. (null-conditional operator)
    - || (conditional logical OR operator)
 
-#### Sorular
 
 #### Videolar
 1. If Else Ternary: https://drive.google.com/file/d/1_EigHrSwJ15R7P1aQkDF27pWDGI39Qcn/view?usp=sharing
@@ -325,6 +325,40 @@
 ### [Döngüler](9-donguler/)
 
 #### Sorular
+1. Aşağıdaki komutlardan hangisi ile döngünün tamamlanmasını beklemeden döngüyü sonlandırmamıza yarar ?
+
+   - continue
+   - while
+   - if
+   - break (Doğru)
+
+2. Aşağıdaki komutlardan hangisi ile döngü içerisinde bir sonraki iterasyonua geçiş yaparız ?
+
+   - for
+   - foreach
+   - continue (Doğru)
+   - break
+
+3. Belirsiz sayıda iterasyona sahip, yalnızca belli bir koşul sağlandığı sürece döngü kullanmamız gerektiğinde aşağıdaki döngülerden hangisini kullanırız ?
+
+   - for
+   - try
+   - while (Doğru)
+   - foreach
+
+4. Bir dizi yada koleksiyon üyeleri ile ilgili döngü kullanmak istediğimizde hangi döngüyü kullanırız ?
+
+   - foreach (Doğru)
+   - for
+   - while
+   - catch
+
+5. Belirli bir sayıda iterasyona sahip bir döngü kullanmak istediğimizde hangi döngüyü kullanırız ?
+
+   - foreach
+   - for (Doğru)
+   - finally
+   - while
 
 #### Videolar 
 1. For Loop, Break ve Continue Anahtar Kelimeleri: https://drive.google.com/file/d/17WxdIGUU4diMjLHU22E3h4Mzy3PnUjyc/view?usp=sharing
@@ -335,6 +369,41 @@
 ### [Diziler](10-diziler/)
 
 #### Sorular
+1. Aşağıdaki tanımlardan hangisi ile string tipinde elemanlar barındıran dizi tanımlamış oluruz ?
+
+   - string{}
+   - string[] (Doğru)
+   - string()
+   - string.
+
+2. Aşağıdaki tanımlardan hangisi 15 elemanlı int değerlerden oluşan bir diziyi tanımlar ?
+
+   - `int[] dizi;`
+   - `int dizi = new int[15];`
+   - `int[] dizi = 1..15;`
+   - `int[] dizi = new int[15];` (Doğru)
+
+3. Bir dizinin boyutunu değiştirmek istediğimizde Array sınıfında bulunan aşağıdaki methodlardan hangisini kullanırız ?
+
+   - Array.Resize (Doğru)
+   - Array.Reverse
+   - Array.Clear
+   - Array.IndexOf
+
+4. Bir dizinin elemanlarını tersten sıralamak istersek Array sınıfındaki hangi methodu kullanabiliriz ?
+
+   - Array.Clear
+   - Array.Reverse (Doğru)
+   - Array.IndexOf
+   - Array.Sort
+
+5. Bir dizi içindeki verilen değere sahip elemanın hangi indexte bulunduğunu Array sınıfındaki aşağıdaki methodlardan hangisi ile bulabiliriz ?
+
+   - Array.Sort
+   - Array.Clear
+   - Array.IndexOf (Doğru)
+   - Array.Reverse
+
 
 #### Videolar 
 1. Tanımlama, Erişim ve döngülerle dizi kullanımı: https://drive.google.com/file/d/17WxdIGUU4diMjLHU22E3h4Mzy3PnUjyc/view?usp=sharing
@@ -345,11 +414,63 @@
 
 #### Sorular
 
+1. Aşağıdaki kavramlardan hangisini aynı isimde fakat farklı dönüş tipleri yada parametreler ile method tanımladığımızda kullanırız ?
+
+   - Method Override
+   - Operator Overload
+   - Method Overload (Doğru)
+   - Extension Method
+
+2. Herhangi bir geri dönüş tipi olmayan methodları belirtmek için aşağıdaki anahtar kelimelerden hangisini kullanırız ?
+
+   - void (Doğru)
+   - public
+   - return
+   - params
+
+3. Bir method parametresini değeri yerine referansı ile kullanmak istediğimizde aşağıdaki anahtar kelimelerden hangisini method parametre tipinin önüne ekleriz ?
+
+   - reference
+   - out
+   - void
+   - ref (Doğru)
+
+4. Kaynak kodunu direk değiştirme imkanımız olmayan tiplere ihtiyacımıza özgü yeni methodlar ekleyebilmemize yarayan method tipi hangisidir ?
+
+   - Method Overload
+   - Method Override
+   - Extension Method (Doğru)
+   - Extended Method
+
+5. Aşağıdakilerden hangisi methodlar için yanlış bir bilgidir ?
+
+   - Her methodun geri dönüş tipi olmak zorunda değildir.
+   - Bir methodun birden fazla geri dönüş tipi olabilir. (Doğru)
+   - Bir method parametresine referansı ile erişip değerini değiştirmek istediğimizde ref yada out anahtar kelimelerini kullanırız.
+   - Geri dönüş tipi yada parametrelerinin farklı olması koşuluyla aynı isimde method tanımlayabiliriz.
+
+6. Geri dönüş tipi olmayan, Yazdir ismindeki methodun çağrımı aşağıdakilerden hangisinde doğru yapılmıştır ?
+
+   - Yazdir[];
+   - Yazdir;
+   - Yazdir(); (Doğru)
+   - Yazdir{()};
+
+
 #### Video
 
 ### [Ödev 1](11-odev-1/)
 
 #### Sorular
+
+1. Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girilmesi istenir (n). Sonrasında kullanıcıdan n adet pozitif sayı girilmesi istenir. Kullanıcının girmiş olduğu sayılardan çift olanlar console'a yazdırılır.
+
+2. Bir konsol uygulamasında kullanıcıdan pozitif iki sayı girilmesi istenir (n, m). Sonrasında kullanıcıdan n adet pozitif sayı girilmesi istenir. Kullanıcının girmiş olduğu sayılardan m'e eşit yada tam bölünenler console'a yazdırılır.
+
+3. Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girilmesi istenir (n). Sonrasında kullanıcıdan n adet kelime girilmesi istenir. Kullanıcının girişini yaptığı kelimeler sondan başa doğru console'a yazdırılır.
+
+4. Bir konsol uygulamasında kullanıcıdan bir cümle yazması istenir. Cümledeki toplam kelime ve harf sayısı console'a yazdırılır.
+
 
 #### Video
 
