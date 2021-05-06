@@ -664,3 +664,19 @@ dosyası oluşturuldu.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; SmartEdu projemizin ilk modeli olan "Course" modelini oluşturduk.
+
+### [Postman ve API](PostmanAndAPI/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Postman uygulaması ve kullanım şekli üzerine konuştuk.
+
+### [Kursları Listelemek](CourseListing/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projemizdeki kurslar sayfasını oluşturduk ve veritabanında bulunan kurs dökümanını sayfa içerisinde yazdırdık.
