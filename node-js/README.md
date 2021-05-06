@@ -57,3 +57,4 @@
 - [HTTP Durum Kodları](HTTPStatusCodes/)
 - [Linkleri Güncellemek](LinkUpdates/)
 - [Routing - Yönlendirme](Routing/)
+- [Kurs Modeli](CourseModel/)
