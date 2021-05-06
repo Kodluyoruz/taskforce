@@ -630,7 +630,6 @@ app.get('/random', function (req, res) {
   res.send('TEST')
 }) yönlendirmesi hangi istek ile eşleşir?
 ```
-
 		
 - /index	
 - /test	
@@ -643,3 +642,25 @@ app.get('/random', function (req, res) {
 1. (Youtube adresi yazılacak)
 	- Bu videoda; SmartEdu projemizin yönlendirme routing klasörünü oluşturduk ve bu yönlendirme dosyalarına bağlı olarak ilgili controller
 dosyası oluşturuldu. 
+
+### [Kurs Modeli](CourseModel/)
+#### Sorular
+1. Oluşturulan herhangi bir modelde ilgili alanın zorunlu olduğunu belirtmek için hangi anahtar kelime kullanılır?
+		
+	- type	
+	- unique	
+	- must	
+	- trim	
+	- required (Doğru)
+
+2. Oluşturulan herhangi bir modelde ilgili alanın benzersiz olduğunu belirtmek için hangi anahtar kelime kullanılır?
+		
+	- required	
+	- unique (Doğru)	
+	- type	
+	- String	
+	- Number
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projemizin ilk modeli olan "Course" modelini oluşturduk.
