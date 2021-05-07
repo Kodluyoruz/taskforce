@@ -86,4 +86,4 @@ olarak alacağız.
 #### [Çalışma Özel GitHub](https://github.com/ArinSoftware/SmarteduProject/commit/0ef81dce49b75a35ea73e148b557af11cca124f0)
 
 ## Daha Fazlası İçin
-- [Mongoose OnjectIDs](https://mongoosejs.com/docs/schematypes.html#objectids)
+- [Mongoose ObjectIDs](https://mongoosejs.com/docs/schematypes.html#objectids)
