@@ -680,3 +680,17 @@ dosyası oluşturuldu.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; SmartEdu projemizdeki kurslar sayfasını oluşturduk ve veritabanında bulunan kurs dökümanını sayfa içerisinde yazdırdık.
+
+### [Tekil Kurs Sayfası ve Slugify](SingleCourseAndSlugify/)
+#### Sorular
+1. Oluşturulan herhangi bir modelde ilgili alanın zorunlu olduğunu belirtmek için hangi anahtar kelime kullanılır?		
+		
+	- req.body	
+	- req.query
+	- req.params (Doğru)
+	- req.id	
+	- req.slug
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projemizdeki her kursun kendisine özel tekil kurs sayfasını oluşturduk ve aynı zamanda slugify paketini kullandık.
