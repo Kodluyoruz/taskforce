@@ -694,3 +694,11 @@ dosyası oluşturuldu.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; SmartEdu projemizdeki her kursun kendisine özel tekil kurs sayfasını oluşturduk ve aynı zamanda slugify paketini kullandık.
+
+### [Kategori Oluşturmak ve Listelemek](CategoryListing/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projemizdeki kategori bölümünü oluşturduk ve kursları kategorilere göre listeledik.
