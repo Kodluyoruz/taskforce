@@ -61,3 +61,4 @@
 - [Postman ve API](PostmanAndAPI/)
 - [Kursları Listelemek](CourseListing/)
 - [Tekil Kurs Sayfası ve Slugify](SingleCourseAndSlugify/)
+- [Kategori Oluşturmak ve Listelemek](CategoryListing/)
