@@ -4,4 +4,4 @@
 - [Kurucu Fonksiyonlar](2-kurucu-fonksiyonlar/)
 - [Encapsulation](3-encapsulation-ve-property-kavrami/)
 - [Static Class, Static Member](4-static-sinif-ve-uyeler/)
-- [Struct](10-struct-nedir/)
+- [Struct](5-struct-nedir/)

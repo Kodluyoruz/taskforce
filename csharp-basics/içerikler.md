@@ -493,9 +493,9 @@
 Aşağıdaki 3 soruyu ayrı ayrı console uygulamaları açarak yazınız. 
 Koleksiyonlar-Soru-1, Koleksiyonlar-Soru-2, Koleksiyonlar-Soru-3 isimlerini kullanınız. 
 
-**Soru - 1:** Klavyeden girilen 20 adet pozitif sayının asal ve asal olmayan olarak 2 ayrı listeye atın. (ArrayList sınıfını kullanara yazınız.)
-* Negatif ve numeric olmayan girişleri engelleyin.
-* Her bir dizinin elemanlarını büyükten küçüğe olacak şekilde ekrana yazdırın. 
+**Soru - 1:** Klavyeden girilen 20 adet pozitif sayının asal ve asal olmayan olarak 2 ayrı listeye atın. (ArrayList sınıfını kullanarak yazınız.)
+* Negatif ve numerik olmayan girişleri engelleyin.
+* Her bir dizinin elemanlarını büyükten küçüğe sıralayarak şekilde ekrana yazdırın. 
 * Her iki dizinin eleman sayısını ve ortalamasını ekrana yazdırın.
 
 
@@ -503,7 +503,7 @@ Koleksiyonlar-Soru-1, Koleksiyonlar-Soru-2, Koleksiyonlar-Soru-3 isimlerini kull
 
 
 **Soru - 3:**
-Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde saklayan ve dizinin elemanlarını sıralayan programı yazınız.
+Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde saklayan ve dizinin elemanlarını sıralayan programı yazınız.(A->Z)
 
 #### Video
 
