@@ -62,3 +62,4 @@
 - [Kursları Listelemek](CourseListing/)
 - [Tekil Kurs Sayfası ve Slugify](SingleCourseAndSlugify/)
 - [Kategori Oluşturmak ve Listelemek](CategoryListing/)
+- [Kayıt Sayfası ve Bcrypt Paketi](RegisterAndBcrypt/)
