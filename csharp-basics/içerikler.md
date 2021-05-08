@@ -549,6 +549,99 @@ Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde sakla
 
 #### Sorular
 
+1.  Program içerisinde farklı değerler alabilen ifadelere ne ad verilir?
+      - Sınıf (Doğru)
+      - Sabit   
+      - Değişken           
+      - Hiçbiri
+
+2. Bir sınıf kapsamında tanımlanmış değişkenlere ne ad verilir?
+      -  Field (Doğru)               
+      -  Variable               
+      -  Metot              
+      -  Debug
+
+3. Kapsüllenmiş sınıf field'larına ne isim verilir ?
+      - Field
+      - Variable
+      - Property (Doğru)
+      - Sabit 
+
+4. Bir sınıfın nesnesi ilk oluşturulduğunda yapılması gerekenler varsa aşağıdakilerden hangisi kullanılır ?
+      - Overload Metot
+      - Static Metot
+      - Extension Metot 
+      - Constructor Metot (Doğru)
+
+5. Tanımlanan sınıftan örneği oluşturulan bazı nesnelerin farklı durumlarda başlatılması gerektiğinde aşağıdakilerden hangisi kullanılır?
+      - Örnekleme
+      - Aşırı yüklenmiş kurucu (Doğru)
+      - Metot                        
+      - Alan
+6. "new anahtar sözcüğünü kullanarak bir nesne yaratıldığında, nesneyi oluşturmak için gerekli bellek …………… üzerinden alınır." Boş bırakılan yere aşağıdakilerden hangisi getirilmelidir? 
+
+      - stack 
+      - heap (Doğru)
+      - yığın
+   
+7. "Öğenin yığından öbeğe otomatik kopyalanmasına …………… adı verilir." Boş bırakılan yere aşağıdakilerden hangisi getirilmelidir? 
+
+      - Boxing/Kapsülleme
+      - Unboxing
+      - Overload
+      - Override
+
+8. Statik bir sınıf içerisine aşağıdaki komutlardan hangisini yazarsak compile time da hata verir?
+      - private int x; (Doğru)
+      - public const double sayi = 5;
+      - public static EkranaYazdir();
+      - public static y = 5;
+   
+9. "Statik metotları kullanmak için mutlaka sınıfın bir örneğini oluşturmak gerekir." Ifadenin doğruluğunu teyit ediniz?
+      - Doğru
+      - Yanlış 
+
+10. Static sınıflarla ilgili aşağıdakilerden hangisi **yanlıştır?**
+      - Static sınıflar yanlızca üyeler barındırabilir.
+      - Nesneleri yaratılmadan üyelerine erişilebilir. 
+      - Değişkenleri sınıf tarafından paylaşılır.
+      - Kurucu metotları yoktur. (Doğru)
+
+11. Temel sınıfın bir üyesine, sadece bu sınıftan türemiş bir sınıfın erişebilmesi istiyorsak erişim belirteci olarak aşağıdakilerden hangisini kullanmamız gerekir ? 
+      - public        
+      - internal   
+      - protected (Doğru)              
+      - private
+
+12. Sadece yazılabilir bir property tanımlamak istersek aşağıdakilerden hangisine ihtiyacımız vardır? 
+      - get               
+      - set (Doğru)            
+      - private              
+      - public
+
+13. Yapılarla ilgili aşağıdakilerden hangisi **yanlıştır?**
+      - Diğer struct'lardan kalıtım alamazlar.
+      - Interface'lerden kalıtım alamazlar. (Doğru)
+      - Sınıflardan kalıtım alamazlar. 
+      - **new()** anahtar sözcüğü ile nesneleri yaratılabilir.
+
+14. Yapılarla ilgili aşağıdakilerden hangisi doğrudur?
+
+      - Yapılar için varsayılan yapıcı metod (default constructor) yazamayız. (Doğru)
+      - Yapılar sadece başka yapılar içerisinde kullanılabilir. 
+      - Yapılar sınıfları kapsar. Sınıflarla yapabildiğimiz herşeyi yapılarla da yapabiliriz. 
+      - Sınıflar gibi referans tipindediler. 
+
+15. "Bir sınıfında hem normal kuurucusu hem de static kurucusu aynı anda bulunamaz." Ifadenin doğruluğunu teyit ediniz. 
+      - Doğru 
+      - Yanlış (Doğru)
+
+16. "Static kurucu metotlar ..... çalışır." Cümle içerisinde boş bırakılan yere aşağıdakilerden hangisi getirilebilir?
+      - Program ilk çalıştığında
+      - Sınıfın nesnesi her yaratıldığında
+      - Sınıfın ilk nesnesi oluşturulduğunda sadece 1 kez (Doğru)
+      - Normal kurucu her çalıştığında
+
 #### Video
 
 ### [Enum](17-enum/)
