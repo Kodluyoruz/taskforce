@@ -1,6 +1,9 @@
 # React Native
 
-Kurs kapsamında yapılan tüm pratik çalışmaları ve projeler için taskforce'un [react-native branchine](https://github.com/Kodluyoruz/taskforce/blob/react-native) göz atabilirsin.
+![logo](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/figures/logo_01.png)
+
+
+Kurs kapsamında yapılan tüm pratik çalışmaları ve projeler için taskforce'un [react-native branchine](https://github.com/Kodluyoruz/taskforce/tree/react-native) göz atabilirsin.
 
 O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-native/CHANGELOG.md) dosyasından geliştirilen alıştırma projelerin commitlerine göz atabilir, kodlara göz gezdirebilirsin.
 

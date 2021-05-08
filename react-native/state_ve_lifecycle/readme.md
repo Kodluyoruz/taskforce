@@ -81,9 +81,9 @@ Her componentin bir yaşam süreci vardır. Doğar, yaşar ve ölür. Biz geliş
 
 Functional componentlarda yaşam evrelerinde büyük rol oynayan hook useEffect hooku dur.
 
-![1.007](https://github.com/Kodluyoruz/taskforce/blob/react-native/state_ve_lifecycle/figures/1.007.jpeg)
+![1.007](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/state_ve_lifecycle/figures/1.007.jpeg)
 
-![1.008](https://github.com/Kodluyoruz/taskforce/blob/react-native/state_ve_lifecycle/figures/1.008.jpeg)
+![1.008](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/state_ve_lifecycle/figures/1.008.jpeg)
 
 🔧
 - https://www.youtube.com/watch?v=4ORZ1GmjaMc
