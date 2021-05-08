@@ -1,45 +1,45 @@
-#### C# Temel Index ####
+# C# Temel Index 
 
 #### C# Giriş ####
 
 - [Programlama Dillerinin Tarihçesi](1-giris/1-programlama-dillerinin-tarihcesi/)
 - [C# Tanıtım](1-giris/2-csharp-tanitim/)
 
-#### [Kurulumlar](2-kurulumlar/) ####
+#### Kurulumlar ####
 
 - [.NET 5 Kurulumu](2-kurulumlar/1-net-5-kurulumu/)
 - [Visual Studio Code kurulumu](2-kurulumlar/2-vscode-kurulumu/)
 
-#### [Console Programlama](3-console-programlama/) ####
+#### Console Programlama ####
 
-#### [Değişkenler](4-degiskenler/) ####
+#### Değişkenler  ####
 
-#### [Operatörler](5-operatorler/) ####
+#### Operatörler ####
 
-#### [Tip Dönüşümleri](6-tip-donusumleri/) ####
+#### Tip Dönüşümleri ####
 
-#### [Hata Yönetimi ve Kod İzleme](7-hata-yonetimi-ve-kod-izleme/) ####
+#### Hata Yönetimi ve Kod İzleme ####
 
 - [Try-Catch-Finally ve Mantıksal Hatalar](7-hata-yonetimi-ve-kod-izleme/1-try-catch-finally-ve-mantiksal-hatalar/)
 - [Debugging, Watch ve Variables Penceleri](7-hata-yonetimi-ve-kod-izleme/2-debugging-watch-ve-variables-pencereleri/)
 
 
-#### [Karar Yapıları](8-karar-yapilari/) ####
+#### Karar Yapıları ####
 
 - [If, Else Yapısı ve Ternary If](8-karar-yapilari/1-if-else-yapisi-ve-ternary-if/)
 - [Switch Case](8-karar-yapilari/2-switch-case/)
 
-#### [Döngüler](9-donguler/) ####
+#### Döngüler ####
 
 - [For Döngüsü ve Break Continue Anahtar Kelimeleri](9-donguler/1-for-dongusu-break-continue/)
 - [While ve ForEach Döngüleri](9-donguler/2-while-foreach-donguleri/)
 
-### [Diziler](10-diziler/) ####
+#### Diziler ####
 
 - [Dizi Tanımlama, Dizilere Erişim ve Döngülerle Kullanımı](10-diziler/1-dizi-tanımlama-erişim-ve-döngülerle-kullanım/)
 - [Array Sınıfı ve Methodlari](10-diziler/2-array-sinifi-ve-methodlari/)
 
-#### [Metotlar](11-metotlar/) ####
+#### Metotlar ####
 
 
 - [Metot Nedir? Ref Parametre Kullanımı ](11-metotlar/1-metot-nedir/)
@@ -48,13 +48,13 @@
 
 #### [Ödev 1](12-odev-1/) ####
 
-#### [C# Hazır Metotlar](13-csharp-hazir-metotlar/) ####
+#### C# Hazır Metotlar ####
 
 - [String Metotlar](13-csharp-hazir-metotlar/1-string-metotlar/)
 - [DateTime Metotlar](13-csharp-hazir-metotlar/2-datetime-metotlar/)
 - [Math Kütüphanesi ve Metotları](13-csharp-hazir-metotlar/3-math-kutuphanesi/)
 
-#### [Koleksiyonlar](14-koleksiyonlar/) ####
+#### Koleksiyonlar ####
 
 - [Koleksiyon Nedir?](14-koleksiyonlar/1-koleksiyon-nedir/)
 - [Generic Koleksiyonar](14-koleksiyonlar/2-generic-koleksiyonlar/)
@@ -63,7 +63,7 @@
 
 #### [Ödev 2](15-odev-2/) ####
 
-#### [Sınıf Kavramı](16-sinif-kavrami/) ####
+#### Sınıf Kavramı ####
 
 - [Sınıf Nedir?](16-sinif-kavrami/1-sinif-nedir/)
 - [Sınıf Nasıl Oluşturulur?](16-sinif-kavrami/2-sinif-olusturma/)
@@ -80,7 +80,7 @@
 
 #### [Enum](17-enum/) ####
 
-#### [Nesne Yönelimli Programlama](18-nesne-yonelimli-programlama/) ####
+#### Nesne Yönelimli Programlama ####
 
 - [Object Orientented Programming Nedir?](18-nesne-yonelimli-programlama/1-oop-nedir/)
 - [Nesne Tabanlı Programlama Dilleri Nelerdir?](18-nesne-yonelimli-programlama/2-oop-diller/)
@@ -93,8 +93,8 @@
 - [Interface](18-nesne-yonelimli-programlama/9-interface/)
 
 
-#### [Proje 1](19-proje-1/) ####
+#### Proje 1 ####
 
-#### [Proje 2](20-proje-2/) ####
+#### Proje 2) ####
 
-#### [Tüm Dökümanlar](21-dokumanlar/) ####
+#### Tüm Dökümanlar ####
