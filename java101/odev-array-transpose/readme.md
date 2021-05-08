@@ -7,9 +7,9 @@ Matrisin transpozunu (devriğini) almak, matrisin aynı numaralı satırları il
 Örneğin aşağıdaki 2x3’lik A matrisinin transpozu (devriği), 2x3’lük bir
 A^T matrisidir.
 
-![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/java1/patika/java101/odev-array-transpose/figures/c1.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java101/odev-array-transpose/figures/c1.png)
 
-![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/java1/patika/java101/odev-array-transpose/figures/c2.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java101/odev-array-transpose/figures/c2.png)
 
 
 ## Senaryo

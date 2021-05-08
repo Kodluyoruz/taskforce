@@ -1,5 +1,18 @@
 # Çok Boyutlu Dizile ile A Harfi Oluşturma
 
+## Ödev
+
+Çok boyutlu diziler kullanılarak "yıldızlar" ile ekrana "B" harfi yazan programı yazınız.
+
+```
+ *  *  *  * 
+ *        * 
+ *        * 
+ *  *  *  * 
+ *        * 
+ *        * 
+ *  *  *  * 
+```
 ```java
 
 public class Main {

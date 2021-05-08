@@ -8,9 +8,9 @@ Class kullanmanızı gerektirecek kadar komplex olmayan yapılarınız varsa ve 
 * Class lar referans tipli özellikler gösterir, Yapılar ise değer tipli özellikler gösterirler. En temel fark budur. 
 * Diğer struct yada sınıflardan kalıtım almazlar.
 * Interface'lerden kalıtım alabilirler. 
-* New anahtar sözcüğü ile nesneleri yaratılabilir.
+* **new** anahtar sözcüğü ile nesneleri yaratılabilir.
 * Sınıflar gibi metot, property ve field'lardan oluşurlar. 
-* Sınıf içerisinde struct, strıct içerisinde de sınıf oluşturulabilir. 
+* Sınıf içerisinde struct, struct içerisinde de sınıf oluşturulabilir. 
 * Static üye barındırabilirler.  
 
 

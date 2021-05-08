@@ -459,6 +459,13 @@
 
 #### Video
 
+1. Metot'lara Giriş ve Ref Parametre Kullanımı: https://drive.google.com/file/d/1HhjKzZhZtvKi6HXgoKm3wSLxuBM8Gk46/view?usp=sharing
+
+2. Metot Overloading ve Out Parametre Kullanımı: https://drive.google.com/file/d/1XP-mgNHYQ-7-iyVguwtw6DmAaZtqXdmX/view?usp=sharing
+
+3. Extension ve Rekürsif Metotlar: https://drive.google.com/file/d/145its9eSFM5bG6oN-Cxh5usFB_B8Ituf/view?usp=sharing
+
+
 ### [Ödev 1](12-odev-1/)
 
 #### Sorular
@@ -473,18 +480,70 @@
 
 
 #### Video
+** Gerekli Değil
 
 ### [C# Hazır Metotlar](13-csharp-hazir-metotlar/)
 
 #### Sorular
 
+** Gerekli Değil
 #### Video
+
+1. String: https://drive.google.com/file/d/1XFYS_ru9lJVLQzVSmJTLhP-f9W9XECij/view?usp=sharing
+
+2. Datetime ve Math:  https://drive.google.com/file/d/12uVLhf3Xbbc25oa0tNB5md-UWL2i5dHJ/view?usp=sharing
+
 
 ### [Koleksiyonlar](14-koleksiyonlar/)
-
 #### Sorular
 
+1. Aşağıdakilerden hangisi koleksiyon sınıfında türemiş bir yapı **değildir** ?
+   - ArrayList            
+   - Method (Doğru)           
+   - SortedList
+   - HashTable
+
+2. ArrayList sınıfındaki removeAt metodu hangi amaç için kullanılır?
+   - ArrayList'den bir elemanı silmek için kullanılır. (Doğru)
+   - ArrayList'in sonuna bir eleman eklemek için kullanılır.
+   - ArrayList'in ortasına bir eleman eklemek için kullanılır.
+   - ArrayList'e bir eleman kopyalamak için kullanılır.
+
+3. Aşağıdakilerden hangisi bir koleksiyon sınıfı **değildir** ?
+
+   - Sorted List
+   - Queue
+   - Params (Doğru)
+   - Hashtable 
+
+4. Aşağıdakilerden hangisi refereans tipinde bir veri tipidir?
+   - int
+   - struct
+   - enum
+   - string (Doğru) 
+
+5. Aşağıdakilerden hangisi koleksiyonların **dezavantajlarından** biridir?
+   - Boyutu dinamik olarak artabilir. 
+   - Farklı veri tiplerini barındırır.
+   - Veri eklerken boxing veri okurken unboxing yapılması gerekebilir. (Doğru)
+   - Referans tipindeki verileri saklayabilir. 
+
+6. Value Type ve Reference Type ile ilgili aşağıdakilerden hangisi **yanlıştır?** 
+   - Value Type belleğin stack bölgesinde tutulur. 
+   - Reference Type belleğin heap bölgesinde tutululur. 
+   - Performans açısından Value Type Reference Type'a göre daha avantajlıdır. 
+   - Integer veri tipindeki bir değişkenin object veri tipine dönüştürülmesine unboxing denir. (Doğru)
+   
+
 #### Video
+1. Koleksiyonlar Nedir, Avantajları ve Dezavantajları Nelerdir? : https://drive.google.com/file/d/1bn9KdFJorMHxGU54aX5IYOEi0ELxPM4E/view?usp=sharing
+
+2. Generic List: https://drive.google.com/file/d/19105hcqrMzYnSg2NipwYEJ-PHZvbo76d/view?usp=sharing
+
+3. ArrayList: https://drive.google.com/file/d/1befufyG5l4R1iw9JXPegUp-VLMB_QFaZ/view?usp=sharing
+
+4. Dictionary: https://drive.google.com/file/d/10qpIrq_2LNtCAi_fC36yy6Guebe4jxx4/view?usp=sharing
+
 
 ### [Ödev 2](15-odev-2/)
 
@@ -506,18 +565,136 @@ Koleksiyonlar-Soru-1, Koleksiyonlar-Soru-2, Koleksiyonlar-Soru-3 isimlerini kull
 Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde saklayan ve dizinin elemanlarını sıralayan programı yazınız.(A->Z)
 
 #### Video
+** Gerekli Değil
 
 ### [Sınıf Kavramı](16-sinif-kavrami/)
 
 #### Sorular
 
-#### Video
+1.  Program içerisinde farklı değerler alabilen ifadelere ne ad verilir?
+      - Sınıf (Doğru)
+      - Sabit   
+      - Değişken           
+      - Hiçbiri
+
+2. Bir sınıf kapsamında tanımlanmış değişkenlere ne ad verilir?
+      -  Field (Doğru)               
+      -  Variable               
+      -  Metot              
+      -  Params
+
+3. Kapsüllenmiş sınıf field'larına ne isim verilir ?
+      - Field
+      - Variable
+      - Property (Doğru)
+      - Sabit 
+
+4. Bir sınıfın nesnesi ilk oluşturulduğunda yapılması gerekenler varsa aşağıdakilerden hangisi kullanılır ?
+      - Overload Metot
+      - Static Metot
+      - Extension Metot 
+      - Constructor Metot (Doğru)
+
+5. Tanımlanan sınıftan örneği oluşturulan bazı nesnelerin farklı durumlarda başlatılması gerektiğinde aşağıdakilerden hangisi kullanılır?
+      - Örnek Oluşturma 
+      - Aşırı yüklenmiş kurucu (Doğru)
+      - Metot Override                        
+      - Metot Genişletme
+6. "new anahtar sözcüğünü kullanarak bir nesne yaratıldığında, nesneyi oluşturmak için gerekli bellek …………… üzerinden alınır." Boş bırakılan yere aşağıdakilerden hangisi getirilmelidir? 
+
+      - stack 
+      - heap (Doğru)
+      - yığın
+      - program
+   
+7. "Öğenin yığından öbeğe otomatik kopyalanmasına …………… adı verilir." Boş bırakılan yere aşağıdakilerden hangisi getirilmelidir? 
+
+      - Boxing/Kapsülleme (Doğru)
+      - Unboxing
+      - Overload
+      - Override
+
+8. Statik bir sınıf içerisine aşağıdaki komutlardan hangisini yazarsak compile time da hata verir?
+      - private int x; (Doğru)
+      - public const double sayi = 5;
+      - public static EkranaYazdir();
+      - public static y = 5;
+   
+9. "Statik metotları kullanmak için mutlaka sınıfın bir örneğini oluşturmak gerekir." Ifadenin doğruluğunu teyit ediniz?
+      - Doğru
+      - Yanlış (Doğru)
+
+10. Statik sınıflarla ilgili aşağıdakilerden hangisi **yanlıştır?**
+      - Static sınıflar yanlızca üyeler barındırabilir.
+      - Nesneleri yaratılmadan üyelerine erişilebilir. 
+      - Değişkenleri sınıf tarafından paylaşılır.
+      - Kurucu metotları yoktur. (Doğru)
+
+11. Temel sınıfın bir üyesine, sadece bu sınıftan türemiş bir sınıfın erişebilmesi istiyorsak erişim belirteci olarak aşağıdakilerden hangisini kullanmamız gerekir ? 
+      - public        
+      - internal   
+      - protected (Doğru)              
+      - private
+
+12. Sadece yazılabilir bir property tanımlamak istersek aşağıdakilerden hangisine ihtiyacımız vardır? 
+      - get               
+      - set (Doğru)            
+      - private              
+      - get ve set
+
+13. Yapılarla ilgili aşağıdakilerden hangisi **yanlıştır?**
+      - Diğer struct'lardan kalıtım alamazlar.
+      - Interface'lerden kalıtım alamazlar. (Doğru)
+      - Sınıflardan kalıtım alamazlar. 
+      - **new()** anahtar sözcüğü ile nesneleri yaratılabilir.
+
+14. Yapılarla ilgili aşağıdakilerden hangisi doğrudur?
+
+      - Yapılar için varsayılan yapıcı metod (default constructor) yazamayız. (Doğru)
+      - Yapılar sadece başka yapılar içerisinde kullanılabilir. 
+      - Yapılar sınıfları kapsar. Sınıflarla yapabildiğimiz herşeyi yapılarla da yapabiliriz. 
+      - Sınıflar gibi referans tipindediler. 
+
+15. "Bir sınıfında hem normal uurucusu hem de statik kurucusu aynı anda bulunamaz." Ifadenin doğruluğunu teyit ediniz. 
+      - Doğru 
+      - Yanlış (Doğru)
+
+16. "Statik kurucu metotlar ..... çalışır." Cümle içerisinde boş bırakılan yere aşağıdakilerden hangisi getirilebilir?
+      - Program ilk çalıştığında
+      - Sınıfın nesnesi her yaratıldığında
+      - Sınıfın ilk nesnesi oluşturulduğunda sadece 1 kez (Doğru)
+      - Normal kurucu her çalıştığında
+
+#### Videolar
+
+1. Sinif söz dizimi, Field ve Metot Tanımlama, Erişim Belirleyiciler:  https://drive.google.com/file/d/11A8tkH5H5gnon9tSvViompfxPwR3UJ4r/view?usp=sharing
+
+2. Kurucu Fonksiyonlar: https://drive.google.com/file/d/1iOOoZ5nPmfDOFEzcsBOXuOBMy_OnT8rN/view?usp=sharing
+
+3. Encapsulation ve Property Kavramı: https://drive.google.com/file/d/1D0L9Zo9s-zeQQhH4j5Cva7842pEAwNbN/view?usp=sharing
+
+4. Static sinif ve üyeler: https://drive.google.com/file/d/1HR1HiBtMQw7xwUb3RbIuKGm7cR4oAZy4/view?usp=sharing
+
+5. Struct-Yapılar: https://drive.google.com/file/d/1yWqD0nN_FxzRgHJOu4bqWRG-ABT89C52/view?usp=sharing
+
 
 ### [Enum](17-enum/)
 
 #### Sorular
 
+1. Enum'lar ile ilgili aşağıdakilerden hangisi **doğrudur?**
+      - Enum tanımlarken sadece public erişim belirteçlerini kullanabiliriz.
+      - Enum elemanlarına verilen sıra numaraları string türünden olabilir.
+      - Enum elemanlarına sayısal değer aktarırken, elemanların içeriği sıralı bir şekilde artıyorsa tüm elemanlara değer ataması yapılması zorunludur.
+      - Enum isimleri string ifadeler olabilir. (Doğru)
+
+2. "Enum'lar numeric değerleri içerir ve her zaman 1'den başlar." ifadesinin doğruluğunu teyit ediniz. 
+      - Doğru
+      - Yanlış (Doğru)
+
 #### Video
+
+https://drive.google.com/file/d/1Jl7bzljPVXDBhUXOqn4oq4cQHkZJIrnD/view?usp=sharing
 
 
 ### [Nesne Yönelimli Programlama](18-nesne-yonelimli-programlama/)
@@ -529,14 +706,238 @@ Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde sakla
 
 ### [Proje 1](19-proje-1/)
 
-#### Sorular
+# PROJE-1 : Console Telefon Rehberi Uygulaması
+Yeni bir console uygulaması açarak telefon rehberi uygulaması yazınız. 
+Uygulamada olması gereken özellikler aşağıdaki gibidir. 
 
-#### Video
+1. Telefon Numarası Kaydet
+2. Telefon Numarası Sil
+3. Telefon Numarası Güncelle
+4. Rehber Listeleme (A-Z, Z-A seçimli)
+5. Rehberde Arama
+
+
+Açıklama: 
+
+- Başlangıç olarak 5 kişinin numarasını varsayılan olarak ekleyiniz.
+- Uygulama ilk başladığında kullanıcıya yapmak istediği işlem seçtirilir. 
+
+        Lütfen yapmak istediğiniz işlemi seçiniz :) 
+        *******************************************
+        (1) Yeni Numara Kaydetmek
+        (2) Varolan Numarayı Silmek
+        (3) Varolan Numarayı Güncelleme
+        (4) Rehberi Listelemek
+        (5) Rehberde Arama Yapmak
+
+    -  **(1) Yeni Numara Kaydetmek**
+        
+            Lütfen isim giriniz: 
+            Lütfen soyisim giriniz:
+            Lütfen telefon numarası giriniz:
+    
+    - **(2) Varolan Numarayı Silmek**
+        
+        İsim  ve soyisime göre arama yapılması yeterlidir. 
+
+            Lütfen numarasını silmek istediğiniz kişinin adını ya da soyadını giriniz:
+        
+        Kullanıcıdan alınan girdi doğrultusunda rehberde bir kişi bulunamazsa:
+
+            Aradığınız krtiterlere uygun veri rehberde bulunamadı. Lütfen bir seçim yapınız.
+            * Silmeyi sonlandırmak için : (1)
+            * Yeniden denemek için : (2)
+
+        
+        Rehberde uygun veri bulunursa: 
+            
+            {} isimli kişi rehberden silinmek üzere, onaylıyor musunuz ?(y/n)
+        
+        **Not:** Rehber uygun kriterlere uygun birden fazla kişi bulunursa ilk bulunan silinmeli.
+
+    
+     - **(3) Varolan Numarayı Güncelleme**
+            
+            Lütfen numarasını silmek istediğiniz kişinin adını ya da soyadını giriniz:
+        
+        Kullanıcıdan alınan girdi doğrultusunda rehberde bir kişi bulunamazsa: 
+
+            Aradığınız krtiterlere uygun veri rehberde bulunamadı. Lütfen bir seçim yapınız.
+            * Güncellemeyi sonlandırmak için : (1)
+            * Yeniden denemek için : (2)
+        
+        Rehberde uygun veri bulunursa güncelleme işlemi gerçekleştirilir.
+        
+        **Not:** Rehber uygun kriterlere uygun birden fazla kişi bulunursa ilk bulunan silinmeli.
+
+    - **(4) Rehberi Listelemek**
+        
+        Tüm rehber aşağıdaki formatta console'a listelenir. 
+
+            Telefon Rehberi
+            **********************************************
+            isim: {}
+            Soyisim: {}
+            Telefon Numarası: {}
+            - 
+            isim: {}
+            Soyisim: {}
+            Telefon Numarası: {}
+            .
+            .
+
+     - **(4) Rehberde Arama Yapmak**
+     
+            Arama yapmak istediğiniz tipi seçiniz.
+            **********************************************
+            
+            İsim veya soyisime göre arama yapmak için: (1)
+            Telefon numarasına göre arama yapmak için: (2)
+        
+        Arama sonucuna göre bulunan veriler aşağıdaki formatta gösterilmeli.
+
+            Arama Sonuçlarınız:
+            **********************************************
+            isim: {}
+            Soyisim: {}
+            Telefon Numarası: {}
+            - 
+            isim: {}
+            Soyisim: {}
+            Telefon Numarası: {}
+            .
+            .
+
+    
+    ** Her bir feature ayrı class/method kullanarak yapılmalıdır. Mümkün olduğunca sorumlulukları parçalanmalı ve kod okunabilir olmalıdır. 
+
+
 
 ### [Proje 2](20-proje-2/)
+**Bu proje zorunlu değildir. Ama kavramların oturması için faydalı bir örnek. Tamamlanması tavsiye edilir.**
 
-#### Sorular
+# PROJE-2 : Console ToDo Uygulaması
+Yeni bir console uygulaması açarak bir 3 kolondan oluşan bir TODO uygulaması yazınız. 
+Uygulamada olması gereken özellikler aşağıdaki gibidir. 
 
-#### Video
+- Kart Ekle
+- Kart Güncelle
+- Kart Sil
+- Kart Taşı
+- Board Listeleme
+
+** <u>Kart İçeriği:</u> 
+* Baslık
+* Icerik
+* Atanan Kisi (Takım üyelerişnden biri olmalı)
+* Büyüklük (XS, S, M, L, XL) 
+
+
+<u>Açıklama:</u>
+
+- Board **TODO - IN PROGRESS - DONE** kolonlarından oluşmalı.
+- Varsayılan olarak bir board tanımlı olmalı ve 3 tane de kart barındırmalı.(Kartlar herhangi bir line'da yani kolonda olabilir.)
+- Kartlar ancak takımdan birine atanabilir. Takımdaki kişiler ise varsayılan olarak tanımlanmalı. Takım üyeleri Dictionary kullanılarak key-value pair şeklinde yada bir sınıf aracılığıyla tutulabilir. Kartlara atama yapılırken takım üyeleri ID leri ile atanacak. Yani kullanılacak ypının mutlaka bir ID içermesi gerekir.
+
+- Uygulama ilk başladığında kullanıcıya yapmak istediği işlem seçtirilir. 
+
+        Lütfen yapmak istediğiniz işlemi seçiniz :) 
+        *******************************************
+        (1) Board Listelemek
+        (2) Board'a Kart Eklemek
+        (3) Board'dan Kart Silmek
+        (4) Kart Taşımak
+
+    -  **(1) Board Listelemek**
+        
+            TODO Line
+            ************************
+            Başlık      :
+            İçerik      :
+            Atanan Kişi :
+            Büyüklük    :
+            -
+            Başlık      :
+            İçerik      :
+            Atanan Kişi :
+            Büyüklük    :
+            
+            
+            IN PROGRESS Line
+            ************************
+            Başlık      :
+            İçerik      :
+            Atanan Kişi :
+            Büyüklük    :
+            -
+            Başlık      :
+            İçerik      :
+            Atanan Kişi :
+            Büyüklük    :
+
+
+            DONE Line
+            ************************
+            ~ BOŞ ~
+
+    -  **(2) Board'a Kart Eklemek**
+
+            Başlık Giriniz                                  : 
+            İçerik Giriniz                                  :
+            Büyüklük Seçiniz -> XS(1),S(2),M(3),L(4),XL(5)  :
+            Kişi Seçiniz                                    : 
+
+        **Büyüklükler Enum olarak saklanmalı. Kart üzerinde gösterilirken XS olarak gösterilmeli. Giriş yapılırken kullanıcıdan 1 alınmalıdır. 
+
+        **Takım üyeleri mevcut bir listede daha tanımlanmış olamlıdır.(Program içerisinde dinamik tanımlanmasına gerek yok.) Kart tanımlarken takım üyesinin ID'si istenmeli. Tanımlı bir ID değilse "Hatalı girişler yaptınız!" uyarısı ile işlem iptal edilebilir.
+
+    -  **(3) Board'a Kart Silmek**
+
+            Öncelikle silmek istediğiniz kartı seçmeniz gerekiyor.
+            Lütfen kart başlığını yazınız:  
+
+        Kart bulunamaz ise:
+
+            Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız.
+            * Silmeyi sonlandırmak için : (1)
+            * Yeniden denemek için : (2)
+        
+        ** Aynı isimde birden fazla kart bulunursa her ikisi de silinebilir.
+
+    -  **(4) Kart Taşımak**
+
+            Öncelikle silmek istediğiniz kartı seçmeniz gerekiyor.
+            Lütfen kart başlığını yazınız:  
+        
+        <u>Kart bulunamaz ise:</u>
+
+            Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız.
+            * İşlemi sonlandırmak için : (1)
+            * Yeniden denemek için : (2)
+        
+        <u>Kart bulunur ise:</u>
+
+            Bulunan Kart Bilgileri:
+            **************************************
+            Başlık      :
+            İçerik      :
+            Atanan Kişi :
+            Büyüklük    :
+            Line        :
+
+            Lütfen taşımak istediğiniz Line'ı seçiniz: 
+            (1) TODO
+            (2) IN PROGRESS
+            (3) DONE
+        
+        ** Doğru bir seçim yapılırsa board listelenerek **(1) Board Listelemek** kullanılarak  kullanıcıya gösterilir. Seçim doğru değil ise "Hatalı bir seçim yaptınız!" bilgisi ile işlem sonlandırılabilir. 
+    
+    **NOT:** Uygulamanın yapısı genel olarak aşağıdaki gibi olmalıdır: 
+        
+    * Board 3 tane Line dan oluşur. 
+    * Her bir line bir kart listesi tutar
+    * Kart ların büyüklükleri pre-defined olan bir enum'da tutulur. 
+    * Kart sadece takım üyelerinden birine atanabilir. 
+    * Takım üyeleri daha önceden varsayıla olarak tanımlanmış bir listede olmalı. Struct, class yada bir koleksiyon kullanılabilir.
 
 ### [Tüm Dökümanlar](21-dokumanlar/)
