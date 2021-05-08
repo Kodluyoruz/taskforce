@@ -516,8 +516,8 @@
    - Params (Doğru)
    - Hashtable 
 
-4. Aşağıdakilerden hangisi refereans tipinde bir veri tipidir.
-   - integer
+4. Aşağıdakilerden hangisi refereans tipinde bir veri tipidir?
+   - int
    - struct
    - enum
    - string (Doğru) 
@@ -581,7 +581,7 @@ Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde sakla
       -  Field (Doğru)               
       -  Variable               
       -  Metot              
-      -  Debug
+      -  Params
 
 3. Kapsüllenmiş sınıf field'larına ne isim verilir ?
       - Field
@@ -596,19 +596,20 @@ Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde sakla
       - Constructor Metot (Doğru)
 
 5. Tanımlanan sınıftan örneği oluşturulan bazı nesnelerin farklı durumlarda başlatılması gerektiğinde aşağıdakilerden hangisi kullanılır?
-      - Örnekleme
+      - Örnek Oluşturma 
       - Aşırı yüklenmiş kurucu (Doğru)
-      - Metot                        
-      - Alan
+      - Metot Override                        
+      - Metot Genişletme
 6. "new anahtar sözcüğünü kullanarak bir nesne yaratıldığında, nesneyi oluşturmak için gerekli bellek …………… üzerinden alınır." Boş bırakılan yere aşağıdakilerden hangisi getirilmelidir? 
 
       - stack 
       - heap (Doğru)
       - yığın
+      - program
    
 7. "Öğenin yığından öbeğe otomatik kopyalanmasına …………… adı verilir." Boş bırakılan yere aşağıdakilerden hangisi getirilmelidir? 
 
-      - Boxing/Kapsülleme
+      - Boxing/Kapsülleme (Doğru)
       - Unboxing
       - Overload
       - Override
@@ -621,7 +622,7 @@ Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde sakla
    
 9. "Statik metotları kullanmak için mutlaka sınıfın bir örneğini oluşturmak gerekir." Ifadenin doğruluğunu teyit ediniz?
       - Doğru
-      - Yanlış 
+      - Yanlış (Doğru)
 
 10. Statik sınıflarla ilgili aşağıdakilerden hangisi **yanlıştır?**
       - Static sınıflar yanlızca üyeler barındırabilir.
@@ -639,7 +640,7 @@ Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde sakla
       - get               
       - set (Doğru)            
       - private              
-      - public
+      - get ve set
 
 13. Yapılarla ilgili aşağıdakilerden hangisi **yanlıştır?**
       - Diğer struct'lardan kalıtım alamazlar.
@@ -654,7 +655,7 @@ Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde sakla
       - Yapılar sınıfları kapsar. Sınıflarla yapabildiğimiz herşeyi yapılarla da yapabiliriz. 
       - Sınıflar gibi referans tipindediler. 
 
-15. "Bir sınıfında hem normal kuurucusu hem de statik kurucusu aynı anda bulunamaz." Ifadenin doğruluğunu teyit ediniz. 
+15. "Bir sınıfında hem normal uurucusu hem de statik kurucusu aynı anda bulunamaz." Ifadenin doğruluğunu teyit ediniz. 
       - Doğru 
       - Yanlış (Doğru)
 
@@ -681,7 +682,7 @@ Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde sakla
 
 #### Sorular
 
-1. Enum'lar ile ilgili aşağıdakilerden hangisi doğrudur. 
+1. Enum'lar ile ilgili aşağıdakilerden hangisi **doğrudur?**
       - Enum tanımlarken sadece public erişim belirteçlerini kullanabiliriz.
       - Enum elemanlarına verilen sıra numaraları string türünden olabilir.
       - Enum elemanlarına sayısal değer aktarırken, elemanların içeriği sıralı bir şekilde artıyorsa tüm elemanlara değer ataması yapılması zorunludur.
