@@ -11,10 +11,10 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 
 #### Mobile Programlama ####
 
-- [Mobil Uygulama Geliştirme Nedir](/)
-- [Mobil Uygulama Geliştirme Analizi](/)
-- [Mobil Uygulama Geliştirmede UI & UX](/)
-- [Mobil Uygulama Geliştirmede Renkler](/)
+- [Mobil Uygulama Geliştirme Nedir](mobil-uygulama-gelistirme-nedir/)
+- [Mobil Uygulama Geliştirme Analizi](mobil-uygulama-gelistirme-analizi/)
+- [Mobil Uygulama Geliştirmede UI & UX](mobil-uygulama-gelistirmede-ui-ux/)
+- [Mobil Uygulama Geliştirmede Renkler](mobil-uygulama-gelistirmede-renkler/)
 
 #### React Native Ortamı ####
 - [React Native Nasıl Çalışır](/)
