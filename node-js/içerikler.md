@@ -702,3 +702,11 @@ dosyası oluşturuldu.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; SmartEdu projemizdeki kategori bölümünü oluşturduk ve kursları kategorilere göre listeledik.
+
+### [Kayıt Sayfası ve Bcrypt Paketi](RegisterAndBcrypt/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projemizdeki kayıt sayfasını oluşturduk ve Bcrypt paketi hakkında konuştuk.
