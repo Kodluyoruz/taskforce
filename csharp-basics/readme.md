@@ -1,7 +1,6 @@
+# C# INDEX
 
-
-
-
+#### C# Giriş ####
 - [Programlama Dillerinin Tarihçesi](programlama-dillerinin-tarihcesi/)
 - [C# Tanıtımı](c#-tanitimi/)
 - [Dotnet 5 Kurulumu](dotnet-5-kurulumu/)
