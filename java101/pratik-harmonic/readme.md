@@ -4,7 +4,7 @@ Java ile girilen sayının harmonik serisini bulan program yazacağız.
 
 Harmonik Seri Formülü :
 
-![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/java1/patika/java101/pratik-harmonic/figures/harmonic_series.gif)
+![](figures/harmonic_series.gif)
 
 ```java
 public class Main {

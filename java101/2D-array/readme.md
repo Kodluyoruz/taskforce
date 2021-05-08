@@ -6,7 +6,7 @@ Java'da Çok Boyutlu Diziler varsayılan bir veri tipi olarak bulunmazlar ve mat
 
 3x3 boyutunda bir matris örneği :
 
-![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/java1/patika/java101/2D-array/figures/matris.png)
+![](figures/matris.png)
 
 Tablo oluşturup bu tablonun bilgilerini matris ile gösterelim. Örneğin, şehirler arasındaki mesafeyi gösteren bu tabloyu uzaklık değişkenimizde sakladık.
 
