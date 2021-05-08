@@ -10,7 +10,7 @@ Class kullanmanızı gerektirecek kadar komplex olmayan yapılarınız varsa ve 
 * Interface'lerden kalıtım alabilirler. 
 * **new** anahtar sözcüğü ile nesneleri yaratılabilir.
 * Sınıflar gibi metot, property ve field'lardan oluşurlar. 
-* Sınıf içerisinde struct, strıct içerisinde de sınıf oluşturulabilir. 
+* Sınıf içerisinde struct, struct içerisinde de sınıf oluşturulabilir. 
 * Static üye barındırabilirler.  
 
 
