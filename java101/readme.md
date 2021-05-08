@@ -51,7 +51,7 @@
 - [For Döngüsü](for/)
 - [For ve While Arasındaki Farklar](for-ve-while/)
 - [Continue ve Break Komutları](continue-break/)
-- [Pratik - Girilen Sayılardan Çift Sayıları Bulan Program](pratik-cift-sayi-toplam/)
+- [Pratik - Girilen Sayıya Kadar Olan Çift Sayıları Bulan Program](pratik-cift-sayi-toplam/)
 - [Pratik - Tek Sayıların Toplamını Program](pratik-tek-sayi-toplam/)
 - [Pratik - Girilen Sayıdan Küçük 2’nin Kuvvetlerini Bulan Program](pratik-two-power/)
 - [Pratik - Faktöriyel Hesaplayan Program](pratik-faktoriyel/)

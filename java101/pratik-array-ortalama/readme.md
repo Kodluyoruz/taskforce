@@ -14,3 +14,12 @@ public class Main {
 }
 ```
 
+## Ödev
+
+Dizideki sayıların harmonik ortalamasını hesaplayan programı yazınız.
+
+Harmonik Ortalama formülü : n (eleman sayısı) / elemanların harmonik serisi
+
+Harmonik Seri Formülü :
+
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/java1/patika/java101/pratik-harmonic/figures/harmonic_series.gif)
