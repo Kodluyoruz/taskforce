@@ -1,1 +1,0 @@
-# Top-down ve Bottom-up

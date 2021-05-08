@@ -1,1 +1,0 @@
-# Master Slave Mimarisi

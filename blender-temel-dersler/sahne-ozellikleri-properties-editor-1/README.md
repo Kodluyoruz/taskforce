@@ -1,1 +1,0 @@
-# Sahne Özellikleri  (Properties Editor) - 1

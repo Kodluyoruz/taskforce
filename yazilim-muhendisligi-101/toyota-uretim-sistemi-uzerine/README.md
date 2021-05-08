@@ -1,1 +1,0 @@
-# Toyota Üretim Sistemi Üzerine

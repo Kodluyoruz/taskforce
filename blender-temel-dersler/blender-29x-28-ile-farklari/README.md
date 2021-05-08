@@ -1,1 +1,0 @@
-# Blender 2.9x (2.8 ile farkları)

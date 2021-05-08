@@ -1,1 +1,0 @@
-# Yazılım Mühendisliği 101 Serisine Giriş

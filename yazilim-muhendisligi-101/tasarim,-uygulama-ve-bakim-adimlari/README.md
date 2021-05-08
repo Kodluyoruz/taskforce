@@ -1,1 +1,0 @@
-# Tasarım, Uygulama ve Bakım Adımları

@@ -1,1 +1,0 @@
-# Bootstrap ile Medium Klon Çalışması - Bölüm 3

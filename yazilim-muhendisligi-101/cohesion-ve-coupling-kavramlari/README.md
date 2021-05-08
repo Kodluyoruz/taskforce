@@ -1,1 +1,0 @@
-# Cohesion ve Coupling Kavramları

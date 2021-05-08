@@ -1,1 +1,0 @@
-# Client Server Mimarisi

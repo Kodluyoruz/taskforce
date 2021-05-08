@@ -1,1 +1,0 @@
-# Proje Yönetimi Üzerine- Giriş

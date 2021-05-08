@@ -1,1 +1,0 @@
-# Çok sorulan sorulara cevaplar

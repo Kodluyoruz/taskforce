@@ -1,1 +1,0 @@
-# Yazılımın İstenen Karakteristikleri

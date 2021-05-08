@@ -1,1 +1,0 @@
-# Dönüşümler (Transformasyonlar)

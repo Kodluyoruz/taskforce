@@ -1,1 +1,0 @@
-# Başkasının Verisini Kullanmak

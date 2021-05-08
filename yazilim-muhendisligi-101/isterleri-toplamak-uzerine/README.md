@@ -1,1 +1,0 @@
-# İsterleri Toplamak Üzerine
