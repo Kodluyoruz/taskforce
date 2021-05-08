@@ -9,20 +9,21 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 
 ## İçerikler
 
-#### [Mobile Programlama](mobil_programlama/) ####
+#### Mobile Programlama ####
 
-#### [React Native Ortamı](react_native_ortami/) ####
+#### React Native Ortamı ####
 
-#### [React & React Native Temelleri](react_ve_react_native_temelleri/) ####
+#### React & React Native Temelleri ####
 
-#### [State ve Lifecycle](state_ve_lifecycle/) ####
+#### State ve Lifecycle ####
 
-#### [Navigasyon](navigasyon/) ####
+#### Navigasyon ####
 
 #### Web API ####
 
-#### [State Management (Redux)](state_management/) ####
+#### State Management (Redux) ####
 
 #### Firebase ####
 
 #### Uygulama Dağıtma ####
+
