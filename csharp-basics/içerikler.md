@@ -459,6 +459,13 @@
 
 #### Video
 
+1. Metot'lara Giriş ve Ref Parametre Kullanımı: https://drive.google.com/file/d/1HhjKzZhZtvKi6HXgoKm3wSLxuBM8Gk46/view?usp=sharing
+
+2. Metot Overloading ve Out Parametre Kullanımı: https://drive.google.com/file/d/1XP-mgNHYQ-7-iyVguwtw6DmAaZtqXdmX/view?usp=sharing
+
+3. Extension ve Rekürsif Metotlar: https://drive.google.com/file/d/145its9eSFM5bG6oN-Cxh5usFB_B8Ituf/view?usp=sharing
+
+
 ### [Ödev 1](12-odev-1/)
 
 #### Sorular
@@ -473,15 +480,21 @@
 
 
 #### Video
+** Gerekli Değil
 
 ### [C# Hazır Metotlar](13-csharp-hazir-metotlar/)
 
 #### Sorular
 
+** Gerekli Değil
 #### Video
 
-### [Koleksiyonlar](14-koleksiyonlar/)
+1. String: https://drive.google.com/file/d/1XFYS_ru9lJVLQzVSmJTLhP-f9W9XECij/view?usp=sharing
 
+2. Datetime ve Math:  https://drive.google.com/file/d/12uVLhf3Xbbc25oa0tNB5md-UWL2i5dHJ/view?usp=sharing
+
+
+### [Koleksiyonlar](14-koleksiyonlar/)
 #### Sorular
 
 1. Aşağıdakilerden hangisi koleksiyon sınıfında türemiş bir yapı **değildir** ?
@@ -523,6 +536,14 @@
    
 
 #### Video
+1. Koleksiyonlar Nedir, Avantajları ve Dezavantajları Nelerdir? : https://drive.google.com/file/d/1bn9KdFJorMHxGU54aX5IYOEi0ELxPM4E/view?usp=sharing
+
+2. Generic List: https://drive.google.com/file/d/19105hcqrMzYnSg2NipwYEJ-PHZvbo76d/view?usp=sharing
+
+3. ArrayList: https://drive.google.com/file/d/1befufyG5l4R1iw9JXPegUp-VLMB_QFaZ/view?usp=sharing
+
+4. Dictionary: https://drive.google.com/file/d/10qpIrq_2LNtCAi_fC36yy6Guebe4jxx4/view?usp=sharing
+
 
 ### [Ödev 2](15-odev-2/)
 
@@ -544,6 +565,7 @@ Koleksiyonlar-Soru-1, Koleksiyonlar-Soru-2, Koleksiyonlar-Soru-3 isimlerini kull
 Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde saklayan ve dizinin elemanlarını sıralayan programı yazınız.(A->Z)
 
 #### Video
+** Gerekli Değil
 
 ### [Sınıf Kavramı](16-sinif-kavrami/)
 
@@ -601,7 +623,7 @@ Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde sakla
       - Doğru
       - Yanlış 
 
-10. Static sınıflarla ilgili aşağıdakilerden hangisi **yanlıştır?**
+10. Statik sınıflarla ilgili aşağıdakilerden hangisi **yanlıştır?**
       - Static sınıflar yanlızca üyeler barındırabilir.
       - Nesneleri yaratılmadan üyelerine erişilebilir. 
       - Değişkenleri sınıf tarafından paylaşılır.
@@ -632,23 +654,46 @@ Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde sakla
       - Yapılar sınıfları kapsar. Sınıflarla yapabildiğimiz herşeyi yapılarla da yapabiliriz. 
       - Sınıflar gibi referans tipindediler. 
 
-15. "Bir sınıfında hem normal kuurucusu hem de static kurucusu aynı anda bulunamaz." Ifadenin doğruluğunu teyit ediniz. 
+15. "Bir sınıfında hem normal kuurucusu hem de statik kurucusu aynı anda bulunamaz." Ifadenin doğruluğunu teyit ediniz. 
       - Doğru 
       - Yanlış (Doğru)
 
-16. "Static kurucu metotlar ..... çalışır." Cümle içerisinde boş bırakılan yere aşağıdakilerden hangisi getirilebilir?
+16. "Statik kurucu metotlar ..... çalışır." Cümle içerisinde boş bırakılan yere aşağıdakilerden hangisi getirilebilir?
       - Program ilk çalıştığında
       - Sınıfın nesnesi her yaratıldığında
       - Sınıfın ilk nesnesi oluşturulduğunda sadece 1 kez (Doğru)
       - Normal kurucu her çalıştığında
 
-#### Video
+#### Videolar
+
+1. Sinif söz dizimi, Field ve Metot Tanımlama, Erişim Belirleyiciler:  https://drive.google.com/file/d/11A8tkH5H5gnon9tSvViompfxPwR3UJ4r/view?usp=sharing
+
+2. Kurucu Fonksiyonlar: https://drive.google.com/file/d/1iOOoZ5nPmfDOFEzcsBOXuOBMy_OnT8rN/view?usp=sharing
+
+3. Encapsulation ve Property Kavramı: https://drive.google.com/file/d/1D0L9Zo9s-zeQQhH4j5Cva7842pEAwNbN/view?usp=sharing
+
+4. Static sinif ve üyeler: https://drive.google.com/file/d/1HR1HiBtMQw7xwUb3RbIuKGm7cR4oAZy4/view?usp=sharing
+
+5. Struct-Yapılar: https://drive.google.com/file/d/1yWqD0nN_FxzRgHJOu4bqWRG-ABT89C52/view?usp=sharing
+
 
 ### [Enum](17-enum/)
 
 #### Sorular
 
+1. Enum'lar ile ilgili aşağıdakilerden hangisi doğrudur. 
+      - Enum tanımlarken sadece public erişim belirteçlerini kullanabiliriz.
+      - Enum elemanlarına verilen sıra numaraları string türünden olabilir.
+      - Enum elemanlarına sayısal değer aktarırken, elemanların içeriği sıralı bir şekilde artıyorsa tüm elemanlara değer ataması yapılması zorunludur.
+      - Enum isimleri string ifadeler olabilir. (Doğru)
+
+2. "Enum'lar numeric değerleri içerir ve her zaman 1'den başlar." ifadesinin doğruluğunu teyit ediniz. 
+      - Doğru
+      - Yanlış (Doğru)
+
 #### Video
+
+https://drive.google.com/file/d/1Jl7bzljPVXDBhUXOqn4oq4cQHkZJIrnD/view?usp=sharing
 
 
 ### [Nesne Yönelimli Programlama](18-nesne-yonelimli-programlama/)
