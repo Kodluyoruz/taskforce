@@ -710,3 +710,11 @@ dosyası oluşturuldu.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; SmartEdu projemizdeki kayıt sayfasını oluşturduk ve Bcrypt paketi hakkında konuştuk.
+
+### [Giriş Sayfası ve Giriş İşlemi](LoginPage/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projemizdeki giriş sayfasını oluşturduk ve giriş işlemleri üzerine konuştuk.
