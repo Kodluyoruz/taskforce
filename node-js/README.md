@@ -63,3 +63,4 @@
 - [Tekil Kurs Sayfası ve Slugify](SingleCourseAndSlugify/)
 - [Kategori Oluşturmak ve Listelemek](CategoryListing/)
 - [Kayıt Sayfası ve Bcrypt Paketi](RegisterAndBcrypt/)
+- [Giriş Sayfası ve Giriş İşlemi](LoginPage/)
