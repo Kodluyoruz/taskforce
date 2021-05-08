@@ -24,9 +24,9 @@ Açıklama:
 
     -  **(1) Yeni Numara Kaydetmek**
         
-            Lütfen isim giriniz: 
-            Lütfen soyisim giriniz:
-            Lütfen telefon numarası giriniz:
+            Lütfen isim giriniz             : 
+            Lütfen soyisim giriniz          :
+            Lütfen telefon numarası giriniz :
     
     - **(2) Varolan Numarayı Silmek**
         
@@ -38,7 +38,7 @@ Açıklama:
 
             Aradığınız krtiterlere uygun veri rehberde bulunamadı. Lütfen bir seçim yapınız.
             * Silmeyi sonlandırmak için : (1)
-            * Yeniden denemek için : (2)
+            * Yeniden denemek için      : (2)
 
         
         Rehberde uygun veri bulunursa: 
@@ -55,8 +55,8 @@ Açıklama:
         Kullanıcıdan alınan girdi doğrultusunda rehberde bir kişi bulunamazsa: 
 
             Aradığınız krtiterlere uygun veri rehberde bulunamadı. Lütfen bir seçim yapınız.
-            * Güncellemeyi sonlandırmak için : (1)
-            * Yeniden denemek için : (2)
+            * Güncellemeyi sonlandırmak için    : (1)
+            * Yeniden denemek için              : (2)
         
         Rehberde uygun veri bulunursa güncelleme işlemi gerçekleştirilir.
         
