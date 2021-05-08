@@ -484,6 +484,44 @@
 
 #### Sorular
 
+1. Aşağıdakilerden hangisi koleksiyon sınıfında türemiş bir yapı **değildir** ?
+   - ArrayList            
+   - Method (Doğru)           
+   - SortedList
+   - HashTable
+
+2. ArrayList sınıfındaki removeAt metodu hangi amaç için kullanılır?
+   - ArrayList'den bir elemanı silmek için kullanılır. (Doğru)
+   - ArrayList'in sonuna bir eleman eklemek için kullanılır.
+   - ArrayList'in ortasına bir eleman eklemek için kullanılır.
+   - ArrayList'e bir eleman kopyalamak için kullanılır.
+
+3. Aşağıdakilerden hangisi bir koleksiyon sınıfı **değildir** ?
+
+   - Sorted List
+   - Queue
+   - Params (Doğru)
+   - Hashtable 
+
+4. Aşağıdakilerden hangisi refereans tipinde bir veri tipidir.
+   - integer
+   - struct
+   - enum
+   - string (Doğru) 
+
+5. Aşağıdakilerden hangisi koleksiyonların **dezavantajlarından** biridir?
+   - Boyutu dinamik olarak artabilir. 
+   - Farklı veri tiplerini barındırır.
+   - Veri eklerken boxing veri okurken unboxing yapılması gerekebilir. (Doğru)
+   - Referans tipindeki verileri saklayabilir. 
+
+6. Value Type ve Reference Type ile ilgili aşağıdakilerden hangisi **yanlıştır?** 
+   - Value Type belleğin stack bölgesinde tutulur. 
+   - Reference Type belleğin heap bölgesinde tutululur. 
+   - Performans açısından Value Type Reference Type'a göre daha avantajlıdır. 
+   - Integer veri tipindeki bir değişkenin object veri tipine dönüştürülmesine unboxing denir. (Doğru)
+   
+
 #### Video
 
 ### [Ödev 2](15-odev-2/)
