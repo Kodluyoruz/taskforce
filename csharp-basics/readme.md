@@ -46,7 +46,7 @@
 - [Metot Overload Nedir? Out Parametre Kullanımı](11-metotlar/2-metot-overload-nedir-ve-out-kullanimi/)
 - [Extension ve Rekürsif Metot Kullanımı](11-metotlar/3-extension-recursive-metotlar/)
 
-#### [Ödev 1](12-odev-1/) ####
+#### Ödev 1 ####
 
 #### C# Hazır Metotlar ####
 
@@ -61,7 +61,7 @@
 - [Array List](14-koleksiyonlar/3-arraylist-nedir/)
 - [Dictionary](14-koleksiyonlar/4-dictionary-nedir/)
 
-#### [Ödev 2](15-odev-2/) ####
+#### Ödev 2 ####
 
 #### Sınıf Kavramı ####
 
@@ -78,7 +78,7 @@
 - [Static Class, Static Member](16-sinif-kavrami/11-static-sinif-ve-uyeler/)
 
 
-#### [Enum](17-enum/) ####
+#### Enum ####
 
 #### Nesne Yönelimli Programlama ####
 
@@ -95,6 +95,6 @@
 
 #### Proje 1 ####
 
-#### Proje 2) ####
+#### Proje 2 ####
 
 #### Tüm Dökümanlar ####
