@@ -22,4 +22,4 @@ Harmonik Ortalama formülü : n (eleman sayısı) / elemanların harmonik serisi
 
 Harmonik Seri Formülü :
 
-![](figures/harmonic_series.gif)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java101/pratik-harmonic/figures/harmonic_series.gif)

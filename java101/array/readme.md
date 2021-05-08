@@ -6,7 +6,7 @@ Bu gibi durumlarda dizileri kullanırız. Dizi, aynı türden birden fazla deği
 
 Dizi (Array) kavramı programlama dillerinde bir veri tipini ifade eder. Bu veri tipi liste halindeki ardışık verileri bir arada tutan yapıya denilir. Bu ardışık yapıya ait elemanlara indis yoluyla erişim sağlanabilir. Diziler sabit boyutludur ve tanımlanırken boyutları belirtilir.
 
-![](figures/array.jpg)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java101/array/figures/array.jpg)
 
 Yukarıdaki örnek 10 eleman boyutunda "Integer" veri tipi tutan bir dizidir. Dizilerdeki herhangi bir elemana ulaşmak için indis numaraları kullanılır. Dizi indisleri her zaman 0'dan başlar o yüzden dizinin son elemanının değeri, dizi boyutuna eşit değildir ve bu dikkat edilmesi gereken bir konudur. 
 
