@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/Kodluyoruz/taskforce/compare/v0.0.4...v0.0.5) (2021-05-08)
+
+
+### Features
+
+* :zap: SECTION: 4 - Dükkan v2 ([c7d63fd](https://github.com/Kodluyoruz/taskforce/commit/c7d63fdb8802ee0b15ce817352d676ec1b166d9d))
+* :zap: SECTION: 5 - bana ne? ([fa1bceb](https://github.com/Kodluyoruz/taskforce/commit/fa1bceb6a7f634936f6c874143aab40a7b9d0626))
+
 ### [0.0.4](https://github.com/ezranbayantemur/patika/compare/v0.0.3...v0.0.4) (2021-05-01)
 
 ### Features
