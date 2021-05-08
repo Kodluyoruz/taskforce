@@ -64,5 +64,5 @@ function App() {
   );
 }
 ```
-
-![1.008](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/navigasyon/figures/8.001.jpeg)
+         
+![1.008](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/navigasyon/figures/8.001.png)

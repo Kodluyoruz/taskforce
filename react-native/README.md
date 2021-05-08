@@ -19,10 +19,10 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 
 ### [Navigasyon](navigasyon/)
 
-### [Web API](web_api/)
+### Web API
 
 ### [State Management (Redux)](state_management/)
 
-### [Firebase](firebase/)
+### Firebase
 
-### [Uygulama Dağıtma](uygulama_dagtma/)
+### Uygulama Dağıtma
