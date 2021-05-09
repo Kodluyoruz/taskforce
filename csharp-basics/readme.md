@@ -1,7 +1,7 @@
 #  INDEX
 
 #### Giriş ####
-- [Programlama Dillerinin Tarihçesi](programlama-dillerinin-tarihcesi/)
+- [Programlama Dillerinin Tarihçesi](1-programlama-dillerinin-tarihcesi/)
 - [C# Tanıtımı](c#-tanitimi/)
 
 #### Kurulumlar ####
