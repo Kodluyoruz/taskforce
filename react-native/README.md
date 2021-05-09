@@ -17,7 +17,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Mobil Uygulama Geliştirmede Renkler](mobil-uygulama-gelistirmede-renkler/)
 
 #### React Native Ortamı ####
-- [React Native Ortamı](react-native-ortami/)
+- [React Native Ortamı](react_native_ortami/)
 - [React Native Nasıl Çalışır](react-native-nasil-calisir/)
 - [macOS Kurulumu](macos-kurulumu/)
 - [Windows Kurulumu](windows-kurulumu/)
@@ -26,7 +26,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Proje Dizini iOS](proje-dizini-ios/)
 
 #### React & React Native Temelleri ####
-- [React & React Native Temelleri](react-react-native-temelleri/)
+- [React & React Native Temelleri](react_ve_react_native_temelleri/)
 - [Bölüm Tanıtımı](bolum-tanitimi/)
 - [JSX Giriş](jsx-giris/)
 - [JSX & React Native Döküman İncelemesi](jsx-react-native-dokuman-incelemesi/)
@@ -41,7 +41,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Patistore](patistore/)
 
 #### State ve Lifecycle ####
-- [State ve Lifecycle](state-lifecycle/)
+- [State ve Lifecycle](state_ve_lifecycle/)
 - [Bölüm Tanıtımı](bolum-tanitimi/)
 - [State Giriş](state-giris/)
 - [State Devam](state-devam/)
@@ -68,7 +68,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Nested Navigation Yapısı](nested-navigation-yapisi/)
 
 #### Web API ####
-- [Web API](web-api/)
+- [Web API](web_api/)
 - [Bölüm Tanıtımı](bolum-tanitimi/)
 - [Web API nedir?](web-api-nedir/)
 - [JSON Veri Tipi](json-veri-tipi/)
@@ -83,7 +83,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Tarifka](tarifka/)
 
 #### State Management (Redux) ####
-- [State Management (Redux)](state-management)
+- [State Management (Redux)](state_management)
 - [Bölüm Tanıtımı](bolum-tanitimi/)
 - [State Management nedir?](state-management-nedir/)
 - [Redux ile State Management Temelleri](redux-ile-state-management-temelleri/)
