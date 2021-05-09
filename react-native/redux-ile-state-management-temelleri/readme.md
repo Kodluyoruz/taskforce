@@ -1,1 +1,1 @@
-# redux-ile-state-management-temelleri
+redux-ile-state-management-temelleri
