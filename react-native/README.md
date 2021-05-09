@@ -1,6 +1,6 @@
 # React Native
 
-![logo](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/figures/logo_01.png)
+![logo](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/figures/logo_01.png)
 
 
 Kurs kapsamında yapılan tüm pratik çalışmaları ve projeler için taskforce'un [react-native branchine](https://github.com/Kodluyoruz/taskforce/tree/react-native) göz atabilirsin.
