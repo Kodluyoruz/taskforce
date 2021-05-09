@@ -1,15 +1,23 @@
+# React Native
+
+![logo](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/figures/logo_01.png)
 
 
-# React-Native
+Kurs kapsamında yapılan tüm pratik çalışmaları ve projeler için taskforce'un [react-native branchine](https://github.com/Kodluyoruz/taskforce/tree/react-native) göz atabilirsin.
+
+O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-native/CHANGELOG.md) dosyasından geliştirilen alıştırma projelerin commitlerine göz atabilir, kodlara göz gezdirebilirsin.
+
+## İçerikler
 
 #### Mobil Programlama ####
-- [Tanıtım](tanitim/)
+- [Mobil Programlama](mobil_programlama/)
 - [Mobil Uygulama Geliştirme Nedir](mobil-uygulama-gelistirme-nedir/)
 - [Mobil Uygulama Geliştirme Analizi](mobil-uygulama-gelistirme-analizi/)
 - [Mobil Uygulama Geliştirmede UI & UX](mobil-uygulama-gelistirmede-ui-ux/)
 - [Mobil Uygulama Geliştirmede Renkler](mobil-uygulama-gelistirmede-renkler/)
 
 #### React Native Ortamı ####
+- [React Native Ortamı](react_native_ortami/)
 - [React Native Nasıl Çalışır](react-native-nasil-calisir/)
 - [macOS Kurulumu](macos-kurulumu/)
 - [Windows Kurulumu](windows-kurulumu/)
@@ -18,20 +26,22 @@
 - [Proje Dizini iOS](proje-dizini-ios/)
 
 #### React & React Native Temelleri ####
+- [React & React Native Temelleri](react_ve_react_native_temelleri/)
 - [Bölüm Tanıtımı](bolum-tanitimi/)
 - [JSX Giriş](jsx-giris/)
 - [JSX & React Native Döküman İncelemesi](jsx-react-native-dokuman-incelemesi/)
 - [Component Yapısı](component-yapisi/)
-- [Component Yapısı Devam](component-yapisi-devam/)
+- [Component Yapısı (Devam)](component-yapisi-devam/)
 - [Stillendirmeye Giriş](stillendirmeye-giris/)
 - [Flex Yapısı](flex-yapisi/)
-- [Flex Yapısı Devam](flex-yapisi-devam/)
+- [Flex Yapısı (Devam)](flex-yapisi-devam/)
 - [Custom Component](custom-component/)
-- [Custom Component Devam](custom-component-devam/)
+- [Custom Component (Devam)](custom-component-devam/)
 - [News App](news-app/)
-- [Patistore](patistore/)
+- [Patistore](odev_1/)
 
-#### State & Lifecycle ####
+#### State ve Lifecycle ####
+- [State ve Lifecycle](state_ve_lifecycle/)
 - [Bölüm Tanıtımı](bolum-tanitimi/)
 - [State Giriş](state-giris/)
 - [State Devam](state-devam/)
@@ -40,12 +50,13 @@
 - [Lifecycle Devam (Mount)](lifecycle-devam-mount/)
 - [Lifecycle Devam (Clean up)](lifecycle-devam-clean-up/)
 - [Class vs Functional Component](class-vs-functional-component/)
-- [Music App İnceleme](music-app-inceleme/)
+- [Music App (İnceleme)](music-app-inceleme/)
 - [Music App](music-app/)
-- [Music App Devam](music-app-devam/)
-- [ToDo](todo/)
+- [Music App (Devam)](music-app-devam/)
+- [ToDo](odev_2/)
 
 #### Navigasyon ####
+- [Navigasyon](navigasyon/)
 - [Bölüm Tanıtımı](bolum-tanitimi/)
 - [React Navigation Paketinin İncelenmesi](react-navigation-paketinin-incelenmesi/)
 - [React Navigation Paket Kurulumu](react-navigation-paket-kurulumu/)
@@ -57,6 +68,7 @@
 - [Nested Navigation Yapısı](nested-navigation-yapisi/)
 
 #### Web API ####
+- [Web API](web_api/)
 - [Bölüm Tanıtımı](bolum-tanitimi/)
 - [Web API nedir?](web-api-nedir/)
 - [JSON Veri Tipi](json-veri-tipi/)
@@ -68,23 +80,47 @@
 - [Dükkan (Custom Hook yapısı)](dukkan-custom-hook-yapisi/)
 - [Dükkan (Lottie paketi ile animasyonlar)](dukkan-lottie-paketi-ile-animasyonlar/)
 - [Dükkan (Detay sayfası)](dukkan-detay-sayfasi/)
-- [Tarifka](tarifka/)
+- [Tarifka](odev_3/)
 
-#### State Management ####
+#### State Management (Redux) ####
+- [State Management (Redux)](state_management)
 - [Bölüm Tanıtımı](bolum-tanitimi/)
 - [State Management nedir?](state-management-nedir/)
 - [Redux ile State Management Temelleri](redux-ile-state-management-temelleri/)
 - [Redux Detayları ve Tekrar](redux-detaylari-ve-tekrar/)
 - [Mevcut Bir Yapıya Redux Entegrasyonu](mevcut-bir-yapiya-redux-entegrasyonu/)
-- [Dükkan (Devam)](dukkan-devam/)
+- [Dükkan (Login Tasarımı)](dukkan-login-tasarimi/)
+- [Dükkan (Formik)](dukkan-formik/)
+- [Dükkan (Vector Icons)](dukkan-vector-icons/)
+- [Dükkan (usePost Custom Hooku)](dukkan-usepost-custom-hooku/)
+- [Dükkan (Redux Yapısı)](dukkan-redux-yapisi/)
+- [Dükkan (Logout)](dukkan-logout/)
+- [kodwork](odev_4/)
 
+#### Firebase ####
+- [Firebase](firebase/)
+- [Bölüm Tanıtımı](bolum-tanitimi/)
+- [Firebase Tanıtımı ve Kurulumu](firebase-tanitimi-ve-kurulumu/)
+- [Firebase Auth Modülü](firebase-auth-modulu/)
+- [Firebase Realtime DB](firebase-realtime-db/)
+- [Firebase Realtime DB (Devam)](firebase-realtime-db-devam/)
+- [bana ne? (Generic Style)](bana-ne-generic-style/)
+- [bana ne? (Auth sayfaları)](bana-ne-auth-sayfalari/)
+- [bana ne? (Auth işlemleri)](bana-ne-auth-islemleri/)
+- [bana ne? (Content Input componenti)](bana-ne-content-input-componenti/)
+- [bana ne? (Content göndermek)](bana-ne-content-gondermek/)
+- [bana ne? (Content çekmek)](bana-ne-content-cekmek/)
+- [bana ne? (Log out işlemleri)](bana-ne-log-out-islemleri/)
+- [bana ne? (Dislike??)](bana-ne-dislike/)
+- [bana ne? (Uygulamayı tamamlayış)](bana-ne-uygulamayi-tamamlayis/)
+- [Codetalks](odev_4)
 
-
-
-
-
-
-
-
-
+#### Uygulama Dağıtma ####
+- [Uygulama Dağıtma](uygulama_dagitma/)
+- [Uygulama İcon Değiştirme (Android)](uygulama-icon-degistirme-android/)
+- [Uygulama İcon Değiştirme (iOS)](uygulama-icon-degistirme-ios/)
+- [Uygulama Release Alma (Android)](uygulama-release-alma-android/)
+- [Uygulama Release Alma (iOS)](uygulama-release-alma-ios/)
+- [Uygulama Mağazası (App Store Connect)](uygulama-magazasi-app-store-connect/)
+- [Uygulama Mağazası (Google Play Console)](uygulama-magazasi-google-play-console/)
 

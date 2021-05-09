@@ -45,35 +45,35 @@
    - .csprj
    - .csproj (Doğru)
 
-5. Console Program dosyasındaki hangi özellik bu projenin console projesi olduğunu belirtir ?
+5. Console Program dosyasındaki hangi özellik bu projenin console projesi olduğunu belirtir?
 
    - TargetFramework
    - OutputType (Doğru)
    - Project
    - Sdk
 
-6. dotnet run komutunda aşağıdakilerden hangisi ilk olarak çalışır ?
+6. dotnet run komutunda aşağıdakilerden hangisi ilk olarak çalışır?
 
    - Program
    - main methodu (Doğru)
    - Namespace
    - Proj dosyası
 
-7. dotnet run komutundan sonra aşağıdaki dizinlerden hangisi proje dizininde oluşur ?
+7. dotnet run komutundan sonra aşağıdaki dizinlerden hangisi proje dizininde oluşur?
 
    - dll
    - output
    - obj
    - bin (Doğru)
 
-8. .NET 5 kullanan bir console uygulaması derlendikten sonra hangi dosya uzantısı ile oluşur ?
+8. .NET 5 kullanan bir console uygulaması derlendikten sonra hangi dosya uzantısı ile oluşur?
 
    - dll (Doğru)
    - exe
    - obj
    - bin
 
-9. Console ekranına bilgi yazdırmak için aşağıdaki methodlardan hangisini kullanabiliriz ?
+9. Console ekranına bilgi yazdırmak için aşağıdaki methodlardan hangisini kullanabiliriz?
 
    - Console.Read()
    - Console.Clear()
@@ -155,35 +155,35 @@
 ### [Operatörler](5-operatorler/)
 
 #### Sorular
-1. Aşağıdaki operatörlerden hangisi aritmetik değildir ?
+1. Aşağıdaki operatörlerden hangisi aritmetik değildir?
 
    - `++`
    - `%`
    - `|` (Doğru)
    - `*`
 
-2. 2 bool değişkeni aşağıdaki hangi operatör ile işleme tabi tutamayız ?
+2. 2 bool değişkeni aşağıdaki hangi operatör ile işleme tabi tutamayız?
 
    - `>` (Doğru)
    - `<<`
    - `&`
    - `^`
 
-3. İlişkisel operatör ile yaptığımız işlemin sonucu hangi tiptedir ?
+3. İlişkisel operatör ile yaptığımız işlemin sonucu hangi tiptedir?
 
    - İşleme tabi tutulan değişkenler ile aynı tip
    - bool (Doğru)
    - byte
    - string
 
-4. Atama yapmak için aşağıdaki opertörlerden hangisini kullanamayız ?
+4. Atama yapmak için aşağıdaki opertörlerden hangisini kullanamayız?
 
    - `+=`
    - `%=`
    - `|=`
    - `>=` (Doğru)
 
-5. İki değişkenin birbirine eşit olup olmadığını hangi operatör ile kontrol ederiz ?
+5. İki değişkenin birbirine eşit olup olmadığını hangi operatör ile kontrol ederiz?
 
    - `!=`
    - `==` (Doğru)
@@ -197,35 +197,35 @@
 ### [Tip Dönüşümleri](6-tip-donusumleri/)
 
 #### Sorular
-1. Aşağıdaki tip dönüşümlerinden hangisini implicit olarak gerçekleştirebiliriz ?
+1. Aşağıdaki tip dönüşümlerinden hangisini implicit olarak gerçekleştirebiliriz?
 
    - bool -> int
    - decimal -> short
    - long -> int
    - byte -> float (Doğru)
 
-2. Aşağıdaki tip dönüşümlerinden hangisini explicit dahi olsa gerçekleştiremeyiz ?
+2. Aşağıdaki tip dönüşümlerinden hangisini explicit dahi olsa gerçekleştiremeyiz?
 
    - byte -> int
    - string -> byte (Doğru)
    - decimal -> float
    - long -> int
 
-3. 0-255 aralığında nümerik bilgi barındıran string tipindeki bir değişkenin dönüşümü için aşağıdakilerden hangisi kullanılamaz ?
+3. 0-255 aralığında nümerik bilgi barındıran string tipindeki bir değişkenin dönüşümü için aşağıdakilerden hangisi kullanılamaz?
 
    - Convert.ToByte() methodu
    - decimal.Parse() methodu
    - sbyte.Parse() methodu (Doğru)
    - Convert.ToDecimal() methodu
 
-4. Herhangi bir tipteki değişkeni string tipine en kolay nasıl çevirebiliriz ?
+4. Herhangi bir tipteki değişkeni string tipine en kolay nasıl çevirebiliriz?
 
    - Convert.ToString() methodu ile
    - string.Parse() methodu ile
    - string.From() methodu ile
    - Değişkenin sahip olduğu .ToString() methodu ile (Doğru)
 
-5. DateTime tipine dönüşümü nasıl yapabiliriz ?
+5. DateTime tipine dönüşümü nasıl yapabiliriz?
 
    - (DateTime) ile explicit cast ederek
    - Convert.ToDateTime() yada DateTime.Parse() methodları ile (Doğru)
@@ -239,35 +239,35 @@
 ### [Hata Yönetimi ve Kod İzleme](7-hata-yonetimi-ve-kod-izleme/)
 
 #### Sorular
-1. Aşağıdaki durumlardan hangisinde derleme zamanı hatası alınmaz ?
+1. Aşağıdaki durumlardan hangisinde derleme zamanı hatası alınmaz?
 
    - Değişken tipine uyumsuz bir değer atamaya çalıştığımızda
    - Değişkenler arasında uyumsuz bir operatör kullandığımızda
    - Komutu ; ile sonlandırmadığımızda
    - int değişkeni decimal değişkene atamaya çalıştığımızda (Doğru)
 
-2. Aşağıdaki bloklardan hangisi çalışma zamanı hatası alınsa dahi her koşulda çalışır ?
+2. Aşağıdaki bloklardan hangisi çalışma zamanı hatası alınsa dahi her koşulda çalışır?
 
    - final
    - catch
    - finally (Doğru)
    - try
 
-3. Çalışma zamanında hata alabilecek kod bloğu aşağıdaki bloklardan hangisi içinde yer almalıdır ?
+3. Çalışma zamanında hata alabilecek kod bloğu aşağıdaki bloklardan hangisi içinde yer almalıdır?
 
    - run
    - try (Doğru)
    - when
    - catch
 
-4. Yazdığımız kodu adım adım çalıştırarak hatalarımızı bulabilmemize yarayan işlem hangisidir ?
+4. Yazdığımız kodu adım adım çalıştırarak hatalarımızı bulabilmemize yarayan işlem hangisidir?
 
    - Tracing
    - Profiling
    - Inspection
    - Debugging (Doğru)
 
-5. Hata ayıklama işlemi sırasında aşağıdakilerden hangisi kod akışını belirlediğimiz yerlerde durdurmamıza yarar ?
+5. Hata ayıklama işlemi sırasında aşağıdakilerden hangisi kod akışını belirlediğimiz yerlerde durdurmamıza yarar?
 
    - Breakpoint (Doğru)
    - DebugPoint
@@ -281,35 +281,35 @@
 
 ### [Karar Yapıları](8-karar-yapilari/)
 #### Sorular
-1. If komutu ile karar verebilmek için aşağıdakilerden hangisini kullanamayız ?
+1. If komutu ile karar verebilmek için aşağıdakilerden hangisini kullanamayız?
 
    - Herhangi bir nümerik tip (int, long vb.) (Doğru)
    - İlişkisel operatörler ile yapılan işlemin sonucu
    - bool tipinde bir değişken
    - Mantıksal operatörler ile yapılan işlemin sonucu
 
-2. Hiçbir if koşuluna uymayan bir durumda çalışmasını istediğimiz kodu hangi blokta yazarız ?
+2. Hiçbir if koşuluna uymayan bir durumda çalışmasını istediğimiz kodu hangi blokta yazarız?
 
    - default
    - finally
    - else (Doğru)
    - else if
 
-3. Switch koşulu ile ilgili aşağıdaki bilgilerden hangisi yanlıştır ?
+3. Switch koşulu ile ilgili aşağıdaki bilgilerden hangisi yanlıştır?
 
    - case blokları birbirinden ayrılmalıdır, her bir case bloğu break; yada return; gibi komutlar ile sonlanmalıdır.
    - Switch içerisinde default bloğu olmak zorundadır. (Doğru)
    - Switch için nümerik tipler ile birlikte string ve char tiplerini de kullanabiliriz.
    - case koşulu : ile sonlandırılmalıdır.
 
-4. Hiçbir case koşuluna uymayan bir durumda çalışmasını istediğimiz kodu hangi blokta yazarız ?
+4. Hiçbir case koşuluna uymayan bir durumda çalışmasını istediğimiz kodu hangi blokta yazarız?
 
    - else
    - finally
    - default (Doğru)
    - catch
 
-5. Basit if-else bloklarının yerine aşağıdaki operatörlerden hangisini kullanabiliriz ?
+5. Basit if-else bloklarının yerine aşağıdaki operatörlerden hangisini kullanabiliriz?
 
    - ?: (ternary if) (Doğru)
    - ?? (null-coalescing operator)
@@ -325,35 +325,35 @@
 ### [Döngüler](9-donguler/)
 
 #### Sorular
-1. Aşağıdaki komutlardan hangisi ile döngünün tamamlanmasını beklemeden döngüyü sonlandırmamıza yarar ?
+1. Aşağıdaki komutlardan hangisi ile döngünün tamamlanmasını beklemeden döngüyü sonlandırmamıza yarar?
 
    - continue
    - while
    - if
    - break (Doğru)
 
-2. Aşağıdaki komutlardan hangisi ile döngü içerisinde bir sonraki iterasyonua geçiş yaparız ?
+2. Aşağıdaki komutlardan hangisi ile döngü içerisinde bir sonraki iterasyonua geçiş yaparız?
 
    - for
    - foreach
    - continue (Doğru)
    - break
 
-3. Belirsiz sayıda iterasyona sahip, yalnızca belli bir koşul sağlandığı sürece döngü kullanmamız gerektiğinde aşağıdaki döngülerden hangisini kullanırız ?
+3. Belirsiz sayıda iterasyona sahip, yalnızca belli bir koşul sağlandığı sürece döngü kullanmamız gerektiğinde aşağıdaki döngülerden hangisini kullanırız?
 
    - for
    - try
    - while (Doğru)
    - foreach
 
-4. Bir dizi yada koleksiyon üyeleri ile ilgili döngü kullanmak istediğimizde hangi döngüyü kullanırız ?
+4. Bir dizi yada koleksiyon üyeleri ile ilgili döngü kullanmak istediğimizde hangi döngüyü kullanırız?
 
    - foreach (Doğru)
    - for
    - while
    - catch
 
-5. Belirli bir sayıda iterasyona sahip bir döngü kullanmak istediğimizde hangi döngüyü kullanırız ?
+5. Belirli bir sayıda iterasyona sahip bir döngü kullanmak istediğimizde hangi döngüyü kullanırız?
 
    - foreach
    - for (Doğru)
@@ -369,35 +369,35 @@
 ### [Diziler](10-diziler/)
 
 #### Sorular
-1. Aşağıdaki tanımlardan hangisi ile string tipinde elemanlar barındıran dizi tanımlamış oluruz ?
+1. Aşağıdaki tanımlardan hangisi ile string tipinde elemanlar barındıran dizi tanımlamış oluruz?
 
    - string{}
    - string[] (Doğru)
    - string()
    - string.
 
-2. Aşağıdaki tanımlardan hangisi 15 elemanlı int değerlerden oluşan bir diziyi tanımlar ?
+2. Aşağıdaki tanımlardan hangisi 15 elemanlı int değerlerden oluşan bir diziyi tanımlar?
 
    - `int[] dizi;`
    - `int dizi = new int[15];`
    - `int[] dizi = 1..15;`
    - `int[] dizi = new int[15];` (Doğru)
 
-3. Bir dizinin boyutunu değiştirmek istediğimizde Array sınıfında bulunan aşağıdaki methodlardan hangisini kullanırız ?
+3. Bir dizinin boyutunu değiştirmek istediğimizde Array sınıfında bulunan aşağıdaki methodlardan hangisini kullanırız?
 
    - Array.Resize (Doğru)
    - Array.Reverse
    - Array.Clear
    - Array.IndexOf
 
-4. Bir dizinin elemanlarını tersten sıralamak istersek Array sınıfındaki hangi methodu kullanabiliriz ?
+4. Bir dizinin elemanlarını tersten sıralamak istersek Array sınıfındaki hangi methodu kullanabiliriz?
 
    - Array.Clear
    - Array.Reverse (Doğru)
    - Array.IndexOf
    - Array.Sort
 
-5. Bir dizi içindeki verilen değere sahip elemanın hangi indexte bulunduğunu Array sınıfındaki aşağıdaki methodlardan hangisi ile bulabiliriz ?
+5. Bir dizi içindeki verilen değere sahip elemanın hangi indexte bulunduğunu Array sınıfındaki aşağıdaki methodlardan hangisi ile bulabiliriz?
 
    - Array.Sort
    - Array.Clear
@@ -414,42 +414,42 @@
 
 #### Sorular
 
-1. Aşağıdaki kavramlardan hangisini aynı isimde fakat farklı dönüş tipleri yada parametreler ile method tanımladığımızda kullanırız ?
+1. Aşağıdaki kavramlardan hangisini aynı isimde fakat farklı dönüş tipleri yada parametreler ile method tanımladığımızda kullanırız?
 
    - Method Override
    - Operator Overload
    - Method Overload (Doğru)
    - Extension Method
 
-2. Herhangi bir geri dönüş tipi olmayan methodları belirtmek için aşağıdaki anahtar kelimelerden hangisini kullanırız ?
+2. Herhangi bir geri dönüş tipi olmayan methodları belirtmek için aşağıdaki anahtar kelimelerden hangisini kullanırız?
 
    - void (Doğru)
    - public
    - return
    - params
 
-3. Bir method parametresini değeri yerine referansı ile kullanmak istediğimizde aşağıdaki anahtar kelimelerden hangisini method parametre tipinin önüne ekleriz ?
+3. Bir method parametresini değeri yerine referansı ile kullanmak istediğimizde aşağıdaki anahtar kelimelerden hangisini method parametre tipinin önüne ekleriz?
 
    - reference
    - out
    - void
    - ref (Doğru)
 
-4. Kaynak kodunu direk değiştirme imkanımız olmayan tiplere ihtiyacımıza özgü yeni methodlar ekleyebilmemize yarayan method tipi hangisidir ?
+4. Kaynak kodunu direk değiştirme imkanımız olmayan tiplere ihtiyacımıza özgü yeni methodlar ekleyebilmemize yarayan method tipi hangisidir?
 
    - Method Overload
    - Method Override
    - Extension Method (Doğru)
    - Extended Method
 
-5. Aşağıdakilerden hangisi methodlar için yanlış bir bilgidir ?
+5. Aşağıdakilerden hangisi methodlar için yanlış bir bilgidir?
 
    - Her methodun geri dönüş tipi olmak zorunda değildir.
    - Bir methodun birden fazla geri dönüş tipi olabilir. (Doğru)
    - Bir method parametresine referansı ile erişip değerini değiştirmek istediğimizde ref yada out anahtar kelimelerini kullanırız.
    - Geri dönüş tipi yada parametrelerinin farklı olması koşuluyla aynı isimde method tanımlayabiliriz.
 
-6. Geri dönüş tipi olmayan, Yazdir ismindeki methodun çağrımı aşağıdakilerden hangisinde doğru yapılmıştır ?
+6. Geri dönüş tipi olmayan, Yazdir ismindeki methodun çağrımı aşağıdakilerden hangisinde doğru yapılmıştır?
 
    - Yazdir[];
    - Yazdir;
@@ -497,7 +497,7 @@
 ### [Koleksiyonlar](14-koleksiyonlar/)
 #### Sorular
 
-1. Aşağıdakilerden hangisi koleksiyon sınıfında türemiş bir yapı **değildir** ?
+1. Aşağıdakilerden hangisi koleksiyon sınıfında türemiş bir yapı **değildir**?
    - ArrayList            
    - Method (Doğru)           
    - SortedList
@@ -509,7 +509,7 @@
    - ArrayList'in ortasına bir eleman eklemek için kullanılır.
    - ArrayList'e bir eleman kopyalamak için kullanılır.
 
-3. Aşağıdakilerden hangisi bir koleksiyon sınıfı **değildir** ?
+3. Aşağıdakilerden hangisi bir koleksiyon sınıfı **değildir**?
 
    - Sorted List
    - Queue
@@ -552,16 +552,16 @@
 Aşağıdaki 3 soruyu ayrı ayrı console uygulamaları açarak yazınız. 
 Koleksiyonlar-Soru-1, Koleksiyonlar-Soru-2, Koleksiyonlar-Soru-3 isimlerini kullanınız. 
 
-**Soru - 1:** Klavyeden girilen 20 adet pozitif sayının asal ve asal olmayan olarak 2 ayrı listeye atın. (ArrayList sınıfını kullanarak yazınız.)
+**Adım  - 1:** Klavyeden girilen 20 adet pozitif sayının asal ve asal olmayan olarak 2 ayrı listeye atın. (ArrayList sınıfını kullanarak yazınız.)
 * Negatif ve numerik olmayan girişleri engelleyin.
 * Her bir dizinin elemanlarını büyükten küçüğe sıralayarak şekilde ekrana yazdırın. 
 * Her iki dizinin eleman sayısını ve ortalamasını ekrana yazdırın.
 
 
-**Soru - 2:** Klavyeden girilen 20 adet sayının en büyük 3 tanesi ve en küçük 3 tanesi bulan, her iki grubun kendi içerisinde ortalamalarını alan ve bu ortalamaları ve ortalama toplamlarını console'a yazdıran programı yazınız. (Array sınıfını kullanarak yazınız.)
+**Adım - 2:** Klavyeden girilen 20 adet sayının en büyük 3 tanesi ve en küçük 3 tanesi bulan, her iki grubun kendi içerisinde ortalamalarını alan ve bu ortalamaları ve ortalama toplamlarını console'a yazdıran programı yazınız. (Array sınıfını kullanarak yazınız.)
 
 
-**Soru - 3:**
+**Adım - 3:**
 Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde saklayan ve dizinin elemanlarını sıralayan programı yazınız.(A->Z)
 
 #### Video
@@ -583,13 +583,13 @@ Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde sakla
       -  Metot              
       -  Params
 
-3. Kapsüllenmiş sınıf field'larına ne isim verilir ?
+3. Kapsüllenmiş sınıf field'larına ne isim verilir?
       - Field
       - Variable
       - Property (Doğru)
       - Sabit 
 
-4. Bir sınıfın nesnesi ilk oluşturulduğunda yapılması gerekenler varsa aşağıdakilerden hangisi kullanılır ?
+4. Bir sınıfın nesnesi ilk oluşturulduğunda yapılması gerekenler varsa aşağıdakilerden hangisi kullanılır?
       - Overload Metot
       - Static Metot
       - Extension Metot 
@@ -630,7 +630,7 @@ Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde sakla
       - Değişkenleri sınıf tarafından paylaşılır.
       - Kurucu metotları yoktur. (Doğru)
 
-11. Temel sınıfın bir üyesine, sadece bu sınıftan türemiş bir sınıfın erişebilmesi istiyorsak erişim belirteci olarak aşağıdakilerden hangisini kullanmamız gerekir ? 
+11. Temel sınıfın bir üyesine, sadece bu sınıftan türemiş bir sınıfın erişebilmesi istiyorsak erişim belirteci olarak aşağıdakilerden hangisini kullanmamız gerekir? 
       - public        
       - internal   
       - protected (Doğru)              
@@ -700,8 +700,51 @@ https://drive.google.com/file/d/1Jl7bzljPVXDBhUXOqn4oq4cQHkZJIrnD/view?usp=shari
 ### [Nesne Yönelimli Programlama](18-nesne-yonelimli-programlama/)
 
 #### Sorular
+1. Bir sınıfın en fazla kaç farklı sınıftan kalıtım alabilir?
+   - 4           
+   - 3             
+   - 2             
+   - 1 (Doğru)
+
+2. Alt sınıftan miras veren temel sinifin açmış olduğu metotları çağırmak için aşağıdaki anahtar kelimelerden hangisi kullanılır?
+   - this              
+   - as                
+   - base (Doğru)            
+   - is
+
+ 3. Virtual anahtar kelimesi ile yazılan metodun alt sınıfta yeniden biçimlendirilmesi için kullanılması gereken anahtar kelime aşağıdakilerden hangisidir?
+
+      - override (Doğru)     
+      - new            
+      - base                
+      - void
+
+4. Temel sınıfın üyelerinden birinin sadece türetildiği sınıflardan erişilmesi istemiyorsa aşağıdaki erişim belirteçlerinden hangisi kullanılmalıdır?
+   - public
+   - private
+   - protected (Doğru)
+   - internal
+
+5. Bir sınıfın diğer sınıflar tarafından türetilmesi engellenmek isteniyorsa, aşağıdaki anahtar kelimelerden hangisi kullanılmalıdır?
+   - virtual
+   - protected
+   - abstract
+   - sealed (Doğru)
+
+6. Interface isimlendirmesinin I ile başlamasıyla ilgili  aşağıdakilerden hangisi doğru bilgidir?
+   - I ile başlamazsa uygulama runtime hatası verir. 
+   - I ile başlamazsa derleyici compile-time hatası verir.
+   - I ile başlamazsa uygulama onun interface olduğunu anlayamaz. 
+   - I ile başlaması programcılar arasındaki ortak dili destekler. (Doğru)
+
 
 #### Video
+* OOP Nedir: https://drive.google.com/file/d/1tVGeK9TfRwxkc_8IgMbiBE9azJqTf5IZ/view?usp=sharing
+* Inheritance: https://drive.google.com/file/d/1RM7YpK6yjsBFJXohv2M5kS-Y-vAl5h0R/view?usp=sharing
+* Polymorphism: https://drive.google.com/file/d/1p2Ttn8ojY2YawuZqNkpCOEsIsVBuNB7O/view?usp=sharing
+* Interface: https://drive.google.com/file/d/1BohgiwwmiCRrztR5TghBOaGd7bSEl93y/view?usp=sharing
+* Interface - Ek Uygulama: https://drive.google.com/file/d/1mmPNpIdmYfGuzpj1UPmvaIVbzvjoGR05/view?usp=sharing
+* Abstract Sınıf: https://drive.google.com/file/d/1Ct_3Dc6GuPeG6C3Ckq3FctHei4S69RAf/view?usp=sharing
 
 
 ### [Proje 1](19-proje-1/)
@@ -934,10 +977,10 @@ Uygulamada olması gereken özellikler aşağıdaki gibidir.
     
     **NOT:** Uygulamanın yapısı genel olarak aşağıdaki gibi olmalıdır: 
         
-    * Board 3 tane Line dan oluşur. 
+    * Board 3 tane line'dan oluşur. 
     * Her bir line bir kart listesi tutar
-    * Kart ların büyüklükleri pre-defined olan bir enum'da tutulur. 
-    * Kart sadece takım üyelerinden birine atanabilir. 
-    * Takım üyeleri daha önceden varsayıla olarak tanımlanmış bir listede olmalı. Struct, class yada bir koleksiyon kullanılabilir.
+    * Kartların büyüklükleri pre-defined olan bir enum'da tutulur. 
+    * Bir kart sadece takım üyelerinden birine atanabilir. 
+    * Takım üyeleri daha önceden varsayılan olarak tanımlanmış bir listede olmalı. Struct, class yada bir koleksiyon kullanılabilir.
 
 ### [Tüm Dökümanlar](21-dokumanlar/)

@@ -1,6 +1,6 @@
 # Inheritance (Kalıtım)
 
-Bir sınıfın başka bir üst sınıftan miraz almasına kalıtım denir. Miraz veren sınıf tüm özelliklerini alt sınıfa aktarmış olur.  
+Bir sınıfın başka bir üst sınıftan miraz almasına kalıtım denir. Miras veren sınıf tüm özelliklerini alt sınıfa aktarmış olur.  
 
 Sözdizimi : 
 
@@ -110,3 +110,5 @@ Burdaki örnekleri arttırmak mümkün. Yazılımda kalıtım üzerinde çalış
     ordek.Yuzmek(); 
 
 Yukarıdaki örnekte görebileceğiniz üzere. Her sınıf kendi kalıtım aldığı sınıfın metotlarına erişebiliyor. Çünkü üst sınıfından belirli davranışları miras almıştır.  
+
+**"base" Anahtar Kelimesi:** base anahtar kelimesi kalıtım veren üst sınıfından özellik ve metotlarının alt sınıflar tarafından erişilmesine olanak sağlar. 
