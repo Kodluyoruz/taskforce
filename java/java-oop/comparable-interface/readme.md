@@ -173,3 +173,32 @@ public class Main {
 ```
 
 Bu durumda **Comparable** interface’ini **kullanmadan da compareTo metodu** yazılabilir. Ancak interface’leri farklı class'lar arasında bir bağ kurmak için kullanırız. Neden Comparable interface kullanmamız gerektiğini daha iyi anlamak için Mehmet Fatih Ercik'in  [medium yazısına](https://medium.com/codable/interfacelerin-mantigi-nedir-2-ornek-kullanimlar-60577917caeb)  bakabilirsiniz.
+
+**Peki anlattıklarımıza göre aşağıda verdiğimiz soruları çözelim.**
+
+Aşağıdakilerden hangisi doğrudur?
+
+A) compareTo metodu Comparable implemente edilmeden kullanılmaz.
+
+B) Comparable interface kullanırken iki nesne ile kıyaslama yapılmak zorundadır.
+
+C) Comparable interface kullanırken tek bir nesne ile kıyaslama yapılabilir.
+
+D) Comparable interface içinde compare metodu override edilir.
+
+   (Doğru cevap : C)
+
+Aşağıdakilerden hangisi yanlıştır?
+
+A) Comparable interface kullanırken eğer string bir ifade karşılaştırılacaksa “compareTo()” metodunu kullanarak , yok eğer sayısal bir ifade karşılaştırılacaksa bir if yapısı kurarak 1,0,-1 gibi bir integer dönüş verilmesi gerekiyor.
+
+B) Comparable interface java.util paketinden import edilir.
+
+C) Comparable interface kullanılması, gerçek sınıfı değiştirir.
+
+D) Comparable interface nesneyi doğal sıralamaya göre sıralar.
+
+   (Doğru cevap : B)
+   
+## Kaynak:
+ [medium yazısı](https://medium.com/codable/interfacelerin-mantigi-nedir-2-ornek-kullanimlar-60577917caeb)
