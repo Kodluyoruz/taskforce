@@ -1,6 +1,6 @@
 # Inheritance (Kalıtım)
 
-Bir sınıfın başka bir üst sınıftan miraz almasına kalıtım denir. Miraz veren sınıf tüm özelliklerini alt sınıfa aktarmış olur.  
+Bir sınıfın başka bir üst sınıftan miraz almasına kalıtım denir. Miras veren sınıf tüm özelliklerini alt sınıfa aktarmış olur.  
 
 Sözdizimi : 
 
