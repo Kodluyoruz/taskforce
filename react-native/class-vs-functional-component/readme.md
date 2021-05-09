@@ -1,1 +1,1 @@
-class-vs-functional-component
+# Class vs Functional Component
