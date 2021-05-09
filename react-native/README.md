@@ -53,7 +53,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Music App (İnceleme)](music-app-inceleme/)
 - [Music App](music-app/)
 - [Music App (Devam)](music-app-devam/)
-- [ToDo](todo/)
+- [ToDo](odev_2/)
 
 #### Navigasyon ####
 - [Navigasyon](navigasyon/)
@@ -80,7 +80,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Dükkan (Custom Hook yapısı)](dukkan-custom-hook-yapisi/)
 - [Dükkan (Lottie paketi ile animasyonlar)](dukkan-lottie-paketi-ile-animasyonlar/)
 - [Dükkan (Detay sayfası)](dukkan-detay-sayfasi/)
-- [Tarifka](tarifka/)
+- [Tarifka](odev_3/)
 
 #### State Management (Redux) ####
 - [State Management (Redux)](state_management)
@@ -95,7 +95,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Dükkan (usePost Custom Hooku)](dukkan-usepost-custom-hooku/)
 - [Dükkan (Redux Yapısı)](dukkan-redux-yapisi/)
 - [Dükkan (Logout)](dukkan-logout/)
-- [kodwork](kodwork/)
+- [kodwork](odev_4/)
 
 #### Firebase ####
 - [Firebase](firebase/)
@@ -113,6 +113,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [bana ne? (Log out işlemleri)](bana-ne-log-out-islemleri/)
 - [bana ne? (Dislike??)](bana-ne-dislike/)
 - [bana ne? (Uygulamayı tamamlayış)](bana-ne-uygulamayi-tamamlayis/)
+- [Codetalks](odev_4)
 
 #### Uygulama Dağıtma ####
 - [Uygulama Dağıtma](uygulama_dagitma/)
