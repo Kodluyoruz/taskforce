@@ -12,7 +12,7 @@
 - [Main Methodu - Namespace kavramı - System Using Direktifleri - Run](main-methodu-namespace-kavrami-system-using-direktifleri-run-/)
 
 #### Değişkenler ####
-- [Değişkenler ve Veri Tiplerleri](degiskenler-ve-veri-tiplerleri/)
+- [Değişkenler ve Veri Tiplerleri](4-degiskenler/)
 
 #### Operatörler ####
 - [Operatorler](operatorler/)
