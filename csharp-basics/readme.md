@@ -1,6 +1,6 @@
 # C# INDEX
 
-#### C# Giriş ####
+#### Csharp Giriş ####
 - [Programlama Dillerinin Tarihçesi](programlama-dillerinin-tarihcesi/)
 - [C# Tanıtımı](c#-tanitimi/)
 
