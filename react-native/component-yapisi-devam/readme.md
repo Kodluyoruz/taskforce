@@ -1,1 +1,1 @@
-component-yapisi-devam
+# Component Yapısı (Devam)
