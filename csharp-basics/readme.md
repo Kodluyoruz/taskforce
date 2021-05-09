@@ -9,7 +9,7 @@
 - [VS Code Kurulumu](2-vscode-kurulumu/)
 
 #### Console Programlama ####
-- [Main Methodu - Namespace kavramı - System Using Direktifleri - Run](main-methodu-namespace-kavrami-system-using-direktifleri-run-/)
+- [Main Methodu - Namespace kavramı - System Using Direktifleri - Run](3-console-programlama/)
 
 #### Değişkenler ####
 - [Değişkenler ve Veri Tiplerleri](4-degiskenler/)
