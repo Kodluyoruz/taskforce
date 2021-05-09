@@ -38,7 +38,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Custom Component](custom-component/)
 - [Custom Component (Devam)](custom-component-devam/)
 - [News App](news-app/)
-- [Patistore](patistore/)
+- [Patistore](odev_1/)
 
 #### State ve Lifecycle ####
 - [State ve Lifecycle](state_ve_lifecycle/)
