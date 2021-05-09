@@ -16,7 +16,7 @@ API Linki: https://www.themealdb.com/api.php
 
 Kolaylıklar :)
 
-<p align="middle">
+<p float="left">
   <img src="https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_3/figures/tarifka_1.png" width="250" /> 
   <img src="https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_3/figures/tarifka_2.png" width="250" /> 
   <img src="https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_3/figures/tarifka_3.png" width="250" /> 
