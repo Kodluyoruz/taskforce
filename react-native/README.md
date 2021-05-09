@@ -17,6 +17,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Mobil Uygulama Geliştirmede Renkler](mobil-uygulama-gelistirmede-renkler/)
 
 #### React Native Ortamı ####
+- [React Native Ortamı](react-native-ortami/)
 - [React Native Nasıl Çalışır](react-native-nasil-calisir/)
 - [macOS Kurulumu](macos-kurulumu/)
 - [Windows Kurulumu](windows-kurulumu/)
@@ -25,6 +26,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Proje Dizini iOS](proje-dizini-ios/)
 
 #### React & React Native Temelleri ####
+- [React & React Native Temelleri](react-react-native-temelleri/)
 - [Bölüm Tanıtımı](bolum-tanitimi/)
 - [JSX Giriş](jsx-giris/)
 - [JSX & React Native Döküman İncelemesi](jsx-react-native-dokuman-incelemesi/)
@@ -39,6 +41,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Patistore](patistore/)
 
 #### State ve Lifecycle ####
+- [State ve Lifecycle](state-lifecycle/)
 - [Bölüm Tanıtımı](bolum-tanitimi/)
 - [State Giriş](state-giris/)
 - [State Devam](state-devam/)
@@ -53,6 +56,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [ToDo](todo/)
 
 #### Navigasyon ####
+- [Navigasyon](navigasyon/)
 - [Bölüm Tanıtımı](bolum-tanitimi/)
 - [React Navigation Paketinin İncelenmesi](react-navigation-paketinin-incelenmesi/)
 - [React Navigation Paket Kurulumu](react-navigation-paket-kurulumu/)
@@ -64,6 +68,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Nested Navigation Yapısı](nested-navigation-yapisi/)
 
 #### Web API ####
+- [Web API](web-api/)
 - [Bölüm Tanıtımı](bolum-tanitimi/)
 - [Web API nedir?](web-api-nedir/)
 - [JSON Veri Tipi](json-veri-tipi/)
@@ -78,6 +83,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Tarifka](tarifka/)
 
 #### State Management (Redux) ####
+- [State Management (Redux)](state-management)
 - [Bölüm Tanıtımı](bolum-tanitimi/)
 - [State Management nedir?](state-management-nedir/)
 - [Redux ile State Management Temelleri](redux-ile-state-management-temelleri/)
@@ -92,6 +98,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [kodwork](kodwork/)
 
 #### Firebase ####
+- [Firebase](firebase/)
 - [Bölüm Tanıtımı](bolum-tanitimi/)
 - [Firebase Tanıtımı ve Kurulumu](firebase-tanitimi-ve-kurulumu/)
 - [Firebase Auth Modülü](firebase-auth-modulu/)
@@ -108,6 +115,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [bana ne? (Uygulamayı tamamlayış)](bana-ne-uygulamayi-tamamlayis/)
 
 #### Uygulama Dağıtma ####
+- [Uygulama Dağıtma](uygulama-dagitimi/)
 - [Uygulama İcon Değiştirme (Android)](uygulama-icon-degistirme-android/)
 - [Uygulama İcon Değiştirme (iOS)](uygulama-icon-degistirme-ios/)
 - [Uygulama Release Alma (Android)](uygulama-release-alma-android/)
