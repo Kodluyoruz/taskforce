@@ -10,9 +10,9 @@ Kullanacağın JSON datası da aşağıda mevcut
 
 Kolaylıklar :)
 
-![1.001](https://github.com/Kodluyoruz/taskforce/blob/react-native/odev_1/figures/store_1.png)
+![1.001](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_1/figures/store_1.png)
 
-![1.002](https://github.com/Kodluyoruz/taskforce/blob/react-native/odev_1/figures/store_2.png)
+![1.002](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_1/figures/store_2.png)
 
 ```json
 [

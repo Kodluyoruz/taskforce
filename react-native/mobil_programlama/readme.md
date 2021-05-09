@@ -1,4 +1,4 @@
-# Mobile Programlama
+# Mobil Programlama
 
 ![1.005](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/mobil_programlama/figures/1.005.jpeg)
 Mobil programlamada iki dominant işletim sistemi mevcuttur. Android ve iOS platformları.

@@ -16,10 +16,10 @@ API Linki: https://www.themealdb.com/api.php
 
 Kolaylıklar :)
 
-![1.001](https://github.com/Kodluyoruz/taskforce/blob/react-native/odev_3/figures/tarifka_1.png)
+![1.001](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_3/figures/tarifka_1.png)
 
-![1.002](https://github.com/Kodluyoruz/taskforce/blob/react-native/odev_3/figures/tarifka_2.png)
+![1.002](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_3/figures/tarifka_2.png)
 
-![1.003](https://github.com/Kodluyoruz/taskforce/blob/react-native/odev_3/figures/tarifka_3.png)
+![1.003](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_3/figures/tarifka_3.png)
 
-![1.004](https://github.com/Kodluyoruz/taskforce/blob/react-native/odev_3/figures/tarifka_4.png)
+![1.004](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_3/figures/tarifka_4.png)

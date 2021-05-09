@@ -9,7 +9,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 
 ## İçerikler
 
-### [Mobile Programlama](mobil_programlama/)
+### [Mobil Programlama](mobil_programlama/)
 
 ### [React Native Ortamı](react_native_ortami/)
 

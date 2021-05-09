@@ -14,9 +14,9 @@ Custom component disiplinini de unutma.
 
 Başarılar :)
 
-![1.001](https://github.com/Kodluyoruz/taskforce/blob/react-native/odev_1/figures/todo_1.png)
+![1.001](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_1/figures/todo_1.png)
 
-![1.002](https://github.com/Kodluyoruz/taskforce/blob/react-native/odev_1/figures/todo_2.png)
+![1.002](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_1/figures/todo_2.png)
 
-![1.003](https://github.com/Kodluyoruz/taskforce/blob/react-native/odev_1/figures/todo_3.png)
+![1.003](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_1/figures/todo_3.png)
 
