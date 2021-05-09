@@ -15,47 +15,47 @@ Cross-platform: Bir bridge ya da SDK aracılığıyla derlenen uygulama gelişti
 <br/>
 <br/>
 <br/>
-![1.007](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/mobil_programlama/figures/1.007.jpeg)
+![1.007](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.007.jpeg)
 Geliştirme sürecinde uygulamanın amacını ve hangi alana çözüm bulacağını belirlemek önemli. Geliştireceğiniz uygulama hangi alana yönelik olacaksa o alanın ön planda olan özelliğini bilmeniz gerek.
 Görselde fikir vermesi açısından belirli alanlar ve özellikleri bulunmakta.
 <br/>
 <br/>
 <br/>
-![1.008](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/mobil_programlama/figures/1.008.jpeg)
+![1.008](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.008.jpeg)
 Kullanıcı kitlesi de önemli. Orta yaş grubuna yönelik geliştirilen bir mobil uygulamaya çocuk kitle bazından bir tasarım planlamak olumsuz bir hareket olacaktır.
 <br/>
 <br/>
 <br/>
 ## Tasarım
 
-![1.009](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/mobil_programlama/figures/1.009.jpeg)
+![1.009](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.009.jpeg)
 <br/>
 <br/>
 <br/>
-![1.010](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/mobil_programlama/figures/1.010.jpeg)
+![1.010](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.010.jpeg)
 Sol tarafta yer alan UX planı kaba taslak olarak kullanıcı deneyimini temsil eder. Buna dahil edeceğiniz bir UI tasarımı sol taraftaki gibi sonuç verecektir.
 <br/>
 <br/>
 <br/>
-![1.011](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/mobil_programlama/figures/1.011.jpeg)
+![1.011](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.011.jpeg)
 Uygulamalar da evrim geçirir. Kullanıcılardan gelen beslemeler ile uygulamanızı güncel tutmanız önemli. Örneğin, ekrandaki tasarıma gelen geri dönüşler gördüğümüz şekilde.
 <br/>
 <br/>
 <br/>
-![1.012](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/mobil_programlama/figures/1.012.jpeg)
+![1.012](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.012.jpeg)
 Ek olarak verilen UX tasarımına alternatif UI tasarımları şu şekilde olabilir.
 <br/>
 <br/>
 <br/>
-![1.013](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/mobil_programlama/figures/1.013.jpeg)
+![1.013](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.013.jpeg)
 Renkler de önemli bir konu. Kullanıcınız uygulamayı kullanırken ona bağlılık hissetmeli. Bunu sağlayacak en önemli faktörlerden biri de renk tasarımıdır.
 <br/>
 <br/>
 <br/>
-![1.014](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/mobil_programlama/figures/1.014.jpeg)
+![1.014](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.014.jpeg)
 Bunlar da yapılmaması gerek bir tasarım örnekleri.
 Uyumsuz renkler hem yaptığınız tasarımın görünürlüğünü azaltacak hem de kullanıcıları uygulamadan itecektir. Kullanıcı uyumsuz renklerden haz etmez. Tercihiniz iyi olmalı.
 En iyi tasarım, olmayandır. Ekranı butonlar ile doldurmanıza, logoları şişirmenize gerek yok. Kullanıcılar aradığını rahatça bulabilecekleri bir uygulama ister.
 Kullanıcılar uygulamaları görsel olarak hafızada tutar. Yazı fontları, ana renk vs. gibi etmenler kullanıcılarda alışkanlık oluşturur. Eğer tutarlı bir tasarımınız olmazsa kullanıcılarınız uygulamaya alışkanlık beslemeyecektir. Tam tersine zıt seçilen tasarımlar iticilik oluşracaktır. Keskin kenarlara sahip bir buton tasarımı ile yumuşak kenarlara sahip bir buton tasarımının kullanım yerleri bile önem arz eder.
 
-![1.015](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/mobil_programlama/figures/1.015.jpeg)
+![1.015](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.015.jpeg)
