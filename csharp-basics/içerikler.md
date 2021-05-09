@@ -934,10 +934,10 @@ Uygulamada olması gereken özellikler aşağıdaki gibidir.
     
     **NOT:** Uygulamanın yapısı genel olarak aşağıdaki gibi olmalıdır: 
         
-    * Board 3 tane Line dan oluşur. 
+    * Board 3 tane line'dan oluşur. 
     * Her bir line bir kart listesi tutar
-    * Kart ların büyüklükleri pre-defined olan bir enum'da tutulur. 
-    * Kart sadece takım üyelerinden birine atanabilir. 
-    * Takım üyeleri daha önceden varsayıla olarak tanımlanmış bir listede olmalı. Struct, class yada bir koleksiyon kullanılabilir.
+    * Kartların büyüklükleri pre-defined olan bir enum'da tutulur. 
+    * Bir kart sadece takım üyelerinden birine atanabilir. 
+    * Takım üyeleri daha önceden varsayılan olarak tanımlanmış bir listede olmalı. Struct, class yada bir koleksiyon kullanılabilir.
 
 ### [Tüm Dökümanlar](21-dokumanlar/)
