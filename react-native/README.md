@@ -9,8 +9,8 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 
 ## İçerikler
 
-### [Mobil Programlama](mobil_programlama/)
-
+#### [Mobil Programlama ####
+- [Mobil Programlama](mobil_programlama/)
 - [Mobil Uygulama Geliştirme Nedir](mobil-uygulama-gelistirme-nedir/)
 - [Mobil Uygulama Geliştirme Analizi](mobil-uygulama-gelistirme-analizi/)
 - [Mobil Uygulama Geliştirmede UI & UX](mobil-uygulama-gelistirmede-ui-ux/)
