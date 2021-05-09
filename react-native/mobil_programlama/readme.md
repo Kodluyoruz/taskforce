@@ -1,6 +1,6 @@
 # Mobil Programlama
 
-![1.005](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/mobil_programlama/figures/1.005.jpeg)
+![1.005](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.005.jpeg)
 Mobil programlamada iki dominant işletim sistemi mevcuttur. Android ve iOS platformları.
 Android sürüm isimleri (Q'ya kadar) tatlı isimleri ile devam ederken iOS isimleri sabit iOS eki ile devam eder.
 Android işletim sistemi Java ya da Kotlin dilleri ile native olarak uygulama geliştirme olanağı sunarken, iOS için Obj-C ya da Swift dilleri tercih edilebilir.
