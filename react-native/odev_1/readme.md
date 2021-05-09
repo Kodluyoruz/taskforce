@@ -11,11 +11,9 @@ Kullanacağın JSON datası da aşağıda mevcut
 Kolaylıklar :)
 
 ![store-1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_1/figures/store_1.png)
+![store-2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_1/figures/store_2.png)
 
-<p align="middle">
-  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_1/figures/store_1.png" width="250" /> 
-  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_1/figures/store_2.png" width="250" /> 
-</p>
+
 
 
 ```json
