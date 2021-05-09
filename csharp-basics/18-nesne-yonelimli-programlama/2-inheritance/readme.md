@@ -110,3 +110,5 @@ Burdaki örnekleri arttırmak mümkün. Yazılımda kalıtım üzerinde çalış
     ordek.Yuzmek(); 
 
 Yukarıdaki örnekte görebileceğiniz üzere. Her sınıf kendi kalıtım aldığı sınıfın metotlarına erişebiliyor. Çünkü üst sınıfından belirli davranışları miras almıştır.  
+
+**"base" Anahtar Kelimesi:** base anahtar kelimesi kalıtım veren üst sınıfından özellik ve metotlarının alt sınıflar tarafından erişilmesine olanak sağlar. 
