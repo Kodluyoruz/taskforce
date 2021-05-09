@@ -1,5 +1,3 @@
-https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4
-
 # codetalks
 
 Kod sohbetlerinin döndüğü güzel bir uygulamamız yok mu?
