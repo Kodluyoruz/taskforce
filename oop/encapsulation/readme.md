@@ -8,25 +8,25 @@ anlamına gelir. Böylelikle biz değişkenlerimizi sarmalayarak istenmeyen duru
 
 ## Erişim Belirleyiciler
 
-Java'da bir sınıfa ait nicelik ve özelliklere ulaşabilmek için Erişim Belirleyiciler kullanılır.Erişim belirleyiciler (Access Modifiers), değişken ,metot ve
+Bir sınıfa ait nicelik ve özelliklere ulaşabilmek için Erişim Belirleyiciler kullanılır.Erişim belirleyiciler (Access Modifiers), değişken ,metot ve
 sınıfların önüne yazılır ve yazıldıkları konuların erişilebilecekleri alanları belirlerler. Java'da 3 adet Erişim Belirleyiciler vardır bunlar ; public ,
 private ve protected.
 
 ### Private
 
-Java'da private deyimi yazıldığı öğenin sadece ait olduğu sınıftan doğrudan erişilebilir olduğunu ve o sınıfın dışındaki kod parçacıklarından doğrudan
+Private deyimi yazıldığı öğenin sadece ait olduğu sınıftan doğrudan erişilebilir olduğunu ve o sınıfın dışındaki kod parçacıklarından doğrudan
 erişilemeyeceğini tanımlar. Nesne Yönelimli Programlama'nın temel ilkelerinden olan Sarmalama ilkesi gereki, sınıf içindeki değişkenler sadece sınıf içinde
 doğrudan erişebilir olması gerekir. Bundan dolayı, genellikle değişkenler "private" olarak tanımlanır. Bazı zamanlarda ise sadece o sınıfta çağrılmasını
 istediğimiz değişkenler veya metotları da private olarak tanımlarız.
 
 ### Public
 
-Java'da "public" deyimi , yazıldığı öğenin sadece olduğu sınıf için değil, diğer sınıflar tarafından doğrudan erişilebilir olmasını sağlar. Sınıflara ait
+"public" deyimi , yazıldığı öğenin sadece olduğu sınıf için değil, diğer sınıflar tarafından doğrudan erişilebilir olmasını sağlar. Sınıflara ait
 nesnelerin ve diğer nesneler tarafından kullanılması istenilen metotlar için "Public Erişim Düzenleyicisi" kullanılır.
 
 ### Protected
 
-Java'da "protected" deyimi , public ve private arasında kalan bir erişim düzenleyicir. Protected ile tanımlanan öğeler, kendisi ile aynı package(paket) bulunan
+"protected" deyimi , public ve private arasında kalan bir erişim düzenleyicidir. Protected ile tanımlanan öğeler, kendisi ile aynı package(paket) bulunan
 sınıflar tarafından doğrudan erişebilinir.
 
 ### Varsayılan (Default)
@@ -48,7 +48,7 @@ negatif bir değer girseydik ne olurdu ? Hiç bir kitabın sayfa sayısı negati
 
 ![](figures/c2.jpg)
 
-Biz bu sorunu constructor (kurucu) metotumuza yazacağımız bir kontrol ile çözebiliriz. Ama sorunlarımız hala bitmedi , biz sınıfa ait niteliklere hala dışarıdan
+Biz bu sorunu constructor (kurucu) metodumuza yazacağımız bir kontrol ile çözebiliriz. Ama sorunlarımız hala bitmedi , biz sınıfa ait niteliklere hala dışarıdan
 erişebiliyoruz çünkü erişim belirleyicisi "public". Bu sorunu çözmek için sınıfa ait nitelikleri dışarıdan erişimi kapatmamız gerekir ve oluşturduğumuz
 niteliklerin erişim belirleyicilerini (Access Modifiers) değiştirmemiz gerekli. Tüm publicleri private olarak değiştiriyoruz.
 

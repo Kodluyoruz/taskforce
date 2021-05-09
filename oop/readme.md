@@ -6,3 +6,5 @@
 - [Sınıf Diyagram Örnekleri](class-diagram-example/)
 - [Encapsulation (Kapsülleme)](encapsulation/)
 - [Inheritance (Kalıtım)](inheritance/)
+- [Polymorphism (Çok Biçimlilik)](polymorphism/)
+- [Abstraction (Soyutlama)](abstraction/)

@@ -130,7 +130,7 @@ türünden başka bir nesneymiş gibi kullanılabilir. Bir sınıfın işlevleri
 
 Bu örnekte "Şekiller" sınıfına ait tüm özellikler altında üretilmiş olan, diğer sınıflara aktarılmıştır.
 
-### Bağımlılık İlişkisi (Dependency) (Aggregation, Composition)
+### Bağımlılık İlişkisi (Dependency) ve Birleştirme (Aggregation, Composition)
 
 Birden fazla parçadan oluşan sınıflar arasındaki ilişkiye "Aggregation" denir. Aggregation ilişkisini 'bütün parça' yukarıda olacak şekilde ve bütün parça'nın
 ucuna içi boş elmas yerleştirecek şekilde gösteririz. İçi boş elmas ile gösterilen ilişkilerde herbir parça ayrı bir sınıftır ve tek başlarına anlam ifade
@@ -146,7 +146,7 @@ oluşturulacak ise içi dolu dörtgen dolu olarak gösterilir.
 ![](figures/c8.jpg)
 
 ### Gerçekleştirim (Realization) İlişkisi
-Gerçekleştirim lişkisi en çok kullanıcı arayüzlerinin (user interface) modellenmesinde kullanılır. Arayüz yanlızca method
+Gerçekleştirim ilişkisi en çok kullanıcı arayüzlerinin (user interface) modellenmesinde kullanılır. Arayüz yalnızca method
 adlarını ve bunların parametrelerini içermektedir. Program yazarken, yanlızca arayüzlerin kullanılması ve arayüzü gerçekleştiren sınıfın diğer sınıflardan ayrı
 tutulması, yazılımın geliştirilmesi ve bakımında önemli kolaylık sağlar.
 
