@@ -1,1 +1,1 @@
-bolum-tanitimi
+# Bölüm Tanıtımı
