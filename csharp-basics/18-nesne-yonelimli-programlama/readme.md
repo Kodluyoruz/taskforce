@@ -1,11 +1,9 @@
 # Nesne Yönelimli Programlamaya Giriş
 
-- [Object Orientented Programming Nedir?](1-oop-nedir/)
-- [Nesne Tabanlı Programlama Dilleri Nelerdir?](2-oop-diller/)
-- [Nesne Nedir?](3-nesne-nedir/)
-- [Object Oriented Prensipleri](4-oop-prensipleri/)
-- [Inheritance](5-inheritence/)
-- [Polymorphism](6-polymorphism/)
-- [Abstract Class](7-abstract-class/)
-- [Sealed Class](8-sealed-class/)
-- [Interface](9-interface/)
+- [Object Orientented Programming ve Prensipleri Nedir?](1-oop-nedir/)
+- [Inheritance](2-inheritance/)
+- [Polymorphism ve Sealed Class](3-polymorphism/)
+- [Interface](4-interface/)
+- [Abstract Class](5-abtract-class/)
+
+

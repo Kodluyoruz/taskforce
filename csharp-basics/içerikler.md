@@ -700,8 +700,51 @@ https://drive.google.com/file/d/1Jl7bzljPVXDBhUXOqn4oq4cQHkZJIrnD/view?usp=shari
 ### [Nesne Yönelimli Programlama](18-nesne-yonelimli-programlama/)
 
 #### Sorular
+1. Bir sınıfın en fazla kaç farklı sınıftan kalıtım alabilir?
+   - 4           
+   - 3             
+   - 2             
+   - 1 (Doğru)
+
+2. Alt sınıftan miras veren temel sinifin açmış olduğu metotları çağırmak için aşağıdaki anahtar kelimelerden hangisi kullanılır?
+   - this              
+   - as                
+   - base (Doğru)            
+   - is
+
+ 3. Virtual anahtar kelimesi ile yazılan metodun alt sınıfta yeniden biçimlendirilmesi için kullanılması gereken anahtar kelime aşağıdakilerden hangisidir?
+
+      - override (Doğru)     
+      - new            
+      - base                
+      - void
+
+4. Temel sınıfın üyelerinden birinin sadece türetildiği sınıflardan erişilmesi istemiyorsa aşağıdaki erişim belirteçlerinden hangisi kullanılmalıdır?
+   - public
+   - private
+   - protected (Doğru)
+   - internal
+
+5. Bir sınıfın diğer sınıflar tarafından türetilmesi engellenmek isteniyorsa, aşağıdaki anahtar kelimelerden hangisi kullanılmalıdır?
+   - virtual
+   - protected
+   - abstract
+   - sealed (Doğru)
+
+6. Interface isimlendirmesinin I ile başlamasıyla ilgili  aşağıdakilerden hangisi doğru bilgidir?
+   - I ile başlamazsa uygulama runtime hatası verir. 
+   - I ile başlamazsa derleyici compile-time hatası verir.
+   - I ile başlamazsa uygulama onun interface olduğunu anlayamaz. 
+   - I ile başlaması programcılar arasındaki ortak dili destekler. (Doğru)
+
 
 #### Video
+* OOP Nedir: https://drive.google.com/file/d/1tVGeK9TfRwxkc_8IgMbiBE9azJqTf5IZ/view?usp=sharing
+* Inheritance: https://drive.google.com/file/d/1RM7YpK6yjsBFJXohv2M5kS-Y-vAl5h0R/view?usp=sharing
+* Polymorphism: https://drive.google.com/file/d/1p2Ttn8ojY2YawuZqNkpCOEsIsVBuNB7O/view?usp=sharing
+* Interface: https://drive.google.com/file/d/1BohgiwwmiCRrztR5TghBOaGd7bSEl93y/view?usp=sharing
+* Interface - Ek Uygulama: https://drive.google.com/file/d/1mmPNpIdmYfGuzpj1UPmvaIVbzvjoGR05/view?usp=sharing
+* Abstract Sınıf: https://drive.google.com/file/d/1Ct_3Dc6GuPeG6C3Ckq3FctHei4S69RAf/view?usp=sharing
 
 
 ### [Proje 1](19-proje-1/)
