@@ -11,8 +11,8 @@ Kullanacağın JSON datası da aşağıda mevcut
 Kolaylıklar :)
 
 <p align="middle">
-  <img src="https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_1/figures/store_1.png" width="250" /> 
-  <img src="https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_1/figures/store_2.png" width="250" /> 
+  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_1/figures/store_1.png" width="250" /> 
+  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_1/figures/store_2.png" width="250" /> 
 </p>
 
 
