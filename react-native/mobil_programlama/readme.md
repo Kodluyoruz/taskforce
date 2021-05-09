@@ -4,54 +4,40 @@
 Mobil programlamada iki dominant işletim sistemi mevcuttur. Android ve iOS platformları.
 Android sürüm isimleri (Q'ya kadar) tatlı isimleri ile devam ederken iOS isimleri sabit iOS eki ile devam eder.
 Android işletim sistemi Java ya da Kotlin dilleri ile native olarak uygulama geliştirme olanağı sunarken, iOS için Obj-C ya da Swift dilleri tercih edilebilir.
-<br/>
-<br/>
-<br/>
+
+
 ![1.006](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.006.jpeg)
 Günümüzde üç tip mobil uygulama geliştirme seçeneği mevcuttur.
 Hybrid: Tarayıcı motoru üzerinden derlenen uygulama geliştirme yöntemi.
 Native: İşletim sistemi tarafından direkt derlenebilen uygulama geliştirme yöntemi.
 Cross-platform: Bir bridge ya da SDK aracılığıyla derlenen uygulama geliştirme yöntemi.
-<br/>
-<br/>
-<br/>
+
+
 ![1.007](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.007.jpeg)
 Geliştirme sürecinde uygulamanın amacını ve hangi alana çözüm bulacağını belirlemek önemli. Geliştireceğiniz uygulama hangi alana yönelik olacaksa o alanın ön planda olan özelliğini bilmeniz gerek.
 Görselde fikir vermesi açısından belirli alanlar ve özellikleri bulunmakta.
-<br/>
-<br/>
-<br/>
+
 ![1.008](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.008.jpeg)
 Kullanıcı kitlesi de önemli. Orta yaş grubuna yönelik geliştirilen bir mobil uygulamaya çocuk kitle bazından bir tasarım planlamak olumsuz bir hareket olacaktır.
-<br/>
-<br/>
-<br/>
+
+
 ## Tasarım
 
 ![1.009](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.009.jpeg)
-<br/>
-<br/>
-<br/>
+
+
 ![1.010](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.010.jpeg)
 Sol tarafta yer alan UX planı kaba taslak olarak kullanıcı deneyimini temsil eder. Buna dahil edeceğiniz bir UI tasarımı sol taraftaki gibi sonuç verecektir.
-<br/>
-<br/>
-<br/>
+
 ![1.011](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.011.jpeg)
 Uygulamalar da evrim geçirir. Kullanıcılardan gelen beslemeler ile uygulamanızı güncel tutmanız önemli. Örneğin, ekrandaki tasarıma gelen geri dönüşler gördüğümüz şekilde.
-<br/>
-<br/>
-<br/>
+
 ![1.012](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.012.jpeg)
 Ek olarak verilen UX tasarımına alternatif UI tasarımları şu şekilde olabilir.
-<br/>
-<br/>
-<br/>
+
 ![1.013](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.013.jpeg)
 Renkler de önemli bir konu. Kullanıcınız uygulamayı kullanırken ona bağlılık hissetmeli. Bunu sağlayacak en önemli faktörlerden biri de renk tasarımıdır.
-<br/>
-<br/>
-<br/>
+
 ![1.014](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.014.jpeg)
 Bunlar da yapılmaması gerek bir tasarım örnekleri.
 Uyumsuz renkler hem yaptığınız tasarımın görünürlüğünü azaltacak hem de kullanıcıları uygulamadan itecektir. Kullanıcı uyumsuz renklerden haz etmez. Tercihiniz iyi olmalı.
