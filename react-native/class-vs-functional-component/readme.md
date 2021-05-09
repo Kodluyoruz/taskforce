@@ -1,0 +1,1 @@
+class-vs-functional-component
