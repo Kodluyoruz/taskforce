@@ -61,3 +61,6 @@ public class Main {
 
 ```
 
+## Ödev
+
+Aynı projedeki ATM işlemlerini "Switch-Case" kullanarak yapınız.

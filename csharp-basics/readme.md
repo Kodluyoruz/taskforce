@@ -1,100 +1,110 @@
-#### C# Temel Index ####
+#  INDEX
 
-#### [C# Giriş](1-giris/) ####
+#### Giriş ####
+- [Programlama Dillerinin Tarihçesi](programlama-dillerinin-tarihcesi/)
+- [C# Tanıtımı](c#-tanitimi/)
 
-- [Programlama Dillerinin Tarihçesi](1-giris/1-programlama-dillerinin-tarihcesi/)
-- [C# Tanıtım](1-giris/2-csharp-tanitim/)
+#### Kurulumlar ####
+- [Dotnet 5 Kurulumu](dotnet-5-kurulumu/)
+- [VS Code Kurulumu](vs-code-kurulumu/)
 
-#### [Kurulumlar](2-kurulumlar/) ####
+#### Console Programlama ####
+- [Main Methodu - Namespace kavramı - System Using Direktifleri - Run](main-methodu-namespace-kavrami-system-using-direktifleri-run-/)
 
-- [.NET 5 Kurulumu](2-kurulumlar/1-net-5-kurulumu/)
-- [Visual Studio Code kurulumu](2-kurulumlar/2-vscode-kurulumu/)
+#### Değişkenler ####
+- [Değişkenler ve Veri Tiplerleri](degiskenler-ve-veri-tiplerleri/)
 
-#### [Console Programlama](3-console-programlama/) ####
+#### Operatörler ####
+- [Operatorler](operatorler/)
 
-#### [Değişkenler](4-degiskenler/) ####
+#### Tip Dönüşümleri ####
+- [Tip Dönüşümleri](tip-donusumleri/)
 
-#### [Operatörler](5-operatorler/) ####
+#### Hata Yönetimi ve Kod İzleme ####
+- [Try Catch Finally ve Mantıksal Hatalar](try-catch-finally-ve-mantiksal-hatalar/)
 
-#### [Tip Dönüşümleri](6-tip-donusumleri/) ####
+#### Karar Yapıları ####
+- [If-ElseIf-Ternary-If](ifelseifternaryif/)
+- [Switch-Case](switchcase/)
 
-#### [Hata Yönetimi ve Kod İzleme](7-hata-yonetimi-ve-kod-izleme/) ####
+#### Hata Yönetimi ve Kod İzleme ####
+- [Hata Yönetimi-2-Debugging, Watch ve Variables Pencereleri](hata-yönetimi2debugging,-watch-ve-variables-pencereleri/)
 
-- [Try-Catch-Finally ve Mantıksal Hatalar](7-hata-yonetimi-ve-kod-izleme/1-try-catch-finally-ve-mantiksal-hatalar/)
-- [Debugging, Watch ve Variables Penceleri](7-hata-yonetimi-ve-kod-izleme/2-debugging-watch-ve-variables-pencereleri/)
+#### Döngüler ####
+- [For Loop ve Break Continue Ifadeleri](for-loop-ve-break-continue-ifadeleri/)
+- [While Foreach](while-foreach/)
 
+#### Diziler ####
+- [Tanımlama, Erişim ve Döngülerle Dizi Kullanımı](tanimlama,-erişim-ve-döngülerle-dizi-kullanimi/)
+- [Array Sınıfı Methodları](array-sinifi-methodlari/)
 
-#### [Karar Yapıları](8-karar-yapilari/) ####
+#### Metotlar ####
+- [Metot Tanımlama](metot-tanimlama/)
+- [Metot Overloading](metot-overloading/)
+- [Rekürsif ve Extension Metotlar](rekursif-ve-extension-metotlar/)
 
-- [If, Else Yapısı ve Ternary If](8-karar-yapilari/1-if-else-yapisi-ve-ternary-if/)
-- [Switch Case](8-karar-yapilari/2-switch-case/)
+#### Odev - 1 ####
+- [Algoritma Soruları](algoritma-sorulari/)
 
-#### [Döngüler](9-donguler/) ####
+#### Csharp Hazır Metotlar ####
+- [String Metotlar](string-metotlar/)
+- [Datetime ve Math Sınıfları](datetime-ve-math-siniflari/)
 
-- [For Döngüsü ve Break Continue Anahtar Kelimeleri](9-donguler/1-for-dongusu-break-continue/)
-- [While ve ForEach Döngüleri](9-donguler/2-while-foreach-donguleri/)
+#### Koleksiyonlar ####
+- [Koleksiyonlar Nedir? Avantajları ve Dezavantajları Nelerdir?](koleksiyonlar-nedir-avantajlari-ve-dezavantajlari-nelerdir/)
+- [Generic Koleksiyonlar ve List](generic-koleksiyonlar-ve-list/)
+- [ArrayList](arraylist/)
 
-### [Diziler](10-diziler/) ####
+#### Odev-2 ####
+- [Koleksiyonlarla ilgili algoritma soruları](koleksiyonlarla-ilgili-algoritma-sorulari/)
 
-- [Dizi Tanımlama, Dizilere Erişim ve Döngülerle Kullanımı](10-diziler/1-dizi-tanımlama-erişim-ve-döngülerle-kullanım/)
-- [Array Sınıfı ve Methodlari](10-diziler/2-array-sinifi-ve-methodlari/)
+#### Sinif Kavramı ####
+- [Sınıf Nedir ? Instance, Field, Property](sinif-nedir-instance,-field,-property/)
+- [Erişim Belirleyiciler ve Kurucu Fonksiyonlar ](erisim-belirleyiciler-ve-kurucu-fonksiyonlar-/)
+- [Encapsulation ve Property Kavramı](encapsulation-ve-property-kavrami/)
+- [Static Sınıf ve Üyeler](static-sinif-ve-uyeler/)
+- [Struct(Yapı) Kavramı](structyapi-kavrami/)
+- [Enum](enum/)
 
-#### [Metotlar](11-metotlar/) ####
+#### Proje - 1 ####
+- [Telefon Rehberi Uygulaması](telefon-rehberi-uygulamasi/)
 
-
-- [Metot Nedir? Ref Parametre Kullanımı ](11-metotlar/1-metot-nedir/)
-- [Metot Overload Nedir? Out Parametre Kullanımı](11-metotlar/2-metot-overload-nedir-ve-out-kullanimi/)
-- [Extension ve Rekürsif Metot Kullanımı](11-metotlar/3-extension-recursive-metotlar/)
-
-#### [Ödev 1](12-odev-1/) ####
-
-#### [C# Hazır Metotlar](13-csharp-hazir-metotlar/) ####
-
-- [String Metotlar](13-csharp-hazir-metotlar/1-string-metotlar/)
-- [DateTime Metotlar](13-csharp-hazir-metotlar/2-datetime-metotlar/)
-- [Math Kütüphanesi ve Metotları](13-csharp-hazir-metotlar/3-math-kutuphanesi/)
-
-#### [Koleksiyonlar](14-koleksiyonlar/) ####
-
-- [Koleksiyon Nedir?](14-koleksiyonlar/1-koleksiyon-nedir/)
-- [Generic Koleksiyonar](14-koleksiyonlar/2-generic-koleksiyonlar/)
-- [Array List](14-koleksiyonlar/3-arraylist-nedir/)
-- [Dictionary](14-koleksiyonlar/4-dictionary-nedir/)
-
-#### [Ödev 2](15-odev-2/) ####
-
-#### [Sınıf Kavramı](16-sinif-kavrami/) ####
-
-- [Sınıf Nedir?](16-sinif-kavrami/1-sinif-nedir/)
-- [Sınıf Nasıl Oluşturulur?](16-sinif-kavrami/2-sinif-olusturma/)
-- [Instance](16-sinif-kavrami/3-instance-kavrami/)
-- [Field](16-sinif-kavrami/4-field-nedir/)
-- [Property](16-sinif-kavrami/5-property-nedir/)
-- [Encapsulation](16-sinif-kavrami/6-encapsulation-kavrami/)
-- [Access Modifiers](16-sinif-kavrami/7-erisim-belirleyiciler/)
-- [Constructor](16-sinif-kavrami/8-constructor-kavrami/)
-- [Reference Types ve Value Types Kavramları](16-sinif-kavrami/9-reference-value-type-kavrami/)
-- [Struct](16-sinif-kavrami/10-struct-nedir/)
-- [Static Class, Static Member](16-sinif-kavrami/11-static-sinif-ve-uyeler/)
+#### Proje - 2 ####
+- [ToDo Uygulaması](todo-uygulamasi/)
 
 
-#### [Enum](17-enum/) ####
-
-#### [Nesne Yönelimli Programlama](18-nesne-yonelimli-programlama/) ####
-
-- [Object Orientented Programming Nedir?](18-nesne-yonelimli-programlama/1-oop-nedir/)
-- [Nesne Tabanlı Programlama Dilleri Nelerdir?](18-nesne-yonelimli-programlama/2-oop-diller/)
-- [Nesne Nedir?](18-nesne-yonelimli-programlama/3-nesne-nedir/)
-- [Object Oriented Prensipleri](18-nesne-yonelimli-programlama/4-oop-prensipleri/)
-- [Inheritance](18-nesne-yonelimli-programlama/5-inheritence/)
-- [Polymorphism](18-nesne-yonelimli-programlama/6-polymorphism/)
-- [Abstract Class](18-nesne-yonelimli-programlama/7-abstract-class/)
-- [Sealed Class](18-nesne-yonelimli-programlama/8-sealed-class/)
-- [Interface](18-nesne-yonelimli-programlama/9-interface/)
 
 
-#### [Proje 1](19-proje-1/) ####
 
-#### [Proje 2](20-proje-2/) ####
 
-#### [Tüm Dökümanlar](21-dokumanlar/) ####
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

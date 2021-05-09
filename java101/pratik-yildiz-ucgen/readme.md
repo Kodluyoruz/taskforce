@@ -11,6 +11,7 @@ Java'da döngüler kullanılarak yıldızlar ile üçgen yapıyoruz.
 ***********
 ```
 
+
 ```java
 import java.util.Scanner;
 
@@ -35,4 +36,21 @@ public class Main {
 }
 
 ```
+
+## Ödev 
+
+Java'da döngüler kullanarak yıldızlar ile elmas yapınız.
+
+```
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+```
+
 

@@ -23,3 +23,7 @@ Bu ortak bölenlerin en büyüğü 6 sayısı EBOB’tur.
 Bu ortak katlardan en küçüğü 24 sayısı EKOK’tur.
 
 EKOK = (n1*n2) / EBOB
+
+## Ödev
+
+Java ile iki sayının EBOB ve EKOK değerlerini "While Döngüsü" kullanarak yazınız.
