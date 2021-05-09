@@ -1,3 +1,5 @@
+https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4
+
 # codetalks
 
 Kod sohbetlerinin döndüğü güzel bir uygulamamız yok mu?
@@ -10,18 +12,16 @@ Tasarımı istediğiniz gibi geliştirebilirsiniz.
 
 Güzel sohbetler şimdiden :)
 
-![1.001](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4/figures/codetalks_1.png)
+<p align="middle">
+  <img src="https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4/figures/codetalks_1.png" width="250" />
+  <img src="https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4/figures/codetalks_2.png" width="250" /> 
+  <img src="https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4/figures/codetalks_3.png" width="250" />
+  <img src="https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4/figures/codetalks_4.png" width="250" />
+</p>
+<p align="middle">
+  <img src="https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4/figures/codetalks_5.png" width="250" /> 
+  <img src="https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4/figures/codetalks_6.png" width="250" /> 
+  <img src="https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4/figures/codetalks_7.png" width="250" /> 
+  <img src="https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4/figures/codetalks_8.png" width="250" />
+</p>
 
-![1.002](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4/figures/codetalks_2.png)
-
-![1.003](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4/figures/codetalks_3.png)
-
-![1.004](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4/figures/codetalks_4.png)
-
-![1.005](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4/figures/codetalks_5.png)
-
-![1.006](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4/figures/codetalks_6.png)
-
-![1.007](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4/figures/codetalks_7.png)
-
-![1.008](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/odev_4/figures/codetalks_8.png)
