@@ -7,7 +7,7 @@ Android işletim sistemi Java ya da Kotlin dilleri ile native olarak uygulama ge
 <br/>
 <br/>
 <br/>
-![1.006](https://github.com/Kodluyoruz/taskforce/blob/main/react-native/mobil_programlama/figures/1.006.jpeg)
+![1.006](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/mobil_programlama/figures/1.006.jpeg)
 Günümüzde üç tip mobil uygulama geliştirme seçeneği mevcuttur.
 Hybrid: Tarayıcı motoru üzerinden derlenen uygulama geliştirme yöntemi.
 Native: İşletim sistemi tarafından direkt derlenebilen uygulama geliştirme yöntemi.
