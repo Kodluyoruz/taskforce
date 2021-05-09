@@ -2,11 +2,11 @@
 
 #### Giriş ####
 - [Programlama Dillerinin Tarihçesi](1-programlama-dillerinin-tarihcesi/)
-- [C# Tanıtımı](c#-tanitimi/)
+- [C# Tanıtımı](2-csharp-tanitim/)
 
 #### Kurulumlar ####
-- [Dotnet 5 Kurulumu](dotnet-5-kurulumu/)
-- [VS Code Kurulumu](vs-code-kurulumu/)
+- [Dotnet 5 Kurulumu](1-net-5-kurulumu/)
+- [VS Code Kurulumu](2-vscode-kurulumu/)
 
 #### Console Programlama ####
 - [Main Methodu - Namespace kavramı - System Using Direktifleri - Run](main-methodu-namespace-kavrami-system-using-direktifleri-run-/)
@@ -15,96 +15,62 @@
 - [Değişkenler ve Veri Tiplerleri](4-degiskenler/)
 
 #### Operatörler ####
-- [Operatorler](operatorler/)
+- [Operatorler](5-operatorler/)
 
 #### Tip Dönüşümleri ####
-- [Tip Dönüşümleri](tip-donusumleri/)
+- [Tip Dönüşümleri](6-tip-donusumleri/)
 
 #### Hata Yönetimi ve Kod İzleme ####
-- [Try Catch Finally ve Mantıksal Hatalar](try-catch-finally-ve-mantiksal-hatalar/)
+- [Try Catch Finally ve Mantıksal Hatalar](1-try-catch-finally-ve-mantiksal-hatalar/)
 
 #### Karar Yapıları ####
-- [If-ElseIf-Ternary-If](ifelseifternaryif/)
-- [Switch-Case](switchcase/)
+- [If-ElseIf-Ternary-If](1-if-else-yapisi-ve-ternary-if/)
+- [Switch-Case](2-switch-case/)
 
 #### Hata Yönetimi ve Kod İzleme ####
-- [Hata Yönetimi-2-Debugging, Watch ve Variables Pencereleri](hata-yönetimi2debugging,-watch-ve-variables-pencereleri/)
+- [Hata Yönetimi-2-Debugging, Watch ve Variables Pencereleri](7-hata-yonetimi-ve-kod-izleme/)
 
 #### Döngüler ####
-- [For Loop ve Break Continue Ifadeleri](for-loop-ve-break-continue-ifadeleri/)
-- [While Foreach](while-foreach/)
+- [For Loop ve Break Continue Ifadeleri](1-for-dongusu-break-continue/)
+- [While Foreach](2-while-foreach-donguleri/)
 
 #### Diziler ####
-- [Tanımlama, Erişim ve Döngülerle Dizi Kullanımı](tanimlama,-erişim-ve-döngülerle-dizi-kullanimi/)
-- [Array Sınıfı Methodları](array-sinifi-methodlari/)
+- [Tanımlama, Erişim ve Döngülerle Dizi Kullanımı](1-dizi-tanımlama-erişim-ve-döngülerle-kullanım/)
+- [Array Sınıfı Methodları](2-array-sinifi-ve-methodlari/)
 
 #### Metotlar ####
-- [Metot Tanımlama](metot-tanimlama/)
-- [Metot Overloading](metot-overloading/)
-- [Rekürsif ve Extension Metotlar](rekursif-ve-extension-metotlar/)
+- [Metot Tanımlama](1-metot-nedir/)
+- [Metot Overloading](2-metot-overload-nedir-ve-out-kullanimi/)
+- [Rekürsif ve Extension Metotlar](3-extension-recursive-metotlar/)
 
 #### Odev - 1 ####
-- [Algoritma Soruları](algoritma-sorulari/)
+- [Algoritma Soruları](12-odev-1/)
 
 #### Csharp Hazır Metotlar ####
-- [String Metotlar](string-metotlar/)
-- [Datetime ve Math Sınıfları](datetime-ve-math-siniflari/)
+- [String Metotlar](1-string-metotlar/)
+- [Datetime ve Math Sınıfları](2-datetime-metotlar/)
 
 #### Koleksiyonlar ####
-- [Koleksiyonlar Nedir? Avantajları ve Dezavantajları Nelerdir?](koleksiyonlar-nedir-avantajlari-ve-dezavantajlari-nelerdir/)
-- [Generic Koleksiyonlar ve List](generic-koleksiyonlar-ve-list/)
-- [ArrayList](arraylist/)
+- [Koleksiyonlar Nedir? Avantajları ve Dezavantajları Nelerdir?](1-koleksiyon-nedir/)
+- [Generic Koleksiyonlar ve List](2-generic-koleksiyonlar/)
+- [ArrayList](3-arraylist-nedir/)
+- [Dictionary](4-dictionary-nedir/)
 
 #### Odev-2 ####
-- [Koleksiyonlarla ilgili algoritma soruları](koleksiyonlarla-ilgili-algoritma-sorulari/)
+- [Koleksiyonlarla ilgili algoritma soruları](15-odev-2/)
 
 #### Sinif Kavramı ####
-- [Sınıf Nedir ? Instance, Field, Property](sinif-nedir-instance,-field,-property/)
-- [Erişim Belirleyiciler ve Kurucu Fonksiyonlar ](erisim-belirleyiciler-ve-kurucu-fonksiyonlar-/)
-- [Encapsulation ve Property Kavramı](encapsulation-ve-property-kavrami/)
-- [Static Sınıf ve Üyeler](static-sinif-ve-uyeler/)
-- [Struct(Yapı) Kavramı](structyapi-kavrami/)
-- [Enum](enum/)
+- [Sınıf Nedir ? Instance, Field, Property](1-sinif-field-metot-tanımlama-erişim-belirleyiciler/)
+- [Erişim Belirleyiciler ve Kurucu Fonksiyonlar ](2-kurucu-fonksiyonlar/)
+- [Encapsulation ve Property Kavramı](3-encapsulation-ve-property-kavrami/)
+- [Static Sınıf ve Üyeler](4-static-sinif-ve-uyeler/)
+- [Struct(Yapı) Kavramı](5-struct-nedir/)
+- [Enum](17-enum/)
 
 #### Proje - 1 ####
-- [Telefon Rehberi Uygulaması](telefon-rehberi-uygulamasi/)
+- [Telefon Rehberi Uygulaması](19-proje-1/)
 
 #### Proje - 2 ####
-- [ToDo Uygulaması](todo-uygulamasi/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- [ToDo Uygulaması](20-proje-2/)
 
 
