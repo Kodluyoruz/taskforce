@@ -30,3 +30,8 @@ Bir değer tipinin referans tipine dönüştürülme **boxing**, tam tersine **u
 
 [Burak Selim Şenyurt | Boxing ve Unboxing Performans Kritiği](https://www.buraksenyurt.com/post/Boxing-ve-Unboxing-Performans-Kritigi-bsenyurt-com-dan)
 
+**NOT:** Heap ve stack ile detaylı bilgi için lütfen aşağıdaki makalelere göz atınız. 
+
+[Stack ve Hesap Havramları | Gökhan Gokalp](https://www.gokhan-gokalp.com/stack-heap-kavramlari/)
+
+[Stack ve Hesap Arasındaki Fark Nedir?](https://medium.com/yigit-xcodeproj/stack-ve-heap-arasindaki-fark-nedir-stack-vs-heap-c61e3d463dd7)
