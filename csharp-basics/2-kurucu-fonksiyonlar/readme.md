@@ -8,7 +8,7 @@ Kurucu eetot tanımlarken dikkat edilmesi gereken noktalar ise şu şekildedir:
 2. Public olarak bildirilmeleri gerekir.
 3. Geri dönüş değerleri yoktur.
 
-Kurucu metotların imzasını değiştirerek **overload** edebiliriz yani aşırı yükleyebiliriz. Metotları anlatırken aşırı yüklemeden bahsetmiştik. (Bkz: [Metotların Aşırı Yüklenmesi](https://www.patika.dev/egitimler/c-sharpc-101-patikasi/c-101/2-metot-overload-nedir-ve-out-kullanimi)
+Kurucu metotların imzasını değiştirerek **overload** edebiliriz yani aşırı yükleyebiliriz. Metotları anlatırken aşırı yüklemeden bahsetmiştik. (Bkz: [Metotların Aşırı Yüklenmesi](https://www.patika.dev/egitimler/c-sharpc-101-patikasi/c-101/2-metot-overload-nedir-ve-out-kullanimi))
 
 ## Varsayılan Kurucu Metot
 Her sınıfın biz tanımlamasakta bir tane kurucu metotu vardır. Buna **varsayılan kurucu metot(default constructor)** denir.
