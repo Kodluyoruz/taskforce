@@ -23,22 +23,20 @@ wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-pr
 sudo dpkg -i packages-microsoft-prod.deb
 ````
 
-</br>
-</br>
-Repo eklendikten sonra repo içerisinde yer alan dotnet paketi kurularak kurulum tamamlanır.
-</br>
-</br>
-<code>sudo apt-get install apt-transport-https
-sudo apt-get update
-sudo apt-get install dotnet-sdk-2.2
-</code>
 
-</br>
-</br>
-<code>yum install rh-dotnet22 -y
-scl enable rh-dotnet22 bash</code>
-</br>
-</br>
+Repo eklendikten sonra repo içerisinde yer alan dotnet paketi kurularak kurulum tamamlanır.
+
+```
+sudo apt-get install apt-transport-https sudo apt-get update sudo apt-get install dotnet-sdk-2.2
+
+```
+
+
+```
+yum install rh-dotnet22 -y scl enable rh-dotnet22 bash</code>
+
+```
+
 <b>NOT:</b> Linux tabanlı işletim sistemlerinde kurulum Linux paket yöneticisine göre farklılık gösterir.
 
 ## MacOS için kurulum
@@ -57,6 +55,8 @@ Kurulum sonrası .NET Core işletim sistemini path veya çevre değişkenleri ol
 
 Bu sayede işletim sistemlerinde yer alan komut yorumlayıcında (CMD, PowerShell, Bash vb.) aşağıdaki komut çalıştırılır.
 
-<code>dotnet --version</code>
+``` 
+dotnet --version
+```
 
 İşletim sisteminde yer alan komut yorumlayıcısına yukarıda yer alan komut yazılıp çalıştırıldığında kurulan .NET Core sürümü yazılacaktır.
