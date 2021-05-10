@@ -17,7 +17,7 @@ VS Code'u macOS işletim sistemine kurmak için aşağıdaki işlem adımların�
 2.  Çift tıklayarak dosya paketini açın.
 3.  Visual Studio Code.app'i, Uygulamalar (Applications) klasörüne sürükleyerek Launchpad'de kullanılabilir duruma getirin.
 
-<u>İhtiyaç halinde VS Code'u, terminalden code komutunu çalıştırarak başlatabilirsiniz. Bunun için:</u>
+<İhtiyaç halinde VS Code'u, terminalden code komutunu çalıştırarak başlatabilirsiniz. Bunun için:
 
 1. VS Code başlatın.
    Command+Shift+P kısayolunu kullanarak Komut Paleti (Command Palette)'i açın ve "shell command" yazın.
@@ -41,7 +41,9 @@ VS Code Linuw ortamda kurabilmenin en basit yönyemi Snap'tir. Daha önce kullan
 
 2. VS Code Snap paketini yüklemek için Linux terminal de aşağıdaki kodu çalıştırınız: 
 
-<code>> sudo snap install --classic code</code>
+````
+ sudo snap install --classic code
+````
 
 3. Kurulum tamamlandıktan sonra Snap, arka planda VS Code'u otomatik olarak güncellemeleri denetleyecek. Yeni bir güncelleme olduğunda, sizi bilgilendirecek ve onay verirseniz yükleyecek.
 

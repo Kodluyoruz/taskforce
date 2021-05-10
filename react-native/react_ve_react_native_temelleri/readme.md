@@ -18,9 +18,7 @@ React.createElement(CatComponent, { name: "Miyavko", isCute: true }, "Meow!");
 </CatComponent>
 ```
 
-<br />
-<br />
-<br />
+
 
 ## Component
 
@@ -46,9 +44,7 @@ Bu component'i kullanmak istersek de;
 
 şeklinde kullanırız.
 
-<br />
-<br />
-<br />
+
 
 ## Styling
 
@@ -72,9 +68,7 @@ yapısı örnek bir stillendirmedir.
 - https://railslove.github.io/react-flexbox-playground/
 - https://flexbox.buildwithreact.com
 
-<br />
-<br />
-<br />
+
 
 ## Custom Component
 

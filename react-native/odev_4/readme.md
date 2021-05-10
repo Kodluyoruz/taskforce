@@ -10,16 +10,13 @@ Tasarımı istediğiniz gibi geliştirebilirsiniz.
 
 Güzel sohbetler şimdiden :)
 
-<p float="left">
-  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_1.png" width="250" />
-  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_2.png" width="250" /> 
-  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_3.png" width="250" />
-  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_4.png" width="250" />
-</p>
-<p float="left">
-  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_5.png" width="250" /> 
-  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_6.png" width="250" /> 
-  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_7.png" width="250" /> 
-  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_8.png" width="250" />
-</p>
+
+ ![codetalks_1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_1.png)
+ ![codetalks_2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_2.png) 
+ ![codetalks_3](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_3.png)
+ ![codetalks_4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_4.png)
+ ![codetalks_5](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_5.png) 
+ ![codetalks_6](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_6.png) 
+ ![codetalks_7](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_7.png) 
+ ![codetalks_8](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_8.png)
 

@@ -1,9 +1,9 @@
 # Ödev 1
 
-1. Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girilmesi istenir (n). Sonrasında kullanıcıdan n adet pozitif sayı girilmesi istenir. Kullanıcının girmiş olduğu sayılardan çift olanlar console'a yazdırılır.
+1. Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girmesini isteyin(n). Sonrasında kullanıcıdan n adet pozitif sayı girmesini isteyin. Kullanıcının girmiş olduğu sayılardan çift olanlar console'a yazdırın.
 
-2. Bir konsol uygulamasında kullanıcıdan pozitif iki sayı girilmesi istenir (n, m). Sonrasında kullanıcıdan n adet pozitif sayı girilmesi istenir. Kullanıcının girmiş olduğu sayılardan m'e eşit yada tam bölünenler console'a yazdırılır.
+2. Bir konsol uygulamasında kullanıcıdan pozitif iki sayı girmesini isteyin (n, m). Sonrasında kullanıcıdan n adet pozitif sayı girmesini isteyin. Kullanıcının girmiş olduğu sayılardan m'e eşit yada tam bölünenleri console'a yazdırın.
 
-3. Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girilmesi istenir (n). Sonrasında kullanıcıdan n adet kelime girilmesi istenir. Kullanıcının girişini yaptığı kelimeler sondan başa doğru console'a yazdırılır.
+3. Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girmesini isteyin (n). Sonrasında kullanıcıdan n adet kelime girmesi isteyin. Kullanıcının girişini yaptığı kelimeleri sondan başa doğru console'a yazdırın.
 
-4. Bir konsol uygulamasında kullanıcıdan bir cümle yazması istenir. Cümledeki toplam kelime ve harf sayısı console'a yazdırılır.
+4. Bir konsol uygulamasında kullanıcıdan bir cümle yazması isteyin. Cümledeki toplam kelime ve harf sayısını console'a yazdırın.
