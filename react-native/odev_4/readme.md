@@ -10,7 +10,7 @@ Tasarımı istediğiniz gibi geliştirebilirsiniz.
 
 Güzel sohbetler şimdiden :)
 
-![codetalks_1](
+
  ![codetalks_1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_1.png)
  ![codetalks_2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_2.png) 
  ![codetalks_3](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_4/figures/codetalks_3.png)
