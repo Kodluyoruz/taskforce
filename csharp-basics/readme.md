@@ -72,7 +72,7 @@
 - [Inheritance](2-inheritance/)
 - [Polymorphism ve Sealed Class](3-polymorphism/)
 - [Interface](9-interface/)
-- [Abstract Class](5-abtract-class/)
+- [Abstract Class](7-abtract-class/)
 
 #### Proje - 1 ####
 - [Telefon Rehberi Uygulaması](19-proje-1/)
