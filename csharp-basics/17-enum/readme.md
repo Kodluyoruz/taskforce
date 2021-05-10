@@ -17,4 +17,4 @@ Uygulama geliştirirken sabit değerlerle çalışmak durumunda kalırız. Bu no
 
 Yukarıda Gunler enum'ını görüyorsunuz. Enum lar default olarak 1'den başlar.
 
-<code>Gunler.Pazartesi</code> ifadesi ile Pazartesi'nin string ifadesine erişebiliriz. Eğer Pazartesinin 1. gün oldugu bilgisine ihtiyacımız varsa o da şu şekildedir: <code>(int)Gunler.Pazartesi**</code>
+```Gunler.Pazartesi ``` ifadesi ile Pazartesi'nin string ifadesine erişebiliriz. Eğer Pazartesinin 1. gün oldugu bilgisine ihtiyacımız varsa o da şu şekildedir: ```(int)Gunler.Pazartesi** ```
