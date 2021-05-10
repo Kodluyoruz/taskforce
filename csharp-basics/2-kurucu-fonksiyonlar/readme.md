@@ -8,7 +8,7 @@ Kurucu eetot tanımlarken dikkat edilmesi gereken noktalar ise şu şekildedir:
 2. Public olarak bildirilmeleri gerekir.
 3. Geri dönüş değerleri yoktur.
 
-Kurucu metotların imzasını değiştirerek **overload** edebiliriz yani aşırı yükleyebiliriz. Metotları anlatırken aşırı yüklemeden bahsetmiştik. (Bkz: [<u>Metotların Aşırı Yüklenmesi</u>](11-metotlar/2-metot-overload-nedir-ve-out-kullanimi/))
+Kurucu metotların imzasını değiştirerek **overload** edebiliriz yani aşırı yükleyebiliriz. Metotları anlatırken aşırı yüklemeden bahsetmiştik. (Bkz: [Metotların Aşırı Yüklenmesi](11-metotlar/2-metot-overload-nedir-ve-out-kullanimi/))
 
 ## Varsayılan Kurucu Metot
 Her sınıfın biz tanımlamasakta bir tane kurucu metotu vardır. Buna **varsayılan kurucu metot(default constructor)** denir.
