@@ -4,7 +4,7 @@ Struct'lar yani yapılar sınıflara çok benzerler. Struct ile yapıp sınıf i
 
 Class kullanmanızı gerektirecek kadar komplex olmayan yapılarınız varsa ve verileri kapsüllemek işinizi görecekse yapıları tercih edebilirsiniz.
 
-<u>Yapıların özellikleri:</u> 
+**Yapıların özellikleri:**
 * Class lar referans tipli özellikler gösterir, Yapılar ise değer tipli özellikler gösterirler. En temel fark budur. 
 * Diğer struct yada sınıflardan kalıtım almazlar.
 * Interface'lerden kalıtım alabilirler. 
@@ -14,7 +14,7 @@ Class kullanmanızı gerektirecek kadar komplex olmayan yapılarınız varsa ve 
 * Static üye barındırabilirler.  
 
 
-<u>Yapıların söz dizimi:</u>
+**Yapıların söz dizimi:**
 
     struct Ogrenci {
         public string Isim;
