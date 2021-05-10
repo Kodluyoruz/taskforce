@@ -18,10 +18,11 @@ Linux tabanlı işletim sistemlerine kurulum Windows işletim sistemlerine kurul
 
 İlk olarak .NET Core için gerekli olan Repo işletim sistemine eklenir.
 
-<code>
+```<code>
 wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
-</code>
+````
+
 </br>
 </br>
 Repo eklendikten sonra repo içerisinde yer alan dotnet paketi kurularak kurulum tamamlanır.
