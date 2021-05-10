@@ -37,7 +37,7 @@ yum install rh-dotnet22 -y scl enable rh-dotnet22 bash</code>
 
 ```
 
-<b>NOT:</b> Linux tabanlı işletim sistemlerinde kurulum Linux paket yöneticisine göre farklılık gösterir.
+**NOT:** Linux tabanlı işletim sistemlerinde kurulum Linux paket yöneticisine göre farklılık gösterir.
 
 ## MacOS için kurulum
 
