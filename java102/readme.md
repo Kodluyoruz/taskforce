@@ -1,6 +1,6 @@
 # Java 102 INDEX
 
-#### Access Modifiers (Erişim Belirleyiciler) ve Sınıf/Nesne Değişkenleri ve Metotları####
+#### Access Modifiers (Erişim Belirleyiciler) ve Sınıf/Nesne Değişkenleri ve Metotları ####
 
 - [Erişim Belirleyiciler](access-modifier/)
 - [Static Anahtar Sözcüğü](static/)
