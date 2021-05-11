@@ -8,14 +8,14 @@ Uygulamada olması gereken özellikler aşağıdaki gibidir.
 - Kart Taşı
 - Board Listeleme
 
-** Kart İçeriği: 
+**Kart İçeriği:** 
 * Baslık
 * Icerik
 * Atanan Kisi (Takım üyelerişnden biri olmalı)
 * Büyüklük (XS, S, M, L, XL) 
 
 
-Açıklama:
+**Açıklama:**
 
 - Board **TODO - IN PROGRESS - DONE** kolonlarından oluşmalı.
 - Varsayılan olarak bir board tanımlı olmalı ve 3 tane de kart barındırmalı.(Kartlar herhangi bir line'da yani kolonda olabilir.)
