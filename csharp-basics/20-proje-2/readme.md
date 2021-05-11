@@ -91,13 +91,13 @@ Açıklama:
             Öncelikle silmek istediğiniz kartı seçmeniz gerekiyor.
             Lütfen kart başlığını yazınız:  
         
-        <u>Kart bulunamaz ise:</u>
+        Kart bulunamaz ise:
 
             Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız.
             * İşlemi sonlandırmak için : (1)
             * Yeniden denemek için : (2)
         
-        <u>Kart bulunur ise:</u>
+        Kart bulunur ise:
 
             Bulunan Kart Bilgileri:
             **************************************
@@ -121,15 +121,3 @@ Açıklama:
     * Kart ların büyüklükleri pre-defined olan bir enum'da tutulur. 
     * Kart sadece takım üyelerinden birine atanabilir. 
     * Takım üyeleri daha önceden varsayıla olarak tanımlanmış bir listede olmalı. Struct, class yada bir koleksiyon kullanılabilir.
-
-
-
-
-
-
-
-
-
-
-
-
