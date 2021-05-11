@@ -13,8 +13,8 @@ Kısaca abstract sınıfların özelliklerine bakacak olursak:
 
 
 
-**ONEMLI:** Abstract sınıf içerisinde metot bildirimi yapabilmek için metodun erişim belirtecinden sonra **"abstract"** anahtar kelimesi mutlaka yazılmalıdır.
+**ÖNEMLI:** Abstract sınıf içerisinde metot bildirimi yapabilmek için metodun erişim belirtecinden sonra **"abstract"** anahtar kelimesi mutlaka yazılmalıdır.
 
-**ONEMLI:** Abstract metotdan türetilmiş sınıf içerisinde abstract metodun kullanılabilmesi için de **override** anahtar kelimesinin kullanılması gerekir.
+**ÖNEMLI:** Abstract metotdan türetilmiş sınıf içerisinde abstract metodun kullanılabilmesi için de **override** anahtar kelimesinin kullanılması gerekir.
 
 
