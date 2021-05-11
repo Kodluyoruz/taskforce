@@ -4,8 +4,7 @@ Bir sınıfın başka bir üst sınıftan miraz almasına kalıtım denir. Miras
 
 Sözdizimi : 
 
-<code>Kalıtım Alacak Alt Sınıf : Miras Verecek olan Üst Sınıf
-</code>
+ ```Kalıtım Alacak Alt Sınıf : Miras Verecek olan Üst Sınıf ```
 
 Kalıtım çok soyut bir kavram olması itibariyle anlaşılması zor bir konudur. Bunun için en kolay anlaşılabilecek örnekler üzerinden denenmesinin faydalı olduğunu düşünüyorum. Bu da Canlılar - Hayvanlar - Bitkiler ayrımı ile anlaşılabilir. 
 
