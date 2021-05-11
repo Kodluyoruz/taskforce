@@ -8,14 +8,14 @@ Uygulamada olması gereken özellikler aşağıdaki gibidir.
 - Kart Taşı
 - Board Listeleme
 
-** <u>Kart İçeriği:</u> 
+**Kart İçeriği:** 
 * Baslık
 * Icerik
 * Atanan Kisi (Takım üyelerişnden biri olmalı)
 * Büyüklük (XS, S, M, L, XL) 
 
 
-<u>Açıklama:</u>
+**Açıklama:**
 
 - Board **TODO - IN PROGRESS - DONE** kolonlarından oluşmalı.
 - Varsayılan olarak bir board tanımlı olmalı ve 3 tane de kart barındırmalı.(Kartlar herhangi bir line'da yani kolonda olabilir.)
@@ -91,13 +91,13 @@ Uygulamada olması gereken özellikler aşağıdaki gibidir.
             Öncelikle silmek istediğiniz kartı seçmeniz gerekiyor.
             Lütfen kart başlığını yazınız:  
         
-        <u>Kart bulunamaz ise:</u>
+        Kart bulunamaz ise:
 
             Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız.
             * İşlemi sonlandırmak için : (1)
             * Yeniden denemek için : (2)
         
-        <u>Kart bulunur ise:</u>
+        Kart bulunur ise:
 
             Bulunan Kart Bilgileri:
             **************************************
@@ -121,15 +121,3 @@ Uygulamada olması gereken özellikler aşağıdaki gibidir.
     * Kart ların büyüklükleri pre-defined olan bir enum'da tutulur. 
     * Kart sadece takım üyelerinden birine atanabilir. 
     * Takım üyeleri daha önceden varsayıla olarak tanımlanmış bir listede olmalı. Struct, class yada bir koleksiyon kullanılabilir.
-
-
-
-
-
-
-
-
-
-
-
-
