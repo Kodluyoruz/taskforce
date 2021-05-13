@@ -1,1 +1,1 @@
-# Table,Primary Key, Foreign Key Kavramları
+# Table, Primary Key, Foreign Key Kavramları
