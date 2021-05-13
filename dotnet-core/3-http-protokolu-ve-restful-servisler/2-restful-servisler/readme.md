@@ -27,3 +27,7 @@ Peki nedir bu **idempotent**? Birden fazla defa çağırılmasından sakınca ol
 Günün sonunda **POST** ile güncelleme de silme de yapabilirsiniz. Peki neden **DELETE** ve **PUT** kullanmalıyz? Rest Http metotları ile veriye anlamlı ve doğru şekilde ulaşmayı amaçlar. Bir request çağrısına baktığınızda onun ne iş yaptığını kolayca anlayabilmelisiniz. Http metotlarının doğru yerde kullanılması bize okunabilirlik gücünü getirir.
 
 Şimdi bu bilgiler ışığında **PUT** ve **POST** metotlarına bakalım. Hangi durumda **POST** hangi durumda **PUT** kullanacağımıza karar verme noktasında genel olarak bir karmaşa yaşanıyor. **PUT** ve **POST** arasındaki en büyük fark **idempotent**'dir. Birden fazla çağrılması veri üzerinde soruna neden olmayacak çağrımlarınız için PUT kullanabilirsiniz. **POST** ise, tekrar tekrar çağrıldığında veri tutarlılığını bozabilecek çağrılardır. Biz sunucu tarafında bunu istediğimiz gibi yönetebiliriz ama tarayıcı için out ve post farklı çağrılardır. Ve üst üste post yapılmasına neden olabilecek durumlar tarayıcıların kendi önlemleri vardır. Dolayısıyla kurallara uygun şekilde kullanmak en doğru yaklaşımdır.
+
+**Okuma Önerisi**: Restful servislerle ilgili daha detaylı bilgi için [tıklayınız.](https://denizirgin.com/rest-ve-restful-web-servis-kavram%C4%B1-30bc4400b9e0)
+
+**Inceleme Önerisi:** Durum kodlarına detaylı bakmak için [tıklayınız.](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
