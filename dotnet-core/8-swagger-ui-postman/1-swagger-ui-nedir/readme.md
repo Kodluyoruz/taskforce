@@ -9,3 +9,7 @@ Swagger UI içerisinde bir eylemle ilgili olarak temel iki çeşit bilgi bulunur
 - Parameters : Http Put ve Http Post çağrımlarının beklediği parametreleri gördüğümüz yerdir.
 
 - Responses : Http talebine karşılık olarak nasıl bir HTTP response'u oluşturabileceğini, response içerisinde hangi tipte bir data döneceğini detaylı olarak görebiliriz.
+
+Swagger UI aracılığı ile eylemlerin beklediği parametreleri kolay bir şekilde doldurarak örnek çağrımlar yapabilir, dönen cevapları gözlemleyebiliriz.
+
+**Okuma Önerisi:** Swagger UI ile ilgili detaylı bilgi için [tıklayınız.](https://swagger.io/tools/swagger-ui/)
