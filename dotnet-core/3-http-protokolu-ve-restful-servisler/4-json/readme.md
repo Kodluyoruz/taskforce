@@ -1,6 +1,6 @@
 # JSON (JavaScript Object Notation)
 
-**JSON ("JavaScript Object Notation")** bütün programlama dilleri arasında, yapılandırılmış veri değişimini kolaylaştıran bir metin biçimidir. Json içerisinde kullaılabilecek karakterler şu keildedir. "{}", "[]",";","," Ecmascript programlama dilinden esinlenerek ortaya çıkmış bir metin biçimidir ama programlama dillerinden bağımsızdır. JSON sahip olduğu ağaç yapısıyla DOM ve XML ile benzerlik gösterse de bunlardan tamamen farklı bir yapıdadır.
+**JSON ("JavaScript Object Notation")** bütün programlama dilleri arasında, yapılandırılmış veri değişimini kolaylaştıran bir metin biçimidir. Json içerisinde kullanılabilecek karakterler şu şekildedir. "{}", "[]",";","," Ecmascript programlama dilinden esinlenerek ortaya çıkmış bir metin biçimidir ama programlama dillerinden bağımsızdır. JSON sahip olduğu ağaç yapısıyla DOM ve XML ile benzerlik gösterse de bunlardan tamamen farklı bir yapıdadır.
 
 JSON'ın desteklediği veri tipleri şu şekildedir.
 
