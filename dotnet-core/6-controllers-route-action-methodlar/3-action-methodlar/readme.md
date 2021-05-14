@@ -1,8 +1,8 @@
 # Action Methodlar
 
-Controller'lardan bahsederken benzer eylem gruplarını kapsayan sınıflar olduğundan bahsetmiştik. Action metotları ise bir resource üzerinde gerçekleştirilebilecek eylemler olarak düşünebilirsiniz. Yaıları itibariyle normal metot tanımından bir farkları yoktur. Http request leri karşılayıp, servis içerisinde gerekli işlemler tamamlandıktan sonra http response'ları geri döndüren metotlardır. 
+Controller'lardan bahsederken benzer eylem gruplarını kapsayan sınıflar olduğundan bahsetmiştik. Action metotları ise bir resource üzerinde gerçekleştirilebilecek eylemler olarak düşünebilirsiniz. Yapıları itibariyle normal metot tanımından bir farkları yoktur. Http request'leri karşılayıp, servis içerisinde gerekli işlemler tamamlandıktan sonra http response'ları geri döndüren metotlardır. 
 
- Eylemlere parametre geçmenin birden fazla yolu vardır. En çok kullanılan 2 yöntem [FromBody] ve [FromQuery] attribute leri kullanılarak yapılanlardır.  
+Eylemlere parametre geçmenin birden fazla yolu vardır. En çok kullanılan 2 yöntem [FromBody] ve [FromQuery] attribute leri kullanılarak yapılanlardır.  
 
 * **FromBody:** Http request inin body'si içerisinde gönderilen parametreleri okumak için kullanılır.
 * **FromQuery:** Url içerisine gömülen parametreleri okumak için kullanılan attribute dur. 
@@ -11,6 +11,12 @@ Controller'lardan bahsederken benzer eylem gruplarını kapsayan sınıflar oldu
 
         [HttpGet]
         public IActionResult GetBook([FromQuery] string id)
+        {
+            ... Komut satırları
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetBook(string id)
         {
             ... Komut satırları
         }
