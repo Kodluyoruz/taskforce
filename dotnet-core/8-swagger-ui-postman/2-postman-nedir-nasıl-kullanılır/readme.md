@@ -10,3 +10,6 @@ Temel özellikleri şu şekildedir:
 
 * **Documentation:** Postman, dökümanlarınınızı hızlı ve kolay bir şekilde yayınlamanıza olanak tanır. Postman, dokümantasyon sayfanızı dinamik örneklerle ve makine tarafından okunabilir talimatlarla doldurmak için örnek requestlerinizi otomatik olarak çeker, böylece API'nizi dünyanın geri kalanıyla kolayca paylaşabilirsiniz. 
 
+**İnceleme Önerisi:** Postman ile ilgili daha fazla bilgiye sahip olmak için [tıklayınız.](https://www.postman.com/)
+
+
