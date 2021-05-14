@@ -35,11 +35,11 @@
 
 ### [Swagger ve Postman kullanımı](8-swagger-postman/)
 
-- [Swagger Nedir ?](8-swagger-postman/1-swagger-nedir/)
-- [Swagger Kullanımı](8-swagger-postman/2-swagger-kullanimi/)
-- [Postman Nedir ?](8-swagger-postman/3-postman-nedir/)
-- [Postman Kullanımı](8-swagger-postman/4-postman-kullanimi/)
-- [API Debug](8-swagger-postman/5-api-debug/)
+- [Swagger UI Nedir ?](8-swagger-ui-postman/1-swagger-ui-nedir/)
+- [Swagger UI Kullanımı](8-swagger-ui-postman/2-swagger-ui-kullanimi/)
+- [Postman Nedir ?](8-swagger-ui-postman/3-postman-nedir/)
+- [Postman Kullanımı](8-swagger-ui-postman/4-postman-kullanimi/)
+- [API Debug](8-swagger-ui-postman/5-api-debug/)
 
 ### [Veritabanı Yönetim Sistemleri](9-veritabani-yonetim-sistemleri/)
 
