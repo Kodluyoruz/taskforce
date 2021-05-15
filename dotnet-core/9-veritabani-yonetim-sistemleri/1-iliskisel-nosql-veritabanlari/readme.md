@@ -19,7 +19,7 @@ Veriler tablolarda birbiri ile ilişkili şekilde saklanırken tablolar arasınd
 
 Bu veri tabanlarında kullanılan diller de kendi aralarından değişiklik gösterebiliyor. Örneğin MsSQL ile TSQL dilini kullanırken, Oracle ile PLSQL dilini kullanırız. Birbirinden çok büyük farklar olmasa da kendilerine özel dil yapı farkları vardır.
 
-## İlişkisel Olmayan Veri Tabanı Yönetim Sistemleri
+## NoSql - İlişkisel Olmayan Veri Tabanı Yönetim Sistemleri
 İlişkisel veri tabanı yönetim sistemlerinin doğuşu bundan 40 sene öncesine dayanır. Yıllar içerisinde olgunluk seviyesi çok artmıştır. Ama günümüzde bile haya büyük verileri saklama ve işleme konusunda yetersiz kalmaktadır. Tam da bu noktada yaşanan sıkıntılara karşılık NoSql veritabanları 1998 yılında ortaya çıkmıştır. 
 
 NoSql Veri tabanları yüksek trafik ile yüksek miktarda verinin yönetimine odaklandı. Immediate Data Consistency yani anlık veri tutarlılığından feragat ederek, yüksek performansa ve hıza odaklandı.
@@ -41,7 +41,6 @@ Bazı Popüler NoSql Veri Tabanları ve Özellikleri
 - Graph Based (Neo4J)
 - Column Based (Cassandra, HBase)
 
-**Okuma Önerisi:** Veri tabanı yönetim sistemleri ile ilgili daha detay bilgiye sahip olmak için lütfen [tıklayınız.](https://medium.com/devopsturkiye/microservice-mimarilerde-veritaban%C4%B1-tasar%C4%B1m%C4%B1-d58371ec466)
 
 
 
@@ -51,3 +50,6 @@ Bazı Popüler NoSql Veri Tabanları ve Özellikleri
 |Anlık veri tutarlılığı sunar    | Nihai veri tutarlılığı sunar  |
 | Olgunluk seviyesi yüksektir. Yetişmiş uzman bulmak kolaydır.        | RDMS kadar olgun değildir. Yetişmiş uzman bulmakta zordur.          |
 |Lisans ücretleri çok yüksektir. | Lisans ücretleri düşüktür  |
+
+
+**Okuma Önerisi:** Veri tabanı yönetim sistemleri ile ilgili daha detay bilgiye sahip olmak için lütfen [tıklayınız.](https://medium.com/devopsturkiye/microservice-mimarilerde-veritaban%C4%B1-tasar%C4%B1m%C4%B1-d58371ec466)
