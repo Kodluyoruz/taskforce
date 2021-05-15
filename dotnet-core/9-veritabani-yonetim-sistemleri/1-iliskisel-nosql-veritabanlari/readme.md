@@ -50,4 +50,4 @@ Bazı Popüler NoSql Veri Tabanları ve Özellikleri
 | Dikeyde ölçeklenebilir, yatayda ölçeklenmesi çok zordur.      | Kolay bir şekilde yatayda ya da dikey de ölçeklenebilir. Dağıtık sistemler için uygundur.           |
 |Anlık veri tutarlılığı sunar    | Nihai veri tutarlılığı sunar  |
 | Olgunluk seviyesi yüksektir. Yetişmiş uzman bulmak kolaydır.        | RDMS kadar olgun değildir. Yetişmiş uzman bulmakta zordur.          |
-|Lisans ücretleri çok yüksektir. | Lisan ücretleri düşüktür  |
+|Lisans ücretleri çok yüksektir. | Lisans ücretleri düşüktür  |
