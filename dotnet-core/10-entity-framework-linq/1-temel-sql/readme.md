@@ -37,3 +37,5 @@ Sadece bu başlık altında tüm temel SQl bilgisini vermemiz mümkün değil ma
     - `Update dbo.Customer set age = 20 where name = 'Ayse'`
 
 Sql ile ilgili daha detay bilgiye sahip olmak için lütfen [tıklayınız.](https://www.w3schools.com/sql/default.asp)
+
+Mevcut sql bilginizi ölçmek için ise [şu egzersizi](https://www.w3schools.com/sql/exercise.asp?filename=exercise_select3) tamamlayabilirsiniz. Böylece daha eksik olan kısımlara odaklanabilirsiniz. 
