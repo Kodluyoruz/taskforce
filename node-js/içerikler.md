@@ -742,4 +742,12 @@ dosyası oluşturuldu.
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Session'ı -oturum- nasıl sonlandıracağımız konusu üzerine konuştuk.
 
+### [Kişiye Özel İçerik](PersonalizedContent/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Kişiye özel içerik sayfasını **dashboard** nasıl oluşturacağımız üzerine konuştuk.
+
 
