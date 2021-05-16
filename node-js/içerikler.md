@@ -805,3 +805,19 @@ dosyası oluşturuldu.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Smartedu projemizdeki arama alanını oluşturduk.
+
+### [İletişim Sayfası ve Mail Göndermek](SendEmail/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizdeki iletişim sayfasını oluşturduk ve nodemailer eklentisi yardımıyla mail gönderme işlemini yaptık.
+
+### [Bildirim Mesajları](FlashMessages/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizdeki bildirim mesajları üzerine konuştuk.
