@@ -1,4 +1,6 @@
 # ORM (Object Relational Mapping) ve Entity Framework Core
+
+## ORM (Object Relational Mapping)
 İlişkisel veri tabanı ile uygulama içerisinde kullandığımız modelleri/nesneleri birbirine bağlama tekniğidir. Db objelerinin kod tarafında bir replikası bir yansıması var gibi düşünebilirsiniz. ORM bu mapleme tekniğinin adıdır. ORM'i uygulamak için kullandığımız yazılımlara da ORM Araçları diyoruz. ORM araçları ilişkisel veritabanları ve uygulama arasındaki köprüdür.
 
 En çok kullanılan ORM araçları şu şekildedir. 
@@ -22,6 +24,16 @@ ORM Araçlarının **Dezavantajları:**
 
 Biz proje içerisinde Entity Framework Core kullananacağız arkadaşlar.
 
+
+## Entity Framework Core
+Entity Frame Microsoft'un Orm aracı olarak sunduğu Data Access teknolojisidir. Entity Framework yıllar içerisinde olgunlaşarak EF 6.x versiyonuna ulaştıktan sonra yerini Entity Framework Core 'a bıraktı. Entity Framework Core ise cross platform ve open source bir teknoloji.  
+
+Entity Framework .Net Core uygulamalarda kullanılmak üzere tasarlandı. Ama .Net Framework 4.5+ versiyonuyla yazılmış uygulamalarda da kullanılabilir durumdadır.
+
 **İnceleme Önerisi:**  EntityFramework Core kütüphanesini incelemek için [tıklayınız.](https://github.com/dotnet/efcore)
 
+Entity Framework Core'un kullanıldığı platform ve .Net versiyonları ile ilgili aşağıdaki tabloyu inceleyebilirsiniz.
 
+![EF Core](https://www.entityframeworktutorial.net/Images/efcore/ef-core.png)
+
+**Okuma Önerisi:** Entity Framework Core ile ilgili detaylı bilgi için [tıklayınız.]( https://docs.microsoft.com/ef/core)
