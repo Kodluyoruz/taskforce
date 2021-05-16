@@ -1,15 +1,15 @@
 # İlişkisel ve NoSql Veritabanları
 
 ## RDMS(Relational Database Management System) - İlişkisel VeriTabanı Yönetim Sistemleri
-**İlişkisel Veri Tabanları** veriyi birbiri ile ilişkili bir şekilde tutmaya yarar. Tablolar aracılığıyşa veriler hem kendi içlerinde hem tablolar arasında ilişkili bir şekilde saklanır. Tablolar satırlar ve sütunlardan oluşur. Bu satır ve sütunlar verileri daha anlamlı tutmamızı ve okumamızı sağlar.
+**İlişkisel Veri Tabanları** veriyi birbiri ile ilişkili bir şekilde tutmaya yarar. Tablolar aracılığıyla veriler hem kendi içlerinde hem tablolar arasında ilişkili bir şekilde saklanır. Tablolar satırlar ve sütunlardan oluşur. Bu satır ve sütunlar verileri daha anlamlı tutmamızı ve okumamızı sağlar.
 
-Uzun bir paragraf ile yazılmış karşılaştırma makalelerini düşünün. Bir de onu özetleyen karşılaştırmalı bir tablo düşününün. Mantıksal olarak verile yanyana koyulmus ve neye göre bir karşılaştırma yapılacağı çok açıktır. Tabloya kısa bir göz attığınızda verilmek istenen mesajı çok rahat olarak alabilirsiniz. İlişkisel veri tabanı da insana aynı hissi verir :) 
+Uzun bir paragraf ile yazılmış karşılaştırma makalelerini düşünün. Bir de onu özetleyen karşılaştırmalı bir tablo düşününün. Mantıksal olarak veriler yanyana koyulmuş ve neye göre bir karşılaştırma yapılacağı çok açıktır. Tabloya kısa bir göz attığınızda verilmek istenen mesajı çok rahat olarak alabilirsiniz. İlişkisel veritabanı da insana aynı hissi verir :) 
 
 İlişkisel veri tabanı yönetim sistemleri ise, veritabanı oluşturma, verileri yönetme ve saklama gibi işlemleri kolayca yapmanıza olanak sağlayan yazılımlardır. Çoğu veri tabanına erişim için **SQL(Structured Query Language)**  kullanılır.
 
 Veriler tablolarda birbiri ile ilişkili şekilde saklanırken tablolar arasında da ilişkiler olabileceğinden bahsettik. Bu tablolar arası ilişki bize **Data Consistency** yani veri tutarlılığını sağlar. Dolayısıyla bu ilişkilerin doğru kurulması oldukça kritiktir. 
 
-<u>Bazı popüler ilişkisel veri tabanları:</u>
+<u>Bazı popüler il   tabanları:</u>
 
 - MySql (Ücretsiz)
 - PostgreSQL (Ücretsiz) 
@@ -20,11 +20,11 @@ Veriler tablolarda birbiri ile ilişkili şekilde saklanırken tablolar arasınd
 Bu veri tabanlarında kullanılan diller de kendi aralarından değişiklik gösterebiliyor. Örneğin MsSQL ile TSQL dilini kullanırken, Oracle ile PLSQL dilini kullanırız. Birbirinden çok büyük farklar olmasa da kendilerine özel dil yapı farkları vardır.
 
 ## NoSql - İlişkisel Olmayan Veri Tabanı Yönetim Sistemleri
-İlişkisel veri tabanı yönetim sistemlerinin doğuşu bundan 40 sene öncesine dayanır. Yıllar içerisinde olgunluk seviyesi çok artmıştır. Ama günümüzde bile haya büyük verileri saklama ve işleme konusunda yetersiz kalmaktadır. Tam da bu noktada yaşanan sıkıntılara karşılık NoSql veritabanları 1998 yılında ortaya çıkmıştır. 
+İlişkisel veri tabanı yönetim sistemlerinin doğuşu bundan 40 sene öncesine dayanır. Yıllar içerisinde olgunluk seviyesi çok artmıştır. Ama günümüzde bile hala büyük verileri saklama ve işleme konusunda yetersiz kalmaktadır. Tam da bu noktada yaşanan sıkıntılara karşılık NoSql veritabanları 1998 yılında ortaya çıkmıştır. 
 
-NoSql Veri tabanları yüksek trafik ile yüksek miktarda verinin yönetimine odaklandı. Immediate Data Consistency yani anlık veri tutarlılığından feragat ederek, yüksek performansa ve hıza odaklandı.
+NoSql Veritabanları yüksek trafik ile yüksek miktarda verinin yönetimine odaklandı. **Immediate Data Consistency** yani anlık veri tutarlılığından feragat ederek, yüksek performansa ve hıza odaklandı.
 
-İlişkisel veri tabanlarındaki **Immediate Data Consistency** burda yerini  **Eventual Data Consistency** nihai veri tutarlılığına bırakır.
+İlişkisel veri tabanlarındaki **Immediate Data Consistency** burda yerini  **Eventual Data Consistency** yani nihai veri tutarlılığına bırakır.
 
 NoSQl veritabnlarında **CAP Teorimi** denen önemli bir teorem vardır. 
 
