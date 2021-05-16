@@ -1,4 +1,4 @@
-Kayıt ve Kullanıcı Doğrulama
+Kategori Ekleme ve Silme
 ======
 Bu çalışmamızda admin alanı içerisinde kategorileri eklemek ve silmek üzerine konuşacağız. Burada yine tablo yapısını kullanacağız kategorileri sıralamak için.
 ```
