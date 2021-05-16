@@ -853,3 +853,11 @@ dosyası oluşturuldu.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Smartedu projemizde admin alanını nasıl oluşturacağımızı ve kullanıcıları nasıl sileceğimiz üzerine konuştuk.
+
+### [Smartedu Deployment](SmarteduDeployment/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizi Heroku ortamına nasıl yükleyeceğimiz üzerine konuştuk.
