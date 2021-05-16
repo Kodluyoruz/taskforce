@@ -750,4 +750,12 @@ dosyası oluşturuldu.
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Kişiye özel içerik sayfasını **dashboard** nasıl oluşturacağımız üzerine konuştuk.
 
+### [Özel Middleware](CustomMiddleware/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Nasıl ihtiyaçlarımıza göre özel ara yazılımları (Middleware) oluşturacağımız üzerine konuştuk.
+
 
