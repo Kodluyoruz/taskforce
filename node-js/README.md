@@ -81,3 +81,4 @@
 - [Kurs Silmek](DeleteCourse/)
 - [Kurs Güncellemek](UpdateCourse/)
 - [Admin Alanı ve Kullanıcı Silmek](AdminArea/)
+- [Kategori Eklemek ve Silmek](AddRemoveCategory/)
