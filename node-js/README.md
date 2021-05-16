@@ -79,3 +79,4 @@
 - [Bildirim Mesajları](FlashMessages/)
 - [Kayıt ve Kullanıcı Doğrulama](Validation/)
 - [Kurs Silmek](DeleteCourse/)
+- [Kurs Güncellemek](UpdateCourse/)
