@@ -67,3 +67,4 @@
 - [Giriş Sayfası ve Giriş İşlemi](LoginPage/)
 - [Session Nedir?](WhatIsSession/)
 - [Çıkış İşlemi](SmarteduLogout/)
+- [Kişiye Özel İçerik](PersonalizedContent/)
