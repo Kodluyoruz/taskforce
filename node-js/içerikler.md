@@ -837,3 +837,11 @@ dosyası oluşturuldu.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Smartedu projemizdeki kursları nasıl sileceğimiz üzerine konuştuk.
+
+### [Kurs Güncellemek](UpdateCourse/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizdeki kursları nasıl güncelleyeceğimiz üzerine konuştuk.
