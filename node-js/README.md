@@ -70,3 +70,4 @@
 - [Kişiye Özel İçerik](PersonalizedContent/)
 - [Özel Middleware](CustomMiddleware/)
 - [Kullanıcı Rolleri](UserRoles/)
+- [Kurs Oluşturmak](CreateCourse/)
