@@ -822,10 +822,18 @@ dosyası oluşturuldu.
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Smartedu projemizdeki bildirim mesajları üzerine konuştuk.
 
-### [Kayıt ve Kullanıcı Dğrulama](Validation/)
+### [Kayıt ve Kullanıcı Doğrulama](Validation/)
 #### Sorular
 1. Yok
 	
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Smartedu projemizdeki kayıt ve giriş sayfalarındaki kullanıcı doğrulama işlemleri üzerine konuştuk.
+
+### [Kurs Silmek](DeleteCourse/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizdeki kursları nasıl sileceğimiz üzerine konuştuk.
