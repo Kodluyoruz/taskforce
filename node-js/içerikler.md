@@ -781,3 +781,27 @@ dosyası oluşturuldu.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Kurs ile onu oluşturan öğretmen kullanıcısının arasındaki ilişkiyi konuştuk.
+
+### [Kurs - Öğrenci İlişkisi](CourseAndStudent/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Kurs ile onu oluşturan öğrenci kullanıcısının arasındaki ilişkiyi konuştuk. Öğrenci kullanıcısının derse nasıl kaydedileceğini inceledik.
+
+### [Kurs - Öğrenci İlişkisi II](CourseAndStudentII/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Kurs ile onu oluşturan öğrenci kullanıcısının arasındaki ilişkiyi konuşmaya devam ettik.
+
+### [Arama - Search Alanı](SearchArea/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizdeki arama alanını oluşturduk.
