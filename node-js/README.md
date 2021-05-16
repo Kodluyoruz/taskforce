@@ -68,3 +68,4 @@
 - [Session Nedir?](WhatIsSession/)
 - [Çıkış İşlemi](SmarteduLogout/)
 - [Kişiye Özel İçerik](PersonalizedContent/)
+- [Özel Middleware](CustomMiddleware/)
