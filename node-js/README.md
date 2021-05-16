@@ -54,6 +54,7 @@
 - [Clean Blog Proje - 6. Bölüm - Ödev 12](odev12/)
 
 ## SmartEdu Projesi
+- [Smartedu Projesi Tanıtım](SmarteduProject/)
 - [HTTP Durum Kodları](HTTPStatusCodes/)
 - [Linkleri Güncellemek](LinkUpdates/)
 - [Routing - Yönlendirme](Routing/)
