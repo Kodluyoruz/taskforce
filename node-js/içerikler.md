@@ -821,3 +821,11 @@ dosyası oluşturuldu.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Smartedu projemizdeki bildirim mesajları üzerine konuştuk.
+
+### [Kayıt ve Kullanıcı Dğrulama](Validation/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizdeki kayıt ve giriş sayfalarındaki kullanıcı doğrulama işlemleri üzerine konuştuk.
