@@ -26,7 +26,7 @@ Biz proje içerisinde Entity Framework Core kullananacağız arkadaşlar.
 
 
 ## Entity Framework Core
-Entity Frame Microsoft'un Orm aracı olarak sunduğu Data Access teknolojisidir. Entity Framework yıllar içerisinde olgunlaşarak EF 6.x versiyonuna ulaştıktan sonra yerini Entity Framework Core 'a bıraktı. Entity Framework Core ise cross platform ve open source bir teknoloji.  
+Entity Framework Microsoft'un ORM aracı olarak sunduğu Data Access teknolojisidir. Entity Framework yıllar içerisinde olgunlaşarak EF 6.x versiyonuna ulaştıktan sonra yerini Entity Framework Core 'a bıraktı. Entity Framework Core ise cross platform ve open source bir teknoloji.  
 
 Entity Framework .Net Core uygulamalarda kullanılmak üzere tasarlandı. Ama .Net Framework 4.5+ versiyonuyla yazılmış uygulamalarda da kullanılabilir durumdadır.
 
