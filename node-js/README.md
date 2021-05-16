@@ -78,3 +78,4 @@
 - [İletişim Sayfası ve Mail Göndermek](SendEmail/)
 - [Bildirim Mesajları](FlashMessages/)
 - [Kayıt ve Kullanıcı Doğrulama](Validation/)
+- [Kurs Silmek](DeleteCourse/)
