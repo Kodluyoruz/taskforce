@@ -845,3 +845,11 @@ dosyası oluşturuldu.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Smartedu projemizdeki kursları nasıl güncelleyeceğimiz üzerine konuştuk.
+
+### [Admin Alanı ve Kullanıcı Silmek](AdminArea/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizde admin alanını nasıl oluşturacağımızı ve kullanıcıları nasıl sileceğimiz üzerine konuştuk.
