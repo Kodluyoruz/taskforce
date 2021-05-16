@@ -72,3 +72,6 @@
 - [Kullanıcı Rolleri](UserRoles/)
 - [Kurs Oluşturmak](CreateCourse/)
 - [Kurs - Öğretmen İlişkisi](CourseAndTeacher/)
+- [Kurs - Öğrenci İlişkisi](CourseAndStudent/)
+- [Kurs - Öğrenci İlişkisi II](CourseAndStudentII/)
+- [Search Alanı](SearchArea/)
