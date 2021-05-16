@@ -766,3 +766,11 @@ dosyası oluşturuldu.
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Kayıt olan kullanıcılar için nasıl farklı roller oluşturabileceğimiz üzerine konuştuk.
 
+### [Kurs Oluşturmak](CreateCourse/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Öğretmen yetkisine sahip olan kullanıcının nasıl yeni bir kurs oluşturabileceği üzerine konuştuk.
+
