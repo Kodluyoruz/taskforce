@@ -734,4 +734,12 @@ dosyası oluşturuldu.
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Session -oturum- kavaramı üzerine konuştuk.
 
+### [Çıkış İşlemi](SmarteduLogout/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Session'ı -oturum- nasıl sonlandıracağımız konusu üzerine konuştuk.
+
 
