@@ -80,3 +80,4 @@
 - [Kayıt ve Kullanıcı Doğrulama](Validation/)
 - [Kurs Silmek](DeleteCourse/)
 - [Kurs Güncellemek](UpdateCourse/)
+- [Admin Alanı ve Kullanıcı Silmek](AdminArea/)
