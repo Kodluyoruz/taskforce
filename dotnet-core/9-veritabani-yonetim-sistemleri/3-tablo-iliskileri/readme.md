@@ -1,6 +1,6 @@
 # Tablo İlişkileri
 
-İlişkisel bir veritabanı ile çalışırken veriyi olabildiğince atomik tutmak ve çoklanmasının önüne geçmemiz gerekir. Böylece bir veriyi güncellediğimizde ilişkili tüm bilgileri de güncellemiş ver veri bütünlüğünü sağlamış oluruz. Bunu sağlayabilmemiz için de tablolar arasında doğru ilişkileri kurmamız gereklidir. Dataları konumlandıracağımız tablolar, içerdikleri alanlar ve tablolar arası ilişkilerin tasarımı sürecine **normalizasyon** adı verilir.
+İlişkisel bir veritabanı ile çalışırken veriyi olabildiğince atomik tutmak ve çoklanmasının önüne geçmemiz gerekir. Böylece bir veriyi güncellediğimizde ilişkili tüm bilgileri de güncellemiş ve veri bütünlüğünü sağlamış oluruz. Bunu sağlayabilmemiz için de tablolar arasında doğru ilişkileri kurmamız gereklidir. Dataları konumlandıracağımız tablolar, içerdikleri alanlar ve tablolar arası ilişkilerin tasarımı sürecine **normalizasyon** adı verilir.
 
 Temel olarak 3 tip tablo ilişkisi bulunmaktadır.
 
@@ -16,7 +16,7 @@ Bu ilişkiye sahip bir veriyi aslında her iki tablonun kolonlarına sahip tek b
 
 ## 1-N İlişki
 
-Bu ilişki tipinde tablolar arasında 1-N bir ilişki bulunmaktadır. Temel olarak A tablosundaki PK'nın, B tablosunda bir FK karşılığı vardır. Fakat B tablosounun kendine ait ayrı bir PK tanımı vardır.
+Bu ilişki tipinde tablolar arasında 1-N bir ilişki bulunmaktadır. Temel olarak A tablosundaki PK'nın, B tablosunda bir FK karşılığı vardır. Fakat B tablosunun kendine ait ayrı bir PK tanımı vardır.
 
 Örnek verecek olursak; Books tablosunda bir kitabın temel bilgilerini tuttuğumuzu düşünelim. Kitaba ait her bir baskıyla ilgili bilgileri ise BookEditions tablosunda tuttuğumuzu düşünelim. Bu durumda kitap-kitap baskısı için 1-N ilişiki mevcut diyebiliriz. İlişkinin örnek görseli ise aşağıdaki gibi olacaktır.
 

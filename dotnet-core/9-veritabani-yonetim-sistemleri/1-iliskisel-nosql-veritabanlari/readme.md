@@ -9,7 +9,7 @@ Uzun bir paragraf ile yazılmış karşılaştırma makalelerini düşünün. Bi
 
 Veriler tablolarda birbiri ile ilişkili şekilde saklanırken tablolar arasında da ilişkiler olabileceğinden bahsettik. Bu tablolar arası ilişki bize **Data Consistency** yani veri tutarlılığını sağlar. Dolayısıyla bu ilişkilerin doğru kurulması oldukça kritiktir. 
 
-<u>Bazı popüler il   tabanları:</u>
+<u>Bazı popüler veri tabanları:</u>
 
 - MySql (Ücretsiz)
 - PostgreSQL (Ücretsiz) 
