@@ -1,6 +1,6 @@
-Search Alanı
+Arama (Search) Alanı
 ======
-Bu çalışmamızda Smartedu projemizin `search` alanını oluşturacağız.
+Bu çalışmamızda Smartedu projemizin `search` (arama) alanını oluşturacağız.
 
 Kullanacağımız yöntem ise şu daha öncesinde kategori ile oluşturduğumuz filtrelemeyi `query` den gelen "search" parametresiyle de birleştireceğiz. Önce query
 parametresini göndereceğimiz formu oluşturalım.
