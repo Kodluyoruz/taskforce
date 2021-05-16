@@ -586,6 +586,13 @@ const StudentSchema = new Schema({
 	- Not: Uygulamamızda sayfalama ve görsel yükleme işlemlerini yapmadık. Sonraki projemizde de bu özellikleri kullanacağız.
 
 ## SmartEdu Projesi 
+### [Smartedu Proje Tanıtımı](SmarteduProject/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizi ve projemizde üzerine çalışacağımız konulardan bahsettik.
 ### [HTTP Durum Kodları](HTTPStatusCodes/)
 #### Sorular
 1. 201 HTTP yanıt durumu kodu ne ifade eder?
@@ -718,3 +725,13 @@ dosyası oluşturuldu.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; SmartEdu projemizdeki giriş sayfasını oluşturduk ve giriş işlemleri üzerine konuştuk.
+
+### [Session Nedir?](WhatIsSession/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Session -oturum- kavaramı üzerine konuştuk.
+
+
