@@ -71,3 +71,4 @@
 - [Özel Middleware](CustomMiddleware/)
 - [Kullanıcı Rolleri](UserRoles/)
 - [Kurs Oluşturmak](CreateCourse/)
+- [Kurs - Öğretmen İlişkisi](CourseAndTeacher/)
