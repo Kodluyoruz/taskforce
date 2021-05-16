@@ -75,3 +75,5 @@
 - [Kurs - Öğrenci İlişkisi](CourseAndStudent/)
 - [Kurs - Öğrenci İlişkisi II](CourseAndStudentII/)
 - [Search Alanı](SearchArea/)
+- [İletişim Sayfası ve Mail Göndermek](SendEmail/)
+- [Bildirim Mesajları](FlashMessages/)
