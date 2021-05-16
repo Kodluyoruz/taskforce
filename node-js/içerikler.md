@@ -758,4 +758,11 @@ dosyası oluşturuldu.
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Nasıl ihtiyaçlarımıza göre özel ara yazılımları (Middleware) oluşturacağımız üzerine konuştuk.
 
+### [Kullanıcı Rolleri](UserRoles/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Kayıt olan kullanıcılar için nasıl farklı roller oluşturabileceğimiz üzerine konuştuk.
 
