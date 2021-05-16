@@ -65,3 +65,4 @@
 - [Kategori Oluşturmak ve Listelemek](CategoryListing/)
 - [Kayıt Sayfası ve Bcrypt Paketi](RegisterAndBcrypt/)
 - [Giriş Sayfası ve Giriş İşlemi](LoginPage/)
+- [Session Nedir?](WhatIsSession/)
