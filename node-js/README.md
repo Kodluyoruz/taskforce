@@ -66,3 +66,4 @@
 - [Kayıt Sayfası ve Bcrypt Paketi](RegisterAndBcrypt/)
 - [Giriş Sayfası ve Giriş İşlemi](LoginPage/)
 - [Session Nedir?](WhatIsSession/)
+- [Çıkış İşlemi](SmarteduLogout/)
