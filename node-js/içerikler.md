@@ -774,3 +774,10 @@ dosyası oluşturuldu.
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Öğretmen yetkisine sahip olan kullanıcının nasıl yeni bir kurs oluşturabileceği üzerine konuştuk.
 
+### [Kurs - Öğretmen İlişkisi](CourseAndTeacher/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Kurs ile onu oluşturan öğretmen kullanıcısının arasındaki ilişkiyi konuştuk.
