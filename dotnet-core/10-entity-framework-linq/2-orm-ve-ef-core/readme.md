@@ -1,4 +1,4 @@
-# ORM (Object Relational Mapping) ve Entity Framework Core
+# ORM (Object Relational Mapping) Nedir? ORM Araçları Nelerdir? Entity Framework Core'a Giriş
 
 ## ORM (Object Relational Mapping)
 İlişkisel veri tabanı ile uygulama içerisinde kullandığımız modelleri/nesneleri birbirine bağlama tekniğidir. Db objelerinin kod tarafında bir replikası bir yansıması var gibi düşünebilirsiniz. ORM bu mapleme tekniğinin adıdır. ORM'i uygulamak için kullandığımız yazılımlara da ORM Araçları diyoruz. ORM araçları ilişkisel veritabanları ve uygulama arasındaki köprüdür.
