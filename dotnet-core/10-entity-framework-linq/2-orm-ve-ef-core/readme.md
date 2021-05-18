@@ -22,13 +22,28 @@ ORM Araçlarının **Dezavantajları:**
 * Orm araçlarının oluşturduğu sql lere müdahale edemezsiniz. Kontrolü developer'dan alır.
 * Orm aracını öğrenmek için de zamana ihtiyacınız vardır.
 
-Biz proje içerisinde Entity Framework Core kullananacağız arkadaşlar.
+ORM modelleme yaklaşımları 3'e ayrılır: 
+* DB First Yaklaşım
+* Code First Yaklaşım
+* Model First Yaklaşım
 
+
+Tüm yaklaşımları incelemek için [tıklayınız](http://cagataykiziltan.net/tr/entity-framework-database-first-model-first-code-first-yaklasimlari/)
+
+**Okuma Önerisi:**  Code First Yaklaşı için [tıklayınız.](https://www.tutorialspoint.com/entity_framework/entity_code_first_approach.htm)
+
+**Okuma Önerisi:**  DB First Yaklaşı için [tıklayınız.](https://www.tutorialspoint.com/entity_framework/entity_database_first_approach.htm)
+
+**Okuma Önerisi:**  Model First Yaklaşı için [tıklayınız.](https://www.tutorialspoint.com/entity_framework/entity_model_first_approach.htm)
+
+Biz proje içerisinde Entity Framework Core'u Code First Yaklaşım ile kullananacağız arkadaşlar.
 
 ## Entity Framework Core
 Entity Framework Microsoft'un ORM aracı olarak sunduğu Data Access teknolojisidir. Entity Framework yıllar içerisinde olgunlaşarak EF 6.x versiyonuna ulaştıktan sonra yerini Entity Framework Core 'a bıraktı. Entity Framework Core ise cross platform ve open source bir teknoloji.  
 
 Entity Framework .Net Core uygulamalarda kullanılmak üzere tasarlandı. Ama .Net Framework 4.5+ versiyonuyla yazılmış uygulamalarda da kullanılabilir durumdadır.
+
+
 
 **İnceleme Önerisi:**  EntityFramework Core kütüphanesini incelemek için [tıklayınız.](https://github.com/dotnet/efcore)
 
@@ -37,3 +52,5 @@ Entity Framework Core'un kullanıldığı platform ve .Net versiyonları ile ilg
 ![EF Core](https://www.entityframeworktutorial.net/Images/efcore/ef-core.png)
 
 **Okuma Önerisi:** Entity Framework Core ile ilgili detaylı bilgi için [tıklayınız.]( https://docs.microsoft.com/ef/core)
+
+**Okuma Önerisi:** 

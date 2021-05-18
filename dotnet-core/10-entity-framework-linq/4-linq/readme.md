@@ -1,9 +1,9 @@
-# LINQ(Language-Integrated Query)
-LINQ .Net Framework 3.5 ve Visual Studio 2008 ile hayatımoza giren farklı data source yani verikaynaklarını sorgulamamıza yarayan bir dildir. LINQ Visual Basic ve C# ile birlikte kullanılabilir.
+# LINQ (Language Integrated Query)
+LINQ .Net Framework 3.5 ve Visual Studio 2008 ile hayatımıza giren farklı data source yani veri kaynaklarını sorgulamamıza yarayan bir dildir. LINQ Visual Basic ve C# ile birlikte kullanılabilir.
 
-Linq IQuerayable sınıflar ve IQuerayable'dan türeyen sınıflarla birlikte kullanılabilir. EF Core ile yarattığımız context in elemanları yani tabloların koddaki karşıklıkları DBSet tipindedir. DBSet de IQuerayable sınıfından türeyen bir sınıftır.  Dolayısıyla LINQ kullanılarak DBSet'ler üzerinde sorgulama yapılabilir. 
+Linq IQuerayable sınıflar ve IQuerayable'dan türeyen sınıflarla birlikte kullanılabilir. EF Core ile yarattığımız context'in elemanları yani tabloların koddaki karşıklıkları DBSet tipindedir. DBSet de IQuerayable sınıfından türeyen bir sınıftır. Dolayısıyla LINQ kullanılarak DBSet'ler üzerinde sorgulama yapılabilir. 
 
-Günlük hayatımızda Entity Framework Core ile birlikte LINQ'yu çok kullanıyoruz. VE her gün nerdeyse kullandığımız bazı temel Linq metotları vardır. 
+Günlük hayatımızda Entity Framework Core ile birlikte LINQ'yu çok kullanıyoruz. Ve her gün nerdeyse kullandığımız bazı temel Linq metotları vardır. 
 Başlıca önemli LINQ metotları şu şekilde: 
 
 - First()
