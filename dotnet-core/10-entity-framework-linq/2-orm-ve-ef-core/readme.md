@@ -30,11 +30,13 @@ ORM modelleme yaklaşımları 3'e ayrılır:
 
 Tüm yaklaşımları incelemek için [tıklayınız](http://cagataykiziltan.net/tr/entity-framework-database-first-model-first-code-first-yaklasimlari/)
 
-**Okuma Önerisi:**  Code First Yaklaşı için [tıklayınız.](https://www.tutorialspoint.com/entity_framework/entity_code_first_approach.htm)
+**Okuma Önerisi - 1:**  Code First Yaklaşı için [tıklayınız.](https://www.tutorialspoint.com/entity_framework/entity_code_first_approach.htm)
 
-**Okuma Önerisi:**  DB First Yaklaşı için [tıklayınız.](https://www.tutorialspoint.com/entity_framework/entity_database_first_approach.htm)
+**Okuma Önerisi - 2:**  DB First Yaklaşı için [tıklayınız.](https://www.tutorialspoint.com/entity_framework/entity_database_first_approach.htm)
 
-**Okuma Önerisi:**  Model First Yaklaşı için [tıklayınız.](https://www.tutorialspoint.com/entity_framework/entity_model_first_approach.htm)
+**Okuma Önerisi - 3:**  Model First Yaklaşı için [tıklayınız.](https://www.tutorialspoint.com/entity_framework/entity_model_first_approach.htm)
+
+**Okuma Önerisi - 4:** Modelleme yaklaşımlarının avantaj ve dezavantajları için [tıklayınız.](https://www.soltrabilisim.com.tr/entity-framework-code-first-avantajlar/)
 
 Biz proje içerisinde Entity Framework Core'u Code First Yaklaşım ile kullananacağız arkadaşlar.
 
