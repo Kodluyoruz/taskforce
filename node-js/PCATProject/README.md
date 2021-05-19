@@ -20,3 +20,6 @@ Kullanım sıklığı nedeniyle projemizde MongoDB veritabanı ve kullanımı ü
 - Pagination (Sayfalama)
 - Atlas MongoDB cloud
 - Heroku Deployment
+
+#### [Proje Başlangıç Dosyası](https://drive.google.com/file/d/1GxuCKjzE_W0EfOeZBUy_pEBm2rhyFxUC/view?usp=sharing)
+#### [Proje Template Kaynak](https://templatemo.com/tm-552-video-catalog)
