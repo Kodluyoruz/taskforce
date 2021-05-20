@@ -45,6 +45,7 @@ public class SchoolContext : DbContext
 ```
 
 Bu DBContext'e göre EF database üzerindeki aşağıdaki 2 tabloyu oluşturur. 
+
 ![EF Generates these tables](https://www.entityframeworktutorial.net/images/basics/dbtables-for-entities.png)
 
 Bir entity sınıfında 2 tip property yani özellik bulunabilir. Bunlar:
