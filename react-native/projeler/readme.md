@@ -1,4 +1,4 @@
-# React Native Mobile App Projeler
+# React Native Mobile App Patikası için Projeler
 
 Evet proje zamanı! Aşağıda bulunan projeler sayesinde React Native ile Mobile App Patikasını tamamladıktan sonra kendinizi daha fazla geliştirebilir ve portföyünüze ekleyebilirsiniz.
 
