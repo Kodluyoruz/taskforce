@@ -1,6 +1,7 @@
 # Dependency Injection
 
-- [Dependency Injection Kavramı](1-dependency-injection-kavrami/)
-- [Transient Kavramı](2-transient-kavrami/)
-- [Singleton Kavramı](3-singleton-kavrami/)
-- [Scope Kavramı](4-scope-kavrami/)
+- [Dependency Nedir ?](1-dependency-nedir/)
+- [Dependency Injection (DI) Kavramı](2-dependency-injection-kavrami/)
+- [DI Container Kavramı](3-di-container/)
+- [.NET Core DI Container (Services)](4-net-core-di-container/)
+- [Tightly Coupled - Loosely Coupled](5-tightly-loosely-coupled)
