@@ -4,7 +4,9 @@ Evet proje zamanı! Aşağıda bulunan projeler sayesinde Node.js ile Backend Pa
 
 #### Freelancer Proje ####
 
-Freelancer projesindeki genel amacımız, ilgili template dosyasını kullanarak kendi çalışmalarımıza ait proje görsellerini ve açıklamalarını yükleyebileceğimiz dinamik bir çalışma ortaya koymak. Projeni genel akışı için PCAT projesinden faydalanabilirsiniz.
+Freelancer projesindeki genel amacımız, ilgili template dosyasını kullanarak kendi çalışmalarımıza ait proje görsellerini ve açıklamalarını yükleyebileceğimiz dinamik bir çalışma ortaya koymak. 
+
+- Projeni genel akışı için PCAT projesinden faydalanabilirsiniz.
 
 - Proje de modal yapısı da olduğu için bu projeye başladığınızda ""PCAT"" ve ""SmartEdu"" projelerini tamamladığınızdam emin olunuz.
 
@@ -30,8 +32,7 @@ bulundurabilir ve HEROKU ortamına yükleyebilirsiniz."
 
 #### Agency Proje ####
 
-- " Agency projesindeki genel amacımız portföy alanını dinamik hale getirmek, projenin diğer bölümlerini ""ABOUT"",
-""TEAM"", ""SERVICES"" bölümlerini olduğu gibi bırakabilir veya ayrı sayfalar oluşturarak staik sayfa şeklinde tanımlayabilirsiniz.
+- Agency projesindeki genel amacımız portföy alanını dinamik hale getirmek, projenin diğer bölümlerini ""ABOUT"", ""TEAM"", ""SERVICES"" bölümlerini olduğu gibi bırakabilir veya ayrı sayfalar oluşturarak staik sayfa şeklinde tanımlayabilirsiniz.
 
 - Temel amacımız PCAT projemizde olduğu için orada fotoğraflar ile yaptığımız CRUD işlemlerini bu projemizde portfolio bölümünde yapmak.
 Proje de modal yapısı da olduğu için bu projeye başladığınızda ""PCAT"" ve ""SmartEdu"" projelerini tamamladığınızdam emin olunuz.
