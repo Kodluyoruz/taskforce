@@ -1,5 +1,5 @@
 # Middleware Kavramı
-Middleware yani ara katman client tarafından bir request gönderildiğinde request1 karşılık response dönene kadar geçen sürede yapılması gerekenişlemler için prosesiın arasına girmeyi sağlayan yapılardır. Requedt ve response arasına girip işlem yapmamıza olanak sağlamasının yanında, bu aralığa çoklu işlemler de dail edebiliriz. Bu işlemlerin hangi sırayla yapılacağını da belirleyebiliriz.
+Middleware yani ara katman client tarafından bir request gönderildiğinde request'e karşılık response dönene kadar geçen sürede yapılması gereken işlemler için process'in arasına girmeyi sağlayan yapılardır. Request ve response arasına girip işlem yapmamıza olanak sağlamasının yanında, bu aralığa çoklu işlemler de dahil edebiliriz. Bu işlemlerin hangi sırayla yapılacağını da belirleyebiliriz.
 
 ## .Net5'de Middleware Yapısı
 .Net5 içerisindeki middleware'ler Startup sınıfı içerisinden Configure metodu içinde saklanır. Middleware'lerin çalışacağı pipeline ı bu metot içerisinde belirleriz. 
@@ -22,6 +22,11 @@ Middleware yani ara katman client tarafından bir request gönderildiğinde requ
         app.UseRouting();
 
         app.UseAuthorization();
+
+        app.UseEndpoints(endpoints =>
+        {
+            endpoints.MapControllers();
+        });
     }
 
 Yukarıdaki örnekte app.Use ile başlayan ifadeler .Net'in kendi özel middleware leridir. Örneğin `app.UseHttpsRedirection();`bu middleware bir https yönlendirmesi yapar. 
@@ -32,8 +37,7 @@ Bazı metotlar pipeline içerisinde kısa devreye nedne olur. Yani kendisinden s
 
     public void Configure(IApplicationBuilder app, IHostingEnvironment env)
     {
-        app.Run(async 
-         => await Console.WriteLine("Middleware 1."));
+        app.Run(async context => Console.WriteLine("Middleware 1."));
         app.Run(async context => Console.WriteLine("Middleware 2."));
     }
 
@@ -42,11 +46,10 @@ Bazı metotlar pipeline içerisinde kısa devreye nedne olur. Yani kendisinden s
     Middleware 1. 
     Middleware 2.
 
-Ama bu pipelien çalıştığında sadece `Middleware 1.`Çünkü  Run() metodu pipeline ının kısa devre yapmasına neden oldu. 2. middleware çalışamadı.
+Ama bu pipelien çalıştığında sadece `Middleware 1.`Çünkü  Run() metodu pipeline'ın kısa devre yapmasına neden oldu. 2. middleware çalışamadı.
 
 ### Use Metodu
-Devreye girdikten sonra kendinden sonraki middleware i tetikleyebilir ve işi bittikten sonra kaldığı yerden devam edebilir bir yapı sunar. 
-
+Devreye girdikten sonra kendinden sonraki middleware'i tetikleyebilir ve işi bittikten sonra kaldığı yerden devam edilebilir bir yapı sunar. 
 
     public void Configure(IApplicationBuilder app, IHostingEnvironment env)
     {
@@ -71,10 +74,10 @@ Yukarıdaki kod bloğu çalıştığında çıktısı şu şekilde olur:
     Middleware 2 kısa devre yaptırıyor.
     Middleware 1 sonlandırılıyor.
 
-Görüldüğü üzere Middleware 1 çalıştı. İlk komutu yazdırdıktan sonra sonraki middleware çağırdı. Use metodu içerisindeki  `await next.Invoke();` bir sonraki middleware ı çapırdı. 2. Middleware'de komutunu yazdırdı. Ama `Run()` metodu ile çağırıldığı için bir kısa devreye neden oldu. Kendisinden sonra bir middleware çağrımı olsaydı çalışmayacaktı.  Pipeline sona erdiği için Middleware 1 kaldığı yerden devam etti ve komutunu ekrana yazdırıp sona erdi.
+Görüldüğü üzere Middleware 1 çalıştı. İlk komutu yazdırdıktan sonra sonraki middleware'i çağırdı. Use metodu içerisindeki  `await next.Invoke();` bir sonraki middleware çğıran komuttur. 2. Middleware'de komutunu yazdırdı. Ama `Run()` metodu ile çağırıldığı için bir kısa devreye neden oldu. Kendisinden sonra bir middleware çağrımı olsaydı çalışmayacaktı. Pipeline sona erdiği için Middleware 1 kaldığı yerden devam etti ve komutunu ekrana yazdırıp sona erdi.
 
 ### Map Metodu
-Middleware lerin path bazından çalışmasını istediğimiz durumlarda kullanırız. `Use()` yada `Run()` metodunu `if()`state ile yöneteerekte bunu yapabiliriz. Map metodu bize bunu kolayca yönetmemize olanak sağlıyor.
+Middleware lerin path bazından çalışmasını istediğimiz durumlarda kullanırız. `Use()` yada `Run()` metodunu `if()` statement ile yöneterekte bunu yapabiliriz. Ama Map metodu bize bunu kolayca yönetme olanağı sağlıyor.
 
 **Örnek:**
     public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -167,7 +170,7 @@ Son olarakta ekrana `Bye World!`yazması bekleniyor.
 
 Son olarak HelloMiddlewareExtension static sınıfı içerisindeki UseHelloWorld extension metodu içerisindeki UseMiddleware<HelloMiddleware>() metot çağrımı middleware ı ekler.
 
-Kesin bir kural olmamakla birlikte middleware ler standart olarak Use prefixi ile başlar. 
+Kesin bir kural olmamakla birlikte middleware ler standart olarak Use prefix'i ile başlar. 
 
 **Okuma Önerisi:** Middleware ile igili data detaylı bilgi sahibi olabilmek için [buraya](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-5.0) ve [buraya](https://www.gencayyildiz.com/blog/asp-net-core-2de-middleware-yapisi-ve-kullanimi/) tıklayınız.
 
