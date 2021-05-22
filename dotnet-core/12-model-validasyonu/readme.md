@@ -63,4 +63,8 @@ Peki eğer ben model validasyondan geçmezse hata fırlatmasını istersem ne ya
 
     validator.ValidateAndThrow(customer);
 
-Throw edilen bu ahata mesajlarını try catch blokları ile yakalayıp istediğimiz gibi yönetebiliriz. Istersek loga yazarız istersek son kullanıcıya hata mesajı olarak döneriz.
+Throw edilen bu ahata mesajlarını try catch blokları ile yakalayıp istediğimiz gibi yönetebiliriz. Istersek loga yazarız istersek son kullanıcıya hata mesajı olarak dönebiliriz.
+
+Fluent kütüphanesi ile yapılabilecek hazır validasyonların tamamını [burdan](https://docs.fluentvalidation.net/en/latest/built-in-validators.html) inceleyebilirsiniz.
+
+**Inceleme Önerisi:** Fluent Validation kütüphanesi ile yapabileceklerinizi incelemek için [tıklayınız.](https://docs.fluentvalidation.net/en/latest/installation.html)
