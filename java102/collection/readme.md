@@ -31,3 +31,5 @@ Collection interface’den türeyen alt sınıfların sağlamak zorunda olduğu 
 | boolean  removeAll(Collection<?> elements)       | Verilen  elemanlar kümesini mevcut veri kümesinden siler.    |
 
 Collection interface’den kalıtım alan alt sınıfları kendiniz de türetebilirsiniz.
+
+![](figures/collection-interface.png)

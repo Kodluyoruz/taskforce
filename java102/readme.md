@@ -18,12 +18,16 @@
 - [Abstraction (Soyutlama) İlkesi](abstraction/)
 - [Bölüm Sonu Projesi- Hayatta Kalma Oyunu](/)
 
-#### Interface, İç İçe Sınıflar (Nested ve Inner), Generic Yapılar ####
+#### Interface, Nested Sınıflar, Generic Yapılar ####
 
 - [Interface Kullanımı](interface/)
 - [Nested ve Inner Sınıflar](nested/)
+- [Wrapper Sınıflar](/)
+- [Autoboxing ve Unboxing](/)
 - [Generic Sınıflar](generics/)
-- [Generic Sınıf Yazmak](generics-class/)
+- [Generic Metotlar](/)
+- [Generic Interface](/)
+- [Generic Bounded Types](generics-bounded/)
 
 #### Exception Handling (Hata Yakalama) ####
 
@@ -36,13 +40,13 @@
 
 - [Collection Sınıfı Nedir?](collection/)
 - [Set Interface ve HashSet](collection-set-hashset/)
-- [LinkedHashSet](/)
+- [LinkedHashSet](collection-linkedlist/)
 - [TreeSet](collection-treeset/)
 - [ArrayList](collection-arraylist/)
 - [LinkedList Kullanımı ve ArrayList İle Arasındaki Farklar](collection-linkedlist/)
-- [Vector]()
-- [Queue LinkedList](/)
-- [PriorityQueue](/)
-- [Map Interface ve HashMap](collection-map/)
-- [LinkedHashMap ve TreeMap](/)
+- [Vector](collection-vector/)
+- [Queue LinkedList](collection-queue-linkedlist/)
+- [PriorityQueue](collection-priority/)
+- [Map Interface ve HashMap](map-hashmap/)
+- [LinkedHashMap ve TreeMap](map-linked-tree/)
 

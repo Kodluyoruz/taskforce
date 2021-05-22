@@ -93,7 +93,7 @@
     - Önceden yazılmış kodun kopyalanmasıdır.
     - Daha önce yazılmış bir kod parçasını tekrar kullanmaktır.
     - Programlama dilinde önceden tanımlanmış fonksiyonları kullanmaktır.
-    - Verileri ve fonksiyonları türetilmiş sınıfta kullanmaktır. (Doğru)
+    - Verileri ve fonksiyonları türetilmiş sınıflarda kullanmaktır. (Doğru)
 
 2. NYP'de kaç adet kalıtım türü vardır ?
     - 4 (Doğru)
