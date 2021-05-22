@@ -584,3 +584,280 @@ const StudentSchema = new Schema({
 - Bu ödevde; Clean Blog projejisinin aşağıdaki özelliklerini yapmaya çalışacağız.
 	- Uygulamamızı HEROKU ve MongoDB Atlas ücresiz servislerini kullanarak yükleyelim.
 	- Not: Uygulamamızda sayfalama ve görsel yükleme işlemlerini yapmadık. Sonraki projemizde de bu özellikleri kullanacağız.
+
+## SmartEdu Projesi 
+### [Smartedu Proje Tanıtımı](SmarteduProject/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizi ve projemizde üzerine çalışacağımız konulardan bahsettik.
+### [HTTP Durum Kodları](HTTPStatusCodes/)
+#### Sorular
+1. 201 HTTP yanıt durumu kodu ne ifade eder?
+	- İsteğin başarılı olduğunu ve bir kaynağın oluşturulduğu belirtilir. (Doğru)
+	- İsteğin sadece başarılı olduğunu belirtir.	
+	- İsteğe karşılık alınan yanıta erişim yetkisi olmadığını belirtir.	
+	- İstenen kaynağın sunucu tarafından bulunamadığını belirtir.	
+	- Sunucu hatası gösterir.	
+
+2. Nodemon uygulamasını sadece uygulama geiştirme amaçlı kullanmak (devDependency) için nasıl indirmemiz gerekir?
+		
+	- npm i nodemon	
+	- npm i --save nodemon
+	- npm i -D nodemon (Doğru)	
+	- npm nodemon	
+	- nodemon npm --save-dev	
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projesinin genel kurulumunu ve HTTP Status Codes konusuna genel bir giriş yaptık. 
+
+### [Linkleri Güncellemek](LinkUpdates/)
+#### Sorular
+1. SmartEdu projesinde "contact" sayfasının linkini aktif etmek için hangi kodu yazmamız gerekir?
+	- <%= page_name ==='contact' 'active' %>
+	- <%= page_name ==='contact' && 'active' %> (Doğru)	
+	- <% page_name ==='contact' && 'active' %>	
+	- <%= page_name ='contact' && 'active' %>		
+	- <%= page_name 'contact' && 'active' %>		
+	
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projemizin statik dosyalarını, template sayfalarını oluşturduk. Sonrasında her sayfaya ait olan linkleri nasıl
+aktif hale getireceğimizden bahsettik. 
+
+### [Routing - Yönlendirme](Routing/)
+#### Sorular
+```
+1. 
+app.get('/random', function (req, res) {
+  res.send('TEST')
+}) yönlendirmesi hangi istek ile eşleşir?
+```
+		
+- /index	
+- /test	
+- /app	
+- /random (Doğru)
+- /send		
+	
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projemizin yönlendirme routing klasörünü oluşturduk ve bu yönlendirme dosyalarına bağlı olarak ilgili controller
+dosyası oluşturuldu. 
+
+### [Kurs Modeli](CourseModel/)
+#### Sorular
+1. Oluşturulan herhangi bir modelde ilgili alanın zorunlu olduğunu belirtmek için hangi anahtar kelime kullanılır?
+		
+	- type	
+	- unique	
+	- must	
+	- trim	
+	- required (Doğru)
+
+2. Oluşturulan herhangi bir modelde ilgili alanın benzersiz olduğunu belirtmek için hangi anahtar kelime kullanılır?
+		
+	- required	
+	- unique (Doğru)	
+	- type	
+	- String	
+	- Number
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projemizin ilk modeli olan "Course" modelini oluşturduk.
+
+### [Postman ve API](PostmanAndAPI/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Postman uygulaması ve kullanım şekli üzerine konuştuk.
+
+### [Kursları Listelemek](CourseListing/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projemizdeki kurslar sayfasını oluşturduk ve veritabanında bulunan kurs dökümanını sayfa içerisinde yazdırdık.
+
+### [Tekil Kurs Sayfası ve Slugify](SingleCourseAndSlugify/)
+#### Sorular
+1. Oluşturulan herhangi bir modelde ilgili alanın zorunlu olduğunu belirtmek için hangi anahtar kelime kullanılır?		
+		
+	- req.body	
+	- req.query
+	- req.params (Doğru)
+	- req.id	
+	- req.slug
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projemizdeki her kursun kendisine özel tekil kurs sayfasını oluşturduk ve aynı zamanda slugify paketini kullandık.
+
+### [Kategori Oluşturmak ve Listelemek](CategoryListing/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projemizdeki kategori bölümünü oluşturduk ve kursları kategorilere göre listeledik.
+
+### [Kayıt Sayfası ve Bcrypt Paketi](RegisterAndBcrypt/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projemizdeki kayıt sayfasını oluşturduk ve Bcrypt paketi hakkında konuştuk.
+
+### [Giriş Sayfası ve Giriş İşlemi](LoginPage/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SmartEdu projemizdeki giriş sayfasını oluşturduk ve giriş işlemleri üzerine konuştuk.
+
+### [Session Nedir?](WhatIsSession/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Session -oturum- kavaramı üzerine konuştuk.
+
+### [Çıkış İşlemi](SmarteduLogout/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Session'ı -oturum- nasıl sonlandıracağımız konusu üzerine konuştuk.
+
+### [Kişiye Özel İçerik](PersonalizedContent/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Kişiye özel içerik sayfasını **dashboard** nasıl oluşturacağımız üzerine konuştuk.
+
+### [Özel Middleware](CustomMiddleware/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Nasıl ihtiyaçlarımıza göre özel ara yazılımları (Middleware) oluşturacağımız üzerine konuştuk.
+
+### [Kullanıcı Rolleri](UserRoles/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Kayıt olan kullanıcılar için nasıl farklı roller oluşturabileceğimiz üzerine konuştuk.
+
+### [Kurs Oluşturmak](CreateCourse/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Öğretmen yetkisine sahip olan kullanıcının nasıl yeni bir kurs oluşturabileceği üzerine konuştuk.
+
+### [Kurs - Öğretmen İlişkisi](CourseAndTeacher/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Kurs ile onu oluşturan öğretmen kullanıcısının arasındaki ilişkiyi konuştuk.
+
+### [Kurs - Öğrenci İlişkisi](CourseAndStudent/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Kurs ile onu oluşturan öğrenci kullanıcısının arasındaki ilişkiyi konuştuk. Öğrenci kullanıcısının derse nasıl kaydedileceğini inceledik.
+
+### [Kurs - Öğrenci İlişkisi II](CourseAndStudentII/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Kurs ile onu oluşturan öğrenci kullanıcısının arasındaki ilişkiyi konuşmaya devam ettik.
+
+### [Arama - Search Alanı](SearchArea/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizdeki arama alanını oluşturduk.
+
+### [İletişim Sayfası ve Mail Göndermek](SendEmail/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizdeki iletişim sayfasını oluşturduk ve nodemailer eklentisi yardımıyla mail gönderme işlemini yaptık.
+
+### [Bildirim Mesajları](FlashMessages/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizdeki bildirim mesajları üzerine konuştuk.
+
+### [Kayıt ve Kullanıcı Doğrulama](Validation/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizdeki kayıt ve giriş sayfalarındaki kullanıcı doğrulama işlemleri üzerine konuştuk.
+
+### [Kurs Silmek](DeleteCourse/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizdeki kursları nasıl sileceğimiz üzerine konuştuk.
+
+### [Kurs Güncellemek](UpdateCourse/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizdeki kursları nasıl güncelleyeceğimiz üzerine konuştuk.
+
+### [Admin Alanı ve Kullanıcı Silmek](AdminArea/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizde admin alanını nasıl oluşturacağımızı ve kullanıcıları nasıl sileceğimiz üzerine konuştuk.
+
+### [Smartedu Deployment](SmarteduDeployment/)
+#### Sorular
+1. Yok
+	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Smartedu projemizi Heroku ortamına nasıl yükleyeceğimiz üzerine konuştuk.
