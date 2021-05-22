@@ -4,17 +4,16 @@ Evet proje zamanı! Aşağıda bulunan projeler sayesinde Node.js ile Backend Pa
 
 #### Freelancer Proje ####
 
-"Freelancer projesindeki genel amacımız, ilgili template dosyasını kullanarak kendi çalışmalarımıza ait
-proje görsellerini ve açıklamalarını yükleyebileceğimiz dinamik bir çalışma ortaya koymak. Projeni genel akışı
-İçin PCAT projesinden faydalanabilirsiniz.
+Freelancer projesindeki genel amacımız, ilgili template dosyasını kullanarak kendi çalışmalarımıza ait proje görsellerini ve açıklamalarını yükleyebileceğimiz dinamik bir çalışma ortaya koymak. Projeni genel akışı
+için PCAT projesinden faydalanabilirsiniz.
 
 - Proje de modal yapısı da olduğu için bu projeye başladığınızda ""PCAT"" ve ""SmartEdu"" projelerini tamamladığınızdam emin olunuz.
 
-- Öncelikle ilgili linkten kullanacağımız template dosyasını indireceğiz. Genel olarak PCAT projemizde yaptığımız 
-proje basamaklarını takip ederek bu sabit teplate dosyamızı dinamik hale getireceğiz. 
+- Öncelikle ilgili linkten kullanacağımız template dosyasını indireceğiz. Genel olarak PCAT projemizde yaptığımız proje basamaklarını takip ederek bu sabit teplate dosyamızı dinamik hale getireceğiz. 
 
 - Template dosyamızdaki portoflio alanında bulunan içerikler için yeni bir ""ADD"" sayfası oluştursbilirsiniz veya modal yapısından devam edebilirsiniz.
-Add sayfasını oluştururken projemizde bulunan ""Contact"" alanından faydalanabiliriz.
+
+- Add sayfasını oluştururken projemizde bulunan ""Contact"" alanından faydalanabiliriz.
 
 - Formu aktif hale getirmek için ""SmartEdu"" projesindeki formdan mesaj gönderim işlemlerini takip edebilirsiniz.
 
