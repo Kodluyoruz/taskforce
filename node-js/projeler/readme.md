@@ -42,8 +42,7 @@ Agency projesindeki genel amacımız portföy alanını dinamik hale getirmek, p
 
 - PCAT projemizde yaptığımız gibi ""EDIT"" sayfasını da yine ""ADD"" sayfasından oluşturabilirsiniz.
 
-- Proje tamamlandıktan sonra PCAT ve SmartEdu projelerinde olduğu gibi, içerikleri kendi GitHUB hesaplarınızda 
-bulundurabilir ve HEROKU ortamına yükleyebilirsiniz.
+- Proje tamamlandıktan sonra PCAT ve SmartEdu projelerinde olduğu gibi, içerikleri kendi GitHUB hesaplarınızda bulundurabilir ve HEROKU ortamına yükleyebilirsiniz.
 
 
 **Gerekli linkler:**
