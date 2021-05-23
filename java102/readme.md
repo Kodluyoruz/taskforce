@@ -12,7 +12,6 @@
 - [Encapsulation (Sarmalama) İlkesi](encapsulation/)
 - [Sınıflar Arası İlişkiler](sinif-iliskiler/)
 - [Kalıtım (Inheritance) İlkesi](inheritance/)
-- [Kalıtım'da Constructor Zinciri ve Super Anahtar Sözcüğü](inheritance-super/)
 - [Method Overriding (Metod Ezme)](method-overriding)
 - [Polymorphism (Çok Biçimlilik) İlkesi](polimorphism/)
 - [Abstraction (Soyutlama) İlkesi](abstraction/)
@@ -48,5 +47,5 @@
 - [Queue LinkedList](collection-queue-linkedlist/)
 - [PriorityQueue](collection-priority/)
 - [Map Interface ve HashMap](map-hashmap/)
-- [LinkedHashMap ve TreeMap](map-linked-tree/)
+- [LinkedHashMap ve TreeMap](map-linked-tree)
 
