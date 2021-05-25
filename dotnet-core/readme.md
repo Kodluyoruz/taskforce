@@ -65,17 +65,17 @@
 
 ### [Ödev 2](13-odev-2/)
 
-### [Dependency Injection](14-dependency-injection/)
+### [Middleware Kavramı](14-middleware-kavrami/)
 
-- [Dependency Injection Kavramı](14-dependency-injection/1-dependency-injection-kavrami/)
-- [Transient Kavramı](14-dependency-injection/2-transient-kavrami/)
-- [Singleton Kavramı](14-dependency-injection/3-singleton-kavrami/)
-- [Scope Kavramı](14-dependency-injection/4-scope-kavrami/)
+- [Middleware Kavramı](14-middleware-kavrami/1-middleware-nedir/)
+- [Örnek olarak Exception Middleware yaratılması](14-middleware-kavrami/2-projeye-mw-eklenmesi/)
 
-### [Middleware Kavramı](15-middleware-kavrami/)
+### [Dependency Injection](15-dependency-injection/)
 
-- [Middleware Kavramı](15-middleware-kavrami/1-middleware-nedir/)
-- [Örnek olarak Exception Middleware yaratılması](15-middleware-kavrami/2-projeye-mw-eklenmesi/)
+- [Dependency Nedir ?](15-dependency-injection/1-dependency-nedir/)
+- [Dependency Injection (DI) Kavramı](15-dependency-injection/2-dependency-injection-kavrami/)
+- [DI Container Kavramı](15-dependency-injection/3-di-container/)
+- [.NET Core DI Container (Services)](15-dependency-injection/4-net-core-di-container/)
 
 ### [TDD (Test Driven Development)](16-tdd-nedir/)
 

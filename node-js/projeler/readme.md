@@ -50,41 +50,38 @@ Agency projesindeki genel amacımız portföy alanını dinamik hale getirmek, p
 
 #### Misfit Proje ####
 
-- Misfit projesindeki temel amacımız ""SmartEdu projemizde olduğu gibi fonksiyonel ve çok sayfalı bir çalışma ortaya koymak.
-Öncelikle Home, About, Trainer, Gallery, Contact sayfalarını oluşturacağız, diğer sayfaları silebilirsiniz.
+Misfit projesindeki temel amacımız ""SmartEdu projemizde olduğu gibi fonksiyonel ve çok sayfalı bir çalışma ortaya koymak.
+
+- Öncelikle Home, About, Trainer, Gallery, Contact sayfalarını oluşturacağız, diğer sayfaları silebilirsiniz.
 
 - Proje basamaklarını takip ederken ""SmartEdu"" projesindeki gibi ilerleye bilirsiniz.  
 
 - Hazır admin alanı, login, register sayfaları bulunmadığından ""SmarEdu"" projesinde olduğu gibi basit olarak kendimiz oluşturacağız.
 
-- Giriş ve kayıt sayfasında kullanıcı kontrollerine dikkat edelim. Oluşturmamız gereken en önemli ilişkiler
-her eğitmenin kendisine ait olan antrenmanlar olması gerekiyor, yeni antrenman oluşturması, düzenlemesi silmesi gibi.
+- Giriş ve kayıt sayfasında kullanıcı kontrollerine dikkat edelim. Oluşturmamız gereken en önemli ilişkiler her eğitmenin kendisine ait olan antrenmanlar olması gerekiyor, yeni antrenman oluşturması, düzenlemesi silmesi gibi.
 
-- Eğitmenlerin kendilerine özel sayfaları olabilir. Kullanıcıları farklı rollerle oluşturalım. İletişim sayfasından
-mesaj gönderme işlemini yapalım. Eğitmenlerin verdikleri üyelerin aldıkları antrenmanları sıralayabilirsiniz.
+- Eğitmenlerin kendilerine özel sayfaları olabilir. Kullanıcıları farklı rollerle oluşturalım. İletişim sayfasından mesaj gönderme işlemini yapalım. Eğitmenlerin verdikleri üyelerin aldıkları antrenmanları sıralayabilirsiniz.
 
-- Proje tamamlandıktan sonra PCAT ve SmartEdu projelerinde olduğu gibi, içerikleri kendi GitHUB hesaplarınızda 
-bulundurabilir ve HEROKU ortamına yükleyebilirsiniz.
+- Proje tamamlandıktan sonra PCAT ve SmartEdu projelerinde olduğu gibi, içerikleri kendi GitHUB hesaplarınızda bulundurabilir ve HEROKU ortamına yükleyebilirsiniz.
 
 **Gerekli linkler:**
  * https://html.design/download/misfit-fitness-html-template/
 
 #### Fixtures Proje ####
 
-- Fixtures projesindeki temel amacımız ""SmartEdu projemizde olduğu gibi fonksiyonel ve çok sayfalı bir çalışma ortaya koymak.
-Öncelikle Home, About, Furnitures, Contact sayfalarını oluşturacağız, diğer sayfaları silebilirsiniz.
+Fixtures projesindeki temel amacımız ""SmartEdu projemizde olduğu gibi fonksiyonel ve çok sayfalı bir çalışma ortaya koymak.
+
+- Öncelikle Home, About, Furnitures, Contact sayfalarını oluşturacağız, diğer sayfaları silebilirsiniz.
 
 - Proje basamaklarını takip ederken ""SmartEdu"" projesindeki gibi ilerleye bilirsiniz. 
 
 - Hazır admin alanı, login, register sayfaları bulunmadığından ""SmarEdu"" projesinde olduğu gibi basit olarak kendimiz oluşturacağız.
 
-- Giriş ve kayıt sayfasında kullanıcı kontrollerine dikkat edelim. Mobilyaları kategorilere göre sıralayalım. Ayrıca mobilyaları ekleyebileceğimiz
-bir admin alanı oluşturarım. Müşteriler sadece görebilsin, üyeler ""reserve"" edebilsin admin ise CRUD işlemleri yapabilsin.
+- Giriş ve kayıt sayfasında kullanıcı kontrollerine dikkat edelim. Mobilyaları kategorilere göre sıralayalım. Ayrıca mobilyaları ekleyebileceğimiz bir admin alanı oluşturarım. Müşteriler sadece görebilsin, üyeler ""reserve"" edebilsin admin ise CRUD işlemleri yapabilsin.
 
 - Ayrıca görünüme çok takılmadan bir search alanı oluşturabiliriz.
 
-- Proje tamamlandıktan sonra PCAT ve SmartEdu projelerinde olduğu gibi, içerikleri kendi GitHUB hesaplarınızda 
-bulundurabilir ve HEROKU ortamına yükleyebilirsiniz.
+- Proje tamamlandıktan sonra PCAT ve SmartEdu projelerinde olduğu gibi, içerikleri kendi GitHUB hesaplarınızda bulundurabilir ve HEROKU ortamına yükleyebilirsiniz.
 
 **Gerekli linkler:**
  * https://html.design/download/fixtures-furniture-html-template/
