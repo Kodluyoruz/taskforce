@@ -24,11 +24,27 @@ Unit testleri yazmak ve çalıştırmak için unit test frameworkleri/araçları
 
 Unit testleri yazarken bağımlılıkları izole etme işlemini, bağımlı olunan nesneyi taklit ederek yaparız. Böylece test ettiğimiz birim bağımlı olduğu nesnenin taklidi ile iletişime geçer ve kendi işlemini yapabilir. Örneğin, veritabanına bir kayıt atma işlemi yapılan bağımlı nesnenin taklidini oluşturduğumuzda veritabanına kayıt at**mış gibi** yaparak, unit test içerisinde test edilen asıl birimi izole etmiş oluruz. Taklit etme işlemini iki farklı şekilde yapabiliriz. İlk yöntem, bağımlı olunan nesnenin test amaçlı olarak taklidinin oluşturulmasıdır. Bu yöntemde taklit nesne için de kod yazmamız ve düzenlememiz gerekir. Basit bağımlılıklar ve taklitler için bu yöntem tercih edilebilir. Bir diğer yöntem ise daha kolay ve esnek taklit nesneler yaratabilmemizi sağlayan **mocking framework** kullanmaktır. Bu yöntemde framework aracılığı ile bağımlı olunan nesnenin taklidinin nasıl davranması gerektiğini belirterek istediğimiz şekilde taklit bir nesne yaratıp kullanabiliriz. .Net içerisinde en sık kullanılan mocking framework Moq'dur. Moq haricinde NSubstitute, FakeItEasy gibi alternatifler de mevcuttur. 
 
-//TODO : Interface - Mocking önemi
+İzole etme işlemi sırasında bağımlı olunan nesneleri taklit edebilmek için, gerçek davranışı sergileyen nesnelerin davranışlarını değiştirmemiz gerekir. Bunu yapabilmenin en kolay yolu, bağımlı olunan nesnelerin bir interface aracılığı ile alınmış olmasıdır. Bu sayede ilgili interface'i implemente eden taklit nesneleri testin ihtiyacına özel olarak oluşturmak ve farklı davranışları sergilemesini sağlamak çok kolay olur. Böylece testin ihtiyacına göre gerçek nesnenin davranışını değiştirmiş oluruz. Test haricinde uygulamamız çalıştığı durumda ise bu interfacein gerçek davranışlarını implemente eden asıl nesne DI container üzerinden alınmış olur.
 
-//TODO : AAA patterni ve naming
+Her bir unit test çoğunlukla, Arrange (Hazırlık) - Act (Çalıştır) - Assert (Doğrulama) kısaca AAA şablonu ile 3 aşamadan oluşur. Bu 3 aşamanın anlamları kısaca aşağıdaki gibidir.
 
-//TODO : Unit Test - TDD temel bileşenidir
+- Arrange (Hazırlık) : Bu aşamada test edilecek birimin çalışabilmesi için gerekli hazırlıklar yapılır. İhtiyaç duyulan parametreler, bağımlılıklar için taklitler oluşturulur. Test edilecek birimin hazırlık aşamasına ihtiyacı yok ise bu adım atlanılabilir.
+- Act (Çalıştır) : Bu aşamada test edilen birim çalıştırılır. Test edilen birimi bir method olarak düşünürsek bu adımda method çağrımı yapılır. Methodun ihtiyaç duyduğu parametreler, methodu barındıran sınıfın bağımlılıkları Arrange adımında hazırlanmış olmalıdır. Bu adımda yalnızca çalıştırma işlemi yapılır ve eğer var ise geri dönüş nesnesi bir değişkene atanır.
+- Assert (Doğrula) : Bu aşamada test edilen birimin davranışı doğrulanır. Doğrulama işlemi büyük çoğunlukla geri dönüş nesnesinin doğrulanması ile yapılır. Eğer hata(exception) durumlarını test ediyosak bu aşamada beklenen tipte bir exception fırlatıldığının da doğrulaması yapılır. Gerekli durumlarda bağımlılıklar için oluşturulmuş sahte nesneler ile olan iletişim de bu adımda doğrulanabilir.
+
+
+Daha önce bir unit testin içerisinde tek bir koşul test edilmesi gerektiğini belirtmiştik. Başarısız olan testlerin hangi koşul için başarısız olduğunu anlamamız ve hızlı bir şekilde problemi tespit edebilmemiz için testlerin isimlendirmesi çok önemlidir. Unit test ismi test edilen koşul, test edilen birim ve beklenen sonucu açıkça anlatmalıdır. Bu açıklık sebebi ile test isimleri uzun olabilirler. İsimlendirmede en önemli unsur test amacının net bir şekilde anlaşılmasıdır. Genel olarak bir unit test isimlendirmesi için aşağıdaki 3 bilgi kullanılır. Bu bilgiler yazılım ekiplerinin tercihlerine farklı şablonlarda standart olarak kullanırlar.
+
+- Koşul : Burda koşul adı genellikle When ön eki ile başlar. Test ettiğimiz birimin hangi koşulda çalışacağını belirtir.
+- TestEdilenBirim : Test ettiğimiz birimin adıdır. Eğer unit testleri barındıran sınıf yalnızca tek bir birime ait testleri barındırıyor ise test edilen birim adı unit testler yerine sınıfın adında kullanılır.
+- BeklenenSonuç :  Beklenen sonuca göre Returns, Should ön ekleri başlayabilir yada Throws..Exception şeklinde olabilir. Doğrulamasını yaptığımız ve beklediğimiz sonucu belirtir.
+
+Örnekler : (şablonlar ekibe göre değişiklik gösterebilir)
+- WhenCustomerStateIsValid_Validator_ReturnsValidResult
+- WhenPermissionNotGranted_Indexer_ThrowsUnauthorisedException
+- Validator_WhenCustomerStateIsValid_ReturnsValidResult
+- Indexer_WhenPermissionNotGranted_ThrowsUnauthorisedException
+
 
 * **2 - Integration (Uyuşma) Testleri**
 
