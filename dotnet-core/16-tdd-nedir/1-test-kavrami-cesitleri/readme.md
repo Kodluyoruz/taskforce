@@ -65,7 +65,7 @@ Integration testlerinde izolasyon olabildiğince minimum seviyede tutulmalı, m�
 
 Örneğin; veritabanı ile iletişime geçerek kayıt güncelleme yapılan bir işlem için, mümkünse testlere özgü bir veritabanı kullanılarak veritabanı bağlantısının başarılı kurulabildiği ve ilgili kaydın güncellendiğinin doğrulanması gerekir. Eğer test için özel bir veritabanı kullanılamıyorsa, testler sırasında geçici olarak kullanılmak üzere in-memory bir veritabanı kurgulanması gerekir. Böylece bağlantı ve güncelleme işlemlerinin doğruluğu yapılabilir.
 
-Integration testleri farklı birimlerle iletişime geçildiği için unit testlere nazaran daha yavaş çalışırlar ve karmaşıktırlar.
+Integration testleri farklı birimlerle iletişime geçildiği ve minimum izolasyona sahip olduğu için unit testlere nazaran daha yavaş çalışırlar ve karmaşıktırlar.
 
 Integration testlerin yazılması ve çalıştırılması için kullanılan araç/frameworkler genellikle unit testler ile aynı araçlardır. Integration testlere özgü ayrı bir araç/framework kullanılmasına genellikle ihtiyaç olmamaktadır.
 
@@ -73,10 +73,14 @@ Integration testlerde de unit testler için uygulanan isimlendirme prensipleri v
 
 * **3 - Functional (Fonksiyonel) Testler**
 
-//TODO : Başlıklar
-- Uygulama özelliklerinin doğruluğu, izolasyon yok
-- Müşteri bakış açısı ile yazılır
-- Hız : yavaş
-- Uygulama içindeki parçaların neler olduğunu ve nasıl çalıştıklarını bilmez (girdiye doğru beklenen çıktı üretiliyor mu ?)
-- UI var ise UI testi (buton click, form submit, hata mesajları, ekran geçişleri vs.), API'ler için api response doğruluğu
-- UI var ise araçlar farklılaşabilir
+Functional yani fonksiyonel testler uygulamanın sunduğu özelliklerin doğru çalıştığını doğrulamak için yazılır. Bu testlerde uygulama parçalarının nasıl çalıştığı, ne iş yaptıkları birbirleri ile nasıl iletişime geçtikleri bilinmez. Uygulamanın verilen girdiye beklenen çıktıyı ürettiği doğrulanır. Test edilen unsur uygulamanın sunduğu özellikler yani ürün olduğu için functional testler **ürün sahipleri ve teknik ekip ile birlikte, müşteri bakış açısından** yazılır.
+
+Functional testler ürün odaklı olduğu için yazılacak test içerikleri uygulama tipine göre değişecektir. Örneğin bir kullanıcı arayüzüne sahip uygulama için UI etkileşimi odaklı testler (buton click, form submit, hata mesajları, ekran geçişleri vb.) yazılırken, bir web api uygulaması için api response'un doğruluğu odaklı testler yazılır.
+
+Testler uygulama özelliklerini doğruladığı için bu testlerde de izolasyon olmamalıdır. İhtiyaca göre geçici veritabanı vb. kullanılabilir.
+
+Functional testler uygulama özelliklerini doğruladığı için ve minimum izolasyona sahip olduğu için unit ve integration testlere nazaran daha yavaş çalışırlar. Karmaşıklık seviyesi diğer test çeşitlerine oranla daha yüksektir.
+
+Functional testlerin yazılması ve çalıştırılması için, unit ve integration testler için kullanılan araçlara ek olarak farklı araç/frameworkler kullanılması gerekir. Kullanılacak ek araçlar uygulamanın tipine göre değişiklik gösterebilir. UI sahibi bir uygulama için UI test araçları kullanılırken, webapi için yalnızca TestServer/Host araçlarının kullanılması gerekebilir.
+
+Functional testlerin isimlendirilmesi ve yazma şablonu da, unit ve integration testler ile benzerdir. İsimlendirme olarak Given.._When.._Then kalıbı sıkça kullanılan bir şablondur. Temel olarak önkoşullar, çalışma koşulu ve beklenen sonuç isimde belirtilir. Diğer testlerden farklı olarak functional testler aslında uygulamanın tümünü doğruladığı için test edilen birim isimlendirmede kullanılmaz. Uygulamanın daha küçük modülleri isimlendirmeye dahil edilebilir.
