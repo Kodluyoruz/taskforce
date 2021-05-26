@@ -26,11 +26,11 @@ Unit testleri yazarken bağımlılıkları izole etme işlemini, bağımlı olun
 
 İzole etme işlemi sırasında bağımlı olunan nesneleri taklit edebilmek için, gerçek davranışı sergileyen nesnelerin davranışlarını değiştirmemiz gerekir. Bunu yapabilmenin en kolay yolu, bağımlı olunan nesnelerin bir interface aracılığı ile alınmış olmasıdır. Bu sayede ilgili interface'i implemente eden taklit nesneleri testin ihtiyacına özel olarak oluşturmak ve farklı davranışları sergilemesini sağlamak çok kolay olur. Böylece testin ihtiyacına göre gerçek nesnenin davranışını değiştirmiş oluruz. Test haricinde uygulamamız çalıştığı durumda ise bu interfacein gerçek davranışlarını implemente eden asıl nesne DI container üzerinden alınmış olur.
 
-Her bir unit test çoğunlukla, Arrange (Hazırlık) - Act (Çalıştır) - Assert (Doğrulama) kısaca AAA şablonu ile 3 aşamadan oluşur. Bu 3 aşamanın anlamları kısaca aşağıdaki gibidir.
+Her bir unit test çoğunlukla, Arrange (Hazırlama) - Act (Çalıştırma) - Assert (Doğrulama) kısaca AAA şablonu ile 3 aşamadan oluşur. Bu 3 aşamanın anlamları kısaca aşağıdaki gibidir.
 
-- Arrange (Hazırlık) : Bu aşamada test edilecek birimin çalışabilmesi için gerekli hazırlıklar yapılır. İhtiyaç duyulan parametreler, bağımlılıklar için taklitler oluşturulur. Test edilecek birimin hazırlık aşamasına ihtiyacı yok ise bu adım atlanılabilir.
-- Act (Çalıştır) : Bu aşamada test edilen birim çalıştırılır. Test edilen birimi bir method olarak düşünürsek bu adımda method çağrımı yapılır. Methodun ihtiyaç duyduğu parametreler, methodu barındıran sınıfın bağımlılıkları Arrange adımında hazırlanmış olmalıdır. Bu adımda yalnızca çalıştırma işlemi yapılır ve eğer var ise geri dönüş nesnesi bir değişkene atanır.
-- Assert (Doğrula) : Bu aşamada test edilen birimin davranışı doğrulanır. Doğrulama işlemi büyük çoğunlukla geri dönüş nesnesinin doğrulanması ile yapılır. Eğer hata(exception) durumlarını test ediyosak bu aşamada beklenen tipte bir exception fırlatıldığının da doğrulaması yapılır. Gerekli durumlarda bağımlılıklar için oluşturulmuş sahte nesneler ile olan iletişim de bu adımda doğrulanabilir.
+- Arrange (Hazırlama) : Bu aşamada test edilecek birimin çalışabilmesi için gerekli hazırlıklar yapılır. İhtiyaç duyulan parametreler, bağımlılıklar için taklitler oluşturulur. Test edilecek birimin hazırlık aşamasına ihtiyacı yok ise bu adım atlanılabilir.
+- Act (Çalıştırma) : Bu aşamada test edilen birim çalıştırılır. Test edilen birimi bir method olarak düşünürsek bu adımda method çağrımı yapılır. Methodun ihtiyaç duyduğu parametreler, methodu barındıran sınıfın bağımlılıkları Arrange adımında hazırlanmış olmalıdır. Bu adımda yalnızca çalıştırma işlemi yapılır ve eğer var ise geri dönüş nesnesi bir değişkene atanır.
+- Assert (Doğrulama) : Bu aşamada test edilen birimin davranışı doğrulanır. Doğrulama işlemi büyük çoğunlukla geri dönüş nesnesinin doğrulanması ile yapılır. Eğer hata(exception) durumlarını test ediyosak bu aşamada beklenen tipte bir exception fırlatıldığının da doğrulaması yapılır. Gerekli durumlarda bağımlılıklar için oluşturulmuş sahte nesneler ile olan iletişim de bu adımda doğrulanabilir.
 
 
 Daha önce bir unit testin içerisinde tek bir koşul test edilmesi gerektiğini belirtmiştik. Başarısız olan testlerin hangi koşul için başarısız olduğunu anlamamız ve hızlı bir şekilde problemi tespit edebilmemiz için testlerin isimlendirmesi çok önemlidir. Unit test ismi test edilen koşul, test edilen birim ve beklenen sonucu açıkça anlatmalıdır. Bu açıklık sebebi ile test isimleri uzun olabilirler. İsimlendirmede en önemli unsur test amacının net bir şekilde anlaşılmasıdır. Genel olarak bir unit test isimlendirmesi için aşağıdaki 3 bilgi kullanılır. Bu bilgiler yazılım ekiplerinin tercihlerine farklı şablonlarda standart olarak kullanırlar.
@@ -45,15 +45,31 @@ Daha önce bir unit testin içerisinde tek bir koşul test edilmesi gerektiğini
 - Validator_WhenCustomerStateIsValid_ReturnsValidResult
 - Indexer_WhenPermissionNotGranted_ThrowsUnauthorisedException
 
+Temel olarak bir unit test aşağıdaki şekilde bir şablona sahip olacaktır.
+````
+public void {Koşul}_{TestEdilenBirim}_{BeklenenSonuç}()
+{
+    //arrange (hazırlama)
+
+    //act (çalıştırma)
+
+    //assert (doğrulama)
+}
+````
 
 * **2 - Integration (Uyuşma) Testleri**
 
-//TODO : Başlıklar
-- Parçaların birlikte çalıştığının doğruluğu (iç birimler + dış birimler (veritabanı, file, dış api vs)), izolasyon yok
-- Temelde teknik bakış açısı ile yazılır, ürün sahibi bakışı da gerekebilir
-- Hız : yavaş
-- Unit teste göre daha komleks
-- Genelde Unit test için kullanılan araç/frameworkler burda da kullanılır.
+Integration yani uyuşma testleri, uygulama içindeki birimlerin birlikte istenen şekilde çalıştığının yani birbirleri ile uyuştuklarının doğrulaması için yazılır. Test edilen unsur uygulamanın kullandığı tüm birimler olduğu için integration testler daha çok **teknik ekip (developer, architect, vb.) tarafından, teknik bakış açısı** ile yazılır. Uygulama içeriğine göre ürün sahiplerinin bakış açılarının da değerlendirilmesi gerekebilir.
+
+Integration testlerinde izolasyon olabildiğince minimum seviyede tutulmalı, mümkünse hiç izolasyon yapılmamalıdır. Sahte nesne kullanımının minimum seviyede olması, gerçek parçaların doğru çalıştığının doğrulanabilmesi için büyük önem taşımaktadır. Integration testleri uygulama içerisinde yazılmış iç birimlerin (sınıflar vb.) birlikte çalıştığının doğrulanması haricinde varsa uygulama dışı birimler (veritabanı, dosya sistemi, dış api vb.) ile de birlikte çalışırlığı doğrulamalıdır. Dış birimler için gerekli durumlarda izolasyon sağlanabilir fakat olabildiğince minimum seviyede olmalıdır. 
+
+Örneğin; veritabanı ile iletişime geçerek kayıt güncelleme yapılan bir işlem için, mümkünse testlere özgü bir veritabanı kullanılarak veritabanı bağlantısının başarılı kurulabildiği ve ilgili kaydın güncellendiğinin doğrulanması gerekir. Eğer test için özel bir veritabanı kullanılamıyorsa, testler sırasında geçici olarak kullanılmak üzere in-memory bir veritabanı kurgulanması gerekir. Böylece bağlantı ve güncelleme işlemlerinin doğruluğu yapılabilir.
+
+Integration testleri farklı birimlerle iletişime geçildiği için unit testlere nazaran daha yavaş çalışırlar ve karmaşıktırlar.
+
+Integration testlerin yazılması ve çalıştırılması için kullanılan araç/frameworkler genellikle unit testler ile aynı araçlardır. Integration testlere özgü ayrı bir araç/framework kullanılmasına genellikle ihtiyaç olmamaktadır.
+
+Integration testlerde de unit testler için uygulanan isimlendirme prensipleri ve AAA şablonu uygulanır.
 
 * **3 - Functional (Fonksiyonel) Testler**
 
