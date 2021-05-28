@@ -1,4 +1,6 @@
-# Bu projede bir kripto para birimi finansmanı fiyat takip uygulaması yapacağız. Para birimlerini arayabileceğiz ve görüntüleyeceğiz. 
+# Kripto Para
+
+Bu projede bir kripto para birimi finansmanı fiyat takip uygulaması yapacağız. Para birimlerini arayabileceğiz ve görüntüleyeceğiz. 
 
 - Tüm verileri genel bir API’dan alacağız. Burayı kullanabilirsiniz.
 - Sayfa ilk açıldığında varsayılan olarak Search componenti ve para birimlerinin güncel hali bizi karşılamalıdır.
