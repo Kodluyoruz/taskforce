@@ -103,7 +103,7 @@
 
 3. Hangi programlama dili çoklu mirası (Multiple Inheritance) desteklemez?
     - C++ ve Java
-    - Cve C++
+    - C ve C++
     - Java ve Python
     - Java (Doğru)
 
