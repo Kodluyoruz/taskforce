@@ -7,6 +7,6 @@
 - [E-commerce (Clothes)](e-commerce)
 
 
-### 2'nci Seviye Projeler ####
+#### 2'nci Seviye Projeler ####
 - [Chat Uygulaması](chat-uygulaması)
 - [Kripto Para](kripto-para)
