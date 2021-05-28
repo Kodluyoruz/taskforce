@@ -3,7 +3,7 @@
 
 #### 1'nci Seviye Projeler ####
 
-- [Vücut Kitle Endeksi Hesaplama](vücut-kitle- endeksi-hesaplama)
+- [Vücut Kitle Endeksi Hesaplama](bmi)
 - [E-commerce (Clothes)](e-commerce)
 
 
