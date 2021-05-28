@@ -1,1 +1,0 @@
-# React Navigation Paketinin İncelenmesi
