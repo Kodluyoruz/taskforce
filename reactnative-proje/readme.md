@@ -10,7 +10,7 @@
 - [Marvel](Marvel)
 - [Kitaplık](Trivia)
 
-#### 3'nci Seviye Projeler ####
+#### 3'ncü Seviye Projeler ####
 - [Weather](Weather)
 - [Worlwide Restaurants](Worlwide-Restaurants)
 
