@@ -4,7 +4,7 @@
 
 ### [.NET 5 Giriş](1-net5-giris/)
 
-- [Tarihçe](1-net5-giris/1-programlama-dillerinin-tarihcesi/)
+- [Tarihçe](1-tarihce/)
 - [.NET Framework vs .NET Core (.NET 5)](1-net5-giris/2-netfw-vs-net5/)
 - [.NET 5 Tanıtım](1-net5-giris/3-net5-tanitim/)
 
