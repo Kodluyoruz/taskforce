@@ -102,10 +102,10 @@
 #### TDD (Test Driven Development) ####
 ### [TDD (Test Driven Development)](16-tdd-nedir/)
 
-- [TDD (Test Driven Development) Nedir ?](1-tdd-nedir)
-- [Test Çeşitleri Nelerdir ?](2-test-cesitleri)
-- [Test Kavramları](3-test-kavramlari)
-- [Örnek Test Yazılması](4-unit-test-yazmak)
+- [TDD (Test Driven Development) Nedir ?](1-tdd-nedir/)
+- [Test Çeşitleri Nelerdir ?](2-test-cesitleri/)
+- [Test Kavramları](3-test-kavramlari/)
+- [Örnek Test Yazılması](4-unit-test-yazmak/)
 
 
 #### Ödev 3 ####
