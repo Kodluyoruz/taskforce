@@ -53,26 +53,26 @@
 #### Veritabanı Yönetim Sistemleri ####
 ### [Veritabanı Yönetim Sistemleri](9-veritabani-yonetim-sistemleri/)
 
-- [İlişkisel ve NoSql Veritabanları](1-iliskisel-nosql-veritabanlari/)
-- [Table,Primary Key, Foreign Key Kavramları](2-table-pk-fk-kavramlari/)
-- [Index Tipleri](3-index-tipleri/)
-- [Tablo İlişkileri](4-tablo-iliskileri/)
+- [İlişkisel ve NoSql Veritabanları](9-veritabani-yonetim-sistemleri/1-iliskisel-nosql-veritabanlari/)
+- [Table,Primary Key, Foreign Key Kavramları](9-veritabani-yonetim-sistemleri/2-table-pk-fk-kavramlari/)
+- [Index Tipleri](9-veritabani-yonetim-sistemleri/3-index-tipleri/)
+- [Tablo İlişkileri](9-veritabani-yonetim-sistemleri/4-tablo-iliskileri/)
 
 ####  Entity Framework & Linq ####
 ### [Entity Framework & Linq](10-entity-framework-linq/)
 
-- [Temel SQL](1-temel-sql/)
-- [Örnek projeye EF Core dahil etme](2-projeye-ef-core-eklenmesi/)
-- [Linq ile CRUD işlemler](3-linq-ile-crud-islemler/)
+- [Temel SQL](10-entity-framework-linq/1-temel-sql/)
+- [Örnek projeye EF Core dahil etme](10-entity-framework-linq/2-projeye-ef-core-eklenmesi/)
+- [Linq ile CRUD işlemler](10-entity-framework-linq/3-linq-ile-crud-islemler/)
 
 
 ####  Model ve Mapper Kullanımı ####
 ### [Model ve Mapper Kullanımı](11-model-mapper-kullanimi/)
 
-- [Entity Kavramı](1-entity-kavrami/)
-- [ViewModel Kavramı](2-viewmodel-kavrami/)
-- [DTO (Data Transfer Object)](3-dto-kavrami/)
-- [AutoMapper](4-automapper/)
+- [Entity Kavramı](11-model-mapper-kullanimi/1-entity-kavrami/)
+- [ViewModel Kavramı](11-model-mapper-kullanimi/2-viewmodel-kavrami/)
+- [DTO (Data Transfer Object)](11-model-mapper-kullanimi/3-dto-kavrami/)
+- [AutoMapper](11-model-mapper-kullanimi/4-automapper/)
 
 
 #### Modellerin Doğrulanması ####
@@ -86,26 +86,26 @@
 #### Dependency Injection ####
 ### [Dependency Injection](14-dependency-injection/)
 
-- [Dependency Injection Kavramı](1-dependency-injection-kavrami/)
-- [Transient Kavramı](2-transient-kavrami/)
-- [Singleton Kavramı](3-singleton-kavrami/)
-- [Scope Kavramı](4-scope-kavrami/)
+- [Dependency Injection Kavramı](14-dependency-injection/1-dependency-injection-kavrami/)
+- [Transient Kavramı](14-dependency-injection/2-transient-kavrami/)
+- [Singleton Kavramı](14-dependency-injection/3-singleton-kavrami/)
+- [Scope Kavramı](14-dependency-injection/4-scope-kavrami/)
 
 
 #### Middleware Kavramı ####
 ### [Middleware Kavramı](15-middleware-kavrami/)
 
-- [Middleware Kavramı](1-middleware-nedir/)
-- [Örnek olarak Exception Middleware yaratılması](2-projeye-mw-eklenmesi/)
+- [Middleware Kavramı](15-middleware-kavrami/1-middleware-nedir/)
+- [Örnek olarak Exception Middleware yaratılması](15-middleware-kavrami/2-projeye-mw-eklenmesi/)
 
 
 #### TDD (Test Driven Development) ####
 ### [TDD (Test Driven Development)](16-tdd-nedir/)
 
-- [TDD (Test Driven Development) Nedir ?](16-tdd-nedir/1-tdd-nedir/)
-- [Test Çeşitleri Nelerdir ?](16-tdd-nedir/2-test-cesitleri/)
-- [Test Kavramları](16-tdd-nedir/3-test-kavramlari/)
-- [Örnek Test Yazılması](16-tdd-nedir/4-unit-test-yazmak/)
+- [TDD (Test Driven Development) Nedir ?](1-tdd-nedir)
+- [Test Çeşitleri Nelerdir ?](2-test-cesitleri)
+- [Test Kavramları](3-test-kavramlari)
+- [Örnek Test Yazılması](4-unit-test-yazmak)
 
 
 #### Ödev 3 ####
@@ -115,11 +115,11 @@
 #### Kimlik Doğrulama ve Yetkilendirme Protokolleri ####
 ### [Kimlik Doğrulama ve Yetkilendirme Protokolleri](18-kimlik-dogrulama-ve-yetkilendirme/)
 
-- [Kimlik Doğrulama](18-kimlik-dogrulama-ve-yetkilendirme/1-kimlik-dogrulama/)
-- [Yetkilendirme](18-kimlik-dogrulama-ve-yetkilendirme/2-yetkilendirme/)
-- [Protokoller](18-kimlik-dogrulama-ve-yetkilendirme/3-kimlik-dogrulama-yetki-protokolleri/)
-- [Örnek Token İncelemesi](18-kimlik-dogrulama-ve-yetkilendirme/4-ornek-token-incelemesi/)
-- [Projeye Kimlik Doğrulamanın eklenmesi](18-kimlik-dogrulama-ve-yetkilendirme/5-projeye-dogrulama-eklenmesi/)
+- [Kimlik Doğrulama](1-kimlik-dogrulama)
+- [Yetkilendirme](2-yetkilendirme)
+- [Protokoller](3-kimlik-dogrulama-yetki-protokolleri)
+- [Örnek Token İncelemesi](4-ornek-token-incelemesi)
+- [Projeye Kimlik Doğrulamanın eklenmesi](5-projeye-dogrulama-eklenmesi)
 
 
 
