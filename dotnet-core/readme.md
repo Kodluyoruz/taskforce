@@ -27,8 +27,8 @@
 #### Proje Dosyalarını Tanıma ####
 ### [Proje Dosyalarını Tanıma](5-proje-dosyalari/)
 
-- [Startup.cs](5-proje-dosyalari/1-startup/)
-- [.Env dosyaları](5-proje-dosyalari/2-env-dosyalari/)
+- [Startup.cs](1-startup/)
+- [.Env dosyaları](2-env-dosyalari/)
 
 #### Controllers, Route ve Action Methodlar ####
 ### [Controllers, Route ve Action Methodlar](6-controllers-route-action-methodlar/)
