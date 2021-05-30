@@ -33,10 +33,10 @@
 #### Controllers, Route ve Action Methodlar ####
 ### [Controllers, Route ve Action Methodlar](6-controllers-route-action-methodlar/)
 
-- [Controller nedir ?](6-controllers-route-action-methodlar/1-controller-nedir/)
-- [Route Kavramı](6-controllers-route-action-methodlar/2-route/)
-- [Action Methodlar](6-controllers-route-action-methodlar/3-action-methodlar/)
-- [Okunabilir API tasarımı](6-controllers-route-action-methodlar/4-okunabilir-api-tasarimi/)
+- [Controller nedir ?](1-controller-nedir/)
+- [Route Kavramı](2-route/)
+- [Action Methodlar](3-action-methodlar/)
+- [Okunabilir API tasarımı](4-okunabilir-api-tasarimi/)
 
 #### Ödev 1 ####
 ### [Ödev 1](7-odev-1/)
@@ -44,11 +44,11 @@
 #### Swagger ve Postman kullanımı ####
 ### [Swagger ve Postman kullanımı](8-swagger-postman/)
 
-- [Swagger Nedir ?](8-swagger-postman/1-swagger-nedir/)
-- [Swagger Kullanımı](8-swagger-postman/2-swagger-kullanimi/)
-- [Postman Nedir ?](8-swagger-postman/3-postman-nedir/)
-- [Postman Kullanımı](8-swagger-postman/4-postman-kullanimi/)
-- [API Debug](8-swagger-postman/5-api-debug/)
+- [Swagger Nedir ?](1-swagger-nedir/)
+- [Swagger Kullanımı](2-swagger-kullanimi/)
+- [Postman Nedir ?](3-postman-nedir/)
+- [Postman Kullanımı](4-postman-kullanimi/)
+- [API Debug](5-api-debug/)
 
 #### Veritabanı Yönetim Sistemleri ####
 ### [Veritabanı Yönetim Sistemleri](9-veritabani-yonetim-sistemleri/)
