@@ -6,7 +6,7 @@
 
 - [Tarihçe](1-tarihce/)
 - [.NET Framework vs .NET Core (.NET 5)](2-netfw-vs-net5/)
-- [.NET 5 Tanıtım](1-net5-giris/3-net5-tanitim/)
+- [.NET 5 Tanıtım](3-net5-tanitim/)
 
 #### Kurulumlar ####
 ### [Kurulumlar](2-kurulumlar/)
