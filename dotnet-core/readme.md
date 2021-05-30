@@ -11,15 +11,15 @@
 #### Kurulumlar ####
 ### [Kurulumlar](2-kurulumlar/)
 
-- [.NET 5 Kurulumu](2-kurulumlar/1-net5-kurulumu/)
-- [Visual Studio Code kurulumu](2-kurulumlar/2-vscode-kurulumu/)
+- [.NET 5 Kurulumu](1-net5-kurulumu)
+- [Visual Studio Code kurulumu](2-vscode-kurulumu/)
 
 #### Http Protokol ####
 ### [Http Protokolü](3-http-protokolu/)
 
-- [Restful Servisler](3-http-protokolu/1-restful-servisler/)
-- [Restful vs Soap](3-http-protokolu/2-restful-vs-soap/)
-- [JSON (JavaScript Object Notation)](3-http-protokolu/3-json/)
+- [Restful Servisler](1-restful-servisler/)
+- [Restful vs Soap](2-restful-vs-soap/)
+- [JSON (JavaScript Object Notation)](3-json/)
 
 #### Örnek Web Api Yaratmak ####
 ### [Örnek Web Api Yaratmak](4-ornek-webapi-yaratmak/)
