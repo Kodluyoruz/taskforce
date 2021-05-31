@@ -199,6 +199,34 @@
 
 #### Sorular
 
+1. Entity kavramı ile ilgili aşağıdakilerden hanfisi **yanlıştır?**
+
+   - Standart bir sınıf tanımından farkı yoktur.
+   - Uygulama içerisindedeki input/output'ları map lemek için kullanılırlar. (Doğru)
+   - EF Core'un görebilmesi için DBContext dosyasına DBSet olarak eklenmelidir.
+   - Bir entity sınıfı özelliği database de bir tablonun kolonuna karşılık gelir.
+
+2. Entity kavramı ile ilgili aşağıdakilerden hangisi **yanlıştır?**
+
+   - Scalar entity property primitive type'lardan oluşur.
+   - String bir skalar entity property dir.
+   - Navigation Property bir entity ile başka bir entity arasındaki ilişkiyi tanımlar.
+   - Navigation Property'ler ile birlikte Foreign Key kullanılır.
+   - Hiçbiri (Doğru)
+
+3. ViewModel kullanımı ile ilgili aşağıdakilerden hangisi **yanlıştır?**
+
+   - ViewModel uygulama içerisinde UI'a dönülecek olan veriyi modellemek için kullanılır.
+   - Bir ViewModel sadece tek bir UI için kullanılmalıdır.
+   - Katmanlar arası veri transferi için kullanılır. (Doğru)
+   - ViewModel lerin yanlış kullanımı veri güvenliği için bir tehdittir.
+
+4. Dto kullanımı ile ilgili aşağıdakilerden hangisi **yanlıştır?**
+   - Uygulama içerisinde katmanlar arası veri transferi için kullanılır.
+   - Son kullanıcının gördüğü veri DTO'ya maplenerek response içerisinde geri döndürülür. (Doğru)
+   - Resource verisi genel olarak database'den gelen veridir.
+   - Veriyi her katmanda yeniden elde etme maliyetini azaltır.
+
 #### Video
 
 ### [Modellerin Doğrulanması](12-model-validasyonu/)
