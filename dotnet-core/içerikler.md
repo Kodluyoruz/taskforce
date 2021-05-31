@@ -98,6 +98,20 @@
 
 ### [Swagger ve Postman kullanımı](8-swagger-postman/)
 
+1. .Net core web api projesi içinde otomatik olarak aşağıdaki araçlardan hangisi ile hem dökümantasyon oluşturup hem de örnek çağrımlar yapabiliriz ?
+
+   - Postman
+   - cURL
+   - Swagger UI (Doğru)
+   - Fiddler
+
+2. Aşağıdaki araçlardan hangisi apilere çağrımlar yapmanın yanında hem dökümantasyon oluşturmamıza hem de otomatize testler çalıştırabilmemizi sağlar ?
+
+   - Fiddler
+   - Swagger UI 
+   - cURL
+   - Postman (Doğru)
+
 #### Sorular
 
 #### Video
