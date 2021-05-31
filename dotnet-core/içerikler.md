@@ -222,10 +222,17 @@
    - ViewModel lerin yanlış kullanımı veri güvenliği için bir tehdittir.
 
 4. Dto kullanımı ile ilgili aşağıdakilerden hangisi **yanlıştır?**
+
    - Uygulama içerisinde katmanlar arası veri transferi için kullanılır.
    - Son kullanıcının gördüğü veri DTO'ya maplenerek response içerisinde geri döndürülür. (Doğru)
    - Resource verisi genel olarak database'den gelen veridir.
    - Veriyi her katmanda yeniden elde etme maliyetini azaltır.
+
+5. Object Mapping ile ilgili aşağıdakilerden hangisi **yanlıştır?**
+   - Farklı tiplerdeki komplex veri tiplerini birbirine dönüştürmek için Auto Mapper kütüphanesi kullanılır.
+   - Dönüşüm sadece primitive type içeren objeler arasında yapılabilir.
+   - AutoMapper ile çalışırken mapping config'leri kütüphaneye gösterilmelidir.
+   - Autpmapper config dosyası Profile sınıfından kalıtım almalıdır. Aksi halde AutoMapper mapping konfigürasyonlarını göremez.
 
 #### Video
 
