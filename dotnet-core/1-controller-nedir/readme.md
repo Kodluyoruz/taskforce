@@ -1,9 +1,11 @@
 # Controller Nedir ?
-Benzer eylemleri tanımlamak ve gruplamak için kullanılır. Rest servis mimarisindeki resource'ların karşılığıdır. Benzer eylemlerin bir arada olması toplu halde yönetilebilmeleri için önemli. Yani bir controller içindeki eylemlere erişimi toplu halde yönetmek, erişimi kısıtlamak isteyebilirsiniz. Bu nedenle api tasarımı yaparken controller ları doğru tasarlamak ve eylemlerini gruplamak önemlidir. 
+
+Benzer eylemleri tanımlamak ve gruplamak için kullanılır. Rest servis mimarisindeki resource'ların karşılığıdır. Benzer eylemlerin bir arada olması toplu halde yönetilebilmeleri için önemli. Yani bir controller içindeki eylemlere erişimi toplu halde yönetmek, erişimi kısıtlamak isteyebilirsiniz. Bu nedenle api tasarımı yaparken controller ları doğru tasarlamak ve eylemlerini gruplamak önemlidir.
 
 Controller sınıfları ControllerBase sınıfından kalıtım alır. Aşağıda örnek bir kontroller sınıfı görebilirsiniz.
 
 Örnek Controller:
+
 ```
     [ApiController]
     [Route("api/[controller]s")]

@@ -62,6 +62,26 @@
 
 #### Sorular
 
+1. Bir .Net uygulaması ayağa kaldırıldığında ilk çalışan sınıf aşağıdakilerden hangisidir?
+
+   - Startup.cs
+   - Program.cs (Doğru)
+   - Main.cs
+   - Configure.cs
+
+2. Bir .Net Core veya .Net 5 proje içerisinde kullanılacak servislerin tanıtıldığı ve konfigüre edildiği yapı aşağıdakilerden hangisidir?
+
+   - Startup
+   - Configure
+   - ConfigureServices (Doğru)
+   - Main
+
+3. Uygulama genelinde geçerli olacak konfigürasyonların tanımlandığı dosya aşağıdakilerden hangisidir?
+   - Program.cs
+   - Startup.cs (Doğru)
+   - .csproj
+   - .sln
+
 #### Video
 
 ### [Controllers, Route ve Action Methodlar](6-controllers-route-action-methodlar/)
