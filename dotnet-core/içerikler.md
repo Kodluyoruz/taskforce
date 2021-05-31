@@ -243,6 +243,55 @@
 
 #### Sorular
 
+1. Aşağıdakilerden hangisi otomatize testlerin faydalarından biri değildir  ?
+
+   - Hataların daha hızlı tespit edilmesi ve daha az hataya sahip çıktı üretilmesi
+   - Yazılım süresini azaltması (Doğru)
+   - Temel OOP prensiplerine sadık kalınarak kaliteli kod üretilmesi
+   - Manuel test için harcanan efor ve maliyetini en aza indirgemesi
+
+2. Yazdığmız kodların diğer birimlerden bağımsız olarak beklediğimiz gibi çalıştığını doğruladığımız test çeşidi aşağıdakilerden hangisidir ?
+
+   - Unit (Birim) Testi (Doğru)
+   - Integration (Uyuşma) Testi
+   - Functional (Fonksiyonel) Test
+   - Mock Test
+
+3. Yazdığmız kodların birbirleri ile birlikte çalıştıklarında beklediğimiz gibi çalıştığını doğruladığımız test çeşidi aşağıdakilerden hangisidir ?
+
+   - Functional (Fonksiyonel) Test
+   - Unit (Birim) Testi 
+   - Mock Test
+   - Integration (Uyuşma) Testi (Doğru)
+
+4. Uygulamanın sağladığı özelliklerin beklediğimiz gibi çalıştığını doğruladığımız test çeşidi aşağıdakilerden hangisidir ?
+
+   - Unit (Birim) Testi 
+   - Mock Test
+   - Functional (Fonksiyonel) Test (Doğru)
+   - Integration (Uyuşma) Testi
+
+5. 3 aşamadan oluşan bir test içerisinde aşağıdaki aşamalardan hangisinde doğrulama yapılır  ?
+
+   - Arrange
+   - Assert (Doğru)
+   - Act
+   - Verify
+
+6. Otomatize testlerin çalışma hızları düşünüldüğünde en hızlı çalışan test çeşidi aşağıdakilerden hangisidir  ?
+
+   - Mock Test
+   - Unit (Birim) Testi (Doğru)
+   - Integration (Uyuşma) Testi
+   - Functional (Fonksiyonel) Test
+
+7. Test edilen birimi bağımlı olduğu nesnelerden izole etme işlemi sırasında daha kolay ve esnek taklit nesneler yaratabilmek için kullandığımız yardımcı araç aşağıdakilerden hangisidir ?
+
+   - Postman
+   - Moq ve XUnit
+   - Testing Framework
+   - Mocking Framework (Doğru)
+
 #### Video
 
 ### [Ödev 3](17-odev-3/)
