@@ -51,7 +51,7 @@
    - dotnet new webapi
    - dotnet new webapi -n Kodluyoruz.Api (Doğru)
    - dotnet new webapi -name Kodluyoruz.Api
-   - dotnet new --webapi -n Kodluyoruz.Api 
+   - dotnet new --webapi -n Kodluyoruz.Api
 
 #### Videolar
 
@@ -125,6 +125,19 @@
 ### [Veritabanı Yönetim Sistemleri](9-veritabani-yonetim-sistemleri/)
 
 #### Sorular
+
+1. İlişkisel veritabanları ve yönetim sistemleri ile ilgili aşağıdakilerden hangisi yanlıştır?
+
+   - Verilerin tablolarda birbiri ile ilişkili şekilde tutulmasına olanak sağlar.
+   - Okunabilirliği kolay bir veri görseli sunar.
+   - Tüm veritabanı yönetim sistemleri dil olarak SQL kullanır. (Doğru)
+   - MySql ve PostgreSql ücretsiz veritabanı kullanımı sunar.
+
+2. İlişkisel Veri tabanlarında Data Consistency yani veri tutarlılığı nedir ?
+   - Birden fazla tabloda dağıtık halde tutulan ilişkisel verilerin bir arada hareket etmesinin sağlanmasıdır. (Doğru)
+   - Datanın optimize edilerek saklanmasıdır.
+   - Query performansının arttırılmasına yönelik çalışmadır.
+   - Var olan verinin temizlenme aşamasıdır.
 
 #### Video
 
