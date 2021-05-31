@@ -126,7 +126,7 @@
 
 #### Sorular
 
-1. İlişkisel veritabanları ve yönetim sistemleri ile ilgili aşağıdakilerden hangisi yanlıştır?
+1. İlişkisel veritabanları ve yönetim sistemleri ile ilgili aşağıdakilerden hangisi **yanlıştır?**
 
    - Verilerin tablolarda birbiri ile ilişkili şekilde tutulmasına olanak sağlar.
    - Okunabilirliği kolay bir veri görseli sunar.
@@ -134,10 +134,31 @@
    - MySql ve PostgreSql ücretsiz veritabanı kullanımı sunar.
 
 2. İlişkisel Veri tabanlarında Data Consistency yani veri tutarlılığı nedir ?
+
    - Birden fazla tabloda dağıtık halde tutulan ilişkisel verilerin bir arada hareket etmesinin sağlanmasıdır. (Doğru)
    - Datanın optimize edilerek saklanmasıdır.
    - Query performansının arttırılmasına yönelik çalışmadır.
    - Var olan verinin temizlenme aşamasıdır.
+
+3. NoSql Veri tabanları ile ilgili aşağıdakilerden hangisi **yanlıştır?**
+
+   - Büyük verileri saklama ve işleme konusunda ilişkisel veri tabanlarına göre performanslı çalışır.
+   - Veri tutarlılığı sağlamaz. İlişkisel veritabanı kullanılan uygulamalarda kulanılamaz. (Doğru)
+   - Yüksek performans ve hıza odaklanır.
+   - 1998 yılında ilişkisel veritabanı ile yaşanan sıkıntılara odaklanarak geliştirildi.
+
+4. Aşağıdakilerden hangisi NoSql veritabanlarının avantajlarından **değildir?**
+
+   - Yatayda ölçeklenebilir olduğundan dolayı dağıtık uygulamalarda tercih edilebilir.
+   - Büyük verilerle performanslı şekilde çalışabilir.
+   - Lisans ücretleri ilişkisel veritabanlarına göre çok düşüktür.
+   - Yetişmiş uzman bulmak zordur. (Doğru)
+
+5. Primary Key ve Foreign Key ile ilgili aşağıdakilerden hangisi yanlıştır ?
+   - Bir tabloda birden fazla primary key bulunabilir.
+   - Bir tabloda birden fazla foreign key bulunabilir.
+   - Foreign Key kullanılarak veri tutarlılığı sağlanır.
+   - Primary key tek bir alan olabileceği gibi biden fazla alanın birleşimi de olabilir.
 
 #### Video
 
