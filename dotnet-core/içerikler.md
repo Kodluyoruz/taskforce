@@ -166,6 +166,33 @@
 
 #### Sorular
 
+1. İlişkisel veritabanı ve kod içerisindeki objeleri birbirine bağlamak için kullanılan yöntemin adı nedir ?
+
+   - Object Relational Mapping (Doğru)
+   - Code First Yaklaşım
+   - Db First Yaklaşım
+   - Model First Yaklaşım
+
+2. ORM Araçları ile ilgili aşağıdakilerden hangisi yanlıştır ?
+
+   - Uygulama içerisindeki modelleri birbirine dönüştürmek için kullanılır. (Doğru)
+   - Db objeleri ve uygulama içerisinde kullandığımız objeleri birbirine dönüştürmek için kullanılır.
+   - DB objelerine olan bağımlılığı oratadan kaldırır.
+   - Nesne yönelimli kod yazmayı destekler.
+
+3. Aşağıdakilerden hangisi ORM Araçlarının dezavantajlarından değildir ?
+
+   - Query execute etmeye nazaran yavaş çalışır.
+   - Orm Araçlarını öğrenmekte zaman alır.
+   - Orm araçlarının oluşturmuş oldupu SQL'lere manuel müdahale edemeyiz.
+   - Çoğu ORM aracı açık kaynak kodludur. (Doğru)
+
+4. Entity Framework Core ile ilgili aşağıdakilerden hangisi yanlıştır?
+   - Entity Framework 6.x'in yeni versiyonudur.
+   - Cross Platform bir yazılımdır.
+   - Açık kaynak kodludur.
+   - .Net Framework 4.x ve üzeri uygulamalarda çalışabilir. (Doğru)
+
 #### Video
 
 ### [Model ve Mapper Kullanımı](11-model-mapper-kullanimi/)
