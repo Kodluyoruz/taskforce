@@ -51,7 +51,7 @@
    - dotnet new webapi
    - dotnet new webapi -n Kodluyoruz.Api (Doğru)
    - dotnet new webapi -name Kodluyoruz.Api
-   - dotnet new --webapi -n Kodluyoruz.Api 
+   - dotnet new --webapi -n Kodluyoruz.Api
 
 #### Videolar
 
@@ -88,6 +88,26 @@
 
 #### Sorular
 
+1. Controller ile ilgili aşağıdakilerden hangisi yanlıştır ?
+
+   - Resource'lara karşılık gelir.
+   - .Net projesi ayağa kaldırıldığında ilk çalışan metotları barındırır. (Doğru)
+   - ControllerBase sınıfından kalıtım alır.
+   - Bir resource ile ilgili eylemleri içerir.
+
+2. .Net Route ile ilgili aşağıdakilerden hangisi yanlıştır ?
+
+   - Metotlara tanımlanan attribute'lerdir. (Doğru)
+   - Sınıf bazında tanımlanır.
+   - Web Api'ya gelen requestlerin hangi controller'a yönlendirileceğini belirler.
+   - Url içerisinden çözümlenen resource adına karşılık gelir.
+
+3. Action metotlar ile ilgili aşağıdakilerden hangisi yanlıştır?
+   - Spesifik bir resource üzerinde işlem yapmamıza olanak sağlayan eylemlerdir.
+   - Geriye Http Response dönerler.
+   - Eylemlere parametreler geçilmesi yalnızca URL aracılığıyla yapılabilir. (Doğru)
+   - Eylemlere birden fazla parametre geçilebilir.
+
 #### Video
 
 ### [Ödev 1](7-odev-1/)
@@ -120,11 +140,72 @@
 
 #### Sorular
 
+1. İlişkisel veritabanları ve yönetim sistemleri ile ilgili aşağıdakilerden hangisi **yanlıştır?**
+
+   - Verilerin tablolarda birbiri ile ilişkili şekilde tutulmasına olanak sağlar.
+   - Okunabilirliği kolay bir veri görseli sunar.
+   - Tüm veritabanı yönetim sistemleri dil olarak SQL kullanır. (Doğru)
+   - MySql ve PostgreSql ücretsiz veritabanı kullanımı sunar.
+
+2. İlişkisel Veri tabanlarında Data Consistency yani veri tutarlılığı nedir ?
+
+   - Birden fazla tabloda dağıtık halde tutulan ilişkisel verilerin bir arada hareket etmesinin sağlanmasıdır. (Doğru)
+   - Datanın optimize edilerek saklanmasıdır.
+   - Query performansının arttırılmasına yönelik çalışmadır.
+   - Var olan verinin temizlenme aşamasıdır.
+
+3. NoSql Veri tabanları ile ilgili aşağıdakilerden hangisi **yanlıştır?**
+
+   - Büyük verileri saklama ve işleme konusunda ilişkisel veri tabanlarına göre performanslı çalışır.
+   - Veri tutarlılığı sağlamaz. İlişkisel veritabanı kullanılan uygulamalarda kulanılamaz. (Doğru)
+   - Yüksek performans ve hıza odaklanır.
+   - 1998 yılında ilişkisel veritabanı ile yaşanan sıkıntılara odaklanarak geliştirildi.
+
+4. Aşağıdakilerden hangisi NoSql veritabanlarının avantajlarından **değildir?**
+
+   - Yatayda ölçeklenebilir olduğundan dolayı dağıtık uygulamalarda tercih edilebilir.
+   - Büyük verilerle performanslı şekilde çalışabilir.
+   - Lisans ücretleri ilişkisel veritabanlarına göre çok düşüktür.
+   - Yetişmiş uzman bulmak zordur. (Doğru)
+
+5. Primary Key ve Foreign Key ile ilgili aşağıdakilerden hangisi yanlıştır ?
+   - Bir tabloda birden fazla primary key bulunabilir.
+   - Bir tabloda birden fazla foreign key bulunabilir.
+   - Foreign Key kullanılarak veri tutarlılığı sağlanır.
+   - Primary key tek bir alan olabileceği gibi biden fazla alanın birleşimi de olabilir.
+
 #### Video
 
 ### [Entity Framework & Linq](10-entity-framework-linq/)
 
 #### Sorular
+
+1. İlişkisel veritabanı ve kod içerisindeki objeleri birbirine bağlamak için kullanılan yöntemin adı nedir ?
+
+   - Object Relational Mapping (Doğru)
+   - Code First Yaklaşım
+   - Db First Yaklaşım
+   - Model First Yaklaşım
+
+2. ORM Araçları ile ilgili aşağıdakilerden hangisi yanlıştır ?
+
+   - Uygulama içerisindeki modelleri birbirine dönüştürmek için kullanılır. (Doğru)
+   - Db objeleri ve uygulama içerisinde kullandığımız objeleri birbirine dönüştürmek için kullanılır.
+   - DB objelerine olan bağımlılığı oratadan kaldırır.
+   - Nesne yönelimli kod yazmayı destekler.
+
+3. Aşağıdakilerden hangisi ORM Araçlarının dezavantajlarından değildir ?
+
+   - Query execute etmeye nazaran yavaş çalışır.
+   - Orm Araçlarını öğrenmekte zaman alır.
+   - Orm araçlarının oluşturmuş oldupu SQL'lere manuel müdahale edemeyiz.
+   - Çoğu ORM aracı açık kaynak kodludur. (Doğru)
+
+4. Entity Framework Core ile ilgili aşağıdakilerden hangisi yanlıştır?
+   - Entity Framework 6.x'in yeni versiyonudur.
+   - Cross Platform bir yazılımdır.
+   - Açık kaynak kodludur.
+   - .Net Framework 4.x ve üzeri uygulamalarda çalışabilir. (Doğru)
 
 #### Video
 
