@@ -240,6 +240,9 @@
 
 #### Sorular
 
+1. Model Validayonu ile ilgili aşağıdakilerden hangisi **yanlıştır.?**
+   - Uygulamanın kararlı yapısının korunmasını sağlamak için kullanılır.
+
 #### Video
 
 ### [Ödev 2](13-odev-2/)

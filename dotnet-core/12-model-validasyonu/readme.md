@@ -1,14 +1,15 @@
-Uygulama geliştirirken en zor noktalardan birisi sistemi kararlı yapıda tutmaktır. Bunu yapmanın yolu da validasyonlardan geçiyor. Peki yazılım geliştirirken validasyon yapmak ne demek? Şöyle düşünün bir post endpoint'iniz var. Input olarak aldığı obje içerisinde de integer bir özellik var. Ve bu özelliğin mantıksal olarak 0 olmaması gerekiyor. Yada boş geçilmemesi gerekiyor. Eğer servisiniz bu özelliği kontrol etmeden db'ye yazarsa, database'in hata fırlatmasına ve uygulamanızın çalışma anında kırılmasına neden olur. Daha da kötüsü kırılmadan devam eder ve data bütünlüğünün bozulmasına neden olur. 
 # Modellerin Doğrulanması ve FluentValidation Kütüphanesi
 
-Bir validasyon yapısı kurmak hem kuralların okunabilirliği hemde kuralların esnetilebilir olması açısından çok faydalıdır. Bu amaçla yaratılmış bir çok açık kaynaklı kütüphane bulunur. 
+Uygulama geliştirirken en zor noktalardan birisi sistemi kararlı yapıda tutmaktır. Bunu yapmanın yolu da validasyonlardan geçiyor. Peki yazılım geliştirirken validasyon yapmak ne demek? Şöyle düşünün bir post endpoint'iniz var. Input olarak aldığı obje içerisinde de integer bir özellik var. Ve bu özelliğin mantıksal olarak 0 olmaması gerekiyor. Yada boş geçilmemesi gerekiyor. Eğer servisiniz bu özelliği kontrol etmeden db'ye yazarsa, database'in hata fırlatmasına ve uygulamanızın çalışma anında kırılmasına neden olur. Daha da kötüsü kırılmadan devam eder ve data bütünlüğünün bozulmasına neden olabilir.
+
+Bir validasyon yapısı kurmak hem kuralların okunabilirliği hem de kuralların esnetilebilir olması açısından çok faydalıdır. Bu amaçla yaratılmış bir çok açık kaynaklı kütüphane bulunur.
 .Net uygulamaları için en çok kullanılan validation kütüphanesi ise FluentValidation dır.
 
-FluentValidation'ı kullanabilmiz için öncelikler kütüphaneyi paket olarak uygulamamıza eklememiz gerekir. 
-```dotnet add package FluentValidation```
+FluentValidation'ı kullanabilmiz için öncelikle kütüphaneyi paket olarak uygulamamıza eklememiz gerekir.
+`dotnet add package FluentValidation`
 
-Şimdi gelin bir örnek üzerinden nasıl kullanıldığını keşfedelim. 
-Aşağıdaki gibi bir Customer modelimizin olduğunu varsayalım. 
+Şimdi gelin bir örnek üzerinden nasıl kullanıldığını keşfedelim.
+Aşağıdaki gibi bir Customer modelimizin olduğunu varsayalım.
 
     public class Customer {
         public int Id { get; set; }
@@ -18,7 +19,7 @@ Aşağıdaki gibi bir Customer modelimizin olduğunu varsayalım.
         public string Address { get; set; }
     }
 
-Customer modelinin özelliklerini doğrulamak istersek aşağıdaki gibi bir validasyon sınıfı oluşturmamız gerekir: 
+Customer modelinin özelliklerini doğrulamak istersek aşağıdaki gibi bir validasyon sınıfı oluşturmamız gerekir:
 
     using FluentValidation;
     public class CustomerValidator: AbstractValidator<Customer> {
@@ -36,8 +37,9 @@ Customer modelinin özelliklerini doğrulamak istersek aşağıdaki gibi bir val
     }
 
 Yukarıdaki 2 kuralı incelersek;
-* Surname null olamaz. 
-* Discount 0'dan büyük olmak zorundadır.
+
+- Surname null olamaz.
+- Discount 0'dan büyük olmak zorundadır.
 
 Peki bu validasyonu nasıl çalıştırıcaz ?
 
@@ -52,10 +54,10 @@ Peki bu validasyonu nasıl çalıştırıcaz ?
         }
     }
 
-Validasyon sınıfının bir nesnesi oluşturup `Validate()` metodunu çağırırsak geriye validasyon sonuçları döner. result objesi içerisinde `IsValid` özelliği validasyon sonucunda hata olup olmadığını geri döner. 
-Ayrıca result objesi `Errors`adında bir de hata mesajlarını barındıran bir dizi bulundurur. `foreach` döngüsü yardımıyla bu hata mesajlarını istediğimiz gibi kullanabiliriz. Yukarıdaki örnek içerisinden console'a yazdırdık. Burda bir log altyapısı varsa loglama yapılabilir yada son kullanıcıya geri döndürülebilir. 
+Validasyon sınıfının bir nesnesi oluşturup `Validate()` metodunu çağırırsak geriye validasyon sonuçları döner. result objesi içerisinde `IsValid` özelliği validasyon sonucunda hata olup olmadığını geri döner.
+Ayrıca result objesi `Errors`adında bir de hata mesajlarını barındıran bir dizi bulundurur. `foreach` döngüsü yardımıyla bu hata mesajlarını istediğimiz gibi kullanabiliriz. Yukarıdaki örnek içerisinden console'a yazdırdık. Burda bir log altyapısı varsa loglama yapılabilir yada son kullanıcıya geri döndürülebilir.
 
-Peki eğer ben bir model validasyondan geçmezse hata fırlatmasını istersem ne yapmalıyım? Bunun için de `FluentValidation Kütüphanesi` `ValidateAndThrow` adında bir metot barındırır. Bu metot önce kontrolleri yapar, eğer hata varsa hata mesajlarını fırlatır. 
+Peki eğer ben bir model validasyondan geçmezse hata fırlatmasını istersem ne yapmalıyım? Bunun için de `FluentValidation Kütüphanesi` `ValidateAndThrow` adında bir metot barındırır. Bu metot önce kontrolleri yapar, eğer hata varsa hata mesajlarını fırlatır.
 
     Customer customer = new Customer();
     CustomerValidator validator = new CustomerValidator();
