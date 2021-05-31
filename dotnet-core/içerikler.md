@@ -12,11 +12,33 @@
 
 #### Sorular
 
-1. Soru 1 ?
-   - seçenek 1
-   - seçenek 2
-   - seçenek 3 (Doğru)
-   - seçenek 4
+1. Aşağıdaki http metotlarından hangisi ile sunucuya bir veri seti göndererek insert işlemi yaparız ?
+
+   - GET
+   - PUT
+   - DELETE
+   - POST (Doğru)
+
+2. Erişilmek istenen kaynak bulunamadığında aşağıdaki http durum kodlarından hangisi kullanılır?
+
+   - 401
+   - 200
+   - 404 (Doğru)
+   - 500
+
+3. Aşağıdakilerden http metotlarından hangisi **idempotent** değildir ?
+
+   - GET
+   - PUT
+   - DELETE
+   - POST (Doğru)
+
+4. Aşağıdakilerden hangisi JSON'ın desteklediği veri tiplerinden değildir ?
+
+   - Boolean
+   - Array
+   - Object
+   - Decimal (Doğru)
 
 #### Video
 
