@@ -254,8 +254,11 @@
 
 #### Sorular
 
-1. Model Validayonu ile ilgili aşağıdakilerden hangisi **yanlıştır.?**
+1. Model Validayonu ile ilgili aşağıdakilerden hangisi **yanlıştır?**
    - Uygulamanın kararlı yapısının korunmasını sağlamak için kullanılır.
+   - Esnetilebilir validasyon kuralları yazmamıza olanak sağlar.
+   - Uygulama performansını olumsuz etkiler. (Doğru)
+   - Fluent Validation Dotnet ile birlikte en sık kullanılan validasyon kütüphanesidir. 
 
 #### Video
 
