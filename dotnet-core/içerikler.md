@@ -28,10 +28,10 @@
 
 3. Aşağıdakilerden http metotlarından hangisi **idempotent** değildir ?
 
+   - POST (Doğru)
    - GET
    - PUT
    - DELETE
-   - POST (Doğru)
 
 4. Aşağıdakilerden hangisi JSON'ın desteklediği veri tiplerinden değildir ?
 
@@ -45,6 +45,13 @@
 ### [Örnek Web Api Yaratmak](4-ornek-webapi-yaratmak/)
 
 #### Sorular
+
+1. Aşağıdaki komutlardan hangisi ile "Kodluyoruz.Api" adında bir dotnet core webapi projesi yaratırız ?
+
+   - dotnet new webapi
+   - dotnet new webapi -n Kodluyoruz.Api (Doğru)
+   - dotnet new webapi -name Kodluyoruz.Api
+   - dotnet new --webapi -n Kodluyoruz.Api 
 
 #### Videolar
 
