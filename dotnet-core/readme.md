@@ -72,12 +72,13 @@
 - [Entity Kavramı](11-model-mapper-kullanimi/1-entity-kavrami/)
 - [ViewModel Kavramı](11-model-mapper-kullanimi/2-viewmodel-kavrami/)
 - [DTO (Data Transfer Object)](11-model-mapper-kullanimi/3-dto-kavrami/)
+- [Model Kullanınımı Örnek](Odevler/model-kullanımı)
 - [AutoMapper](11-model-mapper-kullanimi/4-automapper/)
 
 
-#### Modellerin Doğrulanması ####
+#### Fluent Validation Kullanarak Modellerin Doğrulanması  ####
 ### [Modellerin Doğrulanması](12-model-validasyonu/)
-
+- [Model Validasyonu - Ödev](Odevler/fluent-validation)
 
 #### Ödev 2 ####
 ### [Ödev 2](13-odev-2/)
