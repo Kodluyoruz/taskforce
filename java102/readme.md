@@ -16,7 +16,10 @@
 - [Polymorphism (Çok Biçimlilik) İlkesi](polimorphism/)
 - [Abstraction (Soyutlama) İlkesi](abstraction/)
 - [Interface Kullanımı](interface/)
-- [Bölüm Sonu Projesi- Hayatta Kalma Oyunu](/)
+
+#### Proje - Macera Oyunu ####
+
+-[Oyun Tanıtımı ve Sınıf Tasarımları](advgame-start/)
 
 #### Nested Sınıflar, Generic Yapılar ####
 
@@ -65,7 +68,6 @@
 - [OutputStreamWriter Sınıfı](io-outputstreamwriter/)
 - [FileReader ve FileWriter Sınıfları](io-file-reader-writer)
 - [BufferedReader ve BufferedWriter Sınıfları](io-buffered-reader-writer)
-- [StringReader ve StringWriter Sınıfları](io-string-reader-writer)
 - [PrintWriter Sınıfı](io-print-writer)
 
 #### Veritabanı İşlemleri (JDBC) ####
@@ -83,7 +85,6 @@
 - [Critical Sections ve Race Condition](thread-senkron/)
 - [Volatile Kullanımı](thread-volatile/)
 - [İş Parçacığı Havuzları (ThreadPooling)](thread-pooling/)
-- [Çok Kanallı Programlama](thread-lock/)
 
 #### Diğer Faydalı Konular ####
 
