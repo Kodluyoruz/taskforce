@@ -59,6 +59,26 @@
 
 #### Sorular
 
+1. Controller ile ilgili aşağıdakilerden hangisi yanlıştır ?
+
+   - Resource'lara karşılık gelir.
+   - .Net projesi ayağa kaldırıldığında ilk çalışan metotları barındırır. (Doğru)
+   - ControllerBase sınıfından kalıtım alır.
+   - Bir resource ile ilgili eylemleri içerir.
+
+2. .Net Route ile ilgili aşağıdakilerden hangisi yanlıştır ?
+
+   - Metotlara tanımlanan attribute'lerdir. (Doğru)
+   - Sınıf bazında tanımlanır.
+   - Web Api'ya gelen requestlerin hangi controller'a yönlendirileceğini belirler.
+   - Url içerisinden çözümlenen resource adına karşılık gelir.
+
+3. Action metotlar ile ilgili aşağıdakilerden hangisi yanlıştır?
+   - Spesifik bir resource üzerinde işlem yapmamıza olanak sağlayan eylemlerdir.
+   - Geriye Http Response dönerler.
+   - Eylemlere parametreler geçilmesi yalnızca URL aracılığıyla yapılabilir. (Doğru)
+   - Eylemlere birden fazla parametre geçilebilir.
+
 #### Video
 
 ### [Ödev 1](7-odev-1/)
