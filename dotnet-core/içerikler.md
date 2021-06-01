@@ -258,7 +258,19 @@
    - Uygulamanın kararlı yapısının korunmasını sağlamak için kullanılır.
    - Esnetilebilir validasyon kuralları yazmamıza olanak sağlar.
    - Uygulama performansını olumsuz etkiler. (Doğru)
-   - Fluent Validation Dotnet ile birlikte en sık kullanılan validasyon kütüphanesidir. 
+   - Fluent Validation .Net ile birlikte en sık kullanılan validasyon kütüphanesidir. 
+
+2. FluentValidation kütüphanesinin doğrulama sonucunda hata varsa hatayı fırlayan metodu aşağıdakilerden hangisidir ? 
+   - `Validate()`
+   - `ThrowAfterValidate()`
+   - `ValidateWithThrow()`
+   - `ValidateAndThrow()` (Doğru)
+
+3. String veri tipindeki bir özelliğin boş olup olmadığını kontrol eden kural aşağıdakilerden hangisidir?
+   -  `RuleFor(x => !x.Name.IsNullOrEmpty());`
+   -  `RuleFor(x => x.Name != null);`
+   -  `RuleFor(x => x.Name).NotNull();` (Doğru)
+   -  `RuleFor(x => x.Name is not null);`
 
 #### Video
 
