@@ -118,6 +118,8 @@
 
 ### [Swagger ve Postman kullanımı](8-swagger-postman/)
 
+#### Sorular
+
 1. .Net core web api projesi içinde otomatik olarak aşağıdaki araçlardan hangisi ile hem dökümantasyon oluşturup hem de örnek çağrımlar yapabiliriz ?
 
    - Postman
@@ -131,8 +133,6 @@
    - Swagger UI 
    - cURL
    - Postman (Doğru)
-
-#### Sorular
 
 #### Video
 
@@ -168,40 +168,40 @@
    - Lisans ücretleri ilişkisel veritabanlarına göre çok düşüktür.
    - Yetişmiş uzman bulmak zordur. (Doğru)
 
-5. Primary Key ve Foreign Key ile ilgili aşağıdakilerden hangisi yanlıştır ?
-   - Bir tabloda birden fazla primary key bulunabilir.
+5. Primary Key ve Foreign Key ile ilgili aşağıdakilerden hangisi **yanlıştır ?**
+   - Bir tabloda birden fazla primary key bulunabilir. (Doğru)
    - Bir tabloda birden fazla foreign key bulunabilir.
    - Foreign Key kullanılarak veri tutarlılığı sağlanır.
    - Primary key tek bir alan olabileceği gibi biden fazla alanın birleşimi de olabilir.
 
 #### Video
 
-### [Entity Framework & Linq](10-entity-framework-linq/)
+### [ORM Araçları ve Entity Framework Core](10-entity-framework-linq/)
 
 #### Sorular
 
-1. İlişkisel veritabanı ve kod içerisindeki objeleri birbirine bağlamak için kullanılan yöntemin adı nedir ?
+1. İlişkisel veritabanı ve kod içerisindeki objeleri birbirine bağlamak için kullanılan yöntemin adı nedir?
 
    - Object Relational Mapping (Doğru)
    - Code First Yaklaşım
    - Db First Yaklaşım
    - Model First Yaklaşım
 
-2. ORM Araçları ile ilgili aşağıdakilerden hangisi yanlıştır ?
+2. ORM Araçları ile ilgili aşağıdakilerden hangisi **yanlıştır?**
 
    - Uygulama içerisindeki modelleri birbirine dönüştürmek için kullanılır. (Doğru)
    - Db objeleri ve uygulama içerisinde kullandığımız objeleri birbirine dönüştürmek için kullanılır.
    - DB objelerine olan bağımlılığı oratadan kaldırır.
    - Nesne yönelimli kod yazmayı destekler.
 
-3. Aşağıdakilerden hangisi ORM Araçlarının dezavantajlarından değildir ?
+3. Aşağıdakilerden hangisi ORM Araçlarının dezavantajlarından **değildir?**
 
    - Query execute etmeye nazaran yavaş çalışır.
    - Orm Araçlarını öğrenmekte zaman alır.
    - Orm araçlarının oluşturmuş oldupu SQL'lere manuel müdahale edemeyiz.
    - Çoğu ORM aracı açık kaynak kodludur. (Doğru)
 
-4. Entity Framework Core ile ilgili aşağıdakilerden hangisi yanlıştır?
+4. Entity Framework Core ile ilgili aşağıdakilerden hangisi **yanlıştır?**
    - Entity Framework 6.x'in yeni versiyonudur.
    - Cross Platform bir yazılımdır.
    - Açık kaynak kodludur.
@@ -244,7 +244,7 @@
 
 5. Object Mapping ile ilgili aşağıdakilerden hangisi **yanlıştır?**
    - Farklı tiplerdeki komplex veri tiplerini birbirine dönüştürmek için Auto Mapper kütüphanesi kullanılır.
-   - Dönüşüm sadece primitive type içeren objeler arasında yapılabilir.
+   - Dönüşüm sadece primitive type içeren objeler arasında yapılabilir. (Doğru)
    - AutoMapper ile çalışırken mapping config'leri kütüphaneye gösterilmelidir.
    - Autpmapper config dosyası Profile sınıfından kalıtım almalıdır. Aksi halde AutoMapper mapping konfigürasyonlarını göremez.
 
@@ -290,14 +290,14 @@ Gerekli Değil
    - Birim testleri yazarken bağımlılıklar işleri zorlaştırır. 
    - Dependency Injection kullanmadan .Net uygulama  geliştirilmez. (Doğru)
 
-2. Yazılım geliştirirken bağımlılık yaratmamanın ilk faydası aşağıdakilerden hangisidir ?
+2. Yazılım geliştirirken bağımlılık yaratmamanın ilk faydası aşağıdakilerden hangisidir?
 
    - Uygulamanın daha esnek yani genişleyebilir olmasını sağlar. (Doğru)
    - Uygulamanın daha performanslı çalışmasını sağlar.
    - Adapte olması ve yazılması kolaydır. 
    - Hızlı kod yazmamızı sağlar. 
 
-3. Aşağıdakilerden hangisi dependency injection yöntemi değildir. 
+3. Aşağıdakilerden hangisi dependency injection yöntemi **değildir?**
    - Yapıcı Metot ile 
    - Setter Property ile
    - Method ile
@@ -316,12 +316,12 @@ Gerekli Değil
    - Sadece kullanacağımız sınıfı DI container'a tanımlarız, bağımlılıkları o görür. (Doğru)
 
  6. DI Container ile ilgili aşağıdakilerden hangisi **yanlıştır?**
-   - .Net Core kendi içinde bir DI Container barındırır. 
-   - Program.cs içerisinde DI Container'a bağımlılık eklenir. (Doğru)
-   - DI Container'a servis eklerken yaşam süresini de söylememiz gerekir. 
-   - Startup.cs içerisindeki ConfigureServices metodunun aldığı IServiceCollection tipindeki parametre container nesnesine karşılık gelir.
+      - .Net Core kendi içinde bir DI Container barındırır. 
+      - Program.cs içerisinde DI Container'a bağımlılık eklenir. (Doğru)
+      - DI Container'a servis eklerken yaşam süresini de söylememiz gerekir. 
+      - Startup.cs içerisindeki ConfigureServices metodunun aldığı IServiceCollection tipindeki parametre container nesnesine karşılık gelir.
 
-7. Scope servis implementasyonu ile ilgili aşağıdakilerden hangisi doğrudur ?
+7. Scope servis implementasyonu ile ilgili aşağıdakilerden hangisi doğrudur?
     - Http Request bazında tanımlanır. Response geri döndürüldüğünde yaşam döngüsü sonlanır. (Doğru)
     - Uygulama ayağa kalktığında bir kez tanımlanır ve hep aynı nesne kullanılır. 
     - Nesneye her erişilmek istendiğinden yeniden oluşturulur.
@@ -338,13 +338,13 @@ Gerekli Değil
     - Request ve response arasına girip işlem yapmamıza olanak sağlar. 
     - Çoklu middleware tanımlanabilir. 
 
-2. Pipelien içerisinde kısa devreye neden olan metot aşağıdakilerden hangisidir ?
+2. Pipeline içerisinde kısa devreye neden olan metot aşağıdakilerden hangisidir?
    - `Run()` (Doğru)
    - `Use()`
    - `Map()`
    - `MapWhen()`
 
-3. Sadece path bazında bir middleware tanımlamak için kulanılan pipeline metodu aşağıdakilerden hangisidir ?
+3. Sadece path bazında bir middleware tanımlamak için kulanılan pipeline metodu aşağıdakilerden hangisidir?
    - `Run()`
    - `Map()` (Doğru)
    - `MapWhen()`
@@ -356,7 +356,7 @@ Gerekli Değil
    - `When()`
    - `MapWhen()` (Doğru)
 
-5. Aşağıdaki metotlardan hangisi bir middleware'in sonunda çağırılarak pipeline içerisindeki bir sonraki middleware'in tetiklenmesini sağlayan metottur ?
+5. Aşağıdaki metotlardan hangisi bir middleware'in sonunda çağırılarak pipeline içerisindeki bir sonraki middleware'in tetiklenmesini sağlayan metottur?
    - `next.Invoke();` (Doğru)
    - `next();`
    - `Invoke();`
@@ -368,35 +368,35 @@ Gerekli Değil
 
 #### Sorular
 
-1. Aşağıdakilerden hangisi otomatize testlerin faydalarından biri değildir  ?
+1. Aşağıdakilerden hangisi otomatize testlerin faydalarından biri **değildir?**
 
    - Hataların daha hızlı tespit edilmesi ve daha az hataya sahip çıktı üretilmesi
    - Yazılım süresini azaltması (Doğru)
    - Temel OOP prensiplerine sadık kalınarak kaliteli kod üretilmesi
    - Manuel test için harcanan efor ve maliyetini en aza indirgemesi
 
-2. Yazdığmız kodların diğer birimlerden bağımsız olarak beklediğimiz gibi çalıştığını doğruladığımız test çeşidi aşağıdakilerden hangisidir ?
+2. Yazdığmız kodların diğer birimlerden bağımsız olarak beklediğimiz gibi çalıştığını doğruladığımız test çeşidi aşağıdakilerden hangisidir?
 
-   - Unit (Birim) Testi (Doğru)
+   - Unit (Birim) Test (Doğru)
    - Integration (Uyuşma) Testi
    - Functional (Fonksiyonel) Test
    - Mock Test
 
-3. Yazdığmız kodların birbirleri ile birlikte çalıştıklarında beklediğimiz gibi çalıştığını doğruladığımız test çeşidi aşağıdakilerden hangisidir ?
+3. Yazdığmız kodların birbirleri ile birlikte çalıştıklarında beklediğimiz gibi çalıştığını doğruladığımız test çeşidi aşağıdakilerden hangisidir?
 
    - Functional (Fonksiyonel) Test
-   - Unit (Birim) Testi 
+   - Unit (Birim) Test 
    - Mock Test
    - Integration (Uyuşma) Testi (Doğru)
 
-4. Uygulamanın sağladığı özelliklerin beklediğimiz gibi çalıştığını doğruladığımız test çeşidi aşağıdakilerden hangisidir ?
+4. Uygulamanın sağladığı özelliklerin beklediğimiz gibi çalıştığını doğruladığımız test çeşidi aşağıdakilerden hangisidir?
 
    - Unit (Birim) Testi 
    - Mock Test
    - Functional (Fonksiyonel) Test (Doğru)
    - Integration (Uyuşma) Testi
 
-5. 3 aşamadan oluşan bir test içerisinde aşağıdaki aşamalardan hangisinde doğrulama yapılır  ?
+5. 3 aşamadan oluşan bir test içerisinde aşağıdaki aşamalardan hangisinde doğrulama yapılır?
 
    - Arrange
    - Assert (Doğru)
