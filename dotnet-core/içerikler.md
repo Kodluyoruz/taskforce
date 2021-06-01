@@ -289,6 +289,35 @@
 ### [Middleware Kavramı](15-middleware-kavrami/)
 
 #### Sorular
+1. Middleware ile ilgili aşağıdakilerden hangisi **yanlıştır?**
+    - Configure metodu içerisinde saklanır. 
+    - Tanımlanma sırası önemli değildir. (Doğru)
+    - Request ve response arasına girip işlem yapmamıza olanak sağlar. 
+    - Çoklu middleware tanımlanabilir. 
+
+2. Pipelien içerisinde kısa devreye neden olan metot aşağıdakilerden hangisidir ?
+   - `Run()` (Doğru)
+   - `Use()`
+   - `Map()`
+   - `MapWhen()`
+
+3. Sadece path bazında bir middleware tanımlamak için kulanılan pipeline metodu aşağıdakilerden hangisidir ?
+   - `Run()`
+   - `Map()` (Doğru)
+   - `MapWhen()`
+   - `Use()`
+
+4. Request içerisindeki bilgilere göre özelleştirmek istediğimiz middleware'leri pipeline'a eklemek için aşağıdaki metotlardan hangisini kullanırız? 
+   - `Run()`
+   - `Map()`
+   - `When()`
+   - `MapWhen()` (Doğru)
+
+5. Aşağıdaki metotlardan hangisi bir middleware'in sonunda çağırılarak pipeline içerisindeki bir sonraki middleware'in tetiklenmesini sağlayan metottur ?
+   - `next.Invoke();` (Doğru)
+   - `next();`
+   - `Invoke();`
+   - `InvokeThen();`
 
 #### Video
 

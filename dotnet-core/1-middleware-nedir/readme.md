@@ -33,7 +33,7 @@ Yukarıdaki örnekte app.Use ile başlayan ifadeler .Net'in kendi özel middlewa
 
 ### Run Metodu
 
-Bazı metotlar pipeline içerisinde kısa devreye nedne olur. Yani kendisinden sonraki işlemler gerçekleşmez. Bu tip meotları kullanırken dikkatli olmak gerekir. Run bunlardan biridir. 
+Bazı metotlar pipeline içerisinde kısa devreye neden olur. Yani kendisinden sonraki işlemler gerçekleşmez. Bu tip meotları kullanırken dikkatli olmak gerekir. Run bunlardan biridir. 
 
     public void Configure(IApplicationBuilder app, IHostingEnvironment env)
     {
@@ -128,7 +128,7 @@ Yukarıdaki örneği inceleyecek olursak, tipi HttpGet olan requestlere özel ç
 
 ## Custom Extension Middleware Yaratmak
 
-Middleware lerimizi Use, Run, Map ve MApWhen gibi metotlarla tanımlayabileceğimiz için bize özel extension şeklinde de yazabiliriz.
+Middleware lerimizi Use, Run, Map ve MapWhen gibi metotlarla tanımlayabileceğimiz için bize özel extension şeklinde de yazabiliriz.
 
 **Örnek:**
 
