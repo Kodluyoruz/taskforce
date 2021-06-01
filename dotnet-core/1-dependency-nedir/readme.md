@@ -29,7 +29,7 @@ Foo foo1 = new Foo(); //Bar nesnesi de Foo içerisinde yaratıldı.
 foo.DoSomething();
 ```
 
-Bu örnekte olduğu gibi, bağımlı olunan nesneler sınıf içerisinde new ile oluşturulup bir üyesi çağrıldığında, bu sınıfa bağımlı hale gelmiş olurlar.
+Bu örnekte olduğu gibi, bağımlı olunan nesneler sınıf içerisinde `new` ile oluşturulup bir üyesi çağrıldığında, bu sınıfa bağımlı hale gelmiş olurlar.
 
 Bağımlı olunan nesneler yalnızca kendi yazdığımız sınıflar arasında değil, kullandığımız tüm framework yada kütüphaneler tarafından sağlanan sınıflar/tipler için de geçerlidir. Bu durumlarda da ilgili framework yada kütüphaneye bağımlı bir kod geliştirmiş oluruz.
 

@@ -277,12 +277,55 @@
 ### [Ödev 2](13-odev-2/)
 
 #### Sorular
+Gerekli Değil
 
 #### Video
 
 ### [Dependency Injection](14-dependency-injection/)
 
 #### Sorular
+1. Dependency Kavramı ile ilgili aşağıdakileren hangisi **yanlıştır?** 
+   - Bağımlılıklar dependency injection yöntemi ile aşılabilir. 
+   - DateTime.Now() bir bağımlılıktır. 
+   - Birim testleri yazarken bağımlılıklar işleri zorlaştırır. 
+   - Dependency Injection kullanmadan .Net uygulama  geliştirilmez. (Doğru)
+
+2. Yazılım geliştirirken bağımlılık yaratmamanın ilk faydası aşağıdakilerden hangisidir ?
+
+   - Uygulamanın daha esnek yani genişleyebilir olmasını sağlar. (Doğru)
+   - Uygulamanın daha performanslı çalışmasını sağlar.
+   - Adapte olması ve yazılması kolaydır. 
+   - Hızlı kod yazmamızı sağlar. 
+
+3. Aşağıdakilerden hangisi dependency injection yöntemi değildir. 
+   - Yapıcı Metot ile 
+   - Setter Property ile
+   - Method ile
+   - `new` anahtar kelimesi ile (Doğru)
+
+4. Dependency Injection yöntemleri ile ilgili aşağıdakilerden hangisi **yanlıştır?**
+   - 3 farklı yöntem ile yapılabilir. 
+   - Metot ile inject edilen nesne diğer metotlar içerisinde de kullanılabilir. (Doğru)
+   - Yapıcı metot ile inject edilen nesne inject edildiği sınıf içerisinde kullanılabilir.
+   - Setter Property ile inject edilen nesne sınıf içerisinde kullanılabilir. 
+
+5. DI Container ile ilgili aşağıdakilerden hangisi **yanlıştır?**
+   - Bağımlılıkları tek bir noktadan yönetmemize olanak sağlayan yapıdır. 
+   - İhtiyacımız olan bir nesneyi oluşturduğumuzda onun bağımlı olduğ nesnelerinde oluşturulmasını sağlar. 
+   - Container'a hangi sınıfları uygulama içerisinden dependency olarak kullanacağımızı tanımlayarak gösteririz.
+   - Sadece kullanacağımız sınıfı DI container'a tanımlarız, bağımlılıkları o görür. (Doğru)
+
+ 6. DI Container ile ilgili aşağıdakilerden hangisi **yanlıştır?**
+   - .Net Core kendi içinde bir DI Container barındırır. 
+   - Program.cs içerisinde DI Container'a bağımlılık eklenir. (Doğru)
+   - DI Container'a servis eklerken yaşam süresini de söylememiz gerekir. 
+   - Startup.cs içerisindeki ConfigureServices metodunun aldığı IServiceCollection tipindeki parametre container nesnesine karşılık gelir.
+
+7. Scope servis implementasyonu ile ilgili aşağıdakilerden hangisi doğrudur ?
+    - Http Request bazında tanımlanır. Response geri döndürüldüğünde yaşam döngüsü sonlanır. (Doğru)
+    - Uygulama ayağa kalktığında bir kez tanımlanır ve hep aynı nesne kullanılır. 
+    - Nesneye her erişilmek istendiğinden yeniden oluşturulur.
+    - Sadece uygulama durdurulduğunda silinir. 
 
 #### Video
 

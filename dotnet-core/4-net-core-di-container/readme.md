@@ -2,10 +2,10 @@
 
 .NET Core kendi içerisinde kullanıma hazır bir DI Container'ı barındırır. Bu sayede herhangi bir farklı kütüphane kullanmamıza gerek kalmadan uygulamamız içerisinde .net core di containerını rahatlıkla kullanabiliriz.
 
-.Net Core içerisinde hazır bulunan containerı Startup'daki ConfigureServices methodu içerisinde kullanırız. Bu methodun IServiceCollection tipinde services adıyla aldığı parametre aslında container nesnesidir diye düşünebiliriz.
+.Net Core içerisinde hazır bulunan containerı Startup'daki ConfigureServices metodu içerisinde kullanırız. Bu methodun IServiceCollection tipinde services adıyla aldığı parametre aslında container nesnesidir diye düşünebiliriz.
 
 ```
-public void ConfigureServices(IServiceCollection services)
+public void ConfigureServices("""""IServiceCollection""""" services)
 {
     services.Add... //Register services
 }

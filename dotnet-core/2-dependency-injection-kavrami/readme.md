@@ -66,7 +66,7 @@ foo1.SetBar(bar1); //dependency injected.
 foo1.DoSomething();
 ```
 
-3 - Method ile : Bu yöntemde bağımlı olunan nesneler yalnızca kullanıldığı methodlarda dışarıdan beklenir. Örnek olarak Foo sınıfı DoSomething methodu içerisinde bağımlı olduğu Bar sınıfına ait bir nesneyi method parametresi aracılığı ile dışardan almış olur.
+3 - Metot ile : Bu yöntemde bağımlı olunan nesneler yalnızca kullanıldığı methodlarda dışarıdan beklenir. Örnek olarak Foo sınıfı DoSomething metodu içerisinde bağımlı olduğu Bar sınıfına ait bir nesneyi metot parametresi aracılığı ile dışardan almış olur.
 
 ```
 public class Foo
