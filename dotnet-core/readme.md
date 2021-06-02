@@ -53,10 +53,10 @@
 #### Veritabanı Yönetim Sistemleri ####
 ### [Veritabanı Yönetim Sistemleri](9-veritabani-yonetim-sistemleri/)
 
-- [İlişkisel ve NoSql Veritabanları](9-veritabani-yonetim-sistemleri/1-iliskisel-nosql-veritabanlari/)
-- [Table,Primary Key, Foreign Key Kavramları](9-veritabani-yonetim-sistemleri/2-table-pk-fk-kavramlari/)
-- [Index Tipleri](9-veritabani-yonetim-sistemleri/3-index-tipleri/)
-- [Tablo İlişkileri](9-veritabani-yonetim-sistemleri/4-tablo-iliskileri/)
+- [İlişkisel ve NoSql Veritabanları](1-iliskisel-nosql-veritabanlari/)
+- [Table,Primary Key, Foreign Key Kavramları](2-table-pk-fk-kavramlari/)
+- [Index Tipleri](3-index-tipleri/)
+- [Tablo İlişkileri](4-tablo-iliskileri/)
 
 ####  Entity Framework & Linq ####
 ### [Entity Framework & Linq](10-entity-framework-linq/)
