@@ -11,15 +11,15 @@
 #### Kurulumlar ####
 ### [Kurulumlar](2-kurulumlar/)
 
-- [.NET 5 Kurulumu](1-net5-kurulumu)
+- [.NET 5 Kurulumu](1-net-5-kurulumu/)
 - [Visual Studio Code kurulumu](2-vscode-kurulumu/)
 
 #### Http Protokol ####
 ### [Http Protokolü](3-http-protokolu/)
 
-- [Restful Servisler](1-restful-servisler/)
-- [Restful vs Soap](2-restful-vs-soap/)
-- [JSON (JavaScript Object Notation)](3-json/)
+- [Restful Servisler](2-restful-servisler/)
+- [Restful vs Soap](3-restful-vs-soap/)
+- [JSON (JavaScript Object Notation)](4-json/)
 
 #### Örnek Web Api Yaratmak ####
 ### [Örnek Web Api Yaratmak](4-ornek-webapi-yaratmak/)
@@ -28,14 +28,14 @@
 ### [Proje Dosyalarını Tanıma](5-proje-dosyalari/)
 
 - [Startup.cs](1-startup/)
-- [.Env dosyaları](2-env-dosyalari/)
+- [.Env dosyaları](2-ortam-dosyalari/)
 
 #### Controllers, Route ve Action Methodlar ####
 ### [Controllers, Route ve Action Methodlar](6-controllers-route-action-methodlar/)
 
 - [Controller nedir ?](1-controller-nedir/)
 - [Route Kavramı](2-route/)
-- [Action Methodlar](3-action-methodlar/)
+- [Action Methodlar](3-action-metotlar/)
 - [Okunabilir API tasarımı](4-okunabilir-api-tasarimi/)
 
 #### Ödev 1 ####
@@ -44,11 +44,11 @@
 #### Swagger ve Postman kullanımı ####
 ### [Swagger ve Postman kullanımı](8-swagger-postman/)
 
-- [Swagger Nedir ?](1-swagger-nedir/)
+- [Swagger Nedir ?](1-swagger-ui-nedir-nasıl-kullanılır/)
 - [Swagger Kullanımı](2-swagger-kullanimi/)
-- [Postman Nedir ?](3-postman-nedir/)
+- [Postman Nedir ?](2-postman-nedir-nasıl-kullanılır/)
 - [Postman Kullanımı](4-postman-kullanimi/)
-- [API Debug](5-api-debug/)
+- [API Debug](3-api-debug/)
 
 #### Veritabanı Yönetim Sistemleri ####
 ### [Veritabanı Yönetim Sistemleri](9-veritabani-yonetim-sistemleri/)
@@ -62,18 +62,18 @@
 ### [Entity Framework & Linq](10-entity-framework-linq/)
 
 - [Temel SQL](1-temel-sql/)
-- [Örnek projeye EF Core dahil etme](2-projeye-ef-core-eklenmesi/)
+- [Örnek projeye EF Core dahil etme](3-projeye-efcore-eklemek/)
 - [Linq ile CRUD işlemler](3-linq-ile-crud-islemler/)
 
 
 ####  Model ve Mapper Kullanımı ####
 ### [Model ve Mapper Kullanımı](11-model-mapper-kullanimi/)
 
-- [Entity Kavramı](11-model-mapper-kullanimi/1-entity-kavrami/)
-- [ViewModel Kavramı](11-model-mapper-kullanimi/2-viewmodel-kavrami/)
-- [DTO (Data Transfer Object)](11-model-mapper-kullanimi/3-dto-kavrami/)
+- [Entity Kavramı](1-entity-kavrami/)
+- [ViewModel Kavramı](2-viewmodel-kavrami/)
+- [DTO (Data Transfer Object)](3-dto-kavrami/)
 - [Model Kullanınımı Örnek](Odevler/model-kullanımı)
-- [AutoMapper](11-model-mapper-kullanimi/4-automapper/)
+- [AutoMapper](4-automapper/)
 
 
 #### Fluent Validation Kullanarak Modellerin Doğrulanması  ####
@@ -87,7 +87,7 @@
 #### Dependency Injection ####
 ### [Dependency Injection](14-dependency-injection/)
 
-- [Dependency Injection Kavramı](14-dependency-injection/1-dependency-injection-kavrami/)
+- [Dependency Injection Kavramı](15-dependency-injection/)
 - [Transient Kavramı](14-dependency-injection/2-transient-kavrami/)
 - [Singleton Kavramı](14-dependency-injection/3-singleton-kavrami/)
 - [Scope Kavramı](14-dependency-injection/4-scope-kavrami/)
