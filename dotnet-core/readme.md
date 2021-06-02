@@ -61,9 +61,9 @@
 ####  Entity Framework & Linq ####
 ### [Entity Framework & Linq](10-entity-framework-linq/)
 
-- [Temel SQL](10-entity-framework-linq/1-temel-sql/)
-- [Örnek projeye EF Core dahil etme](10-entity-framework-linq/2-projeye-ef-core-eklenmesi/)
-- [Linq ile CRUD işlemler](10-entity-framework-linq/3-linq-ile-crud-islemler/)
+- [Temel SQL](1-temel-sql/)
+- [Örnek projeye EF Core dahil etme](2-projeye-ef-core-eklenmesi/)
+- [Linq ile CRUD işlemler](3-linq-ile-crud-islemler/)
 
 
 ####  Model ve Mapper Kullanımı ####
