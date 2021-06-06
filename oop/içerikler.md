@@ -113,7 +113,7 @@
     - Nesne Yönelimli Programlama ilkesidir.
     - Programın okunabilirliğini kolaylaştırır.
     - Bir sınıfa ait miras alınan davranışın yeniden tanımlanmasına sağlarç
-    - Üst sınıftan miras alınan özellikleri yeninden tanılanmasını sağlar. (Doğru)
+    - Üst sınıftan miras alınan özellikleri yeniden tanılanmasını sağlar. (Doğru)
 
 2. Çok biçimliliğin kullanılmasının en büyük nedeni nedir?
     - Programcının daha soyut bir düzeyde düşünmesini sağlar.

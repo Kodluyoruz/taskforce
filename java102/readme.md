@@ -19,16 +19,23 @@
 
 #### Proje - Macera Oyunu ####
 
--[Oyun Tanıtımı ve Sınıf Tasarımları](advgame-start/)
+- [Oyun Tanıtımı ve Sınıf Tasarımları](advgame-1/)
+- [Karakter Sınıfları](advgame-2/)
+- [Harita ve Bölge Tasarımları](advgame-3/)
+- [Mağaza Eşya Sistemi](advgame-4/)
+- [Tehlikeli Bölgeler ve Canavarlar](advgame-5/)
+- [Savaş Algoritması](advgame-6/)
+- [Son Bir Bakış](advgame-7/)
+- [Ödev](advgame-8/)
 
 #### Nested Sınıflar, Generic Yapılar ####
 
 - [Nested ve Inner Sınıflar](nested/)
-- [Wrapper Sınıflar](/)
-- [Autoboxing ve Unboxing](/)
+- [Wrapper Sınıflar](wrapper/)
+- [Autoboxing ve Unboxing](boxing/)
 - [Generic Sınıflar](generics/)
-- [Generic Metotlar](/)
-- [Generic Interface](/)
+- [Generic Metotlar](generics-method/)
+- [Generic Interface](generics-interface/)
 - [Generic Bounded Types](generics-bounded/)
 - [Ödev - Liste Sınıfı Yapmak](odev-generics-list/)
 
@@ -59,13 +66,13 @@
 - [I/O Veri Akışları](io-stream/)
 - [File Sınıfı](io-file/)
 - [FileInputStream Sınıfı](io-fileinputstream/)
-- [FileOutStream Sınıfı](io-fileoutputstream/)
+- [FileOutputStream Sınıfı](io-fileoutputstream/)
 - [ByteArrayInputStream ve ByteArrayOutputStream Sınıfları](io-bytearraystream/)
 - [Serialization ve ObjectStream Sınıfları](io-objectstream/)
 - [BufferedInputStream ve BufferedOutputStream Sınıfları](io-bufferedstream/)
 - [PrintStream Sınıfı](io-printstream/)
 - [InputStreamReader Sınıfı](io-inputstreamreaders/)
-- [OutputStreamWriter Sınıfı](io-outputstreamwriter/)
+- [OutputStreamWriter Sınıfı](io-outputstreamwriter/)_
 - [FileReader ve FileWriter Sınıfları](io-file-reader-writer)
 - [BufferedReader ve BufferedWriter Sınıfları](io-buffered-reader-writer)
 - [PrintWriter Sınıfı](io-print-writer)
@@ -79,7 +86,7 @@
 
 #### MultiThreads ve Concurrency ####
 
-- [Thread’lerin Oluşturulması ve Kullanılması](thread/)
+- [Thread’lerin Oluşturulması ve Kullanılması](thread/)_
 - [Runnable Interface](thread-runnable/)
 - [Thread Durdurmak ve Bekletmek](thread-sleep-live/)
 - [Critical Sections ve Race Condition](thread-senkron/)
@@ -92,3 +99,14 @@
 - [Lambda Expressions](lambda/)
 - [Stream API](stream-api/)
 - [Enum Sınıfı](enum/)
+
+#### Proje - Patika Klonu ####
+
+- [Java Swing GUI Kullanımı](patikaklon-1/)
+- [Proje Dosyaları ve Kullanıcı Yönetimi](patikaklon-2/)
+- [Veritabanı İşlemleri](patikaklon-3/)
+- [Tablolarda Veri Arama](patikaklon-4/)
+- [Patika Yönetimi](patikaklon-5/)
+- [Dinamik Formlar ve Ders Yönetimi](patikaklon-6/)
+- [Giriş Ekranı ve Diğer Gereksinimler](patikaklon-7/)
+- [Ödev - ](patikaklon-8/)
