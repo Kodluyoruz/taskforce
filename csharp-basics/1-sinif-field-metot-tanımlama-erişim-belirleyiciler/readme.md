@@ -23,9 +23,9 @@ Aşağıda örnek bir sınıf tanımının söz dizimini görebilirsiniz.
 ## Erişim Belirleyiciler
 Erişim belirleyiciler önüne geldiği öğenin projenin nerelerinden erişilebileceğini belirler. Öğeleri korur gibi düşünebilirsiniz.
 
-**1. Public** : Sadece tanımlandığı sınıf içerisinden erişilebilir.
+**1. Public** : Her yerden erişilebilir. 
 
-**2. Private** : Her yerden erişilebilir. 
+**2. Private** : Sadece tanımlandığı sınıf içerisinden erişilebilir.
 
 **3. Internal** : Sadece bulunduğu proje içerisinden erişilebilir
 
