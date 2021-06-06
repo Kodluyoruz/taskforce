@@ -59,7 +59,12 @@
 - [PriorityQueue](collection-priority/)
 - [Map Interface ve HashMap](map-hashmap/)
 - [LinkedHashMap ve TreeMap](map-linked-tree)
+- [Ödev - Kitapla Sıralayıcı](odev-collection-book/)
 - [Ödev - Fikstür Oluşturucu](odev-fixture-generator/)
+
+#### Ödev - Sigorta Yönetim Sistemi ####
+
+- [Sigorta Yönetim Sistemi](odev-policy-management/)
 
 #### Input / Output İşlemleri ####
 
@@ -92,6 +97,7 @@
 - [Critical Sections ve Race Condition](thread-senkron/)
 - [Volatile Kullanımı](thread-volatile/)
 - [İş Parçacığı Havuzları (ThreadPooling)](thread-pooling/)
+- [Ödev - Threadlerin Yarışı](odev-thread)
 
 #### Diğer Faydalı Konular ####
 
@@ -99,6 +105,7 @@
 - [Lambda Expressions](lambda/)
 - [Stream API](stream-api/)
 - [Enum Sınıfı](enum/)
+- [Ödev - Kitap Listesi](odev-lambda-stream)
 
 #### Proje - Patika Klonu ####
 
