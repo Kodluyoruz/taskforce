@@ -1,4 +1,4 @@
-# Entity Framework & Linq
+# Orm ve Entity Framework Core
 
 - [Temel SQL](1-temel-sql/)
 - [ORM Nedir? ORM Araçları Nelerdir? Entity Framework Core'a Giriş](2-orm-ve-ef-core/)
