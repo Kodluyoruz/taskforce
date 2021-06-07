@@ -4,9 +4,7 @@
 
 ### [.NET 5 Giriş](1-net5-giris/)
 
-- [Tarihçe](1-tarihce/)
-- [.NET Framework vs .NET Core (.NET 5)](2-netfw-vs-net5/)
-- [.NET 5 Tanıtım](3-net5-tanitim/)
+- [Tarihçe, .Net Framework vs .Net Core vs .Net5](1-net5-giris/)
 
 #### Kurulumlar ####
 ### [Kurulumlar](2-kurulumlar/)
@@ -16,7 +14,7 @@
 
 #### Http Protokol ####
 ### [Http Protokolü](3-http-protokolu/)
-
+- [Http Protokolü](1-http-ptotokolu)
 - [Restful Servisler](2-restful-servisler/)
 - [Restful vs Soap](3-restful-vs-soap/)
 - [JSON (JavaScript Object Notation)](4-json/)
@@ -27,13 +25,13 @@
 #### Proje Dosyalarını Tanıma ####
 ### [Proje Dosyalarını Tanıma](5-proje-dosyalari/)
 
-- [Startup.cs](1-startup/)
-- [.Env dosyaları](2-ortam-dosyalari/)
+- [Startup ve Program Sınıfları](1-startup/)
+- [Ortam dosyaları](2-ortam-dosyalari/)
 
 #### Controllers, Route ve Action Methodlar ####
 ### [Controllers, Route ve Action Methodlar](6-controllers-route-action-methodlar/)
 
-- [Controller nedir ?](1-controller-nedir/)
+- [Controller Sınıfı](1-controller-nedir/)
 - [Route Kavramı](2-route/)
 - [Action Methodlar](3-action-metotlar/)
 - [Okunabilir API tasarımı](4-okunabilir-api-tasarimi/)
@@ -44,26 +42,26 @@
 #### Swagger ve Postman kullanımı ####
 ### [Swagger ve Postman kullanımı](8-swagger-postman/)
 
-- [Swagger Nedir ?](1-swagger-ui-nedir-nasıl-kullanılır/)
-- [Swagger Kullanımı](2-swagger-kullanimi/)
-- [Postman Nedir ?](2-postman-nedir-nasıl-kullanılır/)
-- [Postman Kullanımı](4-postman-kullanimi/)
-- [API Debug](3-api-debug/)
+- [Swagger Nedir? Nasıl Kullanılır?](1-swagger-ui-nedir-nasıl-kullanılır/)
+- [Postman Nedir? Nasıl Kullanılır?](2-postman-nedir-nasıl-kullanılır/)
+- [Api Debug Nasıl Yapılır?](3-api-debug/)
 
 #### Veritabanı Yönetim Sistemleri ####
 ### [Veritabanı Yönetim Sistemleri](9-veritabani-yonetim-sistemleri/)
 
 - [İlişkisel ve NoSql Veritabanları](1-iliskisel-nosql-veritabanlari/)
 - [Table,Primary Key, Foreign Key Kavramları](2-table-pk-fk-kavramlari/)
-- [Index Tipleri](3-index-tipleri/)
 - [Tablo İlişkileri](3-tablo-iliskileri/)
 
-####  Entity Framework & Linq ####
-### [Entity Framework & Linq](10-entity-framework-linq/)
+####  Orm ve Entity Framework Core ####
+### [Orm ve Entity Framework Core](10-entity-framework-linq/)
 
 - [Temel SQL](1-temel-sql/)
-- [Örnek projeye EF Core dahil etme](3-projeye-efcore-eklemek/)
-- [Linq ile CRUD işlemler](3-linq-ile-crud-islemler/)
+- [ORM Nedir? ORM Araçları Nelerdir? Entity Framework Core'a Giriş](2-orm-ve-ef-core/)
+- [Örnek Projeye EF Core Dahil Etmek](3-projeye-efcore-eklemek/)
+- [DB Context kullanarak CRUD işlemler](4-db-context-ile-crud-islemler/)
+- [Auto Increment ID kolonunun eklenmesi](5-auto-increment-id-kolonu) 
+- [Linq ile Crud İşlemler](6-linq/)
 
 
 ####  Model ve Mapper Kullanımı ####
