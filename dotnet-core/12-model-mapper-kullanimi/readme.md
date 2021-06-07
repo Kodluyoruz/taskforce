@@ -1,0 +1,5 @@
+- [Entity Kavramı](1-entity-kavrami/)
+- [ViewModel Kavramı](2-viewmodel-kavrami/)
+- [DTO (Data Transfer Object)](3-dto-kavrami/)
+- [Model Kullanınımı Örnek](Odevler/model-kullanımı)
+- [AutoMapper](4-automapper/)
