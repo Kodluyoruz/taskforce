@@ -133,14 +133,10 @@
 - [Token Bazlı Kimlik Doğrulama ve Access Token Kullanımı](1-token-bazlı-kimlik-dogrulama)
 - [Refresh Token Kullanımı](2-refresh-token-kullanımı)
 
-#### Proje 1
 
+#### Proje Ödevi 1- Movie Store Uygulaması ####
+### [Proje Ödevi - Movie Store Uygulaması](19-proje-1/)
 
-#### Proje Ödevi - Movie Store Uygulaması ####
-### [Proje 1](19-proje-1/)
-
-#### Proje 2
-
-#### Proje Ödevi - Serbest Proje Seçimi ####
-### [Proje 2](20-proje-2/)
+#### Proje Ödevi 2 - Serbest Proje Seçimi ####
+### [Proje Ödevi 2 - Serbest Proje Seçimi](20-proje-2/)
 
