@@ -121,3 +121,7 @@
 - [Dinamik Formlar ve Ders Yönetimi](patikaklon-6/)
 - [Giriş Ekranı ve Diğer Gereksinimler](patikaklon-7/)
 - [Ödev - Projenin Tamamlanması](patikaklon-8/)
+
+#### Bitirme Projesi - Turizm Acente Sistemi ####
+
+- [Ödev - Turizm Acente Sistemi](odev-turizm-acente/)
