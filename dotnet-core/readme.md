@@ -1,34 +1,40 @@
 # .NET Core (.NET 5) Index
 
-#### .NET 5 Giriş ####
+#### .NET 5 Giriş
 
 ### [.NET 5 Giriş](1-net5-giris/)
 
 - [Tarihçe, .Net Framework vs .Net Core vs .Net5](1-net5-giris/)
 
-#### Kurulumlar ####
+#### Kurulumlar
+
 ### [Kurulumlar](2-kurulumlar/)
 
 - [.NET 5 Kurulumu](1-net-5-kurulumu/)
 - [Visual Studio Code kurulumu](2-vscode-kurulumu/)
 
-#### Http Protokol ####
+#### Http Protokol
+
 ### [Http Protokolü](3-http-protokolu/)
+
 - [Http Protokolü](1-http-ptotokolu)
 - [Restful Servisler](2-restful-servisler/)
 - [Restful vs Soap](3-restful-vs-soap/)
 - [JSON (JavaScript Object Notation)](4-json/)
 
-#### Örnek Web Api Yaratmak ####
+#### Örnek Web Api Yaratmak
+
 ### [Örnek Web Api Yaratmak](4-ornek-webapi-yaratmak/)
 
-#### Proje Dosyalarını Tanıma ####
+#### Proje Dosyalarını Tanıma
+
 ### [Proje Dosyalarını Tanıma](5-proje-dosyalari/)
 
 - [Startup ve Program Sınıfları](1-startup/)
 - [Ortam dosyaları](2-ortam-dosyalari/)
 
-#### Controllers, Route ve Action Methodlar ####
+#### Controllers, Route ve Action Methodlar
+
 ### [Controllers, Route ve Action Methodlar](6-controllers-route-action-methodlar/)
 
 - [Controller Sınıfı](1-controller-nedir/)
@@ -44,33 +50,44 @@
 - [Postman Nedir? Nasıl Kullanılır?](2-postman-nedir-nasıl-kullanılır/)
 - [Api Debug Nasıl Yapılır?](3-api-debug/)
 
-#### Veritabanı Yönetim Sistemleri ####
-### [Veritabanı Yönetim Sistemleri](9-veritabani-yonetim-sistemleri/)
+#### BookStore Projesi Yaratmak
+
+### [BookStore WebApi Projesi Yaratmak](9-bookstore-webApi-projesi-yaratmak/)
+
+- [Get ve GetById endpoint'lerinin yazılması](1-get-endpoint)
+- [Put ve Post endpoint'lerinin yazılması](2-put-ve-post-endpoint)
+- [Delete endpoint'inin yazılması](3-delete-endpoint)
+
+#### Veritabanı Yönetim Sistemleri
+
+### [Veritabanı Yönetim Sistemleri](10-veritabani-yonetim-sistemleri/)
 
 - [İlişkisel ve NoSql Veritabanları](1-iliskisel-nosql-veritabanlari/)
 - [Table,Primary Key, Foreign Key Kavramları](2-table-pk-fk-kavramlari/)
 - [Tablo İlişkileri](3-tablo-iliskileri/)
 
-####  Orm ve Entity Framework Core ####
-### [Orm ve Entity Framework Core](10-entity-framework-linq/)
+#### Orm ve Entity Framework Core
+
+### [Orm ve Entity Framework Core](11-orm-ve-entity-framework-core/)
 
 - [Temel SQL](1-temel-sql/)
 - [ORM Nedir? ORM Araçları Nelerdir? Entity Framework Core'a Giriş](2-orm-ve-ef-core/)
 - [Örnek Projeye EF Core Dahil Etmek](3-projeye-efcore-eklemek/)
 - [DB Context kullanarak CRUD işlemler](4-db-context-ile-crud-islemler/)
-- [Auto Increment ID kolonunun eklenmesi](5-auto-increment-id-kolonu) 
+- [Auto Increment ID kolonunun eklenmesi](5-auto-increment-id-kolonu)
 - [Linq ile Crud İşlemler](6-linq/)
 
+#### Model ve Mapper Kullanımı
 
-####  Model ve Mapper Kullanımı ####
-### [Model ve Mapper Kullanımı](11-model-mapper-kullanimi/)
+### [Model ve Mapper Kullanımı](12-model-mapper-kullanimi/)
 
 - [Entity Kavramı](1-entity-kavrami/)
-- [ViewModel Kavramı](2-viewmodel-kavrami/)
-- [DTO (Data Transfer Object)](3-dto-kavrami/)
-- [Model Kullanınımı Örnek](Odevler/model-kullanımı)
+- [ViewModel ve Dto Kavramı](2-viewmodel-ve-dto-kavrami/)
+- [Ödev - Model Kullanınımı](3-odev-model-kullanımı)
+- [Ödev Çözümü - Model Kullanınımı](3-odev-model-kullanımı)
 - [AutoMapper](4-automapper/)
 
+#### Fluent Validation Kullanarak Modellerin Doğrulanması
 
 #### Fluent Validation Kullanarak Modellerin Doğrulanması ####
 ### [Modellerin Doğrulanması ve FluentValidation Kütüphanesi](12-model-validasyonu/)
@@ -78,8 +95,8 @@
 - [Model Validasyonu - Ödev](1-model-validasyonu-odev)
 - [Model Validasyonu - Ödev Çözümü](2-model-validasyonu-odev-cozum)
 
+#### Dependency Injection
 
-#### Dependency Injection ####
 ### [Dependency Injection](14-dependency-injection/)
 
 - [Dependency Nedir ?](1-dependency-nedir/)
@@ -88,8 +105,8 @@
 - [.NET Core DI Container (Services)](4-net-core-di-container/)
 - [Projeye DI Container Kullanarak Logger Servis Eklemek](5-di-container-ile-logger-service-eklemek)
 
+#### Middleware Kavramı
 
-#### Middleware Kavramı ####
 ### [Middleware Kavramı](15-middleware-kavrami/)
 
 - [Middleware Kavramı](1-middleware-nedir/)
@@ -101,8 +118,8 @@
 #### Ödev ####
 ### [Ödev - Projeye Author Controller ve Servislerin Eklenmesi](16-odev-author-controller-eklenmesi)
 
+#### TDD (Test Driven Development)
 
-#### TDD (Test Driven Development) ####
 ### [TDD (Test Driven Development)](16-tdd-nedir/)
 
 - [Test Kavramı ve Çeşitleri](1-test-kavrami-cesitleri/)
@@ -113,18 +130,20 @@
 #### Ödev - Projenin eksik testlerinin tamamlanması ####
 ### [Ödev - Projenin eksik testlerinin tamamlanması](17-odev-unit-tests/)
 
+#### Kimlik Doğrulama ve Yetkilendirme Protokolleri
 
-#### Kimlik Doğrulama ve Yetkilendirme Protokolleri ####
 ### [Kimlik Doğrulama ve Yetkilendirme Protokolleri](18-kimlik-dogrulama-ve-yetkilendirme/)
 
 - [Token Bazlı Kimlik Doğrulama ve Access Token Kullanımı](1-token-bazlı-kimlik-dogrulama)
 - [Refresh Token Kullanımı](2-refresh-token-kullanımı)
 
+#### Proje 1
 
 
 #### Proje Ödevi - Movie Store Uygulaması ####
 ### [Proje 1](19-proje-1/)
 
+#### Proje 2
 
 #### Proje Ödevi - Serbest Proje Seçimi ####
 ### [Proje 2](20-proje-2/)
