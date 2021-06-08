@@ -17,7 +17,7 @@
 - [Abstraction (Soyutlama) İlkesi](abstraction/)
 - [Interface Kullanımı](interface/)
 
-#### Proje - Macera Oyunu ####
+#### Pratik - Macera Oyunu ####
 
 - [Oyun Tanıtımı ve Sınıf Tasarımları](advgame-1/)
 - [Karakter Sınıfları](advgame-2/)
@@ -61,6 +61,10 @@
 - [LinkedHashMap ve TreeMap](map-linked-tree)
 - [Ödev - Kitapla Sıralayıcı](odev-collection-book/)
 - [Ödev - Fikstür Oluşturucu](odev-fixture-generator/)
+
+#### Ödev - PatikaStore ####
+
+- [PatikaStore](odev-patika-store/)
 
 #### Ödev - Sigorta Yönetim Sistemi ####
 
@@ -107,7 +111,7 @@
 - [Enum Sınıfı](enum/)
 - [Ödev - Kitap Listesi](odev-lambda-stream)
 
-#### Proje - Patika Klonu ####
+#### Pratik - Patika Klonu ####
 
 - [Java Swing GUI Kullanımı](patikaklon-1/)
 - [Proje Dosyaları ve Kullanıcı Yönetimi](patikaklon-2/)
