@@ -36,11 +36,9 @@
 - [Action Methodlar](3-action-metotlar/)
 - [Okunabilir API tasarımı](4-okunabilir-api-tasarimi/)
 
-#### Ödev 1 ####
-### [Ödev 1](7-odev-1/)
 
 #### Swagger ve Postman kullanımı ####
-### [Swagger ve Postman kullanımı](8-swagger-postman/)
+### [Swagger ve Postman kullanımı](7-swagger-postman/)
 
 - [Swagger Nedir? Nasıl Kullanılır?](1-swagger-ui-nedir-nasıl-kullanılır/)
 - [Postman Nedir? Nasıl Kullanılır?](2-postman-nedir-nasıl-kullanılır/)
@@ -74,61 +72,60 @@
 - [AutoMapper](4-automapper/)
 
 
-#### Fluent Validation Kullanarak Modellerin Doğrulanması  ####
-### [Modellerin Doğrulanması](12-model-validasyonu/)
-- [Model Validasyonu - Ödev](Odevler/fluent-validation)
-
-#### Ödev 2 ####
-### [Ödev 2](13-odev-2/)
+#### Fluent Validation Kullanarak Modellerin Doğrulanması ####
+### [Modellerin Doğrulanması ve FluentValidation Kütüphanesi](12-model-validasyonu/)
+- [Modellerin Doğrulanması ve FluentValidation Kütüphanesi](1-model-validasyonu)
+- [Model Validasyonu - Ödev](1-model-validasyonu-odev)
+- [Model Validasyonu - Ödev Çözümü](2-model-validasyonu-odev-cozum)
 
 
 #### Dependency Injection ####
 ### [Dependency Injection](14-dependency-injection/)
 
-- [Dependency Injection Kavramı](15-dependency-injection/)
-- [Transient Kavramı](14-dependency-injection/2-transient-kavrami/)
-- [Singleton Kavramı](14-dependency-injection/3-singleton-kavrami/)
-- [Scope Kavramı](14-dependency-injection/4-scope-kavrami/)
+- [Dependency Nedir ?](1-dependency-nedir/)
+- [Dependency Injection (DI) Kavramı](2-dependency-injection-kavrami/)
+- [DI Container Kavramı](3-di-container/)
+- [.NET Core DI Container (Services)](4-net-core-di-container/)
+- [Projeye DI Container Kullanarak Logger Servis Eklemek](5-di-container-ile-logger-service-eklemek)
 
 
 #### Middleware Kavramı ####
 ### [Middleware Kavramı](15-middleware-kavrami/)
 
-- [Middleware Kavramı](15-middleware-kavrami/1-middleware-nedir/)
-- [Örnek olarak Exception Middleware yaratılması](15-middleware-kavrami/2-projeye-mw-eklenmesi/)
+- [Middleware Kavramı](1-middleware-nedir/)
+- [Custom Exception Middleware Yaratılmak](2-projeye-mw-eklenmesi/)
+
+#### Projeye Genre Controller ve Servislerin Eklenmesi ####
+### [Pratik - Projeye Genre Controller ve Servislerin Eklenmesi](15-genre-controller-eklenmesi)
+
+#### Ödev ####
+### [Ödev - Projeye Author Controller ve Servislerin Eklenmesi](16-odev-author-controller-eklenmesi)
 
 
 #### TDD (Test Driven Development) ####
 ### [TDD (Test Driven Development)](16-tdd-nedir/)
 
-- [TDD (Test Driven Development) Nedir ?](1-tdd-nedir/)
-- [Test Çeşitleri Nelerdir ?](2-test-cesitleri/)
-- [Test Kavramları](3-test-kavramlari/)
-- [Örnek Test Yazılması](4-unit-test-yazmak/)
+- [Test Kavramı ve Çeşitleri](1-test-kavrami-cesitleri/)
+- [TDD (Test Driven Development) Nedir ?](2-tdd-nedir/)
+- [Örnek Test Yazımı](3-unit-test-yazmak/)
+- [Pratik - Command ve Validator Sınıflarının Testlerinin Yazılması](4-command-ve-validator-testlerinin-yazılmasi)
 
-
-#### Ödev 3 ####
-### [Ödev 3](17-odev-3/)
+#### Ödev - Projenin eksik testlerinin tamamlanması ####
+### [Ödev - Projenin eksik testlerinin tamamlanması](17-odev-unit-tests/)
 
 
 #### Kimlik Doğrulama ve Yetkilendirme Protokolleri ####
 ### [Kimlik Doğrulama ve Yetkilendirme Protokolleri](18-kimlik-dogrulama-ve-yetkilendirme/)
 
-- [Kimlik Doğrulama](1-kimlik-dogrulama)
-- [Yetkilendirme](2-yetkilendirme)
-- [Protokoller](3-kimlik-dogrulama-yetki-protokolleri)
-- [Örnek Token İncelemesi](4-ornek-token-incelemesi)
-- [Projeye Kimlik Doğrulamanın eklenmesi](5-projeye-dogrulama-eklenmesi)
+- [Token Bazlı Kimlik Doğrulama ve Access Token Kullanımı](1-token-bazlı-kimlik-dogrulama)
+- [Refresh Token Kullanımı](2-refresh-token-kullanımı)
 
 
 
-#### Proje 1 ####
+#### Proje Ödevi - Movie Store Uygulaması ####
 ### [Proje 1](19-proje-1/)
 
 
-#### Proje 2 ####
+#### Proje Ödevi - Serbest Proje Seçimi ####
 ### [Proje 2](20-proje-2/)
 
-
-#### Tüm Dökümanlar ####
-### [Tüm Dökümanlar](21-dokumanlar/)
