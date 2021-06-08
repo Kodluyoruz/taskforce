@@ -44,15 +44,14 @@
 
 
 #### Swagger ve Postman kullanımı ####
-### [Swagger ve Postman kullanımı](7-swagger-postman/)
+### [Swagger ve Postman kullanımı](7-swagger-ui-postman/)
 
 - [Swagger Nedir? Nasıl Kullanılır?](1-swagger-ui-nedir-nasıl-kullanılır/)
 - [Postman Nedir? Nasıl Kullanılır?](2-postman-nedir-nasıl-kullanılır/)
 - [Api Debug Nasıl Yapılır?](3-api-debug/)
 
 #### BookStore Projesi Yaratmak
-
-### [BookStore WebApi Projesi Yaratmak](9-bookstore-webApi-projesi-yaratmak/)
+### [BookStore WebApi Projesi Yaratmak](8-bookstore-webApi-projesi-yaratmak/)
 
 - [Get ve GetById endpoint'lerinin yazılması](1-get-endpoint)
 - [Put ve Post endpoint'lerinin yazılması](2-put-ve-post-endpoint)
@@ -60,7 +59,7 @@
 
 #### Veritabanı Yönetim Sistemleri
 
-### [Veritabanı Yönetim Sistemleri](10-veritabani-yonetim-sistemleri/)
+### [Veritabanı Yönetim Sistemleri](9-veritabani-yonetim-sistemleri/)
 
 - [İlişkisel ve NoSql Veritabanları](1-iliskisel-nosql-veritabanlari/)
 - [Table,Primary Key, Foreign Key Kavramları](2-table-pk-fk-kavramlari/)
@@ -68,7 +67,7 @@
 
 #### Orm ve Entity Framework Core
 
-### [Orm ve Entity Framework Core](11-orm-ve-entity-framework-core/)
+### [Orm ve Entity Framework Core](10-orm-ve-entity-framework-core/)
 
 - [Temel SQL](1-temel-sql/)
 - [ORM Nedir? ORM Araçları Nelerdir? Entity Framework Core'a Giriş](2-orm-ve-ef-core/)
@@ -77,27 +76,26 @@
 - [Auto Increment ID kolonunun eklenmesi](5-auto-increment-id-kolonu)
 - [Linq ile Crud İşlemler](6-linq/)
 
-#### Model ve Mapper Kullanımı
-
-### [Model ve Mapper Kullanımı](12-model-mapper-kullanimi/)
+#### Entity, Model ve Mapper Kullanımı
+### [Entity, Model ve Mapper Kullanımı](11-model-mapper-kullanimi/)
 
 - [Entity Kavramı](1-entity-kavrami/)
 - [ViewModel ve Dto Kavramı](2-viewmodel-ve-dto-kavrami/)
-- [Ödev - Model Kullanınımı](3-odev-model-kullanımı)
-- [Ödev Çözümü - Model Kullanınımı](3-odev-model-kullanımı)
-- [AutoMapper](4-automapper/)
+- [Örnek Projenin ViewModel ve Model Kullanarak Refaktör Edilmesi](3-model-refactor)
+- [Ödev - Model Kullanınımı](4-odev-model-kullanimi)
+- [Ödev Çözümü - Model Kullanınımı](5-odev-cozum-model-kullanımı)
+- [AutoMapper](6-automapper/)
 
 #### Fluent Validation Kullanarak Modellerin Doğrulanması
-
 #### Fluent Validation Kullanarak Modellerin Doğrulanması ####
 ### [Modellerin Doğrulanması ve FluentValidation Kütüphanesi](12-model-validasyonu/)
 - [Modellerin Doğrulanması ve FluentValidation Kütüphanesi](1-model-validasyonu)
-- [Model Validasyonu - Ödev](1-model-validasyonu-odev)
-- [Model Validasyonu - Ödev Çözümü](2-model-validasyonu-odev-cozum)
+- [Model Validasyonu - Ödev](2-model-validasyonu-odev)
+- [Model Validasyonu - Ödev Çözümü](3-model-validasyonu-odev-cozum)
 
 #### Dependency Injection
 
-### [Dependency Injection](14-dependency-injection/)
+### [Dependency Injection](13-dependency-injection/)
 
 - [Dependency Nedir ?](1-dependency-nedir/)
 - [Dependency Injection (DI) Kavramı](2-dependency-injection-kavrami/)
@@ -107,8 +105,7 @@
 
 #### Middleware Kavramı
 
-### [Middleware Kavramı](15-middleware-kavrami/)
-
+### [Middleware Kavramı](14-middleware-kavrami/)
 - [Middleware Kavramı](1-middleware-nedir/)
 - [Custom Exception Middleware Yaratılmak](2-projeye-mw-eklenmesi/)
 
