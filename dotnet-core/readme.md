@@ -2,9 +2,7 @@
 
 #### .NET 5 Giriş
 
-### [.NET 5 Giriş](1-net5-giris/)
-
-- [Tarihçe, .Net Framework vs .Net Core vs .Net5](1-net5-giris/)
+### [Tarihçe, .Net Framework vs .Net Core vs .Net5](1-net5-giris/)
 
 #### Kurulumlar
 
