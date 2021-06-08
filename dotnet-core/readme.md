@@ -82,8 +82,8 @@
 - [Entity Kavramı](1-entity-kavrami/)
 - [ViewModel ve Dto Kavramı](2-viewmodel-ve-dto-kavrami/)
 - [Örnek Projenin ViewModel ve Model Kullanarak Refaktör Edilmesi](3-model-refactor)
-- [Ödev - Model Kullanınımı](4-odev-model-kullanimi)
-- [Ödev Çözümü - Model Kullanınımı](5-odev-cozum-model-kullanımı)
+- [Ödev - Model Kullanımı](4-odev-model-kullanimi)
+- [Ödev Çözümü - Model Kullanımı](5-odev-cozum-model-kullanımı)
 - [AutoMapper](6-automapper/)
 
 #### Fluent Validation Kullanarak Modellerin Doğrulanması
