@@ -39,4 +39,3 @@ Eğitmenler sisteme giriş yaptıklarında, görevlerini yapabilecekleri bir ekr
 - Öğrenciler giriş ekranı sırasında üyelikleri yok ise sisteme kayıt olabilirler.
 - Kayıt ol ekranı tasarlanmalı ve sadece öğrenciler sisteme kayıt yapabilmeli.
 - Sistemdeki operatörleri yazılımcı (Yani sizler) eklemeli, eğitmenleride sadece operatörler ekleyebilmeli.
-

@@ -59,7 +59,7 @@
 - [PriorityQueue](collection-priority/)
 - [Map Interface ve HashMap](map-hashmap/)
 - [LinkedHashMap ve TreeMap](map-linked-tree)
-- [Ödev - Kitapla Sıralayıcı](odev-collection-book/)
+- [Ödev - Kitap Sıralayıcı](odev-collection-book/)
 - [Ödev - Fikstür Oluşturucu](odev-fixture-generator/)
 
 #### Ödev - PatikaStore ####
