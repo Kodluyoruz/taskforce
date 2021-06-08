@@ -111,7 +111,7 @@
 #### Projeye Genre Controller ve Servislerin Eklenmesi ####
 ### [Pratik - Projeye Genre Controller ve Servislerin Eklenmesi](15-genre-controller-eklenmesi)
 
-#### Ödev ####
+#### Ödev - Projeye Author Controller ve Servislerin Eklenmesi ####
 ### [Ödev - Projeye Author Controller ve Servislerin Eklenmesi](16-odev-author-controller-eklenmesi)
 
 #### TDD (Test Driven Development)
