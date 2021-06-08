@@ -120,4 +120,4 @@
 - [Patika Yönetimi](patikaklon-5/)
 - [Dinamik Formlar ve Ders Yönetimi](patikaklon-6/)
 - [Giriş Ekranı ve Diğer Gereksinimler](patikaklon-7/)
-- [Ödev - ](patikaklon-8/)
+- [Ödev - Projenin Tamamlanması](patikaklon-8/)
