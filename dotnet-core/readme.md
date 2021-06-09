@@ -8,10 +8,10 @@
 
 ### [Kurulumlar](2-kurulumlar/)
 
-- [.NET 5 Kurulumu](1-net-5-kurulumu/)
-- [Visual Studio Code kurulumu](2-vscode-kurulumu/)
+- ### [.NET 5 Kurulumu](1-net-5-kurulumu/)
+- ### [Visual Studio Code kurulumu](2-vscode-kurulumu/)
 
-#### Http Protokol
+#### Http Protokol ####
 
 ### [Http Protokolü](3-http-protokolu-ve-restful-servisler/)
 
@@ -20,7 +20,7 @@
 - [Restful vs Soap](3-restful-vs-soap/)
 - [JSON (JavaScript Object Notation)](4-json/)
 
-#### Örnek Web Api Yaratmak
+#### Örnek Web Api Yaratmak ####
 
 ### [Örnek Web Api Yaratmak](4-ornek-webapi-yaratmak/)
 
@@ -48,14 +48,14 @@
 - [Postman Nedir? Nasıl Kullanılır?](2-postman-nedir-nasıl-kullanılır/)
 - [Api Debug Nasıl Yapılır?](3-api-debug/)
 
-#### BookStore Projesi Yaratmak
+#### BookStore Projesi Yaratmak ####
 ### [BookStore WebApi Projesi Yaratmak](8-bookstore-webApi-projesi-yaratmak/)
 
 - [Get ve GetById endpoint'lerinin yazılması](1-get-endpoint)
 - [Put ve Post endpoint'lerinin yazılması](2-put-ve-post-endpoint)
 - [Delete endpoint'inin yazılması](3-delete-endpoint)
 
-#### Veritabanı Yönetim Sistemleri
+#### Veritabanı Yönetim Sistemleri ####
 
 ### [Veritabanı Yönetim Sistemleri](9-veritabani-yonetim-sistemleri/)
 
@@ -63,7 +63,7 @@
 - [Table,Primary Key, Foreign Key Kavramları](2-table-pk-fk-kavramlari/)
 - [Tablo İlişkileri](3-tablo-iliskileri/)
 
-#### Orm ve Entity Framework Core
+#### Orm ve Entity Framework Core ####
 
 ### [Orm ve Entity Framework Core](10-orm-ve-entity-framework-core/)
 
@@ -74,7 +74,7 @@
 - [Auto Increment ID kolonunun eklenmesi](5-auto-increment-id-kolonu)
 - [Linq ile Crud İşlemler](6-linq/)
 
-#### Entity, Model ve Mapper Kullanımı
+#### Entity, Model ve Mapper Kullanımı ####
 ### [Entity, Model ve Mapper Kullanımı](11-model-mapper-kullanimi/)
 
 - [Entity Kavramı](1-entity-kavrami/)
@@ -90,7 +90,7 @@
 - [Model Validasyonu - Ödev](2-model-validasyonu-odev)
 - [Model Validasyonu - Ödev Çözümü](3-model-validasyonu-odev-cozum)
 
-#### Dependency Injection
+#### Dependency Injection ####
 
 ### [Dependency Injection](13-dependency-injection/)
 
@@ -100,7 +100,7 @@
 - [.NET Core DI Container (Services)](4-net-core-di-container/)
 - [Projeye DI Container Kullanarak Logger Servis Eklemek](5-di-container-ile-logger-service-eklemek)
 
-#### Middleware Kavramı
+#### Middleware Kavramı ####
 
 ### [Middleware Kavramı](14-middleware-kavrami/)
 - [Middleware Kavramı](1-middleware-nedir/)
@@ -112,7 +112,7 @@
 #### Ödev - Projeye Author Controller ve Servislerin Eklenmesi ####
 ### [Ödev - Projeye Author Controller ve Servislerin Eklenmesi](16-odev-author-controller-eklenmesi)
 
-#### TDD (Test Driven Development)
+#### TDD (Test Driven Development) ####
 
 ### [TDD (Test Driven Development)](16-tdd-nedir/)
 
@@ -124,7 +124,7 @@
 #### Ödev - Projenin eksik testlerinin tamamlanması ####
 ### [Ödev - Projenin eksik testlerinin tamamlanması](17-odev-unit-tests/)
 
-#### Kimlik Doğrulama ve Yetkilendirme Protokolleri
+#### Kimlik Doğrulama ve Yetkilendirme Protokolleri ####
 
 ### [Kimlik Doğrulama ve Yetkilendirme Protokolleri](18-kimlik-dogrulama-ve-yetkilendirme/)
 
