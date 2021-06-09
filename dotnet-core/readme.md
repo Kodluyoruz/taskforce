@@ -1,6 +1,6 @@
 # .NET Core (.NET 5) Index
 
-#### .NET 5 Giriş
+#### .NET 5 Giriş ####
 
 ### [Tarihçe, .Net Framework vs .Net Core vs .Net5](1-net5-giris/)
 
