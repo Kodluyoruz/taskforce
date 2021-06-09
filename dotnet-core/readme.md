@@ -4,7 +4,7 @@
 
 ### [Tarihçe, .Net Framework vs .Net Core vs .Net5](1-net5-giris/)
 
-#### Kurulumlar
+#### Kurulumlar ####
 
 ### [Kurulumlar](2-kurulumlar/)
 
