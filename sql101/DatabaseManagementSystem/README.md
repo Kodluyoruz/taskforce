@@ -20,7 +20,9 @@ Farklı ihtiyaçlara göre çeşitli veritabanı yönetim sistemleri bulunur. Te
 ### İlişkisel Veritabanı Yönetim Sistemleri
 İlişkisel veritabanı yönetim sistemlerinde veriler satır ve sütunlarında oluşan tablolarda tutulur. Her sütunda aynı tür verilerin tutulması sebebiyle yüksek bir
 veri tutarlılığına sahiptir.
-Aşağıda farklı veritabanı yönetim sistemi yazılımlarını görebilirsiniz.
+
+
+Aşağıda popüler veritabanı yönetim sistemi yazılımlarını görebilirsiniz.
 
 ![RDBMS](https://github.com/Kodluyoruz/taskforce/blob/main/sql101/DatabaseManagementSystem/figures/RDBMS.png)
 
