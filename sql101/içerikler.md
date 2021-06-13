@@ -30,7 +30,7 @@
 
 ### [Veritabanı Yönetim Sistemi](DatabaseManagementSystem/)
 #### Sorular
-1. Aşağıdakilerden hangisi ilişkisel veri tabanı yönetim sistemidir.
+1. Aşağıdakilerden hangisi ilişkisel veri tabanı yönetim sistemidir?
 	- Mongo DB
 	- Couch DB
 	- Cassandra 
