@@ -9,6 +9,12 @@
 	- Verilerin hücrelerde depolanması. (Doğru)
 	- Çoklu kullanıcı yönetimi ve rol dağıtımının daha kolay yapılması.
 	- Başka yazılımlara verilerin daha kolay aktarılması.
+2. Veri kavramıyla ilgili aşağıdakilerden hangisi söylenemez?
+	- Gelişi güzel elde edilir. (Doğru)
+	- Ölçüm yoluyla elde edilebilinir.
+	- Sayım yoluyla elde edilinebilinir.
+	- Deney yoluyla elde edilinebilinir.
+	- Araştırma sonucu olabilir.
 
 #### Video
 1. (Youtube adresi yazılacak)
