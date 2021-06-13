@@ -7,3 +7,4 @@
 - [Veri ve Veritabanı](DataAndDatabase/)
 - [Veritabanı Yönetim Sistemi](DatabaseManagementSystem/)
 - [SQL Nedir?](WhatIsSql/)
+- [PostgreSQL Kurulumu](InstallPostgresql/)
