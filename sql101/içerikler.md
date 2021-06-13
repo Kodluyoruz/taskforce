@@ -62,3 +62,12 @@
 1. (Youtube adresi yazılacak)
 	- Bu videoda; SQL tanımından ve nasıl bir programlama dili olduğundan bahsettik.
 
+### [PostgreSQL Kurulumu](InstallPostgresql/)
+#### Sorular
+1.Yok
+
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; PostgreSQL veritabanı yönetim sistemi yazılımının kurulum aşamalarını konuştuk.
+
