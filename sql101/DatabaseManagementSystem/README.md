@@ -5,7 +5,7 @@ sorguları yapmamızı sağlayan yazılımlara **Database Management System** ve
 
 Bizler SQL sorguları sayesinde veritabanımız üzerinde yapmak istediğimiz işlemler veritabanı yönetim sistemi yazılımı aracılığıyla yaparız.
 
-![DBMS](https://github.com/Kodluyoruz/taskforce/blob/node.js/node-js/DatabaseManagementSystem/figures/DBMS.jpg)
+![DBMS](https://github.com/Kodluyoruz/taskforce/blob/main/sql101/DatabaseManagementSystem/figures/DBMS.jpg)
 
 Yukarıdaki şekilde de gördüğümüz üzere farklı kaynaklardan gelen sorgular DBMS yazılımı sayesinde farklı veritabanlarında kullanılır. Genel kullanım olarak bizler 
 pratikte veri, veritabanı ve veritabanı yönetim sisteminin tamamını **VERİTABANI** olarak adlandırmak şekilde bir eğilimimiz vardır.
@@ -22,5 +22,5 @@ Farklı ihtiyaçlara göre çeşitli veritabanı yönetim sistemleri bulunur. Te
 veri tutarlılığına sahiptir.
 Aşağıda farklı veritabanı yönetim sistemi yazılımlarını görebilirsiniz.
 
-![RDBMS](https://github.com/Kodluyoruz/taskforce/blob/node.js/node-js/DatabaseManagementSystem/figures/RDBMS.png)
+![RDBMS](https://github.com/Kodluyoruz/taskforce/blob/main/sql101/DatabaseManagementSystem/figures/RDBMS.png)
 
