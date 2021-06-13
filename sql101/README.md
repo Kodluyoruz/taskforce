@@ -3,4 +3,4 @@
 
 #### SQL Nedir? ####
 
-- [Giriş?](intro/)
+- [Giriş](intro/)
