@@ -6,3 +6,4 @@
 - [Giriş](intro/)
 - [Veri ve Veritabanı](DataAndDatabase/)
 - [Veritabanı Yönetim Sistemi](DatabaseManagementSystem/)
+- [SQL Nedir?](WhatIsSql/)
