@@ -4,3 +4,4 @@
 #### SQL Nedir? ####
 
 - [Giriş](intro/)
+- [Veri Ve Veritabanı](DataAndDatabase/)
