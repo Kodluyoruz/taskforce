@@ -44,7 +44,18 @@
 
 ### [SQL Nedir?](DatabaseManagementSystem/)
 #### Sorular
-1. Yok
+1. SQL nasıl bir programlama dilidir?
+	- Bildirimsel (Doğru)
+	- Emredici
+	- Nesne yönelimli
+	- Sınıf tabanlı
+	- Imperative
+2. SQL kaçıncı nesil bir programlama dilidir?
+	- Birinci nesil
+	- Üçüncü nesil
+	- İkinci nesil
+	- Beşinci nesil
+	- Dördüncü nesil (Doğru)
 
 
 #### Video
