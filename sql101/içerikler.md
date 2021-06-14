@@ -110,5 +110,26 @@
 
 #### Video
 1. (Youtube adresi yazılacak)
-	- Bu videoda; SQL SELECT komutu üzerine konuştuk.
+	- Bu videoda; WHERE komutu ve karşılaştırma operatörleri üzerine konuştuk.
+
+### [WHERE ve Mantıksal Operatörler](WhereLogical/)
+#### Sorular
+1. a AND b ifadesi hangi koşulda "TRUE" döner?
+	- TRUE AND NULL
+	- NULL AND NULL
+	- TRUE AND TRUE (Doğru)
+	- FALSE AND TRUE
+	- FALSE AND FALSE				
+					
+2. a OR b ifadesi hangi koşulda "FALSE" döner?
+	- NULL OR NULL
+	- FALSE OR TRUE
+	- TRUE OR FALSE
+	- FALSE OR FALSE (Doğru)
+	- TRUE OR TRUE					
+					
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; WHERE komutu ve matıksal operatörler üzerine konuştuk.
 
