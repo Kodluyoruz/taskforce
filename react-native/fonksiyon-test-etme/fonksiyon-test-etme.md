@@ -1,1 +1,0 @@
-#### Fonksiyon Test Etme #### 
