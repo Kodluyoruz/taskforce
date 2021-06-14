@@ -124,4 +124,8 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Uygulama Mağazası (App Store Connect)](uygulama-magazasi-app-store-connect/)
 - [Uygulama Mağazası (Google Play Console)](uygulama-magazasi-google-play-console/)
 
+#### Unit Test Kavramları ####
+- [Tes Nedir? Neden Yazılır?](test-nedir-neden-yazılır/)
+
+
 
