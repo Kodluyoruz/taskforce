@@ -1,1 +1,0 @@
-#### Uygulamanın Genel Testi ####
