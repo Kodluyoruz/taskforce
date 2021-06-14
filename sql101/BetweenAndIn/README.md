@@ -39,7 +39,7 @@ FROM film
 WHERE length = 30 OR length = 60 OR length = 90 OR length = 120;
 ```
 sorgusuyla verileri aldık ancak burada şöyle bir sorunumuz var peki 4 farklı değer için değil 14 farklı değer için bu sorgumuzu gerçekleştirmek için
-14 ayrı OR mantıksal operatörü kullanmamız gerekirdi. Bunun yerine istenilen değerleri liste haline geitip **IN** anahtar kelimesiyke kullanabiliriz.
+14 ayrı OR mantıksal operatörü kullanmamız gerekirdi. Bunun yerine istenilen değerleri liste haline geitip **IN** anahtar kelimesiyle kullanabiliriz.
 
 ### IN Söz Dizimi
 
