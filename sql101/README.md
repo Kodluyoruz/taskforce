@@ -11,3 +11,4 @@
 
 #### SQL Temelleri ####
 - [SELECT](Select/)
+- [WHERE ve Karşılaştırma Operatörleri](WhereComparison/)
