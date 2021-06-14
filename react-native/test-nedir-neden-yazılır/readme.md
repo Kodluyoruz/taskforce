@@ -1,1 +1,1 @@
-# React Navigation Paket Kurulumu
+# Tes Nedir? Neden Yazılır?
