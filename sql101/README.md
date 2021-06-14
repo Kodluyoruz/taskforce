@@ -16,3 +16,4 @@
 - [Ödev 1](Odev1/)
 - [BETWEEN ve IN](BetweenAndIn/)
 - [Ödev 2](Odev2/)
+- [LIKE ve ILIKE](LikeAndILike/)
