@@ -71,3 +71,24 @@
 1. (Youtube adresi yazılacak)
 	- Bu videoda; PostgreSQL veritabanı yönetim sistemi yazılımının kurulum aşamalarını konuştuk.
 
+### [SELECT](Select/)
+#### Sorular
+#### Sorular
+1. "Customer" sanal tablomuzda bulunan müşteri bilgilerinden "name" ve "age" sütunlarında bulunan verileri nasıl seçeriz?
+	- SLCT name, age FRM customer;
+	- FROM name, age SELECT customer;
+	- SELECT name, age, customer;
+	- SELECT name, age FROM customer; (Doğru)
+	- SELECT FROM name, age, customer; 
+2. SELECT sorgusunda bulunan asteriks (*) karekteri ile
+	- Tüm satırları seçeriz.
+	- Tüm sütunları seçeriz. (Doğru)
+	- İlk satırı seçeriz.
+	- İlk sütunu seçeriz.
+	- Son sütunu seçeriz.
+
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SQL SELECT komutu üzerine konuştuk.
+
