@@ -73,7 +73,6 @@
 
 ### [SELECT](Select/)
 #### Sorular
-#### Sorular
 1. "Customer" sanal tablomuzda bulunan müşteri bilgilerinden "name" ve "age" sütunlarında bulunan verileri nasıl seçeriz?
 	- SLCT name, age FRM customer;
 	- FROM name, age SELECT customer;
@@ -87,6 +86,27 @@
 	- İlk sütunu seçeriz.
 	- Son sütunu seçeriz.
 
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; SQL SELECT komutu üzerine konuştuk.
+
+### [WHERE ve Karşılaştırma Operatörleri](WhereComparison/)
+#### Sorular
+1. "Employee" sanal tablomuzda bulunan müşteri bilgilerinden "first_name" ve "age" sütunlarında bulunan verileri "ya 18 den büyük" koşuluyla nasıl seçeriz?
+	- SELECT first_name, age FROM Employee WHERE age > 18; (Doğru)
+	- WHERE age > 18 SELECT first_name, age FROM Employee;
+	- SELECT first_name, age > 18;
+	- SELECT WHERE age > 18 FROM Employee;
+	- SELECT age FROM Employee WHERE first_name, age > 18;
+					
+2. "<>" karşılaştırma operatörünün anlamı nedir?
+	- Büyük ve küçük
+	- Küçük ve büyük
+	- Eşit
+	- Büyük
+	- Eşit değil
+					
 
 #### Video
 1. (Youtube adresi yazılacak)
