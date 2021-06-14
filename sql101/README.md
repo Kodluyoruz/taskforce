@@ -15,3 +15,4 @@
 - [WHERE ve Mantıksal Operatörler](WHERELogical/)
 - [Ödev 1](Odev1/)
 - [BETWEEN ve IN](BetweenAndIn/)
+- [Ödev 1](Odev2/)
