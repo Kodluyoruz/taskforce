@@ -133,3 +133,5 @@
 1. (Youtube adresi yazılacak)
 	- Bu videoda; WHERE komutu ve matıksal operatörler üzerine konuştuk.
 
+### [Ödev 1](Odev1/)
+- Bu ödevde; SQL SELECT ve WHERE komutlarının yanında Karşılaştırma ve Mantıksal operatörler konularını pekiştirmeye çalışacağız.
