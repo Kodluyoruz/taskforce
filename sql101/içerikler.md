@@ -150,4 +150,7 @@
 	- 20 sonuç verisine dahildir.
 	- 10 sonuç versine dahildir and 20 dahil değildir.
 	- İkisi de sonuç verisine dahil değildir.
-	- İkisi de sonuç verisine dahildir. (Doğru)						
+	- İkisi de sonuç verisine dahildir. (Doğru)
+
+### [Ödev 2](Odev1/)
+- Bu ödevde; SQL, BETWEEN AND ve IN operatörleri konularını pekiştirmeye çalışacağız.					
