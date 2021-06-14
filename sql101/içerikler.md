@@ -153,4 +153,23 @@
 	- İkisi de sonuç verisine dahildir. (Doğru)
 
 ### [Ödev 2](Odev2/)
-- Bu ödevde; SQL, BETWEEN AND ve IN operatörleri konularını pekiştirmeye çalışacağız.					
+- Bu ödevde; SQL, BETWEEN AND ve IN operatörleri konularını pekiştirmeye çalışacağız.		
+
+### [LIKE ve ILIKE](LikeILike/)
+#### Sorular
+1. " WHERE first_name LIKE 'A%Z' " sorgu parçası nasıl ifade edilir??
+	- Yalnızca AZ karakterlerinden oluşan isim.
+	- Z karakteri ile başlayıp A karekteri ile biten isim.
+	- A ve Z karekterlerinin olmadığı bir isim.
+	- A karakteri ile başlayıp Z karekteri ile biten isim. (Doğru)
+	- A karakteri ile başlayıp Z karekteri ile biten toplam 3 karaktere sahip isim.										
+					
+2. "_her%" şablonuna hangi söz dizimi uymaz?
+	- cher
+	- hero (doğru)
+	- ther
+	- chera
+	- xhert
+
+### [Ödev 2](Odev2/)
+- Bu ödevde; LIKE ve ILIKE operatörleri konularını pekiştirmeye çalışacağız.			
