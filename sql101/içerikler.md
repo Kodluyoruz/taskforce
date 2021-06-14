@@ -171,5 +171,5 @@
 	- chera
 	- xhert
 
-### [Ödev 2](Odev2/)
+### [Ödev 3](Odev3/)
 - Bu ödevde; LIKE ve ILIKE operatörleri konularını pekiştirmeye çalışacağız.			
