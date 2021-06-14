@@ -125,7 +125,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Uygulama Mağazası (Google Play Console)](uygulama-magazasi-google-play-console/)
 
 #### Unit Test Kavramları ####
-- [Tes Nedir? Neden Yazılır?](test-nedir-neden-yazılır/)
+- [Test Nedir? Neden Yazılır?](test-nedir-neden-yazılır/)
 
 
 
