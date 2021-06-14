@@ -1,1 +1,1 @@
-# Tes Nedir? Neden Yazılır?
+# Test Nedir? Neden Yazılır?
