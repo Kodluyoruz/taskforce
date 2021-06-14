@@ -141,3 +141,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [useRef Hook'u ve Zoom İşlemi](useref-hooku-ve-zoom-islemi/)
 - [User Card Modal Eklentisi](user-card-modal-eklentisi/)
 
+#### Proje Ön Raporu ####
+- [Proje Raporu Nedir](proje-raporu-nedir/)
+- [Örnek Proje Raporu Çıkarma](örnek-proje-raporu-çıkarma/)
+
