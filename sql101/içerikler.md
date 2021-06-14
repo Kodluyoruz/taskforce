@@ -66,7 +66,7 @@
 #### Sorular
 1.Yok
 
-
+## SQL Temelleri 
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; PostgreSQL veritabanı yönetim sistemi yazılımının kurulum aşamalarını konuştuk.
