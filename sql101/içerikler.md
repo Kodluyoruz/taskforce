@@ -152,5 +152,5 @@
 	- İkisi de sonuç verisine dahil değildir.
 	- İkisi de sonuç verisine dahildir. (Doğru)
 
-### [Ödev 2](Odev1/)
+### [Ödev 2](Odev2/)
 - Bu ödevde; SQL, BETWEEN AND ve IN operatörleri konularını pekiştirmeye çalışacağız.					
