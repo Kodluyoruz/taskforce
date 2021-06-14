@@ -135,3 +135,19 @@
 
 ### [Ödev 1](Odev1/)
 - Bu ödevde; SQL SELECT ve WHERE komutlarının yanında Karşılaştırma ve Mantıksal operatörler konularını pekiştirmeye çalışacağız.
+
+### [BETWEEN ve IN](BetweenAndIn/)
+#### Sorular
+1. "Players" sanal tablomuzda bulunan oyuncuların "age" sütununda bulunan verileri "18 den büyük eşit ve 40 tan küçük eşit olmayan" koşuluyla nasıl seçeriz?
+	- SELECT age FROM Players WHERE age NOT BETWEEN 18 AND 40; (Doğru)
+	- WHERE age NOT BETWEEN 18 AND 40;
+	- SELECT * FROM Players WHERE age NOT BETWEEN 18 AND 40;
+	- SELECT age FROM Players WHERE age BETWEEN 18 AND 40;
+	- SELECT age FROM Players WHERE BETWEEN 18 AND 40;										
+					
+2. BETWEEN 10 AND 20 sorgu parçasında bulunan 10 ve 20 değerleri için hangisi söylenebilir?
+	- 10 sonuç versine dahildir.
+	- 20 sonuç verisine dahildir.
+	- 10 sonuç versine dahildir and 20 dahil değildir.
+	- İkisi de sonuç verisine dahil değildir.
+	- İkisi de sonuç verisine dahildir. (Doğru)						
