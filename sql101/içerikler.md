@@ -152,6 +152,10 @@
 	- İkisi de sonuç verisine dahil değildir.
 	- İkisi de sonuç verisine dahildir. (Doğru)
 
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; BETWEEN ve IN operatörleri üzerine konuştuk.
+
 ### [Ödev 2](Odev2/)
 - Bu ödevde; SQL, BETWEEN AND ve IN operatörleri konularını pekiştirmeye çalışacağız.		
 
@@ -170,6 +174,25 @@
 	- ther
 	- chera
 	- xhert
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; LIKE ve ILIKE operatörleri üzerine konuştuk.
 
 ### [Ödev 3](Odev3/)
-- Bu ödevde; LIKE ve ILIKE operatörleri konularını pekiştirmeye çalışacağız.			
+- Bu ödevde; LIKE ve ILIKE operatörleri konularını pekiştirmeye çalışacağız.	
+
+### [DISTINCT ve COUNT](DistinctAndCount/)
+#### Sorular
+1. "Country" sanal tablomuzda bulunan "city" sütunundaki birbirinden farklı şehir isimlerini nasıl sıralarız?
+	- SELECT city FROM Country;
+	- SELECT DISTINCT city FROM Country; (Doğru)
+	- SELECT DISTINCT Country FROM city;
+	- DISTINCT city FROM Country;
+	- SELECT DISTINCT FROM Country city;										
+					
+2. "Country" sanal tablomuzda bulunan "city" sütunundaki birbirinden farklı kaç şehir ismi olduğunu nasıl buluruz?
+	- SELECT COUNT(DISTINCT city) Country;
+	- SELECT COUNT city FROM Country;
+	- SELECT COUNT(city) FROM Country;
+	- COUNT(DISTINCT city) FROM Country;
+	- SELECT COUNT(DISTINCT city) FROM Country; (Doğru)	
