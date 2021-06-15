@@ -293,3 +293,25 @@
 
 ### [Ödev 6](Odev6/)
 - Bu ödevde; Aggregate fonksiyonlarını pekiştirmeye çalışacağız.
+
+### [GROUP BY](GroupBY/)
+#### Sorular
+1. "Customers" sanal tablomuzda bulunan müşterilerimizin sayısını "Country" sütununa göre nasıl gruplarız? 
+	- SELECT Country FROM Customers GROUP BY Country;
+	- SELECT COUNT(Country) GROUP BY Country;
+	- SELECT COUNT(Country) FROM Country GROUP BY Customers;
+	- SELECT COUNT(Country) FROM Customers GROUP BY Country; (Doğru)
+	- COUNT(Country) FROM Customers GROUP BY Country;					
+							
+	
+2. GROUP BY anahtar kelimesi ile...
+	- verileri sıralarız.
+	- verileri dağıtırız.
+	- verileri sileriz.
+	- verileri ekleriz.
+	- verileri gruplarız. (Doğru)
+										
+					
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; GROUP BY anahtar kelimesi üzerine konuştuk.
