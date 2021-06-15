@@ -16,7 +16,7 @@ Hyper Text Transfer Protokol kelimelerinin baş harflerinden meydana gelen bir m
 
 Http protokolü client-server mimarisi ile çalışır. Yani tarayıcınız sunucuya isteği Http aracılığıyla gönderir.
 
-![Client Server Mimarisi](https://www.w3schools.in/wp-content/uploads/2019/01/client-server.jpg)
+![Client Server Mimarisi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/dotnet-core/1-http-ptotokolu/figures/client-server.jpeg)
 
 Bir server'a birden fazla client aynı anda istekte bulunabilir. Ama client'ların birbirinden haberi yoktur. Client'lar ve server arasındaysa Http Request ve Http Response'ları gider gelir.
 
