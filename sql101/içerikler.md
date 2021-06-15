@@ -223,7 +223,27 @@
 1. (Youtube adresi yazılacak)
 	- Bu videoda; PSQL komutlarıyla tanıştık aynı zamanda şimdiye kadar konuşulan konular hakkında genel uygulamalar yapıldı.
 
+## SQL Temelleri II
 
+### [ORDER BY](OrderBY/)
+#### Sorular
+1. "Employee" sanal tablomuzda bulunan müşteri bilgilerini "name" sütununa göre artan, "age" sütununa göre azalan olarak sıralayınız.
+	- SELECT * FROM Employee ORDER BY name DESC age ASC;
+	- SELECT * FROM Employee name ASC age DESC;
+	- SELECT * FROM Employee name ASC age DESC ORDER BY;
+	- SELECT * FROM Employee ORDER BY name ASC age DESC; (Doğru)
+	- Employee ORDER BY name ASC age DESC;
+						
+2. ORDER BY anahtar kelimesini neden kullanılırz?
+	- Verileri sıralamak için (Doğru)
+	- Verileri gruplamak için
+	- Verileri listelemek için
+	- Verileri silmek için
+	- Verileri eklemek için
+					
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; ORDER BY anahtar kelimesi üzerine konuştuk.
 
 
 
