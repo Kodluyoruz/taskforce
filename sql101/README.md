@@ -28,3 +28,4 @@
 - [Ödev 5](Odev5/)
 - [Aggregate Fonksiyonlar](AggregateFunctions/)
 - [Ödev 6](Odev6/)
+- [GROUP BY](GroupBY/)
