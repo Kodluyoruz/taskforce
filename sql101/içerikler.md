@@ -268,3 +268,25 @@
 
 ### [Ödev 5](Odev5/)
 - Bu ödevde; LIMIT ve OFFSET konularını pekiştirmeye çalışacağız.
+
+### [Aggregate Fonksiyonlar](AggregateFunctions/)
+#### Sorular
+1. "Products" sanal tablomuzda bulunan satır sayısını hangi fonksiyon yardımı ile bulabiliriz?
+	- SELECT MAX(*) FROM Products;
+	- SELECT MIN(*) FROM Products;
+	- SELECT COUNT(*) FROM Products; (Doğru)
+	- SELECT AVG(*) FROM Products;
+	- SELECT SUM(*) FROM Products;					
+							
+	
+2. "Products" sanal tablomuzda bulunan "Price" sütunundaki değerlerin ortalamasını hangi SQL komutları ile alırız?
+	- SELECT MIN(Price) FROM Products;
+	- SELECT AVG(Price) FROM Products; (Doğru)
+	- SELECT SUM(Price) FROM Products;
+	- SELECT COUNT(Price) FROM Products;
+	- SELECT MAX(Price) FROM Products;
+						
+					
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Aggregate fonksiyonlar üzerine konuştuk.
