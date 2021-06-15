@@ -290,3 +290,6 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Aggregate fonksiyonlar üzerine konuştuk.
+
+### [Ödev 6](Odev6/)
+- Bu ödevde; Aggregate fonksiyonlarını pekiştirmeye çalışacağız.
