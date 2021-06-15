@@ -20,3 +20,4 @@
 - [Ödev 3](Odev3/)
 - [DISTINCT ve COUNT](DistinctAndCount/)
 - [Ödev 4](Odev4/)
+- [PSQL ve Uygulama I](PSQLAndPractiveI/)
