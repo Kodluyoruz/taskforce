@@ -2,7 +2,7 @@
 
 Bu projede bir kripto para birimi finansmanı fiyat takip uygulaması yapacağız. Para birimlerini arayabileceğiz ve görüntüleyeceğiz. 
 
-- Tüm verileri genel bir API’dan alacağız. Burayı kullanabilirsiniz.
+- Tüm verileri genel bir API’dan alacağız. [Burayı](https://www.coingecko.com/en/api) kullanabilirsiniz.
 - Sayfa ilk açıldığında varsayılan olarak Search componenti ve para birimlerinin güncel hali bizi karşılamalıdır.
 - Sayfa her yenilendiğinde fiyatlar canlı olarak güncellenebilecek.
 - API’ı projemize dahil etmek ve kullanmak için Axios kütüphanesi kullanılmalıdır.
