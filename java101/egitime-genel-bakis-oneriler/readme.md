@@ -1,4 +1,4 @@
-# Eğitime Genel Bakış ve Öneriler
+#### Eğitime Genel Bakış ve Öneriler ####
 
 ## Ne Öğreneceğiz ? Bizleri Neler Bekliyor ?
 
