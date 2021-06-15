@@ -34,7 +34,7 @@ LIMIT 4;
 
 
 ## Daha Fazlası İçin
-- [PostgreSQL Tutorial SELECT DISTINCT](https://www.postgresqltutorial.com/postgresql-limit/)
+- [PostgreSQL Tutorial LIMIT](https://www.postgresqltutorial.com/postgresql-limit/)
 
 
 
