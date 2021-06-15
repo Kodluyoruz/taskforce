@@ -19,3 +19,4 @@
 - [LIKE ve ILIKE](LikeILike/)
 - [Ödev 3](Odev3/)
 - [DISTINCT ve COUNT](DistinctAndCount/)
+- [Ödev 4](Odev4/)
