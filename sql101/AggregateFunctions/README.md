@@ -7,7 +7,7 @@ Aggregate fonksiyonları yardımıyla bizler veri kümelerimizden sonuçlar çı
 Bu şekilde belirli veri kümelerinden tek bir sonuç çıkarmak için aggregate fonksiyonları kullanırız.
 
 
-### Örnek KUllanımlar
+### Örnek Kullanımlar
 AVG fonsiyonunu kullandığımız sayısal değerlerden oluşan sütunun ortalama değerini alırız.
 
 ```SQL
