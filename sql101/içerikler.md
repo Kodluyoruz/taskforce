@@ -196,3 +196,9 @@
 	- SELECT COUNT(city) FROM Country;
 	- COUNT(DISTINCT city) FROM Country;
 	- SELECT COUNT(DISTINCT city) FROM Country; (Doğru)	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; DISTINCT operatörü ve COUNT aggregate fonksiyonu üzerine konuştuk.
+
+### [Ödev 4](Odev4/)
+- Bu ödevde; DISTINCT operatörü ve COUNT aggregate fonksiyonu konularını pekiştirmeye çalışacağız.	
