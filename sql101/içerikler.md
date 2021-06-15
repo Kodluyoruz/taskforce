@@ -201,4 +201,29 @@
 	- Bu videoda; DISTINCT operatörü ve COUNT aggregate fonksiyonu üzerine konuştuk.
 
 ### [Ödev 4](Odev4/)
-- Bu ödevde; DISTINCT operatörü ve COUNT aggregate fonksiyonu konularını pekiştirmeye çalışacağız.	
+- Bu ödevde; DISTINCT operatörü ve COUNT aggregate fonksiyonu konularını pekiştirmeye çalışacağız.
+
+### [PSQL ve Uygulama I](PSQLAndPractiveI/)
+#### Sorular
+1. PSQL terminal ekranında veritabanlarını sıralamak için hangi komut kullanılır?
+	- \l (Doğru)
+	- list
+	- \database
+	- \U
+	- \list databases										
+					
+2. PSQL terminal ekranında bağlanılan veritabanına ait tabloları listelemek için hangi komut kullanılır?
+	- list
+	- \q
+	- \dt (Doğru)
+	- \dn
+	- \list tables	
+						
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; PSQL komutlarıyla tanıştık aynı zamanda şimdiye kadar konuşulan konular hakkında genel uygulamalar yapıldı.
+
+
+
+
+
