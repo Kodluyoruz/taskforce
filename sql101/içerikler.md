@@ -245,5 +245,24 @@
 1. (Youtube adresi yazılacak)
 	- Bu videoda; ORDER BY anahtar kelimesi üzerine konuştuk.
 
+### [LIMIT ve OFFSET](LimitAndOffset/)
+#### Sorular
+1. LIMIT anahtar kelimesini neden kullanırız?
+	- Sıralanacak veri koşulunu belirtmek için.
+	- Sıralanacak veri sayısını belirtmek için. (Doğru)
+	- Verileri eklemek için.
+	- Verileri listelemek için.
+	- Verileri silmek için.					
+						
+2. ... OFFSET 10 LIMIT 3 sorgu parçacığı sonucunda kaç adet veri sıralanır?
+	- 13
+	- 30
+	- 7
+	- 10
+	- 3 (Doğru)
 
+					
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; LIMIT ve OFFSET anahtar kelimeleri üzerine konuştuk.
 
