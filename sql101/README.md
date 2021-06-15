@@ -25,3 +25,4 @@
 #### SQL Temelleri II ####
 - [ORDER BY](OrderBY/)
 - [LIMIT ve OFFSET](LimitAndOffset/)
+- [Ödev 5](Odev5/)
