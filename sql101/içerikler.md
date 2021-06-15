@@ -266,3 +266,5 @@
 1. (Youtube adresi yazılacak)
 	- Bu videoda; LIMIT ve OFFSET anahtar kelimeleri üzerine konuştuk.
 
+### [Ödev 5](Odev5/)
+- Bu ödevde; LIMIT ve OFFSET konularını pekiştirmeye çalışacağız.
