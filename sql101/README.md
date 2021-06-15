@@ -26,3 +26,4 @@
 - [ORDER BY](OrderBY/)
 - [LIMIT ve OFFSET](LimitAndOffset/)
 - [Ödev 5](Odev5/)
+- [Aggregate Fonksiyonlar](AggregateFunctions/)
