@@ -350,3 +350,27 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; ALIAS anahtar kelimesi üzerine konuştuk.
+
+## Tablolarla Çalışmak
+
+### [Tablo Oluşturmak - Silmek](CreateAndDrop/)
+#### Sorular
+1. "Products" sanal tablomuzu id (serial), name (VARCHAR-100) ve price(INTEGER) sütunları ile birlikte oluşturunuz.
+	- CREATE TABLE ( id SERIAL, name VARCHAR(100), price INTEGER ) Products ;
+	- CRT TBL Products ( id SERIAL, name VARCHAR(100), price INTEGER );
+	- CREATE TABLE Products ( id SERIAL, name VARCHAR(100), price INTEGER ); (Doğru)
+	- CREATE TABLE Products ( id, name, price );
+	- CREATE TABLE ( id SERIAL, name VARCHAR(100), price INTEGER );
+						
+						
+2. Tablo silme işleminde hata alımını önlemek için hangi anahtar kelimesi kullanılır?
+	- IF
+	- DROP
+	- CREATE
+	- IF EXISTS (Doğru)
+	- EXISTS
+						
+					
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Tablo oluşturmak ve silmek üzerine konuştuk.
