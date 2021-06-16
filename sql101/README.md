@@ -40,3 +40,4 @@
 - [PRIMARY KEY - FOREIGN KEY](PrimaryKeyAndForeignKey/)
 - [Veri Tipleri I](DataTypesI/)
 - [Veri Tipleri II](DataTypesII/)
+- [NOT NULL ve ALTER](NotNullAndAlter/)
