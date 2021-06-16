@@ -335,3 +335,6 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; HAVING anahtar kelimesi üzerine konuştuk.
+
+### [Ödev 7](Odev7/)
+- Bu ödevde; GROUP BY ve HAVING anahtar kelimelerini pekiştirmeye çalışacağız.
