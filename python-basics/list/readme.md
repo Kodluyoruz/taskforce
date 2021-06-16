@@ -418,7 +418,7 @@ a = 2
 l = [1,2,3]
 ```
 
-![aliasing2.png](attachment:aliasing2.png)
+[aliasing2.png](attachment:aliasing2.png)
 
 - Bu farkın getirdiği bazı yan etkiler var.
 
