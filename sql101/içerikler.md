@@ -374,3 +374,24 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Tablo oluşturmak ve silmek üzerine konuştuk.
+
+### [Verileri Güncellemek - Silmek](UpdateAndDelete/)
+#### Sorular
+1. UPDATE anahtar kelimesi ile...
+	- verileri güncelleriz. (Doğru)
+	- verileri sıralarız.
+	- verileri dağıtırız.
+	- verileri sileriz.
+	- verileri ekleriz.											
+						
+2. DELETE anahtar kelimesi ile...
+	- verileri sıralarız.
+	- verileri sileriz. (Doğru)
+	- verileri dağıtırız.
+	- verileri güncelleriz.
+	- verileri ekleriz.
+											
+					
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Tablo içerisindeki verileri güncellemek ve silmek üzerine konuştuk.
