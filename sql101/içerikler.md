@@ -494,3 +494,6 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; INNER JOIN kavramı üzerine konuştuk.
+
+### [Ödev 9](Odev9/)
+- Bu ödevde; Inner Join kavramını pekiştirmeye çalışacağız.
