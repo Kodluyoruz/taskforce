@@ -316,7 +316,7 @@
 1. (Youtube adresi yazılacak)
 	- Bu videoda; GROUP BY anahtar kelimesi üzerine konuştuk.
 
-### [Having](GHaving/)
+### [Having](Having/)
 #### Sorular
 1. "Customers" sanal tablomuzda bulunan müşterilerimizin sayısını "Country" sütununa göre müşteri sayısı (CustomerID) 10 dan büyük olma koşulu ile nasıl gruplarız?
 	- SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country > 10;
