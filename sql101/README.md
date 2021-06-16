@@ -42,7 +42,7 @@
 - [Veri Tipleri II](DataTypesII/)
 - [NOT NULL ve ALTER](NotNullAndAlter/)
 - [UNIQUE](UNIQUE/)
-- [CHECK](Check/)
+- [CHECK](CHECK/)
 
 #### JOIN Yapıları ####
 - [INNER JOIN](InnerJoin/)
