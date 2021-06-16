@@ -457,3 +457,26 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Veri tipleri üzerine konuştuk.
+
+## JOIN Yapıları
+
+### [INNER JOIN](InnerJoin/)
+#### Sorular
+1. "Customer" tablosu ile "Order" tablosundaki verileri "Customer" tablosundaki ID ve "Order" tablosundaki CustomerID sütunları sayesinde eşleştiriniz.
+	- "SELECT Order.CustomerID, Customer.ID FROM INNER JOIN ON Order.CustomerID = Customer.ID;"
+	- "SELECT FROM Customer INNER JOIN Order ON Order.CustomerID = Customer.ID;"
+	- "SELECT Order, Customer FROM Customer INNER JOIN Order ON Order.CustomerID = Customer.ID;"
+	- "SELECT Order.CustomerID, Customer.ID FROM Customer INNER JOIN Order ON Order.CustomerID = Customer.ID;" (Doğru)
+	- "SELECT Order.CustomerID, Customer.ID FROM Customer INNER JOIN Order Order.CustomerID = Customer.ID;"							
+						
+2. JOIN yapılarını temel olarak neden kullanırız?
+	- Tablolara veri eklemek için.
+	- Tablodaki verileri silmek için.
+	- Tablo oluşturmak için.
+	- Tablodaki verileri düzenlemek için.
+	- Farklı tablolardaki verileri birleştirmek için. (Doğru)
+											
+					
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; INNER JOIN kavramı üzerine konuştuk.
