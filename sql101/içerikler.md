@@ -497,3 +497,28 @@
 
 ### [Ödev 9](Odev9/)
 - Bu ödevde; Inner Join kavramını pekiştirmeye çalışacağız.
+
+### [LEFT JOIN](LeftJoin/)
+#### Sorular
+1. LEFT JOIN yapısı ile ilgili hangisi söylenemez?
+	- Sadece eşleşen veriler belirtilir. (Doğru)
+	- Simetrik bir JOIN yapısı değildir. 
+	- Tablo 1 deki verilerin tamamı alınır.
+	- Sanal tabloda NULL ifadeleri bulunabilir.
+	- Tablo 2 deki eşleşen veriler alınır.																																	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; LEFT JOIN kavramı üzerine konuştuk.
+
+### [RIGHT JOIN](RightJoin/)
+#### Sorular
+1. "product" ile "category" tabloları arasında arasında category.id ve product.category_id sütunlarından faydalanarak "category" tablosu tablo 2 olma durumunda ilgili RIGHT JOIN'i yazınız.
+	- "SELECT category.id, product.category_id FROM product JOIN category ON category.id = product.category_id;"
+	- "SELECT category.id, product.category_id FROM product JOIN RIGHT category ON category.id = product.category_id;" 
+	- "SELECT category.id, product.category_id FROM product RIGHT JOIN ON category.id = product.category_id;"
+	- "SELECT category.id, product.category_id FROM RIGHT JOIN category ON category.id = product.category_id;"
+	- "SELECT category.id, product.category_id FROM product RIGHT JOIN category ON category.id = product.category_id;" (Doğru)	
+																																	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; RIGHT JOIN kavramı üzerine konuştuk.
