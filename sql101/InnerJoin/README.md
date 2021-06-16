@@ -32,6 +32,7 @@ FROM <tablo1_adı>
 INNER JOIN <tablo2_adı>
 ON <tablo1_adı>.<sütun_adı> = <tablo2_adı>.<sütun_adı>;
 ```
+Buradaki tablo1 "left table", tablo2 "right table" olarak da adlandırılır.
 
 
 ## Daha Fazlası İçin
