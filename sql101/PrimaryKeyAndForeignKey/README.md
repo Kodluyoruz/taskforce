@@ -9,7 +9,7 @@ veri sıralarına ait bir "benzersiz tanımlayıcıdır".
 - NULL değerine sahip olamaz.
 - Bir tabloda en fazla 1 tane bulunur.
 
-![PRIMARY KEY](https://github.com/Kodluyoruz/taskforce/blob/main/sql101/DatabaseManagementSystem/figures/PrimaryKey.gif)
+![PRIMARY KEY](https://github.com/Kodluyoruz/taskforce/blob/main/sql101/PrimaryKeyAndForeignKey/figures/PrimaryKey.gif)
 
 Yukarıda bulunan görselimizde de gördüğünüz gibi STUDENT tablosunda bulunan **StudentId** sütunu PRIMARY KEY yapısındadır ve her satırı (veri kaydını) diğer
 satırlardan ayırmamızı sağlar.
@@ -21,7 +21,7 @@ satırlardan ayırmamızı sağlar.
 - Aynı sütunun içerisinde aynı değerler bulunabilir.
 
 
-![PRIMARY KEY](https://github.com/Kodluyoruz/taskforce/blob/main/sql101/DatabaseManagementSystem/figures/ForeignKey.gif)
+![PRIMARY KEY](https://github.com/Kodluyoruz/taskforce/blob/main/sql101/PrimaryKeyAndForeignKey/figures/ForeignKey.gif)
 
 Yukarıda bulunan görselimizde de gördüğünüz gibi STUDENT tablosunda bulunan **courseId** sütunu FOREIGN KEY yapısındadır ve başka bir tablo olan "Course" tablosundaki
 **courseId** sütununa referans verir.
