@@ -30,3 +30,4 @@
 - [Ödev 6](Odev6/)
 - [GROUP BY](GroupBY/)
 - [HAVING](Having/)
+- [Ödev 7](Odev7/)
