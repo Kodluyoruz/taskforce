@@ -37,3 +37,4 @@
 - [Tablo Oluşturmak - Silmek](CreateAndDrop/)
 - [Verileri Güncellemek - Silmek](UpdateAndDelete/)
 - [Ödev 8](Odev8/)
+- [PRIMARY KEY - FOREIGN KEY](PrimaryKeyAndForeignKey/)
