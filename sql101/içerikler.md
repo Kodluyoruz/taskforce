@@ -458,6 +458,20 @@
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Veri tipleri üzerine konuştuk.
 
+### [UNIQUE](UNIQUE/)
+#### Sorular
+1. Yok																																					
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; UNIQUE kısıtlama yapısı üzerine konuştuk.
+
+### [CHECK](CHECK/)
+#### Sorular
+1. Yok																																					
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; CHECK kısıtlama yapısı üzerine konuştuk.
+
 ## JOIN Yapıları
 
 ### [INNER JOIN](InnerJoin/)
