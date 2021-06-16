@@ -315,3 +315,23 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; GROUP BY anahtar kelimesi üzerine konuştuk.
+
+### [Having](GHaving/)
+#### Sorular
+1. "Customers" sanal tablomuzda bulunan müşterilerimizin sayısını "Country" sütununa göre müşteri sayısı (CustomerID) 10 dan büyük olma koşulu ile nasıl gruplarız?
+	- SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country > 10;
+	- SELECT COUNT(CustomerID), Country FROM Customers HAVING COUNT(CustomerID) > 10;
+	- Country FROM Customers GROUP BY Country HAVING COUNT(CustomerID) > 10;
+	- SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country WEHERE COUNT(CustomerID) > 10;
+	- SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING COUNT(CustomerID) > 10; (Doğru)						 													
+2. HAVING anahtar kelimesi hakkında hangisi yanlıştır?
+	- GROUP BY anahtar kelimesinden sonra kullanılır.
+	- WHERE anahtar kelimesi yerine kullanılır. (Doğru)
+	- Aggregate fonksiyonlarla birlikte kullanılabilinir.
+	- COUNT() fonksiyonu ile birlikte kullanılabilinir.
+	- Gruplandırılmış verilere koşul getirir.
+																
+					
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; HAVING anahtar kelimesi üzerine konuştuk.
