@@ -398,3 +398,24 @@
 
 ### [Ödev 8](Odev8/)
 - Bu ödevde; Verileri Güncellemek - Silmek konularını pekiştirmeye çalışacağız.
+
+### [PRIMARY KEY - FOREIGN KEY](PrimaryKeyAndForeignKey/)
+#### Sorular
+1. PRIMARY KEY kısıtlama yapısı ile ilgili hangisi söylenemez?
+	- Sütundaki değerler birbirinden farklı olmalıdır.
+	- Unique olmalıdır.
+	- Kullanılması şart değildir.
+	- Bir tabloda en fazla bir tane bulunabilir.
+	- FOREIGN KEY sütununun yanında olmalıdır. (Doğru)											
+						
+2. FOREIGN KEY kısıtlama yapısı ile ilgili hangisi söylenemez?
+	- Sütundaki değerler birbirinin aynı olabilir.
+	- Bir tabloda en fazla birden fazla bulunabilir.
+	- Her tabloda bulunması zorunludur. (Doğru)
+	- Sütundaki değerler birbirinden farklı olabilir.
+	- Başka bir tablodaki PRIMARY KEY sütuna referans verebilirler.	
+																					
+					
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Primary Key ve Foreign Key kavramları üzerine konuştuk.
