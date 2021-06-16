@@ -32,3 +32,7 @@
 - [HAVING](Having/)
 - [Ödev 7](Odev7/)
 - [ALIAS](Alias/)
+
+#### Tablolarla Çalışmak ####
+- [Tablo Oluşturmak - Silmek](CreateAndDrop/)
+
