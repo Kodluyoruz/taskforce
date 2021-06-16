@@ -36,9 +36,8 @@ SET NOT NULL;
 ```
 
 ## Daha Fazlası İçin
-- [W3Schools SQL WHERE](https://www.w3schools.com/sql/sql_where.asp)
-- [PostgreSQL Tutorial SQL WHERE](https://www.postgresqltutorial.com/postgresql-where/)
-- [PostgreSQL Karşılaştırma Operatörleri](https://www.postgresql.org/docs/13/functions-comparison.html)
+- [W3Schools NOT NULL](https://www.w3schools.com/sql/sql_notnull.asp)
+
 
 
 
