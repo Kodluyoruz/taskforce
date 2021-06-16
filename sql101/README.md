@@ -41,7 +41,7 @@
 - [Veri Tipleri I](DataTypesI/)
 - [Veri Tipleri II](DataTypesII/)
 - [NOT NULL ve ALTER](NotNullAndAlter/)
-- [UNIQUE](Unique/)
+- [UNIQUE](UNIQUE/)
 - [CHECK](Check/)
 
 #### JOIN Yapıları ####
