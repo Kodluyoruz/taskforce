@@ -39,7 +39,7 @@ NOT: Vector ve Stack sınıfları, legacy (miras) sınıflardır. Java 5'ten ön
 
 List Interface’den türemiş alt sınıf olan ArrayList, liste halindeki verileri dinamik diziler(array) kullanarak saklar. Default boyutu 10’dur.
 
-![img](figures/arraylist.png)
+![img](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/collection-arraylist/figures/arraylist.png)
 
 Bu dizilere yeni eleman eklendikçe eğer boyutu yetmiyorsa, çalışma zamanında, arka tarafta var olan dizinin boyutunun 2 katı olan yeni dizi tanımlanır. Eski dizideki elemanlar indis değerleri korunarak yeni diziye aktarılırlar. Esnek fakat maliyetli bir collection’dır.
 
