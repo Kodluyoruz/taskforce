@@ -47,3 +47,4 @@
 #### JOIN Yapıları ####
 - [INNER JOIN](InnerJoin/)
 - [Ödev 9](Odev9/)
+- [LEFT JOIN](LeftJoin/)
