@@ -41,3 +41,6 @@
 - [Veri Tipleri I](DataTypesI/)
 - [Veri Tipleri II](DataTypesII/)
 - [NOT NULL ve ALTER](NotNullAndAlter/)
+
+#### JOIN Yapıları ####
+- [INNER JOIN](InnerJoin/)
