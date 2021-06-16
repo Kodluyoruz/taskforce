@@ -31,3 +31,4 @@
 - [GROUP BY](GroupBY/)
 - [HAVING](Having/)
 - [Ödev 7](Odev7/)
+- [ALIAS](Alias/)
