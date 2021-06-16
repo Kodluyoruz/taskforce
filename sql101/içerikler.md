@@ -419,3 +419,41 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Primary Key ve Foreign Key kavramları üzerine konuştuk.
+
+### [Veri Tipleri I](DataTypesI/)
+#### Sorular
+1. "age" yaş sütunu için kullanılabilecek en efektif veri tipi hangisidir?
+	- integer
+	- decimal
+	- numeric
+	- smallint (Doğru)
+	- real											
+						
+2. Hangisi ondalıklı sayılar için kullanılan sayısal veri tip lerinden biridir?
+	- integer
+	- text
+	- smallint
+	- serial
+	- decimal (Doğru)																																	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Veri tipleri üzerine konuştuk.
+
+### [Veri Tipleri II](DataTypesII/)
+#### Sorular
+1. "first_name" isimli sütun için 50 karaktere kadar veri girilebilecek, daha az sayıda veri girdiğimde veri uzunluğunun girilen karakter kadar olması için hangi veri tipi kullnılmalıdır?
+	- VARCHAR(50) (Doğru)
+	- CHAR(50)
+	- TEXT(50)
+	- TEXT
+	- CHAR											
+						
+2. Hangisi TRUE sonucunu vermez? 
+	- 'on'
+	- 1
+	- dogru (Doğru)
+	- 'yes'
+	- true																																					
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Veri tipleri üzerine konuştuk.
