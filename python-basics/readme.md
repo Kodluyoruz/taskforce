@@ -49,7 +49,7 @@
   - [Non-scalar Veri Tiplerinde For](non-scalar-for/)
   - [Split-Join](join-split/)
   - [List Comprehension](list-comprehension/)
-  - [Varible Unpacking](variable-unpacking/)
+  - [Variable Unpacking](variable-unpacking/)
   - [Enumerate-Zip](enumerate-zip/)
 
 #### Fonksiyonlar ####
