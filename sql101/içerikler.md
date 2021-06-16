@@ -338,3 +338,15 @@
 
 ### [Ödev 7](Odev7/)
 - Bu ödevde; GROUP BY ve HAVING anahtar kelimelerini pekiştirmeye çalışacağız.
+
+### [Alias](Alias/)
+#### Sorular
+1. "Products" sanal tablomuzda bulunan "ProductID" sütununa ID ve "ProductName" sütuna da Product geçici isimleri nasıl veririz?
+	- SELECT ProductID AS ID, ProductName AS Product FROM Products; (Doğru)
+	- SELECT ProductID AS ID, ProductName AS Product;
+	- SELECT ID, Product FROM Products;
+	- SELECT ProductID AS ProductName FROM Products;
+	- SELECT AS ID, AS Product FROM Products;													 																								
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; ALIAS anahtar kelimesi üzerine konuştuk.
