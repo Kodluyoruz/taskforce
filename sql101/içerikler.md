@@ -395,3 +395,6 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Tablo içerisindeki verileri güncellemek ve silmek üzerine konuştuk.
+
+### [Ödev 8](Odev8/)
+- Bu ödevde; Verileri Güncellemek - Silmek konularını pekiştirmeye çalışacağız.
