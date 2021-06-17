@@ -36,7 +36,9 @@ UNION
 SELECT <sütun_adı>, <sütun_adı>...
 FROM <table2>
 ```
+### UNION ALL
 
+UNION operatörü bize birleşik veriler içerisindeki tekrar edenleri göstermez. Tekrar edenleri görmek için **UNION ALL** kullanırız.
 
 ## Daha Fazlası İçin
 - [W3Schools UNION](https://www.w3schools.com/sql/sql_union.asp)
