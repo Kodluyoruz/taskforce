@@ -517,8 +517,20 @@
 	- "SELECT category.id, product.category_id FROM product JOIN RIGHT category ON category.id = product.category_id;" 
 	- "SELECT category.id, product.category_id FROM product RIGHT JOIN ON category.id = product.category_id;"
 	- "SELECT category.id, product.category_id FROM RIGHT JOIN category ON category.id = product.category_id;"
-	- "SELECT category.id, product.category_id FROM product RIGHT JOIN category ON category.id = product.category_id;" (Doğru)	
-																																	
+	- "SELECT category.id, product.category_id FROM product RIGHT JOIN category ON category.id = product.category_id;" (Doğru)																	
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; RIGHT JOIN kavramı üzerine konuştuk.
+
+### [FULL JOIN](FullJoin/)
+#### Sorular
+1. Aşağıda kullanılan hangi JOIN işlemi her iki tablonun birleşimini alır?
+
+	- RIGHT JOIN
+	- FULL JOIN (Doğru)
+	- JOIN
+	- INNER JOIN
+	- LEFT JOIN																	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; FULL JOIN kavramı üzerine konuştuk.
