@@ -537,3 +537,30 @@
 
 ### [Ödev 10](Odev10/)
 - Bu ödevde; Left Join, Right Join ve Full Join kavramlarını pekiştirmeye çalışacağız.
+
+### [UNION](Union/)
+#### Sorular
+1. "Customer" ve "Supplier" sanaltablolarında bulunan "city" sütunlarındaki verileri nasıl birleştiririz? 
+
+	- "SELECT City FROM Customer AND SELECT City FROM Supplier;"
+	- "SELECT City FROM Customer; SELECT City FROM Supplier;"	
+	- "SELECT City FROM Customer GROUP SELECT City FROM Supplier;"
+	- "SELECT City FROM Customer UNION SELECT City FROM Supplier;" (Doğru)
+	- "SELECT City FROM Customer ORDER SELECT City FROM Supplier;"	
+
+2. UNION operatörüyle ilgili hangisi söylenemez?
+
+	- Farklı tablolardaki tüm satırları birleştirir. (ALL)
+	- Farklı tablolar üzerinde de kullanılır.		
+	- Birleştirdiği sorgular aynı sayıda sütun dönmelidir.
+	- ALL anahtar kelimesi ile birlikte kullanılabilir.
+	- Birleştirdiği sorgulardaki sütunların veri tipi eşleşmelidir.																
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; UNION operatörü üzerine konuştuk.
+					
+ 		
+		
+	
+		
+		
