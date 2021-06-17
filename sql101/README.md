@@ -43,6 +43,7 @@
 - [NOT NULL ve ALTER](NotNullAndAlter/)
 - [UNIQUE](UNIQUE/)
 - [CHECK](CHECK/)
+- [PSQL ve Uygulama II](PSQLAndPractiveII/)
 
 #### JOIN Yapıları ####
 - [INNER JOIN](InnerJoin/)
