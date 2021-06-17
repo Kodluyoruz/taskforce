@@ -534,3 +534,6 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; FULL JOIN kavramı üzerine konuştuk.
+
+### [Ödev 10](Odev10/)
+- Bu ödevde; Left Join, Right Join ve Full Join kavramlarını pekiştirmeye çalışacağız.
