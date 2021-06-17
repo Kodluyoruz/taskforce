@@ -112,7 +112,6 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Codetalks](odev_4)
 
 #### Uygulama Dağıtma ####
-- [Uygulama Dağıtma](uygulama_dagitma/)
 - [Uygulama İcon Değiştirme (Android)](uygulama-icon-degistirme-android/)
 - [Uygulama İcon Değiştirme (iOS)](uygulama-icon-degistirme-ios/)
 - [Uygulama Release Alma (Android)](uygulama-release-alma-android/)
