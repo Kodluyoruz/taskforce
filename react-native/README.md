@@ -96,7 +96,6 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [kodwork](odev_4/)
 
 #### Firebase ####
-- [Bölüm Tanıtımı](bolum-tanitimi/)
 - [Firebase Tanıtımı ve Kurulumu](firebase-tanitimi-ve-kurulumu/)
 - [Firebase Auth Modülü](firebase-auth-modulu/)
 - [Firebase Realtime DB](firebase-realtime-db/)
