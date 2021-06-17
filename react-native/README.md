@@ -83,7 +83,6 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 
 #### State Management (Redux) ####
 - [State Management (Redux)](state_management)
-- [Bölüm Tanıtımı](bolum-tanitimi/)
 - [State Management nedir?](state-management-nedir/)
 - [Redux ile State Management Temelleri](redux-ile-state-management-temelleri/)
 - [Redux Detayları ve Tekrar](redux-detaylari-ve-tekrar/)
