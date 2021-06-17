@@ -558,6 +558,30 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; UNION operatörü üzerine konuştuk.
+
+### [INTERSECT ve EXCEPT](IntersectAndExcept/)
+#### Sorular
+1. "Customer" ve "Supplier" sanaltablolarında bulunan "city" sütunlarındaki verilerin kesişim kümelerini nasıl alırız?
+
+	- SELECT City FROM Customer INTERSECT SELECT City FROM Supplier; (Doğru)
+	- SELECT City FROM Customer AND SELECT City FROM Supplier;	
+	- SELECT City FROM Customer  SELECT City FROM Supplier;
+	- SELECT City FROM Customer GROUP SELECT City FROM Supplier;
+	- SELECT City FROM Customer EXCEPT SELECT City FROM Supplier;		
+
+2. Farklı iki tablo sorgusu sonucunda ilkinde olup ikincisinde olmayanve tekrar eden verileride gösteren SQL operatörü hangisidir?
+
+	- UNION
+	- EXCEPT		
+	- INTERSECT
+	- ALL
+	- EXCEPT ALL (Doğru)	
+				  																	
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; INTERSECT ve EXCEPT operatörleri üzerine konuştuk.
+					
+					
 					
  		
 		
