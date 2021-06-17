@@ -68,7 +68,6 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Nested Navigation Yapısı](nested-navigation-yapisi/)
 
 #### Web API ####
-- [Web API](web_api/)
 - [Bölüm Tanıtımı](bolum-tanitimi/)
 - [Web API nedir?](web-api-nedir/)
 - [JSON Veri Tipi](json-veri-tipi/)
