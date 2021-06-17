@@ -49,3 +49,4 @@
 - [Ödev 9](Odev9/)
 - [LEFT JOIN](LeftJoin/)
 - [RIGHT JOIN](RightJoin/)
+- [FULL JOIN](FullJoin/)
