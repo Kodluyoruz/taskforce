@@ -27,7 +27,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 
 #### React & React Native Temelleri ####
 - [React & React Native Temelleri](react_ve_react_native_temelleri/)
-- [Bölüm Tanıtımı](bolum-tanitimi/)
+- [React Native Temelleri-Bölüm Tanıtımı](react-native-temelleri-bolum-tanıtımı/)
 - [JSX Giriş](jsx-giris/)
 - [JSX & React Native Döküman İncelemesi](jsx-react-native-dokuman-incelemesi/)
 - [Component Yapısı](component-yapisi/)
@@ -42,7 +42,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 
 #### State ve Lifecycle ####
 - [State ve Lifecycle](state_ve_lifecycle/)
-- [Bölüm Tanıtımı](bolum-tanitimi/)
+- [State ve Lifecycle-Bölüm Tanıtımı](state-lifecycle-bolum-tanıtımı/)
 - [State Giriş](state-giris/)
 - [State Devam](state-devam/)
 - [Lifecycle Giriş](lifecycle-giris/)
@@ -57,7 +57,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 
 #### Navigasyon ####
 - [Navigasyon](navigasyon/)
-- [Bölüm Tanıtımı](bolum-tanitimi/)
+- [Navigasyon-Bölüm Tanıtımı](navigasyon-bolum-tanitimi/)
 - [React Navigation Paketinin İncelenmesi](react-navigation-paketinin-incelenmesi/)
 - [React Navigation Paket Kurulumu](react-navigation-paket-kurulumu/)
 - [React Navigation Paketine Başlangıç](react-navigation-paketine-baslangic/)
@@ -68,7 +68,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Nested Navigation Yapısı](nested-navigation-yapisi/)
 
 #### Web API ####
-- [Bölüm Tanıtımı](bolum-tanitimi/)
+- [Web API-Bölüm Tanıtımı](web-api-bolum-tanitimi/)
 - [Web API nedir?](web-api-nedir/)
 - [JSON Veri Tipi](json-veri-tipi/)
 - [Axios paketi ile HTTP Request](axios-paketi-ile-http-request/)
