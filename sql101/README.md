@@ -52,3 +52,4 @@
 - [FULL JOIN](FullJoin/)
 - [Ödev 10](Odev10/)
 - [UNION](UNION/)
+- [INTERSECT Ve EXCEPT](IntersectAndExcept/)
