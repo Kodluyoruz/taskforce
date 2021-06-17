@@ -471,6 +471,13 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; CHECK kısıtlama yapısı üzerine konuştuk.
+### [PSQL ve Uygulama II](PSQLAndPractiveII/)
+#### Sorular
+1. Yok	
+						
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; PSQL komutlarıyla tanıştık aynı zamanda şimdiye kadar konuşulan konular hakkında genel uygulamalar yapıldı.
 
 ## JOIN Yapıları
 
