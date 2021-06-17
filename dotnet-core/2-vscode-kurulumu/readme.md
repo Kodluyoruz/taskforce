@@ -40,7 +40,9 @@ VS Code Linuw ortamda kurabilmenin en basit yönyemi Snap'tir. Daha önce kullan
 
 2. VS Code Snap paketini yüklemek için Linux terminal de aşağıdaki kodu çalıştırınız:
 
-<code>> sudo snap install --classic code</code>
+````
+sudo snap install --classic code 
+````
 
 3. Kurulum tamamlandıktan sonra Snap, arka planda VS Code'u otomatik olarak güncellemeleri denetleyecek. Yeni bir güncelleme olduğunda, sizi bilgilendirecek ve onay verirseniz yükleyecek.
 
