@@ -22,13 +22,11 @@
 
 #### Hata Yönetimi ve Kod İzleme ####
 - [Try Catch Finally ve Mantıksal Hatalar](1-try-catch-finally-ve-mantiksal-hatalar/)
+- [Debugging, Watch ve Variables Pencereleri](2-debugging-watch-ve-variables-pencereleri/)
 
 #### Karar Yapıları ####
 - [If-ElseIf-Ternary-If](1-if-else-yapisi-ve-ternary-if/)
 - [Switch-Case](2-switch-case/)
-
-#### Hata Yönetimi ve Kod İzleme ####
-- [Hata Yönetimi-2-Debugging, Watch ve Variables Pencereleri](7-hata-yonetimi-ve-kod-izleme/)
 
 #### Döngüler ####
 - [For Loop ve Break Continue Ifadeleri](1-for-dongusu-break-continue/)
