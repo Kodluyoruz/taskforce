@@ -2,7 +2,7 @@
 
 #### Temel Kavramlar ####
 
--  [Algoritma Nedir ?](algoritma-nedir/)
+-  [Algoritma Nedir?](algoritma-nedir/)
 -  [Bilgilerin Bilgisayarda İfadesi](bilgi-ifade/)
 -  [Sayı Sistemleri](sayi-sistem/)
 -  [Sayısal Olmayan Verilerin Tutulması](sayisal-olmayan/)
@@ -28,13 +28,13 @@
 
 
 #### Sorting (Sıralama) Algoritmaları ####
-  - [Sorting Nedir ?](sorting/)
+  - [Sorting Nedir?](sorting/)
   - [Insertion Sort](insertion-sort/)
   - [Merge Sort](merge-sort/)
   - [Quick Sort](quick-sort/)
 
 #### Searching (Arama) Algoritmaları ####
-- [Searching Nedir ?](searching/)
+- [Searching Nedir?](searching/)
 - [Linear Search](linear-search/)
 - [Binary Search](binary-search/)
 - [Binary Search Tree](binary-search-tree/)
