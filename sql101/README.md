@@ -55,3 +55,6 @@
 - [UNION](UNION/)
 - [INTERSECT ve EXCEPT](IntersectAndExcept/)
 - [Ödev 11](Odev11/)
+
+#### ALT Sorgular ####
+- [Alt Sorgu Nedir?](Subqueries/)
