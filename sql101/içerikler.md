@@ -591,8 +591,44 @@
 ### [Ödev 11](Odev11/)
 - Bu ödevde; INTERSECT ve EXCEPT operatörlerini pekiştirmeye çalışacağız.					
 					
- 		
+## Alt Sorgular
+
+### [Alt Sorgu Nedir?](Subqueries/)
+#### Sorular
+1. Yok
+											
+					
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Alt Sorgu kavramı üzerine konuştuk.
 		
-	
-		
+### [Any ve All Operatörleri](AnyAndAll/)
+#### Sorular
+1. Yok
+											
+					
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Alt sorgularda sıklıkla kullanılan ANY ve ALL operatörleri üzerine konuştuk.
+			
+### [Ödev 12](Odev12/)
+- Bu ödevde; Alt sorgular konusunu pekiştirmeye çalışacağız.
+
+### [Alt Sorgular ve JOIN](SubqueriesAndJoin/)
+#### Sorular
+1. Yok
+											
+					
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Alt sorgular ve JOIN üzerine konuştuk.	
+
+### [Genel Tekrar](RECAP/)
+#### Sorular
+1. Yok
+											
+					
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Şimdiye kadar konuştuğumuz konuları 5 farklı senaryo üzerinden tekrar etmye çalıştık.	
 		
