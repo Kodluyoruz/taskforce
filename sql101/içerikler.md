@@ -588,7 +588,8 @@
 1. (Youtube adresi yazılacak)
 	- Bu videoda; INTERSECT ve EXCEPT operatörleri üzerine konuştuk.
 					
-					
+### [Ödev 11](Odev11/)
+- Bu ödevde; INTERSECT ve EXCEPT operatörlerini pekiştirmeye çalışacağız.					
 					
  		
 		
