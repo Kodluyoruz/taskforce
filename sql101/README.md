@@ -61,3 +61,4 @@
 - [Any ve All Operatörleri](AnyAndAll/)
 - [Ödev 12](Odev12/)
 - [Alt sorgular ve JOIN Yapısı](SubqueriesAndJoin/)
+- [Genel Tekrar](RECAP/)
