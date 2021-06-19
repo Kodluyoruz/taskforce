@@ -59,3 +59,4 @@
 #### ALT Sorgular ####
 - [Alt Sorgu Nedir?](Subqueries/)
 - [Any ve All Operatörleri](AnyAndAll/)
+- [Ödev 12](Odev12/)
