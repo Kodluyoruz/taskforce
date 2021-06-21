@@ -16,8 +16,9 @@ Bu ödevde OMDb API kullanarak film araması yapabilme ve filmleri favorilere ek
 ![detail](https://raw.githubusercontent.com/Kodluyoruz/taskforce/react/react-js/movie-search-app/figures/detail.png)
 
 
-
 ### Proje Nasıl Çalıştırılır
+
+**Proje adresine [buradan](https://github.com/Kodluyoruz/movie-search-app) ulaşabilirsiniz.**
 
 - Projeyi fork'ladıktan ya da indirdikten sonra projenin bulunduğu klasörde "npm install" komutu ile gerekli paketlerin yüklenmesi gerekiyor.
 - OMDb API kullanabilmek için bir API key'e ihtiyacımız var. Email adresinizle [buradan](http://www.omdbapi.com/apikey.aspx) alabilirsiniz. API key'i MovieContext component'i içerisinde constant olarak tanımlanmış API_KEY'e atadıktan sonra OMDb API'ı kullanmaya başlayabilirsiniz.

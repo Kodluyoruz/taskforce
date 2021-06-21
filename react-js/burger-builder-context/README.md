@@ -1,6 +1,5 @@
 ## Burger Builder
-
-3 farklı malzemeyle bir hamburger oluşturabildiğimiz bu küçük projede context-api pratiği yapacağız.
+Yorucu bir gün geçirdiniz ve size keyif veren bir yemek yemek istiyorsunuz. Aklınıza gelen ilk şey genellikle hamburger olur. Keyifle yiyebileceğiniz bir hamburgerin hayalini kurmadan önce bunu oluşturabileceğiniz bir ödev ile karşınızdayız! 3 farklı malzeme ile bir hamburger oluşturabileceğiniz bu ödevde context-api pratiği yapabileceksiniz. Önce bilgisayar başına, sonra mutfağa!
 
 ![burger-builder](https://raw.githubusercontent.com/Kodluyoruz/taskforce/react/react-js/burger-builder-context/figures/burger-builder.png)
 
