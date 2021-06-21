@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.palette {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.palette button {
+  margin-top: 10px;
+}

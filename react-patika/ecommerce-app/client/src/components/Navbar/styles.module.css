@@ -1,0 +1,38 @@
+.nav {
+  padding: 13px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #e2e8f0;
+  line-height: 2px;
+  align-items: center;
+}
+
+.nav .left {
+  display: flex;
+}
+
+.nav .left .menu {
+  display: flex;
+  margin-left: 40px;
+}
+
+.nav .left .menu li a {
+  color: #4a5568;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 3px 16px;
+  display: block;
+  font-size: 16px;
+}
+
+.nav .left .menu li a:hover {
+  color: #000;
+}
+
+.nav .right a:first-child {
+  margin-right: 5px;
+}
+
+.logo {
+  font-weight: bold;
+}
