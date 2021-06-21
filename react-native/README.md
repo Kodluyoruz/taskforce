@@ -119,7 +119,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Uygulama Mağazası (App Store Connect)](uygulama-magazasi-app-store-connect/)
 - [Uygulama Mağazası (Google Play Console)](uygulama-magazasi-google-play-console/)
 
-#### Unit Test Kavramları ####
+#### Bonus - Unit Test Kavramları ####
 - [Test Nedir? Neden Yazılır?](test-nedir-neden-yazılır/)
 - [İlk Testimizi Yazalım](ilk-testimizi-yazalim/)
 - [Fonksiyon Test Etme](fonksiyon-test-etme/)
@@ -127,7 +127,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Uygulamanın Genel Testi](uygulamanin-genel-testi/)
 - [Coverage](coverage/)
 
-#### Maps ####
+#### Bonus - Maps ####
 - [GCP ve API Key Alma](gcp-ve-api-key-alma/)
 - [Maps Paketinin Yüklenmesi](maps-paketinin-yüklenmesi/)
 - [Harita Verisinin Çekilmesi](harita-verisinin-cekilmesi/)
@@ -136,7 +136,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [useRef Hook'u ve Zoom İşlemi](useref-hooku-ve-zoom-islemi/)
 - [User Card Modal Eklentisi](user-card-modal-eklentisi/)
 
-#### Proje Ön Raporu ####
+#### Bonus - Proje Ön Raporu ####
 - [Proje Raporu Nedir](proje-raporu-nedir/)
 - [Örnek Proje Raporu Çıkarma](örnek-proje-raporu-çıkarma/)
 
