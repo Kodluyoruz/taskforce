@@ -198,7 +198,7 @@ console.log(selamla);
 //Çıktı  -- Merhaba insanlik;
 ```
 
-- Aynı isimle tekrardan aynı blokta tanımlanamaz. Farklı blocklar da aynı isimle tanımlanabilir.
+- Aynı isimle tekrardan aynı blokta tanımlanamaz. Farklı blocklarda aynı isimle tanımlanabilir.
 
 ```javascript
 let okulNumarasi =  414;
