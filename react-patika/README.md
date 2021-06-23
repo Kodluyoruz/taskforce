@@ -2,16 +2,16 @@
 
 #### Giriş ####
 
-- [React Nedir? Ne Zaman İhtiyaç Duyarız?](intro/)
-- [Real Dom / Virtual Dom](intro/)
-- [IDE / Text Editor Seçimi](intro/)
-- [Node.JS Kurulumu](intro/)
-- [Temel Node.JS](intro/)
-- [ES6 Modül Sistemi](intro/)
-- [Callback Functions / async-await](intro/)
-- [Promises](intro/)
-- [Array Functions](intro/)
-- [Bölüm Sonu Kazanımları](intro/)
+- [React Nedir? Ne Zaman İhtiyaç Duyarız?](react-nedir-ne-zaman-ihtiyac-duyariz/)
+- [Real Dom / Virtual Dom](real-dom-virtual-dom/)
+- [IDE / Text Editor Seçimi](ide-text-editor-secimi/)
+- [Node.JS Kurulumu](nodejs-kurulumu/)
+- [Temel Node.JS](temel-nodejs/)
+- [ES6 Modül Sistemi](es6-modul-sistemi/)
+- [Callback Functions / async-await](callback-functions-async-await/)
+- [Promises](promises/)
+- [Array Functions](array-functions/)
+- [Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-intro/)
 
 #### Components ####
 
