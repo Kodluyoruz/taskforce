@@ -123,9 +123,9 @@
 - [React Testing Library - 2](testing-react-testing-library-2/)
 
 #### Publishing ####
-- [create-react-library](publishing/)
-- [Publish İşlemleri](publishing/)
-- [Semantic Versiyonlama](publishing/)
+- [create-react-library](publishing-create-react-library/)
+- [Publish İşlemleri](publishing-publish-islemleri/)
+- [Semantic Versiyonlama](publishing-semantic-versiyonlama/)
 
 #### Deploy ####
 - [Surge.sh](deploying/)
