@@ -1,0 +1,1 @@
+# Componentlerde Değişken Render Etmek
