@@ -98,10 +98,10 @@
 - [Bölüm Sonu Kazanımları](context-bolum-sonu-kazanimlari/)
 
 #### Real Time Çalışan Uygulamalar Geliştirmek ####
-- [Arayüzün Hazırlanması](realtime/realtime-colors/)
-- [Socket Server'a Bağlanmak](realtime/realtime-colors/)
-- [Backend'e Veri İletmek](realtime/realtime-colors/)
-- [Bir Kanala Abone Olmak](realtime/realtime-colors/)
+- [Arayüzün Hazırlanması](realtime-arayuzun-hazirlanmasi)
+- [Socket Server'a Bağlanmak](realtime-socket-servera-baglanmak)
+- [Backend'e Veri İletmek](realtime-backend-veri-iletimi)
+- [Bir Kanala Abone Olmak](realtime-bir-kanala-abone-olmak)
 
 #### Chat App ####
 - [Giriş](realtime/chat-app/)
