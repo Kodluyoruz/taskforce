@@ -44,9 +44,9 @@
 - [Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-states/)
 
 #### Lifecycle ####
-- [useEffect](lifecycle/)
-- [Component Unmount](lifecycle/)
-- [Bölüm Sonu Kazanımları](lifecycle/)
+- [useEffect](useeffect/)
+- [Component Unmount](component-unmount/)
+- [Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-lifecycle/)
 
 #### Contacts App ####
 - [Ne Geliştireceğiz?](contacts-app/)
