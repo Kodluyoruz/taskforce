@@ -1,0 +1,1 @@
+# localStorage - Bölüm Sonu Egzersizi

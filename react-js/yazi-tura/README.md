@@ -1,6 +1,6 @@
 ## Yazı Tura
 
-Yalnızca bir madeni paraya ihtiyaç duyulan, oldukça kolay oynanabilecek ve dünyanın hemen her yerinde yaygın olan yazı tura oyununu React ile yapalım.
+Sizce ne kadar şanslısınız? Madeni parayı havaya atıp yakaladığınızda tuttuğunuz tarafın gelme olasılığı nedir? Hayat mı daha zor yoksa Çince mi? Bu soruların neredeyse tamamının cevabı bu ödevde saklı! Yazı tura oyununu React ile yapıyoruz, çok heyecanlı değil mi sizce de?
 
 ![yazi-tura](https://raw.githubusercontent.com/Kodluyoruz/taskforce/react/react-js/yazi-tura/figures/yazi-tura.gif)
 
