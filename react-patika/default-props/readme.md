@@ -1,1 +1,1 @@
-# Bölüm Sonu Kazanımları
+# Default Props
