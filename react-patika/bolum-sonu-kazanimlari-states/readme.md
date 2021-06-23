@@ -1,0 +1,1 @@
+# Bolum Sonu Kazanımları
