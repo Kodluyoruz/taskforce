@@ -113,9 +113,9 @@
 - [Feed Scroll](chatapp-feed-scroll)
 
 #### Localization ####
-- [React Intl - Kurulum](localization/)
-- [Default Locale](localization/)
-- [Parametre Geçmek](localization/)
+- [React Intl - Kurulum](localization-react-intl/)
+- [Default Locale](localization-default-locale/)
+- [Parametre Geçmek](localization-parametre-gecmek/)
 
 #### Testing ####
 - [Neden Test Yazarız?](testing/)
