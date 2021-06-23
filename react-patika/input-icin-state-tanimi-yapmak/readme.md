@@ -1,0 +1,1 @@
+# Input için State Tanımı Yapmak
