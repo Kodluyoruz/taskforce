@@ -104,13 +104,13 @@
 - [Bir Kanala Abone Olmak](realtime-bir-kanala-abone-olmak)
 
 #### Chat App ####
-- [Giriş](realtime/chat-app/)
-- [Chat Context](realtime/chat-app/)
-- [Temel Bileşenlerin Geliştirilmesi](realtime/chat-app/)
-- [Backend Bağlantısı](realtime/chat-app/)
-- [Mesajların İletilmesi](realtime/chat-app/)
-- [Mesajların Listelenmesi](realtime/chat-app/)
-- [Feed Scroll](realtime/chat-app/)
+- [Giriş](chatapp-giris)
+- [Chat Context](chatapp-chat-context)
+- [Temel Bileşenlerin Geliştirilmesi](chatapp-temel-bilesenler)
+- [Backend Bağlantısı](chatapp-backend-baglantisi)
+- [Mesajların İletilmesi](chatapp-mesajlarin-iletilmesi)
+- [Mesajların Listelenmesi](chatapp-mesajlarin-listelenmesi)
+- [Feed Scroll](chatapp-feed-scroll)
 
 #### Localization ####
 - [React Intl - Kurulum](localization/)
