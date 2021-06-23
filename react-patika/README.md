@@ -88,14 +88,14 @@
 - [useCallback](memoization-usecallback/)
 
 #### Context API ####
-- [Context Nedir?](context/)
-- [Context Oluşturmak](context/)
-- [Context Provider](context/)
-- [Theme Switcher Yapımı](context/)
-- [Context Provider Side Effects](context/)
-- [Multi Context](context/)
-- [Custom Context Hook](context/)
-- [Bölüm Sonu Kazanımları](context/)
+- [Context Nedir?](context-nedir/)
+- [Context Oluşturmak](context-olusturmak/)
+- [Context Provider](context-provider/)
+- [Theme Switcher Yapımı](context-theme-switcher/)
+- [Context Provider Side Effects](context-provider-side-effects/)
+- [Multi Context](context-multi/)
+- [Custom Context Hook](custom-context-hook/)
+- [Bölüm Sonu Kazanımları](context-bolum-sonu-kazanimlari/)
 
 #### Real Time Çalışan Uygulamalar Geliştirmek ####
 - [Arayüzün Hazırlanması](realtime/realtime-colors/)
