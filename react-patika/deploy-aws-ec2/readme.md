@@ -1,0 +1,1 @@
+# AWS EC2 Üzerine Deploy İşlemleri

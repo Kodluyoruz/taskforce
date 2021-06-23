@@ -128,10 +128,10 @@
 - [Semantic Versiyonlama](publishing-semantic-versiyonlama/)
 
 #### Deploy ####
-- [Surge.sh](deploying/)
-- [Netlify](deploying/)
-- [AWS EC2 Üzerine Deploy İşlemleri](deploying/)
-- [Bölüm Sonu Kazanımları](deploying/)
+- [Surge.sh](deploy-surge/)
+- [Netlify](deploy-netlify/)
+- [AWS EC2 Üzerine Deploy İşlemleri](deploy-aws-ec2/)
+- [Bölüm Sonu Kazanımları](deploy-bolum-sonu-kazanimlari/)
 
 #### E-Commerce App ####
 - [Uygulama Tanıtımı](ecommerce-app/)
