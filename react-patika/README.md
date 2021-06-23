@@ -15,13 +15,13 @@
 
 #### Components ####
 
-- [Bir React Projesini Ayağa Kaldırmak (create-react-app)](components/)
-- [Component Nedir?](components/)
-- [Component Oluşturmak/Kullanmak](components/)
-- [JSX ve Temel Kuralları](components/)
-- [Componentlerde Değişken Render Etmek](components/)
-- [Koşullu Render İşlemi](components/)
-- [Bölüm Sonu Kazanımları](components/)
+- [Bir React Projesini Ayağa Kaldırmak (create-react-app)](create-react-app/)
+- [Component Nedir?](component-nedir/)
+- [Component Oluşturmak/Kullanmak](component-olusturmak-kullanmak/)
+- [JSX ve Temel Kuralları](jsx-ve-temel-kurallari/)
+- [Componentlerde Değişken Render Etmek](componentlerde-degisken-render-etmek/)
+- [Koşullu Render İşlemi](kosullu-render/)
+- [Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-components/)
 
 #### Props ####
 - [Props Nedir? Nasıl Kullanılır?](components/)
