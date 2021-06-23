@@ -118,9 +118,9 @@
 - [Parametre Geçmek](localization-parametre-gecmek/)
 
 #### Testing ####
-- [Neden Test Yazarız?](testing/)
-- [React Testing Library - 1](testing/)
-- [React Testing Library - 2](testing/)
+- [Neden Test Yazarız?](testing-neden-test-yazariz/)
+- [React Testing Library - 1](testing-react-testing-library-1/)
+- [React Testing Library - 2](testing-react-testing-library-2/)
 
 #### Publishing ####
 - [create-react-library](publishing/)
