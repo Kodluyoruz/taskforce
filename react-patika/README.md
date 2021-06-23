@@ -61,8 +61,8 @@
 - [Module CSS](module-css/)
 
 #### Fetching ####
-- [Native Fetch](fetching/)
-- [Axios](fetching/)
+- [Native Fetch](native-fetching/)
+- [Axios](axios/)
 
 #### Routing ####
 - [Kurulum](routing/)
