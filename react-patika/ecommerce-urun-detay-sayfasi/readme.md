@@ -1,1 +1,1 @@
-# Ürün Detay Sayfasının Geliştirilmesi
+# Ürün Detay Sayfasının Geliştirilmesi

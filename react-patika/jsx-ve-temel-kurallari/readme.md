@@ -1,1 +1,1 @@
-# JSX ve Temel Kuralları
+# JSX ve Temel Kuralları

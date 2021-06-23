@@ -1,1 +1,1 @@
-# Prop Types: oneOfType
+# Prop Types: oneOfType

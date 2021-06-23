@@ -1,1 +1,1 @@
-# Publish İşlemleri
+# Publish İşlemleri

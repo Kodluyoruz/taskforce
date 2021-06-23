@@ -1,1 +1,1 @@
-# Admin: Product Update İşlemleri
+# Admin: Product Update İşlemleri

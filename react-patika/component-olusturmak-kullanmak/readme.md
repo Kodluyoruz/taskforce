@@ -1,1 +1,1 @@
-# Component Oluşturmak/Kullanmak
+# Component Oluşturmak/Kullanmak

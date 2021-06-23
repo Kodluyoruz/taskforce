@@ -1,1 +1,1 @@
-# Componentlerde Değişken Render Etmek
+# Componentlerde Değişken Render Etmek

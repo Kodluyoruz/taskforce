@@ -1,1 +1,1 @@
-# Component Nedir?
+# Component Nedir?

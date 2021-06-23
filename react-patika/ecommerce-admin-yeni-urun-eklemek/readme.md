@@ -1,1 +1,1 @@
-# Admin: Yeni Ürün Eklemek
+# Admin: Yeni Ürün Eklemek

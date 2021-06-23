@@ -1,1 +1,1 @@
-# Socket Server'a Bağlanmak
+# Socket Server'a Bağlanmak

@@ -1,1 +1,1 @@
-# Bir React Projesini Ayağa Kaldırmak (create-react-app)
+# Bir React Projesini Ayağa Kaldırmak (create-react-app)

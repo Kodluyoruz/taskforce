@@ -1,1 +1,1 @@
-# Bölüm Sonu Kazanımları
+# Bölüm Sonu Kazanımları

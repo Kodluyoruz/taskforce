@@ -1,1 +1,1 @@
-# IDE / Text Editor Seçimi
+# IDE / Text Editor Seçimi
