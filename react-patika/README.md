@@ -65,13 +65,13 @@
 - [Axios](axios/)
 
 #### Routing ####
-- [Kurulum](routing/)
-- [Exact Prop](routing/)
-- [URL Parameters](routing/)
-- [Nesting](routing/)
-- [NavLink](routing/)
-- [No Match (404)](routing/)
-- [Bölüm Sonu Kazanımları](routing/)
+- [Kurulum](react-router-kurulum/)
+- [Exact Prop](react-router-exact-prop/)
+- [URL Parameters](react-router-url-parameters/)
+- [Nesting](react-router-nesting/)
+- [NavLink](react-router-navlink/)
+- [No Match (404)](react-router-no-match/)
+- [Bölüm Sonu Kazanımları](react-router-bolum-sonu-kazanimlari/)
 
 #### Formik ile Form Yönetimi ####
 - [Kurulum](formik/)
