@@ -24,15 +24,15 @@
 - [Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-components/)
 
 #### Props ####
-- [Props Nedir? Nasıl Kullanılır?](components/)
-- [Döngülerde "key" Prop'u](components/)
-- [React Developer Tools](components/)
-- [Prop Types](components/)
-- [Prop Types: isRequired](components/)
-- [Prop Types: oneOfType](components/)
-- [Prop Types: shape](components/)
-- [Default Props](components/)
-- [Bölüm Sonu Kazanımları](components/)
+- [Props Nedir? Nasıl Kullanılır?](props-nedir/)
+- [Döngülerde "key" Prop'u](key-prop/)
+- [React Developer Tools](react-developer-tools/)
+- [Prop Types](prop-types/)
+- [Prop Types: isRequired](prop-types-isRequired/)
+- [Prop Types: oneOfType](prop-types-oneoftype/)
+- [Prop Types: shape](prop-types-shape/)
+- [Default Props](default-props/)
+- [Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-props/)
 
 #### States ####
 - [State Nedir? Nasıl Oluşturulur?](states/)
