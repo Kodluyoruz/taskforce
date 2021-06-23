@@ -35,13 +35,13 @@
 - [Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-props/)
 
 #### States ####
-- [State Nedir? Nasıl Oluşturulur?](states/)
-- [Array States](states/)
-- [Object States](states/)
-- [Sayaç Uygulaması](states/)
-- [Re-Render Mantığını Anlamak (React vs jQuery)](states/)
-- [Input için State Tanımı Yapmak](states/)
-- [Bölüm Sonu Kazanımları](states/)
+- [State Nedir? Nasıl Oluşturulur?](state-nedir/)
+- [Array States](array-states/)
+- [Object States](object-states/)
+- [Sayaç Uygulaması](sayac-uygulamasi/)
+- [Re-Render Mantığını Anlamak (React vs jQuery)](re-render-mantigini-anlamak/)
+- [Input için State Tanımı Yapmak](input-icin-state-tanimi-yapmak/)
+- [Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-states/)
 
 #### Lifecycle ####
 - [useEffect](lifecycle/)
