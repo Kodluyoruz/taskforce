@@ -57,8 +57,8 @@
 - [Bölüm Sonu Kazanımları](contacts-app-bolum-sonu-kazanimlari/)
 
 #### Stillendirme Temelleri ####
-- [Stil Tanımı Yapmak](style-definitions/)
-- [Module CSS](style-definitions/)
+- [Stil Tanımı Yapmak](stil-tanimi-yapmak/)
+- [Module CSS](module-css/)
 
 #### Fetching ####
 - [Native Fetch](fetching/)
