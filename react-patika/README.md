@@ -74,13 +74,13 @@
 - [Bölüm Sonu Kazanımları](react-router-bolum-sonu-kazanimlari/)
 
 #### Formik ile Form Yönetimi ####
-- [Kurulum](formik/)
-- [handleSubmit & handleChange](formik/)
-- [Radio / Checkbox / Dropdown](formik/)
-- [useFormik](formik/)
-- [Form Validasyonları - 1](formik/)
-- [Form Validasyonları - 2](formik/)
-- [Bölüm Sonu Kazanımları](formik/)
+- [Kurulum](formik-kurulum/)
+- [handleSubmit & handleChange](formik-handlesubmit-handlechange/)
+- [Radio / Checkbox / Dropdown](formik-radio-checkbox-dropdown/)
+- [useFormik](formik-useformik/)
+- [Form Validasyonları - 1](formik-form-validasyonlari-1/)
+- [Form Validasyonları - 2](formik-form-validasyonlari-2/)
+- [Bölüm Sonu Kazanımları](formik-bolum-sonu-kazanimlari/)
 
 #### Memoization ####
 - [React.memo](memoization/)
