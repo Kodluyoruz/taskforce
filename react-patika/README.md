@@ -83,9 +83,9 @@
 - [Bölüm Sonu Kazanımları](formik-bolum-sonu-kazanimlari/)
 
 #### Memoization ####
-- [React.memo](memoization/)
-- [useMemo](memoization/)
-- [useCallback](memoization/)
+- [React.memo](memoization-react-memo/)
+- [useMemo](memoization-usememo/)
+- [useCallback](memoization-usecallback/)
 
 #### Context API ####
 - [Context Nedir?](context/)
