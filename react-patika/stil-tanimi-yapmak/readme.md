@@ -1,1 +1,1 @@
-#### Stil Tanımı Yapmak ####
+# Stil Tanımı Yapmak
