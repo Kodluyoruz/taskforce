@@ -49,12 +49,12 @@
 - [Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-lifecycle/)
 
 #### Contacts App ####
-- [Ne Geliştireceğiz?](contacts-app/)
-- [Form Component'inin Geliştirilmesi](contacts-app/)
-- [Kayıtların Listelenmesi](contacts-app/)
-- [Filtreleme İşlemi](contacts-app/)
-- [Stil Tanımlarının Yapılması](contacts-app/)
-- [Bölüm Sonu Kazanımları](contacts-app/)
+- [Ne Geliştireceğiz?](contacts-app-ne-gelistirecegiz/)
+- [Form Component'inin Geliştirilmesi](contacts-app-form-componentinin-gelistirilmesi/)
+- [Kayıtların Listelenmesi](contacts-app-kayitlarin-listelenmesi/)
+- [Filtreleme İşlemi](contacts-app-filtreleme-islemi/)
+- [Stil Tanımlarının Yapılması](contacts-app-stil-tanimlarinin-yapimasi/)
+- [Bölüm Sonu Kazanımları](contacts-app-bolum-sonu-kazanimlari/)
 
 #### Stillendirme Temelleri ####
 - [Stil Tanımı Yapmak](style-definitions/)
