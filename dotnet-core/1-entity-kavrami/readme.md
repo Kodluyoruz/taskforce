@@ -46,7 +46,7 @@ public class SchoolContext : DbContext
 
 Bu DBContext'e göre EF database üzerindeki aşağıdaki 2 tabloyu oluşturur. 
 
-![EF Generates these tables](https://www.entityframeworktutorial.net/images/basics/dbtables-for-entities.png)
+![EF Generates these tables](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/dotnet-core/1-entity-kavrami/figures/dbtables-for-entities.png)
 
 Bir entity sınıfında 2 tip property yani özellik bulunabilir. Bunlar:
 
@@ -74,5 +74,5 @@ Bir entity sınıfında 2 tip property yani özellik bulunabilir. Bunlar:
     ```
     Yukarıdaki örnek kodu incelersek Student entity si içerisinde Grade entity sinin var olduğunu görüyoruz. Bu demek oluyor ki Grade Student için bir referans tablo. EF Student tablosu içerisinde GradeId ismiyle bir FK tutarak bu iki tabloyu birbirine bağlar.
 
-    ![Reference Navigation Property](https://www.entityframeworktutorial.net/images/basics/ref-property-in-dbtable.png)
+    ![Reference Navigation Property](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/dotnet-core/1-entity-kavrami/figures/ref-property-in-dbtable.png)
 
