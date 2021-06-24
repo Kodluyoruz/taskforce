@@ -55,7 +55,7 @@
 - [White Box](white-box-/)
 - [Black Box](black-box/)
 
-#### Kodun Dokümantasyonu #####
+#### Kodun Dokümantasyonu ####
 - [Dokümantasyon](dokumantasyon/)
 
 #### Yazılımın İstenen Karakteristikleri ####
