@@ -52,7 +52,7 @@ Entity Framework .Net Core uygulamalarda kullanılmak üzere tasarlandı. Ama .N
 
 Entity Framework Core'un kullanıldığı platform ve .Net versiyonları ile ilgili aşağıdaki tabloyu inceleyebilirsiniz.
 
-![EF Core](https://www.entityframeworktutorial.net/Images/efcore/ef-core.png)
+![EF Core](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/dotnet-core/2-orm-ve-ef-core/figures/ef-core.png)
 
 **Okuma Önerisi:** Entity Framework Core ile ilgili detaylı bilgi için [tıklayınız.](https://docs.microsoft.com/ef/core)
 
