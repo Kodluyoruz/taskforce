@@ -32,7 +32,7 @@ NoSQl veritabnlarında **CAP Teorimi** denen önemli bir teorem vardır.
 
 Aşağıdaki görsel CAP Teoremini çok iyi açıklıyor.
 
-![Cap Teoremi](https://www.researchgate.net/profile/Hamzeh-Khazaei/publication/282679529/figure/fig2/AS:614316814372880@1523475950595/Visualization-of-CAP-theorem.png)
+![Cap Teoremi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/dotnet-core/1-iliskisel-nosql-veritabanlari/figures/ref-property-in-dbtable.png)
 
 Bu görsel bize der ki; NoSql veri tabanı olarak Strong Consistency, Availability ve Partitioning kavramlarını aynı anda garanti edemem.
 
