@@ -12,7 +12,7 @@ Bu ilişki tipinde tablolar arasında 1-1 bir ilişki bulunmaktadır. Genel olar
 
 Bu ilişkiye sahip bir veriyi aslında her iki tablonun kolonlarına sahip tek bir tablo içerisinde tutuluyor gibi düşünebiliriz. Bu nedenle bu ilişki tipine çok da sık rastlamayabilirsiniz. Uygulamamızın duyduğu ihtiyaca göre bu şekilde bir 1-1 ilişki kurup kurmama kararı vermemiz gerekebilir.
 
-![1-1 Relation](images/1-1-relation.png)
+![1-1 Relation](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/dotnet-core/3-tablo-iliskileri/images/1-1-relation.png)
 
 ## 1-N İlişki
 
@@ -27,7 +27,7 @@ Bu ilişki tipinde tablolar arasında 1-N bir ilişki bulunmaktadır. Temel olar
 - User -> PaymentMethods
 - User -> Addresses
 
-![1-N Relation](images/1-n-relation.png)
+![1-N Relation](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/dotnet-core/3-tablo-iliskileri/images/1-n-relation.png)
 
 ## N-N İlişki
 
@@ -36,4 +36,4 @@ Bu ilişki tipinde tablolar arasında N-N bir ilişki bulunmaktadır. Bu ilişki
 Books örneğimiz üzerinden devam edecek olursak; bir kitabın birden fazla yazarı olabileceği gibi, aynı yazar yada yazarların da birden fazla kitap yazabileceğini düşündüğümüzde yazar bilgisini direkt olarak Books tablosu ile ilişkilendirmemiz doğru olmayacaktır.
 Bu durumda yazar bilgileri için de Authors adında bir tablomuz olmalı ve kitap(lar)-yazar(lar) bilgisi için BookAuthors gibi ayrı bir tablo oluşturmamız gerekir. BookAuthors tablosu sayesinde kitap-yazar arasında N-N ilişkiyi sağlamış oluruz. İlişkinin örnek görseli ise aşağıdaki gibi olacaktır.
 
-![N-N Relation](images/n-n-relation.png)
+![N-N Relation](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/dotnet-core/3-tablo-iliskileri/images/n-n-relation.png)
