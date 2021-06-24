@@ -1,1 +1,1 @@
-# İsterleri Toplamak Üzerine
+#
