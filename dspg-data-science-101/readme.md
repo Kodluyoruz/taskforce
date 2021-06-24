@@ -22,5 +22,10 @@
 - [Subsample Yeni Mantık](subsample-2/)
 - [Hyperparameters](hyperparameter/)
 - [Random Feature Selection](random-feature/)
-- [Proje](proje/)
+
+#### DSPG Patikası Projeleri ####
+- [Binaların Enerji Verimliliği](binaların-enerji-verimliliği/)
+- [Depresyon Durum Tahmini](depresyon-durum-tahmini/)
+- [Elma Ağaçlarndaki Yaprak Hastalıklarının Belirlenmesi](elma-agaclarındaki-yaprak-hastalıklarının-belirlenmesi/)
+- [Saatlik Enerji Talebi Üretimi ve Hava Durumu](saatlik-enerji-talebi-üretimi-hava-durumu/)
 
