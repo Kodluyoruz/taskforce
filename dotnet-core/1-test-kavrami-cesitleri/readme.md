@@ -20,7 +20,7 @@ Unit testler, yalnızca küçük birimleri test ettiklerinden ve test edilen bir
 
 Unit testleri yazmak ve çalıştırmak için unit test frameworkleri/araçları kullanılır. .Net için en çok tercih edilenler xUnit, NUnit ve .Net'in kendi test araçlarını barındıran MSTest frameworküdür. .NET 5 ile birlikte bu 3 frameworkü kullanarak oluşturabileceğimiz unit test proje şablonları hazır olarak gelmektedir.
 
-![Test Project Templates](images/testtemplates.png)
+![Test Project Templates](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/dotnet-core/1-test-kavrami-cesitleri/images/testtemplates.png)
 
 Unit testleri yazarken bağımlılıkları izole etme işlemini, bağımlı olunan nesneyi taklit ederek yaparız. Böylece test ettiğimiz birim bağımlı olduğu nesnenin taklidi ile iletişime geçer ve kendi işlemini yapabilir. Örneğin, veritabanına bir kayıt atma işlemi yapılan bağımlı nesnenin taklidini oluşturduğumuzda veritabanına kayıt at**mış gibi** yaparak, unit test içerisinde test edilen asıl birimi izole etmiş oluruz. Taklit etme işlemini iki farklı şekilde yapabiliriz. İlk yöntem, bağımlı olunan nesnenin test amaçlı olarak taklidinin oluşturulmasıdır. Bu yöntemde taklit nesne için de kod yazmamız ve düzenlememiz gerekir. Basit bağımlılıklar ve taklitler için bu yöntem tercih edilebilir. Bir diğer yöntem ise daha kolay ve esnek taklit nesneler yaratabilmemizi sağlayan **mocking framework** kullanmaktır. Bu yöntemde framework aracılığı ile bağımlı olunan nesnenin taklidinin nasıl davranması gerektiğini belirterek istediğimiz şekilde taklit bir nesne yaratıp kullanabiliriz. .Net içerisinde en sık kullanılan mocking framework Moq'dur. Moq haricinde NSubstitute, FakeItEasy gibi alternatifler de mevcuttur. 
 
