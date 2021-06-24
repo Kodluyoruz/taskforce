@@ -1,1 +1,1 @@
-# Planlama Adımı
+# 
