@@ -52,7 +52,7 @@ Bir entity sınıfında 2 tip property yani özellik bulunabilir. Bunlar:
 
 - **Scalar Property:** Primitive type olan field'lar olarak düşünebilirsiniz. Db de data tutan kolonlara karşılık gelir. `Students` tablosundan yola çıkarsak her bir skalar property için aşağıdaki gibi tablo kolonları oluşur. 
 
-    ![Primitive Typed Properties](https://www.entityframeworktutorial.net/images/basics/dbcolumns-for-scalar-properties.png)
+    ![Primitive Typed Properties](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/dotnet-core/1-entity-kavrami/figures/dbcolumns-for-scalar-properties.png)
 
 - **Navigation Property:** Navigation Property bir entity ile başka bir entity arasında olan ilişkiyi temsil eder.
     - **Refererence Navigation Property:** Entity nin başka bir entity'e yi property olarak barındırması anlamına gelir. Entity framework bu 2 tabloyu birbirine Foreign Key ile bağlar.
