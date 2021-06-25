@@ -12,6 +12,7 @@
 - [Promises](promises/)
 - [Array Functions](array-functions/)
 - [Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-intro/)
+- [Ödev](odev1/)
 
 #### Components ####
 
@@ -55,6 +56,7 @@
 - [Filtreleme İşlemi](contacts-app-filtreleme-islemi/)
 - [Stil Tanımlarının Yapılması](contacts-app-stil-tanimlarinin-yapimasi/)
 - [Bölüm Sonu Kazanımları](contacts-app-bolum-sonu-kazanimlari/)
+- [Ödev](odev2/)
 
 #### Stillendirme Temelleri ####
 - [Stil Tanımı Yapmak](stil-tanimi-yapmak/)
@@ -96,6 +98,7 @@
 - [Multi Context](context-multi/)
 - [Custom Context Hook](custom-context-hook/)
 - [Bölüm Sonu Kazanımları](context-bolum-sonu-kazanimlari/)
+- [Ödev](odev3/)
 
 #### Real Time Çalışan Uygulamalar Geliştirmek ####
 - [Arayüzün Hazırlanması](realtime-arayuzun-hazirlanmasi)
