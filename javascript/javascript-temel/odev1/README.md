@@ -4,7 +4,7 @@
 
 Eveet geldik Javascript'in ilk ödevine, öyle heyecanlıyız ki çocuklar gibi şen ve neşeli, gözlerimizi dört açtık içimizde kelebekler ben annemi çok seviyorum yaşasın 23 Nisan! Neyse bu kadar pıtırcıklık yeter, hadi işe koyulalım. Sizlerden aşağıda gösterdiğimiz gibi bir ekran yapmanızı istiyoruz. Projeyi canlı olarak incelemek için [buraya](http://cengizcmataraci.me/javascriptclock/), proje dosyalarına erişmek için [buraya](https://github.com/Kodluyoruz/taskforce/tree/javascript/javascript/javascript-temel/odev1/javascriptclock) tıklayınız.
 
-![clock](figures/clock.gif)
+![clock](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/odev1/figures/clock.gif)
 
 Basitçe sizden girişte isminizi isteyip sonra bu ismi karşılama ekranına yerleştirerek o anki saati ve günü gösteren bir ekran. Yapması oldukça kolay ve zevkli!
 
