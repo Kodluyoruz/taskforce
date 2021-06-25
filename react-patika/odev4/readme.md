@@ -2,7 +2,7 @@
 
 Bir "Button" component'i geliştirip, bunu npmjs üzerinde paylaşmanız gerekiyor.
 
-![preview](https://i.imgur.com/e1jYfkz.png)
+![preview](./preview.png)
 
 Geliştirmeniz gereken component için yukarıdaki görseldeki yapıyı referans alabilirsiniz.
 Ayrıca [şuradan](https://ant.design/components/button/) çalışan örneğe göz atabilirsiniz.

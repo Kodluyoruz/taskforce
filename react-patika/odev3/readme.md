@@ -4,8 +4,7 @@ Sizden genel olarak bir hava durumu uygulaması geliştirmeniz bekleniyor. Türk
 
 Ekran aşadağı görseldeki gibi olacaktır.
 
-![preview](https://i.imgur.com/FCifblG.jpeg)
-
+![preview](./preview.jpeg)
 
 
 ## Gereksinimler

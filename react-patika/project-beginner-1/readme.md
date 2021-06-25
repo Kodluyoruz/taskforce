@@ -2,7 +2,7 @@
 
 Aşağıdaki ekran görüntüsünde gördüğünüz çalışmaya benzer bir emoji arama uygulaması geliştirmeniz gerekiyor.
 
-![preview](https://i.imgur.com/bDlOQHa.jpg)
+![preview](./preview.jpeg)
 
 Emoji listesine [şuradan](https://gist.github.com/rxaviers/7360908) ulaşabilirsiniz. 20 adet emoji listelemeniz yeterli olacaktır.
 

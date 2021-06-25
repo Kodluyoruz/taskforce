@@ -6,7 +6,7 @@ Kişisel çalışmalarınızı, iş deneyimlerinizi ve blog yazılarınızı pay
 ### Örnek web sayfası
 Web sayfasına [şuradan](https://kentcdodds.com/) ulaşabilirsiniz.
 
-![preview](https://i.imgur.com/T5iSzLf.png)
+![preview](./preview.png)
 
 
 ## Gereksinimler
