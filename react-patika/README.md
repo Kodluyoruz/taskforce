@@ -129,6 +129,7 @@
 - [create-react-library](publishing-create-react-library/)
 - [Publish İşlemleri](publishing-publish-islemleri/)
 - [Semantic Versiyonlama](publishing-semantic-versiyonlama/)
+- [Ödev](odev4/)
 
 #### Deploy ####
 - [Surge.sh](deploy-surge/)
