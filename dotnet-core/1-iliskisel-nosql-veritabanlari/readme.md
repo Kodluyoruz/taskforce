@@ -28,7 +28,7 @@ NoSql Veritabanları yüksek trafik ile yüksek miktarda verinin yönetimine oda
 
 İlişkisel veri tabanlarındaki **Immediate Data Consistency** burda yerini **Eventual Data Consistency** yani nihai veri tutarlılığına bırakır.
 
-NoSQl veritabnlarında **CAP Teorimi** denen önemli bir teorem vardır.
+NoSQl veritabanlarında **CAP Teorimi** denen önemli bir teorem vardır.
 
 Aşağıdaki görsel CAP Teoremini çok iyi açıklıyor.
 
