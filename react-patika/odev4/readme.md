@@ -1,6 +1,5 @@
 # Ödev 4
 
-
 Bir "Button" component'i geliştirip, bunu npmjs üzerinde paylaşmanız gerekiyor.
 
 ![preview](https://i.imgur.com/e1jYfkz.png)
