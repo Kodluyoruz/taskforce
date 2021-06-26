@@ -164,7 +164,7 @@
 
 
 #### Projeler ####
-- [Emoji Arama Uygulaması(Beginner)](project-beginner-1/)
+- [Not Tutma Uygulaması(Beginner)](project-beginner-1/)
 - [Portfolio Site(Beginner)](project-beginner-2/)
 - [Hafıza Oyunu (Intermediate)](project-intermediate-1/)
 - [Taş Kağıt Makas Oyunu (Intermediate)](project-intermediate-2/)

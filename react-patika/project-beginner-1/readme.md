@@ -1,12 +1,13 @@
-# Proje 1 - Emoji Arama Uygulaması 
+# Proje 1 - Not Tutma Uygulaması
 
-Aşağıdaki ekran görüntüsünde gördüğünüz çalışmaya benzer bir emoji arama uygulaması geliştirmeniz gerekiyor.
+Aşağıdaki ekran görüntüsünde gördüğünüz çalışmaya benzer bir not tutma uygulaması geliştirmeniz gerekiyor.
 
-![preview](./preview.jpeg)
+![preview](./preview.png)
 
-Emoji listesine [şuradan](https://gist.github.com/rxaviers/7360908) ulaşabilirsiniz. 20 adet emoji listelemeniz yeterli olacaktır.
+Örnek çalışmaya [şuradan](https://codepen.io/nickmoreton/pen/gbyygq) ulaşabilirsiniz.
 
 ## Gereksinimler
-- [ ] Ekranın en üstünde filtreleme işlemini yapacak olan bir text input olmalıdır. Bu inputa girilen text'e göre  emoji listesi filtrelenmelidir.
-- [ ] Emoji listesindeki herhangi bir elemanın üzerine gelindiğinde sağ tarafında "Click to copy emoji" yazmalıdır.
-- [ ] Listedeki herhangi elemana tıklanınca ilgili emoji kopyalanmalıdır.
+- [ ] Kullanıcı yeni not oluşturabilmelidir.
+- [ ] Oluşturulan not düzenlenebilmelidir.
+- [ ] Oluşturulan not silinebilmelidir.
+- [ ] İlgili browser penceresi kapatıldığında yazılmış olan notlar kaybedilmemelidir.
