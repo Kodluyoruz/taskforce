@@ -1,22 +1,21 @@
-# Proje 4 - Taş Kağıt Makas Oyunu
+# Proje 4 - Kitap Arama Uygulaması
 
-Aşağıda kuralları belirtilen taş kağıt makas oyununu geliştirmeniz gerekiyor.
-
-## Kurallar
-- Taş, makası kırarak yener.
-- Kağıt, taşı sararak yener.
-- Makas, kağıdı keserek yener.
+[Google Books API](https://developers.google.com/books/docs/overview) veya herhangi başka bir API ile kullanıcıların kitap veya yazar ismi yazarak kitap arayabileceği bir servis geliştirmeniz gerekiyor. 
 
 
 ![preview](./preview.png)
 
 
 ## Gereksinimler
-- [ ] Oyun, bilgisayara karşı oynanacak şekilde hazırlanmalıdır.
-- [ ] Ekranda görüntülenecek olan taş, kağıt ve makas butonlarına tıklanarak bir seçim yapılmalı. Ardından bilgisayarın rastgele bir seçim yapması sağlanarak turu kazanan belirlenmeli.
-- [ ] Turu kazanan bilgisayar ise skor tabelasından bir puan eksiltilmeli, aksi halde bir puan eklenmeli. Yapılan seçimler aynıysa skora herhangi puan yansımaz.
-- [ ] Skor tabelasında 3 rakamı göründüğünde biz, -3 göründüğünde ise bilgisayar kazanmış olur.
-- [ ] Tur geçmişi ekranda listelenmeli, hangi turu kimin kazandığı görüntülenebilmeli.
+- [ ] Input'a girilecek olan ifadeye uygun sonuçlar getirilmeli ve ekranda listelenmeli.
+- [ ] Arama sonuçları sadece ilgili form submit edildiğinde gösterilmeli.
+- [ ] Sonuçlarda kitapların kapak fotoğrafları bulunmalı.
+- [ ] Kitap listesinde "detay" adında bir buton olmalı ve bu butona tıklandığında kitap ile alakalı detay bilgiler verilmeli (sayfa sayısı, yayın tarihi vs.) Detay bilgilerini farklı bir sayfada da gösterebilirsiniz, bir modal açtırarak da gösterebilirsiniz.
 
 
-[Örnek Çalışma](https://react-js-rock-paper-scissors-game.vercel.app/)
+## API
+[Tıklayın](https://developers.google.com/books/docs/overview)
+
+
+## Örnek Çalışma
+[Tıklayın](https://fethica.github.io/BookSearch-React/)
