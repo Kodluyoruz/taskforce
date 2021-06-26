@@ -169,4 +169,4 @@
 - [Hafıza Oyunu (Intermediate)](project-intermediate-1/)
 - [Kitap Arama Uygulaması (Intermediate)](project-intermediate-2/)
 - [Taş Kağıt Makas Oyunu (Advanced)](project-advanced-1/)
-- [Test](project-advanced-2/)
+- [Form Builder App (Advanced)](project-advanced-2/)
