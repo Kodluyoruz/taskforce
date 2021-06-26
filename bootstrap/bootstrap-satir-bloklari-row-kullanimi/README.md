@@ -107,4 +107,4 @@ Kaynaklar:
 - [https://www.sadikturan.com/bootstrap/bootstrap-grids/1201](https://www.sadikturan.com/bootstrap/bootstrap-grids/1201)
 - [https://www.tutorialspoint.com/bootstrap/bootstrap_grid_system.htm](https://www.tutorialspoint.com/bootstrap/bootstrap_grid_system.htm)
 - [https://getbootstrap.com/docs/4.1/layout/overview/](https://getbootstrap.com/docs/4.1/layout/overview/)
-- [https://fatihhayrioglu.com/bootstrap-izgara-Grid-sistemi-1/](https://fatihhayrioglu.com/bootstrap-izgara-Grid-sistemi-1/)
+- [Bootstrap Izgara Grid Sistemi](https://fatihhayrioglu.com/bootstrap-izgara-Grid-sistemi-1/)
