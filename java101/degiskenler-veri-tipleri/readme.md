@@ -56,7 +56,7 @@ int a = 1 ; // Bu satır hataya neden olur, a değişkeni zaten var
 Doğru Kullanım :
 
 ```java
-int a = true; // a isminde bir değişken tanımlanmış ve varsayılan bir değer verilmiş
+boolean a = true; // a isminde bir değişken tanımlanmış ve varsayılan bir değer verilmiş
 a = false; // a değişkeninin değeri değiştirilmiş
 ```
 
