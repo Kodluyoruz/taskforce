@@ -182,8 +182,8 @@
         {
             Patika obj = new Patika();
             obj.x = 0;      
-            obj.cal(2);
-            System.out.print(patika.x);
+            obj.hesapla(2);
+            System.out.print(obj.x);
         }
     }
 ````   
