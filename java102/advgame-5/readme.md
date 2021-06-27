@@ -74,4 +74,4 @@ ZIRHLAR
 
  ## Sınıf Diyagramı
 
-![Sınıf Diyagramı](figures/class-diagram.jpg)
+![Sınıf Diyagramı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/advgame-5/figures/class-diagram.jpg)
