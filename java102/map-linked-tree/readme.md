@@ -9,4 +9,4 @@ Map arayüzünün Hashtable ve LinkedList özeliklerini içeren bir kılgısıd�
 LinkedHashMap sınıfı HashMap sınıfının belirsiz sıralamasını önler, koleksiyonun öğelerine
 öngörülebilen bir sırada erişimi sağlar. Tabii, bu erişim sırasını, HashMap yapısını TreeMap yapısına
 dönüştürerek de sağlayabiliriz. Ama, genellikle, TreeMap yapısını kurmanın karmaşası (complexity)
-daha çoktur. __
+daha çoktur. 
