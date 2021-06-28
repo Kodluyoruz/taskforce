@@ -73,7 +73,7 @@ dbConnection.close();
 “Connection” tipindeki sınıftan bir nesne ile veri tabanı bağlantımızı oluşturmuştuk. Aynı şekilde bu nesne üzerindeki “close” fonksiyonu ile bağlantıyı
 kapatıyoruz.
 
-![Figure 2](./figures/jdbc-interfaces.png)
+![Figure 2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/jdbc/figures/jdbc-interfaces.png)
 
 ## Kaynak:
 
