@@ -11,7 +11,7 @@ gerektirmeden kullanımını sağlar. Böylece, Java ile veri tabanıyla işleml
 çalışabilirsiniz. Böyle yüksek bir soyutluluk sağlaması Java kodlarının yeniden kullanılabilirliğini arttırmaktadır. JDBC API ile veri tabanı bağlantısı
 oluşturup, tablolar üzerinde sorgu çalıştırabilirsiniz. Sorgulama, veri güncelleme, silme veya yeni kayıt ekleme işlemlerini yapabilirsiniz.
 
-![Figure 1](./figures/JDBC_Architecture.jpg)
+![Figure 1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/jdbc/figures/JDBC_Architecture.jpg)
 
 ## 5 Adımda JDBC’yi Kullanmak
 
