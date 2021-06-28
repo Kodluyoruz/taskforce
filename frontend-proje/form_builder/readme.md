@@ -3,7 +3,7 @@
 Sürükle bırak yöntemiyle form oluşturma uygulaması geliştirmeniz gerekiyor.
 
 
-![preview](./preview.png)
+![preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/frontend-proje/form_builder/figures/preview.png)
 
 
 ## Gereksinimler
