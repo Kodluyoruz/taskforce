@@ -200,10 +200,6 @@ Yukarıdaki “multiplyMatrices” fonksiyonu iki tane matrisi girdi olarak alı
 
 “multiplyMatrices” fonksiyonu içinde bir başka fonksiyon daha çağrılmıştır. “multiplyMatricesCell” bu fonksiyon ise iki matrisin satır ve sütununu çarpıp sonucu double tipte bir değer döndürür.
 
-Yukarıdaki "multiplyMatrices" fonksiyonu iki tane matrisi girdi olarak alır. Fonksiyon matrislerin çarpım sonucunu matris olarak döndürür.
-
-"multiplyMatrices" fonksiyonu içinde bir başka fonksiyon daha çağrılmıştır. "multiplyMatricesCell" bu fonksiyon ise iki matrisin satır ve sütununu çarpıp sonucu double tipte bir değer döndürür.
-
 ## Sütun Kapasiteleri Farklı Matris Oluşturmak - Düzensiz Diziler
 
 Farklı sütun değerine sahip dizilere "**Ragged Arrays**" yani düzensiz diziler denir. Başka bir açıdan bakıldığında ise, 2 boyutlu dizileri, **dizilerin dizisi** (**array of arrays**) olarak düşünmek doğru olur. Yani iki boyutlu dizileri tek boyutlu diziler oluşturur.
