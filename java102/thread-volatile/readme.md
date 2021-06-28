@@ -22,7 +22,7 @@ Erişim_Belirteci volatile Veri_Tipi Değişken_Adı;
 
 
 
-![volatile-mantigi](figures/volatile_osman_deniz.png)
+![volatile-mantigi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/thread-volatile/figures/volatile_osman_deniz.png)
 
 
 
