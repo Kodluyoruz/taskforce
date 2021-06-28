@@ -9,7 +9,7 @@ kartlar tamamen kapalı olarak gelir. Arka arkaya iki kart seçilir ve eğer bu 
 
 
 ## Gereksinimler
-- [ ] Her deneme işleminden sonra "moves" değeri bir arttırılmalıdır. Bu değer, oyundan alınan puanı belirtir.
-- [ ] Oyun bitiminde, eğer en iyi skor yapılmışsa ilgili skor localStorage'a yazılmalı ve  ekranda da gösterilmelidir.
-- [ ] Ekranın en altında "Restart" butonu olmalıdır.
-- [ ] Her restart işleminde kartlar rastgele karıştırılmalıdır.
+-  Her deneme işleminden sonra "moves" değeri bir arttırılmalıdır. Bu değer, oyundan alınan puanı belirtir.
+-  Oyun bitiminde, eğer en iyi skor yapılmışsa ilgili skor localStorage'a yazılmalı ve  ekranda da gösterilmelidir.
+-  Ekranın en altında "Restart" butonu olmalıdır.
+-  Her restart işleminde kartlar rastgele karıştırılmalıdır.
