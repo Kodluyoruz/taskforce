@@ -14,7 +14,7 @@ Program yazarken belli kurallar yazmış oluruz. Java çalışma ortamı, progra
 Böyle bir durumda Java çalışma ortamı ne yapacağını bilemez, çareyi programı sonlandırmakta bulur. Kısacası, bir hata oluştuğu zaman programın çalışması sona
 erer. Bunun önüne geçebilmek için, kodun yazılış aşamasında hata yönetiminin iyi yapılması gerekir.
 
-![Figure 1](figures/exceptions-callstack.png)
+![Figure 1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/exception/figures/exceptions-callstack.png)
 
 Hata yönetiminden kastımız, hatanın meydana gelmesini engellemek değildir. Hata yönetimi, en basit ifadesiyle, çalışma sırasında bir hata meydana gelse bile
 programın çalışmasına devam etmesini sağlamaktır. Java’da bu mümkündür. Java’nın hata yönetim mekanizması sayesinde, program normal akışında çalışır; eğer bir
@@ -49,7 +49,7 @@ Bir hata oluştuğunda iki farklı durumla ele alınabilir.
 
 Java&#39;da Exception&#39;larda birer sınıftır. Bu sınıfların hepsi &quot;Throwable&quot; sınıfından türemişlerdir.
 
-![](figures/exceptions-errorOccurs.gif)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/exception/figures/exceptions-errorOccurs.gif)
 
 **Throwable** : Exception hiyerarşinin en üstündeki sınıftır. Tüm Exception sınıfları ondan kalıtım alır.
 
