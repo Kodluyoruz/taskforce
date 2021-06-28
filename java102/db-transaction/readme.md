@@ -6,11 +6,11 @@ geri almak isteyebiliriz. Bu durumlarda tablolara gitmek ve yaptığımız işle
 
 Bunu bir diagram ile açıklamak istersek
 
-![Figure 1](./figures/1.png)
+![Figure 1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/db-transaction/figures/1.png)
 
 şeklinde bir işlemimiz olsun. Yani kullanıcı bir butona basacak ve bu işlemler ardışık olarak gerçekleşecek.
 
-![Figure 2](./figures/2.png)
+![Figure 2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/db-transaction/figures/2.png)
 
 Diagramda görüldüğü gibi **Sorgu 3**'te bir nedenden dolayı bir hata gerçekleşti. Bu durumda verilerin bütünlüğünü ve doğruluğunu sağlamamız için işlemi geri
 almamız gerekir. Bunu yapmak için de JDBC bize bazı fonksiyonlar sağlamaktadır.
