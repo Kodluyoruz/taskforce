@@ -6,7 +6,7 @@
 
 
 
-![img](figures/linkedlist.png)
+![img](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/collection-linkedlist/figures/linkedlist.png)
 
 
 
