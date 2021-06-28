@@ -5,7 +5,7 @@
 Board üzerinde toplam 12 kart vardır ve her karttan iki adet bulunmaktadır. Oyun başladığında
 kartlar tamamen kapalı olarak gelir. Arka arkaya iki kart seçilir ve eğer bu kartlar birbirinin aynıysa o kartlar ekrandan kaldırılır. Eğer kartlar birbirinden farklıysa, kartlar tekrar kapatılır.
 
-![preview](./preview.png)
+![preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/frontend-proje/haf%C4%B1za_oyunu/figures/preview.png)
 
 
 ## Gereksinimler
