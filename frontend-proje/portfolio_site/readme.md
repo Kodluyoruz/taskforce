@@ -6,7 +6,7 @@ Kişisel çalışmalarınızı, iş deneyimlerinizi ve blog yazılarınızı pay
 ### Örnek web sayfası
 Web sayfasına [şuradan](https://kentcdodds.com/) ulaşabilirsiniz.
 
-![preview](./preview.png)
+![preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/frontend-proje/portfolio_site/figures/preview.png)
 
 
 ## Gereksinimler
