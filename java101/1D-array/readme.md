@@ -21,7 +21,7 @@ int[] numbers = new int[5];
 Bu ifade çalıştırıldığında, hafızada 5 adet int değişken için yetecek kadar alan ayrılır. Bu alanı düzenleyebilmek için indeks numaraları kullanırız. **Dizi indeksleri 0’dan başlar** ve kapasitenin 1 eksiğine kadar gider. Örneğin, yukarıdaki dizinin indeksleri 0’dan 4’e kadardır. Şimdi bu dizinin ilk elemanını verelim:
 
 ```
-numbers[0] = 10; // Dizinin ilk elemanı 5 olarak ayarlandı.
+numbers[0] = 10; // Dizinin ilk elemanı 10 olarak ayarlandı.
 ```
 
 Dizinin diğer elemanlarını şu şekilde verelim:
