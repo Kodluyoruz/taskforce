@@ -98,7 +98,7 @@ Odalar gecelik fiyat olarak hesaplanır. Fiyatlar otel için eklenmiş olan dön
 
 Fiyatlar odaların gecelik bedellerine göre tanımlanır. Bu fiyatlara acentenin komisyon bedeli dahildir.
 
-![figures/price.png](figures/price.png)
+![figures/price.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/odev-turizm-acente/figures/price.png)
 
 Yukarıda ki örnekte odaya ait otele tanımlanmış olan dönemler ve pansiyon tiplerine göre alanlar otomatik gelmiştir.
 
@@ -108,7 +108,7 @@ Acente çalışanı sistem üzerinden girdiği tarih aralığına , **Bölgeye**
 
 ### Örnek Arama Ekranı
 
-![figures/search.png](figures/search.png)
+![figures/search.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/odev-turizm-acente/figures/search.png)
 
 ## Oda Arama Algoritması
 
@@ -141,7 +141,7 @@ Bu bilgilere göre
 
 Bir odaya ait fiyat örneği
 
-![figures/price.png](figures/price.png)
+![figures/price.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/odev-turizm-acente/figures/price.png)
 
 Konaklama tarihleri hangi dönem fiyatlarına denk geliyorsa ona göre hesaplanır.
 
@@ -161,7 +161,7 @@ Pansiyon Tipine göre tutarlar (Arama verisine göre 2 gecelik hesaplama) :
 
 ### Örnek Arama Çıktısı
 
-![figures/list.png](figures/list.png)
+![figures/list.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/odev-turizm-acente/figures/list.png)
 
 ## Rezervasyon İşlemi
 
@@ -176,7 +176,7 @@ girerek sistem üzerinden satışı tamamlar. Eğer satış tamamlanırsa ilgili
 
 ### Örnek Rezervasyon Tamamlama Çıktısı
 
-![figures/list.png](figures/info.png)
+![figures/list.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/odev-turizm-acente/figures/info.png)
 
 ## Rezervasyon Listesi
 
