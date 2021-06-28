@@ -132,4 +132,4 @@ public class PatikaDev {
 ````
 
 ## Kaynak
-[https://metinalniacik.medium.com/javada-functional-interface-ve-lambda-expression-f1f321013052](https://metinalniacik.medium.com/javada-functional-interface-ve-lambda-expression-f1f321013052)
+[Javada Functional Interface ve Lambda Expression](https://metinalniacik.medium.com/javada-functional-interface-ve-lambda-expression-f1f321013052)
