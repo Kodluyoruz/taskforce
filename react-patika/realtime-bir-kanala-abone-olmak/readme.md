@@ -1,1 +1,1 @@
-# Bir Kanala Abone Olmak
+# 
