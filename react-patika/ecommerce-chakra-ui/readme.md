@@ -1,1 +1,1 @@
-# Chakra UI Kurulumu
+# 
