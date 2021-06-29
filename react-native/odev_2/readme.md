@@ -14,11 +14,7 @@ Custom component disiplinini de unutma.
 Başarılar :)
 
 
-![todo_1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_2/figures/todo_1.png) 
-![todo_2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_2/figures/todo_2.png) 
-![todo_3](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_2/figures/todo_3.png)
-
-<p float="left">
+<p float="center">
   <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_2/figures/todo_1.png" width=270 height=480/>
   <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_2/figures/todo_2.png" width=270 height=480 /> 
   <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_2/figures/todo_3.png" width=270 height=480 />
