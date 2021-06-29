@@ -1,4 +1,4 @@
-#### 3.Elma Ağaçlarındaki Yaprak Hastalıklarının Belirlenmesi #####
+# 3.Elma Ağaçlarındaki Yaprak Hastalıklarının Belirlenmesi
 
 
 **Problem tanımı ve amaç:** Tarımsal ürünleri etkileyen birçok hastalığın yanlış teşhisi, kimyasalların yanlış kullanımına yol açarak dirençli patojen türlerin ortaya çıkmasına neden olur. Bu durum da maalesef önemli ekonomik kayıplara ve çevresel negatif etkilere sahip daha fazla salgına yol açabilir. 
