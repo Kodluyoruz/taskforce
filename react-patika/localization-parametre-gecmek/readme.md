@@ -1,1 +1,1 @@
-# Parametre Geçmek
+# 
