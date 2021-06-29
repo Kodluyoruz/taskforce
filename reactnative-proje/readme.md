@@ -8,7 +8,7 @@
 
 #### 2'nci Seviye Projeler ####
 - [Marvel](Marvel)
-- [Kitaplık](Trivia)
+- [Trivia](Trivia)
 
 #### 3'ncü Seviye Projeler ####
 - [Weather](Weather)
