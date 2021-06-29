@@ -1,1 +1,1 @@
-# Koşullu Render İşlemi
+#
