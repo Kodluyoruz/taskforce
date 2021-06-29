@@ -1,1 +1,1 @@
-# Temel Bileşenlerin Geliştirilmesi
+# 
