@@ -1,2 +1,1 @@
-# Fonksiyonlar - Bölüm Sonu Egzersizi
-
+#
