@@ -1,1 +1,1 @@
-# React Intl - Kurulum
+# 
