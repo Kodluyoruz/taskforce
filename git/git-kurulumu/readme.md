@@ -1,2 +1,2 @@
-# Git Kurulumu
+#
 
