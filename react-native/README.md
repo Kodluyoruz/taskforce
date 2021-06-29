@@ -109,7 +109,7 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [bana ne? (Log out işlemleri)](bana-ne-log-out-islemleri/)
 - [bana ne? (Dislike??)](bana-ne-dislike/)
 - [bana ne? (Uygulamayı tamamlayış)](bana-ne-uygulamayi-tamamlayis/)
-- [Codetalks](odev_4)
+- [Codetalks](odev_5)
 
 #### Uygulama Dağıtma ####
 - [Uygulama İcon Değiştirme (Android)](uygulama-icon-degistirme-android/)
