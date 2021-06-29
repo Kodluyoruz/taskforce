@@ -19,8 +19,8 @@ Başarılar :)
 ![todo_3](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_2/figures/todo_3.png)
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_2/figures/todo_1.png" width="100" />
-  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_2/figures/todo_2.png" width="100" /> 
-  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_2/figures/todo_3.png" width="100" />
+  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_2/figures/todo_1.png" width=270 height=480/>
+  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_2/figures/todo_2.png" width=270 height=480 /> 
+  <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-native/odev_2/figures/todo_3.png" width=270 height=480 />
 </p>
 
