@@ -1,1 +1,1 @@
-#### Algoritma Nedir ####
+# 
