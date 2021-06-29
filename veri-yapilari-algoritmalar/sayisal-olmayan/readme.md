@@ -1,1 +1,1 @@
-#### Sayısal Olmayan ####
+#
