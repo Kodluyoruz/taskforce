@@ -1,12 +1,9 @@
-Evet proje zamanı !
+# 2.Depresyon Durumu Tahmini 
 
-Burda sizin ile paylaştığımız veri setleri ile çeşitli toplumsal,ekolojik ve çevre sorunlarının inclendiği projeler yapmaya başlayacaksınız. Bu sayede yapılan projeler ile şahane çözümler geliştirebilirsiniz!
+**Problem tanımı ve amaç:** Veri seti, kontrol grubu hastalarının ve ‘condition’ grubu hastalarının verileri olmak üzere iki klasör içermektedir. Klasörler, her hasta için zaman içinde toplanan aktigraf verileri içeren ayrı bir csv dosyası içermektedir. Hastaların bu bilgilerine dayanarak depresyon durumunu otomatik olarak tahmin etmeyi amaçlamaktadır.  Yapılacak bir app'te kişilerin karşısına çıkan sorulara verdiklere cevaplara bağlı olarak depresyon teşhisi koyulabilir. 
 
-#### 1.Binaların Enerji Verimliliği ####
 
-**Problem tanımı ve amaç:** Veri seti, simüle edilmiş 768 bina şeklinin yüzey/duvar/çatı alanı, cam alanı, cam alanı dağılımı ve yönü gibi özelliklerini içermektedir. Bu veriye dayanarak binanın ısıtma ve soğutma yükünü tahmin etmek amaçlanmaktadır. Çevre duyarlılığının çok önemli olduğu şu çağda halen yenilenebilir enerji kaynaklarına geçmediğimiz için karbon ayak izini azaltmak için süper bir danışmanlık girişimi olabilir.
-
-**Veri Seti Link:** https://www.kaggle.com/elikplim/eergy-efficiency-dataset 
+**Veri Seti Link:** https://www.kaggle.com/arashnic/the-depression-dataset  
 
 
 Projelerden, ilginizi çeken veri setleri üzerinde bu derste öğrendiklerinizi uygulayıp github reposunun linkini paylaşın (derste öğrendiklerimizin dışında yeni şeyler denerseniz daha da iyi !)
