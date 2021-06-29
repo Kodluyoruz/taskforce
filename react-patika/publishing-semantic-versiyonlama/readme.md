@@ -1,1 +1,1 @@
-# Semantic Versiyonlama
+# 
