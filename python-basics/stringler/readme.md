@@ -201,7 +201,7 @@ print("hey\nnasılsın")
 print("hey\tnasılsın")
 ```
 
-<p>hey<span>    </span>nasılsın</p>
+> hey nasılsın
 
 
 ```python
