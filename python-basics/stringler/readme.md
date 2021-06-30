@@ -201,7 +201,11 @@ print("hey\nnasılsın")
 print("hey\tnasılsın")
 ```
 
- hey    nasılsın
+ > <pre>
+hello, this is
+   just an     example
+....
+</pre>
 
 
 ```python
