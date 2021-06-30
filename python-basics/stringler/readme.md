@@ -201,7 +201,7 @@ print("hey\nnasılsın")
 print("hey\tnasılsın")
 ```
 
-> 'hey    nasılsın'
+<p>hey    nasılsın<p>
 
 
 ```python
