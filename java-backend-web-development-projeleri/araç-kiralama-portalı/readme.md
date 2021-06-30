@@ -13,3 +13,8 @@ Java’da araç kiralama portalı yapılması.
 - Rezervasyon yapılan tarihte ilgili aracın müsait olması ve başka kiralama ile çakışmaması  gerekmektedir. 
 - Firmalar ve kullanıcılar yaptıkları rezervasyonları listeleyebilmeliler. 
 - Rezervasyonlar en erken 1 gün öncesinden iptal edilebilir. 
+
+
+Kullanılması gereken teknikler:
+- Veritabanı (DATABASE) 
+- Kullanıcı Arayüzü (GUI) 
