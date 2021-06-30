@@ -204,7 +204,6 @@ print("hey\tnasılsın")
 > hey    nasılsın
 
 
-
 ```python
 print("hmm \")
 ```
