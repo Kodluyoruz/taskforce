@@ -7,3 +7,7 @@
 Herkes birbirinin yazdığı mesajı okuyabilir. 
 - Sunucuya bağlandıktan sonra, sohbete girmek için kullanıcının adını girmesi gerekir.  Sunucu, yeni kullanıcıya şu anda çevrimiçi olan kullanıcıların bir listesini gönderir. - Yeni bir kullanıcı sohbete katıldığında ve bir kullanıcı sohbetten ayrıldığında, her kullanıcı  bilgilendirilir.  
 - Uygulama sunucu ve istemci olmak üzere iki bölümden oluşmaktadır. Her bölüm ayrı  bilgisayarlarda bağımsız olarak çalışabilir. 
+
+Kullanılması gereken teknikler:
+- Socket  
+- Thread
