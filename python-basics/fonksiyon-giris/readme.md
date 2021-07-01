@@ -5,7 +5,7 @@
 * Gereksiz kod tekrarından kaçınmak gerekir.
 * Bu konularda gayet yardımcı olabilecek bir yapıyı göreceğiz bugün. - fonksiyonlar
 
-* Belirli Fonksiyonalite katan kod bloklarını belirli bir yapı altında tutup, o işleme ihtiyaç duyduğum zaman tekrar tekrar kullanabilirim. Bu yapı `fonksiyonlar`
+* Belirli Fonksiyonalite katan kod bloklarını belirli bir yapı altında tutup, o işleme ihtiyaç duyduğum zaman tekrar tekrar kullanabilirim. Bu yapı `fonksiyonlar`.
 
 * Fonksiyonlar kodumuzda abstraction (soyutlama) ve decomposition (problemi küçük parçalara ayırma) (modülerlik) yapmamızı sağlar. 
 
