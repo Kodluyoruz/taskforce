@@ -61,7 +61,7 @@ print("Ortalama:",ortalama)
 
 * Bunun aynısını range() fonksiyonu ile de yapabilirdik.
 
-* `for e in notlar` diyince ilk iterasyonda `e`nin değeri 90, ikincisinde 72... olarak devam etti.
+* `for e in notlar` diyince ilk iterasyonda `e`'nin değeri 90, ikincisinde 72... olarak devam etti.
 
 * `range()` ile indexlerde iterasyon yapıp indexing ile değerlerine de ulaşabilirdim. (Range belirli bir listenin indexlerinde iterasyon yapmamı sağlamıyor, range(len(notlar)) diyince bize `0,1,2.. len(notlar)-1` sayılarını verecek, bunlar da listenin indexleriyle örtüşüyor, yoksa `range()` index verir diye bir şey yok.)
 
@@ -118,7 +118,7 @@ for e in notlar:
     77
 
 
-* Buradaki `e` sadece `notlar`ın içindeki değerler,`e` 'yi değiştirmek listenin elemanlarını değiştirmez!
+* Buradaki `e` sadece `notlar`ın içindeki değerler, `e` 'yi değiştirmek listenin elemanlarını değiştirmez!
 
 
 ```python
