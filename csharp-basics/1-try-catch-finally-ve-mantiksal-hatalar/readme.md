@@ -29,7 +29,7 @@ Try catch blokları sayesinde uygulama içerisinde bir hata oluştuğunda belirt
         Console.WriteLine("İşlem tamamlandı.");
     }
 
-Yukarıdaki örnekte console dan alınan string ifade int.Parse metodu ile integrer a dönüştürülüyor. Ama Console dan girilen veri sayıya dönüştürülebilen bir strşng olmayabilir. Bu durumda bu kod hataya düşecektir. try catch bloğu içerisinde alınması gerekir. 
+Yukarıdaki örnekte console dan alınan string ifade int.Parse metodu ile integrer a dönüştürülüyor. Ama Console dan girilen veri sayıya dönüştürülebilen bir string olmayabilir. Bu durumda bu kod hataya düşecektir. try catch bloğu içerisinde alınması gerekir. 
 
 Uygulama geliştirirken bu tarz hataya neden olabilecek noktaları yakalıyor olmak gerekiyor. Bunun için de kod üzerinde zaman geçirmek ve düşünmek gerekiyor. Hızlıca kodu yazıp geçmek doğru bir yaklaşım değildir. Yazdığımız kod bloğunun açıklarını düşünmemiz ve bu açıklar için önlemler alıyor olmamız gerekiyor. 
 
