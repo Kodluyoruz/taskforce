@@ -604,7 +604,7 @@ public class PatikaDev {
 ```
 
 1. Yukarıdaki programın çıktısı nedir ?
-   - Show Metodu... (Doğru)
+   - Show metodu... (Doğru)
    - NULL
    - Derleme Hatası Verir
    - Hiçbiri olmaz
