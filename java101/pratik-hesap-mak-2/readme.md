@@ -44,7 +44,7 @@ public class JavaPatika {
             System.out.print(i + ". sayı :");
             number = scan.nextInt();
             if (i == 1) {
-                result = number;
+                result += number;
                 continue;
             }
             result -= number;
