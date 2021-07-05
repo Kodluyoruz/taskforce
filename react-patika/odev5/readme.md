@@ -1,6 +1,6 @@
 # Ödev 5
 
-React'in kendi dokümanlarında paylaşılan ve halihazırda çalışan bir uygulamanın test kodunu yazmanız gerekiyor.
+React'in kendi dokümanlarında paylaşılan [örnek projerde](https://tr.reactjs.org/community/examples.html) bulunan ve halihazırda çalışan bir uygulamanın test kodunu yazmanız gerekiyor.
 
 Uygulamanın kaynak kodlarına erişmek için [tıklayın](https://github.com/ahfarmer/emoji-search).
 
