@@ -4,7 +4,7 @@ Sizden genel olarak bir hava durumu uygulaması geliştirmeniz bekleniyor. Türk
 
 Ekran aşadağı görseldeki gibi olacaktır.
 
-![preview](./preview.jpeg)
+![preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-patika/odev3/figures/preview%20kopyas%C4%B1.jpeg)
 
 
 ## Gereksinimler
