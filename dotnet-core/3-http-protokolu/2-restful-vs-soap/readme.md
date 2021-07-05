@@ -1,1 +1,0 @@
-# Restful vs Soap

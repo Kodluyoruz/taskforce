@@ -1,1 +1,1 @@
-# Yazılım Mimarisi Desenlerine Giriş
+# 

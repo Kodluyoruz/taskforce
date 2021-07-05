@@ -314,7 +314,6 @@ s1.difference(s2)
 
     {1, 10}
 
-![difference1.png](attachment:difference1.png)
 
 ```python
 # '-' operatörü setlerde kullanıldığında bize farkı verir.
@@ -336,7 +335,6 @@ s2 - s1
 
     {2, 3}
 
-![difference2.png](attachment:difference2.png)
 
 ## Symmetric Difference
 
@@ -346,7 +344,6 @@ U -> Birleşim
 
 n -> kesişim
 
-![sym_difference.png](attachment:sym_difference.png)
 
 ```python
 s1
@@ -376,7 +373,6 @@ s2.symmetric_difference(s1)
 
 ## Intersection (kesişim)
 
-![intersection.png](attachment:intersection.png)
 
 ```python
 s1
@@ -435,7 +431,6 @@ s1
 
 ## Union (Birlerşim)
 
-![union1.png](attachment:union1.png)
 
 
 ```python

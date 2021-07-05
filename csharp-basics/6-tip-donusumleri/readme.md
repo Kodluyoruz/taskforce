@@ -11,18 +11,14 @@ Tip dönüşümleri **2 şekilde** yapılabilir.
 Bir değişkenin kendinen daha yüksek kapasiteli bir değişkene atanmasıdır. Hedef değişkenin veri tipi bellekte yeterli alana sahip olacağından, bu dönüşümde bir veri kaybı sözkonusu olmayacaktır. Dolayısıyla bu dönüşüm kendiliğinden yapılabilir. 
 
 **Örnek:**
-<code>
-float a;
-int b = 25;
-a = b;
-</code>
+```
+float a; int b = 25; a = b;
+```
 
 **Örnek:**
-<code>
-short x = 10;
-int y;
-y = x;
-</code>
+```
+short x = 10; int y; y = x;
+```
 
 Yukarıdaki örnek sorunsuz çalışır. Çünkü float integer'a, integer da short veri tipine göre daha büyük sayıları saklayabiliyor.
 
@@ -32,30 +28,27 @@ Yukarıdaki örnek sorunsuz çalışır. Çünkü float integer'a, integer da sh
 - Convert Metodu
 
     **Örnek :** 
-    <code>
-    int a;
-    a = Convert.ToInt32(Console.ReadLine());
-    </code> 
+    ```
+    int a; a = Convert.ToInt32(Console.ReadLine());
+    ```
 - Parse Metodu
 
     String türündeki verileri sayı tipindeki değerlere dönüştürmek için kullanılır.
 
     **Örnek :** 
-    <code>
-    int a;
-    a = Int.Parse(Console.ReadLine());
-    </code> 
+    ```
+    int a; a = Int.Parse(Console.ReadLine());
+    ```
 
     **Örnek :** 
-    <code>
+    ```
     long x = long.Parse(Console.ReadLine());
-    </code> 
+    ```
 - Cast Operatörü İle Dönüşüm
      
     **Örnek :** 
-    <code>
-        double a = 3.45;
-        int a = (int)sayi;
-    </code> 
+    ```
+        double a = 3.45; int a = (int)sayi;
+    ```
 
 

@@ -1,1 +1,0 @@
-# Metot Detayları (Summary vb.)

@@ -1,101 +1,103 @@
 # .NET Core (.NET 5) Index
 
-### [.NET 5 Giriş](1-net5-giris/)
+#### .NET 5 Giriş ####
 
-- [Tarihçe](1-net5-giris/1-programlama-dillerinin-tarihcesi/)
-- [.NET Framework vs .NET Core (.NET 5)](1-net5-giris/2-netfw-vs-net5/)
-- [.NET 5 Tanıtım](1-net5-giris/3-net5-tanitim/)
+### [Tarihçe, .Net Framework vs .Net Core vs .Net5](1-net5-giris/)
 
-### [Kurulumlar](2-kurulumlar/)
+#### Kurulumlar ####
 
-- [.NET 5 Kurulumu](2-kurulumlar/1-net5-kurulumu/)
-- [Visual Studio Code kurulumu](2-kurulumlar/2-vscode-kurulumu/)
 
-### [Http Protokolü](3-http-protokolu/)
+- ### [.NET 5 Kurulumu](1-net-5-kurulumu/)
+- ### [Visual Studio Code kurulumu](2-vscode-kurulumu/)
 
-- [Restful Servisler](3-http-protokolu/1-restful-servisler/)
-- [Restful vs Soap](3-http-protokolu/2-restful-vs-soap/)
-- [JSON (JavaScript Object Notation)](3-http-protokolu/3-json/)
+#### Http Protokol ####
+- ### [Http Protokolü](1-http-ptotokolu)
+- ### [Restful Servisler](2-restful-servisler/)
+- ### [Restful vs Soap](3-restful-vs-soap/)
+- ### [JSON (JavaScript Object Notation)](4-json/)
 
+#### Örnek Web Api Yaratmak ####
 ### [Örnek Web Api Yaratmak](4-ornek-webapi-yaratmak/)
 
-### [Proje Dosyalarını Tanıma](5-proje-dosyalari/)
+#### Proje Dosyalarını Tanıma ####
+- ### [Startup ve Program Sınıfları](1-startup/)
+- ### [Ortam dosyaları](2-ortam-dosyalari/)
 
-- [Startup.cs](5-proje-dosyalari/1-startup/)
-- [.Env dosyaları](5-proje-dosyalari/2-env-dosyalari/)
+#### Controllers, Route ve Action Methodlar ####
+- ### [Controller Sınıfı](1-controller-nedir/)
+- ### [Route Kavramı](2-route/)
+- ### [Action Methodlar](3-action-metotlar/)
+- ### [Okunabilir API tasarımı](4-okunabilir-api-tasarimi/)
 
-### [Controllers, Route ve Action Methodlar](6-controllers-route-action-methodlar/)
+#### Swagger ve Postman kullanımı ####
+- ### [Swagger Nedir? Nasıl Kullanılır?](1-swagger-ui-nedir-nasıl-kullanılır/)
+- ### [Postman Nedir? Nasıl Kullanılır?](2-postman-nedir-nasıl-kullanılır/)
+- ### [Api Debug Nasıl Yapılır?](3-api-debug/)
 
-- [Controller nedir ?](6-controllers-route-action-methodlar/1-controller-nedir/)
-- [Route Kavramı](6-controllers-route-action-methodlar/2-route/)
-- [Action Methodlar](6-controllers-route-action-methodlar/3-action-methodlar/)
-- [Okunabilir API tasarımı](6-controllers-route-action-methodlar/4-okunabilir-api-tasarimi/)
+#### BookStore Projesi Yaratmak ####
+- ### [Get ve GetById endpoint'lerinin yazılması](1-get-endpoint)
+- ### [Put ve Post endpoint'lerinin yazılması](2-put-ve-post-endpoint)
+- ### [Delete endpoint'inin yazılması](3-delete-endpoint)
 
-### [Ödev 1](7-odev-1/)
+#### Veritabanı Yönetim Sistemleri ####
+- ### [İlişkisel ve NoSql Veritabanları](1-iliskisel-nosql-veritabanlari/)
+- ### [Table,Primary Key, Foreign Key Kavramları](2-table-pk-fk-kavramlari/)
+- ### [Tablo İlişkileri](3-tablo-iliskileri/)
 
-### [Swagger ve Postman kullanımı](8-swagger-postman/)
+#### Orm ve Entity Framework Core ####
+- ### [Temel SQL](1-temel-sql/)
+- ### [ORM Nedir? ORM Araçları Nelerdir? Entity Framework Core'a Giriş](2-orm-ve-ef-core/)
+- ### [Örnek Projeye EF Core Dahil Etmek](3-projeye-efcore-eklemek/)
+- ### [DB Context kullanarak CRUD işlemler](4-db-context-ile-crud-islemler/)
+- ### [Auto Increment ID kolonunun eklenmesi](5-auto-increment-id-kolonu)
+- ### [Linq ile Crud İşlemler](6-linq/)
 
-- [Swagger Nedir ?](8-swagger-postman/1-swagger-nedir/)
-- [Swagger Kullanımı](8-swagger-postman/2-swagger-kullanimi/)
-- [Postman Nedir ?](8-swagger-postman/3-postman-nedir/)
-- [Postman Kullanımı](8-swagger-postman/4-postman-kullanimi/)
-- [API Debug](8-swagger-postman/5-api-debug/)
+#### Entity, Model ve Mapper Kullanımı ####
+- ### [Entity Kavramı](1-entity-kavrami/)
+- ### [ViewModel ve Dto Kavramı](2-viewmodel-ve-dto-kavrami/)
+- ### [Ödev - Model Kullanımı](4-odev-model-kullanimi)
+- ### [Ödev Çözümü - Model Kullanımı](5-odev-cozum-model-kullanımı)
+- ### [AutoMapper](6-automapper/)
 
-### [Veritabanı Yönetim Sistemleri](9-veritabani-yonetim-sistemleri/)
+#### Fluent Validation Kullanarak Modellerin Doğrulanması ####
+- ### [Modellerin Doğrulanması ve FluentValidation Kütüphanesi](1-model-validasyonu)
+- ### [Model Validasyonu - Ödev](2-model-validasyonu-odev)
+- ### [Model Validasyonu - Ödev Çözümü](3-model-validasyonu-odev-cozum)
 
-- [İlişkisel ve NoSql Veritabanları](9-veritabani-yonetim-sistemleri/1-iliskisel-nosql-veritabanlari/)
-- [Table,Primary Key, Foreign Key Kavramları](9-veritabani-yonetim-sistemleri/2-table-pk-fk-kavramlari/)
-- [Index Tipleri](9-veritabani-yonetim-sistemleri/3-index-tipleri/)
-- [Tablo İlişkileri](9-veritabani-yonetim-sistemleri/4-tablo-iliskileri/)
+#### Dependency Injection ####
+- ### [Dependency Nedir ?](1-dependency-nedir/)
+- ### [Dependency Injection (DI) Kavramı](2-dependency-injection-kavrami/)
+- ### [DI Container Kavramı](3-di-container/)
+- ### [.NET Core DI Container (Services)](4-net-core-di-container/)
+- ### [Projeye DI Container Kullanarak Logger Servis Eklemek](5-di-container-ile-logger-service-eklemek)
 
-### [Entity Framework & Linq](10-entity-framework-linq/)
+#### Middleware Kavramı ####
+- ### [Middleware Kavramı](1-middleware-nedir/)
+- ### [Custom Exception Middleware Yaratılmak](2-projeye-mw-eklenmesi/)
 
-- [Temel SQL](10-entity-framework-linq/1-temel-sql/)
-- [Örnek projeye EF Core dahil etme](10-entity-framework-linq/2-projeye-ef-core-eklenmesi/)
-- [Linq ile CRUD işlemler](10-entity-framework-linq/3-linq-ile-crud-islemler/)
+#### Projeye Genre Controller ve Servislerin Eklenmesi ####
+### [Pratik - Projeye Genre Controller ve Servislerin Eklenmesi](15-genre-controller-eklenmesi)
 
-### [Model ve Mapper Kullanımı](11-model-mapper-kullanimi/)
+#### Ödev - Projeye Author Controller ve Servislerin Eklenmesi ####
+### [Ödev - Projeye Author Controller ve Servislerin Eklenmesi](16-odev-author-controller-eklenmesi)
 
-- [Entity Kavramı](11-model-mapper-kullanimi/1-entity-kavrami/)
-- [ViewModel Kavramı](11-model-mapper-kullanimi/2-viewmodel-kavrami/)
-- [DTO (Data Transfer Object)](11-model-mapper-kullanimi/3-dto-kavrami/)
-- [AutoMapper](11-model-mapper-kullanimi/4-automapper/)
+#### TDD (Test Driven Development) ####
+- ### [Test Kavramı ve Çeşitleri](1-test-kavrami-cesitleri/)
+- ### [TDD (Test Driven Development) Nedir ?](2-tdd-nedir/)
+- ### [Örnek Test Yazımı](3-unit-test-yazmak/)
+- ### [Pratik - Command ve Validator Sınıflarının Testlerinin Yazılması](4-command-ve-validator-testlerinin-yazılmasi)
 
-### [Modellerin Doğrulanması](12-model-validasyonu/)
+#### Ödev - Projenin eksik testlerinin tamamlanması ####
+### [Ödev - Projenin eksik testlerinin tamamlanması](17-odev-unit-tests/)
 
-### [Ödev 2](13-odev-2/)
+#### Kimlik Doğrulama ve Yetkilendirme Protokolleri ####
+- ### [Token Bazlı Kimlik Doğrulama ve Access Token Kullanımı](1-token-bazlı-kimlik-dogrulama)
+- ### [Refresh Token Kullanımı](2-refresh-token-kullanımı)
 
-### [Dependency Injection](14-dependency-injection/)
 
-- [Dependency Injection Kavramı](14-dependency-injection/1-dependency-injection-kavrami/)
-- [Transient Kavramı](14-dependency-injection/2-transient-kavrami/)
-- [Singleton Kavramı](14-dependency-injection/3-singleton-kavrami/)
-- [Scope Kavramı](14-dependency-injection/4-scope-kavrami/)
+#### Proje Ödevi 1- Movie Store Uygulaması ####
+### [Proje Ödevi - Movie Store Uygulaması](19-proje-1/)
 
-### [Middleware Kavramı](15-middleware-kavrami/)
+#### Proje Ödevi 2 - Serbest Proje Seçimi ####
+### [Proje Ödevi 2 - Serbest Proje Seçimi](20-proje-2/)
 
-- [Middleware Kavramı](15-middleware-kavrami/1-middleware-nedir/)
-- [Örnek olarak Exception Middleware yaratılması](15-middleware-kavrami/2-projeye-mw-eklenmesi/)
-
-### [TDD (Test Driven Development)](16-tdd-nedir/)
-
-- [TDD (Test Driven Development) Nedir ?](16-tdd-nedir/1-tdd-nedir/)
-- [Test Çeşitleri Nelerdir ?](16-tdd-nedir/2-test-cesitleri/)
-- [Test Kavramları](16-tdd-nedir/3-test-kavramlari/)
-- [Örnek Test Yazılması](16-tdd-nedir/4-unit-test-yazmak/)
-
-### [Ödev 3](17-odev-3/)
-
-### [Kimlik Doğrulama ve Yetkilendirme Protokolleri](18-kimlik-dogrulama-ve-yetkilendirme/)
-
-- [Kimlik Doğrulama](18-kimlik-dogrulama-ve-yetkilendirme/1-kimlik-dogrulama/)
-- [Yetkilendirme](18-kimlik-dogrulama-ve-yetkilendirme/2-yetkilendirme/)
-- [Protokoller](18-kimlik-dogrulama-ve-yetkilendirme/3-kimlik-dogrulama-yetki-protokolleri/)
-- [Örnek Token İncelemesi](18-kimlik-dogrulama-ve-yetkilendirme/4-ornek-token-incelemesi/)
-- [Projeye Kimlik Doğrulamanın eklenmesi](18-kimlik-dogrulama-ve-yetkilendirme/5-projeye-dogrulama-eklenmesi/)
-
-### [Proje 1](19-proje-1/)
-
-### [Proje 2](20-proje-2/)
-
-### [Tüm Dökümanlar](21-dokumanlar/)

@@ -34,45 +34,37 @@ GitHub, proje yönetim ve versiyon kontrol sistemi olmakla birlikte, ayrıca gel
 
 Kodlama yeteneğinizi geliştirmek için aşağıdaki siteleri de tavsiye ediyoruz.
 
-## 6) Kod Koda
-
-[Kod Koda](https://www.kodkoda.com/), 2020 yılında [Kodluyoruz](https://www.kodluyoruz.org/) tarafından hazırlanan, yazılımla ilgilenen kişilerin sorular sorup cevaplayabildiği bir platformdur. Platforma [buradaki](https://www.kodkoda.com/) bağlantıdan ulaşabilirsiniz.   
-
-![kodkoda4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/kodkoda4.gif)
-
-![kodkoda2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/kodkoda2.png)
-
-## 7) CodeWars
+## 6) CodeWars
 
 Platforma [buradaki](https://www.codewars.com/) bağlantıdan ulaşabilirsiniz.  
 
 ![codewars](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/codewars.png)
 
-## 8) LeetCode
+## 7) LeetCode
 
 Platforma [buradaki](https://leetcode.com/) bağlantıdan ulaşabilirsiniz.  
 
 ![leetcode](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/leetcode.png)
 
-## 9) edabit
+## 8) edabit
 
 Platforma [buradaki](https://edabit.com/) bağlantıdan ulaşabilirsiniz.  
 
 ![edabit](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/edabit.png)
 
-## 10) repl.it
+## 9) repl.it
 
 Platforma [buradaki](https://repl.it/) bağlantıdan ulaşabilirsiniz.  
 
 ![replit](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/replit.png)
 
-## 11) CodePen
+## 10) CodePen
 
 Platforma [buradaki](https://codepen.io/) bağlantıdan ulaşabilirsiniz.  
 
 ![codepen](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/platformlar%C4%B1n-%C3%B6nemi/figures/codepen.png)
 
-## 12) Exercism.io
+## 11) Exercism.io
 
 Platforma [buradaki](https://exercism.io/) bağlantıdan ulaşabilirsiniz.  
 

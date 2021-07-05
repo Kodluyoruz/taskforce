@@ -53,4 +53,4 @@
     ----> 1 (5 > 3) | print("hey")
     TypeError: unsupported operand type(s) for |: 'bool' and 'NoneType'
 
-- `5 < 3 or print("hey")` karşılaştırması yaptığımızda hata almıyorken `5 < 3 | print("hey")`'de hata alıyoruz. `or` boolean ile NoneType karşılaştırırken hata vermezken, `|` hata veriyor.
+- `5 > 3 or print("hey")` karşılaştırması yaptığımızda hata almıyorken `5 > 3 | print("hey")`'de hata alıyoruz. `or` boolean ile NoneType karşılaştırırken hata vermezken, `|` hata veriyor.

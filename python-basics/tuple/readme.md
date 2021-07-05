@@ -2,9 +2,9 @@
 
 * `tuple` veri tipi listeler gibi birden çok veri tipini bir arada tutmamızı sağlar.
 
-* listelerden farklı olarak `tuple`'lar `immutable`dır
+* listelerden farklı olarak `tuple`'lar `immutable`'dır
 
-* Mesela bir deniz fenerinin konumunu belirtmek istiyoruz. bunun `x` ve `y` koordinat değerleri var (x,y). Deniz fenerini söküp götüremiyoruz, ben bu iki değerin sabit, değiştirilemez olmasını istiyorum. Burada bu iki değeri tutmak için `tuple` kullanmam mantıklı olabilir. Değişmeyeceğini bildiğim değerleri bir arada tutmak için.
+* Mesela bir deniz fenerinin konumunu belirtmek istiyoruz. Bunun `x` ve `y` koordinat değerleri var (x,y). Deniz fenerini söküp götüremiyoruz, ben bu iki değerin sabit, değiştirilemez olmasını istiyorum. Burada bu iki değeri tutmak için `tuple` kullanmam mantıklı olabilir. Değişmeyeceğini bildiğim değerleri bir arada tutmak için.
 
 * `tuple`'lar `(element1,element2...)` şeklinde tanımlanır.
 

@@ -1,1 +1,1 @@
-# Analiz Adımı
+# 

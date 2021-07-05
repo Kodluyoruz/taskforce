@@ -4,12 +4,12 @@
 
 * `return` yazmasaydık fonksiyon hiç bir şey döndürmezdi.
 
-* fonksiyon tanımladığımı Python'a anlatmak için yapım:
+* Fonksiyon tanımladığımı Python'a anlatmak için yapım:
 
 
 `def fonksiyonun_adı(input):`
 
-* öbür yapılarda da olduğu gibi, bir kod bloğunun belirttiğimiz yapıya ait olduğunu anlatmak için boşluk bırakarak içine yazmamız gerekiyor.
+* Öbür yapılarda da olduğu gibi, bir kod bloğunun belirttiğimiz yapıya ait olduğunu anlatmak için boşluk bırakarak içine yazmamız gerekiyor.
 
 * Verdiğimiz değerin karesini alan bir fonksiyon yazalım.
 
@@ -19,7 +19,7 @@ def square(x):
     x*x
 ```
 
-* fonksiyonu tanımladıktan sonra tanımladığımız adla onu çağırabiliriz. Yapımız şöyle olacak: `fonksiyonun_adı(inputlar)`, bir fonksiyonu çağırmak için inputlarını `()` 'ın içine yazmalıyız. Bazı durumlarda hiç input olmayabilir, bazı durumlarda birden çok olabilir.
+* Fonksiyonu tanımladıktan sonra tanımladığımız adla onu çağırabiliriz. Yapımız şöyle olacak: `fonksiyonun_adı(inputlar)`, bir fonksiyonu çağırmak için inputlarını `()` 'ın içine yazmalıyız. Bazı durumlarda hiç input olmayabilir, bazı durumlarda birden çok olabilir.
 
 
 ```python
@@ -68,7 +68,7 @@ type(square(3))
 
 
 
-* bize x*x i değer olarak vermedi. Vermesi için bana o değeri döndür diye özellikle söylemem lazım. Bunu `return` ile sağlıyoruz.
+* Bize x*x i değer olarak vermedi. Vermesi için bana o değeri döndür diye özellikle söylemem lazım. Bunu `return` ile sağlıyoruz.
 
 
 ```python
@@ -151,7 +151,7 @@ square(square(3))
 
 
 
-* hiç bir inputu olmaya da bilirdi
+* Hiç bir inputu olmayada bilirdi.
 
 
 ```python

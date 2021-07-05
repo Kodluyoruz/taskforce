@@ -1,1 +1,0 @@
-# Sınıf Nedir ?

@@ -1,1 +1,1 @@
-# Visual Studio Code Kurulumu
+#

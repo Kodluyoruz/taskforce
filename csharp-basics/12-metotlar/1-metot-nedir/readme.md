@@ -1,1 +1,0 @@
-# Metot Nedir ?

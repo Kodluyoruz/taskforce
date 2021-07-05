@@ -89,7 +89,7 @@ console.log(a>11 && b=="kodluyoruz")  "Ekranda çıkan sonuç = false"
 
 a ve b değişkenimiz loglanırken iki tane koşul yazılmıştır. Birincisi a'nın 11'den büyük olması ve b'nin `kodluyoruz`'a eşit olması ifadesidir. `&&` (ve) mantıksal operatörümüz içeride bulunan iki koşulunda sağlanması durumda true sonucunu verecektir. Örneğimize baktığımızda b `kodluyoruz`'a eşit olmasına karşın a değerimiz 11'den büyük değildir ve sonucumuz `false` dönecektir.
 
-### `&&` veya
+### `||` veya
 ```javascript
 var a = 10;
 var b = "kodluyoruz";

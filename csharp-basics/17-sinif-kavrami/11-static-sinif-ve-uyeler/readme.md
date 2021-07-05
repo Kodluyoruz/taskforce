@@ -1,1 +1,0 @@
-# Static Class, Static Member

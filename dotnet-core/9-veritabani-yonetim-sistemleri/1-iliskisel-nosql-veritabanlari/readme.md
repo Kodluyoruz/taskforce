@@ -1,1 +1,0 @@
-# İlişkisel ve NoSql Veritabanları

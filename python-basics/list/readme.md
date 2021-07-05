@@ -407,7 +407,6 @@ l.count(1000)
 a = 2
 ```
 
-![aliasing1.png](attachment:aliasing1.png)
 
 - `a` direkt o kutunun adı oluyor.
 
@@ -418,7 +417,6 @@ a = 2
 l = [1,2,3]
 ```
 
-![aliasing2.png](attachment:aliasing2.png)
 
 - Bu farkın getirdiği bazı yan etkiler var.
 
@@ -493,13 +491,11 @@ l2
 
 * Çünkü `l2 = l` dediğimizde l2, l etiketinin değerine eşit oldu, iki etikette aynı kutuyu, veri objesini gösteriyor, o yüzden listeyi güncellemem ikisine de yansıyor.
 
-![aliasing3.png](attachment:aliasing3.png)
 
 * Git aynı değerle başka bir kutucuk yarat ve oraya etiket ol diyerek güncellenmemesini sağlayabilirim.
 
 * Bunu `copy()` ile yapacağız.
 
-![aliasing4.png](attachment:aliasing4.png)
 
 
 ```python

@@ -1,1 +1,0 @@
-# Okunabilir API Tasarımı
