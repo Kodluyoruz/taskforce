@@ -124,6 +124,7 @@
 - [Neden Test Yazarız?](testing-neden-test-yazariz/)
 - [React Testing Library - 1](testing-react-testing-library-1/)
 - [React Testing Library - 2](testing-react-testing-library-2/)
+- [Ödev](odev5/)
 
 #### Publishing ####
 - [create-react-library](publishing-create-react-library/)
@@ -136,7 +137,6 @@
 - [Netlify](deploy-netlify/)
 - [AWS EC2 Üzerine Deploy İşlemleri](deploy-aws-ec2/)
 - [Bölüm Sonu Kazanımları](deploy-bolum-sonu-kazanimlari/)
-- [Ödev](odev5/)
 
 #### E-Commerce App ####
 - [Uygulama Tanıtımı](ecommerce-tanitim/)
