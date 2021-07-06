@@ -5,7 +5,7 @@ React'in kendi dokümanlarında paylaşılan [örnek projerde](https://tr.reactj
 Uygulamanın kaynak kodlarına erişmek için [tıklayın](https://github.com/ahfarmer/emoji-search).
 
 
-![preview](./figures/preview.png)
+![preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-patika/odev5/figures/preview.png)
 
 Uygulama üzerinde bazı emojiler listeleniyor. Ve yukarıda bulunan input aracılığı ile listelenen emojiler filtrelenebiliyor.
 
