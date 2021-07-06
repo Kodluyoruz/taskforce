@@ -136,6 +136,7 @@
 - [Netlify](deploy-netlify/)
 - [AWS EC2 Üzerine Deploy İşlemleri](deploy-aws-ec2/)
 - [Bölüm Sonu Kazanımları](deploy-bolum-sonu-kazanimlari/)
+- [Ödev](odev5/)
 
 #### E-Commerce App ####
 - [Uygulama Tanıtımı](ecommerce-tanitim/)
