@@ -130,7 +130,7 @@
       - Bir ifadenin yerini değiştirmek istediğinizde ALT + SHIFT kombinasyonunu kullanabilirsiniz
       - Seçili olan ifadeyi bir alt satıra da kopyalamak istediğinizde ALT + AŞAĞI YÖN TUŞU kısayolunu kullanabilirsiniz.
       - Dosyanızda yer alan aynı ifadeleri seçmek için CTRL + Enter kısayolunu kullanabilir sonrasında da çoklu imleç özelliğinden yararlanarak aynı ifadeleri tek seferde değiştirebilirsiniz.
-      - Satırdaki ifadeleri teker teker atlayarak ilerlemek istediğinizde ALT + SOL/SAĞ YÖN TUŞU kısayolunu kullanabilirsiniz.
+      - Satırdaki ifadeleri teker teker atlayarak ilerlemek istediğinizde ALT + SOL/SAĞ YÖN TUŞU kısayolunu kullanabilirsiniz. (Doğru)
 
 ### Videolar
 1.  https://youtu.be/mj7C4XtEO8w
