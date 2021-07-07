@@ -1,7 +1,6 @@
 # PatikaStore
 
-Patika ekibi elektronik eşyaların satıldığı bir sanal bir mağaza açmaya karar verdi ve bu mağazanın ürün yönetim sistemini siz patika gönüllülerinden yapmasını
-bekliyor.
+Patika ekibi elektronik eşyaların satıldığı bir sanal bir mağaza açmaya karar verdi ve bu mağazanın ürün yönetim sistemini siz patika gönüllülerinden yapmasını ekliyor.
 
 - Sanal Mağazanın adı "PatikaStore" olacaktır.
 - Mağazada Markalar oluşturulacak ve ürünler bu markalar ile eşleşecektir.
