@@ -30,4 +30,4 @@ Collection interface’den türeyen alt sınıfların sağlamak zorunda olduğu 
 
 Collection interface’den kalıtım alan alt sınıfları kendiniz de türetebilirsiniz.
 
-![](figures/collection-interface.png)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/collection/figures/collection-interface.png)
