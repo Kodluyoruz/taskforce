@@ -148,13 +148,14 @@
         	"description" : "Yeni nesil yazilim gelistirici."
         }
 ```
-- (Doğru) ```javascript
+
+-  ```javascript
         "KK1 - KodKoda" : {
         	"prefix" : "kk1" ,
         	"body" : "<h1>KodKoda</h1>" ,
         	"description" : "Yeni nesil yazilim gelistirici forumu." 
         }
-```
+``` (Doğru)
 
 - ```javascript
   "KK1 - KodKoda" : {
@@ -164,7 +165,7 @@
           }
   ```
 
-* ```javascript
+- ```javascript
   "KK1 - KodKoda" : {
           	"prefix" : "kk1" ,
           	"body" : "<h1>Kodluyoruz</h1>" ,
