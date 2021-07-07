@@ -20,4 +20,4 @@ Eğer yazdığımız kodlarda herhangi bir öğenin önüne erişim düzenleyici
 
 ## Tüm kullanım şekilleri
 
-![](figures/access.jpg)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java102/access-modifier/figures/access.jpg)
