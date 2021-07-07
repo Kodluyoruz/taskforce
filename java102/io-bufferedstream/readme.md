@@ -1,11 +1,8 @@
 # BufferedInputStream
 
-Java.io paketinin BufferedInputStream sınıfı, verileri (bayt cinsinden) daha verimli okumak için diğer giriş akışlarıyla birlikte kullanılır. InputStream soyut
-sınıfını genişletir.
+Java.io paketinin BufferedInputStream sınıfı, verileri (bayt cinsinden) daha verimli okumak için diğer giriş akışlarıyla birlikte kullanılır. InputStream soyut sınıfını genişletir.
 
-BufferedInputStream, 8192 baytlık bir dahili arabellek tutar. BufferedInputStream'deki okuma işlemi sırasında, diskten bir bayt yığını okunur ve dahili tamponda
-saklanır.Ayrıca dahili arabellekten baytlar ayrı ayrı okunur. Böylelikle diskle iletişim sayısı azalır. BufferedInputStream kullanarak bayt okumanın daha hızlı
-olmasının nedeni budur.
+BufferedInputStream, 8192 baytlık bir dahili arabellek tutar. BufferedInputStream'deki okuma işlemi sırasında, diskten bir bayt yığını okunur ve dahili tamponda saklanır.Ayrıca dahili arabellekten baytlar ayrı ayrı okunur. Böylelikle diskle iletişim sayısı azalır. BufferedInputStream kullanarak bayt okumanın daha hızlı olmasının nedeni budur.
 
 ````java
 
@@ -56,9 +53,7 @@ public class PatikaDev {
 Java.io paketinin BufferedOutputStream sınıfı, verileri (bayt cinsinden) daha verimli yazmak için diğer çıktı akışlarıyla birlikte kullanılır. OutputStream
 soyut sınıfını genişletir.
 
-BufferedOutputStream, 8192 baytlık bir dahili arabelleği korur. Yazma işlemi sırasında, baytlar disk yerine dahili tampona yazılır. Tampon doldurulduktan veya
-akış kapatıldıktan sonra, tüm tampon diske yazılır. Böylelikle diskle iletişim sayısı azalır. BufferedOutputStream kullanarak bayt yazmanın daha hızlı olmasının
-nedeni budur.
+BufferedOutputStream, 8192 baytlık bir dahili arabelleği korur. Yazma işlemi sırasında, baytlar disk yerine dahili tampona yazılır. Tampon doldurulduktan veya akış kapatıldıktan sonra, tüm tampon diske yazılır. Böylelikle diskle iletişim sayısı azalır. BufferedOutputStream kullanarak bayt yazmanın daha hızlı olmasının nedeni budur.
 
 ````java
 // FileOutputStream
