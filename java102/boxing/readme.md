@@ -1,7 +1,6 @@
 # Kutulama (Autoboxing) ve Kutudan Çıkarma (Unboxing)
 
-Yukarıda ilkel veri türleri ve sarmalayıcı sınıfları arasında nasıl dönüşüm yapılabileceğini gördük. Bunu daha kısa bir şekilde yapabilmek için JDK 5 ile **
-kutulama** ve **kutudan çıkarma** özelliği getirilmiştir. Bu sayede ilkel veri türlerini sarmalayıcı sınıflarına hiçbir ek işlem yapmadan atayabilirsiniz.
+Yukarıda ilkel veri türleri ve sarmalayıcı sınıfları arasında nasıl dönüşüm yapılabileceğini gördük. Bunu daha kısa bir şekilde yapabilmek için JDK 5 ile **kutulama** ve **kutudan çıkarma** özelliği getirilmiştir. Bu sayede ilkel veri türlerini sarmalayıcı sınıflarına hiçbir ek işlem yapmadan atayabilirsiniz.
 
 ```java
 byte primitiveByte = 1;
