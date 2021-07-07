@@ -147,8 +147,8 @@
         	"body" : "<h1>KodKodluyoruz</h1>" ,
         	"description" : "Yeni nesil yazilim gelistirici."
         }
-
-- (Doğru)```javascript
+```
+- (Doğru) ```javascript
         "KK1 - KodKoda" : {
         	"prefix" : "kk1" ,
         	"body" : "<h1>KodKoda</h1>" ,
