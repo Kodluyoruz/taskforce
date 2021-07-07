@@ -1,10 +1,6 @@
 # Vector
 
-Klasik programlama eyleminde array (dizi) çok önemli bir rol oynar. Ancak, array’in uzunluğu; yani bileşenlerinin sayısı array bildiriminde belirleniyor ve bu
-uzunluk daha sonra değiştirilemiyordu. Bazı uygulamalarda, bu özelik ciddi bir handikap oluşturur. Java 2, bu sorunu çözmek için Vector sınıfını ve benzer işi
-yapan ArrayList sınıfını ortaya koydu. Her iki sınıfta, diziye yeni öğeler eklenir ya da varolan öğeler silinirse, dizinin uzunluğu kendiliğinden değişir.
-Tabii, bu değişimin bellek kullanımı ve zaman açısından bir bedeli (karmaşa – complexity) vardır. Ama, java programcısı bu işleri yapan yordamları kendisi
-yazmak zorunda değildir. Vector ya da ArrayList sınıfına ait nesneler bu işleri kendiliğinden yaparlar.
+Klasik programlama eyleminde array (dizi) çok önemli bir rol oynar. Ancak, array’in uzunluğu; yani bileşenlerinin sayısı array bildiriminde belirleniyor ve bu uzunluk daha sonra değiştirilemiyordu. Bazı uygulamalarda, bu özelik ciddi bir handikap oluşturur. Java 2, bu sorunu çözmek için Vector sınıfını ve benzer işi yapan ArrayList sınıfını ortaya koydu. Her iki sınıfta, diziye yeni öğeler eklenir ya da varolan öğeler silinirse, dizinin uzunluğu kendiliğinden değişir. Tabii, bu değişimin bellek kullanımı ve zaman açısından bir bedeli (karmaşa – complexity) vardır. Ama, java programcısı bu işleri yapan yordamları kendisi yazmak zorunda değildir. Vector ya da ArrayList sınıfına ait nesneler bu işleri kendiliğinden yaparlar.
 
 Vector tipinden dizilerin öğeleri, aynen array tipinde olduğu gibi, birer indise sahiptir. Dolayısyla , vector’un öğelerine indisleri ile doğrudan erişim
 sağlanır.
