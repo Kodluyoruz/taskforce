@@ -147,7 +147,7 @@
         	"body" : "<h1>KodKodluyoruz</h1>" ,
         	"description" : "Yeni nesil yazilim gelistirici."
         }
-```
+	```
 
 -  ```javascript
         "KK1 - KodKoda" : {
@@ -155,7 +155,7 @@
         	"body" : "<h1>KodKoda</h1>" ,
         	"description" : "Yeni nesil yazilim gelistirici forumu." 
         }
-``` (Doğru)
+	``` (Doğru)
 
 - ```javascript
   "KK1 - KodKoda" : {
