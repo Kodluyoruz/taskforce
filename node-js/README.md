@@ -90,4 +90,4 @@
 - [Projeler](projeler/)
 
 #### Coderbyte Challenge ####
-- [Coderbyte Challenge](coderbyte-challenge(/)
+- [Coderbyte Challenge](coderbyte-challenge/)
