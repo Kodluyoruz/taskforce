@@ -213,7 +213,7 @@ console.log([1,2,3]>null)
 4. 
 
 ``` javascript
-console.log(“number” + 15 + 3) 
+console.log("number" + 15 + 3)
 ```
 - örneğimizin başında string bir ifade bulunduğundan diğer ögeler için de string coercion tetiklenir 
 - "number+ "15" + "3" şeklini alır 
