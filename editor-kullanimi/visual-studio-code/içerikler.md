@@ -141,21 +141,22 @@
 ### Sorular
 1. "HTML" dilinde çalışırken "kk1" ifadesini yazıp Tab tuşuna bastığımızda <h1>KodKoda</h1> ifadesini elde etmek ve açıklamasında "Yeni nesil yazilim gelistirici forumu." yazmasını istiyorsak aşağıdaki snippet'lerden hangisini eklemeliyiz?
 2. 
-- 
+- ```javascript
         "KK1 - KodKoda" : {
         	"prefix" : "kh1" ,
         	"body" : "<h1>KodKodluyoruz</h1>" ,
         	"description" : "Yeni nesil yazilim gelistirici."
         }
 
-- 
+- (Doğru)```javascript
         "KK1 - KodKoda" : {
         	"prefix" : "kk1" ,
         	"body" : "<h1>KodKoda</h1>" ,
         	"description" : "Yeni nesil yazilim gelistirici forumu." 
         }
+```
 
-- ```
+- ```javascript
   "KK1 - KodKoda" : {
           	"prefix" : "kk2" ,
           	"body" : "<h1>KodKoda</h1>" ,
@@ -163,7 +164,7 @@
           }
   ```
 
-* ```
+* ```javascript
   "KK1 - KodKoda" : {
           	"prefix" : "kk1" ,
           	"body" : "<h1>Kodluyoruz</h1>" ,
