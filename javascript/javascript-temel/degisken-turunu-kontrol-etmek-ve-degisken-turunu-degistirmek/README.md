@@ -52,7 +52,7 @@ Type Coercion; bir değişkenin türünü, başka bir değişkene dönüştürm
 **Explicit Coercion**
 ``` javascript
 String(123) // “123”
-ParseInt(“123”) // 12
+parseInt(“123”) // 123
 ```
 
 **Implicit Coercion**
