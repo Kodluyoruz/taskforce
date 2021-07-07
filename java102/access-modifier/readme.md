@@ -1,8 +1,6 @@
 # Erişim Belirleyiciler (Access Modifiers) #
 
-Java'da bir sınıfa ait nitelik ve davranışlara ulaşabilmek için **Erişim Belirleyiciler (Access Modifiers)** kullanılır.Erişim belirleyiciler, değişken ,metot
-ve sınıfların önüne yazılır ve yazıldıkları konuların erişilebilecekleri alanları belirlerler. Java'da 3 adet Erişim Belirleyiciler vardır bunlar ; **public ,
-private ve protected.**
+Java'da bir sınıfa ait nitelik ve davranışlara ulaşabilmek için **Erişim Belirleyiciler (Access Modifiers)** kullanılır.Erişim belirleyiciler, değişken ,metot ve sınıfların önüne yazılır ve yazıldıkları konuların erişilebilecekleri alanları belirlerler. Java'da 3 adet Erişim Belirleyiciler vardır bunlar ; **public, private ve protected.**
 
 ## Private Erişim Belirleyici
 
