@@ -2,20 +2,13 @@
 
 # İç İçe Sınıflar (Nested Classes)
 
-Şu ana kadar sınıfların içinde değişkenlerin ve metotların bulunabileceğini biliyorduk. Fakat sınıfların gücü bununla sınırlı değildir. Sınıfların içinde başka
-sınıflar da tanımlayabiliriz. Bu şekilde **iç içe sınıflar (nested classes)** oluşturabiliriz.
+Şu ana kadar sınıfların içinde değişkenlerin ve metotların bulunabileceğini biliyorduk. Fakat sınıfların gücü bununla sınırlı değildir. Sınıfların içinde başka sınıflar da tanımlayabiliriz. Bu şekilde **iç içe sınıflar (nested classes)** oluşturabiliriz.
 
-İç içe tanımlanan sınıfları tabir ederken, diğerini kapsayan sınıfa **dıştaki sınıf** (outer class), içeride bulunan sınıfa ise **içteki sınıf** (inner class)
-deriz. Bir sınıf oluşturulduğunda bütün alanlarının ve metotlarının hafızaya yüklendiğini söylemiştik. Bu durum içteki sınıflar için de geçerlidir. İç içe
-sınıflarda, içteki sınıfı kullanabilmemiz için dıştaki sınıfın bir örneğinin alınması gerekir.
+İç içe tanımlanan sınıfları tabir ederken, diğerini kapsayan sınıfa **dıştaki sınıf** (outer class), içeride bulunan sınıfa ise **içteki sınıf** (inner class) deriz. Bir sınıf oluşturulduğunda bütün alanlarının ve metotlarının hafızaya yüklendiğini söylemiştik. Bu durum içteki sınıflar için de geçerlidir. İç içe sınıflarda, içteki sınıfı kullanabilmemiz için dıştaki sınıfın bir örneğinin alınması gerekir.
 
-İçteki sınıf, dıştaki sınıfın bütün alanlarına ve metotlarına erişebilir. Dıştaki sınıf tek olmasına rağmen, içteki sınıfın birden fazla örneği alınabilir; bu
-gibi durumlarda içteki sınıftan oluşturulan nesnelerin hepsi aynı dıştaki sınıfa erişir.
+İçteki sınıf, dıştaki sınıfın bütün alanlarına ve metotlarına erişebilir. Dıştaki sınıf tek olmasına rağmen, içteki sınıfın birden fazla örneği alınabilir; bu gibi durumlarda içteki sınıftan oluşturulan nesnelerin hepsi aynı dıştaki sınıfa erişir.
 
-Peki iç içe sınıfları ne zaman kullanmalıyız ? Bir sınıfın varlığı başka bir sınıfa bağlı ise, tek başına var olması mümkün değilse iç içe sınıfları
-kullanabiliriz. Örneğin bir üniversiteyi düşünecek olursak, her bölüm varlık için bir fakülteye ihtiyaç duyuyorsa, bu bölümün fakülte olmadan varlığının bir
-anlamı yoksa iç içe sınıflar kullanılabilir. Fakat fakülteden bağımsız bölümler veya birden fazla fakülteye bağlı olan bölümler için iç içe sınıflar kullanmak
-hatalı bir yaklaşım olacaktır.
+Peki iç içe sınıfları ne zaman kullanmalıyız ? Bir sınıfın varlığı başka bir sınıfa bağlı ise, tek başına var olması mümkün değilse iç içe sınıfları kullanabiliriz. Örneğin bir üniversiteyi düşünecek olursak, her bölüm varlık için bir fakülteye ihtiyaç duyuyorsa, bu bölümün fakülte olmadan varlığının bir anlamı yoksa iç içe sınıflar kullanılabilir. Fakat fakülteden bağımsız bölümler veya birden fazla fakülteye bağlı olan bölümler için iç içe sınıflar kullanmak hatalı bir yaklaşım olacaktır.
 
 ```java
 class Outer
@@ -78,8 +71,7 @@ class Outer
 }
 ```
 
-Yukarıdaki örnekte dıştaki sınıfın içinde _number_ isminde bir değişken oluşturduk. İçteki sınıfta ise bu değişkene erişip değerini 1 artırdık. Dıştaki
-sınıfın `run()` metodunu çalıştırdığınızda çıktısı aşağıdaki gibi olur:
+Yukarıdaki örnekte dıştaki sınıfın içinde _number_ isminde bir değişken oluşturduk. İçteki sınıfta ise bu değişkene erişip değerini 1 artırdık. Dıştaki sınıfın `run()` metodunu çalıştırdığınızda çıktısı aşağıdaki gibi olur:
 
 ```java
 10
@@ -88,14 +80,11 @@ sınıfın `run()` metodunu çalıştırdığınızda çıktısı aşağıdaki g
 
 Buradan da görebileceğiniz gibi, içteki sınıflar dıştaki sınıfların elemanlarına erişebilir.
 
-İç içe sınıflarla ilgili dikkat etmemiz gereken bazı noktalar vardır. İlk olarak, dıştaki sınıf olmadan içteki sınıfın bir örneğini alamayız. Ayrıca, içteki
-sınıfın içine statik bir değişken veya metot yazamayız. Bu kısıtlamaların önüne geçmek için içteki sınıfı statik olarak tanımlamalıyız.
+İç içe sınıflarla ilgili dikkat etmemiz gereken bazı noktalar vardır. İlk olarak, dıştaki sınıf olmadan içteki sınıfın bir örneğini alamayız. Ayrıca, içteki sınıfın içine statik bir değişken veya metot yazamayız. Bu kısıtlamaların önüne geçmek için içteki sınıfı statik olarak tanımlamalıyız.
 
 ## İçteki sınıfı statik yapmak
 
-Hatırlarsınız: bir metodu kullanabilmek için tanımlandığı sınıfın bir örneğini almamız gerekiyordu. Bunun önüne geçmek için metodu statik olarak belirtiyorduk.
-Aynı durum içteki sınıflar için de geçerlidir: bu sınıfları kullanabilmek için dıştaki sınıfın örneğini almamız gerekir. Bunun önüne geçmek için içteki sınıfı
-statik olarak tanımlamalıyız:
+Hatırlarsınız: bir metodu kullanabilmek için tanımlandığı sınıfın bir örneğini almamız gerekiyordu. Bunun önüne geçmek için metodu statik olarak belirtiyorduk. Aynı durum içteki sınıflar için de geçerlidir: bu sınıfları kullanabilmek için dıştaki sınıfın örneğini almamız gerekir. Bunun önüne geçmek için içteki sınıfı statik olarak tanımlamalıyız:
 
 ```java
 class Outer
@@ -117,8 +106,7 @@ Outer.Inner inner = new Outer.Inner();
 inner.run();
 ```
 
-Gördüğünüz gibi, artık içteki sınıfın bir örneğini alabilmek için dıştaki sınıfa ihtiyacımız yoktur. Fakat, statik metotların sınıfın statik olmayan alanlarına
-erişemeyeceğini hatırlayın. Aynı durum burada da geçerlidir: içteki statik sınıflar dıştaki sınıfın statik olmayan alanlarına erişemez:
+Gördüğünüz gibi, artık içteki sınıfın bir örneğini alabilmek için dıştaki sınıfa ihtiyacımız yoktur. Fakat, statik metotların sınıfın statik olmayan alanlarına erişemeyeceğini hatırlayın. Aynı durum burada da geçerlidir: içteki statik sınıflar dıştaki sınıfın statik olmayan alanlarına erişemez:
 
 ```java
 class Outer
@@ -149,8 +137,7 @@ Yukarıdaki kod hataya neden olur; çünkü statik olarak belirlenmiş içteki I
 
 ## İçteki sınıfı private yapmak
 
-İçteki sınıflar static yapılabildiği gibi, içteki sınıfa dışarıdan bir erişim sağlanmasının önüne geçmek için private ve protected erişim belirleyicileri de
-kullanılabilir.
+İçteki sınıflar static yapılabildiği gibi, içteki sınıfa dışarıdan bir erişim sağlanmasının önüne geçmek için private ve protected erişim belirleyicileri de kullanılabilir.
 
 ```java
 class Outer {
@@ -183,8 +170,7 @@ public int add(int x, int y)
 }
 ```
 
-Bu metot 2 sayıyı toplar ve sonucunu döndürür. Peki, ya 3 sayıyı toplamak istersek? Java’da metotları aşırı yükleyebildiğimizi görmüştük. Şimdi bu metodu
-aşağıdaki gibi aşırı yükleyelim:
+Bu metot 2 sayıyı toplar ve sonucunu döndürür. Peki, ya 3 sayıyı toplamak istersek? Java’da metotları aşırı yükleyebildiğimizi görmüştük. Şimdi bu metodu aşağıdaki gibi aşırı yükleyelim:
 
 ```java
 public int add(int x, int y)
@@ -217,13 +203,9 @@ public int add(int x, int y, int z, int t)
 }
 ```
 
-Fakat bu yöntemin pek hoş olmadığı gözünüzden kaçmamıştır. 5 veya 6 sayıyı toplamak istediğimizde metodu tekrar aşırı yüklememiz gerekir. Bu durum kod
-fazlalığına neden olur. Buradaki sorun, metodun alacağı parametre sayısının belirsiz (değişken) olmasıdır. Toplama işleminde birden fazla toplanan vardır: fakat
-sayısı değişken olabilir. Java, parametre sayısını önceden bilemeyeceğimiz bu gibi durumlar için metodun **değişken sayıda argüman (varargs)** almasına izin
-verir.
+Fakat bu yöntemin pek hoş olmadığı gözünüzden kaçmamıştır. 5 veya 6 sayıyı toplamak istediğimizde metodu tekrar aşırı yüklememiz gerekir. Bu durum kod fazlalığına neden olur. Buradaki sorun, metodun alacağı parametre sayısının belirsiz (değişken) olmasıdır. Toplama işleminde birden fazla toplanan vardır: fakat sayısı değişken olabilir. Java, parametre sayısını önceden bilemeyeceğimiz bu gibi durumlar için metodun **değişken sayıda argüman (varargs)** almasına izin verir.
 
-Değişken sayıda parametre tanımlamak için değişken türünden sonra 3 nokta koyarız. Artık, metodu çağırırken istediğimiz sayıda parametre verebiliriz: bunların
-her biri için metodu aşırı yüklememiz gerekmez. Java bu parametreleri bize bir dizi (array) halinde sunar.
+Değişken sayıda parametre tanımlamak için değişken türünden sonra 3 nokta koyarız. Artık, metodu çağırırken istediğimiz sayıda parametre verebiliriz: bunların her biri için metodu aşırı yüklememiz gerekmez. Java bu parametreleri bize bir dizi (array) halinde sunar.
 
 ```java
 public int add(int... numbers)
@@ -237,8 +219,7 @@ public int add(int... numbers)
 }
 ```
 
-Yukarıda add() metodumuzu yeniden düzenledik ve toplama işlemine giren eleman sayısının değişken olmasını sağladık. Artık metoda parametre olarak farklı sayıda
-toplanan verebiliriz:
+Yukarıda add() metodumuzu yeniden düzenledik ve toplama işlemine giren eleman sayısının değişken olmasını sağladık. Artık metoda parametre olarak farklı sayıda toplanan verebiliriz:
 
 ```java
 System.out.println(add(2, 3)); // Konsola 5 yazar
@@ -247,8 +228,7 @@ System.out.println(add(9)); // Konsola 9 yazar
 System.out.println(add(10, 15, 20, 25)); // Konsola 70 yazar
 ```
 
-Değişken sayıdaki argümanlar bir dizi halinde sunulur. Dizinin elemanı olmayabilir. Yani, hiç argüman vermesek de değişken sayıda argüman alan metot yine
-çalışır.
+Değişken sayıdaki argümanlar bir dizi halinde sunulur. Dizinin elemanı olmayabilir. Yani, hiç argüman vermesek de değişken sayıda argüman alan metot yine çalışır.
 
 ```java
 System.out.println(add()); // Konsola 0 yazar
