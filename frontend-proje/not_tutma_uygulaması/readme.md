@@ -4,7 +4,7 @@ Aşağıdaki ekran görüntüsünde gördüğünüz çalışmaya benzer bir not 
 
 ![preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/frontend-proje/not_tutma_uygulamas%C4%B1/figures/preview.png)
 
-Örnek çalışmaya [şuradan](https://codepen.io/nickmoreton/pen/gbyygq) ulaşabilirsiniz.
+Örnek çalışmaya [buradan](https://codepen.io/nickmoreton/pen/gbyygq) ulaşabilirsiniz.
 
 ## Gereksinimler
 -  Kullanıcı yeni not oluşturabilmelidir.
