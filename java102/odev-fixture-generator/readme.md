@@ -11,8 +11,7 @@ Kurallar :
 
 ## Takım sayısı çift senaryosu
 
-````
-
+```
 Takımlar
 - Galatasaray
 - Bursaspor
@@ -70,15 +69,11 @@ Round 10
 Bursaspor vs Trabzonspor
 Fenerbahçe vs Beşiktaş
 Galatasaray vs Başakşehir
-
-
-
-````
+```
 
 ## Takım sayısı tek senaryosu
 
-````
-
+```
 Takımlar
 - Galatasaray
 - Bursaspor
@@ -171,6 +166,4 @@ Bay vs Beşiktaş
 Trabzonspor vs Başakşehir
 Fenerbahçe vs Bursaspor
 Galatasaray vs Boluspor
-
-
-````
+```
