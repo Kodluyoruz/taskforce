@@ -6,7 +6,7 @@ Java Serialization API sayesinde bir nesnenin birebir kopyasını, Java platform
 
 Nesneleri serileştirmek için yapılması gereken tek şey, serileştirilecek nesnemizin serileştirilebilir (serializable) olduğunu tagging interface sayesinde sınıf deklarasyonunun başında belirtmek.
 
-Nesneleri serileştirmek için Java platformu 2 temel sınıf sunar. ObjectInputStream ve ObjectOutputStream adı verilen bu iki sınıf ile, Serializable interfaceini uygulayan herhangi bir sınıfı serileştirebiliriz. Bu iki sınıfdan ilki olan ObjectInputStream, ObjectInput interfaceini uygular ve serileştrilen nesneyi tekrar akışdan okumak için kullanılır. ObjectInputStream adındaki diğer sınıf, ObjectOutput interfaceini uygular ve herhangi bir nesneyi akışa yazdırmak için kllanılır.
+Nesneleri serileştirmek için Java platformu 2 temel sınıf sunar. ObjectInputStream ve ObjectOutputStream adı verilen bu iki sınıf ile, Serializable interfaceini uygulayan herhangi bir sınıfı serileştirebiliriz. Bu iki sınıfdan ilki olan ObjectInputStream, ObjectInput interfaceini uygular ve serileştrilen nesneyi tekrar akışdan okumak için kullanılır. ObjectInputStream adındaki diğer sınıf, ObjectOutput interfaceini uygular ve herhangi bir nesneyi akışa yazdırmak için kullanılır.
 
 ````java
 
