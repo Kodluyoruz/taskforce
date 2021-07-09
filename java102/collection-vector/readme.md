@@ -41,4 +41,4 @@ public class VectorExample {
 
 ## Kaynak
 
-http://www.baskent.edu.tr/~tkaracay/etudio/ders/prg/dataStructures/Collections/ClassVector.pdf
+- http://www.baskent.edu.tr/~tkaracay/etudio/ders/prg/dataStructures/Collections/ClassVector.pdf
