@@ -46,9 +46,9 @@ Burada `arr.length` ifadesi dizinin uzunluğunu number tipinde ifade eder. Bu ö
 Eğer bir dizi içerisinde farklı bir dizi tanımlı ve bu içerideki dizi elemanlarına erişim sağlamak istiyorsak;
 ```
 let arr = [1,2,3,["dört","beş","altı"],7,8];
-console.log(arr[2][0]);
+console.log(arr[3][0]);
 ```
-Burada `console.log(arr[2][0]);` çıktı olarak `dört` yazacaktır. `2` içerideki dizinin index numarası ve `0` bu dizinin ilk elemanını ifade eder.``console.log( arr[4] );`` çıktı olarak `7` verdiğine dikkat edelim. 
+Burada `console.log(arr[3][0]);` çıktı olarak `dört` yazacaktır. `2` içerideki dizinin index numarası ve `0` bu dizinin ilk elemanını ifade eder.``console.log( arr[4] );`` çıktı olarak `7` verdiğine dikkat edelim. 
 Dizi protipinde tanımlı foreach fonksiyonu yardımıyla da dizi elemanlarına erişilebilir.
 
 ```
