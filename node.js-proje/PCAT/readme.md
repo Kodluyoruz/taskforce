@@ -7,6 +7,6 @@ proje görsellerini ve açıklamalarını yükleyebileceğimiz dinamik bir çal�
 Kullandığımız template dosyasında add ve edit sayfaları olmadığı için bu sayfaları
 kendimiz oluşturacağız. Bu sayede CRUD işlemlerini başarılı bir şekilde 
 gerçekleştireceğiz. EJS template engine yapısı sayesinde dinamik kodları
-statşk html dosyalarının içerisinde kullanabileceğiz.
+statik html dosyalarının içerisinde kullanabileceğiz.
 
 Proje tamamladıktan sonra HEROKU ortamına gönderimi gerçekleştireceğiz.
