@@ -1,4 +1,4 @@
-# Runnable interface ile Thread Kullanımı
+# Runnable interface ile Thread Kullanımı
 
 Thread’lere Runnable tipinde nesne vererek kod parçasını bir iş parçacığı olarak işletebiliriz.
 
