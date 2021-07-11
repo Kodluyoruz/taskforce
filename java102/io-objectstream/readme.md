@@ -43,7 +43,7 @@ public class Car implements Serializable {
 
 # ObjectOutputStream
 
-Java.io paketinin ObjectOutputStream sınıfı, ObjectInputStream tarafından okunabilen nesneleri yazmak için kullanılabilir. OutputStream soyut sınıfını enişletir.
+Java.io paketinin ObjectOutputStream sınıfı, ObjectInputStream tarafından okunabilen nesneleri yazmak için kullanılabilir. OutputStream soyut sınıfını genişletir.
 
 Temel olarak ObjectOutputStream, sınıf adını ve nesne değerlerini kullanarak Java nesnelerini kodlar ve karşılık gelen akışları oluşturur. Bu süreç erileştirme (serialization) olarak bilinir.
 
