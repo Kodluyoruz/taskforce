@@ -41,7 +41,7 @@ Visual Studio Code içerisinde yeni dosya ve klasör oluşturabileceğiniz kıs�
 Visual Studio Code içerisinden proje klasörünüzün içine yeni bir dosya oluşturmak istediğinizde görseldeki kısma tıklayabilirsiniz.
 
 ### Klasör Oluşturmak
-![yeni-dosya](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-dosyalarla-calismak/figures/yeni-dosya-1610826554054.png)
+![yeni-dosya](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-dosyalarla-calismak/figures/dosyaolusturma.png)
 
 Visual Studio Code içerisinden proje klasörünüzün içine farklı ve yeni bir klasör oluşturmak istediğinizde görseldeki kısma tıklayabilirsiniz.
 
