@@ -33,7 +33,7 @@ Genel şablonu inceledikten sonra kafamızda net bir şeyin oluşmamış olması
 ```javascript
 function toplama (a , b) // a ve b toplanacak iki sayıyı temsil eden fonksiyon parametreleri(girdileri)
  {  
-    var sonuc = x+y; // Fonksiyonda aldığımız parametrelerle yaptığımız işlem
+    var sonuc = a+b; // Fonksiyonda aldığımız parametrelerle yaptığımız işlem
 	return sonuc;  	// Herhangi iki sayının toplamından elde edeceğimiz işlem sonucunu, return ifadesinden hemen sonra belirtiyoruz.
  }        
 ```
