@@ -117,10 +117,9 @@ Bu konunun detaylıca öğrenilebilmesi için farklı örneklerle çok fazla pra
 
 Fonksiyonlarda return komutunun 2 önemli işlevi vardır.
 
-<ol>
-    <li>Fonksiyonun geri dönüş değerini oluşturur.</li>
-    <li>Fonksiyonu sonlandırır.</li>
-</ol>
+1.Fonksiyonun geri dönüş değerini oluşturur.
+2.Fonksiyonu sonlandırır.
+
 
 Return komutundan sonra  işlem, değişken veya sabit yazılabilir.
 
