@@ -15,4 +15,4 @@
 - [Generator](generator/)
 
 #### Coderbyte Challenge ####
-- [Coderbyte Challenge](Coderbyte-challenge)
+- [Coderbyte Challenge](coderbyte-challenge)
