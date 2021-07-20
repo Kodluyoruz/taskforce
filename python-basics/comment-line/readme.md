@@ -1,4 +1,4 @@
-#kodlara  yorum satırı eklemek
+# kodlara  yorum satırı eklemek
 
 * yorum satırları python tarafından değerlendirmeye alınmaz ve kodun işleyişi etkilemez.
 * iki farklı yorum  satırı çeşidi vardır,birincisi tek satırlar için,ikincisi,çoklu satırlar için.
