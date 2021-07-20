@@ -59,8 +59,20 @@ print(toplam)
 
 * `while` yapısında kaç kere iterasyon yapacağımızı bilmiyoruz, `for`'da eleman sayısı kadar iterasyon var. (`break` veya `continue` ile bölünmezse)
 
-* Aslında `for` döngüsünü `while` döngüsünü kullanarak yazabiliriz, ama `while` döngüsünü `for` kullanarak yazamayız, çünkü `for`'da test mekanizması yok.
-
+* Aslında `for` döngüsünü `while` döngüsünü kullanarak yazabiliriz, ama `while` döngüsünü `for` kullanarak yazamayız, çünkü `for`döngüsü dediğimiz şey aslında `while` döngüsü kullanılarak yapılır. sürekli `iter` fonksiyonun içine verdiğimiz iterable obje üzerinde sürekli `next` fonksiyonunun çağırılması ve `Stopİteration` hatasının gelmesi ile sonlanarak oluşturulur `for`döngüsü.
+```python
+a = "hey"
+h=iter(a)
+while True:
+    try:
+        print(next(h))
+    except StopIteration:
+        break
+```
+    h
+    e
+    y 
+bu sadece nasıl çalıştığını anlamanız için bir örnek ilerleyen zamanlarda iterator ve exception handling konularını öğrendikten sonra daha iyi anlayabilirsiniz.
 
 ```python
 s = "hey"
