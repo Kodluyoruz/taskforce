@@ -72,6 +72,8 @@ no[0]
 
 - `dictionary`'lerin keyleri `immutable` herhangi bir yapıda olabilir. `value`'lar `mutable` da `immutable` da olabilir. 
 
+<h2></h2>
+
 `immutable yapilar:` int, float, tuple, string, bool, frozenset.
 `mutable yapilar:` list, set, dictionary.
 
