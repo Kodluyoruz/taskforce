@@ -52,6 +52,8 @@ notlar[0]
 no[0]
 ```
 
+<h2></h2>
+
 - Her farklı bilgi için yeni bir liste oluşturmam gerekiyor.
 
 - Aynı elemanı ifade eden mantıklar listeler arası aynı indexte tutuluyor. (isim[0]'ın notu notlar[0])
