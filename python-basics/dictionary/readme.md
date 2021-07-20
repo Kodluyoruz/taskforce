@@ -97,7 +97,7 @@ notlar["Gizem"]
 
     95
 
-iç içe geçmiş sözlüklerde:
+<b>iç içe geçmiş sözlüklerde:</b>
 ```python
 ogrenciler = {"Deniz": {"not": 80, "ogrenci_no": 703}, "Ege": {"not": 72, "ogrenci_no": 408},"Gizem": {"not": 95, "ogrenci_no": 690}}
 ```
@@ -235,7 +235,7 @@ notlar = {'Deniz': 80, 'Ege': 77, 'Gizem': 95, 'Mert': 58}
 ```
 - Eleman silmeyi `del` keyword'u kullanarrak veya `pop()` methodu kullanarak yapabiliriz.
 
-`del` keyword'u kullanarrak:
+<b> `del` keyword'u kullanarrak: </b>
 ```python
 del notlar["Mert"]
 ```
@@ -246,7 +246,7 @@ print(notlar)
 ```python
 {'Deniz': 80, 'Ege': 77, 'Gizem': 95}
 ```
-`pop()` methodu kullanarak:
+<b> `pop()` methodu kullanarak:</b>
 ```python
 notlar.pop("Mert")
 ```
