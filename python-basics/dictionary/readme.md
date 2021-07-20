@@ -75,6 +75,8 @@ no[0]
 <h2></h2>
 
 `immutable yapilar:` int, float, tuple, string, bool, frozenset.
+<h3></h3>
+
 `mutable yapilar:` list, set, dictionary.
 
 ```python
