@@ -15,11 +15,12 @@ for i in range(10):
         break
     print(i)
 ```
-
+burada `i` değişkeni 3'e eşitse döngüden çıkıyoruz.
 > ```text
 > 0
 > 1
 > 2
+> python break ifadesi gördüğü için döngüyü sonlandırıyor.
 > ```
 
 ```python
@@ -27,20 +28,17 @@ for i in range(10):
 x = 0
 
 while x < 10:
-
-    
     print(x)
     x += 1
-    
-
     if x == 3:
         break
 ```
-
+burda `x` değişkeni 3'e eşitse döngüden çıkıyoruz.
 > ```text
 > 0
 > 1
 > 2
+> python break ifadesi gördüğü için döngüyü sonlandırıyor.
 > ```
 
 ## continue
@@ -68,6 +66,7 @@ for i in range(10):
 > 7
 > 8
 > 9
+> python continue ifadesi gördüğü için 3'e ulaştığında döngünün sonraki iterasyonuna geçiliyor.
 > ```
 
 ```python
@@ -94,5 +93,6 @@ while x < 10:
 > 8
 > 9
 > 10
+> python continue ifadesi gördüğü için 3'e ulaştığında döngünün sonraki iterasyonuna geçiliyor.
 > ```
 
