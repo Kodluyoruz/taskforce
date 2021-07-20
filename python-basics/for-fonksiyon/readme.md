@@ -37,7 +37,7 @@ apply(l, kare)
 
 
 ```python
-l
+print(l)
 ```
 
 
@@ -53,7 +53,7 @@ l
 ```python
 l = [1,2,3,4]
 ```
-
+tekrardan l listesi tanımlıyoruz.
 
 ```python
 def kup(x):
@@ -68,7 +68,7 @@ apply(l, kup)
 
 
 ```python
-l
+print(l)
 ```
 
 
@@ -88,11 +88,17 @@ def apply_funcs(f_list, x):
         l.append(f(x))
         
     return l
+
+def kup(x):
+    return x**3
+
+def kare(x):
+    return x**2
 ```
 
 
 ```python
-apply_funcs([kare, kup], 5)
+print(apply_funcs([kare, kup], 5))
 ```
 
 
