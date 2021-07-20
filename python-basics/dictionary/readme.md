@@ -17,13 +17,13 @@ isim = ["Deniz", "Ege", "Gizem"]
 ```
 
 ```python
-isim[0]
+print(isim[0])
 ```
 
     'Deniz'
 
 ```python
-notlar[0]
+print(notlar[0])
 ```
 
     80
@@ -70,8 +70,9 @@ no[0]
 
 - Elemanlarına ulaşmak için öbür non-scalar veri tiplerinde yaptığımız gibi `[]` kullanacağız. Ama - `dictionary`'lerin elemanlarına ulaşmak için belirlediğimiz `key`leri kullanacağız, integer indexing değil.
 
-- `dictionary`'lerin keyleri `immutable` herhangi bir yapıda olabilir. `value`'lar `mutable` da `immutable` da olabilir. int, float, bool, string, list, tuple, set, even dictionaries itself!
-
+- `dictionary`'lerin keyleri `immutable` herhangi bir yapıda olabilir. `value`'lar `mutable` da `immutable` da olabilir. 
+`immutable yapilar:` int, float, tuple, string, bool, frozenset.
+`mutable yapilar:` list, set, dictionary.
 ```python
 notlar = {"Deniz": 80, "Ege":72, "Gizem": 95}
 ```
@@ -88,8 +89,9 @@ notlar["Gizem"]
 
     95
 
+iç içe geçmiş sözlüklerde:
 ```python
-ogrenciler = {"Deniz": {"not":80, "ogrenci_no":703}, "Ege":{"not":72, "ogrenci_no":408}, "Gizem": {"not":95, "ogrenci_no":690}}
+ogrenciler = {"Deniz": {"not": 80, "ogrenci_no": 703}, "Ege": {"not": 72, "ogrenci_no": 408},"Gizem": {"not": 95, "ogrenci_no": 690}}
 ```
 
 ```python
@@ -109,6 +111,11 @@ ogrenciler["Ege"]["ogrenci_no"]
 ```
 
     408
+
+
+
+
+    
 
 ## Olmayan Bir Eleman Sorgulamak
 
@@ -155,39 +162,38 @@ notlar[0]
 - Diyelim ki Ege'nin notu yanlış okunmuş, notunu 5 puan arttıracağız.
 
 ```python
-notlar
+notlar = {'Deniz': 80, 'Ege': 72, 'Gizem': 95}
 ```
 
-    {'Deniz': 80, 'Ege': 72, 'Gizem': 95}
 
 ```python
 notlar["Ege"] = notlar["Ege"] + 5
 ```
 
 ```python
-notlar["Ege"]
+print(notlar["Ege"])
 ```
 
     77
 
 ```python
-notlar
+print(notlar)
 ```
-
-    {'Deniz': 80, 'Ege': 77, 'Gizem': 95}
+```python
+{'Deniz': 80, 'Ege': 77, 'Gizem': 95}
+```
 
 ## len()
 
-- len() fonksiyonunu dictionary'lerde kullandığımız zaman bize kaç tane key varsa onun sayısını veriyor.
+- len() fonksiyonunu dictionary'lerde kullandığımız zaman bize kaç tane item varsa onun sayısını veriyor.
 
 ```python
-notlar
+notlar = {'Deniz': 80, 'Ege': 77, 'Gizem': 95}
 ```
 
-    {'Deniz': 80, 'Ege': 77, 'Gizem': 95}
 
 ```python
-len(notlar)
+print(len(notlar))
 ```
 
     3
@@ -195,59 +201,67 @@ len(notlar)
 ## Eleman Eklemek
 
 - Dictionary'lere eleman eklemek gerçekten kolay. Tamam yazmayı bırakıp direkt göstereyim:
+- dictionary_ismi[key] = value
 
 ```python
-notlar
+notlar = {'Deniz': 80, 'Ege': 77, 'Gizem': 95}
 ```
-
-    {'Deniz': 80, 'Ege': 77, 'Gizem': 95}
 
 ```python
 notlar["Mert"] = 58
 ```
 
 ```python
-notlar
+print(notlar)
 ```
-
-    {'Deniz': 80, 'Ege': 77, 'Gizem': 95, 'Mert': 58}
+```python
+{'Deniz': 80, 'Ege': 77, 'Gizem': 95, 'Mert': 58}
+```
 
 - Dictionary'ye sorgu yapıyor gibi yazıyoruz, ve `value`'si olmasını istediğimiz değeri de soluna yazıyoruz.
 
 ## Eleman Silmek
 
 ```python
-notlar
+notlar = {'Deniz': 80, 'Ege': 77, 'Gizem': 95, 'Mert': 58}
 ```
+- Eleman silmeyi `del` keyword'u kullanarrak veya `pop()` methodu kullanarak yapabiliriz.
 
-    {'Deniz': 80, 'Ege': 77, 'Gizem': 95, 'Mert': 58}
-
-- Eleman silmeyi `del` keyword'ü ile yapabiliriz.
-
+`del` keyword'u kullanarrak:
 ```python
 del notlar["Mert"]
 ```
 
 ```python
-notlar
+print(notlar)
 ```
-
-    {'Deniz': 80, 'Ege': 77, 'Gizem': 95}
-
-## Sadece Immutable Tipindeki Veriler `key` olabilir
+```python
+{'Deniz': 80, 'Ege': 77, 'Gizem': 95}
+```
+`pop()` methodu kullanarak:
+```python
+notlar.pop("Mert")
+```
+```python
+print(notlar)
+```
+```python
+{'Deniz': 80, 'Ege': 77, 'Gizem': 95}
+```
+## Sadece Immutable Tipindeki Veriler `key` olabilir.
 
 ```python
 d = {1:2, 3:"b"}
 ```
 
 ```python
-d[1]
+print(d[1])
 ```
 
     2
 
 ```python
-d[3]
+print(d[3])
 ```
 
     'b'
@@ -257,13 +271,16 @@ d2 = {(1,2):"a", (4,5): [1,2,3]}
 ```
 
 ```python
-d2[(1,2)]
+print(d2[(1,2)])
 ```
 
     'a'
 
 ```python
-d2[(4,5)]
+print(d2[(4,5)])
+```
+```python
+[1, 2, 3]
 ```
 
 ```python
@@ -278,15 +295,16 @@ d3 = {[1,2]:4}
     ----> 1 d3 = {[1,2]:4}
 
     TypeError: unhashable type: 'list'
+bu hatayı düzetmek için liste formatı yerine tuple formatı kullanmak gerekiyor.
 
 ## Boş Bir Dictionary Yaratmak
 
 ```python
-d = {}
+d = {} veya d = dict()
 ```
 
 ```python
-d
+print(d)
 ```
 
     {}
@@ -296,21 +314,19 @@ d[1] = "a"
 ```
 
 ```python
-d
+print(d)
 ```
-
-    {1: 'a'}
+```python
+{1: 'a'}
+```
 
 ## Bir Değer Keyler Arasında Var mı Sorgusu Yapmak
 
 - Bir elemanın dictionary içinde olup olmadığını sorgulamak, list ve tuple'lerde sorgulamaktan daha hızlıdır.
 
 ```python
-notlar
+notlar = {'Deniz': 80, 'Ege': 77, 'Gizem': 95}
 ```
-
-    {'Deniz': 80, 'Ege': 77, 'Gizem': 95}
-
 ```python
 "Mert" in notlar
 ```
@@ -322,3 +338,125 @@ notlar
 ```
 
     True
+```python
+"Deniz" not in notlar
+```
+    False
+## Dictionary Methodları
+- Dictionary methodları Python'da önceden tanımlanmıştır.
+- Dictionaryler üzerinde daha kolay işlem yapmak için methodları kullanabiliriz.
+- Bunların hepsi `dict.method_isimi()` şeklinde çağırılabilir.
+<h2></h2>
+
+```python
+meslekler = {"Deniz": "Mühendis", "Ege": "Mimar", "Gizem": "doktor"}
+```
+<h2></h2>
+
+`dict.keys()` methodu, dictionary'i içindeki key'leri döndürür.
+```python
+print(meslekler.keys())
+```
+
+```python
+dict_keys(['Deniz', 'Ege', 'Gizem'])
+```
+<h2></h2>
+
+`dict.values()` methodu, dictionary'i içindeki değerleri döndürür.
+```python
+print(meslekler.values())
+```
+```python
+dict_values(['Mühendis', 'Mimar', 'doktor'])
+```
+<h2></h2>
+
+`dict.items()` methodu, dictionary'i içindeki elemanları döndürür.
+```python
+print(meslekler.items())
+```
+```python
+dict_items([('Deniz', 'Mühendis'), ('Ege', 'Mimar'), ('Gizem', 'doktor')])
+```
+<h2></h2>
+
+`dict.clear()` methodu, dictionaryin icindeki tüm elemanları siler.
+```python
+meslekler.clear()
+```
+```python
+print(meslekler)
+```
+```python
+{}
+```
+<h2></h2>
+
+`dict.copy()` methodu, dictionary icindeki tüm elemanların kopyasını döndürür.
+```python
+print(meslekler.copy())
+```
+```python
+{'Deniz': 'Mühendis', 'Ege': 'Mimar', 'Gizem': 'doktor'}
+```
+<h2></h2>
+
+`dict.fromkeys()` methodu, `meslekler` dictionary'isini `key`'leri ile birlikte oluşturur.
+```python
+yeni_dict = dict.fromkeys(["Deniz", "Ege", "Gizem"])
+```
+```python
+print(yeni_dict)
+```
+```python
+{'Deniz': None, 'Ege': None, 'Gizem': None}
+```
+su an değerleri None sonradan yazılabilir.
+<h2></h2>
+
+`dict.get()` methodu, `meslekler` dictionary'isi içinde `key`'i bulup değerini döndürür.
+```python
+print(meslekler.get("Deniz"))
+```
+```python
+Mühendis
+```
+<h2></h2>
+
+`dict.popitem()` methodu, `meslekler` dictionary'isi içindeki son itemi siler.
+```python
+meslekler.popitem()
+```
+
+```python
+print(meslekler)
+```
+```python
+{'Deniz': 'Mühendis', 'Ege': 'Mimar'}
+```
+<h2></h2>
+
+`dict.update()` methodu, deger eklemek istediğimiz dictionaryiye baska bir dictionary'i ekler.
+```python
+yeni_dict = {"ali": "polis","esra": "veteriner"}    
+```
+```python
+meslekler.update(yeni_dict)
+```
+```python
+print(meslekler)
+```
+```python
+{'Deniz': 'Mühendis', 'Ege': 'Mimar', 'Gizem': 'doktor', 'ali': 'polis', 'esra': 'veteriner'}
+```
+<h2></h2>
+
+`dict.setdefault()` methodu, `meslekler` dictionary'isi içinde `key`'i bulup değerini döndürür. Eğer `key`'i bulamadıysa, `default` değeri döndürür.
+```python
+print(meslekler.setdefault("Deniz", "Bilgisayar"))
+```
+```python
+Mühendis
+```
+eger Deniz diye bir key olmasaydi `Bilgisayar` değerini döndürdü.
