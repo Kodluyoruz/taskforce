@@ -71,8 +71,10 @@ no[0]
 - Elemanlarına ulaşmak için öbür non-scalar veri tiplerinde yaptığımız gibi `[]` kullanacağız. Ama - `dictionary`'lerin elemanlarına ulaşmak için belirlediğimiz `key`leri kullanacağız, integer indexing değil.
 
 - `dictionary`'lerin keyleri `immutable` herhangi bir yapıda olabilir. `value`'lar `mutable` da `immutable` da olabilir. 
+<h1>
 `immutable yapilar:` int, float, tuple, string, bool, frozenset.
 `mutable yapilar:` list, set, dictionary.
+<h1>
 ```python
 notlar = {"Deniz": 80, "Ege":72, "Gizem": 95}
 ```
