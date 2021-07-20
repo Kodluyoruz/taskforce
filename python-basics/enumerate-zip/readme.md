@@ -6,6 +6,10 @@
 
 * Bunun aynısını iterasyonda da yapabiliriz.
 
+* enumerate()in 2 tane parametresi vardır, birincisi iterable bir obje(liste, tuple,str vb.) ikincisi ise başlangıç sayı değeri bu değer varsayılan olarak 0 ile başlar.
+```python
+enumerate(iterable, start=0)
+```
 
 ```python
 l = [(1,2), (10,20)]
@@ -87,7 +91,6 @@ for i, e in enumerate(adlar):
 
 * enumerate() 0'dan başlamak zorunda değil, özellikle kaçtan başlayacağını belirtebiliriz.
 
-
 ```python
 for i, e in enumerate(adlar, start = 100):
     print(i, "lokasyonunda bulunan eleman:", e)
@@ -101,7 +104,7 @@ for i, e in enumerate(adlar, start = 100):
 
 ## zip()
 
-* Farklı yapıların içinde paralel iterasyon yapmamızı sağlar. `zip()`
+* Farklı yapıların içinde paralel iterasyon yapmamızı sağlar aynı bir fermuar gibi. `zip()`
 
 
 ```python
@@ -157,13 +160,24 @@ satis = [3500.00, 76300.00, 67200.00]
 maliyet = [56700.00, 21900.00, 12100.00]
 for s, c in zip(satis, maliyet):
     kar = s - c
+
     print(f'Total profit: {kar}')
 ```
 
     Total profit: -53200.0
     Total profit: 54400.0
     Total profit: 55100.0
-    
+
+<b>  tek bir arguman uzerinde de zip() kullanabiliriz. </b>
+```python
+sayilar = [1,2,3,4,5]
+yeni = zip(sayilar)
+
+print(list(yeni))
+```
+```python
+[(1,), (2,), (3,), (4,), (5,)]
+```
 
 ### zip() ile Dictionary Yaratmak:
 
@@ -182,17 +196,15 @@ for k, v in zip(keys, values):
 
 
 ```python
-d
+print(d)
 ```
-
-
-
 
     {'isim': 'Denis', 'soyad': 'Walker', 'ulke': 'Turkey', 'is': 'data scientist'}
 
 
-
-
 ```python
-d["isim"]
+print(d['isim'])
+```
+```python
+'Denis'
 ```
