@@ -4,7 +4,7 @@
 
 - Başkası sizin yazdığınız kodu kullanmak istediğinde kodun ne yaptığını bilmesi gerekiyor. İşte burada **comment** (yorum) devreye giriyor. Yazdığımız kodun ne yaptığını anlatan açıklamalar.
 
-- Yorumlar sadece insanların okuması için, program çalışırken burası program tarafından algılanmayacak.
+- Yorumlar sadece insanların okuması için, program çalışırken burası python tarafından değerlendirmeye algılanmayacak.
 
 - Sadece başkasının okuması da şart değil, seneler sonra yazdığınız kodu yeniden kullanmak isteyebilirsiniz ve neyin ne olduğunu, kodun ne yaptığını unutmuş olabilirsiniz, bu yüzden bu açıklamalar kendi kodunuzu okurken de önemli. (seneler geçmesine de gerek yok, çok parçası olan bir problem üzerine çalışıyorsanız, şurada ne yapmıştım diye kendinizi bulmanız çok muhtemel - o yüzden yorum eklemeyi bir alışkanlık haline getirmek gayet yararlı bir durum.)
 
