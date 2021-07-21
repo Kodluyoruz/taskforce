@@ -17,7 +17,7 @@ a = kare
 
 
 ```python
-kare(5)
+print(kare(5))
 ```
 
 
@@ -29,7 +29,7 @@ kare(5)
 
 
 ```python
-a(5)
+print(a(5))
 ```
 
 
@@ -39,23 +39,26 @@ a(5)
 
 
 
-* Bir fonksiyonu başka bir fonksiyona argüman olarak verebiliriz.
+<b> Bir fonksiyonu başka bir fonksiyona argüman olarak verebiliriz. </b>
 
 
 ```python
+def kare(x):
+    return x**2
+
 def f2(x, f):
     return f(x) + 4
 ```
 
 
 ```python
-f2(3,kare)
+print(f2(3,kare))
 ```
+    f2(3,kare)
 
+    return kare(3) + 4
 
-
-
-    13
+    13 #sonuç
 
 
 
@@ -67,12 +70,12 @@ def f3(x):
 
 
 ```python
-f2(2, f3)
+print(f2(2, f3))
 ```
+    f2(2, f3)
 
+    return f3(2) + 4
 
-
-
-    36
+    36 #sonuç
 
 
