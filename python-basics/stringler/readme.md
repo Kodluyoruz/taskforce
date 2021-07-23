@@ -4,11 +4,13 @@
 
 * Stringler karakterlerden oluşan bir dizidir aslında. Stringlerin elemanları karakterlerdir.
 
-* **Karakterler**: (a,b,c,d...) gibi harfler, (*, ?, =, <, >, /...) gibi özel karakterler, (1,2,3...) gibi yazı biçiminde sayılar, boşluk(space) karakter olarak adlandırılabilir. 
+* **Karakterler**: `(a,b,c,d...)` gibi harfler, `(*, ?, =, <, >, /...)`gibi özel karakterler, `(1,2,3...)` gibi yazı biçiminde sayılar, `boşluk(space)` karakter olarak adlandırılabilir. 
 
 * **String**'ler `Karakter`lerden veya bunların kombinasyonlarından oluşabilirler.
 
-* Bir şeyin `String` olduğunu belirtmek için yazacaklarımızı ikili tırnak ("") veya tekli tırnak ('') içine yazarız
+* Bir şeyin `String` olduğunu belirtmek için yazacaklarımızı ikili tırnak `" "` veya tekli tırnak `'  '` içine yazarız
+
+* birden fazla satırda string yazma için `""" """` veya `''' '''` kullanılır.
 
 * Tırnak işaretlerinin yaptığı şey aslında: **Bu tırnak işaretlerinin içinde verdiğim diziye karakterler dizisi olarak davran, öyle algıla** demek.
 
@@ -22,40 +24,25 @@
 
 
 ```python
-5
+print(5)
 ```
 
 > 5
-
-
-
-
+> 5 burada integer
 ```python
-"5"
+print("5")
 ```
 
 > '5'
-
-
-
-
-```python
-"a"
-```
-
-> 'a'
-
+> burada ise string
 
 
 
 ```python
-'a'
+print("a")
 ```
 
 > 'a'
-
-
-
 
 ```python
 # Hangisiyle başladıysak onunla bitirmeliyiz
@@ -72,7 +59,7 @@
 
 
 ```python
-"5"
+print("5")
 ```
 
 > '5'
@@ -82,7 +69,7 @@
 
 ```python
 # Burada +'ya operatör olarak davranılmıyor, yazı olarak davranılıyor.
-"5 + 10"
+print("5 + 10")
 ```
 
 > '5 + 10'
@@ -91,7 +78,7 @@
 
 
 ```python
-type('Hmm o zaman x=5 diyebilir miyiz?')
+print(type('Hmm o zaman x=5 diyebilir miyiz?'))
 ```
 
 > str
@@ -100,7 +87,7 @@ type('Hmm o zaman x=5 diyebilir miyiz?')
 
 
 ```python
-type("5")
+print(type("5"))
 ```
 
 > str
@@ -109,7 +96,7 @@ type("5")
 
 
 ```python
-type("5 + 10")
+print(type("5 + 10"))
 ```
 
 > str
@@ -168,22 +155,22 @@ type("5 + 10")
 
 ## Escape Sequence
 
+* escape sequence karakterleri python tarafından stringler içerisinde özel karakterlerdir ve değerlendirmeye alınırlar.
+
+* örnek olarak \n, \t, \\", \' veya \\\ karakterleri kullanılabilir.
+
 
 ```python
 "Bana \"Bugün ne yapıyorsun\" dedi"
 ```
 
 > 'Bana "Bugün ne yapıyorsun" dedi'
-
-
-
-
 ```python
 'Bugün Kadıköy\'e gidiyorum'
 ```
 
 > "Bugün Kadıköy'e gidiyorum"
-
+> burada " isareti sorun cikarmamasi için escape sequence kullanilmali.
 
 
 
@@ -194,16 +181,14 @@ print("hey\nnasılsın")
 > hey
 >
 > nasılsın
-
-
+> `\n` ile yeni satira geciyoruz.
 
 ```python
 print("hey\tnasılsın")
 ```
 
 > hey nasılsın
-
-
+> `\t` ile bir ASCII tab boşluk yapıyoruz.
 ```python
 print("hmm \")
 ```
@@ -213,13 +198,12 @@ print("hmm \")
         print("hmm \")
                       ^
     SyntaxError: EOL while scanning string literal
-
-
+  escape sequence karakteri girmediğimiz için hata verdi.
 
 
 ```python
 print("hmm \\")
 ```
 
-> hmm \
-
+> hmm \\
+> `\` printlemek için 2 tane \ kullanıyoruz.
