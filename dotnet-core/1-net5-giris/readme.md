@@ -34,4 +34,4 @@ Peki nedir bu isim karmaşası? Ben Microsoft'un bu geçiş sürecini doğru yö
 Microsoft'un duyurmuş olduğu release takvimi ise aşağıdaki gibi.
 Bu takvime göre .Net 6 2021 Kasım ayında bizlerle!
 
-![Release Schedule](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/dotnet-core/1-net5-giris/figures/68747470733a2f2f646f746e65742e6d6963726f736f66742e636f6d2f7374617469632f696d616765732f72656c656173652d7363686564756c652e706e673f763d6c744c47357053486d56505f6c6a5179667335554b75776e57374939516e415476774a6e75566d46623767.png)
+![Release Schedule](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/dotnet-core/1-net5-giris/figures/dotnet-giris-image.png)
