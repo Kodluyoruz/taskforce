@@ -2,7 +2,7 @@
 
 Bir "Button" component'i geliştirip, bunu npmjs üzerinde paylaşmanız gerekiyor.
 
-![preview](./preview.png)
+![preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-patika/odev4/figures/preview.png)
 
 Geliştirmeniz gereken component için yukarıdaki görseldeki yapıyı referans alabilirsiniz.
 Ayrıca [şuradan](https://ant.design/components/button/) çalışan örneğe göz atabilirsiniz.
