@@ -117,7 +117,7 @@
 1.  https://youtu.be/DDOEgXDLKyM
 	- VS Code içerisinde "MultiCursor(Çoklu İmleç)" kullanımı kod parçacıkları oluştururken size inanılmaz hız kazandıracaktır. Bu videoda; MultiCursor nasıl kullanılır, klavye kısayol tuşları nelerdir gibi konuları anlattık. 
 
-## [Klavye ile Çalışmak / Klavye Kısayol Tuşları](vs-klavye-kisayollari/)
+## [Klavye ile Çalışmak / Klavye Kısayol Tuşları](vs-klavye-kisayollari/)
 
 ### Sorular
 1. Klavye kısayolları ile ilgili bilgilerden hangisi yanlıştır?
