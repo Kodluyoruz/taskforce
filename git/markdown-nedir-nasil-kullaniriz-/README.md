@@ -182,4 +182,4 @@ Yazınız içinde alıntı kullanmak isterseniz yapmanız gereken, metinin baş�
 
 **Elde ettiğimiz çıktı:**
 
-- > Alıntı yapılan metin.
+" > Alıntı yapılan metin."
