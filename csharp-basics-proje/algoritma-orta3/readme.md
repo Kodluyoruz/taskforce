@@ -4,13 +4,13 @@ Verilen string ifade içerisindeki ilk ve son karakterin yerini değiştirip tek
 
 Örnek:
 Input:
--Merhaba
--Hello
--Algoritma
--x
+- Merhaba
+- Hello
+- Algoritma
+- x
 
 Output:
--aerhabM
--oellH
--algoritmA
--x
+- aerhabM
+- oellH
+- algoritmA
+- x
