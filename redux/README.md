@@ -2,15 +2,15 @@
 
 #### Giriş ####
 
-- [Redux nedir ? Ne zaman tercih ediir?]()
-- [Immutability]()
+- [Redux nedir ? Ne zaman tercih ediir?](redux-nedir/)
+- [Immutability](immutability/)
 
 #### Counter App ####
 
-- [Redux Store Oluşturalım]()
-- [Bir veri tanimlamak ve kullanmak (createSlice & useSelector)]()
-- [Bir veriyi güncellemek]()
-- [Bölüm sonu kazanımları]()
+- [Redux Store Oluşturalım](redux-store/)
+- [Bir veri tanimlamak ve kullanmak (createSlice & useSelector)](create-slice-use-selector/)
+- [Bir veriyi güncellemek](bir-veri-guncellemek/)
+- [Bölüm sonu kazanımları](bolum-sonu-kazanımlari-counter-app/)
 
 #### To-do App ####
 
