@@ -181,4 +181,5 @@ Yazınız içinde alıntı kullanmak isterseniz yapmanız gereken, metinin baş�
 ```
 
 **Elde ettiğimiz çıktı:**
+
  ![Alıntı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/markdown-nedir-nasil-kullaniriz-/figures/github.PNG)
