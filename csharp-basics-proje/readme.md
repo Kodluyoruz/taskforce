@@ -12,7 +12,7 @@
 #### Orta Seviye Projeler ####
 
 - [Alan Hesaplama](alan-hesaplama)
-- [Algoritma](integer-ikili-toplami)
-- [Algoritma](mutlak-kare)
-- [Algoritma](karakter-degistirme)
-- [Algoritma](sessiz-harf)
+- [Integer İkililerin Toplamı](integer-ikili-toplami)
+- [Mutlak Kare Alma](mutlak-kare)
+- [Karakter Değiştirme](karakter-degistirme)
+- [Sessiz Harf](sessiz-harf)
