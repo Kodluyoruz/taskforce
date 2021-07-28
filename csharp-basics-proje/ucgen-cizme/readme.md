@@ -1,4 +1,4 @@
-#Algoritma
+## Algoritma
 
 Kullanıcıdan alınan boyut bilgisine göre console'a Üçgen çizen uygulamayı yazınız. 
 
