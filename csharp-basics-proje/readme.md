@@ -4,10 +4,10 @@
 #### Kolay Seviye Projeler ####
 
 - [Ortalama Hesaplama](ortalama-hesaplama)
-- [Şekil Çizimi-1](sekil-cizimi1)
-- [Şekil Çizimi-2](sekil-cizimi2)
-- [Algoritma](algoritma-kolay1)
-- [Algoritma](algoritma-kolay2)
+- [Üçgen Çizme](ucgen-cizme)
+- [Daire Çizme](daire-cizme)
+- [Algoritma](string-ve-sayi-alan)
+- [Karakter Tersten Yazdırma](karakter)
 
 #### Orta Seviye Projeler ####
 
