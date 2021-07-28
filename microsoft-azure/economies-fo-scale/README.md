@@ -1,1 +1,1 @@
-# Economies fo Scale
+# Economies of Scale
