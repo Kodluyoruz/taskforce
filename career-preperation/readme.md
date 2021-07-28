@@ -1,4 +1,4 @@
-# Yazılım Dünyası Kariyer Patikası#
+# Yazılım Dünyası Kariyer Patikası #
 
 #### CV ve Önemi ####
   - [CV Hazırlama - Temel Bilgiler](1-CV-hazırlama-temel-bilgiler)
