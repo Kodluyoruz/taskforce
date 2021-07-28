@@ -12,7 +12,7 @@
 #### Orta Seviye Projeler ####
 
 - [Alan Hesaplama](alan-hesaplama)
-- [Algoritma](algoritma-orta1)
-- [Algoritma](algoritma-orta2)
-- [Algoritma](algoritma-orta3)
-- [Algoritma](algoritma-orta4)
+- [Algoritma](integer-ikili-toplami)
+- [Algoritma](mutlak-kare)
+- [Algoritma](karakter-degistirme)
+- [Algoritma](sessiz-harf)
