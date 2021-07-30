@@ -76,7 +76,7 @@
 #### Fetch API ####
 - [Fetch API ile Çalışmak](fetch-api-ile-calismak/)
 - To-Do Uygulaması
-- Testimonial Uygulaması
+- [Testimonial Uygulaması](testimonial-uygulamasi/)
 
 #### Coderbyte Challenge ####
 - [Coderbyte Challenge](coderbyte-challenge/)
