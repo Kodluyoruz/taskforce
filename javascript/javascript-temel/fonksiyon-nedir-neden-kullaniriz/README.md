@@ -329,7 +329,7 @@ function pow(x, n) {
 
 ### Variable Scope, Closure
 
-Bir fonksiyonu istediğiniz bir an yaratabilir, başka bir fonksiyona parametre olarak girebilir ve yazdığımız programın çok farklı ir yerinde biz tekrar bu fonksiyonu çalıştırabiliriz. Javascript function-oriented bir dil olduğundan bize bir çok özgürlük sağlar.
+Bir fonksiyonu istediğiniz bir an yaratabilir, başka bir fonksiyona parametre olarak girebilir ve yazdığımız programın çok farklı bir yerinde biz tekrar bu fonksiyonu çalıştırabiliriz. Javascript function-oriented bir dil olduğundan bize bir çok özgürlük sağlar.
 
 Bir fonksiyonun dışında tanımlanan değişkenlere erişebildiğiniz biliyoruz. Peki bir fonksiyonu biz yarattık ve global tanımlanan `var x = 5` bu fonksiyon içerisinde eriştik ve kullandık diyelim. Peki bu değişkenin değeri daha sonra değişirse fonksiyon güncel olanı alacak mı ve ya biz bu fonksiyonu başka bir fonksiyona parametre olarak girdiğimiz zaman hala sağlıklı bir şekilde `x` e ulaşabilecek mi?
 
