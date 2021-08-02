@@ -16,7 +16,7 @@ Bir klon uygulama geliştirmeniz gerekiyor. Uygulama, Bill Gates'in $100,000,000
 - [ ] Herhangi ürünün fiyatı, bakiyeden yüksek ise "Buy" butonu aktif olmamalıdır.
 - [ ] Satın alınan ürünler ekranın en altında adetleri ve toplam bedelleri ile birlikte listelenmelidir.
   
-![Basket](figures/basket.png) 
+![Basket](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/redux/breakingbad-odev/figures/basket.png) 
 
 
 Kolaylıklar :)
