@@ -4,7 +4,7 @@ Bir hafıza oyunu geliştirmeniz gerekiyor. Demoda görülen uygulamanın birebi
 
 [Demo](https://codepen.io/yigitcukuren/pen/GyxxVm)
 
-![Preview](./figures/preview.png)
+![Preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/redux/contactsapp-odev/figures/preview.png)
 
 ## Gereksinimler
 
