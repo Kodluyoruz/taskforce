@@ -1,4 +1,4 @@
-Eminim birçoğunuza internet nedir? Diye sorsam, bizimle dalga mı geçiyorsun? Diye hayıflanırsınız. Peki o halde soruyorum. Gerçekten internet nedir? 
+Eminim birçoğunuza internet nedir? Diye sorsam, bizimle dalga mı geçiyorsun? Diye hayıflanırsınız. Peki o halde soruyorum. Gerçekten internet nedir? 🤔
 
 Bu dersimizde alışkanlıklarımızdan yola çıkarak genel konseptlerin neler olduğunu somut modeller üzerinden öğreniyoruz. Bunlar arasında;
 
