@@ -53,4 +53,4 @@
 - [Ödev](contactsapp-odev/)
 
 #### Proje ####
-- [Proje-1](redux-proje/)
+- [Proje-1](redux-odev/)
