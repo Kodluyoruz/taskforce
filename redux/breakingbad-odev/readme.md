@@ -4,7 +4,7 @@ Bir klon uygulama geliştirmeniz gerekiyor. Uygulama, Bill Gates'in $100,000,000
 
 [Demo](https://neal.fun/spend/)
 
-![Preview](./figures/preview.png)
+![Preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/redux/breakingbad-odev/figures/preview.png)
 
 ## Gereksinimler
 
