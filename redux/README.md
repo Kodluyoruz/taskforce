@@ -11,7 +11,6 @@
 - [Bir veri tanimlamak ve kullanmak (createSlice & useSelector)](create-slice-use-selector/)
 - [Bir veriyi güncellemek](bir-veri-guncellemek/)
 - [Bölüm sonu kazanımları](bolum-sonu-kazanımlari-counter-app/)
-- [Ödev](odev1/)
 
 #### To-do App ####
 
@@ -28,7 +27,7 @@
 - [Kayıtların API üzerinden eklenmesi (POST Methodu)](api-post-method/)
 - [Kayıtların API üzerinden güncelleme ve silinmesi](api-update-method)
 - [Bölüm sonu kazanımları](bolum-sonu-kazanimlari-todo-app/)
-- [Ödev](odev2/)
+- [Ödev](odev1/)
 
 
 #### Breaking Bad App ####
@@ -41,7 +40,7 @@
 - [Quotes route'unun hazırlanması](quotes-route/)
 - [Quotes detail route'unun hazırlanması](quotes-detail/)
 - [Bölüm sonu kazanımları](bolum-sonu-kazanimlari-breaking-bad-app/)
-- [Ödev](odev3/)
+- [Ödev](odev2/)
 
 
 #### Contacts App ####
@@ -51,4 +50,4 @@
 - [Form ve stillendirme işlemleri](form-ve-stillendirme-islemleri/)
 - [Silme ve güncelleme işlemleri](silme-guncelleme-islemleri-contacts-app/)
 - [Bölüm sonu kazanımları](bolum-sonu-kazanimlari-contacts-app/)
-- [Ödev](odev4/)
+- [Ödev](odev3/)
