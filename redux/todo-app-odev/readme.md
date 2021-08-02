@@ -2,7 +2,7 @@
 
 Genel bir not uygulaması geliştirmeniz gerekiyor.
 
-![Preview](./figures/preview.png)
+![Preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/redux/todo-app-odev/figures/preview.png)
 
 ## Gereksinimler
 - [ ] Textarea'a ya yazılacak olan notlar kayıt edilip listelenmelidir.
