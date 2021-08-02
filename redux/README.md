@@ -27,6 +27,7 @@
 - [Kayıtların API üzerinden eklenmesi (POST Methodu)](api-post-method/)
 - [Kayıtların API üzerinden güncelleme ve silinmesi](api-update-method)
 - [Bölüm sonu kazanımları](bolum-sonu-kazanimlari-todo-app/)
+- [Ödev](todo-app-odev/)
 
 
 #### Breaking Bad App ####
@@ -39,6 +40,7 @@
 - [Quotes route'unun hazırlanması](quotes-route/)
 - [Quotes detail route'unun hazırlanması](quotes-detail/)
 - [Bölüm sonu kazanımları](bolum-sonu-kazanimlari-breaking-bad-app/)
+- [Ödev](breakingbad-odev/)
 
 
 #### Contacts App ####
@@ -48,3 +50,7 @@
 - [Form ve stillendirme işlemleri](form-ve-stillendirme-islemleri/)
 - [Silme ve güncelleme işlemleri](silme-guncelleme-islemleri-contacts-app/)
 - [Bölüm sonu kazanımları](bolum-sonu-kazanimlari-contacts-app/)
+- [Ödev](contactsapp-odev/)
+
+#### Proje ####
+- [Proje-1](redux-proje/)
