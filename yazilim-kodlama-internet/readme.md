@@ -1,4 +1,4 @@
-# Yazılım, Kodlama, Internet Konseptleri
+# 
 
 #### Yazılım, Kodlama, Internet Konseptleri ####
 
