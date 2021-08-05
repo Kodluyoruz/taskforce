@@ -90,7 +90,7 @@ p.mavi{
 
 ```
 
-Burada ikinci kullanımda `p.mavi` sınıf ismi mavi olan p elementlerine erişmiş olduk. Üçüncü kullanımda `.large .mavi` sınıfı large olan bir elementin içinde sınıfı mavi olan elemente eriştik.
+Burada ikinci kullanımda `p.mavi` sınıf ismi mavi olan p elementlerine erişmiş olduk. Üçüncü kullanımda 
 
 ### Id Seçiciler (Id Selectors)
 Bu seçiciler ile id atadığımız elementlere CSS uygulayabiliriz. Id' ler tek bir elemente ait olmalıdırlar. Id özelliğine erişmek `id`' nin başına `#` ekliyoruz.
