@@ -172,35 +172,40 @@ NOT: BR etiketinin farklı kullanımlarını görebilirsiniz. _örn._(`<br>`,`<b
     
 </body>
 </html>
-```
 ## HR Etiketi
-`<hr>` etiketi ekrana yatay bir çizgi çizer. Bu etiket kapanmaya ihtiyaç duymaz.
+
+`<hr>` etiketi konusal bir geçişi temsil eder. Yazı yazarken yeni bir paragrafa başlamaya benzetebiliriz. Varsayılan olarak sayfaya yatay bir çizgi ekler ama bu özelliği değiştirilebilir. Bu etiket kapatılmaya ihtiyaç duymaz.
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-   
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
-    
+  </head>
+  <body>
+    <p>
+      HTML yani Hiper Metin İşaretleme Dili, web sayfalarında gördüğümüz iskelet
+      yapısını oluşturmak için kullanılan metin işaretleme dilidir.
+    </p>
+
     <hr>
-    
-    <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ol>
-    
-</body>
+
+    <p>
+      CSS, HTML elementlerinin çeşitli medya araçlarında nasıl ekrana
+      yansıtılacağını tanımlayan bir dildir. Tek seferde birden çok sayfa için
+      kurallar belirtebilir.
+    </p>
+
+    <hr>
+
+    <p>
+      JavaScript, HTML ve web için bir programlama dilidir. Dinamil olarak HTML
+      içeriğini ve özelliklerini, CSS'i değiştirebilme gibi işlemleri
+      gerçekleştirebilir.
+    </p>
+  </body>
 </html>
 ```
 ## STRONG ve B Etiketi
