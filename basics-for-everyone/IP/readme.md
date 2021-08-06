@@ -36,7 +36,7 @@ Yönlendiricide iki seçenek bizi bekliyor ve bize "Hedefin **2**'ye gitmek ise 
 
 İnternet yukarıdaki şemadan daha karmaşık ama basit hatlarıyla bakıldığında aynı mantığın olduğu görebiliriz. Yukarıda cihazlara net numaralar vermiştik, **internette de IP adresler vardır.** 2 tane IP versiyonu vardır: IPv4 ve IPv6. 
 
-`Ipv4 Adres Örneği: 507.125.234.345`
+`Ipv4 Adres Örneği: 192.168.1.152`
 
 `IPv6 Adres Örneği:4ggr:1925:5656:7:600:t4tt:tc54:98vt `
 
