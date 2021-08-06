@@ -17,7 +17,7 @@ Konuyu daha iyi anlamak için her parametrenin aldığı değeri gösteren bir �
 const animals = ["cat" , "dog" , "bird", "horse"];
   
 animals.forEach((value , index , array) => {
-  console.log('value: ', item );
+  console.log('value: ', value );
   console.log('value parametresinin aldığı index :', index );
   console.log('array:' , array );
 });
