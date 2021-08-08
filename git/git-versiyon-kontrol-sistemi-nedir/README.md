@@ -4,7 +4,7 @@ GIT Kontrol Sistemi'nin ne olduğunu anlatmaya başlamadan önce biraz kültür 
 
 Şu sebepten ötürü; Yazılım dehası Bill Gates çok kitap okuyan, okuduklarını iyi şekilde hatırlayan ve konuşmaları sırasında okuduğu kitaplardan alıntılar yapan bir şahsiyet. Bu kadar okuma yapıp da okuduklarını aklında detaylı şekilde nasıl tuttuğu sorulduğunda Bill Gates;
 
-> *Bir konuda okumaya başlamadan önce konu hakkında genel bilgi sahibi olmayı ve konunun tarihini incelemeyi öneriyor.* [*](https://www.dunyahalleri.com/bill-gatesin-okuduklarini-hatirlama-yontemi/)
+*Bir konuda okumaya başlamadan önce konu hakkında genel bilgi sahibi olmayı ve konunun tarihini incelemeyi öneriyor.* [*](https://www.dunyahalleri.com/bill-gatesin-okuduklarini-hatirlama-yontemi/)
 
 **Bu içeriğimizde biz de GIT Versiyon Kontrol Sistemi Nedir?** sorusuna cevap ararken bu konu hakkında sadece kuru bilgi edinmek yerine bir miktar kültürel kazanım sağlayacağız ki konuyu içselleştirelim ve konu hakkında bir derinlik kazanalım. GIT ile ilgili bu sayfada ve devamındaki sayfalarda öğrendiklerimizi kolay kolay unutmayalım.
 
