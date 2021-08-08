@@ -42,4 +42,4 @@ Sizler için HTML yapısını ve basit CSS'i hazırladık. Sizlerden istediğimi
 
 Bu ödev ile birlikte CSS bölümünü tamamladınız, tebrik ederiz!
 
-Hepinize başarılar ve kolay gelsin!
+Hepinize başarılar ve kolay gelsin!😄
