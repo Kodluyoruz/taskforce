@@ -1,7 +1,7 @@
 
 
 
-#### Freelance ve Remote Çalışma İş Süreçleri ####
+### Freelance ve Remote Çalışma İş Süreçleri ####
 
 - [Freelance ve Remote Çalışma İş Süreçleri Eğitimi - intro](freelance-ve-remote-calisma-is-surecleri-egitimi-intro)
 - [Freelancer ve Remote Çalışmak Nedir Aralarındaki farklar Nelerdir ](freelancer-ve-remote-calismak-nedir-aralarindaki-farklar-nelerdir-)
