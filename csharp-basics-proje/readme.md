@@ -16,3 +16,9 @@
 - [Mutlak Kare Alma](mutlak-kare)
 - [Karakter Değiştirme](karakter-degistirme)
 - [Sessiz Harf](sessiz-harf)
+
+#### Zor Seviye Projeler ####
+- [Voting Uygulaması](voting-uygulamasi)
+- [ATM Uygulaması](atm-uygulamasi)
+- [Barcode Generator/Reader](barcode-GeneratorReader)
+
