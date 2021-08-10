@@ -1,5 +1,4 @@
-
-
+# Freelance ve Remote Çalışma İş Süreçleri
 
 #### Freelance ve Remote Çalışma İş Süreçleri ####
 
