@@ -572,9 +572,9 @@ Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde sakla
 #### Sorular
 
 1.  Program içerisinde farklı değerler alabilen ifadelere ne ad verilir?
-      - Sınıf (Doğru)
+      - Sınıf 
       - Sabit   
-      - Değişken           
+      - Değişken  (Doğru)         
       - Hiçbiri
 
 2. Bir sınıf kapsamında tanımlanmış değişkenlere ne ad verilir?
