@@ -3,7 +3,7 @@
 ##  Açıklama Satırları
 Açıklama satırları CSS kodu yazarken aralara kendimiz ve diğer yazılımcılar için notlar bırakmamızı sağlar. Açıklama satırlarının önemi kodda güncelleme yapılacığı vakit anlaşılmaktadır. Örnek olarak 5000 satır css kodunuz olduğu düşünün, kodu yazdıktan 1 yıl sonra değişiklik yapmak istediğimizde nerede ne yazdığınızı hatırlamamız çok zordur. Bunun için açıklama satırlarını okuruz ve bulmak istediğimiz yerleri daha kolay buluruz. Açıklama satırları tarayıcılar tarafından görünmemektedir.
 
-CSS'de açıklama satırı bu şekilde başlar /* ve bu bu şekilde biter */
+CSS'de açıklama satırı bu şekilde başlar /* ve bu şekilde biter */
 
 **Örneğin**
 
