@@ -1,5 +1,7 @@
 # WORLD HAPPINESS REPORT
 
+ ![image](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/data-science-projects/world-happines-report/figures/10057474-green-happy-world-and-kids-holding-hands-peace-symbol-cartoon.jpeg)
+
 **Problem tanımı ve amaç:** Bu veri seti ilk kez 2012 yılında yayınlanan 155 ülkeyi mutluluk seviyelerine göre sıralayan dünya mutluluk raporlarından oluşmaktadır. 
 
 Mutluluk seviyelerini belirlemek için 6 faktör -ekonomik üretim, sosyal destek, yaşam beklentisi, özgürlük, yolsuzluğun olmaması ve cömertlik - göz önüne alınmaktadır. Amaç günümüz dünyasında daha mutlu toplumlar oluşmasına katkı sağlamak için aşağıdaki gibi sorulara cevaplar arayabilmektir. 
