@@ -1,3 +1,5 @@
+# Benim bir Tanıdığım Var Sorunsalı ile Başa Çıkmak
+
 Herkese merhaba,
 
 Sen bu işe 20 lira dedin ama benim bir tanıdığım var bu işi 5 liraya yapıyor sorunsalı :) 
