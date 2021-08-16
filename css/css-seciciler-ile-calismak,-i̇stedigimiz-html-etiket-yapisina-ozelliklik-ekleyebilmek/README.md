@@ -212,9 +212,9 @@ a[href*="https"][href$="com"] {
 ```
 
 ```html
-<a href="https://www.google.com/"></a>
-<a href="https://reactjs.org/"></a>
-<a href="https://css-tricks.com/"></a>
+<a href="https://www.google.com/"> Google</a>
+<a href="https://reactjs.org/">React.js</a>
+<a href="https://css-tricks.com/">Css Tricks</a>
 ```
 Burada `https` ile başlayan ve sonunda `com` olan `a` etiketlerine eriştik.
 
