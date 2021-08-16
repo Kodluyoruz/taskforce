@@ -1,4 +1,4 @@
-#Freelance ve Remote Çalışma İş Süreçleri Eğitimi
+# Freelance ve Remote Çalışma İş Süreçleri Eğitimi
 Herkese merhaba,
 
 Kodluyoruz’un daha önce CERN’de çalışmış ve şimdi Kanada’da bir şirket sahibi Gökhan Kandemir ile birlikte hazırladığı Freelance ve Remote Çalışma İş Süreçleri Eğitimi’ne hoşgeldiniz! Bu eğitimi destekledikleri için World Food Programme ve Konrad Adenauer Foundation’a teşekkürler!
