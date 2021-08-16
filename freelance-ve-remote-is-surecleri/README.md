@@ -8,7 +8,7 @@
 - [İlk İşi Almanın Yolları Nelerdir Nasıl İlk İşi Alabilirim](ilk-isi-almanin-yollari-nelerdir-nasil-ilk-isi-alabilirim)
 - [Bir Ürünü Nasıl Anlarım Ürünü Anlama Yolları](bir-urunu-nasil-anlarim-urunu-anlama-yollari)
 - [Hayat Kurtaran Bir Belge Gereksinim Dokümanı ](hayat-kurtaran-bir-belge-gereksinim-dokumani-)
-- [Tasarım Konusunun Netleştirilmesi](tasarim-konusunun-netlestirilmesi)
+- [Tasarım Konusunun Netleştirilmesi](tasarim-konusunun-netlestirilmesi klasör)
 - [Gelir Modeli Olarak Uzun Vadede Ürün ve Ücretli Servisler ](gelir-modeli-olarak-uzun-vadede-urun-ve-ucretli-servisler-)
 - [Gereksinim Dokümanı İle İlgili Hikaye ](gereksinim-dokumani-ile-ilgili-hikaye-)
 - [Örnek Gereksinim Dokümanı İncelemesi](ornek-gereksinim-dokumani-incelemesi-)
