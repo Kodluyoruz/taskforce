@@ -11,7 +11,7 @@
 - [Tasarım Konusunun Netleştirilmesi](tasarim-konusunun-netlestirilmesi)
 - [Gelir Modeli Olarak Uzun Vadede Ürün ve Ücretli Servisler ](gelir-modeli-olarak-uzun-vadede-urun-ve-ucretli-servisler-)
 - [Gereksinim Dokümanı İle İlgili Hikaye ](gereksinim-dokumani-ile-ilgili-hikaye-)
-- [Örnek Gereksinim Dokümanı İncelemesi ](ornek-gereksinim-dokumani-incelemesi-)
+- [Örnek Gereksinim Dokümanı İncelemesi](ornek-gereksinim-dokumani-incelemesi-)
 - [Teklif Formu Nedir Nasıl Olmalıdır](teklif-formu-nedir-nasil-olmalidir)
 - [Örnek Teklif Formu İncelemesi ](ornek-teklif-formu-incelemesi-)
 - [Bir İşin Bütçesi Nasıl Hesaplanır](bir-isin-butcesi-nasil-hesaplanir)
