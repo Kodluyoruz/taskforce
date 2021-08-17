@@ -23,13 +23,4 @@
 
 - [Terminal Kullanımı](terminal-kullanimi/)
 
-- [MultiCursor (Çoklu İmleç) Kullanımı](vs-coklu-imlec)
-
-- [Klavye ile Çalışmak / Klavye Kısayol Tuşları](vs-klavye-kisayollari/)
-
-- [Snippets Kullanımı](vs-snippets-kullanimi/)
-
-- [Ayarların Kişiselleştirilmesi](vs-ayarlarin-kisisellestirilmesi/)
-
-- [Diğer Kod Editörleri](diger-kod-editorleri/)
 
