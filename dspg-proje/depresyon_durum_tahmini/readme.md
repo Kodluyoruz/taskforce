@@ -1,5 +1,7 @@
 # 2.Depresyon Durumu Tahmini 
 
+![image](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/dspg-proje/depresyon_durum_tahmini/Figures/650x350_depression_overview_slideshow.webp)
+
 **Problem tanımı ve amaç:** Veri seti, kontrol grubu hastalarının ve ‘condition’ grubu hastalarının verileri olmak üzere iki klasör içermektedir. Klasörler, her hasta için zaman içinde toplanan aktigraf verileri içeren ayrı bir csv dosyası içermektedir. Hastaların bu bilgilerine dayanarak depresyon durumunu otomatik olarak tahmin etmeyi amaçlamaktadır.  Yapılacak bir app'te kişilerin karşısına çıkan sorulara verdiklere cevaplara bağlı olarak depresyon teşhisi koyulabilir. 
 
 
