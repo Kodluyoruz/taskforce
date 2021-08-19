@@ -1,5 +1,7 @@
 # Binaların Enerji Verimliliği
 
+![image](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/dspg-proje/binalar%C4%B1n_enerji_verimliligi/Figures/using-big-data-for-clean-energy.jpeg)
+
 Evet proje zamanı !
 
 Burda sizin ile paylaştığımız veri setleri ile çeşitli toplumsal,ekolojik ve çevre sorunlarının inclendiği projeler yapmaya başlayacaksınız. Bu sayede yapılan projeler ile şahane çözümler geliştirebilirsiniz!
