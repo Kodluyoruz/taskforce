@@ -1,17 +1,22 @@
 # Ödev 1
 
-## İlk Web Sayfamızı Oluşturmak
-Eveet harika konular öğrendikten sonra sıra geldi ödevimize. Bu ödevimizde ilk web sayfamızı tasarlayacağız. Çok heyecanlı değil mi? Sizlerden istediğimiz çok basit bir şekilde öğrendiklerinizle bir web sayfası tasarlamanız.
+## Bootstrap Özelliklerini Kullanarak Yaptığımız Siteyi Geliştirelim
 
-- Siteyi açtığımızda adınız ve soyadınızı **başlık** şeklinde göstermeniz gerekiyor.
-- Ad-Soyadın altında alt başlık olarak **Hakkımda** yazmalıdır.
-- Altına paragraf içerisinde neler yaptığınızı ve nelerden hoşlandığınızı yazabilirsiniz.
-- Web sitenizi kaydederken dosya adı olarak **'index.html'** seçmeniz gerekmektedir.
-- Yazdığınız kodları açıklayan **yorum satırları** eklemeyi unutmayın.
+Hatırlar mısınız CSS'in ilk ödevinde boynu bükük bir site yapmıştık. Bu site CSS'in özelliklerini kullanan bir müzik aleti satış sitesiydi. Bu siteyi **Bootstrap** ile tekrar tasarlayacağız.
 
-![First Web Page](https://github.com/Kodluyoruz/taskforce/raw/main/html/odev1/figures/firstwebpage.png)
-Yaptığınız sayfa üstteki gibi bir yapıda olabilir.
+### Sizden Beklediklerimiz
+- HTML kısmını önceki ödevden alabilirsiniz fakat baştan yapmanızı öneririz.
+- Menüyü koyu renkli olarak düzenleyin. İsterseniz arka plan rengi de verebilirsiniz.
+- Ana sayfaya bir **jumbotron** koyup içeriğinizin açıklamasını yazınız.
+- Arka plan rengini `#E9ECEF` ile değiştirin.
+- Ürünlerimiz sayfasında **card** yapısını kullanın.
+- Kullandığınız **card** yapısını **grid** sistemin içinde kullanın.
+- Ürün card boyutlarının **tamamen aynı** olduğuna dikkat edin.
+- Hakkımızda sayfasını da bir **card** yapısı içine alın.
+- [Bootstrap Dökümantasyonu](https://getbootstrap.com/docs/4.5/getting-started/introduction/)'nu iyi inceleyip farklı elementleri denemeye çalışın.
 
-Bunun haricinde bolca deneme yapmayı, yanlışlar yapıp bunları düzeltmekten çekinmeyin. Unutmayın, doğrular yanlışlar yapılarak bulunur.
+![bootstrap](https://github.com/Kodluyoruz/taskforce/blob/bootstrap/bootstrap/odev1/figures/bootstrap.gif?raw=true)
+
+Tebrikler, Bootstrap ile ilk sitenizi oluşturdunuz.
 
 Hepinize başarılar ve kolay gelsin!
