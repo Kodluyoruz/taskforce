@@ -1,4 +1,4 @@
-# Jr. Frontend 101
+# Jr. Frontend
 
 #### Jr. Frontend 101 ####
 - [Yazılım, Kodlama, Internet Konseptleri 1](yazilim-internet-kodlama-1/)
