@@ -1,5 +1,5 @@
 # 3.Elma Ağaçlarındaki Yaprak Hastalıklarının Belirlenmesi
-
+![image](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/dspg-proje/elma_agaclar%C4%B1ndaki_yaprak_hastal%C4%B1klar%C4%B1n%C4%B1n_belirlenmesi/Figures/Fire-Blight.webp)
 
 **Problem tanımı ve amaç:** Tarımsal ürünleri etkileyen birçok hastalığın yanlış teşhisi, kimyasalların yanlış kullanımına yol açarak dirençli patojen türlerin ortaya çıkmasına neden olur. Bu durum da maalesef önemli ekonomik kayıplara ve çevresel negatif etkilere sahip daha fazla salgına yol açabilir. 
 
