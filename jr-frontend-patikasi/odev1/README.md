@@ -1,22 +1,23 @@
 # Ödev 1
 
-## Bootstrap Özelliklerini Kullanarak Yaptığımız Siteyi Geliştirelim
+## Javascript Saat ve Karşılama
 
-Hatırlar mısınız CSS'in ilk ödevinde boynu bükük bir site yapmıştık. Bu site CSS'in özelliklerini kullanan bir müzik aleti satış sitesiydi. Bu siteyi **Bootstrap** ile tekrar tasarlayacağız.
+Eveet geldik Javascript'in ilk ödevine, öyle heyecanlıyız ki çocuklar gibi şen ve neşeli, gözlerimizi dört açtık içimizde kelebekler ben annemi çok seviyorum yaşasın 23 Nisan! Neyse bu kadar pıtırcıklık yeter, hadi işe koyulalım. Sizlerden aşağıda gösterdiğimiz gibi bir ekran yapmanızı istiyoruz. Projeyi canlı olarak incelemek için [buraya](http://cengizcmataraci.me/javascriptclock/), proje dosyalarına erişmek için [buraya](https://github.com/Kodluyoruz/taskforce/tree/javascript/javascript/javascript-temel/odev1/javascriptclock) tıklayınız.
 
-### Sizden Beklediklerimiz
-- HTML kısmını önceki ödevden alabilirsiniz fakat baştan yapmanızı öneririz.
-- Menüyü koyu renkli olarak düzenleyin. İsterseniz arka plan rengi de verebilirsiniz.
-- Ana sayfaya bir **jumbotron** koyup içeriğinizin açıklamasını yazınız.
-- Arka plan rengini `#E9ECEF` ile değiştirin.
-- Ürünlerimiz sayfasında **card** yapısını kullanın.
-- Kullandığınız **card** yapısını **grid** sistemin içinde kullanın.
-- Ürün card boyutlarının **tamamen aynı** olduğuna dikkat edin.
-- Hakkımızda sayfasını da bir **card** yapısı içine alın.
-- [Bootstrap Dökümantasyonu](https://getbootstrap.com/docs/4.5/getting-started/introduction/)'nu iyi inceleyip farklı elementleri denemeye çalışın.
+![clock](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/odev1/figures/clock.gif)
 
-![bootstrap](https://github.com/Kodluyoruz/taskforce/blob/bootstrap/bootstrap/odev1/figures/bootstrap.gif?raw=true)
+Basitçe sizden girişte isminizi isteyip sonra bu ismi karşılama ekranına yerleştirerek o anki saati ve günü gösteren bir ekran. Yapması oldukça kolay ve zevkli!
 
-Tebrikler, Bootstrap ile ilk sitenizi oluşturdunuz.
+- Yazacağınız Javascript dosyasında **Date** methodunu kullanacaksınız. Detaylı bilgi için [tıklayınız](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date).
 
-Hepinize başarılar ve kolay gelsin!
+- Gün olarak aldığınız değeri ```string``` olarak göstermeniz gerekmektedir. (**İpucu**: 1 = Pazartesi)
+
+- Eğer saat, dakika ya da saniye 10'dan küçükse başına 0'ı koymalısınız.
+
+- Her 1 saniyede bir yenilenmelidir.
+
+- Kullanıcıdan alınan ad direkt olarak ekrana yazılmalıdır.
+
+Burada bizim verdiğimiz ile sınırlı kalmak zorunda değilsiniz, hatta hayalgücünüzü çalıştırarak yeni şeyler üretirseniz daha mutlu oluruz!
+
+Hepinize başarılar ve kolay gelsin.
