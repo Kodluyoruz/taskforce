@@ -12,7 +12,8 @@
 - [Eklentiler](vs-eklentiler)
 - [Panellerin Yönetimi, Dosyalar ile Çalışmak](vs-panellerinyonetimi)
 - [Terminal Kullanımı](terminal-kullanimi/)
-- 
+
+
 #### Jr. Frontend 102 ####
 
 - [GIT Kurulumu](git-kurulumu/)
