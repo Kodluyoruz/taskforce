@@ -53,5 +53,4 @@
 - [CSS ile Class ve ID Kullanımı](css-ile-class-ve-id-kullanimi/)
 - [Ödev 1](odev1/)
 
-#### Jr. Frontend 103 ####
 
