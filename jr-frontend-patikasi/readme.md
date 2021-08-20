@@ -25,7 +25,7 @@
 - [GIT - Proje İçindeki Birden Fazla Dosyanın Versiyon Kontrol Sistemine Eklenebilmesi](git-proje-i̇cindeki-birden-fazla-dosyanin-versiyon-kontrol-sistemine-eklenebilmesi/)
 - [GitHub'a Projemizin Eklenmesi ve Diğer Repo Hosting Web Platformları](githuba-projemizin-eklenmesi-ve-diger-repo-hosting-web-platformlari/)
 - [Markdown Nedir ? Nasıl Kullanırız ?](markdown-nedir-nasil-kullaniriz-/)
-- [Ödev 1](odev1/)
+- [Ödev 1](git-odev1/)
 - [HTML Kullanılacak Tüm Dökümanlar](kullanilacak-tum-dokumanlar/)
 - [HTML Nedir](html-nedir/)
 - [En Çok Kullanılan HTML Etiketleri Nelerdir](en-cok-kullanilan-html-etiketleri-nelerdir/)
