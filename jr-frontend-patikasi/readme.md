@@ -39,14 +39,14 @@
 - [Görsellerle Çalışmak](gorsellerle-calismak/)
 - [Linklerle Çalışmak](linklerle-calismak/)
 - [Blok Elemenler ve Inline Elementlerle Çalışmak](blok-elemenler-ve-inline-elementlerle-calismak/)
-- [Ödev 2](odev2/)
+
 - [HTML Etiketlerine Ekstra Özellikler Eklemek](etiketlerine-ekstra-ozellikler-eklemek/)
 - [İskeletinin Genel Yapısını Anlamak](i̇skeletinin-genel-yapisini-anlamak/)
 - [Semantic(Anlamlandırılmış) HTML Etiketleri Kullanımı](semanticanlamlandirilmis-html-etiketleri-kullanimi/)
 - [Diğer HTML Etiketleri Hakkında](diger-html-etiketleri-hakkinda/)
 - [Bölüm Sonu Çalışması](bolum-sonu1/)
 - [Bölüm Sonu Çalışması 2](bolum-sonu2/)
-- [Ödev 3](odev3/)
+
 - [CSS Nedir?](css-nedir/)
 - [CSS - Inline CSS Nasıl Kullanılır](css-inline-css-nasil-kullanilir/)
 - [Inline(Etikete Özel), Internal(Aynı Dosyada) ve External(CSS Dosyasında) CSS Kullanımı](inlineetikete-ozel,-internalayni-dosyada-ve-externalcss-dosyasinda-css-kullanimi/)
