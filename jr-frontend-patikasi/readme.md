@@ -33,6 +33,7 @@
 - [VS Code ile Çalışmak ve İlk HTML Sayfasının Web Tarayıcıda Gösterilmesi](vs-code-ile-calismak-ve-i̇lk-html-sayfasinin-web-tarayicida-gosterilmesi/)
 - [Açıklama Satırları Oluşturmak](aciklama-satirlari-olusturmak/)
 - [Başlıklar ve Paragraflarla Çalışmak](basliklar-ve-paragraflarla-calismak/)
+- [Html Ödev 1](html-odev1/)
 - [Listelerle Çalışmak](listelerle-calismak/)
 - [Emmet ile Daha Hızlı HTML Yapıları Oluşturmak](emmet-ile-daha-hizli-html-yapilari-olusturmak/)
 - [Görsellerle Çalışmak](gorsellerle-calismak/)
