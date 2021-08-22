@@ -135,7 +135,7 @@ veya
 const inputs = document.querySelector('#signup').querySelectorAll('input');
 ```
 Sonrasında oluşturduğumuz `inputs ` değişkenine **Console** üzerinden ulaşabilirsiniz.
-![Console inputs](figures/console_inputs.png)
+![Console inputs](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/dom-icerisinden-etiket-ve-id-ile-oge-secimi/figures/console_inputs.png)
 
 ### Alıştırmalar
 Bu konu ile ilgili alıştırma yapmak isterseniz aşağıda sizinle paylaştığımız codepen editör üzerinde değişiklikler yapabilirsiniz.
