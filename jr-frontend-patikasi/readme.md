@@ -70,7 +70,7 @@
 - [Bootstrap - Offset Kullanımı](bootstrap-offset-kullanimi/)
 - [Bootstrap Sıralama Özellikleri Kullanarak Responsive Yapıya Göre Tepkilerin Düzenlenmesi](bootstrap-siralama-ozellikleri-kullanarak-responsive-yapiya-gore-tepkilerin-duzenlenmesi/)
 - [Bootstrap Bileşenlerine(UI Components) Genel Bakış](bootstrap-bilesenlerineui-components-genel-bakis/)
-- [Ödev 2](odev2/)
+- [Ödev 2](bootstrap-odev2/)
 
 
 - [Kullanılacak Tüm Dökümanlar](kullanilacak-tum-dokumanlar/)
