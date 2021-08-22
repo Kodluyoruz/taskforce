@@ -63,7 +63,7 @@
 - [Bootstrap - Genel Tutucu(Container), Satır Blokları(Row) ve Kolon(Col) Yapısı](bootstrap-genel-tutucucontainer,-satir-bloklarirow-ve-koloncol-yapisi/)
 - [Bootstrap - Ekran Çözünürlüğü / Cihaz Duyarlı(Responsive) Kolon Yapısı Kullanımları](bootstrap-ekran-cozunurlugu-cihaz-duyarliresponsive-kolon-yapisi-kullanimlari/)
 - [Bootstrap - Satır Blokları (Row) Kullanımı](bootstrap-satir-bloklari-row-kullanimi/)
-- [Ödev 1](odev1/)
+- [Ödev 1](bootstrap-odev1/)
 - [Bootstrap Kullanarak Web Sitesi Nasıl Yapılır (Demo)](bootstrap-kullanarak-web-sitesi-nasil-yapilir-demo/)
 - [Bootstrap Renk Strandartları, Tipografi, Margin ve Padding Kullanımı](bootstrap-renk-strandartlari,-tipgrafi,-margin-ve-padding-kullanimi/)
 - [Display Özellikleri ile Responsive Yapıya Göre İstenilen Blokların Gösterilmesi / Gizlenmesi](display-ozellikleri-ile-responsive-yapiya-gore-i̇stenilen-bloklarin-gosterilmesi-gizlenmesi/)
