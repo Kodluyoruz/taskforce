@@ -97,7 +97,7 @@
 - [Çoklu Koşul Yapısı Kullanımı](coklu-kosul-yapisi-kullanimi/)
 - [Ternary Operatör ( Koşul ? Doğruysa : Yanlışsa) ile If Kullanımı](ternary-operator-kosul-dogruysa-yanlissa-ile-if-kullanimi/)
 - [Koşullarla Çalışmak - Bölüm Sonu Egzersizi](kosullarla-calismak-bolum-sonu-egzersizi/)
-- [Ödev 1](odev1/)
+- [Ödev 1](js-odev1/)
 
 - [Fonksiyon Nedir? Neden Kullanırız?](fonksiyon-nedir-neden-kullaniriz/)
 - [Fonsiyona Parametre (params) ve Geridönüş (return) Eklemek](fonsiyona-parametre-params-ve-geridonus-return-eklemek/)
