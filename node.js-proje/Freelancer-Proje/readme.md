@@ -8,4 +8,4 @@ Proje de modal yapısı da olduğu için bu projeye başladığınızda "PCAT" v
 
 Proje tamamlandıktan sonra PCAT ve SmartEdu projelerinde olduğu gibi, içerikleri kendi GitHUB hesaplarınızda bulundurabilir ve HEROKU ortamına yükleyebilirsiniz.
 
-Templeate Linki: https://startbootstrap.com/theme/freelancer
+Template Linki: https://startbootstrap.com/theme/freelancer
