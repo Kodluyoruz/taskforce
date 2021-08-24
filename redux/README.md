@@ -52,5 +52,4 @@
 - [Bölüm sonu kazanımları](bolum-sonu-kazanimlari-contacts-app/)
 - [Ödev](contactsapp-odev/)
 
-#### Proje ####
-- [Proje-1](redux-odev/)
+
