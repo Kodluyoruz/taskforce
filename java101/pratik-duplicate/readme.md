@@ -38,3 +38,4 @@ public class Main {
 }
 ```
 
+Şimdi sıra sende! Bir sayı dizisindeki tekrar eden çift sayıları berlirten program yazarak GitHub reposunu bizimle paylaşmalısın. Kolay gelsin.
