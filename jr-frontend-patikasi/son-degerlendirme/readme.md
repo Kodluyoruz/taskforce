@@ -5,4 +5,4 @@ Eğitimimizin ilk bölümünün sonuna geldik. Eğitimlerimizi değerlendirebilm
 Katılımınız ve katkınız için şimdiden teşekkürler!
 Kodluyoruz Ekibi
 
-SOn Değerlendirme Formu: https://forms.gle/vZTX1hhaFDMSipqRA
+Son Değerlendirme Formu: https://forms.gle/vZTX1hhaFDMSipqRA
