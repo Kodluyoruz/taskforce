@@ -5,4 +5,5 @@ Eğitimlerimizi değerlendirebilmek için siz katılımcılarımızın değerlen
 Değerlendirme Formu:  https://forms.gle/v82bpbP4F8kMgZnK8
 
 Katılımınız ve katkınız için şimdiden teşekkürler!
+
 Kodluyoruz Ekibi
