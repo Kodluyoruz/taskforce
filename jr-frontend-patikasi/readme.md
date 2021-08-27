@@ -121,6 +121,5 @@
 - [For Döngüsü Kullanımı](for-dongusu-kullanimi/)
 - [Break ve Continue Kullanımı](break-ve-continue-kullanimi/)
 - [While Döngüsü](while-dongusu/)
-
-
 - [Try ve Catch Kullanımı](try-ve-catch-kullanimi/)
+- [Son Değerlendirme](son-degerlendirme)
