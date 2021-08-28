@@ -4,9 +4,13 @@
 - [Php Nedir, Nasıl Çalışır?](giris/php-nedir-ve-nasil-calisir.md)
 - [Php Tarihi](giris/php-tarihi.md)
 
-
 #### [Kurulumlar](kurulumlar/)
 - [Kurulumlar ve Geliştirme Ortamı](kurulumlar/)
+
+#### [Php'ye Başlangıç](phpye-baslangic/)
+- [Php Dosyası Oluşturma](phpye-baslangic/php-dosyasi-olusturma.md)
+- [PhpStorm PHP Interpreter Ayarı](phpye-baslangic/phpstorm-interpreter-ayari.md)
+- [Php Etiketleri, Yazım Kuralları ve Açıklama Satırları](phpye-baslangic/yazim-kurallari.md)
 
 #### [Değişkenler ve Veri Türleri](degiskenler/)
 - [Değişkenler](degiskenler/degiskenler.md)
