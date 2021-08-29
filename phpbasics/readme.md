@@ -37,4 +37,25 @@
 - [Foreach Döngüsü](donguler/foreach-dongusu.md)
 - [While ve Do While Döngüsü](donguler/while-do-while-dongusu.md)
 
+#### [Fonksiyonlar](fonksiyonlar/)
+- [Fonksiyon Tanımlama ve Kullanma](fonksiyonlar/fonksiyon-tanimlama-ve-kullanma.md)
+- [Anonim Fonksiyonlar](fonksiyonlar/anonim-fonksiyonlar.md)
+- [Recursive Fonksiyonlar](fonksiyonlar/recursive-fonksiyonlar.md)
+- [Static Tanımı](fonksiyonlar/static-tanimi.md)
+- [Global Tanımı](fonksiyonlar/global-tanimi.md)
+
+#### [Dizi Fonksiyonları](dizi-fonksiyonlari/)
+- [Dizi Fonksiyonları 1](dizi-fonksiyonlari/dizi-fonksiyonlari-1.md)
+- [Dizi Fonksiyonları 2](dizi-fonksiyonlari/dizi-fonksiyonlari-2.md)
+- [Dizi Fonksiyonları 3](dizi-fonksiyonlari/dizi-fonksiyonlari-3.md)
+- [Dizi Fonksiyonları 4](dizi-fonksiyonlari/dizi-fonksiyonlari-4.md)
+
+#### [String Fonksiyonları](string-fonksiyonlari/)
+
+#### [Form İşlemleri](form-islemleri/)
+- [Post Kullanımı](form-islemleri/post-kullanimi.md)
+- [Get Kullanımı](form-islemleri/get-kullanimi.md)
+- [Request Kullanımı](form-islemleri/request-kullanimi.md)
+
+
 
