@@ -12,6 +12,8 @@
 - [PhpStorm PHP Interpreter Ayarı](phpye-baslangic/phpstorm-interpreter-ayari.md)
 - [Php Etiketleri, Yazım Kuralları ve Açıklama Satırları](phpye-baslangic/yazim-kurallari.md)
 
+#### [HTML içinde PHP kullanımı](html-icinde-php-kullanimi/)
+
 #### [Değişkenler ve Veri Türleri](degiskenler/)
 - [Değişkenler](degiskenler/degiskenler.md)
 - [Sabitler](degiskenler/sabitler.md)
@@ -56,6 +58,12 @@
 - [Post Kullanımı](form-islemleri/post-kullanimi.md)
 - [Get Kullanımı](form-islemleri/get-kullanimi.md)
 - [Request Kullanımı](form-islemleri/request-kullanimi.md)
+- [Ödev](form-islemleri/odev.md)
 
+### [Dosya ve Dizin İşlemleri](dosya-ve-dizin-islemleri/)
+- [Dosya İşlemleri](dosya-ve-dizin-islemleri/dosya-islemleri.md)
+- [Dizin İşlemleri](dosya-ve-dizin-islemleri/dizin-islemleri.md)
+- [Dosya ve Dizin Taşıma](dosya-ve-dizin-islemleri/dosya-ve-dizin-tasima.md)
+- [Dosya ve Dizin Taşıma](dosya-ve-dizin-islemleri/dosya-ve-dizin-yeniden-isimlendirme.md)
 
 
