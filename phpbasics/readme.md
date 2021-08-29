@@ -23,3 +23,18 @@
 - [Artırma ve Azaltma Operatörleri](operatorler/artirme-ve-azaltma-operatorleri.md)
 - [Birleştirme ve Atama Operatörleri](operatorler/birlestirme-ve-atama-operatorleri.md)
 - [Mantıksal Operatörler](operatorler/mantiksal-operatorler.md)
+
+#### [Koşullu İfadeler](kosullu-ifadeler/)
+- [IF-ELSE-ELSEIF Kullanımı](kosullu-ifadeler/if-else-elseif-kullanimi.md)
+- [Switch-Case Kullanımı](kosullu-ifadeler/switch-case.md)
+
+#### [Diziler](diziler/)
+- [Tek Boyutlu Diziler](diziler/tek-boyutlu-diziler.md)
+- [Çok Boyutlu Diziler](diziler/cok-boyutlu-diziler.md)
+
+#### [Döngüler](donguler/)
+- [For Döngüsü](donguler/for-dongusu.md)
+- [Foreach Döngüsü](donguler/foreach-dongusu.md)
+- [While ve Do While Döngüsü](donguler/while-do-while-dongusu.md)
+
+
