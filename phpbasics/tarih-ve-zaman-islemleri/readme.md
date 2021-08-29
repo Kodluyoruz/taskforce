@@ -1,0 +1,1 @@
+# tarih zaman işlemleri

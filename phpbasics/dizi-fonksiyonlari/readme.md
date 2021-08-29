@@ -1,0 +1,1 @@
+# Dizi Fonksiyonları Readme

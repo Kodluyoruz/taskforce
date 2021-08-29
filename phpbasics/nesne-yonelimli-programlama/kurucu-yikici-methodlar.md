@@ -1,0 +1,1 @@
+# kurucu yıkıcı methodlar
