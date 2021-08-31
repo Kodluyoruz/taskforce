@@ -64,7 +64,8 @@
 - [Dosya İşlemleri](dosya-ve-dizin-islemleri/dosya-islemleri.md)
 - [Dizin İşlemleri](dosya-ve-dizin-islemleri/dizin-islemleri.md)
 - [Dosya ve Dizin Taşıma](dosya-ve-dizin-islemleri/dosya-ve-dizin-tasima.md)
-- [Dosya ve Dizin Taşıma](dosya-ve-dizin-islemleri/dosya-ve-dizin-yeniden-isimlendirme.md)
+- [Dosya ve Dizin İsimlendirme](dosya-ve-dizin-islemleri/dosya-ve-dizin-yeniden-isimlendirme.md)
+- [Dosya Dahil Etme](dosya-ve-dizin-islemleri/dosya-dahil-etme.md)
 
 
 ### [Oturum ve Çerez Yönetimi](cerez-ve-oturum-yonetimi/)
