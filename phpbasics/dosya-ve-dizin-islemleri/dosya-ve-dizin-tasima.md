@@ -1,1 +1,0 @@
-# Dosya ve Dizin Taşıma

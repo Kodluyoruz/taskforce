@@ -1,1 +1,0 @@
-# Dosya Dizin Yeniden İsimlendirme

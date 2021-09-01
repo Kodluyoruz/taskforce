@@ -23,9 +23,10 @@ if ($sonuc){
 }
 ```
 
-#####PHP Dosya Açma, Okuma, Yazma
 
-fopen bir dosyayı açmamıza olanak tanır, ilk parametre açılacak dosya ikinci paramerte ise ne amaçla açtığımızı bildiren kipi içerir.
+##### Dosya Açma
+
+``fopen`` bir dosyayı açmamıza olanak tanır, ilk parametre açılacak dosya ikinci paramerte ise ne amaçla açtığımızı bildiren kipi içerir.
 
 ````fopen($dosya, $kip);````
 
@@ -45,11 +46,16 @@ $file = fopen('dosyalar/test.txt','w+');
 
 ````test.txt````  dosyasını okunmak ve içerisine veri yazmak için fopen fonksiyonu ile açıyoruz ve dosyayı belirten değer ````$file```` değişkenine aktarılıyor.
 
+##### Dosya Kapatma
+
 Dosyanın kapanması için ````fclose```` fonksiyonu kullanılır.
 
 ````
 fclose($file)
 ````
+
+##### Dosya Okuma
+
 ````fgets()```` fonksiyonu ile dosyayı satır satır okuyabiliriz.
 
 ```
@@ -74,10 +80,10 @@ $oku = fread($file, $size);
 fclose($file);
 echo $oku;
 ```
+##### Dosya Yazma
 
 ````fwrite```` ve ````fputs```` fonksiyonları ile dosyaya yazma işlemi gerçekleştirilir. 
 
-3 parametre ile kullanılır. 
 
 İlk parametre fopen fonksiyonu ile açılan dosyayı belirten değişken değeri, ikinci parametre dosyaya eklenecek veridir.
 
@@ -99,7 +105,18 @@ while(!feof($file)){
 	echo fgets($file);
 }
 ```
+##### Dosya Yazma 2. Yöntem
 
+file_put_contents()
+
+İlk parametre verinin ekleneceği dosya, ikinci parametre eklenecek veri, üçüncü parametre ise veri ekleme işleminin türünü belirten değer. Üçüncü parametrenin kullanılması zorunlu değildir. Üçüncü parametreye FILE_APPEND değeri tanımlanır ise dosyaya veri eklenirken dosyadaki verinin tamamen yeni veri ile değişmesini istemeyip, varolan verinin sonrasına eklenmesini istemiş oluyoruz.
+
+```
+$sonuc = file_put_contents('dosyalar/metin.txt', 'icerik',FILE_APPEND);
+echo $sonuc; //çıktı: 6
+```
+
+##### Varlık Kontrolü
 ``file_exists()`` Dosya ve dizin fonksiyonlarından birisi olan file_exists fonksiyonu ile PHP’de dosya veya dizin varlığını kontrol eder.
 
 ```
@@ -126,22 +143,4 @@ if ($dosya){
 }
 ```
 
-```rename()``` ile dosya yeniden isimlendirme ve taşıma işlemlerini yapıyoruz.
-**İsim Değiştirme**
-```
-$sonuc = rename('test.txt','test2.txt');
-if ($sonuc){
-    echo 'Dosya başarıyla tekrar isimlendirildi.';
-}else{
-    echo 'Bir hata oluştu';
-}
-```
-**Taşıma**
-```
-$sonuc = rename('test.txt','yeni/test2.txt');
-if ($sonuc){
-    echo 'Dosya başarıyla tekrar isimlendirildi.';
-}else{
-    echo 'Bir hata oluştu';
-}
-```
+
