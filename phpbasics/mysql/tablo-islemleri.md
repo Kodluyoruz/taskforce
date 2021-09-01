@@ -1,1 +1,0 @@
-# tablo islemleri

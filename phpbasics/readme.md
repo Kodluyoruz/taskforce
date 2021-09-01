@@ -92,8 +92,8 @@
 
 ### [MySQL](mysql/)
 - [Mysql'e Giriş](mysql/mysql-giris.md)
-- [Tablo İşlemleri](mysql/tablo-islemleri.md)
-- [Veri Ekleme/Silme/Listeleme/Güncelleme](mysql/mysql-crud.md)
+- [Veri Tipleri ve Tablo İşlemleri](mysql/veri-tipleri-ve-tablo-islemleri.md)
+- [SELECT, Veri Ekleme/Silme/Listeleme/Güncelleme](mysql/mysql-select-ve-crud.md)
 - [Koşullama/Limit/Sıralama](mysql/where-limit-order.md)
 - [Verilerde Arama](mysql/like.md)
 - [MIN, MAX, COUNT ve HAVING Kullanımı](mysql/min-max-count-having.md)
