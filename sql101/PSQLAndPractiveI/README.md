@@ -28,7 +28,7 @@ postgres=#
 ```
 6. Herhangi bir tablonun sütunlarını ve tablo detaylarını görmek için:
 ```
-\dt <tablo_adı>
+\d <tablo_adı>
 ```
 
 ### Örnek Sorgu Senaryoları
