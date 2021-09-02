@@ -64,16 +64,16 @@
 - ### [Model Validasyonu - Ödev](2-model-validasyonu-odev)
 - ### [Model Validasyonu - Ödev Çözümü](3-model-validasyonu-odev-cozum)
 
+#### Middleware Kavramı ####
+- ### [Middleware Kavramı](1-middleware-nedir/)
+- ### [Custom Exception Middleware Yaratılmak](2-projeye-mw-eklenmesi/)
+
 #### Dependency Injection ####
 - ### [Dependency Nedir ?](1-dependency-nedir/)
 - ### [Dependency Injection (DI) Kavramı](2-dependency-injection-kavrami/)
 - ### [DI Container Kavramı](3-di-container/)
 - ### [.NET Core DI Container (Services)](4-net-core-di-container/)
 - ### [Projeye DI Container Kullanarak Logger Servis Eklemek](5-di-container-ile-logger-service-eklemek)
-
-#### Middleware Kavramı ####
-- ### [Middleware Kavramı](1-middleware-nedir/)
-- ### [Custom Exception Middleware Yaratılmak](2-projeye-mw-eklenmesi/)
 
 #### Projeye Genre Controller ve Servislerin Eklenmesi ####
 ### [Pratik - Projeye Genre Controller ve Servislerin Eklenmesi](15-genre-controller-eklenmesi)
