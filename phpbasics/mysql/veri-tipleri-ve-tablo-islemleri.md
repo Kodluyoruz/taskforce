@@ -27,6 +27,7 @@
 - TIME : Sadece saat verisi saklamak için kullanılır. Desteklenen aralık  ‘-838:59:59’ ile ‘838:59:59’ arasındadır. MySQL TIME değerlerini ‘HH:MM:SS’ biçiminde gösterir.
 - YEAR: 2 veya 4 basamaklı yıl bilgisini saklamak için kullanılır. Dört basamaklı verilerde 1901 ile 2155 arası değer saklanır. İki basamaklı verilerde ise 70 ile 69 (1970 ile 2069) arası değerler saklanır.
 
+[Daha Fazla Bilgi Alın](https://dev.mysql.com/doc/refman/8.0/en/storage-requirements.html)
 
 
 ### Tablo İşlemleri
@@ -190,31 +191,3 @@ ALTER TABLE test
     CHARACTER SET utf8 COLLATE utf8_turkish_ci 
     NULL DEFAULT 'isimsiz_kisi';
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

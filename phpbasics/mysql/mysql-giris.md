@@ -6,7 +6,9 @@
 
 ##### Mysql'e Bağlanma(Terminal)
 
-``mysql -u USERNAME -p PASSWORD``
+```
+mysql -u USERNAME -p PASSWORD
+```
 
 ##### Açıklama Satırı
 
@@ -16,28 +18,42 @@
 
 ##### DB Oluşturma
 
-``CREATE DATABASE db_name;``
+```
+CREATE DATABASE db_name;
+```
 
 ##### DB'leri Listeleme
 
-``SHOW DATABASES;``
+```
+SHOW DATABASES;
+```
 
 ##### DB Silme
 
-``DROP DATABASE db_name;``
+```
+DROP DATABASE db_name;
+```
 
 ##### DB Güncelleme
 
-``ALTER DATABASE db_name;``
+```
+ALTER DATABASE db_name;
+```
 
 ##### DB Seçmek
 
-``USE db_name;``
+```
+USE db_name;
+```
 
 ##### DB Charset Belirleme
 
-``CREATE DATABASE db_name CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;``
+```
+CREATE DATABASE db_name CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+```
 
 ##### DB Charset Güncelleme
 
-``ALTER DATABASE db_name CHARACTER SET utf8 COLLATE utf8_general_ci;``
+```
+ALTER DATABASE db_name CHARACTER SET utf8 COLLATE utf8_general_ci;
+```
