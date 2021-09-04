@@ -40,6 +40,7 @@ Sizler için HTML yapısını ve basit CSS'i hazırladık. Sizlerden istediğimi
 - Tasarımı mümkün olduğunca benzetmeniz gerekmekte. Buttonların, arama kısmının çalışmaması önemli değil.
 
 - Kod yazarken yorum satırları kullanmaya özen gösteriniz.
+- ödevin indirilebilir içeriklerine [buradan](https://drive.google.com/drive/folders/1Judez8Dqey-BHDjxZ1PnUwGhIMERNkbV?usp=sharing) ulaşabilirsiniz.
 
 ![Google Homepage](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/odev2/figures/googlehomepage.png)
 
