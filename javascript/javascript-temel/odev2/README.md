@@ -6,7 +6,7 @@ Günlük hayatta yapacağımız işleri aklımızda tutmak oldukça zor oluyor d
 
 Projeyi canlı olarak [buradan](https://cengizcmataraci.me/javascripttodolist/) inceleyebilirsiniz.
 
-Proje temel dosyalarına [buradan](https://github.com/Kodluyoruz/taskforce/tree/main/javascript/javascript-temel/odev2/todolist) erişebilirsiniz.
+Proje temel dosyalarına [buradan](https://drive.google.com/drive/folders/1SCIJiYWLpMh-LX_yG2PfB8QXXREa9hqx?usp=sharing) erişebilirsiniz.
 
 ![todolist](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/odev2/figures/todolist.gif)
 
