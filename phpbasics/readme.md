@@ -45,6 +45,7 @@
 - [Recursive Fonksiyonlar](fonksiyonlar/recursive-fonksiyonlar.md)
 - [Static Tanımı](fonksiyonlar/static-tanimi.md)
 - [Global Tanımı](fonksiyonlar/global-tanimi.md)
+- [Ödev](fonksiyonlar/odev.md)
 
 ### [Dizi Fonksiyonları](dizi-fonksiyonlari/)
 - [Dizi Fonksiyonları 1](dizi-fonksiyonlari/dizi-fonksiyonlari-1.md)
