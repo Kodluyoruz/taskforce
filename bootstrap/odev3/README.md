@@ -10,7 +10,7 @@ Yine bir vicdansızlık yaparak size temel olarak vereceğimiz projeyi şuna dö
 
 ![garibanlinkedin](https://github.com/Kodluyoruz/taskforce/raw/main/bootstrap/odev3/figures/garibanlinkedin.gif)
 
-Temel dosyalara [şuradan](https://github.com/Kodluyoruz/taskforce/tree/main/bootstrap/odev3/bootstraplinkedinclone) ulaşabilirsiniz.
+Temel dosyalara [şuradan](https://drive.google.com/drive/folders/1lfKEULLlx_4jUti8sL2WaZQVz6P5F5hc?usp=sharing) ulaşabilirsiniz.
 
 - Navbar yukarıya sabitlenmemiş durumda ve kenarlığı yok. Bunları düzeltiniz.
 - Logoya soldan boşluk ayarlayınız.
