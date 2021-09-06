@@ -357,6 +357,24 @@ echo f(3) * f(2);
    - exec
    - prepare
 
+2. Aşağıdaki işlem ne ne yapılmak istenmiştir?
+````php 
+   $sql = "SELECT a.id,a.title, b.date, b.image FROM a 
+        LEFT JOIN b ptc on a.id = b.id_id";
+
+   $query = $db->query($sql);
+
+   if ( $query->rowCount() ){
+       print_r($query->fetchAll(PDO::FETCH_ASSOC));
+   }
+````
+
+- a tablosu ile b tablosu arasında gruplama yapılmıştır. (Doğru)
+- a tablosundan id ve title istenmiştir.
+- b tablosundan date ve image istenmiştir.
+- a tablosunun title değeri yok ise b tablosnun değerleri getirilmez.
+
+
 ## MVC 
 
 1. Kullanıcıların form üzerinden gönderdiği verileri alır ve işler tanımı aşağıdakilerden hangisi için yapılmıştır?
