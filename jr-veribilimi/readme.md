@@ -1,4 +1,4 @@
-
+#
 #### Jr. Veri Bilimi Patikası 101 ####
 
 - [Ön Değerlendirme](vb-on-degerlendirme)
