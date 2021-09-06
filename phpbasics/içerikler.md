@@ -14,13 +14,13 @@
    - Masaüstü uygulamaların yazımı.
    - Bu şıkların tümü. (DOĞRU)
 
-## Php Nedir ve Nasıl Çalışır?
+## Php Etiketleri, Yazım Kuralları ve Açıklama Satırları
 
 1. Aşağıdaki kullanımlardan hangisi yanlıştır.
    - ``<?= "Merhaba dünya" `` (DOĞRU)
    - ``<?= "Merhaba dünya" ?>``
    - ``<?php echo "Merhaba dünya" ?>``
-   - ``<?= "Merhaba dünya"; ``
+   - ``<?php echo "Merhaba dünya"; ``
 
 2. Aşağıdaki açıklama satırı kullanımlardan hangisi yanlıştır.
    - ``<?php /*echo "Merhaba dünya" ?>`` (DOĞRU)
@@ -123,7 +123,7 @@
 - ``Hiç biri çalışmadı.``
 
 
-##Diziler
+## Diziler
 
 1. ``array("Elma","Armut","Erik");`` ifadesi aşağıdaki tanımlardan hangisine denktir.
    - `` array(Elma, Armut, Erik); ``
@@ -133,35 +133,7 @@
    - `` array([Elma, Armut, Erik]); ``
 
 
-
-
 2. Aşağıdaki kodun çıktısı hangisidir?
-```php
-<?php
-    $a = 6;
-    $b = 7;
-    
-    if ($a % 2 == 2) {
-        echo "1. işlem çalıştı.";
-    } elseif ($a < (2 + 1)) {
-        echo "2. işlem çalıştı.";
-    } elseif ($a != $b) {
-        echo "3. işlem çalıştı.";
-    } elseif ($a++ < $b) {
-        echo "4. işlem çalıştı.";
-    } else {
-        echo "Hiç biri çalışmadı.";
-    }
-?>
-```
-- ``3. işlem çalıştı.`` (DOĞRU)
-- ``1. işlem çalıştı.``
-- ``2. işlem çalıştı.``
-- ``4. işlem çalıştı.``
-- ``Hiç biri çalışmadı.``
-
-
-3. Aşağıdaki kodun çıktısı hangisidir?
 ```php
 <?php
 $kisiler = [
@@ -192,14 +164,13 @@ foreach ($kisiler as $value) {
 }
 ?>
 ```
-- ``3. işlem çalıştı.`` (DOĞRU)
-- ``1. işlem çalıştı.``
-- ``2. işlem çalıştı.``
-- ``4. işlem çalıştı.``
-- ``Hiç biri çalışmadı.``
+- BurakEslemSabah (DOĞRU)
+- FatmaBurakEslem
+- ŞahinFatmaBurak
+- SabahEslemBurak
 
 
-##Fonksiyonlar
+## Fonksiyonlar
 
 1. Aşağıdaki ifadelerden hangisi yanlıştır.
    - Anonim fonksiyonlar parametre alamazlar. (DOĞRU)
@@ -278,7 +249,7 @@ echo f(3) * f(2);
    - r+ : Dosyanın içeriğinin he okunabilmesi hem de yazılabilmesinin gerektiğini belirtir.
    - w+ : Dosyaya hem yazma işleminin yapılabilmesi hem de dosya içeriğinin okunabilmesinin gerektiğini belirtir. Dosyanın içeriği silinir ve baştan veri yazma işlemi gerçekleştirilir. Dosya belirtilen adreste yok ise yeniden oluşturulur.
    - x : Dosyanın oluşturulması sağlanır ve oluşturulan dosyanın içerisine veri yazmak için açılması gerektiğini belirtir. Aynı isimde bir dosya belirtilen adreste var ise fopen fonksiyonundan ‘false’ değeri döner.
-   - c : Dosyanın bellir bir satırının sileneceğini söyler.
+   - c : Dosyanın bellir bir satırının sileneceğini söyler.(DOĞRU)
 
 2. ``file_exists()`` fonksiyonu için yapılan tanımlardan hangisi yanlıştır.
    - Dosyaların var olup olmadığını söyler.
@@ -343,7 +314,7 @@ echo f(3) * f(2);
     isim VARCHAR(50),
     soyisim DECIMAL(10,2)
    );
-   ALTER TABLE user ADD COLUMN soyisim VARCHAR(50) AFTER isim;
+   ALTER TABLE users ADD COLUMN soyisim VARCHAR(50) AFTER isim;
 ```
    - Bir database oluşturmuştur. (DOĞRU)
    - users tablosuna yeni sütun eklemiştir.
@@ -355,7 +326,7 @@ echo f(3) * f(2);
 1. Aşağıdaki PDO methodlarından hangisi daha güvenlidir?
    - query
    - exec
-   - prepare
+   - prepare (DOĞRU)
 
 2. Aşağıdaki işlem ne ne yapılmak istenmiştir?
 ````php 
@@ -380,7 +351,7 @@ echo f(3) * f(2);
 1. Kullanıcıların form üzerinden gönderdiği verileri alır ve işler tanımı aşağıdakilerden hangisi için yapılmıştır?
    - Model
    - View
-   - Controller
+   - Controller (DOĞRU)
    - Composer
 
 ## Veri Değişim Formatları
@@ -419,11 +390,11 @@ echo f(3) * f(2);
 
 
 1. Aşağıdakilerden hangisi hata bastırma operatörüdür?
-   - ``#`` Tüm sayılarla eşleşir
-   - ``&`` Tüm sayı olmayan karaterlerle eşleşir.
-   - ``@`` Tüm boşluklarla eşleşir. (DOĞRU)
-   - ``$_E`` Tüm boşluk olmayan karekterlerle eşleşir.
-   - `` \ `` Sadece boşluk sayılarla eşleşir.
+   - ``#`` 
+   - ``&`` 
+   - ``@``  (DOĞRU)
+   - ``$_E`` 
+   - `` \ `` 
 
 2. Aşağıdaki fonksiyonlardan hangisi bize son hatayı döndürür?
    - register_shutdown_function()
@@ -458,9 +429,9 @@ echo f(3) * f(2);
    
 # htaccess
 
-1. Aşağıdaki işlemlerden hangisini .htaccess ile yapamayız?
+1. Aşağıdaki işlemlerden hangisi .htaccess ile yapılabilir?
    - Dosya ve dizinlere erişimi engelleme.
    - IP kontrolü yaparak izinleri kısıtlama.
    - URL yapısını değiştirme.
    - Açılış sayfasını ayarlarlama.
-   - POST verilerini kontrol etme (DOĞRU)
+   - Tümü yapılabilir. (DOĞRU)
