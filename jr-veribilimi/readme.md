@@ -45,7 +45,7 @@
 - [Underscore Placeholder](underscore-placeholder/)
 - [fstring](fstring/)
 
-* [Proje](proje/)
+* [Proje](python-proje/)
 
 #### Jr. Veri Bilimi Patikası 102 ####
 
@@ -67,7 +67,7 @@
 - [Yapay Zekada Bias (Yanlılık)](ai-bias/)
 - [Bias Nasıl Azaltılmaya Çalışılabilir](bias-solution/)
 - [Başkasının Verisini Kullanmak](baska-veri/)
-- [Proje](proje/)
+- [Proje](veribilimi100-proje/)
 
 
 - [Neden Numpy?](neden-numpy/)
@@ -117,5 +117,5 @@
 - [Subsample Yeni Mantık](subsample-2/)
 - [Hyperparameters](hyperparameter/)
 - [Random Feature Selection](random-feature/)
-- [Proje](proje/)
+- [Proje](veribilimi101-proje/)
 
