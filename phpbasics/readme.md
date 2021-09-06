@@ -52,6 +52,7 @@
 - [Dizi Fonksiyonları 2](dizi-fonksiyonlari/dizi-fonksiyonlari-2.md)
 - [Dizi Fonksiyonları 3](dizi-fonksiyonlari/dizi-fonksiyonlari-3.md)
 - [Dizi Fonksiyonları 4](dizi-fonksiyonlari/dizi-fonksiyonlari-4.md)
+- [Ödev](dizi-fonksiyonlari/dizi-odev.md)
 
 ### [String Fonksiyonları](string-fonksiyonlari/)
 
