@@ -1,6 +1,7 @@
 
 #### Jr. Veri Bilimi Patikası 101 ####
 
+- [Ön Değerlendirme](vb-on-degerlendirme)
 -  [Programlama Nedir?](programlama-nedir/)
 -  [Jupyter Notebook](jupyter/)
 -  [Temel Veri Tipleri](temel-veri-tipleri/)
@@ -118,4 +119,4 @@
 - [Hyperparameters](hyperparameter/)
 - [Random Feature Selection](random-feature/)
 - [Proje](veribilimi101-proje/)
-
+- [Son Değerlendirme](vb-son-degerlendirme)
