@@ -435,7 +435,7 @@ olan Compass kurulumu da yapıldı.
 	- remove
 2. Aşağıdakilerden hangisi MongoDB özelliklerinden değildir?
 	- deleteOne
-	- deleteMany (Doğru)
+	- decorator (Doğru)
 	- insertOne
 	- find
 	- insertMany
@@ -694,7 +694,7 @@ dosyası oluşturuldu.
 		
 	- req.body	
 	- req.query
-	- req.params (Doğru)
+	- req.true (Doğru)
 	- req.id	
 	- req.slug
 	
