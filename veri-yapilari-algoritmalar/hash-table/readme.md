@@ -14,13 +14,34 @@ Array'i hatırlayacak olursak her elemanın bir indeksi yani sırası vardı. Ö
 
 1. Gerçek hayattan bir hash table veri yapısı örneği veriniz.
 
-2. Hash table yapısında anahtarları indekslere çeviren fonksiyona ne ad verilir?
-
-   Cevap: Hash function.
-
 3. Hash table yapısında iki farklı anahtar aynı indekse denk gelebilir mi?
 
    Cevap: Evet, denk gelebilir. Örneğin, hash function harflerin ASCII değerlerini topluyorsa "kara" ve "akar" sözcüklerinin indeks değerleri aynı olacaktır.
+   
+3. ````python
+   cumle = "iki kere iki dört eder"
+   ````
+
+   Yukarıdaki "cumle" adlı değişkendeki kelimeleri ve o kelimelerin sayısını bulan bir program yazınız.
+
+   Cevap:
+
+   ````py
+   hash_table = {}
+   kelime_listesi = cumle.split()
+   
+   for kelime in kelime_listesi:
+   	# kelime hash table'da varsa sayısını bir artır
+   	if hash_table[kelime]:
+   		hash_table[kelime] += 1
+   	# kelime hash table'da yoksa kelimeyi sayısı 1 olacak şekilde ekle
+   	else:
+   		hash_table[kelime] = 1
+   		
+   print(hash_table)
+   ````
+
+   
 
 
 
