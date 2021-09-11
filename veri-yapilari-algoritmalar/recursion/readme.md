@@ -33,3 +33,38 @@ Bir problem kendi içinde tekrar ediyorsa bu problem "**recursive**" yani "**öz
 
 
 
+# Ödev 1
+
+Bu ödevde, girilen yazının harflerinin ASCII değerlerini ikili sistemde yazacak bir program yazmanız istenmekte. Örneğin; "BABA" yazısı girildiyse çıktı "1000010 1000001 1000010 1000001" olmalıdır. 
+
+Not: Öncelikle verilen ondalık sayıyı ikili sistem sayısına dönüştüren ve bu sayıyı string olarak dönen bir fonksiyon yazın. Bundan sonra ise verilen yazının harflerinin ASCII değerlerini ikili sistemde yazacak fonksiyonu yazın.
+
+Cevap:
+
+````python
+def decimal_to_binary(x):
+	"""girilen ondalık sayıyı ikili sisteme dönüştürür"""
+	if x == 0:
+		return "0"
+
+	sonuc = ""
+	# bölüm 0 olduğunda dur
+	while x > 0:
+		kalan = x % 2
+		x = x // 2
+		# kalanı sonuca ekle
+		sonuc = str(kalan) + sonuc
+
+	return sonuc
+
+def text_to_binary(yazi):
+	"""girilen yazının harflerini ikili sistemde yazdırır"""
+	for harf in yazi:
+		ascii_deger = ord(harf)
+		ikili_deger = decimal_to_binary(ascii_deger)
+		print(ikili_deger, end=" ")
+
+# örnek kullanım
+text_to_binary("BABA")
+````
+

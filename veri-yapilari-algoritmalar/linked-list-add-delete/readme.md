@@ -36,7 +36,7 @@ Linked list'te, sadece elemanların birbirini işaret ettiği yerlerde değişik
 
    Cevap:
 
-   ````py
+   ````python
    def ters_yazdir(eleman):
    	if eleman.next is None:
    		print(eleman.data)

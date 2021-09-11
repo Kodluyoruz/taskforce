@@ -20,7 +20,7 @@ Hash collision arttıkça hash table'da ekleme, silme, arama işlemleri linked l
 
    Cevap:
 
-   ````py
+   ````python
    def hash_func(anahtar):
    	toplam = 0
    	for harf in anahtar:

@@ -26,7 +26,7 @@ Array'i hatırlayacak olursak her elemanın bir indeksi yani sırası vardı. Ö
 
    Cevap:
 
-   ````py
+   ````python
    hash_table = {}
    kelime_listesi = cumle.split()
    
