@@ -1,4 +1,0 @@
-Nedir?
-======
-
-Deneme içerik
