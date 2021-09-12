@@ -11,4 +11,3 @@ Soru2
 ======
 
 Problemi, aynı problemin daha küçüğü olarak ifade edip bu problemi adım adım küçültüp nerede durduğunu belirtilen yapıya ne denir?
-
