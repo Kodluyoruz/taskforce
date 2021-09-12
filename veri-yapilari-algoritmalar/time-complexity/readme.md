@@ -30,5 +30,5 @@ Time complexity, farklı girdiler için farklı olabilir. Örneğin, isimlerden 
 
 # Ücretsiz Kaynak
 
-
+* [Time complexity](https://tr.ilusionity.com/216-what-is-big-o-notation-explained-space-and-time-complexity) linkine giderek time complexity ve algoritma analizi hakkında bilgi edinebilirsiniz.
 

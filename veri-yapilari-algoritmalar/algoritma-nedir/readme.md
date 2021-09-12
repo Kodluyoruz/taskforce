@@ -24,7 +24,7 @@ Bir algoritmayı görselleştirmek için kullanılan bloklar bütününe **akı�
 
 Akış şemasında bloklar yapılacak işlemleri ve sorulacak soruları, oklar ise bir işlemden hangi işleme geçileceğini gösterir. Örnek bir akış şeması olarak "**bir lambanın çalışmaması**" probleminin çözüm algoritması aşağıda gösterilmiştir:
 
-![](C:\CE\Career\Patika_dev\staj\veri_yapilari_algoritmalar\taskforce\veri-yapilari-algoritmalar\algoritma-nedir\figures\lamba_algoritma.jpg)
+![](https://raw.githubusercontent.com/yigitatesh/Kodluyoruz/main/figures/veri-yapilari-algoritmalar/lamba_algoritma.jpg)
 
 Görüldüğü gibi sorun çözülene kadar farklı işlemler yapılıyor ve sorun çözüldüğünde işlemler bitiriliyor.
 
@@ -61,5 +61,5 @@ Görüldüğü gibi sorun çözülene kadar farklı işlemler yapılıyor ve sor
 
 # Ücretsiz Kaynak
 
-Algoritma hakkında daha çok bilgi edinmek için https://tr.wikipedia.org/wiki/Algoritma sayfasına göz atabilirsiniz.
+* Algoritma hakkında daha çok bilgi edinmek için https://tr.wikipedia.org/wiki/Algoritma sayfasına göz atabilirsiniz.
 

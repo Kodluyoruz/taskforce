@@ -14,7 +14,7 @@ Duruma göre bu kriterlerden bazıları daha önem kazanabilir. Örneğin, bir p
 
 ### Programın çalışma zamanı
 
-Programın çalışma zamanı denilince akla ilk başta programın kaç saniyede çalıştığı gelebilir. Ancak bu göreceli bir ifadedir ve yerine göre çok farklı değerler alabilir. Bir programın kaç saniyede çalıştığı; programlama dilinden programlama diline, bilgisayardan bilgisayara hatta aynı bilgisayarda farklı zamanlarda çalıştırıldığında bile değişiklik gösterebilir. Bu sebeple çalışma zamanı girdi sayısı ile çalışma süresinin ilişkisi incelenerek bulunur. Bu şekilde evrensel bir çalışma zamanı ifadesi elde edilir.
+Programın çalışma zamanı denilince akla ilk başta programın kaç saniyede çalıştığı gelebilir. Ancak bu göreceli bir ifadedir ve yerine göre çok farklı değerler alabilir. Bir programın kaç saniyede çalıştığı; programlama dilinden programlama diline, bilgisayardan bilgisayara hatta aynı bilgisayarda farklı zamanlarda çalıştırıldığında bile değişiklik gösterebilir. Bu sebeple çalışma zamanı **girdi sayısı ile çalışma süresinin ilişkisi** incelenerek bulunur. Bu şekilde **evrensel** bir çalışma zamanı ifadesi elde edilir.
 
 
 

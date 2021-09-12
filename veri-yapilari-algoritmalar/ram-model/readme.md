@@ -32,5 +32,5 @@ RAM'i kullanarak algoritmaları analiz edebileceğiz.
 
 # Ücretsiz Kaynak
 
-
+* [Algoritma analizleri](http://cagataykiziltan.net/programin-calisma-hizi-ve-algoritma-verimliligi/zaman-karmasikligi-ve-buyuk-o-notasyonu-time-complexity-and-big-o-notation/) linkine giderek algoritma analizini inceleyebilirsiniz.
 

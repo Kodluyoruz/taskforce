@@ -8,13 +8,30 @@ Stack (**yığın**), tek taraftan ekleme ve çıkarma yapılabilen bir veri yap
 
 Bu veri yapısının kullanışlı olduğu yerlerden biri, işlemlerin önceliklerinin farklı olduğu bir işlem listesidir. Önceliği yüksek olan işlemler en üst sıralarda yer alır ve en önce bitirilir. Çok önemli olmayan işlemler ise en alt sıralarda kalır ve en son bitirilir.
 
+
+
 # Sorular
 
 1. Gerçek hayattan bir stack veri yapısı örneği veriniz.
+
 2. [Hackerrank problemi](https://www.hackerrank.com/challenges/maximum-element/problem) linkine giderek stack problemini çözünüz.
-3. 
 
+3. Bir Python liste veri yapısını stack olarak kullanmak istersek push ve pop işlemlerini nasıl yapabiliriz, kod yazarak gösteriniz.
 
+   Cevap:
+
+   ````python
+   # stack adında bir liste oluşturalım
+   stack = [1, 3, 5]
+   
+   # push işlemi için "append" metodunu kullanabiliriz
+   stack.append(7) # stack = [1, 3, 5, 7]
+   
+   # pop işlemi için yine "pop" metodunu kullanabiliriz
+   stack.pop() # stack = [1, 3, 5]
+   ````
+
+   
 
 # Ücretsiz Kaynak
 

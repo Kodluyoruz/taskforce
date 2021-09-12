@@ -44,6 +44,6 @@ Her defasında array 2'ye bölündüğü için "n" elemanlı bir dizide aramak "
 
 # Ücretsiz Kaynak
 
-* [CS50x videosu](https://www.youtube.com/watch?v=jjqgP9dpD1k) linkindeki videonun 22.00 dakikasındaki kısmından searching algoritmalarının eğlenceli bir anlatımını izleyebilirsiniz.
+* [CS50 Kodluyoruz videosu](https://www.youtube.com/watch?v=jjqgP9dpD1k) linkindeki videonun 22.00 dakikasındaki kısmından searching algoritmalarının eğlenceli bir anlatımını izleyebilirsiniz.
 * [Youtube videosu](https://www.youtube.com/watch?v=E6IOrZUpvSE) linkinden binary search algoritmasının animasyonunu izleyebilirsiniz.
 

@@ -25,17 +25,45 @@ Bir problem kendi içinde tekrar ediyorsa bu problem "**recursive**" yani "**öz
 
 2. Özyinelemeli fonksiyonlarda "base case" nedir ve neden gereklidir? Araştırınız.
 
+   Cevap: Bir özyinelemeli fonksiyonda Base case yoksa o fonksiyon çalıştırıldığında bilgisayarın hafızası dolana kadar ya da programlama dilinin sınırı aşılana kadar çalışır. Sonra da program kapanır. Base case bir özyinelemeli fonksiyonun belli bir duruma durdurulması için gereklidir.
+
 3. [Fibonacci problemi](https://www.hackerrank.com/challenges/ctci-fibonacci-numbers/problem) linkine giderek istenilen Fibonacci sayısını veren fonksiyonu recursion kullanarak yazınız.
 
 
 
 # Ücretsiz Kaynak
 
+* [Youtube videosu](https://www.youtube.com/watch?v=Mv9NEXX1VHc) linkine giderek recursion anlatımını izleyebilirsiniz.
+
 
 
 # Ödev 1
 
 Bu ödevde, girilen yazının harflerinin ASCII değerlerini ikili sistemde yazacak bir program yazmanız istenmekte. Örneğin; "BABA" yazısı girildiyse çıktı "1000010 1000001 1000010 1000001" olmalıdır. 
+
+Örneğin;
+
+````python
+print(decimal_to_binary("B"))
+````
+
+Kodu çalıştırıldığında şu çıktı verilmeli:
+
+````python
+1000010
+````
+
+Alttaki kod çalıştırıldığında ise:
+
+````python
+text_to_binary("BABA")
+````
+
+Şu çıktı verilmeli:
+
+````python
+1000010 1000001 1000010 1000001
+````
 
 Not: Öncelikle verilen ondalık sayıyı ikili sistem sayısına dönüştüren ve bu sayıyı string olarak dönen bir fonksiyon yazın. Bundan sonra ise verilen yazının harflerinin ASCII değerlerini ikili sistemde yazacak fonksiyonu yazın.
 

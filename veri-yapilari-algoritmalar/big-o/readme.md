@@ -8,7 +8,9 @@ Big-O notasyonu, bir algoritmanın çalışma zamanının standartlaştırılmı
 
 Bir isim array'inde isimler a'dan z'ye sıralı ise isimleri baştan sona aramamıza gerek yoktur. İlk önce array'in ortasına bakarız ve oradaki isim aradığımız isimden önce geliyorsa array'in sağ tarafında aramaya devam ederiz. Her seferinde bu şekilde ikiye bölerek array'in çoğu kısmını aramamış ve arama işlemini çok daha hızlandırmış oluruz. Her seferinde ikiye böldüğümüz için buradaki worst case, "2^x = n" işleminde x'in bulunmasıyla elde edilir. Bu işlemde "x" sayısı ise "log(n)" sayısına eşittir. Böylece bu işlemin zamanını "**O(log(n))**" olarak bulmuş oluruz. Bu işlem zamanına "**logaritmik zaman**" denir.
 
-Bir programda bir döngü ve o döngünün içinde de bir döngü varsa ve her döngü "n" iterasyon yapıyorsa bu programın zamanı "**O(nxn) = O(n^2)**" olur. 
+Bir programda bir döngü ve o döngünün içinde de bir döngü varsa ve her döngü "n" iterasyon yapıyorsa bu programın zamanı "**O(nxn) = O(n^2)**" olur. Bu duruma ise "**karesiyle ilişkili zaman**" denir.
+
+Aşağıda bazı Big-O notasyonu kuralları verilmiştir:
 
 * Big-O notasyonunda katsayılar ihmal edilir.
 

@@ -20,6 +20,8 @@ Bu sorting algoritmasında, tüm array "n" kez dolaşılır ve ilk dolaşmada "n
 
 Bildiğimiz gibi algoritmalarda ne kadar ekstra hafızanın kullanıldığı yani "space complexity" de önemlidir. Space complexity'de kullanılan ekstra hafıza yazılır. Selection sort işleminde verilen array üzerinde yani "in-place" işlemler yapıldığı için ekstra hafıza kullanılmaz. Bu yüzden, bu algoritmanın space complexity'si "**O(1)**" yani "**constant space**" olarak bulunur.
 
+
+
 # Sorular
 
 1. Selection sort'un best case ve worst case'leri farklı mıdır?
@@ -27,6 +29,8 @@ Bildiğimiz gibi algoritmalarda ne kadar ekstra hafızanın kullanıldığı yan
    Cevap: Hayır, aynıdır. Sorting işlemini durdurma mekanizması olmadığı için her seferinde "O(n^2)" olur.
 
 2. Sizce "O(n^2)" bir sorting algoritması için iyi bir time complexity midir?
+
+   Cevap: O(n^2) complexity'si n sayısı arttıkça fazlaca büyür. Bu yüzden yeterince iyi değildir ve daha iyi algoritmalar vardır.
 
 3. Selection sort algoritmasını kod olarak yazınız.
 

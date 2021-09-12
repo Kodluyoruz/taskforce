@@ -6,21 +6,25 @@ Binary search tree, her noktanın en fazla iki alt noktası olan, soldaki noktan
 
 
 
-<img src="C:\CE\Career\Patika_dev\staj\veri_yapilari_algoritmalar_case\taskforce\veri-yapilari-algoritmalar\binary-search-tree\figures\binary_search_tree.jpg" style="zoom: 33%;" />
+![](https://raw.githubusercontent.com/yigitatesh/Kodluyoruz/main/figures/veri-yapilari-algoritmalar/binary_search_tree.jpg)
 
-Dengeli bir ağacın derinliği "log(n)" olacağından dolayı yeni bir eleman ekleme işleminin time complexity'si de "**O(log(n))**" olur.
+Yukarıdaki ağaç dengeli bir ağaçtır. Dallanmalar neredeyse eşit olarak dağılmıştır. Dengeli bir ağacın derinliği "log(n)" olacağından dolayı yeni bir eleman ekleme işleminin time complexity'si de "**O(log(n))**" olur.
 
-Eğer ağaç dengeli değilse worst case durumu ortaya çıkar. Ağaca ekleme yapma, eleman arama gibi işlemlerin time complexity'si de "**O(n)**" olur. Aşağıda dengesiz bir ağaç gösterilmektedir:
+Eğer ağaç dengeli değilse worst case durumu ortaya çıkar. Ağaca ekleme yapma, eleman arama gibi işlemlerin time complexity'si de "**O(n)**" olur. Aşağıda dengesiz bir ağaç vardır:
 
-<img src="C:\CE\Career\Patika_dev\staj\veri_yapilari_algoritmalar_case\taskforce\veri-yapilari-algoritmalar\binary-search-tree\figures\unbalanced_binary_search_tree.jpg" style="zoom: 80%;" />
+![](https://raw.githubusercontent.com/yigitatesh/Kodluyoruz/main/figures/veri-yapilari-algoritmalar/unbalanced_binary_search_tree.jpg)
 
 Yukarıdaki ağaç yapısının bir array'den farkı yoktur ve performansı iyi değildir. Ancak ağaçları dengeli yapıda tutmak için birçok performanslı algoritma vardır ve bu problem çözülmüştür.
+
+**Ekstra bilgi**: Mors alfabesinin de aslında bir binary search tree yapısında olduğunu biliyor muydunuz.
 
 
 
 # Sorular
 
 1. Binary search tree gerçek hayatta kullanılır mı? Kullanılıyorsa nerelerde kullanılmaktadır?
+
+   Cevap: Binary search tree performansından dolayı birçok alanda kullanılmaktadır. Programlama dillerinde derleyiciler, "map" ve "set" veri yapıları, veri tabanları bu alanlara örnek olarak verilebilir.
 
 2. Binary search tree'de arama yapmanın average case time complexity'si nedir?
 

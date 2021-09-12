@@ -15,7 +15,7 @@
 
 1. Bir sayı listesi oluşturulacaksa ve bu listenin eleman sayısı sabit ise linked list mi yoksa array mi kullanmak daha mantıklı olur?
 
-   Cevap: Array çünkü ekstra bir eleman eklenilmeyecek ve çıkarılmayacak.
+   Cevap: Array kullanmak daha mantıklı olur çünkü ekstra bir eleman eklenilmeyecek ve çıkarılmayacak.
 
 2. Genel olarak hangi veri yapısı daha fazla yer kaplar?
 

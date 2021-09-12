@@ -2,11 +2,11 @@
 
 ## Quick Sort
 
-Quick sort, array'den her seferinde bir pivot eleman seçilip pivot elemandan küçük olan sayıları sol array'e, pivot elemandan büyük olan sayıları sağ array'e koyduğumuz ve bu işlemin devam ettiği bir sorting algoritmasıdır.  
+Quick sort, array'den her seferinde bir pivot eleman seçilip, pivot elemandan küçük olan sayıları sol array'e, pivot elemandan büyük olan sayıları sağ array'e konulduğu ve bu işlemin sağ ve sol array için tekrarlandığı sorting algoritmasıdır.  
 
 
 
-<img src="C:\CE\Career\Patika_dev\staj\veri_yapilari_algoritmalar_case\taskforce\veri-yapilari-algoritmalar\quick-sort\figures\quick_sort.jpg" style="zoom: 50%;" />
+![](https://raw.githubusercontent.com/yigitatesh/Kodluyoruz/main/figures/veri-yapilari-algoritmalar/quick_sort.jpg)
 
 Yukarıda görüldüğü gibi bir pivot eleman seçilir ve bu elemana göre array 2'ye bölünür. 
 
@@ -14,9 +14,9 @@ Yukarıda görüldüğü gibi bir pivot eleman seçilir ve bu elemana göre arra
 
 ### Time complexity
 
-Quick sort algoritması da "parçala-birleştir" yöntemini kullanır. Array'in eleman sayısına "n" diyelim. Her array 2'ye bölündüğünde yaklaşık "n" tane karşılaştırma yapılır. Array'lerin her seferinde tam olarak 2'ye bölündüğünü varsayarsak toplam bölünme sayısı "log(n)" olacaktır ve bu da "average case" olacaktır. Sonuç olarak, quick sort algoritmasının **average case** time complexity'si "**O(n x log(n))**" olur. 
+Quick sort algoritması da "**parçala-fethet**" yöntemini kullanır. Array'in eleman sayısına "n" diyelim. Her array 2'ye bölündüğünde yaklaşık "n" tane karşılaştırma yapılır. Array'lerin her seferinde tam olarak 2'ye bölündüğünü varsayarsak toplam bölünme sayısı "log(n)" olacaktır ve bu da "average case" olacaktır. Sonuç olarak, quick sort algoritmasının **average case** time complexity'si "**O(n x log(n))**" olur. 
 
-Peki worst case'i nedir? Her seferinde array'in tüm elemanlarının sağ tarafa bölündüğünü düşünelim. Her seferinde pivot elemana göre sıralama yapıldığı için pivot ortada ve geri kalan array sağda kalacaktır. Bu durumda toplam "n" tane array bölünmesi yapılacak ve her bölünmede "n" karşılaştırma olacağından **worst case** time complexity'si "**O(n^2)**" olacaktır. Ancak genelde bu durum gözlenmediğinden dolayı bu algoritmanın genel performansı "O(n x log(n))" olacaktır. 
+Peki worst case'i nedir? Her seferinde array'in tüm elemanlarının sağ tarafa bölündüğünü düşünelim. Her seferinde pivot elemana göre sıralama yapıldığı için pivot ortada ve geri kalan array sağda kalacaktır. Bu durumda toplam "n" tane array bölünmesi yapılacak ve her bölünmede "n" karşılaştırma olacağından **worst case** time complexity'si "**O(n^2)**" olacaktır. Ancak genelde bu durum gözlenmediğinden dolayı bu algoritmanın genel performansı "**O(n x log(n))**" olacaktır. 
 
 
 

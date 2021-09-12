@@ -17,7 +17,13 @@ Görüldüğü gibi bir array'e, tüm boşlukları dolu iken yeni bir veri eklem
 # Sorular
 
 1. Kapasitesi dolmuş bir array'e yeni bir veri eklerken neden array başka bir alana kopyalanır?
+
+   Cevap: Array yapısı hafızada bitişik bir şekilde saklandığından dolayı array'in boyutu büyütülmek istendiğinde, hafızada başka bir yerde boş bir blok bulunmalı ve array elemanları oraya kopyalanmalıdır.
+
 2. Bir array'de sırası bilinen bir elemana ulaşmak neden çok hızlıdır?
+
+   Cevap: Çünkü array yapısı hafızada bitişik olarak tutulur ve her elemanın nerede olduğu ilk elemanın yerine bakılarak bulunabilir.
+
 3. Gerçek hayattan bir array örneği veriniz.
 
 

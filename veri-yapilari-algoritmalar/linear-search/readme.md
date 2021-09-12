@@ -41,8 +41,12 @@ Bu listede "8" sayısının olup olmadığını öğrenmek için tüm elemanlar�
            if eleman == i:
                return True
        return False
+   
+   # örnek kullanım
+   liste = [1, 5, 2, 8, 4]
+   print(ara(8, liste))
    ````
-
+   
    
 
 # Ücretsiz Kaynak

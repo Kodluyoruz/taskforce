@@ -2,11 +2,11 @@
 
 ## Merge Sort
 
-Merge sort, hız kazandırmak için "parçala-birleştir" yöntemi kullanan bir sorting algoritmasıdır. İlk önce array 2'ye bölünerek küçük array'lere ayrılır. Sonra da bu array'ler sıralanarak birleştirilir. 
+Merge sort, hız kazandırmak için "**parçala-fethet**" (divide and conquer) yöntemi kullanan bir sorting algoritmasıdır. İlk önce array 2'ye bölünerek küçük array'lere ayrılır. Sonra da bu array'ler sıralanarak birleştirilir. 
 
 
 
-<img src="C:\CE\Career\Patika_dev\staj\veri_yapilari_algoritmalar_case\taskforce\veri-yapilari-algoritmalar\merge-sort\figures\merge_sort.PNG" style="zoom: 80%;" />
+![](https://raw.githubusercontent.com/yigitatesh/Kodluyoruz/main/figures/veri-yapilari-algoritmalar/merge_sort.PNG)
 
 Yukarıda görüldüğü gibi array 2'ye bölünerek 1 elemanlı array'lere ayrılmıştır. Ondan sonra ise sıralanarak birleştirme işlemi yapılmıştır. Örneğin, sol orta kısımda 38 ve 27 sayısı birleştirilmiş, [27, 38] şeklinde bir array elde edilmiştir. Sonra bu 2 elemanlı array'ler de sıralanarak birleştirilir. Buradaki avantaj, sıralanmış küçük array'lerin sıralanarak birleştirilmesidir. Zaten sıralı olduğu bilinen array'lerin karşılaştırılması daha kolaydır.
 
@@ -23,6 +23,8 @@ Yukarıda görüldüğü gibi array 2'ye bölünerek 1 elemanlı array'lere ayr�
    Cevap: Evet. Özellikle n sayısı büyüdüğünde çok büyük farklar olduğu görülecektir. Log(n) fonksiyonu çok yavaş bir şekilde arttığından ve sayı büyüdükçe artma şiddeti azaldığından dolayı "O(n x log(n))" performansı "O(n)" performansına yakındır.
 
 2. Merge sort algoritmasının space complexity'si nedir? Araştırınız.
+
+   Cevap: O(n).
 
 3. Merge sort algoritmasını kod olarak yazınız.
 
