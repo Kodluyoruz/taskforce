@@ -1,4 +1,3 @@
-/soru-1/README.md
 Soru1
 ======
 
