@@ -40,3 +40,55 @@ Hash collision arttıkça hash table'da ekleme, silme, arama işlemleri linked l
 # Ücretsiz Kaynak
 
 * [Hashing](https://yazilimdnyasi.wordpress.com/2020/02/14/hashing-nedir-veri-yapilari/) linkinde hash table ve hash collision hakkında bilgi edinebilirsiniz.
+
+
+
+# Ödev 3
+
+Liste veri yapısını kullanarak "stack" ve "queue" veri yapılarını birer "class" olacak şekilde kod yazınız.
+
+Cevap:
+
+````python
+class Stack:
+	"""stack veri yapısı"""
+	def __init__(self, ilk_elemanlar=None):
+		self.veriler = []
+		if ilk_elemanlar:
+			for i in ilk_elemanlar:
+				self.push(i)
+
+	def push(self, veri):
+		self.veriler.append(veri)
+
+	def pop(self):
+		if self.veriler:
+			return self.veriler.pop()
+		else:
+			return None
+
+	def is_empty(self):
+		return self.veriler == []
+    
+
+class Queue:
+	"""queue veri yapısı"""
+	def __init(self, ilk_elemanlar=None):
+		self.veriler = []
+		if ilk_elemanlar:
+			for i in ilk_elemanlar:
+				self.enqueue(i)
+
+	def enqueue(self, veri):
+		self.veriler.append(veri)
+
+	def dequeue(self):
+		if self.veriler:
+			return self.veriler.pop(0)
+		else:
+			return None
+
+	def is_empty(self):
+		return self.veriler == []
+````
+

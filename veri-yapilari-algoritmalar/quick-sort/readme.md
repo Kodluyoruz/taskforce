@@ -61,3 +61,36 @@ Peki worst case'i nedir? Her seferinde array'in tüm elemanlarının sağ tarafa
 * [Video](https://www.youtube.com/watch?v=XE4VP_8Y0BU) linkinden quick sort algoritmasının anlatımını izleyebilirsiniz.
 * [Video](https://www.youtube.com/watch?v=es2T6KY45cA) linkinden quick sort ve merge sort'un karşılaştırıldığı bir animasyonu izleyebilirsiniz.
 
+
+
+# Ödev 5
+
+Elimizde tam sayılardan oluşan ve sayı çeşidinin ve aralığının çok fazla olmadığı, aynı sayıların da bulunduğu ve en küçük sayı ile en büyük sayı arasında çok büyük bir farkın olmadığı, bir array olduğunu düşünelim. Bu array'i en hızlı şekilde nasıl sıralayabiliriz?
+
+Bu tip senaryolarda kullanılabilen "count sort" algoritmasını araştırınız ve kod olarak yazınız.
+
+Cevap:
+
+````python
+def count_sort(array):
+    """count sort"""
+    # array'deki en küçük ve en büyük elemanları bulalım
+    kucuk = min(array)
+    buyuk = max(array)
+    
+    # elemanları ve sayılarını tutacak olan hash table'ı oluşturalım
+    hash_table = {i: 0 for i in range(kucuk, buyuk + 1)}
+    for i in array:
+        hash_table[i] += 1
+    
+    # hash table'daki elemanları sayıları kadar olacak şekilde
+    # sırasıyla array'e "in-place" olarak yerleştirelim
+    i = 0
+    for j in range(kucuk, buyuk + 1):
+        for _ in range(hash_table[j]):
+            array[i] = j
+            i += 1
+    
+    return array
+````
+

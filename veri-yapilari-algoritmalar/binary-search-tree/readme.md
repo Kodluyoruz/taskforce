@@ -30,92 +30,130 @@ Yukarıdaki ağaç yapısının bir array'den farkı yoktur ve performansı iyi 
 
    Cevap: O(log(n)).
 
-3. Binary search tree yapısını kod olarak yazınız.
-
-   Not: "class" yapısını kullanmanız size yardımcı olabilir.
-
-   Cevap:
-
-   ````python
-   # Class tanımlamaları
-   class Node:
-       """Ağaçtaki noktayı temsil eder"""
-       def __init__(self, data=None):
-           self.data = data
-           self.right = None
-           self.left = None
-       
-       def add_left(self, data=None):
-           new = Node(data)
-           self.left = new
-           return new
-       
-       def add_right(self, data=None):
-           new = Node(data)
-           self.right = new
-           return new
-       
-       def __str__(self):
-           return str(self.data)
-   
-   class BinarySearchTree:
-       """Ağacı temsil eder"""
-       def __init__(self, root=None):
-           self.root = root
-       
-       def add_node(self, new_data):
-           """Ağaca yeni bir eleman ekler"""
-           # root yoksa yeni veri ağaca root olarak eklenir
-           if not self.root:
-               self.root = Node(new_data)
-               return
-           
-           current = self.root
-           while True:
-               # eklenecek veri zaten mevcut
-               if new_data == current.data:
-                   return
-               # eklenecek veri sol tarafa eklenecek
-               elif new_data < current.data:
-                   if not current.left:
-                       current.add_left(new_data)
-                       return
-                   else:
-                       current = current.left
-               # eklenecek veri sağ tarafa eklenecek
-               else:
-                   if not current.right:
-                       current.add_right(new_data)
-                       return
-                   else:
-                       current = current.right
-       
-       def print_tree(self):
-           """Ağacı yazdırır"""
-           def preorder_depths(root):
-               preorder_depth(root, 0)
-   
-           def preorder_depth(root, depth):
-               if root:
-                   print(" "*2*depth + str(root.data))
-                   preorder_depth(root.left, depth+1)
-                   preorder_depth(root.right, depth+1)
-           
-           preorder_depths(self.root)
-   
-   # Örnek kullanım
-   tree = BinarySearchTree()
-   
-   sayilar = [3, 15, 5, 7, 8, 20, 25]
-   for sayi in sayilar:
-       tree.add_node(sayi)
-       
-   tree.print_tree()
-   ````
+3. Binary search tree yapısının mantığını kullanan "heap sort" algoritmasını araştırınız.
 
    
 
 # Ücretsiz Kaynak
 
 * [Medium paylaşımı](https://tsafaelmali.medium.com/binary-search-tree-nedir-2e6fb0621d9) linkine giderek binary search tree anlatımına bakabilirsiniz.
+
+
+
+# Ödev 6
+
+Binary search tree yapısını kod olarak yazınız.
+
+Not: Ağacın noktaları için "Node" adında bir "class" yapısı kullanabilirsiniz.
+
+Örnek kullanımlar aşağıdaki kod üzerinde gösterilmiştir:
+
+````python
+# ağacın sınıf üzerinden oluşturulması
+tree = BinarySearchTree()
+
+# sayıların ağaca eklenmesi
+sayilar = [6, 15, 5, 2, 7, 8, 1, 25]
+for sayi in sayilar:
+    tree.add_node(sayi)
+
+# ağacın "preorder" şeklinde yazdırılması
+tree.print_tree()
+````
+
+Yukarıdaki ağaç yazdırıldığında şöyle bir çıktı alınmalıdır:
+
+````
+6
+  5
+    2
+      1
+  15
+    7
+      8
+    25
+````
+
+
+
+Cevap:
+
+````python
+# Class tanımlamaları
+class Node:
+    """Ağaçtaki noktayı temsil eder"""
+    def __init__(self, data=None):
+        self.data = data
+        self.right = None
+        self.left = None
+    
+    def add_left(self, data=None):
+        """noktanın soluna yeni veri ekler"""
+        new = Node(data)
+        self.left = new
+        return new
+    
+    def add_right(self, data=None):
+        """noktanın sağına yeni veri ekler"""
+        new = Node(data)
+        self.right = new
+        return new
+    
+
+class BinarySearchTree:
+    """Ağacı temsil eder"""
+    def __init__(self, root=None):
+        self.root = root
+    
+    def add_node(self, new_data):
+        """Ağaca yeni bir eleman ekler"""
+        # root yoksa yeni veri ağaca root olarak eklenir
+        if not self.root:
+            self.root = Node(new_data)
+            return
+        
+        # ağacı dolaşmaya kökten (root) başlanır
+        current = self.root
+        while True:
+            # eklenecek veri zaten mevcut
+            if new_data == current.data:
+                return
+            # eklenecek veri sol tarafa eklenecek
+            elif new_data < current.data:
+                if not current.left:
+                    current.add_left(new_data)
+                    return
+                else:
+                    current = current.left
+            # eklenecek veri sağ tarafa eklenecek
+            else:
+                if not current.right:
+                    current.add_right(new_data)
+                    return
+                else:
+                    current = current.right
+    
+    def print_tree(self):
+        """Ağacı yazdırır"""
+        def preorder_depths(root):
+            # derinlik 0'dan başlar
+            preorder_depth(root, 0)
+
+        def preorder_depth(root, depth):
+            if root:
+                print(" "*2*depth + str(root.data))
+                preorder_depth(root.left, depth+1)
+                preorder_depth(root.right, depth+1)
+        
+        preorder_depths(self.root)
+
+# Örnek kullanım
+tree = BinarySearchTree()
+
+sayilar = [6, 15, 5, 2, 7, 8, 1, 25]
+for sayi in sayilar:
+    tree.add_node(sayi)
+    
+tree.print_tree()
+````
 

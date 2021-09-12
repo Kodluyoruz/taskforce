@@ -57,3 +57,9 @@ Aşağıda bazı Big-O notasyonu kuralları verilmiştir:
 
 * [Medium paylaşımı 1](https://medium.com/kodcular/nedir-bu-big-o-notation-b8b9f1416d30) ve [Medium paylaşımı 2](https://medium.com/@sgoksel/algoritma-analizi-ve-big-o-notasyonu-3b7aefa8a051) linklerinden Big-O notasyonu hakkında bilgi edinebilirsiniz.
 
+
+
+# Ödev 4
+
+O(1), O(log(n)), O(n), O(n x log(n), O(n^2), O(n^2 x log(n)), O(n^3) time complexity değerleri için birer örnek bulunuz.
+

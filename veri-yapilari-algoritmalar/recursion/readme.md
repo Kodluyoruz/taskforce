@@ -96,3 +96,46 @@ def text_to_binary(yazi):
 text_to_binary("BABA")
 ````
 
+
+
+# Ödev 2
+
+Verilen listeler listesini tamamen düz bir listeye çevirecek bir program yazınız.
+
+Örneğin, verilen listenin bir elemanı sayı diğer bir elemanı ise bir listeler listesi olabilir.
+
+Örnek olarak alttaki kod çalıştırıldığında:
+
+````python
+liste = [[1, [4, 5]], [[[12, 13], 14]], 4, [3, 2], "a"]
+
+print(duzlestir(liste))
+````
+
+Verilen çıktı şöyle olmalıdır:
+
+````python
+[1, 4, 5, 12, 13, 14, 4, 3, 2, 'a']
+````
+
+Cevap:
+
+````python
+def duzlestir(liste):
+    """verilen bir iç içe listeyi tamamen düz bir listeye dönüştürür"""
+	duz_liste = []
+	
+	for i in liste:
+		if type(i) == list:
+            # extend metodu sayesinde liste, bir liste ile genişletilebilir
+			duz_liste.extend(duzlestir(i))
+		else:
+			duz_liste.append(i)
+
+	return duz_liste
+
+# Örnek kullanım
+lst = [[1, [4, 5]], [[[12, 13], 14]], 4, [3, 2], "a"]
+print(duzlestir(lst))
+````
+
