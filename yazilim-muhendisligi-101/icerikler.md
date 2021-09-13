@@ -65,7 +65,7 @@ YAZILIM MÜHENDİSLİĞİ 101
 
 1.Projenin isterlerini daha iyi kavramak için yapılacak işlemlerden hangisi yanlıştır?
 - Ürün ekibine düşündürücü sorular sorulmalı
-- İsterleri toplarken konuya yoğunlaşabilmek için yapılan bilgi aktarımı kafa karışıklığına neden olabildiği için bilgi paylaşımı azami miktarlara indirilmeli(Doğru)
+- İsterleri toplarken konuya yoğunlaşabilmek için yapılan bilgi aktarımı kafa karışıklığına neden olabildiği için bilgi paylaşımı asgari miktarlara indirilmeli(Doğru)
 - Çalışma ortamları iyileştirilmeli
 - Proje yürütülürken gerektiğinden fazla vakit kaybettiren problemler ekip ile paylaşılmalı ve destek istenmeli
 
