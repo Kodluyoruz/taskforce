@@ -25,5 +25,5 @@ ADD CHECK (age>=18)
 ```
 
 ## Daha Fazlası İçin
-- [W3Schools UNIQUE](https://www.w3schools.com/sql/sql_check.asp)
-- [PostgreSQL Tutorial UNIQUE](https://www.postgresqltutorial.com/postgresql-check-constraint/)
+- [W3Schools CHECK](https://www.w3schools.com/sql/sql_check.asp)
+- [PostgreSQL Tutorial CHECK](https://www.postgresqltutorial.com/postgresql-check-constraint/)
