@@ -106,7 +106,7 @@ State nedir?
 State’e neden ihtiyaç duyarız?	
 - Component’te yenileme işlemi state güncellemesi ile yapılabilir	(Doğru)
 - Component’te sadece state ile veri tanımlanabilir	
-- State’ler performans için daha kullanışlıdır	
+- State’ler performans için kullanışsızdır.	
 - State tanımlamadan bir component kullanılamaz	
 
 Aşağıdakilerden hangisi state tanımlamasıdır?	
