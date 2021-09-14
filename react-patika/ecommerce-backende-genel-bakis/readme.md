@@ -1,2 +1,2 @@
 # Backend'e Genel Bakış
-Derste kullanılan backend'e erişmek için [tıklayın](https://github.com/Kodluyoruz/taskforce/tree/react-patika/react-patika/ecommerce-app/backend).
+Derste kullanılan backend'e erişmek için [tıklayın](https://drive.google.com/drive/folders/16y0EP1FsGxiaGFArTsxxYNyYYO7upATM?usp=sharing).
