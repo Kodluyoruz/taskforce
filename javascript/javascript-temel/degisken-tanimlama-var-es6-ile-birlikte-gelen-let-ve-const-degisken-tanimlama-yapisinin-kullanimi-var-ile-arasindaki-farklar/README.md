@@ -27,7 +27,7 @@ let Name;  //değişkenleri, farklı değişkenlerdir.
 let user name ; // Bu kullanım yasaktır. Boşluk kullanılması gerekilen durumlarda 
 //let userName veya let user_name olarak tanımlanabilir. 
 ```
-> İsimlendirme kurallarının dışında, isimlendirme yazım çeşitleri hakkında bilgi almak için [https://devopedia.org/naming-conventions](https://devopedia.org/naming-conventions) adresini inceleyebilirsiniz.
+İsimlendirme kurallarının dışında, isimlendirme yazım çeşitleri hakkında bilgi almak için [https://devopedia.org/naming-conventions](https://devopedia.org/naming-conventions) adresini inceleyebilirsiniz.
 
 ## Değişkene Değer Atama ve Veri Türleri
 
