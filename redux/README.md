@@ -54,3 +54,4 @@
 
 #### Projeler ####
 - [Text Generator App (Beginner)](project-beginner-1/)
+- [Covid 19 Tracker (Intermediate)](project-beginner-1/)
