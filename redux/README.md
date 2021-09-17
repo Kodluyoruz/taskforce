@@ -53,4 +53,4 @@
 - [Ödev](odev3/)
 
 #### Projeler ####
-- [Proje 1](project1/)
+- [Text Generator App (Beginner)](project-beginner-1/)
