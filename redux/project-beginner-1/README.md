@@ -7,8 +7,9 @@ Aşağıdaki ekran görüntüsünde gördüğünüz çalışmaya benzer bir para
 Örnek çalışmaya [şuradan](https://sandipsaha597.github.io/Sample-text-generator-React-app/) ulaşabilirsiniz.
 
 ## Gereksinimler
-- [ ] Seçilen sayı kadar paragraf gösterilmelidir.
-- [ ] Paragraf sayısı birden küçük seçilememeli.
+- [ ] Başlangıçta 4 paragraf gösterilmelidir.
+- [ ] Paragraf sayısı bir input aracılığıyla değiştirilebilmelidir.
+- [ ] En az bir paragraf seçilebilmelidir.
 - [ ] Paragraflar bir dropdown aracılığıyla text veya html olarak gösterilebilmelidir.
 
 
