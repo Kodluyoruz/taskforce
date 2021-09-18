@@ -1,15 +1,5 @@
 # Yazılım Mühendisliği 101
 
-#### Giriş ####
-- [Yazılım Mühendisliği 101 Serisine Giriş](yazilim-muhendisligi-101-serisine-giris/)
-
-#### Yazılım Nedir? ####
-- [Yazılım Nedir?](yazilim-nedir/)
-
-#### Yazılımın Tarihi ####
-- [Ada Lovelace](ada-lovelace/)
-- [Alan Turing](alan-turing/)
-
 #### Yazılımın Yaşam Döngüsü ####
 - [Planlama Adımı](planlama-adimi/)
 - [Analiz Adımı](analiz-adimi/)
