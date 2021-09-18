@@ -1,6 +1,7 @@
 # Basics for Everyone INDEX
 
-
+#### Yazılım Nedir? ####
+- [Yazılım Nedir?](yazilim-nedir)
 
 #### Araştırma Yapma ####
 - [Google'lamak](google/)
