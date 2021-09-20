@@ -2,7 +2,7 @@
 
 Aşağıdaki ekran görüntüsünde gördüğünüz çalışmaya benzer bir paragraf oluşturucu uygulaması geliştirmeniz gerekiyor.
 
-![preview](./figures/preview.png)
+![preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/redux/text-generator-app/figures/preview.png)
 
 Örnek çalışmaya [şuradan](https://sandipsaha597.github.io/Sample-text-generator-React-app/) ulaşabilirsiniz.
 
