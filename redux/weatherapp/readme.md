@@ -2,7 +2,7 @@
 
 Aşağıdaki ekran görüntüsünde gördüğünüz çalışmaya benzer bir Türkiye hava durumu uygulaması geliştirmeniz gerekiyor.
 
-![preview](./figures/preview.png)
+![preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/redux/weatherapp/figures/preview.png)
 
 ## Gereksinimler
 
