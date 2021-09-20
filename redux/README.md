@@ -56,3 +56,4 @@
 - [Text Generator App (Beginner)](project-beginner-1/)
 - [Markdown Previewer (Beginner)](project-beginner-2/)
 - [Covid 19 Tracker (Intermediate)](project-intermediate-1/)
+- [Weather App (Intermediate)](project-intermediate-2/)
