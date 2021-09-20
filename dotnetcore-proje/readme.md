@@ -1,4 +1,4 @@
 # .Net Core Projeleri
 
 #### Fatura Yönetim Sistemi ####
-- (Fatura Yönetim Sistemi)[faturayonetimsistemi]
+- [Fatura Yönetim Sistemi](faturayonetimsistemi)
