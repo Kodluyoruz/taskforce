@@ -3,7 +3,7 @@
 Aşağıdaki ekran görüntüsünde gördüğünüz çalışmaya benzer bir klavye kullanımı için hız testi uygulaması geliştirmeniz gerekiyor.
 
 
-![preview](./figures/preview.png)
+![preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/redux/typing-speed-app/figures/preview.png)
 
 Örnek çalışmaya [şuradan](https://10fastfingers.com/typing-test/turkish) ulaşabilirsiniz.
 
@@ -17,7 +17,7 @@ Aşağıdaki ekran görüntüsünde gördüğünüz çalışmaya benzer bir klav
 - [ ] Restart butonuna tıklanarak oyun yeniden başlatılabilmelidir.
 - [ ] Geri sayım tamamlandığında sonuçlar gösterilmelidir. 
 
-  ![preview](./figures/result.png)
+  ![preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/redux/typing-speed-app/figures/result.png)
 
 
 
