@@ -3,7 +3,7 @@
 Bu projede React ve Redux ile Türk Daması oyunu geliştirmeniz gerekiyor.
 
 
-![preview](./figures/preview.jpeg)
+![preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/redux/turkish-checkers-app/figures/preview.jpeg)
 
 Oyunun kurallarını [şuradan](https://tr.wikipedia.org/wiki/T%C3%BCrk_damas%C4%B1) inceleyebilirsiniz.
 
