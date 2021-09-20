@@ -2,7 +2,7 @@
 
 Aşağıdaki ekran görüntüsünde gördüğünüz çalışmaya benzer bir markdown önizleyici uygulaması geliştirmeniz gerekiyor.
 
-![preview](./figures/preview.png)
+![preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/redux/markdown-previewer/figures/preview.png)
 
 Örnek çalışmaya [şuradan](https://codepen.io/GuRuGu/pen/weVpQZ?editors=1010) ulaşabilirsiniz.
 
