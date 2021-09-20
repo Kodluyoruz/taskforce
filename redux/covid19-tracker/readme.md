@@ -2,7 +2,7 @@
 
 Aşağıdaki ekran görüntüsünde gördüğünüz çalışmaya benzer bir Covid 19 takip uygulaması geliştirmeniz gerekiyor.
 
-![preview](./figures/preview.png)
+![preview](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/redux/covid19-tracker/figures/preview.png)
 
 Örnek çalışmaya [şuradan](https://world19covid.web.app/) ulaşabilirsiniz.
 
