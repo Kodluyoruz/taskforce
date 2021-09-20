@@ -1,7 +1,7 @@
 
-# Algoritma Nedir #
+# Algoritma Nedir 
 
-- Algoritma, Cebrin atası ve kurucusu olarak bilinen Harezmi tarafından 9.yüzyılda cebir alanındaki araştırmaları neticesinde ortaya çıkmıştır. Avrupalılar, Harezmi ismini telafuz edemediklerinden dolayı algorizm (Arap sayıları kullanarak aritmek problemler çözme kuralları) olarak kullandılar. Algorizm daha sonra "algoritma" adını aldı.
+Algoritma, Cebrin atası ve kurucusu olarak bilinen Harezmi tarafından 9.yüzyılda cebir alanındaki araştırmaları neticesinde ortaya çıkmıştır. Avrupalılar, Harezmi ismini telafuz edemediklerinden dolayı algorizm (Arap sayıları kullanarak aritmek problemler çözme kuralları) olarak kullandılar. Algorizm daha sonra "algoritma" adını aldı.
 
 - Algoritma nedir sorusunun cevabı, bir problemin çözümü için gerekli olan adımların bütününe verilen isimdir. Gelin algoritma örneklerini günlük hayatımızdan çıkarmaya çalışalım. Bir kahve hazırlarkende algoritma kullanırız, ayakkabımızı giyerkende kullanırız. Kahve örneğimizi inceleyelim. Öncelikle bir kahve bardağı bulmamız gerekiyor. Bundan sonraki adım ise kahveyi makineye koyup çalıştırmamız. Daha sonrasında kahve bardağını ilgili yere koyup tuşa basmamız gerekiyor. Bu olay örgüsü aslında bir algoritma. Adım adım sürdürmemiz gerekiyor. Öğrendiklerimizi pekiştirmek için haydi gelin resimli örneğimizi inceleyelim. 
 
