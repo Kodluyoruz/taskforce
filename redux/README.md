@@ -58,3 +58,4 @@
 - [Covid 19 Tracker (Intermediate)](project-intermediate-1/)
 - [Weather App (Intermediate)](project-intermediate-2/)
 - [Typing Speed App (Advanced)](project-advanced-1/)
+- [Turkish Checkers Game (Advanced)](project-advanced-2/)
