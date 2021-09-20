@@ -1,4 +1,4 @@
 # .Net Core Projeleri
 
-#### Fatura Yönetim Sistemi ####
+#### 1'inci Seviye Projeler ####
 - [Fatura Yönetim Sistemi](faturayonetimsistemi)
