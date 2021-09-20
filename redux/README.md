@@ -52,4 +52,11 @@
 - [Bölüm sonu kazanımları](bolum-sonu-kazanimlari-contacts-app/)
 - [Ödev](contactsapp-odev/)
 
+#### Projeler ####
+- [Text Generator App (Beginner)](text-generator-app/)
+- [Markdown Previewer (Beginner)](markdown-previewer/)
+- [Covid 19 Tracker (Intermediate)](covid19-tracker/)
+- [Weather App (Intermediate)](weatherapp/)
+- [Typing Speed App (Advanced)](typing-speed-app/)
+- [Turkish Checkers Game (Advanced)](turkish-checkers-app/)
 
