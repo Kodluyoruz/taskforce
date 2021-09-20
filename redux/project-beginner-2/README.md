@@ -1,4 +1,4 @@
-# Proje 1 - Paragraph Generator
+# Proje 2 - Markdown Previewer
 
 Aşağıdaki ekran görüntüsünde gördüğünüz çalışmaya benzer bir markdown önizleyici uygulaması geliştirmeniz gerekiyor.
 

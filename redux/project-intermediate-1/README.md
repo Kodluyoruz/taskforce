@@ -1,4 +1,4 @@
-# Proje 2 - Covid 19 Tracker
+# Proje 3 - Covid 19 Tracker
 
 Aşağıdaki ekran görüntüsünde gördüğünüz çalışmaya benzer bir Covid 19 takip uygulaması geliştirmeniz gerekiyor.
 
