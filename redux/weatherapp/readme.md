@@ -13,4 +13,4 @@ Aşağıdaki ekran görüntüsünde gördüğünüz çalışmaya benzer bir Tür
 - [ ] Bir dropdown aracılığı ile farklı bir şehrin hava raporuna ulaşılabilmelidir. 
 
 
-> Tasarımı dilediğiniz gibi yapabilirsiniz.
+ Tasarımı dilediğiniz gibi yapabilirsiniz.
