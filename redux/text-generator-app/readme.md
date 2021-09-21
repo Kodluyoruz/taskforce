@@ -20,7 +20,7 @@ Paragraf sayısı **"paras"** parametresi ile değiştirilebilir.
 
 
 ### Text Response
-[https://baconipsum.com/api/?type=all-meat&paras=2&format=text](https://baconipsum.com/api/?type=all-meat&paras=2&format=text) 
+[Text Response](https://baconipsum.com/api/?type=all-meat&paras=2&format=text) 
 
 ### HTML Response
-[https://baconipsum.com/api/?type=all-meat&paras=2&format=html](https://baconipsum.com/api/?type=all-meat&paras=2&format=html) 
+[Html Response](https://baconipsum.com/api/?type=all-meat&paras=2&format=html) 
