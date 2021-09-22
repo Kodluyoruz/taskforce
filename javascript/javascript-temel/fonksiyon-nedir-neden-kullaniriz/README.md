@@ -188,12 +188,11 @@ var sonuc = topla(10,20); //  30 döner.
 
 ```
 
-
 function carp(sayi1, sayi2) {
-    console.log( sayi1 * sayi2);
+sayi1 * sayi2;
 };
 
-result = carp(10,20); // undefined 
+result=carp(10,20); // undefined 
 ```
 
  Ek olarak "topla" fonksiyonu iki değerin toplamını geri döner. "carp" fonksiyonunda ise **return** anahtar kelimesi kullanılmadığı için geri dönüş değeri yoktur,dolayısıyla "undefined" döner.
