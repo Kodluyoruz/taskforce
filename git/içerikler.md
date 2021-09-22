@@ -83,7 +83,6 @@
 2. Hangisi veya hangilerinde .gitignore 'a dosya eklerken doğru bir format kullanılmıştır?
 	- node_modules/
 	- .vscode
-	- !files/example.txt
 	- Hepsi (Doğru)
 2. gitignore dosyalarına hangi tür dosyalar konulabilir?
 	- Takip edilmesini istemediğimiz dosyalar
