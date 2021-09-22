@@ -42,3 +42,16 @@ if ( $query->rowCount() ){
     print_r($query->fetchAll(PDO::FETCH_ASSOC));
 }
 ```
+
+### Derste Kullanılan Tabloyu Eklemek İçin SQL Komutunu Kullanın
+
+````sql
+CREATE TABLE IF NOT EXISTS groups (
+	gorup_id INT(1) AUTO_INCREMENT,
+  group_name VARCHAR(50),
+	PRIMARY KEY (gorup_id)
+);
+
+INSERT INTO groups (group_name) VALUES ('PHP Developer'),('Javascript Developer'),('C# Developer'),('Java Developer'),('React Developer');
+
+````
