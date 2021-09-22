@@ -141,6 +141,6 @@ document.body.innerHTML = bookTable
 Aşağıda codepen ile deneyimleyebilirsiniz!
 
 ## Kaynaklar
-- [https://medium.com/@gulineyel/javascriptde-template-literals-nedir-76eddd333e7](https://medium.com/@gulineyel/javascriptde-template-literals-nedir-76eddd333e7)
-- [https://www.webcebir.com/227-javascript-template-literal-dersi.html](https://www.webcebir.com/227-javascript-template-literal-dersi.html)
-- [https://www.w3schools.com/tags/tag_tbody.asp](https://www.w3schools.com/tags/tag_tbody.asp)
+- https://medium.com/@gulineyel/javascriptde-template-literals-nedir-76eddd333e7
+- https://www.webcebir.com/227-javascript-template-literal-dersi.html
+- https://www.w3schools.com/tags/tag_tbody.asp
