@@ -8,6 +8,6 @@ Algoritma analizi, bir algoritmanın çalışabilmesi için gerekli koşulların
 
 # Kaynaklar
 
-- [derinlemesine-algoritma-analizi](https://birhankarahasan.com/algoritma-analizi-nedir-zaman-karmasikligi-big-o-gosterimi)
+[derinlemesine-algoritma-analizi](https://birhankarahasan.com/algoritma-analizi-nedir-zaman-karmasikligi-big-o-gosterimi)
 
-- [algoritma-analiz-wiki](https://tr.wikipedia.org/wiki/Algoritma_analizi)
+[algoritma-analiz-wiki](https://tr.wikipedia.org/wiki/Algoritma_analizi)
