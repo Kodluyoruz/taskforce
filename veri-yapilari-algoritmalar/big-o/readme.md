@@ -12,6 +12,6 @@ N tane işlem üzerinden big-o gösterimi yapalım. A algoritması input olarak 
 
 # Kaynaklar
 
-- [big-o-nedir](https://medium.com/kodcular/nedir-bu-big-o-notation-b8b9f1416d30)
+[big-o-nedir](https://medium.com/kodcular/nedir-bu-big-o-notation-b8b9f1416d30)
 
-- [big-o](https://www.ridvantulemen.com/buyuk-o-notasyonu-nedir-big-o-notation/)
+[big-o](https://www.ridvantulemen.com/buyuk-o-notasyonu-nedir-big-o-notation/)
