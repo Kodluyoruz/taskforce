@@ -2,12 +2,7 @@
 
 ![linkedlist-vs-array](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/linked-list-array/figures/linkedlist-vs-array.png)
 
-| Array | Linked List |
-| ----------- | ----------- |
-| Array'in herhangi bir elemanına ulaşmak aynı sürede gerçekleşir (Random Access).| Linked-List'de ulaşmak istediğimiz elemana gidebilmek için birbirine bağlı olan elemanları ziyaret etmemiz gerekiyor. |
-| Array'ler, sadece eleman tuttuğu için hafızada daha az yer kaplarlar. | Linked-List'ler, eleman ile birlikte adres tuttuğundan dolayı hafızada daha fazla yer kaplarlar. |
-| Daha çok statik (durağan) durumlarda daha fazla performans gösterir. | Ekleme , çıkarmanın fazla olduğu durumlarda linked-list daha fazla performans gösterir.|
-
+![array-vs-linkedlist-diff](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/linked-list-array/figures/array-vs-linkedlist-diff.png)
 
 # Kaynaklar
 
