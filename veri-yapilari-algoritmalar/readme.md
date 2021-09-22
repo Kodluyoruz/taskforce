@@ -38,3 +38,6 @@
 - [Linear Search](linear-search/)
 - [Binary Search](binary-search/)
 - [Binary Search Tree](binary-search-tree/)
+
+#### Projeler ####
+- [Merge Sort](merge-sort-proje/)
