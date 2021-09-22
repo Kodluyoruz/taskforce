@@ -11,7 +11,7 @@ Konuyu pekiştirmek için bir örnekle açıklayalım. C#, Java gibi dillerde ku
 Peki bu derleme nedir ve nasıl olur? Hemencecik anlatalım. Örneğin, bir dilde (örnek Java üzerinden olacak) yazdığınız kod Java'nın hali hazırda sahip olduğu Java Compiler ile derlenek .class uzantılı dosyayı oluşturur. Haa dikkat, bu format prensesimiz olan sadece JVM (JAVA VİRTUAL MACHİNE)'ye özeldir. İşlemcimiz bu aşamada okuyamadığından işleyemez. JVM (JAVA VİRTUAL MACHİNE) .class uzantılı bytecode'u satır satır işleyerek makine koduna dönüştürür ve çalıştırır.
  **Özetle, Javada yazılan kod önce bytecode'a çevrilir, daha sonrasında üzerinde çalıştığı makinenin içerisindeki yalın dile (makine koduna) yorumlanarak çalıştırılır.**
 
-![Java derleme](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/bilgi-ifade/figures/DerlemeJava.jpg)
+![Java derleme](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/bilgi-ifade/figures/DerlemeJava.png)
 
     Sonuç olarak bilgisayarlar kendilerini 0 ve 1 sayıları aracılığıyla ifade eder. Bilgisayar üzerindeki her şey 1 ve 0'lardan oluşur.
 
