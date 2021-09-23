@@ -7,6 +7,7 @@
     - Algoritma analizi programlama dillerinden bağımsız düşünülemez.
 
 - Algoritma analizi, varolan kaynaklara ve programlama dillerine bağlı değildir.
+
     - Evet
     - Hayır
 
@@ -50,6 +51,12 @@
 
 # Big-o Sorular
 
+- Aşağıda gösterimi verilen ifadelerin hangisi Big-O notation kuralına uymaz?
+    - O(nlogn)
+    - O(n)
+    - O(logn)
+    - O(n+n^2)
+
 # Bilgi İfade Sorular
 
 - Bilgisayarlar bilgiyi nasıl ifade ederler?
@@ -70,7 +77,25 @@
 
 # Binary Search Sorular
 
+- Aşağıdaki verilen bilgilerden hangisi yanlıştır?
+    - İkili arama algoritması veriyi sıralı varsayıyor.
+    - İkili arama algoritması diziyi her seferinde ikiye bölerek arama yapıyor.
+    - Kendine bir ortanca bulup sıralama yapıyor.
+    - En yüksek sayıyı sola, en küçük sayıyı sağa yazıyor.
+
+- Aşağıdakilerden hangisi [22,5,6,8,9,13,18,28,2] dizisinin Binary Search'e göre aşamalarından biri değildir? (Aradığımız sayı 5)
+    - [2,5,6,8,9,13,18,22,28]
+    - [2,5,6,8,9,13]
+    - [2,5,6,8]
+    - [13,18,22,28]
+
 # Binary Search Tree Sorular
+
+- Aşağıdakilerden hangisi Binary Search Tree için yanlış bir bilgidir?
+    - Bir düğüm sağ ve sol olarak referans verebilir.
+    - Bir düğümün sağ tarafında kendinden büyük elemanlar, sol tarafında ise kendinden küçük elemanlar bulunur.
+    - Tree'ye eleman eklemek için root düğümünden başlamak gerekir.
+    - Ekleyeceğimiz eleman root'dan büyük ise düğümün sol referansından devam edilir.
 
 # Hash Collision Sorular
 
@@ -105,8 +130,30 @@
     - Yanlış
 
 # Insertion Sort Sorular
+- Insertion sort ile ilgili aşağıdakilerden hangisi yanlıştır?
+    - En basit sorting algoritmalardan biridir.
+    - Dizide en küçük elemanı bularak, dizinin en başına taşır.
+    - En küçükten en büyüğe doğru sıralayarak devam eder.
+    - Diziyi parçalayarak sıralama yapar.
 
+- [5,21,35,28,15,12,22] dizisi için aşağıdakilerden hangisi insertion sort aşamalarında bulunmaz?
+    - [5,12,35,28,15,21,22]
+    - [5,12,15,28,35,21,22]
+    - [5,12,15,28,21,35,22]
+    - [5,12,15,21,35,28,22]
 # Linear Search Sorular
+
+- [16,22,8,7,18] veri setinin içerisnden 18 sayısının bulunması Linear Search'e göre aşamalarından biri değildir?
+    - İlk önce veri seti ikiye ayrılır.
+    - İlk elemana sen 18 misin sorusu sorulur.
+    - İlk eleman değil ise, ikince elemana aynı soru sorulur.
+    - Aradığı elemanı bulduktan sonra algoritmayı sonlandırır.
+
+- [16,22,8,7,18] worst case'e göre (Aradığımız elemanın dizinin sonunda bulunmas) Big-O notasyonu aşağıdakilerden hangisidir?
+    - O(logn)
+    - O(n)
+    - O(n^2)
+    - O(nlogn)
 
 # Linked-List Sorular
 
@@ -119,7 +166,7 @@
     - Yanlış
 
 - Aşağıdakilerden hangisi Linked List için doğrudur ?
-    - Hafıza konusunda dizilere benzer özelliğe sahiptir.
+    - Belleği array'e göre daha fazla kullanırlar.
     - Yeni bir eleman eklerken bellekte yeni bir alan açılır.
     - Her bir düğüm kendinden sonraki düğümün adresini tutar.
     - Linked-List'ler diziler gibi yan yana olmak zorundadır.
@@ -152,6 +199,20 @@
 
 # Merge Sort Sorular
 
+- Merge Sort için aşağıdakilerden hangisi doğrudur?
+    - Insertion Sort'a göre daha yavaş sıralama yapar.
+    - Dizi içerisindeki en küçük elemanı bulur ve listenin başına taşır.
+    - Bir diziyi tek hücreye kadar parçalayarak sıralama yapar.
+    - Time Complexity logn olarak hesaplanır
+- Merge Sort, Insertion Sort'a göre daha fazla performans gösterebilir.
+    - Doğru
+    - Yanlış
+- [7,21,14,6,12,22,18,19] dizisi için aşağıdaki aşamalardan hangisi Merge Sort kapsamında yanlıştır?
+    - [7,21,14,6]
+    - [7,21]
+    - [7]
+    - [6,12]
+
 # Queue Sorular
 
 - Queue ile ilgili verilen bilgilerin hangisi doğrudur?
@@ -171,6 +232,13 @@
     - Duş almak
 
 # Quick Sort Sorular
+
+- Aşağıdakilerden hangisi Quick Sort'un özellikleri arasında yer almaz?
+
+    - Günümüzde çok yaygın olarak kullanılır.
+    - Bir pivot belirler, pivota göre diziyi parçalar.
+    - Average case'in time complexity'si nlogn'dir.
+    - Worst case'in time complexity'si n'dir.
 
 # Ram Model Sorular
 
@@ -242,7 +310,23 @@
 
 # Searching Soruları
 
+- Searching, istediğimiz özellikteki verilerin veri setlerinde aranıp getirilmesi işlemidir.
+    - Doğru
+    - Yanlış
+
 # Sorting Soruları
+
+- Aşağıdakilerden hangisi sorting yöntemlerinden biri değildir?
+    - Closest Pair Yöntemi
+    - Mode Bulma Yöntemi
+    - Aynı Eleman Yöntemi
+    - Üçlü Arama Yöntemi
+
+- Aşağıdakilerden hangisi sorting aşamalarından biri değildir?
+    - Searching yöntemi elemanları sıralayarak, eleman ararken işimizi kolaylaştırır.
+    - Birbirine yakın elemanları gruplandırır.
+    - Dizi içerisindeki aynı elemanların sayısını gösterir
+    - Eleman dizisinden bir pivot belirleyerek sıralama yapar.
 
 # Stack Soruları
 
@@ -262,10 +346,20 @@
 
 # Time-Complexity Soruları
 
+- Aşağıdakilerden hangisi Time-Complexity'i case'lerinden biri değildir?
+    - Worst Case
+    - Average Case
+    - Best Case
+    - Minimum Case
+
+- Aşağıdakilerden hangisi bir best-case olabilir
+    - Aranan kitabın rafta son sırada olması.
+    - Aranan kitabın rafın ortalarında olması.
+    - Aranan kitabın rafın sol köşesinde olması.
+    - Aranan kitabın rafın sol köşesinde ve en üst rafta bulunması.
 
 # Veri Tutulma Soruları
 
-# Sorular
 - Bit ile ilgili verilen bilgilerin hangisi doğrudur?
     - Ne kadar çok bit dolar ise o kadar fazla depolama alanımız vardır.
     - Byte 4 bitten oluşur.
@@ -279,3 +373,5 @@
 - Byte 8 bitten daha fazla bit değeri alamaz.
     - Evet
     - Hayır
+
+
