@@ -1,1 +1,1 @@
-#
+İlk Derste Ne Olacak?
