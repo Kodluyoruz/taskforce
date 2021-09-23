@@ -1,1 +1,1 @@
-#
+Eğitime Hazırlık
