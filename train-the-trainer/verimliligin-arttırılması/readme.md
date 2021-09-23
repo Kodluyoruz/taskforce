@@ -1,1 +1,1 @@
-#
+Verimliliğin Arttırılması
