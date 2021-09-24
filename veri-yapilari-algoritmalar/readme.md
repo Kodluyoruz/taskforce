@@ -39,3 +39,7 @@
 - [Binary Search](binary-search/)
 - [Binary Search Tree](binary-search-tree/)
 
+#### Projeler ####
+- [Insertion Sort Projesi](insertion-sort-proje/)
+- [Merge Sort Projesi](merge-sort-proje/)
+- [Binary Search Tree Projesi](binary-search-tree-proje/)
