@@ -1,0 +1,1 @@
+# Pointer Bölüm 1

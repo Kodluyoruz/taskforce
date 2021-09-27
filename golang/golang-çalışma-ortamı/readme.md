@@ -1,0 +1,1 @@
+# Golang çalışma ortamı kurulumu 

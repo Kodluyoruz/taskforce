@@ -1,0 +1,1 @@
+# Hata yakalama temelleri

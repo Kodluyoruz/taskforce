@@ -1,0 +1,1 @@
+# Typeless Constant nedir?

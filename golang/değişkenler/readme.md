@@ -1,0 +1,1 @@
+# Golang'de Değişkenler

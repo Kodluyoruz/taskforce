@@ -1,0 +1,1 @@
+# Slices Bölüm 2
