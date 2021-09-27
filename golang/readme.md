@@ -4,7 +4,7 @@
 - [Golang Nedir](golang-nedir/)
 - [Golang Nasıl Çalışır](golang-nasıl-çalışır/)
 - [Golang Playground](playground-kullanımı/)
-- [Golang Çalışma Ortamı]()
+- [Golang Çalışma Ortamı](golang-çalışma-ortamı/)
 - [Golang Kod Yapısı](golang-kod-yapısı-analizi/)
 
 #### Golang Değişkenler ####
