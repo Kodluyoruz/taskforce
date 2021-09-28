@@ -1,4 +1,4 @@
-# Ödev 3
+# Ödev 2
 
 ## Google Ana Sayfasını Tasarlamak
 Hepimiz her gün Google kullanıyoruz ve çok işimize yarıyor değil mi? Her gün Google'da milyonlarca arama yapılıyor ve hatta siz de bu sayfaya gelmek için Google'u kullanmış olabilirsiniz. Peki Google'un geçmişten günümüze nasıl geliştiğini hiç merak ettiniz mi?
