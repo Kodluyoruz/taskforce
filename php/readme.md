@@ -71,9 +71,9 @@
 - [Dosya Dizin Listeleme](dosya-dizin-listeleme/)
 
 #### Oturum ve Çerez Yönetimi ####
-- [Session](session/)
-- [Cookie](cookie/)
-- [Login Pratik](login-pratik/)
+- [Oturum(Session) İşlemleri](session/)
+- [Çerez(Cookie) İşlemleri](cookie/)
+- [Pratik - Login Uygulaması](login-pratik/)
 - [Oturum Çerez Yönetimi Ödev 1](oturum-cerez-yonetimi-odev-1/)
 - [Oturum Çerez Yönetimi Ödev 2](oturum-cerez-yonetimi-odev-2/)
 
@@ -81,11 +81,11 @@
 - [Tarih ve Zaman İşlemleri](tarih-ve-zaman-islemleri/)
 
 #### Nesne Yönelimli Programlama(OOP) ####
-- [Nesne Yönelimli Programlama Giriş](oop-giris/)
+- [Sınıflara Giriş](oop-giris/)
 - [Erişilebilirlik](erisilebilirlik/)
 - [Kurucu ve Yıkıcı Methodlar](kurucu-yikici-methodlar/)
-- [Kalıtım](kalitim/)
-- [Final](final/)
+- [Kalıtım Miras Alma](kalitim/)
+- [Final Kullanımı](final/)
 - [Static Kullanımı](static/)
 - [Abstract Kullanımı](abstract/)
 - [Namespace Kullanımı](namespace/)
@@ -105,16 +105,16 @@
 - [Betweem Kullanımı](between/)
 
 #### PDO ####
-- [PDO Bağlantı](pdo-baglanti/)
-- [PDO Crud](pdo-crud/)
-- [Koşullama Limit Sıralama](pdo-where-limit-order/)
+- [Veritabanı Bağlantısı](pdo-baglanti/)
+- [Veri Ekleme/Silme/Listeleme/Güncelleme](pdo-crud/)
+- [Koşullama/Limit/Sıralama](pdo-where-limit-order/)
 - [Verilerde Arama](pdo-like/)
 - [MIN, MAX, COUNT ve GROUP BY HAVING Kullanımı](pdo-min-max-count-having/)
-- [IN NOT IN](pdo-in-notin/)
-- [FIND IN SET](pdo-find-in-set/)
-- [Between](pdo-between/)
-- [INNER JOIN LEFT JOIN RIGHT JOIN](pdo-join/)
-- [GROUP BY](pdo-group/)
+- [IN NOT IN Kullanımı](pdo-in-notin/)
+- [FIND IN SET Kullanımı](pdo-find-in-set/)
+- [Between Kullanımı](pdo-between/)
+- [JOIN, LEFT JOIN, RIGHT JOIN](pdo-join/)
+- [Gruplama](pdo-group/)
 
 #### MVC Yapısı ####
 - [MVC Yapısı](mvc/)
@@ -131,18 +131,20 @@
 #### Güvenlik ####
 - [Güvenlik](guvenlik/)
 
-#### Curl Kullanımı ####
-- [Curl Kullanımı](curl/)
+#### cURL Kullanımı ####
+- [cURL Kullanımı](curl/)
 
-#### Mail İşlemleri ####
-- [Mail İşlemleri](mail-islemleri/)
+#### Mail İşlemleri (PhpMailer Sınıfı) ####
+- [Mail İşlemleri (PhpMailer Sınıfı)](mail-islemleri/)
 
-#### htaccess ####
-- [htaccess](htaccess/)
+#### .htaccess Kullanımı ####
+- [.htaccess Kullanımı](htaccess/)
 
 #### PHP ve JS ####
 - [PHP ve JS](js-ve-php/)
-#### Proje-1 TodoApp Uygulaması ####
+
+
+#### Müşteri Yönetim Sistemi Projesi ####
 - [Klasör Yapısı, Routing, Tema Entegrasyonu ve Genel Ayarlar](todolist-project-genelayarlar/)
 - [Giriş Çıkış İşlemleri ve Kullanıcı Tablosunun Oluşturulması](todolist-project-kullanıcıtablosu/)
 - [Kategori Oluşturma, Listeleme, Silme ve GÜncelleme](todolist-project-kategori/)
