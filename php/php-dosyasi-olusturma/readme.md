@@ -15,8 +15,8 @@ Dizin içerisinde varsayılan olarak ilk *index.php* dosyası okunur.
 
 ##### Windows işletim sisteminde "MAMP Server" htdocs klasörü
 
-![img.png](img.png)
+![img.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/php-dosyasi-olusturma/figures/img.png)
 
 ##### macOS işletim sisteminde "MAMP Server" htdocs klasörü
 
-![img_1.png](img_1.png)
+![img_1.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/php-dosyasi-olusturma/figures/img_1.png)
