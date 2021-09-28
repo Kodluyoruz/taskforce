@@ -1,12 +1,12 @@
 ### Dizi Fonksiyonları 4
 
-####current();
+#### current();
 Bir dizideki geçerli öğeyi döndür
-####end();
+#### end();
 Bir dizinin dahili işaretçisini son elemanına ayarlar
-####next();
+#### next();
 Bir dizinin dahili işaretçisini ilerletir
-####prev();
+#### prev();
 Dahili dizi işaretçisini geri alır.
 
 ```
@@ -28,9 +28,9 @@ var_dump(current($arr)); // array(0) { }
 ?>
 ```
 
-####reset();
+#### reset();
 Bir dizinin dahili göstericisini ilk elemana konumlar.
-####extract();
+#### extract();
 Bir dizideki değişkenleri simge tablosuna dahil eder
 
 ```
@@ -53,7 +53,7 @@ echo "$renk, $boyut, $şekil, $wddx_boyut\n";
 
 ```
 
-####asort();
+#### asort();
 Bir dizinin değerlerini anahtarlarıyla ilişkilerini bozmadan küçükten büyüğe doğru sıralar.
 ```
 <?php
@@ -64,7 +64,7 @@ foreach ($fruits as $key => $val) {
 }
 ?>
 ```
-####arsort();
+#### arsort();
 Bir dizinin değerlerini anahtarlarıyla ilişkilerini bozmadan büyükten küçüğe doğru sıralar.
 ```
 <?php
@@ -86,7 +86,7 @@ foreach ($fruits as $key => $val) {
 }
 ?>
 ```
-####krsort();
+#### krsort();
 Bir diziyi anahtarlarına göre büyükten küçüğe doğru sıralar.
 ```
 <?php
