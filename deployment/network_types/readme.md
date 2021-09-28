@@ -1,4 +1,4 @@
-####  Docker Network Türleri   ####
+# Docker Network Türleri  
 
 Eğer bu videodan önce 1.Bölüm olan Docker Nedir Nasıl Kullanılır? | Part #1 | Image Nedir? Container Nedir? Docker Komutları videosunu izlemediyseniz ilk olarak onu izlemenizi tavsiye ederim :)
 
