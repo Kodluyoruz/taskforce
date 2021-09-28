@@ -81,4 +81,4 @@ function categoryList(array $categories, int $parent = 0) : string
 echo categoryList($categories);
 ```
 ##### Sonuç:
-![img.png](img.png)
+![img.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/recursive-fonksiyonlar/figures/img.png)
