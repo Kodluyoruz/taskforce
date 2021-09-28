@@ -10,4 +10,4 @@ Arayüzler sadece sınıfta zorunlu olarak tanımlanması gereken metotları bel
 - Sadece public method tanımı yapılabilir.
 - Aynı sınıf sadece birden fazla interface kullanabilir. 
 
-![img_10.png](img_10.png)
+![img_10.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/interface/figures/img_10.png)
