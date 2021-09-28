@@ -102,7 +102,7 @@
 - [SUM MIN MAX COUNT GROUP HAVING](min-max-count-group-having/)
 - [IN NOT IN](in-notin/)
 - [FIND_IN_SET](find-in-set/)
-- [Betweem Kullanımı](between/)
+- [Between Kullanımı](between/)
 
 #### PDO ####
 - [Veritabanı Bağlantısı](pdo-baglanti/)
