@@ -3,7 +3,7 @@
 Kısaca sınıflara bir çok fonksiyonu bir düzene göre bir arada barındıran yapılardır diyebilir.
 
 ### Tanımlamalar
-![img.png](img.png)
+![img.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/oop-giris/figures/img.png)
 
 
 
