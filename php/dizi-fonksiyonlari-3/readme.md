@@ -1,6 +1,6 @@
 ### Dizi Fonksiyonları 3
 
-####in_array();
+#### in_array();
 Bir dizide bir değerin varlığını araştırır.
 ```
 <?php
@@ -13,7 +13,7 @@ if (in_array("mac", $os)) {
 }
 ?>
 ```
-####array_shift();
+#### array_shift();
 Dizini başlangıcından bir eleman çıkarır.
 ```
 <?php
@@ -22,7 +22,7 @@ $kart = array_shift($deste);
 print_r($deste);
 ?>
 ```
-####array_pop();
+#### array_pop();
 Dizinin sonundaki elemanı diziden çıkartır.
 ```
 <?php
@@ -31,7 +31,7 @@ $meyve = array_pop($depo);
 print_r($depo);
 ?>
 ```
-####array_slice();
+#### array_slice();
 Bir dizinin belli bir bölümünü döndürür
 ```
 <?php
@@ -41,7 +41,7 @@ $output = array_slice($input, 2);      // çıktısı: "c", "d", "e"
 $output = array_slice($input, -2, 1);  // çıktısı: "d"
 $output = array_slice($input, 0, 3);   // çıktısı: "a", "b", "c"
 ```
-####array_sum();
+#### array_sum();
 Bir dizideki değerlerin toplamını hesaplar.
 ```
 <?php
@@ -61,7 +61,7 @@ echo "çarpım(a) = " . array_product($a) . "\n";
 echo "çarpım(array()) = " . array_product(array()) . "\n";
 ?>
 ```
-####array_unique();
+#### array_unique();
 Diziden yinelenen değerleri siler.
 ```
 <?php
@@ -78,7 +78,7 @@ $dizi = array("beden" => "XL", "renk" => "sarı");
 print_r(array_values($dizi));
 ?>
 ```
-####array_push();
+#### array_push();
 Belli sayıda elemanı dizinin sonuna ekler.
 ```
 <?php
@@ -87,7 +87,7 @@ array_push($küme, "muz", "portakal");
 print_r($küme);
 ?>
 ```
-####array_unshift();
+#### array_unshift();
 Bir dizinin başlangıcına bir veya daha fazla eleman ekler.
 ```
 <?php
@@ -96,7 +96,7 @@ array_unshift($liste, "elma", "armut");
 print_r($liste);
 ?>
 ```
-####array_keys();
+#### array_keys();
 Bir dizideki tüm anahtarları veya bir anahtar altkümesini döndürür.
 ```
 <?php
