@@ -1,6 +1,6 @@
 # CRUD (CREATE-READ-UPDATE-DELETE)
 
-##### SELECT ifadesi
+#### SELECT ifadesi ####
 
 ``SELECT`` seçilecek ifadeyi belirtir.
 
@@ -9,15 +9,15 @@ SELECT 1; # 1 Sayısını seçer ve getirir.
 SELECT 1+1; # Toplama işlemini yapar.
 ```
 
-##### Seçilen ifadeyi isimlendirmek
+#### Seçilen ifadeyi isimlendirmek ####
 ```
 SELECT 'Şahin' as isim;
 ```
 
-##### Mysql Hazır Tanımlı Fonksiyonlar
+#### Mysql Hazır Tanımlı Fonksiyonlar ####
 
 
-##### Bazı Tarih Fonksiyonları
+#### Bazı Tarih Fonksiyonları ####
 
 ```
 SET @@lc_time_names = 'tr_TR';
@@ -33,14 +33,14 @@ SELECT SEC_TO_TIME( 3600 );
 
 SELECT LAST_DAY( NOW() );
 ```
-
-##### IF Kullanımı 
+ 
+#### IF Kullanımı ####
 
 ```
 SELECT IF(100<200, 'yes', 'no');
 ```
 
-##### AS Kullanımı
+#### AS Kullanımı ####
 
 ```
 SELECT
@@ -51,10 +51,10 @@ DAYOFMONTH('2021-09-02 23:59:59') as ayin_gunu;
 ```
 
 
-##### CRUD İŞLEMLERİ
+#### CRUD İŞLEMLERİ ####
 
 
-##### CREATE 
+#### CREATE ####
 
 ```
 INSERT INTO test SET
@@ -70,7 +70,7 @@ INSERT INTO test (isim, soyisim) VALUES
 ('Muazzez', 'BURAK')
 ```
 
-##### READ
+#### READ ####
 
 ```
 SELECT * FROM test;
@@ -82,13 +82,13 @@ SELECT isim,id FROM test WHERE id = 1;
 SELECT *, CONCAT(isim, ' ', soyisim) as isimsoyisim FROM test;
 ```
 
-##### UPDATE
+#### UPDATE ####
 
 ```
 UPDATE test SET isim = 'Şahin Turgut' WHERE id = 1
 ```
 
-##### DELETE
+#### DELETE ####
 
 ```
 DELETE FROM test WHERE id = 1
