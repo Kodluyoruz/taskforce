@@ -37,7 +37,7 @@
 #### Döngüler ####
 - [for Döngüsü](for-dongusu/)
 - [foreach Döngüsü](foreach-dongusu/)
-- [while ve do while Döngüsü](while-do-while-dongusu/)
+- [While ve Do While Döngüsü](while-do-while-dongusu/)
 
 #### Fonksiyonlar ####
 - [Fonksiyon Tanımlama ve Kullanma](fonksiyon-tanimlama-ve-kullanma/)
