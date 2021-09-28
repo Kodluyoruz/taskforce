@@ -50,4 +50,4 @@ function listAllDir($dir){
 
 listAllDir('.');
 ```
-![img_1.png](img_1.png)
+![img_1.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/dosya-dizin-listeleme/figures/img_1.png)
