@@ -29,7 +29,7 @@
   ]
 }
 ```
-![img.png](img.png)
+![img.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/veri-degisim-formatlari/figures/img.png)
 
 ##### XML
 
@@ -41,12 +41,12 @@ header('Content-type: application/xml; charset="utf8"');
 ```
 ``urun.xml örneği``
 
-![img_1.png](img_1.png)
+![img_1.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/veri-degisim-formatlari/figures/img_1.png)
 
 ##### PHP ile XML Dosyasının Okunması
 
-![img_2.png](img_2.png)
+![img_2.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/veri-degisim-formatlari/figures/img_2.png)
 
 ##### SimpleXMLElement Sınıfı Kullanımı
 
-![img_3.png](img_3.png)
+![img_3.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/veri-degisim-formatlari/figures/img_3.png)
