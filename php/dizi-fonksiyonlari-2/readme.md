@@ -48,7 +48,7 @@ if (array_key_exists('ilk', $dizi)) {
 }
 ?>
 ```
-#### array_map();
+#### array_map(); ####
 Belirtilen dizilerin elemanlarını geriçağırım işlevini uygular.
 ```
 <?php
