@@ -1,5 +1,5 @@
 ### PDO JOIN
-![img.png](img.png)
+![img.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/pdo-join/figures/img.png)
 ##### INNER JOIN
 
 ```
