@@ -1,7 +1,7 @@
 ### Kalıtım
 Bir sınıfın özellik ve methodlarını başka bir sınıfa aktarmamıza olanak sağlar.
 
-![https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/kalitim/figures/img_6.png)
+![img_6.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/kalitim/figures/img_6.png)
 
 ##### parent:: kullanımı
 
