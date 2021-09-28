@@ -33,7 +33,7 @@ RewriteEngine On
 RewriteRule ^b-sayfasi/$ b.php [L,QSA]
 ```
 
-![img.png](img.png)
+![img.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/htaccess/figures/img.png)
 
 ```apacheconf
 RewriteEngine On
@@ -42,7 +42,7 @@ RewriteRule ^bparam/([a-zA-Z0-9_-]+)/?(([0-9]+)/?)?$ b.php?username=$1&id=$2 [L,
 
 ```
 
-![img_1.png](img_1.png)
+![img_1.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/htaccess/figures/img_1.png)
 
 
 #### Özel Hata Sayfası
