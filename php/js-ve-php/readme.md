@@ -73,4 +73,4 @@ if (isset($_GET['getPost'])){
 
 ```
 
-![img.png](img.png)
+![img.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/js-ve-php/figures/img.png)
