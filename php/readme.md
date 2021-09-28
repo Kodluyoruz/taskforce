@@ -147,6 +147,6 @@
 #### Todo App Projesi ####
 - [Klasör Yapısı, Routing, Tema Entegrasyonu ve Genel Ayarlar](todolist-project-genelayarlar/)
 - [Giriş Çıkış İşlemleri ve Kullanıcı Tablosunun Oluşturulması](todolist-project-kullanıcıtablosu/)
-- [Kategori Oluşturma, Listeleme, Silme ve GÜncelleme](todolist-project-kategori/)
+- [Kategori Oluşturma, Listeleme, Silme ve Güncelleme](todolist-project-kategori/)
 
 
