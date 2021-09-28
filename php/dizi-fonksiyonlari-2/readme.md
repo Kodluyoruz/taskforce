@@ -1,6 +1,6 @@
 # Dizi Fonksiyonları 2
 
-#### shuffle()
+#### shuffle() ####
 Bir diziyi karıştırır.
 ```
 $sayılar = range(1, 20);
@@ -9,7 +9,7 @@ foreach ($sayılar as $sayı) {
     echo "$sayı ";
 }
 ```
-#### array_combine()
+#### array_combine() ####
 Anahtarlar için bir dizi, değerler için ise başka bir dizi kullanarak bir ilişkisel dizi oluşturur.
 ```
 <?php
@@ -20,7 +20,7 @@ $c = array_combine($a, $b);
 print_r($c);
 ?>
 ```
-#### array_count_values()
+#### array_count_values() ####
 Bir dizideki tüm değerleri sayar.
 ```
 <?php
@@ -28,7 +28,7 @@ $array = array(1, "hello", 1, "world", "hello");
 print_r(array_count_values($array));
 ?>
 ```
-#### array_flip();
+#### array_flip(); ####
 Bir dizideki anahtarlarla değerleri yer değiştirir.
 ```
 <?php
@@ -38,7 +38,7 @@ $flipped = array_flip($input);
 print_r($flipped);
 ?>
 ```
-#### array_key_exists();
+#### array_key_exists(); ####
 Belirtilen anahtar veya indis dizide var mı diye bakar.
 ```
 <?php
