@@ -1,4 +1,4 @@
-### Dizi Fonksiyonları 2
+# Dizi Fonksiyonları 2
 
 #### shuffle()
 Bir diziyi karıştırır.
