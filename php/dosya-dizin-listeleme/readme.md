@@ -25,7 +25,7 @@ $files = glob('*.php');
 $files = glob('*.{php,txt}', GLOB_BRACE);
 // Bulunduğumuz dizindeki sadece .php uzantılı dosyaları listeler.
 ```
-![img.png](img.png)
+![img.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/dosya-dizin-listeleme/figures/img.png)
 ```
 $files = glob('*', GLOB_ONLYDIR); 
 // Bulunduğumuz dizindeki sadece dizinleri listeler.
