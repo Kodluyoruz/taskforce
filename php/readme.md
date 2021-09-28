@@ -122,9 +122,6 @@
 #### Veri Değişim Formatları ####
 - [Veri Değişim Formatları](veri-degisim-formatlari/)
 
-#### Regex ####
-- [Regex](regex/)
-
 #### Hata Yönetimi ####
 - [Hata Yönetimi](hata-yonetimi/)
 
