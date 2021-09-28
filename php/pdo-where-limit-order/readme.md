@@ -1,6 +1,6 @@
 # PDO WHERE - LIMIT - ORDER
 
-##### WHERE
+#### WHERE ####
 
 - = Eşit Değilse
 - != Eşit Değilse
@@ -20,7 +20,7 @@ if ($query->rowCount()) {
 }
 ```
 
-##### ORDER BY
+#### ORDER BY ####
 
 ```
 $sql = "SELECT * FROM test ORDER BY isim ASC";
@@ -31,7 +31,7 @@ if ($query->rowCount()) {
 }
 ```
 
-##### LIMIT
+#### LIMIT ####
 
 ```
 $sql = "FROM test LIMIT 3,2";
