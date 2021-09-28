@@ -19,7 +19,7 @@
 - [Sabitler](sabitler/)
 - [Veri Türleri](veri-turleri/)
 
-#### OPeratörler ####
+#### Operatörler ####
 - [Aritmetik Operatörler](aritmetik-operatorler/)
 - [Karşılaştırma Operatörleri](karsilastirma-operatorleri/)
 - [Artırma ve Azaltma Operatörleri](artirme-ve-azaltma-operatorleri/)
@@ -37,10 +37,10 @@
 #### Döngüler ####
 - [for Döngüsü](for-dongusu/)
 - [foreach Döngüsü](foreach-dongusu/)
-- [while ve do while Döngüsü]while-do-while-dongusu
+- [while ve do while Döngüsü](while-do-while-dongusu/)
 
 #### Fonksiyonlar ####
-- [Fonksiyon Tanımlama ve Kullanma]fonksiyon-tanimlama-ve-kullanma
+- [Fonksiyon Tanımlama ve Kullanma](fonksiyon-tanimlama-ve-kullanma/)
 - [Anonim Fonksiyonlar](anonim-fonksiyonlar/)
 - [Recursive Fonksiyonlar](recursive-fonksiyonlar/)
 - [Static Kavramı](static-tanimi/)
@@ -74,7 +74,7 @@
 - [Session](session/)
 - [Cookie](cookie/)
 - [Login Pratik](login-pratik/)
-- [Oturum Çerez Yönetimi Ödev 1]oturum-cerez-yonetimi-odev-1
+- [Oturum Çerez Yönetimi Ödev 1](oturum-cerez-yonetimi-odev-1/)
 - [Oturum Çerez Yönetimi Ödev 2](oturum-cerez-yonetimi-odev-2/)
 
 #### Tarih ve Zaman İşlemleri ####
@@ -84,67 +84,67 @@
 - [Nesne Yönelimli Programlama Giriş](oop-giris/)
 - [Erişilebilirlik](erisilebilirlik/)
 - [Kurucu ve Yıkıcı Methodlar](kurucu-yikici-methodlar/)
-- [Kalıtım)(kalitim/)
+- [Kalıtım](kalitim/)
 - [Final](final/)
 - [Static Kullanımı](static/)
 - [Abstract Kullanımı](abstract/)
-namespace
-interface
-zincirleme
-php-oop-odev-1
+- [Namespace Kullanımı](namespace/)
+- [Interface Kullanımı](interface/)
+- [Zincirleme Method Kullanımı](zincirleme/)
+- [Ödev](php-oop-odev-1/)
 
 #### Mysql ####
-mysql-giris
-veri-tipleri-ve-tablo-islemleri
-mysql-select-ve-crud
-where-limit-order
-like
-min-max-count-group-having
-in-notin
-find-in-set
-between
+- [Mysql'e Giriş ve Veritabanı İşlemleri](mysql-giris/)
+- [Veri Türleri ve Tablo İşlemleri](veri-tipleri-ve-tablo-islemleri/)
+- [SELECT, CRUD](mysql-select-ve-crud/)
+- [Where Limit Order](where-limit-order/)
+- [Like](like/)
+- [SUM MIN MAX COUNT GROUP HAVING](min-max-count-group-having/)
+- [IN NOT IN](in-notin/)
+- [FIND_IN_SET](find-in-set/)
+- [Betweem Kullanımı](between/)
 
 #### PDO ####
-pdo-baglanti
-pdo-crud
-pdo-where-limit-order
-pdo-like
-pdo-min-max-count-having
-pdo-in-notin
-pdo-find-in-set
-pdo-between
-pdo-join
-pdo-group
+- [PDO Bağlantı](pdo-baglanti/)
+- [PDO Crud](pdo-crud/)
+- [Koşullama Limit Sıralama](pdo-where-limit-order/)
+- [Verilerde Arama](pdo-like/)
+- [MIN, MAX, COUNT ve GROUP BY HAVING Kullanımı](pdo-min-max-count-having/)
+- [IN NOT IN](pdo-in-notin/)
+- [FIND IN SET](pdo-find-in-set/)
+- [Between](pdo-between/)
+- [INNER JOIN LEFT JOIN RIGHT JOIN](pdo-join/)
+- [GROUP BY](pdo-group/)
 
 #### MVC Yapısı ####
-mvc
+- [MVC Yapısı](mvc/)
 
 #### Veri Değişim Formatları ####
-veri-degisim-formatlari
+- [Veri Değişim Formatları](veri-degisim-formatlari/)
 
 #### Regex ####
-regex
+- [Regex](regex/)
 
 #### Hata Yönetimi ####
-hata-yonetimi
+- [Hata Yönetimi](hata-yonetimi/)
 
 #### Güvenlik ####
-guvenlik
+- [Güvenlik](guvenlik/)
 
 #### Curl Kullanımı ####
-curl
+- [Curl Kullanımı](curl/)
 
 #### Mail İşlemleri ####
-mail-islemleri
+- [Mail İşlemleri](mail-islemleri/)
 
 #### htaccess ####
-htaccess
+- [htaccess](htaccess/)
 
 #### PHP ve JS ####
-js-ve-php
+- [PHP ve JS](js-ve-php/)
 #### Proje-1 TodoApp Uygulaması ####
-todolist-project-genelayarlar
-todolist-project-kullanıcıtablosu
-todolist-project-kategori
+- [Klasör Yapısı, Routing, Tema Entegrasyonu ve Genel Ayarlar](todolist-project-genelayarlar/)
+- [Giriş Çıkış İşlemleri ve Kullanıcı Tablosunun Oluşturulması](todolist-project-kullanıcıtablosu/)
+- [Kategori Oluşturma, Listeleme, Silme ve GÜncelleme](todolist-project-kategori/)
 
 
