@@ -11,11 +11,11 @@ Kısaca sınıflara bir çok fonksiyonu bir düzene göre bir arada barındıran
 
 ``$this`` içinde bulunulan nesneyi temsil eder.
 
-![img_2.png](img_2.png)
+![img_2.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/oop-giris/figures/img_2.png)
 
 ### Özelliğe Değer Atama
 
-![img_3.png](img_3.png)
+![img_3.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/oop-giris/figures/img_3.png)
 
 ### Sabit Tanımlama
 ```
