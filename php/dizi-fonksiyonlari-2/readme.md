@@ -28,7 +28,7 @@ $array = array(1, "hello", 1, "world", "hello");
 print_r(array_count_values($array));
 ?>
 ```
-####array_flip();
+#### array_flip();
 Bir dizideki anahtarlarla değerleri yer değiştirir.
 ```
 <?php
@@ -38,7 +38,7 @@ $flipped = array_flip($input);
 print_r($flipped);
 ?>
 ```
-####array_key_exists();
+#### array_key_exists();
 Belirtilen anahtar veya indis dizide var mı diye bakar.
 ```
 <?php
@@ -48,7 +48,7 @@ if (array_key_exists('ilk', $dizi)) {
 }
 ?>
 ```
-####array_map();
+#### array_map();
 Belirtilen dizilerin elemanlarını geriçağırım işlevini uygular.
 ```
 <?php
@@ -62,7 +62,7 @@ $b = array_map('cube', $a);
 print_r($b);
 ?>
 ```
-####array_filter();
+#### array_filter();
 Bir dizinin elemanlarını bir geriçağırım işleviyle süzgeçten geçirir.
 ```
 <?php
@@ -104,7 +104,7 @@ Array
     [6] => 12
 
 ```
-####array_merge();
+#### array_merge();
 Belirtilen dizileri ardarda ekleyerek yeni bir dizi oluşturur.
 ```
 <?php
@@ -114,7 +114,7 @@ $result = array_merge($array1, $array2);
 print_r($result);
 ?>
 ```
-####array_rand();
+#### array_rand();
 Bir diziden belli sayıda rasgele anahtar döndürür.
 ```
 <?php
@@ -124,7 +124,7 @@ echo $input[$rand_keys[0]] . "\n";
 echo $input[$rand_keys[1]] . "\n";
 ?>
 ```
-####array_reverse();
+#### array_reverse();
 Diziyi tersine sıralayıp döndürür.
 ```
 <?php
@@ -137,7 +137,7 @@ print_r($normal);
 print_r($korunan);
  ?>
 ```
-####array_search();
+#### array_search();
 Bir dizide belirtilen değeri arar ve bulursa ilgili ilk anahtarı döndürür.
 ```
 <?php
