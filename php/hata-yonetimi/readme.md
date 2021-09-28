@@ -43,7 +43,7 @@ try {
 
 ?>
 ```
-![img.png](img.png)
+![img.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/hata-yonetimi/figures/img.png)
 
 ##### error_reporting()
 
@@ -74,20 +74,20 @@ ini_set('error_reporting', E_ALL);
 
 ### set_error_handler
 
-![img_2.png](img_2.png)
+![img_2.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/hata-yonetimi/figures/img_2.png)
 
 *ÖZEL ERROR SAYFAMIZ*
 
-![img_3.png](img_3.png)
+![img_3.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/hata-yonetimi/figures/img_3.png)
 
 *SONUÇ:*
 
-![img_4.png](img_4.png)
+![img_4.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/hata-yonetimi/figures/img_4.png)
 
 ### error_get_last - register_shutdown_function
 
-![img_5.png](img_5.png) 
+![img_5.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/hata-yonetimi/figures/img_5.png) 
 
 *FATAL ERROR*
 
-![img_6.png](img_6.png)
+![img_6.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/hata-yonetimi/figures/img_6.png)
