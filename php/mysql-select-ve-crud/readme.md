@@ -1,4 +1,4 @@
-### CRUD (CREATE-READ-UPDATE-DELETE)
+# CRUD (CREATE-READ-UPDATE-DELETE)
 
 ##### SELECT ifadesi
 
@@ -9,7 +9,7 @@ SELECT 1; # 1 Sayısını seçer ve getirir.
 SELECT 1+1; # Toplama işlemini yapar.
 ```
 
-#####Seçilen ifadeyi isimlendirmek
+##### Seçilen ifadeyi isimlendirmek
 ```
 SELECT 'Şahin' as isim;
 ```
@@ -17,7 +17,7 @@ SELECT 'Şahin' as isim;
 ##### Mysql Hazır Tanımlı Fonksiyonlar
 
 
-###### Bazı Tarih Fonksiyonları
+##### Bazı Tarih Fonksiyonları
 
 ```
 SET @@lc_time_names = 'tr_TR';
