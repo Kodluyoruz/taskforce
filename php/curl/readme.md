@@ -46,10 +46,10 @@ foreach ($eslesme[1] as $item) {
     echo ++$count.' - '.$item."<br>---<br>";
 }
 ```
-![img_1.png](img_1.png)
+![img_1.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/curl/figures/img_1.png)
 
 ### POST Göndermek
 
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
+![img_2.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/curl/figures/img_2.png)
+![img_3.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/curl/figures/img_3.png)
 
