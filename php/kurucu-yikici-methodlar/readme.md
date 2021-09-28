@@ -9,8 +9,8 @@ public function __destruct(){
 ```
 
 Bir sınıf başlatıldığında çalışacak ilk method ``__construct()`` son method ``__destruct()`` methodlarıdır.
-![img_4.png](img_4.png)
+![img_4.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/kurucu-yikici-methodlar/figures/img_4.png)
 
 #### __construct()'a parametre gönderilebilir. Gönderilen parametreleri __construct' sınıfı başlatırken iletebiliriz.
 
-![img_5.png](img_5.png)
+![img_5.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/kurucu-yikici-methodlar/figures/img_5.png)
