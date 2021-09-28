@@ -144,7 +144,7 @@
 - [PHP ve JS](js-ve-php/)
 
 
-#### Müşteri Yönetim Sistemi Projesi ####
+#### Todo App Projesi ####
 - [Klasör Yapısı, Routing, Tema Entegrasyonu ve Genel Ayarlar](todolist-project-genelayarlar/)
 - [Giriş Çıkış İşlemleri ve Kullanıcı Tablosunun Oluşturulması](todolist-project-kullanıcıtablosu/)
 - [Kategori Oluşturma, Listeleme, Silme ve GÜncelleme](todolist-project-kategori/)
