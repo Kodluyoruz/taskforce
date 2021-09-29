@@ -38,6 +38,7 @@ Kapama etiketi kullanmadığınız durumda son komutu noktalı virgül(;) ile bi
     echo "İlk echo komutu";
     echo "İkinci echo komutu";
     echo "Üçüncü echo komutu";
+?>
 ```
 
 Kısa echo kullanımı.
@@ -72,4 +73,5 @@ PHP, 'C', 'C++' ve Unix kabuk tarzı (Perl tarzı) açıklamaların hepsini dest
        bir açıklamadır */
     
     # Bu tek satırlık kabuk tarzı açıklamadır.
+?>
 ```
