@@ -10,7 +10,7 @@ SELECT 1+1; # Toplama işlemini yapar.
 ```
 
 ##### Seçilen ifadeyi isimlendirmek 
-```
+```sql
 SELECT 'Şahin' as isim;
 ```
 
@@ -19,7 +19,7 @@ SELECT 'Şahin' as isim;
 
 ##### Bazı Tarih Fonksiyonları 
 
-```
+```sql
 SET @@lc_time_names = 'tr_TR';
 
 SELECT
@@ -36,13 +36,13 @@ SELECT LAST_DAY( NOW() );
  
 ##### IF Kullanımı 
 
-```
+```sql
 SELECT IF(100<200, 'yes', 'no');
 ```
 
 ##### AS Kullanımı
 
-```
+```sql
 SELECT
 DAYNAME(NOW()) as gun_ismi,
 DAYOFWEEK('2021-09-02 23:59:59') as haftanin_gunu,
@@ -56,13 +56,13 @@ DAYOFMONTH('2021-09-02 23:59:59') as ayin_gunu;
 
 ##### CREATE 
 
-```
+```sql
 INSERT INTO test SET
 isim = 'Sabahattin',
 soyisim = 'BURAK'
 ```
 
-```
+```sql
 INSERT INTO test (isim, soyisim) VALUES 
 ('Volkan', 'ERSEVER'),
 ('Filiz', 'ERSEVER'),
@@ -72,7 +72,7 @@ INSERT INTO test (isim, soyisim) VALUES
 
 ##### READ 
 
-```
+```sql
 SELECT * FROM test;
 
 SELECT isim,id FROM test;
@@ -84,13 +84,13 @@ SELECT *, CONCAT(isim, ' ', soyisim) as isimsoyisim FROM test;
 
 ##### UPDATE 
 
-```
+```sql
 UPDATE test SET isim = 'Şahin Turgut' WHERE id = 1
 ```
 
 ##### DELETE 
 
-```
+```sql
 DELETE FROM test WHERE id = 1
 ```
 
