@@ -1,7 +1,8 @@
 # Mantıksal Operatörler
 
 **Operatörlerimiz**
-- ![Operatörler](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/mantiksal-operatorler/figures/php-mantıksal-operatör.png)
+![Operatörler](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/mantiksal-operatorler/figures/php-mantıksal-operatör.png)
+
 Bu operatörlerde matematiksel olarak yaptıklarını programlama alanında da yaparlar.
 
 Konuyu kavramanız için teorik bir örnek vermek istiyorum;
