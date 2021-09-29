@@ -1,13 +1,7 @@
 # Mantıksal Operatörler
 
 **Operatörlerimiz**
-
-| İsim     	| Operatör	|
-|-----------|-----------|
-| Ve      	| &&   	    |
-|   veya  	| \|\| 	    |
-| değilse 	| !    	    |
-
+- ![Operatörler](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/mantıksal-operatorler/figures/php-mantıksal-operatör.png)
 Bu operatörlerde matematiksel olarak yaptıklarını programlama alanında da yaparlar.
 
 Konuyu kavramanız için teorik bir örnek vermek istiyorum;
@@ -41,6 +35,7 @@ $b = 2;
 
 echo ($a > $b) && ($a != $b); // Hem $a > $b hem de $a != $b durumları true sonucu verdiğinden; sonuç true olacaktır.
 echo ($a > $b) || ($a == $b); // Hem $a > $b true $a == $b false sonucu verdiğinden; Veya(||) koşulunda sonuç true olacaktır.
+?>
 ```
 
 
