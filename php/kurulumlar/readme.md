@@ -1,3 +1,5 @@
+# Çalışma Ortamı
+
 Php geliştirmeye başlamamız için ilk olarak yerel bilgisayarımız için geliştme ortamımızı hazırlamamız gerekiyor.
 
 İhtiyacımız olan; web sunucusu, php yorumlayıcı ve mysql veritabanı sunucusu sağlayabilmemiz için geliştirilmiş uygulamalardan birini bilgisayarınıza yükleyebilirsiniz.
