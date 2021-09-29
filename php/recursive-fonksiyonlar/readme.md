@@ -1,4 +1,4 @@
-### Recursive Fonksiyonlar
+# Recursive Fonksiyonlar
 
 Recursive (öz yinelemeli) fonksiyonlar yani kendi kendini çağıran fonksiyonlardır.
 
@@ -80,5 +80,5 @@ function categoryList(array $categories, int $parent = 0) : string
 
 echo categoryList($categories);
 ```
-##### Sonuç:
+## Sonuç:
 ![img.png](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/php/recursive-fonksiyonlar/figures/img.png)
