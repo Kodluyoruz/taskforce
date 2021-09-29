@@ -1,4 +1,4 @@
-#### Anonim Fonksiyonlar
+# Anonim Fonksiyonlar
 
 Anonim fonksiyonlar, isimsiz fonksiyonlardır.
 
@@ -22,12 +22,12 @@ echo $topla(1,2);
 
 ```
 
-Anonim fonksiyon ile normal fonksiyon tanımı arasında iki önemli fark bulunuyor:
+### Anonim fonksiyon ile normal fonksiyon tanımı arasında iki önemli fark bulunuyor:
 
 - Anonim fonksiyonlar isimsizdir.
 - Anonim fonksiyonlar tanımlanırken noktalı virgün ile biter.
 
-#### Anonim fonksiyonlarla örnek olarak şunları yapabilirsiniz.
+### Anonim fonksiyonlarla örnek olarak şunları yapabilirsiniz.
 
 - Bir izide birçok farklı Anonim fonksiyon saklayabilirsiniz.
 - Bir fonksiyona parametre olarak aktarabilirsiniz.
