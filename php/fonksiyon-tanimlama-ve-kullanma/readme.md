@@ -26,7 +26,7 @@ Fonskiyonlar "return" komutu ile geriye değer döndürür.
 ```
 function selamla()
 {
-   return "Selam, nasılsın?';
+   return "Selam, nasılsın?";
 }
 
 $donen_deger = selamla(); 
