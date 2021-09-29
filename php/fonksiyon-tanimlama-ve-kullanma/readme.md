@@ -1,4 +1,4 @@
-### Fonksiyon Tanımlama ve Kullanma
+# Fonksiyon Tanımlama ve Kullanma
 
 Fonksiyonlar kısaca bir veya daha fazla komutun içinde yer aldığı yapılardır.
 
