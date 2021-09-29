@@ -4,7 +4,7 @@
 
 ``SELECT`` seçilecek ifadeyi belirtir.
 
-```
+```sql
 SELECT 1; # 1 Sayısını seçer ve getirir.
 SELECT 1+1; # Toplama işlemini yapar.
 ```
