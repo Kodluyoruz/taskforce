@@ -1,4 +1,4 @@
-##Php Etiketleri
+## Php Etiketleri
 
 PHP bir dosyayı çözümlerken, hangi bölümü yorumlayıp hangi bölümü yorumlamadan geçeceğine karar vermek için <?php ve ?> açılış ve kapanış etiketlerine bakar. Bu şekilde çözümleme PHP'nin her çeşit farklı belgeye gömülmesini sağlar, çünkü bir çift açılış ve kapanış etiketinin dışındaki her şey PHP çözümleyicisi tarafından gözardı edilir.
 
