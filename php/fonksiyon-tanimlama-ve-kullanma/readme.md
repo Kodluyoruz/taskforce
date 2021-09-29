@@ -26,7 +26,7 @@ Fonskiyonlar "return" komutu ile geriye değer döndürür.
 ```
 function selamla()
 {
-   return "Selam, nasılsın?
+   return "Selam, nasılsın?';
 }
 
 $donen_deger = selamla(); 
@@ -36,7 +36,7 @@ echo $donen_deger;
 // Ekran Çıktısı
 Selam, nasılsın?
 ```
-####Fonksiyonlara parametre ekleme
+## Fonksiyonlara parametre ekleme
 Fonksiyonlar dışarıdan veri içerisine vereceğimiz parametreler ile alabilir.
 ```
 function fonksiyon_adı($parametre)
@@ -44,7 +44,7 @@ function fonksiyon_adı($parametre)
    echo $parametre;
 }
 ```
-####Parametrelere varsayılan değer atama
+## Parametrelere varsayılan değer atama
 Parametrelere varsayılan değerler atayarak değer girilmediği durumları ele alabiliriz.
 ```
 
