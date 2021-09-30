@@ -97,7 +97,9 @@
 
 
 
-3. Aşağıdaki kodun çıktısı hangisidir?
+## Koşullu İfadeler
+
+1. Aşağıdaki kodun çıktısı hangisidir?
 ```php
 <?php
     $a = 6;
@@ -121,7 +123,6 @@
 - ``2. işlem çalıştı.``
 - ``4. işlem çalıştı.``
 - ``Hiç biri çalışmadı.``
-
 
 ## Diziler
 
@@ -435,3 +436,62 @@ echo f(3) * f(2);
    - URL yapısını değiştirme.
    - Açılış sayfasını ayarlarlama.
    - Tümü yapılabilir. (DOĞRU)
+
+
+## HTML ve PHP
+
+Aşağıdaki bilgilerden hangisi yanlıştır?
+
+- .html uzantılı dosyalarda PHP kodu yazılabilir. (DOĞRU)
+- .php uzantılı dosyalarda HTML kodu yazılabilir.
+- Php ile ` <?php echo "<strong></storng>"  ?> ` gibi ile html içeren ifadeler yazılabilir.
+- Bir php dosyasının tamamı HTML içerebilir.
+
+## Oturum ve Çerez Yönetimi
+
+Aşağıdaki ifadelerden hangisi bir oturum başlatır?
+
+- `session_start()` (DOĞRU)
+- `start_session()`
+- `session_run()`
+- `session()`
+
+Aşağıdaki ifadelerden hangisi bir oturuma bir değer ekler?
+
+- `$_SESSION['foo'] = 'bar' ` (DOĞRU)
+- `$_['SESSION] = 'Test'`
+- `$SESSION = 'Test'`
+- `$SESSION['foo'] = 'bar' `
+
+Aşağıdaki ifadelerden hangisi yanlıştır?
+
+- COOKIE server tarafında tutulur. (DOĞRU)
+- COOKIE clientın bilgisayarında tutulur.
+- COOKIE değerleri client tarafından silinebilir.
+- COOKIE değerleri süre ile sınırlanabilir.
+
+## CURL
+
+Aşağıdaki ifadelerden hangisi bir curl oturumu başlatır?
+
+- `curl_init()` (DOĞRU)
+- `init_curl()`
+- `curl_start()`
+- `curl()`
+
+
+cURL işlemlerinde hedef yapılan isteğin sonucunu değişkene aktarmak için hangi özellik eklenmelidir?
+
+- `curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);` (DOĞRU)
+- `curl_setopt($ch, CURLOPT_RETURN, false);`
+- `curl_setopt($ch, RETURNTRANSFER, true);`
+- `curl_setopt($ch, RETURNTRANSFER, false);`
+
+## JS ve PHP
+
+Aşağıdaki ifadelerden hangisi yanlıştır?
+
+- .js uzantılı dosyalarda PHP kodları yazılabilir. (DOĞRU)
+- .php uzantılı dosyalarda JS kodları yazmak mümkündür.
+- HTML içerisinde JS ile tanımlanan değişkenler PHP ile doldurulabilir.
+- JS ve JS Frameworkleri için PHP bir backend alternatifi olabilir.
