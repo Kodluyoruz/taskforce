@@ -137,5 +137,5 @@
 
 ### [Müşteri Yönetim Sistemi Projesi](cms-project/readme.md)
 
-### [Projeler](/projeler.md)
+### [Projeler](projeler.md)
 
