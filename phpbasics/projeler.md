@@ -1,4 +1,4 @@
-#Giriş Seviyesi Proje
+# Giriş Seviyesi Proje
 
 Bu projede senden beklediğim basit bir sepet uygulaması olacak.
 
@@ -9,7 +9,7 @@ Bu projede senden beklediğim basit bir sepet uygulaması olacak.
 - [x] Birden fazla ürün sepete eklenebilir.
 - [x] Ürünlerin tamamı yada bir tanesi sepetten çıkarılabilir.
 
-#Orta Seviye Proje
+# Orta Seviye Proje
 
 Bu projede sizden beklenen bir tweet uygulaması olacak.
 
@@ -20,7 +20,7 @@ Bu projede sizden beklenen bir tweet uygulaması olacak.
 - [x] Kayıtlı olmayan kullanıcılar tweet okuyabilir ama tweet atamaz.
 - [x] Son gönderilen tweet sayfanın başında gösterilir.
 
-#İleri Seviye Proje 1
+# İleri Seviye Proje 1
 
 Bu projede sizden beklenen bir router sınıfı yazman olacak. Müşteri Yönetim Sistemi uygulamasında kullandığımız router sınıfını inceleyip feyz alabilirsin.
 
@@ -31,7 +31,7 @@ Bu projede sizden beklenen bir router sınıfı yazman olacak. Müşteri Yöneti
 - [x] Route üzerinde regex ile parametre alabilme.
 - [x] Route oluştururken bir callback fonksiyon veya Class@Method çağırabilme.
 
-#İleri Seviye Proje 2
+# İleri Seviye Proje 2
 
 Bu projede sizden beklenen daha gelişmir bir tweet uygulaması olacak.
 Eğer istersen bir önceki uygulamanın üzerine geliştirme yapabilirsin.
