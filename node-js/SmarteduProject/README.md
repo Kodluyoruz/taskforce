@@ -19,5 +19,5 @@ başlıkları:
 
 Projede kullanılacak dosyaları aşağıdaki linklerden indirebilirsiniz:
 
-#### [Proje Başlangıç Dosyası](https://drive.google.com/file/d/1vUKapj9nEU27_4DKskiaQxL_Ocif79s7/view?usp=sharing)
+#### [Proje Başlangıç Dosyası](https://drive.google.com/drive/folders/1JQRLo-IZG-B3536rJSZ2jZeKfkcjNcA4?usp=sharing)
 #### [Proje Template Kaynak](https://html.design/download/smartedu-education-template/)
