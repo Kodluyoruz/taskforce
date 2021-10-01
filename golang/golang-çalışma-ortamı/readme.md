@@ -4,4 +4,4 @@
 Kurulum dosyasını açtıktan sonra kurulum yolunuzu seçtikten sonra rahatlıkla kurabilirsiniz.
 Windows için, Window + R yaptıktan sonra gelen ekrana cmd yazarak komut satırını açabilirsiniz. Komut satırı açıldıktan sonra ise go yazdığınız aşağıdaki şekilde bir ekran karşılıcak.
 
-![go-console](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/golang/golang-çalışma-ortamı/figures/çalışma-ortamı.png)
+![go-console](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/golang/golang-çalışma-ortamı/figures/çalışma-ortamı.PNG)
