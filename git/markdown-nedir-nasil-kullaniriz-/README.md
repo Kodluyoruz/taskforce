@@ -73,7 +73,7 @@ console.log("Hello, World!);
 
 **Çıktı:**
 
----
+`---`
 
 Size yukarıdaki gibi bir çizgi üretir.
 
