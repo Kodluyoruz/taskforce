@@ -2,7 +2,7 @@
 
 GIT temel komutlarını kullanabilmek için Mac OS X'de Terminal uygulamasını, Windows'da ise GIT Bash'i açarak aşağıdaki komutları çalıştırmanız gerekir.
 
-**Örnek Terminal görüntüsü**
+**Örnek Terminal görüntüsü
 ![terminal](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/git-bash-ile-git-temel-komutlari/figures/1-terminal.jpeg)
 
 **Örnek  GIT Bash görüntüsü
@@ -70,14 +70,14 @@ Yeni eklenen veya üzerinde değişiklik yapılan dosyaları **staged** ortamın
 $ git add <dosya veya klasor_name>
 ```
 
-**Tek seferde bütün dosyaları eklemek için ise:**
+Tek seferde bütün dosyaları eklemek için ise:
 ```bash
 $ git add .  veya  $ git add *  veya   $ git add -A .
 ```
 
 Buradaki `-A` (all) tümü anlamındadır. `.` ise tüm dosya uzantılarını ifade eder.
 
-#### `git rm`
+### `git rm`
 Staged ortamına eklenmiş bir dosyanın takibinin bırakılması yani **untracked** (izlenmeyen) hale getirilmesi sağlayan komuttur.
 
 ```bash
@@ -89,7 +89,7 @@ Dosyayı klasörden silmek istiyorsak eğer, aşağıdaki komutu kullanılırız
 $ git rm <dosya veya klasor_name>
 ```
 
-### git status
+### `git status`
 Üzerinde çalışılan projenin o anki durumu hakkında bilgi verir. Yapılan değişiklikler, eklenen ve silinen dosyalar gibi bilgiler listelenir.
 
 ```bash
@@ -193,7 +193,7 @@ $ git push origin master
 $ git remote add origin http://uzak_deponun_adresi.git
 ```
 
-### git diff
+### `git diff`
 Repository üzerinde yapılan değişikliklerden sonra dosyalar arasında oluşan farklılıkları göterir.
 
 **Çalışma dizini ile repository (HEAD) arasındaki farklılıkları görmek için:**
@@ -201,7 +201,7 @@ Repository üzerinde yapılan değişikliklerden sonra dosyalar arasında oluşa
 $ git diff HEAD
 ```
 
-**İki commit arasındaki farklılıkları görmek için:**
+**İki commit arasındaki farklılıkları görmek için:
 ```bash
 $ git diff <commit_id_1>..<commit_id_2>
 ```
