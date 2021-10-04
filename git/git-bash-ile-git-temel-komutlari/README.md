@@ -52,9 +52,9 @@ $ git config --list
 
 **Not:**  Eğer windows işletim sistemi kullanıyorsanız, böyle bir hata ile karşılaşabilirsiniz. 
 
-> ```bash
-> warning: LF will be replaced by CRLF in kaynak/dosya/yolu
-> ```
+```bash
+warning: LF will be replaced by CRLF in kaynak/dosya/yolu
+```
 
 **Bu hatanın çözümü için aşağıdaki komutu kullanabilirsiniz.**
 
