@@ -134,20 +134,19 @@
 #### Mail İşlemleri (PhpMailer Sınıfı) ####
 - [Mail İşlemleri (PhpMailer Sınıfı)](mail-islemleri/)
 
-#### PHP Ödev Projeler ####
-- [Kolay](php-proje-easy/)
-- [Orta](php-proje-medium/)
-- [Zor](php-proje-hard/)
 #### .htaccess Kullanımı ####
 - [.htaccess Kullanımı](htaccess/)
 
 #### PHP ve JS ####
 - [PHP ve JS](js-ve-php/)
 
-
 #### Todo App Projesi ####
 - [Klasör Yapısı, Routing, Tema Entegrasyonu ve Genel Ayarlar](todolist-project-genelayarlar/)
 - [Giriş Çıkış İşlemleri ve Kullanıcı Tablosunun Oluşturulması](todolist-project-kullanıcıtablosu/)
 - [Kategori Oluşturma, Listeleme, Silme ve Güncelleme](todolist-project-kategori/)
 
-
+#### PHP Ödev Projeler ####
+- [Sepet Uygulaması](php-proje-sepet/)
+- [Tweet Uygulaması](php-proje-tweet/)
+- [Router Sınıfı Oluşturma](php-proje-router/)
+- [Tweet Uygulaması 2](php-proje-tweet-advanced/)
