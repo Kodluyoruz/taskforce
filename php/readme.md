@@ -134,6 +134,10 @@
 #### Mail İşlemleri (PhpMailer Sınıfı) ####
 - [Mail İşlemleri (PhpMailer Sınıfı)](mail-islemleri/)
 
+#### PHP Ödev Projeler ####
+- [Kolay](php-proje-easy/)
+- [Orta](php-proje-medium/)
+- [Zor](php-proje-hard/)
 #### .htaccess Kullanımı ####
 - [.htaccess Kullanımı](htaccess/)
 
