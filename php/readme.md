@@ -144,9 +144,3 @@
 - [Klasör Yapısı, Routing, Tema Entegrasyonu ve Genel Ayarlar](todolist-project-genelayarlar/)
 - [Giriş Çıkış İşlemleri ve Kullanıcı Tablosunun Oluşturulması](todolist-project-kullanıcıtablosu/)
 - [Kategori Oluşturma, Listeleme, Silme ve Güncelleme](todolist-project-kategori/)
-
-#### PHP Ödev Projeler ####
-- [Sepet Uygulaması](php-proje-sepet/)
-- [Tweet Uygulaması](php-proje-tweet/)
-- [Router Sınıfı Oluşturma](php-proje-router/)
-- [Tweet Uygulaması 2](php-proje-tweet-advanced/)
