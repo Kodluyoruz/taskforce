@@ -98,8 +98,8 @@ Yapabileceğiniz ekstra alıştırmalar.
 
 ## Kaynaklar
 
-- [https://www.w3schools.com/css/exercise.asp?filename=exercise_howto2](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto2)
-- [https://www.w3schools.com/css/exercise.asp?filename=exercise_howto3](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto3)
-- [https://www.w3schools.com/css/exercise.asp?filename=exercise_howto4](https://www.w3schools.com/css/exercise.asp?filename=exercise_howto4)
-- [http://zinzinzibidi.com/web_tasarim/css3/css_in_yapisi](http://zinzinzibidi.com/web_tasarim/css3/css_in_yapisi)
-- [https://varvy.com/inline-small-css.html](https://varvy.com/inline-small-css.html)
+- https://www.w3schools.com/css/exercise.asp?filename=exercise_howto2
+- https://www.w3schools.com/css/exercise.asp?filename=exercise_howto3
+- https://www.w3schools.com/css/exercise.asp?filename=exercise_howto4
+- http://zinzinzibidi.com/web_tasarim/css3/css_in_yapisi
+- https://varvy.com/inline-small-css.html
