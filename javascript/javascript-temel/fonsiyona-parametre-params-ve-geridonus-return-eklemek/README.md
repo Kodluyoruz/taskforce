@@ -73,7 +73,7 @@ console.log(donenSonuc); // 28.25999999 sonucunu göreceğiz.
 ```
 **Aşağıda codepen ile deneyimleyebilirsiniz!**
 
-Yazdığımız kodun başında sabit olarak belirttiğimiz pi sabitini, fonksiyonumuzun bir parametresi olarak da belirtebiliriz. Fonksiyon içerisindeki işlemimizi bir değere atamadan, direk olarak return ifadesinden hemen sonra da yazabiliriz. Bu sayede, kodumuzu daha az satırla yazmış olacağız.
+Yazdığımız kodun başında sabit olarak belirttiğimiz pi sabitini, fonksiyonumuzun bir parametresi olarak da belirtebiliriz. Fonksiyon içerisindeki işlemimizi bir değere atamadan, direkt olarak return ifadesinden hemen sonra da yazabiliriz. Bu sayede, kodumuzu daha az satırla yazmış olacağız.
 
 ```javascript
 function daireAlaniHesaplama (r, PI = 3.14) 
