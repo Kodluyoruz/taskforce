@@ -71,7 +71,6 @@ function daireAlaniHesaplama (r) // Fonksiyonumuz, r parametresini alıyor.
 var donenSonuc = daireAlaniHesaplama(3); // Argüman olarak, alanını hesaplamak istediğimiz herhangi bir dairenin yarıçapı için 3 rakamı verildi. 
 console.log(donenSonuc); // 28.25999999 sonucunu göreceğiz.
 ```
-**Aşağıda codepen ile deneyimleyebilirsiniz!**
 
 Yazdığımız kodun başında sabit olarak belirttiğimiz pi sabitini, fonksiyonumuzun bir parametresi olarak da belirtebiliriz. Fonksiyon içerisindeki işlemimizi bir değere atamadan, direkt olarak return ifadesinden hemen sonra da yazabiliriz. Bu sayede, kodumuzu daha az satırla yazmış olacağız.
 
