@@ -274,7 +274,7 @@ let toplam = (a, b) => {
 
 ### Recursion
 
-Direkt örnek vererek açıklamak gerekirse, yapmamız gereken bir task var diyelim ve biz bu task'ı birden fazla parçaya ayırıp daha basit halde yazmak istersek ve ya bu task'ı aksiyon alacak bir fonksiyona ve bu task'ı daha basit bir task a dönüştürmek istersek ve ya belirli bir data yapısı ile ilgileniyorsak, recursion bu noktada bize yardımı dokunabilecek bir programlama pattern'idir diyebiliriz.
+Direkt örnek vererek açıklamak gerekirse, yapmamız gereken bir task var diyelim ve biz bu task'ı birden fazla parçaya ayırıp daha basit halde yazmak istersek veya bu task'ı aksiyon alacak bir fonksiyona ve bu task'ı daha basit bir task a dönüştürmek istersek veya belirli bir data yapısı ile ilgileniyorsak, recursion bu noktada bize yardımı dokunabilecek bir programlama pattern'idir diyebiliriz.
 
 Bir fonksiyonu çağırdığımız zaman o fonksiyon bir çok fonksiyonu daha çalıştırabilir. Kısaca bir fonksiyon kendisini tekrar çağırıyor ise biz buna recursion diyoruz.
 
@@ -328,9 +328,9 @@ function pow(x, n) {
 
 ### Variable Scope, Closure
 
-Bir fonksiyonu istediğiniz bir an yaratabilir, başka bir fonksiyona parametre olarak girebilir ve yazdığımız programın çok farklı ir yerinde biz tekrar bu fonksiyonu çalıştırabiliriz. Javascript function-oriented bir dil olduğundan bize bir çok özgürlük sağlar.
+Bir fonksiyonu istediğiniz bir an yaratabilir, başka bir fonksiyona parametre olarak girebilir ve yazdığımız programın çok farklı bir yerinde biz tekrar bu fonksiyonu çalıştırabiliriz. Javascript function-oriented bir dil olduğundan bize bir çok özgürlük sağlar.
 
-Bir fonksiyonun dışında tanımlanan değişkenlere erişebildiğiniz biliyoruz. Peki bir fonksiyonu biz yarattık ve global tanımlanan `var x = 5` bu fonksiyon içerisinde eriştik ve kullandık diyelim. Peki bu değişkenin değeri daha sonra değişirse fonksiyon güncel olanı alacak mı ve ya biz bu fonksiyonu başka bir fonksiyona parametre olarak girdiğimiz zaman hala sağlıklı bir şekilde `x` e ulaşabilecek mi?
+Bir fonksiyonun dışında tanımlanan değişkenlere erişebildiğiniz biliyoruz. Peki bir fonksiyonu biz yarattık ve global tanımlanan `var x = 5` bu fonksiyon içerisinde eriştik ve kullandık diyelim. Peki bu değişkenin değeri daha sonra değişirse fonksiyon güncel olanı alacak mı veya biz bu fonksiyonu başka bir fonksiyona parametre olarak girdiğimiz zaman hala sağlıklı bir şekilde `x` e ulaşabilecek mi?
 
 Not: Javascript de biz bir değişken atarken 3 farklı yol kullanabiliyoruz. `var` ve modern olanlar(`let`,`const`). Bu bölümde modern olanlardan konuşacağız.
 
