@@ -241,7 +241,7 @@ const carpim = (sayi1, sayi2) => sayi1 * sayi2;
 console.log(carpim(3, 5));
 ```
 
-Yukarıda yazdığımız fonksiyon , 2 tane parametre alıp, console.log içerisinde fonksiyonu çağırdıktan sonra parametrelerin çarpımlarının değerini döndermektedir. Eğer sadece tek bir parametre alması gereken bir fonksiyon yazsa idik, mesela girilen değerin karesini döndüren bir fonksiyon, arrow function syntaxini şu şekilde de yazabilirdik.
+Yukarıda yazdığımız fonksiyon , 2 tane parametre alıp, console.log içerisinde fonksiyonu çağırdıktan sonra parametrelerin çarpımlarının değerini döndürmektedir. Eğer sadece tek bir parametre alması gereken bir fonksiyon yazsa idik, mesela girilen değerin karesini döndüren bir fonksiyon, arrow function syntaxini şu şekilde de yazabilirdik.
 
 ```javascript
 const karesiniAl = (sayi) => sayi * sayi;
