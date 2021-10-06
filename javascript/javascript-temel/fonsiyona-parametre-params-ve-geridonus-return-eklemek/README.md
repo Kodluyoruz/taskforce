@@ -98,7 +98,7 @@ function daireAlaniHesaplama (r, PI = 3.14)
 
 function carpma (a1, a2)
 {
-    return alan1*alan2;
+    return a1*a2;
 }
 
 var alan1 = daireAlaniHesaplama(5); // 5 ve 6 argümanları için dairelerin alanları hesaplandı.
