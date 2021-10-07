@@ -162,3 +162,11 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; JavaScript Object Notation kavramı üzerine konuştuk.
+
+### [JSON vs JavaScript vs XML](JSONJavaScriptXML/)
+#### Sorular
+1. Yok
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; JSON formatının JavaScript ve XML ile olan ilşkisi üzerine konuştuk.
