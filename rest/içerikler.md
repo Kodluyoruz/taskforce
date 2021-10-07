@@ -99,3 +99,24 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; HTTP protokolünün tanımını yaptık ve İstek - Cevap detaylarını inceledik.
+
+### [HTTP Durum Kodları](HTTPStatusCodes/)
+#### Sorular
+1. Sunucun, isteği işleme aldığını ancak cevabın hala elde edilemediğini hangi HTTP durum kodu belirtir?
+	- 200
+	- 204
+	- 301 
+	- 102 (Doğru)
+	- 404
+
+2. Kaynak adresinin kalıcı olarak değiştirildiğini hangi HTTP durum kodu belirtir?
+	- 201
+	- 200
+	- 301 (Doğru)
+	- 500
+	- 100
+
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; HTTP durum kodları (status codes) üzerine konuştuk.
