@@ -14,3 +14,4 @@
 - [HTTP Nedir?](WhatIsHTTP/)
 - [HTTP Durum Kodları](HTTPStatusCodes/)
 - [HTTP Metotları](HTTPMethods/)
+- [JSON Nedir?](WhatIsJSON/)
