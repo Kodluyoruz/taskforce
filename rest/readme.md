@@ -13,3 +13,4 @@
 - [REST API Prensipleri II](RESTAPIPrinciplesII/)
 - [HTTP Nedir?](WhatIsHTTP/)
 - [HTTP Durum Kodları](HTTPStatusCodes/)
+- [HTTP Metotları](HTTPMethods/)
