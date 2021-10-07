@@ -25,6 +25,11 @@ HTTP Metodları
 
 - ### CONNECT - TRACE - OPTIONS - HEAD
 
+#### SAFE Metodlar 
+GET – HEAD – OPTIONS : Sunucu “state” tarafında değişiklik oluşturmazlar. “Read-only” yapısındadırlar.
+#### IDEMPOTENT Metodlar
+GET – HEAD - OPTIONS – DELETE – PUT – TRACE : Tekrar durumunda sunucu state yapısında herhangi bir yan etki bırakmazlar. Safe metodlar, idempotenttir.
+
 ## Endpoint (Sorgu Adresi)
 REST API kullanımında gönderilen istek ile verilen cevap için belirlenen buluşma noktasıdır.
 - Root(Base) /Path yapısından oluşur, isimler kullanılır, fiil ilgili HTTP metodu ile belirtilir. Dökümantasyon tarafından belirtilir.
