@@ -64,3 +64,17 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; REST mimarisinin ilk 3 kısıtlaması üzerine konuştuk. İstemci - Sunucu, Tek Tip Arayüz, Durumsuzluk
+
+### [REST API Prensipleri II](RESTAPIPrinciplesII/)
+#### Sorular
+1. Hangisi "Cacheable" kısıtlamasının avantajlarından değildir?
+	- Sunucu yükünü hafifletir.
+	- Her zaman güncellenmiş veriyi getirir. (Doğru)
+	- Uygulamanın daha hızlı cevap almasını sağlar.
+	- Sunucu güvenilirliğini arttırır.
+	- Sunucu gidiş dönüşlerini azaltır.
+
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; REST mimarisinin son 3 kısıtlaması üzerine konuştuk. Önbelleklenebilir, Katmanlı Sistem, İsteğe Bağlı Kod
