@@ -78,3 +78,24 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; REST mimarisinin son 3 kısıtlaması üzerine konuştuk. Önbelleklenebilir, Katmanlı Sistem, İsteğe Bağlı Kod
+
+### [HTTP Nedir?](WhatIsHTTP/)
+#### Sorular
+1. HTTP İstek yapısı hangisini içermez?
+	- HTTP durum kodu (Status Code) (Doğru)
+	- HTTP metodunu
+	- HTTP versiyonunu 
+	- Boş satır
+	- HOST bilgisini
+
+2. HTTP Cevap yapısı hangisini içermez?
+	- HTTP durum kodu (Status Code) 
+	- HTTP versiyonunu
+	- Server bilgisini
+	- Boş satır
+	- HTTP metodunu (Doğru)
+
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; HTTP protokolünün tanımını yaptık ve İstek - Cevap detaylarını inceledik.
