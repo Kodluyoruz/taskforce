@@ -120,3 +120,24 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; HTTP durum kodları (status codes) üzerine konuştuk.
+
+### [HTTP Metotları](HTTPMethods/)
+#### Sorular
+1. Aşağıdaki HTTP metotlarının hangisi "Idempotent" davranış göstermez?
+	- GET
+	- DELETE
+	- HEAD
+	- OPTIONS
+	- POST (Doğru)
+
+2. Aşağıdaki HTTP metotlarının hangisi "safe" davranış göstermez?
+	- TRACE
+	- PUT (Doğru)
+	- GET
+	- HEAD
+	- OPTIONS
+
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; HTTP metotları ve sorgu adresi (endpoint) kavramı üzerine konuştuk.
