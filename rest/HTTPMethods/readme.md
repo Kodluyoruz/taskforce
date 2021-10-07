@@ -1,4 +1,4 @@
-HTTP Metodları 
+HTTP Metotları 
 ======
 - ### GET 
 	- Verileri almak - listelemek için kullanılan istek metodudur.
@@ -25,9 +25,9 @@ HTTP Metodları
 
 - ### CONNECT - TRACE - OPTIONS - HEAD
 
-#### SAFE Metodlar 
+#### SAFE Metotlar 
 GET – HEAD – OPTIONS : Sunucu “state” tarafında değişiklik oluşturmazlar. “Read-only” yapısındadırlar.
-#### IDEMPOTENT Metodlar
+#### IDEMPOTENT Metotlar
 GET – HEAD - OPTIONS – DELETE – PUT – TRACE : Tekrar durumunda sunucu state yapısında herhangi bir yan etki bırakmazlar. Safe metodlar, idempotenttir.
 
 ## Endpoint (Sorgu Adresi)
