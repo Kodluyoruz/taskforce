@@ -20,7 +20,7 @@ REST mimarisinin prensiplerinden ilki istemci - sunucu çalışma modelidir. Biz
   İsteğe ait olan özellikler isim-değer çiftleri şeklinde belirtilir.
   
  - #### Boş Satır (Blank Line)
-    Başlık ile mesaj arasındaki boşluğu belirtir.
+    Başlıklar ile mesaj içeriği arasındaki boşluğu belirtir.
  
  - #### Mesaj İçeriği (Message Body)
   Yapılan isteğin detayları belirtilir.
@@ -30,15 +30,17 @@ Cevap (Response) yapısını belirtir. 4 bölümden oluşur.
 ![Response](https://github.com/Kodluyoruz/taskforce/blob/main/rest/WhatIsHTTP/figures/Response.png)
 
 - #### Durum Satırı (Status Line)
-  Dosya yolunu, HTTP metodunu ve HTTP versiyonunu barındırır.
+  HTTP versiyonunu ve HTTP durum kodunu belirtir.
   
-- #### İstek Başlıkları (Request Headers)
-  İsteğe ait olan özellikler isim-değer çiftleri şeklinde belirtilir.
+- #### Cevap Başlıkları (Request Headers)
+  Cevaba ait olan özellikler isim-değer çiftleri şeklinde belirtilir.
   
  - #### Boş Satır (Blank Line)
-    Başlık ile mesaj arasındaki boşluğu belirtir.
+    Başlıklar ile mesaj içeriği arasındaki boşluğu belirtir.
  
  - #### Mesaj İçeriği (Message Body)
-  Yapılan isteğin detayları belirtilir.
+  Alınan cevabın detayları belirtilir.
 
- 
+ ## Daha Fazlası İçin
+- [HTTP - MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+- [HTTP - WIKI](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
