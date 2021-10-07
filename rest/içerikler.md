@@ -36,3 +36,17 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; API tanımı ve avantajları üzerine konuştuk.
+
+### [REST API Nedir?](WhatIsRESTAPI/)
+#### Sorular
+1. Aşağıdaki ifadelerden hangisi REST prensipleri arasında değildir?
+	- Durumsuzluk
+	- Katmanlı sistem
+	- İstemci - Sunucu modeli
+	- Önbelleklenebilirlik
+	- Süreklilik (Doğru)
+
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; REST API tanımı ve prensipleri (kısıtlamaları) üzerine konuştuk.
