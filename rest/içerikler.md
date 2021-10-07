@@ -50,3 +50,17 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; REST API tanımı ve prensipleri (kısıtlamaları) üzerine konuştuk.
+
+### [REST API Prensipleri I](RESTAPIPrinciplesI/)
+#### Sorular
+1. "Uniform Interface" REST kısıtlaması hakkında hangisi söylenemez?
+	- İstemci tarafında kaynak değiştirilebilir.
+	- İstemci ve sunucu ihtiyaç duyulan tüm bilgileri göndermelidir.
+	- İstemcinin oluşturulduğu programlama diline göre cevap farklılıklar gösterir. (Doğru)
+	- Cevap istenilen bilgilerin dışında ek aksiyonlar içerebilir.
+	- İstemci - sunucu bağımsızlığını destekler.
+
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; REST mimarisinin ilk 3 kısıtlaması üzerine konuştuk. İstemci - Sunucu, Tek Tip Arayüz, Durumsuzluk
