@@ -141,3 +141,24 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; HTTP metotları ve sorgu adresi (endpoint) kavramı üzerine konuştuk.
+
+### [JSON Nedir?](WhatIsJSON/)
+#### Sorular
+1. Aşağıdakilerden hangisi tek başına uygun bir .json uzantılı dosya oluşturmaz?
+	- False (Doğru)
+	- "test"
+	- 122.122
+	- null
+	- -98
+
+2. Aşağıdakilerden hangisi JSON formatına uygun bir veri tipi değildir?
+	- null
+	- string
+	- array
+	- undefined (Doğru)
+	- object
+
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; JavaScript Object Notation kavramı üzerine konuştuk.
