@@ -199,3 +199,24 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Stars Wars API üzerine konuştuk ve örnek isteklerde bulunduk.
+
+### [The Movie Database API](TMDBAPI/)
+#### Sorular
+1. TMDB API platformu için "base URL" nasıldır?
+	- https://themoviedb.org/3
+	- https://www.themoviedb.org/
+	- https://api.themoviedb.org/3 (Doğru)
+	- https://www.themoviedb.org/baseURL
+	- https://url.themoviedb.org/
+
+2. TMDB API kullanımında "Authentication" işlemi hangi sorgu parametresi tarafından kontrol edilir?
+	- query
+	- search
+	- q
+	- api_key (Doğru)
+	- login
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; The Movie Database API üzerine konuştuk ve örnek isteklerde bulunduk.
+
