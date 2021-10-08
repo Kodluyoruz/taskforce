@@ -33,4 +33,20 @@ npm run start:server
 
 ### Örnek İstekler
 ```
+GET ALL EMPLOYEES - GET : http://localhost:3000/employees
+```
+```
+GET AN EMPLOYEE DETAILS - GET : http://localhost:3000/employees/:employee_id
+```
+```
+EMPLOYEES - ROLES RELATION - GET : http://localhost:3000/employees?_expand=role
+```
+```
+ADD AN EMPLOYEE - POST : http://localhost:3000/employees
+```
+```
+UPDATE AN EMPLOYEE - PATCH(PUT) : http://localhost:3000/employees/:employee_id
+```
+```
+DELETE AN EMPLOYEE - DELETE : http://localhost:3000/employees/:employee_id
 ```
