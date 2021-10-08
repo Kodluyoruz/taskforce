@@ -15,3 +15,22 @@ komutu ile package.json dosyası oluşturacağız.
 npm i json-server
 ```
 komutu ile json-server paketini indiriyoruz.
+
+API için kullanacağımız örnek employees.json dosyası : https://github.com/Kodluyoruz/taskforce/blob/main/rest/FakeAPI/files/employees.json . Bu dosyayı oluşturacağımız api 
+klasörünün içerisinde yerleştiriyoruz.
+
+Projemizde bulunan package.json dosyası içerisindeki script bölümünü aşağıdaki şekilde güncelliyoruz.
+```
+  "scripts": {
+    "start:server": "json-server --watch api/employees.json"
+  },
+```
+
+Bu sayede aşağıdaki komut ile FAKE API çalışmaya başlayacak.
+```
+npm run start:server
+```
+
+### Örnek İstekler
+```
+```
