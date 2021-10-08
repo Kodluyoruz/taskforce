@@ -20,3 +20,4 @@
 #### REST API Pratik ####
 
 - [Postman Kullanımı](Postman/)
+- [Star Wars API](SWAPI/)
