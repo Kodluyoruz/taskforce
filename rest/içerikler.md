@@ -170,3 +170,12 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; JSON formatının JavaScript ve XML ile olan ilşkisi üzerine konuştuk.
+
+## REST API Pratik
+### [Postman Kullanımı](Postman/)
+#### Sorular
+1. Yok
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Genel olarak Postman API platformu ve kullanımı üzerine konuştuk. 
