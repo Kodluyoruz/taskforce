@@ -50,3 +50,7 @@ UPDATE AN EMPLOYEE - PATCH(PUT) : http://localhost:3000/employees/:employee_id
 ```
 DELETE AN EMPLOYEE - DELETE : http://localhost:3000/employees/:employee_id
 ```
+
+## Daha Fazlası İçin
+- [JSON-SERVER GITHUB](https://github.com/typicode/json-server)
+- [Node.js Dokümantasyon](https://nodejs.org/en/docs/)
