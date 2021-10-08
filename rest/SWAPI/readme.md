@@ -9,11 +9,11 @@ seçmekteki yaklaşımın:
 
 ### Yapılan İstekler
 ```
-GET ALL FILMS - GET : https://swapi.dev/api/films/
+GET POPULAR MOVIES - GET : https://api.themoviedb.org/3/movie/popular
 ```
 
 ```
-GET A FILM DETAIL - GET : https://swapi.dev/api/films/:film_id
+GET A MOVIE DETAIL - GET : https://api.themoviedb.org/3/movie/:movie_id
 ```
 
 ```
