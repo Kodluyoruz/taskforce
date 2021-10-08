@@ -16,3 +16,7 @@
 - [HTTP Metotları](HTTPMethods/)
 - [JSON Nedir?](WhatIsJSON/)
 - [JSON vs JavaScript vs XML](JSONJavaScriptXML/)
+
+#### REST API Pratik ####
+
+- [Postman Kullanımı](Postman/)
