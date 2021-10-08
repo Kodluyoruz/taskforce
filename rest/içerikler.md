@@ -179,3 +179,23 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Genel olarak Postman API platformu ve kullanımı üzerine konuştuk. 
+
+### [Star Wars API](SWAPI/)
+#### Sorular
+1. SWAPI API kullanımında arama işleminde kullanılan "key" parametresi nedir?
+	- q
+	- query
+	- find
+	- look
+	- search (Doğru)
+
+2. SWAPI API kullanımında tüm gezegen (planet) verilerini sıralayacak GET isteği hangisidir?
+	- https://swapi.dev/api/planets/ (Doğru)
+	- /api/planets/
+	- planets
+	- https://swapi.dev/api/planets/:planet_id
+	- ?get_all_planets
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; Stars Wars API üzerine konuştuk ve örnek isteklerde bulunduk.
