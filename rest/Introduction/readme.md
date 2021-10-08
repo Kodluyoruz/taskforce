@@ -13,4 +13,10 @@ Bu çalışmamızda REST ve ilgili teknolojiler üzerine konuşacağız. Çalı�
 - HTTP nedir?
 - HTTP Durum Kodları
 - HTTP Metotları
-- 
+- JSON
+- Postman
+- Star Wars API
+- The Movie Database API
+- Fake API
+- Curl
+- Auth API
