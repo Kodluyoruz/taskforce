@@ -219,7 +219,7 @@
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; The Movie Database API üzerine konuştuk ve örnek isteklerde bulunduk.
-### [Fake API KUllanımı](FakeAPI/)
+### [Fake API Kullanımı](FakeAPI/)
 #### Sorular
 1. Yok
 
