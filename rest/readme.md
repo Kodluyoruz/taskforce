@@ -23,3 +23,4 @@
 - [Star Wars API](SWAPI/)
 - [The Movie Database API](TMDBAPI/)
 - [Fake API Kullanımı](FakeAPI/)
+- [cURL Kullanımı](cURL/)
