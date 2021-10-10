@@ -220,3 +220,23 @@
 1. (Youtube adresi yazılacak)
 	- Bu videoda; The Movie Database API üzerine konuştuk ve örnek isteklerde bulunduk.
 
+### [cURL Kullanımı](cURL/)
+#### Sorular
+1. cURL kullanımında --include seçeneği hangi isteği belirtir?
+	- çıktı dosyası
+	- query parametresi
+	- path değişkeni
+	- json formatı
+	- HTTP başlıkları (Doğru)
+
+2. cURL kullanımında hangisi "curl http://localhost:3000/roles" ile aynı çıktıyı verir?
+	- "curl -X http://localhost:3000/roles"
+	- "curl -X GET http://localhost:3000/roles" (Doğru)
+	- "curl -X POST http://localhost:3000/roles"
+	- "curl POST http://localhost:3000/roles"
+	- "http://localhost:3000/roles"
+
+#### Video
+1. (Youtube adresi yazılacak)
+	- Bu videoda; cURL komut satırı aracı üzerine konuştuk.
+
