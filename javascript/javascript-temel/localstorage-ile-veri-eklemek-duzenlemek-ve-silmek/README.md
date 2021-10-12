@@ -22,7 +22,7 @@ localStorage üzerinde kayıtlı olan anahtarları okumak için getItem metodu k
 ``` javascript
 	window.localStorage.getItem("key");
 ```
-Eğer veri daha önce kaydedilmeyen bir veriyi okumaya çalıştığımızda undefined değeri geri dönmektedir.
+Eğer veri daha önce kaydedilmeyen bir veriyi okumaya çalıştığımızda null değeri geri dönmektedir.
 ## Veri Silme
 Verileri silmek için iki tane metot kullanılmaktadır.  Tüm verileri silmek istiyorsak clear() metodunu kullanmamız gerekir. Şayet istediğimiz bir anahtarı silmek istiyorsak removeItem() metodunu kullanmamız gerekmektedir. removeItem metodu kendisine silinecek anahtarı parametre olarak almaktadır.
 ``` javascript
