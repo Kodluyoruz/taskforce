@@ -1,5 +1,5 @@
 # HTTP Durum Kodları (Status Codes) 
-======
+
 Sunucu tarafından ilgili isteğin sonucunu belirten, 3 rakamdan oluşan sayısal ifadelerdir. 
 
 - Informational responses (Bidirimsel cevaplar) (100–199)  
