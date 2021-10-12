@@ -2,8 +2,8 @@
 
 GET 
 - Verileri almak - listelemek için kullanılan istek metodudur.
-	- http://api.example.com/users
-	- http://api.example.com/users/1
+- http://api.example.com/users
+- http://api.example.com/users/1
 
 POST 
 - Belirli bir kaynağa veri göndermek için kullanılır. 
