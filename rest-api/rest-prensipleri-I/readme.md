@@ -4,12 +4,12 @@
 ### İstemci - Sunucu (Client - Server) Prensibi
 İstemci isteği gönderen, sunucu da ilgili cevabı veren durumundadır. Birbirlerinin sorumluluk alanlarına girmezler. Birbirlerinden bağımsız programlama dillleri ve teknolojiler kullanabilirler.
 
-![REST API](https://github.com/Kodluyoruz/taskforce/blob/main/rest/RESTAPIPrinciplesI/figures/ReqRes.png)
+![REST API](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/rest-api/rest-prensipleri-I/figures/ReqRes.png)
 
 ### Tek Tip Arayüz (Uniform Interface) Prensibi
 Aynı kaynağa yönelik olan tüm istekler, isteğin nereden geldiğinden bağımsız olarak aynı şekilde görünmelidir. Bu aynı zamanda istemci – sunucu bağımsızlığını da destekler.        4 temel özelliği bulunmaktadır. 
 
-![REST API](https://github.com/Kodluyoruz/taskforce/blob/main/rest/RESTAPIPrinciplesI/figures/UniformInterface.jpg)
+![REST API](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/rest-api/rest-prensipleri-I/figures/UniformInterface.jpg)
 
 - Kaynakların tanımlanması (identification of resources), bir kaynak için sunucuya yapılan istek benzersiz bir URI adresi ile tanımlanmalıdır.
   - http://example.com/users (GET)
