@@ -68,7 +68,7 @@ div.classList.replace('info','block');
 
 ### Alıştırma önerisi
 
-1. Codepen'de oluşturmuş olan butona tıklandığımızda çemberin rengini `classList` metotlarını kullanarak değiştirdik. Başka `button`'lar ve `class`'lar ekleyiniz.
+1. Codepen'de oluşturulmuş olan butona tıkladığımızda çemberin rengini `classList` metotlarını kullanarak değiştirdik. Başka `button`'lar ve `class`'lar ekleyiniz.
 
 **Aşağıda codepen ile deneyimleyebilirsiniz!**
 
