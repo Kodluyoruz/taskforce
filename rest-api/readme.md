@@ -20,3 +20,4 @@
 - [Star Wars API](star-wars-api/)
 - [TMDB API](tmdb-api/)
 - [Fake API](fake-api/)
+- [cURL Kullanımı](curl/)
