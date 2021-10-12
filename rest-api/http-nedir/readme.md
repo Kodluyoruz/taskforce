@@ -1,9 +1,9 @@
 # HTTP Nedir? 
-======
+
 **H**yper **T**ext **T**ransfer **P**rotocol ifadesinin kısaltmasıdır. İstemci ile sunucu arasındaki veri akışının kurallarını belirleyen protokoldur. 
 İstek – Cevap (request, response) modeline göre çalışır.
 
-![HTTP](https://github.com/Kodluyoruz/taskforce/blob/main/rest/WhatIsHTTP/figures/HTTP.jpeg)
+![HTTP](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/rest-api/http-nedir/figures/HTTP.jpeg)
 
 ### REST Mimarisinde HTTP'nin Rolü
 REST mimarisinin prensiplerinden ilki istemci - sunucu çalışma modelidir. Biz bir istekte bulunuruz ve sunucu isteğimize karşılık olan durumu (state) bize bir sunum
@@ -11,7 +11,8 @@ REST mimarisinin prensiplerinden ilki istemci - sunucu çalışma modelidir. Biz
 
 ### HTTP Request
 İstek (Request) yapısını belirtir. 4 bölümden oluşur.
-![Request](https://github.com/Kodluyoruz/taskforce/blob/main/rest/WhatIsHTTP/figures/Request.png)
+
+![Request](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/rest-api/http-nedir/figures/Request.png)
 
 - #### İstek Satırı (Request Line)
   Dosya yolunu, HTTP metodunu ve HTTP versiyonunu barındırır.
@@ -27,7 +28,8 @@ REST mimarisinin prensiplerinden ilki istemci - sunucu çalışma modelidir. Biz
   
 ### HTTP Response
 Cevap (Response) yapısını belirtir. 4 bölümden oluşur.
-![Response](https://github.com/Kodluyoruz/taskforce/blob/main/rest/WhatIsHTTP/figures/Response.png)
+
+![Response](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/rest-api/http-nedir/figures/Response.png)
 
 - #### Durum Satırı (Status Line)
   HTTP versiyonunu ve HTTP durum kodunu belirtir.
