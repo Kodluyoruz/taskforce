@@ -18,7 +18,7 @@ Takımlar
 - Fenerbahçe
 - Beşiktaş
 - Başakşehir
-- Bursaspor
+- Tranbzonspor
 
 Round 1
 Galatasaray vs Bursaspor
