@@ -1,6 +1,6 @@
 # Hash Function
 
- Hash Function (Şifreleme Fonksiyonu), şifreleme fonksiyonu olabilmesi için bazı temel şartlar vardır.Bunlar;
+ Hash Function (Karma Fonksiyonu), karma fonksiyonu olabilmesi için bazı temel şartlar vardır.Bunlar;
 
 1. Gönderdiğimiz anahtarlar (keys) farklı olmasına rağmen bize aynı sonuçları veriyorsa bu bir hash function değildir.
 
