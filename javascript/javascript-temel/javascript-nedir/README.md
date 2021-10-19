@@ -83,7 +83,7 @@ En çok kullanılan JavaScript Front-end teknolojileri aşağıdaki görselde ye
 ![nodejs-logo](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/javascript-nedir/figures/nodejs-logo.png)
 
 
-Ryan Dahl'ın geliştirdiği Node.js isimli JavaScript çalışma ortamı (runtime environment) sayesinde tarayıcılar dışında da JavaScript kodları çalıştırılabilir hale geldi ve yeni bir dönen başlamış oldu. Böylece istemci tarafında kalmamakla birlikte sunucu tarafında da JavaScript uygulamalarının yolu açıldı. Node.js Chrome tarayıcısındaki V8 JavaScript Motorunu kullanmaktadır.
+Ryan Dahl'ın geliştirdiği Node.js isimli JavaScript çalışma ortamı (runtime environment) sayesinde tarayıcılar dışında da JavaScript kodları çalıştırılabilir hale geldi ve yeni bir dönem başlamış oldu. Böylece istemci tarafında kalmamakla birlikte sunucu tarafında da JavaScript uygulamalarının yolu açıldı. Node.js Chrome tarayıcısındaki V8 JavaScript Motorunu kullanmaktadır.
 
 ![ryan-dahl](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/javascript-nedir/figures/ryan-dahl.jpg)
 
