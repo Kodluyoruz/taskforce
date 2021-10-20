@@ -1,8 +1,8 @@
 # Ödev 1
 
-## Javascript Saat ve Karşılama
+## Bootstrap-Javascript Saat ve Karşılama
 
-Eveet geldik Javascript'in ilk ödevine, öyle heyecanlıyız ki çocuklar gibi şen ve neşeli, gözlerimizi dört açtık içimizde kelebekler ben annemi çok seviyorum yaşasın 23 Nisan! Neyse bu kadar pıtırcıklık yeter, hadi işe koyulalım. Sizlerden aşağıda gösterdiğimiz gibi bir ekran yapmanızı istiyoruz. Projeyi canlı olarak incelemek için [buraya](http://cengizcmataraci.me/javascriptclock/), proje dosyalarına erişmek için [buraya](https://github.com/Kodluyoruz/taskforce/tree/javascript/javascript/javascript-temel/odev1/javascriptclock) tıklayınız.
+Eveet geldik Jr. Frontend 103'ün ilk ödevine, öyle heyecanlıyız ki çocuklar gibi şen ve neşeli, gözlerimizi dört açtık içimizde kelebekler ben annemi çok seviyorum yaşasın 23 Nisan! Neyse bu kadar pıtırcıklık yeter, hadi işe koyulalım. Sizlerden aşağıda gösterdiğimiz gibi bir ekran yapmanızı istiyoruz. Projeyi canlı olarak incelemek için [buraya](http://cengizcmataraci.me/javascriptclock/), proje dosyalarına erişmek için [buraya](https://github.com/Kodluyoruz/taskforce/tree/javascript/javascript/javascript-temel/odev1/javascriptclock) tıklayınız.
 
 ![clock](figures/clock.gif)
 
