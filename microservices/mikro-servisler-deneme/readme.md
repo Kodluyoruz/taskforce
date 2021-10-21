@@ -1,3 +1,0 @@
-# Mikro Servisler deneme
-
-deneme
