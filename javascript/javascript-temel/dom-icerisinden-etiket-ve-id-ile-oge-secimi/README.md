@@ -124,7 +124,7 @@ Yukarda öğrendiğimiz metotları bir arada kullanabiliyoruz. Önce tek bir ele
     <input type="date" name="date-of-birth">
 </form>
 ```
-`sigup` id'li elemanın içindeki tüm `input` elemanlarını seçmek istersek;
+`signup` id'li elemanın içindeki tüm `input` elemanlarını seçmek istersek;
 
 ```javascript
 const inputs = document.getElementById('signup').getElementsByTagName('input');
