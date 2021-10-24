@@ -41,7 +41,7 @@
 
 #### Go - Paketler/ Diziler/ Maps ####
 - [Paketler](paket-nedir/)
-- [Paket Oluşturma](paket-oluşturma/)
+- [Paket Oluşturma](paket-olusturma/)
 - [Diziler](diziler-for-range/)
 - [Slices Metot Bölüm 1](slices-first/)
 - [Slices Metot Bölüm 2](slices-second/)
