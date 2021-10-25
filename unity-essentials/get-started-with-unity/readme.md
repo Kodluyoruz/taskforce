@@ -12,6 +12,10 @@ Bu Görev, Unity Temelleri Yolculuğunun başlangıcıdır.
 - İlk rozetini kazanma.
 - Bu Görevin sonunda Unity Editor’u, Unity'nin Öğrenme Ekosisteminin kaynaklarını ve Unity Hub'ı kullanmaya başlamak için ihtiyaç duyduğun becerilere sahip olacaksın. Bu beceriler, tüm Unity geliştiricileri için gereklidir. 
 
-Buradaki materyale zaten hakim misin?
+## Edinilecek Beceriler
+- Unity projeleri oluşturma ve yönetme
+- Unity editor temelleri
+- Öğrenmeyi öğrenme
+- İş yaşamına hazırlık
 
-Görev değerlendirmelerini tamamlayarak bu görevi "test edebilirsin". Aşağı kaydır ve Skip to mission'ı seç. 
+
