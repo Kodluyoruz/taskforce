@@ -124,6 +124,30 @@ Başka bir şey ile ilgileniyorum:
 
 
 
+**7. Adım: Kendini test et**
+
+Unity Temelleri rozetini kazanmak için zaten yeterli Unity becerisine sahipsen görev kontrol noktalarını tamamlayarak bu materyali “test edebilirsin”.
+
+Bunu yapmak için, Unity Temelleri patikasına başla.
+
+Unity Temellerinin ilk görevine başla.
+
+Diğer opsiyonlar için sonraki adımlara da geçebilirsin:
+
+ 8. Adım:Öğrenmeye başlamanın diğer yolları adımına git.
+ 
+ 
+
+**8. Adım: Öğrenmeye başlamanın diğer yollar**
+
+Unity Learn platformunda daha birçok öğrenme kaynağı var!
+
+- Yaratıcı Kitlerimizden biriyle başla: [RPG](https://learn.unity.com/project/creator-kit-rpg), [FPS](https://learn.unity.com/project/creator-kit-fps), or [Puzzle](https://learn.unity.com/project/creator-kit-puzzle)
+- [Canlı eğitim organizasyonlarımızı keşfedebilirsin.](https://learn.unity.com/live-calendar)
+- [Yüzlerce eğitim kaynağının olduğu learn.unity.com sayfasını gezebilirsin.](https://learn.unity.com/)
+
+Deneyimin ve ilgi alanın ne olursa olsun, Unity Learn'de senin için mutlaka bir şeyler var. Yolculuğun tadını çıkar!
+
 
 
 
