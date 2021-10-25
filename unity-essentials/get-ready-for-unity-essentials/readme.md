@@ -2,6 +2,7 @@
 
 Unity Essentials patikasına hoşgeldin! Doğru yerde olduğundan emin olmak için bu eğitim seni Unity Temellerine hazırlayacak veya seni doğru yere yönlendirecek.
 
+
 **1. Adım: Unity indirdiniz mi?**
 
 Durumunuza en uygun aşamayı seçiniz:
@@ -14,6 +15,7 @@ Unity Hub ve Unity Editor uygulamalarını indirdiysen:
 
 - Adım 3 Öğrenmeye Başla adımına git.
 
+
 **2. Adım: Unity’yi indirin**
 
 Unity'yi öğrenmek için ilk adımın Unity Hub'ı ve Unity Editor'ü yeni bir kullanıcı olarak indirip kurmaktır. Bu işlem sırasında eğer daha önce yapmadıysan [bir Unity planı seçecek ve bir Unity ID oluşturacaksın.](https://learn.unity.com/tutorial/unity-plans-what-s-right-for-me-1)
@@ -24,6 +26,7 @@ Mikro oyununu bitirdikten sonra buraya dön ve ilerle:
 - 6. Adım Unity Temelleri patikasına git.
 
 Ama şimdi önce, lütfen [Unity'yi indirmek ve kurmak için buradaki adımları izle.](https://learn.unity.com/tutorial/install-the-unity-hub-and-editor)
+
 
 **3. Adım: Öğrenmeye başlayın**
 
@@ -42,6 +45,7 @@ Unity'de yeniyim ve Mikro Oyunlardan sonra gelecek her şeye hazırım.
 Unity'de nasıl çalışılacağını zaten biliyorum. Editördeki pencereleri, bir GameObject'in nasıl taşınacağını ve dönüştürüleceğini ve 3D alanda nasıl gezinileceğini biliyorum:
 
 - 7. Adım: Unity Temelleri Rozetini inceleyin ve alın adımına gidin.
+- 
 
 **4. Adım: Micro Oyunları denemeyi düşünün**
 
@@ -56,6 +60,7 @@ Bir Mikro Oyun denemek istersen, bir sonraki adıma geç:
 Aksi takdirde, öğrenmenin daha fazla yolunu keşfedebilirsin:
 
 - 6. Adım: Unity Temelleri Patikasına git.
+- 
 
 **5. Adım: Bir Mikro Oyuna Başla**
 
@@ -88,6 +93,28 @@ Bunlardan sonra Unity Hub kapanacak ve Unity Editor açılacak. Öğrenmeye baş
 
 Bitirdiğinde buraya geri dön ve bir sonraki adıma ilerle.
 
+
+**6. Adım: Unity Temelleri Patikası**
+
+
+Unity'yi ilk kez öğrenirken bir sonraki adım Unity Temelleri patikasıdır. Bu yol, gerçek projeleri tamamlayacağın, gerçek dünyadaki Unity yaratıcılarından tavsiye alacağın ve sosyal medya hesapların veya web siten için Unity Temelleri rozetini kazanmak için görevleri tamamlayacağın bir dizi görevden oluşur.
+
+
+Unity Temelleri, kendi özel projeni oluşturman veya pazarlanabilir iş becerileri geliştirmen için özenle hazırlanmış ilk adımdır. Gerçek Unity projelerini nasıl oluşturacağını, kullanacağını ve 3D nesneler, ses ve programlama ile nasıl çalışacağını öğreneceksin.
+
+
+Unity Temelleri rozetini aldığında, yeni öğrenme fırsatlarının kilidini açacaksın!
+
+Sana en uygun seçeneği seç:
+
+Unity Temelleri patikasına başlamaya hazırım:
+- 9. Adım: Eğitimi tamamla ve devam et adımına git
+
+Unity hakkında Unity Temelleri rozetini alacak kadar bilgim var, yine de rozeti alabilir miyim?
+- 7. Adım: Kendini test et ve Unity Temelleri rozetini al adımına git
+
+Başka bir şey ile ilgileniyorum:
+- 8. Adım: Öğrenmeye başlamanın diğer yolları adımına git 
 
 
 
