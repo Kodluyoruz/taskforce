@@ -1,5 +1,6 @@
 # Unity'yi Kullanmaya Başla
-Bu Görev, ilk kurulumdan itibaren ilk Unity projelerini oluşturup onlarla oynamanda ve paylaşmanda sana rehberlik edecek. Unity'yi daha önce hiç indirmemiş veya kurcalamaya başlamamışsan ya da öğrenmeye nereden başlayacağından emin değilsen, doğru yerdesin. 
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/get-started-with-unity/figures/Mission%20A%20-%20Cover%20Image%20.png)
+Bu eğitim, ilk kurulumdan itibaren ilk Unity projelerini oluşturup onlarla oynamanda ve paylaşmanda sana rehberlik edecek. Unity'yi daha önce hiç indirmemiş veya kurcalamaya başlamamışsan ya da öğrenmeye nereden başlayacağından emin değilsen, doğru yerdesin. 
 
 Bu Görev, Unity Temelleri Yolculuğunun başlangıcıdır.
 
