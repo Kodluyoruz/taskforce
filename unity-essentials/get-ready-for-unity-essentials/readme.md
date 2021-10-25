@@ -43,7 +43,7 @@ Unity'de nasıl çalışılacağını zaten biliyorum. Editördeki pencereleri, 
 
 - 7. Adım: Unity Temelleri Rozetini inceleyin ve alın adımına gidin.
 
-**4. Adım: Micro Oyunları denemeyi düşünün **
+**4. Adım: Micro Oyunları denemeyi düşünün**
 
 Unity'nin temellerini öğreniyorsun ve ileriye dönük en iyi yolu aradığını biliyoruz.
 
@@ -58,6 +58,7 @@ Aksi takdirde, öğrenmenin daha fazla yolunu keşfedebilirsin:
 - 6. Adım: Unity Temelleri Patikasına git.
 
 **5. Adım: Bir Mikro Oyuna Başla**
+
 Bir mikro oyun seçmek ve öğrenmeye başlamak için aşağıdaki adımları izle:
 
 1. Unity Hub’ı aç.
