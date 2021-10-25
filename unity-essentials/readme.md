@@ -31,7 +31,7 @@
 - [Code in the default script](code-in-the-default-script)
 - [Change a GameObject with script](change-gameObject-with-script)
 - [Essentials of real-time audio](essentials-of-real-time-audio)
-- [Add background musicadd-background-music
+- [Add background music](add-background-music)
 - [Create real-time 3D audio effects](create-real-time-3D-audio-effects)
 - [Get audio assets](get-audio-assets)
 - [Challenge: Moving sound](challenge-moving-sound)
