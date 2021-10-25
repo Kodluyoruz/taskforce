@@ -3,7 +3,7 @@
 #### Get started with Unity ####
 - [Get started with Unity](get-started-with-unity)
 - [Start Learning](start-learning)
-- [Get ready for Unity Essentails](get-ready-for-unity-essentials)
+- [Get ready for Unity Essentials](get-ready-for-unity-essentials)
 - [Welcome to Unity Essentials](welcome-to-unity-essentials)
 - [Start Creating](start-creating)
 - [Get started with the Unity Hub](get-started-with-the-unity-hub)
