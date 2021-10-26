@@ -6,7 +6,6 @@
 - [Unity Essentials'a Hazır Olun](get-ready-for-unity-essentials)
 - 
 #### Unity Essentials'a Hoş Geldin ####
-- [Unity Essentials'a Hoş Geldin](welcome-to-unity-essentials)
 - [Yaratıcılarla Tanış](meet-the-creators)
 - [Neden Unity Öğrenmeliyiz?](why-learn-unity)
 - [Ne Yaratmak İstiyorsun?](what-do-you-want-to-create)
