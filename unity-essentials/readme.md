@@ -1,12 +1,12 @@
 # Unity Essentials
 
-#### Get started with Unity ####
-- [Get started with Unity](get-started-with-unity)
-- [Start Learning](start-learning)
-- [Get ready for Unity Essentials](get-ready-for-unity-essentials)
+#### Unity'e Başlarken ####
+- [Unity'e Başlarken](get-started-with-unity)
+- [Öğrenmeye Başla](start-learning)
+- [Unity Essentials'a Hazır Olun](get-ready-for-unity-essentials)
 - 
-#### Welcome to Unity Essentials ####
-- [Welcome to Unity Essentials](welcome-to-unity-essentials)
+#### Unity Essentials'a Hoş Geldin ####
+- [Unity Essentials'a Hoş Geldin](welcome-to-unity-essentials)
 - [Yaratıcılarla Tanış](meet-the-creators)
 - [Neden Unity Öğrenmeliyiz?](why-learn-unity)
 - [Ne Yaratmak İstiyorsun?](what-do-you-want-to-create)
