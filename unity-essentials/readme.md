@@ -11,7 +11,6 @@
 - [Ne Yaratmak İstiyorsun?](what-do-you-want-to-create)
 - [Öğrenmek İçin Sırayla Neye İhtiyacınız Var?](what-do-you-need-in-order-to-learn-unity)
 - [Unity Öğrenme Ekosistemi](unity-learning-ecosystem)
-- [Sonraki Adım](a-1-2-next-steps)
 
 
 
