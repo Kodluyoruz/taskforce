@@ -21,7 +21,7 @@ Tecrübeli yaratıcılarımızın söyledikleri hakkında düşünün:
 
 Hangilerinin sende halihazırda olduğunu düşünüyorsun? Hangilerinin üzerinde çalışman gerektiğini düşünüyorsun? Tecrübeli yaratıcıları oldukları bu noktaya getiren özellikleri, nasıl geliştirebileceğini yaratıcılık maceran boyunca aklında bulundur. 
 
-**Unity’de başarı için öncelikli Yetenekler **
+**Unity’de başarı için öncelikli Yetenekler**
 
 Düşünce yapın bir yana, yaratıcılara başarı olmalarını sağlayan teknik yetenekler nelerdi? Tecrübeli yaratıcılarımıza Unity öğrenmeden önce gereken yetenekleri sorduk ve cevaplar karşısında birazcık şaşırdık.
 
