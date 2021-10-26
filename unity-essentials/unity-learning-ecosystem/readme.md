@@ -14,3 +14,6 @@ Unity Learning Ekosisteminin öğelerini temsil eden bir küçük resim koleksiy
 - [Unity Blog](https://blogs.unity3d.com) :Haberler,duyurular ve Unity Teknolojileri içinden bilgiler sunar.
 - [Unity “Tuesday Tips” on Twitter](https://twitter.com/unity3d): Her salı yaratıcılar #unitytips etiketiyle önerilerini paylaşıyor.
 - [Asset Store help](https://unity3d.com/asset-store/help): Asset Store’da içerik paylaşmak için yardım.
+
+
+Umarız ki Unity öğrenme maceran için ilham almış ve motive hissediyorsundur. Gelecek eğitimlerde, bu yolda ilk projeni yaratman için Unity kullanmaya başlayacaksın.
