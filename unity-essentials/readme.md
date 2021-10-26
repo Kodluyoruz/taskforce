@@ -4,7 +4,7 @@
 - [Unity'e Başlarken](get-started-with-unity)
 - [Öğrenmeye Başla](start-learning)
 - [Unity Essentials'a Hazır Olun](get-ready-for-unity-essentials)
-- 
+
 #### Unity Essentials'a Hoş Geldin ####
 - [Yaratıcılarla Tanış](meet-the-creators)
 - [Neden Unity Öğrenmeliyiz?](why-learn-unity)
@@ -16,6 +16,13 @@
 - [Get started with the Unity Hub](get-started-with-unity-hub)
 - [Get started with the Unity Editor](get-started-with-the-unity-editor)
 - [Get started with the Package Manager](get-started-with-the-package-manager)
+
+#### Unity'yi Keşfet ####
+- [Unity'yi Keşfet]()
+- []()
+- []()
+- []()
+- []()
 
 
 
