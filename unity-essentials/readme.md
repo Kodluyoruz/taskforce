@@ -32,8 +32,10 @@
 - [3D Asset'ler Edin](get-3D-assets)
 - [Meydan Okuma: Zemin Lav Kaplı!](challenge-floor-lava)
 
-
-
+#### Unity'de Programlamanın Temelleri ####
+- [Unity'de Programlamanın Temelleri](essentials-of-programming-in-unity)
+- [Script Yazmaya Başlangıç](get-started-with-scripts)
+- [Varsayılan Script İçindeki Kod](code-in-the-default-script)
 
 
 
