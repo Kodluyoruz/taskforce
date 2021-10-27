@@ -36,6 +36,13 @@
 - [Unity'de Programlamanın Temelleri](essentials-of-programming-in-unity)
 - [Script Yazmaya Başlangıç](get-started-with-scripts)
 - [Varsayılan Script İçindeki Kod](code-in-the-default-script)
+- [Bir GameObject'i Script İle Değiştirme](change-gameObject-with-script)
 
-
+#### ####
+- [Gerçek Zamanlı Ses Temelleri](essentials-of-real-time-audio)
+- [Arka plan müziği Ekleme](add-background-music)
+- [Gerçek Zamanlı Ses Efektleri Oluşturma](create-real-time-3D-audio-effects)
+- [Ses Asset'lerini Alma](get-audio-assets)
+- [Challenge: Hareketli Ses](challenge-moving-sound)
+- 
 
