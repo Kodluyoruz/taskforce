@@ -6,7 +6,7 @@ Bu öğretici içerikte:
 - Bir GameObject’e Ses Kaynağı Bileşeni (Audio Source Component) ekleyeceksin.
 - Bir Ses Kaynağı (Audio Source)’na Ses Klibi (Audio Clip) ekleyeceksin.
 - Bir 3B Sahne (Scene)’ye arka plan müziği ekleyeceksin.
--
+
 **Aşama 1: Genel İnceleme**
 
 Bu öğretici içerikte, Unity’nin ses özelliklerini keşfedeceksin. Simüle edilmiş ortamların gerçekmiş gibi olduğunu hissettirmek için ses çok önemlidir.
