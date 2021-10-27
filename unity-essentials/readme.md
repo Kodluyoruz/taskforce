@@ -27,6 +27,9 @@
 - [3D Sahnede GameObjects ile Çalışma](work-with-gameObjects-3DScene)
 - [Primitive'ler ile Yapı Oluşturun](create-structure-with-primitives)
 - [3D GameObjects'e Bileşenler Ekleyin](add-components-3D-gameObjects)
+- [3D GameObject’ler için Efektler Oluşturmak](create-effects-for-3D-gameObjects)
+- [3D Asset'ler Edin](get-3D-assets)
+- [Meydan Okuma: Zemin Lav Kaplı!](challenge-floor-lava)
 
 
 
