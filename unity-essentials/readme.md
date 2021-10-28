@@ -58,9 +58,9 @@
 
 #### Unity'yi Öğrenin ####
 - [Profesyoneller Unity’i Nasıl Öğrendi?](how-our-established-creators-learned-unity)
-- []()
-- []()
-
+- [Gerçekçi Ol](realistic)
+- [Sabırlı Ol](patient)
+- [Pes Etme](dontgiveup)
 
 
 
