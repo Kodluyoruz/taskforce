@@ -52,7 +52,21 @@
 - [2D Asset'lere Erişim](get-2D-assets)
 - [Challenge: Sprite pachinko](challenge-sprite-pachinko)
 
+#### Real-Time Endüstrisi ####
+- [Gerçek Zamanli Endüstri Döngüsü](the-real-time-production-cycle)
+- [Gerçek Zamanlı Yaratıcıların Rol ve Kariyerleri](roles-and-careers-for-real-time-creators)
 
+
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
 
 
 
