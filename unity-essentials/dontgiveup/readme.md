@@ -6,3 +6,6 @@ Unity öğrenmek zaman, çaba ve sabır gerektiriyor. Şimdi de uzmanlardan nede
 
 Patikada “Unity’i nasıl öğrenilir?” i öğrendiğiniz zamanları hatırlayın. Uzmanlarımız başarılı olmak için yalnızca merak, sabır, problem-çözme ve başaracağına dair inancı kapsayan olumlu bir tutuma ihtiyacın olduğunu söylemişti. Takıldığında ya da kaybolmuş hissettiğinde, tutumunu gözden geçir ve devam etmeni sağlayacak değişiklikleri uygula!
 Tartışma: Learn’de yer alan yorum özelliğini kullanarak Unity öğrenmeye devam etmek isteme nedenlerini paylaş!
+
+**Adım 5: Sonraki adımlar**
+Bu eğitimde Unity öğrenmek için neler gerektiğini öğrendin. Beklentilerini gerçekçi tutman ve kaybolmuş hissettiğin zamanlar için tavsiyeler dinledin. Şimdi, odaklanma ve devam etmene yardımcı olması için Öğrenme Eylem Planı’nda (Learning Action Plan) kendine hedefler belirlemene yardım edeceğiz. Daha sonra, Unity geliştiricisi olmak için gereken her şeye sahip olacaksın.
