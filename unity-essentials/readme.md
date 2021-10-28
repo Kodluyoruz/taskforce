@@ -54,6 +54,17 @@
 
 #### Real-Time Endüstrisi ####
 - [Gerçek Zamanli Endüstri Döngüsü](the-real-time-production-cycle)
+- [Real Time Endüstrisine Genel Bakış](realtimegeneral)
+- [Prodüksiyon Aşamaları](production-stages)
+- [Ön-Prodüksiyon Aşaması](pre-production-stage)
+- [Post-Prodüksiyon Aşaması](post-production-stage)
+
+
+
+
+
+
+
 - [Gerçek Zamanlı Yaratıcıların Rol ve Kariyerleri](roles-and-careers-for-real-time-creators)
 
 #### Unity'yi Öğrenin ####
