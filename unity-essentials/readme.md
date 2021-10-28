@@ -60,7 +60,7 @@
 - [Prodüksiyon aşaması](production)
 - [Sürüm Kontrolü](versioncontrol)
 - [Post-Prodüksiyon Aşaması](post-production-stage)
-- []()
+- [Operasyon Aşaması](operations)
 - []()
 - []()
 
