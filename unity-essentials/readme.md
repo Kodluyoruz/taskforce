@@ -56,17 +56,22 @@
 - [Gerçek Zamanli Endüstri Döngüsü](the-real-time-production-cycle)
 - [Gerçek Zamanlı Yaratıcıların Rol ve Kariyerleri](roles-and-careers-for-real-time-creators)
 
+#### Unity'yi Öğrenin ####
+- [Profesyoneller Unity’i Nasıl Öğrendi?]()
+- []()
+- []()
 
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+
+
+
+#### SSOT'lar ####
+
+- [WebGl Derlemeleri Oluşturun ve Yayınlayın](create-and-publish-webGL-builds)
+- [Unity Editörü Keşfet](explore-the-unity-editor)
+- [Unity Hub ve Editörü İndir](install-the-unity-hub-and-editor)
+- [Proje Kurulum Süreçleri](project-setup-processes)
+- [Varsayılan Komut Düzenleyicisi İle IDE'yi Ayarla](set-your-default-script-editor-ide)
+- [Benim İçin Doğru Olan Unity Planı](unity-plans-what-right-for-me)
 
 
 
