@@ -58,7 +58,11 @@
 - [Prodüksiyon Aşamaları](production-stages)
 - [Ön-Prodüksiyon Aşaması](pre-production-stage)
 - [Post-Prodüksiyon Aşaması](post-production-stage)
-
+- [Sürüm Kontrolü](versioncontrol)
+- []()
+- []()
+- []()
+- []()
 
 
 
