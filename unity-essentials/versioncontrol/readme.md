@@ -8,3 +8,14 @@ Gerekirse projenin önceki bir sürümüne geri dönme için,
 Tüm ekip üyelerinin katkılarını yönetebilmek için.
 
 Ekiplerin bir proje üzerinde nasıl verimli bir şekilde işbirliği yapabileceğini öğrenmek için aşağıdaki videoyu izle.
+
+**Alıştırma**
+
+Yukarıda listelenen ve en çok ilgini çeken iki iş unvanını seç. Çalışmanın eğlenceli olacağını düşündüğün bir şirkette her iki roldeki iş ilanlarını çevrimiçi olarak ara. Araştırma yaparken aşağıdaki soruları yanıtla:
+- Bu işlere girmek için ne gerekiyor?
+- Mevcut becerilerinin bu gereksinimlerle nasıl örtüşüyor?
+- Hangi becerileri öğrenmen gerekiyor?
+- İş tanımını okuduktan sonra hala ilgileniyor musun?
+- Şuan daha önce olduğundan fazla ilgilendiğini keşfettiğin başka pozisyonlar var mı? 
+
+Bu araştırma sırasında şaşırtıcı bir şey keşfettin mi? Eğer öyleyse, yorumlarda bulduklarını paylaş.
