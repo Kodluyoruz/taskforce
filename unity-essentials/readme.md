@@ -40,9 +40,9 @@
 
 #### Gerçek Zamanlı Ses Temelleri ####
 - [Gerçek Zamanlı Ses Temelleri](essentials-of-real-time-audio)
-- [Arka plan müziği Ekleme](add-background-music)
+- [Arka Plan Müziği Ekleme](add-background-music)
 - [Gerçek Zamanlı Ses Efektleri Oluşturma](create-real-time-3D-audio-effects)
-- [Ses Asset'lerini Alma](get-audio-assets)
+- [Ses Asset'lerine Erişim](get-audio-assets)
 - [Challenge: Hareketli Ses](challenge-moving-sound)
 
 
