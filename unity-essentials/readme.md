@@ -69,6 +69,7 @@
 - [WebGl Derlemeleri Oluşturun ve Yayınlayın](create-and-publish-webGL-builds)
 - [Unity Editörü Keşfet](explore-the-unity-editor)
 - [Unity Editor Becerilerinizi Geliştirin](practice-your-unity-editor-skills)
+- [Unity Editör İpuçları ve Püf Nnoktaları](unity-editor-tips-tricks)
 - [Unity Hub ve Editörü İndir](install-the-unity-hub-and-editor)
 - [Proje Kurulum Süreçleri](project-setup-processes)
 - [Varsayılan Komut Düzenleyicisi İle IDE'yi Ayarla](set-your-default-script-editor-ide)
