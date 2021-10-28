@@ -77,9 +77,9 @@ Bu alıştırmanın varyasyonlarını deneyin. İstediğiniz sonuçları elde et
 
 Bunları deneyebilirsiniz:
 
-- rklı yüksekliklerde daha fazla daire ekleyin.
-Küçük görüntüleri içe aktararak farklı şekillerde başka Sprite'lar ekleyin.
-Nesneleri farklı yerlere bırakın.
+- Farklı yüksekliklerde daha fazla daire ekleyin.
+- Küçük görüntüleri içe aktararak farklı şekillerde başka Sprite'lar ekleyin.
+- Nesneleri farklı yerlere bırakın.
 
 Unutulmaması gereken bir şey, oyun çalışırken seçilen bir Sprite'ın özelliklerini değiştirebileceğinizdir, ancak oyun durdurulduğunda tüm değerler oyun başlamadan önceki değerlerine geri dönecektir. Bu, çalışma zamanı sırasında farklı parametreleri test etmek için kullanışlıdır, ancak değişikliklerin kalıcı olmasını istiyorsanız, değişiklikleri oyun çalışmıyorken yapmanız gerekir.
 
