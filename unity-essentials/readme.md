@@ -13,7 +13,7 @@
 - [Unity Öğrenme Ekosistemi](unity-learning-ecosystem)
 
 #### Unity Hub'ı Öğrenmeye Başla ####
-- [Get started with the Unity Hub](get-started-with-unity-hub)
+- [Get started with the Unity Hub](get-started-with-the-unity-hub)
 - [Get started with the Unity Editor](get-started-with-the-unity-editor)
 - [Get started with the Package Manager](get-started-with-the-package-manager)
 
