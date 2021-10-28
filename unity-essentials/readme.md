@@ -61,6 +61,7 @@
 - [Gerçekçi Ol](realistic)
 - [Sabırlı Ol](patient)
 - [Pes Etme](dontgiveup)
+- [Öğrenme Planını Geliştir](develop-your-learning-plan)
 
 
 
