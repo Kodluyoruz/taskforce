@@ -3,6 +3,7 @@
 Ön-Prodüksiyon nedir?
 Ön-prodüksiyon sırasında amaç, gerçek üretim başladığında işlerin mümkün olduğunca sorunsuz ve verimli bir şekilde ilerlemesi için tüm önemli kararları vermektir.
 
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/pre-production-stage/figures/Foundations_UnityRT3D_1.1.2.1_pre-prod-highlighted.png)
  Prodüksiyonun dört aşamasının şeması, ilk aşama olan Ön-Prodüksiyon, mavi renkle vurgulanmıştır.
 
 Ön-prodüksiyon sırasında ne olur?
