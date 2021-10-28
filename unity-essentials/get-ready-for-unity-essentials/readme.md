@@ -9,11 +9,11 @@ Durumunuza en uygun aşamayı seçiniz:
 
 Unity Hub ve Unity Editor uygulamalarını indirmediysen:
 
- 2. Adım Unity indir adımına git.
+ -  Unity indir adımına git.
 
 Unity Hub ve Unity Editor uygulamalarını indirdiysen:
 
- 3. Adım Öğrenmeye Başla adımına git.
+ -  Öğrenmeye Başla adımına git.
 
 
 **2. Adım: Unity’yi indirin**
@@ -24,7 +24,7 @@ Unity Hub'da ilk kez kullanacak bir kullanıcı olarak rehberlik almak için "Un
 
 Mikro oyununu bitirdikten sonra buraya dön ve ilerle:
 
- 6. Adım Unity Temelleri patikasına git.
+ -  Unity Temelleri patikasına git.
 
 Ama şimdi önce, lütfen [Unity'yi indirmek ve kurmak için buradaki adımları izle.](https://learn.unity.com/tutorial/install-the-unity-hub-and-editor)
 
@@ -37,16 +37,15 @@ Sana en uygun seçeneği seç:
 
 Unity'de yeniyim ve bir Mikro Oyun tamamlamadım (bu arada, Mikro Oyun nedir?):
 
- 4. Adım: Micro Oyunları denemeyi düşünün adımına gidin
+** 4. Adım: Micro Oyunları denemeyi düşünün adımına gidin**
 
 Unity'de yeniyim ve Mikro Oyunlardan sonra gelecek her şeye hazırım.
 
- 6. Adım: Unity Temelleri patikasına gidin
+ **6. Adım: Unity Temelleri patikasına gidin**
 
 Unity'de nasıl çalışılacağını zaten biliyorum. Editördeki pencereleri, bir GameObject'in nasıl taşınacağını ve dönüştürüleceğini ve 3D alanda nasıl gezinileceğini biliyorum:
 
  7. Adım: Unity Temelleri Rozetini inceleyin ve alın adımına gidin.
-
 
 
 **4. Adım: Micro Oyunları denemeyi düşünün**
@@ -57,11 +56,11 @@ Hiç mikro oyunları denedin mi? Mikro Oyun, yapılandırabileceğin ve oynayabi
 
 Bir Mikro Oyun denemek istersen, bir sonraki adıma geç:
 
- 5. Adım: Bir Mikro Oyuna Başla adımına git.
+ - Bir Mikro Oyuna Başla adımına git.
 
 Aksi takdirde, öğrenmenin daha fazla yolunu keşfedebilirsin:
 
- 6. Adım: Unity Temelleri Patikasına git.
+ - Unity Temelleri Patikasına git.
 
 
 
@@ -112,16 +111,15 @@ Sana en uygun seçeneği seç:
 
 Unity Temelleri patikasına başlamaya hazırım:
 
- 9. Adım: Eğitimi tamamla ve devam et adımına git
+ -  Eğitimi tamamla ve devam et adımına git
 
 Unity hakkında Unity Temelleri rozetini alacak kadar bilgim var, yine de rozeti alabilir miyim?
 
- 7. Adım: Kendini test et ve Unity Temelleri rozetini al adımına git
+ -  Kendini test et ve Unity Temelleri rozetini al adımına git
 
 Başka bir şey ile ilgileniyorum:
 
- 8. Adım: Öğrenmeye başlamanın diğer yolları adımına git 
-
+ -  Öğrenmeye başlamanın diğer yolları adımına git 
 
 
 **7. Adım: Kendini test et**
@@ -130,12 +128,11 @@ Unity Temelleri rozetini kazanmak için zaten yeterli Unity becerisine sahipsen 
 
 Bunu yapmak için, Unity Temelleri patikasına başla.
 
-Unity Temellerinin ilk görevine başla.
+[Unity Temellerinin ilk görevine başla.](https://learn.unity.com/mission/real-time-creation-essentials?pathwayId=5f7bcab4edbc2a0023e9c38f)
 
 Diğer opsiyonlar için sonraki adımlara da geçebilirsin:
 
- 8. Adım:Öğrenmeye başlamanın diğer yolları adımına git.
- 
+ - Öğrenmeye başlamanın diğer yolları adımına git.
  
 
 **8. Adım: Öğrenmeye başlamanın diğer yollar**
@@ -147,25 +144,6 @@ Unity Learn platformunda daha birçok öğrenme kaynağı var!
 - [Yüzlerce eğitim kaynağının olduğu learn.unity.com sayfasını gezebilirsin.](https://learn.unity.com/)
 
 Deneyimin ve ilgi alanın ne olursa olsun, Unity Learn'de senin için mutlaka bir şeyler var. Yolculuğun tadını çıkar!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
