@@ -45,4 +45,15 @@
 - [Ses Asset'lerine Erişim](get-audio-assets)
 - [Challenge: Hareketli Ses](challenge-moving-sound)
 
+#### Gerçek Zamanlı 2 Boyutlu Temelleri ####
+- [Gerçek Zamanlı 2 Boyutlu Temelleri](essentials-of-real-time-2D)
+- [2D Sahnede GameObjects ile Çalışma](work-with-gameObjects-2D-scene)
+- [2D GameObjects'e bileşenler ekleyin](add-components-2D-gameObjects)
+- [2D Asset'lere Erişim](get-2D-assets)
+- [Challenge: Sprite pachinko](challenge-sprite-pachinko)
+
+
+
+
+
 
