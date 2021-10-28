@@ -65,6 +65,7 @@
 - [Hedef Belirlemek İçin İlham Alın](goal)
 - [Unity Yaratıcı Topluluğu](unity-creator-community)
 - [İçerik Oluşturucu Topluluğu](content-creator)
+- [Game Jamleri Keşfet](explore-game-jams)
 
 
 
