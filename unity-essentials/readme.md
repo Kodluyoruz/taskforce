@@ -62,14 +62,11 @@
 - [Post-Prodüksiyon Aşaması](post-production-stage)
 - [Operasyon Aşaması](operations)
 - [Prodüksiyon Sürecinde Unity](productionprocess)
-- []()
-
-
-
-
-
-
 - [Gerçek Zamanlı Yaratıcıların Rol ve Kariyerleri](roles-and-careers-for-real-time-creators)
+- [Sanat ve Tasarımda Kariyer](careers-art-and-design)
+- [Programlamada Kariyer](career-programming)
+- [Uzman Olarak Kariyer](career-specialist)
+- [Senin Kariyerin Ne Olacak?](what-your-path)
 
 #### Unity'yi Öğrenin ####
 - [Profesyoneller Unity’i Nasıl Öğrendi?](how-our-established-creators-learned-unity)
@@ -82,7 +79,6 @@
 - [İçerik Oluşturucu Topluluğu](content-creator)
 - [Game Jamleri Keşfet](explore-game-jams)
 - [Yaratıcı Yolculuğa Doğru](on-to-your-creative-journey)
-
 
 
 #### SSOT'lar ####
