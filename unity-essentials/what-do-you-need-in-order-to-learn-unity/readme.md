@@ -16,8 +16,8 @@ Tecrübeli yaratıcılarımızın söyledikleri hakkında düşünün:
 - Kendine Güven
 - Sabır 
 - Odaklanmak
--Pozitiflik
--Süreklilik
+- Pozitiflik
+- Süreklilik
 
 Hangilerinin sende halihazırda olduğunu düşünüyorsun? Hangilerinin üzerinde çalışman gerektiğini düşünüyorsun? Tecrübeli yaratıcıları oldukları bu noktaya getiren özellikleri, nasıl geliştirebileceğini yaratıcılık maceran boyunca aklında bulundur. 
 
