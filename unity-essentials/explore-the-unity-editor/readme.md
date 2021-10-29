@@ -20,19 +20,19 @@ Beş ana alan için açıklamalar içeren Unity Editor arayüzü
 
 Temel Editör arayüzünün beş temel alanı vardır.
 
- Sahne görünümü ve Oyun görünümü
+ **Sahne görünümü ve Oyun görünümü**
 
 Unity Editör’ün varsayılan düzeninin merkezinde Sahne görünümü bulunur. Bu, yarattığınız dünyaya açılan interaktif pencerenizdir. Nesneleri manipüle etmek ve onları çeşitli açılardan görüntülemek için Sahne görünümünü kullanabilirsiniz.
 
 Varsayılan düzende, Oyun görünümü de bu alanda yer alır. Oyununuzu test etmek için Oyun görünümünü kullanabilirsiniz.
 
-Hiyerarşi penceresi
+**Hiyerarşi penceresi**
 
 Hiyerarşi, projenizdeki her şeyi organize edebileceğiniz yerdir. Organize edebileceğini şeylerin her birine **GameObjects** denir.
 
 Projenize Sahne görünümünde bir GameObject eklerseniz, Hiyerarşi içerisinde listelenir. Sahneden bir GameObject silerseniz, sildiğiniz GameObject Hiyerarşi listesinde yer almayacaktır. 
 
-Proje penceresi
+**Proje penceresi**
 
 Proje penceresi, kullansanız da kullanmasanız da projenizde kullanılabilir olarak yer alan tüm dosyaları (assetleri) bulabileceğiniz yerdir.
 
@@ -40,11 +40,11 @@ Proje penceresi, klasörler halinde düzenlenmiş bir dosya gezgini gibi çalı�
 
 Proje ve Hiyerarşi pencereleri arasındaki fark şudur: Hiyerarşi, mevcut sahnedeki tüm GameObject'leri içerir. Proje penceresi ise, projenizin bütünü için kullanılabilen tüm assetleri içerir.
 
-Denetçi penceresi
+**Denetçi penceresi**
 
 **Denetçi**, GameObjects hakkında ayrıntılı bilgileri bulacağınız ve yapılandıracağınız yerdir.
 
-Araç Çubuğu
+**Araç Çubuğu**
 
 Araç Çubuğu her zaman Unity Editor arayüzünün en üstündedir. GameObjects'i seçmek ve ayarlamak, sahnedeki bakış açınızı değiştirmek ve Play Mode'u başlatmak ve durdurmak için araç çubuğu butonlarını kullanabilirsiniz.
 
@@ -75,10 +75,8 @@ Projedeki sahneleri gözden geçirme
 Bir Unity projesindeki sahneler, genellikle Sahneler adlı bir klasörde saklanır. Unity Learn'de sağladığımız Unity projelerinde genellikle önceden oluşturulmuş bu klasör bulunur. Yine de sıfırdan bir proje oluşturuyorsanız, siz oluşturana kadar bu klasör var olmayacaktır.
 
 Bir Unity projesindeki sahneleri incelemek için:
-
-1. Proje penceresinde, Sahneler klasörünü bulmak için gezinme panelini veya arama çubuğunu kullanın.
-
-2. Bir sahneyi açmak için çift tıklayın. Hiyerarşi ve Sahne görünümünde o sahnenin içeriğini göreceksiniz.
+- Proje penceresinde, Sahneler klasörünü bulmak için gezinme panelini veya arama çubuğunu kullanın.
+- Bir sahneyi açmak için çift tıklayın. Hiyerarşi ve Sahne görünümünde o sahnenin içeriğini göreceksiniz.
 
 **Adım 5: Sahnede gezinme alıştırması yapın**
 
