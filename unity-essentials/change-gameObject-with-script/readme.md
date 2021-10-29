@@ -12,17 +12,17 @@ Bu eğitimde şunları yapacaksınız:
 
 Bu eğitim size, script dosyalarınızda kullanabileceğiniz sınıfları, yöntemleri ve özellikleriyle birlikte tanımlayan Unity Scripting API'sini tanıtacaktır. (Bu kavramlara aşina değilseniz endişelenmeyin, size bunları anlatacağız.)
  
-The Unity Scripting API is vast, but Unity provides plenty of comprehensive documentation, and your IDE will guide you along the way. If you are interested in programming in Unity, you’ll learn your way around the API as you try to solve new problems with scripting.
-> Unity Scripting API'si oldukça geniştir, ancak Unity çok sayıda kapsamlı belge sağlar ve IDE'niz size yol boyunca rehberlik eder. Unity'de programlama ile ilgileniyorsanız, script oluşturma ile ilgili yeni sorunları çözmeye çalışırken API'ye aşinalık kazanacaksınız.
  
-Here, you will use scripting to change the size of the ball in your [“The floor is lava!” project.](https://learn.unity.com/tutorial/challenge-the-floor-is-lava) The ball will get bigger as it rolls downhill. We’ll also show you how to change the position and rotation in case you want to experiment more on your own.
-> Bu aşamada, [“The floor is lava!”](https://learn.unity.com/tutorial/challenge-the-floor-is-lava) projesinde topun boyutunu değiştirmek için script kullanacaksınız. Top yokuş aşağı yuvarlandıkça büyüyecek. Ayrıca, kendi başınıza daha fazla deneme yapmak istemeniz durumunda konumu ve dönüşü nasıl değiştireceğinizi de göstereceğiz.
+Unity Scripting API'si oldukça geniştir, ancak Unity çok sayıda kapsamlı belge sağlar ve IDE'niz size yol boyunca rehberlik eder. Unity'de programlama ile ilgileniyorsanız, script oluşturma ile ilgili yeni sorunları çözmeye çalışırken API'ye aşinalık kazanacaksınız.
+ 
+
+Bu aşamada, [“The floor is lava!”](https://learn.unity.com/tutorial/challenge-the-floor-is-lava) projesinde topun boyutunu değiştirmek için script kullanacaksınız. Top yokuş aşağı yuvarlandıkça büyüyecek. Ayrıca, kendi başınıza daha fazla deneme yapmak istemeniz durumunda konumu ve dönüşü nasıl değiştireceğinizi de göstereceğiz.
  
 **Aşama 2: Scriptinizi oluşturun**
  
-1.	Yuvarlanan topunuz için GameObject'i seçin.
+- Yuvarlanan topunuz için GameObject'i seçin.
  
-2. Önceki eğitimde yaptığınız gibi, [GameObject'inize yeni bir script ekleyin.](https://learn.unity.com/tutorial/get-started-with-scripts#5fa1c722edbc2a002191f052) Yeni scripti BallTransform olarak adlandırın ve Visual Studio'da açmak için Assets klasörünüzde (Proje penceresi) çift tıklayın.
+ - Önceki eğitimde yaptığınız gibi, [GameObject'inize yeni bir script ekleyin.](https://learn.unity.com/tutorial/get-started-with-scripts#5fa1c722edbc2a002191f052) Yeni scripti BallTransform olarak adlandırın ve Visual Studio'da açmak için Assets klasörünüzde (Proje penceresi) çift tıklayın.
  
 **İpucu**: IDE pencerenizin sağ tarafındaki pencereleri kapatabilirsiniz.
 
