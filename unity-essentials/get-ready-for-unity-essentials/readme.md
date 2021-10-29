@@ -45,7 +45,7 @@ Unity'de yeniyim ve Mikro Oyunlardan sonra gelecek her şeye hazırım.
 
 Unity'de nasıl çalışılacağını zaten biliyorum. Editördeki pencereleri, bir GameObject'in nasıl taşınacağını ve dönüştürüleceğini ve 3D alanda nasıl gezinileceğini biliyorum:
 
- 7. Adım: Unity Temelleri Rozetini inceleyin ve alın adımına gidin.
+ - Adım 7'ye gidin: Bu eğitimi tamamlayabilirsin.
 
 
 **4. Adım: Micro Oyunları denemeyi düşünün**
