@@ -34,20 +34,20 @@ Topu büyütmek için her karede Scale özelliğine ekleme yapacağız.Inspector
  
 Bunu yapmak için, X, Y ve Z eksenlerinde Scale özelliğinin artışlarını tutmak için bir genel değişken oluşturacağız. Daha sonra bu artışları her karede topun Scale özelliğine ekleyeceğiz.
  
-1. Sınıf ifadesinin açılış paranteziyle Start() yönteminin yorumu arasına, scaleChange adlı bir değişkeni tanımlamak için bu satırı ekleyin:
+- Sınıf ifadesinin açılış paranteziyle Start() yönteminin yorumu arasına, scaleChange adlı bir değişkeni tanımlamak için bu satırı ekleyin:
  ```csharp
 public Vector3 scaleChange;
  ````
 Bu değişken public, dolayısıyla Inspector’da görünecektir. Değişken türü, Vector3, üç değeri tutan bir veri türüdür.
  
-2. Update() yönteminde yeni bir satırda şunu yazın:
+- Update() yönteminde yeni bir satırda şunu yazın:
  ```csharp
 transform.
  ```
  
 Bu, GameObject'inizin Transform Bileşenini ifade eder. Noktayı yazdığınızda, Transform Bileşeninin tüm özelliklerini ve yöntemlerini içeren bir açılır pencere göreceksiniz.
  
-4. localScale yazın veya seçin, ardından bu kod satırını aşağıdaki gibi tamamlayın:
+- localScale yazın veya seçin, ardından bu kod satırını aşağıdaki gibi tamamlayın:
  ```charp
 transform.localScale += scaleChange;
  ```
@@ -55,7 +55,7 @@ Not: Eğer açılır menüde localScale bir seçenek değilse, Visual Studio'nun
  
 += operatörü, topun büyümesi için ScaleChange'deki değerleri GameObject'in geçerli ölçek değerlerine ekleyecektir.
  
-5. Scriptinizi Ctrl+S/Cmd+S ile kaydedin.
+- Scriptinizi Ctrl+S/Cmd+S ile kaydedin.
  
 Nihai sonuç şöyle görünecektir:
 
@@ -65,7 +65,7 @@ Topun ölçeğini değiştirecek olan BallTransform adlı tamamlanmış script
 
 **Aşama 4: Ölçek ile deneme**
 
-1. Unity Editor'a dönün ve topu seçin. Inspector'da BallTransform bileşenini göreceksiniz.
+- Unity Editor'a dönün ve topu seçin. Inspector'da BallTransform bileşenini göreceksiniz.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/change-gameObject-with-script/figures/B.3.3_img2.png)
 
@@ -73,9 +73,9 @@ Scale Change özelliğine sahip BallTransform Bileşeni
 
 Unity'nin komut dosyasındaki scaleChange değişken adını Inspector'da Scale Change'e otomatik olarak nasıl dönüştürdüğüne dikkat edin. Public değişkenleriniz için her zaman camelCase kullanarak bu özellikten yararlanabilirsiniz.
 
-2. Dönüştürme Bileşeninde gösterildiği gibi topunuzun mevcut Scale özellikleri göz önüne alındığında, her karede ölçeği ne kadar değiştireceğinizi düşünün. Saniyede kabaca 24 kare vardır; bu nedenle, topunuzun Scale’i 1,1,1 ise, 1, 1, 1 Scale Change değerleri her saniyede topun boyutunu 24 ile çarpacaktır! Bazı çok küçük sayılarla (0.01 gibi) denemeler yapın ve bunları test etmek için Play düğmesine basın.
+- Dönüştürme Bileşeninde gösterildiği gibi topunuzun mevcut Scale özellikleri göz önüne alındığında, her karede ölçeği ne kadar değiştireceğinizi düşünün. Saniyede kabaca 24 kare vardır; bu nedenle, topunuzun Scale’i 1,1,1 ise, 1, 1, 1 Scale Change değerleri her saniyede topun boyutunu 24 ile çarpacaktır! Bazı çok küçük sayılarla (0.01 gibi) denemeler yapın ve bunları test etmek için Play düğmesine basın.
  
-3. Deneneyebileceğiniz diğer şeyler:
+- Deneneyebileceğiniz diğer şeyler:
 - Top ne zaman sahanız için fazla büyümüş olur? Topun daha büyük boyutuna uyması için yuvarlandığı yüzeyleri ayarlamayı deneyin.
 - Üç Scale Change değeri için farklı sayılar kullanın ve topunuzun yuvarlanmak yerine yuvarlanan dikdörtgen bir küremsiye dönüşmesini izleyin.
 - Büyümesini sağlayabileceğiniz başka GameObject'ler var mı?
