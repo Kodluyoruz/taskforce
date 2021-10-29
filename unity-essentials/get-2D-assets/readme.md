@@ -37,16 +37,16 @@ Unity, 2D asset’lerle çalışmak için özel olarak tasarlanmış yerleşik a
 
 Unity’nin Tilemap editörü
 
-![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/get-2D-assets/figures/Foundations_UnityRT3D_1.2.3.3_tilemap.png)
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/get-2D-assets/figures/tilemap.png)
 Bir grid’e yerleştirilmiş renkli tuğla desenlerini gösteren “Tile Palette” adlı Unity penceresi.
 
 Unity’nin Sprite Editörü
 
-![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/get-2D-assets/figures/Foundations_UnityRT3D_1.2.3.4_sprite-editor.png)
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/get-2D-assets/figures/sprite-editor.png)
 Duran ve sonra koşan bir 2D karakterin görüntülerinin ilerlemesini gösteren “Sprite Editor” adlı Unity penceresi.
 
 Unity’de 2D ışıklar
-![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/get-2D-assets/figures/Foundations_UnityRT3D_1.2.3.5_2d-lights.png)
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/get-2D-assets/figures/2d-lights.png)
 Bir ormanda duran ve ışığın yarıçapını ayarlamak için bir ışık simgesinin düzenlendiğini gösteren bir karakterin Unity'deki 2D Sahnesi.
 
 [Unity Asset Store,](https://assetstore.unity.com/) Unity düşünülerek özel olarak tasarlanmış 2D sanat için değerli bir kaynaktır.
@@ -57,21 +57,13 @@ Bir ormanda duran ve ışığın yarıçapını ayarlamak için bir ışık simg
 **Aşama 4: Asset Store’da Arama Yapmak**
 
 - [Unity Asset Store’a git](https://assetstore.unity.com) (bu bağlantı varsayılan tarayıcında açılacak) ve Unity Kimliğinle giriş yap.
-
 **İpucu**: Asset Store aracılığıyla edindiğin her şey Unity hesabına bağlanacak ve aynı Unity Kimliği ile oturum açtığın sürece Editör'de mevcut olacaktır.
-
 - Asset Store arama sekmesinde mevcut Sprite asset’lerini aramak için “sprite” yaz.
-
 - Filtre panelindeki Fiyat bölümünde **Bedava Asset’leri** seç.
-
 - Materyalleri içeren bedava bir asset paketi seç. **Brackey**’s **Free 2D Mega Pack’ini** öneriyoruz.
-
 - Asset’lerini indirmeye ve projene aktarmaya ilişkin eksiksiz ve güncel talimatlar için [Asset Store’dan asset’leri İçe Aktarma bölümüne göz at.](https://learn.unity.com/tutorial/project-setup-processes#60ed7a86edbc2a002520b6f4)
-
 - İçe aktarma işlemi tamamlandığında, yeni Sprite'lardan birini seç ve onu Sahnene sürükle.
-
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/get-2D-assets/figures/B.5.3-1.png)
-
 
 **Aşama 6: Sıradaki Adımlar**
 Bu eğitimde, Unity Asset Store'u bir kez daha deneyimledin ve ücretsiz Asset’leri indirip içe aktardın. Devamında, bu asset’leri veya Asset Store’da bulabileceğin diğer asset’leri kullanarak bir meydan okuma görevini kendi başına tamamlamanı öneririz.
