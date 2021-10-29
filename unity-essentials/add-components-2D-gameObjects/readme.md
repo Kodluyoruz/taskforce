@@ -31,46 +31,46 @@ Dönüştürme araçları: Hareket Ettir, Döndür, Ölçeklendir
 Scene penceresinin üst kısmındaki 2D düğmesi, 2D ve 3D görünümleri arasında geçiş yapmanızı sağlar.
 
 **Aşama 4: Sprite’a kütle verme**
-1.  Hierarchy penceresinden, Circle’ı seçin.
+- Hierarchy penceresinden, Circle’ı seçin.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/add-components-2D-gameObjects/figures/B.5.2-3.png)
 
 Circle GameObject’i seçiliyken Hierarchy penceresi.
 
-2. Inspector penceresinden Add Component butonunu seçin.
+- Inspector penceresinden Add Component butonunu seçin.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/add-components-2D-gameObjects/figures/B.5.2-4.png)
 
 Bir GameObject’e ek componentler eklemek için seçebileceğiniz Inspector panelindeki Add Component butonu. 
-3.  Bir **Rigidbody 2D** componenti bulmak için arama çubuğunu kullanın ve onu seçin. **Rigidbody** ve **Rigidbody 2D** olmak üzere iki seçeneğin mevcut olduğunu unutmayın. Normal olanı(3D) değil, **Rigidbody 2D** bileşenini seçtiğinizden emin olun.  
+- Bir **Rigidbody 2D** componenti bulmak için arama çubuğunu kullanın ve onu seçin. **Rigidbody** ve **Rigidbody 2D** olmak üzere iki seçeneğin mevcut olduğunu unutmayın. Normal olanı(3D) değil, **Rigidbody 2D** bileşenini seçtiğinizden emin olun.  
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/add-components-2D-gameObjects/figures/B.5.2-5.png)
 
  Rigidbody2D component’i seçiliyken Add Component butonu aktif
 
-4.  Bu efektlerin etkisini görmek için Game görünümünü gösterecek olan Play butonuna basarak oyunu başlatın.
+- Bu efektlerin etkisini görmek için Game görünümünü gösterecek olan Play butonuna basarak oyunu başlatın.
 Sprite düşmeye başlayacak ve siz oyunu durdurana kadar düşmeye devam edecek.
-5.  Ekranın üst kısmındaki Play butonuna tıklayarak oyunu tekrar durdurun.
+- Ekranın üst kısmındaki Play butonuna tıklayarak oyunu tekrar durdurun.
 
-**Aşama 5: Collider Ekleme **
+**Aşama 5: Collider Ekleme**
 
 Bir cismin başka bir cisme çarpması, bir cismin sonsuzluğa düşmesinden daha eğlenceli olduğu için, cisimlere fiziksel uzayda şekil veren **collider**’lardan bahsedelim. Bu kursun 3D projesinde, oluşturduğunuz ilkel GameObject’lerde zaten yerleşik collider’lar vardı. Bir görüntüden oluşturduğunuz Sprite için collider’ı kendiniz eklemelisiniz.
 
 RigidBody2D componenti ayrıca bir Sprite’a fiziksel özellikleri sağlar, peki ya fark nedir? Rigidbody özellikleri, GameObject’in yerçekimi ve hava yoğunluğu ile nasıl etkileştiğini kontrol eder. Örneğin, Circle Sprite’ındaki Rigidbody özellikleri onu düşürür, ancak başka bir GameObject’e çarptığında içinden geçer. Collider componenti, nesnelerin birbirleriyle nasıl etkileşime geçtiğini belirleyen ek özellikler ekler. Circle’a bir Collider Component’i ve zemini temsil etmek için altına bir Sprite ekleyerek, Circle yere ulaştığında aşağı düşmesini durduracaktır.
 
-1.  Hierarchy paneline sağ tıklayarak ve **2D Object > Sprite Shape** ‘i seçerek yeni bir Sprite oluşturun.
-2.  Yeni Sprite Shape’i seçin, Ground olarak yeniden adlandırın ve Y Scale özelliğini 0.1 olarak değiştirin.
+- Hierarchy paneline sağ tıklayarak ve **2D Object > Sprite Shape** ‘i seçerek yeni bir Sprite oluşturun.
+- Yeni Sprite Shape’i seçin, Ground olarak yeniden adlandırın ve Y Scale özelliğini 0.1 olarak değiştirin.
 
 ![figures](https://github.com/Kodluyoruz/taskforce/blob/main/unity-essentials/add-components-2D-gameObjects/figures/B.5.2-6.png?raw=true)
 
  Sprite Shape, Inspector panelinde Ground olarak yeniden adlandırıldı ve Y Scale değeri 0.1 olarak ayarlandı.
 
-3.  Ground Sprite’a bir Rigidbody 2D component’i ekleyin.
-4.  Oyunu başlatın. Hem Circle hem de Ground düşecek. Zemini yerinde tutmak için, Ground Sprite’ın Rigidbody2D componentine gidin, Constraints’i genişletin ve X, Y ve Z eksenleri için Freeze Position kutusunu seçin. Bu seçenekler, Sprite’a oyun çalışırken yerinde kalması ve düşmemesi gerektiğini söyleyecektir.
-5.  Oyunu tekrar çalıştırın. Circle’ın Ground’a düştüğünü göreceksin, ama onu geçmeye devam edecek. Bunun nedeni, iki nesnenin hala fiziksel sınırları olmamasıdır. Bu nedenle Circle hala Ground’u geçebilir. Collider Component’leri bu durumu düzeltecektir.
-6.  Circle Sprite’ı seçin ve Inspector penceresinde Add Component butonuna tıklayın. Bir Circle Collider 2D ekleyin ve varsayılan ayarları olduğu gibi bırakın.
-7.  Box Collider 2D componenti ekleyerek Ground Sprite’ı için aynı işlemi uygulayın.
-8.  Oyunu başlatın. Circle, Ground’un üstüne düşecek ve duracak.
+- Ground Sprite’a bir Rigidbody 2D component’i ekleyin.
+- Oyunu başlatın. Hem Circle hem de Ground düşecek. Zemini yerinde tutmak için, Ground Sprite’ın Rigidbody2D componentine gidin, Constraints’i genişletin ve X, Y ve Z eksenleri için Freeze Position kutusunu seçin. Bu seçenekler, Sprite’a oyun çalışırken yerinde kalması ve düşmemesi gerektiğini söyleyecektir.
+- Oyunu tekrar çalıştırın. Circle’ın Ground’a düştüğünü göreceksin, ama onu geçmeye devam edecek. Bunun nedeni, iki nesnenin hala fiziksel sınırları olmamasıdır. Bu nedenle Circle hala Ground’u geçebilir. Collider Component’leri bu durumu düzeltecektir.
+- Circle Sprite’ı seçin ve Inspector penceresinde Add Component butonuna tıklayın. Bir Circle Collider 2D ekleyin ve varsayılan ayarları olduğu gibi bırakın.
+- Box Collider 2D componenti ekleyerek Ground Sprite’ı için aynı işlemi uygulayın.
+- Oyunu başlatın. Circle, Ground’un üstüne düşecek ve duracak.
 
 Aşama 6: Düşen Sprite’larla Deney Yapma
 Bu alıştırmanın varyasyonlarını deneyin. İstediğiniz sonuçları elde etmek için Circle Sprite ve Main Camera’yı hareket ettirin.
