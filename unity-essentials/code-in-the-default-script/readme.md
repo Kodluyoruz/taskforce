@@ -27,6 +27,7 @@ Start fonksiyonu oyunun başında bir kez çalışır ve Update fonksiyonu oyunu
 **Aşama 3: Start fonksiyonunu düzenleyin**
  
 1. İki {} parantezinin arasına, Start fonsiyonuna aşağıdaki kodu ekleyin:
+
 ```csharp
 Debug.Log("Hello World");
 ```
@@ -37,11 +38,15 @@ Debug.Log("Hello World");
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/code-in-the-default-script/figures/B.3.2-2.png)
 
+
 2. Ctrl+S (Windows) veya Cmd+S (Mac) kullanarak scripti kaydedin.
+
 
 3. Unity Editor'da Console penceresi görünmüyorsa, Ctrl+Shift+C (Windows) veya Cmd+Shift+C (Mac) ile açın. Console  penceresi, script  çalışırken, hatalar ve uyarılar da dahil olmak üzere scriptlerden gelen mesajları okuyabileceğiniz yerdir.
  
+ 
 4. Oyunu oynayın ve Console penceresine bakın. Orada “Hello World” yazısı görünür.
+
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/code-in-the-default-script/figures/B.3.2-3.png)
 
@@ -51,15 +56,20 @@ Oyun çalışırken konsolda “Merhaba Dünya” metni görüntülenecektir.
  
 1. Scripti yeniden açın ve Debug.Log satırını Update fonksiyonuna taşıyın.
 
+
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/code-in-the-default-script/figures/B.3.2-4.png)
 
 Debug.Log komutunu gösteren script  güncellemesi şimdi Update fonksiyonuna taşındı
 
+
 2. Ctrl+S (Windows) veya Cmd+S (Mac) kullanarak scripti kaydedin.
+ 
  
 3. Henüz seçili değilse, Console penceresinde Collapse seçeneğini seçin. Bu seçenek, bir sonraki adımda ekranı basitleştirecektir.
  
+ 
 4. Oyunu oynayın ve Console penceresine bakın. Bu sefer “Merhaba Dünya” mesajının yanında bir sayaç belirir. Bu sayaç, scriptin kaç kez çalıştığını ve mesajı görüntülediğini gösterir.
+
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/code-in-the-default-script/figures/B.3.2-5.png)
 
@@ -73,12 +83,16 @@ Script oluşturulabilir bileşenler kavramını göstermek için scriptinize bir
  
 1. Scripti tekrar Visual Studio'da açın.
  
+ 
 2. Aşağıda gösterildiği gibi yeni bir değişken ekleyin:
+
 
 ```csharp
 public string myMessage;
 ```
+
 3. Debug.log komutunu aşağıdaki gibi değiştirin:
+
 
 ```csharp
 Debug.log(myMessage);
@@ -87,15 +101,19 @@ Debug.log(myMessage);
 
 Kullanıcının oyun çalışırken Console’da görüntülenmek üzere kendi mesajını eklemesine izin verecek yeni bir değişkenin eklendiği script
  
+ 
 4. Scripti kaydedin (Ctrl+S/Cmd+S).
  
+ 
 5. Unity Editor'da, ScriptObject GameObject'i seçin ve Inspector'daki HelloWorld bileşenine bakın. Özel bir mesaj yazabileceğiniz yeni bir özellik görünür.
+
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/code-in-the-default-script/figures/B.3.2-7.png)
 
 Hello World script bileşeni artık kullanıcının Console’da görüntülenmek üzere kendi mesajını ekleyebileceği bir pencere görüntülüyor.
  
 İstediğiniz bir mesajı yazın.
+
 
 6. Oyunu çalıştırın ve Console penceresini kontrol edin. Özel mesajınız şimdi görünüyor!
 
