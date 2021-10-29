@@ -26,18 +26,8 @@ Arka plandaki açık kapıdan parlak ışıklar saçılırken, karanlık bir oda
 
 Bir proje özellikle sadece çevrim dışı renderlamayla elde edilebilecek bir kalite düzeyi gerektirmediği sürece, gerçek zamanlıya geçmenin avantajları kayda değerdir. Renderlamaları bekleme ihtiyacının ortadan kalkması üreticilerin çalışabileceği tarzları değiştirdi — hatta projelerini çevrim dışı renderlamadan gerçek zamanlıya geçiren üreticiler prodüksiyon süreçlerinden haftalar ya da aylar çıkardılar ve kendilerine yeni fikirler denemek veya tasarlanmış olanları cilalamak için daha fazla zaman kazandılar. Unity gibi gerçek zamanlı araçlarla, üreticiler bütün zamanlarını üretmeye harcayabilirler.
 
+**Aşama 4: Sonraki adımlar**
 Gerçek zamanlı geliştirme hem üreticiye hem de son kullanıcıya yarar sağlar. Unity ile üreticiler hem pasif hem de interaktif medya için fazlaca gerçekçi ve fiziksel olarak tutarlı sahneler oluşturabilirler. Bir sonraki eğitimde, Unity’nin ne yaptığı ve nasıl bu hale geldiği hakkında daha fazla öğreneceksin.
-
-
-
-
-
-
-
-
-
-
-
 
 
 
