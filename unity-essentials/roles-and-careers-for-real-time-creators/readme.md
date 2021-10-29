@@ -1,4 +1,4 @@
-# Gerçek zamanlı içerik oluşturucular için roller ve kariyerler
+# Gerçek Zamanlı İçerik Oluşturucular İçin Roller ve Kariyerler
 
 Bu eğitimde, giriş seviyesinden yönetici seviyesindeki pozisyonlara kadar gerçek zamanlı prodüksiyonda kariyer ve iş fırsatları hakkında bilgi edineceksiniz. Programlamanın yanı sıra Sanat ve Tasarım disiplinlerini de öğreneceksiniz. Bu alanların her birinde tipik bir iş gününün nasıl geçtiğini öğreneceksiniz. Ayrıca, asla belirli bir disiplinde uzmanlaşmadan, genel Unity uzmanı olarak çalışmanın nasıl göründüğünü de öğreneceksiniz.
 
