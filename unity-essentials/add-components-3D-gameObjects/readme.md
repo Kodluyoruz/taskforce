@@ -15,12 +15,12 @@ yapabileceksin.
 Bileşenler, bir GameObject'e davranış ve işlevsellik ekler. Dönüştürme Bileşenini kullandın - ama bu daha başlangıç! Bu eğitimde, yerçekimi ve diğer GameObjects ile etkileşime girebilmesi için bir GameObject’e fiziksel özellikler veren RigidBody Bileşeni adlı başka bir bileşen öğreneceksin. Bir GameObject'in yerçekimine nasıl tepki verdiğini 3D olarak izlemek için Ana Kamerayı da konumlandıracaksın.
 
 **Aşama 2: Başlamadan Önce**
-1. Hiyerarşide yeni bir Küre GameObject’i oluştur.
+- Hiyerarşide yeni bir Küre GameObject’i oluştur.
 
 ![figures](https://github.com/Kodluyoruz/taskforce/blob/main/unity-essentials/add-components-3D-gameObjects/figures/B.2.3-1.png?raw=true)
 
 Hiyerarşide oluşturulmuş yeni Küre GameObject’i.
-2. Küreyi Anıtın içindeki boşluğa taşı, böylece basamakların üzerinde “havanın ortasında” konumlanacak. Dönüştürme araçlarını, Denetçi’deki Dönüştürme Bileşenini veya her ikisini de kullanabilirsin.
+- Küreyi Anıtın içindeki boşluğa taşı, böylece basamakların üzerinde “havanın ortasında” konumlanacak. Dönüştürme araçlarını, Denetçi’deki Dönüştürme Bileşenini veya her ikisini de kullanabilirsin.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/add-components-3D-gameObjects/figures/B.2.3-2.png)
 
@@ -60,26 +60,26 @@ Küp içinde bir küre oluşturduğunu hatırlıyor musun? Fiziksel dünyadaki n
 
 Küre GameObject’e RigidBody Bileşeni eklemek için:
 
-1.  Hiyerarşi penceresinde Küreyi seç. 
-2.  Denetçi penceresinde Bileşen Ekle düğmesini seç.
+- Hiyerarşi penceresinde Küreyi seç. 
+- Denetçi penceresinde Bileşen Ekle düğmesini seç.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/add-components-3D-gameObjects/figures/B.2.3-6.png)
 
 Denetçi’deki Bileşen Ekle düğmesi
 
-3.   Bir **Rigidbody** bileşeni bulmak için arama çubuğunu kullan ve bileşeni seç. **Rigidbody** ve Rigidbody 2D olmak üzere iki seçeneğin mevcut olduğunu unutma. 2D olanı değil, **Rigidbody** bileşenini seçtiğinden emin ol.
+- Bir **Rigidbody** bileşeni bulmak için arama çubuğunu kullan ve bileşeni seç. **Rigidbody** ve Rigidbody 2D olmak üzere iki seçeneğin mevcut olduğunu unutma. 2D olanı değil, **Rigidbody** bileşenini seçtiğinden emin ol.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/add-components-3D-gameObjects/figures/B.2.3-7.png)
 
 Seçilmiş GameObject’e Rigidbody Bileşeni eklenişi
 
-4.   Eğer halihazırda seçili değilse, Denetçi’deki RigidBody Bileşeni’nde Yerçekimini Kullan’ı seç. 
+- Eğer halihazırda seçili değilse, Denetçi’deki RigidBody Bileşeni’nde Yerçekimini Kullan’ı seç. 
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/add-components-3D-gameObjects/figures/B.2.3-8.png)
 
 Yerçekimini Kullan aktifleştirilmiş Rigidbody Bileşeni
 
-5. Bu özelliklerin etkisini görmek için Oyun görünümünü gösterecek olan Oynat düğmesine basarak oyunu başlat.
+- Bu özelliklerin etkisini görmek için Oyun görünümünü gösterecek olan Oynat düğmesine basarak oyunu başlat.
 
 Top düşer ve basamaklardan aşağı yuvarlanır. Yuvarlanmazsa, dönüştürme araçlarını kullanarak yeni bir konuma taşımayı dene ve oyunu yeniden çalıştır.
 
