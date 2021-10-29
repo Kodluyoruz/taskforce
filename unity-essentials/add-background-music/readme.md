@@ -74,31 +74,18 @@ Denetçi (Inspector) penceresindeki Bileşen Ekle (Add Component) seçeneği.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/add-background-music/figures/B.4.1-7.png)
 
 Seçili bir GameObject’e Ses Kaynağı Bileşeni (Audio Source Component) ekleniyor.
-
 - Denetçi (Inspector)’deki Ses Kaynağı Bileşeni (Audio Source Component)’nde mevcut özellikleri incele.
-
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/add-background-music/figures/B.4.1-8.png)
-
 Ses Kaynağı Bileşeni (Audio Source Component) özellikleri.
-
 Ses Kaynağı (Audio Source)’nın ses oynatması için bir Ses Klibi (Audio Clip) ekleyeceksin.
-
 - Proje (Project) penceresinde, bu örnek projeyle sağlanan Ses Klipleri (Audio Clips)’ni görmek için Ses (Audio) klasörünü aç ve **Müzik (Music)’**i seç.
-
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/add-background-music/figures/B.4.1-9.png)
-
 Seçili Müzik Ses Klibi (Music Source Clip)’ni gösteren, Ses (Audio) klasörünün açık olduğu Proje (Project) penceresi.
-
 - Denetçi (Inspector) penceresinde, Müzik Ses Klibi (Music Source Clip) için İçe Aktarma Ayarları (Import Settings)’nı göreceksin. Denetçi (Inspector) penceresinin altında, seçilen Ses Klibi (Audio Clip)’nin bir dalga formu şeklinde önizlemesini göreceksin. Eğer bunu görmüyorsan, Önizleme Paneli (Preview Panel)’ni ortaya çıkarmak için alttaki Önizleme Başlığı (Preview Header)’na tıkla ve yukarı doğru sürükle.
-
 -  Müzik Ses Klibi (Music Audio Clip)’in önizlemesini yapmak için Oynat (Play) seçeneğini seç. Oynatmayı atlamak için dalga biçimine tıklayabilir ve dalga biçiminde gezinmek için tıklayıp sürükleyebilirsin. Önizlemeyi bitirdiğinde Oynat (Play) seçeneğini tekrar seç.
-
 - Hiyerarşi (Hierarchy) penceresinde, Music GameObject’I seç.
-
 - Denetçi (Inspector) penceresinde, Ses Klibi (Audio Clip)’nin sağındaki daire simgesine tıkla.
-
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/add-background-music/figures/B.4.1-12.png)
-
 AudioClip özelliğinde daire simgesinin vurgulandığı Ses Kaynağı Bileşeni (Audio Source Component)
 
 - Seçim Penceresi (Select Window) açılacak ve bu Proje (Project)’deki mevcut olan tüm Ses Klipleri (Audio Clips)’ni gösterecektir. Müzik Ses Kaynağı (Music Audio Source) için Müzik Ses Klibi (Audio Source Clip)’ni Ses Klibi (Audio Clip) olarak ayarlamak için seç.
