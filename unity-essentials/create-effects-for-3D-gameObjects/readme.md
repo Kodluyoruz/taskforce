@@ -19,29 +19,29 @@ Materyalin görsel görünümü bir görüntü dosyasından gelecektir. Aşağı
 
 
 **Aşama 3: Resim Dosyasını İçe Aktarmak**
-1.  Unity pencerelerini aşağıdaki örneklerle eşleştirmek için, Proje penceresinin sekmesine sağ tıkla ve henüz seçili değilse **İki Sütun Düzeni'ni** seç. Projenin klasörleri sol sütunda, seçilen klasörün içeriği sağ sütunda görünür.
+- Unity pencerelerini aşağıdaki örneklerle eşleştirmek için, Proje penceresinin sekmesine sağ tıkla ve henüz seçili değilse **İki Sütun Düzeni'ni** seç. Projenin klasörleri sol sütunda, seçilen klasörün içeriği sağ sütunda görünür.
 
-2.  Proje penceresinde Asset’ler klasörüne sağ tıkla ve O**luştur > Materyal’i** seç.
+- Proje penceresinde Asset’ler klasörüne sağ tıkla ve O**luştur > Materyal’i** seç.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-effects-for-3D-gameObjects/figures/B.2.4-2.png)
 
 Materyal seçeneği seçiliyken Oluştur menüsü
 
-3.  Yeni Materyali BrickMaterial olarak yeniden adlandır. Yeni Materyal önizlemesi, ışığın Materyal ile birçok açıdan nasıl etkileşime girdiğini görebilmen için bir 3D küredir. Proje penceresinde Materyali seçtiğinde, Denetçinin yeniden boyutlandırılabilir bölmesinde daha doğru bir önizleme görünür.
+- Yeni Materyali BrickMaterial olarak yeniden adlandır. Yeni Materyal önizlemesi, ışığın Materyal ile birçok açıdan nasıl etkileşime girdiğini görebilmen için bir 3D küredir. Proje penceresinde Materyali seçtiğinde, Denetçinin yeniden boyutlandırılabilir bölmesinde daha doğru bir önizleme görünür.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-effects-for-3D-gameObjects/figures/B.2.4-3.png)
 
 BrickMaterial olarak yeniden adlandırılan yeni temel Materyali gösteren Asset’ler klasörü
 
-4. Herringbone_Brick_baseColor.png dosyasını bu eğitimin başında listelenen Dosyalar’dan indir.
+- Herringbone_Brick_baseColor.png dosyasını bu eğitimin başında listelenen Dosyalar’dan indir.
 
-5.  Dosyayı projeye aktarmak için, indirilen dosyayı Proje penceresinde gösterilen bu Unity projesinin Asset’ler klasörüne taşıman yeterli. Dosya gezgininde Asset’ler klasörünün içeriğini görmek için Asset’ler klasörünü sağ tıkla ve Gezginde Göster'i seç.
+- Dosyayı projeye aktarmak için, indirilen dosyayı Proje penceresinde gösterilen bu Unity projesinin Asset’ler klasörüne taşıman yeterli. Dosya gezgininde Asset’ler klasörünün içeriğini görmek için Asset’ler klasörünü sağ tıkla ve Gezginde Göster'i seç.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-effects-for-3D-gameObjects/figures/B.2.4-4.png)
 
 Gezginde Göster seçeneği seçilmiş Asset Klasörü menüsü.
 
-6.  Bilgisayarının dosya gezgininde Herringbone_Brick_baseColor.png dosyasını Assets klasörüne taşı. Unity'ye döndüğünde onun simgesini göreceksin.
+- Bilgisayarının dosya gezgininde Herringbone_Brick_baseColor.png dosyasını Assets klasörüne taşı. Unity'ye döndüğünde onun simgesini göreceksin.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-effects-for-3D-gameObjects/figures/B.2.4-5.png)
 
@@ -49,11 +49,11 @@ Bilgisayarındaki dosya ve klasörlerin listesini görüntüleyen Proje penceres
 
 **Aşama 4: Tuğla Materyalini Oluşturmak**
 
-1.  BrickMaterial’ı (Tuğla Materyali) seç. 
+- BrickMaterial’ı (Tuğla Materyali) seç. 
 
-2.  Denetçi penceresinde Albedo özelliğinin yanındaki daire simgesini seç. Albedo, düz bir renge veya bir görüntüye dayalı olarak Materyalin yansıtıcı özelliklerini kapsar.
+- Denetçi penceresinde Albedo özelliğinin yanındaki daire simgesini seç. Albedo, düz bir renge veya bir görüntüye dayalı olarak Materyalin yansıtıcı özelliklerini kapsar.
 
-3.  Projendeki görseller listesinden **Herringbone_Brick_baseColor** seç.
+- Projendeki görseller listesinden **Herringbone_Brick_baseColor** seç.
 
 Görüntü artık materyale **Albedo Haritası** olarak uygulanır ve Materyal önizlemesinde görünür.
 
@@ -61,9 +61,9 @@ Görüntü artık materyale **Albedo Haritası** olarak uygulanır ve Materyal �
 
 Asset’ler klasöründe gösterildiği gibi Albedo haritası uygulanmış haliyle Materyalin önizlemesi.
 
-4.  Sahnede yeni bir küp GameObject’i oluştur. 
+- Sahnede yeni bir küp GameObject’i oluştur. 
 
-5.  Sahne Görünümündeki küpün üzerine Materyali sürükle.
+- Sahne Görünümündeki küpün üzerine Materyali sürükle.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-effects-for-3D-gameObjects/figures/B.2.4-7.png)
 
@@ -84,48 +84,48 @@ Tiling özelliğini gösteren Denetçi paneli
 Daha önce GameObject’e fiziksel özellikler vermesi için Rigidbody bileşenini eklemiştin. Ayrıca, Physic Materyali adı verilen başka bir Materyal türüyle ek fiziksel özellikler de ekleyebilirsin.
 Physic Materyalleri ile bir cismi zıplatabilir, sürtünme ve sürükleme özelliklerini değiştirebilirsin. Bu özellikler cisim yerçekimi etkisi altındayken devreye girer. Physic Materyalleri, GameObject ağının görsel özelliklerini değiştirmez.
 
-1. Asset’ler penceresindeki Materyaller klasörüne sağ tıkla ve Oluştur > Physic Materyali’ni seç.
+- Asset’ler penceresindeki Materyaller klasörüne sağ tıkla ve Oluştur > Physic Materyali’ni seç.
  
-2. Materyalin adını BouncyBall (Zıplayan Top) olarak değiştir.
+- Materyalin adını BouncyBall (Zıplayan Top) olarak değiştir.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-effects-for-3D-gameObjects/figures/B.2.4-10.png)
 
 Seçilen Physic materyalini gösteren Oluştur menüsü
 
-3.  Yeni Physic Materyali’ni seç.
+- Yeni Physic Materyali’ni seç.
 
-4.  Denetçi penceresinden Zıplama değerini 1 ile değiştir.
+- Denetçi penceresinden Zıplama değerini 1 ile değiştir.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-effects-for-3D-gameObjects/figures/B.2.4-11.png)
 
 Physic Materyalinin özelliklerini gösteren Denetçi paneli ve 1 olarak ayarlanmış Zıplama özelliği 
 
-5.  Küpü seç. Denetçi penceresinden Bileşen Ekle’yi seç ve RigidBody bileşenini ekle.
+- Küpü seç. Denetçi penceresinden Bileşen Ekle’yi seç ve RigidBody bileşenini ekle.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-effects-for-3D-gameObjects/figures/B.2.4-12.png)
 
 RigidBody Bileşeni seçiliyken Bileşen Ekle seçeneği aktif.
 
-6. Küpüne zaten bir Box Collider bileşeni eklenmiş olmalıdır. Bu bileşen, sahnede küpü oluşturduğunda otomatik olarak eklenir. Daha önceden oluşturduğun yeni Zıplama phycis materyalini Box Collider bileşenindeki Materyal yuvasına sürükle.
+- Küpüne zaten bir Box Collider bileşeni eklenmiş olmalıdır. Bu bileşen, sahnede küpü oluşturduğunda otomatik olarak eklenir. Daha önceden oluşturduğun yeni Zıplama phycis materyalini Box Collider bileşenindeki Materyal yuvasına sürükle.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-effects-for-3D-gameObjects/figures/B.2.4-13.png)
 
 Denetçi panelindeki Materyal yuvasına sürüklenen BouncyBall Physic Materyalini eklenişi.
 
-7. Oyunu çalıştır. Şu an küpün platforma doğru düşmeli ve yere çarptığında biraz zıplamalı. 
-8.  Zıplayan küpünü dene: döndürmeyi, kopyalamayı ve küpleri üst üste düşürmeyi dene!
+- Oyunu çalıştır. Şu an küpün platforma doğru düşmeli ve yere çarptığında biraz zıplamalı. 
+- Zıplayan küpünü dene: döndürmeyi, kopyalamayı ve küpleri üst üste düşürmeyi dene!
 
 **Aşama 6: Sahnedeki Aydınlatmayı Ayarlamak** 
 
 Yeni bir 3D Sahnede, güneş ışığını simüle etmek için Directional Light adlı bir nesne dahil edilmiştir. Bu ışığı, diğer GameObject'ler gibi dönüştürme araçlarıyla değiştirebilirsin.
 
-9. Hiyerarşi penceresinde Directional Light seç.
+- Hiyerarşi penceresinde Directional Light seç.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-effects-for-3D-gameObjects/figures/B.2.4-14.png)
 
 GameObjects'leri olay yerinde gösteren hiyerarşi paneli seçilen Directional Light ile.
 
-10. Hareket ettir (“w” kısayolu) ve Döndür (“e” kısayolu) dönüştürme araçlarını kullanarak ışığın dönüşünü değiştir. Directional lights, belirli bir yönden gelen ışığın tüm sahneyi yıkadığı bir ışık kaynağını simüle eder. Işığın konumunu değiştirmenin sahnede bir etkisi olmaz ancak rotasyonu değiştirmek, Sahnedeki ışığın açısını değiştirecektir. Işığın açısını değiştirirken gökyüzünün ve ortam ışığının nasıl değiştiğini not et.
+- Hareket ettir (“w” kısayolu) ve Döndür (“e” kısayolu) dönüştürme araçlarını kullanarak ışığın dönüşünü değiştir. Directional lights, belirli bir yönden gelen ışığın tüm sahneyi yıkadığı bir ışık kaynağını simüle eder. Işığın konumunu değiştirmenin sahnede bir etkisi olmaz ancak rotasyonu değiştirmek, Sahnedeki ışığın açısını değiştirecektir. Işığın açısını değiştirirken gökyüzünün ve ortam ışığının nasıl değiştiğini not et.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-effects-for-3D-gameObjects/figures/B.2.4-15.png)
 
