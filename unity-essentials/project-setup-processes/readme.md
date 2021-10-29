@@ -12,22 +12,16 @@ Bu, proje kurulumu için ortak süreçlerin bir koleksiyonudur. Bu süreçlerden
 
 Unity'nin yeni bir sürümünü yüklemek için:
 
-1.  Unity Hub'ı aç ve **Installs** sekmesini seç.
-
+- Unity Hub'ı aç ve **Installs** sekmesini seç.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/project-setup-processes/figures/ProjectSetupProcess-1.png)
 Unity Hub’ın Installs sekmesi
-
-2.  Yeni bir versiyon yüklemek için Add’i seç.
-
+- Yeni bir versiyon yüklemek için Add’i seç.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/project-setup-processes/figures/ProjectSetupProcess-2.png)
 Kutucuk içerisindeki Add butonu ile Unity Hub’ın Installs sekmesi
-
-3. Yüklemek istediğiniz versiyonu seçin ve ardından devam etmek için Next’i seçin. 
-
+- Yüklemek istediğiniz versiyonu seçin ve ardından devam etmek için Next’i seçin. 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/project-setup-processes/figures/ProjectSetupProcess-3.png)
 Kutucuk içerisindeki en son TECH Stream sürümü için Add Unity Version iletişim kutusu
-
-4.  Kuruluma eklemek istediğin modülleri seç. Şunları düşünmek isteyebilirsin:
+- Kuruluma eklemek istediğin modülleri seç. Şunları düşünmek isteyebilirsin:
 - Oluşturduğun deneyimlerin farklı platformlarda (WebGL, Windows, Mac ve Linux) oynatılabilmesi için destek oluştur
 - Dil paketleri
 
@@ -35,8 +29,7 @@ Belgeler varsayılan olarak seçilecektir.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/project-setup-processes/figures/ProjectSetupProcess-4.png)
 Kullanılabilir modüllerin listesini içeren Add Unity Version iletişim kutusu
-
-5.  Kurulumu tamamlamak için Done’yi seç.
+- Kurulumu tamamlamak için Done’yi seç.
 
 Bu süreci tamamladığında, öğrenme deneyimine geri dön.
 
@@ -51,31 +44,25 @@ Daha fazla yardım için [Unity Müşteri Desteği](https://support.unity.com/) 
 **1.3 Yüklü bir Unity versiyonuna modüller ekle **
 
 Yüklemiş olduğun herhangi bir Unity versiyonuna modül eklemek için:
-
-1. Unity Hub’ı aç ve **Installs** sekmesini seç.
-
-2. Yönetmek istediğin versiyonun kutucuğundaki **More menu’yü (⋮)** seç.
+- Unity Hub’ı aç ve **Installs** sekmesini seç.
+- Yönetmek istediğin versiyonun kutucuğundaki **More menu’yü (⋮)** seç.
 
 ![figures](https://github.com/Kodluyoruz/taskforce/blob/main/unity-essentials/project-setup-processes/figures/ProjectSetupProcess-5.png?raw=true)
 Unity Hub'ın Installs sekmesi, More menu (⋮) simgesi kutucuk içinde vurgulanmıştır.
 
-3.  **Add Modules’ü** seç.
+- **Add Modules’ü** seç.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/project-setup-processes/figures/ProjectSetupProcess-6.png)
 Genişletilmiş More menu’deki kutucuk içerisindeki Add Modules seçeneği
-
-
-4. Yüklemek istediğin modulü seç ve sonra Done’ye tıkla.
+- Yüklemek istediğin modulü seç ve sonra Done’ye tıkla.
 
 Bu süreci tamamladığında, öğrenme deneyimine geri dön.
 
 **1.4 Unity Hub’a proje ekle**
 
 Unity Hub’a Unity projesi eklemek için:
-
-1. **Projects** sekmesinde **Add’i** seç.
-
-2. Unity projesinin root klasörüne git ve **Open**’ı seç.
+- **Projects** sekmesinde **Add’i** seç.
+- Unity projesinin root klasörüne git ve **Open**’ı seç.
 
 Bu süreci tamamladığında, öğrenme deneyimine geri dön.
 
@@ -83,41 +70,29 @@ Bu süreci tamamladığında, öğrenme deneyimine geri dön.
 **1.5 Yeni bir Unity projesi oluştur**
 
 Yeni bir Unity projesi oluşturmak için:
-
-1.  Unity Hub’ı aç.  
-
-2.  **Projects** sekmesinde **New**’i seç.
-
-3.  Kullanmak istediğin Template (şablonu)’i seç. 
+-  Unity Hub’ı aç.  
+-  **Projects** sekmesinde **New**’i seç.
+-  Kullanmak istediğin Template (şablonu)’i seç. 
 
 **Not**: Tüm Template’lerin mevcut listede görünür hale gelmesi birkaç dakika sürebilir. Bir Template’in indirme simgesi (aşağı ok) varsa, bunu bir projede kullanmadan önce bunu seçmen ve indirmen gerekir.
-
-4.  Yeni projeni isimlendir ve kaydetmek için uygun bir lokasyon seç.
-
-5.  **Create**’i seç. Projen Unity Editor’da açılacak — bu işlem birkaç dakika sürerse endişelenme
-
+-  Yeni projeni isimlendir ve kaydetmek için uygun bir lokasyon seç.
+-  **Create**’i seç. Projen Unity Editor’da açılacak — bu işlem birkaç dakika sürerse endişelenme
 Bu süreci tamamladığında, öğrenme deneyimine geri dön.
 
 **1.6 Package Manager üzerinden bir paket kur**
 
 Bir paket kurmak için:
-
-1.  Açmadıysan Unity Editor’u aç.
-
-
-2.  Üst menüde, **Window > Package Manager‘ı** seç.
+-  Açmadıysan Unity Editor’u aç.
+- Üst menüde, **Window > Package Manager‘ı** seç.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/project-setup-processes/figures/ProjectSetupProcess-7.png)
 Window > Package Manager’ın üst menüdeki gösterimi
 
-3.  Yüklemek istediğin paketi bulmak için Unity Registry'ye (varsayılan görünüm) göz at veya arama çubuğunu kullan.
+- Yüklemek istediğin paketi bulmak için Unity Registry'ye (varsayılan görünüm) göz at veya arama çubuğunu kullan.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/project-setup-processes/figures/ProjectSetupProcess-8.png)
 Bütün paketleriyle Package Manager penceresi
-
-4.  Sana gerekli olan paketi bulduğunda, Unity projene kurmak için **Install**’u seç. 
-
-
-5.  **Ctrl+S** (Windows) or **Cmd+S** (macOS) kısayolu ile değişiklerini kaydetmeyi unutma
+- Sana gerekli olan paketi bulduğunda, Unity projene kurmak için **Install**’u seç. 
+- **Ctrl+S** (Windows) or **Cmd+S** (macOS) kısayolu ile değişiklerini kaydetmeyi unutma
 
 
 Bu süreci tamamladığında, öğrenme deneyimine geri dön.
@@ -125,28 +100,20 @@ Bu süreci tamamladığında, öğrenme deneyimine geri dön.
 **1.7 Unity projendeki bir paketi güncelle**
 
 Unity projendeki bir paketi güncellemek için:
-
-1.  Açmadıysan Unity Editor’u aç.
-
-
-2.  Üst menüde, **Window > Package Manager‘ı** seç. 
+- Açmadıysan Unity Editor’u aç.
+- Üst menüde, **Window > Package Manager‘ı** seç. 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/project-setup-processes/figures/ProjectSetupProcess-9.png)
 Window > Package Manager’ın üst menüdeki gösterimi
 
-By default, the window will show the **Unity Registry,** listing all the available packages you can use to enhance Unity Editor.
 Varsayılan olarak, açılan pencere, Unity Editor'ı geliştirmek için kullanabileceğin tüm mevcut paketleri listeleyen **Unity Registry'yi** gösterecektir.
-
-
-3.  Pencerenin sol köşesinde, paketler açılır menüsünü seç ve **In Project’i** seç.
+- Pencerenin sol köşesinde, paketler açılır menüsünü seç ve **In Project’i** seç.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/project-setup-processes/figures/ProjectSetupProcess-10.png)
 In Project’in paketler açılır menüsündeki gösterimi
 
 Bu görünüm, halihazırdaki Unity projende bulunan tüm paketleri listeler.
-4.  Mevcut listeden ilgili paketi seç. İpucu: Bir ok simgesi, mevcut bir güncellemeye sahip paketleri gösterir.
+- Mevcut listeden ilgili paketi seç. İpucu: Bir ok simgesi, mevcut bir güncellemeye sahip paketleri gösterir.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/project-setup-processes/figures/ProjectSetupProcess-11.png)
-
-5.  **Update to [versiyon numarası]** seç.
-
+- **Update to [versiyon numarası]** seç.
 
 Bu süreci tamamladığında, öğrenme deneyimine geri dön.
 
@@ -154,34 +121,21 @@ Bu süreci tamamladığında, öğrenme deneyimine geri dön.
 1.8 Asset Store’dan asset’leri içeri aktar
 
 Projene asset’leri Unity Asset Store’dan aktarmak için: 
-
-1.  Projeni Unity Editor’da aç.
-
-
-2.  İnternet tarayıcında Asset Store’a git ve indirmek istediğin paketi bul.
-
-
-3.  **Add to My Assets’i** seç.
+- Projeni Unity Editor’da aç.
+- İnternet tarayıcında Asset Store’a git ve indirmek istediğin paketi bul.
+- **Add to My Assets’i** seç.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/project-setup-processes/figures/ProjectSetupProcess-12.png)
  Asset Store'da, tüm asset’lerin sayfasında bulunan Add to My Assets düğmesi
 
-4.  Tamamlama penceresi açıldığında, Open in Unity’i seç.
+- Tamamlama penceresi açıldığında, Open in Unity’i seç.
 Open in Unity düğmesinin kutucuk içerisinde gösterildiği Added to My Assets bildirimi
-
 Paket, Package Manager penceresinde açılacak.
-
-5.   **Download**’ı seç. Asset’leri daha önceden indirdiysen, bu süreçte doğrudan bir sonraki adıma geçersin.
-
-6.   **Import**’u seç. 
-
-7.  Bir uyarı penceresi proje ayarlarının üzerine yazman konusunda seni uyaracaktır — proje ayarlarını özelleştirmediysen bu uyarıyı yok sayabilirsin. Devam etmek için, **Import**’u seç.
-
-8.  Başka bir uyarı penceresi, Package Manager bağımlılıkları olduğu konusunda seni uyarabilir — bu durumda, **Install/Upgrade’i** seç.
-
-
-9.  Paket içeriğini listeleyen Import Unity Package penceresi açılacaktır. Çoğu durumda, seçilen asset paketinin tüm içeriğini tutmak isteyeceksin. Pencerenin sağ alt köşesinde **Import**’u seç.
-
+- **Download**’ı seç. Asset’leri daha önceden indirdiysen, bu süreçte doğrudan bir sonraki adıma geçersin.
+- **Import**’u seç. 
+- Bir uyarı penceresi proje ayarlarının üzerine yazman konusunda seni uyaracaktır — proje ayarlarını özelleştirmediysen bu uyarıyı yok sayabilirsin. Devam etmek için, **Import**’u seç.
+- Başka bir uyarı penceresi, Package Manager bağımlılıkları olduğu konusunda seni uyarabilir — bu durumda, **Install/Upgrade’i** seç.
+- Paket içeriğini listeleyen Import Unity Package penceresi açılacaktır. Çoğu durumda, seçilen asset paketinin tüm içeriğini tutmak isteyeceksin. Pencerenin sağ alt köşesinde **Import**’u seç.
 Asset’ler, Unity projenin Assets folder klasörüne eklenecektir.
 
 Bu süreci tamamladığında, öğrenme deneyimine geri dön.
@@ -191,18 +145,10 @@ Bu süreci tamamladığında, öğrenme deneyimine geri dön.
 
 **1.9 Yerel bir asset paketini içe aktar**
 Projene yerel bir asset paketini içe aktarmak için
-
-1.  Projeni Unity Editor’da aç.
-
-
-2. Üst menüde, **Assets > Import Package > Custom Package** seçeneğine git.
-
-
-3. File browser penceresinde, içe aktarmak istediğin .unitypackage dosyasına git ve Open'ı seç.
-
-
-4.  Asset’lerini projene aktarmak için Import'u seç. Bunları Project penceresine gidip Assets folder klasörünü açarak bulabilirsin.
-
+- Projeni Unity Editor’da aç.
+- Üst menüde, **Assets > Import Package > Custom Package** seçeneğine git.
+- File browser penceresinde, içe aktarmak istediğin .unitypackage dosyasına git ve Open'ı seç.
+- Asset’lerini projene aktarmak için Import'u seç. Bunları Project penceresine gidip Assets folder klasörünü açarak bulabilirsin.
 Bu süreci tamamladığında, öğrenme deneyimine geri dön.
 
 
@@ -210,13 +156,9 @@ Bu süreci tamamladığında, öğrenme deneyimine geri dön.
 
 **1.10 Bilgisayarından özgün asset’leri içe aktar**
 Unity projene bilgisayarından özgün asset’leri içe aktarmak için:
-
-1.  File browser penceresinde, içe aktarmak istediğin dosyaya git.
-
-2.  Projeni Unity Editor’da aç.
-
-3.  Dosyayı file browser’dan Editor'daki Project penceresine sürükle. Bu, dosyayı Unity projects’in Assets folder klasörüne kopyalayacaktır.
-
+- File browser penceresinde, içe aktarmak istediğin dosyaya git.
+- Projeni Unity Editor’da aç.
+- Dosyayı file browser’dan Editor'daki Project penceresine sürükle. Bu, dosyayı Unity projects’in Assets folder klasörüne kopyalayacaktır.
 Bu süreci tamamladığında, öğrenme deneyimine geri dön.
 
 **Notlar**: 
@@ -227,24 +169,13 @@ Yapılandırma gerektiren daha karmaşık asset’leri içe aktarmak farklı bir
 1.11 Unity Hub 2.X'teki Learn sekmesinden projeleri aç 
 
 Unity Hub'daki Learn sekmesinden projeleri açmak için:
-
-1.  **Unity Hub**’ı aç.
-
-
-
-2.  Pencerenin solundan **Learn** sekmesini seç.
-
-
-3.  Mevcut listede seçtiğin projeyi bul ve seç.
-
+- **Unity Hub**’ı aç.
+- Pencerenin solundan **Learn** sekmesini seç.
+- Mevcut listede seçtiğin projeyi bul ve seç.
 **Not**: Projen listede yoksa, Unity Hub'a proje eklemeyi gözden geçirin.
-
-4.  Açılan pencerede, **Download Project’i** seç.
-
-
-5.  İndirme tamamlandığında, **Open Project'i** seç. Unity Editor açılacak, projeyi içe aktar ve gerekli bütün gerekli [paketleri](https://docs.unity3d.com/Manual/Packages.html) güncelle.
-
-6.  Üst menüde, proje sürümünü kaydetmek için **File > Save'e** git. Alternatif olarak **Ctrl+S** (Windows) veya **Cmd+S** (macOS) kısayolunu da kullanabilirsin.
+- Açılan pencerede, **Download Project’i** seç.
+- İndirme tamamlandığında, **Open Project'i** seç. Unity Editor açılacak, projeyi içe aktar ve gerekli bütün gerekli [paketleri](https://docs.unity3d.com/Manual/Packages.html) güncelle.
+- Üst menüde, proje sürümünü kaydetmek için **File > Save'e** git. Alternatif olarak **Ctrl+S** (Windows) veya **Cmd+S** (macOS) kısayolunu da kullanabilirsin.
 
 Bu süreci tamamladığında, öğrenme deneyimine geri dön.
 
@@ -254,44 +185,31 @@ Bu süreci tamamladığında, öğrenme deneyimine geri dön.
 Bazı kullanıcılar şu anda Unity Hub 2.X'in Learn sekmesinden indirilen Unity projelerini kaydetmelerini engelleyen bir hatayla karşılaşıyor.
 
 Bu hatayla karşılaşırsan, aşağıdaki geçici çözümü kullanabilirsin:
-
-1.  Üst menüde, **File > Close’a** git.
-
-2.  Açılan **Keep Project?** pencerinde, **Keep**’i seç.
-
+- Üst menüde, **File > Close’a** git.
+- Açılan **Keep Project?** pencerinde, **Keep**’i seç.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/project-setup-processes/figures/ProjectSetupProcess-14.png)
+-  İşletim sisteminin kaydetme penceresini kullanarak projeni kaydet. Projen için özel projeler klasörü veya Belgeler klasörün gibi kolayca erişilebilen bir konum seç.
+- Proje kaydedildikten sonra Unity Hub'ı yeniden aç. 
+- **Add**’i seç ve kayıtlı projenin konumuna git. 
+- Projeni Hub'daki Proje List’e eklemek için **Open**'ı seç.
+- Açmak ve eğitime devam etmek için Proje List’deki projeye sol tıkla. Bu işlemi tamamladıktan sonra projeyi normal bir şekilde kaydedebileceksin.
 
-3.  İşletim sisteminin kaydetme penceresini kullanarak projeni kaydet. Projen için özel projeler klasörü veya Belgeler klasörün gibi kolayca erişilebilen bir konum seç.
+**1.13 Scene görünümü arka planını değiştir**
 
-4.  Proje kaydedildikten sonra Unity Hub'ı yeniden aç. 
-
-5.  **Add**’i seç ve kayıtlı projenin konumuna git. 
-
-6.  Projeni Hub'daki Proje List’e eklemek için **Open**'ı seç.
-
-7.  Açmak ve eğitime devam etmek için Proje List’deki projeye sol tıkla. Bu işlemi tamamladıktan sonra projeyi normal bir şekilde kaydedebileceksin.
-
-1.13 Scene görünümü arka planını değiştir
 Varsayılan arka plan ile temel öğeler arasındaki kontrastı varsayılan malzemeyle değiştirmek istersen, arka plan rengini değiştirebilirsin:
 
-1.  Scene görünümünün üzerindeki araç çubuğunda, bunları Scene görünümünde kapatmak için **skybox, fog ve effects toggle** seç.
+- Scene görünümünün üzerindeki araç çubuğunda, bunları Scene görünümünde kapatmak için **skybox, fog ve effects toggle** seç.
 
 ![figures](https://github.com/Kodluyoruz/taskforce/blob/main/unity-essentials/project-setup-processes/figures/ProjectSetupProcess-15.png?raw=true)
 Kutucuk içerisindeki skybox, fog ve effects toggle Scene görünümü araç çubuğu
-
-2.  Ana menüde, **Edit > Preferences’e** git.
-
-3.  Gezinme çubuğunda **Colors** sekmesini seç.
-
-4.  **Scene** başlığı altında, **Background** özelliğini bul. Sana uygun arka plan rengini seçmek için color picker (renk seçiciyi)’ı kullan.
-
+- Ana menüde, **Edit > Preferences’e** git.
+- Gezinme çubuğunda **Colors** sekmesini seç.
+- **Scene** başlığı altında, **Background** özelliğini bul. Sana uygun arka plan rengini seçmek için color picker (renk seçiciyi)’ı kullan.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/project-setup-processes/figures/ProjectSetupProcess-16.png)
 Colors sekmesinini seçili olduğu Preferences penceresi
 
 Dilersen grid rengini ayarlamak için Grid özelliğini de aynı şekilde değiştirebilirsin.
-
-5.  Preferences penceresini kapat.
-
+- Preferences penceresini kapat.
 **Önemli**: Scene görünümünde normal varsayılan gökyüzüne dönmek için, bunu tekrar açmak için **skybox, fog ve effects toggle’**ı tekrar seçin.
 
 
