@@ -42,31 +42,31 @@ Visual Studio, genellikle ilk Unity kurulumu sırasında bir modül olarak kurul
 
 İlk script’inizi oluşturalım.
 
-- **Challenge: The Floor is Lava!** Için oluşturduğunuz 3D projeyi açın. Bu projeyi script geliştirerek daha da özelleştirme fırsatınız olacak.
+-**Challenge: The Floor is Lava!** Için oluşturduğunuz 3D projeyi açın. Bu projeyi script geliştirerek daha da özelleştirme fırsatınız olacak.
 
-- Hierarchy’de sağ tıklayarak **Create Empty** butonunu seçip Sahne’de yeni bir GameObject oluşturun.
+-Hierarchy’de sağ tıklayarak **Create Empty** butonunu seçip Sahne’de yeni bir GameObject oluşturun.
 
-- Inspector penceresini kullanarak yeni GameObject’in adını ScriptObject olarak değiştirin.
+-Inspector penceresini kullanarak yeni GameObject’in adını ScriptObject olarak değiştirin.
 
-- Yeni GameObject’iniz seçiliyken, Inspector penceresinde **Add Component’i** seçin. Ardından **New Script** seçeneğini seçin.
+-Yeni GameObject’iniz seçiliyken, Inspector penceresinde **Add Component’i** seçin. Ardından **New Script** seçeneğini seçin.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/get-started-with-scripts/figures/B.3.1-NewScript.png)
 
 Yeni bir script oluşturma
 
-- Yeni bir ortamda script yazmanın ilk dersi “Hello World!” bu yeni script ile yapacağımız şey budur. Yeni scripti “HelloWorld” olarak adlandırın ve **Create and Add butonunu** seçin.
+-Yeni bir ortamda script yazmanın ilk dersi “Hello World!” bu yeni script ile yapacağımız şey budur. Yeni scripti “HelloWorld” olarak adlandırın ve **Create and Add butonunu** seçin.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/get-started-with-scripts/figures/B.3.1_img1.png)
 
 Inspector penceresinde GameObject’e Hello World isimli yeni bir script ekleme. 
 
-- Script dosyası artık bir component olarak boş GameObject’e eklenir ve projenizin Assets klasöründe de görünür.
+-Script dosyası artık bir component olarak boş GameObject’e eklenir ve projenizin Assets klasöründe de görünür.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/get-started-with-scripts/figures/B.3.1_img2.png)
 
 Script dosyası artık bir component olarak boş GameObject’e eklenir ve projenizin Assets klasöründe de görünür.
 
-- Scriptinizi Visual Studio’da açmak için üzerine çift tıklayın. 
+-Scriptinizi Visual Studio’da açmak için üzerine çift tıklayın. 
 
 **Aşama 5: Sonraki Adımlar**
 
