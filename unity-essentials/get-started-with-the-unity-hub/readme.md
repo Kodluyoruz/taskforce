@@ -42,7 +42,7 @@ Unity Hub varsayılan görünümü
 
 **Project sekmesi**
 
-Unity'de, tıpkı ofis uygulamalarını kullanarak birden çok belgede veya grafik yazılımı kullanarak birden çok görüntüde çalışmak gibi birden çok projede çalışacaksın. Projeler sekmesi, yeni projeler oluşturup içe aktaracağın ve mevcut projeleri yöneteceğin yerdir.
+Unity'de, tıpkı ofis uygulamalarını kullanarak birden çok belgede veya grafik yazılımı kullanarak birden çok görüntüde çalışmak gibi birden çok projede çalışacaksın. **Projeler sekmesi,** yeni projeler oluşturup içe aktaracağın ve mevcut projeleri yöneteceğin yerdir.
 
 **Learn sekmesi**
 
@@ -62,8 +62,8 @@ Motor geliştikçe Unity'nin yeni sürümlerini kurman gerekecek. İndirmeler se
 
 Hub'ın ana ekranında iki ekstra kontrol vardır:
 
-1. Ayarları (dişli simgesi) seçmek, Unity Hub için Tercih ayarlarını açar.
-2. Baş harflerinizi seçtiğinizde Unity ID'niz için bir hesap menüsü açılır.
+1. **Ayarları (dişli simgesi)** seçmek, Unity Hub için **Tercih ayarlarını** açar.
+2. **Baş harflerinizi** seçtiğinizde Unity ID'niz için bir hesap menüsü açılır.
 
 **Aşama 3: Unity sürümlerini tanımlayın**
 
@@ -98,7 +98,7 @@ Unity Hub'da, 2021.2.6f1 gibi bir yapı numarasına sahip sürüm numaralarını
 Unity'yi ilk kurduğunuzda, muhtemelen en son LTS sürümünü yüklemeniz için yönlendirildiniz. Bir seferde tipik olarak iki LTS sürümü mevcuttur. Alıştırma olarak, bu yüklemelerin Hub'da nasıl göründüğünü görebilmek için ek bir LTS sürümü yüklemeyi deneyin:
 
 1. Yüklemeler sekmesine gidin. Hangi sürümü yüklediğinize dikkat edin. 
-2. Ekle'yi seçin ve mevcut "Resmi Yayın İzinleri"ne göz atın. 
+2. **Ekle**'yi seçin ve mevcut "Resmi Yayın İzinleri"ne göz atın. 
 3. Sahip olduğunuzdan farklı bir LTS sürümü seçin ve yükleyin.
 
 Güncel adım adım rehberlik için bu talimatlara ve [Unity sürümünün yüklenmesiyle ilgili sorun giderme ipuçlarına bakın.](https://learn.unity.com/tutorial/project-setup-processes#60ed7a3fedbc2a001f71f1aa)
@@ -110,11 +110,11 @@ Modüller, Unity sürümü kurulumuna ekleyebileceğiniz ek bileşenlerdir. Bunl
 Bu yolda, web'de oynanabilir uygulamalar yayınlamanıza izin veren WebGL kullanarak projeler oluşturacaksınız. Bu modülü ekleyelim:
 
 
-1. Unity Hub'ı açın ve Yüklemeler sekmesini seçin. 
+1. Unity Hub'ı açın ve **Installs** sekmesini seçin. 
 2. En güncel LTS kurulumunuzu bulun ve üç noktalı simgesini seçin. 
-3. Modül Ekle'yi seçin. 
-4. Listeyi kaydırarak WebGL Build Support'u bulun ve seçin. 
-5. Devam etmek için İLERİ'yi seçin ve modülü kurulumunuza ekleyin.
+3. **Modül Ekle'yi** seçin. 
+4. Listeyi kaydırarak **WebGL Build Support'u** bulun ve seçin. 
+5. Devam etmek için **İLERİ**'yi seçin ve modülü kurulumunuza ekleyin.
 
 
 Ek rehberliğe ihtiyacınız varsa, [kurulu bir Unity sürümüne modül eklemeyle ilgili güncel talimatlara bakın.](https://learn.unity.com/tutorial/project-setup-processes#60ed7a4cedbc2a002096b758)
@@ -123,7 +123,7 @@ Ek rehberliğe ihtiyacınız varsa, [kurulu bir Unity sürümüne modül eklemey
 
 Unity'yi kullandıkça, birçok proje oluşturmanız olasıdır. Projeleriniz, 2D veya 3D gibi genel formatlarında ve kalite ve performans standartlarını karşılamak için gereken teknolojide büyük farklılıklar gösterebilir.
 
-Şablonlar, yaygın en iyi uygulamalara dayalı önceden seçilmiş ayarlar ve özellik setleriyle çeşitli biçimlerde "başlangıç" Unity projeleridir. Bazı şablonlar, Unity'yi ilk kurduğunuzda karşılaşmış olabileceğiniz Microgame şablonları gibi örnek projeler ve öğreticiler bile içerir.
+**Şablonlar**, yaygın en iyi uygulamalara dayalı önceden seçilmiş ayarlar ve özellik setleriyle çeşitli biçimlerde "başlangıç" Unity projeleridir. Bazı şablonlar, Unity'yi ilk kurduğunuzda karşılaşmış olabileceğiniz Microgame şablonları gibi örnek projeler ve öğreticiler bile içerir.
 
 Unity'nin her sürümünün kendi şablonları vardır. Yeni bir proje oluşturduğunuzda bu şablonları kullanacaksınız. Unity'yi öğrendikçe, çeşitli türler hakkında daha fazla şey öğreneceksiniz.
 
@@ -135,11 +135,11 @@ Bunlar hakkında daha fazla bilgi edinmek için Proje Şablonları'ndaki [Unity 
 Artık Unity kurulumu ve bir şablon kullanarak yeni bir proje oluşturmaya hazırsınız.
 
 1. Projeler sekmesine gidin. 
-2. WebGL oluşturma desteğine sahip Unity sürümünü seçmek için YENİ düğmesinin yanındaki açılır menüyü kullanın. 
-3. Bir sonraki ekranda 3D Şablonu seçin. 
+2. WebGL oluşturma desteğine sahip Unity sürümünü seçmek için **YENİ** düğmesinin yanındaki açılır menüyü kullanın. 
+3. Bir sonraki ekranda **3D Şablonu** seçin. 
 4. Projenize “Essentials 3D project” adını verin 
 5. İsterseniz bu proje için konumu değiştirin, ancak şimdilik konumu olduğu gibi bırakmakta bir sakınca yoktur. 
-6. OLUŞTUR'u seçin.
+6. **OLUŞTUR**'u seçin.
 
 
 Güncel, adım adım rehberlik için, Kurulum eklemede sorun yaşıyorsanız, yeni bir Unity projesi oluşturmaya ilişkin bu adım adım [talimatlara](https://learn.unity.com/tutorial/project-setup-processes#60f6aedeedbc2a7e96802196) bakın.
