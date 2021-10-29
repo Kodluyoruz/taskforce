@@ -23,19 +23,19 @@ Bu yapıyı oluşturduğunuzda, GameObjectlerin hizalı olduğundan emin olmak i
 **Aşama 2: Boş bir GameObject oluştur**
 Boş bir GameObject, Hiyerarşide (Hierarchy) oluşturulabilen yer tutucu nesnedir. Sahnede görünen bir tasviri yoktur ve diğer GameObjectler için konteyner gibi davranabilir (daha sonra diğer şeylerle birlikte açıklanacak).
 
-1.Hiyerarşide (Hierarchy) sağ tıklayın ve **Create Empty** seçin.
+- Hiyerarşide (Hierarchy) sağ tıklayın ve **Create Empty** seçin.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-structure-with-primitives/figures/B.2.2-2.png)
 
 Create Empty seçili Hiyerarşi (Hierarchy) içerik menüsü.
 
-2.Inspector’da adını Monument olarak yeniden adlandır. 
+- Inspector’da adını Monument olarak yeniden adlandır. 
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-structure-with-primitives/figures/B.2.2-3.png)
 
 Inspector penceresinin üst kısmı, seçili GameObject’in adını Monument olarak göstermekte.
 
-3. Sahne (Scene) görünümünde bu yeni GameObjecti seçin. Inspector’da, sağdaki üç noktaya tıklayarak ve Reset Position’ı seçerek pozisyonu sıfırlayın. Bu, GameObject merkezinin konumunu 0,0,0 olarak ayarlar ve onu Sahnenizin (Scene) merkezine hizalar.
+- Sahne (Scene) görünümünde bu yeni GameObjecti seçin. Inspector’da, sağdaki üç noktaya tıklayarak ve Reset Position’ı seçerek pozisyonu sıfırlayın. Bu, GameObject merkezinin konumunu 0,0,0 olarak ayarlar ve onu Sahnenizin (Scene) merkezine hizalar.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-structure-with-primitives/figures/B.2.2-4.png)
 
@@ -46,19 +46,19 @@ Inspector penceresinde, Transform Component, üç nokta seçili ve Reset Positio
 Scene görünümünde boş GameObject seçili, Gizmo gösterilmekte, konumu 0,0,0’a sıfırlanmış
 
 **Aşama 3: Basamakları oluşturun**
-1.  Hiyerarşide (Hierarchy), Monument GameObject’ine sağ tıklayın ve Monument’in alt öğesi olarak yeni bir küp oluşturmak için  **3D Object > Cube’ü** seçin.
+- Hiyerarşide (Hierarchy), Monument GameObject’ine sağ tıklayın ve Monument’in alt öğesi olarak yeni bir küp oluşturmak için  **3D Object > Cube’ü** seçin.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-structure-with-primitives/figures/B.2.2-6.png)
 
 Hiyerarşi (Hierarchy) penceresi ile Monument GameObject seçili, 3B Nesne (3D Object) seçili içerik menüsü gösterilmekte ve alt menüde temel öğeler listelenmekte.
 
-2.  Yeni GameObject’i, Floor olarak yeniden adlandırın. 
+- Yeni GameObject’i, Floor olarak yeniden adlandırın. 
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-structure-with-primitives/figures/B.2.2-7.png)
 
 Hiyerarşi (Hierarchy) , Floor GameObject’i Monument GameObject’in alt öğesi olarak göstermekte.
 
-3.  Floor GameObject’e sağ tıklayın ve Duplicate’i seçin. (Kısayol: Floor’u seç ve Ctrl-D tuşlarına bas.) Floor’u altı kez daha kopyala böylece orjinal Floor ve yedi kopyaya daha sahip olacaksınız, toplamda Monument’in sekiz floor alt öğesi olacak.
+- Floor GameObject’e sağ tıklayın ve Duplicate’i seçin. (Kısayol: Floor’u seç ve Ctrl-D tuşlarına bas.) Floor’u altı kez daha kopyala böylece orjinal Floor ve yedi kopyaya daha sahip olacaksınız, toplamda Monument’in sekiz floor alt öğesi olacak.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-structure-with-primitives/figures/B.2.2-8.png)
 
@@ -67,13 +67,13 @@ Hiyerarşi (Hierarchy) , Floor ve yedi kopyasını Monument GameObject’in kopy
 **Aşama 8: Basamakları değiştirin**
 Bu görevlerde, merdiven basamağı efekti oluşturmak için her bir Floor nesnesinin Transform Component değerlerini değiştireceksiniz.
 
-1.  İlk Floor alt öğesini seçin ve Transform Componenti’nin değerlerini Inspector penceresinde  aşağıdaki gibi değiştirin
+- İlk Floor alt öğesini seçin ve Transform Componenti’nin değerlerini Inspector penceresinde  aşağıdaki gibi değiştirin
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-structure-with-primitives/figures/B.2.2-9.png)
 
 Inspector penceresi, ilk Floor GameObject’in Transform bileşeninin Ölçek (Scale) ayarları X=20, Y=0.2, Z=20 ve tüm Konum (Position) ve Ölçek (Scale) ayarları 0
 
-2.  Geri kalan Floor nesnelerine de aşağıda belirtilen değerleri kullanarak aynısını yapın.
+- Geri kalan Floor nesnelerine de aşağıda belirtilen değerleri kullanarak aynısını yapın.
 Floor (1) GameObject için değerler
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-structure-with-primitives/figures/B.2.2-10.png)
@@ -138,14 +138,14 @@ Sekiz merdiven basamaklı kare karo şeklinde bir nesne oluşturmak için her bi
 
 **Aşama 5:Duvarları oluşturun**
 
-1.  Monument’in alt öğesi olan başka bir Cube temel öğesi oluşturun ve Wall olarak yeniden adlandırın.
+- Monument’in alt öğesi olan başka bir Cube temel öğesi oluşturun ve Wall olarak yeniden adlandırın.
 
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-structure-with-primitives/figures/B.2.2-19.png)
 
 Hiyerarşi (Hierarchy) , showing Wall GameObject’i Monument GameObject’in alt öğesi olarak göstermekte
 
-2. Inspector’daki değerleri aşağıdaki gibi değiştirin.
+- Inspector’daki değerleri aşağıdaki gibi değiştirin.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-structure-with-primitives/figures/B.2.2-20.png)
 
@@ -191,21 +191,21 @@ Dikey duvarlar Monument GameObject’e eklendi
 
 **Aşama 6: Çatıyı oluştur**
 
-1. Monument GameObject’in alt öğesi olan yeni boş bir GameObject oluştur ve adını Platform yap. 
+- Monument GameObject’in alt öğesi olan yeni boş bir GameObject oluştur ve adını Platform yap. 
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-structure-with-primitives/figures/B.2.2-27.png)
 
 Hiyerarşi (Hierarchy) yeni boş GameObject olan Platform’u gösteriyor
 
-2. Tüm zemin nesnelerini Platform GameObject’ine sürükle. Bu, nesnelerin içi içe GameObject’in alt öğesi oldukları iç içe (nested) GameObject olarak adlandırılan şeyi oluşturur. Bu durumda, Monument GameObject üst öge, ve tüm Floor GameObjectler onun alt öğesi. Nesneleri bu şekilde grupladığınızda, hepsini birlikte kullanabilir ve aralarındaki ilişkiyi korurken bile kopyalarını oluşturabilirsiniz.
+- Tüm zemin nesnelerini Platform GameObject’ine sürükle. Bu, nesnelerin içi içe GameObject’in alt öğesi oldukları iç içe (nested) GameObject olarak adlandırılan şeyi oluşturur. Bu durumda, Monument GameObject üst öge, ve tüm Floor GameObjectler onun alt öğesi. Nesneleri bu şekilde grupladığınızda, hepsini birlikte kullanabilir ve aralarındaki ilişkiyi korurken bile kopyalarını oluşturabilirsiniz.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-structure-with-primitives/figures/B.2.2-28.png)
 
 Tüm zemin (floor) nesneleri boş GameObject’e sürüklendi.
 
-3. Platform GameObject’i kopyalayın. Kopyalanmış Platform, alt nesneleri de içerecek. Platform’un bu kopyasını Roof olarak yeniden adlandırın.
+- Platform GameObject’i kopyalayın. Kopyalanmış Platform, alt nesneleri de içerecek. Platform’un bu kopyasını Roof olarak yeniden adlandırın.
 
-4. Roof’u seçin ve Move ve Rotate araçlarını kullanarak yapının çatısına yerleştirin. Roof’u Transform Component’inde ki sayıları değiştirmeden Scene görünümünde değiştirmeyi deneyin, ancak işiniz bittiğinde, sayılar aşağıda gösterilenler gibi olmalılar.
+- Roof’u seçin ve Move ve Rotate araçlarını kullanarak yapının çatısına yerleştirin. Roof’u Transform Component’inde ki sayıları değiştirmeden Scene görünümünde değiştirmeyi deneyin, ancak işiniz bittiğinde, sayılar aşağıda gösterilenler gibi olmalılar.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-structure-with-primitives/figures/B.2.2-29.png)
 
