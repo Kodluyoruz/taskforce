@@ -7,7 +7,7 @@ Bu eğitimde Unity motorunun kendisi hakkında daha fazla şey öğreneceksin: n
 
 Unity hayatına bir oyun motoru olarak başladı ama birçok farklı endüstri tarafından kullanılan bir kreatif araca evrildi. Ayrıca Unity hâlâ oyun motoru köklerini koruyor ve nasıl ve niçin yaratıldığı bize çalışma şekli hakkında fikir veriyor.
 
-Eğer oyun motoru teriminin ne olduğundan emin değilsen, yalnız değilsin! Oyun motorları oyun endüstrisinde sık sık tartışılır ama nadiren açıklanırlar — bu yeni başlayanlar ve farklı endüstrilerden üreticiler için kafa karıştırıcı olabilir! O zaman ilk olarak bir oyun motorunun ne olduğunu açıklamak ile başlayalım.
+Eğer **oyun motoru** teriminin ne olduğundan emin değilsen, yalnız değilsin! Oyun motorları oyun endüstrisinde sık sık tartışılır ama nadiren açıklanırlar — bu yeni başlayanlar ve farklı endüstrilerden üreticiler için kafa karıştırıcı olabilir! O zaman ilk olarak bir oyun motorunun ne olduğunu açıklamak ile başlayalım.
 
 
 **Adım 2: Oyun motoru nedir?**
@@ -16,7 +16,7 @@ Bir oyun yaratma süreci dışarıdan görünenden çok daha karmaşık büyük 
 
 Şimdi sadece bakmak ya da okumak yerine bir içeriği üretmeyi düşün. Eğer daha önce bir e-posta yazdıysan, bir mesaj yazmak için e-posta programının iç dinamiklerini anlamana gerek olmadığını bilirsin. Diğer bütün işler senin için halledilir ve tek gereken mesajının içeriğine odaklanmandır. Bir oyun motoru da aynen böyledir.
 
-Bir oyun motoru oyunu yapımı için gerekli bütün unsurların birleşme noktasıdır. Oyunlar, tüm diğer uygulamalar gibi, 3 boyutlu modeller, scriptler ve ses dosyaları gibi parçalardan meydana gelirler. Birleştirildiklerinde tamamlanmış bir kullanıcı deneyimi oluştururlar. Eğer 3 boyutlu modeller, scriptler ve ses dosyaları malzemeler olsaydı, Unity (ve diğer oyun motorları) bu malzemeleri attığınız tencere olurdu!
+Bir **oyun motoru** oyunu yapımı için gerekli bütün unsurların birleşme noktasıdır. Oyunlar, tüm diğer uygulamalar gibi, 3 boyutlu modeller, scriptler ve ses dosyaları gibi parçalardan meydana gelirler. Birleştirildiklerinde tamamlanmış bir kullanıcı deneyimi oluştururlar. Eğer 3 boyutlu modeller, scriptler ve ses dosyaları malzemeler olsaydı, Unity (ve diğer oyun motorları) bu malzemeleri attığınız tencere olurdu!
 
 Bir oyun motoru oyun yapımında kullanılan bütün bileşenler için birleşme noktasıdır.
 
