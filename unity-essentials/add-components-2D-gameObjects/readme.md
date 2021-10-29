@@ -72,6 +72,7 @@ RigidBody2D componenti ayrıca bir Sprite’a fiziksel özellikleri sağlar, pek
 - Box Collider 2D componenti ekleyerek Ground Sprite’ı için aynı işlemi uygulayın.
 - Oyunu başlatın. Circle, Ground’un üstüne düşecek ve duracak.
 
+
 **Aşama 6: Düşen Sprite’larla Deney Yapma**
 
 Bu alıştırmanın varyasyonlarını deneyin. İstediğiniz sonuçları elde etmek için Circle Sprite ve Main Camera’yı hareket ettirin.
