@@ -33,10 +33,10 @@ Unity’de yeniyseniz ve Unity Hub’da bulunan Küçük Oyun (Microgame)’lerd
 
 **Önemli:** Önceki görevde “Essentials 3D project” adlı bir Unity projesi oluşturduysan, o projeyi Unity Hub’dan aç ve bu adımı atla.
  Bu öğretici içerik için yeni bir Unity projesi oluşturman gerekiyorsa, şu adımları izle:
- 1.  **Unity Hub’ı** aç.
- 2. **3B Şablon’u** kullanarak [yeni bir Unity projesi oluştur.](https://learn.unity.com/tutorial/project-setup-processes#60f6aedeedbc2a7e96802196) Bu projeye “Essentials 3D project” adını ver.
+ 1.**Unity Hub’ı** aç.
+ 2.**3B Şablon’u** kullanarak [yeni bir Unity projesi oluştur.](https://learn.unity.com/tutorial/project-setup-processes#60f6aedeedbc2a7e96802196) Bu projeye “Essentials 3D project” adını ver.
  **Not:** İlk kez kullanıyorsan, 3B Şablonu indirmeniz için bir istem görebilirsiniz. Seçtiğinizde 3B kartta bu istemi arayın.
- 3. Boş Sahne (Scene)’nde basit bir küp oluştur. Hiyerarşi (Hierarchy)’de boş bir bölüme sağ tıkla ve **3B Nesne (3D Object) > Küp (Cube)’ü** seç.
+ 3.Boş Sahne (Scene)’nde basit bir küp oluştur. Hiyerarşi (Hierarchy)’de boş bir bölüme sağ tıkla ve **3B Nesne (3D Object) > Küp (Cube)’ü** seç.
  
 **Aşama 4: Varsayılan 3B Sahne**
 
@@ -57,9 +57,9 @@ Sahne (Scene)’ne bazı GameObject’ler ekledikten sonra bunlara geri dönece�
 
 Denetçi Penceresi (Inspector Window), GameObject’ler ve diğer nesne türlerinin özelliklerini görüntüleyeceğin ve değiştireceğin yerdir. Haydi başlayalım!  
 
-1.  Sahne (Scene) görünümünde, oluşturmuş olduğun küp GameObject’i seç.
+1.Sahne (Scene) görünümünde, oluşturmuş olduğun küp GameObject’i seç.
 
-2.  Küp (Cube) seçiliyken, Denetçi Penceresi (Inspector Window)’nde GameObject’in özelliklerine bak.
+2.Küp (Cube) seçiliyken, Denetçi Penceresi (Inspector Window)’nde GameObject’in özelliklerine bak.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/work-with-gameObjects-3DScene/figures/B.2.1_img3.png)
 
@@ -69,7 +69,7 @@ Denetçi (Inspector)’nin her bölümü, seçilen GameObject’in bir dizi öze
  Küp seçiliyken, Dönüştürme Bileşeni (Transform Component), X, Y ve Z değerlerini kullanarak Küpün boyutunu, rotasyonunu ve konumunu Sahne (Scene)’de görüntüler. Varsayılan olarak, bu değerler metre birimindendir.
  **Not:** Unity, **Y-yukarı koordinat sistem (Y-up coordinate system)’ini** kullanır. Bu, Düzenleyici (Editor) ekranı alanında Y yönünün dikey olduğu, X ve Z’nin de yatay düzlemi temsil ettiği (kuzey, güney, doğu ve batı gibi) anlamına gelir. Bazı 3DsMax gibi uygulamalar, dikey olarak Z yönünü kullanırlar
 
-3. Küp’e odaklanmak için klavyede F tuşuna bas. (Tüyo: Sahne (Scene) görünümü penceresi etkinleştirilmelidir; Pencereyi etkinleştirmek için Sahne (Scene) görünümünde bir GameObject seçebilir veya herhangi bir yere sağ tıklayabilirsin.)
+3.Küp’e odaklanmak için klavyede F tuşuna bas. (Tüyo: Sahne (Scene) görünümü penceresi etkinleştirilmelidir; Pencereyi etkinleştirmek için Sahne (Scene) görünümünde bir GameObject seçebilir veya herhangi bir yere sağ tıklayabilirsin.)
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/work-with-gameObjects-3DScene/figures/B.2.1_img4.png)
 
@@ -78,7 +78,7 @@ Sahne (Scene) görünümündeki basit küp
 Varsayılan biçimde, Yönlendirme aracı seçilidir ve Gizmo’su küpün ortasında bulunur. Yön okları, her boyutun pozitif yönünü gösterir. Çapları renk kodludur. Sahne (Scene) görünümünün sağ üst köşesindeki Sahne (Scene) Gizmo’suna bakarak her zaman yönünü görebilirsin. 
 
 
-4. Küp (Cube) seçiliyken, Dönüştürme Bileşeni (Transform Component)’ndeki Ölçek (Scale)’in Y değerini 4 olarak değiştir. Kübün (Cube) yüksekliği 4 olarak değişecektir. Gerektiğinde uzaklaştır. 
+4.Küp (Cube) seçiliyken, Dönüştürme Bileşeni (Transform Component)’ndeki Ölçek (Scale)’in Y değerini 4 olarak değiştir. Kübün (Cube) yüksekliği 4 olarak değişecektir. Gerektiğinde uzaklaştır. 
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/work-with-gameObjects-3DScene/figures/B.2.1_img5.png)
 
@@ -87,8 +87,8 @@ Y boyutunda Ölçek (Scale) özelliğinden sonra Cube GameObject’I gösteren S
 **Aşama 6: Hiyerarşi (Hierarchy)’deki GameObject’leri Organize Etmek**
 Hiyerarşi (Hierarchy) penceresini GameObject’lerini düzenlemek ve birbirleriyle olan ilişkisini tanımlamak için kullanabilirsin. Daha karmaşık GameObject’ler oluşturmak için bunları Hiyerarşi (Hierarchy)’de gruplayabilirsin.
 
-1.  Küp’ün seçilmesi için Hiyerarşi (Hierarchy) penceresinde ona sağ tıkla.
-2.  **3B Nesne (3D Object) > Küre (Sphere)’yi seçin.**
+1.Küp’ün seçilmesi için Hiyerarşi (Hierarchy) penceresinde ona sağ tıkla.
+2.**3B Nesne (3D Object) > Küre (Sphere)’yi seçin.**
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/work-with-gameObjects-3DScene/figures/B.2.1_img6.png)
 
@@ -100,13 +100,13 @@ Hierarchy (Hiyerarşi)’de gösterildiği üzere, Küre, Küp’ün bir alt ö�
 
 Küre (Sphere) GameObject’I doğrudan Küp (Cube) GameObject’in altında ve girintili olarak gösteren, üst öge – alt öge ilişkisini gösteren Hiyerarşi (Hierarchy) penceresi.
 
-3. Bu Küre (Sphere), göremediğiniz Küp (Cube)’ün içerisindedir. Hiyerarşi (Hierarchy)’de Küre (Sphere)’I seç ve Gizmo görünecek, böylece onu Sahne (Scene) görünümünde Küp (Cube) dışında en azından kısmen görünen bir konuma taşıyabilirsin. Uzun olacak ve küresel olmayacak, çünkü ilk boyutları üst ögesine dayanıyordu.
+3.Bu Küre (Sphere), göremediğiniz Küp (Cube)’ün içerisindedir. Hiyerarşi (Hierarchy)’de Küre (Sphere)’I seç ve Gizmo görünecek, böylece onu Sahne (Scene) görünümünde Küp (Cube) dışında en azından kısmen görünen bir konuma taşıyabilirsin. Uzun olacak ve küresel olmayacak, çünkü ilk boyutları üst ögesine dayanıyordu.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/work-with-gameObjects-3DScene/figures/B.2.1_img8.png)
 
 Küre (Sphere) GameObject, Küp’ün dışına taşındı.
 
-4. Ana nesne olan Küp’ü seç ve taşı. Küp ve Küre birlikte hareket edecek. Nesneni de ölçeklendirmeyi ve döndürmeyi dene.
+4.Ana nesne olan Küp’ü seç ve taşı. Küp ve Küre birlikte hareket edecek. Nesneni de ölçeklendirmeyi ve döndürmeyi dene.
 
 Üst öge – alt öge ilişkisini kaldırmak için, kök düzeyini belirtmek için Hiyerarşi (Hierarchy)’deki Küre’yi yukarı ve tamamen sola sürükle. Her iki GameObject de artık Hiyerarşi (Hierarchy)’de birbirinden bağımsız GameObject’ler olarak görünür. 
 
