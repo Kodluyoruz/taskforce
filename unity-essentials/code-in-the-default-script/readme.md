@@ -62,12 +62,8 @@ Script artık Update fonksiyonunun içinde olduğu için oyunun her karesi için
 **Aşama 5: Değişkenli bir özellik ekleyin**
 
 Script oluşturulabilir bileşenler kavramını göstermek için scriptinize bir değişken ekleyecek ve Inspector penceresinde değerini değiştireceksiniz. Değişken, değişebilen bir değere sahiptir. Karşılaşmanız en olası değer türleri int (tamsayılar), float (küsuratlı sayılar, yani ondalıklı sayılar, string (yazı) ve Boolean (true veya false değerler)'dir. , Ölçek X, Y ve Z için float değişkenlerdir. Scriptinizde “Hello, World!” mesajını HelloWorld bileşeni aracılığıyla Inspector penceresinde değiştirebileceğiniz bir string değişkeni ile değiştireceksiniz. GameObject'iniz Unity Editor'den değiştirebileceğiniz bir özelliğe sahip olacaktır.
- 
 - Scripti tekrar Visual Studio'da açın.
- 
- 
 - Aşağıda gösterildiği gibi yeni bir değişken ekleyin:
-
 
 ```csharp
 public string myMessage;
