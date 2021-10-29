@@ -6,7 +6,7 @@
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/pre-production-stage/figures/Foundations_UnityRT3D_1.1.2.1_pre-prod-highlighted.png)
  Prodüksiyonun dört aşamasının şeması, ilk aşama olan Ön-Prodüksiyon, mavi renkle vurgulanmıştır.
 
-Ön-prodüksiyon sırasında ne olur?
+**Ön-prodüksiyon sırasında ne olur?**
 
 Ön prodüksiyon aşamasını kolaylaştırmak için stüdyolar ürünleri için bir tasarım belgesi üretir: izlenecek yaratıcı yön için mutlak ve gerçek kaynağı. Bir film veya animasyon için bu, her sahnenin içeriğini, görünümünü ve hissini betimleyen bir senaryo ve storyboard şeklinde olabilir. Bir oyun için ise oyun tasarım belgesi, hikaye, oynanış, sanat yönetimi, hedeflenen hedef kitle ve erişilebilirlik hakkında bilgiler içerir. 
 
