@@ -20,9 +20,9 @@ Bu aşamada, [“The floor is lava!”](https://learn.unity.com/tutorial/challen
  
 **Aşama 2: Scriptinizi oluşturun**
  
-- Yuvarlanan topunuz için GameObject'i seçin.
+-Yuvarlanan topunuz için GameObject'i seçin.
  
- - Önceki eğitimde yaptığınız gibi, [GameObject'inize yeni bir script ekleyin.](https://learn.unity.com/tutorial/get-started-with-scripts#5fa1c722edbc2a002191f052) Yeni scripti BallTransform olarak adlandırın ve Visual Studio'da açmak için Assets klasörünüzde (Proje penceresi) çift tıklayın.
+ -Önceki eğitimde yaptığınız gibi, [GameObject'inize yeni bir script ekleyin.](https://learn.unity.com/tutorial/get-started-with-scripts#5fa1c722edbc2a002191f052) Yeni scripti BallTransform olarak adlandırın ve Visual Studio'da açmak için Assets klasörünüzde (Proje penceresi) çift tıklayın.
  
 **İpucu**: IDE pencerenizin sağ tarafındaki pencereleri kapatabilirsiniz.
 
