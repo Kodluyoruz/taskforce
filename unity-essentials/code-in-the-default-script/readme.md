@@ -37,17 +37,9 @@ Debug.Log("Hello World");
 İki parantez arasında Start fonksiyonuna eklenen Debug.Log satırını gösteren script
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/code-in-the-default-script/figures/B.3.2-2.png)
-
-
 - Ctrl+S (Windows) veya Cmd+S (Mac) kullanarak scripti kaydedin.
-
-
 - Unity Editor'da Console penceresi görünmüyorsa, Ctrl+Shift+C (Windows) veya Cmd+Shift+C (Mac) ile açın. Console  penceresi, script  çalışırken, hatalar ve uyarılar da dahil olmak üzere scriptlerden gelen mesajları okuyabileceğiniz yerdir.
- 
- 
 - Oyunu oynayın ve Console penceresine bakın. Orada “Hello World” yazısı görünür.
-
-
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/code-in-the-default-script/figures/B.3.2-3.png)
 
 Oyun çalışırken konsolda “Merhaba Dünya” metni görüntülenecektir.
@@ -55,22 +47,12 @@ Oyun çalışırken konsolda “Merhaba Dünya” metni görüntülenecektir.
 **Aşama 4: Update fonksiyonunu düzenleyin**
  
 - Scripti yeniden açın ve Debug.Log satırını Update fonksiyonuna taşıyın.
-
-
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/code-in-the-default-script/figures/B.3.2-4.png)
 
 Debug.Log komutunu gösteren script  güncellemesi şimdi Update fonksiyonuna taşındı
-
-
 - Ctrl+S (Windows) veya Cmd+S (Mac) kullanarak scripti kaydedin.
- 
- 
 - Henüz seçili değilse, Console penceresinde Collapse seçeneğini seçin. Bu seçenek, bir sonraki adımda ekranı basitleştirecektir.
- 
- 
 - Oyunu oynayın ve Console penceresine bakın. Bu sefer “Merhaba Dünya” mesajının yanında bir sayaç belirir. Bu sayaç, scriptin kaç kez çalıştığını ve mesajı görüntülediğini gösterir.
-
-
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/code-in-the-default-script/figures/B.3.2-5.png)
 
 Komut, script Update fonksiyonu çalışırken Console, Merhaba Dünya metnini sürekli olarak görüntüler.
@@ -100,14 +82,8 @@ Debug.log(myMessage);
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/code-in-the-default-script/figures/B.3.2-6.png)
 
 Kullanıcının oyun çalışırken Console’da görüntülenmek üzere kendi mesajını eklemesine izin verecek yeni bir değişkenin eklendiği script
- 
- 
 - Scripti kaydedin (Ctrl+S/Cmd+S).
- 
- 
 - Unity Editor'da, ScriptObject GameObject'i seçin ve Inspector'daki HelloWorld bileşenine bakın. Özel bir mesaj yazabileceğiniz yeni bir özellik görünür.
-
-
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/code-in-the-default-script/figures/B.3.2-7.png)
 
 Hello World script bileşeni artık kullanıcının Console’da görüntülenmek üzere kendi mesajını ekleyebileceği bir pencere görüntülüyor.
