@@ -69,19 +69,27 @@ Bir görüntü Sprite GameObject'ine bağlandığında Scene, seçilen görünt�
 
 Transform bileşeni, seçili Sprite’ın Konum, Döndürme ve Ölçek değerlerini içerir. Bu değerleri Inspector'da değiştirebilir ve Scene'deki değişiklikleri görebilir veya Sprite'ı Scene’de manipüle edebilirsin ve bu değerler buna göre değişecektir. Circle Sprite’ını seç ve Scale değerlerini 10, 10, 1  olarak değiştir. Scene görünümünde Sprite değişimini izle.
 
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/work-with-gameObjects-2D-scene/figures/B.5.1-8.png)
 
-Alt metin: Scene’deki görüntünün ölçeğini değiştirmek için X=10, Y=10, Z=1 olarak ayarlanmış Inspector’daki Scale seçenekleri
+Scene’deki görüntünün ölçeğini değiştirmek için X=10, Y=10, Z=1 olarak ayarlanmış Inspector’daki Scale seçenekleri
 
-Not: Unity, 2D ve 3D’de geçerli olan bir Y-yukarı koordinat sistemi kullanır. Y yukarı ve Z oyuncunun bakış açısına doğru ve uzaktadır. Bu nedenle, Z yönündeki ölçek değişiklikleri oyuncu tarafından görülmez. Z'deki konum değişiklikleri, Sprite'ları birbirinin arkasına veya önüne yerleştirir (diğer uygulamalardaki Z-sırası gibi).
+**Not**: Unity, 2D ve 3D’de geçerli olan bir Y-yukarı koordinat sistemi kullanır. Y yukarı ve Z oyuncunun bakış açısına doğru ve uzaktadır. Bu nedenle, Z yönündeki ölçek değişiklikleri oyuncu tarafından görülmez. Z'deki konum değişiklikleri, Sprite'ları birbirinin arkasına veya önüne yerleştirir (diğer uygulamalardaki Z-sırası gibi).
 
 Toolbar’da Move aracını seç (kısayol tuşu W) ve Sprite'ı Scene’de yeni bir konuma taşımak için fareni kullan.
 
 Move aracı etkinleştirildiğinde ve GameObject seçildiğinde Sprite üzerinde görüntülenen dönüştürme aygıtı. 
+
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/work-with-gameObjects-2D-scene/figures/B.5.1-9.png)
+
 Yeni konumun Transform bileşeninin Position özelliklerine nasıl yansıtıldığına dikkat et. (Not: senin sonuçların farklı olabilir.)
+
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/work-with-gameObjects-2D-scene/figures/B.5.1-10.png)
 
 Yeni konum, Transform bileşeninin Position özelliklerine yansıtılmış. 
 
-Rect Transform aracı, Sprite'larının şeklini ve konumunu değiştirmek için hızlı ve kolay bir yol sağlar. Bir Sprite seçip Toolbar’da Rect Transform aracını seçtiğinde (kısayol tuşu T), köşelerde tutma noktaları olan dikdörtgen bir sınır göreceksin.
+**Rect Transform aracı,** Sprite'larının şeklini ve konumunu değiştirmek için hızlı ve kolay bir yol sağlar. Bir Sprite seçip Toolbar’da Rect Transform aracını seçtiğinde (kısayol tuşu T), köşelerde tutma noktaları olan dikdörtgen bir sınır göreceksin.
+
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/work-with-gameObjects-2D-scene/figures/B.5.1-11.png)
 
 Rect Transform aracı etkinleştirildiğinde görüntülenen, Sprite'ta köşelerinde tutma noktaları olan dikdörtgen bir sınır
 Nesneyi herhangi bir noktasından fare ile sürükleyerek Sprite'ı Scene etrafında hareket ettir. Köşelerdeki tutamaçları sürükleyerek Sprite'ın ölçeğini X veya Y boyutlarında ayarla.
@@ -89,12 +97,12 @@ Nesneyi herhangi bir noktasından fare ile sürükleyerek Sprite'ı Scene etraf�
 **Aşama 4 Sprite’ın rengini değiştirme**
 
 Sprite'ın rengini değiştirmek için Sprite’ı seç, ardından Sprite Renderer bileşeninde Color özelliğini seç.
-Dosya adı: B.5.1-12.png
-Alt metin: Sprite'ın renginin değiştirilebildiği Sprite Renderer bileşenindeki Color özelliği
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/work-with-gameObjects-2D-scene/figures/B.5.1-12.png)
+Sprite'ın renginin değiştirilebildiği Sprite Renderer bileşenindeki Color özelliği
 
 Sprite’ın renk tonunu değiştirmek için Color seçiciyi kullan.
-Dosya adı: B.5.1-13.png
-Alt metin: Color özelliğine göre değiştirilmiş bir Sprite renk tonu
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/work-with-gameObjects-2D-scene/figures/B.5.1-13.png)
+ Color özelliğine göre değiştirilmiş bir Sprite renk tonu
 
 
 **Aşama 5 Bir sonraki adımlar**
