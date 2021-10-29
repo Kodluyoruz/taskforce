@@ -24,25 +24,16 @@ Bu meydan okumada, buna benzer basit bir pachinko tarzı oyun oluşturun:
 Sahne görünümünde görüntülenen bir pachinko tarzı oyun kurulumu
 
 Aşağıda birkaç talimat verilmiştir, ancak yaratıcı kısım tamamen size kalmış.
-
-1. Önceki öğreticide yüklediğiniz Sprite'ları veya kendi projelerinizden Sprite'ları kullanın.
-
-2. Her Sprite'a fiziksel özellikler kazandırmak için RigidBody 2D ve Çarpıştırıcı Bileşenlerini kullanın.
-
-3. Şapkalar ve zemin düzlemleri gibi nesneleri öne taşımak için Denetçi penceresindeki Katmanda Sırala özelliğini kullanın. Bu nesneler için "Katmanda Sırala" özelliğinin 1 olarak ayarlanması, her bir nesneyi ileriye doğru hareket ettirecek ve topun geride kalmasına izin verecektir.
-
+- Önceki öğreticide yüklediğiniz Sprite'ları veya kendi projelerinizden Sprite'ları kullanın.
+- Her Sprite'a fiziksel özellikler kazandırmak için RigidBody 2D ve Çarpıştırıcı Bileşenlerini kullanın.
+- Şapkalar ve zemin düzlemleri gibi nesneleri öne taşımak için Denetçi penceresindeki Katmanda Sırala özelliğini kullanın. Bu nesneler için "Katmanda Sırala" özelliğinin 1 olarak ayarlanması, her bir nesneyi ileriye doğru hareket ettirecek ve topun geride kalmasına izin verecektir.
 **İpucu**: Bir Sprite'ı yerinde dondurmak için RigidBody 2D Bileşeninin Kısıtlamalar bölümünü kullanın.
-
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/challenge-sprite-pachinko/figures/B.5.4-3.png)
 RigidBody bileşenindeki Dondur seçeneği
-
-5. İyi bir bakış açısı bulmak için Ana Kamerayı konumlandırın.
-
-6. Sahneyi test etmek için çalıştırın ve top oluşturduğunuz pachinkodan geçene kadar gerekli ayarlamaları yapın.
-
-7. Farklı şekillerde daha fazla düşen Sprite eklemeyi deneyin. Diğer şekillerde 2D Çarpıştırıcılarla deneyler yapın.
-
-8. Sahneyi benzersiz bir şekilde kendinize ait kılmak için öğrendiğiniz diğer becerileri uygulayın.
+- İyi bir bakış açısı bulmak için Ana Kamerayı konumlandırın.
+- Sahneyi test etmek için çalıştırın ve top oluşturduğunuz pachinkodan geçene kadar gerekli ayarlamaları yapın.
+- Farklı şekillerde daha fazla düşen Sprite eklemeyi deneyin. Diğer şekillerde 2D Çarpıştırıcılarla deneyler yapın.
+- Sahneyi benzersiz bir şekilde kendinize ait kılmak için öğrendiğiniz diğer becerileri uygulayın.
 
 
 [Unity projenizin bir WebGL derlemesini oluşturmak ve yayınlamak için bu adımları izleyin.](https://learn.unity.com/tutorial/creating-and-publishing-webgl-builds)
