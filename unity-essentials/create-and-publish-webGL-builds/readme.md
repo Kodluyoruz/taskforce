@@ -29,21 +29,13 @@ Gerekli Build Support modülünün kurulu olup olmadığını kontrol etmek içi
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-and-publish-webGL-builds/figures/WebGLBuilds_1.2.1.3_SupportModule.png)
 Unity'nin 2019.4 LTS versiyonu için WebGL Build Support modülü simgesi, belirtme kutucuğu olarak vurgulanır — simge etiketi görünür
-
-4. WebGL simgesi yoksa, [Unity versiyonuna WebGL Build Support modülünü ekleyin.](https://learn.unity.com/tutorial/project-setup-processes#60ed7a4cedbc2a002096b758)
+- WebGL simgesi yoksa, [Unity versiyonuna WebGL Build Support modülünü ekleyin.](https://learn.unity.com/tutorial/project-setup-processes#60ed7a4cedbc2a002096b758)
 WebGL Publisher paketini kontrol et
 Bu paketi kontrol etmek için:
-
-
-1.  Yayınlamak istediğin projeyi Unity Editor'da aç.
-
-2.  **Window > Package Manager’ı** seçerek Package Manager’ı aç.
-
-
-3. ** In Project** paketlerini seçmek için pencerenin sol üst köşesindeki açılır filtre menüsünü kullan.
-
-
-4. **WebGL Publisher'ı** ara. Listelenmiş ve güncelse, gerçek zamanlı deneyimini build etmeye ve yayınlamaya hazırsın demektir. Değilse, [paketi şimdi yükle veya güncelle.](https://learn.unity.com/tutorial/project-setup-processes#60ed7a6aedbc2a002520b6ec)
+- Yayınlamak istediğin projeyi Unity Editor'da aç.
+- **Window > Package Manager’ı** seçerek Package Manager’ı aç.
+- ** In Project** paketlerini seçmek için pencerenin sol üst köşesindeki açılır filtre menüsünü kullan.
+- **WebGL Publisher'ı** ara. Listelenmiş ve güncelse, gerçek zamanlı deneyimini build etmeye ve yayınlamaya hazırsın demektir. Değilse, [paketi şimdi yükle veya güncelle.](https://learn.unity.com/tutorial/project-setup-processes#60ed7a6aedbc2a002520b6ec)
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-and-publish-webGL-builds/figures/WebGLBuilds_1.2.2.3_WebGLPublisherPackage.png)
 
@@ -69,17 +61,18 @@ Unity Learn'deki Microgames, Create with Code meydan okumaları ve Junior Progra
 Projelerimin WebGL build’lerini nasıl paylaşabilirim?
 Bir WebGL build’ini oluşturan dosya koleksiyonlarını bir dizi farklı çevrimiçi hosting platformunda yayınlayabilirsin. Doğrudan Unity Editor'dan Unity Play'de yayınlayabilir veya istersen dosyaları alternatif bir hizmete yükleyebilirsin.
 
-1.4 Bir WebGL Build Oluşturun
+**1.4 Bir WebGL Build Oluşturun**
+
 Gerçek zamanlı deneyiminin bir build’ini oluşturmak için:
 
 
-1. Projeyi Unity Editor'da açın. Aklında kendi projen yoksa neden Microgames’lerimizden birini denemiyorsun?
+- Projeyi Unity Editor'da açın. Aklında kendi projen yoksa neden Microgames’lerimizden birini denemiyorsun?
 
-Öne****mli: Projenin kullandığı Unity versiyonu için WebGL Build Support modülünü kurduğundan emin ol.
+**Önemli**: Projenin kullandığı Unity versiyonu için WebGL Build Support modülünü kurduğundan emin ol.
 
-2. Unity Editor üst menüsünde **File > Build Settings’e** git. Ayrıca **Ctrl + Shift + B** (Windows) veya **Cmd + Shift + B** (macOS) kısayolunu da kullanabilirsiniz.
+- Unity Editor üst menüsünde **File > Build Settings’e** git. Ayrıca **Ctrl + Shift + B** (Windows) veya **Cmd + Shift + B** (macOS) kısayolunu da kullanabilirsiniz.
 
-3. Build Settings penceresinde, **Scenes in Build** bölümünü bul. Bu, build’ine hangi sahnelerin dahil edildiğini kontrol edebileceğin yerdir. Şunları yapabilirsin:
+- Build Settings penceresinde, **Scenes in Build** bölümünü bul. Bu, build’ine hangi sahnelerin dahil edildiğini kontrol edebileceğin yerdir. Şunları yapabilirsin:
 
 Build’ine herhangi bir açık sahne eklemek için **Add Open Scenes** düğmesini seç.
 Sahneleri build’den hariç tutmak istiyorsan (adlarının solundaki onay kutusunu kullanarak) devre dışı bırak.
@@ -89,9 +82,8 @@ Listede yeniden sıralamak için sahneleri sürükle — Sahne 0, build’i baş
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-and-publish-webGL-builds/figures/WebGLBuilds_1.4.3_ScenesInBuild.png)
 
 Build Settings penceresinin üst kısmında bulunan Scenes in Build bölümü bir belirtme kutucuğuyla vurgulanır
-4. Build Settings penceresinin sol alt kısmındaki Player Settings’i seç. Bu, Project Settings penceresini açar.
-
-5. Project Settings penceresinde, build’inin ayrıntılarıyla Company Name, Product Name ve Version alanlarını güncelle.
+- Build Settings penceresinin sol alt kısmındaki Player Settings’i seç. Bu, Project Settings penceresini açar.
+- Project Settings penceresinde, build’inin ayrıntılarıyla Company Name, Product Name ve Version alanlarını güncelle.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-and-publish-webGL-builds/figures/WebGLBuilds_1.4.5_ProjectSettings.png)
 Project Settings penceresinin üst kısmında bulunan ilgili alanlar bir belirtme kutucuğu ile vurgulanır
@@ -100,30 +92,18 @@ Project Settings penceresinin üst kısmında bulunan ilgili alanlar bir belirtm
 
 - Buradaki Version alanı, kullandığın Unity versiyonundan ziyade bu build’in projenle ilgili versiyonunu ifade eder.
 - En üstteki alanın altındaki ayarlar bu öğreticinin kapsamı dışındadır — temel bir WebGL build’i oluşturmak için bu ayarları yapılandırman gerekmez.
-
-6. Close the Project Settings window and return to the Build Settings window.
+- Close the Project Settings window and return to the Build Settings window.
 Project Settings penceresini kapat ve Build Settings penceresine dön.
-
-7. **Platform** seçimini bul ve mevcut listeden WebGL'i seç. Bu, listenin sağında bulunan ayarları ve yapılandırma seçeneklerini değiştirecektir.
-
+- **Platform** seçimini bul ve mevcut listeden WebGL'i seç. Bu, listenin sağında bulunan ayarları ve yapılandırma seçeneklerini değiştirecektir.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-and-publish-webGL-builds/figures/WebGLBuilds_1.4.7_SelectPlatform.png)
-
-8. Çoğu durumda, pencerenin sağ alt tarafında bir Switch Platform düğmesi bulunur. Bu varsa, bir WebGL build’i oluşturmaya hazırlanmak için onu seç.
-
+- Çoğu durumda, pencerenin sağ alt tarafında bir Switch Platform düğmesi bulunur. Bu varsa, bir WebGL build’i oluşturmaya hazırlanmak için onu seç.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-and-publish-webGL-builds/figures/WebGLBuilds_1.4.8_SwitchPlatform.png)
-
-9. Artık gerçek zamanlı deneyiminizi oluşturmaya hazırsınız! Şunları yapabilirsin:
-
+- Artık gerçek zamanlı deneyiminizi oluşturmaya hazırsınız! Şunları yapabilirsin:
 Build’i oluşturmak için **Build**’i seç.
 Build’i oluşturmak ve hemen varsayılan tarayıcında çalıştırmak için **Build And Run**’ı seç.
-
-
-10. Build dosyalarını kaydetmek için bir dosya adı ve konum seç, ardından devam etmek için **Save**'i seç.
-
+- Build dosyalarını kaydetmek için bir dosya adı ve konum seç, ardından devam etmek için **Save**'i seç.
 **Önemli**: Build’ini Assets klasörü Unity projesine kaydetme; root dizinde build’ler için ayrı bir klasör oluşturabilir veya tercih ettiğin yeni bir konum seçebilirsin.
-
-
-11. Son olarak, Unity'nin build’ini oluşturmasını bekle. Projenin boyutuna ve yapılandırmasına bağlı olarak, bu biraz zaman alabilir ve build devam ederken diğer bilgisayar işlemlerini yavaşlatabilir. Unity Editor, Görev Yöneticisi'nde (Windows) veya Etkinlik İzleyicisi'nde (macOS) yanıt vermiyor olarak gösteriliyorsa endişelenme — bir zorlamayla kesilmediği sürece build’ini oluşturmayı tamamlayacaktır.
+- Son olarak, Unity'nin build’ini oluşturmasını bekle. Projenin boyutuna ve yapılandırmasına bağlı olarak, bu biraz zaman alabilir ve build devam ederken diğer bilgisayar işlemlerini yavaşlatabilir. Unity Editor, Görev Yöneticisi'nde (Windows) veya Etkinlik İzleyicisi'nde (macOS) yanıt vermiyor olarak gösteriliyorsa endişelenme — bir zorlamayla kesilmediği sürece build’ini oluşturmayı tamamlayacaktır.
 
 **1.5 Build Dosyaların Hakkında**
 
@@ -137,18 +117,11 @@ WebGL build’ini başkalarıyla paylaşmanın en iyi yolu, onu çevrimiçi olar
 **1.6 WebGL build’ini Unity Play'de yayınla **
 
 WebGL build’ini Unity Play'de yayınlamak için:
-
-
-1. WebGL publisher paketini kurduğundan ve güncellemeleri kontrol ettiğinden emin ol.
-
-2. Unity Editor'da ana menüye git ve **Publish > WebGL Project**’i seç.
-
-3. WebGL Publish penceresinde **Get Started’**ı seç.
-
+- WebGL publisher paketini kurduğundan ve güncellemeleri kontrol ettiğinden emin ol.
+- Unity Editor'da ana menüye git ve **Publish > WebGL Project**’i seç.
+- WebGL Publish penceresinde **Get Started’**ı seç.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-and-publish-webGL-builds/figures/WebGLBuilds_1.6.3_PublisherGetStartedSmall.png)
-
-4. Listede oluşturduğun build’i bul ve **Publish**’i seç
-
+- Listede oluşturduğun build’i bul ve **Publish**’i seç
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-and-publish-webGL-builds/figures/WebGLBuilds_1.6.4_PublishSmall.png)
 
 **Not**:
@@ -156,13 +129,10 @@ WebGL build’ini Unity Play'de yayınlamak için:
 Build’ini önceki bir Unity Editor oturumunda oluşturduysan, build’inin listelendiğini görmezsin. Bu durumda, **Locate Existing Build'i** seç ve build’ini içeren klasöre git.
 Sürecin bu noktasından bir WebGL build’i oluşturabilir ve doğrudan yayınlayabilirsin, ancak bunu yaparsan sahne sırasını veya proje ayarlarını yapılandıramazsın.
 
-5. Unity Editor daha sonra build’ini Unity Play'de yayınlayacaktır; bu, projenin boyutuna ve karmaşıklığına bağlı olarak biraz zaman alabilir.
-
+- Unity Editor daha sonra build’ini Unity Play'de yayınlayacaktır; bu, projenin boyutuna ve karmaşıklığına bağlı olarak biraz zaman alabilir.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-and-publish-webGL-builds/figures/WebGLBuilds_1.6.5_UploadingSmall.png)
 Unity Editor build’i Unity Play'de yayınlarken Publish penceresinde bir ilerleme izleyici görüntülenir
-
-6. Yükleme işleminin bir bölümünde, build’inin Unity Play sayfası varsayılan tarayıcı pencerenizde düzenleme modunda açılır.
-
+- Yükleme işleminin bir bölümünde, build’inin Unity Play sayfası varsayılan tarayıcı pencerenizde düzenleme modunda açılır.
 Şunları yapabileceksin:
 
 - Build’ine isim ver
@@ -174,9 +144,7 @@ Unity Editor build’i Unity Play'de yayınlarken Publish penceresinde bir ilerl
 Sayfa düzenleme modundayken Unity Play'de yüklenen bir build’in örnek görünümü
 
 İşin bittiğinde değişikliklerini kaydettiğinden emin ol!
-
-7. URL'yi doğrudan gezinme çubuğunuzdan kopyalayın veya gerçek zamanlı deneyiminizi başkalarıyla paylaşmak için Share düğmesini kullanın.
-
+- URL'yi doğrudan gezinme çubuğunuzdan kopyalayın veya gerçek zamanlı deneyiminizi başkalarıyla paylaşmak için Share düğmesini kullanın.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-and-publish-webGL-builds/figures/WebGLBuilds_1.6.7_ShareButton.png)
 
 Kişisel bilgilerin yeniden düzenlendiği ve Share düğmesinin bir belirtme kutucuğuyla vurgulandığı WebGL build’i için yayınlanan sayfa
