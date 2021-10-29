@@ -28,10 +28,8 @@ Bu eğitimde, Sprite oluşturacak ve bunları Hierarchy ve Inspector pencereleri
 Bu proje boyunca, [Gerçek Zamanlı 3D Projenin Temelleri](https://learn.unity.com/project/foundations-of-real-time-3d)'nde kapsanan bilgilerden yararlanıyoruz. Önce o projeyi tamamlamanı öneririz.
 
 Unity projeni kurmak için:
-
-1.  **Unity Hub**’ı aç.
-
-2. ** 2D Template**’i kullanarak [yeni bir Unity projesi oluştur.](https://learn.unity.com/tutorial/project-setup-processes#60f6aedeedbc2a7e96802196)
+- **Unity Hub**’ı aç.
+- ** 2D Template**’i kullanarak [yeni bir Unity projesi oluştur.](https://learn.unity.com/tutorial/project-setup-processes#60f6aedeedbc2a7e96802196)
 
 **Aşama 3: İlk Sprite’ını Oluştur**
 
@@ -87,7 +85,8 @@ Dosya adı: B.5.1-11.png
 Alt metin: Rect Transform aracı etkinleştirildiğinde görüntülenen, Sprite'ta köşelerinde tutma noktaları olan dikdörtgen bir sınır
 Nesneyi herhangi bir noktasından fare ile sürükleyerek Sprite'ı Scene etrafında hareket ettir. Köşelerdeki tutamaçları sürükleyerek Sprite'ın ölçeğini X veya Y boyutlarında ayarla.
 
-Aşama 4 Sprite’ın rengini değiştirme
+**Aşama 4 Sprite’ın rengini değiştirme**
+
 Sprite'ın rengini değiştirmek için Sprite’ı seç, ardından Sprite Renderer bileşeninde Color özelliğini seç.
 Dosya adı: B.5.1-12.png
 Alt metin: Sprite'ın renginin değiştirilebildiği Sprite Renderer bileşenindeki Color özelliği
@@ -97,8 +96,7 @@ Dosya adı: B.5.1-13.png
 Alt metin: Color özelliğine göre değiştirilmiş bir Sprite renk tonu
 
 
-
-Aşama 5 Bir sonraki adımlar
+**Aşama 5 Bir sonraki adımlar**
 Primitives olarak adlandırılan basit GameObject'leri Scene’ine nasıl ekleyeceğini gördün ve bu GameObject'lerin Hierarchy ve Inspector pencerelerinde nasıl temsil edildiğini gördün. GameObject’leri nasıl hareket ettireceğini, döndüreceğini ve ölçeklendireceğini iki yolda gördün: Inspector’daki sayılarla ya da Scene görünümünde onları fiziksel olarak değiştirerek.
 
 Şimdi, Sprite'lara ekleyebileceğin bileşenlere bakalım.
