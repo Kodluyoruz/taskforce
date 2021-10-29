@@ -9,7 +9,6 @@ Bu eğitimde,
 Gerçek zamanlı deneyimin hazır olduğunda, başkalarıyla paylaşmak için bir build oluşturman gerekir. Build, oyununun bağımsız, oynanabilir bir versiyonudur. Oluşturabileceğin farklı build türleri vardır — bu eğitim, başkalarının oynaması için çevrimiçi yayınlayabileceğin WebGL build’lerine odaklanır.
 
 Bu eğitimde,
-
 - WebGL build oluşturacaksın 
 - WebGL Publisher paketini kullanarak doğrudan Unity Play’de yayınlayacaksın
 
