@@ -16,19 +16,19 @@ Bu eğitim, 3D Dijital İçerik Üretme araçları (3D DCC'ler) kullanılarak 3D
 
 **Aşama 2: 2D DCC’leri**
 
-2D DCC’leri Nedir?
+**2D DCC’leri Nedir?**
+
 Adobe [Photoshop,](https://www.adobe.com/products/photoshop.html) [Illustrator,](https://www.adobe.com/products/illustrator.html) [Substance Painter](https://www.substance3d.com/products/substance-painter/) ve [Gimp](https://www.gimp.org/) gibi 2D Dijital İçerik Üretme araçları (DCC’ler) sanatçıların iki boyutta texture’lar, arka planlar ve kullanıcı arayüzü (UI) öğeleri oluşturmasına imkan tanır.
  
 Bu programlarda, sanatçılar kağıda yaptıkları gibi resimler çizer veya boyar; kalite kaybı olmadan ölçeklenebilen vektör sanatı oluşturur; katmanlar, filtreler ve efektlerle mevcut görüntüleri düzenler ve geliştirir; ve menüler, düğmeler ve metin dahil olmak üzere arayüzler veya düzenler tasarlar.
 
 Aşağıda Gimp’te düzenlenmiş bir texture’ın örneği bulunuyor. 
 
-![figures]()
 
 Photoshop'ta gösterilen 2D texture. Resmin üst kısmında, çatı kiremitleri ve ahşap dış cephe kaplaması dahil olmak üzere binalar için texture’lar var. Texture’ın alt kısmında, bir "Sheriff" işareti ve bir "Old Bills Bank" işareti de dahil olmak üzere karikatürümsü vitrin işaretleri bulunur.
 
 3D asset’lerde olduğu gibi, 2D asset’ler motora aktarılırlar projeye dahil edilirler.
-![figures]()
+
 Yukarıdaki resimde Photoshop'ta gösterilenle aynı "Sheriff" işaretine sahip bir binayı gösteren Unity'deki 3D Sahne. Şerif binasının dışında, bir geyik karakteri kumda duruyor ve elinde tırmık tutuyor.
 Profesyonel sanatçıların fikirlerini Unity'de hayata geçirmek için DCC'leri nasıl kullandığını öğrenmek için aşağıdaki videoyu izle.
 
@@ -56,19 +56,19 @@ Bir ormanda duran ve ışığın yarıçapını ayarlamak için bir ışık simg
 
 **Aşama 4: Asset Store’da Arama Yapmak**
 
-1. [Unity Asset Store’a git](https://assetstore.unity.com) (bu bağlantı varsayılan tarayıcında açılacak) ve Unity Kimliğinle giriş yap.
+- [Unity Asset Store’a git](https://assetstore.unity.com) (bu bağlantı varsayılan tarayıcında açılacak) ve Unity Kimliğinle giriş yap.
 
 **İpucu**: Asset Store aracılığıyla edindiğin her şey Unity hesabına bağlanacak ve aynı Unity Kimliği ile oturum açtığın sürece Editör'de mevcut olacaktır.
 
-2.  Asset Store arama sekmesinde mevcut Sprite asset’lerini aramak için “sprite” yaz.
+- Asset Store arama sekmesinde mevcut Sprite asset’lerini aramak için “sprite” yaz.
 
-3.  Filtre panelindeki Fiyat bölümünde **Bedava Asset’leri** seç.
+- Filtre panelindeki Fiyat bölümünde **Bedava Asset’leri** seç.
 
-4.  Materyalleri içeren bedava bir asset paketi seç. **Brackey**’s **Free 2D Mega Pack’ini** öneriyoruz.
+- Materyalleri içeren bedava bir asset paketi seç. **Brackey**’s **Free 2D Mega Pack’ini** öneriyoruz.
 
-5. Asset’lerini indirmeye ve projene aktarmaya ilişkin eksiksiz ve güncel talimatlar için [Asset Store’dan asset’leri İçe Aktarma bölümüne göz at.](https://learn.unity.com/tutorial/project-setup-processes#60ed7a86edbc2a002520b6f4)
+- Asset’lerini indirmeye ve projene aktarmaya ilişkin eksiksiz ve güncel talimatlar için [Asset Store’dan asset’leri İçe Aktarma bölümüne göz at.](https://learn.unity.com/tutorial/project-setup-processes#60ed7a86edbc2a002520b6f4)
 
-6. İçe aktarma işlemi tamamlandığında, yeni Sprite'lardan birini seç ve onu Sahnene sürükle.
+- İçe aktarma işlemi tamamlandığında, yeni Sprite'lardan birini seç ve onu Sahnene sürükle.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/get-2D-assets/figures/B.5.3-1.png)
 
