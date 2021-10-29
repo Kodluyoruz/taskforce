@@ -11,19 +11,14 @@ Bu eğitimde aşağıdakileri yapacaksın:
 - Görünümü değiştirmek için Scene’de gezinme
 
 
-
-
 **Aşama 1: Genel Bakış**
 
 Şimdiye kadar Unity Editor’ü, belki de birçok nesnenin ve fonksiyonların senin için önceden oluşturulmuş olduğu bir Micromgame’de örneklediğini umuyoruz. Artık standart bir Template (şablon) kullanarak kendi projene başladığına göre tüm Unity yaratıcılarının başladığı yerden başlayacaksın: boş uzayda.
 
-
 **Aşama 2: Başlamadan Önce.**
 
 Çıktığın bu yolda bulunan projelerine hazırlanmak için Unity Editor’ün temel araç setini kullanmaya alışmak için biraz zaman ayır. İncelemek, bazı ipuçları ve püf noktaları için Unity Editor’ün pencerelerini, araçlarını ve klavye kısayollarını kullanmak gibi gerekli talimatları içeren “Unit Editor’ı keşfedin” bölümüne bakın.
-Not:  LEGO® Microgame’i tamamladıysan, Unity Editor’de fiziksel LEGO® parçalarını kullanma deneyimini yeniden yaratan bazı özel fonksiyonlar kullandın. Bundan sonra özel LEGO geliştirmelerini görmeyeceksin- özelleştirilmemiş Unity Editor’ü kullanacaksın.
-
-
+**Not**:  LEGO® Microgame’i tamamladıysan, Unity Editor’de fiziksel LEGO® parçalarını kullanma deneyimini yeniden yaratan bazı özel fonksiyonlar kullandın. Bundan sonra özel LEGO geliştirmelerini görmeyeceksin- özelleştirilmemiş Unity Editor’ü kullanacaksın.
 
 
 **Aşama 3: Unity Editor: İlk İzlenimler**
@@ -33,16 +28,11 @@ Unity Editor ilk yüklendiğinde kendini nasıl hissettin? Bu videoda köklü i�
 İlk başta göze korkutucu gelse de Unity Editor ile kendini rahat hissetmek, özgüvenini geliştirmenin ve Unity ile olan hedeflerine ulaşmanın ilk adımıdır.
 
 
-
-
-
-
-
 **Aşama 4: Basit 3D nesneler oluştur**
 
-Primitive’ler (Temel Nesneler), daha sonra içe aktaracağın assetler için yarattığın basit nesneler ve yer tutucular olarak bir Scene’e ekleyebileceğin, Cube (küp) ve Sphere (küre) gibi basit 3D şekilleri olan GameObjectler’dir.  Bu proje boyunca Cube ve Sphere Primitive’lerini kullanacaksın. Mevcut diğer Primitiveler hakkında daha fazla bilgi edinmek için  Primitive ve Yer Tutucu nesneler dökümanına bakabilirsin. 
+**Primitive’ler (Temel Nesneler),** daha sonra içe aktaracağın assetler için yarattığın basit nesneler ve yer tutucular olarak bir Scene’e ekleyebileceğin, Cube (küp) ve Sphere (küre) gibi basit 3D şekilleri olan GameObjectler’dir.  Bu proje boyunca Cube ve Sphere Primitive’lerini kullanacaksın. Mevcut diğer Primitiveler hakkında daha fazla bilgi edinmek için  Primitive ve Yer Tutucu nesneler dökümanına bakabilirsin. 
 
-1.  Scene’de bir Cube Primitive oluşturmak için Hierarchy Window’da (Hiyerarşi penceresi) boş bir yere sağ tıkla ve ardından 3D Object > Cube seç.
+1.  Scene’de bir Cube Primitive oluşturmak için Hierarchy Window’da (Hiyerarşi penceresi) boş bir yere sağ tıkla ve ardından **3D Object > Cube** seç.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/get-started-with-the-unity-editor/figures/3.1.2.png)
 
@@ -54,7 +44,7 @@ Cube olarak adlandırılan GameObject artık Hierarchy Window’da belirdi, ve S
 
 İşte sana Unity Editor’de önemli rutin görevleri yapma yeteneğini denemek ve test etmek için bir alıştırma. Becerilerini geliştirmek için bu alıştırmayı kullan. “Nasıl Yapılır” kılavuzuna ihtiyacın varsa, [Unity Editor’ü](https://learn.unity.com/tutorial/explore-the-unity-editor-1#6124ecdcedbc2a54df07500f) Keşfet dökümanına bakabilirsin.
 
-Not: Aşağıdaki resimlere okunabilirliği arttırmak için renk ekledik. Unity Editor’de GameObject’ler ve zemin arasındaki kontrastı iyileştirmen gerekiyorsa, [background color’ı (arka plan rengi) değiştirebilirsin.](https://learn.unity.com/tutorial/project-setup-processes#61310680edbc2a061b6dddc9)
+**Not**: Aşağıdaki resimlere okunabilirliği arttırmak için renk ekledik. Unity Editor’de GameObject’ler ve zemin arasındaki kontrastı iyileştirmen gerekiyorsa, [background color’ı (arka plan rengi) değiştirebilirsin.](https://learn.unity.com/tutorial/project-setup-processes#61310680edbc2a061b6dddc9)
 
 
 1.  Hierarchy Window’dan Cube’u seç.
@@ -89,15 +79,6 @@ Editor’de başka neler yapmak istiyorsun? Ekstradan alıştırma için deneyeb
 **Aşama 6: Sonraki adımlar**
 
 Unity Editor’ü kullanmaya  yönelik temel becerileri öğrendiğin için tebrikler. Bunlar Unity’deki yaratıcı yolculuğunda senin için “ikinci doğan” olacak becerilerdir. Sırada, Package Manager (paket yöneticisi)’da Unity özelliklerini nasıl özelleştirebileceğini ve assetleri nasıl yöneteceğini öğreneceksin.
-
-
-
-
-
-
-
-
-
 
 
 
