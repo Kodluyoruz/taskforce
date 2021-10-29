@@ -1,4 +1,4 @@
-# Adım 2: Hedefinizi belirlemek için ilham alın
+# Adım 2: Hedefinizi Belirlemek İçin İlham Alın
 Amacınız kişisel vizyonunuzu hayata geçirmekse, içerik oluşturucularımızın Unity becerilerine güvenmelerinin ardından ilk oluşturdukları deneyimleri dinleyin.
 
 Eğer gerçek zamanlı içerik oluşturucu olmak gibi bir kariyer hedefliyorsanız, buna uygun çeşitli sektör ve pozisyonlar vardır. Örneğin tam zamanlı bir iş bulabilir, freelance çalışabilir, kendi oyunlarınızı ve uygulamalarınızı oluşturarak bunları satabilirsiniz. İşte köklü içerik oluşturucularımızın kariyerleri boyunca öğrendikleri bazı şeyler.
@@ -24,17 +24,17 @@ Unity Temelleri Patikası boyunca öğrendiklerinizi tekrar düşünün. Kendile
 - Projem için ses, karakterler, arka planlar ve kullanıcı arayüzleri gibi hangi varlıklara ihtiyacım var?
 - Bu varlıkları oluşturmak ve bir araya getirmek için hangi becerilere ihtiyacım olurdu? (Bütün becerileri bilmiyorsanız sorun değil - neler yapabileceğinizi belirleyin.)
 - Ne tür zihin yapıları ve kişisel özellikler üzerinde çalışmak istiyorum?
-- 
+
 Bir sonraki adımda planınızı paylaşacaksınız ve böylece öğrenci topluluğunuzdan değerli geri bildirimler alabileceksiniz. Ancak burada paylaştığınız plan nihai değil - aslında hiçbir öğrenme planı nihai değildir! Yolculuğunuz yön ve odak değiştirmeye devam edecek. Periyodik olarak, nerede olduğunuzu düşünün ve nereye gitmek istediğinizi değerlendirin. Öğrenme planınıza sık sık dönün ve gerektiği sıklıkta güncelleyin.
 
 **Adım 5: Planınızı paylaşın**
 Lütfen öğrenme planınızı bir ila üç dakikalık bir video olarak veya belgenizin ekran görüntüsü olarak paylaşın. Kendinizi rahat hissediyorsanız, lütfen bunu Herkese Açık hale getirin ve ardından topluluktaki diğer kişilerden geri bildirim alın - ve siz de diğer öğrenci arkadaşlarınıza planları hakkında geri bildirimde bulunmayı unutmayın.
 
-1.  Ödev için teslim etmek istediğiniz video veya ekran görüntüsünü yükleyin (aşağıdaki "Ödevi Gönder" bloğuna bakın - bu, dosyayı galeriye de ekleyecektir).
+- Ödev için teslim etmek istediğiniz video veya ekran görüntüsünü yükleyin (aşağıdaki "Ödevi Gönder" bloğuna bakın - bu, dosyayı galeriye de ekleyecektir).
 
 **Not**: Planınızı değiştirmek veya bir dosyayı silmek isterseniz, gönderiminizi kaydettikten sonra bu eğitimde **"Gönderimi Düzenle"** düğmesini göreceksiniz.
 
-2.  Gönderdikten sonra, galerideki yorumlar aracılığıyla en az iki kurs katılımcısına geri bildirimde bulunmanızı önemle tavsiye ederiz. Bir öğrencinin planını gözden geçirirken aşağıdaki soruları kısaca yanıtlayın:
+- Gönderdikten sonra, galerideki yorumlar aracılığıyla en az iki kurs katılımcısına geri bildirimde bulunmanızı önemle tavsiye ederiz. Bir öğrencinin planını gözden geçirirken aşağıdaki soruları kısaca yanıtlayın:
  
 - Hedefleri ulaşılabilir görünüyor mu?
 - Hedefleri belirli ve ölçülebilir mi?
