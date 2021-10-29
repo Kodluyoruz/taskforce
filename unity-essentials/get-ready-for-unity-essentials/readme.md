@@ -37,7 +37,7 @@ Sana en uygun seçeneği seç:
 
 Unity'de yeniyim ve bir Mikro Oyun tamamlamadım (bu arada, Mikro Oyun nedir?):
 
-** 4. Adım: Micro Oyunları denemeyi düşünün adımına gidin**
+**4. Adım: Micro Oyunları denemeyi düşünün adımına gidin**
 
 Unity'de yeniyim ve Mikro Oyunlardan sonra gelecek her şeye hazırım.
 
@@ -104,8 +104,6 @@ Unity'yi ilk kez öğrenirken bir sonraki adım Unity Temelleri patikasıdır. B
 
 Unity Temelleri, kendi özel projeni oluşturman veya pazarlanabilir iş becerileri geliştirmen için özenle hazırlanmış ilk adımdır. Gerçek Unity projelerini nasıl oluşturacağını, kullanacağını ve 3D nesneler, ses ve programlama ile nasıl çalışacağını öğreneceksin.
 
-
-Unity Temelleri rozetini aldığında, yeni öğrenme fırsatlarının kilidini açacaksın!
 
 Sana en uygun seçeneği seç:
 
