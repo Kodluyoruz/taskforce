@@ -2,7 +2,7 @@
 
 Seni içerik oluşturucu topluluğumuzun içinde olduğu pek çok yer ve alanla ilgili araştırma yapmaya ve bağlantı kurmaya teşvik ediyoruz. Bu eğitici içeriğin ilerleyen bölümlerinde, diğer içerik oluşturucularla nasıl etkileşime geçebileceğini yeniden ele alacağız.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/content-creator/figures/Infographic_3.2.4_v2.png)
 Unity Topluluğunun bölümlerini temsil eden bir logo koleksiyonu: YouTube, Unity Forumları, Discord, Unity Learn, Unity Dökümantasyonu, StackExchange, Unity Hub, Reddit, Unity Play, StackOverflow ve Unity Knowledge Base.
 
 Unity içerik oluşturucu topluluğundaki tanınmış kaynaklardan birkaçı:
