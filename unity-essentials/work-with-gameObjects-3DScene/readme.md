@@ -37,7 +37,7 @@ Unity’de yeniyseniz ve Unity Hub’da bulunan Küçük Oyun (Microgame)’lerd
  2. **3B Şablon’u** kullanarak [yeni bir Unity projesi oluştur.](https://learn.unity.com/tutorial/project-setup-processes#60f6aedeedbc2a7e96802196) Bu projeye “Essentials 3D project” adını ver.
  **Not:** İlk kez kullanıyorsan, 3B Şablonu indirmeniz için bir istem görebilirsiniz. Seçtiğinizde 3B kartta bu istemi arayın.
  3. Boş Sahne (Scene)’nde basit bir küp oluştur. Hiyerarşi (Hierarchy)’de boş bir bölüme sağ tıkla ve **3B Nesne (3D Object) > Küp (Cube)’ü** seç.
-
+ 
 **Aşama 4: Varsayılan 3B Sahne**
 
  Küçük Oyun (Microgame)’lerde, hareket eden ve komutlarınıza yanıt veren karakterlerle, ilerledikleri sabit bir zeminle, oyunu ilginç kılmak için hedefler ve engellerle hali hazırda senin için oluşturulmuş bir Sahne (Scene)’de başladın. Ancak şimdi, uçsuz bucaksız, sınırsız ve boş bir alanda çalışıyorsun. Zeminin sadece referans için olduğu gibi gözüken bir düzlem – sabit bir yüzey bile değil.
@@ -57,7 +57,7 @@ Sahne (Scene)’ne bazı GameObject’ler ekledikten sonra bunlara geri dönece�
 
 Denetçi Penceresi (Inspector Window), GameObject’ler ve diğer nesne türlerinin özelliklerini görüntüleyeceğin ve değiştireceğin yerdir. Haydi başlayalım!  
 
-1. Sahne (Scene) görünümünde, oluşturmuş olduğun küp GameObject’i seç.
+1.  Sahne (Scene) görünümünde, oluşturmuş olduğun küp GameObject’i seç.
 
 2.  Küp (Cube) seçiliyken, Denetçi Penceresi (Inspector Window)’nde GameObject’in özelliklerine bak.
 
