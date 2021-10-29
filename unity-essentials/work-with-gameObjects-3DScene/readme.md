@@ -69,7 +69,7 @@ Denetçi (Inspector)’nin her bölümü, seçilen GameObject’in bir dizi öze
  Küp seçiliyken, Dönüştürme Bileşeni (Transform Component), X, Y ve Z değerlerini kullanarak Küpün boyutunu, rotasyonunu ve konumunu Sahne (Scene)’de görüntüler. Varsayılan olarak, bu değerler metre birimindendir.
  **Not:** Unity, **Y-yukarı koordinat sistem (Y-up coordinate system)’ini** kullanır. Bu, Düzenleyici (Editor) ekranı alanında Y yönünün dikey olduğu, X ve Z’nin de yatay düzlemi temsil ettiği (kuzey, güney, doğu ve batı gibi) anlamına gelir. Bazı 3DsMax gibi uygulamalar, dikey olarak Z yönünü kullanırlar
 
-3.  Küp’e odaklanmak için klavyede F tuşuna bas. (Tüyo: Sahne (Scene) görünümü penceresi etkinleştirilmelidir; Pencereyi etkinleştirmek için Sahne (Scene) görünümünde bir GameObject seçebilir veya herhangi bir yere sağ tıklayabilirsin.)
+3. Küp’e odaklanmak için klavyede F tuşuna bas. (Tüyo: Sahne (Scene) görünümü penceresi etkinleştirilmelidir; Pencereyi etkinleştirmek için Sahne (Scene) görünümünde bir GameObject seçebilir veya herhangi bir yere sağ tıklayabilirsin.)
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/work-with-gameObjects-3DScene/figures/B.2.1_img4.png)
 
@@ -78,7 +78,7 @@ Sahne (Scene) görünümündeki basit küp
 Varsayılan biçimde, Yönlendirme aracı seçilidir ve Gizmo’su küpün ortasında bulunur. Yön okları, her boyutun pozitif yönünü gösterir. Çapları renk kodludur. Sahne (Scene) görünümünün sağ üst köşesindeki Sahne (Scene) Gizmo’suna bakarak her zaman yönünü görebilirsin. 
 
 
-4.  Küp (Cube) seçiliyken, Dönüştürme Bileşeni (Transform Component)’ndeki Ölçek (Scale)’in Y değerini 4 olarak değiştir. Kübün (Cube) yüksekliği 4 olarak değişecektir. Gerektiğinde uzaklaştır. 
+4. Küp (Cube) seçiliyken, Dönüştürme Bileşeni (Transform Component)’ndeki Ölçek (Scale)’in Y değerini 4 olarak değiştir. Kübün (Cube) yüksekliği 4 olarak değişecektir. Gerektiğinde uzaklaştır. 
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/work-with-gameObjects-3DScene/figures/B.2.1_img5.png)
 
@@ -100,13 +100,13 @@ Hierarchy (Hiyerarşi)’de gösterildiği üzere, Küre, Küp’ün bir alt ö�
 
 Küre (Sphere) GameObject’I doğrudan Küp (Cube) GameObject’in altında ve girintili olarak gösteren, üst öge – alt öge ilişkisini gösteren Hiyerarşi (Hierarchy) penceresi.
 
-3.  Bu Küre (Sphere), göremediğiniz Küp (Cube)’ün içerisindedir. Hiyerarşi (Hierarchy)’de Küre (Sphere)’I seç ve Gizmo görünecek, böylece onu Sahne (Scene) görünümünde Küp (Cube) dışında en azından kısmen görünen bir konuma taşıyabilirsin. Uzun olacak ve küresel olmayacak, çünkü ilk boyutları üst ögesine dayanıyordu.
+3. Bu Küre (Sphere), göremediğiniz Küp (Cube)’ün içerisindedir. Hiyerarşi (Hierarchy)’de Küre (Sphere)’I seç ve Gizmo görünecek, böylece onu Sahne (Scene) görünümünde Küp (Cube) dışında en azından kısmen görünen bir konuma taşıyabilirsin. Uzun olacak ve küresel olmayacak, çünkü ilk boyutları üst ögesine dayanıyordu.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/work-with-gameObjects-3DScene/figures/B.2.1_img8.png)
 
 Küre (Sphere) GameObject, Küp’ün dışına taşındı.
 
-4.  Ana nesne olan Küp’ü seç ve taşı. Küp ve Küre birlikte hareket edecek. Nesneni de ölçeklendirmeyi ve döndürmeyi dene.
+4. Ana nesne olan Küp’ü seç ve taşı. Küp ve Küre birlikte hareket edecek. Nesneni de ölçeklendirmeyi ve döndürmeyi dene.
 
 Üst öge – alt öge ilişkisini kaldırmak için, kök düzeyini belirtmek için Hiyerarşi (Hierarchy)’deki Küre’yi yukarı ve tamamen sola sürükle. Her iki GameObject de artık Hiyerarşi (Hierarchy)’de birbirinden bağımsız GameObject’ler olarak görünür. 
 
@@ -119,19 +119,6 @@ Bir nesne hareket ettirildiğinde görünen göstergeyi gösteren Hiyerarşi (Hi
 Basit olarak adlandırılan taslak GameObject’leri Sahne (Scene)’ne nasıl ekleyeceğini gördün ve bu GameObject’lerin Hiyerarşi (Hierarchy) ve Denetçi Pencereleri (Inspector Window)’nde hangi yollarla temsil edildiğini gördün. Denetçi (Inspector)’de sayılarla veya Sahne (Scene) görünümünde bunları fiziksel olarak değiştirerek GameObject’leri iki şekilde nasıl taşıyacağını, yönlendireceğini ve ölçeklendireceğini gördün.
 
 Artık pratik bir alıştırmaya hazırsın: basit olanları kullanarak bir yapı inşa etmek.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
