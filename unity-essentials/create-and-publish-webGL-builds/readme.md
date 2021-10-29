@@ -11,7 +11,6 @@ Gerçek zamanlı deneyimin hazır olduğunda, başkalarıyla paylaşmak için bi
 Bu eğitimde,
 
 - WebGL build oluşturacaksın 
-
 - WebGL Publisher paketini kullanarak doğrudan Unity Play’de yayınlayacaksın
 
 **1.2 Başlamadan Önce**
