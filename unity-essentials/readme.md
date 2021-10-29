@@ -18,7 +18,7 @@
 - [Get started with the Package Manager](get-started-with-the-package-manager)
 
 #### Unity'yi Keşfet ####
-- [Gerçek Zamanlı-Real Tİme- Oluşturma](real-time-creation)
+- [Gerçek Zamanlı-Real Time- Oluşturma](real-time-creation)
 - [Real Time Nedir](what-real-time)
 - [Unity Nedir?](what-unity)
 - [Unity Ne Yapar?](what-can-unity-do)
