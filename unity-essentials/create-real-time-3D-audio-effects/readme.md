@@ -49,9 +49,6 @@ KaynayanKazan GameObject'in özelliklerini gösteren ve GameObject'i etkinleşti
 BoilingWaterAudio alt GameObject öğesini KaynayanKazan GameObject üzerinde gösteren hiyerarşi.
 -  KaynayanKazan'un alt öğesi olan BoilingWaterAudio GameObject öğesini seçin.
 - Denetçi penceresinde, Ses Kaynağı Bileşeninin özelliklerin incele. Bu Ses Kaynağı için, sürekli kaynama sesi sağlamak için Döngü ayarını etkinleştirdik.
-![figures]()
-- KaynayanKazan'un alt öğesi olan BoilingWaterAudio GameObject öğesini seçin.
-- Denetçi penceresinde, Ses Kaynağı Bileşeninin özelliklerin incele. Bu Ses Kaynağı için, sürekli kaynama sesi sağlamak için Döngü ayarını etkinleştirdik.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-real-time-3D-audio-effects/figures/B.4.2-8.png)
 - Bu Ses Kaynağını 3D sese dönüştürmek için, Uzamsal Karışım kaydırıcısını (Spatial Blend) seçip tamamen sağa sürükle veya değerini 1'e ayarla.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-real-time-3D-audio-effects/figures/B.4.2-9.png)
