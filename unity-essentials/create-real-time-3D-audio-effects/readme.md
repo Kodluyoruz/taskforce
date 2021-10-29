@@ -18,104 +18,63 @@ Unity'de 3D sesin nasıl çalıştığını keşfetmek için, Sahnede sesin nas�
 **Aşama 2: Ses Dinleyicisinin Rolü**
 
 Bu Sahnede, mutfakta hareket eden kullanıcıyı temsil etmek için Karakter adında bir GameObject hazırladık. GameObject Karakteri, gömülü Ses Dinleyicisi (kulaklar) ve bir kapsül Çarpıştırıcısı (gövde; görünmez ilkel bir kapsül gibi) ile Ana Kameradan (gözlerden) oluşur ve bir Çarpıştırıcı olarak, içinden geçmek yerine diğer GameObject'lere çarpar).
-
-1. Hiyerarşi penceresinde Karakter GameObject seçilmelidir.
-2. Karakter GameObject'i genişletmek ve alt GameObject'lerini görüntülemek için Karakter'in yanındaki sol ok seçilmelidir.
-
+- Hiyerarşi penceresinde Karakter GameObject seçilmelidir.
+- Karakter GameObject'i genişletmek ve alt GameObject'lerini görüntülemek için Karakter'in yanındaki sol ok seçilmelidir.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-real-time-3D-audio-effects/figures/B.4.2-1.png)
-
 Karakter seçili iken alt GameObject öğelerinin ortaya çıkarılması için genişletilen hiyerarşi penceresi
-
-3. Ana Kamera GameObject'ini göremiyorsan, Ana Kamerayı göstermek için CharacterRoot'un yanındaki sol oku seçmelisin.
-
+- Ana Kamera GameObject'ini göremiyorsan, Ana Kamerayı göstermek için CharacterRoot'un yanındaki sol oku seçmelisin.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-real-time-3D-audio-effects/figures/B.4.2-2.png)
-
 Karakter GameObject seçili iken CharacterRoot alt öğesi Ana Kamerayı gösterecek şekilde genişletilen hiyerarşi
-
-4. Karakter GameObject'i gözlemle. Çarpıştırıcının ana hatlarını ve Ana Kameranın kabaca karakterimizin başının olacağı yere yerleştirildiğini göreceksin.
-
+- Karakter GameObject'i gözlemle. Çarpıştırıcının ana hatlarını ve Ana Kameranın kabaca karakterimizin başının olacağı yere yerleştirildiğini göreceksin.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-real-time-3D-audio-effects/figures/B.4.2-3.png)
-
 Sahne görünümünde, kapsülü Çarpıştırıcının etrafındaki tel çerçeveyi ve içine gömülü Ana Kamerayı gösteren Karakter GameObject
-
-5. Hiyerarşiden, Ana Kamera Oyun Nesnesi seçilmelidir.
-6. Denetçi Penceresinde Ses Dinleyici Bileşenini göreceksin. Bu bileşenin hiçbir özelliği olmadığını unutma.
-
+- Hiyerarşiden, Ana Kamera Oyun Nesnesi seçilmelidir.
+- Denetçi Penceresinde Ses Dinleyici Bileşenini göreceksin. Bu bileşenin hiçbir özelliği olmadığını unutma.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-real-time-3D-audio-effects/figures/B.4.2-4.png)
-
 Denetçi penceresindeki Ana Kamera bileşenleri, hiçbir özelliği olmayan Ses Dinleyici Bileşenini gösterir.
 
 **Aşama 3: 3D Ses Oluşturulması**
 
 3D seste, Ses Klipleri, Sahnedeki Ses Dinleyicinin konumuna bağlı olarak farklı ses çıkarır. Bu örnek Sahnede, 3D sesi göstermek için ses çıkaran bir GameObject sağladık.
 
-1. Hiyerarşi penceresinde, KaynayanKazan GameObject'i seçin.
-
+- Hiyerarşi penceresinde, KaynayanKazan GameObject'i seçin.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-real-time-3D-audio-effects/figures/B.4.2-5.png)
-
 KaynayanKazan GameObject seçiliyken hiyerarşi.
-
-2. Denetçi penceresinde, Sahnenizde GameObject'i etkinleştirmek için KaynayanKazan'un Adı alanının solundaki onay kutusunu seçin.
-
+- Denetçi penceresinde, Sahnenizde GameObject'i etkinleştirmek için KaynayanKazan'un Adı alanının solundaki onay kutusunu seçin.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-real-time-3D-audio-effects/figures/B.4.2-6.png)
-
 KaynayanKazan GameObject'in özelliklerini gösteren ve GameObject'i etkinleştiren onay kutusunu vurgulayan Denetçi penceresi.
-
-3. Test etmek için Oynat butonunu seçin. Artık Sahnenizde kaynar su sesi çıkaran bakır bir tencerenin olduğunu fark edeceksin. Ancak sahnede nereye gidersen git ses aynı seviyede olacaktır.
-
-4. Oynatma modundan çıkın. Hiyerarşi penceresinde, GameObject'in alt öğelerini görmek için KaynayanKazan GameObject öğesini genişletin.
-
+- Test etmek için Oynat butonunu seçin. Artık Sahnenizde kaynar su sesi çıkaran bakır bir tencerenin olduğunu fark edeceksin. Ancak sahnede nereye gidersen git ses aynı seviyede olacaktır.
+- Oynatma modundan çıkın. Hiyerarşi penceresinde, GameObject'in alt öğelerini görmek için KaynayanKazan GameObject öğesini genişletin.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-real-time-3D-audio-effects/figures/B.4.2-7.png)
-
 BoilingWaterAudio alt GameObject öğesini KaynayanKazan GameObject üzerinde gösteren hiyerarşi.
-
-5.  KaynayanKazan'un alt öğesi olan BoilingWaterAudio GameObject öğesini seçin.
-
-6. Denetçi penceresinde, Ses Kaynağı Bileşeninin özelliklerin incele. Bu Ses Kaynağı için, sürekli kaynama sesi sağlamak için Döngü ayarını etkinleştirdik.
-
+-  KaynayanKazan'un alt öğesi olan BoilingWaterAudio GameObject öğesini seçin.
+- Denetçi penceresinde, Ses Kaynağı Bileşeninin özelliklerin incele. Bu Ses Kaynağı için, sürekli kaynama sesi sağlamak için Döngü ayarını etkinleştirdik.
 ![figures]()
-
-5.  KaynayanKazan'un alt öğesi olan BoilingWaterAudio GameObject öğesini seçin.
-
-6. Denetçi penceresinde, Ses Kaynağı Bileşeninin özelliklerin incele. Bu Ses Kaynağı için, sürekli kaynama sesi sağlamak için Döngü ayarını etkinleştirdik.
-
+- KaynayanKazan'un alt öğesi olan BoilingWaterAudio GameObject öğesini seçin.
+- Denetçi penceresinde, Ses Kaynağı Bileşeninin özelliklerin incele. Bu Ses Kaynağı için, sürekli kaynama sesi sağlamak için Döngü ayarını etkinleştirdik.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-real-time-3D-audio-effects/figures/B.4.2-8.png)
-
-7. Bu Ses Kaynağını 3D sese dönüştürmek için, Uzamsal Karışım kaydırıcısını (Spatial Blend) seçip tamamen sağa sürükle veya değerini 1'e ayarla.
-
+- Bu Ses Kaynağını 3D sese dönüştürmek için, Uzamsal Karışım kaydırıcısını (Spatial Blend) seçip tamamen sağa sürükle veya değerini 1'e ayarla.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-real-time-3D-audio-effects/figures/B.4.2-9.png)
-
 1 değerini temsil eden, Uzamsal Karışım kaydırıcısını sağda gösteren Ses Kaynağı Bileşeni.
-
-8. Oyun Moduna girin ve Karakteri mutfak sobasının yakınına ve uzağına taşıyın.  KaynayanKazan’un sesi artık GameObject'e yaklaştıkça artıyor.
+- Oyun Moduna girin ve Karakteri mutfak sobasının yakınına ve uzağına taşıyın.  KaynayanKazan’un sesi artık GameObject'e yaklaştıkça artıyor.
 
 **Aşama 10: Ses geçişinin ayarlanması**
 
 Bir ses klibinin yuvarlanması, üç boyutlu uzaydaki aralığını ve daha uzak mesafelerde kaybolma ve duyulamaz hale gelme hızını tanımlar. Farklı seslerin taşıma şekillerini simüle etmek için seslerinizin geçişini ayarlayabilirsiniz.
-
-1.  Ses Kaynak GameObject seçiliyken, Denetçideki özellikleri genişletmek için 3D Ses Ayarlarının (3D Sound Settings) solundaki oku seçin.
-
+- Ses Kaynak GameObject seçiliyken, Denetçideki özellikleri genişletmek için 3D Ses Ayarlarının (3D Sound Settings) solundaki oku seçin.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-real-time-3D-audio-effects/figures/B.4.2-10.png)
-
 Bir Ses Kaynağının Denetçide gösterildiği gibi 3D Ses Ayarları
-
 Bu ayarlar, Ses Kaynağının ve Ses Dinleyicisinin konumlarına bağlı olarak sesin ve perdenin nasıl değişebileceğini kontrol eder.
-10. 
-Minimum mesafeyi 0,5'e ve Maksimum mesafeyi 1'e ayarlayın. Minimum mesafe içinde, Ses Kaynağı klibi maksimum ses seviyesinde oynatır. Bu mesafenin dışında, ses, kullanıcının artık sesi duymayacağı Maks Mesafeye kadar azalır.
-
+- Minimum mesafeyi 0,5'e ve Maksimum mesafeyi 1'e ayarlayın. Minimum mesafe içinde, Ses Kaynağı klibi maksimum ses seviyesinde oynatır. Bu mesafenin dışında, ses, kullanıcının artık sesi duymayacağı Maks Mesafeye kadar azalır.
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-real-time-3D-audio-effects/figures/B.4.2-11.png)
-
 Min Distance ve Max Distance 1 olarak ayarlananSes Kaynağının rolloff eğrisi.
-
 Sahne Görünümünde, Minimum Mesafe ve Maksimum Mesafe iki mavi tel küre ile temsil edilir. Bu size, kullanıcının sesi tam olarak Sahnenin neresinde duyabileceğini gösteren görsel bir çıktı verecektir.
-
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-real-time-3D-audio-effects/figures/B.4.2-12.png)
-
 Sesin aralığını belirten mavi tel küreleri gösteren Sahne.
+- Değişiklikleri test etmek için Oynatma moduna gir. KaynayanKazan’ı çok yüksek sesli veya Karakterin belirli bir mesafedeyken zar zor duyulabilir hale getirmek için yuvarlama ile denemeler yap.
 
-11.  Değişiklikleri test etmek için Oynatma moduna gir. KaynayanKazan’ı çok yüksek sesli veya Karakterin belirli bir mesafedeyken zar zor duyulabilir hale getirmek için yuvarlama ile denemeler yap.
+**Aşama 5: Sonraki adımlar**
 
-Aşama 5: Sonraki adımlar
 Bir 3D Sahneye iki tür ses ekledin: fon müziği ve 3D ses. Bir sonraki adımda, bu ve diğer projelere eklemek isteyebileceğin diğer ses varlıklarını keşfedebilirsin.
 
 
