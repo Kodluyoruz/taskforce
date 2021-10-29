@@ -13,8 +13,10 @@ Bu eğitimi bitirdiğinde:
 Unity Engine, etkileşimli deneyimler oluşturmak için asset'lerin bir araya geldiği yerdir, ancak bu asset'lerin yapıldığı yer olmak zorunda değildir. Bu eğitimde 3D Dijital İçerik Oluşturma araçları (3D DCC'ler) kullanılarak 3D asset'lerin nasıl oluşturulduğunu ve bu araçlarla oluşturulan asset'leri Unity Asset Store'dan nasıl alabileceğini öğreneceksin. Bu öğrenme projesinin sonunda sana faydalı olacak bazı asset'leri nasıl içe aktaracağını göstereceğiz.
 
 **Aşama 2: 3D DCC'ler nedir?**
-Maya, ZBrush ve Blender gibi 3D Dijital İçerik Oluşturma araçları (DCC'ler), sanatçıların üç boyutlu ortamlar, modeller ve karakterler oluşturmasına olanak tanır.
-Sanatçılar bu programları kullanarak 3D nesneleri modelleme, modelin hareket edebilmesi için rigging , modelin belirli bir şekilde hareket etmesi için animasyon  yapıyorlar ve modele renk ve gölge vermek için doku veriyorlar . Bunu bir örneğini aşağıda görebilirsin. 
+
+[Maya](https://www.autodesk.com/products/maya/overview), [ZBrush](https://pixologic.com/) ve [Blender](https://www.blender.org/) gibi 3D Dijital İçerik Oluşturma araçları (DCC'ler), sanatçıların üç boyutlu ortamlar, modeller ve karakterler oluşturmasına olanak tanır.
+
+Sanatçılar bu programları kullanarak 3D nesneleri **modelleme**, modelin hareket edebilmesi için rigging , modelin belirli bir şekilde hareket etmesi için **animasyon** yapıyorlar ve modele renk ve gölge vermek için **doku veriyorlar**. Bunu bir örneğini aşağıda görebilirsin. 
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/get-3D-assets/figures/Foundations_UnityRT3D_1.2.2.1_3d-model-prog.png)
 
@@ -46,7 +48,7 @@ Projelerine sanat katmak için kullanabileceğin kaynaklar hakkında daha fazla 
 
 Unity Asset Store'u ziyaret ederek 3D asset'ler oluşturmak için gereken yetenek, zaman ve çabadan yararlanabilirsin. Asset Store, uzman asset üreticilerinin çalışmalarını paylaşabilecekleri veya satabilecekleri; gerçek zamanlı üreticilerin ise önceden tasarlanmış ve oluşturulmuş kullanıma hazır asset'leri bulabilecekleri bir platformdur. Bu asset'ler arasında 3D modeller, Materyaller, animasyonlar, yükleme ekranları, script'ler ve projen için ihtiyaç duyabileceğin diğer her şey bulunur.
 
-1. Unity Asset Store'a git (bu bağlantı varsayılan tarayıcında açılacaktır) ve Unity ID'ni kullanarak giriş yap.
+1.Unity Asset Store'a git (bu bağlantı varsayılan tarayıcında açılacaktır) ve Unity ID'ni kullanarak giriş yap.
 **İpucu**: Asset Store aracılığıyla edindiğin her şey Unity hesabına bağlanacak ve aynı Unity Kimliği ile oturum açtığın sürece Editör'de mevcut olacaktır.
 2. Asset Store arama sekmesinde, mevcut Malzeme asset'lerini aramak için “materials” yaz.
 3. Filtre panelinin Pricing (Fiyat) bölümünde Free Assets'i (Ücretsiz Asset'ler) seç.
