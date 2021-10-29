@@ -19,10 +19,8 @@ Unity Scripting API'si oldukça geniştir, ancak Unity çok sayıda kapsamlı be
 Bu aşamada, [“The floor is lava!”](https://learn.unity.com/tutorial/challenge-the-floor-is-lava) projesinde topun boyutunu değiştirmek için script kullanacaksınız. Top yokuş aşağı yuvarlandıkça büyüyecek. Ayrıca, kendi başınıza daha fazla deneme yapmak istemeniz durumunda konumu ve dönüşü nasıl değiştireceğinizi de göstereceğiz.
  
 **Aşama 2: Scriptinizi oluşturun**
- 
 -Yuvarlanan topunuz için GameObject'i seçin.
- 
- -Önceki eğitimde yaptığınız gibi, [GameObject'inize yeni bir script ekleyin.](https://learn.unity.com/tutorial/get-started-with-scripts#5fa1c722edbc2a002191f052) Yeni scripti BallTransform olarak adlandırın ve Visual Studio'da açmak için Assets klasörünüzde (Proje penceresi) çift tıklayın.
+-Önceki eğitimde yaptığınız gibi, [GameObject'inize yeni bir script ekleyin.](https://learn.unity.com/tutorial/get-started-with-scripts#5fa1c722edbc2a002191f052) Yeni scripti BallTransform olarak adlandırın ve Visual Studio'da açmak için Assets klasörünüzde (Proje penceresi) çift tıklayın.
  
 **İpucu**: IDE pencerenizin sağ tarafındaki pencereleri kapatabilirsiniz.
 
