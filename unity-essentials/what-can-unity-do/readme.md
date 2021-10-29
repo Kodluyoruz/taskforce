@@ -8,7 +8,7 @@ Bu öğreticide, Unity Engine ile oluşturulabilecek farklı içerik türleri ha
 
 **Aşama 1: Genel Bakış**
 
-Unity, etkileşimli bir içerik oluşturma platformudur.  En çok oyun yapmak için bir araç olarak bilinmesine rağmen, esnekliği ve kullanım kolaylığı nedeniyle birçok farklı endüstri tarafından benimsenmiştir. Unity, yalnızca son kullanıcı için değil, aynı zamanda içerik oluşturucu için de tamamen etkileşimli deneyimlere izin veren gerçek zamanlı bir motordur. Unity, içerik oluşturucuların meslektaşlarıyla bir projeyi hızla yinelemelerine ve işbirliği yapmalarına olanak tanır, bu da geliştirme sürecini hızlandırır ve ekibin, kullanıcının ihtiyaçlarını tam olarak karşılayan bitmiş bir ürüne ulaşmasına yardımcı olur.
+Unity, etkileşimli bir içerik oluşturma platformudur.  En çok oyun yapmak için bir araç olarak bilinmesine rağmen, esnekliği ve kullanım kolaylığı nedeniyle birçok farklı endüstri tarafından benimsenmiştir. Unity, yalnızca son kullanıcı için değil, aynı zamanda içerik oluşturucu için de tamamen etkileşimli deneyimlere izin veren **gerçek zamanlı bir motordur.** Unity, içerik oluşturucuların meslektaşlarıyla bir projeyi hızla yinelemelerine ve işbirliği yapmalarına olanak tanır, bu da geliştirme sürecini hızlandırır ve ekibin, kullanıcının ihtiyaçlarını tam olarak karşılayan bitmiş bir ürüne ulaşmasına yardımcı olur.
 
 Bu eğitimde, Unity'yi kullanan birkaç farklı sektörün günlük işlerinde Unity'yi nasıl kullandıkları hakkında bilgi edineceksiniz.
 
@@ -24,7 +24,7 @@ Mario Kart Tour by Nintendo -- Made With Unity
 
 Mario Kart Tour'dan bir ekran görüntüsü: Bowser, elinde yeşil bir kaplumbağa kabuğu ile kendi go-kartı ile arka planda yaklaşırken, Mario ön planda go-kartını sürüyor.
 
-2005 yılında piyasaya sürülmesinden bu yana Unity, 20 farklı platformda binlerce oyun oluşturmak için kullanıldı. Made With Unity (MWU) oyunları bugün PC, konsol ve mobil platformlarda mevcut olanların yaklaşık %50'sini ve gelişmekte olan XR (Sanal, Artırılmış ve Karma Gerçeklik) oyun dünyasındaki platformların yaklaşık %60'ını oluşturuyor. Bu nedenle, oyun oynamayı seviyorsanız, Made With Unity oyununu oynama ihtimaliniz çok yüksek!
+2005 yılında piyasaya sürülmesinden bu yana Unity, 20 farklı platformda binlerce oyun oluşturmak için kullanıldı. **Made With Unity (MWU)** oyunları bugün PC, konsol ve mobil platformlarda mevcut olanların yaklaşık %50'sini ve gelişmekte olan XR (Sanal, Artırılmış ve Karma Gerçeklik) oyun dünyasındaki platformların yaklaşık %60'ını oluşturuyor. Bu nedenle, oyun oynamayı seviyorsanız, Made With Unity oyununu oynama ihtimaliniz çok yüksek!
 
 Aşağıdaki videoda Made With Unity oyunlarına birkaç örnek göz atın:
 [MWU Games](https://youtu.be/qh-BpLowy1w)
@@ -57,7 +57,7 @@ Mağazalar ve tiyatrolardan iş yerlerimize ve hatta evlerimize kadar, Mimarlık
 En büyük 50 AEC şirketinin yarısından fazlası, tasarım ve inşaat yaşam döngülerini kolaylaştırmak için Unity'yi kullanıyor. Bugün Unity kullanan AEC firmalarından Mortenson'dan haber almak için aşağıdaki videoyu izleyiniz:
 [Unity for AEC](https://www.youtube.com/watch?v=ggFpGuHX2qk)
 
-Otomotiv, Ulaştırma ve İmalat
+**Otomotiv, Ulaştırma ve İmalat**
 
 Lexus Configurator by Light & Shadows--Made With Unity
 
