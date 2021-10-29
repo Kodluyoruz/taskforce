@@ -51,7 +51,8 @@ Gerçek zamanlı bir motor ve çeşitli DCC türleri arasındaki ilişkiyi göst
 
 İleriki eğitimlerde her DCC türünü detaylıca anlatacağız.
 
-Unity Asset Store
+**Unity Asset Store**
+
 İyi haber: Unity assetlerini oluşturmak için bir DCC kullanmayı öğrenmek, sahip olması mükemmel bir beceri de olsa projendeki her asseti sıfırdan oluşturmak zorunda değilsin. DCClerle oluşturulmuş yüzlerce kullanıma hazır asset Unity Asset Store’da erişime açık. Hatta bazıları ücretsiz. Unity ID’n ile Asset Store internet sitesi ve Unity editöründeki paket yöneticisi arasında bir bağlantıyı kullanarak assetleri indirebilir ve projene aktarabilirsin. İleriki eğitimlerde projeni geliştirmek için Asset Store’a girip belirli assetleri edineceksin ve Asset Store’u kendi başına keşfetmek için hazır olacaksın.
 
 **Aşama 5: Unity'nin Hikayesi**
@@ -72,12 +73,14 @@ Unity’nin kurucuları, soldan sağa doğru: Joachim Ante, Nicholas Francis, Da
 
 Unity’nin kurucuları Joachim Ante, Nicholas Francis, David Helgason kol kola kameraya gülümserken çekilmiş siyah beyaz bir fotoğraf.
 
-Oyunlar nasıl yapılırdı (Unity’den önce)
+**Oyunlar nasıl yapılırdı (Unity’den önce)?**
+
 Çoğu oyun firması zamanında çeşitli projeler için kendi kurum içi oyun motorunu yarattı, bazen de yaptıkları her oyun için yeni bir tane yarattılar. Bu onlara belirli ihtiyaçlarını karşılayacak araç takımları yaratma fırsatı verdi ama çok fazla zamana ve paraya mal oluyordu. Oyun geliştirme çoğu zaman motor üretimiyle paralel olarak gerçekleştiğinden oyunun konseptindeki temel değişiklikler büyük ihtimalle motor üzerinde de çalışma gerektiriyor ve bu da bir ürünün piyasaya sürülebilmesi için gereken zamanı uzatıyordu.
 
 Bireysel geliştiriciler ve küçük takımlar gibi bağımsız geliştiriciler için, önceden hazırlanmış motorlara olan kısıtlı erişim özellikle bir problemdi. Oyun motoru üretimi son derece teknik bir süreç ve kapsamlı bir programlama deneyimi gerektiriyordu. Bağımsız bir geliştirici kapsamlı programlama deneyimine sahip değilse bir motor lisanslamaktan başka çaresi kalmazdı ki bu çoğu zaman maliyetin önüne geçerdi. Bu nedenlerden dolayı 2000’li yılların ortalarından önce bağımsız oyun geliştiriciliği, kurumsal geliştiricilikten çok daha az yaygın ve ticari olarak başarılı bağımsız oyunlar nadirdi.
 
-Bir motorun doğuşu
+**Bir motorun doğuşu**
+
 GooBall başarılı değildi ama Unity olabilirdi. Ante, Francis ve Helgason Unity motorunun ön gösterimini Apple’ın Dünya Çapında Geliştiriciler Konferansı’nda yaptı. Motorun ilk benimsenişi yavaştı ama yakında bağımsız geliştiriciler arasında popüler olacaktı.
 
 Unity, oyun endüstrisinin yüzünün değişmeye başladığı 2000’lerin ortalarında piyasaya çıktı. Öyle denirdi ki, Unity “bağımsız oyun devrimi”nin önemli bir parçası olmak üzere benzersiz bir şekilde konumlanmıştı. Unity’nin erken başarısında üç faktör kritik öneme sahipti: oyunlar için güvenilir dijital dağıtım modellerinin tanıtımı, bağımsız geliştiricilere hitap etmeye odaklanma ve ilk akıllı telefonlar için destek.
@@ -93,15 +96,6 @@ Orijinal iPhone, App Store’u üçüncü parti uygulamalara açtığında, Unit
 Unity’nin temel değeri bir zamanlar “oyun geliştiriciliğini demokratikleştirmek” idi; bugün ise sadece “geliştiriciliği demokratikleştirmek”, odağını oyunların üzerinden uzaklaştırmak için değil ama daha fazlasına imkan sağlamak için. Unity birçok endüstriden oyun geliştiricilerine, animatörlere, mühendislere, tasarımcılara, eğitmenlere ve pazarlamacılara hizmet eden yeni olanaklar eklemesiyle, bir oyun motoru olmaktan gerçek zamanlı bir motor olmaya evrildi. Unity herkes içindir ve burada herkes hoş karşılanır.
 
 Artık Unity’nin hikayesini bildiğine göre, Unity’nin gerçek zamanlı motorunu kullanan endüstriler hakkında bilgi sahibi olmak için bir sonraki eğitimle devam et.
-
-
-
-
-
-
-
-
-
 
 
 
