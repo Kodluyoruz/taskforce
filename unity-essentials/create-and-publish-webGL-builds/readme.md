@@ -23,14 +23,9 @@ Bu eğitime başlamaya hazır olduğundan emin olmak için bu adımdaki talimatl
 Build Support modülünü kontrol et
 
 Gerekli Build Support modülünün kurulu olup olmadığını kontrol etmek için:
-
-
 - Unity Hub’ı aç.
-
 - **Projects** sekmesini seç ve build etmek istediğin projenin Unity versiyonunu belirle.
-
 - **Installs** sekmesini seç ve mevcut listede versiyonu ara. **WebGL Build Support** modülü kuruluysa, versiyon kutucuğunun altında bir WebGL simgesi bulunur.
-
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-and-publish-webGL-builds/figures/WebGLBuilds_1.2.1.3_SupportModule.png)
 Unity'nin 2019.4 LTS versiyonu için WebGL Build Support modülü simgesi, belirtme kutucuğu olarak vurgulanır — simge etiketi görünür
