@@ -77,7 +77,8 @@ Unity'nin komut dosyasındaki scaleChange değişken adını Inspector'da Scale 
 - Top ne zaman sahanız için fazla büyümüş olur? Topun daha büyük boyutuna uyması için yuvarlandığı yüzeyleri ayarlamayı deneyin.
 - Üç Scale Change değeri için farklı sayılar kullanın ve topunuzun yuvarlanmak yerine yuvarlanan dikdörtgen bir küremsiye dönüşmesini izleyin.
 - Büyümesini sağlayabileceğiniz başka GameObject'ler var mı?
-- 
+
+
 **Aşama 5: Daha fazla transformasyon deneyin**
 
 İşte ölçeği değiştirdiğimiz gibi GameObjects'in dönüşünü ve konumunu değiştirmek için kullanabileceğiniz bazı kod satırları. Engel parkurunuzu daha ilginç hale getirmek için bunları GameObjects üzerinde kendi projenizde deneyin.
