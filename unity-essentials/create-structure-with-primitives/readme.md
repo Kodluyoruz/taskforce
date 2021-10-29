@@ -23,13 +23,13 @@ Bu yapıyı oluşturduğunuzda, GameObjectlerin hizalı olduğundan emin olmak i
 **Aşama 2: Boş bir GameObject oluştur**
 Boş bir GameObject, Hiyerarşide (Hierarchy) oluşturulabilen yer tutucu nesnedir. Sahnede görünen bir tasviri yoktur ve diğer GameObjectler için konteyner gibi davranabilir (daha sonra diğer şeylerle birlikte açıklanacak).
 
-1.  Hiyerarşide (Hierarchy) sağ tıklayın ve **Create Empty** seçin.
+1. Hiyerarşide (Hierarchy) sağ tıklayın ve **Create Empty** seçin.
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-structure-with-primitives/figures/B.2.2-2.png)
 
 Create Empty seçili Hiyerarşi (Hierarchy) içerik menüsü.
 
-2.  Inspector’da adını Monument olarak yeniden adlandır. 
+2. Inspector’da adını Monument olarak yeniden adlandır. 
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-essentials/create-structure-with-primitives/figures/B.2.2-3.png)
 
