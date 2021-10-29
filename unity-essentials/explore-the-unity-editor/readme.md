@@ -53,13 +53,9 @@ Araç Çubuğu her zaman Unity Editor arayüzünün en üstündedir. GameObjects
 Editör'deki pencerelerin yerlerini değiştirmek için Araç Çubuğu’ndaki **Düzen** menüsünü kullanabilirsiniz. Hazırda bulunan birkaç düzen bulunmakla birlikte kendi düzenlerinizi de oluşturup kaydedebilirsiniz.
 
 Editör’ün en iyi düzeninin ne olduğu, sizin yaptığınız çalışmaya ve kendi kişisel tercihlerinize bağlıdır. Örneğin:
-
 - Bileşenleri yapılandırmak için çok zaman harcıyorsanız, Denetçi penceresini Hiyerarşi’nin yanına yerleştirmek isteyebilirsiniz.
-
 - Çok fazla çevre tasarımı yapıyorsanız, sahne görünümünü mümkün olduğunca büyük yapmak isteyebilirsiniz.
-
 - Kullanıcı arayüzünü düzenliyorsanız, Oyun görünümünün görünür olduğundan emin olmak isteyebilirsiniz.
-
 Unity'yi öğrenirken varsayılan düzeni kullanmanızı öneririz.
 
 **Adım 4: Projenizde sahneleri kullanma**
