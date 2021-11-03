@@ -1,3 +1,3 @@
 # Regular Expressions: Pratik Uygulamalar
 
-freeCodeCamp Link: https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/regular-expressions-practical-applications
+Link: https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/regular-expressions-practical-applications
