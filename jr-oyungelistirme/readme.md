@@ -92,7 +92,7 @@
 - [Varsayılan Komut Düzenleyicisi İle IDE'yi Ayarla](set-your-default-script-editor-ide)
 - [Benim İçin Doğru Olan Unity Planı](unity-plans-what-right-for-me)
 
-#### C # Giriş ####
+#### C# Giriş ####
 - [Programlama Dillerinin Tarihçesi](1-programlama-dillerinin-tarihcesi/)
 - [C# Tanıtımı](2-csharp-tanitim/)
 
