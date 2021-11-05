@@ -1,3 +1,3 @@
 # Web Servisleri: XML
 
-Link: https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/web-services-xml
+Link: https://youtu.be/_pZ0srbg7So

@@ -1,6 +1,6 @@
 # Sütun Oluşturma ve Veri Okuma
 
-Video Link: https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-course/pandas-creating-columns
+Video Link: https://youtu.be/_sSo2XZoB3E
 
 Notebook Link: https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-pandas/blob/master/3%20-%20Pandas%20-%20DataFrames.ipynb
 
