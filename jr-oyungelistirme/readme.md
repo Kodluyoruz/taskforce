@@ -125,7 +125,7 @@
 - [While Foreach](2-while-foreach-donguleri/)
 
 #### Diziler ####
-- [Tanımlama, Erişim ve Döngülerle Dizi Kullanımı](1-dizi-tanımlama-erişim-ve-döngülerle-kullanım/)
+- [Tanımlama, Erişim ve Döngülerle Dizi Kullanımı](1-dizi-tanımlama-erisim-ve-döngülerle-kullanım/)
 - [Array Sınıfı Methodları](2-array-sinifi-ve-methodlari/)
 
 #### Metotlar ####
