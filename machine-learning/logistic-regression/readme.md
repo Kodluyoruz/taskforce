@@ -9,9 +9,8 @@ Lojistik Regresyon (Logit Regresyon olarak da bilinir), bir örneğin belirli bi
 Lojistik Regresyon, olasılıkları tahmin etmek için **sigmoid** fonksiyonunu kullanır. Sigmoid fonksiyonu 0 ile 1 arasında çıktı veren, grafikte gösterildiğinde "S" şeklinde çıkan bir fonksiyondur. Bu fonksiyon, tüm sayıları 0 ile 1 arasına sıkıştırarak bir olasılık çıktısı verebilir. <br>
 
 Sigmoid fonksiyonu:
-$$ 
-\sigma(t) =  \frac{\mathrm{1} }{\mathrm{1} + e^{(-t)}}  
-$$ 
+
+<img src="https://render.githubusercontent.com/render/math?math=\sigma(t) = \frac{\mathrm{1} }{\mathrm{1} %2B e^{(-t)}}" width="150"/>
 
 Sigmoid fonksiyonunun grafiği: <br>
 (Figür 4-21)
