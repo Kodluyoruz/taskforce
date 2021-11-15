@@ -1,6 +1,6 @@
 # Proje 3 - Anonymous Chat
 
-GraphQL ile anonim chat uygulaması geliştirmeniz gerekiyor.
+GraphQL ile gerçek zamanlı çalışan anonim chat uygulaması geliştirmeniz gerekiyor.
 Bu proje için hem backend hem de client geliştirmeniz gerekiyor.
 
 ![preview](./figures/preview.png)
