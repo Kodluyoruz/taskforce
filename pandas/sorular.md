@@ -192,3 +192,95 @@ certificates_earned['Certificates per month'] = round(
     certificates_earned['Time (in months)'], 2
 )
 ```
+
+# Veri Temizleme: Giriş ve NaN (Sayı Olmayan) Değerler
+
+Aşağıdaki kodun çıktısı nedir?
+
+```python
+import pandas as pd
+import numpy as np
+
+s = pd.Series(['a', 3, np.nan, 1, np.nan])
+
+print(s.notnull().sum())
+```
+
+1. 3 (doğru)
+
+2. 
+<pre>
+0     True
+1     True
+2    False
+3     True
+4    False
+dtype: bool
+</pre>
+
+3. 
+<pre>
+0    False
+1    False
+2     True
+3    False
+4     True
+dtype: bool
+</pre>
+
+# Veri Temizleme: DataFrameler ve Boş Değerleri Doldurma
+
+Aşağıdaki kodun çıktısı nedir?
+
+```python
+import pandas as pd
+import numpy as np
+
+s = pd.Series([np.nan, 1, 2, np.nan, 3])
+s = s.fillna(method='ffill')
+
+print(s)
+```
+
+1. 
+<pre>
+0    1.0
+1    1.0
+2    2.0
+3    3.0
+4    3.0
+dtype: float64
+</pre>
+
+2. (doğru)
+<pre>
+0    NaN
+1    1.0
+2    2.0
+3    2.0
+4    3.0
+dtype: float64
+</pre>
+
+3. 
+<pre>
+0    NaN
+1    1.0
+2    2.0
+3    NaN
+4    3.0
+dtype: float64
+</pre>
+
+# Veri Temizleme: Tekrarlanan Değerler ve Metin İşleme
+
+".duplicated()" Python metodu, DataFrame'de kullanıldığında boolean (True/False) bir Pandas Series verir. Bu metod hangi satırlar için True verir:
+
+1. 
+Yinelenen değerin ilk kez görüldüğü satırda.
+
+2. (doğru)
+Yinelenen değerin en az 2. kez görüldüğü satırda.
+
+3. 
+Yinelenen değerin ilk ya da 2. kez görüldüğü satırlarda.
