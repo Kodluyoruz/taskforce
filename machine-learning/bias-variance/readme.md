@@ -6,7 +6,7 @@ Link: https://youtu.be/EuBBz3bI-aA
 
 Yabancı bir ülkede bulunduğunu ve taksi sürücülerinin seni dolandırdığını düşün. **Tüm** taksi sürücülerinin hırsız olduğunu söyleyecek kadar sinirlenebilirsin. Bu durumda küçük bir taksi sürücüsü grubunun özelliklerini tüm taksi sürücülerine genellemiş ve **aşırı genelleme** yapmış olursun. Büyük ihtimalle, bu düşüncen yanlış olacaktır. Ya da bir sınava çalışırken önceki sınavlarda çıkmış olan soruları ve cevaplarını ezberlediğini düşün. Soruları sadece ezberlediğin için ve soruları çözme mantığını anlamadığın için daha önce görmediğin soruları çözmekte zorlanırsın. Yani gördüğün verilerdeki mantığı ve yapıyı anlayamadığından önceden görmediğin verilerde iyi performans sergileyemezsin. Makine Öğrenmesinde bu duruma **aşırı öğrenme** denir: yani Makine Öğrenmesi modelinin eğitim setinde iyi performans göstermesi ancak iyi bir genelleme yapamaması anlamına gelir. <br>
 
-Figür 1-22, yüksek-dereceden bir polinom fonksiyonu kullanan bir modelin eğitim verisini aşırı öğrenmesini göstermekte. Eğitim verisinde, basit bir modelden çok daha iyi performans gösterse de bu modelin tahminlerine güvenebillir misin? <br>
+Şekil 1-22, yüksek-dereceden bir polinom fonksiyonu kullanan bir modelin eğitim verisini aşırı öğrenmesini göstermekte. Eğitim verisinde, basit bir modelden çok daha iyi performans gösterse de bu modelin tahminlerine güvenebillir misin? <br>
 
 Aşırı öğrenme, modelin eğitim verisinin miktarı ve gürültü miktarına göre çok karmaşık olduğu durumlarda ortaya çıkar. Olası çözümler şunlardır: <br>
 - Daha basit bir model seçmek (örneğin, yüksek-dereceden polinom bir model yerine basit bir lineer model seçmek)

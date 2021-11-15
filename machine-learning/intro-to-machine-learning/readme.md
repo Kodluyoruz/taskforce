@@ -22,7 +22,7 @@ Ve daha mühendislik odaklı olan tanımlama:
 
 ## Neden Makine Öğrenmesi?
 
-Geleneksel programlama teknikleri ile bir e-posta spam filtresi yazmak istediğimizi düüşünelim (figür 1-1): <br>
+Geleneksel programlama teknikleri ile bir e-posta spam filtresi yazmak istediğimizi düüşünelim (Şekil 1-1): <br>
 
 1. İlk önce spam e-postalar genelde nasıl gözükür ona bakarız. Bazı kelime veya kelimelerin ("kredi kartı", "ücretsiz" ve "inanılmaz" gibi) spam e-postalarda daha çok görüldüğünu fark edebiliriz. Belki e-posta'yı gönderenin adında vb. kısımlarda da bazı şeyleri yakalayabiliriz.
 2. Bu özellikleri yakalayacak bir algoritma yazmamız gerekir ki programımız bu özellikleri yakalayarak bir e-posta spam mı değil mi anlayabilsin.
@@ -31,7 +31,7 @@ Geleneksel programlama teknikleri ile bir e-posta spam filtresi yazmak istediği
 
 Problem basit olmadığı için programımız büyük ihtimalle karmaşık kurallardan oluşan uzun bir liste olacak ve sürdürmesi bayağı zor olacak. <br>
 
-Tam tersine, Makine Öğrenmesi tekniklerine dayalı bir spam filtresi hangi kelimelerin spam ve spam olmayan e-postaları ayırmada daha kullanılabileceğini otomatik bir şekilde öğrenebilir (figür 1-2). Program çok daha kısa, daha kolay sürdürülebilir ve büyük ihtimalle daha isabetli olacaktır.
+Tam tersine, Makine Öğrenmesi tekniklerine dayalı bir spam filtresi hangi kelimelerin spam ve spam olmayan e-postaları ayırmada daha kullanılabileceğini otomatik bir şekilde öğrenebilir (Şekil 1-2). Program çok daha kısa, daha kolay sürdürülebilir ve büyük ihtimalle daha isabetli olacaktır.
 
 Özetle, Makine Öğrenmesi şunlar için harikadır:
 - Çözümleri el ile yapılması gereken birçok ayarlama ya da uzun bir kurallar listesi içeren problemler: bir Makine Öğrenmesi algoritması genellikle kodu sadeleştirir ve daha iyi performans gösterir.

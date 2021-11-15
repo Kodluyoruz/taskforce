@@ -13,6 +13,6 @@ Sigmoid fonksiyonu:
 <img src="https://render.githubusercontent.com/render/math?math=\sigma(t) = \frac{\mathrm{1} }{\mathrm{1} %2B e^{(-t)}}" width="150"/>
 
 Sigmoid fonksiyonunun grafiği: <br>
-(Figür 4-21)
+(Şekil 4-21)
 
 Sigmoid fonksiyonunun çıktısı 1 ise o örnek %100 "1" sınıfına ait ve %0 "0" sınıfına ait olarak tahmin edilir. Fonksiyonun çıktısı 0.3 ise o örnek %30 "1" sınıfına ait ve %70 "0" sınıfına ait olarak tahmin edilir.
