@@ -58,3 +58,4 @@
 
 ### Projeler ###
 - [Countries GraphQL API](project-01/)
+- [Rick and Morty Characters](project-02/)
