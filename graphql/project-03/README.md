@@ -3,7 +3,7 @@
 GraphQL ile anonim chat uygulaması geliştirmeniz gerekiyor.
 Bu proje için hem backend hem de client geliştirmeniz gerekiyor.
 
-
+![preview](./figures/preview.png)
 
 ## Gereksinimler
 - [ ] Mesajların listeleneceği bir alana ve mesaj göndermek için kullanılacak bir input'a ihtiyacınız var.
