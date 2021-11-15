@@ -2,9 +2,17 @@
 
 Link: https://youtu.be/_L39rN6gz7Y
 
-## Karar Ağaçları
+## Karar Ağacı Nedir?
 
-Karar Ağaçları, hem sınıflandırma hem de regresyon görevlerini ve hatta çok çıktılı görevleri gerçekleştirebilen çok yönlü Makine Öğrenimi algoritmalarıdır. Ayrıca, karmaşık veri kümelerini sığdırabilen çok güçlü algoritmalardır. <br>
+Otomobil ve motosiklet araçlarını sınıflandırdığmızı düşünelim. İkisini kolaylıkla birbirinden ayırabiliriz değil mi? Aracın tekerlek sayısına bakarız ve 4 tekerlekli ise otomobil, 2 tekerlekli ise motosiklet diye sınıflandırırız. Hadi problemi biraz daha zorlaştıralım. Otomobil, motosiklet ve bisiklet araçlarını sınıflandırmaya çalışalım. Tek seferde sınıflandıramayız sanırım. Peki nasıl bir yol izleyelim? Şöyle yapalım: Bazı soruları art arda soralım ve aldığımız cevaplara göre sınıfı bilinmeyen aracı sınıflandıralım. İlk önce aracın tekerlek sayısına bakalım, 4 tekerlekli ise direkt olarak otomobil diyebiliriz. Ancak 2 tekerlekli ise ya motosiklet ya da bisiklet diyebiliriz. Araç 2 tekerlekli ise başka bir ayırıcı soru sorarak bisiklet ve motosiklet mi olduğunu bulabiliriz. Örneğin, pedalları var mı? Pedalları varsa bisiklet, yoksa motosiklet diye sınıflandırırız. İşte, bir **Karar Ağacı** oluşturmuş olduk! Karar Ağacı da böyle sınıfları birbirinden ayırıcı sorular sorarak yeni verinin hangi sınıfa ait olduğunu tahmin eder. Karar Ağacının ne olduğunu anladık, şimdi de özelliklerine göz atalım!<br>
+
+## Karar Ağacının Özellikleri
+
+Karar Ağaçları, hem sınıflandırma hem de regresyon görevlerini ve hatta çok çıktılı görevleri gerçekleştirebilen çok yönlü Makine Öğrenimi algoritmalarıdır. Ayrıca, karmaşık veri kümelerini öğrenebilen çok güçlü algoritmalardır. <br>
+
+Karar Ağaçları, öğrenme kapasiteleri çok olduğu için, eğer ağacı basitleştirmezsek, genelde veriyi aşırı öğrenir. Yani eğitim verisinde çok iyi performans sergilerken yeni veriler için doğru tahminde bulunmakta zorlanır. Bu yüzden, Karar Ağaçlarının derinliği az tutulmaya çalışılır ve aşırı öğrenmeye sebep olan dalları kesilir. Sonuç olarak, Karar Ağaçları çok güçlü algoritmalardır ve aşırı öğrenmemeleri için derinlik gibi parametrelerin dikkatlice seçilmesi gerekir. <br>
+
+## Karar Ağacı Nasıl Çalışır?
 
 Şimdi Şekil 6-1'de gösterilen ağacın nasıl tahminler yaptığını görelim. Diyelim ki bir iris çiçeği buldunuz ve onu sınıflandırmak istiyorsunuz. Kök düğümden başlarsınız (derinlik 0, üstte): bu düğüm, çiçeğin taç yaprağı uzunluğunun 2,45 cm'den küçük olup olmadığını sorar. Eğer öyleyse, kökün sol alt düğümüne inersiniz (derinlik 1, sol). Bu durumda, bu bir yaprak düğümdür (yani, herhangi bir alt düğümü yoktur), bu nedenle herhangi bir soru sormaz: sadece o düğüm için tahmin edilen sınıfa bakabilirsiniz ve Karar Ağacı, çiçeğinizin İris-Setosa sınıfına ait olduğunu tahmin eder. <br>
 
