@@ -1,4 +1,4 @@
-# C#-1.Hafta
+# .Net,C Sharp-1.Hafta
 
 #### C# ####
 - [Yazılım Nedir?](yazilim-nedir)
