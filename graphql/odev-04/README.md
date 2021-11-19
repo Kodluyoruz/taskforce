@@ -9,3 +9,4 @@ Diğer ödevlerde hazırlamış olduğunuz backend'i kullanarak [Apollo Client](
 - [ ] [Apollo Client](https://www.apollographql.com/docs/react/) kurulumunu gerçekleştiriniz.
 - [ ] Veri setinde bulunan Etkinlikleri anasayfada listeleyiniz.
 - [ ] Burada etkinlik adı, açıklaması ve zamanı listeleyiniz.
+- [ ] Etkinlik detayına gidildiğinde etkinlik sahibi, konum ve katılımcılar da görüntülenmelidir.

@@ -51,6 +51,7 @@
 - [Post Sayısını Gerçek Zamanlı Göstermek (useSubscription)](post-sayisini-gercek-zamanli-gostermek-use-subscription/)
 - [Yorumların Gerçek Zamanlı Gösterilmesi](yorumlarin-gercek-zamanli-gosterilmesi/)
 - [Fragments](fragments/)
+- [Ödev](odev-05/)
 
 #### Mutations (Apollo Client) ####
 - [New Post Formunun Tasarlanması](new-post-formunun-tasarlanmasi/)
