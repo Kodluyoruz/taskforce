@@ -20,6 +20,7 @@
 - [Update Mutations](update-mutations/)
 - [Delete Mutations](delete-mutations/)
 - [Delete All Mutations](delete-all-mutations/)
+- [Ödev](odev-02/)
 
 #### Subscriptions (Server) ####
 - [Subscription Server Kurulumu](subscription-server-kurulumu/)
