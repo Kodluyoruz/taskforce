@@ -11,6 +11,7 @@
 - [İlişkisel Veriler ile Çalışmak](iliskisel-veriler-ile-calismak/)
 - [İlişkisel İfadelerde Argümanlar](iliskisel-ifadelerde-argumanlar/)
 - [Comment Challenge](comment-challenge/)
+- [Ödev](odev-01/)
 
 #### Mutations (Server) ####
 
