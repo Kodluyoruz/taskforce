@@ -1,15 +1,19 @@
 # C Sharp, .Net Core 1.Hafta
 
-#### C# ####
+#### Herkes İçin Temel Dersler ####
 - [Yazılım Nedir?](yazilim-nedir)
 - [Google'lamak](google/)
 - [Developer'lar İçin Platformların Önemi](platformların-önemi/)
+
+#### Veri Yapıları ve Algoritmalar ####
 - [Algoritma Nedir?](algoritma-nedir/)
 - [Bilgilerin Bilgisayarda İfadesi](bilgi-ifade/)
 - [Sayı Sistemleri](sayi-sistem/)
 - [Sayısal Olmayan Verilerin Tutulması](sayisal-olmayan/)
 - [Verilerin Tutulması](veri-tutulma/)
 - [Recursion](recursion/)
+
+#### Git ####
 - [GIT Kurulumu](git-kurulumu/)
 - [GIT Versiyon Kontrol Sistemi Nedir?](git-versiyon-kontrol-sistemi-nedir/)
 - [GIT Bash ile GIT Temel Komutları](git-bash-ile-git-temel-komutlari/)
