@@ -60,6 +60,7 @@
 - [Yorum Formunun Hazırlanması](yorum-formunun-hazirlanmasi/)
 - [Yeni Yorum Mutation'unun Hazırlanması](yeni-yorum-mutation-hazirlanmasi/)
 - [Spinner Delay](spinner-delay/)
+- [Ödev](odev-06/)
 
 ### Projeler ###
 - [Countries GraphQL API](project-01/)
