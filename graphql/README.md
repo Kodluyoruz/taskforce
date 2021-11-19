@@ -44,6 +44,7 @@
 - [Post Detaylarının Gösterilmesi](post-detaylarinin-gosterilmesi/)
 - [Short Description Field'ının Tanımlanması](short-description-field-tanimlanmasi/)
 - [Post Yorumlarının Listelenmesi (useLazyQuery)](post-yorumlarinin-listelenmesi-use-lazy-query/)
+- [Ödev 4](odev-04/)
 
 #### Subscriptions (Apollo Client) ####
 - [Postların Gerçek Zamanlı Listelenmesi (subscribeToMore)](postlarin-gercek-zamanli-listelenmesi-subscribe-to-more/)
