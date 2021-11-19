@@ -14,7 +14,6 @@
 - [Recursion](recursion/)
 
 #### Git ####
-- [GIT Kurulumu](git-kurulumu/)
 - [GIT Versiyon Kontrol Sistemi Nedir?](git-versiyon-kontrol-sistemi-nedir/)
 - [GIT Bash ile GIT Temel Komutları](git-bash-ile-git-temel-komutlari/)
 - [VS Code içinde Terminal Kullanarak GIT Temel Komutları](vs-code-icinde-terminal-kullanarak-git-temel-komutlari/)
