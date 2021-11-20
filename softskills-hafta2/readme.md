@@ -12,6 +12,7 @@
 #### İş Teklifi Alırsanız Ne Yapmalısınız? ####
   - [İş Teklifi Alırsanız Ne Yapmalısınız?](13-Is-teklifi-alirsaniz-ne yapmalisiniz)
 
+
 #### İşe Giriş ve Oryantasyon ####
   - [İşe Giriş ve Oryantasyon](14-Ise-giris-oryantasyon)
 
