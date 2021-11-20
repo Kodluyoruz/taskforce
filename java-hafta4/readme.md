@@ -7,12 +7,12 @@
   - [Quick Sort](quick-sort/)
 
 #### Searching (Arama) Algoritmaları ####
-- [Searching Nedir?](searching/)
-- [Linear Search](linear-search/)
-- [Binary Search](binary-search/)
-- [Binary Search Tree](binary-search-tree/)
+  - [Searching Nedir?](searching/)
+  - [Linear Search](linear-search/)
+  - [Binary Search](binary-search/)
+  - [Binary Search Tree](binary-search-tree/)
 
 #### Temel Kavramlar ve Değişkenler  ####
-- [String Veri Tipi](string/)
-- [Temel Operatörler](temel-operatorler/)
-- [Kullanıcıdan Veri Alma](scanner/)
+  - [String Veri Tipi](string/)
+  - [Temel Operatörler](temel-operatorler/)
+  - [Kullanıcıdan Veri Alma](scanner/)
