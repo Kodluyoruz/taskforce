@@ -4,7 +4,7 @@
 
 GraphQL, REST'in üzerine inşa edilmiş ve onun eksikliklerini kapatan yeni bir anlayış, yeni bir mimaridir. Facebook tarafından geliştirilmiştir ve Facebook, Instagram, PayPal ve Netflix gibi büyük ölçekli şirketler tarafından yoğun olarak kullanılmaktadır.
 
-İsminde Graph kelimesi geçtiğinden, genelde bir veritabanı yönetim sistemi olarak düşünülebiliyor. GraphQL, Yeni bir programlama dili veya veritabanı yönetim sistemi değildir. 
+İsminde Graph kelimesi geçtiğinden, genelde bir veritabanı yönetim sistemi olarak düşünülebiliyor. GraphQL, yeni bir programlama dili veya veritabanı yönetim sistemi değildir. 
 
 
 ## GraphQL Avatanjları
