@@ -14,7 +14,7 @@ Bu başlık altında GraphQL'i, Rest ile karşılaştırarak avantajlarını gö
 
 
 ## 1. Sadece Gerekli Kolonları Sorgulayabilmek
-Bir backend geliştirdiğimizi düşünelim. Bu backend'i kullanacak olan bir mobil uygulama ve bir de web uygulaması geliştirdiğimizi ve Anasayfada kullanıcı postlarını listelememiz gerektiğini varsayalım. Ancak bu postları listelerken web uygulamasında id, username, description, created date, comments gibi alanları göstermemiz gerekirken mobil uygulama tarafında sadece id, username ve description kolonlarına ihtiyacımız olduğunu varsayalım.
+Bir backend geliştirdiğimizi düşünelim. Bu backend'i kullanacak olan bir mobil uygulama ve bir de web uygulaması geliştirdiğimizi ve anasayfada kullanıcı postlarını listelememiz gerektiğini varsayalım. Ancak bu postları listelerken web uygulamasında id, username, description, created date, comments gibi alanları göstermemiz gerekirken mobil uygulama tarafında sadece id, username ve description kolonlarına ihtiyacımız olduğunu varsayalım.
 
 Eğer bu backend'i Rest API olarak geliştirseydik anasayfadaki postların sahip olduğu tüm kolonlar db üzerinde select edilecekti. Ancak biz mobil uygulama tarafında sadece iki kolona ihtiyaç duyuyoruz. Böyle olmasına rağmen yine de o ihtiyacımız olmayan veriler API'dan bize gelmek durumundaydı.
 
