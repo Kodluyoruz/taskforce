@@ -234,5 +234,5 @@ Bu ve bunun gibi örnekler daha da çoğaltılabilir elbette. Örneğin, gerçek
 
 ## Ek Kaynaklar
 
-[An Introduction to GraphQL](https://graphql.org/learn/)](https://graphql.org/learn/)
+[An Introduction to GraphQL](https://graphql.org/learn/)
 [GraphQL is the better REST](https://www.howtographql.com/basics/1-graphql-is-the-better-rest/)
