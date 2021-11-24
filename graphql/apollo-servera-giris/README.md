@@ -111,7 +111,7 @@ GraphQL ilişkili veriler ile çalışırken size çok büyük kolaylıklar sağ
   }
 ```
 
-Aynı işi REST ile yapmak isterseniz backend üzerindeki üç ayrı endpoint'e istek atmanız gerekecekti. Veya bu verileri sağlayacak tek bir endpoint üzerinde birleştirmeniz ve artık oraya istek atamanız gerekecekti. Bu da backend geliştirilere ek bir yük demektir.
+Aynı işi REST ile yapmak isterseniz backend üzerindeki üç ayrı endpoint'e istek atmanız gerekecekti. Veya bu verileri sağlayacak tek bir endpoint üzerinde birleştirmeniz ve artık oraya istek atamanız gerekecekti. Bu da backend geliştiricilere ek bir yük demektir.
 
 
 ## 4. Otomatik Dokümanlama
