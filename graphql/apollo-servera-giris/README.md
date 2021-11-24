@@ -65,7 +65,7 @@ Eğer backend'i REST ile geliştiriyor olsaydık oluşturmamız gereken onlarca 
 | Bir kullanıcıya ait gönderiler  | /users/:id/posts |
 | Bir gönderiye ait yorumlar  | /posts/:id/comments |
 
-Bu liste daha da uzar gider elbette. Kullanıcı, gönderi veya yorumlar için ekleme, silme, güncelleme gibi endpoint'leri eklemedim bile. O endpointlerin de diğer HTTP(POST,UPDATE,DELETE) metodları ile yazılması gerekir.
+Bu liste daha da uzar gider elbette. Kullanıcı, gönderi veya yorumlar için ekleme, silme, güncelleme gibi endpoint'leri eklemedim bile. O endpointlerin de diğer HTTP metodları(POST,UPDATE,DELETE) ile yazılması gerekir.
 
 Ancak işin GraphQL tarafına baktığımız zaman böyle bir endpoint karmaşası ile uğraşmamız gerekmiyor. GraphQL tarafında istekleri bekleyen tek bir endpoint bizi karşılıyor. Tüm isteklerimizi buraya yapmamız gerekiyor. Ve aynı Query içerisinde birden fazla veriyi getirme imkanımız da var.
 
