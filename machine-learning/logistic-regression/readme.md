@@ -14,4 +14,6 @@ Sigmoid fonksiyonunun formülü:
 
 Sigmoid fonksiyonunun grafiği aşağıdaki gibidir: <br>
 
+![Şekil 4-21](https://raw.githubusercontent.com/yigitatesh/taskforce/main/machine-learning/logistic-regression/figures/figure_4_21.png)
+
 Sigmoid fonksiyonunun çıktısı 1 ise o örnek %100 "1" sınıfına ait ve %0 "0" sınıfına ait olarak tahmin edilir. Fonksiyonun çıktısı 0.3 ise o örnek %30 "1" sınıfına ait ve %70 "0" sınıfına ait olarak tahmin edilir.
