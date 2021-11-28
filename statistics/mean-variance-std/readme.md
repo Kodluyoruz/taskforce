@@ -16,6 +16,6 @@ Hadi öğrencilerin notlarının varyansını hesaplayalım! Ortalamayı az önc
 
 Standart sapma, varyansın kareköküdür. Peki neden? Varyansı hesaplarken farkların karesini aldık. Peki karelerini aldıktan sonra karekökünü almak kulağa hoş gelmiyor mu? Farkların karelerini aldıktan sonra karekök alınarak sayı tekrar aynı boyuta döndürülür ve bu işlem de bize yine verilerin birbirinden ne kadar uzak olduğunu gösteren standart sapmayı verir. <br> 
 
-
+![Standart Sapma ve Ortalama](https://raw.githubusercontent.com/yigitatesh/taskforce/main/statistics/mean-variance-std/figures/standart_deviation_mean.png)
 
 Yukarıdaki grafikte farklı ortalama ve standart sapmalara sahip normal dağılımlar gösterilmekte. Dağılımların ortalama değerleri (μ sembolü ile gösterilmekte) gördüğümüz gibi normal dağılımların merkezleri, yani tepe noktalarıdır. Varyanslarına (σ^2 sembolü ile gösterilmekte) bakacak olursak varyansı fazla olanların daha geniş ve yayılmış olduğunu, varyansı az olanların ise daha dar ve keskin olduğunu görürüz. 

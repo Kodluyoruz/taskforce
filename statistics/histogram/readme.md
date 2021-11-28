@@ -6,7 +6,7 @@ Link: https://youtu.be/qBigTkBLU6g
 
 Histogram, bir veri kümesinin frekans dağılımını gösteren grafiktir. Yani bir veri kümesinde belirli aralıklarda kaçar tane verinin bulunduğunu görmemizi sağlar. Aşağıda bir histogram grafiği gösterilmiştir:
 
-
+![Şekil 4-11](https://raw.githubusercontent.com/yigitatesh/taskforce/main/statistics/histogram/figures/figure_4_11.png)
 
 Bu grafikte x ekseninde öğrencilerin final sınavı notları, y ekseninde ise notları belirli aralıklarda olan öğrencilerin sayısı vardır. Örneğin, notu 70 ve 80 arasında olan 8 tane öğrenci vardır. Bu grafiğe bakarak sınıftaki not dağılımını görebiliriz. <br>
 
