@@ -14,7 +14,7 @@ Koşullu olasılık, bir koşulun gerçekleştiği bilindikten sonra başka bir 
 
 Aşağıda bir venn şeması var. Bu şemadan hareketle bazı olasılıkları hesaplayalım: <br>
 
-
+![Venn Şeması](https://raw.githubusercontent.com/yigitatesh/taskforce/main/statistics/conditional-probabilities/figures/venn_diagram.png)
 
 Şemada soldaki dairede şeker (candy) sevenler, sağdaki dairede soda sevenler gösterilmiş. Öncelikle toplam kişi sayısına bakalım: Toplamda 14 kişi var. p(soda) yani bir kişinin soda sevme olasılığı kaçtır? Soda dairesinin içinde toplamda 7 kişi var. O zaman, soda seven sayısı / toplam sayı = 7/14 yani 1/2. Bir kişinin soda sevme olasılığı %50'ymiş. Bir kişinin hem soda hem şeker sevme olasılığı kaçtır? Soda ve şeker dairesinin kesişiminde 2 kişi var. O zaman, p(soda ve şeker) = 2/14 = 1/7 eder. <br>
 
