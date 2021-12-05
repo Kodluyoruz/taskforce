@@ -84,6 +84,13 @@
 - [Remote Schemas](remote-schemas/)
 - [Event Triggers](event-triggers/)
 
+#### Comments App with Hasura ####
+- [Hasura Docker Yapılandırması](hasura-docker-yapilandirmasi/)
+- [Veritabanı Mimarisinin Oluşturulması](veritabani-mimarisinin-olusturulmasi/)
+- [Client Entegrasyonu - 1](client-entegrasyonu-1/)
+- [Client Entegrasyonu - 2](client-entegrasyonu-2/)
+- [Client Entegrasyonu - 3](client-entegrasyonu-3/)
+
 ### Projeler ###
 - [Countries GraphQL API](project-01/)
 - [Rick and Morty Characters](project-02/)
