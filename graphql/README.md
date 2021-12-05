@@ -74,6 +74,16 @@
 - [Refactoring Subscriptions](refactoring-subscriptions/)
 - [Apollo Client Güncellemeleri](apollo-client-guncellemeleri/)
 
+#### Hasura ####
+- [Hasura'ya Giriş ve Query](hasuraya-giris-ve-query/)
+- [Hasura Mutations](hasura-mutations/)
+- [Hasura Subscriptions](hasura-subscriptions/)
+- [Relationships](hasura-realtionships/)
+- [Custom Actions - 1](custom-actions-1/)
+- [Custom Actions - 2](custom-actions-2/)
+- [Remote Schemas](remote-schemas/)
+- [Event Triggers](event-triggers/)
+
 ### Projeler ###
 - [Countries GraphQL API](project-01/)
 - [Rick and Morty Characters](project-02/)
