@@ -2,9 +2,9 @@
 
 #### Giriş ####
 
-- [GraphQL Nedir? Ne Değildir?](apollo-servera-giris/)
-- [Apollo Server'a Giriş](argumanlar-ile-calismak/)
-- [Non Nullable Fields](comment-challenge/)
+- [GraphQL Nedir? Ne Değildir?](graphql-nedir-ne-degildir/)
+- [Apollo Server'a Giriş](apollo-servera-giris/)
+- [Non Nullable Fields](non-nullable-fields/)
 - [Scalar Types](scalar-types/)
 - [Custom Types](custom-types/)
 - [Argümanlar ile Çalışmak](argumanlar-ile-calismak/)
