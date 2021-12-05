@@ -91,6 +91,20 @@
 - [Client Entegrasyonu - 2](client-entegrasyonu-2/)
 - [Client Entegrasyonu - 3](client-entegrasyonu-3/)
 
+
+#### Realtime Voting App with Hasura ####
+- [Hasura Backend'in Oluşturulması](hasura-backendin-olusturulmasi/)
+- [Apollo Client ve React Router Kurulumu](apollo-client-ve-react-router-kurulumu/)
+- [Oylamaların Gerçek Zamanlı Listelenmesi](oylamalarin-gercek-zamanli-listelenmesi/)
+- [Yeni Oylama Oluşturma Ekranının Hazırlanması - 1](yeni-oylama-olusturma-ekraninin-hazirlanmasi-1/)
+- [Yeni Oylama Oluşturma Ekranının Hazırlanması - 2](yeni-oylama-olusturma-ekraninin-hazirlanmasi-2/)
+- [Oylama Detay Ekranının Hazırlanması - 1](oylama-detay-ekraninin-hazirlanmasi-1/)
+- [Oylama Detay Ekranının Hazırlanması - 2](oylama-detay-ekraninin-hazirlanmasi-2/)
+
+### Deployment ###
+- [Hasura DigitalOcean Deployment](hasura-digitalocean-deployment/)
+- [React Client Netlify Deployment](react-client-netlify-deployment/)
+
 ### Projeler ###
 - [Countries GraphQL API](project-01/)
 - [Rick and Morty Characters](project-02/)
