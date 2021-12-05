@@ -57,4 +57,4 @@ Mutation tanımı, GraphQL sunucuları üzerinde veri ekleme,silme veya güncell
 
 ```
 
-Yukarıdaki sunucu üzerinde tanımlanan Mutation, bir kitap ekler ve eklenen Book türünde veri döner.
+Yukarıdaki sunucu üzerinde tanımlanan Mutation, bir kitap ekler ve `Book` türünde veri döner.
