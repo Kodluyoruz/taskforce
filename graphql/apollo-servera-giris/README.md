@@ -4,7 +4,7 @@
 
 GraphQL, REST'in üzerine inşa edilmiş ve onun eksikliklerini kapatan yeni bir anlayış, yeni bir mimaridir. Facebook tarafından geliştirilmiştir ve Facebook, Instagram, PayPal ve Netflix gibi büyük ölçekli şirketler tarafından yoğun olarak kullanılmaktadır.
 
-İsminde Graph kelimesi geçtiğinden, genelde bir veritabanı yönetim sistemi olarak düşünülebiliyor. GraphQL, Yeni bir programlama dili veya veritabanı yönetim sistemi değildir. 
+İsminde Graph kelimesi geçtiğinden, genelde bir veritabanı yönetim sistemi olarak düşünülebiliyor. GraphQL, yeni bir programlama dili veya veritabanı yönetim sistemi değildir. 
 
 
 ## GraphQL Avatanjları
@@ -14,7 +14,7 @@ Bu başlık altında GraphQL'i, Rest ile karşılaştırarak avantajlarını gö
 
 
 ## 1. Sadece Gerekli Kolonları Sorgulayabilmek
-Bir backend geliştirdiğimizi düşünelim. Bu backend'i kullanacak olan bir mobil uygulama ve bir de web uygulaması geliştirdiğimizi ve Anasayfada kullanıcı postlarını listelememiz gerektiğini varsayalım. Ancak bu postları listelerken web uygulamasında id, username, description, created date, comments gibi alanları göstermemiz gerekirken mobil uygulama tarafında sadece id, username ve description kolonlarına ihtiyacımız olduğunu varsayalım.
+Bir backend geliştirdiğimizi düşünelim. Bu backend'i kullanacak olan bir mobil uygulama ve bir de web uygulaması geliştirdiğimizi ve anasayfada kullanıcı postlarını listelememiz gerektiğini varsayalım. Ancak bu postları listelerken web uygulamasında id, username, description, created date, comments gibi alanları göstermemiz gerekirken mobil uygulama tarafında sadece id, username ve description kolonlarına ihtiyacımız olduğunu varsayalım.
 
 Eğer bu backend'i Rest API olarak geliştirseydik anasayfadaki postların sahip olduğu tüm kolonlar db üzerinde select edilecekti. Ancak biz mobil uygulama tarafında sadece iki kolona ihtiyaç duyuyoruz. Böyle olmasına rağmen yine de o ihtiyacımız olmayan veriler API'dan bize gelmek durumundaydı.
 
@@ -65,7 +65,7 @@ Eğer backend'i REST ile geliştiriyor olsaydık oluşturmamız gereken onlarca 
 | Bir kullanıcıya ait gönderiler  | /users/:id/posts |
 | Bir gönderiye ait yorumlar  | /posts/:id/comments |
 
-Bu liste daha da uzar gider elbette. Kullanıcı, gönderi veya yorumlar için ekleme, silme, güncelleme gibi endpoint'leri eklemedim bile. O endpointlerin de diğer HTTP(POST,UPDATE,DELETE) metodları ile yazılması gerekir.
+Bu liste daha da uzar gider elbette. Kullanıcı, gönderi veya yorumlar için ekleme, silme, güncelleme gibi endpoint'leri eklemedim bile. O endpointlerin de diğer HTTP metodları(POST,UPDATE,DELETE) ile yazılması gerekir.
 
 Ancak işin GraphQL tarafına baktığımız zaman böyle bir endpoint karmaşası ile uğraşmamız gerekmiyor. GraphQL tarafında istekleri bekleyen tek bir endpoint bizi karşılıyor. Tüm isteklerimizi buraya yapmamız gerekiyor. Ve aynı Query içerisinde birden fazla veriyi getirme imkanımız da var.
 
@@ -111,7 +111,7 @@ GraphQL ilişkili veriler ile çalışırken size çok büyük kolaylıklar sağ
   }
 ```
 
-Aynı işi REST ile yapmak isterseniz backend üzerindeki üç ayrı endpoint'e istek atmanız gerekecekti. Veya bu verileri sağlayacak tek bir endpoint üzerinde birleştirmeniz ve artık oraya istek atamanız gerekecekti. Bu da backend geliştirilere ek bir yük demektir.
+Aynı işi REST ile yapmak isterseniz backend üzerindeki üç ayrı endpoint'e istek atmanız gerekecekti. Veya bu verileri sağlayacak tek bir endpoint üzerinde birleştirmeniz ve artık oraya istek atamanız gerekecekti. Bu da backend geliştiricilere ek bir yük demektir.
 
 
 ## 4. Otomatik Dokümanlama
