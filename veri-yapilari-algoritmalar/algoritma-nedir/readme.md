@@ -12,7 +12,7 @@ Gördüğünüz üzere ana problemimiz bilgisayarın çalışmaması. İlk adım
   
 # Kaynaklar
 
-[WİKİ - Algoritma](https://tr.wikipedia.org/wiki/Algoritma)
+[Wiki- Algoritma](https://tr.wikipedia.org/wiki/Algoritma)
 
 [Khan Academy](https://tr.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms)
 
