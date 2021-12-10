@@ -1,1 +1,1 @@
-# Step 1: Welcome
+Hoş geldin, izle ve sonra yap
