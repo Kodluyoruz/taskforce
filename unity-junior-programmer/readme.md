@@ -358,7 +358,7 @@
 - [Encapsulation in object-oriented programming](encapsulation-object-oriented-programming)
 
 #### Profile code to identify issues ####
--[Profile code to identify issues](profile-code-identify-issues)
+- [Profile code to identify issues](profile-code-identify-issues)
 
 #### Job preparation: Junior Programmer ####
 - [Job preparation: Junior Programmer](job-preparation-junior-programmer)
