@@ -1,7 +1,6 @@
 # Junior Programmer
 
 #### Unity'ye Başlarken ####
-- [Unity'ye Başlarken](junior-programmer-getting-started)
 - [Unity'ye Giriş](course-intro)
 - [Unity'yi İndir](install-unity-software)
 
