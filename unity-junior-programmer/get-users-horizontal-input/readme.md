@@ -6,3 +6,5 @@ Player'ı soldan sağa hareket ettirmek istiyorsak, kullanıcının girdisini iz
 - Eklemek komut dosyasını Player'a yazın ve açın
 - PlayerController.cs dosyasının en üstünde, yeni bir genel kayan noktalı yatayGiriş bildir
 - Update() içinde, yatayInput = Input.GetAxis(“Horizontal”) olarak ayarlayın, ardından denetçide çalıştığından emin olmak için test edin
+
+![figures]()
