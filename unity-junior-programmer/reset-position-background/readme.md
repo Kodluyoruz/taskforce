@@ -1,1 +1,9 @@
-#
+## Adım 2: Arka planın konumunu sıfırlayın
+
+Arka planı tekrarlamak ve hızla geçen bir dünya yanılsamasını sağlamak için, arka plan nesnesinin konumunu mükemmel bir şekilde bir araya gelecek şekilde sıfırlamamız gerekir.
+
+- Yeni bir değişken özel Vector3 startPos bildirin;
+- Start()'ta, = transform.position; atayarak startPos değişkenini gerçek başlangıç ​​konumuna ayarlayın.
+- Update() içinde, belirli bir mesafe hareket ederse konumu sıfırlamak için bir if ifadesi yazın.
+
+![figures]()
