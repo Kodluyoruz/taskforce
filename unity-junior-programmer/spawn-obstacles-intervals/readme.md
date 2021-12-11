@@ -7,4 +7,4 @@ SpawnManager başlangıçta hazır yapıları başlatır, ancak yeni bir metod y
 - **InvokeRepeating()** yöntemini kullanarak engellerinizin aralıklarla ortaya çıkmasını sağlayın.
 - Player Rigid Body bileşeninde, **Constraints** genişletin, ardından Y konumu hariç hepsini dondurun.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/spawn-obstacles-intervals/figures/CWC_B.1.2_image7.png)
