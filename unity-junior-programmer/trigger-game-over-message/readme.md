@@ -8,7 +8,7 @@ Debug.Log(“Oyun Bitti!”)
 - Visual Studio kullanıyorsanız, girinti sorunlarını gidermek için Düzenle > Gelişmiş > Belgeyi biçimlendir'e tıklayın.
 (Mac'te Düzenle > Biçim > Belgeyi Biçimlendir'i tıklayın)
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/trigger-game-over-message/figures/CWC_A.4.5_image4.png)
 
 
 
