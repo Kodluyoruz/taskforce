@@ -85,6 +85,7 @@
 - [Lesson Recap](lesson-2-1-recap)
 
 #### Food Flight ####
+- [Food Flight](food-flight)
 - [Make the projectile fly forwards](make-projectile-fly-forwards)
 - [Make the projectile into a prefab](make-projectile-into-prefab)
 - [Test for spacebar press](test-spacebar-press)
