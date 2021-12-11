@@ -14,7 +14,8 @@ Bu eğitim, farklı zorluk seviyelerinde Hayvanları Besle Prototipi için dört
 - Orta: Agresif hayvanlar
 - Zor: Oyun kullanıcı arayüzü
 - Uzman: Hayvan açlığı barı
-- 
+
+
 Dört özelliği de tamamlarsanız prototip şöyle görünebilir:
  
 Kolay ve Orta özellikler muhtemelen tamamen bu kurstaki becerilerle tamamlanabilir, ancak Zor ve Uzman özellikleri biraz ek araştırma gerektirecektir.
