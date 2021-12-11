@@ -15,6 +15,7 @@ Unity Hub
 - Visual Studio (code editor) >Visual Studio (kod editörü)
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/install-unity-software/figures/CWC_A.1.2_image1.png)
+
 **Alt text:** Kamera gövdesi kamera seçildiği zaman görünür
 
 Eğer hali hazırda Visual Studio ile birlikte kurulmuş bir Unity versiyonlarından birine sahipseniz, bu eğitimi atlayabilirsiniz.
@@ -61,7 +62,7 @@ Unity Asset Store da dahil olmak üzere birçok önemli Unity hizmetine erişmek
 - Unity Hub içerisinde Account (hesap) menüsünde Sign in (giriş yap) tıklayın.
 - Eğer hesabınız varsa giriş yapın, aksi halde, Google veya Facebook veya Create a New Unity ID (eni bir Unity ID oluştur) ile hızlıca giriş yapabilirsiniz.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/install-unity-software/figures/CWC_A.1.2_image6.png)
 
 Kamera gövdesi kamera seçildiği zaman görünür
 
@@ -82,48 +83,6 @@ Kamera gövdesi kamera seçildiği zaman görünür
 ### Gelecek ders
 
 Fiilen yeni bir proje oluşturacağız ve başlamak için Unity Editor'ı açacağız.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
