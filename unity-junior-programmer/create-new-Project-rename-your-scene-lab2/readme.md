@@ -1,4 +1,4 @@
-## ## Adım 1: Yeni bir Proje oluşturun ve sahnenizi yeniden adlandırın
+## Adım 1: Yeni bir Proje oluşturun ve sahnenizi yeniden adlandırın
 
 Prototype ile yaptığımız gibi, yapmamız gereken ilk şey yeni bir boş proje oluşturmak.
 
