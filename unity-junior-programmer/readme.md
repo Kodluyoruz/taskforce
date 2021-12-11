@@ -105,6 +105,7 @@
 - [Lesson Recap](lesson-2-3-recap)
 
 #### Collision Decisions ####
+- [Collision Decisions](collision-decisions)
 - [Make a new method to spawn animals](make-new-method-spawn-animals)
 - [Spawn the animals at timed intervals](spawn-animals-timed-intervals)
 - [Add collider and trigger components](add-collider-trigger-components)
