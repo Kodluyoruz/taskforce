@@ -113,15 +113,6 @@
 - [Trigger a “Game Over” message](trigger-game-over-message)
 - [Lesson Recap](lesson-2-4-recap)
 
-#### New Project with Primitives ####
-- [Create a new Project and rename your scene](create-new-project-rename-your-scene)
-- [Create a background plane](create-background-plane)
-- [Create primitive Player with a new material](create-primitive-player-with-new-material)
-- [Position camera based on project type](position-camera-based-project-type)
-- [Enemies, obstacles, projectiles & materials](enemies-obstacles-projectiles-materials)
-- [Export a Unity Package backup file](export-unity-package-backup-file)
-- [Lesson Recap](lesson-lab2-recap)
-
 #### Challenge 2 - Play Fetch ####
 - [Challenge 2 - Play Fetch](challenge-2-play-fetch)
 - [Daha Fazla Challenge](more-challenge-4-6)
@@ -134,14 +125,14 @@
 - [Expert: Animal hunger bar](expert-animal-hunger-bar)
 - [Hints and solution walkthrough](hints-and-solution-walkthrough-bonus-2)
 
-#### Lab 2 - New Project with Primitives  ####
-- [Create a new Project and rename your scene](create-new-Project-rename-your-scene-lab2)
-- [Create a background plane](create-new-project-rename-your-scene)
+#### New Project with Primitives ####
+- [Create a new Project and rename your scene](create-new-project-rename-your-scene)
+- [Create a background plane](create-background-plane)
 - [Create primitive Player with a new material](create-primitive-player-with-new-material)
 - [Position camera based on project type](position-camera-based-project-type)
 - [Enemies, obstacles, projectiles & materials](enemies-obstacles-projectiles-materials)
 - [Export a Unity Package backup file](export-unity-package-backup-file)
-- [Lesson Recap](lab-2-lesson-recap)
+- [Lesson Recap](lesson-lab2-recap)
 
 #### Unit 3 - Sound and Effects ####
 - [Jump Force Introduction](unit-3-introduction)
