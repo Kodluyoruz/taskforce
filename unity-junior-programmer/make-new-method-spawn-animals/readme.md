@@ -6,4 +6,4 @@ Spawn Manager iyi görünüyor, ancak çalışması için hala S'ye basıyoruz! 
 - if-then ifadesindeki kodu kesip yeni işleve yapıştırın.
 - S basılırsa; SpawnRandomAnimal()'i çağırın.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/make-new-method-spawn-animals/figures/CWC_A.4.5_image1.png)
