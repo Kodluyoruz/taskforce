@@ -96,6 +96,7 @@
 - [Lesson Recap](lesson-2-2-recap)
 
 #### Random Animal Stampede ####
+- [Random Animal Stampede](random-animal-stampede)
 - [Create a spawn manager](create-spawn-manager)
 - [Spawn an animal if S is pressed](spawn-animal-if-s-is-pressed)
 - [Spawn random animals from array](spawn-random-animals-from-array)
