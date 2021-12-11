@@ -5,4 +5,4 @@ Oyuncunun bir if-then ifadesi ile ekranın kenarından çıkmasını engellemeli
 - Update()'de, oyuncunun sol X pozisyonu belirli bir değerden küçükse bir if-ifadesi kontrolü yazın.
 - if ifadesinde, oyuncunun konumunu mevcut konumuna ayarlayın, ancak sabit bir X konumu ile
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/keep-player-inbounds/figures/CWC_A.4.2_image3.png)
