@@ -5,4 +5,4 @@ Araba yolda giderken kameranın biraz gergin olduğunu fark etmiş olabilirsiniz
 - FollowPlayer.cs'de Update()'i LateUpdate() ile değiştirin.
 - Kameranın daha az gergin olup olmadığını görmek için kaydedin ve test edin.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/smooth-Camera-with-LateUpdate/figures/CWC_A.2.2_image5.png)
