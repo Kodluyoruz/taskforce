@@ -7,4 +7,6 @@ Ne zaman bir mermi üretsek, oyun alanını geçip sonsuzluğa doğru sürüklen
 - Üst sınırların dışındaysa yok etme kodunu yazın if (transform.position.z > topBound) { Destroy(gameObject); }
 - Denetçide Overrides açılır menüsünde, prefabrike uygulamak için Tümünü uygula'yı tıklayın.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/destroy-projectiles-offscreen/figures/CWC_A.4.3_image4.png)
+
+**Alt text:** Flavour
