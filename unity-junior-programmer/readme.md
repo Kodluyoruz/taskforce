@@ -57,6 +57,7 @@
 - [Expert: Local multiplayer](expert-local-multiplayer)
 
 #### Project Design Document ####
+- [Project Design Document](projectdesign-document)
 - [Understand what a Personal Project](understand-what-personal-project)
 - [Review Design Doc examples](review-design-doc-examples)
 - [Complete your Project Concept V1](complete-your-project-concept-v1)
