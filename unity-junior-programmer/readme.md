@@ -67,6 +67,13 @@
 
 #### Introduction to Project Management and Teamwork ####
 - [Recap the phases of production](recap-phases-production)
+- [Title](title-a-3)
+- [Design documents and project plans](design-documents-project-plans)
+- [Managing projects and tracking progress](managing-project-tracking-progress)
+- [Identify tools to support your project management and tracking](identify-tools-support-your-project-management-tracking)
+- [Preparing to publish](preparing-publish)
+- [Releasing your project](releasing-your-project)
+- [Operations activities and retrospectives](operations-activities-retrospectives)
 
 #### Unit 2 - Player Positioning ####
 - [Unit 2 - Introduction](unit-2-introduction)
