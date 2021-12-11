@@ -9,4 +9,4 @@ Havada zıplayan oyuncumuz var ama şimdi üzerinden atlayacakları bir şeye ih
 - MoveLeft.cs'de, hız değişkenine göre sola çevirmek için kodu yazın
 - MoveLeft scriptini **Background**’a uygulayın.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/make-obstacle-move-left/figures/CWC_B.1.2_image5.png)
