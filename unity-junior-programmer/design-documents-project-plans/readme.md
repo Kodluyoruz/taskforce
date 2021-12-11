@@ -1,4 +1,5 @@
-Adım 4: Tasarım dokümanları ve proje planları
+## Adım 4: Tasarım dokümanları ve proje planları
+
 Projenin başında, üretim öncesi aşamasında ne yapacağını belirlemek ve araştırmana yardımcı olmak için tasarım dokümanları oluşturulur. Bu dokümanlara şunlar örnek verilebilir:
 
 - Oyun (veya Deneyim) Tasarımı Dokümanları (GDDler)
@@ -24,7 +25,7 @@ Yüksek seviyeli tasarım dokümanında şunları belirtmelisin:
 Bir tasarım dokümanı; ürün için hedeflenen görüntüyü ve hissi anlatmak için diyagramlar, akış grafikleri, eskizler, benzer ürünlerden ilham verici resimler ve referans resimleri bulundurur.
 Eğer halihazırda bir tasarım dokümanın yoksa materyaller bölümünden tasarım dokümanı şablonunun PDF halini indirebilir ya da bir Google dokümanı kopyası oluşturabilirsin.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/design-documents-project-plans/figures/CWC_A.3_image2.png)
 
 **Alt metin**: Bir tasarım dokümanı örneği
 
@@ -42,7 +43,7 @@ Proje tüzükleri genelde şunları içerirler:
 - Projenin faydaları
 - Bütçeye genel bakış
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/design-documents-project-plans/figures/CWC_A.3_image3.png)
 
 **Alt metin**: Bir tasarım dokümanı örneği
 
