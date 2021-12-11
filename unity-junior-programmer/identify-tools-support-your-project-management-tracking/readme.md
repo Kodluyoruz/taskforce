@@ -2,7 +2,7 @@
 
 Bir projenin tüm adımlarını belirlemene ve planlamana yardımcı olacak çeşitli proje yönetim araçları mevcut. [Trello](https://trello.com/), [Favro](https://www.favro.com/), [Airtable](https://airtable.com/), [Monday.com](https://monday.com/), [Google Apps](https://workspace.google.com/), [Jira](https://www.atlassian.com/software/jira) ve [GitHub](https://github.com/) gibi ürünler bireyler ve takımlara iş akışlarını planlamaları ve takip etmelerine yardımcı olacak çeşitli özellikler sunuyor, böylece zamanında görevleri yerine getirip projeyi teslim edebiliyorlar. Bu proje yönetim araçlarının çoğu belirli proje ihtiyaçlarına göre yeniden şekillendirebileceğin şablonlar bulundurur.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/identify-tools-support-your-project-management-tracking/figures/CWC_A.3_image4.png)
 
 **Alt metin**: Bir dizi farklı proje yönetim aracının logoları
 
