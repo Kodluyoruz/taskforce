@@ -7,4 +7,4 @@ Fark etmiş olabileceğiniz gibi, oyuncu boşluk çubuğunu spam yapabilir ve ka
 - if-ifadesine bir koşul **&& isOnGround** ekleyin
 - Yeni bir void OnCollisionEnter yöntemi ekleyin, bu yöntemde isOnGround = true değerini ayarlayın, ardından **test edin.**
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/prevent-player-from-double-jumping/figures/CWC_B.1.2_image4.png)
