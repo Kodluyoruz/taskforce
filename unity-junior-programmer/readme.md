@@ -73,7 +73,6 @@
 - [Identify tools to support your project management and tracking](identify-tools-support-your-project-management-tracking)
 - [Preparing to publish](preparing-publish)
 - [Releasing your project](releasing-your-project)
-- [Operations activities and retrospectives](operations-activities-retrospectives)
 
 #### Unit 2 - Player Positioning ####
 - [Unit 2 - Introduction](unit-2-introduction)
