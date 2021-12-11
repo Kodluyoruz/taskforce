@@ -1,4 +1,4 @@
-## 2. Adım: Oyuncuyu, Hayvanları ve Yiyecekleri Ekleyin
+## Adım 2: Oyuncuyu, Hayvanları ve Yiyecekleri Ekleyin
 
 Oyuncu, hayvanlar ve yiyecekler de dahil olmak üzere tüm nesnelerimizi sahneye yerleştirelim.
  
