@@ -144,7 +144,7 @@
 - [Tweak the jump force and gravity](tweak-the-jump-force-and-gravity)
 - [Prevent player from double-jumping](prevent-player-from-double-jumping)
 - [Make an obstacle and move it left](make-obstacle-move-left)
-- [Create a spawn manager](create-spawn-manager)
+- [Create a spawn manager](create-spawn-manager-lesson-3-1)
 - [Spawn obstacles at intervals](spawn-obstacles-intervals)
 - [Lesson Recap](lesson-3-1-recap)
 
