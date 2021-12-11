@@ -135,7 +135,7 @@
 - [Hints and solution walkthrough](hints-and-solution-walkthrough-bonus-2)
 
 #### Lab 2 - New Project with Primitives  ####
-- [Create a new Project and rename your scene]()
+- [Create a new Project and rename your scene](create-new-Project-rename-your-scene-lab2)
 - [Create a background plane](create-new-project-rename-your-scene)
 - [Create primitive Player with a new material](create-primitive-player-with-new-material)
 - [Position camera based on project type](position-camera-based-project-type)
