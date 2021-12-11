@@ -149,6 +149,7 @@
 - [Lesson Recap](lesson-3-1-recap)
 
 #### Make the World Whiz By ####
+- [Make the World Whiz By](make-the-world-whiz-by)
 - [Create a script to repeat background](create-script-repeat-background)
 - [Reset position of background](reset-position-background)
 - [Fix background repeat with collider](fix-background-repeat-with-collider)
