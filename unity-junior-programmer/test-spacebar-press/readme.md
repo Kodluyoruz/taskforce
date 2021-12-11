@@ -6,7 +6,7 @@ PlayerController.cs içinde, Update() metodunda, boşluk çubuğuna basmak için
 - if (Input.GetKeyDown(KeyCode.Space)) {
 - if ifadesinin içine, yapmanız gerektiğini söyleyen bir yorum ekleyin // Oyuncudan bir mermi fırlatın
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/test-spacebar-press/figures/CWC_A.4.3_image2.png)
 
 **Alt text:** Flavour
 
