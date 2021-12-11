@@ -9,25 +9,4 @@ Artık açık bir boş projemiz olduğuna göre, Prototype 1 için assetleri iç
 - Sample Scene’i kaydetmeden silin
 - Yolun başında etrafa bakmak için Sağ-tık + sürükle’yi kullanın
 
-Adım 3: Sahneye taşıtı ekleyin
 
-- Sürüş simülatörü yaptığımız için sahneye kendi taşıtımızı eklememiz gerekiyor.
-
--Proje Window’da, Assets > Course Library > Vehicles açın ve ardından bir taşıtı Hierarchy'ye sürükleyin.
--Taşıta uçmak için Sağ-tık + WASD basılı tutun, ve etrafında dönmeye çalışın
--Taşıt seçili haldeyken ve mouseunuz Scene görüntüsündeyken, odaklanmak için F ‘ye basın
-ardından yakınlaştırmak ve uzaklaştırmak için mouse tekerleğini kullanın ve kaydırmak için mouse tekerleriğini basılı tutun
--Merkez noktasının etrafında dönmek için alt+sol-tık basılı tutun veya yakınlaştırmak ve uzaklaştırmak için alt+sağ-tık basılı tutun
-- Eğer birşeyler yanlış giderse, düzelene kadar Geri almak için Ctrl/Cmd+Z kullanın
-
-### Adım 4: Bir engel ekleyin ve yeniden konumlandırın
-
-Oyunumuzun ihtiyaç duyduğu bir sonraki şey bir engel! Birini seçip taşıtın önüne yerleştirmemiz gerekiyor.
-
--Course Library > Obstacles (engeller) kısmına gidin ve direkt olarak Scene görünümüne bir engeli sürükleyin
-- Engeliniz için Inspector’da, Transform (dönüştür) bileşeninin sağ üst köşesinde, daha fazla seçenek düğmesine tıklayın > Reset Position Not: Unity sürümünüze bağlı olarak, daha fazla seçenek düğmesi üç dikey nokta veya bir dişli simgesi olarak görünebilir
-- Inspector içerisinde, XYZ Konumunu x=0, y=0, z=25 olarak değiştirin
-- Hiyerarchy içerisinde, Sağ-tık > Rename (yeniden adlandır) iki nesnenizi “Vehicle” ve “Obstacle” olarak yeniden adlandırın
-
-#### Adım 5: Kameranızı yerleştirin ve oyunu çalıştırın
-Artık taşıtımızı ve engelimizi kurduğumuza göre oyunu çalıştırmayı ve kameradan bakmayı deneyelim.
