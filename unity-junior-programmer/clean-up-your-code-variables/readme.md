@@ -6,4 +6,4 @@ Bu işi de sağ tarafta yapmamız ve ardından kodumuzu temizlememiz gerekiyor.
 - Yeni xRange değişkeni bildirin, ardından sabit kodlanmış değerleri onlarla değiştirin
 - Kodunuza yorum ekleyin
 
-![figure]()
+![figure](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/clean-up-your-code-variables/figures/CWC_A.4.2_image4.png)
