@@ -5,4 +5,4 @@ Oyuncunun direksiyon simidini kontrol etmesine izin verdik, ancak aynı zamanda 
 - Update’e, forwardInput = Input.GetAxis("Vertical"); ataması yapın.
 - forward Translate metoduna  forwardInput değişkenini ekleyin ve test edin.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/take-control-vehicle-speed/figures/CWC_A.2.5_image3.png)
