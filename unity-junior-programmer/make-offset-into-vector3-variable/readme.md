@@ -7,4 +7,4 @@ Kameranın konumunu düzelttik, ancak daha sonra değiştirmek isteyebiliriz! Of
 - Orijinal kodu ofsfet değişkeniyle değiştirin
 - Test edin ve kaydedin
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/make-offset-into-vector3-variable/figures/CWC_A.2.2_image4.png)
