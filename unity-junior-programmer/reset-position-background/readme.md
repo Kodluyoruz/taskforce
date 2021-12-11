@@ -6,4 +6,4 @@ Arka planı tekrarlamak ve hızla geçen bir dünya yanılsamasını sağlamak i
 - Start()'ta, = transform.position; atayarak startPos değişkenini gerçek başlangıç ​​konumuna ayarlayın.
 - Update() içinde, belirli bir mesafe hareket ederse konumu sıfırlamak için bir if ifadesi yazın.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/reset-position-background/figures/CWC_B.1.3_image1.png)
