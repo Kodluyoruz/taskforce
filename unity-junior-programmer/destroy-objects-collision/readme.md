@@ -7,4 +7,4 @@ Artık hayvanlar ve merminin tetikleyicili Kutu Çarpıştırıcıları olduğun
 - OnTriggerEnter'da Destroy(gameObject); yazın, ardından test edin
 - OnTriggerEnter'da Destroy(other.gameObject) yerleştirin;
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/destroy-objects-collision/figures/CWC_A.4.5_image3.png)
