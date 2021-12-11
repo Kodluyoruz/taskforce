@@ -1,4 +1,4 @@
-## Adım 4: Zor: Kamera değiştirici
+## Adım 5: Uzman: Yerel çok oyunculu
  
-Oyuncunun kamera görünümlerini değiştirmek için klavyedeki bir tuşa basmasına izin verin.
-İdeal olarak, aynı anahtar, biri aracın üstünde ve arkasında, diğeri ise sürücü koltuğu perspektifinden olmak üzere iki görünüm arasında geçiş yapar.
+Bunu, bir oyuncunun arabasının WASD tarafından, diğerinin ise yön tuşlarıyla kontrol edildiği, iki arabalı bir "yerel çok oyunculu" bölünmüş ekran oyununa dönüştürün.
+Bu, prototipe tamamen yeni bir rekabet boyutu katacaktır.
