@@ -6,4 +6,4 @@ Bu derste birçok yeni şey ekledik. Devam etmeden ve daha profesyonel olmadan �
 - Değişkenleri PlayerController'da değerlerle başlatın, ardından tüm değişkenleri özel yapın (oynatıcı değişkenleri hariç)
 - Kodun her bölümüne yorum eklemek için // kullanın
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/clean-your-code-and-hierarchy/figures/CWC_A.2.5_image5.png)
