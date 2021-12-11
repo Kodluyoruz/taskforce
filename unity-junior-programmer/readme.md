@@ -38,6 +38,7 @@
 - [Lesson Recap](lesson1-3-lesson-recap)
 
 #### Step into the Driver's Seat ####
+- [Step into the Driver's Seat](step into-driver-seat)
 - [Allow the vehicle to move left/right](allow-vehicle-move-leftright)
 - [Base left/right movement on input](base-leftright-movement-input)
 - [Take control of the vehicle speed](take-control-vehicle-speed)
