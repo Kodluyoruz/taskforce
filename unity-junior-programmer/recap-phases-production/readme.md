@@ -23,7 +23,7 @@ Gerçek zamanlı üretim süreci hakkında öğrenirken keşfettiğin üzere, ge
 
 **Operasyonlar**: Bir ürün piyasaya sürüldükten sonra çalışmaya devam etmesini sağlamak için yapılan işler; satışlar, ürünün parasallaştırılması, güncellemeler ve devam eden bakımlar gibi.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/recap-phases-production/figures/CWC_A.3_image1.png)
 
 **Alt metin**: Üretimin dört aşamasını gösteren ve her aşama arasında birer ok olan bir diyagram. Oklar Üretim öncesinden Üretime, Üretimden Üretim sonrasına ve Üretim sonrasından Operasyonlara gidiyor.
 Zamanında teslim edilmiş ve beklendiği gibi çalışan bir proje için üretim sürecinin her aşamasını düzgünce planlamak önemlidir.
