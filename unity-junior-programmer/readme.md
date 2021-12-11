@@ -115,6 +115,7 @@
 
 #### Challenge 2 - Play Fetch ####
 - [Challenge 2 - Play Fetch](challenge-2-play-fetch)
+- [Daha Fazla Challenge](more-challenge-4-6)
 
 #### New Project with Primitives ####
 - [Create a new Project and rename your scene](create-new-project-rename-your-scene)
