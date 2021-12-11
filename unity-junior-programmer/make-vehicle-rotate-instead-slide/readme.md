@@ -5,4 +5,4 @@ Aracın hareketinde tuhaf bir şey var… dönmek yerine soldan sağa kayıyor. 
 - translates Right olan kod satırını silin, test edin
 - * turnSpeed * Time.deltaTime ekleyin, test edin
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/make-vehicle-rotate-instead-slide/figures/CWC_A.2.5_image4.png)
