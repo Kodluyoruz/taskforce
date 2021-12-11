@@ -2,19 +2,19 @@
  
 İpuçları:
 - Kolay: Dikey oyuncu hareketi
-- 
+
 Sol ve sağ hareket aralığını nasıl yaptığımıza bakın.
 
 - Orta: Agresif hayvanlar
-- 
+
 Şu anda hayvanları nasıl yumurtladığımıza ve çarpışmalar yaptığımıza bakın.
 
 - Zor: Oyun kullanıcı arayüzü
-- 
+
 DetectCollisions komut dosyasındaki puanı ve yaşamları güncellemeniz ve DestroyOutOfBounds komut dosyasındaki yaşamları güncellemeniz gerekecektir.
 
 - Uzman: Hayvan açlığı çubuğu
-- 
+
 Her hayvan için bir prefabrik olarak World space Render Mode'da bir UI Slider nesnesi eklemeniz ve ardından hayvan her beslendiğinde kaydırıcının değerini bir komut dosyası aracılığıyla ayarlamanız gerekecektir.
  
 **Çözüm adım adım**
