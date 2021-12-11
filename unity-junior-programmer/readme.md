@@ -135,6 +135,7 @@
 - [Lesson Recap](lesson-lab2-recap)
 
 #### Unit 3 - Sound and Effects ####
+- [Jump Force Introduction](jump-force-introduction)
 - [Jump Force Introduction](unit-3-introduction)
 - [Open prototype & change background](open-prototype-change-background)
 - [Choose and set up a player character](choose-set-up-player-character)
