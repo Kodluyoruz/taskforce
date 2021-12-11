@@ -113,10 +113,6 @@
 - [Trigger a “Game Over” message](trigger-game-over-message)
 - [Lesson Recap](lesson-2-4-recap)
 
-#### Challenge 2 - Play Fetch ####
-- [Challenge 2 - Play Fetch](challenge-2-play-fetch)
-- [Daha Fazla Challenge](more-challenge-4-6)
-
 #### New Project with Primitives ####
 - [Create a new Project and rename your scene](create-new-project-rename-your-scene)
 - [Create a background plane](create-background-plane)
@@ -125,6 +121,10 @@
 - [Enemies, obstacles, projectiles & materials](enemies-obstacles-projectiles-materials)
 - [Export a Unity Package backup file](export-unity-package-backup-file)
 - [Lesson Recap](lesson-lab2-recap)
+
+#### Challenge 2 - Play Fetch ####
+- [Challenge 2 - Play Fetch](challenge-2-play-fetch)
+- [Daha Fazla Challenge](more-challenge-4-6)
 
 #### Bonus Features 2 ####
 - [Bonus Features 2 Overview](bonus-features-2-overview)
