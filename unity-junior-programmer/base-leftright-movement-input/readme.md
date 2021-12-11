@@ -6,3 +6,5 @@
 - Update’e, horizontalInput = Input.GetAxis("Horizontal");’ı atayın,sonra gözlemcide görmek için test edin
 aracın kontrolünü kazanmak için sağ sol Translate metoduna horizontallnput değişkenini ekleyin
 - Gözlemcide , ince ayar yapmak için turnSpeed ve speed değişkenlerini düzenleyin
+
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/base-leftright-movement-input/figures/CWC_A.2.5_image2.png)
