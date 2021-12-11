@@ -7,4 +7,4 @@ Player'ı soldan sağa hareket ettirmek istiyorsak, kullanıcının girdisini iz
 - PlayerController.cs dosyasının en üstünde, yeni bir genel kayan noktalı yatayGiriş bildir
 - Update() içinde, yatayInput = Input.GetAxis(“Horizontal”) olarak ayarlayın, ardından denetçide çalıştığından emin olmak için test edin
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/get-users-horizontal-input/figures/CWC_A.4.2_image1.png)
