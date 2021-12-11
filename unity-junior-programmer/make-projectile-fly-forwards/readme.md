@@ -9,6 +9,6 @@ Yapmamız gereken ilk şey, mermiye bir miktar ileri hareket vermek, böylece oy
 - Update() içinde, transform.Translate(Vector3.forward * Time.deltaTime * speed); ekleyin, ardından kaydedin
 - Denetleyicide (denetçide), merminin hız değişkenini ayarlayın, ardından test edin.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/make-projectile-fly-forwards/figures/CWC_A.4.3_image1.png)
 
 **Alt text:** Flavour
