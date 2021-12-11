@@ -7,4 +7,4 @@ Son projeye benzer şekilde, engel prefabriklerini başlatacak boş bir Spawn Ma
 - Spawn konumunuzda yeni bir private **Vector3 spawnPos** tanımlayın.
 - Start()'ta, yeni bir engel prefabi **Instantiate** edin, ardından prefabinizi sahneden silin ve test edin.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/create-spawn-manager-lesson-3-1/figures/CWC_B.1.2_image6.png)
