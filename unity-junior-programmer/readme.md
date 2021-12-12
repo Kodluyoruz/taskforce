@@ -251,6 +251,7 @@
 - [Expert: Boss battle](expert-boss-battle)
 
 #### Lab 4 - Basic Gameplay ####
+- [Basic Gameplay](lab4-nasic-gameplay)
 - [Give objects basic movement](give-objects-basic-movement)
 - [Destroy objects off-screen](destroy-objects-off-screen)
 - [Handle object collisions](handle-object-collisions)
