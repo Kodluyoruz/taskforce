@@ -3,4 +3,4 @@ Her şey mükemmel çalışıyor, ancak düzeltilmesi gereken küçük bir rahat
 
 - Oyuncunun baygınken zıplamasını önlemek için atlama koşuluna && !gameOver ekleyin
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/keep-player-from-unconscious-jumping/figures/CWC_B.1.4_image3.png)
