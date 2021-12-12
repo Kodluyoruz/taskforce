@@ -5,4 +5,4 @@ Oyunumuz neredeyse tamamlandı, ancak kaçırdığımız bir şey var. Düşmanl
 - Start() içerisinde, yeni bir Powerup (güçlendirme) **Instantiate** edin 
 - **SpawnEnemyWave()** çağrısından önce, yeni bir Powerup Instantiate edin 
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/spawn-powerups-with-new-waves/figures/CWC_B.2.5_image5.png)
