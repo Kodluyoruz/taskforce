@@ -192,6 +192,7 @@
 - [Hints and solution walkthrough](hints-solutionwalkthrough-bonus-3)
 
 #### Lab 3 - Player Control ####
+- [Lab 3 Oyuncu Kontrolü](lab-3-player-control)
 - [Create PlayerController and plan your code](create-playerController-plan-your-code)
 - [Basic movement from user input](basic-movement-from-user-input)
 - [Constrain the Player’s movement](constrain-players-movement)
