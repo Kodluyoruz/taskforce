@@ -5,4 +5,4 @@ PowerUpnin mükemmel bir şekilde kurulması koşuluyla, şimdi gerçek PowerUp 
 - Yönü oyuncudan uzaklaştırmak için yeni bir değişken bildirin
 - Yeni bir powerupStrength değişkeni kullanarak düşmana bir itici kuvvet ekleyin
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/apply-extra-knockback-with-powerup/figures/CWC_B.2.4_image3.png)
