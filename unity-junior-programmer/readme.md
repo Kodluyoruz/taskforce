@@ -200,6 +200,7 @@
 - [Lesson Recap](lesson-recap-lab-3)
 
 #### Unit 4 - Gameplay Mechanics ####
+- [Game Play Introduction](game-play-introduction)
 - [Watch Where You’re Going - Introduction](unit-4-introduction)
 - [Create project and open scene](create-project-open-scene)
 - [Set up the player and add a texture](set-up-player-add-texture)
