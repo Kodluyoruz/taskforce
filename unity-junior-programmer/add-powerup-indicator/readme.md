@@ -7,4 +7,4 @@ Bu oyunu daha oynanabilir kılmak için, oyuncunun PowerUpye sahip olup olmadı�
 - Oyuncu açılışla çarpıştığında, gösterge nesnesini Aktif olarak ayarlayın, ardından açılış sona erdiğinde Aktif Değil olarak ayarlayın.
 - Update() içinde, Gösterge konumunu oynatıcının konumuna + bir ofset değerine ayarlayın
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/add-powerup-indicator/figures/CWC_B.2.4_image5.png)
