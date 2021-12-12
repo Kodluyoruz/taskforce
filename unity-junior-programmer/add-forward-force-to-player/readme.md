@@ -7,4 +7,4 @@ Kamera adanın etrafında mükemmel bir şekilde dönüyor ama şimdi oyuncuyu h
 - **Update()**  fonksiyonu içinde  yeni  “Vertical” (dikey) input’a bağlı olan bir **forwardInput** değişkeni tanımla.
 - **forwardInput** değişkenine bağlı olarak oyuncuyu ilerleten **AddForce()** methodunu çağıtın.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/add-forward-force-to-player/figures/CWC_B.2.2_image2.png)
