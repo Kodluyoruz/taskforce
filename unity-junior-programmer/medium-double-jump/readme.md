@@ -1,4 +1,5 @@
-## Adım 2: Kolay: Engelleri rastgele seçmek
+## Adım 3: Orta:Çift Atlama
 
-Ortaya çıkmak için çeşitli engeller arasından rastgele seçim yapın.
-Oyuncuyu daha fazla dikkat etmeye zorlayan tek tek engeller yerine yığınlar halinde engeller bile olabilir.
+Bir çift atlama programlayın, böylece oyuncu havadayken bir kez daha atlayabilir. Bununla birlikte, çift atlama gerektiren yeni bir ekstra uzun engel oluşturabilirsiniz (belki üst üste yığılmış iki engel).
+Bu tamamen yeni bir oyun mekaniği ekler. Ve kim çift atlamayı sevmez ki?
+
