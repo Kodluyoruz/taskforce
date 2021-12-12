@@ -231,6 +231,7 @@
 - [Lesson Recap](lesson-4-3-recap)
 
 #### For-Loops For Waves ####
+- [For-Loops For Waves](for-loops-for-waves)
 - [Write a for-loop to spawn 3 enemies](write-for-loop-spawn-3-enemies)
 - [Give the for-loop a parameter](give-for-loop-parameter)
 - [Destroy enemies if they fall off](destroy-enemies-if-they-fall-off)
