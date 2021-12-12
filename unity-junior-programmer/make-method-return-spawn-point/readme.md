@@ -6,4 +6,4 @@ Rastgele bir spawn pozisyonu oluşturmak için kullandığımız kod mükemmel v
 - Satırı yeni methodundaki **return randomPos;** ‘a ekle
 - **Instantiate** call’daki kodu yeni işlev adınla değiştir: GenerateSpawnPosition()
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/make-method-return-spawn-point/figures/CWC_B.2.3_image5.png)
