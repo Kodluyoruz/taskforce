@@ -5,4 +5,4 @@ Düşman şimdi oyuncuya doğru yuvarlanıyor, ancak kodumuz biraz dağınık. Y
 - Vector3 lookDirection = (player.transform.position - transform.position).normalized; olarak ayarla.
 - AddForce çağrısında lookDirection değişkenini uygula.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/create-lookDirection-variable/figures/CWC_B.2.3_image2.png)
