@@ -5,4 +5,4 @@
 - Bunu: i < __ bununla değiştirin: i < **enemiesToSpawn** 
 - Bu yeni değişkeni Start() içerisindeki fonksiyon çağrısına ekleyin: **SpawnEnemyWave(___)**; 
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/give-for-loop-parameter/figures/CWC_B.2.5_image2.png)
