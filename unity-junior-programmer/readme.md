@@ -211,6 +211,7 @@
 - [Lesson Recap](lesson-4-1-recap)
 
 #### Follow the Player ####
+- [Follow the Player Introduction](follow-the-player-introduction)
 - [Add an enemy and a physics material](add-enemy-physicsmaterial)
 - [Create enemy script to follow player](create-enemy-script-to-follow-player)
 - [Create a lookDirection variable](create-lookDirection-variable)
