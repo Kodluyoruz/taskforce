@@ -221,6 +221,7 @@
 - [Lesson Recap](lesson-4-2-recap)
 
 #### PowerUp and CountDown ####
+- [PowerUp and CountDown](powerUp-and-countDown)
 - [Choose and prepare a powerup](choose-prepare-powerup)
 - [Destroy powerup on collision](destroy-powerup-collision)
 - [Test for enemy and powerup](test-for-enemy-powerup)
