@@ -7,4 +7,4 @@ Koşu animasyonu iyi görünüyor, ancak oyuncu engellerin üzerinden atladığ�
 - Oyuncunun atladığı zaman için if ifadesinde, atlamayı tetikleyin:
 - playerAnim.SetTrigger(“Jump_trig”);
   
-  ![figures]()
+  ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/set-up-jump-animation/figures/CWC_B.1.4_image1.png)
