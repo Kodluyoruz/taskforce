@@ -160,6 +160,7 @@
 - [Lesson Recap](lesson-3-2-recap)
 
 #### Don't Just Stand There ####
+- [Don't Just Stand There](dont-just-stand-there)
 - [Explore the player’s animations](explore-players-animations)
 - [Make the player start off at a run](make-player-start-off-run)
 - [Set up a jump animation](set-up-jump-animation)
