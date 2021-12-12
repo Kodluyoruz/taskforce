@@ -6,4 +6,4 @@ PowerUp yalnızca çok özel bir durumda devreye girer: oyuncunun bir PowerUp’
 - Düşman etiketi ve hasPowerup boolean için çift koşul testi ile if ifadesini oluşturun
 - Çalıştığından emin olmak için bir Debug.Log oluşturun
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/test-for-enemy-powerup/figures/CWC_B.2.4_image2.png)
