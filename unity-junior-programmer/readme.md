@@ -170,6 +170,7 @@
 - [Lesson Recap](lesson-3-3-recap)
 
 #### Particles and Sound Effects ####
+- [Particles and Sound Effects](particles-sound-effects)
 - [Customize an explosion particle](customize-explosion-particle)
 - [Play the particle on collision](play-particle-collision)
 - [Add a dirt splatter particle](add-dirt-splatter-particle)
