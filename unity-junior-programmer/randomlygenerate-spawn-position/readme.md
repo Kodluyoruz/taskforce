@@ -7,4 +7,4 @@ Düşman başlangıçta ortaya çıkar, ancak her zaman aynı noktada görünür
 - Sabit kodlanmış değerleri bir **spawnRange** değişkeniyle değiştir.
 - Çalıştığından emin olmak için projeni **Başlat** ve** **Yeniden Başlat**
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/randomlygenerate-spawn-position/figures/CWC_B.2.3_image4.png)
