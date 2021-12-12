@@ -4,4 +4,4 @@ Topu yuvarladık, ama sadece tek bir yönde ileri ve geri gidiyor! Bunun yerine 
 - Yeni bir private GameObject focalPoint değişkeni tanımla ve Start() fonksiyonu içerisinde çağır: focalPoint = GameObject.Find("Focal Point");
 - AddForce metodunu çağırdığın yerde , Vector3.forward değişkenini focalPoint.transform.forward ile değiştir.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/move-direction-foca-point/figures/CWC_B.2.2_image3.png)
