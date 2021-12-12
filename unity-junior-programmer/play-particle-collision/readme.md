@@ -5,4 +5,4 @@ Parçacık efektlerini keşfettik ve çarpışma için bir patlama bulduk, ancak
 - Inspector’da, **patlamayı** patlama parçacık değişkenine atayın
 - Oyuncunun bir engelle çarpıştığı **if ifadesinde** **explosionParticle.Play();** fonksiyonunu çağırın, ardından parçacık özelliklerini test edin ve ince ayar yapın.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/play-particle-collision/figures/CWC_B.1.5_image1.png)
