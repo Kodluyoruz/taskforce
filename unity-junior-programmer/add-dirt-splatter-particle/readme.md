@@ -7,4 +7,4 @@
 - Oyuncu zıpladığında veya bir engelle çarpıştığında çalışması için dirtParticle.Stop();  ekleyin
 - oyuncu yere düştüğünde çalışması için dirtParticle.Play(); ekleyin
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/add-dirt-splatter-particle/figures/CWC_B.1.5_image2.png)
