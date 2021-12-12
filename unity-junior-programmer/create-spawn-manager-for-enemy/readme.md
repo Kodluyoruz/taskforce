@@ -6,4 +6,4 @@ Artık düşman tam olarak bizim istediğimiz gibi davrandığına göre, onu bi
 - Yeni bir **public GameObject enemyPrefab** değişkeni belirle, daha sonra Denetçi (Inspector)’de yeni bir Hazır Yapı (Prefab) ata.
 - **Start()**’ta, önceden belirlenmiş bir konumda yeni bir enemyPrefab örneği oluşturun.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/create-spawn-manager-for-enemy/figures/CWC_B.2.3_image3.png)
