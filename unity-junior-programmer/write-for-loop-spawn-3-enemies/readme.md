@@ -4,4 +4,4 @@ Birden fazla düşman ortaya çıkararak oyuncuya meydan okumalıyız. Bunu yapm
 - SpawnManager.cs'deki Start() fonksiyonunda, tek bir kez çalışan Instantiate işlemini, 3 kez çalışıp düşman oluşturacak olan for-döngüsü ile değiştiriniz. 
 - For-döngüsünü yeni bir void SpawnEnemyWave() fonksiyonuna taşıyın, ardından onu Start() içerisinden çağırın. 
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/write-for-loop-spawn-3-enemies/figures/CWC_B.2.5_image1.png)
