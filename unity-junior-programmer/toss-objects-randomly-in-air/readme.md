@@ -6,4 +6,4 @@
 - Rastgele xyz değerleriyle bir tork ekleyin
 - Rastgele bir X değeri ile position’ı (konumu) ayarlayın
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/toss-objects-randomly-in-air/figures/CWC_B.3.2_image1.png)
