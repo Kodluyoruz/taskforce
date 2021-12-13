@@ -6,4 +6,4 @@ Adım 2: GameOver metninin görünmesini sağlayın Ekranda güzel Game Over met
 - Game Over metnini varsayılan olarak devre dışı bırakmak için Etkin onay kutusunun işaretini kaldırın.
 - Start()'ta Game Over metnini etkinleştirin.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/make-gameOver-text-appear/figures/CWC_B.3.4_image1.png)
