@@ -3,4 +3,6 @@ Hedefler tıklandığında skor güncelleniyor, ancak hedeflerin her birine fark
 
 - Target.cs’te yeni bir public int pointValue değişkeni oluştur
 - Target prefab’in her inspector’ında, kötü hedefin negatif değeri dahil olmak üzere Point Value’yu değerleri her neyse onlara ayarla
-- “UpdateScore(pointValue);”a yeni bir değişken ekle
+- “UpdateScore(pointValue);”a yeni bir değişken ekle.
+
+![figures]()
