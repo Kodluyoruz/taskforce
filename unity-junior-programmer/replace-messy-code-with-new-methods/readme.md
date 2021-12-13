@@ -6,4 +6,4 @@ Start() metodumuzu dağınık ve okunamaz hale getiren rastgele kuvveti, torku v
 - float **RandomTorque()** şeklinde yeni bir metod oluşturun ve onu **Start()** içerisinde çağırın
 - **RandomSpawnPos()** şeklinde yeni bir metod oluşturun, yeni bir **Vector3** döndürmesini sağlayın ve **Start()** içerisinde çağırın.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/replace-messy-code-with-new-methods/figures/CWC_B.3.2_image2.png)
