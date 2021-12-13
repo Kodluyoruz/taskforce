@@ -283,7 +283,7 @@
 - [Lesson Recap](lesson-5-2-recap)
 
 #### Game Over ####
-- [Game Over Inroduction](game-over-introduction)
+- [Game Over Introduction](game-over-introduction)
 - [Create a Game Over text object](create-game-over-text-object)
 - [Make GameOver text appear](make-gameOver-text-appear)
 - [Create GameOver function](create-gameOver-function)
