@@ -272,6 +272,7 @@
 - [Lesson Recap](lesson-5-1-recap)
 
 #### Keeping Score ####
+- [Keeping Score](keeping-score-introduction)
 - [Add Score text position it on screen](add-score-text-position-it-on-screen)
 - [Edit the Score Text’s properties](edit-score-texts-properties)
 - [Initialize score text and variable](initialize-score-text-variable)
