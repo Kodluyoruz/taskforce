@@ -260,6 +260,7 @@
 - [Recap](lab-4-recap)
 
 #### Unit 5 - User Interface ####
+- [User Interface Introduction](user-interface-introduction)
 - [Clicky Mouse - Introduction](unit-5-introduction)
 - [Create project and switch to 2D view](create-project-switch-2D-view)
 - [Create good and bad targets](create-good-bad-targets)
