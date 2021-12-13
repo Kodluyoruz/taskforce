@@ -1,6 +1,6 @@
 # GraphQL Nedir?
 
-![GraphQL](./figures/graphql_cover.png)
+![GraphQL](https://github.com/Kodluyoruz/taskforce/raw/main/graphql/graphql-nedir-ne-degildir/figures/graphql_cover.png)
 
 GraphQL, REST'in üzerine inşa edilmiş ve onun eksikliklerini kapatan yeni bir anlayış, yeni bir mimaridir. Facebook tarafından geliştirilmiştir ve Facebook, Instagram, PayPal ve Netflix gibi büyük ölçekli şirketler tarafından yoğun olarak kullanılmaktadır.
 
