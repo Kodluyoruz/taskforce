@@ -22,6 +22,6 @@ Kafataslarından kaçınırken karelerde ortaya çıkan tüm seçme yakalaman ge
 
 ### Genel Bakış
 
-- **Prototip 5** projenizi açın
-- Challenge 5 başlangıç dosyalarını indirmek için tıklayın, sıkıştırılmış klasörü **çıkarın** ve ardından .unitypackage'i projenize aktarın. Bunu nasıl yapacağınızı unutursanız, Ders 1.1, adım 2'ye bakın.
-- Project Window > Assets > Challenge 5 > **Instructions** klasöründe, yarışmayı tamamlamak için bir kılavuz olarak Yarışma 5 - Sonuç videosunu kullanın
+- **Prototype 5** projeni aç 
+- Challenge 5 başlangıç dosyalarını indirmek için tıkla, sıkıştırılmış klasörü çıkar ve ardından .unitypackage'i projene aktar. Bunu nasıl yapacağını unutursan, ders 1.1, adım 2'ye bak.
+- Bu meydan okumayı tamamlamak için Project Window > Assets > Challenge 5 > **Instructions** klasöründeki Challenge 5 - Outcome videosunu bir kılavuz olarak kullan.
