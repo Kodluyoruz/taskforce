@@ -315,6 +315,7 @@
 - [Expert: Click-and-swipe](expert-click-and-swipe)
 
 #### Lab 5 - Swap out your Assets ####
+- [Swap out your Assets](swap-out-your-assets)
 - [Import and browse the asset library](import-browse-asset-library)
 - [Replace player with new asset](replace-player-with-new-asset)
 - [Browse the Asset store](browse-asset-store)
