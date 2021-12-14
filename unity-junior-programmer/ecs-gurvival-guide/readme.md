@@ -27,4 +27,4 @@ Bu eğitimde şunları öğrendiniz:
 - Monobehaviour dışındaki sınıflardan kalıtım alma (örn. "JobComponentSystem")
 - Kodun bileşenler veya nesneler yerine veriler (örn. “MoveSpeed”) etrafında yapılandırılması.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/ecs-gurvival-guide/figures/CWC_B.5.5_image1.png)
