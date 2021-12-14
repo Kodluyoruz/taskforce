@@ -117,7 +117,7 @@ Aynı işi REST ile yapmak isterseniz backend üzerindeki üç ayrı endpoint'e 
 ## 4. Otomatik Dokümanlama
 GraphQL şemalarınızı tasarlamaya başladığınız anda sizin için otomatik olarak dokümanlar oluşturulur. Bu dokümanlar API'ı implemente edecek olan frontend geliştiricinin ihtiyaç duyduğu tek şeydir. Bu dokümanı inceleyerek hızlıca implementasyon yapmaya başlayabilir. Artık dokümanlama için de ekstra efor sarf etmenize gerek yok.
 
-![Auto Documentation](./figures/docs.png)
+![Auto Documentation](https://raw.githubusercontent.com/Kodluyoruz/taskforce/graphql/graphql/graphql-nedir-ne-degildir/figures/docs.png)
 
 
 
