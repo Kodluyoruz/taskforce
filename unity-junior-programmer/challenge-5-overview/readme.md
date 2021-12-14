@@ -1,1 +1,27 @@
-#
+## Mücadeleye Genel Bakış: Kullanıcı Arayüzü
+
+Kafataslarından kaçınırken bir ızgarada ortaya çıkan tüm yiyecekleri almanız gereken bu köstebek benzeri meydan okuma ile Kullanıcı Arayüzü becerilerinizi test edin. Bunun alt kısmına ulaşmak için düğmeleri, fare tıklamalarını, puan takibini, dizileri yeniden başlatmayı ve zorluk ayarını hata ayıklamanız gerekecek.
+
+**Meydan Okuma Sonucu:**
+
+- Tüm düğmeler, metinleri düzgün bir şekilde hizalandığında hoş görünüyor
+- Bir zorluk seçtiğinizde, ortaya çıkma oranı buna göre değişir
+- Bir yiyeceğe tıkladığınızda, yok edilir ve sol üstte puan güncellenir.
+- Oyunu kaybettiğinizde, tekrar oynamanıza izin veren bir yeniden başlatma düğmesi belirir.
+
+**Meydan Okuma Genel Bakışı:**
+
+Kafataslarından kaçınırken karelerde ortaya çıkan tüm seçme yakalaman gereken bu köstebek vurmaca benzeri oyun ile Kullanıcı Arayüzü (UI) test et et. İyice şansık için butonları, ücretlerini, puanni, dizileri yeniden hazırlamayı ve ayarını debug etmen gösterme.
+
+**Meydan Okuma Sonucu:**
+
+- Tüm butonlar, metin düzgünce hizalanmış bir şekilde güzel görünür
+- Bir ödülde, ortaya çıkma ihtimaline göre farklılık
+- Bir yiyeceğe tıkladığında, o yüke yok edilir ve sol üst puanlarla güncellenir
+- Oyununde yeniden alıştırma butonu belirir ve tekrar oynamalarını sağlar.
+
+### Genel Bakış
+
+- **Prototip 5** projenizi açın
+- Challenge 5 başlangıç dosyalarını indirmek için tıklayın, sıkıştırılmış klasörü **çıkarın** ve ardından .unitypackage'i projenize aktarın. Bunu nasıl yapacağınızı unutursanız, Ders 1.1, adım 2'ye bakın.
+- Project Window > Assets > Challenge 5 > **Instructions** klasöründe, yarışmayı tamamlamak için bir kılavuz olarak Yarışma 5 - Sonuç videosunu kullanın
