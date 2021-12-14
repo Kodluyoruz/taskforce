@@ -7,4 +7,4 @@ Yeniden Başlatma Düğmesi harika görünüyor, ancak tüm oyun boyunca yüzüm
 - Denetçideki **Yeniden Başlatma Butonu** için "Etkin" onay kutusunun işaretini kaldırın
 - GameOver işlevinde **Yeniden Başlat Butonunu** etkinleştirin.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/show-restart-button-on-game-over/figures/CWC_B.3.4_image5.png)
