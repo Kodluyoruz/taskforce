@@ -10,4 +10,4 @@
 
 - Puanlamayı önlemek için Target.cs'de **OnMouseDown()** işlevinde **if (gameManager.isGameActive) {** koşulunu ekleyin.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/stop-spawning-score-gameOver/figures/CWC_B.3.4_image3.png)
