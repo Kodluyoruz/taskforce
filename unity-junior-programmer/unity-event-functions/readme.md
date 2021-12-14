@@ -7,4 +7,4 @@ Kursta yalnızca varsayılan Update() ve Start() olay fonksiyonlarını kulland�
 - PlayerController.cs'de "Update"i "FixedUpdate" olarak değiştirin ve **FollowPlayer.cs'de** "Update"i "LateUpdate" olarak değiştirin, ardından **tekrar test edin**
 - Her iki script’teki Start() işlevini **silin**, ardından Main Camera’nızı yeniden etkinleştirin.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/unity-event-functions/figures/CWC_B.5.2_image2.png)
