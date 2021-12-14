@@ -294,6 +294,7 @@
 - [Lesson Recap](lesson-5-3-recap)
 
 #### What’s the Difficulty? ####
+- [What’s the Difficulty](whats-the-difficulty-introduction)
 - [Create Title text and menu buttons](create-Title-text-and-menu-buttons)
 - [Add a DifficultyButton script](add-DifficultyButton-script)
 - [Call SetDifficulty on button click](call-SetDifficulty-on-button-click)
