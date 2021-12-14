@@ -24,7 +24,7 @@ Daha fazla bilgi için oynatıcı ayarlarını yapılandırmayla ilgili döküma
 - Build butonuna tıklayın, projenize bir isim verin ve Create with Code klasörünüzün içindeki  “**Builds**” adlı yeni bir klasöre kaydedin.
 - **Test etmek için oyununuzu oynayın,** ardından isterseniz farklı ayarlarla yeniden oluşturun.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/lesson-6-3-sharing-your-projects/figures/CWC_B.5.4_image1.png)
 
 ### Adım 3: WebGL için Oyununuzu Oluşturma
 
@@ -37,7 +37,7 @@ Oyunlarınızın Mac veya Windows’ta dağıtmak oldukça zor olduğundan, WebG
 - WebGL build klasörünüze sağ tıklayın ve **.zip dosyasına sıkıştırın.**
 - Eğer isterseniz, oyununuzu [Unity Play](https://play.unity.com/) veya [itch.io](https://itch.io/) gibi oyun paylaşım sitelerine upload edin.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/lesson-6-3-sharing-your-projects/figures/CWC_B.5.4_image2.png)
 
 ### Adım 4: Ders Özeti
 
