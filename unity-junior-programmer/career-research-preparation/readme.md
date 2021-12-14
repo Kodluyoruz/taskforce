@@ -89,7 +89,7 @@ Araştırmanıza devam ederken, aşağıdakileri not almak için kendi kariyer a
 - Birden fazla kariyer alanı varsa her bir kariyer alanı için beklenen teknik bilgi
 - Gerekli eğitim ve/veya vasıflar
 - Belirli bir iş için beklenen maaş aralıkları
-- 
+
 Araştırma belgeniz, üzerinde çalıştığınız belirli iş rolleri için gerekli becerileri geliştirmeye odaklanmanıza yardımcı olacak harika bir kaynaktır. Ayrıca, becerilerinizi ve projelerinizi sergileyen kişisel bir portföy için hedefleri belirlemenize yardımcı olacak faydalı bir araçtır.
 
 
