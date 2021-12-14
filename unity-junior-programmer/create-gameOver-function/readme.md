@@ -6,4 +6,4 @@ Oyunun başında geçici olarak "Oyun Bitti" metninin görünmesini sağladık, 
 - Hedef sensörle çarpışırsa, Target.cs'de **gameManager.GameOver()'ı** çağırın
 - Kötü nesneye yeni bir "Kötü" etiketi ekleyin, yalnızca kötü bir nesne değilse oyunu tetikleyecek bir koşul ekleyin.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/create-gameOver-function/figures/CWC_B.3.4_image2.png)
