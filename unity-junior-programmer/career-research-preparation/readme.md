@@ -48,15 +48,15 @@ Unity, programlama ve sanatçı rollerine odaklanan dört zorluk seviyesi ve uzm
 
 **User:**
 
-[Certified User: Programmer](https://unity.com/products/unity-certifications/user-programmer) — Temel Unity ve C# programlama becerilerinizi doğrulayın.
-Certified User: Artist —  Şubat 2021
-[Certified User:](https://unity.com/products/unity-certifications/vr-developer) VR Development —  Unity ile sanal gerçeklik deneyimleri oluşturma konusunda uzmanlaştığınızı gösterin.
+- [Certified User: Programmer](https://unity.com/products/unity-certifications/user-programmer) — Temel Unity ve C# programlama becerilerinizi doğrulayın.
+- Certified User: Artist —  Şubat 2021
+- [Certified User:](https://unity.com/products/unity-certifications/vr-developer) VR Development —  Unity ile sanal gerçeklik deneyimleri oluşturma konusunda uzmanlaştığınızı gösterin.
 
 **Associate:**
 
-[Certified Associate:](https://unity.com/products/unity-certifications/associate-game-developer) Game Developer — İş dünyasına hazır Unity becerilerinizi ve gerçek zamanlı 3D oyun ekosisteminde kariyer için hazırlığınızı sergileyin.
-Certified Associate: Programmer — Şubat 2021
-Certified Associate: Artist —  Şubat 2021
+- [Certified Associate:](https://unity.com/products/unity-certifications/associate-game-developer) Game Developer — İş dünyasına hazır Unity becerilerinizi ve gerçek zamanlı 3D oyun ekosisteminde kariyer için hazırlığınızı sergileyin.
+- Certified Associate: Programmer — Şubat 2021
+- Certified Associate: Artist —  Şubat 2021
 
 **Professional:**
 
