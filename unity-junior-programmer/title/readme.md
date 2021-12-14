@@ -13,7 +13,7 @@ Unity gibi gerçek zamanlı 3D motorlar, birinci şahıs nişancı oyunlarından
 
 Tasarım sürecini incelemeden önce, tasarımın [gerçek zamanlı üretim döngüsündeki](https://learn.unity.com/tutorial/the-real-time-production-cycle#5fa45dd6edbc2a0020bc7e41) rolünü göz önünde bulundurmak için bir dakikanızı ayıralım.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/title/figures/JrProg_C.1_image1.png)
 
 Alt metin: Üst üste binen renkli daireler aracılığıyla üretim aşamalarının bulanıklaşmasını gösteren dört üretim aşamasının diyagramı. Üretim Öncesi ve Üretim aşamaları üzerinde yeşil bir daire, Üretim ve Üretim Sonrası aşamaları üzerinde mor bir daire ve bu iki dairenin üst üste geldiği turuncu bir bölüm vardır.
 
