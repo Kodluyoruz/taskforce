@@ -5,4 +5,4 @@ Oyun başladığında başlık ekranının kaybolmasını istiyorsak, onları te
 - GameManager.cs içinde, yeni bir **public GameObject titleScreen**; değişkeni oluşturun ve inspector’den atayın.
 - **StartGame()** içinde “Title Screen” objesini devre dışı bırakın.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/deactivate-title-screen-StartGame/figures/CWC_B.3.5_image3.png)
