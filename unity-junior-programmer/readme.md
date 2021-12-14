@@ -327,6 +327,7 @@
 - [Introduction to user feedback and testing](introduction-to-user-feedback-and-testing)
 
 #### Next Steps - Introduction ####
+- [Next Steps - Introduction](next-step-introduction)
 - [Project Optimization - Introduction](project-Optimization-introduction)
 - [Variable attributes](variable-attributes)
 - [Unity Event Functions](unity-event-functions)
