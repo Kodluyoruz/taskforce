@@ -101,11 +101,11 @@
 - [Oylama Detay Ekranının Hazırlanması - 1](oylama-detay-ekraninin-hazirlanmasi-1/)
 - [Oylama Detay Ekranının Hazırlanması - 2](oylama-detay-ekraninin-hazirlanmasi-2/)
 
-### Deployment ###
+#### Deployment ####
 - [Hasura DigitalOcean Deployment](hasura-digitalocean-deployment/)
 - [React Client Netlify Deployment](react-client-netlify-deployment/)
 
-### Meeting App with Hasura ###
+#### Meeting App with Hasura ####
 - [Hasura Kurulumu ve DB Yapısının Oluşturulması](hasura-kurulumu-ve-db-yapisinin-olusturulmasi/)
 - [Express Backending Hazırlanması](express-backendin-hazirlanmasi/)
 - [Sucrase, Hasura Client, Routing ve Error Handling ](sucrase-hasura-client-routing-error-handling/)
@@ -121,7 +121,7 @@
 - [One Off Scheduled Events - 1](one-off-scheduled-events-1/)
 - [One Off Scheduled Events - 2](one-off-scheduled-events-2/)
 
-### Projeler ###
+#### Projeler ####
 - [Countries GraphQL API](project-01/)
 - [Rick and Morty Characters](project-02/)
 - [Anonymous Chat App](project-03/)
