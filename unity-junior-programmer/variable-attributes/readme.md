@@ -1,4 +1,4 @@
-## Overview: >Genel Bakış
+## Genel Bakış
 
 Bu derste, projelerinizi optimize etmek ve daha performanslı hale getirmek için çeşitli farklı teknikler öğreneceksiniz. Bu küçük prototip projelerde büyük bir fark göremeyebilirsiniz, ancak daha büyük bir projeyi, özellikle mobil veya web için dışa aktarırken, her bir performans iyileştirmesi çok önemlidir.
 
@@ -15,4 +15,4 @@ Kursta sadece "public" veya "private" değişkenler kullandık, ancak aşina olm
 - FollowPlayer.cs'de, Vector3 ofset değişkenine **[SerializeField]** özelliğini ekleyin
 - Hepsinin değişkeni inspector’dan kaldırma etkisine sahip olduğunu fark ederek **"readonly", "const" veya "static"** özelliklerini uygulamayı deneyin.
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/unity-junior-programmer/variable-attributes/figures/CWC_B.5.2_image1.png)
