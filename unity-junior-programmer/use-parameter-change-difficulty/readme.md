@@ -6,4 +6,6 @@ Zorluk butonları oyunu başlatır, ancak yine de oyunun zorluğunu değiştirme
 - **StartGame()** içine, **spawnRate /= difficulty;** olacak şekilde ekleme yapın.
 - Difficulty parametresini **StartGame(difficulty)** metoduna ileterek DifficultyButton.cs ‘deki hatayı düzeltin.
 
+![figures]()
+
 
