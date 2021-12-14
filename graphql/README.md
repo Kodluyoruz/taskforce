@@ -121,7 +121,7 @@
 - [One Off Scheduled Events - 1](one-off-scheduled-events-1/)
 - [One Off Scheduled Events - 2](one-off-scheduled-events-2/)
 
-#### Projeler ####
+### Projeler ###
 - [Countries GraphQL API](project-01/)
 - [Rick and Morty Characters](project-02/)
 - [Anonymous Chat App](project-03/)
