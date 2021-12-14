@@ -9,6 +9,6 @@ Bu görevi tamamlamak yaklaşık 5 saatini alacaktır. Kendi hızında yap - yol
 Unutma, yalnız değilsin: Görev boyunca Unity topluluğuyla bağlantı kur ve Unity'nin yerleşmiş üreticileriyle adım adım pratik oturumlar için Learn Live takvimini kontrol et.
 Görevi tamamladığında, profilin ve portföyün için görev rozetini alacaksın.
  
-**Bu materyali zaten biliyor musun? **
+**Bu materyali zaten biliyor musun?**
  
 Görev değerlendirmelerini tamamlayarak bu görevi "test edebilirsin". Aşağı kaydır ve Skip to mission checkpoint’i seç.
