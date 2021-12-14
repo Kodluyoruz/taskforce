@@ -1,1 +1,3 @@
-#### Design patterns ####
+# Design Patterns
+
+#### Design Patterns ####
