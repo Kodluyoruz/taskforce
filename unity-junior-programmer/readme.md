@@ -127,6 +127,7 @@
 - [Hints and solution walkthrough](hints-and-solution-walkthrough-bonus-2)
 
 #### New Project with Primitives ####
+- [New Project with Primitives](new-project-primitives)
 - [Create a new Project and rename your scene](create-new-project-rename-your-scene)
 - [Create a background plane](create-background-plane)
 - [Create primitive Player with a new material](create-primitive-player-with-new-material)
