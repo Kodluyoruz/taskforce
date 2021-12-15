@@ -75,6 +75,7 @@
 - [Releasing your project](releasing-your-project)
 
 #### Unit 2 - Player Positioning ####
+- [Player Positioning](player-position)
 - [Unit 2 - Introduction](unit-2-introduction)
 - [Create a new Project for Prototype 2](create-new-project-prototype-2)
 - [Add the Player, Animals, and Food](add-player-animals-food)
