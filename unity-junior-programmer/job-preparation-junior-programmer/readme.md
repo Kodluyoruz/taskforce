@@ -93,30 +93,34 @@ Altyazı: James Turnage-Lannan
 Liseden ve arada kaldığım bir avuç perakende işinden yaklaşık 2-3 yıl sonra, bir QA Games Tester pozisyonu için bir iş ilanı buldum. İş ilanı aşağıdaki gibi gereksinimleri listeledi:
 - Video oyunları oynamayı seviyor olmalı
 - Ayrıntılara dikkat edilmelidir
- -  yazma ve iletişim becerilerine sahip olmalı
-             ● Başkalarıyla iyi çalışmalı
+- İyi yazma ve iletişim becerilerine sahip olmalı
+- Başkalarıyla iyi çalışmalı
  
 Başvuruyu doldurdum ve yaklaşık iki hafta sonra benimle mülakat yapmak isteyen bir geri arama ile karşılaştım. Heyecanlıydım ama bir yandan da korkuyordum. Bu, video oyun endüstrisindeki hayalimdeki işe doğru büyük bir adımdı ama QA Tester olmanın gerçekten ne anlama geldiği konusunda kesinlikle hiçbir eğitimim veya fikrim yoktu.
+
 Röportajdan önce araştırmamı yaptım ve işin nasıl olacağına dair bir resim çizmeye yardımcı olan makaleler ve videolar buldum ve bu beni daha da korkuttu. Araştırmaların çoğu, QA Test Uzmanı olmanın bir kabus olduğuna inanmamı sağladı. Araştırma bana uzun saatler çalışacağımı, aylarca her gün aynı seviyede bir oyun oynamaya zorlanacağımı ve oyun altın olduktan sonra (yayınlanmaya hazır) sonunda dönmem istenmeyerek işten çıkarılacağımı söyledi. Tüm bunları öğrenmeme rağmen, işi hala istediğimi biliyordum.
+
 Röportaj günü yaklaştı ve prezentabl görünmek için çaba harcadım ve 30 dakika erken geldim. Her zamanki gibi gergindim ve deneyim veya eğitim eksikliğimden dolayı zaten en kötüsünden korkuyordum. Görüşme zamanı hızla yaklaşırken sinirlerimi hızla sistemimden dışarı atmak zorunda kaldım.
+
 Görüşmeyi yapan kişiyle görüştüm ve görüşme için küçük, kapalı bir odaya girdik. Bana sorulan sorular:
-              	● Giriş (rolüyle liderlik ediyor, şirketin kim olduğu/ne yaptıkları)
-              	● Benimle iş deneyiminizden bahseder misiniz?
-              	● Bu rolle ilginizi çeken nedir?
-              	● Bana oyun deneyiminizden bahsedin. Onlara ne kadar yatırım yapıyorsunuz?
-              	● Bir oyunda bir hatayla karşılaştığınız bir zamanı anlatın.
-                       ● Bu hatayı deneyimlemek için attığınız adımları yazabilir misiniz? (bir parça kağıt
-                 	üzerinde)
-             	● Lojistik (çalışma saatleri, beklentiler, ücret vb.)
+- Giriş (rolüyle liderlik ediyor, şirketin kim olduğu/ne yaptıkları)
+- Benimle iş deneyiminizden bahseder misiniz?
+- Bu rolle ilginizi çeken nedir?
+- Bana oyun deneyiminizden bahsedin. Onlara ne kadar yatırım yapıyorsunuz?
+- Bir oyunda bir hatayla karşılaştığınız bir zamanı anlatın.
+- Bu hatayı deneyimlemek için attığınız adımları yazabilir misiniz? (bir parça kağıt üzerinde)
+- Lojistik (çalışma saatleri, beklentiler, ücret vb.)
+
 Ömür boyu sürecek gibi görünen sorulardan sonra görüşme bitti ve bana ayırdığım zaman için teşekkür edildi ve ilk ve son kez olacağını düşündüğüm şey için binadan çıktım. Yaklaşık 3 gün sonra, bir sözleşmeli QA Tester olarak bir iş teklifiyle geri arandım!
 
-Adım 6:  Özet ve sonraki adımlar
+### Adım 6:  Özet ve sonraki adımlar
 İş arama ve yerleşme yolculuğunuza başlarken lütfen buraya geri dönün ve sizden sonra bu yola çıkanlara yardım edin.
-Yorum yapma özelliklerimizi kullanın ve Unity Learners Connect Group ‘ta yayınlayın:
-              ● İş arama ve mülakat deneyimlerinizi paylaşın.
-              ● Öğrendiklerinizden tavsiyelerde bulunun.
-              ● Bir sonraki Junior Programmer iş arayanlar grubuna başlarken yardım edin!
-Öğrenme yolculuğunuzda bir sonraki adım,  Introduction to real-time experience design tutorial ‘da(Gerçek zamanlı deneyim tasarımına giriş eğitiminde) ve bir sonraki Design and Publish Your Original Game: Unity USC Games Unlocked course ‘a (orjinal oyununuzu tasarlayın ve yayınlayın:Unity USC Oyunları açın Kursuna) katılmaktır. Bu kurs, Çevik Tasarım sürecini tanıtır ve bir oyun oluştururken size rehberlik eder. Bu kurs oyun merkezli olsa da, herhangi bir gerçek zamanlı proje üretmek için tasarım sürecini kullanmaya devam edebilirsiniz. Portföyünüzde sergilemek üzere ek bir proje oluşturmak için bu kursu almanızı öneririz.
+Yorum yapma özelliklerimizi kullanın ve [Unity Learners Connect Group ‘ta](https://connect.unity.com/g/unity-learners) yayınlayın:
+- İş arama ve mülakat deneyimlerinizi paylaşın.
+- Öğrendiklerinizden tavsiyelerde bulunun.
+- Bir sonraki Junior Programmer iş arayanlar grubuna başlarken yardım edin!
+
+Öğrenme yolculuğunuzda bir sonraki adım,  [Introduction to real-time experience design tutorial](https://learn.unity.com/tutorial/introduction-to-real-time-3d-experience-design?architecture=true&pathwayId=5f7e17e1edbc2a5ec21a20af&missionId=5f779f1eedbc2a00201f3e5e)‘da(Gerçek zamanlı deneyim tasarımına giriş eğitiminde) ve bir sonraki [Design and Publish Your Original Game: Unity USC Games Unlocked course ‘a](https://learn.unity.com/course/design-and-publish-your-original-game-unity-usc-games-unlocked) (orjinal oyununuzu tasarlayın ve yayınlayın:Unity USC Oyunları açın Kursuna) katılmaktır. Bu kurs, Çevik Tasarım sürecini tanıtır ve bir oyun oluştururken size rehberlik eder. Bu kurs oyun merkezli olsa da, herhangi bir gerçek zamanlı proje üretmek için tasarım sürecini kullanmaya devam edebilirsiniz. Portföyünüzde sergilemek üzere ek bir proje oluşturmak için bu kursu almanızı öneririz.
 
 
 
