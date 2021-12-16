@@ -1,4 +1,4 @@
-# NoSQL- Mongodb
+# NoSQL-Mongodb
 
 #### NoSQL Database ####
 -Introduction
