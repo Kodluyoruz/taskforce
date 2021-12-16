@@ -66,13 +66,13 @@
 - [Ders Özeti](lab-1-recap)
 
 #### Introduction to Project Management and Teamwork ####
-- [Recap the phases of production](recap-phases-production)
-- [Title](title-a-3)
-- [Design documents and project plans](design-documents-project-plans)
-- [Managing projects and tracking progress](managing-project-tracking-progress)
-- [Identify tools to support your project management and tracking](identify-tools-support-your-project-management-tracking)
-- [Preparing to publish](preparing-publish)
-- [Releasing your project](releasing-your-project)
+- [Üretim aşamalarını özetleyin](recap-phases-production)
+- [Başlık](title-a-3)
+- [Tasarım belgeleri ve proje planları](design-documents-project-plans)
+- [Projeleri yönetmek ve ilerlemeyi izlemek](managing-project-tracking-progress)
+- [Proje yönetiminizi ve izlemenizi destekleyecek araçları belirleyin](identify-tools-support-your-project-management-tracking)
+- [Yayınlamaya hazırlanıyor](preparing-publish)
+- [Projenizi yayınlamak](releasing-your-project)
 
 #### Unit 2 - Player Positioning ####
 - [Oyuncu Konumlandırma](player-position)
@@ -185,13 +185,13 @@
 - [Genel Bakış](challenge-3-overview)
 - [Uyarı](challenge-3-warning)
 
-#### Bonus Features 3 ####
-- [Bonus Features 3 Overview](bonus-features-3-overview)
-- [Easy: Randomize obstacles](easy-randomize-obstacles)
-- [Medium: Double jump](medium-double-jump)
-- [Hard: Dash ability and score](hard-dash-ability-score)
-- [Expert: Game start animation](expert-game-start-animation)
-- [Hints and solution walkthrough](hints-solutionwalkthrough-bonus-3)
+#### Bonus Özellikler 3 ####
+- [Bonus Özellikler 3 Genel Bakış](bonus-features-3-overview)
+- [Kolay: Engelleri rastgele düzenleyin](easy-randomize-obstacles)
+- [Orta: Çift atlama](medium-double-jump)
+- [Zor: Atılma yeteneği ve puanı](hard-dash-ability-score)
+- [Uzman: Oyun başlatma animasyonu](expert-game-start-animation)
+- [İpuçları ve çözüm yolu](hints-solutionwalkthrough-bonus-3)
 
 #### Lab 3 - Oyuncu Kontrolül ####
 - [Lab 3 Oyuncu Kontrolü](lab-3-player-control)
@@ -202,14 +202,14 @@
 - [Ders Özeti](lesson-recap-lab-3)
 
 #### Unit 4 - Gameplay Mechanics ####
-- [Game Play Introduction](game-play-introduction)
-- [Watch Where You’re Going - Introduction](unit-4-introduction)
-- [Create project and open scene](create-project-open-scene)
-- [Set up the player and add a texture](set-up-player-add-texture)
-- [Create a focal point for the camera](create-focal-point-for-camera)
-- [Rotate the focal point by user input](rotate-focal-point-user-input)
-- [Add forward force to the player](add-forward-force-to-player)
-- [Move in direction of focal point](move-direction-foca-point)
+- [Game Play Griş](game-play-introduction)
+- [Nereye Gittiğinizi İzleyin - Giriş](unit-4-introduction)
+- [Proje oluştur ve sahneyi aç](create-project-open-scene)
+- [Oynatıcıyı kurun ve bir doku ekleyin](set-up-player-add-texture)
+- [Kamera için bir odak noktası oluşturun](create-focal-point-for-camera)
+- [Kullanıcı girişi ile odak noktasını döndürün](rotate-focal-point-user-input)
+- [Oyuncuya ileri kuvvet ekleyin](add-forward-force-to-player)
+- [Odak noktası yönünde hareket et](move-direction-foca-point)
 - [Ders Özeti](lesson-4-1-recap)
 
 #### Oyuncuyu Takip Etmek ####
@@ -226,7 +226,7 @@
 - [PowerUp ve CountDown](powerUp-and-countDown)
 - [Bir PowerUp seçin ve hazırlayın](choose-prepare-powerup)
 - [Çarpışmada PowerUp’ı yok edin](destroy-powerup-collision)
-- [Düşmanı ve PowerUp’ı test edinp](test-for-enemy-powerup)
+- [Düşmanı ve PowerUp’ı test edin](test-for-enemy-powerup)
 - [PowerUp ile ekstra geri tepme uygulayın](apply-extra-knockback-with-powerup)
 - [PowerUp için CountDown Rutini Oluşturunp](create-countdown-routine-for-powerup)
 - [Bir güç açma göstergesi ekleyin](add-powerup-indicator)
@@ -285,14 +285,14 @@
 - [Ders Özeti](lesson-5-2-recap)
 
 #### Game Over ####
-- [Game Over Introduction](game-over-introduction)
-- [Create a Game Over text object](create-game-over-text-object)
-- [Make GameOver text appear](make-gameOver-text-appear)
-- [Create GameOver function](create-gameOver-function)
+- [Game Over Giriş](game-over-introduction)
+- [Game Over metin nesnesi oluşturun](create-game-over-text-object)
+- [GameOver metninin görünmesini sağla](make-gameOver-text-appear)
+- [GameOver fonksiyonu oluştur](create-gameOver-function)
 - [Stop spawning and score on GameOver](stop-spawning-score-gameOver)
-- [Add a Restart button](add-restart-button)
-- [Make the restart button work](make-restart-button-work)
-- [Show restart button on game over](show-restart-button-on-game-over)
+- [Yeniden Başlat butonunu ekle](add-restart-button)
+- [Yeniden başlatma butonunun çalışmasını sağlayın](make-restart-button-work)
+- [Oyun bittiğinde yeniden başlat butonunu göster](show-restart-button-on-game-over)
 - [Ders Özeti](lesson-5-3-recap)
 
 ####  Zorluk Nedir? ####
@@ -384,23 +384,4 @@
 
 #### Sunum: Programlama teorisi iş başında ####
 - [Sunum: Programlama teorisi iş başında](submission-programming-theory-action)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
