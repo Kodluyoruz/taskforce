@@ -1,1 +1,0 @@
-Multi-model Type explained
