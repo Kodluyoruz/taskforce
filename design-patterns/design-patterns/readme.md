@@ -1,4 +1,4 @@
-design-patterns
+
 
 - 0:00:00 Introduction
 - 0:01:40 What are Design Patterns? 
