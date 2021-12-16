@@ -7,7 +7,7 @@
 - [SQL vs NoSQL](sql-and-nosql/)
 - [Setting Up](setting-up/)
 - [Tabuler Type](tabular-type/)
-- [Document Type]()
+- [Document Type](document-type/)
 - [Key-value Type]()
 - [Graph Type]()
 - [Multi-model Type explained]()
