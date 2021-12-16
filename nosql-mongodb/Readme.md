@@ -3,7 +3,7 @@
 #### NoSQL Database ####
 - [Introduction](introduction/)
 - [What is NoSQL?](what-is-noSQL/)
-- [Why use noSQL?]()
+- [Why use noSQL?](why-use-nosql/)
 - [SQL vs NoSQL]()
 - [Setting Up]()
 - [Tabuler Type]()
