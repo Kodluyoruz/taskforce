@@ -5,7 +5,7 @@
 - [What is NoSQL?](what-is-noSQL/)
 - [Why use noSQL?](why-use-nosql/)
 - [SQL vs NoSQL](sql-and-nosql/)
-- [Setting Up]()
+- [Setting Up](setting-up/)
 - [Tabuler Type]()
 - [Document Type]()
 - [Key-value Type]()
