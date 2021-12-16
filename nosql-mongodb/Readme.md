@@ -8,7 +8,7 @@
 - [Setting Up](setting-up/)
 - [Tabuler Type](tabular-type/)
 - [Document Type](document-type/)
-- [Key-value Type]()
+- [Key-value Type](key-value-type/)
 - [Graph Type]()
 - [Multi-model Type explained]()
 - [Project 1]()
