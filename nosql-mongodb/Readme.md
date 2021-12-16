@@ -11,7 +11,7 @@
 - [Document Type](document-type/)
 - [Key-value Type](key-value-type/)
 - [Graph Type](graph-type/)
-- [Multi-model Type explained]()
+- [Multi-model Type explained](multi-model-type-explanied/)
 - [Project 1]()
 - [Project 2]()
 - [Where to go next]()
