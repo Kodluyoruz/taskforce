@@ -1,12 +1,12 @@
 # MongoDB Cheat Sheet
 
-## Tüm Veritabanını Göster
+## Tüm Veri tabanını Göster
 
 ```
 show dbs
 ```
 
-## Mevcut Veritabanını Göster
+## Mevcut Veri tabanını Göster
 
 ```
 db
