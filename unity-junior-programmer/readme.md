@@ -29,32 +29,32 @@
 
 #### High Speed Chase ####
 - [Giriş](lesson1-3-intro)
-- [Add a speed variable for your vehicle](add-speed-variable-for-your-vehicle)
-- [Create a new script for the camera](create-new-script-for-camera)
-- [Add an offset to the camera position](add-offset-camera-position)
-- [Make the offset into a Vector3 variable](make-offset-into-vector3-variable)
-- [Smooth the Camera with LateUpdate](smooth-Camera-with-LateUpdate)
-- [Edit the playmode tint color](edit-playmode-tint-color)
-- [Lesson Recap](lesson1-3-lesson-recap)
+- [Aracınız için bir hız değişkeni ekleyin](add-speed-variable-for-your-vehicle)
+- [Kamera için yeni bir script oluşturun](create-new-script-for-camera)
+- [Kamera konumuna bir ofset ekleyin](add-offset-camera-position)
+- [Ofseti bir Vector3 değişkenine dönüştürün](make-offset-into-vector3-variable)
+- [LateUpdate ile Kamerayı Pürüzsüzleştirin](smooth-Camera-with-LateUpdate)
+- [playmod’un renk tonunu düzenleyin](edit-playmode-tint-color)
+- [Ders Özeti](lesson1-3-lesson-recap)
 
 #### Step into the Driver's Seat ####
-- [Step into the Driver's Seat](step-into-driver-seat)
-- [Allow the vehicle to move left/right](allow-vehicle-move-leftright)
-- [Base left/right movement on input](base-leftright-movement-input)
-- [Take control of the vehicle speed](take-control-vehicle-speed)
-- [Make vehicle rotate instead of slide](make-vehicle-rotate-instead-slide)
-- [Clean your code and hierarchy](clean-your-code-and-hierarchy)
-- [Lesson Recap](lesson1-4-recap)
+- [Sürücü Koltuğuna Geçin](step-into-driver-seat)
+- [Aracın sola/sağa hareket etmesine izin verin](allow-vehicle-move-leftright)
+- [Girdilerde temel sol/sağ hareketi](base-leftright-movement-input)
+- [Araç hızının kontrolünü elinize alın](take-control-vehicle-speed)
+- [Aracı kaydırmak yerine döndürmek](make-vehicle-rotate-instead-slide)
+- [Kodunuzu ve hiyerarşinizi temizleyin](clean-your-code-and-hierarchy)
+- [Ders Özeti](lesson1-4-recap)
 
 #### Challenge Plane Programming ####
-- [Challenge 1 - Plane Programming](challenge-1-plane-programming)
+- [Challenge 1 - Düzlem Programlama](challenge-1-plane-programming)
 
 #### Bonus Features 1 ####
-- [Bonus Features 1 - Share your Work](bonus-features-1-share-your-work)
-- [Easy: Obstacle pyramids](easy-obstacle-pyramids)
-- [Medium: Oncoming vehicles](medium-oncoming-vehicles)
-- [Hard: Camera switcher](hard-camera-switcher)
-- [Expert: Local multiplayer](expert-local-multiplayer)
+- [Bonus Özellikler 1 - Çalışmanızı Paylaşın](bonus-features-1-share-your-work)
+- [Kolay: Engel piramitleri](easy-obstacle-pyramids)
+- [Orta: Karşıdan gelen araçlar](medium-oncoming-vehicles)
+- [Zor: Kamera değiştirici](hard-camera-switcher)
+- [Uzman: Yerel çok oyunculu](expert-local-multiplayer)
 
 #### Project Design Document ####
 - [Project Design Document](projectdesign-document)
@@ -63,7 +63,7 @@
 - [Complete your Project Concept V1](complete-your-project-concept-v1)
 - [Complete your Project Timeline](complete-your-project-timeline)
 - [Complete your MVP sketch](complete-your-mvp-sketch)
-- [Recap](lab-1-recap)
+- [Ders Özeti](lab-1-recap)
 
 #### Introduction to Project Management and Teamwork ####
 - [Recap the phases of production](recap-phases-production)
@@ -75,115 +75,115 @@
 - [Releasing your project](releasing-your-project)
 
 #### Unit 2 - Player Positioning ####
-- [Player Positioning](player-position)
-- [Unit 2 - Introduction](unit-2-introduction)
-- [Create a new Project for Prototype 2](create-new-project-prototype-2)
-- [Add the Player, Animals, and Food](add-player-animals-food)
-- [Get the user’s horizontal input](get-users-horizontal-input)
-- [Move the player left-to-right](move-player-left-right)
-- [Keep the player inbounds](keep-player-inbounds)
-- [Clean up your code and variables](clean-up-your-code-variables)
-- [Lesson Recap](lesson-2-1-recap)
+- [Oyuncu Konumlandırma](player-position)
+- [Ünite 2 - Giriş](unit-2-introduction)
+- [Prototip 2 için yeni bir Proje oluşturun](create-new-project-prototype-2)
+- [Oyuncuyu, Hayvanları ve Yiyecekleri Ekleyin](add-player-animals-food)
+- [Kullanıcının yatay girişini alın](get-users-horizontal-input)
+- [Oyuncuyu soldan sağa hareket ettirin](move-player-left-right)
+- [Oyuncuyu sahada tut](keep-player-inbounds)
+- [Kodunuzu ve değişkenlerinizi temizleyin](clean-up-your-code-variables)
+- [Ders Özeti](lesson-2-1-recap)
 
 #### Food Flight ####
-- [Food Flight](food-flight)
-- [Make the projectile fly forwards](make-projectile-fly-forwards)
-- [Make the projectile into a prefab](make-projectile-into-prefab)
-- [Test for spacebar press](test-spacebar-press)
-- [Launch projectile on spacebar press](launch-projectile-spacebar-press)
-- [Make animals into prefabs](make-animals-into-prefabs)
-- [Destroy projectiles offscreen](destroy-projectiles-offscreen)
-- [Destroy animals offscreen](destroy-animals-offscreen)
-- [Lesson Recap](lesson-2-2-recap)
+- [Yiyecek Uçuşu](food-flight)
+- [Merminin ileriye doğru uçmasını sağlayın](make-projectile-fly-forwards)
+- [Mermiyi hazır bir yapı haline getirin](make-projectile-into-prefab)
+- [Boşluk çubuğuna basmayı test edin](test-spacebar-press)
+- [Boşluk çubuğuna basarak mermiyi başlatın](launch-projectile-spacebar-press)
+- [Hayvanları prefabrike yapın](make-animals-into-prefabs)
+- [Mermileri ekran dışında yok edin](destroy-projectiles-offscreen)
+- [Ekran dışındaki hayvanları yok edin](destroy-animals-offscreen)
+- [Ders Özeti](lesson-2-2-recap)
 
 #### Random Animal Stampede ####
-- [Random Animal Stampede](random-animal-stampede)
-- [Create a spawn manager](create-spawn-manager)
-- [Spawn an animal if S is pressed](spawn-animal-if-s-is-pressed)
-- [Spawn random animals from array](spawn-random-animals-from-array)
-- [Randomize the spawn location](randomize-spawn-location)
-- [Change the perspective of the camera](change-perspective-camera)
-- [Lesson Recap](lesson-2-3-recap)
+- [Rastgele Hayvan Kaçışması](random-animal-stampede)
+- [Bir spawn (yumurtlama) yöneticisi oluşturun](create-spawn-manager)
+- [S'ye basıldığında bir hayvan doğurun](spawn-animal-if-s-is-pressed)
+- [Diziden rastgele hayvanlar üretin](spawn-random-animals-from-array)
+- [Doğma yerini rastgele belirleyin](randomize-spawn-location)
+- [Kamera perspektifini (açısını) değiştirin(değiştirmek)](change-perspective-camera)
+- [Ders Özeti](lesson-2-3-recap)
 
 #### Collision Decisions ####
-- [Collision Decisions](collision-decisions)
-- [Make a new method to spawn animals](make-new-method-spawn-animals)
-- [Spawn the animals at timed intervals](spawn-animals-timed-intervals)
-- [Add collider and trigger components](add-collider-trigger-components)
-- [Destroy objects on collision](destroy-objects-collision)
-- [Trigger a “Game Over” message](trigger-game-over-message)
-- [Lesson Recap](lesson-2-4-recap)
+- [Çarpışma Kararları](collision-decisions)
+- [Hayvanları yumurtlatmak için yeni bir yöntem yapın](make-new-method-spawn-animals)
+- [Hayvanları belirli aralıklarla yumurtlatın](spawn-animals-timed-intervals)
+- [Çarpıştırıcı ekleyin ve bileşenleri tetikleyin](add-collider-trigger-components)
+- [Çarpışma anında nesneleri yok edin](destroy-objects-collision)
+- [Bir "Oyun Bitti" mesajını tetikleyin](trigger-game-over-message)
+- [Ders Özeti](lesson-2-4-recap)
 
 #### Challenge 2 - Play Fetch ####
-- [Challenge 2 - Play Fetch](challenge-2-play-fetch)
+- [Challenge 2 - Fetch Oyunu](challenge-2-play-fetch)
 - [Daha Fazla Challenge](more-challenge-4-6)
 
 #### Bonus Features 2 ####
-- [Bonus Features 2 Overview](bonus-features-2-overview)
-- [Easy: Vertical player movement](easy-vertical-player-movement)
-- [Medium: Aggressive animals](medium-aggressive-animals)
-- [Hard: Game user interface](hard-game-user-interface)
-- [Expert: Animal hunger bar](expert-animal-hunger-bar)
-- [Hints and solution walkthrough](hints-and-solution-walkthrough-bonus-2)
+- [Bonus Features 2 Genel Bakış](bonus-features-2-overview)
+- [Kolay: Dikey oyuncu hareketi](easy-vertical-player-movement)
+- [Orta: Agresif hayvanlar](medium-aggressive-animals)
+- [Zor: Oyun kullanıcı arayüzü](hard-game-user-interface)
+- [Uzman: Hayvan açlığı çubuğu](expert-animal-hunger-bar)
+- [İpuçları ve çözüm önerileri](hints-and-solution-walkthrough-bonus-2)
 
 #### New Project with Primitives ####
-- [New Project with Primitives](new-project-primitives)
-- [Create a new Project and rename your scene](create-new-project-rename-your-scene)
-- [Create a background plane](create-background-plane)
-- [Create primitive Player with a new material](create-primitive-player-with-new-material)
-- [Position camera based on project type](position-camera-based-project-type)
-- [Enemies, obstacles, projectiles & materials](enemies-obstacles-projectiles-materials)
-- [Export a Unity Package backup file](export-unity-package-backup-file)
-- [Lesson Recap](lesson-lab2-recap)
+- [Primitive’lerle Yeni Proje](new-project-primitives)
+- [Yeni bir Proje oluşturun ve sahnenizi yeniden adlandırın](create-new-project-rename-your-scene)
+- [Bir arkaplan düzlemi oluşturun](create-background-plane)
+- [Yeni bir malzeme ile primitive bir Oyuncu oluşturun](create-primitive-player-with-new-material)
+- [Proje türüne göre kamerayı konumlandırın](position-camera-based-project-type)
+- [Düşmanlar, engeller, atılan cisimler ve malzemeler](enemies-obstacles-projectiles-materials)
+- [nity Package yedekleme dosyasını dışa aktarın](export-unity-package-backup-file)
+- [Ders Özeti](lesson-lab2-recap)
 
 #### Unit 3 - Sound and Effects ####
-- [Sound and Effects Introduction](jump-force-introduction)
-- [Jump Force Introduction](unit-3-introduction)
-- [Open prototype & change background](open-prototype-change-background)
-- [Choose and set up a player character](choose-set-up-player-character)
-- [Make player jump at start](make-player-jump-start)
-- [Make player jump if spacebar pressed](make-player-jump-if-spacebar-pressed)
-- [Tweak the jump force and gravity](tweak-the-jump-force-and-gravity)
-- [Prevent player from double-jumping](prevent-player-from-double-jumping)
-- [Make an obstacle and move it left](make-obstacle-move-left)
-- [Create a spawn manager](create-spawn-manager-lesson-3-1)
-- [Spawn obstacles at intervals](spawn-obstacles-intervals)
-- [Lesson Recap](lesson-3-1-recap)
+- [Ses ve Efektler Giriş](jump-force-introduction)
+- [Zıplama Kuvveti Giriş](unit-3-introduction)
+- [Prototipi aç ve arka planı değiştir](open-prototype-change-background)
+- [Bir oyuncu karakteri seçin ve ayarlayın](choose-set-up-player-character)
+- [Oyuncunun başlangıçta zıplamasını sağlayın](make-player-jump-start)
+- [Boşluk çubuğuna basıldığında oyuncunun zıplamasını sağlayın](make-player-jump-if-spacebar-pressed)
+- [Atlama kuvvetini ve yerçekimini değiştirin](tweak-the-jump-force-and-gravity)
+- [Oyuncunun çift zıplamasını engelle](prevent-player-from-double-jumping)
+- [Bir engel yapın ve sola hareket ettirin](make-obstacle-move-left)
+- [Bir Spawn Manager oluşturun](create-spawn-manager-lesson-3-1)
+- [Aralıklarla engeller ortaya çıkarın](spawn-obstacles-intervals)
+- [Ders Özeti](lesson-3-1-recap)
 
-#### Make the World Whiz By ####
-- [Make the World Whiz By](make-the-world-whiz-by)
-- [Create a script to repeat background](create-script-repeat-background)
-- [Reset position of background](reset-position-background)
-- [Fix background repeat with collider](fix-background-repeat-with-collider)
-- [Add a new game over trigger](add-new-game-over-trigger)
-- [Stop MoveLeft on gameOver](stop-moveLeft-gameOver)
-- [Stop obstacle spawning on gameOver](stop-obstacle-spawning-gameOver)
-- [Destroy obstacles that exit bounds](destroy-obstacles-that-exit-bounds)
-- [Lesson Recap](lesson-3-2-recap)
+#### Dünyayı Hızlandırın ####
+- [Dünyayı Hızlandırın](make-the-world-whiz-by)
+- [Arka planı tekrarlamak için bir komut dosyası oluşturun](create-script-repeat-background)
+- [Arka planın konumunu sıfırlayın](reset-position-background)
+- [Collider ile arka plan tekrarını düzeltin](fix-background-repeat-with-collider)
+- [Trigger üzerinden yeni bir oyun ekleyin](add-new-game-over-trigger)
+- [gameOver'da MoveLeft'i durdurun](stop-moveLeft-gameOver)
+- [gameOver'da engellerin oluşmasını durdurun](stop-obstacle-spawning-gameOver)
+- [Sınırlardan çıkan engelleri yok edin](destroy-obstacles-that-exit-bounds)
+- [Ders Özeti](lesson-3-2-recap)
 
-#### Don't Just Stand There ####
-- [Don't Just Stand There](dont-just-stand-there)
-- [Explore the player’s animations](explore-players-animations)
-- [Make the player start off at a run](make-player-start-off-run)
-- [Set up a jump animation](set-up-jump-animation)
-- [Adjust the jump animation](adjust-jump-animation)
-- [Set up a falling animation](set-up-fallinganimation)
-- [Keep player from unconscious jumping](keep-player-from-unconscious-jumping)
-- [Lesson Recap](lesson-3-3-recap)
+#### Orada Öylece Durma ####
+- [Orada Öylece Durma](dont-just-stand-there)
+- [Oyuncunun animasyonlarını keşfedin](explore-players-animations)
+- [Oyuncunun başlangıçta koşmasını sağlayın](make-player-start-off-run)
+- [Bir atlama animasyonu ayarlayın](set-up-jump-animation)
+- [Atlama animasyonunu ayarlayın](adjust-jump-animation)
+- [Düşme animasyonunu ayarlayın](set-up-fallinganimation)
+- [Oyuncunun baygın iken zıplamasını engelleyin](keep-player-from-unconscious-jumping)
+- [Ders Özeti](lesson-3-3-recap)
 
-#### Particles and Sound Effects ####
-- [Particles and Sound Effects](particles-sound-effects)
-- [Customize an explosion particle](customize-explosion-particle)
-- [Play the particle on collision](play-particle-collision)
-- [Add a dirt splatter particle](add-dirt-splatter-particle)
-- [Add music to the camera object](add-music-camera-object)
-- [Declare variables for Audio Clips](declare-variables-audio-clips)
-- [Play Audio Clips on jump and crash](play-audio-clips-jump-crash)
-- [Lesson Recap](lesson-3-4-recap)
+#### Parçacıklar ve Ses Efektleri ####
+- [Parçacıklar ve Ses Efektleri](particles-sound-effects)
+- [Bir patlama parçacığını özelleştirin](customize-explosion-particle)
+- [Parçacığı çarpışmada oynatın](play-particle-collision)
+- [Kir sıçratma parçacığı ekleyin](add-dirt-splatter-particle)
+- [Kamera nesnesine müzik ekleyin](add-music-camera-object)
+- [Ses Klipleri için değişkenleri bildirin](declare-variables-audio-clips)
+- [Zıplayınca Ve Çarpınca Ses Klibi Çalma](play-audio-clips-jump-crash)
+- [Ders Özeti](lesson-3-4-recap)
 
-#### Balloons, Bombs, & Booleans ####
-- [Overview](challenge-3-overview)
-- [Warning](challenge-3-warning)
+#### Balonlar, Bombalar ve Boolean’lar ####
+- [Genel Bakış](challenge-3-overview)
+- [Uyarı](challenge-3-warning)
 
 #### Bonus Features 3 ####
 - [Bonus Features 3 Overview](bonus-features-3-overview)
@@ -193,13 +193,13 @@
 - [Expert: Game start animation](expert-game-start-animation)
 - [Hints and solution walkthrough](hints-solutionwalkthrough-bonus-3)
 
-#### Lab 3 - Player Control ####
+#### Lab 3 - Oyuncu Kontrolül ####
 - [Lab 3 Oyuncu Kontrolü](lab-3-player-control)
-- [Create PlayerController and plan your code](create-playerController-plan-your-code)
-- [Basic movement from user input](basic-movement-from-user-input)
-- [Constrain the Player’s movement](constrain-players-movement)
-- [Code Cleanup and Export Backup](code-cleanup-export-backup)
-- [Lesson Recap](lesson-recap-lab-3)
+- [1 PlayerController oluşturun ve kodunuzu planlayın](create-playerController-plan-your-code)
+- [Kullanıcı girdisinden temel hareket](basic-movement-from-user-input)
+- [Oyuncunun hareketini sınırlayın](constrain-players-movement)
+- [Kod Temizleme ve Yedeklemeyi Dışa Aktarma](code-cleanup-export-backup)
+- [Ders Özeti](lesson-recap-lab-3)
 
 #### Unit 4 - Gameplay Mechanics ####
 - [Game Play Introduction](game-play-introduction)
@@ -210,79 +210,79 @@
 - [Rotate the focal point by user input](rotate-focal-point-user-input)
 - [Add forward force to the player](add-forward-force-to-player)
 - [Move in direction of focal point](move-direction-foca-point)
-- [Lesson Recap](lesson-4-1-recap)
+- [Ders Özeti](lesson-4-1-recap)
 
-#### Follow the Player ####
-- [Follow the Player Introduction](follow-the-player-introduction)
-- [Add an enemy and a physics material](add-enemy-physicsmaterial)
-- [Create enemy script to follow player](create-enemy-script-to-follow-player)
-- [Create a lookDirection variable](create-lookDirection-variable)
-- [Create a Spawn Manager for the enemy](create-spawn-manager-for-enemy)
-- [Randomly generate spawn position](randomlygenerate-spawn-position)
-- [Make a method return a spawn point](make-method-return-spawn-point)
-- [Lesson Recap](lesson-4-2-recap)
+#### Oyuncuyu Takip Etmek ####
+- [Oyuncuyu Takip Etmek Giriş](follow-the-player-introduction)
+- [Bir Düşman ve Bir Fizik Materyali Ekleme](add-enemy-physicsmaterial)
+- [Oyuncuyu Takip Etmek İçin Düşman Komut Dosyası Oluşturma](create-enemy-script-to-follow-player)
+- [Bir lookDirection Değişkeni Oluşturma](create-lookDirection-variable)
+- [Düşman İçin Bir Doğma Yöneticisi (Spawn Manager) Oluşturma](create-spawn-manager-for-enemy)
+- [Rastgele Doğma Noktası Oluşturma](randomlygenerate-spawn-position)
+- [return methodunu Bir Doğma Noktası Yapma](make-method-return-spawn-point)
+- [Ders Özeti](lesson-4-2-recap)
 
-#### PowerUp and CountDown ####
-- [PowerUp and CountDown](powerUp-and-countDown)
-- [Choose and prepare a powerup](choose-prepare-powerup)
-- [Destroy powerup on collision](destroy-powerup-collision)
-- [Test for enemy and powerup](test-for-enemy-powerup)
-- [Apply extra knockback with powerup](apply-extra-knockback-with-powerup)
-- [Create Countdown Routine for powerup](create-countdown-routine-for-powerup)
-- [Add a powerup indicator](add-powerup-indicator)
-- [Lesson Recap](lesson-4-3-recap)
+#### PowerUp ve CountDown ####
+- [PowerUp ve CountDown](powerUp-and-countDown)
+- [Bir PowerUp seçin ve hazırlayın](choose-prepare-powerup)
+- [Çarpışmada PowerUp’ı yok edin](destroy-powerup-collision)
+- [Düşmanı ve PowerUp’ı test edinp](test-for-enemy-powerup)
+- [PowerUp ile ekstra geri tepme uygulayın](apply-extra-knockback-with-powerup)
+- [PowerUp için CountDown Rutini Oluşturunp](create-countdown-routine-for-powerup)
+- [Bir güç açma göstergesi ekleyin](add-powerup-indicator)
+- [Ders Özeti](lesson-4-3-recap)
 
-#### For-Loops For Waves ####
-- [For-Loops For Waves](for-loops-for-waves)
-- [Write a for-loop to spawn 3 enemies](write-for-loop-spawn-3-enemies)
-- [Give the for-loop a parameter](give-for-loop-parameter)
-- [Destroy enemies if they fall off](destroy-enemies-if-they-fall-off)
-- [Increase enemyCount with waves](increase-enemyCount-with-waves)
-- [Spawn Powerups with new waves](spawn-powerups-with-new-waves)
-- [Lesson Recap](lesson-4-4-recap)
+#### Düşman Dalgaları İçin For-Döngüleris ####
+- [Düşman Dalgaları İçin For-Döngüleri](for-loops-for-waves)
+- [3 düşman oluşturmak için bir for döngüsü yazın](write-for-loop-spawn-3-enemies)
+- [For-döngüsüne bir parametre verin](give-for-loop-parameter)
+- [Düşmanlar eğer düşerlerse onları yok edin](destroy-enemies-if-they-fall-off)
+- [Düşman sayısını (enemyCount) dalgalarla artırın ](increase-enemyCount-with-waves)
+- [Yeni dalgalarla birlikte Powerups oluşturun](spawn-powerups-with-new-waves)
+- [Ders Özeti](lesson-4-4-recap)
 
 #### Challenge 4 - Soccer Scripting ####
-- [Overview](challenge-4-overview)
-- [Warning](challenge-4-warning)
+- [Genel Bakış](challenge-4-overview)
+- [Uyarı](challenge-4-warning)
 
-#### Bonus Features 4 ####
-- [Bonus Features 4 Overview](bonus-features-4-overview)
-- [Easy: Harder enemy](easy-harder-enemy)
-- [Medium: Homing rockets](medium-homing-rockets)
-- [Hard: Smash attack](hard-smash-attack)
-- [Expert: Boss battle](expert-boss-battle)
+#### Bonus Özellikler  4 ####
+- [Bonus Özellikler 4 Genel Bakış](bonus-features-4-overview)
+- [Kolay: Daha zorlu düşman](easy-harder-enemy)
+- [Orta: Güdümlü roketler](medium-homing-rockets)
+- [Zor: Sert saldır](hard-smash-attack)
+- [Uzman: Boss savaşı](expert-boss-battle)
 
-#### Lab 4 - Basic Gameplay ####
-- [Basic Gameplay](lab4-basic-gameplay)
-- [Give objects basic movement](give-objects-basic-movement)
-- [Destroy objects off-screen](destroy-objects-off-screen)
-- [Handle object collisions](handle-object-collisions)
-- [Make objects into prefabs](make-objects-into-prefabs)
-- [Make SpawnManager spawn Prefabs](make-spawnManager-spawn-prefabs)
-- [Recap](lab-4-recap)
+#### Lab 4 - Temel Oynanış ####
+- [Temel Oynanış](lab4-basic-gameplay)
+- [Objelere temel hareket ver](give-objects-basic-movement)
+- [Objeleri ekran dışında yok et](destroy-objects-off-screen)
+- [Obje çarpışmalarını işle](handle-object-collisions)
+- [Objeleri prefab’lara dönüştür](make-objects-into-prefabs)
+- [SpawnManager'ın Prefabs oluşturmasını sağla](make-spawnManager-spawn-prefabs)
+- [Ders Özeti](lab-4-recap)
 
 #### Unit 5 - User Interface ####
-- [User Interface Introduction](user-interface-introduction)
-- [Clicky Mouse - Introduction](unit-5-introduction)
-- [Create project and switch to 2D view](create-project-switch-2D-view)
-- [Create good and bad targets](create-good-bad-targets)
-- [Toss objects randomly in the air](toss-objects-randomly-in-air)
-- [Replace messy code with new methods](replace-messy-code-with-new-methods)
-- [Create object list in Game Manager](create-object-list-game-manager)
-- [Create a coroutine to spawn objects](create-coroutine-spawn-objects)
-- [Destroy target with click and sensor](destroy-target-with-click-sensor)
-- [Lesson Recap](lesson-5-1-recap)
+- [Kullanıcı Arayüzü Giriş](user-interface-introduction)
+- [Tıklayıcı Fare - Giriş](unit-5-introduction)
+- [Proje oluşturun ve 2B görünüme geçin](create-project-switch-2D-view)
+- [Good (İyi) ve Bad (Kötü) hedefleri oluşturun](create-good-bad-targets)
+- [Nesneleri rastgele havaya fırlatın](toss-objects-randomly-in-air)
+- [Dağınık kodu yeni metodlarla değiştirin](replace-messy-code-with-new-methods)
+- [Game Manager içerisinde obje listesi oluşturun](create-object-list-game-manager)
+- [Objelerin ortaya çıkması için bir coroutine oluşturun](create-coroutine-spawn-objects)
+- [Tıklama ve sensör yoluyla hedefleri yok edin](destroy-target-with-click-sensor)
+- [Ders Özeti](lesson-5-1-recap)
 
-#### Keeping Score ####
-- [Keeping Score](keeping-score-introduction)
-- [Add Score text position it on screen](add-score-text-position-it-on-screen)
-- [Edit the Score Text’s properties](edit-score-texts-properties)
-- [Initialize score text and variable](initialize-score-text-variable)
-- [Create a new UpdateScore method](create-new-updateScore-method)
-- [Add score when targets are destroyed](add-score-when-targets-destroyed)
-- [Assign a point value to each target](assign-point-value-each-target)
-- [Add a Particle explosion](add-particle-explosion)
-- [Lesson Recap](lesson-5-2-recap)
+#### Skor Tutmak ####
+- [Skor Tutmak](keeping-score-introduction)
+- [Skor metni ekle ekranda konumlandırın](add-score-text-position-it-on-screen)
+- [Puan Metninin özelliklerini düzenleyin](edit-score-texts-properties)
+- [Puan metnini ve değişkeni başlat](initialize-score-text-variable)
+- [Yeni bir UpdateScore yöntemi oluşturun](create-new-updateScore-method)
+- [Hedefler yok edildiğinde puan ekleyin](add-score-when-targets-destroyed)
+- [Her hedefe bir puan değeri atayın](assign-point-value-each-target)
+- [Parçacık patlaması ekleyin](add-particle-explosion)
+- [Ders Özeti](lesson-5-2-recap)
 
 #### Game Over ####
 - [Game Over Introduction](game-over-introduction)
@@ -293,47 +293,47 @@
 - [Add a Restart button](add-restart-button)
 - [Make the restart button work](make-restart-button-work)
 - [Show restart button on game over](show-restart-button-on-game-over)
-- [Lesson Recap](lesson-5-3-recap)
+- [Ders Özeti](lesson-5-3-recap)
 
-#### What’s the Difficulty? ####
-- [What’s the Difficulty](whats-the-difficulty-introduction)
-- [Create Title text and menu buttons](create-Title-text-and-menu-buttons)
-- [Add a DifficultyButton script](add-DifficultyButton-script)
-- [Call SetDifficulty on button click](call-SetDifficulty-on-button-click)
-- [Make your buttons start the game](make-your-buttons-start-game)
-- [Deactivate Title Screen on StartGame](deactivate-title-screen-StartGame)
-- [Use a parameter to change difficulty](use-parameter-change-difficulty)
-- [Lesson Recap](lesson-5-4-recap)
+####  Zorluk Nedir? ####
+- [Zorluk Nedir?](whats-the-difficulty-introduction)
+- [Başlık Metni ve Menü Butonları Oluşturma](create-Title-text-and-menu-buttons)
+- [Zorluk Seviyesi İçin DifficultyButton Scripti Ekleme](add-DifficultyButton-script)
+- [Butona Tıklandığında SetDifficulty Metodunu Çağırma](call-SetDifficulty-on-button-click)
+- [Yeni Butonlarınız ile Oyunu Başlatma](make-your-buttons-start-game)
+- [StartGame’de Başlık Ekranını Devre Dışı Bırakma](deactivate-title-screen-StartGame)
+- [Zorluğu Değiştirmek İçin Parametre Atama](use-parameter-change-difficulty)
+- [Ders Özeti](lesson-5-4-recap)
 
 #### Challenge 5 - Whack-a-Food ####
-- [Overview](challenge-5-overview)
-- [Warning](challenge-5-warning)
+- [Genel Bakış](challenge-5-overview)
+- [Uyarı](challenge-5-warning)
 
-#### Bonus Features 5 ####
-- [Bonus Features 5 Overview](bonus-Features-5-Overview)
-- [Easy: Lives UI](easy-lives-ui)
-- [Medium: Music volume](medium-music-volume)
-- [Hard: Pause menu](hard-pause-menu)
-- [Expert: Click-and-swipe](expert-click-and-swipe)
+#### Bonus Özellikler 5 ####
+- [Bonus Özellikler 5 Genel Bakış](bonus-Features-5-Overview)
+- [Kolay: Lives UI](easy-lives-ui)
+- [Orta: Müzik sesi](medium-music-volume)
+- [Zor: Pause menüsü](hard-pause-menu)
+- [Uzman: Tıkla-ve-kaydır](expert-click-and-swipe)
 
-#### Lab 5 - Swap out your Assets ####
-- [Swap out your Assets](swap-out-your-assets)
-- [Import and browse the asset library](import-browse-asset-library)
-- [Replace player with new asset](replace-player-with-new-asset)
-- [Browse the Asset store](browse-asset-store)
-- [Replace all non-player primitives](replace-all-non-player-primitives)
+#### Lab 5 - Assetlerini geçir ####
+- [Assets kitaplığını içe aktarın ve göz atın](swap-out-your-assets)
+- [Oynatıcıyı yeni assetsla değiştirin](import-browse-asset-library)
+- [Assets mağazasına göz atın](replace-player-with-new-asset)
+- [Oyuncu olmayan tüm temel öğeleri değiştirin](browse-asset-store)
+- [Arka plan dokusunu değiştirin](replace-all-non-player-primitives)
 - [Replace the background texture](replace-background-texture)
-- [Recap](lab-5-recap)
+- [Ders Özeti](lab-5-recap)
 
-#### Introduction to user feedback and testing ####
-- [Introduction to user feedback and testing](introduction-to-user-feedback-and-testing)
+#### Kullanıcı geri bildirimine ve testine giriş ####
+- [Kullanıcı geri bildirimine ve testine giriş](introduction-to-user-feedback-and-testing)
 
-#### Next Steps - Introduction ####
-- [Project Optimization - Introduction](project-Optimization-introduction)
-- [Variable attributes](variable-attributes)
-- [Unity Event Functions](unity-event-functions)
+#### Sonraki Adımlar - Giriş ####
+- [Proje Optimizasyonu - Giriş](project-Optimization-introduction)
+- [Değişken özellikleri](variable-attributes)
+- [Unity Event Fonksiyonları](unity-event-functions)
 - [Object Pooling](object-pooling)
-- [Lesson Recap](lesson-6-1-recap)
+- [Ders Özeti](lesson-6-1-recap)
 
 #### Research and Troubleshooting ####
 - [Make the vehicle use forces](make-the-vehicle-use-forces)
@@ -344,46 +344,46 @@
 - [Lesson Recap](lesson-6-2-recap)
 - [Sharing your Projects](lesson-6-3-sharing-your-projects)
 
-#### ECS Survival Guide ####
-- [ECS Survival Guide](ecs-gurvival-guide)
+#### ECS Hayatta Kalma Rehberi ####
+- [ECS Hayatta Kalma Rehberi](ecs-gurvival-guide)
 
-#### Career research and preparation ####
-- [Career research and preparation](career-research-preparation)
+#### Kariyer araştırması ve hazırlık ####
+- [Kariyer araştırması ve hazırlık](career-research-preparation)
 
-#### Introduction to portfolios ####
-- [Introduction to portfolios](introduction-to-portfolios)
+#### Portfolyolara Giriş ####
+- [Portfolyolara Giriş](introduction-to-portfolios)
 
-#### Junior Programmer: Manage scene flow and data ####
-- [Junior Programmer: Manage scene flow and data](junior-programmer-manage-scene-flow-and-data)
-- [Title](title)
-- [Set up Version Control](setup-version-control)
-- [Explore the sample project](explore-sample-project)
-- [Principles of object-oriented programming](principles-object-oriented-programming)
-- [Create a scene flow](create-scene-flow)
-- [Implement data persistence between scenes](implement-data-persistence-between-scenes)
-- [Implement data persistence between sessions](implement-data-persistence-between-sessions)
+#### Junior Programmer: Sahne akışını ve verilerini yönetin ####
+- [Junior Programmer: Sahne akışını ve verilerini yönetin](junior-programmer-manage-scene-flow-and-data)
+- [Başlık](title)
+- [Sürüm kontrolünü ayarla](setup-version-control)
+- [Örnek projeyi keşfedin](explore-sample-project)
+- [Nesne yönelimli programlamanın ilkeleri](principles-object-oriented-programming)
+- [Bir sahne akışı oluşturun](create-scene-flow)
+- [Sahneler arasında veri kalıcılığı uygulayın](implement-data-persistence-between-scenes)
+- [Oturumlar arasında veri kalıcılığı uygulayın](implement-data-persistence-between-sessions)
 
-#### Submission: Data persistence in a new repo ####
-- [Submission: Data persistence in a new repo](submission-data-persistence-new-repo)
-- [7.5 Implement data persistence](implement-data-persistence-7-5)
+#### Gönderim: Yeni bir depoda veri kalıcılığı ####
+- [Gönderim: Yeni bir depoda veri kalıcılığı](submission-data-persistence-new-repo)
+- [7.5 Veri kalıcılığını uygulayın](implement-data-persistence-7-5)
 
-#### Abstraction in object-oriented programming ####
-- [Abstraction in object-oriented programming](abstraction-object-oriented-programming)
+#### Nesne yönelimli programlamada soyutlama ####
+- [Nesne yönelimli programlamada soyutlama](abstraction-object-oriented-programming)
 
-#### Inheritance and Polymorphism in object-oriented programming ####
-- [Inheritance and Polymorphism in object-oriented programming](inheritance-polymorphism-object-orientedprogramming)
+#### Nesne yönelimli programlamada kalıtım ve polimorfizm ####
+- [Nesne yönelimli programlamada kalıtım ve polimorfizm](inheritance-polymorphism-object-orientedprogramming)
 
-#### Encapsulation in object-oriented programming ####
-- [Encapsulation in object-oriented programming](encapsulation-object-oriented-programming)
+#### Nesne yönelimli programlamada kapsülleme ####
+- [Nesne yönelimli programlamada kapsülleme](encapsulation-object-oriented-programming)
 
-#### Profile code to identify issues ####
-- [Profile code to identify issues](profile-code-identify-issues)
+#### Sorunları belirlemek için profil kodu ####
+- [Sorunları belirlemek için profil kodu](profile-code-identify-issues)
 
 #### Job preparation: Junior Programmer ####
 - [Job preparation: Junior Programmer](job-preparation-junior-programmer)
 
-#### Submission: Programming theory in action ####
-- [Submission: Programming theory in action](submission-programming-theory-action)
+#### Sunum: Programlama teorisi iş başında ####
+- [Sunum: Programlama teorisi iş başında](submission-programming-theory-action)
 
 
 
