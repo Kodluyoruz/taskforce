@@ -4,28 +4,28 @@
 - [Unity'ye Giriş](course-intro)
 - [Unity'yi İndir](install-unity-software)
 
-#### Unit 1: Start Your 3D Engines ####
+#### Unit 1: 3D Motorlarınızı çalıştırın ####
 - [Ünite 1-Giriş](unit1-intro)
-- [Start your 3D Engines](start-your-3D-engines)
-- [Make a Course Folder and New Project](make-course-folder-new-project)
-- [Import assets and open Prototype 1](import-assets-open-prototype1)
-- [Add your vehicle to the scene](add-your-vehicle-scene)
-- [Add an obstacle and reposition it](add-obstacle-reposition-it)
-- [Locate your camera and run the game](locate-your-camera-run-game)
-- [Move the camera behind the vehicle](move-camera-behind-vehicle)
-- [Customize the interface layout](customize-interface-layout)
-- [Lesson Recap](lesson1-1-lesson-recap)
+- [3D Motorlarınızı çalıştırın](start-your-3D-engines)
+- [Ders Klasörü ve Yeni Proje Oluşturun](make-course-folder-new-project)
+- [Assetleri içe aktarın ve Prototip 1'i açın](import-assets-open-prototype1)
+- [Aracınızı sahneye ekleyin](add-your-vehicle-scene)
+- [Bir engel ekleyin ve yeniden konumlandırın](add-obstacle-reposition-it)
+- [Kameranızı bulun ve oyunu çalıştırın](locate-your-camera-run-game)
+- [Kamerayı aracın arkasına taşıyın](move-camera-behind-vehicle)
+- [Arayüz düzenini özelleştirin](customize-interface-layout)
+- [Ders Özeti](lesson1-1-lesson-recap)
 
-#### Pedal to the Metal ####
+#### Metal Pedalı ####
 - [Giriş](lesson1-2-intro)
-- [Create and apply your first script](create-apply-your-first-script)
-- [Add a comment in the Update method](add-comment-Update-method)
-- [Give the vehicle a forward motion](give-vehicle-forward-motion)
-- [Use a Vector3 to move forward](use-vector3-move-forward)
-- [Customize the vehicle’s speed](customize-vehicles-speed)
-- [Add RigidBody components to objects](add-RigidBody-components-objects)
-- [Duplicate and position the obstacles](duplicate-position-obstacles)
-- [Lesson Recap](lesson1-2-lesson-recap)
+- [İlk komut dosyanızı oluşturun ve uygulayın](create-apply-your-first-script)
+- [Güncelleme yöntemine bir yorum ekleyin](add-comment-Update-method)
+- [Araca ileri bir hareket verin](give-vehicle-forward-motion)
+- [İlerlemek için bir Vector3 kullanın](use-vector3-move-forward)
+- [Aracın hızını özelleştirin](customize-vehicles-speed)
+- [Nesnelere RigidBody bileşenleri ekleyin](add-RigidBody-components-objects)
+- [Engelleri çoğaltın ve konumlandırın](duplicate-position-obstacles)
+- [Ders Özeti](lesson1-2-lesson-recap)
 
 #### High Speed Chase ####
 - [Giriş](lesson1-3-intro)
