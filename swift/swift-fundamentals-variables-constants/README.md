@@ -1,0 +1,1 @@
+# Değişken ve Sabitler #

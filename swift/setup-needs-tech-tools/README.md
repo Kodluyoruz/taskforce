@@ -1,0 +1,1 @@
+# Teknik Donanım ve Araçlar #
