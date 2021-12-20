@@ -1,23 +1,23 @@
 # MongoDB Cheat Sheet
 
-## Tüm Veri tabanını Göster
+## Tüm Veri Tabanını Göster
 
 ```
 show dbs
 ```
 
-## Mevcut Veri tabanını Göster
+## Mevcut Veri Tabanını Göster
 
 ```
 db
 ```
 
-## Veri tabanı Oluştur Veya Değiştir
+## Veri tabanı Oluştur veya Değiştir
 ```
 use acme
 ```
 
-## Mevcut Veri tabanını Sil
+## Mevcut Veri Tabanını Sil
 
 ```
 db.dropDatabase()
@@ -29,7 +29,7 @@ db.dropDatabase()
 db.createCollection('posts')
 ```
 
-## Veri tabanındaki Tabloları Göster
+## Veri Tabanındaki Tabloları Göster
 
 ```
 show collections
@@ -129,7 +129,7 @@ db.posts.find().forEach(function(doc) {
 })
 ```
 
-## Bir tane Veri Bul
+## Bir Tane Veri Bul
 
 ```
 db.posts.findOne({ category: 'News' })
@@ -249,7 +249,7 @@ db.posts.find({
 })
 ```
 
-## Büyük Veya Küçük
+## Büyük veya Küçük
 
 ```
 db.posts.find({ views: { $gt: 2 } })
