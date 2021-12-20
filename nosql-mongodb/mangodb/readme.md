@@ -12,7 +12,7 @@ show dbs
 db
 ```
 
-## Veri tabanı Oluştur veya Değiştir
+## Veri Tabanı Oluştur veya Değiştir
 ```
 use acme
 ```
