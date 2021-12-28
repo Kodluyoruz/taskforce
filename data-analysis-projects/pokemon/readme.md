@@ -43,5 +43,5 @@ Aşağıdaki soruları kod yazarak ve veri analizi yaparak cevaplamanızı istiy
 
 6) Pokemonların sağlık, saldırı, savunma, özel atak, özel savunma ve hız değerlerini inceleyin. Analiz yapın.
 
-
+Bu soruların cevaplarını ve veri analizini merak ediyorsanız [buradaki](https://github.com/Kodluyoruz/taskforce/blob/main/data-analysis-projects/pokemon/pokemon_analysis.ipynb) notebook'ta bulabilirsiniz. <br>
 

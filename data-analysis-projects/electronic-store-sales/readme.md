@@ -39,3 +39,4 @@ Aşağıdaki soruları kod yazarak ve veri analizi yaparak cevaplamanızı istiy
 
 6) Hangi ürün en çok para kazandırmış?
 
+Bu soruların cevaplarını ve veri analizini merak ediyorsanız [buradaki](https://github.com/Kodluyoruz/taskforce/blob/main/data-analysis-projects/electronic-store-sales/electronic_store_sales_analysis.ipynb) notebook'ta bulabilirsiniz. <br>
