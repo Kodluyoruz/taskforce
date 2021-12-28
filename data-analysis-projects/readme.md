@@ -2,3 +2,4 @@
 
 #### Data Analysis Projects ####
 - [Pokemon Veri Analizi](pokemon/)
+- [Elektronik Dükkan Satışları Analizi](electronic-store-sales/)
