@@ -27,7 +27,15 @@ Veri setimizdeki sütunların anlamlarını bir inceleyelim: <br>
 
 Aşağıdaki soruları kod yazarak ve veri analizi yaparak cevaplamanızı istiyoruz. Başarılar! <br>
 
-1) 
+1) Satışların en yüksek olduğu ay hangisi? Bu ayda ne kadar para kazanılmış?
 
-2) 
+2) Hangi şehir en çok miktarda parayı kazanmış?
+
+3) Müşterilerin ürün satın alma ihtimalini artırmak için günün hangi saatinde reklamlar gösterilmeli?
+
+4) Hangi ürünler birlikte en çok satılmış?
+
+5) Hangi ürün en çok satıldı? Neden?
+
+6) Hangi ürün en çok para kazandırmış?
 
