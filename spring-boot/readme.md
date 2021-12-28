@@ -1,3 +1,3 @@
 # Spring Boot
 ### Spring Boot ###
-- [Spring Boot](introduction/)
+- [Spring Boot](spring-boot-tutorial/)
