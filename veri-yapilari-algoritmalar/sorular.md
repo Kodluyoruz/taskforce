@@ -167,7 +167,7 @@
 
 - Aşağıdakilerden hangisi Linked List için doğrudur ?
     - Belleği array'e göre daha fazla kullanırlar.
-    - Yeni bir eleman eklerken bellekte yeni bir alan açılır.
+    - Yeni bir eleman eklerken bellekte yeni bir alan açılmaz.
     - Her bir düğüm kendinden sonraki düğümün adresini tutar.
     - Linked-List'ler diziler gibi yan yana olmak zorundadır.
 

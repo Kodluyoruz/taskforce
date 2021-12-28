@@ -14,4 +14,4 @@ Yığınlara eleman eklerken veya çıkartırken bazı methodlar uygulanır. Bun
 
 [stack-short-defition](https://runestone.academy/runestone/books/published/pythonds/BasicDS/WhatisaStack.html)
 
-[stack-defition-with-code](studytonight.com/data-structures/stack-data-structure)
+[stack-defition-with-code](https://www.studytonight.com/data-structures/stack-data-structure)
