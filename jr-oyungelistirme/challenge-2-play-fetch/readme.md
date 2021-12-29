@@ -2,6 +2,9 @@
 
 Topların gökyüzünden rastgele düştüğü ve yere çarpmadan önce onları yakalamak için köpeğinizi göndermeniz gereken bu mücadeleyi programlamak için dizi ve rastgele sayı üretme becerilerinizi kullanın. Bu zorluğu tamamlamak için, değişkenlerinizin doğru şekilde atandığından, if ifadelerinizin doğru programlandığından, çarpışmalarınızın mükemmel bir şekilde algılandığından ve nesnelerin rastgele oluşturulduğundan emin olmanız gerekir.
 
+Dosya ve assetleri [buradan](https://drive.google.com/file/d/1Ok6m24mee7UQ-9250XKFmAGvZBoC-h_r/view?usp=sharing) indirebilirsiniz.
+
+
 **Challenge Sonucu:**
 
 - Ekranın üzerinde rastgele bir x konumunda rastgele bir top (3'lü) oluşturulur
