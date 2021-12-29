@@ -2,6 +2,9 @@
 
 Fizik, kayan arka planlar ve özel efektler bilginizi kasabada yüzen, jetonları toplarken patlayıcılardan kaçınan bir balona uygulayın. Hatalarla dolu olduğu için bu projede çok fazla sorun giderme yapmanız gerekecek.
 
+Dosya ve assetleri [buradan](https://drive.google.com/file/d/1oer82duyMFiz4mrVYcWgzmftbNwAwASw/view?usp=sharing) indirebilirsiniz.
+
+
 **Meydan Okuma Sonucu:**
 
 - Oyuncu boşluk çubuğunu tutarken balon yukarı doğru yüzer
