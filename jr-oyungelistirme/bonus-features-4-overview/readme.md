@@ -5,6 +5,8 @@ Bu eğitimde sunulan Easy (Kolay), Medium (Orta), Hard (Zor) ve Expert (Çok zor
 
 Bu eğitim tamamen isteğe bağlıdır, ancak becerilerini yeni bir düzeye çıkarmak isteyen herkese şiddetle tavsiye edilir.
 
+Dosya ve assetleri [buradan](https://drive.google.com/file/d/18rCy89WKBW-FtH89fxLw1zTr2M_8g6yH/view?usp=sharing) indirebilirsiniz.
+
 ### Adım1: Genel Bakış
 
 Bu eğitim tamamen isteğe bağlıdır. Bu ekstra zorlukla ilgilenmiyorsan, Submission Gallery'nin yukarısındaki sayfanın en altına git ve  "Skip submission and continue"yu seçin. Bu bonus özelliklerden herhangi birini denemeden kursu başarıyla tamamlayabilirsin.
