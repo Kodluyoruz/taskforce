@@ -6,6 +6,9 @@ Meydan Okuma Sonucu:
 ●   	Yukarı/aşağı okları uçağın burnunu yukarı ve aşağı yatırır
 ●   	Kamera uçarken uçağın yanından takip ediyor
 
+Dosya ve assetlere [buradan](https://drive.google.com/file/d/1VFBFCkd9BOA7P0FmEbGOy7uTuWZ4qg2q/view?usp=sharing) erişebilirsiniz.
+
+
 ### Adım: 1. Meydan Okumaya Genel Bakış
 - Prototip 1 projenizi açın
 - İndirmek için tıklayın, sıkıştırılmış klasörü çıkarın ve ardından .unitypackage'i projenize aktarın
