@@ -11,7 +11,7 @@ Swift programlama dilini öğrenmek tek başına yeterli olmuyor. Apple'ın pek 
 ### 3. Design Patterns
 Uygulamamızı belirli standartlara göre parçalara bölmek ve bu parçalar arasındaki ilişkiyi kesin çizgiler ile belirlemek gerekiyor. İşte bu aşamada design patternlar devereye giriyor. Sektörde sıklıkla kullanılan design patternlara bu seride değineceğiz.
 
-### 4. Firebase
+### 4. Firebase
 Firebase 2014 yılında Google tarafından satın alındı ve bu gün mobil uygulama geliştirmede sıklıkla başvurduğumuz bir platform halini aldı. Uygulama geliştiricinin işini kolaylaştıracak pek çok aracı bünyesinde bulunduran bu platformu da eğitim süresince inceleyeceğiz.
 
 ### 5. Üçüncü Parti Kütüphaneler
@@ -20,5 +20,6 @@ Apple geliştirici topluluğu düşündüğünüzden de kalabalık ve bu büyük
 ### 6. UI/UNIT Test
 Projeler her gün biraz daha karmaşıklaşıyor ve haliyle test edilmesi de zorlaşıyor. Gün gittikçe popülerleşen bir kavram olan test yazımına da değineceğiz.
 
-### 7. CI/CD Süreçleri
+### 7. CI/CD Süreçleri
+
 Yazılım geliştirme aşamasında sıklıkla tekrar ettiğimiz işlemleri otomatize ederek zamandan tasarruf etmemize yarayan bu yöntemleri de eğitim süresince inceleyeceğiz.
