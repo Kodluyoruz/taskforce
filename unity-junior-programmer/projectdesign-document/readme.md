@@ -6,7 +6,3 @@ Bu ilk Lab oturumunda, bu kursta kişisel bir projeyi başarılı bir şekilde o
 Tasarım Belgesi, konsept, zaman çizelgesi ve minimum uygulanabilir ürünün ön taslağı dahil doldurulacaktır.
 
 Dosya ve assetlere aşağıdaki linklerden ulaşabilirsiniz.
-
-[Project Design Doc](https://docs.google.com/document/d/1FR-GYr2hL67d6MleWTTP-mXfCHVZTM1Mko77MFodxFg/copy)
-[Project Design Doc-Word](https://drive.google.com/file/d/1eAZU_Qm1S4azJTRe48i5tYdi4rDnxJvx/view?usp=sharing)
-[Project Design Doc-Pdf](https://docs.google.com/document/d/15JsZR9wJ7qWS07ab4mHSGaYzSUc-hp7W/edit?usp=sharing&ouid=105620304610030322629&rtpof=true&sd=true)
