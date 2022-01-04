@@ -4,9 +4,6 @@ Tasarım ve geliştirme dünyasındaki çoğu iş takım çalışmasına ihtiya�
 
 Dosya ve assetleri aşağıdaki linklerden indirebilirsiniz.
 
-[Example of Project Charter](https://drive.google.com/file/d/1qnN4cevA0W_M_FOcwn7p_bgs-aI7qIf9/view?usp=sharing)
-[Project Design Doc TEMPLATE](https://drive.google.com/file/d/1I-YnkctscmdgW7O8X5UHvnpVbur7zJEy/view?usp=sharing)
-
 ### Adım 1: Genel bakış
 Proje yönetimi ve takım çalışması tasarım ve geliştirme rolleri için çoğunlukla “sosyal beceriler” olarak ifade edilir. Proje yönetimi bazen tekniğe kaysa da, karşılaşabileceğin birçok farklı proje yönetimi yöntemi var, iyi bir proje yöneticisi olmak genel olarak iletişim ve organizasyon yetenekleriyle birlikte takım çalışması gerektirir.
 
