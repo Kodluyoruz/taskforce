@@ -2,6 +2,7 @@
 
 
 #### Yazılım Nedir? ####
+-  [Web Geliştirmeye Giriş](webgelistirmeyegiris-js)
 - [Yazılım Nedir?](yazilim-nedir)
 
 #### Araştırma Yapma ####
