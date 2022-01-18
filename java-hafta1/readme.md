@@ -1,6 +1,7 @@
 # Java-1.Hafta
 
 #### Herkes İçin Temel Dersler ####
+- [Web Geliştirmeye Giriş](webgelistirmeyegiris-java)
 - [Yazılım Nedir?](yazilim-nedir)
 - [Google'lamak](google/)
 - [Developer'lar İçin Platformların Önemi](platformların-önemi/)
