@@ -2,7 +2,6 @@
 
 #### Jr. Frontend 101 ####
 
-- [Ön Değerlendirme](on-degerlendirme)
 - [Yazılım, Kodlama, Internet Konseptleri 1](yazilim-internet-kodlama-1/)
 - [Yazılım, Kodlama, Internet Konseptleri 2](yazilim-internet-kodlama-2/)
 - [Visual Studio Code Kurulumu](visual-studio-code-kurulumu/)
@@ -26,7 +25,6 @@
 - [GIT - Proje İçindeki Birden Fazla Dosyanın Versiyon Kontrol Sistemine Eklenebilmesi](git-proje-i̇cindeki-birden-fazla-dosyanin-versiyon-kontrol-sistemine-eklenebilmesi/)
 - [GitHub'a Projemizin Eklenmesi ve Diğer Repo Hosting Web Platformları](githuba-projemizin-eklenmesi-ve-diger-repo-hosting-web-platformlari/)
 - [Markdown Nedir ? Nasıl Kullanırız ?](markdown-nedir-nasil-kullaniriz-/)
-- [Ödev 1](git-odev1/)
 - [HTML Kullanılacak Tüm Dökümanlar](kullanilacak-tum-dokumanlar/)
 - [HTML Nedir](html-nedir/)
 - [En Çok Kullanılan HTML Etiketleri Nelerdir](en-cok-kullanilan-html-etiketleri-nelerdir/)
@@ -55,7 +53,7 @@
 - [Inline(Etikete Özel), Internal(Aynı Dosyada) ve External(CSS Dosyasında) CSS Kullanımı](inlineetikete-ozel,-internalayni-dosyada-ve-externalcss-dosyasinda-css-kullanimi/)
 - [Açıklama Satırları ile Çalışmak ve Genel Font Özellikleri](aciklama-satirlari-ile-calismak-ve-genel-font-ozellikleri/)
 - [CSS ile Class ve ID Kullanımı](css-ile-class-ve-id-kullanimi/)
-- [Ödev 1](css-odev1/)
+
 
 #### Jr. Frontend 103 ####
 - [Bootstrap Nedir?](bootstrap-nedir/)
@@ -74,52 +72,3 @@
 - [Ödev 2](bootstrap-odev2/)
 
 
-- [Kullanılacak Tüm Dökümanlar](kullanilacak-tum-dokumanlar/)
-- [Node.js Kurulumu](node-kurulumu/)
-
-- [JavaScript Nedir?](javascript-nedir/)
-- [Birçok Platformda Hello World ve Hello World'ün Önemi](helloworld/)
-
-- [Değişken Tanımlama: var, ES6 ile Birlikte Gelen let ve const Değişken Tanımlama Yapısının Kullanımı, var ile Arasındaki Farklar](degisken-tanimlama-var-es6-ile-birlikte-gelen-let-ve-const-degisken-tanimlama-yapisinin-kullanimi-var-ile-arasindaki-farklar/)
-- [Number Veri Turu Kullanımı, Temel Aritmetik İşlemler ve İşlem Önceliği ve Arttırma ve Azaltma İşlemleri](number-veri-turu-kullanimi-temel-aritmetik-islemler-ve-islem-onceligi-ve-arttirma-ve-azaltma-islemleri/)
-- [Boolean Veri Türü İle Çalışmak](boolean-veri-turu-ile-calismak/)
-- [Değişken Türünü Kontrol Etmek ve Değişken Türünü Değiştirmek](degisken-turunu-kontrol-etmek-ve-degisken-turunu-degistirmek/)
-- [Template Literals Kullanımı](template-literals-kullanimi/)
-- [String Veri Türü İşlemleri](string-veri-turu-i̇slemleri/)
-
-- [Document Object Model (DOM) Nedir](document-object-model-dom-nedir/)
-- [DOM içerisinden Etiket ve ID ile Öğe Seçimi](dom-icerisinden-etiket-ve-id-ile-oge-secimi/)
-- [Prompt ile Kullanıcıdan Bilgi Almak](prompt-ile-kullanicidan-bilgi-almak/)
-- [Liste içerisindeki Öğeye Erişmek ve Yeni Öğe Eklemek](liste-icerisindeki-ogeye-erismek-ve-yeni-oge-eklemek/)
-- [DOM'a CSS Class Bilgisi Eklemek veya Çıkarmak](doma-css-class-bilgisi-eklemek-veya-cikarmak/)
-
-- [Karşılaştırma Operatörleri ve Mantıksal Operatörler](karsilastirma-operatorleri-ve-mantiksal-operatorler/)
-- [Koşul Yapısı Kullanımı (if / else)](kosul-yapisi-kullanimi-if-else/)
-- [Çoklu Koşul Yapısı Kullanımı](coklu-kosul-yapisi-kullanimi/)
-- [Ternary Operatör ( Koşul ? Doğruysa : Yanlışsa) ile If Kullanımı](ternary-operator-kosul-dogruysa-yanlissa-ile-if-kullanimi/)
-- [Koşullarla Çalışmak - Bölüm Sonu Egzersizi](kosullarla-calismak-bolum-sonu-egzersizi/)
-- [Ödev 1](js-odev1/)
-
-- [Fonksiyon Nedir? Neden Kullanırız?](fonksiyon-nedir-neden-kullaniriz/)
-- [Fonsiyona Parametre (params) ve Geridönüş (return) Eklemek](fonsiyona-parametre-params-ve-geridonus-return-eklemek/)
-- [Fat Arrow () => Fonksiyonu Kullanımı](fat-arrow-fonksiyonu-kullanimi/)
-- [DOM Etkinlikleriyle Çalışmak](dom-etkinlikleriyle-calismak/)
-- [Fonksiyonlar - Bölüm Sonu Egzersizi ](fonksiyonlar-bolum-sonu-egzersizi/)
-
-- [LocalStorage ile Veri Eklemek, Düzenlemek ve Silmek](localstorage-ile-veri-eklemek-duzenlemek-ve-silmek/)
-- [LocalStorage içerisine Farklı Türde Veriler Eklemek](localstorage-icerisine-farkli-turde-veriler-eklemek/)
-- [localStorage - Bölüm Sonu Egzersizi](localstorage-bolum-sonu-egzersizi/)
-
-- [Form ve Form Submit Yönetimi](form-ve-form-submit-yonetimi/)
-- [Input içerisinden Değer Almak](input-icerisinden-deger-almak/)
-- [Formlarla Çalışmak - Bölüm Sonu Egzersizi](formlarla-calismak-bolum-sonu-egzersizi/)
-
-- [Dizi (Array) Oluşturmak ve Dizi İçindeki Elemanlara Ulaşmak](dizi-array-olusturmak-ve-dizi-icindeki-elemanlara-ulasmak/)
-- [Diziye Yeni Eleman Eklemek, Çıkartmak ve Güncellemek](diziye-yeni-eleman-eklemek-cikartmak-ve-guncellemek/)
-- [Array (Dizi) Metotlarının Kullanımı ve Array içinde Array Oluşturma](array-dizi-metotlarinin-kullanimi-ve-array-icinde-array-olusturma/)
-
-- [For Döngüsü Kullanımı](for-dongusu-kullanimi/)
-- [Break ve Continue Kullanımı](break-ve-continue-kullanimi/)
-- [While Döngüsü](while-dongusu/)
-- [Try ve Catch Kullanımı](try-ve-catch-kullanimi/)
-- [Son Değerlendirme](son-degerlendirme)
