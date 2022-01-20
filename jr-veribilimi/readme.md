@@ -1,7 +1,7 @@
 #
 #### Jr. Veri Bilimi Patikası 101 ####
 
-- [Ön Değerlendirme](vb-on-degerlendirme)
+
 -  [Programlama Nedir?](programlama-nedir/)
 -  [Jupyter Notebook](jupyter/)
 -  [Temel Veri Tipleri](temel-veri-tipleri/)
@@ -26,10 +26,6 @@
 - [for](for/)
 - [Continue-Break](continue-break/)
 - [List](list/)
-- [Tuple](tuple/)
-- [in](in/)
-- [Dictionary](dictionary/)
-- [Set](set/)
 - [Non-scalar Veri Tiplerinde For](non-scalar-for/)
 - [Split-Join](join-split/)
 - [List Comprehension](list-comprehension/)
@@ -44,9 +40,6 @@
 - [First Class Function](first-class-fonksiyon/)
 - [For-Function](for-fonksiyon/)
 - [Underscore Placeholder](underscore-placeholder/)
-- [fstring](fstring/)
-
-* [Proje](python-proje/)
 
 #### Jr. Veri Bilimi Patikası 102 ####
 
@@ -71,52 +64,3 @@
 - [Proje](veribilimi100-proje/)
 
 
-- [Neden Numpy?](neden-numpy/)
-- [Numpy Array](array/)
-- [Array'lere Manuel Tip Verme](array-manual-type/)
-- [Zero Array](zero-array/)
-- [Belirli Elemandan Oluşan Array Yaratmak](specific-element/)
-- [Ardışık Sayılardan Oluşan Array Oluşturmak](consecutive-array/)
-- [Bir Aralığı Belirli Sayıda Noktaya Bölmek](interval/)
-- [Normal Distribution(dağılım)'dan Örneklem Almak](normal-dist/)
-- [Random Integer'lardan Oluşan Array Oluşturmak](random-integer/)
-- [Identity Matrix](identity/)
-- [Array Operation](array-operation/)
-- [Array Attribute](attribute/)
-- [Reshape](reshape/)
-- [Concatenation](concatenation/)
-- [Stack](stack/)
-- [Split](split/)
-- [Sort](sorting/)
-- [Multidimensional Array'lerde Indexleme](indexing/)
-- [Fancy Index](fancy-index/)
-- [Subarray](subarray/)
-- [Filter](filter/)
-- [Sum](sum/)
-- [All](all/)
-- [Any](any/)
-
-
-#### Jr. Veri Bilimi Patikası 103 ####
-
-
-- [Giriş](giris/)
-- [Kullanacağımız Veri](veri/)
-- [RMSE](rmse/)
-- [Decision Tree Mantık](decision-tree/)
-- [Decision Tree-Local Optimum](local-opt/)
-- [RMSLE](rmsle/)
-- [R^2](r2/)
-- [Kategorik ve Eksik Veri Problemi](categorical-missing/)
-- [Kategorik Değişken İfade](categorical-numeric/)
-- [Kategorik Değişken Dönüşüm](categorical-transform/)
-- [Missing Value](missing-value/)
-- [Hepsi Bir arada](proc/)
-- [İlk Model](first-model/)
-- [Bootstrap](bootstrap/)
-- [Subsample](subsample/)
-- [Subsample Yeni Mantık](subsample-2/)
-- [Hyperparameters](hyperparameter/)
-- [Random Feature Selection](random-feature/)
-- [Proje](veribilimi101-proje/)
-- [Son Değerlendirme](vb-son-degerlendirme)
