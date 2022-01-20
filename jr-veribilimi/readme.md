@@ -1,6 +1,5 @@
 #
-#### Jr. Veri Bilimi Patikası 101 ####
-
+#### Pythonn Programlama ####
 
 -  [Programlama Nedir?](programlama-nedir/)
 -  [Jupyter Notebook](jupyter/)
@@ -41,7 +40,7 @@
 - [For-Function](for-fonksiyon/)
 - [Underscore Placeholder](underscore-placeholder/)
 
-#### Jr. Veri Bilimi Patikası 102 ####
+#### Veri Bilimine Giriş ####
 
 - [Nedir Bu Makine Öğrenmesi?](nedir-ml/)
 - [Veri Bilimi Nedir?](nedir-ds/)
