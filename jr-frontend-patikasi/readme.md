@@ -1,6 +1,6 @@
 # Jr. Frontend
 
-#### Jr. Frontend 101 ####
+#### Temel Dersler ####
 
 - [Yazılım, Kodlama, Internet Konseptleri 1](yazilim-internet-kodlama-1/)
 - [Yazılım, Kodlama, Internet Konseptleri 2](yazilim-internet-kodlama-2/)
@@ -14,7 +14,7 @@
 - [Terminal Kullanımı](terminal-kullanimi/)
 
 
-#### Jr. Frontend 102 ####
+#### Git ####
 
 - [GIT Kurulumu](git-kurulumu/)
 - [GIT Versiyon Kontrol Sistemi Nedir?](git-versiyon-kontrol-sistemi-nedir/)
@@ -25,6 +25,10 @@
 - [GIT - Proje İçindeki Birden Fazla Dosyanın Versiyon Kontrol Sistemine Eklenebilmesi](git-proje-i̇cindeki-birden-fazla-dosyanin-versiyon-kontrol-sistemine-eklenebilmesi/)
 - [GitHub'a Projemizin Eklenmesi ve Diğer Repo Hosting Web Platformları](githuba-projemizin-eklenmesi-ve-diger-repo-hosting-web-platformlari/)
 - [Markdown Nedir ? Nasıl Kullanırız ?](markdown-nedir-nasil-kullaniriz-/)
+
+
+#### HTML ####
+
 - [HTML Kullanılacak Tüm Dökümanlar](kullanilacak-tum-dokumanlar/)
 - [HTML Nedir](html-nedir/)
 - [En Çok Kullanılan HTML Etiketleri Nelerdir](en-cok-kullanilan-html-etiketleri-nelerdir/)
@@ -48,6 +52,9 @@
 - [Bölüm Sonu Çalışması 2](bolum-sonu2/)
 - [Ödev 3](html-odev3/)
 
+
+#### CSS ####
+
 - [CSS Nedir?](css-nedir/)
 - [CSS - Inline CSS Nasıl Kullanılır](css-inline-css-nasil-kullanilir/)
 - [Inline(Etikete Özel), Internal(Aynı Dosyada) ve External(CSS Dosyasında) CSS Kullanımı](inlineetikete-ozel,-internalayni-dosyada-ve-externalcss-dosyasinda-css-kullanimi/)
@@ -55,7 +62,8 @@
 - [CSS ile Class ve ID Kullanımı](css-ile-class-ve-id-kullanimi/)
 
 
-#### Jr. Frontend 103 ####
+#### Bootstrap ####
+
 - [Bootstrap Nedir?](bootstrap-nedir/)
 - [Bootstrap 4 Dökümanlarına Ulaşmak ve Bootstrap 5 Hakkında](bootstrap-4-dokumanlarina-ulasmak-ve-bootstrap-5-hakkinda/)
 - [12'lik Izgara(Grid) Sistemini Anlamak](12lik-izgaragrid-sistemini-anlamak/)
