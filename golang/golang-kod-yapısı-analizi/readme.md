@@ -7,7 +7,7 @@ Go da yazdığımız kodlar paketler halindedir. Bu sebeple yazdığımız kodla
 Peki neden main paketini kullanırız ? Yazdığımız kodun çalıştırabilir olması için belli başlı paketler kullanmamız gerekir. Bunlardan biri de main paketidir.
 
 ## Import Statement
-Bir paketteki fonksiyonları kullanmak için, pakete bir import ifadesi ile erişmemmiz gerekir.
+Bir paketteki fonksiyonları kullanmak için, pakete bir import ifadesi ile erişmemiz gerekir.
 
 ## My Code
 Import ettiğimiz veya kendi kodumuzu yazacağımız kısımdır. Burda yazdığımız ifadeler kodun içeriğini belirler.
