@@ -26,7 +26,7 @@ WHERE <koşul>;
 ```SQL
 SELECT *
 FROM film
-WHERE lenght BETWEEN 100 AND 140; -- WHERE length >= 100 AND length <= 140 ifadesi ile aynı sonucu verir.
+WHERE length BETWEEN 100 AND 140; -- WHERE length >= 100 AND length <= 140 ifadesi ile aynı sonucu verir.
 ```
 Burada dikkat edilmesi gereken nokta 100 ve 140 sınır değerleri aralığa dahildir.
 
