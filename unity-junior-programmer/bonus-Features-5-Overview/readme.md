@@ -6,7 +6,6 @@ Kolay, Orta, Zor ve Uzman Seviye olmak üzere bu eğitimde sunulmuş 4 ek özell
 
 Bu eğitim tamamen isteğe bağlı; fakat becerilerini yeni bir seviyeye taşımak isteyen herkes için şiddetle önerilir.
 
-Dosya ve assetleri [buradan](https://drive.google.com/file/d/18bpndBmFQnGafx1Q1Nvjph0JEB0DdsUs/view?usp=sharing) indirebilrsiniz.
 
 **Adım 1: Genel Bakış**
 
