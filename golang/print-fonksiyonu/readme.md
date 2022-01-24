@@ -4,7 +4,7 @@ Print ve Println fonksiyonları aldığı parametreyi veya değişkenleri olduğ
 
 fmt.Println("Merhaba") -> Merhaba
 
-Println'in print'den farkı ise, yazdırdıktan sonra gelecek olan ifade bir satır aşşağıdan başlar.
+Println'in print'den farkı ise, yazdırdıktan sonra gelecek olan ifade bir satır aşağıdan başlatır.
 
 Printf fonksiyonu print ve println gibi parametreyi olduğu gibi (raw string) yazdırır.
 
