@@ -1,5 +1,5 @@
 
-#### Pythonn Programlamaya Giriş ####
+#### Python Programlamaya Giriş ####
 
 -  [Programlama Nedir?](programlama-nedir/)
 -  [Jupyter Notebook](jupyter/)
@@ -28,7 +28,7 @@
 - [for](for/)
 - [Continue-Break](continue-break/)
 
-#### Non-scalar Veri Tipleri ####
+#### Non-Scalar Veri Tipleri ####
 - [List](list/)
 - [Non-scalar Veri Tiplerinde For](non-scalar-for/)
 - [Split-Join](join-split/)
@@ -66,7 +66,7 @@
 - [Temel Veri Tipleri](veri-tipleri/)
 - [Sürekli Değişken Diye Bir Şey Yoktur](no-continuous/)
 - 
-#### Model için Hazırlık ####
+#### Model İçin Hazırlık ####
 - [Modeller Prediction (Tahmin) Yaparken Ortak Olarak Ne Yapıyorlar?](prediction/)
 - [Veriyi Model İçin Bölmek](split-data/)
 - [Yapay Zekada Bias (Yanlılık)](ai-bias/)
