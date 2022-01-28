@@ -82,7 +82,7 @@
 - [Nesnelere RigidBody bileşenleri ekleyin](add-RigidBody-components-objects)
 - [Engelleri çoğaltın ve konumlandırın](duplicate-position-obstacles)
 - [Ders Özeti](lesson1-2-lesson-recap)
-- 
+
 #### Araca Hız Ekleme ####
 
 - [Giriş](lesson1-3-intro)
