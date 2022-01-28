@@ -70,7 +70,7 @@
 - [Kamerayı aracın arkasına taşıyın](move-camera-behind-vehicle)
 - [Arayüz düzenini özelleştirin](customize-interface-layout)
 - [Ders Özeti](lesson1-1-lesson-recap)
-- 
+
 #### Metal Pedalı ####
 
 - [Giriş](lesson1-2-intro)
