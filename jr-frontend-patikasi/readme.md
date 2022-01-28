@@ -27,7 +27,7 @@
 - [Markdown Nedir ? Nasıl Kullanırız ?](markdown-nedir-nasil-kullaniriz-/)
 
 
-#### HTML ####
+#### HTML'e Giriş ####
 
 - [HTML Kullanılacak Tüm Dökümanlar](kullanilacak-tum-dokumanlar/)
 - [HTML Nedir](html-nedir/)
@@ -37,6 +37,9 @@
 - [Açıklama Satırları Oluşturmak](aciklama-satirlari-olusturmak/)
 - [Başlıklar ve Paragraflarla Çalışmak](basliklar-ve-paragraflarla-calismak/)
 - [Html Ödev 1](html-odev1/)
+
+#### Listeler ve Diğer Özellikler ####
+
 - [Listelerle Çalışmak](listelerle-calismak/)
 - [Emmet ile Daha Hızlı HTML Yapıları Oluşturmak](emmet-ile-daha-hizli-html-yapilari-olusturmak/)
 - [Görsellerle Çalışmak](gorsellerle-calismak/)
@@ -48,6 +51,9 @@
 - [İskeletinin Genel Yapısını Anlamak](i̇skeletinin-genel-yapisini-anlamak/)
 - [Semantic(Anlamlandırılmış) HTML Etiketleri Kullanımı](semanticanlamlandirilmis-html-etiketleri-kullanimi/)
 - [Diğer HTML Etiketleri Hakkında](diger-html-etiketleri-hakkinda/)
+
+#### Alıştırmalar ####
+
 - [Bölüm Sonu Çalışması](bolum-sonu1/)
 - [Bölüm Sonu Çalışması 2](bolum-sonu2/)
 - [Ödev 3](html-odev3/)
@@ -71,6 +77,9 @@
 - [Bootstrap - Ekran Çözünürlüğü / Cihaz Duyarlı(Responsive) Kolon Yapısı Kullanımları](bootstrap-ekran-cozunurlugu-cihaz-duyarliresponsive-kolon-yapisi-kullanimlari/)
 - [Bootstrap - Satır Blokları (Row) Kullanımı](bootstrap-satir-bloklari-row-kullanimi/)
 - [Ödev 1](bootstrap-odev1/)
+
+#### Bootstrap ile Web Sitesi ####
+
 - [Bootstrap Kullanarak Web Sitesi Nasıl Yapılır (Demo)](bootstrap-kullanarak-web-sitesi-nasil-yapilir-demo/)
 - [Bootstrap Renk Strandartları, Tipografi, Margin ve Padding Kullanımı](bootstrap-renk-strandartlari,-tipgrafi,-margin-ve-padding-kullanimi/)
 - [Display Özellikleri ile Responsive Yapıya Göre İstenilen Blokların Gösterilmesi / Gizlenmesi](display-ozellikleri-ile-responsive-yapiya-gore-i̇stenilen-bloklarin-gosterilmesi-gizlenmesi/)
