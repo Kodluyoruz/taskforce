@@ -93,7 +93,7 @@
 - [LateUpdate ile Kamerayı Pürüzsüzleştirin](smooth-Camera-with-LateUpdate)
 - [playmod’un renk tonunu düzenleyin](edit-playmode-tint-color)
 - [Ders Özeti](lesson1-3-lesson-recap)
-- 
+
 #### Sürücü Modu ####
 
 - [Sürücü Koltuğuna Geçin](step-into-driver-seat)
