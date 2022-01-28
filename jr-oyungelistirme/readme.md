@@ -1,13 +1,13 @@
 # Unity Essentials ve C # Giriş
 
-#### Unity Essentials ####
+#### Unity Kurulumu ####
 - [Unity'yi İndir](install-unity-software)
 - [Proje Kurulum Süreçleri](project-setup-processes)
 - [VS Code Kurulumu](2-vscode-kurulumu/)
 - [Varsayılan Komut Düzenleyicisi İle IDE'yi Ayarla](set-your-default-script-editor-ide)
 
 
-#### C Sharp 101 ####
+#### C# Programlama Kurulumu ####
 - [C# Tanıtımı](2-csharp-tanitim/)
 
 - [Dotnet 5 Kurulumu](1-net-5-kurulumu/)
@@ -58,9 +58,8 @@
 - [Interface](9-interface/)
 - [Abstract Class](7-abtract-class/)
 
-#### Unity Junnior Programmer ####
+#### Motorlarınızı Çalıştırın ####
 
-- [Unity'ye Giriş](course-intro)
 
 - [Ünite 1-Giriş](unit1-intro)
 - [3D Motorlarınızı çalıştırın](start-your-3D-engines)
@@ -71,6 +70,8 @@
 - [Kamerayı aracın arkasına taşıyın](move-camera-behind-vehicle)
 - [Arayüz düzenini özelleştirin](customize-interface-layout)
 - [Ders Özeti](lesson1-1-lesson-recap)
+- 
+#### Metal Pedalı ####
 
 - [Giriş](lesson1-2-intro)
 - [İlk komut dosyanızı oluşturun ve uygulayın](create-apply-your-first-script)
@@ -81,6 +82,8 @@
 - [Nesnelere RigidBody bileşenleri ekleyin](add-RigidBody-components-objects)
 - [Engelleri çoğaltın ve konumlandırın](duplicate-position-obstacles)
 - [Ders Özeti](lesson1-2-lesson-recap)
+- 
+#### Araca Hız Ekleme ####
 
 - [Giriş](lesson1-3-intro)
 - [Aracınız için bir hız değişkeni ekleyin](add-speed-variable-for-your-vehicle)
@@ -90,6 +93,8 @@
 - [LateUpdate ile Kamerayı Pürüzsüzleştirin](smooth-Camera-with-LateUpdate)
 - [playmod’un renk tonunu düzenleyin](edit-playmode-tint-color)
 - [Ders Özeti](lesson1-3-lesson-recap)
+- 
+#### Sürücü Modu ####
 
 - [Sürücü Koltuğuna Geçin](step-into-driver-seat)
 - [Aracın sola/sağa hareket etmesine izin verin](allow-vehicle-move-leftright)
@@ -99,24 +104,23 @@
 - [Kodunuzu ve hiyerarşinizi temizleyin](clean-your-code-and-hierarchy)
 - [Ders Özeti](lesson1-4-recap)
 
-- [Challenge 1 - Düzlem Programlama](challenge-1-plane-programming)
+#### Bonus ####
 
-- [Bonus Özellikler 1 - Çalışmanızı Paylaşın](bonus-features-1-share-your-work)
-- [Kolay: Engel piramitleri](easy-obstacle-pyramids)
-- [Orta: Karşıdan gelen araçlar](medium-oncoming-vehicles)
+- [Düzlem Programlama](challenge-1-plane-programming)
 
-
-
-
+- [Çalışmanızı Paylaşın](bonus-features-1-share-your-work)
+- [ Engel piramitleri](easy-obstacle-pyramids)
+- [Karşıdan gelen araçlar](medium-oncoming-vehicles)
 
 
 
 
 
 
--
 
--
+
+
+
 
 
 
