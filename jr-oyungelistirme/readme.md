@@ -7,6 +7,7 @@
 - [Varsayılan Komut Düzenleyicisi İle IDE'yi Ayarla](set-your-default-script-editor-ide)
 
 #### C# Programlama Kurulumu ####
+
 - [C# Tanıtımı](2-csharp-tanitim/)
 - [Dotnet 5 Kurulumu](1-net-5-kurulumu/)
 - [Main Methodu - Namespace kavramı - System Using Direktifleri - Run](3-console-programlama/)
