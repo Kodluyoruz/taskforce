@@ -1,5 +1,5 @@
-#
-#### Pythonn Programlama ####
+
+#### Pythonn Programlamaya Giriş ####
 
 -  [Programlama Nedir?](programlama-nedir/)
 -  [Jupyter Notebook](jupyter/)
@@ -13,6 +13,9 @@
 - [Stringlerde Casting](string-casting/)
 - [Input](input/)
 - [Koda Yorum Ekleme](yorum/)
+
+#### Koşullar ve Döngüler ####
+
 - [Sayısal Verilerde Karşılaştırma](numeric-comparison/)
 - [Stringlerde Karşılaştırma](string-comparison/)
 - [Mantıksal Operatörler](logical-operator/)
@@ -24,12 +27,16 @@
 - [while](while/)
 - [for](for/)
 - [Continue-Break](continue-break/)
+
+#### Non-scalar Veri Tipleri ####
 - [List](list/)
 - [Non-scalar Veri Tiplerinde For](non-scalar-for/)
 - [Split-Join](join-split/)
 - [List Comprehension](list-comprehension/)
 - [Variable Unpacking](variable-unpacking/)
 - [Enumerate-Zip](enumerate-zip/)
+
+#### Fonksiyonlar ####
 - [Fonksiyonlar](fonksiyon-giris/)
 - [return](return/)
 - [Comment-Fonksiyon](comment-fonksiyon/)
@@ -48,6 +55,9 @@
 - [Format Değişikliği?](format/)
 - [Neden Terimler İngilizce?](neden-ing/)
 - [Veri Bilimi Şişirilmiş Bir Balon mu?](balon/)
+
+#### Makine Öğrenmesi Modelleri ####
+
 - [Supervised vs Unsupervised Learning](supervised-unsupervised/)
 - [Unsupervised Aslında Denetimsiz Değil](no-unsupervised/)
 - [Regression vs Classification](regression-classification/)
@@ -55,6 +65,8 @@
 - [Elimdeki Problem İçin Hangi Modeli Kullanmalıyım?](how-to-choose-model/)
 - [Temel Veri Tipleri](veri-tipleri/)
 - [Sürekli Değişken Diye Bir Şey Yoktur](no-continuous/)
+- 
+#### Model için Hazırlık ####
 - [Modeller Prediction (Tahmin) Yaparken Ortak Olarak Ne Yapıyorlar?](prediction/)
 - [Veriyi Model İçin Bölmek](split-data/)
 - [Yapay Zekada Bias (Yanlılık)](ai-bias/)
