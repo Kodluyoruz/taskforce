@@ -1,7 +1,6 @@
 # Unity Essentials ve C Sharp Giriş
 
 #### Unity Kurulumu ####
-
 - [Unity'yi İndir](install-unity-software)
 - [Proje Kurulum Süreçleri](project-setup-processes)
 - [VS Code Kurulumu](2-vscode-kurulumu/)
