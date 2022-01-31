@@ -1,4 +1,4 @@
-# Unity Essentials ve C Sharp Giriş
+# 
 
 #### Unity Kurulumu ####
 - [Unity'yi İndir](install-unity-software)
