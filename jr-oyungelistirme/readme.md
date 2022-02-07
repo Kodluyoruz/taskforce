@@ -1,7 +1,38 @@
 # Oyun Geliştirme
 
 
+#### Unity Kurulumu ####
 
+- [Unity'yi İndir](install-unity-software)
+- [Proje Kurulum Süreçleri](project-setup-processes)
+- [VS Code Kurulumu](2-vscode-kurulumu/)
+- [Varsayılan Komut Düzenleyicisi İle IDE'yi Ayarla](set-your-default-script-editor-ide)
+
+#### C# Programlama Kurulumu ####
+
+- [C# Tanıtımı](2-csharp-tanitim/)
+- [Dotnet 5 Kurulumu](1-net-5-kurulumu/)
+- [Main Methodu - Namespace kavramı - System Using Direktifleri - Run](3-console-programlama/)
+- [Değişkenler ve Veri Tiplerleri](4-degiskenler/)
+- [Operatorler](5-operatorler/)
+- [Tip Dönüşümleri](6-tip-donusumleri/)
+- [If-ElseIf-Ternary-If](1-if-else-yapisi-ve-ternary-if/)
+- [Switch-Case](2-switch-case/)
+- [For Loop ve Break Continue Ifadeleri](1-for-dongusu-break-continue/)
+- [While Foreach](2-while-foreach-donguleri/)
+- [Tanımlama, Erişim ve Döngülerle Dizi Kullanımı](1-dizi-tanımlama-erisim-ve-döngülerle-kullanım/)
+- [Array Sınıfı Methodları](2-array-sinifi-ve-methodlari/)
+- [Metot Tanımlama](1-metot-nedir/)
+- [Metot Overloading](2-metot-overload-nedir-ve-out-kullanimi/)
+- [Rekürsif ve Extension Metotlar](3-extension-recursive-metotlar/)
+- [Algoritma Soruları](12-odev-1/)
+- [String Metotlar](1-string-metotlar/)
+- [Datetime ve Math Sınıfları](2-datetime-metotlar/)
+- [Koleksiyonlar Nedir? Avantajları ve Dezavantajları Nelerdir?](1-koleksiyon-nedir/)
+- [Generic Koleksiyonlar ve List](2-generic-koleksiyonlar/)
+- [ArrayList](3-arraylist-nedir/)
+- [Dictionary](4-dictionary-nedir/)
+- [Koleksiyonlarla ilgili algoritma soruları](15-odev-2/)
 
 #### Nesneye Dayalı Programlama ####
 
