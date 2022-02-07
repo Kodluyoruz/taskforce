@@ -1,10 +1,6 @@
 # Oyun Geliştirme
 
-#### Unity Kurulumu ####
-- [Unity'yi İndir](install-unity-software)
-- [Proje Kurulum Süreçleri](project-setup-processes)
-- [VS Code Kurulumu](2-vscode-kurulumu/)
-- [Varsayılan Komut Düzenleyicisi İle IDE'yi Ayarla](set-your-default-script-editor-ide)
+
 
 #### C# Programlama Kurulumu ####
 
