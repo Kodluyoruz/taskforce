@@ -74,8 +74,7 @@
 - [Oturum(Session) İşlemleri](session/)
 - [Çerez(Cookie) İşlemleri](cookie/)
 - [Pratik - Login Uygulaması](login-pratik/)
-- [Oturum Çerez Yönetimi Ödev 1](oturum-cerez-yonetimi-odev-1/)
-- [Oturum Çerez Yönetimi Ödev 2](oturum-cerez-yonetimi-odev-2/)
+
 
 #### Tarih ve Zaman İşlemleri ####
 - [Tarih ve Zaman İşlemleri](tarih-ve-zaman-islemleri/)
