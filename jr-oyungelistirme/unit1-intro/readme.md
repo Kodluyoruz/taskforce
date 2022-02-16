@@ -5,4 +5,3 @@ Bu Ünitede, yüzen bir yolda yan yana hareket eden, yoldaki engellerden kaçın
 Oyuncu Kontrolü aşamasını öğreneceğiniz Ünite 1 için bir tanıtım videosu.
 
 
-Bu bölümde kullanılacak assets'e [buradan](https://drive.google.com/file/d/1k2DW6zWgWBsI0-d7XBciFtMHIBk31VpF/view?usp=sharing) ulaşabilirsiniz.
