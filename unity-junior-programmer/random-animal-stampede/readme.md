@@ -8,3 +8,4 @@ Prefabrik hayvanlarımız ekran boyunca yürüyor ve sınırların dışında yo
 
 Kullanıcı S tuşuna bastığında, rastgele seçilen bir hayvan, ekranın üst kısmında rastgele bir konumda ortaya çıkar ve oyuncuya doğru yürür.
 
+PDF'e [buradan](https://drive.google.com/file/d/12i9WFZUgZa3BmMA_Q6pOdafd4hzvs7Kg/view?usp=sharing) erişebilirsinmiz
