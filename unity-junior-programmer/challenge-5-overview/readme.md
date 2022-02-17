@@ -2,6 +2,7 @@
 
 Kafataslarından kaçınırken bir ızgarada ortaya çıkan tüm yiyecekleri almanız gereken bu köstebek benzeri meydan okuma ile Kullanıcı Arayüzü becerilerinizi test edin. Bunun alt kısmına ulaşmak için düğmeleri, fare tıklamalarını, puan takibini, dizileri yeniden başlatmayı ve zorluk ayarını hata ayıklamanız gerekecek.
 
+Dosyalara 8buradan](https://drive.google.com/file/d/1SEwZ2yN_V-yrWFhlPBPaxqGikpYLYiId/view?usp=sharing) erişebilirsiniz.
 
 **Meydan Okuma Sonucu:**
 
