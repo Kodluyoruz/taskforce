@@ -6,7 +6,7 @@ Meydan Okuma Sonucu:
 ●   	Yukarı/aşağı okları uçağın burnunu yukarı ve aşağı yatırır
 ●   	Kamera uçarken uçağın yanından takip ediyor
 
-Dosya ve assetlere erişebilirsiniz.
+Dosya ve assetlere [erişebilirsiniz.](https://drive.google.com/file/d/18cPHefVnu5Ekhyhl_x4UWsUqCzKVQBGX/view?usp=sharing)
 
 ### Adım: 1. Meydan Okumaya Genel Bakış
 - Prototip 1 projenizi açın
