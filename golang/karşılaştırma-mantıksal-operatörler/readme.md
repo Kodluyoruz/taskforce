@@ -1,7 +1,6 @@
 # Karşılaştırma ve Mantıksal Operatörler
+## Karşılaştırma Operatörleri
+İki veriyi birbiriyle kıyaslayarak bool (mantıksal) bir sonuç döndürür. Eğer karşılaştırma doğru ise true , yanlış ise false değerini döndürür.
 
-Kontrol akışı nedir? Bilgisayar belirli işlemleri yapması için verdiğimiz komutlar bütünüdür. Bu akışı programın kendi kontrol akışı belirler.
-
-Koşullu ifadeler ise eşit olma durumu, küçük veya büyük olma durumu, küçük eşit veya büyük eşit durumu gibi ifadeleri kapsar.
-
-Mantıksal operatörler ise iki ifadenin ikisininde true olma durumu (ve "&&"), iki ifadenin ikisinin false olma durumu, bir ifadenin olmaması durumu gibi ifade edilir.
+## Mantıksal Operatörler
+Birden fazla mantıksal veriyi zincirleyerek kontrol eder. Kullanılan operatöre göre çıktılanan sonuç farklılık gösterebilir.
