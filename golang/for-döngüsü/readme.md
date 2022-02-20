@@ -1,13 +1,32 @@
 # For döngüsü
+Döngü (loop), bir kod bloğunu tekrar tekrar yürütmek için kullanılır. Go, tüm döngü türlerini tek bir for anahtar sözcüğü ile yapabilir.
 
-Bir işlemi tekrarlamamız gereken durumlarda döngülerden yararlanırız. For'a bakacak olursak, belirli bir başlangıç ve bitiş noktası olan, artan ya da azalan durumlarda kullanılır. Yani 1'den 10'a kadar olan sayıların toplamı;
+Başlangıcı, bitişi ve artırım/azalım miktarı belli olan döngü türüdür. Döngü, çalışacağı şartları öncesinden bilir.
+```go
 
-toplam := 0
-
-for i := 1; i<=10; i++ {
-    toplam += i
+package main
+ 
+import "fmt"
+ 
+func main() {
+    sum := 0
+    for i := 1; i < 10; i++ {
+        sum += i
+    }
+    fmt.Println(sum)
+    // döngü kapsamında olmadığı için "i" değişkeni
+    // bu alan için tanımlı değildir
 }
+```
+  Yukarıdaki program belirli aralıktaki sayıların toplamını ekrana yazdırır. Döngü aşağıdaki durumlarda çalışır:
+  
+1.  i := 1 durumu ile başlatılır (init)
 
-gibi bir den fazla durumu topladığımız, çıkardığımız ya da nesne yönelimli programlama mantığında ilerlediğimiz durumlarda kullanılır.
+2.  i < 10 koşulu (condition) hesaplanır. Koşul sağlanıyorsa döngü gövdesi çalıştırılır, aksi halde döngü tamamlanır.
 
-Özet olarak, döngüleri gereksiz işlem yapmaktan kurtulmak için kullanıyoruz ve DRY prensibini de kullanmış oluyoruz.
+3.  i++ durumu çalıştırılır (post)
+
+4. ikinci adıma geri dön
+
+
+
