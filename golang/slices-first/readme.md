@@ -1,6 +1,8 @@
 # Slices Bölüm 1
+Go’da, dizileri doğrudan kullanmamız nadirdir. Onun yerine, dilimleri (slices) kullanırız. Dilimler, dizilerin bir bölünümünü baz alan ve temsil eden hafif yapılardır. Dilim oluşturmanın birkaç yolu mevcut, hangi yolu ne zaman kullanacağımızı daha sonra göreceğiz. İlk göreceğimiz yol, dizi oluşturmaya oldukça benzeyen bir yöntem:
 
-Slice'lar, array özelliklerinin genişletilmiş versiyonu olarak karşımıza çıkıyor. Arrayler ile aynı gösterime sahiptir. Program içerisinde tanımlarken tek farkı arraylerde uzunluk belirtirken, slicelarda belirtilmez.
+```go
 
-Örnek kod parçası;
-mySlc := []string{"Halil", "Ahmet", "Ali"} gibi
+mySlc := []string{"Halil", "Ahmet", "Ali"}
+```
+
