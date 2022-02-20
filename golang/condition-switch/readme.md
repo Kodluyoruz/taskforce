@@ -16,5 +16,6 @@ func main() {
     case 2:
         fmt.Println("num: 2")
     }
-} ```
-Yukarıdaki örnekte, switch deyimi şarta uygulanacak değeri tutar. Daha sonra case deyimleri ile sırayla koşullar sınanır. Kazanan durum gövdesi çalıştırılır.
+} 
+```
+ Yukarıdaki örnekte, switch deyimi şarta uygulanacak değeri tutar. Daha sonra case deyimleri ile sırayla koşullar sınanır. Kazanan     durum gövdesi çalıştırılır.
