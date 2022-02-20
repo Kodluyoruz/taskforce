@@ -1,7 +1,23 @@
-# If koşulu Bölüm 1
+# If koşulu
+Programlar, bir durumun doğru veya yanlış olma ihtimaline göre farklı davranışlar sergiler. Mevcut şartları sorgulamak ve programın akışını yönlendirmek için koşullu ifadelerden (kontrol yapılarından) faydalanırız.
+Bir durumu “eğer” şartı/şartları ile kontrol etmemizi sağlar.
+Örneğin, sayısal tipli bir değişkenin sahip olduğu değeri tek ya da çift olma durumuna göre kontrol etmek istiyoruz. Sayı eğer çift ise ekrana mesaj yazdıracağız.
+```go
+package main
+ 
+import "fmt"
+ 
+func main() {
+    i := 4
+ 
+    if i%2 == 0 {
+        fmt.Println("çift")
+    }
+}
+ 
+// output: çift 
+```
 
-If koşulu ne gibi durumlarda çalışır? if içerisine yazılan bir ifadenin doğru ya da yanlış olması durumuna bakar. Doğru ise içerisinde yazılan ifadeleri gerçekleştirir. Yanlış ise if koşuluna girmeden devam eder.
 
-Else if durumu, if bloğundaki durumunda doğru olmaması durumunda else if bloğundaki duruma bakılır eğer doğru ise else if bloğu içindeki ifade gerçekleşir. Yanlış ise else if bloğuna girmeden else bloğunu çalıştırır.
+ Örnekte mod operatörü ile i değişkeni kontrol ediliyor. Eğer bölümden kalan sonuç sıfır (0) ise true değeri oluşturulacak ve if       bloğu içindeki şart karşılanacaktır. Koşula uyduğu için if bloğu gövdesindeki kod parçası çalıştırılacak
 
-Else durumu, if koşulunda yanlış olduğunda if koşulu içindeki ifade çalışmaz demiştik. Tam burda if koşulunun altına yazdığımız else söz dizimi çalışır. Else bloğu içerisindeki ifadeleri gerçekleştirir.
