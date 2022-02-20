@@ -1,7 +1,7 @@
 # Zero values nedir? / Çoklu değişken nasıl oluşturulur?
+Bir satırda birden fazla değişkeni tanımlayabildiğimiz gibi değerlerini de atayabiliriz:
 
-Programlamada kendini tekrar etmemelisin. DRY([Don't Repeat Yourself](https://ceaksan.com/tr/dry-prensibi))
+'''var message, age, isAdmin = "Merhaba", 23, true
+// veya
+message, age, isAdmin := "Merhaba", 23, true'''
 
-Çoklu değişken oluştururken var ifadesini silip, tek bir var tanımlayabiliriz. Var parantezinin içine  ise daha önce tanımladığımız değişkenleri tek bir ifadeye taşımış oluruz. Böyle ifadelere çoklu değişken denir.
-
-Bir diğer yöntem ise yine tek bir var kullanarak aynı satırdan üzerinde, sırasıyla "değişkenlerin adı = değişkenlerin değerlerini" yazarak da çoklu değer ataması yapabiliriz.
