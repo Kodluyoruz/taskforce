@@ -604,7 +604,7 @@ public class PatikaDev {
 ```
 
 1. Yukarıdaki programın çıktısı nedir ?
-   - Show Metodu... (Doğru)
+   - Show metodu... (Doğru)
    - NULL
    - Derleme Hatası Verir
    - Hiçbiri olmaz
@@ -1027,7 +1027,7 @@ public class PatikaDev {
    - Math.cos();
    
 2. Java Math sınıfından 0 ile 100 arasında rastgele sayı üretmek için hangi komut kullanılır ?
-   - (int) (Math.random() * 100) (Doğru)
+   - (int) (Math.random() * 101) (Doğru)
    - Math.random() * 100
    - Math.random(100)
    - Math.random() / 100

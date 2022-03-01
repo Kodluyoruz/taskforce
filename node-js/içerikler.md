@@ -47,18 +47,11 @@
 artık Javascript kodlarını çalıştırırken tarayıcıya bağımlı olmadığımızı gördük. 
 ### [Node.js REPL Ortamı](NodejsREPL/)
 #### Sorular
-1. Node.JS çalışma ortamında "process.argv[1]" ifadesine ait konsol çıktısı ne olur?
-	- Node.js yazılımına ait dosya yolu.
-	- Çalıştırılan .js dosyasında kullanılacak 3. argüman.
-	- undefined
-	- null
-	- Çalıştırılan .js dosyasına ait dosya yolu. (Doğru)
-2. "process" nesnesi için hangisi söylenemez?
-	- Global bir nesnedir.
-	- Kullanımı için "require()" zorunludur. (Doğru)
-	- Üzerinde çalışılan işlem ile ilgili bilgiler taşır.
-	- Node versiyon bilgisi taşır.
-	- Dosya yolu bilgisi taşır.
+1. Aşağıdakilerden hangisi REPL çalışma ortamı için yanlış bir bilgidir?
+	- REPL, Read - Eval - Print - Loop birleşiminin kısaltılmış halidir.
+	- REPL, bize node.js tarafında Javascript kodlarını çalıştırmamıza olanak sağlayan bir komut sistemi sunar.
+	- Komut sisteminde ctrl+c, çalışan komutu durdurma kombinasyonudur.
+	- Komut sisteminde ctrl+d, REPL ortamını başlatma kombinasyonudur.
 #### Video
 1. (Youtube adresi yazılacak)
 	- Bu videoda; Node.js'in terminal ekranı olan REPL ortamı üzerine konuştuk. Nasıl kullanırız, kullanım avantajları ve dezavantajları nelerdir detaylıca bahsettik. 
@@ -435,7 +428,7 @@ olan Compass kurulumu da yapıldı.
 	- remove
 2. Aşağıdakilerden hangisi MongoDB özelliklerinden değildir?
 	- deleteOne
-	- decorator (Doğru)
+	- deleteMany (Doğru)
 	- insertOne
 	- find
 	- insertMany
@@ -694,7 +687,7 @@ dosyası oluşturuldu.
 		
 	- req.body	
 	- req.query
-	- req.true (Doğru)
+	- req.params (Doğru)
 	- req.id	
 	- req.slug
 	
