@@ -12,3 +12,4 @@
 - [Verimliliğin Arttırılması](verimliligin-arttırılması/)
 - [Asistanlar ile İletişim](asistanlar-ile-iletisim/)
 - [Ödevler, Projeler, Teknik Bilgi Dışında Neler Yapılabilir?](odevler-projeler-teknik-bilgi-dısında-ne-yapılabilir/)
+- [Linkedin Önemi](linkedin_onemi/)

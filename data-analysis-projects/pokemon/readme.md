@@ -2,7 +2,7 @@
 
 ## Pokemon Veri Seti
 
-Bu projede pokemonlar üzerinde veri analizi yapacağız! Veri seti dosyasına [buradan](https://raw.githubusercontent.com/yigitatesh/ml/main/datasets/pokemon.csv) ulaşabilirsiniz.
+Bu projede pokemonlar üzerinde veri analizi yapacağız! Bu veri seti 800 tane pokemonun saldırı gücü, hızı gibi değerlerinden oluşuyor. Veri seti dosyasına [buradan](https://raw.githubusercontent.com/yigitatesh/ml/main/datasets/pokemon.csv) ulaşabilirsiniz. <br>
 
 Veri setimiz genel olarak şöyle: <br>
 
@@ -25,23 +25,23 @@ Veri setimizdeki sütunların anlamlarını bir inceleyelim: <br>
 
 ## Veri Setini Okuma
 
-[Buuradaki](https://raw.githubusercontent.com/yigitatesh/ml/main/datasets/pokemon.csv) dosyayı sağ tıklayıp "Farklı Kaydet" diyerek indirip okuyabilirsiniz. Ya da direkt olarak 'pd.read_csv("https://raw.githubusercontent.com/yigitatesh/ml/main/datasets/pokemon.csv")' kodu ile okuyabilirsiniz. <br>
+[Buradaki](https://raw.githubusercontent.com/yigitatesh/ml/main/datasets/pokemon.csv) dosyayı sağ tıklayıp "Farklı Kaydet" diyerek indirip okuyabilirsiniz. Ya da direkt olarak 'pd.read_csv("https://raw.githubusercontent.com/yigitatesh/ml/main/datasets/pokemon.csv")' kodu ile okuyabilirsiniz. <br>
 
 ## Veri Analizi Soruları
 
 Aşağıdaki soruları kod yazarak ve veri analizi yaparak cevaplamanızı istiyoruz. Başarılar! <br>
 
-### 1) Hangi pokemon en yüksek saldırı (attack) gücüne sahip? 
+1) Hangi pokemon en yüksek saldırı (attack) gücüne sahip? 
 
-### 2) Saldırı ve savunma güçleri eşit olan pokemonlar kaç tane?
+2) Saldırı ve savunma güçleri eşit olan pokemonlar kaç tane?
 
-### 3) Jenerasyonlardaki pokemon sayılarının dağılımı nedir? (Görselleştirme yapabilirsiniz)
+3) Jenerasyonlardaki pokemon sayılarının dağılımı nedir? (Görselleştirme yapabilirsiniz)
 
-### 4) En çok görülen pokemon tipi nedir? (Birincil tipe bakın)
+4) En çok görülen pokemon tipi nedir? (Birincil tipe bakın)
 
-### 5) Birlikte en çok görülen tip 1 ve tip 2'ler nelerdir?
+5) Birlikte en çok görülen tip 1 ve tip 2'ler nelerdir?
 
-### 6) Pokemonların sağlık, saldırı, savunma, özel atak, özel savunma ve hız değerlerini inceleyin. Analiz yapın.
+6) Pokemonların sağlık, saldırı, savunma, özel atak, özel savunma ve hız değerlerini inceleyin. Analiz yapın.
 
-
+Bu soruların cevaplarını ve veri analizini merak ediyorsanız [buradaki](https://github.com/Kodluyoruz/taskforce/blob/main/data-analysis-projects/pokemon/pokemon_analysis.ipynb) notebook'ta bulabilirsiniz. <br>
 

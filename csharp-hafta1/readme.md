@@ -1,6 +1,7 @@
 # C Sharp, .Net Core 1.Hafta
 
 #### Herkes İçin Temel Dersler ####
+- [Web Geliştirmeye Giriş](webgelistirmeyegiris-csharp)
 - [Yazılım Nedir?](yazilim-nedir)
 - [Google'lamak](google/)
 - [Developer'lar İçin Platformların Önemi](platformların-önemi/)

@@ -1,5 +1,9 @@
 # Fonksiyonlar
+Bilgisayar biliminde fonksiyon (işlev), matematik bilimindeki fonksiyonlara benzer. Tanımlanan f(x) fonksiyonu, ihtiyaç duyulduğunda tekrar tekrar kullanılabilir.
 
-Fonksiyon, en basit tanımıyla belirli bir işlemi gönüllü yapmak için kullanılan bir ifadedir. Peki neden fonksiyon kullanmalıyız? Aslında döngüler mantığında çalışıyor. Bir ifadeyi birden fazla yerde kullanmak istediğimde fonksiyonlardan yararlanabilirim.
-
-Bir matematiksel işlemi düşünelim. İki sayının toplamını sürekli olarak iki değişken tanımlayıp toplamaktansa, topla isimli bir fonksiyona 2 parametre göndererek gerçekleştiriyorum.
+Go dilinde fonksiyonlar func anahtar sözcüğü ile tanımlanır. Her fonksiyon, benzersiz bir isime sahiptir. Daha önce, parametresiz ve sonuç döndürmeyen main isimli fonksiyon ile sıkça karşılaşmıştık.
+```go
+func main() {
+  // ...
+}
+```

@@ -6,6 +6,7 @@ Kolay, Orta, Zor ve Uzman Seviye olmak üzere bu eğitimde sunulmuş 4 ek özell
 
 Bu eğitim tamamen isteğe bağlı; fakat becerilerini yeni bir seviyeye taşımak isteyen herkes için şiddetle önerilir.
 
+
 **Adım 1: Genel Bakış**
 
 Bu eğitim tamamen isteğe bağlıdır. Eğer fazladan bir zorlukla uğraşmayı istemezsen; tek yapman gereken sayfanın en altında, Gönderim Galeri’nin üstündeki “Gönderimi geç ve devam et” butonuna basmak. İlave özelliklerin hiçbirini yapmadan da dersi başarıyla tamamlayabilirsin.

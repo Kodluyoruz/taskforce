@@ -8,7 +8,7 @@ Arraylerde 0 bazlı bir indexleme vardır. Bazı programlama dillerin 1 bazlı i
 
 ## Hash Function/ Hash Table
 
-Hash Table, key value prensibine dayanın bir array kümesidir. Key olarak çağırdığınız elemanın değerini (value) yansıtır.
+Hash Table, key value prensibine dayanan bir array kümesidir. Key olarak çağırdığınız elemanın değerini (value) yansıtır.
 
 Hash Table yerine dizileri kullanabilirdik. Fakat her ürünü ve fiyatını tek tek aramak istemediğimiz için hash table kullanıyoruz. Peki bu süreç nasıl işliyor? Hemen bir örnek yapalım. Örneğimiz bir kuru yemiş dükkanından gelecek.
 

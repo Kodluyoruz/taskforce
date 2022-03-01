@@ -1,3 +1,2 @@
 # Playground kullanımı / Kod Paylaşımı
-
-Playground mantığı, yeni bir dil öğrenirken çalışma ortamı kullanmak istemeyebilirsiniz. Go dili bir kolaylık sağlıyor. Playground ile çalışma ortamını bilgisayara kurmadan internet üzerinde yazdığınız go kodunu compile edebilirsiniz.
+Go Playground go.dev'in sunucularında çalışan bir web servis hizmetidir.Servis çıktıyı alır,inceler,derler ve progranı sanal bir alanda çalıştırıp çıktıyı döndürür.Playground ile çalışma ortamını bilgisayara kurmadan internet üzerinde yazdığınız go kodunu compile edebilirsiniz.

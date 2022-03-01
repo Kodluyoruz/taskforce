@@ -4,3 +4,5 @@ Bu ilk Lab oturumunda, bu kursta kişisel bir projeyi başarılı bir şekilde o
 
 ## Proje Sonucu:
 Tasarım Belgesi, konsept, zaman çizelgesi ve minimum uygulanabilir ürünün ön taslağı dahil doldurulacaktır.
+
+Dosya ve assetlere [linklerden](https://drive.google.com/file/d/1he6E0tvpGZAzmpJ2k8jXF8RszCOXeh0S/view?usp=sharing) ulaşabilirsiniz.

@@ -18,7 +18,7 @@ Takip edebileceğimiz ikinci yol da Visual Studio Code editörünün web sitesin
 Bu görselde windows tabanlı işletim sistemlerinde Visual Studio Code içerisindeki klavye kısayollarını görebiliriz. Bu kısayolların hepsini tabii ki de ezberlemek zorunda değiliz. Ama mümkün olduğunca temel klavye kısayollarına hakim olmalıyız.
 
 ## Klavye Kısayollarını Kişiselleştirmek
-Vusial Studio Code editörü bizlere klavye kısayollarını kişileştirebilmemizi de sağlar.
+Visual Studio Code editörü bizlere klavye kısayollarını kişileştirebilmemizi de sağlar.
 
 ![vs-kisisellestirme](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-klavye-kisayollari/figures/vs-kisisellestirme.gif)
 

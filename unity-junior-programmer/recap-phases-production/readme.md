@@ -2,6 +2,8 @@
 
 Tasarım ve geliştirme dünyasındaki çoğu iş takım çalışmasına ihtiyaç duyar ve projenin başarılı bir şekilde teslimini garantiye almak için proje yönetimi ve planlama araçları kullanılır. Bu eğitimde proje planlama, üretim aşamaları, proje yönetimi ve takımlarla çalışmada kullanılan anahtar kavramları ve en iyi uygulamaları göreceksin.
 
+[Dosya](https://drive.google.com/file/d/1KhCSZwQNgm6SsrEUS0OyK271LadNxg8-/view?usp=sharing) ve  [assetleri](https://drive.google.com/file/d/14e0tppDVPBBJFkkzP5vD00lmzeKcZmvE/view?usp=sharing) bu linklerden indirebilirsiniz.
+
 ### Adım 1: Genel bakış
 Proje yönetimi ve takım çalışması tasarım ve geliştirme rolleri için çoğunlukla “sosyal beceriler” olarak ifade edilir. Proje yönetimi bazen tekniğe kaysa da, karşılaşabileceğin birçok farklı proje yönetimi yöntemi var, iyi bir proje yöneticisi olmak genel olarak iletişim ve organizasyon yetenekleriyle birlikte takım çalışması gerektirir.
 

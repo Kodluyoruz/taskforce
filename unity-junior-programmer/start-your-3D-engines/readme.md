@@ -9,7 +9,7 @@ Bu derste, Unity Hub'da ilk oyun projenizi oluşturacaksınız. Oyuncunun sürme
 Yolda konumlandırılmış bir taşıt ve engeliniz olacak ve kamera taşıtın arkasına mükemmel bir şekilde yerleştirilmiş olacak. Ayrıca, düzenleme için mükemmel şekilde optimize edilmiş yeni bir özel Unity düzenine sahip olacaksınız.
 
 
-
+Dosyalara [bu linkten](https://drive.google.com/file/d/1UsWtvJnftuaipiEYXKWL9cLmNmdIJGeD/view?usp=sharing) erişebilirsiniz.
 
 
 

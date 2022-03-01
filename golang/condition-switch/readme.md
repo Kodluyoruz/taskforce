@@ -1,7 +1,21 @@
 # Switch Yapısı
+if/else kontrol bloğuna güçlü bir alternatif olan switch bloğu, benzer kontrollerin yanında daha güçlü bir arayüz sunar. Yine koşullar yukarıdan aşağı doğru sıralı olarak sınanır. Bir durum (sav, şart) başarılı olduğunda koşul gövdesi yürütülür.
 
-Switch, if bloğu gibi bir koşul durumunda çalışır. If'den farkı ise tek bir parametre almasıdır. If kadar yaygın kullanılmasada, bir çok durumda if'in alternatifi olarak kullanılabilir.
+```go
 
-Genellikle switch-case olarak adlandırılır. Bir parametre alır ve bu parametreye göre case'ler belirlenir.
-
-Örnek olarak okullardaki notlandırma sistemi verilebilir. İşte durum 5 ise şu case'i çalıştır, 4 ise bu case'i çalıştır gibi.
+package main
+ 
+import "fmt"
+ 
+func main() {
+    num := 2
+ 
+    switch num {
+    case 1:
+        fmt.Println("num: 1")
+    case 2:
+        fmt.Println("num: 2")
+    }
+} 
+```
+ Yukarıdaki örnekte, switch deyimi şarta uygulanacak değeri tutar. Daha sonra case deyimleri ile sırayla koşullar sınanır. Kazanan     durum gövdesi çalıştırılır.

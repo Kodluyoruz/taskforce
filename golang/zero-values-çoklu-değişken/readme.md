@@ -1,7 +1,29 @@
 # Zero values nedir? / Çoklu değişken nasıl oluşturulur?
+Bir satırda birden fazla değişkeni tanımlayabildiğimiz gibi değerlerini de atayabiliriz:
 
-!Programlama'da kendini tekrar etmemelisin. DRY([Don't Repeat Yourself](https://ceaksan.com/tr/dry-prensibi))
 
-Çoklu değişken oluştururken var keywordü silerek, tek bir var tanımlayarak, parantezi açtıktan sonra ise daha önce var keywordü ile tanımlamış olduğumuz değişkenleri tek bir ifadeye taşımış oluyoruz. Böyle ifadelere çoklu değişken denir.
+var message, age, isAdmin = "Merhaba", 23, true
 
-Bir diğer yöntem ise yine tek bir var kullanarak, aynı satırdan devam ederek, sırasıyla değişkenlerin adı = değişkenlerin değerlerini yazarakta çoklu değer ataması yapılabilir.
+// veya
+
+message, age, isAdmin := "Merhaba", 23, true
+
+Birden fazla değişkeni gruplayarak tanımlayabilir, değerlerini atayabiliriz:
+
+
+const(
+	i = 100
+	pi = 3.1415
+	prefix = "Go_"
+)
+
+Bir değişkene değer atamadığınızda Go, değişkenin tipine göre default (varsayılan) değerini atar. Bazı tiplere göre default değerler şunlardır:
+
+string için boşluk (“”),
+
+bool için false,
+
+int için 0 (sıfır)’dır.
+
+
+

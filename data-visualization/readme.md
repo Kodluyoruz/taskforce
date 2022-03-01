@@ -1,4 +1,5 @@
 # Data Visualization INDEX #
 
 #### Data Visualization ####
-- [Veri Görselleştirmeleri](visualizations/)
+- [Python-Matplotlib](visualizations/)
+- [Tableau](tableau)

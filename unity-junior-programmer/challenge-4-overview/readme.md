@@ -1,6 +1,7 @@
 ## Mücadeleye Genel Bakış:
 Sumo Savaşı prototipinde öğrendiğiniz becerileri tamamen farklı bir bağlamda kullanın: futbol sahası. Tıpkı prototipte olduğu gibi, bir topu kamerayı etrafında döndürerek ve ileri bir kuvvet uygulayarak kontrol edeceksiniz, ancak amacınız onları kenardan atmak yerine, onlar sizin filenize girmeye çalışırken onları rakip fileye atmak. . Tıpkı Sumo Savaşında olduğu gibi, her turdan sonra daha fazla düşman topuyla yeni bir dalga doğar ve savunmanızı test eder. Ancak, bu projede neredeyse hiçbir şey çalışmıyor! Doğru şekilde çalışmasını sağlamak sizin işiniz.
 
+
 ## Meydan Okuma Sonucu:
 - Düşmanlar ağınıza doğru hareket eder, ancak onları uzaklaştırmak için onlara vurabilirsiniz.
 - Güçlendirmeler geçici bir güç artışı uygular, ardından 5 saniye sonra kaybolur

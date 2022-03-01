@@ -1,5 +1,20 @@
 # Aritmetik İşlemler
+Go programlama dilinde farklı amaçlarla kullanılan bir takım operatörler bulunur. 
 
-Go static veri tipine sahip bir programlama dilidir. Eğer Go'da veri tipini bilirsek, program yazarken bize çok fazla kolaylık sağlayabilir.
+Aritmetik operatörler, sayısal veriler üzerinde matematiksel işlem yapmamıza olanak tanır.
 
-Aritmetik işlemler ekleme (addition "+"), çıkarma (substruction "-"), çarpma (product "*"), bölme (division "/"), kalan (remainder "%") gibi temel matematiksel işlemlerdir.
+toplama(+)
+
+çıkarma (-)
+
+çarpma(*)
+
+bölme(/)
+
+mod (bölümden kalan)(%)
+
+
+
+
+
+
