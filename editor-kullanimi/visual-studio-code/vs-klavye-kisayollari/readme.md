@@ -71,7 +71,7 @@ Dosyanızda yer alan aynı ifadeleri seçmek için `CTRL + D` kısayolunu kullan
 
 Bu örneğimizde *kodluyoruz* ifadelerinin tamamını `CTRL + D` kombinasyonunu kullanarak seçtiğimizi ve sonrasında hepsi yerine tek seferde *kodluyoruz.org* ifadesini yazdığımızı görebiliriz.
 
-### 10) ALT + SOL/SAĞ YÖN TUŞU
+### 10) CTRL + SOL/SAĞ YÖN TUŞU
 Satırdaki ifadeleri teker teker atlayarak ilerlemek istediğinizde `ALT + SOL/SAĞ YÖN TUŞU` kısayolunu kullanabilirsiniz.
 
 ### 11) CTRL + C
