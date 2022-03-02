@@ -163,7 +163,7 @@ Aşağıda codepen ile deneyimleyebilirsiniz!
 
 Yukarıdaki kod parçasını incelediğimizde  `functionScopeDegisken` isimli değişken function scope da tanımlanmıştır. Function scope da ki değişkenlere tanımlı oldukları fonksiyonun blocklarından erişilebilir. Function scope da tanımlı değişkenlere fonksiyon dışında erişilmeye çalışıldığı zaman `ReferenceError` hatasını verir. Bunun sebebi function scope da tanımlı olmasıdır.
 
-`blocktaTanimliDegisken` isimli değişken block içerisinde tanımla olsa bile, bulunduğu fonksiyonda tanımlı olduğu için tanımlı olduğu fonksiyonun her yerinden ulaşılabilir, fakat fonksiyon dışından erişilemez.
+`blocktaTanimliDegisken` isimli değişken block içerisinde tanımlanmış olsa bile, bulunduğu fonksiyonda tanımlı olduğu için tanımlı olduğu fonksiyonun her yerinden ulaşılabilir, fakat fonksiyon dışından erişilemez.
 
 
 `var` ile tanımlanan değişkenlerin block scope olmamasından dolayı karşımıza bazı sorunlar çıkabilir. 
