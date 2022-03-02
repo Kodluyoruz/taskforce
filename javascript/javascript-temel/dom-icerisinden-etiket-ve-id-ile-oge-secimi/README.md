@@ -113,7 +113,7 @@ console.log(elems.length); // 4
 ```
 
 **Metotları bir arada kullanabilirsiniz.**
-Yukarda öğrendiğimiz metotları bir arada kullanabiliyoruz. Önce tek bir elemanı seçerek ardından içinde ikinci bir soruyu yapabiliyoruz. 
+Yukarda öğrendiğimiz metotları bir arada kullanabiliyoruz. Önce tek bir elemanı seçerek ardından içinde ikinci bir sorguyu yapabiliyoruz. 
 
 **Örneğin;**
 
