@@ -1,4 +1,4 @@
-# Swift Yazım Standartları
+# Swift Yazım Standartları
 
 Swift, diğer programlama dillerinde olduğu gibi yazılı olmayan bazı kurallara sahiptir. Bu kurallara uyup uymamak programcının insiyatifine bırakılmıştır. Fakat belirli bir standartın yakalanması için bu kurallara uymakta fayda vardır. 
 
