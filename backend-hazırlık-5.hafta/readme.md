@@ -29,7 +29,7 @@ Backend Bootcamp Hazırlık Programı 5. Hafta
 - [Math Sınıfı ve Metotları](math-sinifi/)
 - [String Sınıfı ve Metotları](string-sinifi/)
 - [Pratik - Sayı Tahmin Oyunu](pratik-sayi-tahmin/)
-- [Pratik - Palindromik Kelimleri Bulan Program]((pratik-palindrom-string/)
+- [Pratik - Palindromik Kelimleri Bulan Program](pratik-palindrom-string/)
 
 #### Bitirme Projesi ####
 
