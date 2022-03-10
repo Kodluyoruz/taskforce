@@ -33,7 +33,7 @@
 
 #### Markdown Nedir? ####
 
-- [Markdown Nedir ? Nasıl Kullanırız ?](
+- [Markdown Nedir ? Nasıl Kullanırız ?](markdown-nedir-nasil-kullaniriz-/)
 
 
 
