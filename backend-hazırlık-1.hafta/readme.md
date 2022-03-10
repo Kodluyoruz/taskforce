@@ -15,7 +15,7 @@
 
 #### Temel Kavramlar ####
 
--  [Algoritma Nedir?](algoritma-nedir/)
+-  [Algoritma Nedir?](algoritma/)
 -  [Bilgilerin Bilgisayarda İfadesi](bilgi-ifade/)
 -  [Sayı Sistemleri](sayi-sistem/)
 -  [Sayısal Olmayan Verilerin Tutulması](sayisal-olmayan/)
