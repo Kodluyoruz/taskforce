@@ -65,4 +65,4 @@
 
 - [Ayarların Kişiselleştirilmesi](vs-ayarlarin-kisisellestirilmesi/)
 
-- [Diğer Kod Editörleri](
+- [Diğer Kod Editörleri](diger-kod-editorleri/)
