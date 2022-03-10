@@ -1,4 +1,4 @@
-Frontend Bootcamp Hazırlık Programı 6. Hafta
+# Frontend Bootcamp Hazırlık Programı 6. Hafta
 
 #### Dizi(Array) Veri Tipiyle Çalışmak ####
 
