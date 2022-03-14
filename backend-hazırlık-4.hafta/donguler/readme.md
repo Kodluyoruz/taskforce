@@ -4,4 +4,4 @@ Döngüler, belirli bir koşul sağlandığı sürece tekrarlanması gereken iş
 
 Kısacası : Döngü yapıları kodumuzun belirli kısımlarının döngüye girmesini ve birden fazla kez çalışmasını sağlar. Döngüler bir koşula bağlanır ve bu koşul var olduğu sürece aynı kod bloğu çalışmaya devam eder. Koşul artık sağlanmıyorsa döngü sona erer.
 
-![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java101/donguler/figures/loop-algorithm.png)
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java101/donguler/figures/loop-algorithm.png)
