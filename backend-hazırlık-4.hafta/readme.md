@@ -1,4 +1,4 @@
- # Backend Bootcamp Hazırlık Programı 4. Hafta #
+ # Backend Bootcamp Hazırlık Programı 4. Hafta 
 
 #### Döngüler ####
 
