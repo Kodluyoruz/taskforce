@@ -1,7 +1,6 @@
 # Backend Bootcamp Hazırlık Programı 4. Hafta 
 
 #### Döngüler ####
-
 - [Döngü Yapıları](donguler/)
 - [While Döngüsü](while/)
 - [Do-While Döngüsü](do-while/)
@@ -25,7 +24,6 @@
 - [Ödev - Fibonacci Serisi](odev-fibo/)
 
 #### Metotlar ####
-
 - [Metot Tanımı](metotlar/)
 - [Return ve Void Tanımı](return-void/)
 - [Metotlarda Overloading (Aşırı Yüklenme)](overloading/)
