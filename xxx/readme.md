@@ -1,0 +1,4 @@
+# patika
+
+#### patika ####
+- [neredenbaşlasam](neredenbaslasam/)
