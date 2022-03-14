@@ -33,7 +33,7 @@
 
 #### Nesneye Dayalı Programlama ####
 
-- [Sınıf Nedir ? Instance, Field, Property](1-sinif-field-metot-tanımlama-erişim-belirleyiciler/)
+- [Sınıf Nedir ? Instance, Field, Property](1-sinif-field-metot-tanımlama-erişim-belirleyiciler/)
 - [Erişim Belirleyiciler ve Kurucu Fonksiyonlar ](2-kurucu-fonksiyonlar/)
 - [Encapsulation ve Property Kavramı](3-encapsulation-ve-property-kavrami/)
 - [Static Sınıf ve Üyeler](4-static-sinif-ve-uyeler/)
