@@ -1,8 +1,4 @@
-# Backend Bootcamp Hazırlık Programı 6. Hafta #
-
-#### Coderbyte Challenge ####
-
-- [Coderbyte Challenge](coderbyte-challenge/)
+# Backend Bootcamp Hazırlık Programı 6. Hafta
 
 #### Object Oriented Programming ####
 
