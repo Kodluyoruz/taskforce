@@ -14,7 +14,6 @@
 - [Developer'lar İçin Platformların Önemi](platformların-önemi/)
 
 #### Temel Kavramlar ####
-
 -  [Algoritma Nedir?](algoritma/)
 -  [Bilgilerin Bilgisayarda İfadesi](bilgi-ifade/)
 -  [Sayı Sistemleri](sayi-sistem/)
@@ -23,28 +22,17 @@
 -  [Recursion](recursion/)
 
 #### Veri Yapıları ####
-
   - [Array](array/)
-
   - [Linked List](linked-list/)
-
   - [Linked List vs Array](linked-list-array/)
-
   - [Linked List Eleman Ekleme/Silme](linked-list-add-delete/)
-
   - [Stack](stack/)
-
   - [Queue](queue/)
-
   - [Hash Table](hash-table/)
-
   - [Hash Function](hash-function/)
-
   - [Hash Collision](hash-collision/)
 
-    
-
-  #### GIT Nedir? ####
+ #### GIT Nedir? ####
   -  [GIT Kurulumu](git-kurulumu/)
   -  [GIT Versiyon Kontrol Sistemi Nedir?](git-versiyon-kontrol-sistemi-nedir/)
   -  [GIT Bash ile GIT Temel Komutları](git-bash-ile-git-temel-komutlari/)
