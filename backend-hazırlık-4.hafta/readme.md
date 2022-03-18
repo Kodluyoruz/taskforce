@@ -39,6 +39,6 @@
 #### Nesneye Yönelik Programlamaya Giriş ####
 
 - [Sınıf ve Nesne Kavramları](sinif-nesne/)
-- [Nesne Yönelik Programlama Nedir ?](oop/)
+- [Nesne Yönelik Programlama Nedir ?](oop/)  
 - [Modelleme ve Soyut Düşünme](modelleme/)
 
