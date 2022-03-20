@@ -2,11 +2,11 @@
 
 _These contents have been prepared using online resources. Patika.dev’s own contents are currently under preparation._
 
-_When you hear people talking about crypto, you likely hear the term "Web3" being thrown around._
+_"When you hear people talking about crypto, you likely hear the term "Web3" being thrown around."_
 
 ## **What exactly is Web3 & what makes it so special?**
 
-_To best answer this question, we first have to establish what Web1 & Web2 are._
+_"To best answer this question, we first have to establish what Web1 & Web2 are."_
 
 _TLDR;_
 
