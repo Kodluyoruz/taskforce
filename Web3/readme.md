@@ -22,10 +22,10 @@
 - [DeFi](defi)
 - [DAO](dao)
 
-#### What is Near Protocol?
+#### What is Near Protocol? ####
 - [What is NEAR Protocol?](whatNEARProtocol)
 
-#### NEAR Testnet Account
+#### NEAR Testnet Account ####
 - [NEAR Testnet Account Creation](nearTestnetAccountCreation)
 
 #### NEAR Use Case ####
