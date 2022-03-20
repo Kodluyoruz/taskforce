@@ -14,7 +14,7 @@ _TLDR;_
 - _**Web2** - version of the Internet that most of us know today (dominated by tech giants)_
 - _**Web3**- the next phase of the Internet, pioneered by crypto & currently being built_
 
-💡 **Web3 is the internet owned by the builders and users, orchestrated with tokens.**
+💡 _**Web3 is the internet owned by the builders and users, orchestrated with tokens.**_
 - [Packy McCormick](https://twitter.com/packyM)
 
 ![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/quickHistoryLessonErasoftheWeb/figures/quickhistorylesson.PNG)
