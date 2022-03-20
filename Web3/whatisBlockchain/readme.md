@@ -10,7 +10,7 @@ _"1.Decentralized: Transactions are stored on a network of computers (nodes)._"
 _"2.Immutable: Transactions cannot be changed once committed to the block._"
 _"3.Open: Transactions can be viewed by anyone._"
 
-![images](https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fcd97be45-9e0b-4fa3-af3d-6752d2060a0a_1200x628.png)
+![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/whatisBlockchain/figures/images.png)
 
 _"Each block has:_"
 _"1.A list of transactions_"
