@@ -1,4 +1,4 @@
-# Web3
+# Web3 #
 
 #### Introduction to Web3 ####
 
