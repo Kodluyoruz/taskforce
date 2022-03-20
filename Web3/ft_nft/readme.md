@@ -8,9 +8,12 @@ _Token: Something that can be exchanged for, or represent, a good, service, or o
 **Fungible vs. Non-Fungible:** 
 
 _Fungible = Interchangeable, Divisible_
+
 ex: $10 bill, $NEAR, $BTC
 
+
 _Non-Fungible = Non-Interchangeable, Non-Divisible, Unique Properties_
+
 ex: baseball cards, houses, land, diamonds, laptop
 
 "NFTs are tokens that we can use to represent ownership of unique items. They let us tokenize things like art, collectibles, even real estate. They can only have one official owner at a time and they're secured by the... blockchain – no one can modify the record of ownership or copy/paste a new NFT into existence." - [ethereum.org](https://ethereum.org/en/)
