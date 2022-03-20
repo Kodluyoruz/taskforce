@@ -45,3 +45,4 @@ _Storing and distributing significant static assets on a blockchain would be ine
 _Besides cloud databases and other centralized solutions, data can be stored on P2P platforms such as the InterPlanetary File System (IPFS); P2P storage is an excellent alternative while maintaining a trustless environment for the dApp._
 
 
+For further information: https://near.academy/near101/chapter-2
