@@ -13,8 +13,11 @@ _"3.Open: Transactions can be viewed by anyone._"
 ![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/whatisBlockchain/figures/images.png)
 
 _"Each block has:_"
+
 _"1.A list of transactions_"
+
 _"2.A hash (a long string of random characters) for the block_"
+
 _"3.The previous block’s hash (this is how the blocks are linked)_"
 
 _"If you want to know more about blockchain you can check out these resources here:_"
