@@ -202,8 +202,54 @@ Please authorize at least one account at the URL above.
 Check your browser. There should be a new page opened. Follwing steps are common to do, so you will get used to them extremely quickly. Following example logging into d3mage-dev.testnet account.
 
 
+![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/practicePartI/figures/image8.png)
+![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/practicePartI/figures/6wf8Dmr.png)
+
+When you see a blank page in browser - you’re good to return to a terminal. Enter your account name into command line.
+
+```
+Which account did you authorize for use with NEAR CLI?
+Enter it here:
+d3mage-dev.testnet
+Logged in as [ d3mage-dev.testnet ] with public key [ ed25519:6aA1xx... ] successfully
+```
+After you’ve logged in you’re able run the following command:
+``near deploy --accountId <account_name> --wasmFile <WASM_file_path>`` For example,
+``near deploy --accountId d3mage-dev.testnet --wasmFile ./build/release/singleton.wasm``
+
+```
+$ near deploy --accountId d3mage-dev.testnet --wasmFile ./build/release/singleton.wasm
+Starting deployment. Account id: d3mage-dev.testnet, node: https://rpc.testnet.near.org, helper: https://helper.testnet.near.org, file: ./build/release/singleton.wasm
+Transaction Id 6hv4bsfL4SSp9SGcwiTBCUuZxHucYmzLcAuVWsDdrk3d
+To see the transaction in the transaction explorer, please open this url in your browser
+https://explorer.testnet.near.org/transactions/6hv4bsfL4SSp9SGcwiTBCUuZxHucYmzLcAuVWsDdrk3d
+Done deploying to d3mage-dev.testnet
+```
+Check the link above to see transaction details.
+
 ![images]()
-![images]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
