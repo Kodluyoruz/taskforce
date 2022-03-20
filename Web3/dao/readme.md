@@ -8,7 +8,6 @@ _Think of them like an internet-native business that's collectively owned and ma
 
 _A DAO is a community with a treasury owned by its contributing members. The simplest way to describe how a DAO works is to compare it to a company:_
 
-![images]()
-
+![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/dao/figures/daos.PNG)
 
 For further information: https://creatoreconomy.so/p/curious-beginner-guide-to-crypto
