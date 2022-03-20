@@ -4,7 +4,7 @@ These contents have been prepared using online resources. Patika.dev’s own con
 
 _"To process transactions without trusting middlemen, nodes need to be able to reach consensus themselves. They do this through two popular methods:_"
 
-![images]()
+![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/proofWorkProofofStake/figures/mechanisms.png)
 
 **_"Proof of work_"**
 
