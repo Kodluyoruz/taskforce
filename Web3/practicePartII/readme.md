@@ -154,7 +154,7 @@ hello <id>.testnet
 
 **Congratulations! Now you are ready to build a real demo to get your NCD I**
 
-
+For further information: https://hackmd.io/@8CW3mmC9RNiEjxI9m33vqA/near-ncd-i-first-smart-contract#Your-First-NEAR-Smart-Contract-Challenge
 
 
 
