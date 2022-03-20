@@ -23,3 +23,9 @@ These contents have been prepared using online resources. Patika.dev’s own con
 
 "_Using elliptic curve point [manipulation](https://en.wikipedia.org/wiki/Elliptic_curve_point_multiplication), we can derive a value from the private key, which is not reversible. This way we can create signatures that are safe and tamperproof. The functions that derive the values are called “[trapdoor functions](https://en.wikipedia.org/wiki/Trapdoor_function)”:
 A trapdoor function is a function that is easy to compute in one direction, yet difficult to compute in the opposite direction (finding its inverse) without special information, called the “trapdoor”."_
+
+For further information: https://andersbrownworth.com/blockchain/
+
+https://medium.com/coinmonks/blockchain-public-private-key-cryptography-in-a-nutshell-b7776e475e7c
+
+https://medium.com/mycrypto/the-magic-of-digital-signatures-on-ethereum-98fe184dc9c7
