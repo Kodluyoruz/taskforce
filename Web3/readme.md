@@ -2,7 +2,7 @@
 
 #### Introduction to Web3 ####
 
-- [What is web3?](whatisweb3)
+- [What is Web3?](whatisweb3)
 - [A Quick History Lesson: Eras of the Web](quickHistoryLessonErasoftheWeb)
 - [Why We Need Web3](whyWeNeedWeb3)
 - [Centralized vs decentralized](centralizedvsdecentralized)
