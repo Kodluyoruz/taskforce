@@ -8,7 +8,7 @@ _"To process transactions without trusting middlemen, nodes need to be able to r
 
 **_"Proof of work_"**
 
-_"1.Nodes called miners compete to solve a math problem using brute force (e.g., rolling a dice thousands of times to get the right number). _"
+_"1.Nodes called miners compete to solve a math problem using brute force (e.g., rolling a dice thousands of times to get the right number)."_
 
 _"2.The first miner that solves the problem gets to create a block._"
 
