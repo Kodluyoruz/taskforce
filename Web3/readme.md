@@ -18,7 +18,7 @@
 #### DApps ####
 - [DApps](dapps)
 - [Smart Contract](smartContract)
-- [FT - NFT](ft_nft)
+- [FT-NFT](ft_nft)
 - [DeFi](defi)
 - [DAO](dao)
 
