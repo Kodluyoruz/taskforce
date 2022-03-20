@@ -4,7 +4,7 @@ These contents have been prepared using online resources. Patika.dev’s own con
 
 _"What precisely is wrong with the web today? In short, it’s a big baby. It has grown old without growing up. While connecting the far corners of the globe with a packet-switching network and hypertext platform is an incredible achievement, the web has become corrupted from its own success."_
 
-_"Technology often mirrors its past… As the global economy went online, we replicated the same social structures that we had before."
+_"Technology often mirrors its past… As the global economy went online, we replicated the same social structures that we had before."_
 
 _"The internet today is broken by design. We see wealth, power and influence placed in the hands of the greedy, the megalomaniacs, or the plain malicious. Markets, institutions, and trust relationships have been transposed to this new platform, with the density, power and incumbents changed, but with the same old dynamics."_
 
