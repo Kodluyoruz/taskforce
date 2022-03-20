@@ -17,3 +17,5 @@ _Non-Fungible = Non-Interchangeable, Non-Divisible, Unique Properties_
 ex: baseball cards, houses, land, diamonds, laptop
 
 "NFTs are tokens that we can use to represent ownership of unique items. They let us tokenize things like art, collectibles, even real estate. They can only have one official owner at a time and they're secured by the... blockchain – no one can modify the record of ownership or copy/paste a new NFT into existence." - [ethereum.org](https://ethereum.org/en/)
+
+For further information: https://shimmer-bean-29e.notion.site/A-Beginner-s-Guide-to-NFTs-ffb4f1a180cf4052bd75d5471c65e842
