@@ -14,7 +14,7 @@ _To start, anyone with Internet connection can participate in DeFi. There are no
 
 A quick comparison:
 
-not: buraya kaynaktaki `A quick comparison` başlığının hemen altındaki tablo gelecek.
+![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/defi/figures/defi.PNG)
 
 For further information: https://shimmer-bean-29e.notion.site/A-Beginner-s-Guide-to-DeFi-9fbea459d8ef496ab461f63f686dcbcb
 
