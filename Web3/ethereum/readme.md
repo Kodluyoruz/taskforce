@@ -6,7 +6,7 @@ _Ethereum was created in 2013 by Vitalik Buterin to let anyone “write smart co
 
 _To understand what that even means, let’s define the following:_
 
-![ethereum definitions]()
+![ethereum definitions](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/ethereum/figures/ethereum.png)
 
 1. Ether is Ethereum’s digital token. Ether is a store of value like Bitcoin, but its main purpose is to reward nodes on the ethereum blockchain for processing transactions.
 2. Gas is the amount of Ether that’s paid to a node to process a transaction. 
