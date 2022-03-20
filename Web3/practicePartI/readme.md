@@ -227,10 +227,17 @@ Done deploying to d3mage-dev.testnet
 ```
 Check the link above to see transaction details.
 
-![images]()
+![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/practicePartI/figures/devdeploy.PNG)
 
+For further information: 
 
+https://hackmd.io/@d3mage/prepare-for-ncd
 
+[More on accounts](https://docs.near.org/docs/concepts/account#accounts-and-contracts)
+
+[More on access keys](https://docs.near.org/docs/concepts/account#access-keys)
+
+[Challenge: Managing keys with NEAR shell](https://github.com/near-examples/workshop--exploring-near-apis/blob/master/challenges/managing-keys-with-near-shell.md)
 
 
 
