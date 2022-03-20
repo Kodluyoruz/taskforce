@@ -8,11 +8,11 @@ _"Today, many people also use bitcoin as a store of value (think digital gold)._
 
 _"Bitcoin uses blockchain and therefore is decentralized, immutable, and open. It’s also:_"
 
-_"1.Hard capped: There will only ever be 21M bitcoin. _"
+_"1.Hard capped: There will only ever be 21M bitcoin._"
 
 _"2.Single-purpose: Many holders just want it to be a digital token that stores value._"
 
-_"Not everyone agrees with the last statement. Some projects are working to expand Bitcoin’s use cases. _"
+_"Not everyone agrees with the last statement. Some projects are working to expand Bitcoin’s use cases._"
 
 _"But most people don’t want Bitcoin to change. After all, if Bitcoin becomes the best way to store value and lets anyone send money around the world, that’s already a huge accomplishment._"
 
