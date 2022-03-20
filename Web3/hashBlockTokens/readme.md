@@ -13,5 +13,4 @@ These contents have been prepared using online resources. Patika.dev’s own con
 
 "_For example, If we have only two blocks, one will be the present block and one will be the parent block. The present block will be having the address of the parent block. If we need to change the data in the present block, we also need to change the parent block. It will be easy to change the data for two blocks but now in bitcoin, there are 727722 blocks have been mined by 2022–03–17 12:37:02, with a hash 000000000000000000088488fa1aed066cc0eda0dbeb62dc90f45b85ce99f79a. You can see how many blocks are mined until now at Bitcoin. It is not possible to change the hash of 727722, so this is how blockchain is called immutable and trustworthy of the data."_
 
-For further information: https://andersbrownworth.com/blockchain/
-https://medium.com/@shivasunny30/what-is-hashing-in-blockchain-explained-ba6f68fd3303
+For further information: https://andersbrownworth.com/blockchain/ and https://medium.com/@shivasunny30/what-is-hashing-in-blockchain-explained-ba6f68fd3303
