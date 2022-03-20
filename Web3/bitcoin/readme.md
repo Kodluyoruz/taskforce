@@ -2,7 +2,7 @@
 
 These contents have been prepared using online resources. Patika.dev’s own contents are currently under preparation.
 
-_"Bitcoin was created in 2009 by Satoshi Nakamoto (a pseudonym) to be a “[peer-to-peer electronic cash system.”](Bitcoin whitepaper(https://bitcoin.org/bitcoin.pdf))_"
+_"Bitcoin was created in 2009 by Satoshi Nakamoto (a pseudonym) to be a “[peer-to-peer electronic cash system.”](Bitcoin whitepaper(https://bitcoin.org/bitcoin.pdf)_"
 
 _"Today, many people also use bitcoin as a store of value (think digital gold)._"
 
