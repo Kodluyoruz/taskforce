@@ -8,4 +8,4 @@ Future’s internet could be web3. In other words we can call it ‘modern web�
 
 Some experts argue that web3 will provide increased data security, scalability, and privacy for users and combat the influence of large technology companies. Others have raised concerns about a decentralized web, citing the potential for low moderation and the proliferation of harmful content, the centralization of wealth to a small group of investors and individuals, or a loss of privacy due to more expansive data collection."
 
-[For further information:What is Web3?](https://en.wikipedia.org/wiki/Web3)
+[For further information: What is Web3?](https://en.wikipedia.org/wiki/Web3)
