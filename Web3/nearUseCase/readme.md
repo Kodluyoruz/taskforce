@@ -6,7 +6,7 @@ Guest Book is a smart contract build on top of NEAR Protocol. It is a simple sma
 
 Let’s take a look at this smart contract and see how it is very similar compared to any other application that is built on Web 2.0.
 
-- Click this link to go to the [dApp](near-examples.github.io/guest-book/)
+- Click this link to go to the dApp near-examples.github.io/guest-book/
 
 ![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/nearUseCase/figures/image8.png)
 - Here you need to login with your wallet to be able to use this dApp
