@@ -2,32 +2,37 @@
 
 These contents have been prepared using online resources. Patika.dev’s own contents are currently under preparation.
 
-_"To process transactions without trusting middlemen, nodes need to be able to reach consensus themselves. They do this through two popular methods:_"
+Since there are no middlemen in blockchains, there is a challenge which is verifying transactions. Some blockchains like Bitcoin and Ethereum overcome that using the Proof of Work method. The other method is Proof of Stake. This method is consuming less energy than the other. 
+
+These two methods are similar. Both method’s distributed network participants need to agree on which new block is added to the blockchain but how they are doing this is different.
 
 ![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/proofWorkProofofStake/figures/mechanisms.png)
 
-**_"Proof of work_"**
+"Proof of work
+1. Nodes called miners compete to solve a math problem using brute force (e.g., rolling a dice thousands of times to get the right number). 
+2. The first miner that solves the problem gets to create a block.
+3.Other nodes check if the block is valid. If it is, the miner is rewarded cryptocurrency. If it’s not, the miner wasted their time and energy.
+4. All nodes add the new block to their copy of the blockchain.
+Proof of work uses energy because miners compete to solve math problems by building powerful machines that run 24/7.
 
-_"1.Nodes called miners compete to solve a math problem using brute force (e.g., rolling a dice thousands of times to get the right number)."_
+Proof of stake
+1. Nodes called validators stake some cryptocurrency. A stake is like saying: “I’ll commit this amount of cryptocurrency to win the right to do this transaction.”
+2. Validators with more stake are more likely (but not guaranteed) to be selected to process the transaction and create a block.
+3. Other validators check if the block is valid. If it is, all participating validators earn a transaction fee. If it’s not, the validator that created the block might lose its stake.
+4. All nodes add the new block to their copy of the blockchain.
 
-_"2.The first miner that solves the problem gets to create a block._"
-
-_"3.Other nodes check if the block is valid. If it is, the miner is rewarded cryptocurrency. If it’s not, the miner wasted their time and energy._"
-
-_"4.All nodes add the new block to their copy of the blockchain.
-Proof of work uses energy because miners compete to solve math problems by building powerful machines that run 24/7._"
+Proof of stake is still in its infancy but uses less energy than proof of work. Bitcoin uses proof of work, and Ethereum is currently transitioning from proof of work to proof of stake."
 
 
-**_"Proof of stake_"**
+[For further information: Proof of Work vs Proof of Stake](https://creatoreconomy.so/p/curious-beginner-guide-to-crypto?s=r)
 
-_"1.Nodes called validators stake some cryptocurrency. A stake is like saying: “I’ll commit this amount of cryptocurrency to win the right to do this transaction.”_
 
-_"2.Validators with more stake are more likely (but not guaranteed) to be selected to process the transaction and create a block._"
 
-_"3.Other validators check if the block is valid. If it is, all participating validators earn a transaction fee. If it’s not, the validator that created the block might lose its stake._"
 
-_"4.All nodes add the new block to their copy of the blockchain._"
 
-_"Proof of stake is still in its infancy but uses less energy than proof of work. Bitcoin uses proof of work, and Ethereum is currently transitioning from proof of work to proof of stake._"
 
-For further information: https://creatoreconomy.so/p/curious-beginner-guide-to-crypto?s=r
+
+
+
+
+
