@@ -15,8 +15,8 @@ Did you know the first payment with Bitcoin was ordering two pizzas for 10,000 B
 
 "Bitcoin uses blockchain and therefore is decentralized, immutable, and open. It’s also:
 
-1.Hard capped: There will only ever be 21M bitcoin. 
-2.Single-purpose: Many holders just want it to be a digital token that stores value.
+1. Hard capped: There will only ever be 21M bitcoin. 
+2. Single-purpose: Many holders just want it to be a digital token that stores value.
 
 
 But most people don’t want Bitcoin to change. After all, if Bitcoin becomes the best way to store value and lets anyone send money around the world, that’s already a huge accomplishment."
