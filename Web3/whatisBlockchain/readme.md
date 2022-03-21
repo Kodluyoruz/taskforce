@@ -6,9 +6,9 @@ Blockchain is a specialized database. For doing this, it uses a decentralized ne
 
 "Blockchains are:
 
-1.Decentralized: Transactions are stored on a network of computers (nodes).
-2.Immutable: Transactions cannot be changed once committed to the block. 
-3.Open: Transactions can be viewed by anyone.
+1. Decentralized: Transactions are stored on a network of computers (nodes).
+2. Immutable: Transactions cannot be changed once committed to the block. 
+3. Open: Transactions can be viewed by anyone.
 
 ![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/whatisBlockchain/figures/images.png)
 
