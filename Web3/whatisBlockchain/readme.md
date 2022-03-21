@@ -5,7 +5,6 @@ These contents have been prepared using online resources. Patika.dev’s own con
 Blockchain is a specialized database. For doing this, it uses a decentralized network to create a ledger for the transactions. Users can interact with the ledger through Cryptography. From all over the world people and computers connect with each other and add new pages(blocks) to the ledger.
 
 "Blockchains are:
-
 1. Decentralized: Transactions are stored on a network of computers (nodes).
 2. Immutable: Transactions cannot be changed once committed to the block. 
 3. Open: Transactions can be viewed by anyone.
