@@ -2,19 +2,23 @@
 
 These contents have been prepared using online resources. Patika.dev’s own contents are currently under preparation.
 
-_"Bitcoin was created in 2009 by Satoshi Nakamoto (a pseudonym) to be a “peer-to-peer electronic cash system.”_ [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf)
 
-_"Today, many people also use bitcoin as a store of value (think digital gold)._"
 
-_"Bitcoin uses blockchain and therefore is decentralized, immutable, and open. It’s also:_"
 
-_"1.Hard capped: There will only ever be 21M bitcoin._"
+Bitcoin is the most known and most used digital currency. Without a middleman it can be transferred from user to user on a peer-to-peer network. There are network nodes to verify transactions and record them in a public distributed ledger which in other word blockchain.
 
-_"2.Single-purpose: Many holders just want it to be a digital token that stores value._"
+Invented by Satoshi Nakamoto in 2008 and began use in 2009.
 
-_"Not everyone agrees with the last statement. Some projects are working to expand Bitcoin’s use cases._"
+Recommend you to read Bitcoin whitepaper(https://bitcoin.org/bitcoin.pdf) to understand it better.
 
-_"But most people don’t want Bitcoin to change. After all, if Bitcoin becomes the best way to store value and lets anyone send money around the world, that’s already a huge accomplishment._"
+Did you know the first payment with Bitcoin was ordering two pizzas for 10,000 Bitcoin! 
 
-For further information: https://creatoreconomy.so/p/curious-beginner-guide-to-crypto?s=r
+"Bitcoin uses blockchain and therefore is decentralized, immutable, and open. It’s also:
 
+1.Hard capped: There will only ever be 21M bitcoin. 
+2.Single-purpose: Many holders just want it to be a digital token that stores value.
+
+
+But most people don’t want Bitcoin to change. After all, if Bitcoin becomes the best way to store value and lets anyone send money around the world, that’s already a huge accomplishment."
+
+[For further information: Bitcoin](https://creatoreconomy.so/p/curious-beginner-guide-to-crypto?s=r)
