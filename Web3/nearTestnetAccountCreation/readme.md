@@ -4,7 +4,7 @@ These contents have been prepared using online resources. Patika.dev’s own con
 
 **Reserve Account ID**
 
-- Navigate to [https://wallet.testnet.near.org](https://wallet.testnet.near.org) and click on "Create Account".
+- [Navigate to Wallet](https://wallet.testnet.near.org) and click on "Create Account".
 
 ![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/nearTestnetAccountCreation/figures/image10.png)
 
@@ -36,6 +36,6 @@ You just created a testnet account and received 200 Ⓝ! Upon recovery method co
 
 ![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/nearTestnetAccountCreation/figures/image1.png)
 
-Here you can view your total balance, available balance, and minimum balance needed for on-chain storage costs. Also, you can view and rotate your Access Keys(https://docs.near.org/docs/concepts/account#access-keys) by enabling (add) or disabling (delete) them.
+Here you can view your total balance, available balance, and minimum balance needed for on-chain storage costs. Also, you can view and rotate your [Access Keys](https://docs.near.org/docs/concepts/account#access-keys) by enabling (add) or disabling (delete) them.
 
 [For further information:NEAR Testnet Account Creation](https://docs.near.org/docs/develop/basics/create-account)
