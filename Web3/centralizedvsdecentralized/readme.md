@@ -8,7 +8,7 @@ Centralized means entities control the network. With web3, the word decentralize
 
 This is a good comparison between centralized and decentralized;
 
-![images]()
+![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/centralizedvsdecentralized/figures/centralised%20vs%20decentralized.png)
 
 For further information: https://aws.amazon.com/tr/blockchain/decentralization-in-blockchain/#:~:text=In%20blockchain%2C%20decentralization%20refers%20to,thereof)%20to%20a%20distributed%20network.
 
