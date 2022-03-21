@@ -9,7 +9,7 @@ Bitcoin is the most known and most used digital currency. Without a middleman it
 
 Invented by Satoshi Nakamoto in 2008 and began use in 2009.
 
-Recommend you to read Bitcoin whitepaper(https://bitcoin.org/bitcoin.pdf) to understand it better.
+Recommend you to read [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf) to understand it better.
 
 Did you know the first payment with Bitcoin was ordering two pizzas for 10,000 Bitcoin! 
 
