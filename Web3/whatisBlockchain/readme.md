@@ -13,9 +13,9 @@ Blockchain is a specialized database. For doing this, it uses a decentralized ne
 ![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/whatisBlockchain/figures/images.png)
 
 Each block has:
-1.A list of transactions
-2.A hash (a long string of random characters) for the block
-3.The previous block’s hash (this is how the blocks are linked)"
+1. A list of transactions
+2. A hash (a long string of random characters) for the block
+3. The previous block’s hash (this is how the blocks are linked)"
 
 If you want to know more about blockchain you can check out these resources here:
 
