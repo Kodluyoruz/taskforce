@@ -11,9 +11,7 @@ Public keys which can be known to others and private keys which can not be known
 
 Blockchain makes extensive use of public key cryptography.
 "
-
-https://miro.medium.com/max/700/1*p2S1QmN1wtiePrl6a9K_nA.jpeg
-
+![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/publicPrivateKeysSigning/figures/Blockchain.jpeg)
 
 
 
