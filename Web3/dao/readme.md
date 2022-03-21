@@ -4,10 +4,12 @@ These contents have been prepared using online resources. Patika.dev’s own con
 
 **DAO stands for “decentralized autonomous organization”**
 
-_Think of them like an internet-native business that's collectively owned and managed by its members. They have built-in treasuries that no one has the authority to access without the approval of the group. Decisions are governed by proposals and voting to ensure everyone in the organisation has a voice… There's no CEO who can authorise spending based on their own whims and no chance of a dodgy CFO manipulating the books. Everything is out in the open and the rules around spending are baked into the DAO via its code. - [ethereum.org](ethereum.org)_
+In contrast to any organization, DAO has the freedom to govern itself or control its own affairs. As you all know, in a central organization, there are CEOs, CTOs, board of directors, etc. They all play a crucial role in decision making meetings. CEOs even have some power not to approve some of the decisions. 
 
-_A DAO is a community with a treasury owned by its contributing members. The simplest way to describe how a DAO works is to compare it to a company:_
+However, DAOs are much more decentralized and autonomous. There are no CEOs, CTOs or board of directors here but only members. Members are the ones that hold tokens. Each member can propose something and it will be voted by the members. If it passes, the code behind the DAO will be run and the proposal will be executed immediately. Once it is approved, no one can disapprove it unless another proposal of disapproving the current one is voted and passed. 
+
+In short, everything is based on a voting process. 
 
 ![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/dao/figures/daos.PNG)
 
-For further information: https://creatoreconomy.so/p/curious-beginner-guide-to-crypto
+[For further information: DAO](https://creatoreconomy.so/p/curious-beginner-guide-to-crypto)
