@@ -2,9 +2,14 @@
 
 These contents have been prepared using online resources. Patika.dev’s own contents are currently under preparation.
 
-_Ethereum was created in 2013 by Vitalik Buterin to let anyone “write smart contracts and decentralized applications (dapps).” [Ethereum whitepaper](https://ethereum.org/en/whitepaper/))_
 
-_To understand what that even means, let’s define the following:_
+Ethereum is an open-source blockchain that allows use of smart contract service. This means Ethereum allows builders to create and deploy decentralized applications onto blockchain. So in this way users can interact with blockchain through DApps. Ethereum also provided new words to our lives such as DeFi, NFT and DAO.  
+
+Ethereum is preparing for an upgrade called Ethereum 2.0 which comes with the new consensus method Proof of Stake instead of Proof of Work and some improvements for transactions.
+
+Recommend you to read Ethereum whitepaper to understand it better.
+
+"To understand what that even means, let’s define the following:
 
 ![ethereum definitions](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/ethereum/figures/ethereum.png)
 
@@ -16,12 +21,35 @@ _To understand what that even means, let’s define the following:_
     3. Open: Anyone can view the code and use it (like an open API).
 4. Decentralized apps (dapp) combine a backend smart contract with frontend UI.
 
-_Dapps are where the action is in crypto and the majority are built on Ethereum. Examples include:_
+Dapps are where the action is in crypto and the majority are built on Ethereum. Examples include:
 
 1. [OpenSea](https://opensea.io/) for buying and selling digital assets.
 2. [Uniswap](https://app.uniswap.org/#/swap?utm_source=StateOfTheDApps) for swapping digital tokens.
-3. [Decentraland](https://decentraland.org/) for owning land in a 3D digital world.
+3. [Decentraland](https://decentraland.org/) for owning land in a 3D digital world.v
 
-_All of these dapps cost gas to run. That’s why Ethereum is upgrading to '[eth 2.0](https://ethereum.org/en/eth2/)' (which includes shifting from proof of work to stake) to scale the network, reduce energy consumption, and lower gas fees._
+All of these dapps cost gas to run. That’s why Ethereum is upgrading to ['eth 2.0](https://ethereum.org/en/eth2/)' (which includes shifting from proof of work to stake) to scale the network, reduce energy consumption, and lower gas fees."
 
-For further information: https://creatoreconomy.so/p/curious-beginner-guide-to-crypto?s=r
+[For further information: Ethereum](https://creatoreconomy.so/p/curious-beginner-guide-to-crypto?s=r)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
