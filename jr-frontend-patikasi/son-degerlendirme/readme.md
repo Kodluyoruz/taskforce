@@ -1,8 +1,8 @@
 # Son Değerlendirme
 
-Eğitimimizin ilk bölümünün sonuna geldik. Eğitimlerimizi değerlendirebilmek için siz katılımcılarımızın değerlendirme formlarını doldurması bizim için çok önemli. Çalışmanın bütünlüğü ve tutarlılığı açısından tüm soruların dürüstçe ve içinden geldiği gibi yanıtlanmasını rica ediyoruz, böylece bilgilerini öğrenip kendimizi geliştirebiliriz.
+Merhaba,
+Eğitimlerimizi değerlendirmek için bu formu doldurman bizim için çok önemli.
+Çalışmamızın tutarlılığı açısından cevabını bilmediğin soruları içinden geldiği gibi ve dürüstçe yanıtlarsan çok mutlu oluruz. Böylece senin sayende kendimizi geliştirebileceğiz.
+Vaktini ayırdığın için teşekkür ederiz!
 
-Katılımınız ve katkınız için şimdiden teşekkürler!
-Kodluyoruz Ekibi
-
-Son Değerlendirme Formu: https://forms.gle/vZTX1hhaFDMSipqRA
+Son Değerlendirme Formu: https://forms.gle/4GXUDXbPCAx59tWb7
