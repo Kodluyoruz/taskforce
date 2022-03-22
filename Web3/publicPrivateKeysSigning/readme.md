@@ -13,6 +13,7 @@ Blockchain makes extensive use of public key cryptography.
 "
 ![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/publicPrivateKeysSigning/figures/Blockchain.jpeg)
 
+[For further information: Public / Private Keys & Signing](https://medium.com/coinmonks/blockchain-public-private-key-cryptography-in-a-nutshell-b7776e475e7c)
 
 
 
