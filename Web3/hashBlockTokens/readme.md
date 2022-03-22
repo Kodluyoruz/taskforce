@@ -12,8 +12,7 @@ Hashing is an algorithm that takes a key that includes data and converts it to f
 
 Block is a page in the digital ledger. These blocks store unalterable data.
 
-
-
+[Try the demo](https://andersbrownworth.com/blockchain/)
 
 
 
