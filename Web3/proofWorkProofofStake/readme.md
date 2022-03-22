@@ -13,7 +13,7 @@ These two methods are similar. Both method’s distributed network participants 
 
 2. The first miner that solves the problem gets to create a block.
 
-3.Other nodes check if the block is valid. If it is, the miner is rewarded cryptocurrency. If it’s not, the miner wasted their time and energy.
+3. Other nodes check if the block is valid. If it is, the miner is rewarded cryptocurrency. If it’s not, the miner wasted their time and energy.
 
 4. All nodes add the new block to their copy of the blockchain.
 
