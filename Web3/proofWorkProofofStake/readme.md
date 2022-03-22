@@ -36,3 +36,4 @@ Proof of stake is still in its infancy but uses less energy than proof of work. 
 
 
 
+
