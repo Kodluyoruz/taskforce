@@ -42,7 +42,7 @@
 - [Html Ödev 1](html-odev1/)
 
 #### Son Değerlendirme ####
-- [Sonn Değerlendirme](son-degerlendirme/)
+- [Son Değerlendirme](son-degerlendirme/)
 
 #### Listeler ve Diğer Özellikler ####
 
