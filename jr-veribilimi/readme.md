@@ -1,3 +1,8 @@
+# Jr. Veri Bilimi
+
+#### Ön Değerlendirme ####
+- [Ön Değerlendirme](on-degerlendirme/)
+
 
 #### Python Programlamaya Giriş ####
 
@@ -46,6 +51,9 @@
 - [First Class Function](first-class-fonksiyon/)
 - [For-Function](for-fonksiyon/)
 - [Underscore Placeholder](underscore-placeholder/)
+
+#### Son Değerlendirme ####
+- [Son Değerlendirme](son-degerlendirme/)
 
 #### Veri Bilimine Giriş ####
 
