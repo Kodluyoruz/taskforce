@@ -7,7 +7,7 @@ Ethereum is an open-source blockchain that allows use of smart contract service.
 
 Ethereum is preparing for an upgrade called Ethereum 2.0 which comes with the new consensus method Proof of Stake instead of Proof of Work and some improvements for transactions.
 
-Recommend you to read Ethereum whitepaper to understand it better.
+Recommend you to read [Ethereum Whitepaper]( https://ethereum.org/en/whitepaper/) to understand it better.
 
 "To understand what that even means, let’s define the following:
 
@@ -30,24 +30,6 @@ Dapps are where the action is in crypto and the majority are built on Ethereum. 
 All of these dapps cost gas to run. That’s why Ethereum is upgrading to ['eth 2.0](https://ethereum.org/en/eth2/)' (which includes shifting from proof of work to stake) to scale the network, reduce energy consumption, and lower gas fees."
 
 [For further information: Ethereum](https://creatoreconomy.so/p/curious-beginner-guide-to-crypto?s=r)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
