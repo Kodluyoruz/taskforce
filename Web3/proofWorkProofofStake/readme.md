@@ -18,8 +18,6 @@ Proof of work uses energy because miners compete to solve math problems by build
 Proof of stake
 1. Nodes called validators stake some cryptocurrency. A stake is like saying: “I’ll commit this amount of cryptocurrency to win the right to do this transaction.”
 2. Validators with more stake are more likely (but not guaranteed) to be selected to process the transaction and create a block.
-
-
 3. Other validators check if the block is valid. If it is, all participating validators earn a transaction fee. If it’s not, the validator that created the block might lose its stake.
 4. All nodes add the new block to their copy of the blockchain.
 
