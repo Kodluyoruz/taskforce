@@ -21,6 +21,8 @@ If you want to know more about blockchain you can check out these resources here
 https://www.youtube.com/watch?v=EH6vE97qIP4&list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn
 https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018
 
+[For further information: What is Blockchain?](https://creatoreconomy.so/p/curious-beginner-guide-to-crypto?s=r)
+
 
 
 
