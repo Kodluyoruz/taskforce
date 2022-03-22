@@ -1,5 +1,6 @@
 # Jr. Frontend
 
+#### Ön Değerlendirme ####
 - [Ön Değerlendirme](on-degerlendirme/)
 
 #### Temel Dersler ####
@@ -39,6 +40,9 @@
 - [Açıklama Satırları Oluşturmak](aciklama-satirlari-olusturmak/)
 - [Başlıklar ve Paragraflarla Çalışmak](basliklar-ve-paragraflarla-calismak/)
 - [Html Ödev 1](html-odev1/)
+
+#### Son Değerlendirme ####
+- [Sonn Değerlendirme]()
 
 #### Listeler ve Diğer Özellikler ####
 
