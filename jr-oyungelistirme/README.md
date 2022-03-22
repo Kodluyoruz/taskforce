@@ -1,5 +1,8 @@
 # Oyun Geliştirme #
 
+#### Ön Değerlendirme ####
+- [Ön Değerlendirme](on-degerlendirme/)
+
 #### Unity Kurulumu ####
 - [Unity'yi İndir](install-unity-software/)
 - [Proje Kurulum Süreçleri](project-setup-processes/)
@@ -30,6 +33,10 @@
 - [ArrayList](3-arraylist-nedir/)
 - [Dictionary](4-dictionary-nedir/)
 - [Koleksiyonlarla ilgili algoritma soruları](15-odev-2/)
+
+
+#### Son Değerlendirme ####
+- [Son Değerlendirme](son-degerlendirme/)
 
 #### Nesneye Dayalı Programlama ####
 
