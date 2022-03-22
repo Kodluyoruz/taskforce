@@ -41,9 +41,6 @@
 - [Başlıklar ve Paragraflarla Çalışmak](basliklar-ve-paragraflarla-calismak/)
 - [Html Ödev 1](html-odev1/)
 
-#### Son Değerlendirme ####
-- [Son Değerlendirme](son-degerlendirme/)
-
 #### Listeler ve Diğer Özellikler ####
 
 - [Listelerle Çalışmak](listelerle-calismak/)
@@ -63,6 +60,9 @@
 - [Bölüm Sonu Çalışması](bolum-sonu1/)
 - [Bölüm Sonu Çalışması 2](bolum-sonu2/)
 - [Ödev 3](html-odev3/)
+
+#### Son Değerlendirme ####
+- [Son Değerlendirme](son-degerlendirme/)
 
 
 #### CSS ####
