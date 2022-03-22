@@ -9,16 +9,23 @@ These two methods are similar. Both method’s distributed network participants 
 ![images](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/Web3/proofWorkProofofStake/figures/mechanisms.png)
 
 "Proof of work
-1. Nodes called miners compete to solve a math problem using brute force (e.g., rolling a dice thousands of times to get the right number). 
+1. Nodes called miners compete to solve a math problem using brute force (e.g., rolling a dice thousands of times to get the right number).
+
 2. The first miner that solves the problem gets to create a block.
+
 3.Other nodes check if the block is valid. If it is, the miner is rewarded cryptocurrency. If it’s not, the miner wasted their time and energy.
+
 4. All nodes add the new block to their copy of the blockchain.
+
 Proof of work uses energy because miners compete to solve math problems by building powerful machines that run 24/7.
 
 Proof of stake
 1. Nodes called validators stake some cryptocurrency. A stake is like saying: “I’ll commit this amount of cryptocurrency to win the right to do this transaction.”
+
 2. Validators with more stake are more likely (but not guaranteed) to be selected to process the transaction and create a block.
+
 3. Other validators check if the block is valid. If it is, all participating validators earn a transaction fee. If it’s not, the validator that created the block might lose its stake.
+
 4. All nodes add the new block to their copy of the blockchain.
 
 Proof of stake is still in its infancy but uses less energy than proof of work. Bitcoin uses proof of work, and Ethereum is currently transitioning from proof of work to proof of stake."
