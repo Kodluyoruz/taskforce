@@ -6,7 +6,7 @@
 - [Kullanılacak Dokümanlar](kullanılacak-dokümanlar)
 
 #### Spring Framework ####
-- [Intelij Idea Hakkında Genel Bilgiler](intellij-idea)
+- [Intellij Idea Hakkında Genel Bilgiler](intellij-idea)
 - [Wildfly, Lombock, Project](wildfly-lombock-project)
 - [İleri Düzey Java Hatırlatma](ileri-düzey-java-hatırlatma)
 - [Spring Framework Nedir? Bileşenleri Nelerdir? Bean Life Cycle](spring-framework-nedir)
@@ -21,7 +21,7 @@
 - [@Alternative](alternative)
 - [Qualifier/2 Class](qualifier-2-class)
 - [Qualifier/4 Class](qualifier-4-class)
-- [Aspect Oriented Programming Nedir? ](aspect-oriented-programming)
+- [Aspect Oriented Programming Nedir?](aspect-oriented-programming)
 - [AOP/Interceptor](aop-interceptor)
 - [AOP/Stereotype](aop-stereotype)
 - [AOP/Decorator](aop-decorator)
