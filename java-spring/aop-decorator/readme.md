@@ -9,6 +9,7 @@
 - Proje ne kadar büyürse büyüsün yönetmesi kolaylaştırır. 
 
 Modüllerinden;
+
 1-) Core container:Spring Frameworkun temel yapı taşını oluşturur. Spring Frameworkun en önemli özelliği olan IOC(Inversion Of Controller ve DI(dependency Injection) özelliklerini sağlar.
 IOC: kontrolu yazılımcı yönetiminden alıp Spring Framework'e devretmesi durumudur. ve tüm yönetim Spring'e olması durumudur.
 IOC (Factory Pattern,Strategy pattern,Service Locator Pattern v.s patternleri kullanır
