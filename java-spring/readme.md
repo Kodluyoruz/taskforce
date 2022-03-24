@@ -15,7 +15,7 @@
 - [CDI @Inject](cdi-inject)
 - [CDI @New](cdi-new)
 - [CDI Scoped](cdi-scoped)
-- [Inversion of Control/IOC ve Dependency Injection/DI](inversion-of-control-and dependency-injection)
+- [Inversion of Control-IOC ve Dependency Injection-DI](inversion-of-control-and dependency-injection)
 - [IOC'siz DI'siz](IOC-sız-dependency-injection)
 - [IOC'li DI'li](IOC-li-dependency-injection)
 - [@Alternative](alternative)
