@@ -54,4 +54,8 @@
 #### Kapanış ####
 - [Kapanış](Kapanış)
 
- 
+#### Projeler ####
+- [ATM Projesi](atm-projesi)
+- [İnsan Kaynakları Projesi](insan-kaynakları-projesi)
+- [İş Bulma Projesi](is-bulma-projesi)
+- [Online CV Projesi](online-cv-projesi)
