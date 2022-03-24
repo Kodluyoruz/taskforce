@@ -1,7 +1,7 @@
 # Java Spring
 
 #### Kurs Tanıtımı ####
-- [Kurs Taınıtımı](kurs-tanıtım)
+- [Kurs Tanıtımı](kurs-tanıtım)
 - [Kurulumlar](kurulum)
 - [Kullanılacak Dokümanlar](kullanılacak-dokümanlar)
 
