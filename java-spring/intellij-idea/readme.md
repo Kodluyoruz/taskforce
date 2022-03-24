@@ -1,1 +1,5 @@
-readme
+- Spring Framework Rod Johnson tarafından geliştirilen ve Java EE uygulamalarında kolaylaştıran açık kaynak kodlu bir frameworktür.
+- 20+ fazla modülleri bulunmaktadır. 
+- Modülerliği sayesinde istediğimiz modülü ekleyip çıkartabiliriz.
+- Spring XML,anotasyonlar destekler.
+- Spring OOP destekler.
