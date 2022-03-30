@@ -17,5 +17,3 @@ As an example, benji could have the root account benji.near. He then stores all 
 
 ## Storage
 Any information that is stored on NEAR is accounted for using a mechanism called storage staking. In short, an account must maintain a certain balance that is locked in order to cover the cost of storage. If that storage is released, the funds become available once again. This is why named account IDs on NEAR cost an initial deposit to create. If you attempt to store state on-chain without having the necessary balance in your account to cover the cost, an error will be thrown which will tell you to add more NEAR to your account.
-
-[Source](https://docs.near.org/docs/concepts/new-to-near#account-model)
