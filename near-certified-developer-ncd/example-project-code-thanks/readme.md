@@ -1,6 +1,7 @@
 # Example: Thanks
 
 [Github Repo Sample 1](https://github.com/Learn-NEAR/NCD.L1.sample--thanks)
+
 [Github Repo Sample 2](https://github.com/Learn-NEAR/NCD.L1.sample--thanks/tree/main/scripts)
 
 Say "thanks!" to other students of the NCD by calling their instance of this contract.
