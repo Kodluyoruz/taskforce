@@ -10,3 +10,5 @@ Note that the contract can hold some data (eg. primitive and custom types)
   - data that is read from storage will be deserialized into memory
 
 `@nearBindgen` is a decorator made for the serialization of custom classes before they are saved to storage onto the blockchain. `@nearBindgen` does not support class inheritance.
+
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/near-certified-developer-ncd/serde/figures/figures.png)
