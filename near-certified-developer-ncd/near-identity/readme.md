@@ -6,5 +6,3 @@ Identity on NEAR is exposed to developers using the Context object in AssemblySc
 - predecessor account: the account that came just before this moment
 - sender account: the account that originally signed the transaction that brought us here
 ![figures]()
-
-[Click for source](https://docs.google.com/presentation/d/1a7fVnVjn1u29C1T30DAv6pJmb4YlnvAzenFZHQoTUSI/edit#slide=id.gf2165469cf_0_383)
