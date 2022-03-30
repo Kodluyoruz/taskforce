@@ -1,6 +1,6 @@
-## NCD submission criteria
+## NEAR Certified Developer - Final Project
 
-To become a NEAR Certified Developer you need to have a demo which will include below features at the end of the course. 
+At the end of this course, you will submit a project and a demo to the NEAR Education team. To become a NEAR Certified Developer you need to have a demo which will include below features at the end of the course.
 
 ### Project scope
 
@@ -11,7 +11,6 @@ To become a NEAR Certified Developer you need to have a demo which will include 
   - Context
   - Persistent collections
   - Assert statements
-
 
 ### Project scripts
 - The contract should include scripts to drive it using either Bash and NEAR CLI or near-api-js in NodeJS files
