@@ -137,7 +137,7 @@ class PersistentDeque<T> {
 }
 ```
 
-Note: If you're coming from JavaScript, you might not be familiar with the type declaration in the two brackets `<>`. In AssemblyScript, need to declare the types that any collection is going to take. This enforces that any data added to the collection must have the same type. If not, an error will be raised by the AssemblyScript compiler insisting that the types must all match. This adds a little up-front effort when programming but means far fewer run time errors happen because of type mismatches.
+**Note:** If you're coming from JavaScript, you might not be familiar with the type declaration in the two brackets `<>`. In AssemblyScript, need to declare the types that any collection is going to take. This enforces that any data added to the collection must have the same type. If not, an error will be raised by the AssemblyScript compiler insisting that the types must all match. This adds a little up-front effort when programming but means far fewer run time errors happen because of type mismatches.
 
 Note: The letter passed in as an argument (ie. `"m"` in the case of the `PersistentMap`) is the key that gets assigned as a prefix to distinguish the collections from one another (precisely because they're persisted using the same underlying key-value storage that is controlled by the contract account).
 
