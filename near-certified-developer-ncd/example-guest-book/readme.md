@@ -10,13 +10,13 @@
 
 **Note:** We will not focus on the “src folder” which is the frontend of this dApp.
 
-![figures]()
-![figures]()
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/near-certified-developer-ncd/example-guest-book/figures/figures1.png)
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/near-certified-developer-ncd/example-guest-book/figures/figures2.png)
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/near-certified-developer-ncd/example-guest-book/figures/figures3.png)
 
 **Contract Data Model: assembly/model.ts**
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/near-certified-developer-ncd/example-guest-book/figures/figures4.png)
 
 - PostedMessage is a serializable class with three attributes: 
   - premium to flag messages with attached NEAR tokens
@@ -28,7 +28,7 @@ _**note: @nearBindgen marks the class as serializable**_
 
 **Contract Behavior: assembly/main.ts**
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/near-certified-developer-ncd/example-guest-book/figures/figures5.png)
 
 - MESSAGE_LIMIT is used to avoid unbounded calls (ie. potentially expensive) to retrieve guest book messages from storage
 
