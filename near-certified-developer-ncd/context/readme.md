@@ -27,5 +27,3 @@ class Context {
   get usedGas(): u64; // gas that was irreversibly used for contract execution (aka. burnt gas) + gas attached to any promises (cannot exceed prepaidGas)
 }
 ```
-
-[Click for source](https://docs.near.org/docs/develop/contracts/as/intro)
