@@ -1,4 +1,4 @@
-# NEAR Certified Developer (NCD) Module
+# NEAR Developer Training
 
 
 #### NEAR Certified Developer Informations ####
