@@ -15,4 +15,3 @@ export class PostedMessage {
 import { PostedMessage } from "./model";
 ```
 
-[Click for source](https://docs.near.org/docs/develop/contracts/as/intro)
