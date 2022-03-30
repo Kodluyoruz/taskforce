@@ -7,14 +7,14 @@ There are 8 actions you can perform with NEAR. These actions modify chain state 
 
 ![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/near-certified-developer-ncd/near-intro/figures/figures.png)
 
-- CreateAccount to make a new account (for a person, contract, refrigerator, etc)
-- DeleteAccount to delete an account (and transfer balance to a beneficiary account)
-- AddKey to add a key to an account (either FullAccess or FunctionCall access)
-- DeleteKey to delete an existing key from an account
-- Transfer to move tokens from one account to another
-- Stake to express interest in becoming a validator at the next available opportunity
-- DeployContract to deploy a contract
-- FunctionCall to invoke a method on a contract (including budget for compute and storage)
+- ``CreateAccount`` to make a new account (for a person, contract, refrigerator, etc)
+- ``DeleteAccount`` to delete an account (and transfer balance to a beneficiary account)
+- ``AddKey`` to add a key to an account (either ``FullAccess`` or ``FunctionCall`` access)
+- ``DeleteKey`` to delete an existing key from an account
+- ``Transfer`` to move tokens from one account to another
+- ``Stake`` to express interest in becoming a validator at the next available opportunity
+- ``DeployContract`` to deploy a contract
+- ``FunctionCall`` to invoke a method on a contract (including budget for compute and storage)
 
 ## FunctionCall Access Keys
 
@@ -43,8 +43,6 @@ Invoking a contract method from your dApp roughly follows these steps:
 - reading and writing to state storage as needed
 - then returns the result of the function call and spins down the virtual machine
 - The blockchain layer routes the result back through the RPC interface to your dApp
-
-
 
 
 
