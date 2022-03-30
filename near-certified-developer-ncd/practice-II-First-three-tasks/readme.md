@@ -1,4 +1,4 @@
-# Practice 
+# Practice I
 
 You need to practice what we learned until now. Practicing is a vital element of becoming a NEAR developer. In this part, we have a smart contract which was created by the NEAR education team. We want to clone this repository and make changes as follows. This is the second time you make changes to a smart contract in our bootcamp.
 
@@ -90,7 +90,6 @@ hello <Your Name>
 hello <Friend Name>
 ```
 
-[Click for source](https://hackmd.io/@8CW3mmC9RNiEjxI9m33vqA/near-ncd-i-first-smart-contract#Your-First-NEAR-Smart-Contract-Challenge)
 
 
 
