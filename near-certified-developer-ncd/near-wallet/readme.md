@@ -1,8 +1,8 @@
 # What is NEAR Wallet?
 
-
 NEAR Wallet is an in-browser, web-based wallet for creating and interacting with NEAR accounts. This wallet stores account keys in the browser's `localStorage`
 
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/near-certified-developer-ncd/near-wallet/figures/figures.png)
 
 When users are redirected back to your app, they can find in LocalStorage a copy of the private keys giving your app FunctionCall access to their account
 
