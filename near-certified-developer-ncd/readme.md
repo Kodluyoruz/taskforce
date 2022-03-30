@@ -42,7 +42,7 @@
 
 #### Your Own Project ####
 - [Previous successful projects](previous-successful-projects)
-- 
+
 #### Example: Guest Book ####
 
 #### Example: Sample Lottery ####
