@@ -65,7 +65,3 @@ export class Greeter {
 // see https://github.com/nearprotocol/blockbuster/blob/master/assembly/model.ts
 ```
 
-[Click for source](https://docs.near.org/docs/develop/contracts/as/intro)
-
-
-
