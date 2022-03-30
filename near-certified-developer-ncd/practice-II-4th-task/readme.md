@@ -29,24 +29,3 @@ hello <YOUR_ACCOUNT>.testnet
 ```
 
 Congrats! You have a smart contract on web3! 
-
-[Click for source](https://hackmd.io/@8CW3mmC9RNiEjxI9m33vqA/near-ncd-i-first-smart-contract#Your-First-NEAR-Smart-Contract-Challenge)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
