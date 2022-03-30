@@ -9,6 +9,7 @@
 - [NEAR Explorer](near-explorer)
 
 #### Assembly Script - Starting ####
+- [Assembly Script - Starting](assembly-script-starting)
 - [Contract](contract)
 - [File Structure](file-structure)
 - [Imports](imports)
@@ -38,11 +39,5 @@
 - [NEAR Wallet](near-wallet)
 - [PRACTICE: NEAR ACADEMY-MEME MUSEUM](practice-near-academy-meme-museum)
 - [Example project code: Thanks](example-project-code-thanks)
-
-
-
-
-
-
 
 
