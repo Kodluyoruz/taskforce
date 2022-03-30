@@ -13,3 +13,25 @@
 ![figures]()
 ![figures]()
 ![figures]()
+
+**Contract Data Model: assembly/model.ts**
+
+![figures]()
+
+- PostedMessage is a serializable class with three attributes: 
+  - premium to flag messages with attached NEAR tokens
+  - sender to track the signer of the guest book message
+  - text to hold the guest book message
+- messages is a collection of guest book messages stored as a PersistentVector of PostedMessage objects
+
+_**note: @nearBindgen marks the class as serializable**_
+
+**Contract Behavior: assembly/main.ts**
+
+![figures]()
+
+- MESSAGE_LIMIT is used to avoid unbounded calls (ie. potentially expensive) to retrieve guest book messages from storage
+
+- two public functions are exposed on the contract: 
+  - addMessage()
+  - getMessages()
