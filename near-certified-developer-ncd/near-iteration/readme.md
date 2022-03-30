@@ -8,4 +8,3 @@ for (let i: u64 = startIndex; i < someValue; i++) {
 }
 ```
 
-[Click for source](https://docs.near.org/docs/develop/contracts/as/intro)
