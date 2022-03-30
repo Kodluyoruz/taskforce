@@ -47,7 +47,7 @@
 - [Example: Guest Book](example-guest-book)
 
 #### Example: Sample Lottery ####
--[Example: Sample Lottery](example-sample-lottery)
+- [Example: Sample Lottery](example-sample-lottery)
 
 #### Example: CRUD dApp ####
 - [Develop project ideas](develop-project-ideas)
