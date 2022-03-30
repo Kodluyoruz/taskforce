@@ -1,6 +1,5 @@
-# NEAR Wallet
+# What is NEAR Wallet?
 
-## What is NEAR Wallet?
 
 NEAR Wallet is an in-browser, web-based wallet for creating and interacting with NEAR accounts. This wallet stores account keys in the browser's `localStorage`
 
