@@ -18,5 +18,3 @@ import {
   utils, // utility type conversion and read_register
 } from "near-sdk-as";
 ```
-
-[Click for source](https://docs.near.org/docs/develop/contracts/as/intro)
