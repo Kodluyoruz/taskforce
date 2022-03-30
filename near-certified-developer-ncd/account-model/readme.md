@@ -7,8 +7,9 @@ These accounts also have the permission to create subaccounts such as ``nft.alic
 
 ## Keys
 On most blockchains, there is one public/private key pair per account. On NEAR, each account can have many key pairs associated with them which we call "Access Keys". There are two types of "Access Keys":
-Full Access _(Grants full control to the account)_
-Function Call _(Allows for only non-monetary transaction signing)_
+
+- Full Access _(Grants full control to the account)_
+- Function Call _(Allows for only non-monetary transaction signing)_
 These keys can be used by dApp developers to allow users to sign simple transactions that mutate state on the blockchain without having to constantly re-direct to the user's wallet to prompt for authorization. They can be widely or narrowly scoped depending on the use case.
 
 ## Contracts
