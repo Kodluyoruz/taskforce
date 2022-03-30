@@ -11,4 +11,4 @@ NEAR Explorer allows you to view block creations in real time. This useful tool 
 
 NEAR has several development networks operating independently of each other with their own account IDs. Because of this, there are several deployed wallets you can use.
 
-[Click for Source](https://docs.google.com/presentation/d/14bbrw7JmErE_fZmF242VR7wvnznX6XBQ9BB6glUFuMk/edit#slide=id.g1090a06f1f3_0_475)
+[Click for source](https://docs.google.com/presentation/d/14bbrw7JmErE_fZmF242VR7wvnznX6XBQ9BB6glUFuMk/edit#slide=id.g1090a06f1f3_0_475)
