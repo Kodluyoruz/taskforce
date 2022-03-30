@@ -16,8 +16,6 @@ There are 8 actions you can perform with NEAR. These actions modify chain state 
 - DeployContract to deploy a contract
 - FunctionCall to invoke a method on a contract (including budget for compute and storage)
 
-[Click for source](https://docs.google.com/presentation/d/14bbrw7JmErE_fZmF242VR7wvnznX6XBQ9BB6glUFuMk/edit#slide=id.g1090a06f1f3_0_542)
-
 ## FunctionCall Access Keys
 
 FunctionCall is a common access key that lets the holder call a function on only 1 contract and only up to a limited number of times.
@@ -31,7 +29,6 @@ A rare and powerful access key that lets the holder do anything they want to do 
 Having a FullAccess key on the account means you own the account. Keep your FullAccess key safe!
 ![figures]()
 
-[Click for source](https://docs.google.com/presentation/d/14bbrw7JmErE_fZmF242VR7wvnznX6XBQ9BB6glUFuMk/edit#slide=id.g1090a06f1f3_0_568)
 
 ![figures]()
 
@@ -45,9 +42,6 @@ Invoking a contract method from your dApp roughly follows these steps:
 - reading and writing to state storage as needed
 - then returns the result of the function call and spins down the virtual machine
 - The blockchain layer routes the result back through the RPC interface to your dApp
-
-[Click for source](https://docs.google.com/presentation/d/1Ek65RKTVi9FLKqMQv_y9S1x4iHVG0DsKI6edzX8j9RM/edit#slide=id.ge150b0b985_1_608)
-
 
 
 
