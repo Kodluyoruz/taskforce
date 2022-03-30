@@ -149,4 +149,3 @@ This should come as no surprise until we consider that a collection type like `P
 
 This means that storage used by a contract must always use a unique storage prefix for each collection to avoid data collision.
 
-[Click for source](https://docs.near.org/docs/develop/contracts/as/intro)
