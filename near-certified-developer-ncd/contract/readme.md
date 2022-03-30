@@ -8,4 +8,4 @@ AssemblyScript, as a variant of TypeScript that is syntactically similar to Java
 
 It offers a large group of developers who already write applications for the web a path to pick up and learn WebAssembly. Even if you are starting from scratch and are not particularly familiar with JavaScript or TypeScript, AssemblyScript is a solid choice when picking a language to start outputting to WebAssembly. Moreover, the optimized AssemblyScript is almost twice as fast as JavaScript.
 
-[Click for soource](https://docs.near.org/docs/develop/contracts/as/intro)
+[Click for source](https://docs.near.org/docs/develop/contracts/as/intro)
