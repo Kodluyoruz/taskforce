@@ -1,4 +1,4 @@
-## SUCCESSFUL DEMOS
+## Successful Demos
 
 This is an example of what you will build at the end of this course. Please review the demos below. We have included these demos in the curriculum to show you what the NCD project is like:
 
