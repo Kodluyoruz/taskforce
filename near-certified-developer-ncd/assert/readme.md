@@ -9,5 +9,3 @@ assert<T>(isTrueish: T, message?: string): T
 let output: i8 = 1;
 assert(output == 1, "The value of output is not 1");
 ```
-
-[Click for source](https://docs.near.org/docs/develop/contracts/as/intro)
