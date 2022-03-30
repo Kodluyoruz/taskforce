@@ -50,4 +50,3 @@ class Storage {
 }
 ```
 
-[Click for source](https://docs.near.org/docs/develop/contracts/as/intro)
