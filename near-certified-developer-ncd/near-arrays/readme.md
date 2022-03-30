@@ -18,5 +18,3 @@ var arr = Array.create<string>(10);
 for (let i = 0; i < 10; ++i) arr[i] = "notnull";
 // arr.length == 10 -> OK
 ```
-
-[Click for source](https://docs.near.org/docs/develop/contracts/as/intro)
