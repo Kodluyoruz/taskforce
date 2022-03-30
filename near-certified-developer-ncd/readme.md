@@ -2,10 +2,10 @@
 
 
 #### NEAR Certified Developer Informations ####
-- [NCD submission criteria](ncd-submission-criteria)
-- [SUCCESSFUL DEMO VIDEOS](successful-demo-videos)
-- [AGENDA](agenda)
-- [NEAR CLI](near-cli)
+- [NEAR Certified Developer Final Project](ncd-submission-criteria)
+- [What Does a Successful Project Look Like?](successful-demo-videos)
+- [The Course Outline](agenda)
+- [NEAR CLI (Command Line Interface)](near-cli)
 - [NEAR Explorer](near-explorer)
 
 #### Assembly Script - Starting ####
