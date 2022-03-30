@@ -5,7 +5,7 @@ There are 8 actions you can perform with NEAR. These actions modify chain state 
 - money
 - code
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/near-certified-developer-ncd/near-intro/figures/figures.png)
 
 - CreateAccount to make a new account (for a person, contract, refrigerator, etc)
 - DeleteAccount to delete an account (and transfer balance to a beneficiary account)
@@ -27,10 +27,11 @@ Every time you login to a website with your NEAR Wallet, you are adding a new Fu
 A rare and powerful access key that lets the holder do anything they want to do with the account
 
 Having a FullAccess key on the account means you own the account. Keep your FullAccess key safe!
-![figures]()
+
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/near-certified-developer-ncd/near-intro/figures/figures2.png)
 
 
-![figures]()
+![figures](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/near-certified-developer-ncd/near-intro/figures/figures3.png)
 
 
 Invoking a contract method from your dApp roughly follows these steps:
