@@ -18,4 +18,4 @@ Most commonly used commands:
 You can install near-cli globally with `npm install -g near-cli`. Make sure you have a current version of `npm` and `NodeJS` version 12 or above installed. For Windows users, we recommend using Windows Subsystem for Linux (WSL)
 
 
-[Click for Source](https://docs.google.com/presentation/d/14bbrw7JmErE_fZmF242VR7wvnznX6XBQ9BB6glUFuMk/edit#slide=id.g1090a06f1f3_0_494)
+[Click for source](https://docs.google.com/presentation/d/14bbrw7JmErE_fZmF242VR7wvnznX6XBQ9BB6glUFuMk/edit#slide=id.g1090a06f1f3_0_494)
