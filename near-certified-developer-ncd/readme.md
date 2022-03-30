@@ -9,18 +9,18 @@
 - [NEAR Explorer](near-explorer)
 
 #### Assembly Script - Starting ####
-- [Assembly Script - Starting](assembly-script-starting)
+- [What is Assembly Script?](assembly-script-starting)
 - [Contract](contract)
 - [File Structure](file-structure)
 - [Imports](imports)
-- [Practice II (First three tasks)](practice-II-First-three-tasks)
+- [Practice I](practice-II-First-three-tasks)
 
 #### Assembly Script - New concepts ####
 - [Assert](assert)
 - [Models](models)
 - [Context](context)
 - [Storage](storage)
-- [Practice II (4th task)](practice-II-4th-task)
+- [Practice II](practice-II-4th-task)
 
 #### Assembly Script - Other syntax ####
 - [Collections](near-collections)
@@ -37,7 +37,7 @@
 - [View & Change Methods](view-change-methods)
 - [Serde](serde)
 - [NEAR Wallet](near-wallet)
-- [PRACTICE: NEAR ACADEMY-MEME MUSEUM](practice-near-academy-meme-museum)
-- [Example project code: Thanks](example-project-code-thanks)
+- [Practice: NEAR Academy-Meme Museum](practice-near-academy-meme-museum)
+- [Example project: Thanks](example-project-code-thanks)
 
 
