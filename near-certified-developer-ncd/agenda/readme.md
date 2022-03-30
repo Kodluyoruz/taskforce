@@ -13,4 +13,4 @@ So please, for the rest of the bootcamp …
 - DO NOT insist on learning to write Rust, FOCUS on using the best language for YOU
 - DO NOT add complexity with frontend code, FOCUS on writing contract code
 
-[Click for Source](https://docs.google.com/presentation/d/1a7fVnVjn1u29C1T30DAv6pJmb4YlnvAzenFZHQoTUSI/edit#slide=id.gc584823524_1_1648)
+[Click for source](https://docs.google.com/presentation/d/1a7fVnVjn1u29C1T30DAv6pJmb4YlnvAzenFZHQoTUSI/edit#slide=id.gc584823524_1_1648)
