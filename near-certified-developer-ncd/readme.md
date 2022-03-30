@@ -40,4 +40,26 @@
 - [Practice: NEAR Academy-Meme Museum](practice-near-academy-meme-museum)
 - [Example project: Thanks](example-project-code-thanks)
 
+#### Your Own Project ####
+- [Previous successful projects](previous-successful-projects)
+- 
+#### Example: Guest Book ####
 
+#### Example: Sample Lottery ####
+
+#### Example: CRUD dApp ####
+- [Develop project ideas](develop-project-ideas)
+- [Submit your project plan](submit-your-project-plan)
+- [Build your project](build-your-project)
+
+#### Finalize and submit your project ####
+- [Loom video](loom-video)
+- [Documentation and explanations](documentation-and-explanations)
+- [How to submit](how-to-submit)
+
+#### Appendix ####
+- [Additional AssemblyScript Methods](additional-assemblyScript-methods)
+- [Math](math)
+- [Time](time)
+
+#### Testing ####
