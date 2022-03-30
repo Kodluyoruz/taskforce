@@ -20,3 +20,5 @@ To become a NEAR Certified Developer you need to have a demo which will include 
 - The repo must include a loom.com video recording of your demo of 3-5 minutes length maximum
 - The repo must include sufficient documentation to standup your project after cloning locally
 - The repo must include some kind of explanation or overview of the intent of your project
+
+This entire course will help you prepare a successful project submission and give you a very high chance to become a NEAR Certified Developer.
