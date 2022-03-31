@@ -3,7 +3,6 @@
 At the end of this course, you will submit a project and a demo to the NEAR Education team. To become a NEAR Certified Developer you need to have a demo which will include below features at the end of the course.
 
 ### Project scope
-
 - You must have a smart contract that you can deploy to NEAR TestNet and call
 - The contract interface must not be a copy of any examples or demos that you found.  If you are making a derivative work, please FORK the repo that inspired you or RISK losing your certification
 - The contract should use all of the following features of NEAR Protocol: Storage, Context, Persistent, Collections, Assert statements
