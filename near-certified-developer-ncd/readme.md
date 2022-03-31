@@ -1,6 +1,6 @@
 # NEAR Developer Training 
 
-#### NEAR Certified Developer Informations ####
+#### NEAR Certified Developer Information ####
 - [NEAR Certified Developer Final Project](ncd-submission-criteria)
 - [What Does a Successful Project Look Like?](successful-demo-videos)
 - [The Course Outline](agenda)
