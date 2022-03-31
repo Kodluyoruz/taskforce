@@ -1,1 +1,1 @@
-# example-crud-dApp
+# Example: CRUD dApp
