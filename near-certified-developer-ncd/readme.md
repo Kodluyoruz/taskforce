@@ -1,4 +1,4 @@
-# NEAR Developer Training
+# NEAR Developer Training #
 
 
 #### NEAR Certified Developer Informations ####
