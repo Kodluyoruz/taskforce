@@ -55,8 +55,6 @@
 - [Documentation and explanations](documentation-and-explanations)
 - [How to submit](how-to-submit)
 
-#### Appendix ####
-- [Additional AssemblyScript Methods](additional-assemblyScript-methods)
-- [Math](math)
-- [Time](time)
+#### Additional ####
+- [How to add tests](how-to-add-tests)
 
