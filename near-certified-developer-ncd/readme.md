@@ -31,9 +31,9 @@
 - [Introduction](near-intro)
 - [Identity](near-identity)
 - [Money](money)
-- [Smart Contract Overview](smart-contract-overview)
 
 #### NEAR Essentials 2 ####
+- [Smart Contract Overview](smart-contract-overview)
 - [Account Model](account-model)
 - [View & Change Methods](view-change-methods)
 - [Serde](serde)
