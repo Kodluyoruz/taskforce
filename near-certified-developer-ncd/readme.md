@@ -28,7 +28,7 @@
 - [Classes](near-classes)
 
 #### NEAR Essentials 1 ####
-- [Intro](near-intro)
+- [Introduction](near-intro)
 - [Identity](near-identity)
 - [Money](money)
 - [Smart Contract Overview](smart-contract-overview)
