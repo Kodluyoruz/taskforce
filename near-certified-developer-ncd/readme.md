@@ -43,17 +43,13 @@
 
 #### Your Own Project ####
 - [Previous successful projects](previous-successful-projects)
-
-#### Example: Guest Book ####
 - [Example: Guest Book](example-guest-book)
-
-#### Example: Sample Lottery ####
 - [Example: Sample Lottery](example-sample-lottery)
-
-#### Example: CRUD dApp ####
+- [Example: CRUD dApp](example-crud-dApp)
 - [Develop project ideas](develop-project-ideas)
 - [Submit your project plan](submit-your-project-plan)
 - [Build your project](build-your-project)
+- [How to Develop The Scripts for Demo Project](how-to-develop-scripts-for-demo-project)
 
 #### Finalize and submit your project ####
 - [Loom video](loom-video)
