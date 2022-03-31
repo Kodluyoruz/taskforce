@@ -1,7 +1,5 @@
 # View & Change Methods
 
-There are only two methods in smart contracts, either you change the smart contract or view the smart contract.
-
 Methods that **do not update the state** of your application are called view methods.  
 
 Those that do modify state are called change methods.
