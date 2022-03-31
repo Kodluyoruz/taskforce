@@ -47,7 +47,7 @@
 - [Example: Sample Lottery](example-sample-lottery)
 - [Example: CRUD dApp](example-crud-dApp)
 - [Develop project ideas](develop-project-ideas)
-- [Submit your project plan](submit-your-project-plan)
+- [Submit and build your project plan](submit-your-project-plan)
 - [Build your project](build-your-project)
 - [How to Develop The Scripts for Demo Project](how-to-develop-scripts-for-demo-project)
 
