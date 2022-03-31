@@ -42,6 +42,7 @@
 
 #### Your Own Project ####
 - [Previous successful projects](previous-successful-projects)
+- [Example: Thanks](example-project-code-thanks)
 - [Example: Guest Book](example-guest-book)
 - [Example: Sample Lottery](example-sample-lottery)
 - [Example: CRUD dApp](example-crud-dApp)
