@@ -1,5 +1,7 @@
 # Example: Sample Lottery
 
+Let's examine our third example, Lottery. Please follow the steps in the project on your own computer.
+
 This repository includes a complete project structure for AssemblyScript contracts targeting the NEAR platform. We will see how to call “view” and “change” methods on the terminal. 
 
 To clone this repo, open your terminal and paste this code:
