@@ -32,14 +32,13 @@
 - [Identity](near-identity)
 - [Money](money)
 - [Smart Contract Overview](smart-contract-overview)
-- [Account Model](account-model)
-- [View & Change Methods](view-change-methods)
 
 #### NEAR Essentials 2 ####
+- [Account Model](account-model)
+- [View & Change Methods](view-change-methods)
 - [Serde](serde)
 - [NEAR Wallet](near-wallet)
 - [Practice: NEAR Academy-Meme Museum](practice-near-academy-meme-museum)
-- [Example project: Thanks](example-project-code-thanks)
 
 #### Your Own Project ####
 - [Previous successful projects](previous-successful-projects)
