@@ -31,6 +31,6 @@
 #### NEAR Use Case ####
 - [NEAR Use Case](nearUseCase)
 
-#### Practise ####
+#### Practice ####
 - [Practice Part - I](practicePartI)
 - [Practice Part - II](practicePartII)
