@@ -1,5 +1,7 @@
 # Example: Guest Book
 
+Let's explore the successful NEAR project Guestbook together! We have explained below which elements the project consists of:
+
 - there are 2 main folders in the project:
   - assembly contains the smart contract and tests
   - src contains the application’s UX and tests
