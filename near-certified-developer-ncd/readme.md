@@ -48,7 +48,6 @@
 - [Example: CRUD dApp](example-crud-dApp)
 - [Develop project ideas](develop-project-ideas)
 - [Submit and build your project plan](submit-your-project-plan)
-- [How to Develop The Scripts for Demo Project](how-to-develop-scripts-for-demo-project)
 
 #### Finalize and submit your project ####
 - [Loom video](loom-video)
