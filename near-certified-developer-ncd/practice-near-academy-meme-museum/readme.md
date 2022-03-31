@@ -1,19 +1,12 @@
 # Practice: NEAR Academy-Meme Museum
 
+https://near.academy/near101/splash-1
+
 NEAR Academy is an interactive course for web developers looking to explore blockchain integration with their Apps.
 
 It is free and ends with a certificate of completion.
-Free Interactive course for Web2 developers to fast entry into the NEAR protocol
+Interactive course for Web2 developers to fast entry into the NEAR protocol
 Complete the course and receive your certificate as a Non-Fungible Token
 
-Learn 2 Earn
-Get your NEAR mainnet account created for free on course completion
+Focus on reading everything carefully and learn the key concepts. You will have a basic understanding of the NEAR Protocol.
 
-Contribute 2 Earn
-Join the builders of NEAR Academy on Github. Earn NEAR if your PR is accepted
-
-https://near.academy/near101/splash-1
-
-Do this interactive exercise to reinforce what we've learned so far. It ends with a certificate of completion.
-
-**Please submit your certificate.** 
