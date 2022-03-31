@@ -56,6 +56,3 @@
 - [Documentation and explanations](documentation-and-explanations)
 - [How to submit](how-to-submit)
 
-#### Additional ####
-- [How to add tests](how-to-add-tests)
-
