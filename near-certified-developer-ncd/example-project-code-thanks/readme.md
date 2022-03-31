@@ -1,14 +1,15 @@
 # Example: Thanks
 
-[Github Repo Sample 1](https://github.com/Learn-NEAR/NCD.L1.sample--thanks)
-
-[Github Repo Sample 2](https://github.com/Learn-NEAR/NCD.L1.sample--thanks/tree/main/scripts)
 
 Say "thanks!" to other students of the NCD by calling their instance of this contract.
 
 You can optionally attach tokens to your message, or even leave an anonymous tip.
 
 Of course keep in mind that your signing account will be visible on the blockchain via NEAR Explorer even if you send an anonymous message.
+
+[Github Repo Sample 1](https://github.com/Learn-NEAR/NCD.L1.sample--thanks)
+
+[Github Repo Sample 2](https://github.com/Learn-NEAR/NCD.L1.sample--thanks/tree/main/scripts)
 
 To clone this repo, open your terminal and paste this code:
 ```
