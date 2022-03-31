@@ -28,13 +28,15 @@
 - [Iteration](near-iteration)
 - [Classes](near-classes)
 
-#### NEAR Essentials ####
+#### NEAR Essentials 1 ####
 - [Intro](near-intro)
 - [Identity](near-identity)
 - [Money](money)
 - [Smart Contract Overview](smart-contract-overview)
 - [Account Model](account-model)
 - [View & Change Methods](view-change-methods)
+
+#### NEAR Essentials 2 ####
 - [Serde](serde)
 - [NEAR Wallet](near-wallet)
 - [Practice: NEAR Academy-Meme Museum](practice-near-academy-meme-museum)
