@@ -1,5 +1,4 @@
-# NEAR Developer Training #
-
+# NEAR Developer Training 
 
 #### NEAR Certified Developer Informations ####
 - [NEAR Certified Developer Final Project](ncd-submission-criteria)
