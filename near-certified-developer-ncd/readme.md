@@ -29,6 +29,7 @@
 
 #### NEAR Essentials 1 ####
 - [Introduction](near-intro)
+- [Keys](keys)
 - [Identity](near-identity)
 - [Money](money)
 
