@@ -43,7 +43,6 @@
 - [Inline(Etikete Özel), Internal(Aynı Dosyada) ve External(CSS Dosyasında) CSS Kullanımı](inlineetikete-ozel,-internalayni-dosyada-ve-externalcss-dosyasinda-css-kullanimi/)
 - [Açıklama Satırları ile Çalışmak ve Genel Font Özellikleri](aciklama-satirlari-ile-calismak-ve-genel-font-ozellikleri/)
 - [CSS ile Class ve ID Kullanımı](css-ile-class-ve-id-kullanimi/)
-- [CSS Odev 1](odev1/)
 
 #### CSS Devam Konuları ####
 
