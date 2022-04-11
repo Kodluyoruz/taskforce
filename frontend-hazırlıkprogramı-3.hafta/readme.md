@@ -21,7 +21,6 @@
 -  [Görsellerle Çalışmak](gorsellerle-calismak/)
 -  [Linklerle Çalışmak](linklerle-calismak/)
 -  [Blok Elemenler ve Inline Elementlerle Çalışmak](blok-elemenler-ve-inline-elementlerle-calismak/)
--  [Ödev 2](odev2/)
 
 #### Ekstra Özellikler ####
 
