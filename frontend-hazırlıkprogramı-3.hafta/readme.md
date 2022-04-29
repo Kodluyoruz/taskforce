@@ -12,7 +12,7 @@
 - [VS Code ile Çalışmak ve İlk HTML Sayfasının Web Tarayıcıda Gösterilmesi](vs-code-ile-calismak-ve-i̇lk-html-sayfasinin-web-tarayicida-gosterilmesi/)
 - [Açıklama Satırları Oluşturmak](aciklama-satirlari-olusturmak/)
 - [Başlıklar ve Paragraflarla Çalışmak](basliklar-ve-paragraflarla-calismak/)
-- [Ödev 1](odev1/)
+- [HTML Ödev 1](odev1/)
 
 #### Listeler ve Diğer Özelikler ####
 
@@ -48,6 +48,6 @@
 - [CSS Seçiciler ile Çalışmak, İstediğimiz HTML Etiket Yapısına Özelliklik Ekleyebilmek](css-seciciler-ile-calismak,-i̇stedigimiz-html-etiket-yapisina-ozelliklik-ekleyebilmek/)
 - [CSS Kutu Özellikleri(Margin, Padding, Width, Height) Kullanımı](css-kutu-ozelliklerimargin,-padding,-width,-height-kullanimi/)
 - [CSS Özet Çalışması ve Kendimi CSS Konusunda Nasıl Geliştirebilirim](css-ozet-calismasi-ve-kendimi-css-konusunda-nasil-gelistirebilirim/)
-- [Ödev 2](odev2/)
-- [Ödev 3](cssodev3/)
+- [CSS Ödev 2](odev2/)
+- [CSS Ödev 3](cssodev3/)
 
