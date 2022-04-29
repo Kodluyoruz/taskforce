@@ -33,7 +33,7 @@
 
 - [Bölüm Sonu Çalışması](bolum-sonu1/)
 - [Bölüm Sonu Çalışması 2](bolum-sonu2/)
-- [Ödev 3](html-odev3/)
+- [Ödev 3](htmlodev3/)
 
 #### CSS Nedir? ####
 
