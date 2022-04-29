@@ -12,7 +12,7 @@
 - [VS Code ile Çalışmak ve İlk HTML Sayfasının Web Tarayıcıda Gösterilmesi](vs-code-ile-calismak-ve-i̇lk-html-sayfasinin-web-tarayicida-gosterilmesi/)
 - [Açıklama Satırları Oluşturmak](aciklama-satirlari-olusturmak/)
 - [Başlıklar ve Paragraflarla Çalışmak](basliklar-ve-paragraflarla-calismak/)
-- [HTML Ödev 1](odev1/)
+- [HTML Ödev 1](htmlodev1/)
 
 #### Listeler ve Diğer Özelikler ####
 
