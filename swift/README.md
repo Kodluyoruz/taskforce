@@ -31,3 +31,13 @@
 - [UIAlertController ile Listeye Eleman Ekleme](list-app-add-item)
 - [Listeden Eleman Silme ve Düzenleme](list-app-remove-edit)
 - [CoreData ile Verilerin Yerel Hafızaya Kayıt Edilmesi](list-app-coredata)
+
+#### 6. Bölüm: Swift İleri Seviye ####
+- [Closures](closures)
+- [Struct and Class](structandclass)
+- [Erişim Denetimi](erişimdenetimi)
+- [Protokoller](protokoller)
+- [Extensionlar](extensionlar)
+- [Optional Yapısı](optionalyapisi)
+- [Swift Dil Yazım Standartları](dilyazımstandartları)
+
