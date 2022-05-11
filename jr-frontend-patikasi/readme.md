@@ -39,7 +39,6 @@
 - [VS Code ile Çalışmak ve İlk HTML Sayfasının Web Tarayıcıda Gösterilmesi](vs-code-ile-calismak-ve-i̇lk-html-sayfasinin-web-tarayicida-gosterilmesi/)
 - [Açıklama Satırları Oluşturmak](aciklama-satirlari-olusturmak/)
 - [Başlıklar ve Paragraflarla Çalışmak](basliklar-ve-paragraflarla-calismak/)
-- [Html Ödev 1](html-odev1/)
 
 #### Listeler ve Diğer Özellikler ####
 
@@ -48,7 +47,6 @@
 - [Görsellerle Çalışmak](gorsellerle-calismak/)
 - [Linklerle Çalışmak](linklerle-calismak/)
 - [Blok Elemenler ve Inline Elementlerle Çalışmak](blok-elemenler-ve-inline-elementlerle-calismak/)
-- [Ödev 2](html-odev2/)
 
 - [HTML Etiketlerine Ekstra Özellikler Eklemek](etiketlerine-ekstra-ozellikler-eklemek/)
 - [İskeletinin Genel Yapısını Anlamak](i̇skeletinin-genel-yapisini-anlamak/)
@@ -59,7 +57,6 @@
 
 - [Bölüm Sonu Çalışması](bolum-sonu1/)
 - [Bölüm Sonu Çalışması 2](bolum-sonu2/)
-- [Ödev 3](html-odev3/)
 
 #### Son Değerlendirme ####
 - [Son Değerlendirme](son-degerlendirme/)
@@ -82,7 +79,6 @@
 - [Bootstrap - Genel Tutucu(Container), Satır Blokları(Row) ve Kolon(Col) Yapısı](bootstrap-genel-tutucucontainer,-satir-bloklarirow-ve-koloncol-yapisi/)
 - [Bootstrap - Ekran Çözünürlüğü / Cihaz Duyarlı(Responsive) Kolon Yapısı Kullanımları](bootstrap-ekran-cozunurlugu-cihaz-duyarliresponsive-kolon-yapisi-kullanimlari/)
 - [Bootstrap - Satır Blokları (Row) Kullanımı](bootstrap-satir-bloklari-row-kullanimi/)
-- [Ödev 1](bootstrap-odev1/)
 
 #### Bootstrap ile Web Sitesi ####
 
@@ -92,6 +88,5 @@
 - [Bootstrap - Offset Kullanımı](bootstrap-offset-kullanimi/)
 - [Bootstrap Sıralama Özellikleri Kullanarak Responsive Yapıya Göre Tepkilerin Düzenlenmesi](bootstrap-siralama-ozellikleri-kullanarak-responsive-yapiya-gore-tepkilerin-duzenlenmesi/)
 - [Bootstrap Bileşenlerine(UI Components) Genel Bakış](bootstrap-bilesenlerineui-components-genel-bakis/)
-- [Ödev 2](bootstrap-odev2/)
 
 
