@@ -3,15 +3,14 @@
 #### Ön Değerlendirme ####
 - [Ön Değerlendirme](on-degerlendirme/)
 
-
 #### Python Programlamaya Giriş ####
 
--  [Programlama Nedir?](programlama-nedir/)
--  [Jupyter Notebook](jupyter/)
--  [Temel Veri Tipleri](temel-veri-tipleri/)
--  [Değişken Atama](degisken-atama/)
--  [Kafa Karışıklığı](kafa_karisikligi/)
--  [Operatörler ve İfadeler](operator-expression/)
+- [Programlama Nedir?](programlama-nedir/)
+- [Jupyter Notebook](jupyter/)
+- [Temel Veri Tipleri](temel-veri-tipleri/)
+- [Değişken Atama](degisken-atama/)
+- [Kafa Karışıklığı](kafa_karisikligi/)
+- [Operatörler ve İfadeler](operator-expression/)
 - [Stringler](stringler/)
 - [Stringler Üzerinde Operatörler](string-operator/)
 - [Stringlerde İndexleme](string-indexing/)
@@ -80,6 +79,4 @@
 - [Yapay Zekada Bias (Yanlılık)](ai-bias/)
 - [Bias Nasıl Azaltılmaya Çalışılabilir](bias-solution/)
 - [Başkasının Verisini Kullanmak](baska-veri/)
-- [Proje](veribilimi100-proje/)
-
 
