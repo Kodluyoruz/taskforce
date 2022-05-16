@@ -4,7 +4,7 @@
 - [Tes Otomasyona Giriş](testotomasyonagiris)
 
 #### Yazılım Testi Nedir? ####
-- [Yazılım Testi Nedir?]()
+- [Yazılım Testi Nedir?](yazılımtestinedir)
 - [Yazılım Testinin Amacı ve Faydaları](yazılımtestininamacıvefaydaları)
 - [Yazılım Testinin Projelere Etkisi](yazılımtestininprojelereetkisi)
 
