@@ -22,15 +22,6 @@
 - [DeFi](defi)
 - [DAO](dao)
 
-#### What is Near Protocol? ####
-- [What is NEAR Protocol?](whatNEARProtocol)
-
-#### NEAR Testnet Account ####
-- [NEAR Testnet Account Creation](nearTestnetAccountCreation)
-
-#### NEAR Use Case ####
-- [NEAR Use Case](nearUseCase)
-
 #### Practice ####
 - [Practice Part - I](practicePartI)
 - [Practice Part - II](practicePartII)
