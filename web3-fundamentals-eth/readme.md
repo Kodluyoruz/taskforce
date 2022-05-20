@@ -22,6 +22,3 @@
 - [DeFi](defi)
 - [DAO](dao)
 
-#### Practice ####
-- [Practice Part - I](practicePartI)
-- [Practice Part - II](practicePartII)
