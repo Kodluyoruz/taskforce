@@ -1,10 +1,10 @@
-# Protokoller
+# Protokoller
 
-Protokol, bir varlığın sahip olmasını beklediğimiz özellik ve metodların taslağıdır. Eğer varlık protokol tarafından beklenen özellik ve metodları karşılıyorsa, bu protokol ile <b>uygun(conform)</b> denir. Protokolleri Class, Struct veya Enum yapısı ile kullanabiliriz.
+Protokol, bir varlığın sahip olmasını beklediğimiz özellik ve metodların taslağıdır. Eğer varlık protokol tarafından beklenen özellik ve metodları karşılıyorsa, bu protokol ile <b> uygun(conform) </b> denir. Protokolleri Class, Struct veya Enum yapısı ile kullanabiliriz.
 
-Protokoller ile bir varlıktan asgari beklediğimiz özellik ve metodları belirtebiliriz. Buna ek olarak protokolleri sağlayan varlıkların hepsine istediğimiz özellikleri <b>Extension</b> yapısı ile ekleyebiliriz.
+Protokoller ile bir varlıktan asgari beklediğimiz özellik ve metodları belirtebiliriz. Buna ek olarak protokolleri sağlayan varlıkların hepsine istediğimiz özellikleri <b> Extension </b> yapısı ile ekleyebiliriz.
 
-### Protokol Sözdizimi ###
+### Protokol Sözdizimi 
 
 Protokolleri tanımlarken Class, Struct veya Enum ile benzer bir yolu izleriz.
 
@@ -28,7 +28,7 @@ class SomeClass: SomeSuperclass, FirstProtocol, AnotherProtocol {
 
 Yukarıda görüldüğü gibi bir varlık birden çok protokolü sağlayabilir.
 
-### Protokolde Özellik Tanımı
+### Protokolde Özellik Tanımı
 
 Protokoller ile birtakım özellik ve metod gerekliliklerini belirleyebileceğimizden bahsetmiştik. Şimdi bunları nasıl protokol içinde tanımlayabileceğimizi inceleyelim.
 
