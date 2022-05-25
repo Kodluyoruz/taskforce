@@ -1,13 +1,13 @@
 # İleri Seviye Swift ile iOS Uygulama Geliştirme
 
 #### Swift İleri Seviye ####
-- [Closures](closures)
-- [Struct and Class](structandclass)
-- [Erişim Denetimi](erişimdenetimi)
-- [Protokoller](protokoller)
-- [Extensionlar](extensionlar)
-- [Optional Yapısı](optionalyapisi)
-- [Swift Dil Yazım Standartları](dilyazımstandartları)
+- [Closures](swift-advance-closures)
+- [Struct and Class](swift-advance-struct-class)
+- [Erişim Denetimi](swift-advance-access-level)
+- [Protokoller](swift-advance-protocol)
+- [Extensionlar](swift-advance-extension)
+- [Optional Yapısı](swift-advance-optional)
+- [Swift Dil Yazım Standartları](swift-advance-standards)
 
 #### Üçüncü Parti Kütüphaneler ####
 - [Cocoapods](third-party-libraries-cocoapods)
