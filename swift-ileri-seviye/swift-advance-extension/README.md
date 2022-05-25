@@ -9,7 +9,7 @@ Extension ile yapabileceğiniz eklemeler aşağıdaki gibidir.
 * Başlatıcı(Initializer) eklemek
 * Tanımlı bir protokolü sağlayacak şekilde eklemeler yapmak
 
-### Extension Sözdizimi
+### Extension Sözdizimi
 
 Extension ile var olan bir varlığa ekleme yapmak istiyorsak, extension anahtar kelimesinden sonra ekleme yapmak istediğimiz varlığın adını yazmamız ve devamında açtığımız süslü parantezler içine eklemek istediğimiz tanımları yapmamız yeterli olacaktır.
 
@@ -27,9 +27,9 @@ extension SomeType: SomeProtocol, AnotherProtocol {
 }
 ```
 
-### Hesaplanmış Özellikler
+### Hesaplanmış Özellikler
 
-Extension bloğu içinde, varlığın kendi bloğunda olduğu gibi özgürce özellik tanımlaması yapamıyoruz. <b>Hesaplanmış Özellikler(Computed Properties)</b> adı verilen, geriye ne döndüreceği önceden bilinen özelliklerdir. Aşağıda Double veri tipi için, uzunluk bilgisi döndüren hesaplanmış özellikler tanımlanmıştır.
+Extension bloğu içinde, varlığın kendi bloğunda olduğu gibi özgürce özellik tanımlaması yapamıyoruz. <b> Hesaplanmış Özellikler(Computed Properties) </b> adı verilen, geriye ne döndüreceği önceden bilinen özelliklerdir. Aşağıda Double veri tipi için, uzunluk bilgisi döndüren hesaplanmış özellikler tanımlanmıştır.
 
 ```
 extension Double {
