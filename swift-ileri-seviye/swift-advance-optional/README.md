@@ -1,6 +1,6 @@
 # Optional Yapısı
 
-Swift programlama dilinde bir özellik tanımlandığında ilk değer atamasının yapılması gerekir. Fakat bazı durumlarda ilk değer atamasını yapmak istemeyiz. Bu gibi durumlarda özelliğin tipinin sonuna <b>?</b> koyarak, bu özelliğin opsiyonel olduğunu yani ilk değer ataması gerektirmediği gibi içinin boş olabileceğini de derleyiciye söylemiş oluruz. Örneğin servis çağrısı sonucunda dönecek verinin bir kısımı bazı durumlarda boş geliyorsa, bu kısımlar opsiyonel olarak tanımlanır ve boş gelmesi durumunda oluşacak çökmelerin sonuna geçilmiş olur. Aşağıda opsiyonel özellik tanımlarına örnek görebilirsiniz.
+Swift programlama dilinde bir özellik tanımlandığında ilk değer atamasının yapılması gerekir. Fakat bazı durumlarda ilk değer atamasını yapmak istemeyiz. Bu gibi durumlarda özelliğin tipinin sonuna <b> ? </b> koyarak, bu özelliğin opsiyonel olduğunu yani ilk değer ataması gerektirmediği gibi içinin boş olabileceğini de derleyiciye söylemiş oluruz. Örneğin servis çağrısı sonucunda dönecek verinin bir kısımı bazı durumlarda boş geliyorsa, bu kısımlar opsiyonel olarak tanımlanır ve boş gelmesi durumunda oluşacak çökmelerin sonuna geçilmiş olur. Aşağıda opsiyonel özellik tanımlarına örnek görebilirsiniz.
 
 ```
 var someOptionalProperty: Int? // Bu özelliğe ilk değer atması yapmanıza gerek yoktur.
@@ -10,7 +10,7 @@ Eğer opsiyonel bir değişken tanımlar ve bu değişkene bir değer ataması y
 
 Peki bu aşamada şunu sorabilirsiniz, neden bütün özellikleri opsiyonel tanımlamıyoruz? Opsiyonel özelliklerin kullanılması maalesef normal özellik kullanımı kadar kolay değil. Öncelikle opsiyonel tanımı kullanmak için çoğu durumda <b>açma(unwrap)</b> işlemi denen bir yöntem ile normal özelliğe çevirmeniz bekleniyor. Bu işlemi yapmanın çeşitli yolları var. Şimdi bu yöntemleri ele alalım.
 
-### Zorla Açma(Forced Unwrapping)
+### Zorla Açma(Forced Unwrapping)
 
 Zorla açma en basit ve tehlikeli olan açma işlemidir. Açmak istediğiniz özelliğin adının sonuna <b>!</b> işareti eklemeniz yeterlidir. Tehlikeli olmasının sebebi, açtığınız özelliğin içi boşsa yani nilse, uygulama çöker. Bu açma işleminde derleyiciye değişkenin her koşulda dolu olduğunu garanti ettiğinizi belirtirsiniz. Kimi durumlarda opsiyonel bir değer her zaman dolu olabilir, fakat yine de diğer açma işlemlerini izlemekte fayda vardır. Aşağıda opsiyonel bir değerin zorla açma işlemine maruz kaldığını görebilirsiniz.
 
@@ -49,9 +49,9 @@ if let unwrappedProperty = someNonNilOptionalProperty {
 
 Bu örnekte ise yine opsiyonel bir özellik ilk değer ataması yapılarak açma işlemine maruz kalmıştır. Burada özellik değer tuttuğu için açma işlemi başarılı olacaktır. Sonuç olarak ekranda özelliğin tutmuş olduğu 5 değerini görürüz.
 
-### Guard Kontrolü İle Açma
+### Guard Kontrolü İle Açma
 
-Guard ile açma if ile açmaya oldukça benzerdir. Guard, Swift'in if benzeri bir kontrol oluşturmasını sağlayan anahtar kelimedir. En önemli farkı ise if gibi koşul başarılı olduğunda if bloğundan devam etmek yerine içinde bulunduğu kod bloğunun bulunduğu satırdan sonrasını if bloğu gibi kullanmamızı sağlar. Böylece <b>pyramid of doom</b> olarak adlandırılan iç içe birden çok süslü parantez karmaşasının önüne geçmemizi sağlar. Anlatımı biraz karmaşık gelsede kullanımı oldukça kolaydır. Gelin If Kontrolü İle Açma başlığı altında verdiğimiz örneği guard ile yapalım.
+Guard ile açma if ile açmaya oldukça benzerdir. Guard, Swift'in if benzeri bir kontrol oluşturmasını sağlayan anahtar kelimedir. En önemli farkı ise if gibi koşul başarılı olduğunda if bloğundan devam etmek yerine içinde bulunduğu kod bloğunun bulunduğu satırdan sonrasını if bloğu gibi kullanmamızı sağlar. Böylece <b> pyramid of doom </b> olarak adlandırılan iç içe birden çok süslü parantez karmaşasının önüne geçmemizi sağlar. Anlatımı biraz karmaşık gelsede kullanımı oldukça kolaydır. Gelin If Kontrolü İle Açma başlığı altında verdiğimiz örneği guard ile yapalım.
 
 ```
 var someNilOptionalProperty: Int?
@@ -73,7 +73,7 @@ print(unwrappedProperty)
 // Çıktı: 5
 ```
 
-Görüldüğü gibi guard yapısında, koşulun başarılı olması durumu için bir kod bloğu yoktur. Koşul başarılıysa zaten kendinden sonraki satırlar çalışmaya devam eder. Fakat koşulun hemen sonrasında bir else bloğu tanımladığımızı farketmişsinizdir. Bu else bloğu koşulun başarılı olmadığı durumda çalışacaktır. Else bloğu sonunda yer alan <b>return</b> anahtar kelimesi, guard'dan sonraki komutların çalışmasını engeller.
+Görüldüğü gibi guard yapısında, koşulun başarılı olması durumu için bir kod bloğu yoktur. Koşul başarılıysa zaten kendinden sonraki satırlar çalışmaya devam eder. Fakat koşulun hemen sonrasında bir else bloğu tanımladığımızı farketmişsinizdir. Bu else bloğu koşulun başarılı olmadığı durumda çalışacaktır. Else bloğu sonunda yer alan <b> return </b> anahtar kelimesi, guard'dan sonraki komutların çalışmasını engeller.
 
 ### Opsiyonel Zincirleme(Optional Chaining)
 
