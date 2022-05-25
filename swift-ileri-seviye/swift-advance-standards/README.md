@@ -2,7 +2,7 @@
 
 Swift, diğer programlama dillerinde olduğu gibi yazılı olmayan bazı kurallara sahiptir. Bu kurallara uyup uymamak programcının insiyatifine bırakılmıştır. Fakat belirli bir standartın yakalanması için bu kurallara uymakta fayda vardır. 
 
-Swift'de birden çok kelimeden oluşan isimlendirmeler, <b>Camel Case</b> adını verilen bir yöntem ile birbirinden ayrılır. Bu sayede isimlendirmenin kolayca okunması sağlanır.
+Swift'de birden çok kelimeden oluşan isimlendirmeler, <b> Camel Case </b> adını verilen bir yöntem ile birbirinden ayrılır. Bu sayede isimlendirmenin kolayca okunması sağlanır.
 
 ```
 let somePropery: Double = 0.0 // Camel Case tıpkı bir deve hörgücü gibi inişli çıkışlı bir yapıya sahiptir. İlk kelimenin baş harfi küçük, diğer kelimelerin baş harfleri büyük yazılır.
