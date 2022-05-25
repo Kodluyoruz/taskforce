@@ -10,7 +10,7 @@ Class ise bir <b>referans tipidir</b>. Bir nesneden oluşturduğunuz kopyalar ha
 
 Bu yapıyı basit bir anoloji üstünden anlatmak istiyorum. Bu sayede kafanızda daha net şekilleneceğine inanıyorum. Struct daha çok sizin cihazınızın yerel hafızasında yer alan bir dosyaya benzer. Bu dosyanın bir kopyasını başka birine gönderseniz ve o kişi de dosya üstünde değişiklik yapsa sizin yerel hafızanızdaki dosya bu değişiklikten etkilenmeyecektir. Çünkü bu iki dosya birbirinden tamamen bağımsız iki farklı varlıktır. Halbuki bu dosya bulutta olsa ve sizde bu buluttaki dosyaya erişim için birisine yetki verseniz, o kişinin dosya üstünde yaptığı değişiklikler dosyanın orjinalini etkileyecektir. Bu durumda ikinizin de gördüğü dosya aynıdır fakat o dosyaya iki farklı kullanıcı erişebilmektedir. İlk örnek Struct yapısına karşılık gelirken ikinci örnek Class yapısına karşılık gelir. Bu şekilde bir kullanıma başvurulmasının sebebi Nesneye Yönelimli/Nesne Tabanlı geliştirme paradigmasının temelinde yatmaktadır. Nesne, içinde bulunduğumuz fiziksel dünyadaki bir nesnenin teknolojik ortamdaki yansımasıdır. Bu nesne bir hafızaya sahiptir, kendi davranışları vardır ve bir hayat döngüsü mevcuttur. Nesne hayat döngüsü sona erene kadar hafızada verileri tutmaya ve kendine has davranışları sergilemeye devam eder. O bir veri tipinden çok bir varlıktır ve tıpkı dünyamızda olduğu gibi benzerleri olsa da eşi yoktur. Hafızada bulunduğu adres onun benzersiz kimliğidir. Tıpkı canlıların DNA'sının diğer canlılardan farklı olması gibidir.
 
-### Struct ve Class Yapısının Karşılaştırılması
+### Struct ve Class Yapısının Karşılaştırılması
 
 Struct ve Class yapısının pek çok ortak yönü vardır. Bunlar;
 
@@ -38,13 +38,13 @@ Eğer Class yapısına ait; miras, özellik, metod, başlatıcı, sonlandırıc�
 * <b>Eklenti(Extension):</b> Extension anahtar kelimesi ile ekleme yapmak istediğimiz Class veya Struct adını yazar ve süslü parantez bloğu içinde mevcut yapıya eklemek istediğimiz özellik veya metod tanımlarını yaparız. 
 * <b>Protokol(Protocol):</b> Protokol içeriğinde birtakım değişken ve fonksiyon imzası barındırır. Bu protokol bir Struct veya Class tarafından karşılanacaksa, protokol içinde yer alan imzaların mevcut yapı içinde tanımlı olması beklenir.
 
-### Class Yapısına Ait Terimler
+### Class Yapısına Ait Terimler
 
 * <b>Sonlandırıcı(Deinitializer):</b> Sonlandırıcı tıpkı başlatıcı gibi tanımlanır. Class hafızadan silinmeden önce yapılması istenen işlemler bu kısımda belirtilir.
 * <b>Referans(Referance):</b> Referans mevcut nesneyi gösteren yapıları temsil eder. Bulut dosya analojisinde, buluttaki dosyaya erişim sağlayan kişiler o dosyanın referanslarını temsil eder. Eğer dosyaya kimsenin erişimi yoksa dosya hafızadan silinmelidir. Bu işlemi Swift otomatik olarak yapar. Eğer bu işlem yapılmazsa gereksiz hafıza kullanımı oluşur. Bu duruma Hafıza Kaçağı(Memory Leak) denir. Uygulamanın uzun süre kullanımı sonucu hafıza kaçağı işletim sisteminin uygulama için ayırıdığı kaynakları aşarsa uygulama çöker.
 * <b>Miras(Inheritance):</b> Miras adından da anlaşılabileceği gibi, bir Class'ın bir başka Class'da yer alan özellik ve metodları bire bir devralmasıdır. Bu sayede kod tekrarı önlenir ve kodun daha kolay yönetimi sağlanır.
 
-### Class ve Struct Tanımlama
+### Class ve Struct Tanımlama
 
 Aşağıda Struct ve Class yapısına ait tanım sözdizimini görebilirsiniz.
 
