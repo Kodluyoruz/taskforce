@@ -50,3 +50,14 @@
 - [IQKeyboardManager](third-party-libraries-iqkeyboardmanager)
 - [SwiftGen](third-party-libraries-swiftgen)
 - [SwiftLint](third-party-libraries-swiftlint)
+
+#### 8. Bölüm: İkinci Proje - Flickr Uygulaması ####
+- [Proje Oluşturma ve Giriş](flickr-app-intro)
+- [Uygulama Arayüzünün Oluşturulması](flickr-app-ui)
+- [Flickr API Nedir ve Nasıl Kullanılır?](flickr-app-api)
+- [Network Request ve Codable Yapısı](flickr-app-request-and-codable)
+- [Arayüzün Sunucudan Gelen Data İle Doldurulması](flickr-app-show-data)
+- [CocoaPods Kurulumu](flickr-app-cocoapods)
+- [SnapKit İle Kodlayarak Arayüz Oluşturma](flickr-app-snapkit)
+- [Moya ile Network Katmanının Oluşturulması](flickr-app-moya)
+- [Son Ayarlar ve Değerlendirme](flickr-app-final)
