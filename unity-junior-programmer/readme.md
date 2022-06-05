@@ -136,6 +136,17 @@
 - [nity Package yedekleme dosyasını dışa aktarın](export-unity-package-backup-file)
 - [Ders Özeti](lesson-lab2-recap)
 
+
+#### Lab 3 - Oyuncu Kontrolü ####
+- [Lab 3 Oyuncu Kontrolü](lab-3-player-control)
+- [1 PlayerController oluşturun ve kodunuzu planlayın](create-playerController-plan-your-code)
+- [Kullanıcı girdisinden temel hareket](basic-movement-from-user-input)
+- [Oyuncunun hareketini sınırlayın](constrain-players-movement)
+- [Kod Temizleme ve Yedeklemeyi Dışa Aktarma](code-cleanup-export-backup)
+- [Ders Özeti](lesson-recap-lab-3)
+
+
+
 #### Unit 3 - Sound and Effects ####
 - [Ses ve Efektler Giriş](jump-force-introduction)
 - [Zıplama Kuvveti Giriş](unit-3-introduction)
@@ -193,13 +204,7 @@
 - [Uzman: Oyun başlatma animasyonu](expert-game-start-animation)
 - [İpuçları ve çözüm yolu](hints-solutionwalkthrough-bonus-3)
 
-#### Lab 3 - Oyuncu Kontrolül ####
-- [Lab 3 Oyuncu Kontrolü](lab-3-player-control)
-- [1 PlayerController oluşturun ve kodunuzu planlayın](create-playerController-plan-your-code)
-- [Kullanıcı girdisinden temel hareket](basic-movement-from-user-input)
-- [Oyuncunun hareketini sınırlayın](constrain-players-movement)
-- [Kod Temizleme ve Yedeklemeyi Dışa Aktarma](code-cleanup-export-backup)
-- [Ders Özeti](lesson-recap-lab-3)
+
 
 #### Unit 4 - Gameplay Mechanics ####
 - [Game Play Griş](game-play-introduction)

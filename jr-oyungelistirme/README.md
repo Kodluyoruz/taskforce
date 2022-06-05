@@ -1,5 +1,8 @@
 # Oyun Geliştirme #
 
+#### Ön Değerlendirme ####
+- [Ön Değerlendirme](on-degerlendirme/)
+
 #### Unity Kurulumu ####
 - [Unity'yi İndir](install-unity-software/)
 - [Proje Kurulum Süreçleri](project-setup-processes/)
@@ -31,14 +34,18 @@
 - [Dictionary](4-dictionary-nedir/)
 - [Koleksiyonlarla ilgili algoritma soruları](15-odev-2/)
 
+
+#### Son Değerlendirme ####
+- [Son Değerlendirme](son-degerlendirme/)
+
 #### Nesneye Dayalı Programlama ####
 
-- [Sınıf Nedir ? Instance, Field, Property](1-sinif-field-metot-tanımlama-erişim-belirleyiciler/)
+- [Sınıf Nedir ? Instance, Field, Property](1-sinif-field-metot-tanımlama-erişim-belirleyiciler/)
 - [Erişim Belirleyiciler ve Kurucu Fonksiyonlar ](2-kurucu-fonksiyonlar/)
 - [Encapsulation ve Property Kavramı](3-encapsulation-ve-property-kavrami/)
 - [Static Sınıf ve Üyeler](4-static-sinif-ve-uyeler/)
 - [Struct(Yapı) Kavramı](5-struct-nedir/)
-- [Enum](17-enum/)
+- [Enum](17-enum/) 
 - [Object Orientented Programming ve Prensipleri Nedir?](1-oop-nedir/)
 - [Inheritance](2-inheritance/)
 - [Polymorphism ve Sealed Class](3-polymorphism/)

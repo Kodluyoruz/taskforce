@@ -1,0 +1,11 @@
+Java 1991 yılında Sun şirketinde doğmuş ve 13 kişilik ekiple green team adındaki James Gosling rehberliğinde kodlanmaya başlanmıştır.
+- Javanın ilk adı OAK .
+- Syntax olarak C diline benzer.
+- Nesnesel olarak C++ diline benzer.
+- Java Platformdan bağımsız bir progralama dilidir.
+- Open Source(açık kaynak) kodludur.
+- Nesneye yöneliktir.
+- Kullanılmayan nesneler silinit(Garbarage collection)
+- Güvenli bir dildir.
+- Esnek bir dildir. 
+- Ücretsiz ve zengin api mevcuttur.
