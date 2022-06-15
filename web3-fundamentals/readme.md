@@ -2,7 +2,7 @@
 
 #### Web3 Fundamentals ####
 - [What is Web3?](whatisweb3)
-- [What is a blockchain?](whatisablockchain)
+- [What is a Blockchain?](whatisablockchain)
 - [Popular Blockchains](popularblockchains)
 - [Consensus Models](consensusmodels)
 - [The Blockchain Trilemma](theblockchaintrilemma)
