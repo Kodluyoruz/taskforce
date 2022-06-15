@@ -1,1 +1,0 @@
-In this episode, we defined what a DAO is and discussed different types of DAOs: Protocol DAOs, Service DAOs, Grant DAOs, Investment DAOs, and Media DAOs.
