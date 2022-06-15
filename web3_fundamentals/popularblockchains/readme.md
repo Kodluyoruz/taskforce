@@ -1,0 +1,1 @@
+In this episode, we’ll cover three popular blockchains: Bitcoin, Ethereum, and Solana. We defined their differences in terms of transaction time, consensus model, block size, and environmental impact.
