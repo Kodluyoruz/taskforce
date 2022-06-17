@@ -1,4 +1,4 @@
-# Test Otomasyon
+# Manuel Test Süreçleri ve Test Otomasyon
 
 #### Manuel Teste Giriş #### 
 - [Tes Otomasyona Giriş](testotomasyonagiris)
