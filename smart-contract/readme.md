@@ -1,6 +1,5 @@
 # Smart Contract
 
-
 #### Smart Contract Roadmap ####
 - [Smart Contract Roadmap](smartcontractroadmap)
 
