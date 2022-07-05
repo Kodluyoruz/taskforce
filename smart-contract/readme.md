@@ -12,6 +12,7 @@
 
 #### Smart Contract Security ####
 - [Re-entrancy Attacks](re-entrancyattacks)
+- [Integer Overflows and Underflows](integer_overflows_underflows)
 - [Front-running](front-running)
 - [Contract Auditing](contractauditing)
 
