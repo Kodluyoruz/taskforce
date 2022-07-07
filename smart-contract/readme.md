@@ -21,7 +21,7 @@
 - [Testing Tools](testingtools)
 
 #### Smart Contract Deployment ####
-- [Facuets](facuets)
+- [Faucet](faucet)
 - [Node Providers](nodeproviders)
 - [Etherscan](etherscan)
 
