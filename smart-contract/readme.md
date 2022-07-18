@@ -5,6 +5,7 @@
 
 #### Solidity Fundamentals ####
 - [Creating a Contract](creatingcontract)
+- [Variable Types](variabletypes)
 - [Events](events)
 - [Structs](structs)
 - [Functions](functions)
