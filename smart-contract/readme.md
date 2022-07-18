@@ -18,7 +18,7 @@
 
 #### Smart Contract Testing ####
 - [Smart Contract Testing](smartcontracttesting)
-- [Testing Tools](testingtools)
+- [Tests using Truffle](testsusingtruffle)
 
 #### Smart Contract Deployment ####
 - [Faucet](faucet)
