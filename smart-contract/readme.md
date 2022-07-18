@@ -22,6 +22,7 @@
 - [Ganache](ganache)
 
 #### Smart Contract Deployment ####
+- [Deploying Smart Contracts](deployingsmartcontracts)
 - [Faucet](faucet)
 - [Node Providers](nodeproviders)
 - [Etherscan](etherscan)
