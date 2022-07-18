@@ -12,7 +12,7 @@
 - [Modifiers](modifiers)
 
 #### Smart Contract Security ####
-- [Re-entrancy Attacks](re-entrancyattacks)
+- [Intro to Smart Contract Security](introtosmartcontractsecurity)
 - [Integer Overflows and Underflows](integer_overflows_underflows)
 - [Front-running](front-running)
 - [Contract Auditing](contractauditing)
