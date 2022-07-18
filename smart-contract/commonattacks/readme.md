@@ -1,1 +1,1 @@
-#
+Here are some of the most common attacks on a smart contract. For more information on these and other types of attacks you need to protect your smart contract against, please check out the video above.
