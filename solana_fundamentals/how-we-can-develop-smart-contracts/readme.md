@@ -19,5 +19,4 @@ Per Ethereum official website, here are some of the most popular token standards
 Once we understand how the overall structure works using libraries in a blockchain, we can start developing our own contracts from scratch or we can make upgrades that may occur to add features, fix bugs, or improve performance. Smart contracts in EVM-compatible blockchains are developed with Solidity programming language.
 
 Resources:
-[https://ethereum.org/en/developers/docs/standards/](https://ethereum.org/en/developers/docs/standards/) 
-[https://ethereum.org/en/developers/docs/standards/tokens/](https://ethereum.org/en/developers/docs/standards/tokens/)
+https://ethereum.org/en/developers/docs/standards/](https://ethereum.org/en/developers/docs/standards/
