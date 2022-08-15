@@ -14,4 +14,4 @@
 - [The Potential of Gaming and Blockchain](the-potential-of-gaming-and-blockchain)
 
 #### Getting Started with Solana Development ####
--[Getting Started with Solana Development](getting-started-with-solana-development)
+- [Getting Started with Solana Development](getting-started-with-solana-development)
