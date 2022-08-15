@@ -6,10 +6,10 @@ Solana implements a hybrid consensus model that combines proof-of-history (PoH) 
 Usually, validators are nodes that perform validations within the Proof of Stake algorithm. Solana validators participate in the consensus and consider proof-of-stake verification times as well as proof-of-stake verification times when processing transactions. The transaction and time are compared with the central blockchain, and if verified, the transaction is committed to the blockchain. Solana is able to provide fast confirmations thanks to this hybrid method. However, since Solana is compared with the central block for validation, there are concerns that it is not fully decentralized and there are discussions about this issue on various platforms.
 
 If you are interested, you can find further information about Solana’s innovations here: 
-[https://messari.io/asset/solana/profile/technology](https://messari.io/asset/solana/profile/technology)
+https://messari.io/asset/solana/profile/technology
 
 You can also find more information about Proof of History here:
-[https://www.youtube.com/watch?v=rywOYfGu4EA](https://www.youtube.com/watch?v=rywOYfGu4EA ) 
+https://www.youtube.com/watch?v=rywOYfGu4EA
 
 With online purchases, it takes a long time for sellers to get their money through both centralized and decentralized applications. Due to the speed Solana provides, it facilitates the work of online businesses as well. Also, Solana provides less costly transactions for them. Solana’s website shows each transaction costs ~$0,00025. Considering that $0,8 is paid for each Ethereum transaction and $1 is paid for each Bitcoin transaction, we can see how less costly it is.
 
@@ -26,24 +26,24 @@ Solana network is not EVM compatible. However, non-EVM chains like Solana make E
 Solana offers a different smart contract model to traditional EVM-based blockchains. There is a logical separation between state (computes) and contract logics (programs). In EVM-based chains, a distributed single contract on the blockchain has code/logic and state. On the other hand, Solana smart contract is read-only or stateless and contains only program logic. After deployment, smart contracts can be interacted with external accounts and they can store data about program interaction. Solana accounts, unlike accounts on Ethereum, can store data (including wallet information) that reference people's wallets. 
 
 ## Resources:
-[https://docs.solana.com/introduction](https://docs.solana.com/introduction) 
+https://docs.solana.com/introduction
 
-[https://blog.chain.link/how-to-build-and-deploy-a-solana-smart-contract/](https://blog.chain.link/how-to-build-and-deploy-a-solana-smart-contract/) 
+https://blog.chain.link/how-to-build-and-deploy-a-solana-smart-contract/
 
-[https://learn.figment.io/tutorials/explaining-solanas-innovations-without-technical-jargon](https://learn.figment.io/tutorials/explaining-solanas-innovations-without-technical-jargon) 
+https://learn.figment.io/tutorials/explaining-solanas-innovations-without-technical-jargon 
 
-[https://www.ledger.com/academy/blockchain/what-is-solana](https://www.ledger.com/academy/blockchain/what-is-solana)
+https://www.ledger.com/academy/blockchain/what-is-solana
 
-[https://cointelegraph.com/news/what-is-solana-and-how-does-it-work](https://cointelegraph.com/news/what-is-solana-and-how-does-it-work)
+https://cointelegraph.com/news/what-is-solana-and-how-does-it-work
 
-[https://www.investopedia.com/solana-5210472](https://www.investopedia.com/solana-5210472)
+https://www.investopedia.com/solana-5210472
 
-[https://nftnow.com/guides/everything-you-need-to-know-about-the-solana-blockchain-and-nfts/](https://nftnow.com/guides/everything-you-need-to-know-about-the-solana-blockchain-and-nfts/)
+https://nftnow.com/guides/everything-you-need-to-know-about-the-solana-blockchain-and-nfts/
 
-[https://academy.horizen.io/technology/advanced/evm-ethereum-virtual-machine/#:~:text=EVM%20compatibility%20is%20an%20essential,these%20new%20chains%20due%20to](https://academy.horizen.io/technology/advanced/evm-ethereum-virtual-machine/#:~:text=EVM%20compatibility%20is%20an%20essential,these%20new%20chains%20due%20to)
+https://academy.horizen.io/technology/advanced/evm-ethereum-virtual-machine/#:~:text=EVM%20compatibility%20is%20an%20essential,these%20new%20chains%20due%20to
 
-[https://coinyuppie.com/is-compatibility-with-evm-important-for-the-current-development-of-gamefi/](https://coinyuppie.com/is-compatibility-with-evm-important-for-the-current-development-of-gamefi/)
+https://coinyuppie.com/is-compatibility-with-evm-important-for-the-current-development-of-gamefi/
 
-[https://www.kriptoradar.com/evm-uyumlulugu-neden-bu-kadar-onemli/](https://www.kriptoradar.com/evm-uyumlulugu-neden-bu-kadar-onemli/)
+https://www.kriptoradar.com/evm-uyumlulugu-neden-bu-kadar-onemli/
 
-[https://mp.weixin.qq.com/s?__biz=MzU2MDE2MDU3Mg==&mid=2247506374&idx=1&sn=8b977bd36e050e042b693ba14b3226e4&scene=21#wechat_redirect](https://mp.weixin.qq.com/s?__biz=MzU2MDE2MDU3Mg==&mid=2247506374&idx=1&sn=8b977bd36e050e042b693ba14b3226e4&scene=21#wechat_redirect)
+https://mp.weixin.qq.com/s?__biz=MzU2MDE2MDU3Mg==&mid=2247506374&idx=1&sn=8b977bd36e050e042b693ba14b3226e4&scene=21#wechat_redirect
