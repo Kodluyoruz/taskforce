@@ -11,7 +11,7 @@
 - [Callback Functions / async-await](callback-functions-async-await/)
 - [Promises](promises/)
 - [Array Functions](array-functions/)
-- [Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-intro/)
+- [Giriş-Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-intro/)
 - [Ödev](odev1/)
 
 #### Components ####
@@ -22,7 +22,7 @@
 - [JSX ve Temel Kuralları](jsx-ve-temel-kurallari/)
 - [Componentlerde Değişken Render Etmek](componentlerde-degisken-render-etmek/)
 - [Koşullu Render İşlemi](kosullu-render/)
-- [Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-components/)
+- [Components-Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-components/)
 
 #### Props ####
 - [Props Nedir? Nasıl Kullanılır?](props-nedir/)
@@ -33,7 +33,7 @@
 - [Prop Types: oneOfType](prop-types-oneoftype/)
 - [Prop Types: shape](prop-types-shape/)
 - [Default Props](default-props/)
-- [Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-props/)
+- [Props-Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-props/)
 
 #### States ####
 - [State Nedir? Nasıl Oluşturulur?](state-nedir/)
@@ -42,12 +42,12 @@
 - [Sayaç Uygulaması](sayac-uygulamasi/)
 - [Re-Render Mantığını Anlamak (React vs jQuery)](re-render-mantigini-anlamak/)
 - [Input için State Tanımı Yapmak](input-icin-state-tanimi-yapmak/)
-- [Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-states/)
+- [States-Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-states/)
 
 #### Lifecycle ####
 - [useEffect](useeffect/)
 - [Component Unmount](component-unmount/)
-- [Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-lifecycle/)
+- [Lifecycle-Bölüm Sonu Kazanımları](bolum-sonu-kazanimlari-lifecycle/)
 
 #### Contacts App ####
 - [Ne Geliştireceğiz?](contacts-app-ne-gelistirecegiz/)
@@ -55,7 +55,7 @@
 - [Kayıtların Listelenmesi](contacts-app-kayitlarin-listelenmesi/)
 - [Filtreleme İşlemi](contacts-app-filtreleme-islemi/)
 - [Stil Tanımlarının Yapılması](contacts-app-stil-tanimlarinin-yapimasi/)
-- [Bölüm Sonu Kazanımları](contacts-app-bolum-sonu-kazanimlari/)
+- [Contacts App-Bölüm Sonu Kazanımları](contacts-app-bolum-sonu-kazanimlari/)
 - [Ödev](odev2/)
 
 #### Stillendirme Temelleri ####
@@ -73,7 +73,7 @@
 - [Nesting](react-router-nesting/)
 - [NavLink](react-router-navlink/)
 - [No Match (404)](react-router-no-match/)
-- [Bölüm Sonu Kazanımları](react-router-bolum-sonu-kazanimlari/)
+- [Routing-Bölüm Sonu Kazanımları](react-router-bolum-sonu-kazanimlari/)
 
 #### Formik ile Form Yönetimi ####
 - [Kurulum](formik-kurulum/)
@@ -82,7 +82,7 @@
 - [useFormik](formik-useformik/)
 - [Form Validasyonları - 1](formik-form-validasyonlari-1/)
 - [Form Validasyonları - 2](formik-form-validasyonlari-2/)
-- [Bölüm Sonu Kazanımları](formik-bolum-sonu-kazanimlari/)
+- [Formik-Bölüm Sonu Kazanımları](formik-bolum-sonu-kazanimlari/)
 
 #### Memoization ####
 - [React.memo](memoization-react-memo/)
@@ -97,7 +97,7 @@
 - [Context Provider Side Effects](context-provider-side-effects/)
 - [Multi Context](context-multi/)
 - [Custom Context Hook](custom-context-hook/)
-- [Bölüm Sonu Kazanımları](context-bolum-sonu-kazanimlari/)
+- [Context API-Bölüm Sonu Kazanımları](context-bolum-sonu-kazanimlari/)
 - [Ödev](odev3/)
 
 #### Real Time Çalışan Uygulamalar Geliştirmek ####
@@ -136,7 +136,7 @@
 - [Surge.sh](deploy-surge/)
 - [Netlify](deploy-netlify/)
 - [AWS EC2 Üzerine Deploy İşlemleri](deploy-aws-ec2/)
-- [Bölüm Sonu Kazanımları](deploy-bolum-sonu-kazanimlari/)
+- [Deploy-Bölüm Sonu Kazanımları](deploy-bolum-sonu-kazanimlari/)
 
 #### E-Commerce App ####
 - [Uygulama Tanıtımı](ecommerce-tanitim/)
