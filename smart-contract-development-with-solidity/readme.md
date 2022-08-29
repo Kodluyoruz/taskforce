@@ -17,6 +17,8 @@
 - [Default Values](default-values)
 - [Enum](solidty-enum)
 - [Functions](solidity-functions)
+- [Introduction to Functions](solidity-introduction-to-functions)
+- [View and Pure Functions](view-and-pure-functions)
 - [Constructor](solidity-constructor)
 - [Constants](solidity-constants)
 - [Control structures](solidity-control-structures)
