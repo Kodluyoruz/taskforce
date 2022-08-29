@@ -51,6 +51,7 @@
 - [Faucet](solidity-faucet)
 - [Node Providers](solidity-node-providers)
 - [Etherscan](solidity-etherscan)
+- [Testing](solidity-testing)
 - [Truffle](solidity-truffle)
 - [Part 1: Installation & Contract Creation](solidity-part1 installation-contract-creation)
 - [Part 2: Migrations & Deployment](solidity-part2-migrations-deployment)
