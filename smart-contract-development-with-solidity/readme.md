@@ -59,3 +59,5 @@
 - [Part 4: Deploy to Testnet & Mainnet](solidity-part4-deploy-to-testnet-mainnet)
 - [Hardhat](solidity-hardhat)
 
+#### Frontend Integration ####
+- [Frontend Integration](solidity-frontend-integration)
