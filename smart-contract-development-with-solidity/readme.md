@@ -14,7 +14,7 @@
 - [Functions](solidity-functions)
 - [Constructor](solidity-constructor)
 - [Constants](solidity-constants)
-- [Control structures](solidity-control structures)
+- [Control structures](solidity-control-structures)
 - [Mappings](solidity-mappings)
 - [Structs](solidity-structs)
 - [Modifiers](solidity-modifiers)
