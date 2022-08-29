@@ -16,7 +16,6 @@
 - [Global](global-variables)
 - [Default Values](default-values)
 - [Enum](solidty-enum)
-- [Functions](solidity-functions)
 - [Introduction to Functions](solidity-introduction-to-functions)
 - [View and Pure Functions](view-and-pure-functions)
 - [Hands on Task (Beginner Level): Build and Deploy a Counter with Remix](hands-on-task-build-deploy-counter-with-remix)
@@ -50,7 +49,10 @@
 
 #### Development & Testing Environments ####
 - [Wallets and Public Testnets](wallets-public-testnets)
+- [Faucet](solidity-faucet)
+- [Node Providers](solidity-node-providers)
 - [Etherscan](solidity-etherscan)
 - [Truffle](solidity-truffle)
+- [Part1: Installation & Contract Creation]()
 - [Hardhat](solidity-hardhat)
 
