@@ -11,6 +11,9 @@
 #### Solidity Fundamentals ####
 - [Types](solidity-types)
 - [Variables](solidity-variables)
+- [State Variables](state-variables)
+- [Local Variables](local-variables)
+- [Global](global-variables)
 - [Functions](solidity-functions)
 - [Constructor](solidity-constructor)
 - [Constants](solidity-constants)
