@@ -52,7 +52,7 @@
 - [Node Providers](solidity-node-providers)
 - [Etherscan](solidity-etherscan)
 - [Truffle](solidity-truffle)
-- [Part 1: Installation & Contract Creation]()
+- [Part 1: Installation & Contract Creation](solidity-part1 installation-contract-creation)
 - [Part 2: Migrations & Deployment](solidity-part2-migrations-deployment)
 - [Part 3: Testing](solidity-tetsing)
 - [Part 4: Deploy to Testnet & Mainnet](solidity-part4-deploy-to-testnet-mainnet)
