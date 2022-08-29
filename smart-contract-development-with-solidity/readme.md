@@ -19,6 +19,7 @@
 - [Functions](solidity-functions)
 - [Introduction to Functions](solidity-introduction-to-functions)
 - [View and Pure Functions](view-and-pure-functions)
+- [Hands on Task (Beginner Level): Build and Deploy a Counter with Remix](hands-on-task-build-deploy-counter-with-remix)
 - [Constructor](solidity-constructor)
 - [Constants](solidity-constants)
 - [Control structures](solidity-control-structures)
