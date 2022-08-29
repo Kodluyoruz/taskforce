@@ -61,3 +61,8 @@
 
 #### Frontend Integration ####
 - [Frontend Integration](solidity-frontend-integration)
+
+#### Optional Advanced Topics ####
+-[Smart Contract Security](solidity-smart-contract-security)
+-[Next Steps](solidity-next-steps)
+
