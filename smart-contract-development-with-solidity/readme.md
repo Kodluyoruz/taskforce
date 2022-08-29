@@ -22,7 +22,6 @@
 - [Constructor](solidity-constructor)
 - [Constants](solidity-constants)
 - [Immutable](solidity-immutable)
-- [Control structures](solidity-control-structures)
 - [If Else](solidity-if-else)
 - [For and While Loops](solidity-for-while-loops)
 - [Mappings](solidity-mappings)
