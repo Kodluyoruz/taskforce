@@ -39,14 +39,3 @@
 - [Truffle](solidity-truffle)
 - [Hardhat](solidity-hardhat)
 
-
-#### Frontend Integration ####
--[]()
-
-
-#### Final Project ####
--[]()
-
-
-#### Optional Advanced Topics ####
--[]()
