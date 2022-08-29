@@ -34,10 +34,10 @@
 - [Hands on Task (Intermediate Level): Build and Deploy a Crowdfund Application](hands-task-build-deploy-crowdfund-application)
 
 #### Development & Testing Environments ####
--[Wallets and Public Testnets](wallets-public-testnets)
--[Etherscan](solidity-etherscan)
--[Truffle](solidity-truffle)
--[Hardhat](solidity-hardhat)
+- [Wallets and Public Testnets](wallets-public-testnets)
+- [Etherscan](solidity-etherscan)
+- [Truffle](solidity-truffle)
+- [Hardhat](solidity-hardhat)
 
 
 #### Frontend Integration ####
