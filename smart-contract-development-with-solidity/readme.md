@@ -14,6 +14,8 @@
 - [State Variables](state-variables)
 - [Local Variables](local-variables)
 - [Global](global-variables)
+- [Default Values](default-values)
+- [Enum](solidty-enum)
 - [Functions](solidity-functions)
 - [Constructor](solidity-constructor)
 - [Constants](solidity-constants)
