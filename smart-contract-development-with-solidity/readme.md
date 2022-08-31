@@ -3,10 +3,10 @@
 #### Introduction to Smart Contracts ####
 - [What is a Smart Contract](what-is-a-smart-contract)
 - [How We Can Develop Smart Contracts](how-we-can-develop-smart-contracts)
-- [Getting started](solidity-getting-started)
+- [Getting Started](solidity-getting-started)
 
 #### Remix IDE ####
-- [Deploy your first Solidity smart contract with Remix IDE](deploy-your-first-solidity-smart-contract-with-remix-ide)
+- [Deploy Your First Solidity Smart Contract with Remix IDE](deploy-your-first-solidity-smart-contract-with-remix-ide)
 
 #### Solidity Fundamentals ####
 - [Types](solidity-types)
@@ -25,13 +25,13 @@
 - [If Else](solidity-if-else)
 - [For and While Loops](solidity-for-while-loops)
 - [Mappings](solidity-mappings)
-- [Iterable mappings](solidity-iterable-mappings)
+- [Iterable Mappings](solidity-iterable-mappings)
 - [Structs](solidity-structs)
 - [Modifiers](solidity-modifiers)
 - [Events](solidity-events)
 - [Errors](solidity-errors)
 - [Libraries](solidity-libraries)
-- [Data locations](solidity-data-locations)
+- [Data Locations](solidity-data-locations)
 - [Inheritance](solidity-inheritance)
 - [Interfaces](solidity-interfaces)
 - [Call](solidity-call)
@@ -53,10 +53,10 @@
 - [Etherscan](solidity-etherscan)
 - [Testing](solidity-testing)
 - [Truffle](solidity-truffle)
-- [Part 1: Installation & Contract Creation](solidity-part1 installation-contract-creation)
-- [Part 2: Migrations & Deployment](solidity-part2-migrations-deployment)
-- [Part 3: Testing](solidity-tetsing)
-- [Part 4: Deploy to Testnet & Mainnet](solidity-part4-deploy-to-testnet-mainnet)
+- [Truffle: Installation & Contract Creation](solidity-part1 installation-contract-creation)
+- [Truffle: Migrations & Deployment](solidity-part2-migrations-deployment)
+- [Truffle: Testing](solidity-tetsing)
+- [Truffle: Deploy to Testnet & Mainnet](solidity-part4-deploy-to-testnet-mainnet)
 - [Hardhat](solidity-hardhat)
 
 #### Frontend Integration ####
