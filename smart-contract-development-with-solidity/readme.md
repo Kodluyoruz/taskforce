@@ -55,7 +55,7 @@
 - [Truffle](solidity-truffle)
 - [Truffle: Installation & Contract Creation](solidity-part1-installation-contract-creation)
 - [Truffle: Migrations & Deployment](solidity-part2-migrations-deployment)
-- [Truffle: Testing](solidity-tetsing)
+- [Truffle: Testing](truffle-testing)
 - [Truffle: Deploy to Testnet & Mainnet](solidity-part4-deploy-to-testnet-mainnet)
 - [Hardhat](solidity-hardhat)
 
