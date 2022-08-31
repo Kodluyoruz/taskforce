@@ -53,7 +53,7 @@
 - [Etherscan](solidity-etherscan)
 - [Testing](solidity-testing)
 - [Truffle](solidity-truffle)
-- [Truffle: Installation & Contract Creation](solidity-part1 installation-contract-creation)
+- [Truffle: Installation & Contract Creation](solidity-part1-installation-contract-creation)
 - [Truffle: Migrations & Deployment](solidity-part2-migrations-deployment)
 - [Truffle: Testing](solidity-tetsing)
 - [Truffle: Deploy to Testnet & Mainnet](solidity-part4-deploy-to-testnet-mainnet)
