@@ -65,5 +65,6 @@
 - [Collections:HashSet](collections-hash-set)
 
 #### Strings and Text ####
+- [Strings and Text](rust-strings-and-text)
 - [Strings and Text:Formatting Values](strings-and-textformatting-values)
 - [Strings and Text:Regular Expressions](strings-and-text-regular-expressions)
