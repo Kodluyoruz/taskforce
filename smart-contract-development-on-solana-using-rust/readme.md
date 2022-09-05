@@ -2,6 +2,7 @@
 
 #### Installation ####
 - [Installation](solana-using-rust-installation)
+
 #### Smart Contract Life Cycle High Level ####
 - [Accounts](rust-accounts)
 - [Programs](rust-programs)
