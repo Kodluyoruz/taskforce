@@ -56,7 +56,7 @@
 - [Iterators:Iterator Adapters (map, filter,...)](iterators-iterator-adapters-map-filter)
 
 #### Collections ####
-- [Collections:Vector(Vec< T >)](collections-vector-vect)
+- [Collections:Vector](collections-vector-vect)
 - [Collections:HashMap](collections-hash-map)
 - [Collections:HashSet](collections-hash-set)
 
