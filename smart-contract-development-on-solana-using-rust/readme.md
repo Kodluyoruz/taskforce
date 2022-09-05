@@ -20,6 +20,7 @@
 - [Solana Explorer](solana-explorer)
 
 #### Development Programs on Solana ####
+- [Development Programs on Solana](development-programs-on-solana)
 - [Hands on Tasks: Create Your Fungible Token](hands-on-tasks-create-your-fungible-token)
 - [Introduction to MetaPlex and Token Standards](introduction-to-metaplex-and-token-standards)
 - [Hands on Tasks: Create Your Non Fungible Token](hands-on-tasks-create-your-non-fungible-token)
