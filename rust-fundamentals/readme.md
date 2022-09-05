@@ -46,6 +46,7 @@
 - [Generics and Lifetimes](generics-and-lifetimes)
 
 #### Enums ####
+- [Enums](rust-enums)
 - [Enums:Impl](enums-impl)
 
 #### Traits ####
