@@ -50,6 +50,7 @@
 - [Enums:Impl](enums-impl)
 
 #### Traits ####
+- [Traits](rust-traits)
 - [Implementing Traits](implementing-traits)
 - [Utility Traits (Drop, Sized, Clone, Copy)](utility-traits-drop-sized-clone-copy)
 
