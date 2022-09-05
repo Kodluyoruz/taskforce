@@ -2,6 +2,7 @@
 
 
 #### A Tour of Rust ####
+- [A Tour of Rust](a-tour-of-rust)
 - [A Tour of Rust:Why Rust?](a-tour-of-rust-why-rust)
 - [A Tour of Rust:Rust Setup & Environments](a-tour-of-rust-rust-setup-environments)
 - [A Tour of Rust:Cargo](a-tour-of-rust-cargo)
