@@ -10,6 +10,7 @@
 - [A Tour of Rust:Writing and Running Unit Tests](a-tour-of-rustwriting-and-running-unit-tests)
 
 #### Fundamental Types ####
+- [Fundamental Types](rust-fundamentals-types)
 - [Fundamental Types:String & Str and Tuples](fundamental-typesstring-str-and-tuples)
 - [Fundamental Types:Pointer Types (References, Boxes)](fundamental-typespointer-types-references-boxes)
 - [Fundamental Types:Arrays](fundamental-typesarrays)
