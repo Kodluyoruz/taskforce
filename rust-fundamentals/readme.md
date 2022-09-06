@@ -60,7 +60,6 @@
 - [Iterators:Iterator Adapters (map, filter,...)](iterators-iterator-adapters-map-filter)
 
 #### Collections ####
-- [Collections:Vector](collections-vector-vect)
 - [Collections:HashMap](collections-hash-map)
 - [Collections:HashSet](collections-hash-set)
 
