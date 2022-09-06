@@ -2,7 +2,7 @@
 
 #### About Solana ####
 - [Say Hello to Solana](say-hello-to-solana)
-- [Basic Information about Solana](basic-information-about-solana)
+- [Fundamentals about Solana](basic-information-about-solana)
 
 #### Solana & Smart Contract Fundamentals ####
 - [What is a Smart Contract](what-is-a-smart-contract)
