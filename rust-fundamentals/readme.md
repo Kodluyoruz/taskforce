@@ -3,11 +3,11 @@
 
 #### A Tour of Rust ####
 - [A Tour of Rust](a-tour-of-rust)
-- [A Tour of Rust:Why Rust?](a-tour-of-rust-why-rust)
-- [A Tour of Rust:Rust Setup & Environments](a-tour-of-rust-rust-setup-environments)
-- [A Tour of Rust:Cargo](a-tour-of-rust-cargo)
-- [A Tour of Rust:Rust Functions](a-tour-of-rust-rust-functions)
-- [A Tour of Rust:Writing and Running Unit Tests](a-tour-of-rustwriting-and-running-unit-tests)
+- [Why Rust?](a-tour-of-rust-why-rust)
+- [Rust Setup & Environments](a-tour-of-rust-rust-setup-environments)
+- [Cargo](a-tour-of-rust-cargo)
+- [Rust Functions](a-tour-of-rust-rust-functions)
+- [Writing and Running Unit Tests](a-tour-of-rustwriting-and-running-unit-tests)
 
 #### Fundamental Types ####
 - [Fundamental Types](rust-fundamentals-types)
