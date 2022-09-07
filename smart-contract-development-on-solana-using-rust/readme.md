@@ -29,7 +29,7 @@
 - [Introduction to Anchor Framework](introduction-to-anchor-framework)
 - [Testing with Anchor](testing-with-anchor)
 
-#### Frontend Integration with the Smart Contract - Optional ####
+#### Frontend Integration with the Smart Contract ####
 - [Frontend Integration with the Smart Contract - optional](frontend-integration-with-the-smart-contract-optional)
 
 #### Hands-on Task: Custom NFT Marketplace with frontend template ####
