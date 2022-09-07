@@ -25,10 +25,8 @@
 - [Introduction to MetaPlex and Token Standards](introduction-to-metaplex-and-token-standards)
 - [Hands on Tasks: Create Your Non Fungible Token](hands-on-tasks-create-your-non-fungible-token)
 
-#### Introduction to Anchor Framework ####
+#### Anchor Framework ####
 - [Introduction to Anchor Framework](introduction-to-anchor-framework)
-
-#### Testing with Anchor ####
 - [Testing with Anchor](testing-with-anchor)
 
 #### Frontend Integration with the Smart Contract - Optional ####
