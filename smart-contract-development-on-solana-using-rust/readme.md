@@ -4,7 +4,7 @@
 - [Installation](solana-using-rust-installation)
 
 #### Smart Contract Life Cycle High Level ####
-- [Smart Contract Life Cycle High Level](smart-contract-life-cycle-high-level)
+- [Core Concepts of Solona](smart-contract-life-cycle-high-level)
 - [Accounts](rust-accounts)
 - [Programs](rust-programs)
 - [Transactions](rust-transactions)
