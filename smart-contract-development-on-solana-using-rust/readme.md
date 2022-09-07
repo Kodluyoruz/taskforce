@@ -27,6 +27,6 @@
 - [Introduction to Anchor Framework](introduction-to-anchor-framework)
 - [Testing with Anchor](testing-with-anchor)
 
-#### Frontend Integration with the Smart Contract ####
-- [Frontend Integration with the Smart Contract](frontend-integration-with-the-smart-contract-optional)
+#### Frontend Integration ####
+- [Frontend Integration](frontend-integration-with-the-smart-contract-optional)
 
