@@ -18,9 +18,9 @@
 
 #### Development Programs on Solana ####
 - [Development Programs on Solana](development-programs-on-solana)
-- [How To Create Your Fungible Token](hands-on-tasks-create-your-fungible-token)
+- [How to Create Your Fungible Token](hands-on-tasks-create-your-fungible-token)
 - [Introduction to MetaPlex and Token Standards](introduction-to-metaplex-and-token-standards)
-- [How To Create Your Non Fungible Token Using Metaplex](hands-on-tasks-create-your-non-fungible-token)
+- [How to Create Your Non Fungible Token Using Metaplex](hands-on-tasks-create-your-non-fungible-token)
 
 #### Anchor Framework ####
 - [Introduction to Anchor Framework](introduction-to-anchor-framework)
