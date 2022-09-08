@@ -39,7 +39,7 @@
 - [Workspaces](crates-and-modulesworkspaces)
 
 #### Structs ####
-- [Named-Field Structs](structsnamed-field-structs)
+- [Structs](structsnamed-field-structs)
 - [Defining Methods with Impl](structsdefining-methods-with-impl)
 
 #### Generics and Lifetimes ####
