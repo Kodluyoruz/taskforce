@@ -15,7 +15,6 @@
 - [Wallets](rust-wallets)
 - [Faucets](rust-faucets)
 - [Solana Explorer](solana-explorer)
-- [Use Phantom with Solana](hands-on-task-use-phantom-with-solana)
 
 #### Development Programs on Solana ####
 - [Development Programs on Solana](development-programs-on-solana)
