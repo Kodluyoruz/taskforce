@@ -9,7 +9,7 @@ HTML yani Hiper Metin İşaretleme Dili, web sayfalarında gördüğümüz iskel
 
 HTML aslında bilgisayarda sürekli olarak kullandığımız web sitelerinin oluşmasında kullanılan bir dildir. Yazılan kodlar web tarayıcıları (browser) tarafından web sayfalarına dönüştürülmektedir. Tabi ki bu web sayfalarının sadece HTML kodlarıyla oluşmuyor. HTML kodlarının yanında CSS ve Javascript dilleri de kullanılmakta. Ancak bu dillere şu an bakmanıza gerek yok. Öncelikle HTML dilinin mantığını, tarihini ve web tarayıcıları hakkındaki bilgilerle başlayalım. 
 
-## HMTL Tarihi
+## HTML Tarihi
 HTML, 1980'li yılların başlarında bir ihtiyaç neticesinde oluşturulmaya başlanmıştır. CERN' de çalışan Tim Berners-Lee, CERN araştırmacılarının bilgilerini ve dokümanlarını birbiriyle paylaşmak için bir sistem oluşturmuş ve bu sisteme ENQUIRE ismini vermiştir. Bu sürecin devamında Tim Berners-Lee, 1989 yılında internet tabanlı sistemin temellerini atmaya başlamıştır. Bu temellerin atılmasından 1 yıl sonra yani 1990 yılında HTML dili geliştirilmiştir. HTML dili ile birlikte hepimizin bildiği www (World Wide Web) sistemi de kurulmuştur. Artık hayatımızın bir parçası olan web dünyasının temeli HTML, günümüzün vazgeçilmez teknolojileri arasında yerini almıştır. [1](https://tr.wikipedia.org/wiki/HTML)
 
 ## Web Tarayıcısı 
