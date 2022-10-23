@@ -27,7 +27,7 @@ Messages.prototype.upsert = function ({ message }) {
 Messages.prototype.list = function (callback) {
 	let messageList = [];
 
-	this.client.hgetall("messages", function (err, messages) {
+	this.client.HGETALL("messages", function (err, messages) {
 		if (err) {
 			console.error(err);
 			return callback([]);
