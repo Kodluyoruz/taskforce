@@ -3,6 +3,7 @@ You now know how to read data and write to the network with simple transactions.
 The tricky thing about data in Solana is that programs are **stateless**. Unlike smart contracts in other blockchains like Ethereum, programs do not store any data, they just store logic.
 
 ![](https://hackmd.io/_uploads/S1Ondj8h5.png)
+
 Pictured: Founder of Solana, Anatoly Yakovenko, making Solana.
 
 Absolutely nothing is stored inside a Solana program. It doesn't know who the owner is or even who deployed it. Everything is stored inside accounts.
