@@ -2,7 +2,7 @@ We're here. Didn't take too long. Monkey pictures. Apes. Rocks. Some other anima
 
 Unlike Ethereum, NFTs are super cheap to mint on Solana which makes them extra fun. Even in these bear market days it's like $5 to mint an NFT on ETH, which is pretty lame. Why do I need to pay $5 to make my meme immortal?
 
-#### 🫣 NFTs are tokens
+#### NFTs are tokens
 One of the big reasons NFTs are so cheap on Solana is because they're not an extra special piece of code - they're just regular tokens but with additional data attached. 
 
 ![](https://hackmd.io/_uploads/HkhxqLS7s.png)
