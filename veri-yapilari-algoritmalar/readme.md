@@ -29,7 +29,7 @@
 
 #### Sorting (Sıralama) Algoritmaları ####
   - [Sorting Nedir?](sorting/)
-  - [Insertion Sort](insertion-sort/)
+  - [Selection Sort](insertion-sort/)
   - [Merge Sort](merge-sort/)
   - [Quick Sort](quick-sort/)
 
