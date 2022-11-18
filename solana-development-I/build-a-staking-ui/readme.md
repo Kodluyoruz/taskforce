@@ -93,11 +93,13 @@ Things are looking *niccceeee*.
     
 A lot of this is similar to what we've done before for our other pages, here are a couple of items to pay attention to:
 
-- There is a staking check with `isStaking` that affects whether the page will say "STAKING" or "UNSTAKED". This requires a `useState` which is initially set to `false`.
+There is a staking check with `isStaking` that affects whether the page will say "STAKING" or "UNSTAKED". This requires a `useState` which is initially set to `false`.
 
+ 
     `const [isStaking, setIsStaking] = useState(false)`
 
-- We want to display the level of the staker, so another useState is needed.
+We want to display the level of the staker, so another useState is needed.
+ 
     
     `const [level, setLevel] = useState(1)`
 
