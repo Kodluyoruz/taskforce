@@ -3,8 +3,8 @@
 #### Introduction to Anchor ####
 - [Anchor with Gage](anchor-with-gage-solana-development)
 - [Setting up Anchor](setting-up-anchor-solana-development)
-- [The Anchor framework](the-anchor-framework)
-- [Building with Solana frameworks](building-with-solana-frameworks)
+- [The Anchor Framework](the-anchor-framework)
+- [Building with Solana Frameworks](building-with-solana-frameworks)
 
 #### Programs in Anchor ####
 - [PDAs in Anchor](pdas-in-anchor)
@@ -14,10 +14,10 @@
 
 #### Anchor on the Front-end ####
 - [Anchoring into Typescript](anchoring-into-typescript)
-- [Build a better movie review program](build-a-better-movie-review-program)
+- [Build a Better Movie Review Program](build-a-better-movie-review-program)
 
 #### A Full-stack Anchor App ####
 - [Staking with Anchor](staking-with-anchor)
 - [Redeeming with Anchor](redeeming-with-anchor)
 - [Unstaking with Anchor](unstaking-with-anchor)
-- [Building the front-end](building-the-front-end)
+- [Building the Front-end](building-the-front-end)
