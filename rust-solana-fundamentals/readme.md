@@ -1,7 +1,7 @@
 # Rust & Solana Fundamentals
 
 #### Introduction to Rust ####
-- [About Rust](about-rust-rust-solana-fundamentals)
+- [About Rust](aboutrust-solana-fundamentals)
 - [Program development with Gage](Program-development-with-Gage)
 - [The magic internet computer](The-magic-internet-computer)
 - [Hello World](Hello-World-rust)
