@@ -1,6 +1,7 @@
 # Introduction to Solana
 
 #### Client Side Development ####
+- [Before Starting Lesson](before-starting-lesson-introduction-to-solana)
 - [Reading & writing data on Solana with Gage](Reading-writing-data-on-Solana-with-Gage)
 - [Reading data from the blockchain](Reading-data-from-the-blockchain)
 - [Writing data to the blockchain](Writing-data-to-the-blockchain)
