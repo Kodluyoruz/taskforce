@@ -10,3 +10,4 @@
 - [App Navigation-1](app-navigation-1)
 - [App Navigation-2](app-navigation-2)
 - [Activity and Fragment Lifecycle](activity-fragment-lifecycle)
+- [App Architecture](app-architecture)
