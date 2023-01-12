@@ -21,7 +21,7 @@ iş akışını engellemez.
 Node.js asynchronous **asenkron** çalışır. Asenkron çalışma, kod akışının yukarıdan aşağıya ilerlemediği, işlemlerin birbirini beklemediği çalışma türüdür. 
 Bu sayede işlem sırası olaya göre belirlenebilir.
 
-======
+=====
 
 > Node.js çalışma mantığı üzerine sıkça kullanılan bir benzetmeden biz de faydalanalım. Çalışma ortamımızın bir restoran olduğunu düşünelim ve bu restoranımızda 
 > tek başına çalışan ve doğal olarak aynı anda tek bir iş yapabilicek **single thread** bir garson arkadaşımız olsun. Bu garson arkadaşımız bir masadan sipariş aldıktan sonra 
