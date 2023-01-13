@@ -8,9 +8,9 @@
 - [Cryptographic Hash Function](cryptographic-hash-function)
 - [Merkle Tree](merkle-tree)
 - [Blockchain Workflow](blockchain-workflow)
-- [Demo](blockchain-demo)
-- [Demo 2](blockchain-demo-2)
-- [Demo 3](blockchain-demo-3)
+- [Blockchain Demo - Part 1](blockchain-demo)
+- [Blockchain Demo - Part 2](blockchain-demo-2)
+- [Blockchain Demo - Part 3](blockchain-demo-3)
 #### Consensus Algorithm and Block Mining ####
 - [Block Mining](block-mining)
 - [Other Variants of Consensus Algorithms](other-variants-of-consensus-algorithms)
