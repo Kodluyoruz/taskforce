@@ -13,7 +13,7 @@
 - [Blockchain Demo - Part 3](blockchain-demo-3)
 #### Consensus Algorithm and Block Mining ####
 - [Consensus Algorithm and Block Mining](block-mining)
-- [Other Variants of Consensus Algorithms](other-variants-of-consensus-algorithms)
+- [Other Variations of Consensus Algorithms](other-variants-of-consensus-algorithms)
 - [Validators in BSC: Gas and Fees](validators-in-bsc-gas-and-fees)
 #### Understanding Cryptocurrency and Smart Contracts. Blockchain Technology Platform ####
 - [Understanding DLTs, Bitcoin and Ethereum](understanding-dlts-bitcoin-and-ethereum)
