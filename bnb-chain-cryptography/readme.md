@@ -2,7 +2,7 @@
 
 #### Understanding Basics of Blockchain ####
 - [Understanding Basics of Blockchain](understanding-basics-of-blockchain)
-#### Key terms ####
+#### Blockchain Key terms ####
 - [Cryptography in Blockchain](cryptography-in-blockchain)
 - [Symmetric & Asymmetric Encryption](symmetric-asymmetric-encryption)
 - [Cryptographic Hash Function](cryptographic-hash-function)
