@@ -22,3 +22,6 @@
 
 #### Future of Blockchain ####
 - [Future of Blockchain](future-of-blockchain)
+
+#### Evaluate Blockchain for Your Business ####
+- [Evaluating Blockchain for Your Business](evaluating-blockchain-for-your-business)
