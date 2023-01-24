@@ -11,8 +11,8 @@
 - [Introduction to Tokens](introduction-to-tokens)
 
 #### Blockchain Use Cases ####
-- [Blockchain Use Cases Part 1](blockchain-use-cases-part-1)
-- [Blockchain Use Cases Part 2](blockchain-use-cases-part-2)
+- [Blockchain Use Cases: Part 1](blockchain-use-cases-part-1)
+- [Blockchain Use Cases: Part 2](blockchain-use-cases-part-2)
 
 #### Decentralized Finance ####
 - [Decentralized Finance - DeFi](decentralized-finance-defi)
