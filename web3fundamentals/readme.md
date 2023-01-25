@@ -1,7 +1,7 @@
 # Web3 Fundamentals
 
 #### Introduction to Web3 ####
-- [Introduction to Web3.0](introduction-to-web3)
+- [Introduction to Web3](introduction-to-web3)
 
 #### Decentralized Applications: An Introduction ####
 - [Decentralized Applications: An Introduction](decentralized-applications-an-introduction)
