@@ -22,7 +22,7 @@
 
 #### Ekstra Özellikler ####
 -  [HTML Etiketlerine Ekstra Özellikler Eklemek](etiketlerine-ekstra-ozellikler-eklemek/)
--  [İskeletinin Genel Yapısını Anlamak](i̇skeletinin-genel-yapisini-anlamak/)
+-  [İskeletinin Genel Yapısını Anlamak](iskeletinin-genel-yapisini-anlamak/)
 -  [Semantic(Anlamlandırılmış) HTML Etiketleri Kullanımı](semanticanlamlandirilmis-html-etiketleri-kullanimi/)
 -  [Diğer HTML Etiketleri Hakkında](diger-html-etiketleri-hakkinda/)
 
