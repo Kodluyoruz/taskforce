@@ -3,8 +3,8 @@
 #### Remix IDE ####
 - [Remix IDE](bnb-chain-remix-ide)
 
-#### Creating a contract ####
-- [Creating a contract](bnb-chain-creating-a-contract)
+#### Creating a Contract ####
+- [Creating a Contract](bnb-chain-creating-a-contract)
 
 #### Types ####
 - [Boolean](bnb-chain-types-boolean)
