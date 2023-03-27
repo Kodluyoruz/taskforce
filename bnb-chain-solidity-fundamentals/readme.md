@@ -49,7 +49,7 @@
 - [Inheritance](bnb-chain-inheritance)
 
 #### Interfaces and Interacting Contracts ####
-- [Interfaces and Interacting Contracts](bnb-chain-interfaces-and-interacting contracts)
+- [Interfaces and Interacting Contracts](bnb-chain-interfaces-and-interacting-contracts)
 
 #### Call and Interacting Contracts ####
 - [Call and Interacting Contracts](bnb-chain-all-and-interacting-contracts)
