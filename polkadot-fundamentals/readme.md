@@ -1,4 +1,4 @@
-#Polkadot Fundamentals
+# Polkadot Fundamentals
 
 #### Introduction to Polkadot ####
 - [Introduction to Polkadot](introduction-to-polkadot)
@@ -10,5 +10,5 @@
 - [Use cases](polkadot-use-cases)
 
 #### Pallets, Getting started with Polkadot Development ####
-- [Pallets, Getting started with Polkadot Development](pallets-getting-started-with-polkadot-development)
+- [Pallets, Getting started with Polkadot Development]pallets-getting-started-with-polkadot-development)
 
