@@ -4,9 +4,9 @@
 - [Introduction to Polkadot](introduction-to-polkadot)
 
 #### Relay chain, parachains and parathreads ####
-- [Relay chain, parachains and parathreads](relay-chain-parachains-and-parathreads)
+- [Relay chain, parachains and parathreads](relay-chain-parachains-and-)
 
-####Use cases####
+#### Use cases ####
 - [Use cases](polkadot-use-cases)
 
 #### Pallets, Getting started with Polkadot Development ####
