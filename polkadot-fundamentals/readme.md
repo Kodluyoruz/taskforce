@@ -1,4 +1,4 @@
-# Polkadot Fundamentals
+#Polkadot Fundamentals
 
 #### Introduction to Polkadot ####
 - [Introduction to Polkadot](introduction-to-polkadot)
