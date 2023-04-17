@@ -1,0 +1,1 @@
+# Son Ayarlar ve Değerlendirme

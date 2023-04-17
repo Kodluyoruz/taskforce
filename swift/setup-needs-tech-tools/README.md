@@ -41,14 +41,14 @@ Swift tek başına iOS uygulamaları geliştirmemiz için yeterli değil. Bu ned
 ### 3. Üçüncü Parti Kütüphaneler*
 Üçüncü parti kütüphaneler, Apple kütüphanelerinde var olan bir yapıyı daha kolay kullanmamızı ya da Apple kütüphanelerinde yer verilmeyen özellikleri bize sağlıyor. Bu nedenle üçüncü parti kütüphanelere de sıklıkla başvuracağız.
 
-### 4. Paket Yönetim Sistemleri*
+### 4. Paket Yönetim Sistemleri*
 Projemize eklediğimiz üçüncü parti kütüphanelerin yönetimi, kütüphane sayısı arttıkça zorlaşıyor. Paket yöneticisi bu zorluğu geliştiriciden devralarak kolay şekilde yönetim olanakları sunuyor. Paket yöneticiler de sektörde sıklıkla kullanıldığı için eğitimde çokça yer vereceğiz.
 
 Eğitim süresince, sektörde sıklıkla kullanılan paket yöneticisini Cocoapods'u kullanacağız. Diğer paket yöneticilerine de değineceğiz. Cocoapods içinde yer alan paketleri cocopods.org adresinden inceleyebilirsiniz.  
 
 Cocoapods Link: <a href="https://cocoapods.org">Cocoapods</a>
 
-### 5. Versiyon Kontrol Sistemleri*
+###  5. Versiyon Kontrol Sistemleri*
 Versiyon kontrol adından da anlaşılabileceği gibi projemizi versiyon versiyon kaydetmemizi, bu versiyonlar arasında kolayca geçebilmemizi, birden çok geliştiricinin çalıştığı projelerde sorunsuz bir şekilde versiyonların birleştirilmesini sağlayan araçlardır. En popüler olanı GIT versiyon kontrol sistemidir. Biz de eğitim süresince GIT versiyon kontrolünü kullanacağız.
 
 GIT Link: <a href="https://git-scm.com">GIT</a>
