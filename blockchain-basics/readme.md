@@ -2,7 +2,6 @@
 
 #### Blockchain Basics ####
 - [Welcome to Blockchain Basics](welcome-to-blockchain-basics)
-- [A new journey into blockchain](a-new-journey-into-blockchain)
 - [Your journey in this module](your-journey-in-this-module)
 - [Hashing the data](hashing-the-data)
 - [Hashing the data - Demo](hashing-the-data-demo)
