@@ -6,3 +6,4 @@
 - [Commit, Diff, Log, Amend](commit-diff-log-amend/)
 - [Branch İşlemleri ve Stash Kavramı](branch-islemleri-stash-kavramı/)
 - [Merge, Rebase, Conflict](merge-rebase-confict/)
+- [Deneme dersi](deneme-git)
