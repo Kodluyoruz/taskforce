@@ -9,3 +9,11 @@
 
 #### Wallets ####
 - [Wallets](bnb-chain-wallets)
+
+#### How Does BNB Chain Work? ####
+- [How Does BNB Chain Work?](how-does-bnb-chain-work)
+- [zkBNB](zkBNB)
+
+#### Hands-on task ####
+- [Use Trust Wallet with BNB Smart Chain](use-trust-wallet-with-bnb-smart-chain)
+- [Use Metamask with BNB Smart Chain](use-metamask-with-bnb-smart-chain)
