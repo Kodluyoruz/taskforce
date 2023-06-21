@@ -10,6 +10,7 @@
 
 #### Değişkenlerle Çalışmak ####
 - [Değişken Tanımlama: var, ES6 ile Birlikte Gelen let ve const Değişken Tanımlama Yapısının Kullanımı, var ile Arasındaki Farklar](degisken-tanimlama-var-es6-ile-birlikte-gelen-let-ve-const-degisken-tanimlama-yapisinin-kullanimi-var-ile-arasindaki-farklar/)
+- [Değişken Tanımlama Kuralları](degisken-tanimlama-kurallari)
 - [Number Veri Turu Kullanımı, Temel Aritmetik İşlemler, İşlem Önceliği, Arttırma ve Azaltma İşlemleri](number-veri-turu-kullanimi-temel-aritmetik-islemler-ve-islem-onceligi-ve-arttirma-ve-azaltma-islemleri/)
 - [Boolean Veri Türü İle Çalışmak](boolean-veri-turu-ile-calismak/)
 - [Değişken Türünü Kontrol Etmek ve Değişken Türünü Değiştirmek](degisken-turunu-kontrol-etmek-ve-degisken-turunu-degistirmek/)
