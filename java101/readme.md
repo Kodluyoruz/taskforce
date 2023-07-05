@@ -31,7 +31,7 @@
 #### Koşullu İfadeler ve Kod Blokları ####
 - [Karşılaştırma Operatörleri](karsilastirma-operatorleri/)
 - [Mantıksal Operatörler](mantiksal-operatorler/)
-- [Kod Bokları (Scope)](scope/)
+- [Kod Blokları (Scope)](scope/)
 - [If ve Else Blokları](if-else/)
 - [Switch-Case Yapısı](switch-case/)
 - [Pratik - Hesap Makinesi](pratik-hesap-mak-1/)
