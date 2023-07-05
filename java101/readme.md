@@ -42,7 +42,7 @@
 - [Pratik - Burç Bulan Program](pratik-burclar/)
 - [Ödev - Uçak Bileti Fiyatı Hesaplama](odev-ucak-bileti/)
 - [Ödev - Çin Zodyağı Hesaplama](odev-cin-zodyagi/)
-- [Ödev - Artık YIl Hesaplama](odev-artik-yil/)
+- [Ödev - Artık Yıl Hesaplama](odev-artik-yil/)
 
 #### Döngüler ####
 - [Döngü Yapıları](donguler/)
