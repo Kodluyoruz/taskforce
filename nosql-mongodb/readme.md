@@ -18,6 +18,7 @@
 
 #### Mongodb ####
 - [Mongodb](mangodb/)
+- [Mingo](mingo-setup)
 
 
 
