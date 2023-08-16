@@ -1,5 +1,7 @@
 # Solidity Fundamentals
-
+#### Introduction ####
+- [Solidity Course | Introduction](solidity-course-introduction)
+  
 #### Remix IDE ####
 - [Remix IDE](bnb-chain-remix-ide)
 
