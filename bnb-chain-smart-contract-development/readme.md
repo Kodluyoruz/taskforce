@@ -18,3 +18,6 @@
 - [Testing contract](testing-contract)
 - [Dapp_walkthrough](dapp-walkthrough)
 - [Explaining dapp code](explaining-dapp-code)
+
+#### Final Project ####
+- [Final Project](smart-contract-final-project)
