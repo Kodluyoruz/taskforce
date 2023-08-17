@@ -64,3 +64,6 @@
 #### Hands-on task ####
 - [Use Trust Wallet with BNB Smart Chain](use-trust-wallet-with-bnb-smart-chain)
 - [Use Metamask with BNB Smart Chain](use-metamask-with-bnb-smart-chain)
+
+#### Final Project ####
+- [Fİnal Project](bnb-chain-final-project)
