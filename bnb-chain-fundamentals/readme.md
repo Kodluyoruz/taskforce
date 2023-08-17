@@ -66,4 +66,4 @@
 - [Use Metamask with BNB Smart Chain](use-metamask-with-bnb-smart-chain)
 
 #### Final Project ####
-- [Fİnal Project](bnb-chain-final-project)
+- [Final Project](bnb-chain-final-project)
