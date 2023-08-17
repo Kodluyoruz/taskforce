@@ -16,7 +16,7 @@
 - [Installation](linux-installation)
 
 #### Hands on Project 1 ####
-- [Building A blockchain](building-a-blockchain)
+- [Building a blockchain](building-a-blockchain)
 
 #### Hands on project 2 ####
 - [Simulating a complete substrate network](simulating-a-complete-substrate-network)
@@ -40,4 +40,4 @@
 - [Smart contracts](smart-contracts)
 
 #### Hands on Project 9 ####
-- [Prepare A Local relay chain](prepare-a-local-relay-chain)
+- [Prepare a Local relay chain](prepare-a-local-relay-chain)
