@@ -29,3 +29,6 @@
 - [Testing and Deploying Smart Contract](testing-and-deploying-smart-contract)
 - [Overview of the Frontend for Final Project](overview-of-the-frontend-for-final-project)
 - [Explaining Frontend Code](explaining-frontend-code)
+
+#### Final Project ####
+- [Final Project](icp-final-project)
