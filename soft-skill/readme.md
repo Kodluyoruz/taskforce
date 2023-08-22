@@ -14,7 +14,6 @@
 - [Networking Önemli Ama Nasıl?](networking-önemli-ama-nasıl)
 - [Everything you need to know about technical interviews at top global companies](everything-you-need-to-know-about-technical-interviews-at-top-global-companies)
 - [Yazılım Geliştirme Yöntemleri Waterfall, Scrum ve Kanban](yazılım-geliştirme-yöntemleri-waterfall-scrum-ve-kanban)
-- [Agile Nedir Öğrenelim! Hangi durumda Scrum, Kanban, Design Thinking, Lean Startup ya da Waterfall?](agile-nedir-öğrenelim-hangi-durumda-scrum-kanban-design-thinking-lean-startup-waterfall)
 - [Waterfall, Agile ve Scrum Proje Yönetimi Yaklaşımları](waterfall-agile-ve-scrum-proje-yönetimi-yaklaşımları)
 
 
