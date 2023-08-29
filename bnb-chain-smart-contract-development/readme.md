@@ -1,7 +1,9 @@
 # Smart Contract Development
 
-#### Popular BNB Chain dApps ####
+#### Introduction ####
+- [Introduction](introduction-smart-contract-development)
 
+#### Popular BNB Chain dApps ####
 - [Use cases](popular-bnb-chain-dApps)
 
 #### A Fullstack Application (Car Rental App) ####
