@@ -3,23 +3,23 @@
 #### Introduction to Polkadot ####
 - [Introduction to Polkadot](introduction-to-polkadot)
 
-#### Relay chain, parachains and parathreads ####
-- [Relay chain, parachains and parathreads](relay-chain-parachains-and-parathreads)
+#### Relay Chain, Parachains and Parathreads ####
+- [Relay Chain, Parachains and Parathreads](relay-chain-parachains-and-parathreads)
 
-#### Use cases ####
-- [Use cases](polkadot-use-cases)
+#### Use Cases ####
+- [Use Cases](polkadot-use-cases)
 
-#### Pallets, Getting started with Polkadot Development ####
-- [Pallets, Getting started with Polkadot Development](pallets-getting-started-with-polkadot-development)
+#### Pallets, Getting Started with Polkadot Development ####
+- [Pallets, Getting Started with Polkadot Development](pallets-getting-started-with-polkadot-development)
 - 
 #### Introduction ####
 - [Introduction](polkadot-substrate-development-introduction)
 
-#### More details on Substrate ####
-- [More details on Substrate](more-details-on-substrate)
+#### More Details on Substrate ####
+- [More Details on Substrate](more-details-on-substrate)
 
-#### Deep dive substrate ####
-- [Deep dive substrate](deep-dive-substrate)
+#### Deep Dive Substrate ####
+- [Deep Dive Substrate](deep-dive-substrate)
 
 #### Internal Workings of Substrate ####
 - [Internal Workings of Substrate](internal-workings-of-substrate)
@@ -27,29 +27,29 @@
 #### Installation ####
 - [Installation](linux-installation)
 
-#### Hands on Project 1 ####
-- [Building a blockchain](building-a-blockchain)
+#### Hands-On Project 1 ####
+- [Building a Blockchain](building-a-blockchain)
 
-#### Hands on project 2 ####
-- [Simulating a complete substrate network](simulating-a-complete-substrate-network)
+#### Hands-On Project 2 ####
+- [Simulating a Complete Cubstrate Network](simulating-a-complete-substrate-network)
 
-#### Hands on project 3 ####
-- [Adding trusted nodes to a network](adding-trusted-nodes-to-a-network)
+#### Hands-On Project 3 ####
+- [Adding Trusted Nodes to a Network](adding-trusted-nodes-to-a-network)
 
-#### Hans On Project 4 ####
-- [Authorizing nodes in a network](authorizing-nodes-in-a-network)
+#### Hands-On Project 4 ####
+- [Authorizing Nodes in a Network](authorizing-nodes-in-a-network)
 
-#### Hands On Project 5 ####
-- [Monitoring node metrics](monitoring-node-metrics)
+#### Hands-On Project 5 ####
+- [Monitoring Node Metrics](monitoring-node-metrics)
 
-#### Hands On Project 6 ####
-- [Upgrading a running network](upgrading-a-running-network)
+#### Hands-On Project 6 ####
+- [Upgrading a Running Network](upgrading-a-running-network)
 
-#### Hands On Project 7 ####
+#### Hands-On Project 7 ####
 - [Building a Custom Pallet](building-a-custom-pallet)
 
-#### Hands On Project 8 ####
-- [Smart contracts](smart-contracts)
+#### Hands-On Project 8 ####
+- [Smart Contracts](smart-contracts)
 
-#### Hands on Project 9 ####
-- [Prepare a Local relay chain](prepare-a-local-relay-chain)
+#### Hands-On Project 9 ####
+- [Prepare a Local Relay Chain](prepare-a-local-relay-chain)
