@@ -11,7 +11,7 @@
 
 #### Pallets, Getting Started with Polkadot Development ####
 - [Pallets, Getting Started with Polkadot Development](pallets-getting-started-with-polkadot-development)
-- 
+
 #### Introduction ####
 - [Introduction](polkadot-substrate-development-introduction)
 
