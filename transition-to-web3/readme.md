@@ -1,6 +1,6 @@
 # Transition to Web3
 
-#### What is Web3 ? ####
+#### What is Web3? ####
 - [Introduction](transition-to-web3-introduction)
 - [Web1 and Web2](web1-and-web2)
 - [The Middleman](the-middleman)
