@@ -6,3 +6,13 @@
 - [The Middleman](the-middleman)
 - [Blockchain Comes Into Play](blockchain-comes-into-play)
 - [Web3 As a New Iteration for Web](web3-as-a-new-iteration-for-web)
+
+#### A Deep Dive Into Web3 ####
+- [Web3 Use Cases](web3-use-cases)
+- [The Architecture of a dApp](the-architecture-of-a-dApp)
+- [The Architecture of Web2 Apps](the-architecture-of-web2-apps)
+
+#### Life After Web3 ####
+- [What do dApps Bring to the Table](what-do-dApps-bring-to-the-table)
+- [Where Web3 Lacks](where-web3-lacks)
+- [Use Cases from Enterprise Companies](use-cases-from-enterprise-companies)
