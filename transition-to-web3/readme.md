@@ -14,5 +14,5 @@
 
 #### Life After Web3 ####
 - [What do dApps Bring to the Table](what-do-dApps-bring-to-the-table)
-- [Where Web3 Lacks](where-web3-lacks)
+- [Web3 Limitations and Challanges](web3-limitations-and-challanges)
 - [Use Cases from Enterprise Companies](use-cases-from-enterprise-companies)
