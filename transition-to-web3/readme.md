@@ -16,3 +16,6 @@
 - [What do dApps Bring to the Table](what-do-dApps-bring-to-the-table)
 - [Web3 Limitations and Challanges](web3-limitations-and-challanges)
 - [Use Cases from Enterprise Companies](use-cases-from-enterprise-companies)
+
+#### Final Task ####
+- [Final Task](final-task)
