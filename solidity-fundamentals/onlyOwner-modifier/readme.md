@@ -12,11 +12,11 @@ modifier onlyOwner() {
     _;
 }
 ```
-- modifier `onlyOwner() {...}` - This starts the definition of the modifier called onlyOwner.
+ - modifier `onlyOwner() {...}` - This starts the definition of the modifier called onlyOwner.
 
-- `require(msg.sender == owner)` - This line checks that the msg.sender, the account calling the function, is equal to the stored owner address.
+ - `require(msg.sender == owner)` - This line checks that the msg.sender, the account calling the function, is equal to the stored owner address.
 
-- `_;` - This tells Solidity to execute the rest of the function code after completing the modifier logic.
+ - `_;` - This tells Solidity to execute the rest of the function code after completing the modifier logic.
 
 To use the `onlyOwner` modifier, we just need to add the `onlyOwner` keyword at the end of the function definition. 
 
