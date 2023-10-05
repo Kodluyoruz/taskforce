@@ -1,15 +1,10 @@
 In the last lesson, we created a new variable named `owner` to represent the owner of the contract and we set the `owner` to the `msg.sender` in our `contructor`. Now, we want to use this owner in our `create` function so that only the owner of the contract can use this function.
 
 We can achieve this with a modifier.
-
 - Modifiers are defined using the `modifier` keyword followed by the modifier name and parameters if any.
-
 - Within the modifier, custom logic can be added before and/or after the `_;` statement.
-
 - By default, modifiers will run the logic before executing the function body. The `_;` tells it to then execute the function.
-
 - To use a modifier on a function, include it after the function name followed by parameters.
-
 Let's create our `onlyOwner` modifier.
 ```solidity
 modifier onlyOwner() {
