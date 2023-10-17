@@ -22,7 +22,6 @@
 - [UIActivityIndicator](uikit-fundamentals-uiactivityindicator)
 - [UITableViewController](uikit-fundamentals-uitableviewcontroller)
 - [UIAlertController](uikit-fundamentals-uialertcontroller)
-- [UINavigationController & UIBarButtonItem](uikit-fundamentals-uinavigationcontroller-uibarbuttonitem)
 - [UIStackView & UIImageView](uikit-fundamentals-uistackview-uiimageview)
 
 #### 5. Bölüm: İlk Proje - Liste Uygulaması ####
