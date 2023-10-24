@@ -5,7 +5,7 @@
 - [Projenin Klasör ve Çekirdek Yapısı](java-projenin-klasor-ve-cekirdek-yapisi)
 - [Yardımcı Sınıflar ve Metotlar](java-yardimci-siniflar-ve-metotlar)
 - [Login İşlemleri](java-login-islemleri)
-- [Verilerin Arayüzde Yönetilmesi](java-verilerin-arayüzde-yonetilmesi)
+- [Verilerin Arayüzde Yönetilmesi](java-verilerin-arayuzde-yonetilmesi)
 - [Markaların Yönetilmesi](java-markalarin-yonetilmesi)
 - [Marka Silme İşlemi](java-marka-silme-islemi)
 - [Araç Modellerinin Yönetimi](java-arac-modellerinin-yonetimi)
