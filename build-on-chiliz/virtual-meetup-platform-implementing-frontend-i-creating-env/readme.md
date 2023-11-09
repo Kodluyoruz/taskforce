@@ -8,7 +8,7 @@ To do that let’s go to here and create a free account.
 Once we login to our new account, it will ask us to create a project (which can be named whatever you want).
 Navigate to your project’s Settings > Secrets, and copy the API key from Web3 API Key - Default.
 Step 2: Create a new file called .env.local
-
+![gif](https://github.com/Kodluyoruz/taskforce/blob/main/build-on-chiliz/virtual-meetup-platform-implementing-frontend-i-creating-env/AmGGh6G-Patika_Chiliz.gif?raw=true)
 
 In the provided template (GitHub Link), there is a .env.local.example file, in the root of our application. Next to this .env.local.example file, let's create a new file called .env.local (at the same level as src, not inside src)
 
