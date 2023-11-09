@@ -5,7 +5,7 @@
 - [Chiliz Network and Its Use Cases](chiliz-network-and-its-use-cases)
 - [What Are Test Tokens and How to Utilize Them](what-are-test-tokens-and-how-to-utilize-them)
 
-#### Project #1: Virtual Meetup Platform ####
+#### Project 1: Virtual Meetup Platform ####
 - [What Are We Going to Build](virtual-meetup-platform-what-are-we-going-to-build)
 - [Which Technologies Will Be Used](which-technologies-will-be-used)
 - [Implementing Frontend I - Creating ENV](virtual-meetup-platform-implementing-frontend-i-creating-env)
@@ -15,7 +15,7 @@
 - [Implementing Frontend V - HTML/CSS Walkthrough](implementing-frontend-v-html-css-walkthrough)
 - [Homework I - Submit your github repository link](homework-i-submit-your-github-repository-link)
 
-#### Project #2: NFT Marketplace ####
+#### Project 2: NFT Marketplace ####
 - [What Are We Going to Build](nft-marketplace-what-are-we-going-to-build)
 - [Getting Chiliz Testnet Coins](getting-chiliz-testnet-coins)
 - [Deploying NFT Marketplace Using Thirdweb](deploying-nft-marketplace-using-thirdweb)
