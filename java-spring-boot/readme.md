@@ -24,11 +24,13 @@
 - [Hibernate ile JPA Arasındaki Farklar](hibernate-ile-jpa-arasindaki-farklar)
 - [HQL Kullanımı](hql-kullanimi)
 
-
+#### Katmanlı Mimarilere Giriş ####
 - [Katmanlı Mimari Nedir?](katmanli-mimari-nedir)
 - [Katmanlı Mimariyi Uygulamak](katmanli-mimariyi-uygulamak)
 - [Dependency Injection](dependency-injection)
 - [Katmanlı Mimari ile Mini Proje](katmanli-mimari-ile-mini-proje)
+
+#### Spring Framework ve Spring Boot ####
 - [Spring Framework Nedir?](spring-framework-nedir)
 - [Spring Boot Nedir?](spring-boot-nedir)
 - [Spring Boot Kurulumu](spring-boot-kurulumu)
