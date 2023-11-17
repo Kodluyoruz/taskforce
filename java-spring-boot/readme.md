@@ -27,7 +27,7 @@
 #### Katmanlı Mimarilere Giriş ####
 - [Katmanlı Mimari Nedir?](katmanli-mimari-nedir)
 - [Katmanlı Mimariyi Uygulamak](katmanli-mimariyi-uygulamak)
-- [Dependency Injection](dependency-injection)
+- [Dependency Injection](spring-boot-dependency-injection)
 - [Katmanlı Mimari ile Mini Proje](katmanli-mimari-ile-mini-proje)
 
 #### Spring Framework ve Spring Boot ####
