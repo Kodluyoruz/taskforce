@@ -42,7 +42,7 @@
 - [Bean Kavramı](bean-kavrami)
 - [Lombok Kullanımı](lombok-kullanimi)
 - [Rest API Kavramı ve Temelleri](rest-api-kavrami-ve-temelleri)
-- [Response, Request DTO Kullanılması](response-request-dto-kullanilmasi)
 - [DTO Kavramı ve Uygulanması](dto-kavrami-ve-uygulanmasi)
+- [Response, Request DTO Kullanılması](response-request-dto-kullanilmasi)
 - [Validator Kullanımı](validator-kullanimi)
 - [Rest API Projesi](rest-api-projesi)
