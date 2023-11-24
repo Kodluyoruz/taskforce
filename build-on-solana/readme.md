@@ -1,38 +1,33 @@
 # Build on Solana
 
-#### Introduction to Solana ####
-- [What is Solana?](what-is-solana)
-- [Solana's Consensus Mechanism](solana-consensus-mechanism)
-- [Understanding Solana's Architecture and Unique Features](understanding-solana-architecture-and-unique-features)
-- [Course Structure](build-on-solana-course-structure)
-- [Tools and Software Necessary for Solana Development](tools-and-software-necessary-for-solana-development)
-- [Understanding Solana Smart Contracts](understanding-solana-smart-contracts)
-- [Solana CLI](build-on-solana-solana-cli)
-- [Hello World](build-on-solana-hello-world)
-- [Logging and Testing](logging-and-testing)
-- [Task 1](build-on-solana-task-1)
+#### Codigo Hello World ####
+- [Solana Introduction](solana-introduction)
+- [Codigo Hello World I - Learning how to use Codigo](codigo-hello-world-i-learning-how-to-use-codigo)
+- [Codigo Hello World II - Smart Contracts](codigo-hello-world-ii-smart-contracts)
+- [Codigo Hello World III - Deploy](codigo-hello-world-iii-deploy)
+- [Codigo Hello World IV - Front-end code](codigo-hello-world-iv-front-end-code)
+- [Codigo Hello World - Completed](codigo-hello-world-completed)
+- [Codigo Live Class Recording](codigo-live-class-recording)
+- [Homework #1: Write "reset" function](homework-1-write-reset-function)
+- [Solana Smart Contract Fundamentals - Transactions](solana-smart-contract-fundamentals-transactions)
+- [Solana Smart Contract Fundamentals - Instructions](solana-smart-contract-fundamentals-instructions)
+- [Solana Smart Contract Fundamentals - Accounts](solana-smart-contract-fundamentals-accounts)
+- [Solana Smart Contract Fundamentals - Program Derived Addresses (PDAs)](solana-smart-contract-fundamentals-program-derived-addresses-pdas)
 
-#### Starting with Anchor Framework & FrontEnd Development ####
-- [Anchor Intro - Setup](anchor-intro-setup)
-- [Anchor Implementation](anchor-implementation)
-- [Frontend Integration ](frontend-integration)
-- [Deploying Contracts](deploying-contracts)
-- [Solana Explorer](build-on-solana-solana-explorer)
-- [Task 2](build-on-solana-task-2)
+#### Working with Tokens ####
+- [Local Environment Setup](local-environment-setup)
+- [Configuring Solana CLI](configuring-solana-cli)
+- [Create Fungible Token](create-fungible-token)
+- [Create Non-Fungible Token](create-non-fungible-token)
 
-#### Working with Tokens in Solana ####
-- [Transfer Token CPI Using Anchor](transfer-token-cpi-using-anchor)
-- [Anchor Test Using Typescript](anchor-test-using-typescript)
-- [Codigo Hello World](codigo-hello-world)
-- [Task 3](build-on-solana-task-3)
-
-#### Working with NFTs ####
-- [Custom NFT mint - CLI](custom-nft-mint-cli)
-- [Compressed NFT](compressed-nft)
-- [Custom NFT (Create YAML)](custom-nft-create-yaml)
-- [Custom NFT (Business Logic - Test)](custom-nft-business-logic-test)
-- [Security Practices for Solana Program Development](security-practices-for-solana-program-development)
-- [Task 4](build-on-solana-task-4)
+#### Codigo NFT ####
+- [Codigo NFT  I - What are we going to build?](codigo-nft-i-what-are-we-going-to-build)
+- [Codigo NFT II - Create NFT.YAML](codigo-nft-ii-create-nft-yaml)
+- [Codigo NFT III - Mint](codigo-nft-iii-mint)
+- [Codigo NFT IV - Burn/Transfer](codigo-nft-iv-burn-transfer)
+- [Codigo NFT V - Build & Deploy](codigo-nft-v-build-deploy)
+- [Codigo VI - Frontend Testing](codigo-vi-frontend-testing)
+- [How Does YAML Work](how-does-yaml-work)
 
 #### Final Project ####
 - [Final Project](build-on-solana-final-project)
