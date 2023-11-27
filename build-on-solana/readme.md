@@ -7,7 +7,6 @@
 - [Codigo Hello World III - Deploy](codigo-hello-world-iii-deploy)
 - [Codigo Hello World IV - Front-end code](codigo-hello-world-iv-front-end-code)
 - [Codigo Hello World - Completed](codigo-hello-world-completed)
-- [Codigo Live Class Recording](codigo-live-class-recording)
 - [Homework #1: Write "reset" function](homework-1-write-reset-function)
 - [Solana Smart Contract Fundamentals - Transactions](solana-smart-contract-fundamentals-transactions)
 - [Solana Smart Contract Fundamentals - Instructions](solana-smart-contract-fundamentals-instructions)
