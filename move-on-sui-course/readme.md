@@ -51,4 +51,5 @@
 - [Sponsored Transactions](sponsored-transactions)
 
 #### The Closing Act ####
+- [Final Project Sample Ideas](final-project-sample-ideas)
 - [Submit Your Final Project](submit-your-final-project)
