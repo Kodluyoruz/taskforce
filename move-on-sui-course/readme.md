@@ -24,6 +24,7 @@
 - [Sui SDK](sui-sdk)
 
 #### Sui Basics ####
+- [Remix IDE for Move on Sui](remix-ide-for-move-on-sui)
 - [Install Sui on Windows](install-sui-on-windows)
 - [Install Sui on Mac](install-sui-on-mac)
 - [Install Sui on Linux](install-sui-on-linux)
