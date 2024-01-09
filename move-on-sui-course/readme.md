@@ -43,6 +43,7 @@
 
 #### Sui Blockchain and Frontend ####
 - [Interacting with Sui Blockchain from the Frontend](interacting-with-sui-blockchain-from-the-frontend)
+- [Interacting with Sui Blockchain from the Frontend-2](interacting-with-sui-blockchain-from-the-frontend-2)
 - [What is ZkLogin?](what-is-zklogin)
 - [How ZkLogin Works?](how-zklogin-works)
 - [Some Use Case Examples - ZkLogin](some-use-case-examples-zklogin)
