@@ -8,3 +8,8 @@
 - [React ve Typescript](react-typescript)
 - [Context API](context-api)
 - [React Event](react-event)
+- [Lifecycle](lifecycle)
+- [Fetching](fetching)
+- [Routing](routing)
+- [Form Handling](form-handling)
+- [Multi Language Application](multi-language-application)
