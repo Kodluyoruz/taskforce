@@ -2,4 +2,4 @@
 
 #### Proje Deploy Süreci ####
 - [Fullstack Projelerin İncelenmesi](fullstack-projelerin-incelenmesi)
-- [Projenin canlıya alınması](projenin-canliya-alinmasi)
+- [Projenin Canlıya Alınması](projenin-canliya-alinmasi)
