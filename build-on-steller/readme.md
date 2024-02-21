@@ -39,5 +39,5 @@
  - [Atomic Swap](atomic-swap)
  - [Section Summary](part-4-section-summary)
 
-#### Part 4 ####
+#### Final Project ####
  - [Submit Your Final Project](submit-your-final-project)
