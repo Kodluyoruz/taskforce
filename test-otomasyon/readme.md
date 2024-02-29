@@ -38,10 +38,6 @@
 - [Test Case Parametreleri](testcaseparametreleri)
 - [Dikkat Edilmesi Gerekenler](dikkatedilmesigerekenler)
 
-
-
-
 #### Hata Raporlama ####
 - [Hata Raporlamaya Giriş](hataraporlamagiris)
 - [Hata Raporlama Nasıl Yapılmalıdır?](hataraporlamanasılyapılmalıdır)
-- [Hata Raporlamada Önemli Noktalar](hataraporlamadaönemlinoktalar)
