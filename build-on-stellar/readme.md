@@ -16,11 +16,11 @@
 - [Section Summary](stellar-section-summary)
 
 #### Example Walktroughs ####
-- [Section Overview](stellar-example walkroughs-section-overview)
+- [Example Walktroughs Section Overview](stellar-example walkroughs-section-overview)
 - [Single offer Example](stellar-single-offer-example)
 - [Time Lock](stellar-time-lock)
 - [Atomic Swap](stellar-atomic-swap)
-- [Section Summary](stellar-example walkroughs-section-summary)
+- [Example Walktroughs Section Summary](stellar-example walkroughs-section-summary)
 
 #### Final Project ####
 - [Submit Your Final Project](stellar-final-projects)
