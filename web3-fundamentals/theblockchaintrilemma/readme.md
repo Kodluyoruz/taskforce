@@ -1,0 +1,1 @@
+In this episode, we looked into blockchain trilemma by covering the three concepts: scalability, decentralization, and security of a network.
