@@ -1,0 +1,2 @@
+## Ünite 2 - Oyuncu Konumlandırma
+Bu ünitede, amacının sana doğru koşuşturan aç hayvanlara seni geçmeden önce yemek fırlatmak olduğu bir oyunu baştan aşağı programlayacaksın. Bunu yapmak için if-then yapıları, rastgele değer oluşturma, diziler, çarpışma algılama, prefabler ve obje oluşturma gibi bazı programlamanın ve Unity’nin en önemli konseptlerine daha da aşina olacaksın. Bu üniteyi tamamladığında, nesneler fırlatabildiğin ve oyunu canlı tutmak için oyuncuyu yönlendirdiğin basit bir oyunu nasıl programlayacağını öğreneceksin.
