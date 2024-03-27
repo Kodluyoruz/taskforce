@@ -31,7 +31,7 @@
 - [How to grow your tutorial's impact](open-campus-how-to-grow-your-tutorials-impact)
 
 #### Final Project ####
-- ["Find a Novel Topic Related to Web3, Create an Educational Piece, and Publish"](open-campus-find-a-novel-topic-related-to-web3-and-create-a-written-video-tutorial-about-it-and-publish-it)
+- [Find a Novel Topic Related to Web3, Create an Educational Piece, and Publish](open-campus-find-a-novel-topic-related-to-web3-and-create-a-written-video-tutorial-about-it-and-publish-it)
 
 #### Next Steps ####
 - [Next Steps For Your Career](open-campus-next-steps-for-your-career)
