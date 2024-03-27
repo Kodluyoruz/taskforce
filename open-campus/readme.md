@@ -7,7 +7,7 @@
 
 #### Instruction Design ####
 - [Section Overview](instruction-design-section-overview)
-- [What kind of educational materials do people need?](open-campus-what-king-of-educational-materials-need)
+- [What kind of educational materials do people need?](open-campus-what-kind-of-educational-materials-need)
 - [How to learn enough materials?](how-to-learn-enough-materials)
 - [Tutorial Types](open-campus-tutorial-types)
 
