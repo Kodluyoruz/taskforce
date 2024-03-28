@@ -19,7 +19,7 @@
 
 #### Video Tutorial ####
 - [Section Overview](open-campus-video-tutorial-section-overview)
-- [How to Make Your Written Tutorial a Video Tutorial](open-campus-how-to-make-your-written-tutorial-a-video-tutorial)
+- [How to Transform a Written Tutorial Into a Video Tutorial](open-campus-how-to-make-your-written-tutorial-a-video-tutorial)
 - [Which Programs to Use?](open-campus-which-programs-to-use)
 - [Video Editing With CapCut](open-campus-video-editing-with-capcut)
 - [Example Case Study](open-campus-example-case-study)
