@@ -2,7 +2,7 @@
 
 #### Introduction ####
 - [Introduction to Open Campus](introduction-to-open-campus)
-- [Career Benefits of Creating Technical Training/Tutorials](career-benefits-of-creating-technical-training)
+- [Career Benefits of Creating Technical Training and Tutorials](career-benefits-of-creating-technical-training)
 - [How to Register to Open Campus](how-to-register-to-open-campus)
 
 #### Instruction Design ####
