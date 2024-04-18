@@ -3,6 +3,7 @@
 #### Introduction ####
 - [Course Intro](course-intro)
 - [Blockchain in a Nutshell](blockchain-in-a-nutshell)
+- [Introduction to Circle](circle-introduction-to-circle)
 - [Stable Coins](stable-coins)
 - [USDC](circle-usdc)
 - [Wallets](circle-wallets)
@@ -52,3 +53,7 @@
 
 #### Final Project ####
 - [Submit Your Final Project](circle-final-project)
+
+#### Resources & News ####
+- [Getting USDC Using ZKP2P and Turkish Lira](circle-getting-usdc-using-zkp2p)
+- [Resources](circle-resources)
