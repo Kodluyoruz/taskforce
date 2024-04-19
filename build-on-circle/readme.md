@@ -28,7 +28,7 @@
 - [Getting Native Test Token](getting-native-test-token)
 - [Initiate Transaction](initiate-transaction)
 - [Validating Transaction](validating-transaction)
-- [Submit Your Homework 2](developer-controlled-wallets-homework)
+- [Submit Your Homework 2](working-with-user-controlled-wallets-homework)
 - [Section Summary](developer-controlled-wallets-section-summary)
 
 #### Gas Station ####
