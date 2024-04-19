@@ -21,7 +21,7 @@
 - [Section Summary](creating-user-controlled-wallets-section-summary)
 
 #### Working WIth User Controlled Wallets ####
-- [Section Overview](developer-controlled-wallets-section-overview)
+- [Section Overview](working-with-user-controlled-wallets-section-overview)
 - [Check Wallet Status](check-wallet-status)
 - [Getting Test USDC](getting-test-usdc)
 - [Check Wallet Balance](check-wallet-balance)
