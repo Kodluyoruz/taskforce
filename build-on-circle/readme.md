@@ -20,7 +20,7 @@
 - [Submit Your Homework 1](creating-user-controlled-wallets-homework-explanation)
 - [Section Summary](creating-user-controlled-wallets-section-summary)
 
-#### Working WIth User Controlled Wallets ####
+#### Working With User Controlled Wallets ####
 - [Section Overview](working-with-user-controlled-wallets-section-overview)
 - [Check Wallet Status](check-wallet-status)
 - [Getting Test USDC](getting-test-usdc)
