@@ -29,7 +29,7 @@
 - [Initiate Transaction](initiate-transaction)
 - [Validating Transaction](validating-transaction)
 - [Submit Your Homework 2](working-with-user-controlled-wallets-homework)
-- [Section Summary](developer-controlled-wallets-section-summary)
+- [Section Summary](working-with-user-controlled-wallets-section-summary)
 
 #### Gas Station ####
 - [Section Overview](gas-station-section-overview)
