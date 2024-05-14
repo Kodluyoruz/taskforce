@@ -4,6 +4,7 @@
 - [What is ZKP](scroll-what-is-zkp)
 - [Submit Your Homework 1](scroll-submit-your-homework-1)
 - [ZKP Tools: Zk-SNARK](scroll-zkp-tools-zk-snark)
+- [ZkSNARK: Under the Hood (Optional)](scroll-zkpsnark-under-the-hood)
 - [ZKP Tools: Zk-STARK](scroll-zkp-tools-zk-stark)
 - [Applied ZK: Noir](scroll-applied-zk-noir)
 - [Applied ZK: Circom](scroll-applied-zk-circom)
