@@ -6,6 +6,7 @@
 - [ZKP Tools: Zk-SNARK](scroll-zkp-tools-zk-snark)
 - [ZkSNARK: Under the Hood (Optional)](scroll-zkpsnark-under-the-hood)
 - [ZKP Tools: Zk-STARK](scroll-zkp-tools-zk-stark)
+- [ZkSTARK: Under the Hood (Optional)](scroll-zkpstark-under-the-hood)
 - [Applied ZK: Noir](scroll-applied-zk-noir)
 - [Applied ZK: Circom](scroll-applied-zk-circom)
 - [Quiz 1](scroll-quiz-1)
