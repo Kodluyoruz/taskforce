@@ -4,7 +4,7 @@
 - [Course Intro](course-intro)
 - [Blockchain in a Nutshell](blockchain-in-a-nutshell)
 - [Introduction to Circle](circle-introduction-to-circle)
-- [Stable Coins](stable-coins)
+- [Stablecoins](stable-coins)
 - [USDC](circle-usdc)
 - [Wallets](circle-wallets)
 
