@@ -30,6 +30,7 @@
 - [Validating Transaction](validating-transaction)
 - [Submit Your Homework 2](working-with-user-controlled-wallets-homework)
 - [Section Summary](working-with-user-controlled-wallets-section-summary)
+- [Bonus: Complete a Challenge with WebSDK](working-with-user-controlled-wallets-complete-a-challenge-with-websdk)
 
 #### Gas Station ####
 - [Section Overview](gas-station-section-overview)
