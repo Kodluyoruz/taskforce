@@ -1,19 +1,21 @@
 # Html Temelleri
 
 #### Html Temelleri ####
-- [Html Attributes](html-attributes)
-- [Html Basic](html-basic)
-- [Html Favicon](html-favicon)
-- [Html Forms](html-forms)
-- [Html Headings](html-headings)
-- [Html Iframe](html-iframe)
-- [Html Images](html-images)
+
+
 - [Html Introduction](html-introduction)
-- [Html Linking Pages](html-linking-pages)
-- [Html Links](html-links)
-- [Html Lists](html-lists)
+- [Html Basic](html-basic)
+- [Html Attributes](html-attributes)
+- [Html Headings](html-headings)
 - [Html Paragraphs](html-paragraphs)
-- [Html Semantic Elements](html-semantic-elements)
-- [Html Tables](html-tables)
 - [Html Text Formating](html-text-formating)
+- [Html Links](html-links)
+- [Html Images](html-images)
+- [Html Favicon](html-favicon)
+- [Html Tables](html-tables)
+- [Html Lists](html-lists)
+- [Html Iframe](html-iframe)
+- [Html Semantic Elements](html-semantic-elements)
+- [Html Forms](html-forms)
 - [Deploy on GitHub Pages](html-deploy-on-gitHub-pages)
+- [Html Linking Pages](html-linking-pages)
