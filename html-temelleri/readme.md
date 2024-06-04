@@ -1,8 +1,6 @@
 # Html Temelleri
 
 #### Html Temelleri ####
-
-
 - [Html Introduction](html-introduction)
 - [Html Basic](html-basic)
 - [Html Attributes](html-attributes)
