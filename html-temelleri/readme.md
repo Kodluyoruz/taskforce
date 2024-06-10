@@ -15,5 +15,5 @@
 - [Html Iframe](html-iframe)
 - [Html Semantic Elements](html-semantic-elements)
 - [Html Forms](html-forms)
-- [Deploy on GitHub Pages](html-deploy-on-gitHub-pages)
 - [Html Linking Pages](html-linking-pages)
+- [Deploy on GitHub Pages](html-deploy-on-gitHub-pages)
