@@ -4,9 +4,9 @@
 - [Course Introduction](scroll-course-introduction)
 
 #### Blockchain Basics ####
-- [Web1 and Web2](scroll-what-is-zkp)
-- [The Middleman](scroll-what-is-zkp)
-- [Blockchain Comes Into Play](scroll-what-is-zkp)
+- [Web1 and Web2](scroll-web1-and-web2)
+- [The Middleman](scroll-the-middleman)
+- [Blockchain Comes Into Play](scroll-blockchain-comes-into-play)
 - [Web3 As a New Iteration for Web](scroll-web3-as-a-new-iteration)
 - [Web3 Use Cases](scroll-web3-use-cases)
 - [The Architecture of a dApp](scroll-the-architecture-of-a-dApp)
