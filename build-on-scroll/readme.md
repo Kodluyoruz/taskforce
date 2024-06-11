@@ -1,4 +1,6 @@
 # Build on Scroll #
+
+#### Course Introduction ####
 - [Course Introduction](scroll-course-introduction)
 
 #### Blockchain Basics ####
