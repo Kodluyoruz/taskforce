@@ -37,6 +37,7 @@
 - [Control Flow](scroll-control-flow)
 - [Error Handling](scroll-error-handling)
 - [Inheritance](scroll-inheritance)
+- [Interface](scroll-interface)
 - [Smart Contract Demo](scroll-smart-contract-demo)
 - [Deploying Smart Contract to Scroll](scroll-deploying-smart-contract-to-scroll)
 - [Submit Your Homework 3](scroll-submit-your-homework-3)
