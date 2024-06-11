@@ -32,6 +32,7 @@
 - [Smart Contract Basic and Remix IDE](scroll-smartcontract-basic-and-remix-ide)
 - [Introduction to Solidity](scroll-Introduction-to-Solidity)
 - [Variables and Data Types](scroll-variables-and-data-types)
+- [Variables and Data Types - Part 2](scroll-variables-and-data-types2)
 - [Functions and Modifiers](scroll-functions-and-modifiers)
 - [Control Flow](scroll-control-flow)
 - [Error Handling](scroll-error-handling)
