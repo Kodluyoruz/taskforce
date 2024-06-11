@@ -45,7 +45,8 @@
 
 #### Important Concepts ####
 - [zkEVM](scroll-scroll-node)
-- [Scroll Node](scroll-scroll-node)
+- [Execution Node](scroll-execution-node)
+- [Rollup Node](scroll-rollup-node)
 - [Prover Network](scroll-prover-network)
 - [Rollups](scroll-rollups)
 - [Bridge Contracts](scroll-bridge-contracts)
