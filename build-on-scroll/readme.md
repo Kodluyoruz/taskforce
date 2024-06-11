@@ -16,7 +16,9 @@
 - [What is ZKP](scroll-what-is-zkp)
 - [Submit Your Homework 1](scroll-submit-your-homework-1)
 - [ZKP Tools: Zk-SNARK](scroll-zkp-tools-zk-snark)
+- [ZkSNARK: Under the Hood (Optional)](scroll-zkpsnark-under-the-hood)
 - [ZKP Tools: Zk-STARK](scroll-zkp-tools-zk-stark)
+- [ZkSTARK: Under the Hood (Optional)](scroll-zkpstark-under-the-hood)
 - [Applied ZK: Noir](scroll-applied-zk-noir)
 - [Applied ZK: Circom](scroll-applied-zk-circom)
 - [Quiz 1](scroll-quiz-1)
@@ -37,8 +39,10 @@
 - [Smart Contract Demo](scroll-smart-contract-demo)
 - [Deploying Smart Contract to Scroll](scroll-deploying-smart-contract-to-scroll)
 - [Submit Your Homework 3](scroll-submit-your-homework-3)
+- [Bonus: Oracles](scroll-bonus-oracles)
 
 #### Important Concepts ####
+- [zkEVM](scroll-scroll-node)
 - [Scroll Node](scroll-scroll-node)
 - [Prover Network](scroll-prover-network)
 - [Rollups](scroll-rollups)
