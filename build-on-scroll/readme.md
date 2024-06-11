@@ -21,8 +21,8 @@
 - [ZkSTARK: Under the Hood (Optional)](scroll-zkpstark-under-the-hood)
 - [Applied ZK: Noir](scroll-applied-zk-noir)
 - [Applied ZK: Circom](scroll-applied-zk-circom)
+- [Intro to ZK Development](scroll-intro-to-zk-development)
 - [Quiz 1](scroll-quiz-1)
-- [Section Summary](scroll-zkp-section-summary)
 
 #### Scroll ####
 - [Scroll & Ethereum](scroll-scroll-and-ethereum)
