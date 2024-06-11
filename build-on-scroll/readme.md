@@ -1,12 +1,20 @@
 # Build on Scroll #
+- [Course Introduction](scroll-course-introduction)
+
+#### Blockchain Basics ####
+- [Web1 and Web2](scroll-what-is-zkp)
+- [The Middleman](scroll-what-is-zkp)
+- [Blockchain Comes Into Play](scroll-what-is-zkp)
+- [Web3 As a New Iteration for Web](scroll-web3-as-a-new-iteration)
+- [Web3 Use Cases](scroll-web3-use-cases)
+- [The Architecture of a dApp](scroll-the-architecture-of-a-dApp)
+- [The Architecture of Web2 Apps](scroll-the-architecture-of-a-web2-apps)
 
 #### Zero Knowledge Proof ####
 - [What is ZKP](scroll-what-is-zkp)
 - [Submit Your Homework 1](scroll-submit-your-homework-1)
 - [ZKP Tools: Zk-SNARK](scroll-zkp-tools-zk-snark)
-- [ZkSNARK: Under the Hood (Optional)](scroll-zkpsnark-under-the-hood)
 - [ZKP Tools: Zk-STARK](scroll-zkp-tools-zk-stark)
-- [ZkSTARK: Under the Hood (Optional)](scroll-zkpstark-under-the-hood)
 - [Applied ZK: Noir](scroll-applied-zk-noir)
 - [Applied ZK: Circom](scroll-applied-zk-circom)
 - [Quiz 1](scroll-quiz-1)
