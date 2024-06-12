@@ -44,7 +44,7 @@
 - [Bonus: Oracles](scroll-bonus-oracles)
 
 #### Important Concepts ####
-- [zkEVM](scroll-scroll-node)
+- [zkEVM](scroll-zkevm)
 - [Execution Node](scroll-execution-node)
 - [Rollup Node](scroll-rollup-node)
 - [Prover Network](scroll-prover-network)
