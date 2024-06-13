@@ -75,8 +75,8 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 	- True
 	- False (Doğru)
 2. `const b  = "0"; Boolean(b);` ifadenin çıktısı nedir?
-	- True
-	- False (Doğru)
+	- True (Doğru)
+	- False 
 3. Aşağıdakilerden hangisi false döner?
 	- `var x = 10 / 'a'; console.log(Boolean(x));` (Doğru)
 	- `var y = "" || -2 || 'JavaScript'; console.log(Boolean(y));`
@@ -209,7 +209,7 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 1. https://www.youtube.com/watch?v=XePaa7gw1qs
 	- Bu videoda; karşılaştırma operatörlerini ve mantıksal operatörleri anlattık.
 
-### [Koşul Yapısı Kullanımı (if / else)](kosul-yapisi-kullanimi-(if-else)/)
+### [Koşul Yapısı Kullanımı (if / else)](kosul-yapisi-kullanimi-if-else/)
 
 #### Sorular
 1. Yok
@@ -250,8 +250,7 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 2. `console.log(permission)` bize hangi çıktıyı verir 
 ```javascript
        let age = 24;
-       let permission = (age >= 18) ? "Giriş yapabilirsiniz." : 
-       "Giriş yapamazsınız.";
+       let permission = (age >= 18) ? "Giriş yapabilirsiniz." : "Giriş yapamazsınız.";
 
        console.log(permission);
 ```
@@ -304,8 +303,8 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 #### Sorular
 1. Javascript'te fonksiyon nasıl yaratılır?
 	- `function:myFunction()`
-	- `function = myFunction()` (Doğru)
-	- `function myFunction()`
+	- `function = myFunction()` 
+	- `function myFunction()` (Doğru)
 2. myFunction isimli fonksiyon nasıl çağrılır?
 	- `myFunction()` (Doğru)
 	- `call function myFunction()`
@@ -321,7 +320,7 @@ Bu videoda kısaca Atwood Yasası'nı ve JavaScript'in önemini anlattık.
 1. Aşağıdakilerden hangisi bir fonksiyona parametre göndermenin doğru yoludur?
 	- Fonksiyon isminden sonra iki adet yıldız karakteri arasına parametreleri yazmak
 	- Fonksiyon isminden sonra boşluk bırakmadan parametreleri yazmak
-	- Fonksiyon isminden sonra küme parantezleri arasına parametreleri yazmak (Doğru)
+	- Fonksiyon isminden sonra yay ayraç arasına parametreleri yazmak (Doğru)
 2. Aşağıda kod bloğunun çıktısı aşağıdakilerden hangisidir ?
 ```javascript
 function Question(hobby) {
@@ -440,10 +439,11 @@ softwareQuestion("Cemre","nodejs");
 ### [localStorage ile Veri Eklemek, Düzenlemek ve Silmek](localstorage-ile-veri-eklemek-duzenlemek-ve-silmek/)
 
 #### Sorular
-1. LocalStorage ve SessionStorage'da hangi veriler saklanmalıdır? Bunlara kimler erişebilir? Erişildiğinde düzenleme yapılabilir mi?
-	- Cevap: LocalStorage'da güvenlik ihlaline sebep olmayacak ve önem arz etmeyen veriler saklanmalıdır. Bunlara hem tarayıcı üzerinden kullanıcı hemde erişim izni verildi ise üçüncü parti programlar erişebilir veya düzenleme yapabilir.
+1. LocalStorage ve SessionStorage'da hangi veriler saklanmalıdır? Bunlara kimler erişebilir? Erişildiğinde düzenleme yapılabilir mi? **(Soru Eklenemedi)**
+  - Cevap: LocalStorage'da güvenlik ihlaline sebep olmayacak ve önem arz etmeyen veriler saklanmalıdır. Bunlara hem tarayıcı üzerinden kullanıcı hemde erişim izni verildi ise üçüncü parti programlar erişebilir veya düzenleme yapabilir.
 2. LocalStorage ve SessionStorage'a JavaScript üzerinden değilde başka bir yoldan veri eklemek, düzenlemek veya silmek mümkünmüdür?
-	- Verileri tarayıcı üzerinden ekleyip çıkarmak veya üzerinde düzenleme yapmak mümkündür.
+  - Verileri tarayıcı üzerinden ekleyip çıkarmak veya üzerinde düzenleme yapmak mümkündür. (Doğru)
+  - Verileri tarayıcı üzerinden ekleyip çıkarmak veya üzerinde düzenleme yapmak mümkün değildir.
 
 #### Video
 1. https://www.youtube.com/watch?v=VYbkY1RK6mc
@@ -586,6 +586,12 @@ let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa'];
 1. https://www.youtube.com/watch?v=Glp6kX7KV94
 	- Bu videoda; Array içinde Array oluşturmayı, Array içerisindeki öğeleri ayırmayı, Array içerisindeki öğenin index bilgisini bulmayı, Array kopyalamayı, iki Array bilgisini birleştirmeyi, Array içindeki bilgiyi String'e çevirmeyi ve istediğimiz index bilgisine göre öğe eklemeyi ve daha birçok Array metot yapısını anlattık.
 
+#### Codepen Çözümleri
+
+1. Birinci Soru: https://codepen.io/Kodluyoruz/pen/abBmaoL
+2. İkinci Soru: https://codepen.io/Kodluyoruz/pen/vYyXzYV
+3. Üçüncü Soru: https://codepen.io/Kodluyoruz/pen/zYoKJGd
+
 ## Döngüler ##
 
 ### [for Döngüsü Kullanımı](for-dongusu-kullanimi/)
@@ -596,6 +602,11 @@ let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa'];
 #### Video
 1. https://www.youtube.com/watch?v=nvkrESfSQyk
 	- Bu videoda; for döngüsünün nasıl oluşturulduğunu anlatıp olup daha önce öğrendimiz bilgilerle birlikte for döngüsünün kullanımı ile ilgili egzersizler yaptık.
+
+#### Codepen Çözümleri
+
+1. Birinci Ödevin Çözümü: https://codepen.io/Kodluyoruz/pen/bGBwxEG
+2. İkinci Ödevin Çözümü: https://codepen.io/Kodluyoruz/pen/JjbRaGL
 
 ### [break ve continue Kullanımı](break-ve-continue-kullanimi/)
 
@@ -624,6 +635,10 @@ let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa'];
 1. https://www.youtube.com/watch?v=S02bwfd8Eyo
 	- Bu videoda; forEach'in sadece Array içerisinde kullanıldığını anlatıp for döngüsü ile forEach'in farkını incelediğimiz bir egzersiz yaptık.
 
+#### Codepen Çözümleri
+
+1. https://codepen.io/Kodluyoruz/pen/RwoGYav
+
 ### [Filter ile Array İçerisinde Sadece İstenilen Bilgilerin Yeni Listeye Eklenmesi](filter-ile-array-i̇cerisinde-sadece-i̇stenilen-bilgilerin-yeni-listeye-eklenmesi/)
 
 #### Sorular
@@ -632,6 +647,11 @@ let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa'];
 #### Video
 1. https://www.youtube.com/watch?v=ZpHBuQVCs8A
 	- Bu videoda; Array filter ile birlikte bir diziyi filtreleyip sadece istenilen verilerle nasıl yeni bir dizinin oluşturulacağını anlattık.
+
+#### Codepen Çözümleri
+
+1. Birinci Sorunun Cevabı: https://codepen.io/Kodluyoruz/pen/BaQLOQa
+2. İkinci Sorunun Cevabı: https://codepen.io/Kodluyoruz/pen/xxREaRW
 
 ### [Map ile Array İçerisideki Yapının Değiştirilerek Yeni Liste Oluşturulması](map-ile-array-i̇cerisideki-yapinin-degistirilerek-yeni-liste-olusturulmasi/)
 
@@ -652,6 +672,10 @@ let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa'];
 #### Video
 1. https://www.youtube.com/watch?v=G3PnQmiJNNE
 	- Bu videoda; object nedir ve nasıl oluşturulur, key-value ilişkisini, objenin tipine ve içindeki bilgilere nasıl erişilir gibi konuları anlattık.
+
+#### Codepen Çözümleri
+
+1. Object Create alıştırmasının çözümü: https://codepen.io/Kodluyoruz/pen/zYooXbR
 
 ### [Object Anahtar(Key) ve Değer(Value) Yapısının Kullanımı / Erişimi](object-anahtar(key)-ve-deger(value)-yapisinin-kullanimi-erisimi/)
 
@@ -742,7 +766,7 @@ console.log(birey.merhabaDe(birey.yasHesapla()));
 - "Merhaba, ben Ali Veli, 32 yaşındayım" (Doğru)
 - "Merhaba, ben Ali Veli, undefined yaşındayım"
 - Hiçbir çıktı olmayacaktır.
-3. Aşağıdakilerden hangisi fonksiyon kurucu yöntemiyle tanımlanmış bir Araba sınıfına, konsole "Korna Sesi" yazısını bastıran bir korna fonksiyonunu eklemek için kullanılabilir : 
+3. Aşağıdakilerden hangisi fonksiyon kurucu yöntemiyle tanımlanmış bir araba sınıfına, konsola "Korna Sesi" yazısını bastıran bir korna fonksiyonunu eklemek için kullanılabilir? 
 - A) 
 ```jsx
 Araba.__proto__.korna = "Korna Sesi";Araba.prototype.korna = "Korna Sesi";
