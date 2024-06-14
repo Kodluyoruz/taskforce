@@ -101,7 +101,7 @@
 - [Localization 5](localization-5)
 
 #### Test ####
-- [Test](test-1)
-- [Test](test-2)
-- [Test](test-3)
-- [Test](test-4)
+- [Test 1](test-1)
+- [Test 2](test-2)
+- [Test 3](test-3)
+- [Test 4](test-4)
