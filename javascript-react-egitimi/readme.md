@@ -56,7 +56,7 @@
 - [Event Handling 1](event-handling-1)
 - [Event Handling 2](event-handling-2)
 
-#### Event Handling ####
+#### Lifecycle ####
 - [Lifecycle 1](lifecycle-1)
 - [Lifecycle 2](lifecycle-2)
 - [Lifecycle 3](lifecycle-3)
