@@ -45,7 +45,7 @@
 - [Poly](poly)
 - [Interface](interface)
 
-#### Generics ###
+#### Generics ####
 - [intro](generics-intro)
 - [generic methods](generic-methods)
 - [generic class](generic-class)
