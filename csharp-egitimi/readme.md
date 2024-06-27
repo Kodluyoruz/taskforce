@@ -11,7 +11,7 @@
 - [io](io)
 
 #### Kontrol Yapıları ve Döngüler ####
-- [Overview](kontrol-yapilari-donguler-overview)
+- [Kontrol Yapıları ve Döngülere Giriş](kontrol-yapilari-donguler-overview)
 - [if else](c-sharp-if-else)
 - [Switch Case](c-sharp-switch-case)
 - [for](c-sharp-for)
@@ -20,7 +20,7 @@
 - [do while](c-sharp-do-while)
 
 #### Methodlar ve Parametreler ####
-- [Intro](methodlar-parametreler-intro)
+- [Methodlar ve Parametrelere Giriş](methodlar-parametreler-intro)
 - [Method Tanımlama](method-tanimlama)
 - [Erişim Belirleyiciler](erisim-belirleyiciler)
 - [val params](val-params)
@@ -34,7 +34,7 @@
 - [Debugging](c-sharp-debugging)
 
 #### OOP ####
-- [OOP giris](oop-giris)
+- [OOP Giriş](oop-giris)
 - [Class ve Nesneler](class-ve-nesneler)
 - [Props, Fields, Methods](props-fields-methods)
 - [ctor](ctor)
@@ -51,7 +51,7 @@
 - [Generic Class](generic-class)
 
 #### Collections ####
-- [Intro](collections-intro)
+- [Collections Giriş](collections-intro)
 - [Arrays](arrays)
 - [List](list)
 - [Dictionary](dictionary)
@@ -59,39 +59,25 @@
 - [Linkedlist](linkedlist)
 
 #### Exception Management ####
-- [Intro](exception-management-intro)
+- [Exception Management Giriş](exception-management-intro)
 - [try catch](try-catch)
 - [Custom Exception](custom-exception)
 
 #### Lambda Expressions ve LINQ ####
 - [Lambda Expressions](lambda-expressions)
-- [LINQ Intro](linq-intro)
+- [LINQ Giriş](linq-intro)
 - [LINQ Basic Query](linq-basic-query)
 - [LINQ Advanced](linq-advanced)
 
 #### Asynchronous Programming ####
-- [Asenkron Programlama Intro](asenkron-programlama-intro)
+- [Asenkron Programlama Giriş](asenkron-programlama-intro)
 - [async await](csharp-async-await)
 - [Tap](tap)
 
 #### Database Connection with CSharp ####
-- [ADO.NET Intro](ado-net-intro)
+- [ADO.NET Giriş](ado-net-intro)
 - [Nuget](nuget)
 - [Creating Connection](creating-connection)
 - [Executing Commands](executing-commands)
 - [Dataset Dataadapter](dataset-dataadapter)
 - [Transactions](transactions)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
