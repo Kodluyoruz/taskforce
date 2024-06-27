@@ -13,7 +13,7 @@
 #### Kontrol Yapıları ve Döngüler ####
 - [Overview](kontrol-yapilari-donguler-overview)
 - [if else](c-sharp-if-else)
-- [Switch case](c-sharp-switch-case)
+- [Switch Case](c-sharp-switch-case)
 - [for](c-sharp-for)
 - [foreach](c-sharp-foreach)
 - [while](c-sharp-while)
@@ -21,8 +21,8 @@
 
 #### Methodlar ve Parametreler ####
 - [Intro](methodlar-parametreler-intro)
-- [Method tanımlama](method-tanimlama)
-- [Erişim belirleyiciler](erişim-belirleyiciler)
+- [Method Tanımlama](method-tanimlama)
+- [Erişim Belirleyiciler](erisim-belirleyiciler)
 - [val params](val-params)
 - [ref types](ref-types)
 - [out](out)
@@ -46,9 +46,9 @@
 - [Interface](interface)
 
 #### Generics ####
-- [intro](generics-intro)
-- [generic methods](generic-methods)
-- [generic class](generic-class)
+- [Intro](generics-intro)
+- [Generic Methods](generic-methods)
+- [Generic Class](generic-class)
 
 #### Collections ####
 - [Intro](collections-intro)
