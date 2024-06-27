@@ -42,7 +42,7 @@
 - [Encapsulation](encapsulation)
 - [Inheritance](inheritance)
 - [Base Class](base-class)
-- [Poly](poly)
+- [Polymorphism](poly)
 - [Interface](interface)
 
 #### Generics ####
