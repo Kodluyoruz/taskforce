@@ -45,7 +45,7 @@
 - [Polymorphism](poly)
 - [Interface](interface)
 
-  #### OOP Pratiği ####
+#### OOP Pratiği ####
 - [Game Consept](oop-game-consept)
 - [Console Helper](oop-console-helper)
 - [Character](oop-character)
