@@ -5,7 +5,7 @@
 - [Variables](javascript-variables)
 - [Operators](javascript-operators)
 - [Data Types](javascript-data-types)
-- [Funstions](javascript-functions)
+- [Functions](javascript-functions)
 - [Objects](javascript-objects)
 - [Arrays](javascript-arrays)
 - [Conditional Statements](javascript-conditional-statements)
