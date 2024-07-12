@@ -10,6 +10,7 @@
 
 #### Beginner Part ####
 - [Understanding Aptos](aptos-understanding-aptos)
+- [Features and Advantages of Aptos](aptos-features-and-advantages-of-aptos)
 - [Remix Ide Plugin Setups](aptos-remix-ide-plugin-setup)
 - [Move Walkthrough](aptos-move-walktrough)
 
