@@ -12,8 +12,9 @@
 - [Understanding Aptos](aptos-understanding-aptos)
 - [Features and Advantages of Aptos](aptos-features-and-advantages-of-aptos)
 - [Remix Ide Plugin Setups](aptos-remix-ide-plugin-setup)
-- [Move Walkthrough](aptos-move-walktrough)
-
+- [Move Walkthrough Part-1](aptos-move-walktrough)
+- [Move Walkthrough Part-2](aptos-move-walktrough-part2)
+  
 #### Intermediate Part ####
 - [Local Environment Setup](aptos-local-environment-setup)
 - [Smart Contract Demonstration](aptos-smart-contract-demonstration)
