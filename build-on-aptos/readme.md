@@ -1,4 +1,6 @@
 # Build on Aptos #
+
+#### Course Introduction ####
 - [Course Introduction](aptos-course-introduction)
 
 #### Blockchain Basics ####
