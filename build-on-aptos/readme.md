@@ -17,7 +17,8 @@
   
 #### Intermediate Part ####
 - [Local Environment Setup](aptos-local-environment-setup)
-- [Smart Contract Demonstration](aptos-smart-contract-demonstration)
+- [Smart Contract Demonstration Part-1](aptos-smart-contract-demonstration)
+- [Smart Contract Demonstration Part-2](aptos-smart-contract-demonstration-part2)
 - [Deploying Smart Contract to the Aptos](aptos-deploying-smart-contract-to-the-aptos)
 - [The Vault Contract Explanation](aptos-the-vault-contract-explanation)
 - [Submit Your Homework](aptos-submit-your-homework)
