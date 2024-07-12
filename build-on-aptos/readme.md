@@ -8,14 +8,14 @@
 - [Web3 As a New Iteration for Web](aptos-web3-as-a-new-iteration)
 - [How Smart Contracts Work](aptos-how-smart-contracts-work)
 
-#### Beginner Part ####
-- [Understanding Aptos](aptos-understanding-aptos)
+#### Understanding Aptos ####
+- [What is Aptos?](aptos-understanding-aptos)
 - [Features and Advantages of Aptos](aptos-features-and-advantages-of-aptos)
 - [Remix Ide Plugin Setups](aptos-remix-ide-plugin-setup)
 - [Move Walkthrough Part-1](aptos-move-walktrough)
 - [Move Walkthrough Part-2](aptos-move-walktrough-part2)
   
-#### Intermediate Part ####
+#### Smart Contract Development ####
 - [Local Environment Setup](aptos-local-environment-setup)
 - [Smart Contract Demonstration Part-1](aptos-smart-contract-demonstration)
 - [Smart Contract Demonstration Part-2](aptos-smart-contract-demonstration-part2)
