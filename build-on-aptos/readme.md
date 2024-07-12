@@ -15,7 +15,7 @@
 - [Move Walkthrough Part-1](aptos-move-walktrough)
 - [Move Walkthrough Part-2](aptos-move-walktrough-part2)
   
-#### Smart Contract Development ####
+#### Smart Contract Development on Aptos ####
 - [Local Environment Setup](aptos-local-environment-setup)
 - [Smart Contract Demonstration Part-1](aptos-smart-contract-demonstration)
 - [Smart Contract Demonstration Part-2](aptos-smart-contract-demonstration-part2)
