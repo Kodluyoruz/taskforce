@@ -24,7 +24,7 @@
 - [Deploying Smart Contract to the Aptos](aptos-deploying-smart-contract-to-the-aptos)
 - [The Vault Contract Explanation](aptos-the-vault-contract-explanation)
 - [Submit Your Homework](aptos-submit-your-homework)
-- [Bonus: Token Standart in Aptos](aptos-token-standart-in-aptos)
+- [Bonus: Token Standard in Aptos](aptos-token-standart-in-aptos)
 
 
 
