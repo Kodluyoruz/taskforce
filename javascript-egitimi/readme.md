@@ -15,3 +15,8 @@
 - [Events](javascript-events)
 - [Event Propagation](javascript-event-propagation)
 - [Asynchronous](javascript-asynchronous)
+- [WebAPI](javascript-webapi)
+- [Forms](javascript-forms)
+- [Errors](javascript-errors)
+- [Modules](javascript-modules)
+- [Strings](javascript-strings)
