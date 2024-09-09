@@ -54,6 +54,6 @@
 #### 8.Advanced API ####
 - [DI & Service Lifetimes](di-service-lifetimes)
 - [Negotiation and Formatters](negotiation-and-formatters)
-- [Routing and versioning ](routing-and-versioning )
+- [Routing and versioning ](routing-and-versioning)
 - [Middlewares](middlewares)
 - [Filters](filters)
