@@ -43,7 +43,7 @@
 - [Code-First Development](code-first-development)
 - [Creating Entity Classes](creating-entity-classes)
 - [Configuring Relationships](configuring-relationships)
-- [Working with DbContext](working-with-dbContext)
+- [Working with DbContext](working-with-dbcontext)
 - [Migrations in Code-First](migrations-in-code-first)
 - [Seed Data](seed-data)
 - [DB-First Development](db-first-development)
