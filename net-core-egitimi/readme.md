@@ -51,7 +51,7 @@
 - [Transactions](transactions)
 - [Loading Strategies](loading-strategies)
 
-#### 8.Advanced API ####
+#### Advanced API ####
 - [DI & Service Lifetimes](di-service-lifetimes)
 - [Negotiation and Formatters](negotiation-and-formatters)
 - [Routing and versioning ](routing-and-versioning)
