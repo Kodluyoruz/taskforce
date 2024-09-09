@@ -33,7 +33,7 @@
 #### Web API Development Basics ####
 - [ASP.NET Core Web API](asp-net-core-web-api)
 - [API Project Structure](api-project-structure)
-- [First API Project](first-api-sroject)
+- [First API Project](first-api-project)
 - [API Routing](api-routing)
 - [API with HTTP Methods](api-with-http-methods)
 - [Model Binding and Validation](model-binding-and-validation)
