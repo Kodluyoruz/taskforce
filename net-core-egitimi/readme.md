@@ -58,13 +58,13 @@
 - [Middlewares](middlewares)
 - [Filters](filters)
 
-  #### Security ####
-  - [Identity API](identity-api)
-  - [JWT](jwt)
-  - [Authorization](authorization)
-  - [Authorization Filters](authorization-filters)
-  #### Caching ####
-  - [Caching](caching)
+#### Security ####
+- [Identity API](identity-api)
+- [JWT](jwt)
+- [Authorization](authorization)
+- [Authorization Filters](authorization-filters)
+#### Caching ####
+- [Caching](caching)
   
-  #### NLayer ####
-  - [NLayer](nlayer)
+#### NLayer ####
+- [NLayer](nlayer)
