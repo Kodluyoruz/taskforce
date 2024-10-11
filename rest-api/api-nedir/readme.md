@@ -8,7 +8,7 @@ Genel olarak iki yazılımın birbiriyle iletişime geçmesidir. Bir yazılımı
 - Node.js FS Modülü, Go(lang) FMT Paketi
 - GitHub API (https://docs.github.com/en/rest )
 
-![API Nedir?](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/rest/WhatIsAPI/figures/API.png)
+![API Nedir?](https://raw.githubusercontent.com/Kodluyoruz/taskforce/refs/heads/main/rest-api/api-nedir/figures/API.png)
 Özetle, bir uygulamada gerçekleştirmek istediğimiz ek bir işlemi, o işlemi sağlayan başka bir uygulamadan API kullanarak gerçekleştirebiliriz. 
 
 ### Neden API Kullanırız?
