@@ -59,7 +59,7 @@ Bu nesnelere “React elementleri” adı verilir. Bunu, ekranda görmek istedi�
 
 JSX'i React.createElement() fonksiyonunu çağırmanın kısa yolu olarak düşünebiliriz. JSX kodları Babel derleyicisi tarafından React.createElement() fonksiyon çağrılarına dönüştürülür.
 
-JSX’in JavaScript’e nasıl dönüştürüldüğüne dair daha fazla örnek görmek isterseniz, [çevrimiçi Babel derleyicisi](https://babeljs.io/repl/#?presets=react&code_lz=GYVwdgxgLglg9mABACwKYBt1wBQEpEDeAUIogE6pQhlIA8AJjAG4B8AEhlogO5xnr0AhLQD0jVgG4iAXyJA)ni deneyebilirsiniz. [^2]
+JSX’in JavaScript’e nasıl dönüştürüldüğüne dair daha fazla örnek görmek isterseniz, [çevrimiçi Babel derleyicisi](https://babeljs.io/repl/#?presets=react&code_lz=GYVwdgxgLglg9mABACwKYBt1wBQEpEDeAUIogE6pQhlIA8AJjAG4B8AEhlogO5xnr0AhLQD0jVgG4iAXyJA)ni deneyebilirsiniz.
 
 ## JSX Kullanımı
 
@@ -175,8 +175,6 @@ JSX ifadeleri, HTML’den ziyade JavaScript’e daha yakındırlar. Bu nedenle R
 
 **Örneğin** JSX içerisinde `class` özelliği [`className`](https://developer.mozilla.org/en-US/docs/Web/API/Element/className), ve `tabindex` özelliği de [`tabIndex`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/tabIndex) olarak yazılmalıdır.
 
-Zaten 
-
 Bunun sebebi "class" anahtar sözcüğünün JavaScript içerisinde halihazırda bulunmasıdır. JSX bir JavaScript uzantısı olduğu için JSX kodu yazarken "class" anahtar sözcüğünü kullanamıyoruz. Bunun yerine className kullanıyoruz.
 
 > Visual Studio Code veya benzeri gelişmiş bir editör kullanıyorsanız. Bu hataları ve doğru yazım şekillerini size önerecektir. Hızlı bir google aramasıyla da bunlara ulaşabilirsiniz.
@@ -184,7 +182,7 @@ Bunun sebebi "class" anahtar sözcüğünün JavaScript içerisinde halihazırda
 
 ### JSX ile Child Belirlemek
 
-Eğer bir HTML etiketinin içeriği boşsa yani , XML’deki gibi `/>` kullanarak etiketi kapatabilirsiniz:
+Eğer bir HTML etiketinin içeriği boşsa yani, XML’deki gibi `/>` kullanarak etiketi kapatabilirsiniz:
 
 ```javascript
 const element = <img src={user.avatarUrl} />;
