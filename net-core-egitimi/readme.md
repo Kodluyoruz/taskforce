@@ -72,6 +72,6 @@
 #### Mikroservis ####
 - [Mikroservis Mimarisine Giriş](mikroservis-mimarisine-giris)
 - [Monolithten Mikroservise](monolithten-mikroservise)
-- [Mikroservislerin iletişimi](mikroservislerin-iletisimi)
+- [Mikroservislerin İletişimi](mikroservislerin-iletisimi)
 - [Gateway](gateway)
 - [Docker](docker)
