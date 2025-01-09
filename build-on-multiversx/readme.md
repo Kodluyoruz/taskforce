@@ -24,6 +24,6 @@
 - [Wallet Connection & Transaction Sending with MultiversX](multiversx-wallet-connection-transaction)
 
 
-#### Final Poroject ####
+#### Final Project ####
 - [Submit Your Final Project](multiversx-submit-your-final-project)
 
