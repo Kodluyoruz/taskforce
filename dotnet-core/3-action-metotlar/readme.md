@@ -33,4 +33,4 @@ Eylemlere parametre geçmenin birden fazla yolu vardır. En çok kullanılan 3 y
             return Ok();
         }
 
-Yukarıdaki GetBook metoduna gelen request'de `id` parametresini query string ile beklediğimizi belirttik. Örnek çağrım ise şu şekilde olabilir. https://localhost:5001/{controllerName}?id=2
+Yukarıdaki GetBook metoduna gelen request'de `id` parametresini query string ile beklediğimizi belirttik. Örnek çağrım ise şu şekilde olabilir. `https://localhost:5001/{controllerName}?id=2`
