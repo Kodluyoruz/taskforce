@@ -54,7 +54,7 @@ komutlarını çalıştırdıktan sonra geliştirme web sunucusu başlatılmış
 
 ![localhost3000](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/create-react-app/figures/localhost3000.png)
 
-Otomatik olarak açılan tarayıcı ile http://localhost:3000/ adresinden projenin çalışıyor olduğunu aşağıdaki çıktı eşliğinde görebileceğiz.
+Otomatik olarak açılan tarayıcı ile `http://localhost:3000/` adresinden projenin çalışıyor olduğunu aşağıdaki çıktı eşliğinde görebileceğiz.
 
 ![react-ilk-ekran](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/create-react-app/figures/react-ilk-ekran.png)
 
