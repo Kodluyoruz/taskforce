@@ -7,7 +7,7 @@
 
 #### Java Basics ####
 - [Başlangıç](java-baslangic)
-- [Değişken tanımlama](değisken-tanimlama)
+- [Değişken tanımlama](degisken-tanimlama)
 - [Operatörler](operatorler)
 - [String](string)
 - [if else](if-else)
