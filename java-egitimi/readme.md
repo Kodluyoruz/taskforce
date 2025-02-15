@@ -1,8 +1,8 @@
 # Java Eğitimi
 
 #### Java'ya Giriş ####
-- [Java ile neler yapılır?](java-ile-neler-yapilir)
 - [Java nedir](java-nedir)
+- [Java ile neler yapılır?](java-ile-neler-yapilir)
 - [Kurulumlar](java-kurulumlar)
 
 #### Java Basics ####
