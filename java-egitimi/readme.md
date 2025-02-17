@@ -4,6 +4,8 @@
 - [Java nedir](java-nedir)
 - [Java ile neler yapılır?](java-ile-neler-yapilir)
 - [Kurulumlar](java-kurulumlar)
+- [Windows kurulumu](windows-kurulumu)
+- [MacOS Kurulumu](macos-kurulumu)
 
 #### Temel Kavramlar ####
 - [Başlangıç](java-baslangic)
