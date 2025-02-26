@@ -1,4 +1,4 @@
-# Build on Aptos #
+# Build on Agoric #
 
 #### Introduction ####
 - [Course Intro](build-on-agoric-course-introduction)
