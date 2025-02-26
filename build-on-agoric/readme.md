@@ -13,7 +13,7 @@
 #### Agoric Smart Contract Fundamentals ####
 - [Setup Your Agoric Developer Environment](setup-your-agoric-developer-environment)
 - [User Interface](agoric-user-interface)
-- [Project 2: Marketplace](project-1-multi-chain-dao)
+- [Project 2: Marketplace](project-2-marketplace)
 
 #### Additional Resources ####
 - [Additional Resources](agoric-additional-resources)
