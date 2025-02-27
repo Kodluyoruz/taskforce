@@ -16,20 +16,32 @@
 #### String ve Yorum Satırı ####
 - [String](string)
 - [Yorum satırı](yorum-satiri)
+- [Temel Pratikler](temel-pratikler)
+- [Ödev - Vücut Kitle İndeksi Hesaplayan Program](vucut-kitle-indeksi-hesaplayan-program)
+- [Ödev - Manav Kasa Program](manav-kasa-program)
 
 #### Koşullu İfadeler ####
 - [if else](if-else)
 - [Switch case](switch-case)
+- [Ödev - Uçak Bileti Fiyatı Hesaplama](ucak-bileti-fiyatı-hesaplama)
+- [Ödev - Çin Zodyağı Hesaplama](cin-zodyagı-hesaplama)
+- [Ödev - Artık Yıl Hesaplama](artik-yil-hesaplama)
 
 #### Döngüler ####
 - [for döngüsü](for-dongusu)
 - [Do while](do-while)
 - [while break continue](while-break-continue)
 - [Loops if else example](loops-if-else-ornek)
+- [If ve Döngü Pratikleri](if-ve-dongu-pratikleri)
+- [Ödev - Girilen Sayılardan Min ve Max Değerleri Bulma](girilen-sayilardan-min-ve-max-degerleri-bulma)
+- [Ödev - Mükemmel Sayı Bulan Program](mukemmel-sayi-bulan-program)
+- [Ödev - Ters Üçgen Yapımı](ters-ucgen-yapimi)
 
 #### Diziler (Arrays) ####
 - [Tek boyutlu array](tek-boyutlu-array)
 - [Multi array](multi-array)
+- [Array Pratikleri](array-pratikleri)
+- [Ödev - Matris Transpozunu Bulma](matris-transpozunu-bulma)
 
 #### String Metotları ve String Builder ####
 - [String methods](string-methods)
@@ -43,6 +55,9 @@
 #### Metotlar ####
 - [Method tanımlama](method-tanimlama)
 - [Recursive methods](recursive-methods)
+- [Method Pratikleri](method-practices)
+- [Recursive Method Pratikleri](recursive-method-practices)
+- [Ödev - Asal Sayı Bulan Program](asal-sayi-bulan-program)
 
 #### OOP'ye Giriş ####
 - [OOP nedir](oop-nedir)
@@ -57,6 +72,11 @@
 - [Inheritance](inheritance)
 - [Encapsulation](encapsulation)
 - [Polymorphism](polymorphism)
+- [Ödev - Maaş Hesaplayıcı](maas-hesaplayici)
+- [Student Information System](student-information-system)
+- [Game Character](game-character)
+- [Banking System 1](banking-system-1)
+- [Banking System 2](banking-system-2)
 
 #### Collections ####
 - [Collections tanımı](collections-tanimi)
@@ -65,6 +85,7 @@
 - [Queue](queue)
 - [Set](set)
 - [Set devam](set-devam)
+- [Ödev - Kitap Sıralayıcı](kitap-siralayici)
 
 #### Maps ####
 - [Hashmap](hashmap)
