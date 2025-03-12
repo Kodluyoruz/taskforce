@@ -57,6 +57,7 @@
 - [Recursive methods](recursive-methods)
 - [Method Pratikleri](method-practices)
 - [Recursive Method Pratikleri](recursive-method-practices)
+- [Ödev - Üs Hesabı Yapan Program](us-hesabi-yapan-program)
 - [Ödev - Asal Sayı Bulan Program](asal-sayi-bulan-program)
 
 #### OOP'ye Giriş ####
