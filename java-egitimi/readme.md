@@ -110,10 +110,30 @@
 - [Local class](local-class)
 - [Anonymous class](anonymous-class)
 
+#### Lambdas & Functional Interface ####
+- [Lambdas](lambdas)
+- [Functional Interface](functional-interface)
+- [Method Reference](method-reference)
+- [Built-In Fuctional Interface](builtin-fuctional-interface)
 
+#### Streams ####
+- [Optional](optional)
+- [Intermadiate Operations](intermadiate-operations)
+- [Intermadiate Operations 2](intermadiate-operations-2)
+- [Terminal Operations](terminal-operations)
 
+#### Exceptions & Localization ####
+- [Exceptions & Error](exceptions-error)
+- [Throws & Throw](throws-throw)
+- [Try Catch](try-catch)
+- [Try With Resource](try-with-resource)
+- [Custom Exceptions](custom-exceptions)
+- [Localization](localization)
 
-
+#### Concurency ####
+- [Thread & Process Nedir?](thread-process-nedir)
+- [Thread Oluşturma](thread-olusturma)
+- [Thread Life Cycle](thread-life-cycle)
 
 
 
