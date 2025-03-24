@@ -39,7 +39,7 @@
 
 #### Diziler (Arrays) ####
 - [Tek boyutlu array](tek-boyutlu-array)
-- [Multi array](multi-array)
+- [Çok boyutlu array](multi-array)
 - [Array Pratikleri](array-pratikleri)
 - [Ödev - Matris Transpozunu Bulma](matris-transpozunu-bulma)
 
