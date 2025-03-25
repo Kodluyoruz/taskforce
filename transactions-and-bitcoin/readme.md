@@ -2,7 +2,7 @@
 
 #### Transactions and Bitcoin ####
 - [Satoshi and the birth of Bitcoin](satoshi-and-the-birth-of-bitcoin)
-- [Connect Your Profile to Open Campus](connect-your-profile-to-open-campus)
+- [✨Connect Your Profile to Open Campus](connect-your-profile-to-open-campus)
 - [Storing transactions in a block](storing-transactions-in-a-block)
 - [Storing transactions in a block - Demo](storing-transactions-in-a-block-demo)
 - [Protecting against false transactions with public and private keys](protecting-against-false-transactions-with-public-and-private-keys)
