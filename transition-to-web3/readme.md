@@ -2,7 +2,7 @@
 
 #### What is Web3? ####
 - [Introduction](transition-to-web3-introduction)
-- [Connect Your Profile to Open Campus](connect-your-profile-to-open-campus)
+- [✨Connect Your Profile to Open Campus](connect-your-profile-to-open-campus)
 - [Web1 and Web2](web1-and-web2)
 - [The Middleman](the-middleman)
 - [Blockchain Comes Into Play](blockchain-comes-into-play)
