@@ -2,7 +2,7 @@
 
 #### Introduction to Rust ####
 - [Why Rust?](why-rust)
-- [Connect Your Profile to Open Campus](connect-your-profile-to-open-campus)
+- [✨Connect Your Profile to Open Campus](connect-your-profile-to-open-campus)
 - [Cargo](cargo)
 - [Introduction to Rust syntax](introduction-to-rust-syntax)
 - [Basic data types and variables](basic-data-types-and-variables)
