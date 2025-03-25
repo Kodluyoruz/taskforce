@@ -2,6 +2,7 @@
 
 #### Blockchain Basics ####
 - [Welcome to Blockchain Basics](welcome-to-blockchain-basics)
+- [Connect Your Profile to Open Campus](connect-your-profile-to-open-campus)
 - [Your journey in this module](your-journey-in-this-module)
 - [Hashing the data](hashing-the-data)
 - [Hashing the data - Demo](hashing-the-data-demo)
