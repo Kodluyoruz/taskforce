@@ -1,5 +1,6 @@
 #### Solidity Lesson Part 1 ####
 - [Getting Started](solidity-fundamentals-getting-started)
+- [Connect Your Profile to Open Campus](connect-your-profile-to-open-campus)
 - [Introduction to Remix IDE](solidity-basics-and-remix-ide)
 - [Counter Contract and Solidity Basics](counter-contract-and-solidity-basics)
 - [Submit Your First Homework](submit-your-first-task)
