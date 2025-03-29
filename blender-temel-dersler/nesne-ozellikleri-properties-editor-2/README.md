@@ -1,0 +1,1 @@
+# Nesne Özellikleri  (Properties Editor) - 2
