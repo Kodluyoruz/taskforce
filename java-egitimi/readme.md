@@ -160,8 +160,8 @@
 - [Docker İle Kurulum](docker-ile-kurulum)
 - [Temel SQL Komutları](temel-sql-komutlari)
 - [Join Komutları](join-komutlari)
-- [SQL_komutları](sql-komutlari)
-- [JDBC nedir?](jdbc-nedir)
+- [SQL Komutları](sql-komutlari)
+- [JDBC Nedir?](jdbc-nedir)
 
 
 
