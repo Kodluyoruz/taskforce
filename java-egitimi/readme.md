@@ -169,7 +169,7 @@
 
 #### Input-Output Practices ####
 - [Resim Kopyalama](resim-kopyalama)
-- [log-yazma-arama](log-yazma-arama)
+- [Log Yazma Arama](log-yazma-arama)
 
 #### Exception Practices ####
 - [Exception Practices](exception-practices)
