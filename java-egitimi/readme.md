@@ -163,8 +163,16 @@
 - [SQL Komutları](sql-komutlari)
 - [JDBC Nedir?](jdbc-nedir)
 
+#### Thread Practices ####
+- [Thread Practices 1](thread-practices-1)
+- [Thread Practices 2](thread-practices-2)
 
+#### Input-Output Practices ####
+- [Resim Kopyalama](resim-kopyalama)
+- [log-yazma-arama](log-yazma-arama)
 
+#### Exception Practices ####
+- [Exception Practices](exception-practices)
 
 
 
