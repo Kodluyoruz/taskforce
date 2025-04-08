@@ -130,7 +130,7 @@
 - [Custom Exceptions](custom-exceptions)
 - [Localization](localization)
 
-#### Concurency ####
+#### Thread ####
 - [Thread & Process Nedir?](thread-process-nedir)
 - [Thread Oluşturma](thread-olusturma)
 - [Thread Life Cycle](thread-life-cycle)
