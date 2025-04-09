@@ -160,7 +160,6 @@
 - [Docker İle Kurulum](docker-ile-kurulum)
 - [Temel SQL Komutları](temel-sql-komutlari)
 - [Join Komutları](join-komutlari)
-- [SQL Komutları](sql-komutlari)
 - [JDBC Nedir?](jdbc-nedir)
 
 #### Thread Practices ####
