@@ -181,7 +181,7 @@
 - [Proje tanıtımı](proje-tanitimi)
 - [Model class'larını oluşturma](model-classlarini-olusturma)
 - [Table Scripleri oluşturma](table-scripleri-olusturma)
-- [Müşteri Kayıt](müsteri-kayit)
+- [Müşteri Kayıt](musteri-kayit)
 
 
 
