@@ -161,6 +161,10 @@
 - [Temel SQL Komutları](temel-sql-komutlari)
 - [Join Komutları](join-komutlari)
 - [JDBC Nedir?](jdbc-nedir)
+- [StatementVSPrepareStatemnt](statement-prepare-statemnt)
+- [CallableStatement](callable-statement)
+- [Transaction-Rollback](transaction-rollback)
+- [Transaction-Rollback-2](transaction-rollback-2)
 
 #### Thread Practices ####
 - [Thread Practices 1](thread-practices-1)
@@ -172,6 +176,13 @@
 
 #### Exception Practices ####
 - [Exception Practices](exception-practices)
+
+#### E-Ticaret Projesi #### 
+- [Proje tanıtımı](proje-tanitimi)
+- [Model class'larını oluşturma](model-classlarini-olusturma)
+- [Table Scripleri oluşturma](table-scripleri-olusturma)
+- [Müşteri Kayıt](müsteri-kayit)
+
 
 
 
