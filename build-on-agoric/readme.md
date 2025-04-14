@@ -3,10 +3,10 @@
 #### Introduction ####
 - [Course Intro](build-on-agoric-course-introduction)
 - [What is Agoric?](what-is-agoric)
+- [Basic Environment Setup](agoric-basic-environment-setup)
 
 
 #### Build With Agoric Orchestration ####
-- [Basic Environment Setup](agoric-basic-environment-setup)
 - [Deployment of a cross-chain application with Orchestration](development-of-a-cross-chain-application-with-orchestration)
 - [Project 1: Multi-Chain DAO](project-1-multi-chain-dao)
 
