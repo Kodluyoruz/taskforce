@@ -186,8 +186,8 @@
 #### Kütüphane Takip Projesi ####
 - [CRUD İşlemleri](crud-islemleri)
 - [Kütüphane Takip 1](kutuphane-takip-1)
-- [Kütüphane Takip_2](kutuphane-takip-2)
-- [Kütüphane Takip_3](kutuphane-takip-3)
+- [Kütüphane Takip 2](kutuphane-takip-2)
+- [Kütüphane Takip 3](kutuphane-takip-3)
 
 
 
