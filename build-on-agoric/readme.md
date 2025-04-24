@@ -7,7 +7,7 @@
 
 
 #### Build With Agoric Orchestration ####
-- [Deployment of a cross-chain application with Orchestration](development-of-a-cross-chain-application-with-orchestration)
+- [Deployment of a cross-chain application with Orchestration](build-on-a-cross-chain-application-with-orchestration)
 - [Project 1: Multi-Chain DAO](project-1-multi-chain-dao)
 
 #### Agoric Smart Contract Fundamentals ####
