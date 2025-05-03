@@ -296,7 +296,7 @@ class Parent extends React.Component {
 }
 ```
 
-Parent component'ten child'a text adında bir props geçtik. Şimdi bu attribute'u child component'te nasıl alıp kullanabileceğimizi görelim . 
+Parent component'ten child'a text adında bir props geçtik. Şimdi bu attribute'u child component'te nasıl alıp kullanabileceğimizi görelim. 
 
 ```javascript
 const Child = (props) => {  
