@@ -118,7 +118,7 @@ Yine bu component'in de alert'lerde olduğu gibi renk seçenekleri mevcut.
 
 ```
 
-## Bredcrumb
+## Breadcrumb
 İlgili döküman sayfasına [**buradan ulaşabilirsiniz**](https://getbootstrap.com/docs/5.0/components/breadcrumb/)
 
 Bu component sayesinde sayfalarınız arasında gezinirken kullanıcının kaybolmadan nerede olduğunu gösterebiliyorsunuz. Hansel ve Gretel masalında olduğu gibi :)
