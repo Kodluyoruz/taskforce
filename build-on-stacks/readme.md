@@ -18,7 +18,7 @@
 #### Introduction to Clarity ####
 - [Clarity Basics](stacks-clarity-basics)
 - [Setting up the development environment](stacks-setting-up-the-development-environment)
-- [For Diving Clarity](stacks-clarity-data-types-primitives-and-sequences)
+- [For Diving Clarity](stacks-for-diving-clarity)
 - [Submit Your Homework - 1](stacks-submit-your-homework-1)
 
 #### Smart Contract Development Environment ####
