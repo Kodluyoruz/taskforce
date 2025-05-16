@@ -16,7 +16,7 @@
 
 #### Introduction to Clarity ####
 - [Clarity Basics](stacks-clarity-basics)
-- [For Diving Clarity](stacks-clarity-data-types-primitives-and-sequences)
+- [For Diving Clarity](stacks-for-diving-clarity)
 - [Clarinet local development environment](stacks-clarinet-local-development-environment)
 - [Traits](stacks-traits)
 
