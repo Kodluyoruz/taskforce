@@ -13,19 +13,16 @@
 - [What is Stacks?](stacks-what-is-stacks)
 - [Stacks Blockchain Architecture](stacks-blockchain-architecture)
 - [Proof of Transfer (PoX) consensus mechanism](stacks-proof-of-transfer-pox-consensus-mechanism)
-- [Set up a Stacks wallet](stacks-set-up-a-stacks-wallet)
 
 #### Introduction to Clarity ####
 - [Clarity Basics](stacks-clarity-basics)
-- [Setting up the development environment](stacks-setting-up-the-development-environment)
-- [For Diving Clarity](stacks-for-diving-clarity)
-- [Submit Your Homework - 1](stacks-submit-your-homework-1)
-
-#### Smart Contract Development Environment ####
-- [Development Tools](stacks-development-tools)
+- [For Diving Clarity](stacks-clarity-data-types-primitives-and-sequences)
 - [Clarinet local development environment](stacks-clarinet-local-development-environment)
 - [Traits](stacks-traits)
-- [Submit Your Homework - 2](stacks-submit-your-homework-2)
+
+#### Stacks Tokens and Assets ####
+- [Fungible token(SIP-010 token standard)](stacks-fungible-token)
+- [NFT(SIP-009 token standard)](stacks-nft)
 
 #### Final Project ####
-- [Submit Your Final Project](stacks-submit-your-final-project)
+- [NFT Marketplace](stacks-nft-market-place)
