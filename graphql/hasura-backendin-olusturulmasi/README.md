@@ -1,0 +1,1 @@
+hasura-backendin-oluşturulması
