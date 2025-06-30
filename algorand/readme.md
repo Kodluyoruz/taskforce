@@ -7,12 +7,12 @@
 - [Web3 As a New Iteration for Web](web3-as-a-new-iteration-for-web)
 
 #### Introduction & Setup ####
-- [What is Algorand? Key concepts](what-is-algorand-key-concepts)
-- [Development environment setup](development-environment-setup)
+- [What is Algorand?](what-is-algorand-key-concepts)
+- [Development Environment Setup](development-environment-setup)
 - [Introduction to AlgoKit](introduction-to-algokit)
 - [Environment Setup with AlgoKit](environment-setup-with-algokit)
 - [Deploy Smart Contract with AlgoKit](deploy-smart-contract-with-algokit)
-- [Basics of smart contracts](basics-of-smart-contracts)
+- [Basics of Smart Contracts](basics-of-smart-contracts)
 - [Basic Smart Contract with Python](basic-smart-contract-with-python)
 - [Basic Smart Contract with Typescript](basic-smart-contract-with-typescript)
 - [Migrating from Ethereum to Algorand](migrating-from-ethereum-to-algorand)
