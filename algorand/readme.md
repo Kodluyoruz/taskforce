@@ -15,6 +15,8 @@
 - [Basics of smart contracts](basics-of-smart-contracts)
 - [Basic Smart Contract with Python](basic-smart-contract-with-python)
 - [Basic Smart Contract with Typescript](basic-smart-contract-with-typescript)
+- [Migrating from Ethereum to Algorand](migrating-from-ethereum-to-algorand)
+
 
 #### Using AI for Smart Contract Development ####
 - [Introduction to AI-assisted coding (Installing Addons etc.)](introduction-to-ai-assisted-coding)
