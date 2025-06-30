@@ -9,6 +9,9 @@
 #### Introduction & Setup ####
 - [What is Algorand? Key concepts](what-is-algorand-key-concepts)
 - [Development environment setup](development-environment-setup)
+- [Introduction to AlgoKit](introduction-to-algokit)
+- [Environment Setup with AlgoKit](environment-setup-with-algokit)
+- [Deploy Smart Contract with AlgoKit](deploy-smart-contract-with-algokit)
 - [Basics of smart contracts](basics-of-smart-contracts)
 - [Basic Smart Contract with Python](basic-smart-contract-with-python)
 - [Basic Smart Contract with Typescript](basic-smart-contract-with-typescript)
