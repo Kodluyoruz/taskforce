@@ -24,11 +24,11 @@
 - [Deploying to Testnet](deploying-to-testnet)
 
 #### AI-Assisted dApp Development ####
-- [Frontend Integration with algosdk](frontend-integration-with-algosdk)
-- [Integrating wallet connection via @perawallet/connect](integrating-wallet-connection-via-perawallet-connect)
+- [Frontend Integration with AlgoSDK](frontend-integration-with-algosdk)
+- [Integrating Wallet Connection via @perawallet/connect](integrating-wallet-connection-via-perawallet-connect)
 
 #### Final Project ####
-- [Final Project: Build and Launch Your Own AI-Assisted Algorand dApp](final-project-build-and-launch-your-own-ai-Assisted-algorand-dapp)
+- [Final Project: Build and Launch Your Own Algorand dApp](final-project-build-and-launch-your-own-ai-Assisted-algorand-dapp)
 
 
 
