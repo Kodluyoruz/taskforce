@@ -24,7 +24,7 @@
 
 #### AI-Assisted dApp Development ####
 - [Frontend Integration Using AlgoKit and AlgoKit Utils](frontend-integration-using-algokit-and-algokit-utils)
-- [Integrating Wallet Connection via @perawallet/connect](integrating-wallet-connection-via-perawallet-connect)
+- [Integrating Wallet Connection](integrating-wallet-connection)
 
 #### Final Project ####
 - [Final Project: Build and Launch Your Own Algorand dApp](final-project-build-and-launch-your-own-ai-Assisted-algorand-dapp)
