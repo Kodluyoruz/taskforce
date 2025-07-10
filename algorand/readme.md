@@ -23,7 +23,7 @@
 - [Deploying to Testnet](deploying-to-testnet)
 
 #### AI-Assisted dApp Development ####
-- [Frontend Integration with AlgoSDK](frontend-integration-with-algosdk)
+- [Frontend Integration Using AlgoKit and AlgoKit Utils](frontend-integration-with-algosdk)
 - [Integrating Wallet Connection via @perawallet/connect](integrating-wallet-connection-via-perawallet-connect)
 
 #### Final Project ####
