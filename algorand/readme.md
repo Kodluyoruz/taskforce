@@ -19,7 +19,7 @@
 
 #### Using AI for Smart Contract Development ####
 - [Introduction to AI-assisted coding (Installing Addons etc.)](introduction-to-ai-assisted-coding)
-- [Example: Generate a basic smart contract with AI](example-generate-a-basic-smart-contract-with-ai)
+- [How to Generate a Basic Smart Contract with AI](how-to-generate-a-basic-smart-contract-with-ai)
 - [Deploying to Testnet](deploying-to-testnet)
 
 #### AI-Assisted dApp Development ####
