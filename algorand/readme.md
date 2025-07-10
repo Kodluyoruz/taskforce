@@ -22,7 +22,7 @@
 - [How to Generate a Basic Smart Contract with AI](how-to-generate-a-basic-smart-contract-with-ai)
 - [Deploying to Testnet](deploying-to-testnet)
 
-#### AI-Assisted dApp Development ####
+#### Building Frontends on Algorand ####
 - [Frontend Integration Using AlgoKit and AlgoKit Utils](frontend-integration-using-algokit-and-algokit-utils)
 - [Integrating Wallet Connection](integrating-wallet-connection)
 
