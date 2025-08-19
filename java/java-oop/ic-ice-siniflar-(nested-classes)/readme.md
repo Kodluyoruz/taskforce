@@ -28,7 +28,7 @@ class Outer
 }
 ```
 
-Yukarıdaki örnekte iç içe 2 sınıf oluşturduk. Her ikisine de run() adında metotlar yazdık.
+Yukarıdaki örnekte iç içe 2 sınıf oluşturduk. Her ikisine de `run()` adında metotlar yazdık.
 
 ```java
 Outer outer = new Outer();
@@ -71,7 +71,7 @@ class Outer
 }
 ```
 
-Yukarıdaki örnekte dıştaki sınıfın içinde _number_ isminde bir değişken oluşturduk. İçteki sınıfta ise bu değişkene erişip değerini 1 artırdık. Dıştaki sınıfın _run()_ metodunu çalıştırdığınızda çıktısı aşağıdaki gibi olur:
+Yukarıdaki örnekte dıştaki sınıfın içinde _number_ isminde bir değişken oluşturduk. İçteki sınıfta ise bu değişkene erişip değerini 1 artırdık. Dıştaki sınıfın `run()` metodunu çalıştırdığınızda çıktısı aşağıdaki gibi olur:
 
 ```java
 10
@@ -269,11 +269,9 @@ System.out.println(add(5, 4, 3)); // Konsola 12 yazar
 System.out.println(add(9.0, 8.5, 8.0)); // Konsola 25.5 yazar
 ```
 
-
-
 ## Varargs ve belirsizlik (Ambiguity)
 
-Değişken sayıda parametre (varargs) alan metotları aşırı yüklediğinizde ortaya belirsizlik çıkabilir. Yukarıdaki örnekte 2 farklı _add()_ metodu oluşturmuştuk. Bu durumda aşağıdaki kodu çalıştırdığımızı düşünelim:
+Değişken sayıda parametre (varargs) alan metotları aşırı yüklediğinizde ortaya belirsizlik çıkabilir. Yukarıdaki örnekte 2 farklı `add()` metodu oluşturmuştuk. Bu durumda aşağıdaki kodu çalıştırdığımızı düşünelim:
 
 ```java
 add();
@@ -295,7 +293,7 @@ public int add(int number, int... numbers)
 }
 ```
 
-İki farklı add() metodu tanımladık. Şimdi aşağıdaki kodu çalıştıralım:
+İki farklı `add()` metodu tanımladık. Şimdi aşağıdaki kodu çalıştıralım:
 
 ```java
 add(1);
@@ -309,7 +307,7 @@ Bu kod belirsizliğe sebep olur; çünkü metodun her 2 tanımına da uygundur. 
 
 ### Kaynaklar:
 
-[w3schools.com](https://www.w3schools.com)
+- [w3schools.com](https://www.w3schools.com)
 
-[bilgisayarkavramlari.com](http://bilgisayarkavramlari.com)
+- [bilgisayarkavramlari.com](http://bilgisayarkavramlari.com)
 

@@ -1,27 +1,27 @@
-# Java&#39;da Sınıf Kavramı (Class)
+# Java'da Sınıf Kavramı (Class)
 
 Sınıflar aslında nesnelere ait özelliklerin ve fonksiyonlarının bir araya getirilip bir veri tipi olarak tanımlandığı şablonlardır. Sınıf tanımlar aşağıdaki yapıya uygun olarak tanımlarız.
 
-````java
+```java
 class class_name{
 değişkenler;
 metotlar;
 }
-````
+```
 
-Java&#39;da sınıf tanımlamak için &quot; **class**&quot; anahtar kelimesi kullanılır. Bu anahtar kelimeden sonra yazılım sınıfa bir isim belirler. Bu isim tamamen geliştiricinin tercihine bağlıdır. Fakat, sınıf isimlerinin ilk harfinin büyük olmasına lütfen özen gösterelim.
+Java'da sınıf tanımlamak için "**class**" anahtar kelimesi kullanılır. Bu anahtar kelimeden sonra yazılım sınıfa bir isim belirler. Bu isim tamamen geliştiricinin tercihine bağlıdır. Fakat, sınıf isimlerinin ilk harfinin büyük olmasına lütfen özen gösterelim.
 
-Sınıf ismini de verdikten sonra &quot;{&quot; işareti ile sınıfa ait kapsamı yani kod bloğunu oluştururuz. &quot;}&quot; parantezi ile de sınıfa ait kapsamı kapatırız. Böylece, sınıfımız için yazacağımız kodlar &quot;{}&quot; arasında kalan alanda yazılacaktır. Bu da sınıfın kapsamını ifade eder.
+Sınıf ismini de verdikten sonra "{" işareti ile sınıfa ait kapsamı yani kod bloğunu oluştururuz. "}" parantezi ile de sınıfa ait kapsamı kapatırız. Böylece, sınıfımız için yazacağımız kodlar "{}" arasında kalan alanda yazılacaktır. Bu da sınıfın kapsamını ifade eder.
 
-Sınıf kod bloğunu açtıktan sonra bu kod bloğu için değişkenleri ve fonksiyonları yazarız. Unutmayınız ki fonksiyonların da kendilerine ait kod blokları, yani kapsamları vardır. Onları da &quot;{}&quot; ile belirtiriz.
+Sınıf kod bloğunu açtıktan sonra bu kod bloğu için değişkenleri ve fonksiyonları yazarız. Unutmayınız ki fonksiyonların da kendilerine ait kod blokları, yani kapsamları vardır. Onları da "{}" ile belirtiriz.
 
-Not: Java&#39;da Sınıf&#39;lar ve Metotlar (Fonksiyonlar) kodun yeniden kullanılabilirliği için kullanılır. Derste yaptığımız örneklerle de aynı kod bloğunu birden fazla kere kopyalayıp farklı yerlerde kullanmaya çalışıyorsak bunu fonksiyona çekmek gerekiyor. Böylece, yeniden kullanılabilirliği arttırmış oluyoruz.
+Not: Java'da Sınıf'lar ve Metotlar (Fonksiyonlar) kodun yeniden kullanılabilirliği için kullanılır. Derste yaptığımız örneklerle de aynı kod bloğunu birden fazla kere kopyalayıp farklı yerlerde kullanmaya çalışıyorsak bunu fonksiyona çekmek gerekiyor. Böylece, yeniden kullanılabilirliği arttırmış oluyoruz.
 
 Not: Aynı şekilde bir nesneye ait fonksiyonları ve değişkenleri bir araya toplayıp bir veri tipi oluşturarak yeniden kullanılabilir bir kod bloğu oluşturmuş oluyoruz.
 
 Örnek bir sınıfı aşağıda inceleyelim.
 
-````java
+```java
 // class anahtar kelimesi ile bir sınıf tanımladığımızı söylüyoruz.
 // ardından sınıfımıza bir isim veriyoruz. Bu örnekte sınıf ismimiz "DatabaseConnection"
 class DatabaseConnection 
@@ -61,11 +61,11 @@ class DatabaseConnection
 
 
 } // sınıfın kod bloğunun bittiği nokta
-````
+```
 
 Yukarıda sınıf ve fonksiyon tanımlamalarına detaylıca yer verilmiştir.
 
 Sınıflar nesneler oluşturabilmek için yazılım dünyasında oluşturulmuş şablonladır. Bu şablon nesne ile ilgili modellenecek tüm özellikleri ve davranışları bir taslak halinde kodlanmasını sağlar. Böylece, tanımlanmış bir sınıftan binlerce nesne oluşturabiliriz.
 
-Örneğin: Veritabanına bağlantıyı sağlayan bir sınıf tasarladığımızı hayal edelim. Bu durumda sınıfa bazı değişkenler tanımlamak gerekecektir. Örneğin: bağlanılacak veritabanı ismi, veritabanı sunucusunun URL&#39;i, veritabanı bağlantısı için kullanıcı adı ve şifre gibi özellikler değişkenler olarak tanımlanmalıdır. Çünkü bunlar veritabanı bağlantısı için gerekli olan özellikleri ifade eder. Aynı zamanda veritabanı bağlantısı için çeşitli metotlarda gereklidir. Bağlantı açmak, bağlantı kapatmak gibi eylemler metotları ifade eder.
+Örneğin: Veritabanına bağlantıyı sağlayan bir sınıf tasarladığımızı hayal edelim. Bu durumda sınıfa bazı değişkenler tanımlamak gerekecektir. Örneğin: bağlanılacak veritabanı ismi, veritabanı sunucusunun URL'i, veritabanı bağlantısı için kullanıcı adı ve şifre gibi özellikler değişkenler olarak tanımlanmalıdır. Çünkü bunlar veritabanı bağlantısı için gerekli olan özellikleri ifade eder. Aynı zamanda veritabanı bağlantısı için çeşitli metotlarda gereklidir. Bağlantı açmak, bağlantı kapatmak gibi eylemler metotları ifade eder.
 
