@@ -205,6 +205,43 @@ color: orange;
 1. https://www.youtube.com/watch?v=NLZpTcHyoGU
 	- Bu videoda; CSS ile birlikte bloklar oluşturmayı, blokların içine başlıklar ve paragraflar eklemeyi, blokların birbirine olan uzaklığını marjin ile ayarlamayı, blokların dışı ve içeriği arasındaki boşluğu padding ile ayarlamayı, blokları yanyana getirme ve bloklara şekil vermeyi anlattık. 
 
+## [CSS Flexbox ile Çalışmak](css-flexbox/)
+
+### Sorular
+1. Bir elementi flex container yapmak için hangi CSS özelliği kullanılır?
+	- display: block;
+	- display: inline;
+	- display: flex; (Doğru)
+	- display: grid;
+2. Flex öğelerinin ana eksen boyunca hizalanmasını sağlayan özellik hangisidir?
+	- align-items
+	- justify-content (Doğru)
+	- flex-direction
+	- align-content
+3. Flex öğelerinin dikey olarak (yukarıdan aşağıya) dizilmesi için hangi değer kullanılır?
+	- flex-direction: row;
+	- flex-direction: column; (Doğru)
+	- flex-direction: wrap;
+	- flex-direction: vertical;
+4. Flex öğelerinin birden fazla satıra yerleşmesini sağlayan özellik hangisidir?
+	- flex-wrap: wrap; (Doğru)
+	- flex-direction: wrap;
+	- flex-flow: wrap;
+	- display: wrap;
+5. Bir flex öğesinin diğerlerinden daha fazla büyümesini sağlamak için hangi özellik kullanılır?
+	- flex-size
+	- flex-grow (Doğru)
+	- flex-expand
+	- flex-basis
+6. Flex container'daki öğeleri hem yatay hem dikey olarak ortalamak için hangi özellikler birlikte kullanılır?
+	- justify-content: center; ve align-items: center; (Doğru)
+	- text-align: center; ve vertical-align: middle;
+	- margin: auto; ve padding: auto;
+	- flex-center: true;
+
+### Videolar
+1. CSS Flexbox ile modern ve responsive layout'lar oluşturmayı, flex container ve flex item özelliklerini, justify-content ve align-items ile hizalama yapmayı öğrendik. Ayrıca pratik örneklerle navigation bar, card layout ve responsive grid yapılarını inceledik.
+
 ## [CSS Özet Çalışması ve Kendimi CSS Konusunda Nasıl Geliştirebilirim](css-ozet-calismasi-ve-kendimi-css-konusunda-nasil-gelistirebilirim/)
 
 ### Sorular
