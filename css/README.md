@@ -12,6 +12,7 @@
 - [CSS Seçiciler ile Çalışmak, İstediğimiz HTML Etiket Yapısına Özelliklik Ekleyebilmek](css-seciciler-ile-calismak,-i̇stedigimiz-html-etiket-yapisina-ozelliklik-ekleyebilmek/)
 - [CSS Kutu Özellikleri(Margin, Padding, Width, Height) Kullanımı](css-kutu-ozelliklerimargin,-padding,-width,-height-kullanimi/)
 - [CSS Flexbox ile Çalışmak](css-flexbox/)
+- [CSS Grid ile Çalışmak](css-grid/)
 - [CSS Özet Çalışması ve Kendimi CSS Konusunda Nasıl Geliştirebilirim](css-ozet-calismasi-ve-kendimi-css-konusunda-nasil-gelistirebilirim/)
 - [Ödev 2](odev2/)
 - [Ödev 3](cssodev3/)
