@@ -242,6 +242,43 @@ color: orange;
 ### Videolar
 1. CSS Flexbox ile modern ve responsive layout'lar oluşturmayı, flex container ve flex item özelliklerini, justify-content ve align-items ile hizalama yapmayı öğrendik. Ayrıca pratik örneklerle navigation bar, card layout ve responsive grid yapılarını inceledik.
 
+## [CSS Grid ile Çalışmak](css-grid/)
+
+### Sorular
+1. Bir elementi grid container yapmak için hangi CSS özelliği kullanılır?
+	- display: block;
+	- display: flex;
+	- display: grid; (Doğru)
+	- display: table;
+2. Grid container'da sütun sayısını belirlemek için hangi özellik kullanılır?
+	- grid-rows
+	- grid-template-columns (Doğru)
+	- grid-columns
+	- column-count
+3. Grid öğeleri arasındaki boşluğu ayarlamak için hangi özellik kullanılır?
+	- grid-space
+	- margin
+	- gap (Doğru)
+	- padding
+4. Bir grid öğesinin 2 sütun kaplaması için hangi özellik kullanılır?
+	- grid-column: span 2; (Doğru)
+	- grid-width: 2;
+	- column-span: 2;
+	- grid-size: 2;
+5. Grid satır yüksekliklerini belirlemek için hangi özellik kullanılır?
+	- grid-height
+	- row-template
+	- grid-template-rows (Doğru)
+	- grid-rows
+6. Grid öğelerini yatay olarak hizalamak için hangi özellik kullanılır?
+	- align-items
+	- justify-items (Doğru)
+	- text-align
+	- horizontal-align
+
+### Videolar
+1. CSS Grid ile modern ve güçlü layout'lar oluşturmayı, grid container ve grid item özelliklerini, grid-template-columns ve grid-template-rows ile yapı oluşturmayı öğrendik. Ayrıca pratik örneklerle responsive grid layout, card gallery ve dashboard yapılarını inceledik.
+
 ## [CSS Özet Çalışması ve Kendimi CSS Konusunda Nasıl Geliştirebilirim](css-ozet-calismasi-ve-kendimi-css-konusunda-nasil-gelistirebilirim/)
 
 ### Sorular
