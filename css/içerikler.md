@@ -279,6 +279,63 @@ color: orange;
 ### Videolar
 1. CSS Grid ile modern ve güçlü layout'lar oluşturmayı, grid container ve grid item özelliklerini, grid-template-columns ve grid-template-rows ile yapı oluşturmayı öğrendik. Ayrıca pratik örneklerle responsive grid layout, card gallery ve dashboard yapılarını inceledik.
 
+## [CSS Transitions - Geçişler ile Animasyonlar](css-transitions/)
+
+### Sorular
+1. CSS Transitions kullanmanın temel amacı nedir?
+	- Sayfayı daha hızlı yüklemek
+	- Kullanıcı etkileşimlerine yumuşak görsel geri bildirim vermek (Doğru)
+	- JavaScript kodunu azaltmak
+	- HTML yapısını basitleştirmek
+2. Bir transition'ın ne kadar süreceğini belirleyen özellik hangisidir?
+	- transition-speed
+	- transition-duration (Doğru)
+	- transition-time
+	- transition-length
+3. Aşağıdaki timing function'lardan hangisi yavaş başlar, hızlanır ve yavaş biter?
+	- linear
+	- ease (Doğru)
+	- ease-in
+	- ease-out
+4. Transition kısa yolu (shorthand) için doğru sıralama hangisidir?
+	- duration property timing-function delay
+	- property duration timing-function delay (Doğru)
+	- property timing-function duration delay
+	- timing-function property duration delay
+5. Aşağıdaki özelliklerden hangisi transition yapamaz?
+	- opacity
+	- transform
+	- display (Doğru)
+	- background-color
+6. Performans açısından en iyi transition özellikleri hangileridir?
+	- width ve height
+	- margin ve padding
+	- transform ve opacity (Doğru)
+	- top ve left
+7. Transition'ın başlamadan önce beklemesini sağlayan özellik hangisidir?
+	- transition-wait
+	- transition-delay (Doğru)
+	- transition-pause
+	- transition-timeout
+8. Hareket hassasiyeti olan kullanıcılar için hangi media query kullanılır?
+	- @media (motion: reduced)
+	- @media (prefers-reduced-motion) (Doğru)
+	- @media (no-animation)
+	- @media (accessibility: motion)
+9. Bir butonun hover ve normal durumu için farklı transition süreleri tanımlanabilir mi?
+	- Hayır, sadece bir transition tanımlanabilir
+	- Evet, her durum için ayrı transition tanımlanabilir (Doğru)
+	- Sadece JavaScript ile mümkün
+	- Sadece animation ile mümkün
+10. Optimal transition süresi genellikle ne kadardır?
+	- 50-100ms
+	- 150-500ms (Doğru)
+	- 1-2 saniye
+	- 3-5 saniye
+
+### Videolar
+1. CSS Transitions ile kullanıcı etkileşimlerine yumuşak görsel geri bildirimler vermeyi, transition-property, transition-duration, transition-timing-function ve transition-delay özelliklerini öğrendik. Pratik örneklerle buton hover efektleri, kart animasyonları, form input odaklanma efektleri ve performans optimizasyonlarını inceledik. Ayrıca erişilebilirlik için prefers-reduced-motion kullanımını ve en iyi pratikleri öğrendik.
+
 ## [CSS Özet Çalışması ve Kendimi CSS Konusunda Nasıl Geliştirebilirim](css-ozet-calismasi-ve-kendimi-css-konusunda-nasil-gelistirebilirim/)
 
 ### Sorular
