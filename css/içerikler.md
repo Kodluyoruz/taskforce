@@ -403,6 +403,73 @@ color: orange;
 ### Videolar
 1. CSS Animations (@keyframes) ile karmaşık ve çok adımlı animasyonlar oluşturmayı, animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction ve animation-fill-mode özelliklerini öğrendik. Pratik örneklerle loading spinner, zıplayan top, pulse efekti, slide-in animasyonları, typing efekti ve shake animasyonlarını inceledik. Ayrıca fill modes'un detaylı açıklamasını, CSS Variables ile dinamik animasyonlar oluşturmayı, performans optimizasyonlarını ve erişilebilirlik için prefers-reduced-motion kullanımını öğrendik.
 
+## [CSS Media Queries - Responsive Tasarım Temelleri](css-media-queries/)
+
+### Sorular
+1. Responsive web tasarımının temel amacı nedir?
+	- Sayfayı daha hızlı yüklemek
+	- İçeriğin farklı cihazlarda optimize görünmesini sağlamak (Doğru)
+	- JavaScript kullanımını azaltmak
+	- Daha az CSS yazmak
+2. Viewport meta tag'inde width=device-width ne anlama gelir?
+	- Sayfanın genişliğini 100px yapar
+	- Sayfanın genişliğini cihazın ekran genişliğine eşitler (Doğru)
+	- Sayfanın genişliğini sabitler
+	- Sayfayı tam ekran yapar
+3. Mobile-first yaklaşımında hangi media query kullanılır?
+	- max-width
+	- min-width (Doğru)
+	- width
+	- device-width
+4. Aşağıdaki media type'lardan hangisi yazdırma için kullanılır?
+	- screen
+	- print (Doğru)
+	- paper
+	- document
+5. Ekran yönelimini kontrol etmek için hangi media feature kullanılır?
+	- direction
+	- orientation (Doğru)
+	- rotation
+	- screen-mode
+6. Dokunmatik cihazlar için hangi pointer değeri kullanılır?
+	- fine
+	- coarse (Doğru)
+	- touch
+	- mobile
+7. Koyu tema tercihini tespit etmek için hangi media query kullanılır?
+	- prefers-dark-mode
+	- prefers-color-scheme: dark (Doğru)
+	- dark-mode
+	- color-theme: dark
+8. Media query'lerde VE mantığı için hangi operatör kullanılır?
+	- &&
+	- and (Doğru)
+	- +
+	- &
+9. Yaygın tablet breakpoint'i genellikle kaç pikseldir?
+	- 480px
+	- 768px (Doğru)
+	- 1024px
+	- 1200px
+10. Aşağıdaki media query sözdizimlerinden hangisi doğrudur?
+	- @media screen and (min-width: 768px) { } (Doğru)
+	- @media (screen: min-width: 768px) { }
+	- @media min-width: 768px { }
+	- media screen (min-width: 768px) { }
+11. Hover yapılabilen cihazları tespit etmek için hangi media feature kullanılır?
+	- can-hover
+	- hover (Doğru)
+	- pointer-hover
+	- mouse
+12. Breakpoint seçerken en iyi yaklaşım nedir?
+	- Popüler cihaz boyutlarına göre seçmek
+	- İçeriğin ne zaman bozulduğuna göre seçmek (Doğru)
+	- Her 100px'de bir breakpoint eklemek
+	- Sadece 768px ve 1024px kullanmak
+
+### Videolar
+1. CSS Media Queries ile responsive web tasarımı yapmayı, viewport meta tag kullanımını, media types (screen, print, all), media features (width, height, orientation, hover, pointer, prefers-color-scheme, prefers-reduced-motion) ve mantıksal operatörleri (and, or, not) öğrendik. Pratik örneklerle responsive navigation, grid layout, typography, images, sidebar layout, dark mode ve print styles oluşturmayı inceledik. Ayrıca mobile-first yaklaşımı, breakpoint seçimi, modern CSS alternatifleri (CSS Grid auto-responsive, Flexbox, Container Queries) ve DevTools ile test etmeyi öğrendik.
+
 ## [CSS Özet Çalışması ve Kendimi CSS Konusunda Nasıl Geliştirebilirim](css-ozet-calismasi-ve-kendimi-css-konusunda-nasil-gelistirebilirim/)
 
 ### Sorular
