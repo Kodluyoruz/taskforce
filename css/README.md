@@ -14,6 +14,7 @@
 - [CSS Flexbox ile Çalışmak](css-flexbox/)
 - [CSS Grid ile Çalışmak](css-grid/)
 - [CSS Transitions - Geçişler ile Animasyonlar](css-transitions/)
+- [CSS Animations (@keyframes) - İleri Seviye Animasyonlar](css-animations/)
 - [CSS Özet Çalışması ve Kendimi CSS Konusunda Nasıl Geliştirebilirim](css-ozet-calismasi-ve-kendimi-css-konusunda-nasil-gelistirebilirim/)
 - [Ödev 2](odev2/)
 - [Ödev 3](cssodev3/)

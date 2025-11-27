@@ -336,6 +336,73 @@ color: orange;
 ### Videolar
 1. CSS Transitions ile kullanıcı etkileşimlerine yumuşak görsel geri bildirimler vermeyi, transition-property, transition-duration, transition-timing-function ve transition-delay özelliklerini öğrendik. Pratik örneklerle buton hover efektleri, kart animasyonları, form input odaklanma efektleri ve performans optimizasyonlarını inceledik. Ayrıca erişilebilirlik için prefers-reduced-motion kullanımını ve en iyi pratikleri öğrendik.
 
+## [CSS Animations (@keyframes) - İleri Seviye Animasyonlar](css-animations/)
+
+### Sorular
+1. CSS Animations ile CSS Transitions arasındaki temel fark nedir?
+	- Animations daha hızlıdır
+	- Animations otomatik başlayabilir ve çok adımlı olabilir (Doğru)
+	- Transitions daha karmaşıktır
+	- Aralarında fark yoktur
+2. @keyframes kuralında animasyon adımlarını belirtmek için ne kullanılır?
+	- Sadece from ve to
+	- Sadece yüzde değerleri
+	- Hem from/to hem de yüzde değerleri kullanılabilir (Doğru)
+	- Sadece pixel değerleri
+3. Bir animasyonun sonsuz döngüde çalışması için hangi değer kullanılır?
+	- animation-iteration-count: infinite (Doğru)
+	- animation-iteration-count: loop
+	- animation-repeat: forever
+	- animation-duration: infinite
+4. Animasyonun ileri-geri-ileri şeklinde çalışması için hangi özellik kullanılır?
+	- animation-direction: reverse
+	- animation-direction: alternate (Doğru)
+	- animation-direction: both
+	- animation-iteration-count: 2
+5. Animasyon bittiğinde son frame'deki stillerin korunması için hangi değer kullanılır?
+	- animation-fill-mode: none
+	- animation-fill-mode: forwards (Doğru)
+	- animation-fill-mode: backwards
+	- animation-fill-mode: stay
+6. Loading spinner animasyonları için genellikle hangi timing function kullanılır?
+	- ease
+	- ease-in-out
+	- linear (Doğru)
+	- ease-out
+7. Bir animasyonu duraklatmak için hangi özellik kullanılır?
+	- animation-pause: true
+	- animation-stop
+	- animation-play-state: paused (Doğru)
+	- animation-running: false
+8. CSS Variables ile animasyonları özelleştirmenin avantajı nedir?
+	- Daha hızlı çalışır
+	- Tek bir @keyframes tanımı ile birden fazla varyasyon oluşturulabilir (Doğru)
+	- Daha az kod yazılır
+	- Tarayıcı desteği daha iyidir
+9. from anahtar kelimesi aslında hangi yüzde değerinin kısayoludur?
+	- 0% (Doğru)
+	- 10%
+	- 50%
+	- 100%
+10. Performans açısından animasyon için en iyi özellikler hangileridir?
+	- width ve height
+	- margin ve padding
+	- transform ve opacity (Doğru)
+	- left ve top
+11. Çok adımlı bir animasyonda timing function nasıl uygulanır?
+	- Tüm animasyon için bir kez
+	- Her adım için ayrı ayrı (Doğru)
+	- Sadece ilk ve son adım için
+	- Hiç uygulanmaz
+12. animation-delay için negatif değer kullanmanın etkisi nedir?
+	- Animasyon çalışmaz
+	- Animasyon ortasından başlar (Doğru)
+	- Animasyon ters yönde başlar
+	- Hata verir
+
+### Videolar
+1. CSS Animations (@keyframes) ile karmaşık ve çok adımlı animasyonlar oluşturmayı, animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction ve animation-fill-mode özelliklerini öğrendik. Pratik örneklerle loading spinner, zıplayan top, pulse efekti, slide-in animasyonları, typing efekti ve shake animasyonlarını inceledik. Ayrıca fill modes'un detaylı açıklamasını, CSS Variables ile dinamik animasyonlar oluşturmayı, performans optimizasyonlarını ve erişilebilirlik için prefers-reduced-motion kullanımını öğrendik.
+
 ## [CSS Özet Çalışması ve Kendimi CSS Konusunda Nasıl Geliştirebilirim](css-ozet-calismasi-ve-kendimi-css-konusunda-nasil-gelistirebilirim/)
 
 ### Sorular
