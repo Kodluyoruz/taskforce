@@ -470,6 +470,63 @@ color: orange;
 ### Videolar
 1. CSS Media Queries ile responsive web tasarımı yapmayı, viewport meta tag kullanımını, media types (screen, print, all), media features (width, height, orientation, hover, pointer, prefers-color-scheme, prefers-reduced-motion) ve mantıksal operatörleri (and, or, not) öğrendik. Pratik örneklerle responsive navigation, grid layout, typography, images, sidebar layout, dark mode ve print styles oluşturmayı inceledik. Ayrıca mobile-first yaklaşımı, breakpoint seçimi, modern CSS alternatifleri (CSS Grid auto-responsive, Flexbox, Container Queries) ve DevTools ile test etmeyi öğrendik.
 
+## [CSS Variables (Custom Properties) - Modern CSS Özelliği](css-variables/)
+
+### Sorular
+1. CSS değişkenlerini tanımlamak için hangi önek kullanılır?
+	- $
+	- @
+	- -- (Doğru)
+	- _
+2. Bir CSS değişkenini kullanmak için hangi fonksiyon kullanılır?
+	- use()
+	- get()
+	- var() (Doğru)
+	- val()
+3. Değişkenlerin tüm sayfada geçerli olması için hangi seçici içinde tanımlanmalıdır?
+	- body
+	- html
+	- *
+	- :root (Doğru)
+4. CSS değişkenleri ile SASS değişkenleri arasındaki en önemli fark nedir?
+	- SASS değişkenleri daha hızlıdır
+	- CSS değişkenleri tarayıcıda dinamik olarak değiştirilebilir (Doğru)
+	- CSS değişkenleri sadece renkler için kullanılır
+	- Aralarında fark yoktur
+5. Bir değişken tanımlanmamışsa yedek değer kullanmak için doğru sözdizimi hangisidir?
+	- var(--color, red) (Doğru)
+	- var(--color || red)
+	- var(--color) or red
+	- if(--color, red)
+6. JavaScript ile bir CSS değişkenini güncellemek için hangi metod kullanılır?
+	- element.style.variable = value
+	- element.style.setProperty('--name', value) (Doğru)
+	- element.css('--name', value)
+	- element.setVariable('--name', value)
+7. CSS değişkenleri miras (inheritance) alır mı?
+	- Hayır, her element için yeniden tanımlanmalıdır
+	- Evet, ebeveyn elementten çocuklara geçer (Doğru)
+	- Sadece :root içindekiler miras alınır
+	- Sadece renkler miras alınır
+8. CSS değişkenleri media queries içinde değiştirilebilir mi?
+	- Hayır, sabittir
+	- Evet, responsive tasarım için kullanılabilir (Doğru)
+	- Sadece JavaScript ile değiştirilebilir
+	- Sadece SASS ile değiştirilebilir
+9. @property kuralının temel amacı nedir?
+	- Değişkenleri gizlemek
+	- Değişkenlere tip ve varsayılan değer atamak (Doğru)
+	- Değişkenleri silmek
+	- Değişkenleri global yapmak
+10. CSS değişkenleri hangi değerleri alabilir?
+	- Sadece renkler
+	- Sadece sayılar
+	- Herhangi bir geçerli CSS değeri (Doğru)
+	- Sadece metinler
+
+### Videolar
+1. CSS Variables (Custom Properties) ile modern ve dinamik stiller oluşturmayı, değişken tanımlama (--name) ve kullanma (var()) sözdizimini, kapsam (scope) ve miras (inheritance) mantığını öğrendik. Pratik örneklerle tema yönetimi (dark/light mode), responsive değerler, JavaScript ile etkileşim, calc() ve HSL fonksiyonları ile kullanımını inceledik. Ayrıca fallback değerleri, @property kuralı ile tip kontrolü ve SASS değişkenleri ile karşılaştırmasını öğrendik.
+
 ## [CSS Özet Çalışması ve Kendimi CSS Konusunda Nasıl Geliştirebilirim](css-ozet-calismasi-ve-kendimi-css-konusunda-nasil-gelistirebilirim/)
 
 ### Sorular

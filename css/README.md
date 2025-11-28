@@ -16,6 +16,7 @@
 - [CSS Transitions - Geçişler ile Animasyonlar](css-transitions/)
 - [CSS Animations (@keyframes) - İleri Seviye Animasyonlar](css-animations/)
 - [CSS Media Queries - Responsive Tasarım Temelleri](css-media-queries/)
+- [CSS Variables (Custom Properties) - Modern CSS Özelliği](css-variables/)
 - [CSS Özet Çalışması ve Kendimi CSS Konusunda Nasıl Geliştirebilirim](css-ozet-calismasi-ve-kendimi-css-konusunda-nasil-gelistirebilirim/)
 - [Ödev 2](odev2/)
 - [Ödev 3](cssodev3/)
