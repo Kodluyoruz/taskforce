@@ -527,6 +527,63 @@ color: orange;
 ### Videolar
 1. CSS Variables (Custom Properties) ile modern ve dinamik stiller oluşturmayı, değişken tanımlama (--name) ve kullanma (var()) sözdizimini, kapsam (scope) ve miras (inheritance) mantığını öğrendik. Pratik örneklerle tema yönetimi (dark/light mode), responsive değerler, JavaScript ile etkileşim, calc() ve HSL fonksiyonları ile kullanımını inceledik. Ayrıca fallback değerleri, @property kuralı ile tip kontrolü ve SASS değişkenleri ile karşılaştırmasını öğrendik.
 
+## [CSS Units (Birimler) - px, em, rem, %, vw, vh](css-units/)
+
+### Sorular
+1. Aşağıdakilerden hangisi mutlak (absolute) bir birimdir?
+	- em
+	- rem
+	- px (Doğru)
+	- vw
+2. `rem` birimi neye göre hesaplanır?
+	- Ebeveyn elementin font boyutuna göre
+	- Kök elementin (html) font boyutuna göre (Doğru)
+	- Ekran genişliğine göre
+	- Kendi font boyutuna göre
+3. `em` birimi `font-size` özelliğinde kullanıldığında neye göre hesaplanır?
+	- Kendi font boyutuna göre
+	- Ebeveyn elementin font boyutuna göre (Doğru)
+	- Kök elementin font boyutuna göre
+	- Ekran yüksekliğine göre
+4. 100vw neyi ifade eder?
+	- Ekran yüksekliğinin %100'ü
+	- Ekran genişliğinin %100'ü (Doğru)
+	- Ebeveyn elementin genişliğinin %100'ü
+	- Yazı boyutunun %100'ü
+5. Metin paragraflarının genişliğini sınırlamak ve okunabilirliği artırmak için en uygun birim hangisidir?
+	- px
+	- vh
+	- ch (Doğru)
+	- cm
+6. Mobil tarayıcılarda adres çubuğu sorununu çözmek için hangi birim kullanılır?
+	- vh
+	- px
+	- dvh (Doğru)
+	- %
+7. Responsive tipografi ve erişilebilirlik için genellikle hangi birim önerilir?
+	- px
+	- rem (Doğru)
+	- pt
+	- cm
+8. `vmin` birimi nasıl çalışır?
+	- vw ve vh arasından büyük olanı alır
+	- vw ve vh arasından küçük olanı alır (Doğru)
+	- vw ve vh ortalamasını alır
+	- Sadece mobilde çalışır
+9. Kenarlık (border) kalınlığı için genellikle hangi birim tercih edilir?
+	- %
+	- rem
+	- px (Doğru)
+	- vw
+10. `1.5em` ne anlama gelir?
+	- Referans değerin 1.5 katı (Doğru)
+	- 1.5 piksel
+	- Ekranın %1.5'i
+	- 15 piksel
+
+### Videolar
+1. CSS Birimlerini (Units) detaylıca inceledik. Mutlak birimler (px, cm) ve göreceli birimler (%, em, rem, ch) arasındaki farkları, viewport birimlerini (vw, vh, vmin, vmax) ve modern viewport birimlerini (dvh, svh, lvh) öğrendik. Hangi birimin nerede kullanılması gerektiğini (fontlar için rem, layout için %, border için px vb.) pratik örneklerle pekiştirdik.
+
 ## [CSS Özet Çalışması ve Kendimi CSS Konusunda Nasıl Geliştirebilirim](css-ozet-calismasi-ve-kendimi-css-konusunda-nasil-gelistirebilirim/)
 
 ### Sorular
