@@ -18,6 +18,7 @@
 - [CSS Media Queries - Responsive Tasarım Temelleri](css-media-queries/)
 - [CSS Variables (Custom Properties) - Modern CSS Özelliği](css-variables/)
 - [CSS Units (Birimler) - px, em, rem, %, vw, vh](css-units/)
+- [CSS Specificity (Özgüllük) - CSS Öncelik Kuralları](css-specificity/)
 - [CSS Özet Çalışması ve Kendimi CSS Konusunda Nasıl Geliştirebilirim](css-ozet-calismasi-ve-kendimi-css-konusunda-nasil-gelistirebilirim/)
 - [Ödev 2](odev2/)
 - [Ödev 3](cssodev3/)

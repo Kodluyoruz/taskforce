@@ -584,6 +584,73 @@ color: orange;
 ### Videolar
 1. CSS Birimlerini (Units) detaylıca inceledik. Mutlak birimler (px, cm) ve göreceli birimler (%, em, rem, ch) arasındaki farkları, viewport birimlerini (vw, vh, vmin, vmax) ve modern viewport birimlerini (dvh, svh, lvh) öğrendik. Hangi birimin nerede kullanılması gerektiğini (fontlar için rem, layout için %, border için px vb.) pratik örneklerle pekiştirdik.
 
+## [CSS Specificity (Özgüllük) - CSS Öncelik Kuralları](css-specificity/)
+
+### Sorular
+1. CSS Specificity (Özgüllük) ne anlama gelir?
+	- CSS dosyasının boyutu
+	- Aynı elemente birden fazla kural uygulandığında hangisinin geçerli olacağını belirleyen öncelik sistemi (Doğru)
+	- CSS kodunun hızı
+	- Tarayıcı uyumluluğu
+2. Aşağıdaki seçicilerden hangisi en yüksek specificity'ye sahiptir?
+	- Element seçici (p)
+	- Class seçici (.text)
+	- ID seçici (#header) (Doğru)
+	- Universal seçici (*)
+3. Inline style'ın specificity değeri nedir?
+	- 0,0,0,1
+	- 0,0,1,0
+	- 0,1,0,0
+	- 1,0,0,0 (Doğru)
+4. `.container p` seçicisinin specificity değeri nedir?
+	- 0,0,0,1
+	- 0,0,1,1 (Doğru)
+	- 0,1,0,1
+	- 0,0,2,0
+5. `#header .nav a:hover` seçicisinin specificity hesaplaması nasıl yapılır?
+	- 0,1,2,1 (1 ID, 1 class + 1 pseudo-class, 1 element) (Doğru)
+	- 0,1,1,2
+	- 0,2,1,1
+	- 1,1,2,1
+6. !important kullanımı hakkında hangisi doğrudur?
+	- Her zaman kullanılmalıdır
+	- Tüm specificity kurallarını geçersiz kılar (Doğru)
+	- Sadece ID seçicilerde çalışır
+	- Performansı artırır
+7. Aşağıdaki en iyi pratiklerden hangisi yanlıştır?
+	- Class kullanmayı tercih edin
+	- Düşük specificity tutun
+	- Mümkün olduğunca !important kullanın (Doğru)
+	- BEM metodolojisi kullanın
+8. Pseudo-class seçicilerin (:hover, :focus) specificity değeri nedir?
+	- 0,0,0,1
+	- 0,0,1,0 (Doğru)
+	- 0,1,0,0
+	- 1,0,0,0
+9. Universal selector (*) specificity değeri nedir?
+	- 0,0,0,0 (Doğru)
+	- 0,0,0,1
+	- 0,0,1,0
+	- 1,0,0,0
+10. Aşağıdaki seçicilerden hangisi daha özgüldür (specific)?
+	- div p
+	- .container p (Doğru)
+	- p
+	- *
+11. ID seçici yerine class kullanmanın avantajı nedir?
+	- Daha hızlıdır
+	- Override etmek daha kolaydır (Doğru)
+	- Daha az kod yazılır
+	- Tarayıcı desteği daha iyidir
+12. BEM metodolojisinin amacı nedir?
+	- CSS'i hızlandırmak
+	- Tutarlı isimlendirme ve düşük specificity sağlamak (Doğru)
+	- Dosya boyutunu küçültmek
+	- JavaScript ile entegrasyonu kolaylaştırmak
+
+### Videolar
+1. CSS Specificity (Özgüllük) kavramını detaylıca öğrendik. Specificity hiyerarşisini (inline style, ID, class, element), specificity hesaplama yöntemini (a,b,c,d formatı), !important kuralını ve neden kullanılmaması gerektiğini inceledik. Pratik örneklerle stil çakışmalarını çözmeyi, en iyi pratikleri (class kullanımı, düşük specificity, BEM metodolojisi) ve yaygın hataları (inline style override, !important savaşları) öğrendik.
+
 ## [CSS Özet Çalışması ve Kendimi CSS Konusunda Nasıl Geliştirebilirim](css-ozet-calismasi-ve-kendimi-css-konusunda-nasil-gelistirebilirim/)
 
 ### Sorular
