@@ -708,6 +708,63 @@ color: orange;
 ### Videolar
 1. CSS Combinators (Birleştiriciler) konusunu detaylıca inceledik. Dört temel combinator türünü (Descendant, Child, Adjacent Sibling, General Sibling) ve aralarındaki farkları öğrendik. Pratik örneklerle menü tasarımı, form düzeni ve içerik akışı gibi senaryolarda doğru combinator kullanımını pekiştirdik. Ayrıca "Lobotomized Owl" tekniği gibi ileri seviye kullanımları da gördük.
 
+## [CSS Pseudo-classes & Pseudo-elements - Sözde Sınıflar ve Elementler](css-pseudo-classes/)
+
+### Sorular
+1. Pseudo-class (`:`) ile Pseudo-element (`::`) arasındaki temel fark nedir?
+	- Hiçbir fark yoktur
+	- Pseudo-class elementin durumunu/konumunu belirtir, Pseudo-element ise sanal bir parça seçer (Doğru)
+	- Pseudo-class sanal parça seçer, Pseudo-element durum belirtir
+	- Pseudo-class sadece linklerde kullanılır
+2. Bir elementin üzerine fare ile gelindiğinde stil değiştirmek için hangisi kullanılır?
+	- `:active`
+	- `:focus`
+	- `:hover` (Doğru)
+	- `::after`
+3. Formun içindeki herhangi bir eleman odaklandığında ebeveyn formu stilize etmek için hangi pseudo-class kullanılır?
+	- `:focus`
+	- `:focus-within` (Doğru)
+	- `:active`
+	- `:checked`
+4. Bir listenin sadece **çift** sıradaki elemanlarını seçmek için hangisi kullanılır?
+	- `:nth-child(odd)`
+	- `:nth-child(2)`
+	- `:nth-child(even)` (Doğru)
+	- `:first-child`
+5. `input:not(.required)` seçicisi neyi ifade eder?
+	- `.required` sınıfına sahip olan tüm inputları
+	- `.required` sınıfına sahip OLMAYAN tüm inputları (Doğru)
+	- Sadece zorunlu alanları
+	- Sadece boş inputları
+6. Bir elementin içeriğinin **sonuna** ikon veya metin eklemek için hangisi kullanılır?
+	- `::before`
+	- `::after` (Doğru)
+	- `:last-child`
+	- `::first-letter`
+7. `input[type="checkbox"]:checked + label` seçicisi ne yapar?
+	- Seçili checkbox'ı gizler
+	- Tüm labelları seçer
+	- Seçili checkbox'tan hemen sonra gelen label'ı seçer (Doğru)
+	- Checkbox'ın içindeki metni değiştirir
+8. `::placeholder` pseudo-elementi ne işe yarar?
+	- Inputun değerini değiştirir
+	- Input içindeki yer tutucu metnin stilini değiştirir (Doğru)
+	- Inputu gizler
+	- Input odaklandığında çalışır
+9. Kullanıcı bir metni seçtiğinde (mavi arka plan) rengini değiştirmek için hangisi kullanılır?
+	- `:active`
+	- `:selected`
+	- `::selection` (Doğru)
+	- `:checked`
+10. `li:first-child` neyi seçer?
+	- Listenin son elemanını
+	- Listenin ilk elemanını (Doğru)
+	- Listenin tüm elemanlarını
+	- İlk harfi
+
+### Videolar
+1. CSS Pseudo-classes ve Pseudo-elements konularını derinlemesine öğrendik. Kullanıcı aksiyonları (:hover, :focus), yapısal seçimler (:nth-child, :first-child), form durumları (:checked, :disabled) ve sanal elementler (::before, ::after) arasındaki farkları ve kullanım alanlarını inceledik. Ayrıca bu seçicileri Combinator'lar ile birleştirerek hamburger menü, tooltip ve animasyonlu form label'ları gibi gelişmiş örnekler yaptık.
+
 ## [CSS Özet Çalışması ve Kendimi CSS Konusunda Nasıl Geliştirebilirim](css-ozet-calismasi-ve-kendimi-css-konusunda-nasil-gelistirebilirim/)
 
 ### Sorular
