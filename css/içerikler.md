@@ -651,6 +651,63 @@ color: orange;
 ### Videolar
 1. CSS Specificity (Özgüllük) kavramını detaylıca öğrendik. Specificity hiyerarşisini (inline style, ID, class, element), specificity hesaplama yöntemini (a,b,c,d formatı), !important kuralını ve neden kullanılmaması gerektiğini inceledik. Pratik örneklerle stil çakışmalarını çözmeyi, en iyi pratikleri (class kullanımı, düşük specificity, BEM metodolojisi) ve yaygın hataları (inline style override, !important savaşları) öğrendik.
 
+## [CSS Combinators (Birleştiriciler) - İleri Seviye Seçici Teknikleri](css-combinators/)
+
+### Sorular
+1. Hangi combinator bir elementin sadece **doğrudan** çocuklarını seçer?
+	- Boşluk (Descendant)
+	- `>` (Child) (Doğru)
+	- `+` (Adjacent Sibling)
+	- `~` (General Sibling)
+2. `div p` seçicisi aşağıdakilerden hangisini seçer?
+	- Sadece div'in içindeki ilk p'yi
+	- Sadece div'in doğrudan çocuklarını
+	- div'in içindeki tüm p etiketlerini (torunlar dahil) (Doğru)
+	- div'den hemen sonra gelen p'yi
+3. Bitişik kardeş seçici (Adjacent Sibling Selector) için hangi sembol kullanılır?
+	- `>`
+	- `~`
+	- `+` (Doğru)
+	- `-`
+4. `h1 ~ p` seçicisi neyi ifade eder?
+	- h1'in içindeki tüm p'leri
+	- h1'den hemen sonra gelen ilk p'yi
+	- h1'den sonra gelen ve aynı ebeveyne sahip tüm p kardeşleri (Doğru)
+	- h1'den hemen önceki p'yi
+5. `ul > li` seçicisi ile `ul li` seçicisi arasındaki fark nedir?
+	- Fark yoktur
+	- `ul > li` sadece doğrudan çocukları, `ul li` ise tüm alt li'leri seçer (Doğru)
+	- `ul li` sadece doğrudan çocukları, `ul > li` ise tüm alt li'leri seçer
+	- `ul > li` daha yavaştır
+6. Form tasarımında label'dan hemen sonra gelen input'u seçmek için hangi combinator idealdir?
+	- `label input`
+	- `label > input`
+	- `label ~ input`
+	- `label + input` (Doğru)
+7. "Lobotomized Owl" seçicisi olarak bilinen `* + *` ne işe yarar?
+	- Tüm elementleri seçer
+	- Sadece ilk elementi seçer
+	- Akıştaki elementler arasına (ilk hariç) stil uygular (Doğru)
+	- Sadece text elementlerini seçer
+8. Descendant selector (boşluk) hangi ilişki türünü temsil eder?
+	- Kardeş
+	- Ebeveyn-Çocuk (Doğru)
+	- Komşu
+	- Hiçbiri
+9. Aşağıdaki seçicilerden hangisi bir elementin hem `.box` hem de `.featured` class'ına sahip olmasını gerektirir?
+	- `.box .featured`
+	- `.box > .featured`
+	- `.box.featured` (Doğru)
+	- `.box + .featured`
+10. Bir elementin **hemen** ardından gelen kardeşi seçmek için hangi combinator kullanılır?
+	- General Sibling (`~`)
+	- Child (`>`)
+	- Adjacent Sibling (`+`) (Doğru)
+	- Descendant (Boşluk)
+
+### Videolar
+1. CSS Combinators (Birleştiriciler) konusunu detaylıca inceledik. Dört temel combinator türünü (Descendant, Child, Adjacent Sibling, General Sibling) ve aralarındaki farkları öğrendik. Pratik örneklerle menü tasarımı, form düzeni ve içerik akışı gibi senaryolarda doğru combinator kullanımını pekiştirdik. Ayrıca "Lobotomized Owl" tekniği gibi ileri seviye kullanımları da gördük.
+
 ## [CSS Özet Çalışması ve Kendimi CSS Konusunda Nasıl Geliştirebilirim](css-ozet-calismasi-ve-kendimi-css-konusunda-nasil-gelistirebilirim/)
 
 ### Sorular
