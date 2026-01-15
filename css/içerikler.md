@@ -765,6 +765,63 @@ color: orange;
 ### Videolar
 1. CSS Pseudo-classes ve Pseudo-elements konularını derinlemesine öğrendik. Kullanıcı aksiyonları (:hover, :focus), yapısal seçimler (:nth-child, :first-child), form durumları (:checked, :disabled) ve sanal elementler (::before, ::after) arasındaki farkları ve kullanım alanlarını inceledik. Ayrıca bu seçicileri Combinator'lar ile birleştirerek hamburger menü, tooltip ve animasyonlu form label'ları gibi gelişmiş örnekler yaptık.
 
+## [CSS Position (Konumlandırma) - Absolute, Relative, Fixed, Sticky](css-position/)
+
+### Sorular
+1. CSS'de varsayılan pozisyon değeri hangisidir?
+	- absolute
+	- relative
+	- static (Doğru)
+	- fixed
+2. `position: absolute` olan bir element, neye göre konumlanır?
+	- Tarayıcı penceresine göre
+	- `position` değeri `static` olmayan en yakın atasına (ebeveynine) göre (Doğru)
+	- Her zaman `body` etiketine göre
+	- Kendi normal konumuna göre
+3. `z-index` özelliği aşağıdaki pozisyon değerlerinden hangisinde ÇALIŞMAZ?
+	- relative
+	- absolute
+	- fixed
+	- static (Doğru)
+4. Bir elementi sayfa kaydırılsa bile ekranda sabit tutmak için hangi pozisyon kullanılır?
+	- sticky
+	- static
+	- fixed (Doğru)
+	- relative
+5. `position: relative` ne işe yarar?
+	- Elementi akıştan çıkarır
+	- Elementi kendi normal konumuna göre hareket ettirir ve `absolute` çocuklar için referans olur (Doğru)
+	- Elementi sayfanın en altına sabitler
+	- Z-index değerini sıfırlar
+6. `position: sticky` ile `position: fixed` arasındaki temel fark nedir?
+	- Sticky sadece mobilde çalışır
+	- Sticky, belirli bir kaydırma noktasına gelene kadar relative gibi davranır, sonra sabitlenir (Doğru)
+	- Fixed elementler z-index alamaz
+	- Sticky elementler akıştan tamamen çıkarılır
+7. Bir elemente `top: 10px` değerinin etki etmesi için `position` değeri ne OLMAMALIDIR?
+	- absolute
+	- relative
+	- sticky
+	- static (Doğru)
+8. `absolute` pozisyonlanmış bir elementin kapladığı alan ne olur?
+	- Aynen korunur
+	- Küçülür
+	- Tamamen yok olur (diğer elementler yerini doldurur) (Doğru)
+	- Genişler
+9. Bir "Yukarı Çık" butonunu sayfanın sağ altına sabitlemek için en uygun yöntem hangisidir?
+	- `position: absolute; bottom: 0; right: 0;`
+	- `position: relative; bottom: 0; right: 0;`
+	- `position: fixed; bottom: 20px; right: 20px;` (Doğru)
+	- `position: static; margin-bottom: 0;`
+10. `z-index` değeri neyi belirler?
+	- Elementin şeffaflığını
+	- Elementin dikey (Y ekseni) konumunu
+	- Elementlerin üst üste binme (derinlik) sırasını (Doğru)
+	- Elementin genişliğini
+
+### Videolar
+1. CSS Position (Konumlandırma) konusunu detaylıca inceledik. 5 temel pozisyon türünü (static, relative, absolute, fixed, sticky) ve bunların birbirleriyle olan ilişkilerini öğrendik. Özellikle `relative` ve `absolute` arasındaki ebeveyn-çocuk ilişkisini, `fixed` ile sabit elementler yapmayı ve `sticky` ile yapışkan başlıklar oluşturmayı pratik örneklerle pekiştirdik. Ayrıca `z-index` ile katman yönetimini öğrendik.
+
 ## [CSS Özet Çalışması ve Kendimi CSS Konusunda Nasıl Geliştirebilirim](css-ozet-calismasi-ve-kendimi-css-konusunda-nasil-gelistirebilirim/)
 
 ### Sorular
