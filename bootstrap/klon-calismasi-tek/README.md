@@ -1,1 +1,1 @@
-# Bootstrap ile Medium Klon Çalışması - Tek Video
+#
