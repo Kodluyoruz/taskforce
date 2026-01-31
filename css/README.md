@@ -11,6 +11,7 @@
 #### CSS Devam Konuları ####
 - [CSS Seçiciler ile Çalışmak, İstediğimiz HTML Etiket Yapısına Özelliklik Ekleyebilmek](css-seciciler-ile-calismak,-i̇stedigimiz-html-etiket-yapisina-ozelliklik-ekleyebilmek/)
 - [CSS Kutu Özellikleri(Margin, Padding, Width, Height) Kullanımı](css-kutu-ozelliklerimargin,-padding,-width,-height-kullanimi/)
+- [CSS Display Özelliği (Block, Inline, Inline-Block)](css-display/)
 - [CSS Flexbox ile Çalışmak](css-flexbox/)
 - [CSS Grid ile Çalışmak](css-grid/)
 - [CSS Transitions - Geçişler ile Animasyonlar](css-transitions/)
