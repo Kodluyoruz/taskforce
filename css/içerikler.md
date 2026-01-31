@@ -205,6 +205,32 @@ color: orange;
 1. https://www.youtube.com/watch?v=NLZpTcHyoGU
 	- Bu videoda; CSS ile birlikte bloklar oluşturmayı, blokların içine başlıklar ve paragraflar eklemeyi, blokların birbirine olan uzaklığını marjin ile ayarlamayı, blokların dışı ve içeriği arasındaki boşluğu padding ile ayarlamayı, blokları yanyana getirme ve bloklara şekil vermeyi anlattık. 
 
+## [CSS Display Özelliği (Block, Inline, Inline-Block)](css-display/)
+### Sorular
+1. Aşağıdakilerden hangisi `display: block` özelliğine sahip bir elementin davranışı **değildir**?
+	- Her zaman yeni bir satırdan başlar
+	- Genişliği varsayılan olarak %100'dür
+	- Width ve height verilebilir
+	- Yanındaki diğer elementlerle aynı satırda durur (Doğru)
+2. `display: inline` olan bir elemente aşağıdaki özelliklerden hangisi uygulandığında **etkisi olmaz**?
+	- color
+	- font-size
+	- width ve height (Doğru)
+	- background-color
+3. Hem yan yana dizilebilen hem de boyut (width/height) verilebilen display türü hangisidir?
+	- block
+	- inline
+	- inline-block (Doğru)
+	- flex
+4. Bir elementi sayfadan tamamen kaldırmak (yer kaplamamasını sağlamak) için hangisi kullanılır?
+	- visibility: hidden
+	- opacity: 0
+	- display: none (Doğru)
+	- background: none
+
+### Videolar
+1. CSS Display özelliği ile elementlerin sayfa akışında nasıl davranacağını (blok mu, satır içi mi) belirlemeyi öğrendik. Block, Inline ve Inline-Block arasındaki farkları, hangi durumlarda hangisinin kullanılması gerektiğini ve display: none ile visibility: hidden arasındaki kritik farkı pratik örneklerle inceledik.
+
 ## [CSS Flexbox ile Çalışmak](css-flexbox/)
 
 ### Sorular
