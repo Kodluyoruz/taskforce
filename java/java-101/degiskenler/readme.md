@@ -172,13 +172,13 @@ int[] array = new int[3]; // İlkel olmayan tiplerde tanımlama yaparken referan
 
 #### Kaynaklar
 
-- [1] https://www.geeksforgeeks.org/variables-in-java/
+- https://www.geeksforgeeks.org/variables-in-java/
 
-- [2] https://www.edureka.co/blog/data-types-in-java/
+- https://www.edureka.co/blog/data-types-in-java/
 
-- [3] https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html
+- https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html
 
-- [4] https://docs.oracle.com/javase/8/docs/technotes/guides/language/underscores-literals.html
+- https://docs.oracle.com/javase/8/docs/technotes/guides/language/underscores-literals.html
 
-- [5] https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+- https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 

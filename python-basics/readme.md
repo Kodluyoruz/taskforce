@@ -1,7 +1,9 @@
 # Python 101 INDEX
 
 #### Giriş ####
+
 -  [Programlama Nedir?](programlama-nedir/)
+-  [Jupyter Notebook](jupyter/)
 -  [Temel Veri Tipleri](temel-veri-tipleri/)
 -  [Değişken Atama](degisken-atama/)
 -  [Kafa Karışıklığı](kafa_karisikligi/)
@@ -42,12 +44,12 @@
   - [List](list/)
   - [Tuple](tuple/)
   - [in](in/)
-  - [Set](set/)
   - [Dictionary](dictionary/)
+  - [Set](set/)
   - [Non-scalar Veri Tiplerinde For](non-scalar-for/)
   - [Split-Join](join-split/)
   - [List Comprehension](list-comprehension/)
-  - [Varible Unpacking](variable-unpacking/)
+  - [Variable Unpacking](variable-unpacking/)
   - [Enumerate-Zip](enumerate-zip/)
 
 #### Fonksiyonlar ####
@@ -66,3 +68,9 @@
 #### fstring ####
   - [fstring](fstring/)
 
+#### Proje ####
+
+* [Proje](proje/)
+
+#### Coderbyte Challenge ####
+- [Coderbyte Challenge](coderbyte-challenge)

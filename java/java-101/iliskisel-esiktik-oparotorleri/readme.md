@@ -123,9 +123,9 @@ Aynı cümleleri diğer matematiksel ifadelerimiz içinde yazalım.
         System.out.println(C <= B);
 
 ```
-KAYNAKLAR 
+## KAYNAKLAR 
 
-[1] http://www.baskent.edu.tr/~tkaracay/etudio/ders/prg/java/ch06/relationalOperators.pdf,
+- http://www.baskent.edu.tr/~tkaracay/etudio/ders/prg/java/ch06/relationalOperators.pdf,
 
-[2] https://slideplayer.biz.tr/slide/13871352/
+- https://slideplayer.biz.tr/slide/13871352/
 

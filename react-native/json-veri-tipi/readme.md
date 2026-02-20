@@ -1,0 +1,1 @@
+json-veri-tipi

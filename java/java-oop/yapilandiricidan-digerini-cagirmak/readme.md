@@ -50,5 +50,5 @@ class Box
 	}
 }
 ```
-Ayrıcada Java'da özyinelemeli yapılandırıcı çağrısının da(**this** ile mevcut yapılandırıcıyı çağırmak) geçerli olmadığını ve hataya sebep olacağını bilmemiz gerekir.
 
+Ayrıcada Java'da özyinelemeli yapılandırıcı çağrısının da(**this** ile mevcut yapılandırıcıyı çağırmak) geçerli olmadığını ve hataya sebep olacağını bilmemiz gerekir.

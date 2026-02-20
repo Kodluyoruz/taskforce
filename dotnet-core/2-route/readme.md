@@ -1,0 +1,3 @@
+# Route Kavramı
+
+Route Controller'a tanımlanan bir attribute dur. Web Api' a gelen istekleri Route niteliği ile yönlendirebiliriz. Controller içerisinde spesifik bir resource ile ilgili eylemler bulunur. Bu eylemlere de URL içerisinde ortak bir grup ile ulaşılması daha doğru olur. Bunu da Route attribute'u controller bazında tanımlanarak gerçekleştirir. WebApi'a gelen requestlerin hangi controller tarafından karşılanacağı bu route niteliklerine göre belirlenir. 

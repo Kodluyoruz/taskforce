@@ -1,5 +1,8 @@
 # HTML INDEX
 
+#### Başlamadan ####
+- [Kullanılacak Tüm Dökümanlar](kullanilacak-tum-dokumanlar/)
+
 #### HTML Giriş ####
 - [HTML Nedir](html-nedir/)
 -  [En Çok Kullanılan HTML Etiketleri Nelerdir](en-cok-kullanilan-html-etiketleri-nelerdir/)
@@ -19,11 +22,15 @@
 
 #### Ekstra Özellikler ####
 -  [HTML Etiketlerine Ekstra Özellikler Eklemek](etiketlerine-ekstra-ozellikler-eklemek/)
--  [İskeletinin Genel Yapısını Anlamak](i̇skeletinin-genel-yapisini-anlamak/)
+-  [İskeletinin Genel Yapısını Anlamak](iskeletinin-genel-yapisini-anlamak/)
 -  [Semantic(Anlamlandırılmış) HTML Etiketleri Kullanımı](semanticanlamlandirilmis-html-etiketleri-kullanimi/)
 -  [Diğer HTML Etiketleri Hakkında](diger-html-etiketleri-hakkinda/)
 
 #### Alıştırmalar & Ödevler ####
 - [Bölüm Sonu Çalışması](bolum-sonu1/)
 - [Bölüm Sonu Çalışması 2](bolum-sonu2/)
-- [Ödev 3](odev3/)
+- [Ödev 3](html-odev3/)
+
+#### Coderbyte Challenge ####
+- [Coderbyte Challenge](coderbyte-challenge/)
+

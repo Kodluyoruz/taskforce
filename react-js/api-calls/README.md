@@ -69,11 +69,7 @@ Bu kod parçası URL olarak verilen JSON datayı almakta ve response değişkeni
 
 ### Fetch Yöntemi 
 
-Bu yöntemle API'dan verileri alabilmek için herhangi bir kütüphane kullanmaya gerek yoktur ve asenkron şekilde veri almayı ve yollamayı sağlar.
-
-[]: 
-
-Fetch metodu ile tüm HTTP isteklerini gerçekleştirebiliriz. Fetch işlemini başlatmak için aşağıda gibi bir tanımı oluşturmalıyız.
+Bu yöntemle API'dan verileri alabilmek için herhangi bir kütüphane kullanmaya gerek yoktur ve asenkron şekilde veri almayı ve yollamayı sağlar. Fetch metodu ile tüm HTTP isteklerini gerçekleştirebiliriz. Fetch işlemini başlatmak için aşağıda gibi bir tanımı oluşturmalıyız.
 
 ```javascript
 const response = await fetch(resource, [options])

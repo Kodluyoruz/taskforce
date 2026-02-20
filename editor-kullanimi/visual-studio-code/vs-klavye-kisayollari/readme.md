@@ -18,7 +18,7 @@ Takip edebileceğimiz ikinci yol da Visual Studio Code editörünün web sitesin
 Bu görselde windows tabanlı işletim sistemlerinde Visual Studio Code içerisindeki klavye kısayollarını görebiliriz. Bu kısayolların hepsini tabii ki de ezberlemek zorunda değiliz. Ama mümkün olduğunca temel klavye kısayollarına hakim olmalıyız.
 
 ## Klavye Kısayollarını Kişiselleştirmek
-Vusial Studio Code editörü bizlere klavye kısayollarını kişileştirebilmemizi de sağlar.
+Visual Studio Code editörü bizlere klavye kısayollarını kişileştirebilmemizi de sağlar.
 
 ![vs-kisisellestirme](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-klavye-kisayollari/figures/vs-kisisellestirme.gif)
 
@@ -35,50 +35,53 @@ Kişileştirme ayarlarına ulaşmak için sırasıyla `File -> Preferences -> Ke
 Halihazırda açık olan dosyayı kapatmak için `CTRL + W` kombinasyonunu kullanabilirsiniz.
 
 ### 3) CTRL + B
+`CTRL + B` klavye kısayolunu kullanarak kod editörünüz sol tarafında açık olan menü çubuğunu kapatıp açabilirsiniz.
+
+### 4) CTRL + Alt + B
 `CTRL + B` klavye kısayolunu kullanarak kod editörünüz sağ tarafında açık olan menü çubuğunu kapatıp açabilirsiniz.
 
-### 4) CTRL + SHIFT + P
+### 5) CTRL + SHIFT + P
 `CTRL + SHIFT + P` klavye kısayolunu kullanarak ayarlara ulaşabilirsiniz.
 
 ![vs-ctrlshiftp](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-klavye-kisayollari/figures/vs-ctrlshiftp.gif)
 
 Bu örneğimizde ilk öncelik **tema** ayarlarına giriş yaptığımızı ve sonrasında *dosya ikonlarını* kolayca değiştirebildiğimizi görebiliriz. 
 
-### 5) CTRL + SHIFT + SOL YÖN TUŞU
+### 6) CTRL + SHIFT + SOL YÖN TUŞU
 Bir ifadenin tamamını seçmek istediğinizde o ifadenin sonuna gelerek `CTRL + SHIFT + SOL YÖN TUŞU` kombinasyonunu kullanabilirsiniz.
 
 ![vs-solok](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-klavye-kisayollari/figures/vs-solok.gif)
 
 Bu örneğimizde *kodluyoruz* ifadesinin sonuna gelerek `CTRL + SHIFT + SOL YÖN TUŞU` kısayolunu kullandığımızda tamamını seçtiğimizi görebiliriz.
 
-### 6) ALT + YUKARI/AŞAĞI YÖN TUŞU
+### 7) ALT + YUKARI/AŞAĞI YÖN TUŞU
 Bir ifadenin yerini değiştirmek istediğinizde `ALT + YUKARI/AŞAĞI YÖN TUŞU` kombinasyonunu kullanabilirsiniz
 
 ![vs-altok](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-klavye-kisayollari/figures/vs-altok.gif)
 
 Bu örneğimizde *kodluyoruz* ifadesinin yerini `ALT + YUKARI/AŞAĞI YÖN TUŞU` kısayolunu kullanarak değiştirdiğimizi görebiliriz.
 
-### 7) ALT + SHIFT
+### 8) ALT + SHIFT
 Seçili olan ifadeyi bir alt satıra da kopyalamak istediğinizde `ALT + SHIFT` kısayolunu kullanabilirsiniz.
 
-### 8) CTRL + ENTER
+### 9) CTRL + ENTER
 Satırın neresinde olursanız olun bir alt satıra geçmek istediğinizde `CTRL + ENTER` kısayolunu kullanabilirsiniz.
 
-### 9) CTRL + D
+### 10) CTRL + D
 Dosyanızda yer alan aynı ifadeleri seçmek için `CTRL + D` kısayolunu kullanabilir sonrasında da çoklu imleç özelliğinden yararlanarak aynı ifadeleri tek seferde değiştirebilirsiniz.
 
 ![vs-ctrld](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-klavye-kisayollari/figures/vs-ctrld.gif)
 
 Bu örneğimizde *kodluyoruz* ifadelerinin tamamını `CTRL + D` kombinasyonunu kullanarak seçtiğimizi ve sonrasında hepsi yerine tek seferde *kodluyoruz.org* ifadesini yazdığımızı görebiliriz.
 
-### 10) ALT + SOL/SAĞ YÖN TUŞU
-Satırdaki ifadeleri teker teker atlayarak ilerlemek istediğinizde `ALT + SOL/SAĞ YÖN TUŞU` kısayolunu kullanabilirsiniz.
+### 11) CTRL + SOL/SAĞ YÖN TUŞU
+Satırdaki ifadeleri teker teker atlayarak ilerlemek istediğinizde `CTRL + SOL/SAĞ YÖN TUŞU` (windows) veya 'ALT+SOL/SAĞ YÖN TUŞU'(Mac) kısayolunu kullanabilirsiniz.
 
-### 11) CTRL + C
+### 12) CTRL + C
 Seçili olan ifadeyi kopyalamak için `CTRL + C` kısayolunu kullanabilirsiniz.
 
-### 12) CTRL + V
+### 13) CTRL + V
 Halihazırda kopyalanan ifadeyi yapıştırmak için `CTRL + V` kısayolunu kullanabilirsiniz.
 
-### 13) CTRL + X
+### 14) CTRL + X
 Seçili olan ifadeyi kesmek için `CTRL + X` kısayolunu kullanabilirsiniz.

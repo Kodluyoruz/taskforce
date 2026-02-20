@@ -1,0 +1,3 @@
+- Extend the Proposal structure to include a title field of type string.
+- This will allow each proposal to have a brief title in addition to its description.
+- Submit your code

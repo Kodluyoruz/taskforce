@@ -1,29 +1,11 @@
 # Basics for Everyone INDEX
 
-#### Farklı Yazılım Kariyerleri ####
-- [Frontend Nedir?](frontend-nedir/)
-- [Backend Nedir?](backend-nedir/)
-- [Frontend & Backend Karşılaştırması](frontend-vs-backend/)
+#### Yazılım, Kodlama ve İnternet Konseptleri ####
+-  [Yazılım, Kodlama ve İnternet Konseptleri 1](yazilim-internet-kodlama-1/)
+-  [Yazılım, Kodlama ve İnternet Konseptleri 2](yazilim-internet-kodlama-2/)
 
-#### Algoritma & Pseudocode ####
-- [Algoritma](algoritma/)
-- [Pseudocode](pseudocode/)
-
-#### Internet ####
-- [İnternet Nedir?](internet-nedir/)
-- [Fiziksel Elemanlar ve Wifi](fiziksel-elemanlar/)
-- [IP Adres ve DNS'e Giriş](ipadres-dns-giris/)
-- [Paketler, Yönlendirme ve Güvenilirlik](paketler-yonlendirmeler/)
-- [HTTP ve HTML'e Giriş](http-html-giris)
-- [Şifreleme ve Public Key](internet-sifreleme/)
-- [Siber Güvenlik ve Suçlar](siber-guvenlik/)
-- [Browsers](Browsers/)
-- [IP](IP/)
-- [TCP](TCP/)
-- [HTTP](http/)
-- [DNS](DNS/)
-- [Domain name](domain-name/)
-- [Hosting](hosting/)
+#### Yazılım Nedir? ####
+- [Yazılım Nedir?](yazilim-nedir)
 
 #### Araştırma Yapma ####
 - [Google'lamak](google/)

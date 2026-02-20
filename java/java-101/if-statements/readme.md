@@ -2,7 +2,7 @@
 
 Koşula göre program içinde farklı işlemleri yerine getirmek gerekebilir. İf-else muhtemelen yazılım programlarında en yaygın kullanılan karar mekanizmasıdır. Bu tarz durumları Java&#39;da kodlayabilmek için if-else karar mekanizmasının yanında switch-case gibi yapılarda kullanılmaktadır. Bu yazımızda sizlerle birlikte if-else karar mekanizmasını inceleyeceğiz. İf-else karar mekanizması istenilen koşul gerçekleştiği takdirde çalışır. Kısacası belirlenen koşul doğruysa yazılan kod console kısmında çalışır. Fakat koşulumuz yanlış ise else şartımıza bağlı olan kodumuz console kısmında çalıştırılır. 
 
-![IF Else yapısı](figures/if_1.jpg)
+![IF Else yapısı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java/java-101/if-statements/figures/if_1.jpg)
 
 Örneğin: "yaşı 50&#39;den küçük olanların personel kayıtlarını getir" gibi bir ifadede yaşı 50&#39;den küçük olanları tespit etmek için karar mekanizmaları kullanılır. Eğer koşul sağlanmıyorsa başka bir kod bloğu işletilir. İfadenin yazılımsal olarak Java&#39;da karşılığı aşağıdaki gibidir.
 ````java

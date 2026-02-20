@@ -353,4 +353,5 @@ Cevap:
 
 
 
-*Kaynaklar: INTRODUCTION TO JAVA PROGRAMMING COMPREHENSIVE VERSION Tenth Edition Y. Daniel Liang Armstrong Atlantic State University*
+## Kaynaklar:
+- INTRODUCTION TO JAVA PROGRAMMING COMPREHENSIVE VERSION Tenth Edition Y. Daniel Liang Armstrong Atlantic State University

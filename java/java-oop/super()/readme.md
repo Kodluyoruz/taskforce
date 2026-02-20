@@ -1,12 +1,10 @@
+# "super" Anahtar Kelimesi ile ATA Sınıfa Erişim Sağlamak
 
+Alt sınıflar kalıtım yoluyla ATA sınıfa ait metotları ve değişkenleri de kendi bünyelerine alabilirler. ATA sınıftaki bir değişkene veya metoda erişmek istediğimizde "super" anahtar kelimesini kullanırız.
 
-# &quot;super&quot; Anahtar Kelimesi ile ATA Sınıfa Erişim Sağlamak
+"super" Anahtar Kelimesi ile ATA Sınıfın Kurucularını Çağırmak
 
-Alt sınıflar kalıtım yoluyla ATA sınıfa ait metotları ve değişkenleri de kendi bünyelerine alabilirler. ATA sınıftaki bir değişkene veya metoda erişmek istediğimizde &quot;super&quot; anahtar kelimesini kullanırız.
-
-&quot;super&quot; Anahtar Kelimesi ile ATA Sınıfın Kurucularını Çağırmak
-
-````java
+```java
 public ElectricCar() {
 	
 	// Car sınıfına ait parametresiz kurucu metodu çağırıyoruz.
@@ -21,27 +19,24 @@ public ElectricCar(String brand, String licensePlate, double power) {
 	
 	this.power = power;
 }
+```
 
-````
+`super();` komutuyla birlikte "**Car**" sınıfına ait parametresiz kurucu metodu çağırıyoruz. Böylece, kalıtım aldığımız ATA sınıfın kurucusuna erişmiş olduk.
 
-&quot;**super();**&quot; komutuyla birlikte &quot; **Car**&quot; sınıfına ait parametresiz kurucu metodu çağırıyoruz. Böylece, kalıtım aldığımız ATA sınıfın kurucusuna erişmiş olduk.
+`super(brand, licensePlate);` komutuyla "**Car**" sınıfına ait parametreli kurucu metodu çağırıyoruz. Bu kurucu metot `public Car(String brand, String licensePlate)` kendisidir.
 
-&quot;**super(brand, licensePlate);**&quot; komutuyla &quot; **Car**&quot; sınıfına ait parametreli kurucu metodu çağırıyoruz. Bu kurucu metot &quot;**public Car(String brand, String licensePlate)**&quot; kendisidir.
+"super" Anahtar Kelimesi ile ATA Sınıfın Metotlarını Çağırmak
 
-&quot;super&quot; Anahtar Kelimesi ile ATA Sınıfın Metotlarını Çağırmak
+"super" anahtar kelimesi ile ATA sınıfa ait kurucu metotları, değişkenleri ve fonksiyonları çağırabiliriz.
 
-&quot;super&quot; anahtar kelimesi ile ATA sınıfa ait kurucu metotları, değişkenleri ve fonksiyonları çağırabiliriz.
-
-`````java
+```java
 @Override
 public void showInfo() {
-	
 	// üst sınıfın, yani "Car" sınıfının "showInfo" metodunu çağıracaktır.
 	super.showInfo();
 	
 	System.out.println("ElectricCar: " + toString());
 }
-`````
+```
 
-&quot;super.showInfo();&quot; komutuyla birlikte ATA sınıfa ait, yani &quot;Car&quot; sınıfına ait &quot;showInfo&quot; metodunu çağırmış oluyoruz.
-
+`super.showInfo();` komutuyla birlikte ATA sınıfa ait, yani "Car" sınıfına ait "showInfo" metodunu çağırmış oluyoruz.
