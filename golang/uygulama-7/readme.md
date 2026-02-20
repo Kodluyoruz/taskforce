@@ -1,0 +1,1 @@
+# Uygulama 7

@@ -1,0 +1,1 @@
+1. Fluent Validation kütüphanesini kullanarak Update ve GetById metotları için validation sınıflarını yazınız. Controller içerisinde metot çağrımlarından önce validasyonları çalıştırınız. 

@@ -1,4 +1,4 @@
-# Renk Strandartları, Tipografi, Margin ve Padding Kullanımı
+# Renk Standartları, Tipografi, Margin ve Padding Kullanımı
 
 ## Bootstrap Renk Standartları
 Bootstrap temamızı, bileşenlerimizi daha iyi stillendirebilmemiz adına *kapsamlı* bir renk sistemine sahip. Renk standartları deyince aklımıza belirli renk kullanımları gelebilir fakat direkt renk ataması yapmak yerine Bootstrap **anlamlı** renk kümelerini içeriyor. Günümüzde Bootstrap kullanılmayan projelerde dahi standart olarak bu yaklaşımı görebiliyoruz.

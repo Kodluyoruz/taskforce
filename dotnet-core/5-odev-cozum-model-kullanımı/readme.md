@@ -1,0 +1,1 @@
+# Ödev Çözümü - Model Kullanımı
