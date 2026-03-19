@@ -362,6 +362,53 @@ color: orange;
 ### Videolar
 1. CSS Transitions ile kullanıcı etkileşimlerine yumuşak görsel geri bildirimler vermeyi, transition-property, transition-duration, transition-timing-function ve transition-delay özelliklerini öğrendik. Pratik örneklerle buton hover efektleri, kart animasyonları, form input odaklanma efektleri ve performans optimizasyonlarını inceledik. Ayrıca erişilebilirlik için prefers-reduced-motion kullanımını ve en iyi pratikleri öğrendik.
 
+## [CSS Transforms (Dönüşümler) - 2D ve 3D Transforms](css-transforms/)
+
+### Sorular
+1. CSS Transform özelliği aşağıdakilerden hangisini yapamaz?
+	- Elementin boyutunu değiştirmek (scale)
+	- Elementin rengini değiştirmek (Doğru)
+	- Elementi ekseni etrafında döndürmek (rotate)
+	- Elementin konumunu kaydırmak (translate)
+2. Bir elementi ekseni etrafında saat yönünde 45 derece döndürmek için hangi özellik kullanılır?
+	- transform: rotate(45deg); (Doğru)
+	- transform: turn(45);
+	- rotate: 45deg;
+	- transform-rotation: 45deg;
+3. Elementin boyutunu yatay ve dikey yönde 2 katına çıkarmak için hangi transform değeri kullanılır?
+	- transform: size(2);
+	- transform: double();
+	- transform: scale(2); (Doğru)
+	- transform: grow(2);
+4. transform-origin ne işe yarar?
+	- Transform işleminin başlangıç süresini ayarlar
+	- Transform işleminin merkez noktasını belirler (Doğru)
+	- Transform işleminin hangi yöne olacağını belirler
+	- Transform işlemini sıfırlar
+5. Bir elementi X ekseninde 50px sağa kaydırmak için hangi kod kullanılır?
+	- transform: translateX(50px); (Doğru)
+	- transform: moveX(50px);
+	- transform-x: 50px;
+	- shift: right 50px;
+6. 3D transform işlemlerinde derinlik algısı yaratmak için ebeveyn öğeye hangi özellik eklenmelidir?
+	- 3d-effect: true;
+	- perspective: 1000px; (Doğru)
+	- z-index: 100;
+	- depth: 1000px;
+7. Birden fazla transform özelliğini aynı anda kullanmak için doğru yazım kuralı nasıldır?
+	- transform: translateX(50px) rotate(45deg); (Doğru)
+	- transform: translateX(50px), rotate(45deg);
+	- transform1: translateX(50px); transform2: rotate(45deg);
+	- transform: { translateX(50px), rotate(45deg) };
+8. skew() özelliği ne yapar?
+	- Elementi şeffaflaştırır
+	- Elementi gizler
+	- Elementi belirli açılarda eğer/çarpıtır (paralelkenar gibi) (Doğru)
+	- Elementi ters çevirir
+
+### Videolar
+1. CSS Transform özelliği ile elementleri 2 boyutta ve 3 boyutta nasıl değiştirebileceğimizi öğrendik. translate (hareket), scale (ölçeklendirme), rotate (döndürme) ve skew (eğme) fonksiyonlarını tekli ve çoklu kullanmayı gördük. Ayrıca transform-origin ile referans merkezini değiştirmeyi ve perspective ile 3 boyutlu bir alan yaratarak rotateX, rotateY ve translateZ gibi 3D özelliklerini kullanmayı pratik örneklerle pekiştirdik.
+
 ## [CSS Animations (@keyframes) - İleri Seviye Animasyonlar](css-animations/)
 
 ### Sorular
