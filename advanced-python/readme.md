@@ -11,8 +11,6 @@
 - [Magic Method](magic-method/)
 - [Generator](generator/)
 
-#### Coderbyte Challenge ####
-- [Coderbyte Challenge](coderbyte-challenge)
 
 #### Regular Expressions ####
 - [Regular Expressions](regular-expressions/)
