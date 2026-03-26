@@ -77,5 +77,3 @@
 #### Fetch API ####
 - [Fetch API ile Çalışmak](fetch-api-ile-calismak/)
 
-#### Coderbyte Challenge ####
-- [Coderbyte Challenge](coderbyte-challenge/)
