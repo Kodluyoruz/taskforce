@@ -1,0 +1,3 @@
+A large amount of funds and transactions are managed by smart contracts daily. No one wants to be the developer that has created a smart contract that causes people to lose crypto because it was not secure enough. Unfortunately, too regularly attackers are successful out draining the funds of smart contracts.  
+
+In this lesson, we will look at some of the security concerns that you should consider when developing a smart contract. To protect your contract from attacks, you need to understand the common ways attackers will find vulnerabilities and exploit them in your contract. In the next lesson, you will find information about the common attacks.

@@ -197,13 +197,13 @@ x'in asıl değeri : 100
 
 //
 
-(KAYNAK: Aşağıdaki kaynaklar okundu ve taranarak örnekleme ve açıklamalar yapıldı.)
-http://www.baskent.edu.tr/~tkaracay/etudio/ders/prg/java/ch06/bitwiseOperators.pdf
-https://keramiozsoy.wordpress.com/2018/05/01/2859/
-https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op3.html
-https://ramazanbiyikci.com.tr/java-bitsel-operatorler/
-https://www.baeldung.com/java-bitwise-operators
-https://www.youtube.com/watch?v=dccIw612Q2k
+## KAYNAK:
+- http://www.baskent.edu.tr/~tkaracay/etudio/ders/prg/java/ch06/bitwiseOperators.pdf
+- https://keramiozsoy.wordpress.com/2018/05/01/2859/
+- https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op3.html
+- https://ramazanbiyikci.com.tr/java-bitsel-operatorler/
+- https://www.baeldung.com/java-bitwise-operators
+- https://www.youtube.com/watch?v=dccIw612Q2k
 
-//
+
 
