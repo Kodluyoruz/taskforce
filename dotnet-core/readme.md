@@ -101,6 +101,4 @@
 #### Proje Ödevi 2 - Serbest Proje Seçimi ####
 ### [Proje Ödevi 2 - Serbest Proje Seçimi](20-proje-2/)
 
-#### Coderbyte Challenge ####
-- [Coderbyte Challenge](coderbyte-challenge)
 
