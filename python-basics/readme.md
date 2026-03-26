@@ -69,8 +69,5 @@
   - [fstring](fstring/)
 
 #### Proje ####
+- [Proje](proje/)
 
-* [Proje](proje/)
-
-#### Coderbyte Challenge ####
-- [Coderbyte Challenge](coderbyte-challenge)
