@@ -140,5 +140,3 @@ O branchte ki [CHANGELOG](https://github.com/Kodluyoruz/taskforce/blob/react-nat
 - [Proje Raporu Nedir](proje-raporu-nedir/)
 - [Örnek Proje Raporu Çıkarma](örnek-proje-raporu-çıkarma/)
 
-#### Coderbyte Challenge ####
-- [Coderbyte Challenge](coderbyte-challenge)
