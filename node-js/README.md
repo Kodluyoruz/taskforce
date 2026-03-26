@@ -87,6 +87,3 @@
 - [Kategori Eklemek ve Silmek](AddRemoveCategory/)
 - [Smartedu Deployment](SmarteduDeployment/)
 
-
-#### Coderbyte Challenge ####
-- [Coderbyte Challenge](coderbyte-challenge/)
