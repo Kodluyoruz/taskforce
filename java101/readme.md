@@ -115,6 +115,3 @@
 
 #### Bitirme Projesi ####
 - [Mayın Tarlası Oyunu](bitirme-mayin-tarlasi/)
-
-#### Coderbyte Challenge ####
-- [Coderbyte Challenge](coderbyte-challenge/)
