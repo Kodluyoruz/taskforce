@@ -1,6 +1,6 @@
 # AI AGENT SKILLS INDEX
 
-#### Giriş ve Temeller
+#### Giriş ve Temeller ####
 
 - [AI Agent Nedir?](ai-agent-nedir/)
 - [Agent Skills Nedir?](agent-skills-nedir/)
@@ -10,7 +10,7 @@
 - [Skills Ekosistemi Haritası](skills-ekosistemi-haritasi/)
 - [Neden Skills Kullanmalıyız ve Kullanım Senaryoları](neden-skills-kullanmaliyiz-kullanim-senaryolari/)
 
-#### Anatomi ve Yapı
+#### Anatomi ve Yapı ####
 
 - [SKILL.md ve YAML Frontmatter](skill-md-ve-yaml-frontmatter/)
 - [Metadata Alanları Detaylı İnceleme](metadata-alanlari-detayli-inceleme/)
@@ -20,7 +20,7 @@
 - [İyi Description Yazma Sanatı](iyi-description-yazma-sanati/)
 - [Skill Versiyonlama ve Yaşam Döngüsü](skill-versiyonlama-ve-yasam-dongusu/)
 
-#### Skill Yazma Pratiği
+#### Skill Yazma Pratiği ####
 
 - [İlk Skill'inizi Yazma — Quickstart](ilk-skillinizi-yazma-quickstart/)
 - [SKILL.md Derinlemesine Yazma Rehberi](skill-md-derinlemesine-yazma-rehberi/)
@@ -31,7 +31,7 @@
 - [Skill Test Etme ve Debug](skill-test-etme-ve-debug/)
 - [Yaygın Hatalar ve Anti-patterns](yaygin-hatalar-ve-anti-patterns/)
 
-#### Platform Entegrasyonları
+#### Platform Entegrasyonları ####
 
 - [Claude Code ile Skills](claude-code-ile-skills/)
 - [Claude API ile Skills](claude-api-ile-skills/)
@@ -41,7 +41,7 @@
 - [Üçüncü Parti Framework'lerle Skills](ucuncu-parti-frameworklerle-skills/)
 - [Skill Paketleme, Yükleme ve Limitler](skill-paketleme-yukleme-ve-limitler/)
 
-#### İleri Konular
+#### İleri Konular ####
 
 - [Skills vs MCP: Detaylı Karşılaştırma](skills-vs-mcp-detayli-karsilastirma/)
 - [Skills Kompozisyonu ve Çakışma Yönetimi](skills-kompozisyonu-ve-cakisma-yonetimi/)
@@ -50,7 +50,7 @@
 - [Domain-spesifik Skill Tasarım Örnekleri](domain-spesifik-skill-tasarim-ornekleri/)
 - [Skill Metrikleri ve Değerlendirme](skill-metrikleri-ve-degerlendirme/)
 
-#### Güvenlik ve Üretim
+#### Güvenlik ve Üretim ####
 
 - [Skill Güvenlik Tehdit Modeli](skill-guvenlik-tehdit-modeli/)
 - [Skill'lerde Prompt Injection ve Data Exfiltration](prompt-injection-ve-data-exfiltration-skillerde/)

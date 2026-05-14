@@ -10,7 +10,7 @@
 #### Temel Teknikler ####
 
 - [Açık ve Net Talimatlar Yazma](acik-ve-net-talimatlar-yazma/)
-- [Rol ve Bağlam Verme](rol-ve-bağlam-verme/)
+- [Rol ve Bağlam Verme](rol-ve-baglam-verme/)
 - [Prompt Şablonları ve Değişkenler](prompt-sablonlari-ve-degiskenler/)
 - [Yaygın Hatalar ve Kaçınma Yolları](yaygin-hatalar-ve-kacinma-yollari/)
 
@@ -18,13 +18,13 @@
 
 - [Zero-Shot Prompting](zero-shot-prompting/)
 - [Few-Shot Prompting](few-shot-prompting/)
-- [Çıktı Biçimlendirme](çıktı-biçimlendirme/)
+- [Çıktı Biçimlendirme](cikti-bicimlendirme/)
 
 #### İleri Teknikler ####
 
 - [Chain-of-Thought Prompting](chain-of-thought-prompting/)
 - [XML ve Yapısal Format Kullanımı](xml-ve-yapisal-format-kullanimi/)
-- [Uzun Bağlam ile Çalışma](uzun-bağlam-ile-çalışma/)
+- [Uzun Bağlam ile Çalışma](uzun-baglam-ile-calisma/)
 - [Prompt Optimizasyonu ve Test Etme](prompt-optimizasyonu-ve-test-etme/)
 
 #### Pratik Sistemler ####

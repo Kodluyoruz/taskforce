@@ -1,18 +1,18 @@
 # YEREL LLM ÇALIŞTIRMA INDEX
 
-#### Temeller
+#### Temeller ####
 
 - [Yerel LLM nedir ve neden önemli?](yerel-llm-nedir/)
 - [GGUF, quantization ve model boyutları](gguf-quantization-model-boyutlari/)
 - [Donanım gereksinimleri ve model seçimi](donanim-gereksinimleri-ve-model-secimi/)
 
-#### Ollama'ya Giriş
+#### Ollama'ya Giriş ####
 
 - [Kurulum ve ilk model çalıştırma](ollama-kurulum-ve-ilk-model/)
 - [CLI referansı](ollama-cli-referansi/)
 - [Modelfile ile özel model oluşturma](modelfile-ile-ozel-model/)
 
-#### Ollama API ve Yetenekler
+#### Ollama API ve Yetenekler ####
 
 - [REST API temelleri](ollama-rest-api-temelleri/)
 - [OpenAI-uyumlu API kullanımı](openai-uyumlu-api/)
@@ -22,13 +22,13 @@
 - [Structured outputs ve thinking modeller](structured-outputs-ve-thinking/)
 - [Docker ile Ollama](docker-ile-ollama/)
 
-#### LM Studio
+#### LM Studio ####
 
 - [Kurulum, arayüz ve model yönetimi](lmstudio-kurulum-ve-arayuz/)
 - [LM Studio REST API kullanımı](lmstudio-rest-api/)
 - [MCP entegrasyonu](lmstudio-mcp-entegrasyonu/)
 
-#### Gerçek Dünya Kullanımı
+#### Gerçek Dünya Kullanımı ####
 
 - [Python ile yerel LLM entegrasyonu](python-ile-entegrasyon/)
 - [JavaScript/Node.js ile entegrasyon](javascript-ile-entegrasyon/)
