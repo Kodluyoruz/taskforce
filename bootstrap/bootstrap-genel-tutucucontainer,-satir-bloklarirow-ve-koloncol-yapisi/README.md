@@ -79,9 +79,9 @@ Bu resimde gördüğümüz 2 satırdan oluşan grid yapısını aşağıdaki kod
   </div>
 </div>
 ```
-`div` HTML taglerine `classs="row"` veya `class="col"` sınıfları vererek bu tagların ne amaçla kullanılacağını belirttik. Ayrıca dikkat ederseniz bu grid bir `class="container"` içerisinde bulunmakta.
+`div` HTML taglerine `class="row"` veya `class="col"` sınıfları vererek bu tagların ne amaçla kullanılacağını belirttik. Ayrıca dikkat ederseniz bu grid bir `class="container"` içerisinde bulunmakta.
 
-Row ve column yapısının kullanımı ve mantığı genel hatlarıyla bu şekilde diyebiliriz. Konuyu pekiştirmek için bu küçük quizi cevaplamanızı tavsiye ediyoruz!
+Row ve column yapısının kullanımı ve mantığı genel hatlarıyla bu şekilde diyebiliriz.
 
 ## Kaynaklar:
 - https://www.kodluyoruz.org/

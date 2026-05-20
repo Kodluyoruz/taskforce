@@ -1,0 +1,1 @@
+In this episode, we started with explaining the difference between tokens and coins; and dive into types of tokens: utility tokens, DeFi tokens, governance tokens, NFTs, and security tokens.

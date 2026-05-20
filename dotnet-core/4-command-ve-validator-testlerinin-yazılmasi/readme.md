@@ -1,0 +1,1 @@
+# Pratik - Command ve Validator Sınıflarının Testlerinin Yazılması

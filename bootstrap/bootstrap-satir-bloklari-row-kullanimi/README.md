@@ -103,8 +103,8 @@ Yukarıdaki örneklerde de görüldüğü üzere satırları eşit parçalar hal
 ![içiçesatırlar](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/img8.PNG)
 
 Kaynaklar:
-- [https://www.udemy.com/course/komple-web-developer-kursu/learn/lecture/9815366#overview](https://www.udemy.com/course/komple-web-developer-kursu/learn/lecture/9815366#overview)
-- [https://www.sadikturan.com/bootstrap/bootstrap-grids/1201](https://www.sadikturan.com/bootstrap/bootstrap-grids/1201)
-- [https://www.tutorialspoint.com/bootstrap/bootstrap_grid_system.htm](https://www.tutorialspoint.com/bootstrap/bootstrap_grid_system.htm)
-- [https://getbootstrap.com/docs/4.1/layout/overview/](https://getbootstrap.com/docs/4.1/layout/overview/)
-- [https://fatihhayrioglu.com/bootstrap-izgara-Grid-sistemi-1/](https://fatihhayrioglu.com/bootstrap-izgara-Grid-sistemi-1/)
+- [Komple Uygulamalı Web Geliştirme Eğitimi](https://www.udemy.com/course/komple-web-developer-kursu/learn/lecture/9815366#overview)
+- [Bootstrap Grid Sistem](https://www.sadikturan.com/bootstrap/bootstrap-grids/1201)
+- [Bootstrap Grid Sistem](https://www.tutorialspoint.com/bootstrap/bootstrap_grid_system.htm)
+- [Bootstrap Layout](https://getbootstrap.com/docs/4.1/layout/overview/)
+- [Bootstrap Izgara Grid Sistemi](https://fatihhayrioglu.com/bootstrap-izgara-Grid-sistemi-1/)
