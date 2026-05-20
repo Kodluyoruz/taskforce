@@ -251,17 +251,12 @@ SORU 2: Aşağıda bulunan kod bloğunda value değeri 2 ise kod çıktısı nas
 Cevap: Value değeri 2 olması durumunda case 2 çalıştırılır. Case 2 bloğunda break komutu olmadığından bir sonraki Case 3 bloğu çalıştırılır ve Value-3 çıktısı elde edilir.
 
 
-**Kaynakça:**
+## Kaynakça:
 
-
-
-[1]:  *The Switch Statement*, https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html
+- *The Switch Statement*, https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html
  
-[2]:  *Switch Statement in Java*, https://www.geeksforgeeks.org/switch-statement-in-java/
+- *Switch Statement in Java*, https://www.geeksforgeeks.org/switch-statement-in-java/
  
-[3]:  *Java Switch Statements*, https://www.w3schools.com/java/java_switch.asp
+- *Java Switch Statements*, https://www.w3schools.com/java/java_switch.asp
  
-[4]:  *Java Switch Case*, https://www.journaldev.com/588/java-switch-case-string
-
-
- 
+- *Java Switch Case*, https://www.journaldev.com/588/java-switch-case-string

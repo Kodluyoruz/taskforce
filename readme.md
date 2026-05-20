@@ -4,7 +4,7 @@ Taskforce ile amacımız topluluk destekli ve açık kaynaklı eğitim içerikle
 
 ## Nasıl destek olabilirsin
 
-İçeriklerimizi geliştirmemize yardım etmek mi istiyorsun? Bunu yapmak çok basit. Buradan içerik oluşturma şablonumuzu inceleyebilirsin ve sende önerdiğin içerikleri bize *Pull Request* yaparak gönderebilirsin. Ardından içerikler takımımız tarafından incelenecek ve eğer onaylanırsa ama branch'e eklenecek! (Buradan *Pull Request nasıl yapılır?* yazımıza göz atabilirsin.)
+İçeriklerimizi geliştirmemize yardım etmek mi istiyorsun? Bunu yapmak çok basit. Buradan içerik oluşturma şablonumuzu inceleyebilirsin ve sen de önerdiğin içerikleri bize *Pull Request* yaparak gönderebilirsin. Ardından içerikler takımımız tarafından incelenecek ve eğer onaylanırsa branch'e eklenecek! (Buradan *Pull Request nasıl yapılır?* yazımıza göz atabilirsin.)
 
 **Elbette destek olmanın başka yolları da var!**
 
@@ -20,7 +20,7 @@ Sana yol göstermesi açısından hazır şablonlar da oluşturduk. Lütfen içe
 
 ## Katkı verenler
 
-"Bir elin nesi var iki elin sesi var." atasözümüzün belki de en güzel örneği! Bu içerikleri bir kaç kişi değil yüzlerce insan hep birlikte oluşturduk. Bu içerikleri oluşturan kahramanlara [buradan](https://github.com/Kodluyoruz/taskforce/graphs/contributors) bakabilirsin! Eğer sende burada yer almak istersen **Nasıl destek olabilirsin** başlığına göz at!
+"Bir elin nesi var iki elin sesi var." atasözümüzün belki de en güzel örneği! Bu içerikleri bir kaç kişi değil yüzlerce insan hep birlikte oluşturduk. Bu içerikleri oluşturan kahramanlara [buradan](https://github.com/Kodluyoruz/taskforce/graphs/contributors) bakabilirsin! Eğer sen de burada yer almak istersen **Nasıl destek olabilirsin** başlığına göz at!
 
 ---
 

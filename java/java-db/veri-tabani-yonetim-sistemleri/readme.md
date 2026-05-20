@@ -1,6 +1,24 @@
 ## Veri Tabanı Yönetim Sistemleri
 
+**Veri Nedir?**
+
+Veri bilgiyi elde etmeye yönelik olan ve işlenmemiş ham, dağınık haldeki bilgi parçacıklarıdır. Çoğu zaman bilgi kavramı ile karıştırılır. Bilgi ise veriler aracılığı ile anlamlı bir bütün elde edecek şekilde bir araya gelmiş topluluktur. Basit bir deyişle, veriler dikkate aldığımız herhangi bir nesne ile ilgili gerçekler olabilir. Örneğin adımız, yaşımız, boyumuz, kilonuz vb. sizinle ilgili bütün bilgiler birer veridir. Bir resim, dosya, pdf de veri olarak kabul edilebilir.
+
+**Veritabanı Nedir?**
+
+Veritabanı; verilerin erişilebilir, yönetilebilir ve güncellenebilir hale getirilmesini sağlamak amacıyla yapılandırılmış bir veri koleksiyonudur. Basit bir deyişle, verilerin depolandığı bir yere bir veritabanı diyebiliriz. Buna günümüzden en iyi örnek kütüphanelerdir. Kütüphaneler, farklı türlerde büyük bir kitap koleksiyonu içerir, burada kütüphane veritabanıdır ve kitaplar verilerdir diyebiliriz.
+
+Veritabanı Yönetim Sistemi; birbiriyle ilişkili verilerin depolandığı koleksiyonlara erişmek için yapılandırılmış bir sistemler bütünüdür. Bir veri koleksiyonuna bilgilerin depolanmasını, geri alınmasını ve yönetimini kolaylaştıran yapıya veritabanı demiştik. Veritabanı Yönetim Sistemlerinin birincil amacı, veritabanlarındaki bilgilerinin alınması ve depolanması sırasında hem uygun hem de verimli bir ortam sağlamaktır. Veritabanı sistemleri, büyük veri kütlelerini yönetmek için tasarlanmıştır. Verilerin yönetimi, hem bilgilerin depolanması için yapıların tanımlanmasını hem de bilgilerin manipülasyonu için mekanizmaların sağlanmasını amaçlar. Ek olarak veritabanı sistemi, sistem çökmelerine veya yetkisiz erişim girişimlerine rağmen depolanan bilgilerin güvenliğini sağlamayı amaçlar. Veritabanı Yönetim Sistemleri, kısaca veritabanlarını yöneten bir yazılım sistemleri bütünüdür diyebiliriz. Aynı zamanda depolanan veri dosyaları ile işlemeyi talep eden programlar arasındaki arayüz işlemlerini sağlar.
+
 Veri tabanları üzerinde yönetim sağlayan sistemlerdir. Veri tabanı Yönetim Sistemi yeni veri tabanı oluşturmak, güncellemek, kullanmak, veri tabanı üzerinde kullanıcılar tanımlamak, kullanıcıların yetkilerini belirlemek gibi yönetsel olanaklar sağlamaktadır. Aşağıdaki imkanları sağlar.
+
+**Veritabanı Yönetim Sistemlerinin Amaçları Nelerdir?**
+
+Bir VTYS'nin birincil amacı, veritabanı bilgilerini almak ve depolamak için uygun bir ortam sağlamaktır. Tek kullanıcılı ve çok kullanıcılı ortamı destekler.
+- İlgili verilerin toplu olarak depolanmasını sağlamak,
+- Kullanıcılar için verilere erişimi kolaylaştırmak,
+- Verileri fiziksel zarar ve yetkisiz erişime karşı korumak,
+- Verilerin doğruluğu, tutarlılığı, bütünlüğü, güvenliği vb. gibi konuların üzerinde kontrolün kolaylaştırılması denilebilir.
 
 **Veri Tekilliği ve Veri Bütünlüğü:** Veriler merkezi bir noktada tutularak, yazılımların sürekli mükerrer ve tutarsız veriler üretmesini önler. Veriler tek noktada toplanır, güncellenir veya tek noktadan sorgulanabilir.
 

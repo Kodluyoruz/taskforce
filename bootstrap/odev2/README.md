@@ -9,7 +9,7 @@ Bootstrap ile sizin için böyle bir yapı geliştirdik ve geliştirme sırası 
 
 ![brokeninstagram](https://github.com/Kodluyoruz/taskforce/raw/main/bootstrap/odev2/figures/instagrambroken.gif)
 
-**Hazırlamış olduğumuz Instagram clone'una [buradan](instagramclone/) ulaşabilirsiniz.**
+**Hazırlamış olduğumuz Instagram clone'una [buradan](https://drive.google.com/drive/folders/1hRWmpYpuax4Aqsf_BRKdpDoNUowTpzKe?usp=sharing) ulaşabilirsiniz.**
 
 ### Sizden Beklediklerimiz
 - Navbarı yukarı **sabitleyip** sayfayı aşağı kaydırdığınızda hala yukarıda durmasını sağlayın. İçerik ile birleşmemesi için body'e `padding` veriniz.
@@ -23,7 +23,7 @@ Bootstrap ile sizin için böyle bir yapı geliştirdik ve geliştirme sırası 
 - Menü kısmına **soldan 5 birim üstten 2 birim** `margin` verin.
 - Menü kısmına sayfa **sm** boyutunda olunca kaybolacak şekilde `display` verin. Bunun için [Bootstrap Display property](https://getbootstrap.com/docs/4.5/utilities/display/) sayfasını inceleyebilirsiniz.
 - İçerik alanı (ortadaki alan) `offset` **4** olmalı ve **üstten 2** birim `margin` almalı.
-- Classta belirttiğimiz `middlearea` içinde maksimum yükseklik **200px** olmalı ve bunu `important` ile yazmalısınız. *(`important`'ın ne olduğunu, ne işe yaradığını henüz bilmiyorsanız bir "Css important nedir?" şeklinde aramanızı ve ne işe yaradığını öğrenmenizi öneririz. Unutmayın parametre vermek bazen istemediğiniz durumlara yol açabilir bilinçli kullanmak gerekir.)*
+- Class'da belirttiğimiz `middlearea` içinde maksimum yükseklik **200px** olmalı ve bunu `important` ile yazmalısınız. *(`important`'ın ne olduğunu, ne işe yaradığını henüz bilmiyorsanız bir "Css important nedir?" şeklinde aramanızı ve ne işe yaradığını öğrenmenizi öneririz. Unutmayın parametre vermek bazen istemediğiniz durumlara yol açabilir bilinçli kullanmak gerekir.)*
 - Bu alanın `col`'unun default değerini **12**, diğer tüm ölçekleri ise **6** olarak ayarlayın. Yani normal boyutta 12, sayfa küçülüp büyüdükçe, boyutuyla oynadıkça 6 ölçek olacak şekilde ayarlayın. *(`Grid` sistemin 12'lik olduğunu hatırlayın)*
 - Hikayeler kısmında isimler nasıl resimlerin altına gelecek? *(İpucu: Arama kısmında kullandığımız özellik)*
 - İçerik kısmında üç nokta sağda olmalı.
@@ -32,13 +32,13 @@ Bootstrap ile sizin için böyle bir yapı geliştirdik ve geliştirme sırası 
 - Card header ve card footerlar **beyaz** renk olmalı.
 - Yorum paylaş metnini **sağa** alın.
 - Sağ panele verilen alan sizce yeterli mi? Değilse düzeltin.
-- Sağ panel için `stickysidebar` ve `rightpanel` diye iki class verdiğimizi fark etmişsiniz. `Stickysidebar` bu panelin sayfayı aşağı kaydırdıkta onun da gelmesini sağlıyor. Bunu sağlamak için için CSS'in [position property](https://www.w3schools.com/css/css_positioning.asp)sini kullanabilirsiniz. `Rightpanel`'de de arkaplan rengi **beyaz** olup **kenarlık olmamalı**.
+- Sağ panel için `stickysidebar` ve `rightpanel` diye iki class verdiğimizi fark etmişsiniz. `Stickysidebar` bu panelin sayfayı aşağı kaydırdıkça onun da gelmesini sağlıyor. Bunu sağlamak için için CSS'in [position property](https://www.w3schools.com/css/css_positioning.asp)sini kullanabilirsiniz. `Rightpanel`'de de arkaplan rengi **beyaz** olup **kenarlık olmamalı**.
 - Tümünü gör ve takip et yazılarını **sağa** alınız.
 - Bütün sayfanın arkaplan rengini Instagram'dan alıp uygulayın.
 
 Burada belirtmediğimiz ama gözünüze takılan bir yer olursa orayı da düzeltin. Bu ödev için bol bol Instagram sitesini **inspect/incele** etmeniz gerekecek.
 
-Buradaki ana amacımız bootstrap elementlerini kullanarak ve özellikle deneyip yanılarak doğru yöntemi bulmanız. Mükemmel olmasına gerek yok.
+Buradaki ana amacımız Bootstrap elementlerini kullanarak ve özellikle deneyip yanılarak doğru yöntemi bulmanız. Mükemmel olmasına gerek yok.
 Unutmayın efektif olması mükemmel olmasından daha önemlidir.
 
 ![arog](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/odev2/figures/arog.jpg)

@@ -1,44 +1,29 @@
 # List interface (Arayüzü)
 
+Collection Interface'ini implemente eden List Interface'i Java 5 ile jenerik (generic) olmuştur. Veriler, geliş sırasına göre (ordered) tutulur. 
+
+List'lerin her elemanı bellekte kendine özgü bir alan tutar. List üzerinde veri ekleme ve bu verilere erişme indis(index) denilen integer sayılar üzerinden yapılır. Başlangıç indisi sıfırdır.
+
+List Interface'inden kalıtım alan sınıflarda, tekrarlı (duplicate) veya null değerli elemanlar tutulabilir.
+
+Dizilerin kullanıldığı her yerde List'ler kullanılabilirler ayrıca birbirlerine dönüştürülebilirler. Veri işlemeye yarayan metotlarından dolayı List'ler, programcılar, bu yapıları daha çok tercih ederler.
 
 
-Collection interface’den türemiş bir interface’dir. List interface’den kalıtım alan alt sınıflar vardır. Bu interface’den kalıtım alan sınıflarda veri kümesine mükerrer kayıt ekleyebilirsiniz. Aynı zaman null değere sahip elemanları da veri kümesine dahil edebilirsiniz.
+
+Bu interface'te implemente edilen metotlar;
 
  
 
-List interface’den türemiş sınıflarda veri kümesine ekleme, çıkarma, okuma işlemleri yapabilirsiniz. Veri kümesindeki elemanların her birinin bir indisi vardır. Aynı dizilerdeki gibi veri kümesinden eleman okuması yaparken indis ile erişebilirsiniz. List interface de Generic Tipleri destekler. Böylece veri tipi güvenliği sağlar. TypeCasting (Tip Dönüşümü) yapmanıza gerek bırakmaz.
-
-List interface Collection interface’e ek olarak aşağıdaki fonksiyonları da içerir.
-
- 
-
-| get(int index)                       | Verilen  indisteki nesneyi getirir.                          |
-| ------------------------------------ | ------------------------------------------------------------ |
-| add(Object  element)                 | Listeye eleman  eklemeyi sağlar. Eğer, indisle birlikte nesneyi verirseniz, ilgili indisin  gösterdiği noktaya elemanı ekler. Aynı indiste başka bir nesne varsa onun  üzerine yazar. |
+| Metot imzaları                       | Açıklama                                                     |
+| ------------------------------------ | :----------------------------------------------------------- |
+| get(int index)                       | Verilen indisteki nesneyi getirir.                           |
+| add(Object  element)                 | Listeye eleman  eklemeyi sağlar. Eğer, indisle birlikte nesne verilirse, ilgili indisin  gösterdiği noktaya elemanı ekler. Aynı indiste başka bir nesne varsa onun  üzerine yazar. |
 | indexOf(Object)                      | Verilen bir  nesnenin listede hangi indiste tutulduğunu bulur. |
 | remove(int  index)                   | Verilen  indisteki elemanı siler.                            |
 | set(int index,  Object element)      | Verilen  indisteki elemanı başka bir eleman ile değiştirir.  |
 | subList(int  fromIndex, int toIndex) | Verilen  indisler arasındaki elemanlardan oluşan yeni bir liste oluşturur. |
 
- 
-
-## List ve Set Farkları
-
-List ve Set interfaceleri her ikisi de Collection interface’den kalıtım almıştır. Her iki interface’den türeyen alt sınıflar liste halindeki veri kümeleri üzerinde işlemler yaparlar. Bu nedenle aslında birbirine çok benzerdirler.
-
- 
-
-List ve Set arasındaki en önemli birinci fark List tipindeki sınıflarda liste halindeki veri içerisinde mükerrer kayıt bulunabilir. Yani elimizde basitçe bir isim listesi olsun “Mehmet”, “Ahmet”, “Mehmet” bu liste içinde “Mehmet” değerinden birden fazla olabilir. Set interface’den türeyen alt sınıflarda ise mükerrer kayıt olmaz. Her elemandan sadece bir adet olabilir. İkinci kez tekrar eden bir eleman bulunmaz.
-
- 
-
-Diğer ikinci önemli fark ise List interface’den türeyen alt sınıflarda veri kümesine eleman eklenme sırasına göre tutulur. Yani “5”, “10”, “20” gibi bir liste oluşturduğumuzda sırayla bu elemanlar veri kümesine dahil edilir. “5” 1. Eleman olacaktır, “10” 2. Eleman olacaktır. Set interface’den türeyen alt sınıflarda ise eklenme sırasına göre bir sıralama yapılmaz. Rastgele bir sıralamaya sahiptirler. Sıralı tutabilmek için “SortedSet” isminde “Set” interface’den kalıtım alan başka bir interface kullanmak gerekir.
-
- 
-
 ## List interface’in alt sınıfları
-
- 
 
 \-    ArrayList
 
@@ -48,31 +33,59 @@ Diğer ikinci önemli fark ise List interface’den türeyen alt sınıflarda ve
 
 \-    Stack
 
- 
-
-En sık kullandığımız düz bir liste şeklinde verileri tutan “ArrayList” tipindeki alt sınıftır.
-
- 
+NOT: Vector ve Stack sınıfları, legacy (miras) sınıflardır. Java 5'ten önceki versiyonlarında var olup, artık daha iyi alternatifleri olan sınıflardır. Hala bu sınıfları kullanan projeler olabileceği için tamamen kaldırılamazlar. 
 
 ### ArrayList Sınıfı
 
- 
+List Interface’den türemiş alt sınıf olan ArrayList, liste halindeki verileri dinamik diziler(array) kullanarak saklar. Default boyutu 10’dur. 
 
-List interface’den türemiş bir alt sınıftır. Liste halindeki verileri tutabilmeyi sağlar. Liste halindeki verileri tutmak için sıkça kullanılır. ArrayList’in dizilerden farkı çalışma zamanında kapasitesi dolunca boyutunu kendiliğinden dinamik olarak büyüyebilir. Böylece, esnek bir yapıya sahiptir. Ayrıca eleman ekleme ve çıkarma işlemleri fonksiyonlar vasıtasıyla basit bir şekilde yapılır. Elemanları bir dizi gibi blok olarak tutar. Araya ekleme veya silme yapınca kaydırma işlemi yapması gerekir. Bu da maliyetli bir iştir.
+![img](figures/arraylist.png)
 
- 
+Bu dizilere yeni eleman eklendikçe eğer boyutu yetmiyorsa, çalışma zamanında, arka tarafta var olan dizinin boyutunun 2 katı olan yeni dizi tanımlanır. Eski dizideki elemanlar indis değerleri korunarak yeni diziye aktarılırlar. Esnek fakat maliyetli bir collection’dır. 
+
+Veri saklamak ve veriye erişimin yoğun olduğu durumlar için ArrayList tercih edilir.
+
+ArrayList’ler tanımlanırken <>(diamond) operatörleri arasına içerisinde tutulacak değerlerin tipi yazılmalıdır. 
+
+Araya ekleme veya silme işlemleri yapılması durumunda kaydırma işlemleri yapılması gerekir. Bu durum performansı düşürür.
+
+ArrayList sınıfı thread-safe değildir. Bir ArrayList’e aynı anda birden fazla thread erişebilir. Bu durum veri bütünlüğünü bozar. 
+
+
+
+Sınıf imzası;
 
 ```java
+public class ArrayList<E> extends AbstractList<E> implements List<E>, RandomAccess, Cloneable, Serializable  
+```
+
+
+
+| Constructor                          | Açıklama                                                     |
+| ------------------------------------ | :----------------------------------------------------------- |
+| ArrayList()                          | Boş bir ArrayList oluşturmak için kullanılır.                |
+| ArrayList(Collection<? extends E> c) | C Collection'ının öğeleriyle başlatılan bir ArrayList oluşturmak için kullanılır. |
+| ArrayList(int capacity)              | Belirtilen başlangıç kapasitesine sahip bir ArrayList oluşturmak için kullanılır. |
+
+
+
+```java
+//String tipinde elemanları tutan ArrayList initialize
 List<String> nameList = new ArrayList<String>();
+
+//İndis 0'dan başlayarak elemanları sırayla yerleştirir.
 nameList.add("Gamze");
 nameList.add("Elif");
 nameList.add("Mustafa");
 nameList.add("Umut");
 nameList.add("Umut");
+//ArrayList null değerli eleman tutabilir.
 nameList.add(null);
  
+//Tüm listeyi ekrana yazdırır.
 printAll(nameList);
- 
+
+//size() metodu, Collection Interface'inden gelen bir mirastır.
 System.out.println("Size of list: " + nameList.size());
  
 // get ile listeden eleman okuması yapılır. Okunan eleman listeden çıkartılmaz.
@@ -80,15 +93,21 @@ System.out.println("Element of 1 index: " + nameList.get(1));
 System.out.println("Element of 2 index: " + nameList.get(2));
  
  
-// ilk geçen noktadaki Umut bilgisinin indis değerini veriyor.
+// Liste başından taramaya başlarayarak ilk geçen noktadaki Umut bilgisinin indis değerini verir.
 System.out.println("Index of 'Umut': " + nameList.indexOf("Umut"));
  
-// son geçen noktadaki Umut bilgisinin indis değerini veriyor.
+// Liste sonundan taramaya başlayarak son geçen noktadaki Umut bilgisinin indis değerini verir.
 System.out.println("Index of 'Umut': " + nameList.lastIndexOf("Umut"));
  
-nameList.set(1, "Zeynep");
+//add() fonksiyonuna ilk verilen argüman indis, sonraki elemandır.
+//Verilen indise gidip verilen elemanı koyar.
+//Verilen indiste daha önceden tanımlanmış değer varsa, fonksiyondaki elemanı o indise koyar ve geri kalan elemanları kaydırır.
+nameList.add(3, "Zeynep");
  
-printAll(nameList);
+//set() fonksiyonuna ilk verilen argüman indis, sonraki elemandır.
+//Verilen indise gidip verilen elemanı koyar.
+//Verilen indis, liste boyutunun dışında olmamalıdır.
+nameList.set(1, "Naz");
  
  
 // contains ile liste içinde aradığımız eleman var mı yok mu belirtir.
@@ -111,6 +130,8 @@ nameList.addAll(newNameList);
  
  
 // listeden alt bir liste oluşturmak için "sublist" fonksiyonunu kullanırız.
+//Başlangıç ve bitiş indisleri verilir.
+//Başlangıç indisindeki eleman dahil, bitiş indisindeki eleman hariç yeni bir liste oluşturulur.
 List<String> subList = nameList.subList(4, 6);
  
 System.out.println("Sublist from name list");
@@ -130,19 +151,40 @@ String[] stringArray = nameList.toArray(new String[0]);
 nameList.clear();
 ```
 
- 
+
 
 ### LinkedList Sınıfı
 
- 
+Çift yönlü bağlı liste algoritmasının Java implementasyonudur. Her eleman önceki ve sonraki elemanını işaret edecek şekilde iki yönlü bir ilişki kurulmuştur. Listenin ben başına hem sonuna eleman eklenip çıkarılabilir, bu işlemler için metotlar mevcuttur. LinkedList’te eleman silme veya araya eleman ekleme durumlarında kaydırma işlemi yapılmaz. 
 
-ArrayList sınıfına çok benzer. Çift yönlü bağlı liste algoritmasının Java’da hazır haldeki halidir.
 
-![img](file:///C:/Users/ozan-/AppData/Local/Packages/oice_16_974fa576_32c1d314_17f5/AC/Temp/msohtmlclip1/01/clip_image010.png)
 
-Yukarıdaki gibi her eleman önceki ve sonraki elemanını işaret edecek şekilde çift yönlü bir ilişki içindedir. Bu yapıda eleman silme veya araya eleman ekleme durumlarında kaydırma işlemi yapılmaz.
+![img](figures/linkedlist.png)
 
- 
+
+
+Bu listeye gönderilen veriler, arka planda özel bir obje ile sarılır (wrap) edilir. Bu objeler birbirini gösterecek şekilde referanslar objelere konur, böylece birbirlerine bağlanırlar.  
+
+Kullanılacak veri grubunu bir listeye koymamız ve bu gruba veri ekleme işlemi sürekli  yapılacaksa, LinkedList kullanılması önerilir. 
+
+LinkedList sınıfı, ArrayList gibi thread-safe değildir. Bu List türünde de veri bütünlüğünü sorunu vardır. 
+
+LinkedList, hem List interface'inden hem Queue (Kuyruk) interface'inden miras alan bir sınıftır.
+
+
+
+Sınıf imzası;
+
+```java
+public class LinkedList<E> extends AbstractSequentialList<E> implements List<E>, Deque<E>, Cloneable, Serializable  
+```
+
+
+
+| Constructor                           | Açıklama                                                     |
+| ------------------------------------- | :----------------------------------------------------------- |
+| LinkedList()                          | Boş bir LinkedList oluşturmak için kullanılır.               |
+| LinkedList(Collection<? extends E> c) | Koleksiyonun yineleyicisi tarafından döndürülen sırayla belirtilen koleksiyonun öğelerini içeren bir liste oluşturmak için kullanılır. |
 
 ```java
  
@@ -155,20 +197,15 @@ nameList.add("Mehmet");
 nameList.add("Kemal");
  
 // get ile listeden eleman okuması yapılır. Okunan eleman listeden çıkartılmaz.
-System.out.println("Element of 1 index: " + nameList.get(1));
 System.out.println("Element of 2 index: " + nameList.get(2));
+
+// Liste başına eleman ekler
+nameList.addFirst("Naz");
+
+// Liste sonuna eleman ekler
+nameList.addLast("Ümit");
+
 ```
 
- 
-
-### LinkedList ile ArrayList Farkları
-
- 
-
-| **ArrayList**                                                | **LinkedList**                                               |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Dinamik bir  dizi ile çalışır.                               | Çift yönlü  bağlı listeyi kullanır.                          |
-| Veri kümesi  üzerinde eleman ekleme-çıkarma işlemleri yoğunsa ArrayList yavaş çalışır.  Çünkü, her araya ekleme ve çıkarma sonucu kaydırma işlemi yaptığından  performans düşer. | Veri kümesi  üzerinde eleman ekleme çıkarma işlemlerinde ArrayList’e göre hızlıdır. Çünkü,  veri yapısı gereği herhangi bir kaydırma işlemine gerek duymaz. |
-| Veri saklamak  ve veriye erişimin yoğun olduğu durumlar için ArrayList tercih edilir. | Veri kümesi  üzerinde yoğun bir şekilde ekleme-çıkarma gibi güncelleme işlemleri varsa bu  durumda LinkedList tercih edilir. |
-
+ArrayList'te implemente edilen metotların çoğu LinkedList için de geçerlidir.
 

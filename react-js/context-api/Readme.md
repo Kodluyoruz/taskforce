@@ -261,6 +261,61 @@ HeaderButton componentimizi de tanımladıktan sonra `HeaderContainer` component
 
 [CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/eYdGKxb).
 
+## useContext
+
+Context'i kullandığınız component Fonksiyon tipinde bir (Functional Component)  component ise, Context.Consumer ile değerlere erişmek yerine React'ın sağlamış olduğu **useContext** hook'unu kullanarakta context'in Provider'ı içerisinde sağlanan değerlere erişebiliriz.
+
+### useContext Nasıl Kullanılır?
+
+useContext hook'u içerisine, createContext ile oluşturan context verilir. Bu hooks sonuç olarak bize, hooks içerisine yazılan context'in sağlamış olduğu değerleri bir nesne (object) olarak döndürür.
+
+```js
+const value = useContext(MyContext);
+```
+
+useContext'i kullanan bir component, değerlerin değişmesi durumunda her zaman tekrar render edilir.
+
+useContext'i kullanabilmeniz için tabiki öncelikle Provider'ı önceki örneklerimizde de yaptığımız gibi component ağacımızda önceden kullanmanız gerekmektedir.
+
+Yukarıdaki örneğimizde HeaderTitle ve HeaderButton componentleri içerisinde, Context'in Consumer'ını kullanarak context değerlerine erişiyorduk. Bu sefer bu değerlere useContext'i kullanarak erişmeyi deneyelim.
+
+İlk olarak HeaderTitle componentini düzenleyelim. HeaderTitle içerisinde useContext hook'unu çağıralım. Bu hook içerisine, oluşturduğumuz context'i verelim ve bunu bir değişkene aktaralım.
+
+Daha sonrasında Consumer'ı silelim vee işte bu kadar 🥳 Context'imizin içerisinde yer alan *title* state'ine useContext hook'unu kullanarak erişmiş olduk.
+
+```js
+import React, { useContext } from 'react';
+
+...
+
+const HeaderTitle = () => {
+  const context = useContext(Context);
+
+  return <p>{context.title}</p>;
+};
+
+...
+```
+
+Aşağıdaki kod bloğunda HeaderButton componentinin useContext kullanarak yazılışı yer almaktadır. Kod'a bakmadan önce kendiniz değiştirip  uygulamayı çalıştırmayı deneyin. Butona tıklandığında title değişiyorsa başarılı şekilde useContext'i kullanmışsınız demektir :)
+
+```js
+
+import React, { useContext } from 'react';
+
+...
+
+const HeaderButton = () => {
+  const context = useContext(Context);
+
+  return (
+    <button onClick={context.setHeaderTitle}>Click me to change Title</button>
+  );
+};
+
+...
+```
+
 ## Kaynaklar
 
 - <https://www.toptal.com/react/react-context-api>

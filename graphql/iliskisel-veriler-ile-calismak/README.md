@@ -1,0 +1,1 @@
+iliskisel-veriler-ile-calismak

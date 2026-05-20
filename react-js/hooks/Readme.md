@@ -11,23 +11,20 @@ React, tekrar kullanılabilecek bir fonksiyonun/davranışın, başka bir bileş
 
 ![React-wrapper-cehennemi](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/hooks/figures/React-wrapper-cehennemi.jpg)
 
-​								Ryu’nun hadouken atmış hali gibi görünen Wrapper yığını debug işlemlerini de güçleştiriyor
-
-
-
-Bu problem temelinde, React’ın stateful işlerin aktarılması için daha iyi bir yaklaşım sunması gerektiğine işaret ediyor.
+Ryu’nun hadouken atmış hali gibi görünen Wrapper yığını debug işlemlerini de güçleştiriyor. Bu problem temelinde, React’ın stateful işlerin aktarılması için daha iyi bir yaklaşım sunması gerektiğine işaret ediyor.
 
 #### Karmaşık class component’lerinin okunabilirliğinin zor olması
 
-React uygulamalarında yazılan basit componentler, zaman içerisinde büyüyerek yönetilemez bir kod yığını ve yan etkilerle dolu bir hale gelir. Her bir component’in lifecycle metodu genellikle kendisi ile ilişkisiz kodlar ile karışmış bir durum alır. Örneğin componentDidMount() ve componentDidUpdate() metodlarında api çağrımı işlemleri gerçekleştirilebiliyor. Ancak aynı componentDidMount() metodu ilgili event listener’ların oluşturulması ve componentDidUpdate()’de bu listener’ların silinmesi gibi veri ile ilişkisiz işlemleri de içerebilir. Bu durumda birbiriyle ilişkili kodlar birbirinden ayrı metodlara (didMount() ve didUpdate()’e) konur fakat bunun aksine ilişkisiz kodlar (veri çekme ve event listener işlemleri) ise aynı metod içerisinde yer alır hale gelir. Bu durumda beklenmedik hatalar ve tutarsızlıklar oluşabilir.
+React uygulamalarında yazılan basit componentler, zaman içerisinde büyüyerek yönetilemez bir kod yığını ve yan etkilerle dolu bir hale gelir. Her bir component’in lifecycle metodu genellikle kendisi ile ilişkisiz kodlar ile karışmış bir durum alır. 
+
+**Örneğin:** `componentDidMount()` ve `componentDidUpdate()` metodlarında api çağrımı işlemleri gerçekleştirilebiliyor. Ancak aynı `componentDidMount()` metodu ilgili event listener’ların oluşturulması ve `componentDidUpdate()`’de bu listener’ların silinmesi gibi veri ile ilişkisiz işlemleri de içerebilir. Bu durumda birbiriyle ilişkili kodlar birbirinden ayrı metodlara (`didMount()` ve `didUpdate()`’e) konur. Fakat bunun aksine ilişkisiz kodlar (veri çekme ve event listener işlemleri) ise aynı metod içerisinde yer alır hale gelir. Bu durumda beklenmedik hatalar ve tutarsızlıklar oluşabilir.
 
 Stateful işlemler bütün component’te yer aldığı için bu tarz component’leri daha küçük component’lere bölmek de çoğu zaman imkansız hale gelir. Bu nedenle geliştiriciler, ayrı bir state yönetim kütüphanesi (Redux, MobX) kullanımına giderek bu durumu çözmeye çalışırlar. Fakat bu durumda da bileşenler arası soyutlama oldukça artar ve kodu anlamak için dosyalar arasında git-gel yapmayı gerektiren zorlu bir durum oluşur.
 
 
 ![Drake-meme-useEffect](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/hooks/figures/Drake-meme-useEffect.jpg)
 
-​					Hook’lar sayesinde componentDidMount() ve componentDidUpdate() yerine useEffect() fonksiyonu kullanılır.
-
+Hook’lar sayesinde `componentDidMount()` ve `componentDidUpdate()` yerine `useEffect()` fonksiyonu kullanılır.
 
 
 Bunu çözmek için hook’lar bir bileşeni birbirleri ile ilişkili daha küçük fonksiyonlara bölmeyi sağlar. Effect hook’ta buna değineceğiz.
@@ -39,7 +36,7 @@ React’i öğrenme aşamasında farketmişsinizdir. JavaScript’teki `this` ke
 
 ![Java-vs-JavaScript-classes](https://raw.githubusercontent.com/Kodluyoruz/taskforce/react/react-js/hooks/figures/Java-vs-JavaScript-classes.jpg)
 
-​								JavaScript’te class gibi görünen yapılar aslında temelinde prototype ile çalışırlar.
+JavaScript’te class gibi görünen yapılar aslında temelinde prototype ile çalışırlar.
 
 `handleClick` gibi custom olarak oluşturulan event’lerin çalışabilmesi için `this `ile bind etmek gereklidir.
 
@@ -51,7 +48,9 @@ constructor(props) {
 
 ```
 
-İlgili component’i, Babel’ın [syntax proposal’ı](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties) olmadan yazmak component’in gereksiz bind fonksiyonlarıyla dolup taşmasına neden oluyor. Gelişticiler props, state ve top-down veri akışını oldukça iyi çözümlerken, iş class’a gelince kafada halen soru işaretleri kalmaya devam ediyor. React’te class component’leri ile fonksiyonel component’lerin ayrımının yapılması ve nerede hangi component tipinin kullanılması gerektiği, deneyimli React geliştiricileri arasında bile anlaşmazlıklara yol açıyor. Ayrıca JavaScript’te class kullanımı mevcut geliştirim araçları üzerinde bazı sorunların oluşmasına da yol açıyor. Örneğin JavaScript sınıflarının minify edilmesi tam anlamıyla iyi bir şekilde gerçekleştirilemiyor. Bunun yanında class kullanımı, tarayıcı üzerinde hot reloading işlemini kararsız ve güvenilmez hale getiriyor. Bu nedenle kodun optimize bir seyirde ilerleyebilmesi için yeni bir API’ye ihtiyaç var.
+İlgili component’i, Babel’ın [syntax proposal’ı](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties) olmadan yazmak component’in gereksiz bind fonksiyonlarıyla dolup taşmasına neden oluyor. Gelişticiler props, state ve top-down veri akışını oldukça iyi çözümlerken, iş class’a gelince kafada halen soru işaretleri kalmaya devam ediyor. React’te class component’leri ile fonksiyonel component’lerin ayrımının yapılması ve nerede hangi component tipinin kullanılması gerektiği, deneyimli React geliştiricileri arasında bile anlaşmazlıklara yol açıyor. Ayrıca JavaScript’te class kullanımı mevcut geliştirim araçları üzerinde bazı sorunların oluşmasına da yol açıyor. 
+
+**Örneğin:** JavaScript sınıflarının minify edilmesi tam anlamıyla iyi bir şekilde gerçekleştirilemiyor. Bunun yanında class kullanımı, tarayıcı üzerinde hot reloading işlemini kararsız ve güvenilmez hale getiriyor. Bu nedenle kodun optimize bir seyirde ilerleyebilmesi için yeni bir API’ye ihtiyaç var.
 
 Bu gibi problemlerin çözümü için hook’lar, class kullanmaksızın fonksiyonlar yardımıyla React’ın özelliklerinden yararlanmayı sağlar. Component’ler konsept olarak fonksiyonel kullanıma daha olduklarından dolayı, hook’lar sayesinde React’ın pratikliğinden ödün vermeksizin uygulama geliştirilebilir.
 
@@ -91,10 +90,10 @@ ReactDOM.render(<Sayac/>, rootElement);
 
 `useState()` fonksiyonu aslında bir state hook. Bu hook’u, fonksiyon component’i içerisinde çağırıp içerisine istediğimiz state değişkenlerini atayabiliyoruz. Butona tıklanıp tekrar render edilme esnasında React bu state’i koruyor. `useState` iki değer return ediyor:
 
-1. **Atanan mevcut değer**. Bu mevcut değeri yani 0 değerini alıp adet değişkenine atamış oluyoruz.
-2. **Değeri değiştirme fonksiyonu.** Bu fonksiyon ile yani adediAta fonksiyonuyla state’in ilgili değeri değiştirilebilir. Değiştirme fonksiyonu class component’larında kullanılan `this.setState` fonksiyonu gibi çalışır. Tek fark, `this.setState`fonksiyonunda state eski state ile birleştirilir, değiştirme fonksiyonunda ise birleştirme yerine değiştirme (replace) işlemi uygulanır.
+1. **Atanan mevcut değer.** Bu mevcut değeri yani `0` değerini alıp adet değişkenine atamış oluyoruz.
+2. **Değeri değiştirme fonksiyonu.** Bu fonksiyon ile yani `adediAta()` fonksiyonuyla state’in ilgili değeri değiştirilebilir. Değiştirme fonksiyonu class component’larında kullanılan `this.setState` fonksiyonu gibi çalışır. Tek fark, `this.setState`fonksiyonunda state eski state ile birleştirilir, değiştirme fonksiyonunda ise birleştirme yerine değiştirme (replace) işlemi uygulanır.
 
-`useState`‘in aldığı argüman başlangıç state’ini belirler. Yukarıdaki örnekteki 0 değerini, sayacın ilk başlangıç değeri olan 0’ın atanması için kullandık. Burada dikkat edecek olursak, `this.state`‘te yapılan obje atamalarına ek olarak state’e herhangi bir primitive değer ataması da gerçekleştirebiliyoruz.
+`useState`‘in aldığı argüman başlangıç state’ini belirler. Yukarıdaki örnekteki `0` değerini, sayacın ilk başlangıç değeri olan `0`’ın atanması için kullandık. Burada dikkat edecek olursak, `this.state`‘te yapılan obje atamalarına ek olarak state’e herhangi bir primitive değer ataması da gerçekleştirebiliyoruz.
 
 ##### Çoklu state değişkenlerinin tanımlanması
 
@@ -177,7 +176,7 @@ function ArkadasDurumu(props) {
 }
 ```
 
-Bu örnekte, component unmount olduğu anda React, ChatAPI aboneliğinden çıkmış olacaktır. Ayrıca her render işleminden sonra effect metodu çalışacağı için, herhangi bir render işlemi gerçekleşirse yine abonelikten çıkma işlemini gerçekleştirecektir. Bunu engellemek için, sadece `props.arkadas.id` özelliği değiştiği durumda abonelikten çıkmayı sağlayacak şekilde useEffect metodu değiştirilebilir:
+Bu örnekte, component *unmount* olduğu anda React, ChatAPI aboneliğinden çıkmış olacaktır. Ayrıca her render işleminden sonra effect metodu çalışacağı için, herhangi bir render işlemi gerçekleşirse yine abonelikten çıkma işlemini gerçekleştirecektir. Bunu engellemek için, sadece `props.arkadas.id` özelliği değiştiği durumda abonelikten çıkmayı sağlayacak şekilde `useEffect` metodu değiştirilebilir:
 
 ```javascript
 useEffect(() => {
@@ -220,8 +219,6 @@ Hook’lar temelinde JavaScript fonksiyonudurlar. Fakat state ve lifecycle ile i
 
 1. Hook’lar component’in **top-level** kısmından çağrılmalıdırlar. Yani döngüler, if cümlecikleri veya iç içe fonksiyonlar içerisinde kullanılmamalıdırlar.
 2. Hook’lar React’ın **fonksiyonel component**‘leri içerisinden çağrılmalıdırlar. Sıradan herhangi bir fonksiyon içerisinden çağrılmamalıdırlar.
-
-
 
 ## Kendi hook’unuzu tasarlayın
 
@@ -284,7 +281,7 @@ function ArkadasListItem(props) {
 
 Bu component’lerin state’leri tamamen birbirinden ayrı halde bulunuyor. Hook’lar state’in kendisin aktarılması yerine, state ile ilişkili mantıksal işlemin tekrar kullanılabilmesine olanak sağlıyor. Oluşturduğumuz hook’a yapılan her çağrı tamamen izole bir state’te tutulduğu için, tek bir component içerisinde bile iki defa aynı hook çağrılabilir.
 
-Custom hook’lar bir özellikten ziyade, anlaşma deseni sunarlar. Eğer bir fonksiyon “`use`” ile başlıyorsa ve diğer hook metodları çağırıyorsa, o fonksiyona custom hook diyebiliriz. `use`‘lu isimlendirme deseni sayesinde linter eklentisi hataların tespit edilmesini sağlamış olur.
+Custom hook’lar bir özellikten ziyade, anlaşma deseni sunarlar. Eğer bir fonksiyon “`use`” ile başlıyorsa ve diğer hook metodları çağırıyorsa, o fonksiyona custom hook diyebiliriz. `use`‘lu isimlendirme deseni sayesinde "linter eklentisi" hataların tespit edilmesini sağlamış olur.
 
 Form işleme, animasyon, deklaratif abonelik işlemleri, setInterval gibi zamanlayıcılar ve diğer birçok işlem için özel hook’lar oluşturulabilir.
 

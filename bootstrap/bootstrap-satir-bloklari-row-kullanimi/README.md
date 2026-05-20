@@ -4,10 +4,10 @@ Grid sistem, satırlardan(rows) ve sütunlardan (column) oluşur. Bir satır(row
 
  ![gridLayout](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/Bootstrap-part-2.png)
 
-- Satırlar `.row` sınıfı ile oluşturulur ve sayfada alt alta görünürler ve sütunlar dışında içerik barındırmamalı.
+- Satırlar `.row` sınıfı ile oluşturulur, sayfada alt alta görünürler ve sütunlar dışında içerik barındırmamalı.
 - Satırların içerisine doğruca sütunlar gelir ve responsive kullanımına bağlı olarak oluşturulan sütunlar yan yana veya alt alta yerleşebilir. Sütun oluşturmak için `.col`, `col- {boyut}` ya da `col-{kırılım}-{boyut}` sınıflarını kullanırız. 
 
- - Aşağıdaki örnekleri incelediğimiz de her bir satırı sırasıyla 2,3,4 eşit parçalara bölmüş olduk. Peki bunu nasıl yaptık?  `row`  sınıfının altına satırı bölmek istediğimiz kadar `col` sınıfı ekleriz. Bu şekilde bir satırı istediğimiz boyuttaki columnlar halinde oluşturabiliriz. İfade ettiğim cümleyi örneklerle daha iyi pekiştireceğimizi düşünüyorum.
+ - Aşağıdaki örnekleri incelediğimizde her bir satırı sırasıyla 2,3,4 eşit parçalara bölmüş olduk. Peki bunu nasıl yaptık?  `row`  sınıfının altına satırı bölmek istediğimiz kadar `col` sınıfı ekleriz. Bu şekilde bir satırı istediğimiz boyuttaki columnlar halinde oluşturabiliriz. İfade ettiğim cümleyi örneklerle daha iyi pekiştireceğimizi düşünüyorum.
 
 ```html
 <div class="row">
@@ -39,7 +39,7 @@ Grid sistem, satırlardan(rows) ve sütunlardan (column) oluşur. Bir satır(row
 
 ![4Columns](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/4column.PNG)
 
-Yukarıdaki örneklerde de görüldüğü üzere satırları eşit parçalar halinde columnlara ayırdık. Peki eşit olmayan columnlar yapabilir miyiz? Tabiki yapabiliriz. Şimdi de örneklerle eşit olmayan columnlar oluşturalım...
+Yukarıdaki örneklerde de görüldüğü üzere satırları eşit parçalar halinde columnlara ayırdık. Peki eşit olmayan columnlar yapabilir miyiz? Tabii ki yapabiliriz. Şimdi de örneklerle eşit olmayan columnlar oluşturalım...
 
 - Bu örnekte 2'ye 10'luk bir column oluşturduk.
 
@@ -64,7 +64,7 @@ Yukarıdaki örneklerde de görüldüğü üzere satırları eşit parçalar hal
 
 ![8of4Columns](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/8of4.PNG)
 
-- Satırları böldüğümüzde araya yada herhangi bir kenara boşluk ekleyebiliriz onu da şu şekilde gösterelim;
+- Satırları böldüğümüzde araya ya da herhangi bir kenara boşluk ekleyebiliriz onu da şu şekilde gösterelim;
 
 ```html
 <div class="row">
@@ -103,8 +103,8 @@ Yukarıdaki örneklerde de görüldüğü üzere satırları eşit parçalar hal
 ![içiçesatırlar](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-satir-bloklari-row-kullanimi/figures/img8.PNG)
 
 Kaynaklar:
-- [https://www.udemy.com/course/komple-web-developer-kursu/learn/lecture/9815366#overview](https://www.udemy.com/course/komple-web-developer-kursu/learn/lecture/9815366#overview)
-- [https://www.sadikturan.com/bootstrap/bootstrap-grids/1201](https://www.sadikturan.com/bootstrap/bootstrap-grids/1201)
-- [https://www.tutorialspoint.com/bootstrap/bootstrap_grid_system.htm](https://www.tutorialspoint.com/bootstrap/bootstrap_grid_system.htm)
-- [https://getbootstrap.com/docs/4.1/layout/overview/](https://getbootstrap.com/docs/4.1/layout/overview/)
-- [https://fatihhayrioglu.com/bootstrap-izgara-Grid-sistemi-1/](https://fatihhayrioglu.com/bootstrap-izgara-Grid-sistemi-1/)
+- [Komple Uygulamalı Web Geliştirme Eğitimi](https://www.udemy.com/course/komple-web-developer-kursu/learn/lecture/9815366#overview)
+- [Bootstrap Grid Sistem](https://www.sadikturan.com/bootstrap/bootstrap-grids/1201)
+- [Bootstrap Grid Sistem](https://www.tutorialspoint.com/bootstrap/bootstrap_grid_system.htm)
+- [Bootstrap Layout](https://getbootstrap.com/docs/4.1/layout/overview/)
+- [Bootstrap Izgara Grid Sistemi](https://fatihhayrioglu.com/bootstrap-izgara-Grid-sistemi-1/)

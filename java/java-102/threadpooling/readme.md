@@ -1,4 +1,4 @@
-# İş Parçacığı Havuzları (ThreadPooling)
+# İş Parçacığı Havuzları (ThreadPooling)
 
 Thread yaratmak cidden maliyetli bir olaydır. Her Thread için sistemde belli bir kaynak ayrılır. Bu kaynaklar CPU, Hafıza gibi önemli olanlardır. Uygulamamız çalışırken belli miktarda bir Thread ile sınırlandırmak isteyebiliriz. 
 

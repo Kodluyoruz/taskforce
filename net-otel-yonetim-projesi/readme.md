@@ -1,0 +1,23 @@
+# Otel Yönetim Projesi
+
+#### Otel Yönetim Projesi ####
+- [Otel Yönetim Projesine Giriş](otel-yonetim-projesine-giris)
+- [Creating Project](creating-project)
+- [Entity and Context](entity-and-context)
+- [Configuration and Migrations](configuration-and-migrations)
+- [Generic Repository Pattern](generic-repository-pattern)
+- [UnitOfWork Pattern](unitofwork-pattern)
+- [Basic Data Flow](basic-data-flow)
+- [Register User](register-user)
+- [Data Protection](data-protection)
+- [Login](login)
+- [Jwt Authentication](jwt-authentication)
+- [Features Controller](features-controller)
+- [Admin Authorize](admin-authorize)
+- [HotelCreate Transaction](hotelcreate-transaction)
+- [HotelGet](hotelget)
+- [HotelPatch and HotelDelete](hotelpatch-and-hoteldelete)
+- [HotelPut](hotelput)
+- [Settings and SeedData](settings-and-seeddata)
+- [Middleware](middleware)
+- [ActionFilter](actionfilter)

@@ -4,7 +4,7 @@ Dökümantasyonunda da belirtildiği üzere React, baştan sona aşamalı olarak
 
 ## Giriş
 
-Bir React uygulaması oluşturmak için bazı bağımlılık ve gereksinimlere ihtiyaç duyuyoruz. Bunların içerisinde hem modüler bileşenler oluşturmak için kullanılan zorunlu paketler (react, react-dom) hem de konfigürasyon dosyaları (webpack, babel) yer alıyor. Bunların hepsini ve daha fazlasını bizim için yapan bir araç olan *create-react-app* ile kolay ve hızlı bir şekilde bir React.js uygulaması oluşturmak mümkün. Bu araç React ekibi tarafından sunuluyor ve hem React öğrenmeye yeni başlayanlar hem de belirli ölçekte proje geliştirmek isteyenler için bir hazır bir iskelet yapı sağlıyor. Bu sayede Babel, webpack gibi bağımlılıkları manuel olarak konfigüre etmeye gerek kalmadan hızlıca bir React.js uygulaması geliştirmeye başlayabiliyoruz.
+Bir React uygulaması oluşturmak için bazı bağımlılık ve gereksinimlere ihtiyaç duyuyoruz. Bunların içerisinde hem modüler bileşenler oluşturmak için kullanılan zorunlu paketler (react, react-dom) hem de konfigürasyon dosyaları (webpack, babel) yer alıyor. Bunların hepsini ve daha fazlasını bizim için yapan bir araç olan *create-react-app* ile kolay ve hızlı bir şekilde bir React.js uygulaması oluşturmak mümkün. Bu araç React ekibi tarafından sunuluyor ve hem React öğrenmeye yeni başlayanlar hem de belirli ölçekte proje geliştirmek isteyenler için hazır bir iskelet yapı sağlıyor. Bu sayede Babel, webpack gibi bağımlılıkları manuel olarak konfigüre etmeye gerek kalmadan hızlıca bir React.js uygulaması geliştirmeye başlayabiliyoruz.
 
 ## Hazırlık
 
@@ -54,7 +54,7 @@ komutlarını çalıştırdıktan sonra geliştirme web sunucusu başlatılmış
 
 ![localhost3000](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/create-react-app/figures/localhost3000.png)
 
-Otomatik olarak açılan tarayıcı ile http://localhost:3000/ adresinden projenin çalışıyor olduğunu aşağıdaki çıktı eşliğinde görebileceğiz.
+Otomatik olarak açılan tarayıcı ile `http://localhost:3000/` adresinden projenin çalışıyor olduğunu aşağıdaki çıktı eşliğinde görebileceğiz.
 
 ![react-ilk-ekran](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/create-react-app/figures/react-ilk-ekran.png)
 

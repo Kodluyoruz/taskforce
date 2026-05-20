@@ -1,0 +1,1 @@
+veritabani-mimarisinin-olusturulmasi

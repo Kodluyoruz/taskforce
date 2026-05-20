@@ -15,7 +15,7 @@ Web sayfamızı tasarlarken sütunlarda yani `col` sınıfına sahip div element
 </div>
 ```
 
- Yukarıda verilen kodun çıktısı;
+ Yukarıda verilen kodun çıktısı:
 
 ![img1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-offset-kullanimi/figures/img1.JPG)
 
@@ -62,4 +62,4 @@ Yukarıdaki örnekte sütun genişliği 8 birim, offset değeri ise sağdan 4 bi
 </div>
 ```
 
-[Codepen'de deneyin](https://codepen.io/ruysapoly/pen/gOwQrZw)
+Aşağıda codepen ile deneyimleyebilirsiniz!

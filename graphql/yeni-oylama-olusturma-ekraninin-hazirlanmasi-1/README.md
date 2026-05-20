@@ -1,0 +1,1 @@
+yeni-oylama-olusturma-ekraninin-hazirlanmasi-1

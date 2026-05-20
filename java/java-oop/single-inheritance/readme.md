@@ -1,16 +1,14 @@
 # Tekli Kalıtım (Single Inheritance) 
 
-![](/Users/kodluyoruz/Projeler/kodluyoruz/taskforce/java/java-102/object-oriented-programming/figures/single-inheritence.png)
+![](figures/singleInheritance.png)
 
+"**Car**" isminde bir ATA(parent) sınıf tanımladık. Ardından, "**ElectricCar**" isminde bir sınıf oluşturduk. "**ElectricCar**" isimli sınıf "**Car**" sınıftan kalıtım almaktadır. "**extends**" anahtar kelimesi ile "**Car**" sınıfından kalıtım almasını sağladık. Böylece, "**ElectricCar**" sınıfı "**Car**" sınıfa ait değişkenleri ve fonksiyonları kalıtım yoluyla almış yani değişken ve fonksiyonları genişletilmiş olur. "**ElectricCar**" sınıfı ise alt sınıf(childclass) olmuştur. Artık, "**ElectricCar**" sınıfı da "**setBrand**" ve "**setLicensePlate**" fonksiyonlarını ve "**licensePlate**", "**brand**" değişkenlerine sahip olmuş olur. Buna ek olarak "**charge**" fonksiyonu da kendisine ait bir fonksiyondur. Bu fonksiyon ATA sınıfta yer almaz. Burada "Car" ve "ElectricCar" sınıfları arasında "IS-A" ilişkisi vardır. Yani  "ElectricCar" bir "Car" dır.
 
-
-&quot; **Car**&quot; isminde bir ATA sınıf tanımladık. Ardından, &quot; **ElectricCar**&quot; isminde bir sınıf oluşturduk. &quot; **ElectricCar**&quot; isimli sınıf &quot; **Car**&quot; sınıftan kalıtım almaktadır. &quot; **extends**&quot; anahtar kelimesi ile &quot; **Car**&quot; sınıftan kalıtım almasını sağladık. Böylece, &quot; **ElectricCar**&quot; sınıfı &quot; **Car**&quot; sınıfa ait değişkenleri ve fonksiyonları kalıtım yoluyla almış olur. &quot; **ElectricCar**&quot;ise sınıfı alt sınıftır. Artık, &quot; **ElectricCar**&quot; sınıfta da &quot; **setBrand**&quot; ve &quot; **setLicensePlate**&quot; fonksiyonlarını ve &quot; **licensePlate**&quot;, &quot; **brand**&quot; değişkenlerini bünyesine almış olur. Aynı zamanda &quot; **charge**&quot; fonksiyonu da kendisine aittir. Bu fonksiyon ATA sınıfta yer almaz.
-
-````java
+```java
 // Ata sınıf
 public class Car {
 
-	// "protected" anahtar kelimesi ile tanımlanmış değişkenleri sadece kalıtım alan alt sınıflar erişebilir.
+	// "protected" anahtar kelimesi ile tanımlanmış değişkenlere farklı paketlerden sadece kalıtım alan alt sınıflar erişebilir.
     protected String licensePlate = null;
 
     protected String brand;
@@ -24,9 +22,8 @@ public class Car {
 	this.licensePlate = licensePlate;
 	this.brand = brand;
     }
-
     
- // "protected" anahtar kelimesi ile tanımlanmış fonksiyonları sadece kalıtım alan alt sınıflar erişebilir.
+ // "protected" anahtar kelimesi ile tanımlanmış fonksiyonlara farklı paketlerden sadece kalıtım alan alt sınıflar erişebilir.
     protected void setLicensePlate(String license) {
         this.licensePlate = license;
     }
@@ -52,24 +49,22 @@ public class Car {
     }
 }
 
-
 public class ElectricCar extends Car {
 
 	// "private" anahtar kelimesi ile tanımlanmış değişkenlere veya fonksiyonlara sadece sınıf içinden erişebilir.
 	// Sınıf içinden kasıt bu sınıftaki {} arasındaki kod bloğudur.
 	private double power = 1000.0;
-
-
+    
 	public ElectricCar() {
 	
 	   // Car sınıfına ait parametresiz kurucu metodu çağırıyoruz.
 	   super();
 	}
-
-      public ElectricCar(String brand, String licensePlate, double power) {
+	// Car sınıfına ait parametreli kurucu metodu çağırıyoruz.	
+     public ElectricCar(String brand, String licensePlate, double power) {
 	
-	// Car sınıfına ait parametreli kurucu metodu çağırıyoruz.
-	// Bu kurucu metot "public Car(String brand, String licensePlate)" kendisidir.
+	
+	   // Bu kurucu metot "public Car(String brand, String licensePlate)" kendisidir.
 	   super(brand, licensePlate);
 	
 	   this.power = power;
@@ -103,4 +98,4 @@ public class ElectricCar extends Car {
 		return builder.toString();
 	}
 }
-````
+```

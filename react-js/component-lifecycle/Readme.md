@@ -98,7 +98,7 @@ Component'in güncellenmesi aşamasında `render()` metodu haricinde React taraf
 
 ### static getDerivedStateFromProps(props, state)
 
-Metodundan yukarıda **mounting** kısmında component render olmadan önce çağrıldığından bahsetmiştik. Bu metot ayrıca component her re-render olduğunda yani her güncellemede de çağrıldığı için hem **mounting** hem de **updating** aşamalarında bulunur. Burada dikkat edilmesi gereken nokta, bu metot props üzerinde bir değişiklik olmasa bile çağrılmış olabilir. Bunun sebebi parent component'lerden birinin güncellenmiş olması olabilir çünkü parent component'e bağlı olarak child component'ler de yeniden render olacaktır. Bu yüzden bu metodun çağrılması bu şekilde de mümkündür. 
+Metodundan yukarıda **mounting** kısmında component render olmadan önce çağrıldığından bahsetmiştik. Bu metot ayrıca component her re-render olduğunda yani her güncellemede de çağrıldığı için hem **mounting** hem de **updating** aşamalarında bulunur. Burada dikkat edilmesi gereken nokta, bu metot props üzerinde bir değişiklik olmasa bile çağrılmış olabilir. Bunun sebebi parent component'lerden birinin güncellenmiş olması olabilir çünkü parent component'e bağlı olarak child component'lerde yeniden render olacaktır. Bu yüzden bu metodun çağrılması bu şekilde de mümkündür. 
 
 ### shouldComponentUpdate(nextProps, nextState)
 
@@ -185,7 +185,7 @@ ReactDOM.render(<Example />, document.getElementById("root"));
 
 [CodePen'de deneyin](https://codepen.io/Kodluyoruz/pen/dypXoEP?editors=1010)
 
-Burada component ilk render olduktan sonra state üzerinde favori renk mavi olarak ekrana bastırılıyor. Ardından `componentDidMount` lifecycle metodu çağrılıyor ve 2 saniye sonra state içerisindeki renk property'si kırmızı olarak değişiyor. Bu değişim de `componentDidUpdate` fonksiyonunu tetiklediği için ilk render'da ekrana basılmayan `<h2>` tag'i içerisindeki mesaj ekrana basılıyor. Burada dikkat edilmesi gereken durum `componentDidUpdate` içerisinde bir koşula bağlı `setState` metodunun çağrılması. Eğer bir koşul olmadan state üzerinde değişiklik yapsaydık sonsuz bir döngü içerisine girecekti yani her re-render'da `setState` çağrılacaktı. Bu durumda eğer `showMessage` değeri `true` ise herhangi bir işlem yapmıyoruz böylelikle sonsuz döngüye girmesini engelliyoruz.
+Burada component ilk render olduktan sonra state üzerinde favori renk mavi olarak ekrana bastırılıyor. Ardından `componentDidMount` lifecycle metodu çağrılıyor ve 2 saniye sonra state içerisindeki renk property'si kırmızı olarak değişiyor. Bu değişimde `componentDidUpdate` fonksiyonunu tetiklediği için ilk render'da ekrana basılmayan `<h2>` tag'i içerisindeki mesaj ekrana basılıyor. Burada dikkat edilmesi gereken durum `componentDidUpdate` içerisinde bir koşula bağlı `setState` metodunun çağrılması. Eğer bir koşul olmadan state üzerinde değişiklik yapsaydık sonsuz bir döngü içerisine girecekti yani her re-render'da `setState` çağrılacaktı. Bu durumda eğer `showMessage` değeri `true` ise herhangi bir işlem yapmıyoruz böylelikle sonsuz döngüye girmesini engelliyoruz.
 
 ## 3. Unmounting
 
@@ -199,11 +199,11 @@ Component'in DOM'dan kaldırılması esnasında çağrılır. Genellikle `compon
 
 ## SON
 
-Burada lifecycle metotların bahsettiğimiz 3 ana aşamada hangi sıralamayla çağırıldıklarını bir şema üstünde görebilirsiniz.
+Burada lifecycle metotlarının bahsettiğimiz 3 ana aşamada hangi sıralamayla çağırıldıklarını bir şema üstünde görebilirsiniz.
 
 ![lifecycle-metotlar](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-js/component-lifecycle/figures/lifecycle-metotlar.png)
 
-Şemayı etkileşimli şekilde görmek için [tıklayınız](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/). Ayrıca site üzerindeki kutucuğu tıklayarak daha az kullanılan lifecycle metodları da görebilirsiniz.
+Şemayı etkileşimli şekilde görmek için [tıklayınız](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/). Ayrıca site üzerindeki kutucuğa tıklayarak daha az kullanılan lifecycle metotlarını da görebilirsiniz.
 
 
 

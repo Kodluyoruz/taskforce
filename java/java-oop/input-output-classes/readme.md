@@ -10,8 +10,6 @@ Java’da bu tarz işlemleri gerçekleştirebilmek için girdi/çıktı sınıfl
 
 ![javaio](figures/javaio.png)
 
-
-
 Java'da *byte* ve *character* stream'lerini yapan sınıflar ve metotlar **4** ana soyut sınıftan elde edilir.
 
 1. InputStream
@@ -19,4 +17,5 @@ Java'da *byte* ve *character* stream'lerini yapan sınıflar ve metotlar **4** a
 3. Reader
 4. Writer
 
-Kaynak: http://web.deu.edu.tr/doc/oreily/java/javanut/ch24_js.htm
+## Kaynak: 
+- http://web.deu.edu.tr/doc/oreily/java/javanut/ch24_js.htm

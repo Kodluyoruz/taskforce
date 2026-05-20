@@ -7,7 +7,43 @@ Nullable<int> nullable = new Nullable<int>(2020);
 // Yukarıdaki satır hataya neden olur
 ```
 
-Yukarıdaki örnek hataya sebep olur; çünkü tür parametresi olarak ilkel bir veri türü olan int’i veriyoruz.
+Yukarıdaki örnek hataya sebep olur; çünkü tüm jenerik tipler runtime'da "Object" olarak dönüştürülür. Bunun sebebi ise Object' in tüm objelerin superclass'ı olması ve kullanıcı tarafından tanımlanan herhangi bir nesneyi temsil edebiliyor olmasıdır. Tüm ilker veri tipleri ise Object' ten miras almadığı için jenerik olarak kullanılamazlar. Örnekle açıklamak gerekirse:
+
+```java
+public class Container<T> {
+
+    private T data;
+
+    public T getData() {
+        return data;
+    }
+}
+```
+Jenerik container sınıfı runtime'da şöyle gözükecektir :
+
+```java
+public class Container {
+
+    private Object data;
+
+    public Object getData() {
+        return data;
+    }
+}
+```
+Bu sınıftan **Integer** tipinde bir obje yaratırsak :
+
+```java
+Container<Integer> val = new Container<Integer>(); 
+Integer data = val.getData(); 
+```
+
+Compiler tarafından otomatik olarak tip dönüşümü yapılır :
+
+```java
+Container val = new Container(); 
+Integer data = (Integer) val.getData();  
+```
 
 İlkel veri türlerini de jeneriklerle birlikte kullanabilmek için JDK 5 ile **sarmalayıcı sınıflar** (**wrapper classes**) eklenmiştir. 8 ilkel veri türüne karşılık olarak 8 sarmalayıcı sınıf oluşturulmuştur:
 
@@ -57,3 +93,7 @@ boolean primitiveBoolean = true;
 Boolean booleanObject = new Boolean(primitiveBoolean);
 boolean booleanValue = booleanObject.booleanValue();
 ```
+
+## Kaynaklar
+
+- [quora.com](https://www.quora.com/Why-is-it-impossible-to-use-primitive-types-as-a-type-parameter-in-Java/answer/Piyush-Sagar-2)

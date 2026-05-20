@@ -2,11 +2,28 @@
 
 # Çok Katmanlı Kalıtım (Multilevel Inheritance)
 
-Bu modelde zincirleme bir kalıtım hiyerarşisi mevcuttur. Örneğin: C sınıfı B sınıfından kalıtım alsın. Bu durumda B sınıfı C için ATA sınıf olmuş oluyor. Farz edelim ki B sınıfı da A sınıfından kalıtım aldı. Bu durumda B sınıfının ATA sınıfı A olmuş oldu. Fakat, C sınıfı hem A sınıfının hem de B sınıfının özelliklerini kalıtım yoluyla kendisine almış oldu.
+
+Merhaba arkadaşlar,
+
+Bu yazımızda Multilevel Inheritance kavramına giriş yapmadan önce kısaca Inheritance nedir ne amaçla kullanılır buna değinmek istiyorum. 
+
+Bir sınıfın başka bir sınıftan miras almasına Inheritance(kalıtım) denilmektedir. Bir sınıf başka bir sınıftan miras alarak, o sınıfın değişkenleri ve metotlarını kullanabilme özelliğini kazanmış olmaktadır. Diğer bir deyişle, bir sınıftaki özellikler kalıtım sayesinde başka bir sınıfa aktarılarak kullanılabilmektedir. Java terminolojisinde, miras alan alt sınıfa subclass, miras veren üst sınıfa ise superclass denilmektedir. Java ’da Inheritance olayı extend anahtar sözcüğü ile gerçekleştirilmektedir. 
+
+Sınıflar arası Inheritance kullanmak, kod parçacıklarının tekrar tekrar yazılmasını önler ve bu sayede performans ve zaman tasarrufu sağlanmış olur.
+
+Şimdi gelelim **Multilevel Inheritance** kavramına… Bir sınıf miras alıyorken aynı zamanda miras veriyorsa burada çok katmanlı kalıtım vardır demektir. Bu mimaride, bir superclass sınıfının özellikleri kullanılarak subclass türetilirken, türetilmiş olan subclasstan da yeni bir subclass türetilebilmektedir. Bu durumda superclasstaki özellikler son katmanda bulunan subclassa aktarılmış olur. 
+
+
+![](figures/multilevel_inheritance.png)
+
+
+Yukarıda bulunan akış şemasında görüldüğü gibi; C sınıfı B sınıfından miras alırken, B sınıfı ise A sınıfından miras almaktadır. Bu durumda B sınıfı C sınıfı için bir superclass, A sınıfı için ise bir subclass durumundadır. B sınıfının A sınıfından miras olarak aldığı özellikler, C sınıfına miras olarak aktarılabilmektedir. 
+
+----------------------------------------------
 
 ![Çok Katmanlı Kalıtım](/Users/kodluyoruz/Projeler/kodluyoruz/taskforce/java/java-102/object-oriented-programming/figures/multi-level-inheritance.png)
 
-Yukarıdaki örnekte &quot;ElectricCar&quot; sınıfı &quot;Car&quot; sınıfından kalıtım alıyor. Ardından, &quot;Car&quot; sınıfı da &quot;Vehicle&quot; sınıfından kalıtım alıyor. Böylece dikey yönde çok katmanlı bir hiyerarşik kalıtım modeli oluşuyor.
+Aşağıdaki örnekte &quot;ElectricCar&quot; sınıfı &quot;Car&quot; sınıfından kalıtım alıyor. Ardından, &quot;Car&quot; sınıfı da &quot;Vehicle&quot; sınıfından kalıtım alıyor. Böylece dikey yönde çok katmanlı bir hiyerarşik kalıtım modeli oluşuyor.
 
 ````java
 public class Vehicle {
@@ -29,3 +46,8 @@ public class ElectricCar extends Car {
 	// ElectricCar sınfına ait kodlar
 }
 ````
+
+
+
+
+
