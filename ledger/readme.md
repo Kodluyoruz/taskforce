@@ -1,5 +1,3 @@
-# Ledger
-
 #### Why hardware, even when you already know crypto
 
 - [Why hardware, even when you already know crypto](why-hardware-even-when-you-already-know-crypto)
