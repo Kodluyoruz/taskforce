@@ -117,7 +117,7 @@
 1.  https://youtu.be/DDOEgXDLKyM
 	- VS Code içerisinde "MultiCursor(Çoklu İmleç)" kullanımı kod parçacıkları oluştururken size inanılmaz hız kazandıracaktır. Bu videoda; MultiCursor nasıl kullanılır, klavye kısayol tuşları nelerdir gibi konuları anlattık. 
 
-## [Klavye ile Çalışmak / Klavye Kısayol Tuşları](vs-klavye-kisayollari/)
+## [Klavye ile Çalışmak / Klavye Kısayol Tuşları](vs-klavye-kisayollari/)
 
 ### Sorular
 1. Klavye kısayolları ile ilgili bilgilerden hangisi yanlıştır?
@@ -130,7 +130,7 @@
       - Bir ifadenin yerini değiştirmek istediğinizde ALT + SHIFT kombinasyonunu kullanabilirsiniz
       - Seçili olan ifadeyi bir alt satıra da kopyalamak istediğinizde ALT + AŞAĞI YÖN TUŞU kısayolunu kullanabilirsiniz.
       - Dosyanızda yer alan aynı ifadeleri seçmek için CTRL + Enter kısayolunu kullanabilir sonrasında da çoklu imleç özelliğinden yararlanarak aynı ifadeleri tek seferde değiştirebilirsiniz.
-      - Satırdaki ifadeleri teker teker atlayarak ilerlemek istediğinizde ALT + SOL/SAĞ YÖN TUŞU kısayolunu kullanabilirsiniz.
+      - Satırdaki ifadeleri teker teker atlayarak ilerlemek istediğinizde ALT + SOL/SAĞ YÖN TUŞU kısayolunu kullanabilirsiniz. (Doğru)
 
 ### Videolar
 1.  https://youtu.be/mj7C4XtEO8w
@@ -141,21 +141,23 @@
 ### Sorular
 1. "HTML" dilinde çalışırken "kk1" ifadesini yazıp Tab tuşuna bastığımızda <h1>KodKoda</h1> ifadesini elde etmek ve açıklamasında "Yeni nesil yazilim gelistirici forumu." yazmasını istiyorsak aşağıdaki snippet'lerden hangisini eklemeliyiz?
 2. 
-- 
+- ```javascript
         "KK1 - KodKoda" : {
         	"prefix" : "kh1" ,
         	"body" : "<h1>KodKodluyoruz</h1>" ,
         	"description" : "Yeni nesil yazilim gelistirici."
         }
+	```
 
-- 
+-  ```javascript
         "KK1 - KodKoda" : {
         	"prefix" : "kk1" ,
         	"body" : "<h1>KodKoda</h1>" ,
         	"description" : "Yeni nesil yazilim gelistirici forumu." 
         }
+	``` (Doğru)
 
-- ```
+- ```javascript
   "KK1 - KodKoda" : {
           	"prefix" : "kk2" ,
           	"body" : "<h1>KodKoda</h1>" ,
@@ -163,7 +165,7 @@
           }
   ```
 
-* ```
+- ```javascript
   "KK1 - KodKoda" : {
           	"prefix" : "kk1" ,
           	"body" : "<h1>Kodluyoruz</h1>" ,

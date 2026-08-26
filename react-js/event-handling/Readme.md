@@ -84,7 +84,7 @@ Bir  `<img>` element'indeki `onMouseMove` event'i için aktarılan `e` argüman�
 
 Bazı durumlarda event handler'a parametre göndermemiz gerekir. Bu duruma örnek olarak bir döngü içerisinde render edilen butonlara `id` parametresi göndermek verilebilir.
 
-**[Bir Örnekle açıklayalım.]**
+**Bir Örnekle açıklayalım:**
 
 Gönderilmek istenen parametre ya da parametreler dışında event objesini de göndermek istiyorsak ve aşağıda olduğu gibi bir **arrow function** kullanıyorsak, `event` objesini manuel olarak göndermek zorundayız. `Bind` metodu ile event objesi otomatik olarak gönderilir. 
 

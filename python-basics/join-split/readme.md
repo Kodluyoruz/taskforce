@@ -1,13 +1,13 @@
 ## split()
 
-* Belirli bir bölme kriterine göre string'in alt parçalarını listenin elemanları olarak dönüştürebiliriz
+* Belirli bir bölme kriterine göre string'in alt parçalarını listenin elemanları olarak dönüştürebiliriz.
 
 
 ```python
 s = "merhaba nasılsın ?"
 ```
 
-* split()'in içine neye göre böleceğimizi yazarız
+* split()'in içine neye göre böleceğimizi yazarız.
 
 
 ```python
@@ -21,7 +21,7 @@ s.split(" ")
 
 
 
-* hiç bir şey yazmazsak default olarak boşluğa göre böler
+* hiç bir şey yazmazsak default olarak boşluğa göre böler.
 
 
 ```python
@@ -66,7 +66,7 @@ s2.split(",")
 
 ## join()
 
-* listenin elemanları arasına belirtilen yapıyı koyup string'e dönüştürür
+* listenin elemanları arasına belirtilen yapıyı koyup string'e dönüştürür.
 
 `"patern".join(elemanları kullanılacak liste)`
 

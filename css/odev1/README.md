@@ -26,6 +26,6 @@ Herkese merhaba arkadaşlar kanalımıza hoş geldiniz, bugün HTML sayfamıza h
 
 ![webpage](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/odev1/figures/webpage.gif)
 
-Bu ödevde sizlerden istediğimiz hayalgücünüzü kullanarak öğrendiğiniz ve araştırarak bulduklarınızla birlikte güzel bir site oluşturmanız. Burada oluşturduğumuz sitenin tasarımı hoşunuza gitmese dahi burada önemli olan nokta CSS elemanlarını efektif bir şekilde kullanabiliyor muyuz onu görmek. Tasarımı ilerleyen ödevlerde daha güzelleştireceğiz.
+Bu ödevde sizlerden istediğimiz hayal gücünüzü kullanarak öğrendiğiniz ve araştırarak bulduklarınızla birlikte güzel bir site oluşturmanız. Burada oluşturduğumuz sitenin tasarımı hoşunuza gitmese dahi burada önemli olan nokta CSS elemanlarını efektif bir şekilde kullanabiliyor muyuz onu görmek. Tasarımı ilerleyen ödevlerde daha güzelleştireceğiz.
 
 Hepinize başarılar, kolay gelsin.

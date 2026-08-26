@@ -1,0 +1,1 @@
+# Nesne Seçmek (Object Selection)

@@ -1,6 +1,6 @@
 # Genel Tutucu(Container), Satır Blokları(Row) ve Kolon(Col) Yapısı
 
-**Container, row ve column** yapısı aslında bootstrap kullanım mantığının temellerini oluşturuyor diyebiliriz. Bu yapıyı anlamak bootstrap ile çalışmayı çok çok kolaylaştıracaktır. Öncelikle `container` ile başlayalım.
+**Container, row ve column** yapısı aslında Bootstrap kullanım mantığının temellerini oluşturuyor diyebiliriz. Bu yapıyı anlamak Bootstrap ile çalışmayı çok çok kolaylaştıracaktır. Öncelikle `container` ile başlayalım.
 
 ## `container`
 Containerı(konteynır) isminden de biraz anlaşılacağı gibi, içine web sayfamızda bulunması gereken yazıları, resimleri, videoları veya herhangi bir içeriği koyduğumuz kapsayıcı bir çerçeve, kutu gibi düşünebiliriz. Biz içeriklerimizi bu container içerisine koyuyoruz ve bir tarayıcıdan web sayfamız görüntülendiğinde container kendisini ekranın tam ortasına gelecek şekilde ayarlıyor. Görsel bir örnek üzerinden ilerlemek daha açıklayıcı olacaktır. Örnek olarak aşağıda [kodluyoruz](https://www.kodluyoruz.org/)'dan aldığım bir ekran görüntüsünü inceleyebiliriz.
@@ -20,7 +20,7 @@ Aşağıdaki tabloyu [bootstrap](https://getbootstrap.com/docs/4.4/layout/overvi
 ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-genel-tutucucontainer%2C-satir-bloklarirow-ve-koloncol-yapisi/figures/container-sizes.png)
 
 En soldaki sütunda container class isimlerini görüyoruz, mesela `.container` veya  `.container-md` gibi. Classların kullanımını örnek ile göstermek gerekirse;
-`<div class="container-md"></div>` şeklinde bir html dosyası içerisinde kullanabiliriz. Html dosyası içerisinde class isimleri tanımlarken başındaki "."(nokta) yı kaldırmamız gerekli. Peki bu tablo bize neyi anlatıyor? `.container-md` classını kullanarak bu tabloyu açıklamaya çalışacağım. `.container-md` classına sahip bir container;
+`<div class="container-md"></div>` şeklinde bir HTML dosyası içerisinde kullanabiliriz. HTML dosyası içerisinde class isimleri tanımlarken başındaki "."(nokta) yı kaldırmamız gerekli. Peki bu tablo bize neyi anlatıyor? `.container-md` classını kullanarak bu tabloyu açıklamaya çalışacağım. `.container-md` classına sahip bir container;
 
 * **extra small** bir cihazda, yani **576px'den küçük** olan bir cihazda, ekran boyutunun **100%**'ünü kaplamaktadır.
 * **small** bir cihazda, yani **576px'den büyük veya eşit** olan bir cihazda, ekran boyutunun **100%**'ünü kaplamaktadır.
@@ -31,11 +31,11 @@ En soldaki sütunda container class isimlerini görüyoruz, mesela `.container` 
 
 _boyutlar umarım kafa karışıklığına yol açmamıştır, örneğin small bir cihaz small boyutundan medium boyutuna kadar olan aralığı ifade ediyor._
 
-Containerlarımız bu tablodaki verilen boyutlara göre kendilerini ortalıyacak, etrafındaki boşlukları ayarlayacak ve değişen ekran boyutlarına tepki verecektir.
+Containerlarımız bu tablodaki verilen boyutlara göre kendilerini ortalayacak, etrafındaki boşlukları ayarlayacak ve değişen ekran boyutlarına tepki verecektir.
 Genel olarak containerların kullanımı bu şekilde diyebiliriz.
 
-## Row ve Column yapısı
-Row(satır), column(sütun) sistemi bootstrap'in grid system(ızgara sistemi) denilen düzenini oluşturuyor. Grid system ile bir web sayfası 12 adet sütuna bölünmüş ve sayfanın içeriği bu sütunların boyutlarına göre düzenlenmiş diyebiliriz. Genel olarak göstermek gerekirse aşağıdaki resim örnek bir sayfanın 12 adet sütuna bölündüğünde hangi içeriğin hangi sütunlar boyutunda olacağını, aralarındaki boşlukları göstermektedir.
+## Row ve Column Yapısı
+Row(satır), column(sütun) sistemi Bootstrap'in grid system(ızgara sistemi) denilen düzenini oluşturuyor. Grid system ile bir web sayfası 12 adet sütuna bölünmüş ve sayfanın içeriği bu sütunların boyutlarına göre düzenlenmiş diyebiliriz. Genel olarak göstermek gerekirse aşağıdaki resim örnek bir sayfanın 12 adet sütuna bölündüğünde hangi içeriğin hangi sütunlar boyutunda olacağını, aralarındaki boşlukları göstermektedir.
 
 ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-genel-tutucucontainer%2C-satir-bloklarirow-ve-koloncol-yapisi/figures/overall-grid.png)
 
@@ -43,11 +43,11 @@ Row(satır), column(sütun) sistemi bootstrap'in grid system(ızgara sistemi) de
 
 ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-genel-tutucucontainer%2C-satir-bloklarirow-ve-koloncol-yapisi/figures/grid-details.png)
 
-- ilk satır birbirine eşit boyutta 12 adet sütundan
-- ikinci satır birbirine eşit boyutta 3 adet sütundan
-- üçüncü satır 2 farklı boyutta sütundan
-- dördüncü satır 2 eşit boyutta sütundan
-- beşinci satır ise tek bir sütundan oluşmaktadır.
+- İlk Satır Birbirine Eşit Boyutta 12 Adet Sütundan
+- İkinci Satır Birbirine Eşit Boyutta 3 Adet Sütundan
+- Üçüncü Satır 2 Farklı Boyutta Sütundan
+- Dördüncü Satır 2 Eşit Boyutta Sütundan
+- Beşinci Satır İse Tek Bir Sütundan Oluşmaktadır.
 
 Görüldüğü gibi 12 adet sütun yapısını istediğimiz biçimde birleştirerek, ayırarak satırlar ile birlikte kullanarak tasarımımızı yapabiliriz.
 
@@ -79,9 +79,9 @@ Bu resimde gördüğümüz 2 satırdan oluşan grid yapısını aşağıdaki kod
   </div>
 </div>
 ```
-`div` html taglerine `classs="row"` veya `class="col"` sınıfları vererek bu tagların ne amaçla kullanılacağını belirttik. Ayrıca dikkat ederseniz bu grid bir `class="container"` içerisinde bulunmakta.
+`div` HTML taglerine `class="row"` veya `class="col"` sınıfları vererek bu tagların ne amaçla kullanılacağını belirttik. Ayrıca dikkat ederseniz bu grid bir `class="container"` içerisinde bulunmakta.
 
-Row ve column yapısı kullanımı ve mantığı genel hatlarıyla bu şekilde diyebiliriz. Konuyu pekiştirmek için bu küçük quizi cevaplamanızı tavsiye ediyoruz !
+Row ve column yapısının kullanımı ve mantığı genel hatlarıyla bu şekilde diyebiliriz.
 
 ## Kaynaklar:
 - https://www.kodluyoruz.org/

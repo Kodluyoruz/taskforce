@@ -5,31 +5,46 @@
 
 #### Sorular
 
-1. Yok
+1. Frontend ile ilgili verilen bilgilerden hangisi yanlıştır?
+   - Web'in görüp etkileşime girebildiğiniz kısımlarına, frontend denir.
+   - Bu alan çalışan geliştiriciler Adobe XD, Photoshop ve Sketch gibi tasarım programlarını kullanırlar.
+   - Frontend genellikle web tasarımı ve web'in ön yüzünün geliştirilmesini kapsar.
+   - Bu alanda çalışan geliştiriciler Python, PHP, MySQL gibi temel araçları kullanırlar. (Doğru)
 
 #### Videolar
 
-1. Yok
+1. https://youtu.be/qyHyFsT7Hig
+   - İzlemen için bir video paylaştık.
 
 ### [Backend Nedir?](backend-nedir/)
 
 #### Sorular
 
-1. Yok
+1. Backend ile ilgili verilen bilgilerden hangisi yanlıştır?
+   - Backend genellikle bir sunucu, bir uygulama ve bir veri tabanından oluşur.
+   - Backend'in işleyişini anlatmak için, sizin (uygulama), bir bilgiyi bilgisayarınızda (sunucu) bulunan bir Excel (veri tabanı) dosyasına kaydetmeniz örnek verilebilir.
+   - Backend kodlayanlara, Backend Designer denir ve bu alanda çalışan geliştiriciler Python, PHP, MySQL gibi temel araçlar kullanırlar. (Doğru)
+   -  Siz bir web sitesine giriş yapma isteği gönderdiğinizde bunu veri tabanında arayan, bulan ve nasıl bir cevap verileceğini belirleyen şey backend’tir.
 
 #### Videolar
 
-1. Yok
+1. https://youtu.be/cbSrsYiRamo
+   - İzlemen için bir video paylaştık.
 
 ### [Frontend & Backend Karşılaştırması](frontend-vs-backend/)
 
 #### Sorular 
 
-1. Yok
+1. Frontend ve Backend ile ilgili verilen bilgilerden hangisi doğrudur?
+   - Frontend ve Backend'den yalnızca bir tanesi ile bir web sitesi oluşturulabilir.
+   - Hem frontend alanında hem de backend alanında çalışan yazılım geliştiriciler yoktur.
+   - Bir tiyatro oyununda seyircilerin karşısındaki oyuncular backend'i temsil ediyorsa, perdenin arkasında izleyenlerin göremediği çalışanlar da frontend'i temsil eder.
+   - Frontend kavramına insan vücudunun dış görünüşü örnek verildiğinde backend kavramı için insan beyni örnek verilebilir. (Doğru)
 
 #### Videolar
 
-1. Yok
+1. https://youtu.be/CtLfck29wYc
+   - İzlemen için bir video paylaştık.
 
 ## Algoritma & Pseudocode ####
 ### [Algoritma](algoritma/)
@@ -46,15 +61,13 @@ Senin için birkaç soru hazırladık.
 
 #### Videolar
 
-1. https://youtu.be/bWwODnfnS2A
+1. https://youtu.be/6hfOvs8pY1k
 
    - Algoritma Nedir? 
    - İzlemen için bir video paylaştık.
    
-2. https://youtu.be/lnlWdk8Peuo
-
-   -  Akış Diyagramı Nedir? 
-   -  İzlemen için bir video paylaştık.
+   
+   
 
 ### [Pseudocode](pseudocode/)
 
@@ -63,8 +76,8 @@ Senin için birkaç soru hazırladık.
 1. Pseudocode (Sözde Kod) ile ilgili verilen bilgilerden hangisi yanlıştır?
 
    - Pseudocode program akışı içinde yazılmalıdır.
-   - Pseudocode proglama dilinin detaylarından uzaktır.
-   - Pseudocode’da proglamlama dilinin söz dizimlerinde dikkat edilir. (Doğru)
+   - Pseudocode programlama dilinin detaylarından uzaktır.
+   - Pseudocode’da programlama dilinin söz dizimlerinde dikkat edilir. (Doğru)
    - Pseudocode’da gerektiği yerlerde doğal dil cümleleri kullanılır.
 
 2. Pseudocode (Sözde Kod) özellikleri ile ilgili verilen bilgilerden hangisi doğrudur?
@@ -207,7 +220,7 @@ Senin için birkaç soru hazırladık.
      6. Yazabileceğin en büyük bölümü yaz ve işleme devam et.	
      ```
 
-6.  Elinizde aşağıdaki gibi karışık bir yapboz olduğunu düşünün. Bu yapbozu şıklardaki hangi pseudocode kullanılarak çözülebilir?
+6.  Elinizde aşağıdaki gibi karışık bir yapboz olduğunu düşünün. Bu yapboz şıklardaki hangi pseudocode kullanılarak çözülebilir?
 
    ![sözdekod4](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/basics-for-everyone/pseudocode/figures/s%C3%B6zdekod4.jpg)
 
@@ -271,7 +284,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. İnternet için kullanılan fiziksel elemanlar aşağıdakilerden hangisini kaynak olarak kullanmaz ?
+   - Elektrik
+   - Işık
+   - Telekinezi (Doğru)
+   - Radyo dalgaları
+2. Saniyede gönderdiğimiz bit sayısı ne kadar yüksek olursa o kadar hızlı iletim sağlayabiliriz. Saniyede gönderilen bit sayısını ifade eden terim aşağıdakilerden hangisidir?
+   - Bant uzunluğu
+   - Bant genişliği (Doğru)
+   - Bant çeşidi
+   - Bant göstergesi
 
 #### Videolar
 
@@ -282,7 +304,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Tarayıcıda "kodluyoruz.org" yazıp giriş isteği gönderdiğimizde arka plandaki işlemlerin sırası aşağıdakilerden hangisidir?
+   - Domain ismi tarayıcıya girilir - DNS sunucularından IP alınır - IP adrese yönlendirme yapılır - İstek gönderilir  (Doğru)
+   - IP adresine yönlendirme yapılır - İstek cevabı alınır
+   - İstek mesajı gönderilir - İstek cevabı alınır
+   - Tarayıcı IP adreslerinin hepsini bilir - İstek gönderilir
+2.  IPv6 adres uzunluğu kaç bit uzunluğundadır?
+    - 32
+    - 64
+    - 128 (Doğru)
+    - 512
 
 #### Videolar
 
@@ -293,7 +324,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Network içerisinde farklı yol seçeneklerinin olmasını routers(yönlendiriciler) yönetir. Farklı yollara sahip olmamız aşağıdaki avantajlardan hangisini sağlamaz?
+   - Arızaya dayanıklılık
+   - Güvenilirlik
+   - Yedeklilik
+   - Yavaşlık (Doğru)
+2. Network içerisinde mesajların iletilmesinde TCP protokolü kullanılır. Bu protokolün kullanılma sebebi aşağıdakilerden hangisidir?
+   - Bilgi tek bir paket halinde gidebilsin diye
+   - Güvenilir kanala ihtiyaç olmadığında
+   - En hızlı şekilde bağlanmamız gerektiğinde
+   - Paketlerin hedefe ulaşamama senaryosuna önlemler içerdiği için (Doğru)
 
 #### Videolar
 
@@ -304,7 +344,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1.  Bir web sitesinin görünüm olarak temelini oluşturduğumuz işaretleme dili aşağıdakilerden hangisidir?
+    - C#
+    - Java
+    - HTML (Doğru)
+    - Ruby
+2. Adres çubuğunda aşağıdakilerden hangisini görürsek güvenilir kanaldan erişim sağladığımızı daha net bir şekilde söyleyebiliriz?
+   - www
+   - com
+   - net
+   - https (Doğru)
 
 #### Videolar
 
@@ -315,7 +364,16 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Sezar şifreleme yaparak mesaj göndermek istiyoruz. Bizde ve karşı tarafta olan anahtar "5". Göndermek istediğimiz mesajın şifrelenmiş hali şu şekilde "PTIQZDTWZE". Mesajın şifresi çözülmüş hali aşağıdakilerden hangisidir?
+   - YEMEKYIYOR
+   - SUICIYORUZ
+   - UYUMUYORUZ
+   - KODLUYORUZ (Doğru)
+2. Günümüzde kaç bitlik anahtar ile şifreleme yapılıyor?
+   - 128
+   - 256 (Doğru)
+   - 64
+   - 32
 
 #### Videolar
 
@@ -326,7 +384,21 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Aşağıdakilerden hangisi bir siber atak değildir?
+   - DDoS
+   - Virüs
+   - Man in the middle
+   - Fishhooh (Doğru)
+2. DDoS saldırısı nasıl yapılır?
+   - Saldırı taşınabilir bellek yardımı ile yapılır.
+   - Ulaşılmak istenilen bilgi için iletişim yolunda saldırı yapılır.
+   - Steganografi yöntemi ile şifre çözülür, saldırı çözülmüş şifre ile gerçekleştirilir.
+   - Sistem aşırı talebe boğulur. (Doğru)
+3. Siber saldırılardan kaçınmak için aşağıdakilerden hangisi doğru olmaz?
+   - Güçlü parolalar kullanmalıyız.
+   - Sistem güvenlik güncellemeleri sıklıkla yüklenmelidir.
+   - Tanımadığımız kişilerin maillerini tarayıcının gizli modunda açarsak sorun olmaz. (Doğru)
+   - Güvenmediğimiz yazılımları yüklememeliyiz.
 
 #### Videolar
 
@@ -498,7 +570,40 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1.  i. Arama sayfasına yazdığınız kelimeyi, anlamına karşılık gelen kavramları, dilini ve bu kelimeyi aratan insanların ortak amacına göre bir algoritma çizer.
+
+   ii. Sorguladığınız kavram ile eşleşen web sayfalarını arar.
+
+   iii. Bulunduğunuz konumu, geçmiş aramalarınızı, arama için yaptığınız ayarları, geçmişte sık sık kullandığınız web sitelerini de dikkate alarak karşınıza bir sonuç sayfası çıkarır.
+
+   iv. Web sayfalarındaki bilgilerin bir araya geliş şeklini değerlendirir. 
+
+   Yukarıda verilen maddelere göre Google arama hangi sırada çalışır?
+
+   - i-ii-iii-iv
+   - i-ii-iv-iii (Doğru)
+   - i-iii-ii-iv
+   - i-iv-ii-iii
+
+2. Aşağıda örnek olarak verilen aramalardan hangisinde Google arama etkili kullanılmıştır?
+
+   - Türkiye’nin yüzölçümü kaç kilometrekaredir?
+   - Göl olur damlaya damlaya
+   - Sakla ... gelir zamanı
+   - internetin zararları filetype:doc (doğru)
+
+3.  i. cs50x site:kodluyoruz.org
+
+   ii. ~çay
+
+   iii. “kodluyoruz hakkında”
+
+   Yukarıda verilen Google aramalarda hangi etkili kullanma yöntemi kullanılmamıştır?
+
+   - Birden fazla kelime ile arama yapma.
+   - Bir site içerisinde arama yapma
+   - Dosya tipleriyle arama yapma. (Doğru)
+   - Eş anlamlı kelime ile arama yapma.
 
 #### Videolar
 
@@ -511,7 +616,11 @@ Senin için birkaç soru hazırladık.
 
 #### Sorular
 
-1. Yok
+1. Kendimizi güncel tutmak için kullanabileceğimiz platformlarla ilgili bilgilerden hangisi yanlıştır?
+   - GitHub, proje yönetim ve versiyon kontrol sistemi olmakla birlikte, ayrıca geliştiriciler için yapılmış bir sosyal ağ platformudur.
+   - Kod Koda, 2020 yılında Kodluyoruz tarafından hazırlanan, yazılımla ilgilenen kişilerin sorular sorup cevaplayabildiği bir platformdur. 
+   - Project Euler, şirketlerin programcı işe alım süreçlerini hızlandırmaya yönelik kurulmuş bir sitedir. (Doğru) 
+   - Stack Overflow programlama ve kodlama ile ilgili spesifik sorularınızı sorabileceğiniz veya başkalarının sorduğu sorulara cevap verebileceğiniz bir platformdur.
 
 #### Videolar
 

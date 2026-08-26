@@ -61,7 +61,7 @@ Bu 2 konsept de birden çok component'in bir arada kullanılmasını sağlamak a
 
 ### Inheritance
 
-[Component'ler](../components) konu başlığında Class component'lerin oluşturulmasından bahsederken React.Component'i extend ederek oluşturulduklarından bahsetmiştik. Bu şekilde var olan bir class'ı türeterek, parent class'ın property ve metotlarına sahip olurlar. Burada React.Componenet *superclass* ya da *base class* olarak adlandırılırken, oluşturduğumuz yeni class ise *subclass* ya da *derived class* olarak adlandırılır. 
+[Component'ler](../components) konu başlığında Class component'lerin oluşturulmasından bahsederken React.Component'i extend ederek oluşturulduklarından bahsetmiştik. Bu şekilde var olan bir class'ı türeterek, parent class'ın property ve metotlarına sahip olurlar. Burada React.Component *superclass* ya da *base class* olarak adlandırılırken, oluşturduğumuz yeni class ise *subclass* ya da *derived class* olarak adlandırılır. 
 
 ```javascript
 class Arac extends React.Component {

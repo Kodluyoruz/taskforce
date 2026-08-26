@@ -69,12 +69,9 @@ function valid(){
 }
 ```
 
-[Codepen'de deneyebilirsiniz](https://codepen.io/yavuzalikorkut/pen/poELLXL)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
-**Codepen'de yapılmış diğer örnekler**
-- [JavaScript Errors, try, catch, throw, finally](https://codepen.io/PaFF/pen/VYmwbx)
-- [try catch](https://codepen.io/beaucarnes/pen/rwBmWE?editors=0012)
-- [Async/await try/catch/finally example](https://codepen.io/malyw/pen/BwoYqX)
+**Ek olarak yine aşağıdan codepen'de hazırlanmış diğer örneklere bakabilirsiniz.**
 
 
 ## Kaynaklar

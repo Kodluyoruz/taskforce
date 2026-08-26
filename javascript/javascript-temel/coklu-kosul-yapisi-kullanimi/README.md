@@ -50,7 +50,7 @@ Yukarıdaki örnekte *Gunesli* case etiketi için önce konsola *"Hafif giyin"* 
 
 Akış diyagramı üzerinden switch yapısının nasıl çalıştığını inceleyebilirsiniz.
 
-![Switch Akış Diyagramı](figures/switch-akis-diyagrami.png)
+![Switch Akış Diyagramı](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/coklu-kosul-yapisi-kullanimi/figures/switch-akis-diyagrami.png)
 
 **Bir başka örnek:**
 **islem** adında bir name fonksiyon ifadesi (function expression) tanımladık, bu fonksiyon ifadesi 3 parametre alıyor. 1. ve 2. parametreler işlem yapılacak sayılar ve 3. parametre string olarak yapılacak işlemdir. Switch yapısında tanımlanmış olan case etiketlerinde yapmak istediğimiz işlemleri tanımlıyoruz. Bu fonksiyonun işlem sonucunda bir değer döndürmesini istedik, sonrasında ilgili işlemler için sonuçları konsola yazdırdık.
@@ -79,7 +79,12 @@ console.log(islem(23, 14, 'topla'));  // 37
 console.log(islem(10, 3, 'mod'));     // Tanimlanmamis islem
 ```
 
+**Codepen ile deneyimleyebilirsiniz!** Bir hesap makinesine dönüştürmeden önce *kare alma ve kök alma* case'lerini sizin eklemenizi istiyoruz!
+
+
+
 ## Kaynaklar
+
 1. https://eloquentjavascript.net/1st_edition/appendix1.html
 2. https://medium.com/front-end-weekly/switch-case-if-else-or-a-lookup-map-a-study-case-de1c801d944
 3. https://necatiergin2019.medium.com/switch-deyimi-3133d90074a9

@@ -1,0 +1,1 @@
+Açık Kaynak Nedir? Neden önemlidir? Bana faydası olur mu? Şirketler neden açık kaynağı önemsiyorlar? gibi bir çok soruyu bu bölümde ele alıyoruz. Açık kaynak konusu gerçekten kariyerinize etki edecek çok ama çok önemli bir konu.

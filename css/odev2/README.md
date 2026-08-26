@@ -1,45 +1,26 @@
+
 # Ödev 2
 
 ## Google Ana Sayfasını Tasarlamak
+Hepimiz her gün Google kullanıyoruz ve çok işimize yarıyor değil mi? Her gün Google'da milyonlarca arama yapılıyor ve hatta siz de bu sayfaya gelmek için Google'u kullanmış olabilirsiniz. Peki Google'un geçmişten günümüze nasıl geliştiğini hiç merak ettiniz mi?
 
-Bir zamanlar basit ama gururlu bir Google Ana Sayfası vardı, hatırladınız mı? Yıllaar yıllar geçti ve o ana sayfa gelişti, serpildi ve bugünkü halini aldı. HTML'in son ödevinde Google'ın ilk tasarımı üzerinde çalışmıştık ve CSS bölümünde günümüzdeki halini tasarlayacağımızı söylemiştik. Evet, o gün bugündür arkadaşlar. Bu ödevde Google'ın bugünkü ana sayfasını tasarlayacağız.
+[Google](https://tr.wikipedia.org/wiki/Google) 1996 yılında kuruldu ve ilk versiyonunu 1998 yılında yayınladı. 1998, çok uzun bir süre önce değil mi? İlk versiyonu ile şu anki versiyonu arasında büyük fark var tabii ki. Peki size Google'un ilk versiyonunu gösterebileceğimizi söylesek ne hissederdiniz?
 
-Sizler için HTML yapısını ve basit CSS'i hazırladık. Sizlerden istediğimiz orijinali inceleyip detayları işlemeniz.
+İnternetteki gelmiş geçmiş bütün web sitelerini görebileceğiniz Wayback Machine adında bir web arşivi bulunmakta. [Google 1998](https://web.archive.org/web/19981202230410if_/http://www.google.com/) linkinden Google'ın ilk versiyonu nasılmış görebilirsiniz. Oldukça garip öyle değil mi? Garip olmasının yanında bu sizin HTML bölümündeki üçüncü ve son ödeviniz olacak. Bu sayfayı tasarlamanızı istiyoruz.
 
-![googlehomepage](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/odev2/figures/googlehomepage.gif)
+- Bu sayfada şu ana kadar öğrendiğiniz her şeyi kullanabilirsiniz. Bu sizin HTML becerilerinizi oldukça iyi bir şekilde geliştirmenizi sağlayacaktır.
 
-- [Google Homepage Projesi](google_homepage/)'ne buradan erişebilirsiniz.
+![googlehomepage](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/cssodev3/figures/googlehomepage.png)
 
-- Projeyi indirdikten ya da cloneladıktan sonra Visual Studio Code programında LiveServer eklentisi ile açmanızı öneririz.
+- Butonların çalışmaması hiç sorun değil. Sadece tasarımsal olarak bu görüntüye benzesin ve aşağıdaki linkler çalışıyor olsun yeterli.
+- Tasarladığınız bölümler ile alakalı kodunuzda açıklama satırlarına yer veriniz.
+- Sayfa ile alakalı detaylara sayfanın üzerine sağ tıklayıp "İncele/Inspect" diyerek ulaşabilirsiniz.
+- Bu [logo](https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg)'yu kullanabilirsiniz.
 
-- [Google Ana Sayfa](https://web.archive.org/web/20191130234759if_/https://www.google.com/) için arşiv linkini kullanabilirsiniz ya da [Google](https://www.google.com/)'ın şimdiki ana sayfasını kullanabilirsiniz.
-
-- Bu ödevi yapabilmeniz için bolca "İncele/Inspect"'ten yararlanmanız gerekecektir. Sayfadayken sayfaya sağ tıklayıp "İncele/Inspect" demeniz yeterlidir.
-
-- Fark ettiyseniz logo eski bir Google logosu. Bu logoyu günümüzde logo ile değiştirmelisiniz. Kullanmanız gereken logo assets klasöründe bulunmakta.
-
-- Üstteki alanı sağ tarafa alın ve fotoğrafı kendi fotoğrafınız ile değiştirin ve fotoğrafın kenarlarını yarıçap özelliği ile düzenleyiniz.
-
-- Arama yapılacak alanın kenarlarını yarıçap özelliği ile düzenleyiniz.
-
-- Arama simgesi gibi sesle arama simgesini de siz ekleyin. (Nasıl yapıldığını görmek için Google Ana Sayfa'dan İncele ile yazılanları inceleyiniz.)
-
-- Arama alanında yazı yazılan yerin genişliği 480px olmalı ve kenarlığı olmamalı.
-
-- Buttonları ortaya alıp üstünden ve sağından boşluklar veriniz. Button kenarları 1px kalın #f2f2f2 renginde olmalı. Yazı tipi Arial, yazı rengi #5f6368, yazı boyutu 14px olmalı. Button yüksekliği 36px olmalı.
-
-- Buttonlara aynı arama alanında olduğu gibi gölge veriniz.
-
-- Footerda arkaplan rengini #f2f2f2 yapınız ve liste noktalarını ortadan kaldırın. (Bir önceki ödevde söylediğimiz [w3schools.com](https://www.w3schools.com/w3css/defaulT.asp)'un CSS tutorialını, Türkçe kaynak için [Fatih Hayrioğlu](https://fatihhayrioglu.com/)'un sitesini kullanabilirsiniz.)
-
-- CSS dosyasında kullanılan bütün elementleri araştırıp ne işe yaradıklarını öğrenin. Daha sonra bunları kullanabileceğiniz projelerinizde kullanmaya özen gösterin.
-
-- Tasarımı mümkün olduğunca benzetmeniz gerekmekte. Buttonların, arama kısmının çalışmaması önemli değil.
-
-- Kod yazarken yorum satırları kullanmaya özen gösteriniz.
-
-![Google Homepage](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/odev2/figures/googlehomepage.png)
-
-Bu ödev ile birlikte CSS bölümünü tamamladınız, tebrik ederiz!
+İleride göreceğimiz CSS'den sonra Google'un bugünkü halini de tasarlayacağız. Ama öncelikle bakalım Larry Page ve Sergey Brin başlangıçta nasıl yapmışlar!
 
 Hepinize başarılar ve kolay gelsin!
+
+## Kaynaklar
+- https://tr.wikipedia.org/wiki/Google
+- https://web.archive.org/

@@ -1,8 +1,38 @@
 # Java “synchronized” Anahtar Kelimesi
 
-Yukarıdaki gibi “Ciritical Section” olan kod bölgelerinde “Race Condition” durumuna engel olmak için kullanılabilecek yöntemlerden biri de “synchronized” anahtar kelimesidir. Bu anahtar kelime ile “Critical Section” kod bölgesini Thread’ler arasında sıralı erişime açabilirsiniz.
 
-“synchronized” anahtar kelimesini bir değişkene, bir bloğu parçasına veya metoda verebilirsiniz. Yukarıdaki örneğimizi şimdi “Thread Safe” bir hale getirelim.
+
+> ###### Hatırlatmalar:
+>
+> - Kritik Bölge = Thread kullanılan uygulamalarda, paylaşılan ve üzerinde işlem yapılabilen bellek bölgesine denir.
+> - Yarış Durumu = Birden fazla threadin paylaşılan bellek bölgesine aynı anda erişip aynı anda bellek bölgesinde işlem yapması durumudur.
+
+
+
+“Ciritical Section” olan kod bölgelerinde “Race Condition” durumuna engel olmak için kullanılabilecek yöntemlerden biri de “synchronized” anahtar kelimesidir. Bu anahtar kelime ile “Critical Section” kod bölgesi Thread’ler arasında sıralı erişime açabilabilir.  
+
+Kısaca sıralı erişim mantığı şu şekildedir. Kritik bölgeye ilk gelen thread işlem yaptığını belirtmek için bu bölgeyi kilitler. Bu sayede diğer threadler içeride bir threadin işlem yaptığını anlarlar ve işlemin bitmesini bekleyebilirler. İşlemi tamamlayan thread çıktığında kilit kaldırılır ve  bekleyen threadler için tekrar işleme açılmış olur. İşlem için bekleyen başka bir thread içeriye girdiğinde tekrar kilit yapısını kullanarak erişim kısıtlaması yapar ve döngü halinde devam eder. 
+
+Örnek vermek gerekirse;
+
+> Bir threadin bir dosyaya yazma işlemi yaptığı sırada bir başka threadin de aynı işlemi yapmak istemesi gibi büyük bir problem oluşturacaktır. Böyle durumlarda kaynağa ilk ulaşan threadin işini tamamlayıncaya kadar ilgili kaynağı kilit mekanizması ile erişime kapatılması daha sonra ise tekrar erişime açılması gerekir. 
+
+###### Metot içerisinde synchronized kullanımı: 
+
+Bu yöntem genelde kodu başkası tarafından yazılan fakat üzerinde senkronizasyonu sağlanmak istenilen durumlarda kullanılır. Böylelikle yönetime kısmen de olsa müdahale edilmiş olunur.
+
+
+```java
+metot(){
+    
+    synchronized(Lock objesi){
+        // kritik bölgede yapılacak işlemler
+    }
+
+}
+```
+
+“synchronized” anahtar kelimesi **bir değişkene, bir blok parçasına veya metoda** verilebilir. Yukarıdaki örnek şimdi “Thread Safe” olarak yazılırsa;
 
 ```java
 public class QMatic implements Runnable {
@@ -39,7 +69,9 @@ public class QMatic implements Runnable {
 }
 ```
 
-QMatic isimli “Runnable” interface’den türemiş sınıfımızda “LOCK” isminde Object türünden bir kilit nesnesi oluşturuyoruz. Ardından “Critical Section” olarak belirttiğimiz tüm Thread’lerin ortak kullandığı “orderNo” değişkeniyle işlem yapan kod bloğunu “synchronized” anahtar kelimesiyle korumaya alıp, Thread’ler için sıralı erişime açıyorum. Eğer bir Thread “Critical Section” olarak işaretlediğim kod bloğuna girip kaynakları kullanmaya başlarsa diğer Thread’ler o işini bitirene kadar beklemek zorundadırlar.
+
+
+QMatic isimli “Runnable” interface’den türemiş sınıfta “LOCK” isminde Object türünden bir kilit nesnesi oluşturuluyor. Ardından “Critical Section” olarak belirtilen tüm Thread’lerin ortak kullandığı “orderNo” değişkeniyle işlem yapan kod bloğunu “synchronized” anahtar kelimesiyle korumaya alıp, Thread’ler için sıralı erişime açılıyor. Eğer bir Thread “Critical Section” olarak işaretlenen kod bloğuna girip kaynakları kullanmaya başlarsa diğer Thread’ler o işini bitirene kadar beklemek zorundadırlar.
 
 ```java
 Thread-9 thread got 1 from Qmatic!
@@ -54,7 +86,21 @@ Thread-6 thread got 9 from Qmatic!
 Thread-8 thread got 10 from Qmatic!
 ```
 
-Yukarıda “synchronized” olarak belirttiğimiz kod bloğunu bir metod içine alsaydık. Aşağıdaki gibi yapabilirdik.
+###### Senkronize Metotlar 
+
+Bir sınıftaki herhangi bir metod synchronized ifadesini aldığı zaman o metoda bir thread girdiğinde metodun bulunduğu obje otomatikman olarak lock mekanizması ile erişime kapatılır. Bu durumda başka bir thread o sınıf içindeki hiçbir synchronized metoda erişemez. synchronized metod üzerinde işlem yapan thread  metoddan çıktığı zaman ise lock kaldırılır ve tüm obje yeniden erişilebilir hale gelir.
+
+Görüleceği gibi "synchronized" yapısı metot içerisinde kullanıldığı gibi metodun kendisine de verilebilmektedir.  Bu anahtar kelimenin yeri ise erişim belirtecinden sonra, fonksiyonun geri dönüş türünden önce olacak şekilde araya yerleştirilmelidir.
+
+```java
+erisim_belirtesi synchronized geri_dönüş_türü fonskiyon_adı(){
+    // yapılacak işlemler
+}
+```
+
+
+
+Yukarıda “synchronized” olarak belirttiğimiz kod bloğu bir metod içine alınırsa aşağıdaki gibi yapabilir.
 
 ```java
 private synchronized void increment() {
@@ -70,3 +116,14 @@ private synchronized void increment() {
 	System.out.println(builder.toString());
 }
 ```
+
+
+
+
+
+**Kaynaklar**
+
+- https://medium.com/s%C4%B1f%C4%B1rdan-i%CC%87leri-d%C3%BCzeye-java-e%C4%9Fitim-serisi/multithreaded-programlama-1-k%C4%B1s%C4%B1m-40904a219a18
+
+- Öneri Kaynak: https://huseyin-karabakla.medium.com/
+

@@ -17,7 +17,7 @@ Konuyu daha iyi anlamak için her parametrenin aldığı değeri gösteren bir �
 const animals = ["cat" , "dog" , "bird", "horse"];
   
 animals.forEach((value , index , array) => {
-  console.log('value: ', item );
+  console.log('value: ', value );
   console.log('value parametresinin aldığı index :', index );
   console.log('array:' , array );
 });
@@ -53,9 +53,6 @@ Numbers array'ini kullanarak  her elemanının iki fazlasına sahip olan başka 
      //...
  })
 ```
-Sorunun çözümüne kendiniz denedikten sonra aşağıdaki linkten ulaşabilirsiniz.
-- https://codepen.io/selincaglarr/pen/RwGGboO
-
 ## Kaynaklar
 - https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 - https://www.w3schools.com/jsref/jsref_foreach.asp

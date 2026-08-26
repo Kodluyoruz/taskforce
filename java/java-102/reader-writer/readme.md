@@ -201,7 +201,7 @@ Okuma yapmak için kullanılan sınıfların kendi aralarındaki ilişkiyi görm
 ![Java-FileOutputStream-FileWriter-OutputStreamWriter-BufferedOutputStream-BufferedWriter-en](https://github.com/mustafakilicc/taskforce/blob/main/java/java-101/reader-writer/figures/Java-FileOutputStream-FileWriter-OutputStreamWriter-BufferedOutputStream-BufferedWriter-en.svg)
 
 
+## Kaynak:
+- [İlk üç görselin kaynağı](https://www.happycoders.eu/java/how-to-read-files-easily-and-fast/)
 
-[İlk üç görselin kaynağı](https://www.happycoders.eu/java/how-to-read-files-easily-and-fast/)
-
-[son üç görselin görselin kaynağı](https://www.happycoders.eu/java/how-to-write-files-quickly-and-easily/)
+- [son üç görselin görselin kaynağı](https://www.happycoders.eu/java/how-to-write-files-quickly-and-easily/)

@@ -59,7 +59,7 @@ window.alert(inputDeger)  // Değerimiz burada yazacak
     <title>Document</title>
 </head>
 <body>
-    <input type="text" id="myInput" value="Buraya yaz">
+    <input type="text" id="myInput" value="Buraya yazınız.">
     <button onclick="myFunction()">Tıklayınız</button>
     <p id="myP"></p>
 
@@ -74,7 +74,7 @@ window.alert(inputDeger)  // Değerimiz burada yazacak
       }
 ````
 
- [1.Alıştırmayı Denemek İçin Tıklayın](https://codepen.io/tugayturk/pen/wvzyoVG)
+**Aşağıda codepen ile deneyimleyebilirsiniz.**
 
 2. Bir validation form oluşturup e-mail, yaş ve isim bilgilerini standartlara uygun şekilde alalım.
 

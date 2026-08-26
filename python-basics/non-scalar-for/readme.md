@@ -1,12 +1,12 @@
 # Non-Scalar Veri Tiplerinde `for`
 
-* `for` döngüsünü işlerken `for` `<değişken>` in `<obje>` yapısında, her iterasyonda `değişken`in tek tek `obje`nin elemanlarına eşit olduğunu konuşmuştuk
+* `for` döngüsünü işlerken `for` `<değişken>` in `<obje>` yapısında, her iterasyonda `değişken`in tek tek `obje`nin elemanlarına eşit olduğunu konuşmuştuk.
 
-* `list`, `tuple`, `dictionary` non-scalar veri tiplerini gördük ve bunların hepsinin içsel bir yapısı var, şimdi bunların elemanlarında `for` kullanarak iterasyon yapmaya bakalım
+* `list`, `tuple`, `dictionary` non-scalar veri tiplerini gördük ve bunların hepsinin içsel bir yapısı var, şimdi bunların elemanlarında `for` kullanarak iterasyon yapmaya bakalım.
 
 ## Listelerde İterasyon
 
-* Diyelim ki öğrencilerin notlarını bir listede tutuyoruz:
+* Diyelim ki öğrencilerin notlarını bir listede tutuyoruz.
 
 
 ```python
@@ -25,7 +25,7 @@ for e in notlar:
     77
 
 
-* Bu sınıftaki not ortalamasına bakmak istiyor olabilirim:
+* Bu sınıftaki not ortalamasına bakmak istiyor olabilirim.
 
 
 ```python
@@ -42,7 +42,7 @@ print(ortalama)
     80.0
 
 
-* Burada `e` nin özel bir anlamı yok, sadece döngünün içinde onu kullanırken o adla referans veriyorum, adı `penguen` de olabilirdi
+* Burada `e` 'nin özel bir anlamı yok, sadece döngünün içinde onu kullanırken o adla referans veriyorum, adı `penguen` de olabilirdi.
 
 
 ```python
@@ -59,11 +59,11 @@ print("Ortalama:",ortalama)
     Ortalama: 80.0
 
 
-* Bunun aynısını range() fonksiyonu ile de yapabilirdik
+* Bunun aynısını range() fonksiyonu ile de yapabilirdik.
 
-* `for e in notlar` diyince ilk iterasyonda `e`nin değeri 90, ikincisinde 72... olarak devam etti
+* `for e in notlar` diyince ilk iterasyonda `e`'nin değeri 90, ikincisinde 72... olarak devam etti.
 
-* `range()` ile indexlerde iterasyon yapıp indexing ile değerlerine de ulaşabilirdim (range belirli bir listenin indexlerinde iterasyon yapmamı sağlamıyor, range(len(notlar)) diyince bize `0,1,2.. len(notlar)-1` sayılarını verecek, bunlar da listenin indexleriyle örtüşüyor, yoksa `range()` index verir diye bir şey yok)
+* `range()` ile indexlerde iterasyon yapıp indexing ile değerlerine de ulaşabilirdim. (Range belirli bir listenin indexlerinde iterasyon yapmamı sağlamıyor, range(len(notlar)) diyince bize `0,1,2.. len(notlar)-1` sayılarını verecek, bunlar da listenin indexleriyle örtüşüyor, yoksa `range()` index verir diye bir şey yok.)
 
 
 ```python
@@ -92,7 +92,7 @@ print("Ortalama:",ortalama)
     Ortalama: 80.0
 
 
-* Diyelim ki öğretmen farketti ki herkese 5 puan az vermiş, herkesin puanını 5 arttırmak istiyor, bunu direkt listenin elemanlarında iterasyon yaparak yapamam. Listenin indexlerine erişip o değeri güncellemem lazım
+* Diyelim ki öğretmen farketti ki herkese 5 puan az vermiş, herkesin puanını 5 arttırmak istiyor, bunu direkt listenin elemanlarında iterasyon yaparak yapamam. Listenin indexlerine erişip o değeri güncellemem lazım.
 
 
 ```python
@@ -118,7 +118,7 @@ for e in notlar:
     77
 
 
-* Buradaki `e` sadece `notlar`ın içindeki değerler,`e`yi değiştirmek listenin elemanlarını değiştirmez!
+* Buradaki `e` sadece `notlar`ın içindeki değerler, `e` 'yi değiştirmek listenin elemanlarını değiştirmez!
 
 
 ```python
@@ -171,7 +171,7 @@ notlar
 
 
 
-* Hadi biraz da `continue` mantığının alıştırmasını yapmış olalım. Diyelim ki öğretmen 2. öğrencinin kağıdını doğru okumuş, 2. öğrenci (index 1'deki) hariç hepsinin değerini 5 arttıracak
+* Hadi biraz da `continue` mantığının alıştırmasını yapmış olalım. Diyelim ki öğretmen 2. öğrencinin kağıdını doğru okumuş, 2. öğrenci (index 1'deki) hariç hepsinin değerini 5 arttıracak:
 
 
 ```python
@@ -193,11 +193,11 @@ print(notlar)
     [95, 72, 86, 82]
 
 
-* Şimdi de `break` egzersizi:
+* Şimdi de `break` egzersizi yapalım. 
 
 * Diyelim ki bir listenin içinde belirli bir eleman var mı diye kontrol etmek istiyoruz. Bulunca aramaya devam etmeyeceğim. Devam etme mantığını `break` ile sağlayacağım
 
-* İlk kullanıcıya hangi sayısı aradığını soracağız, sonra bu sayı var mı kontrol edeceğiz
+* İlk kullanıcıya hangi sayıyı aradığını soracağız, sonra bu sayı var mı kontrol edeceğiz.
 
 
 ```python
@@ -220,9 +220,9 @@ for e in l:
     Buldum!!
 
 
-## Tuple'larda İterasyon
+## Tuple'lerda İterasyon
 
-* Listelerde iterasyondan hiç bir farkı yok. Evet kısa bir açıklama oldu ama durum bu :D Değerlerini güncelleyemiyoruz ama bu zaten döngüden bağımsız bir durum 🤔
+* Listelerde iterasyondan hiç bir farkı yok. Evet kısa bir açıklama oldu ama durum bu 😀.  Değerlerini güncelleyemiyoruz ama bu zaten döngüden bağımsız bir durum oluyor 🤔. 
 
 
 ```python
@@ -287,7 +287,7 @@ for i in range(len(t)):
 
 ## Dictionary'lerde İterasyon
 
-* Burada durum biraz farklı. Default olarak elemanlarında dolaş diyince `key`lerde iterasyon yapıyor. Zaten index mantığı olmadığı için range() ile yapmak çoğu zaman karşımıza çıkmaz
+* Burada durum biraz farklı. Default olarak elemanlarında dolaş diyince `key` 'lerde iterasyon yapıyor. Zaten index mantığı olmadığı için range() ile yapmak çoğu zaman karşımıza çıkmaz.
 
 
 ```python
@@ -319,9 +319,9 @@ for k in d:
     [72, 71]
 
 
-* Veya d.values() diyerek value'larında iterasyon yapabilirim. Burada `for` `<değişken>` in `<obje>` yapısında `<değişken>` int vs gibi şeyler değil liste gibi yapılar da olabilir iterasyon içerisinde, burada da öyle oldu
+* Veya d.values() diyerek value'lerında iterasyon yapabilirim. Burada `for` `<değişken>` in `<obje>` yapısında `<değişken>` int vs gibi şeyler değil liste gibi yapılar da olabilir iterasyon içerisinde, burada da öyle oldu.
 
-* bu .values() dan dolayı olan bir şey değil, dictionary'nin value'ları int olsa böyle olmazdı
+* bu .values() 'dan dolayı olan bir şey değil, dictionary'nin value'lerı int olsa böyle olmazdı.
 
 
 ```python
@@ -357,7 +357,7 @@ for v in d.values():
 
 * Burada `v`, her iterasyonda `int`
 
-* 85'den fazla alan biri var mı diye bakmak istiyorum diyelim, ve bunun kim olduğunu (olduklarını) bulmak istiyorum:
+* 85'den fazla alan biri var mı diye bakmak istiyorum diyelim, ve bunun kim olduğunu (olduklarını) bulmak istiyorum.
 
 
 ```python
@@ -378,9 +378,9 @@ for k in d:
 
 * Aynı anda hem `key` hem de `value`'larda iterasyon yapmak için:
 
-* Variable unpacking konusunda bir tuple, liste gibi yapıların değerlerini birden çok değişkene bir seferde eşitlemeyi görmüştük
+* Variable unpacking konusunda bir tuple, liste gibi yapıların değerlerini birden çok değişkene bir seferde eşitlemeyi görmüştük.
 
-* Bunun aynısını iterasyonda da yapabiliriz
+* Bunun aynısını iterasyonda da yapabiliriz.
 
 
 ```python

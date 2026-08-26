@@ -1,16 +1,30 @@
 # Java “volatile” Anahtar Kelimesi
 
-“volatile” anahtar kelimesi değişkenin sakladığı değerin Thread’ler tarafından okunmaya çalışıldığında hepsinde aynı değerin okunacağının garantisini verir. Bilgisayar mimarisinde ana hafıza bölgemiz vardır. Biz program çalıştığı süre boyunca işlediği verileri ve programın komutlarını bu ana hafıza bölgesinde saklarız. 
+“volatile” anahtar kelimesi değişkenin sakladığı değerin Thread’ler tarafından okunmaya çalışıldığında hepsinde aynı değerin okunacağının garantisini verir. Bilgisayar mimarisinde ana hafıza bölgesi vardır. Bir program çalıştığı süre boyunca işlediği veriler ve program komutları bu ana hafıza bölgesinde saklanır. 
 
 Bu hafıza bölgesi RAM diye bilinir. Ayrıca, bilgisayar mimarisinde işlemciler (CPU) vardır. CPU ile hafıza bölgesi sürekli haberleşme halindedir. Sıkı bir iletişim trafiği vardır.
 
-Bu nedenle aşağıdada görüldüğü gibi CPU tarafında küçük hafıza bölgeleri bulunur. Bu hafıza bölgeleri sık kullanılan değişken değerlerini buraya cache’lerler. Böylece sürekli ana hafızaya giderek zaman kaybetmek yerine daha hızlı işlem görürler. 
+Bu nedenle aşağıda da görüldüğü gibi CPU tarafında küçük hafıza bölgeleri bulunur. Bunlara önbellek (cache) adı verilir. Bu önbellekler, ana bellekten veri okuma-yazma hızını minimum seviyeye düşürmek için kullanılmaktadır. Sık kullanılan değişken değerlerini bu önbellek bölgelerine yerleştirilirler. Böylece sürekli ana hafızaya giderek zaman kaybetmek yerine daha hızlı işlem görürler. 
 
-“volatile” anahtar kelimesi ile işaretlenmiş bir değişkenin değerine erişmek gerektiğinde direkt olarak ana hafızadan alınacağını ve ilgili değişkene yazma işlemi uygulanacaksa yine direkt olarak ana hafıza bölgesine yazılacağını belirtmiş oluruz. 
+“volatile” anahtar kelimesi ile işaretlenmiş bir değişkenin değerine erişmek gerektiğinde direkt olarak ana hafızadan alınacağını ve ilgili değişkene yazma işlemi uygulanacaksa yine direkt olarak ana hafıza bölgesine yazılacağını belirtilmiş olunur. 
 
-Böylece bu değişken üzerinde işlem yapan tüm Thread’ler aynı değeri görecekleri garanti altına alınmış olunur. Normalde “volatile” demeseydik değişkenimiz CPU cache bölgesinden okunabilirdi. Bu durumda tutarsız durumlar oluşabilirdi. Kritik değerler için “volatile” anahtar kelimesi kullanabilirsiniz.
 
-![volatile-mantigi](/Users/kodluyoruz/Projeler/kodluyoruz/taskforce/java/java-102/multi-threads-concurrency/figures/volatile-mantigi.png)
+
+Akılda " Tamam anladık ana bellekte tutuluyor da benim kafamda hala oturmayan şeyler var. " gibi düşünceler oluşmuş olabilir. Bu tür sorulara yanıt olarak şöyle bir senaryo düşünülebilir. Örneğin, Threadler arasında kontrol edilen bir değişkenin olduğu  multithread bir uygulama yazıldığını ve bu uygulamayı da onlarca thread tarafından çalıştırılabildiğini varsayalım. Ayrıca bu threadlerin de işlemcide farklı çekirdeklerde çalıştırılabileceğini unutmayalım. Böyle bir senaryoda tüm threadler aynı ön belleği kullanamayacağı için programın çalışmasında tutarsızlıklar oluşabilecektir. Bu senaryoda yer alan kontrol değişkeni "**volatile**" olarak işaretlendiğinde ön bellek yerine ana bellekte tutulacaktır. Bu sayede tüm threadler değişkenin durumunu eş zamanlı olarak kontrol edebileceklerdir.
+
+
+
+##### Kullanımı: 
+
+```java
+Erişim_Belirteci volatile Veri_Tipi Değişken_Adı;
+```
+
+
+
+![volatile-mantigi](figures/volatile_osman_deniz.png)
+
+
 
 ```java
 private volatile int orderNo;

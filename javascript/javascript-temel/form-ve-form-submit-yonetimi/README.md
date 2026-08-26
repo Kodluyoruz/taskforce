@@ -118,7 +118,7 @@ Tarayıcıda saat gösterimini sağlayan tipdir. hh.mm varsayılan formatında g
 
 Bu form ekranımızda submit ettiğimiz takdirde linkimizin değiştiğini göreceksiniz. Get methodu ile veri aktarmış olduk veriler input'un name parametresi ile taşınmış oldu. Değişen link;
 
-![methodget](figures/methotget.png)
+![methodget](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/form-ve-form-submit-yonetimi/figures/methotget.png)
 
 ### Kodumuza bir de JavaScript katalım ve bu veriyi post methodu ile tekrar gönderelim
 
@@ -206,8 +206,7 @@ Sizin için hazırladığım basit bir örnekte form ve input özelliklerini den
 
 Son olarak öğrendiklerinizden emin olmak için https://jsfiddle.net/ adresinden : Kullanıcı için isim, soyisim, telefon numarası ve adres isteyen bir form oluşturmanızı istiyorum.
 
-### Link için : 
-- https://codepen.io/llker-kurtulan/pen/ExgQYjX
+Aşağıda codepen ile deneyimleyebilirsiniz!
 
 ## Kaynaklar
 

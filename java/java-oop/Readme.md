@@ -28,7 +28,6 @@
 - [ ] [Arayüzler (Interface)](interface/)
 - [ ] [Soyutlama (Abstraction)](oop-abstraction/)
 - [ ] [Soyut Sınıf (Abstract Class)](abstract-class/)
-- [ ] [Arayüzler (Interface)](interface/)
 - [ ] [Enumeration İnterface](enumeration-interface/)
 - [ ] [İterable İnterface](iterable-interface/)
 - [ ] [İterator İnterface](iterator-interface/)

@@ -1,0 +1,1 @@
+# Search/ Class Based Views ve Function Based Views Farkları

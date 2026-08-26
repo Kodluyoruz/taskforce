@@ -1,0 +1,23 @@
+
+
+- 0:00:00 Introduction
+- 0:01:40 What are Design Patterns? 
+- 0:04:15 How to Take This Course 
+- 0:05:50 The Essentials
+- 0:06:53 Getting Started with Java 
+- 0:09:23 Classes
+- 0:13:34 Coupling
+- 0:15:34 Interfaces
+- 0:21:17 Encapsulation
+- 0:26:25 Abstraction
+- 0:30:33 Inheritance
+- 0:32:55 Polymorphism
+- 0:36:42 UML
+- 0:40:52 Memento Pattern
+- 0:42:43 Solution
+- 0:48:31 Implementation
+- 0:54:22 State Pattern
+- 0:59:46 Solution
+- 1:02:59 Implementation
+- 1:09:31 Abusing the Design Patterns 
+- 1:11:18 Abusing the State Pattern

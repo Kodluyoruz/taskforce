@@ -1,0 +1,1 @@
+bana-ne-generic-style

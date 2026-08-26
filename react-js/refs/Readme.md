@@ -262,7 +262,7 @@ class Parent extends React.Component {
 }
 ```
 
-Yukarıdaki örnekte, `Parent` , ref callback’ini `inputRef` prop’u olarak `CustomTextInput`una aktarır ve `CustomTextInput`u aynı fonksiyonu özel bir ref özelliği olarak `<input>`a aktarır. Sonuç olarak, `Parent`taki `this.inputElement`i, `CustomTextInput`taki `<input>` element'ine karşılık gelen DOM düğümüne set edilir.
+Yukarıdaki örnekte, `Parent`, ref callback’ini `inputRef` prop’u olarak `CustomTextInput`una aktarır ve `CustomTextInput`u aynı fonksiyonu özel bir ref özelliği olarak `<input>`a aktarır. Sonuç olarak, `Parent`taki `this.inputElement`i, `CustomTextInput`taki `<input>` element'ine karşılık gelen DOM düğümüne set edilir.
 
 ## Callback Ref'lerine Dair Uyarılar
 
