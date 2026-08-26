@@ -9,7 +9,7 @@ Bootstrap ile sizin için böyle bir yapı geliştirdik ve geliştirme sırası 
 
 ![brokeninstagram](https://github.com/Kodluyoruz/taskforce/raw/main/bootstrap/odev2/figures/instagrambroken.gif)
 
-**Hazırlamış olduğumuz Instagram clone'una [buradan](instagramclone/) ulaşabilirsiniz.**
+**Hazırlamış olduğumuz Instagram clone'una [buradan](https://drive.google.com/drive/folders/1hRWmpYpuax4Aqsf_BRKdpDoNUowTpzKe?usp=sharing) ulaşabilirsiniz.**
 
 ### Sizden Beklediklerimiz
 - Navbarı yukarı **sabitleyip** sayfayı aşağı kaydırdığınızda hala yukarıda durmasını sağlayın. İçerik ile birleşmemesi için body'e `padding` veriniz.

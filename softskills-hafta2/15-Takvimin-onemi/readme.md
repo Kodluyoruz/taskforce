@@ -1,0 +1,2 @@
+
+Profesyonel dünyada birçok profesyonel ilişkiye sahip olacaksınız. Birçok görüşmeleriniz olacak. Peki bunları nasıl planlayıp programlayacaksınız? İşte tam da burada takvim ortaya çıkıyor. Profesyonel bir gününüzü, haftanızı hatta ayınızı planlamak sizi hem daha profesyonel bir çalışan hem de düzen içerisinde daha başarılı bir insan yapıyor. Bu dersimizde takvimin öneminden bahsederek takvim üzerinde belirli başlı işlemlerin nasıl yapıldığına değiniyoruz.

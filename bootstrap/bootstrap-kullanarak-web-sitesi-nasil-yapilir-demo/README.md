@@ -6,7 +6,7 @@ Bootstrap kütüphanesine ait sıklıkla kullanılan bileşenler ile bir web sit
 
 ![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/bootstrap/bootstrap-kullanarak-web-sitesi-nasil-yapilir-demo/figures/web-sayfasi.png)
 
->[Örnek web sayfası HTML ve CSS dosyaları](https://github.com/kt-sec/taskforce/tree/bootstrap/bootstrap/bootstrap-kullanarak-web-sitesi-nasil-yapilir-demo/src)
+>[Örnek web sayfası HTML ve CSS dosyaları](https://github.com/Kodluyoruz/taskforce/tree/main/bootstrap/bootstrap-kullanarak-web-sitesi-nasil-yapilir-demo/src)
 
 Sayfadaki sosyal medya ve copyright iconları için;
 - [Fontawesome](https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself)
